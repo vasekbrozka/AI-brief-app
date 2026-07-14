@@ -19,6 +19,8 @@ interface SettingsContextValue {
   setTheme: (t: Theme) => void;
   hideRead: boolean;
   setHideRead: (v: boolean) => void;
+  showCategories: boolean;
+  setShowCategories: (v: boolean) => void;
   /** Localized UI strings for the current language. */
   t: UIStrings;
 }
@@ -28,6 +30,7 @@ const SettingsContext = createContext<SettingsContextValue | null>(null);
 const LANG_KEY = 'aibrief.lang';
 const THEME_KEY = 'aibrief.theme';
 const HIDE_READ_KEY = 'aibrief.hideRead';
+const SHOW_CATEGORIES_KEY = 'aibrief.showCategories';
 
 function detectInitialLang(): Lang {
   try {
@@ -58,10 +61,19 @@ function detectInitialHideRead(): boolean {
   }
 }
 
+function detectInitialShowCategories(): boolean {
+  try {
+    return localStorage.getItem(SHOW_CATEGORIES_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
 export function SettingsProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>(detectInitialLang);
   const [theme, setTheme] = useState<Theme>(detectInitialTheme);
   const [hideRead, setHideRead] = useState<boolean>(detectInitialHideRead);
+  const [showCategories, setShowCategories] = useState<boolean>(detectInitialShowCategories);
 
   useEffect(() => {
     try {
@@ -91,6 +103,14 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     }
   }, [hideRead]);
 
+  useEffect(() => {
+    try {
+      localStorage.setItem(SHOW_CATEGORIES_KEY, showCategories ? '1' : '0');
+    } catch {
+      /* ignore */
+    }
+  }, [showCategories]);
+
   const value = useMemo<SettingsContextValue>(
     () => ({
       lang,
@@ -100,9 +120,11 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       setTheme,
       hideRead,
       setHideRead,
+      showCategories,
+      setShowCategories,
       t: STRINGS[lang],
     }),
-    [lang, theme, hideRead],
+    [lang, theme, hideRead, showCategories],
   );
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;

@@ -9,7 +9,7 @@ import { Icon } from './Icon';
 type Filter = CategoryId | 'all';
 
 export function BriefView({ brief }: { brief: Brief }) {
-  const { lang, t, hideRead } = useSettings();
+  const { lang, t, hideRead, showCategories } = useSettings();
   const { isRead } = useRead();
   const [filter, setFilter] = useState<Filter>('all');
 
@@ -35,7 +35,7 @@ export function BriefView({ brief }: { brief: Brief }) {
         </section>
       )}
 
-      {presentCategories.length > 1 && (
+      {showCategories && presentCategories.length > 1 && (
         <div className="filters" role="group" aria-label={t.allCategories}>
           <button
             type="button"

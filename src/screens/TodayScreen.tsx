@@ -3,14 +3,18 @@ import { BriefView } from '../components/BriefView';
 import { BriefSkeleton, EmptyState, ErrorState } from '../components/states';
 import { useLatestBrief } from '../hooks/useBrief';
 import { useSettings } from '../providers/SettingsProvider';
-import { capitalizeFirst, formatFullDate } from '../lib/format';
+import { capitalizeFirst, formatFullDate, formatTime } from '../lib/format';
 
 export function TodayScreen() {
   const { t, lang } = useSettings();
-  const { status, data, reload } = useLatestBrief();
+  const { status, data, reload, updated } = useLatestBrief();
 
-  const subtitle =
-    status === 'ready' && data ? capitalizeFirst(formatFullDate(data.date, lang)) : t.tagline;
+  let subtitle = t.tagline;
+  if (status === 'ready' && data) {
+    subtitle = capitalizeFirst(formatFullDate(data.date, lang));
+    const time = updated ? formatTime(updated, lang) : '';
+    if (time) subtitle += ` · ${t.updatedLabel} ${time}`;
+  }
 
   return (
     <ScreenScaffold title={t.todayTitle} subtitle={subtitle}>

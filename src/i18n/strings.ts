@@ -32,6 +32,8 @@ export interface UIStrings {
   settingsTitle: string;
   sectionLanguage: string;
   sectionAppearance: string;
+  categoriesLabel: string;
+  categoriesHint: string;
   sectionInstall: string;
   sectionHowItWorks: string;
   sectionAbout: string;
@@ -94,6 +96,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
     settingsTitle: 'Nastavení',
     sectionLanguage: 'Jazyk',
     sectionAppearance: 'Vzhled',
+    categoriesLabel: 'Filtry kategorií',
+    categoriesHint: 'Zobrazit v přehledu lištu s filtrováním podle kategorií.',
     sectionInstall: 'Přidat na plochu',
     sectionHowItWorks: 'Jak to funguje',
     sectionAbout: 'O aplikaci',
@@ -159,6 +163,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
     settingsTitle: 'Settings',
     sectionLanguage: 'Language',
     sectionAppearance: 'Appearance',
+    categoriesLabel: 'Category filters',
+    categoriesHint: 'Show the category filter bar in the brief.',
     sectionInstall: 'Add to Home Screen',
     sectionHowItWorks: 'How it works',
     sectionAbout: 'About',

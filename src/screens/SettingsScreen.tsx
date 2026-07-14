@@ -19,7 +19,8 @@ function SettingsGroup({ title, children }: { title: string; children: ReactNode
 }
 
 export function SettingsScreen() {
-  const { t, lang, setLang, theme, setTheme, hideRead, setHideRead } = useSettings();
+  const { t, lang, setLang, theme, setTheme, hideRead, setHideRead, showCategories, setShowCategories } =
+    useSettings();
   const { clear, readCount } = useRead();
 
   const langOptions: { value: Lang; label: string }[] = [
@@ -51,6 +52,18 @@ export function SettingsScreen() {
           options={themeOptions}
           ariaLabel={t.sectionAppearance}
         />
+        <div className="setting-divider" />
+        <div className="setting-switch">
+          <div className="setting-switch__text">
+            <span className="setting-switch__label">{t.categoriesLabel}</span>
+            <span className="setting-switch__hint">{t.categoriesHint}</span>
+          </div>
+          <Switch
+            checked={showCategories}
+            onChange={setShowCategories}
+            ariaLabel={t.categoriesLabel}
+          />
+        </div>
       </SettingsGroup>
 
       <SettingsGroup title={t.sectionReading}>

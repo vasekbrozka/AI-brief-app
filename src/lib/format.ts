@@ -38,6 +38,13 @@ export function relativeDayKey(dateStr: string): 'today' | 'yesterday' | null {
   return null;
 }
 
+/** Local time of an ISO timestamp, e.g. "5:04" (cs) / "5:04 AM" (en). */
+export function formatTime(iso: string, lang: Lang): string {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return '';
+  return new Intl.DateTimeFormat(LOCALE[lang], { hour: 'numeric', minute: '2-digit' }).format(d);
+}
+
 /** Uppercase the first character (Intl weekday/month names come lowercased in cs). */
 export function capitalizeFirst(text: string): string {
   return text.length ? text[0].toUpperCase() + text.slice(1) : text;
