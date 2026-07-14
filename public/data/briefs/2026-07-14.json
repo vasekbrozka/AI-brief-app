@@ -2,170 +2,115 @@
   "date": "2026-07-14",
   "sample": false,
   "headline": {
-    "cs": "GPT-5.6 v Copilotu, Claude po boku a Gemini na spadnutí",
-    "en": "GPT-5.6 lands in Copilot, Claude joins it, and Gemini looms"
+    "cs": "Apple žaluje OpenAI, Claude míří do škol",
+    "en": "Apple sues OpenAI; Claude heads to the classroom"
   },
   "intro": {
-    "cs": "Dnešní várka: OpenAI vydalo GPT-5.6 a Microsoft 365 Copilot ho nasadil jako výchozí — a nově v něm najdeš i Claude. Google chystá Gemini 3.5 Pro a Apple žaluje OpenAI.",
-    "en": "Today's brew: OpenAI shipped GPT-5.6 and Microsoft 365 Copilot made it the default — with Claude available there too. Google preps Gemini 3.5 Pro, and Apple sues OpenAI."
+    "cs": "Dni vévodí žaloba Applu na OpenAI kvůli obchodním tajemstvím a stovkám přeběhlíků. Anthropic zpřístupnil Claude učitelům zdarma a Microsoft 365 Copilot dostal červencové novinky. V pozadí sílí boj o čipy a peníze pro AI.",
+    "en": "The day is led by Apple's trade-secrets lawsuit against OpenAI and its hundreds of poached staff. Anthropic opened Claude to teachers for free, and Microsoft 365 Copilot got its July features. In the background, the fight over AI chips and funding intensifies."
   },
   "items": [
     {
-      "id": "2026-07-14-gpt56-copilot",
-      "category": "models",
+      "id": "2026-07-14-apple-openai-lawsuit",
+      "category": "business",
       "highlight": true,
       "verified": true,
       "title": {
-        "cs": "OpenAI vydalo GPT-5.6 a stalo se výchozím modelem v Microsoft 365 Copilotu",
-        "en": "OpenAI ships GPT-5.6 and makes it the default model in Microsoft 365 Copilot"
+        "cs": "Apple žaluje OpenAI kvůli krádeži obchodních tajemství",
+        "en": "Apple sues OpenAI over alleged theft of trade secrets"
       },
       "summary": {
-        "cs": "OpenAI představilo GPT-5.6 ve třech variantách — Sol (nejvýkonnější), Luna (rychlá) a Terra (vyvážená pro běžnou práci). Model se zároveň stal preferovaným v Microsoft 365 Copilotu ve Wordu, Excelu, PowerPointu i chatu, takže uživatelé Office ho dostávají automaticky.",
-        "en": "OpenAI unveiled GPT-5.6 in three flavors — Sol (most capable), Luna (fast) and Terra (balanced for everyday work). It also became the preferred model in Microsoft 365 Copilot across Word, Excel, PowerPoint and Chat, so Office users get it automatically."
+        "cs": "Apple podal žalobu na OpenAI za údajné zcizení obchodních tajemství. Podle žaloby dnes v OpenAI pracuje přes 400 bývalých zaměstnanců Applu, mnozí z týmů kolem čipů a on-device AI. Spor rozvířil i veřejnou přestřelku mezi Elonem Muskem a Samem Altmanem.",
+        "en": "Apple has sued OpenAI, alleging theft of trade secrets. The suit says more than 400 former Apple employees now work at OpenAI, many from its chip and on-device AI teams. The filing also reignited a public spat between Elon Musk and Sam Altman."
       },
       "sources": [
-        {
-          "name": "Axios",
-          "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release"
-        },
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        }
+        { "name": "Fortune", "url": "https://fortune.com/2026/07/13/apple-extraordinary-openai-allegations/" },
+        { "name": "The Tech Times", "url": "https://www.techtimes.com/articles/320493/20260714/openais-1-trillion-ipo-bet-faces-apple-lawsuit-market-doubt-rivals-profit.htm" }
       ]
     },
     {
-      "id": "2026-07-14-claude-copilot",
-      "category": "tools",
-      "verified": true,
-      "title": {
-        "cs": "Claude od Anthropicu je nově k výběru v Microsoft 365 Copilot Chatu",
-        "en": "Anthropic's Claude is now selectable in Microsoft 365 Copilot Chat"
-      },
-      "summary": {
-        "cs": "Microsoft přidal Claude jako volitelný model v Copilot Chatu — pro složitější analýzy, práci s dokumenty a strukturovaný obsah. Vedle modelů OpenAI si tak můžeš přímo v Office zvolit i Claude.",
-        "en": "Microsoft added Claude as an optional model in Copilot Chat — for complex analysis, document understanding and structured content. Alongside OpenAI's models, you can now pick Claude right inside Office."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        },
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-14-claude-cowork",
-      "category": "tools",
-      "verified": true,
-      "title": {
-        "cs": "Claude Cowork míří na mobil a web",
-        "en": "Claude Cowork expands to mobile and web"
-      },
-      "summary": {
-        "cs": "Anthropic rozšířil Claude Cowork na mobil a web — sezení a soubory tě sledují napříč zařízeními. Přibyly práce na pozadí, naplánované úlohy, sdílené projekty a schvalování z mobilu.",
-        "en": "Anthropic brought Claude Cowork to mobile and web — sessions and files follow you across devices, with background work, scheduled tasks, shared projects and approvals from your phone."
-      },
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/"
-        },
-        {
-          "name": "NBC News",
-          "url": "https://www.nbcnews.com/tech/tech-news/anthropic-will-make-claude-cowork-available-users-cloud-rcna353218"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-14-gemini-35-pro",
-      "category": "models",
-      "verified": false,
-      "title": {
-        "cs": "Google chystá Gemini 3.5 Pro na 17. července — 2 miliony tokenů kontextu",
-        "en": "Google sets Gemini 3.5 Pro for July 17 — a 2-million-token context window"
-      },
-      "summary": {
-        "cs": "Google DeepMind postavil Gemini 3.5 Pro od základu znovu a chystá ho na 17. července. Má nabídnout kontext 2 miliony tokenů (dvojnásobek dnešní špičky), vrstvu Deep Think pro náročné úlohy a autonomní workflow. Zatím nevydáno.",
-        "en": "Google DeepMind rebuilt Gemini 3.5 Pro from the ground up and plans to launch it on July 17. It's set to bring a 2-million-token context window (double today's frontier), a Deep Think reasoning layer and autonomous workflows. Not shipped yet."
-      },
-      "sources": [
-        {
-          "name": "BigGo Finance",
-          "url": "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-14-google-search-gemini",
-      "category": "tools",
-      "verified": true,
-      "title": {
-        "cs": "Vyhledávání Google nově pohání souhrny od Gemini 3.5 Flash",
-        "en": "Google Search is now powered by Gemini 3.5 Flash summaries"
-      },
-      "summary": {
-        "cs": "Od 10. července výsledky vyhledávání Google plně generuje Gemini 3.5 Flash — místo klasických deseti modrých odkazů dostáváš vygenerovaný souhrn. Výchozí zážitek nejpoužívanějšího webu světa se mění na generovaný dokument.",
-        "en": "As of July 10, Google Search results are fully generated by Gemini 3.5 Flash — instead of the classic 'ten blue links', you get a generated summary. The default experience of the world's most-used site becomes a generated document."
-      },
-      "sources": [
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com"
-        },
-        {
-          "name": "Ars Technica",
-          "url": "https://arstechnica.com"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-14-apple-openai-suit",
+      "id": "2026-07-14-claude-for-teachers",
       "category": "business",
       "verified": true,
       "title": {
-        "cs": "Apple žaluje OpenAI kvůli údajné krádeži obchodního tajemství",
-        "en": "Apple sues OpenAI over alleged trade-secret theft"
+        "cs": "Anthropic spouští Claude for Teachers — zdarma pro učitele v USA",
+        "en": "Anthropic launches Claude for Teachers, free for US educators"
       },
       "summary": {
-        "cs": "Apple podal 11. července u federálního soudu v Kalifornii žalobu na OpenAI. Poukazuje na více než 400 bývalých zaměstnanců Applu, kteří dnes pracují v OpenAI, a viní firmu z krádeže obchodního tajemství.",
-        "en": "Apple filed suit against OpenAI in a California federal court on July 11. It points to more than 400 former Apple employees now working at OpenAI and accuses the company of misappropriating trade secrets."
+        "cs": "Anthropic uvedl Claude for Teachers: ověření učitelé na amerických základních a středních školách dostanou zdarma prémiové Claude, sadu výukových dovedností a napojení na kurikula podle standardů všech 50 států. Data z nástroje se nepoužijí k trénování modelů a chrání je dohoda podle zákona FERPA.",
+        "en": "Anthropic introduced Claude for Teachers: verified US K-12 educators get free premium Claude, a library of teaching skills, and connections to curricula mapped to all 50 states' standards. Data from the tool won't train Anthropic's models and is covered by a FERPA-aligned agreement."
       },
       "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com"
-        },
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com"
-        }
+        { "name": "Anthropic", "url": "https://www.anthropic.com/news/claude-for-teachers" },
+        { "name": "Chalkbeat", "url": "https://www.chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms/" }
       ]
     },
     {
-      "id": "2026-07-14-fli-safety-index",
-      "category": "policy",
+      "id": "2026-07-14-m365-copilot-july",
+      "category": "tools",
       "verified": true,
       "title": {
-        "cs": "Index bezpečnosti AI: Anthropic vede s C+, OpenAI a Google mají C",
-        "en": "AI Safety Index: Anthropic leads with a C+, OpenAI and Google get a C"
+        "cs": "Microsoft 365 Copilot přidává vidění v hlasu a vodoznaky u AI obsahu",
+        "en": "Microsoft 365 Copilot adds vision in voice and AI content watermarks"
       },
       "summary": {
-        "cs": "Nový AI Safety Index od Future of Life Institute uvádí, že přední vývojáři oslabili závazky pozastavit vývoj u nebezpečných prahů. Nejlépe dopadl Anthropic (C+), následují OpenAI a Google DeepMind (C).",
-        "en": "The Future of Life Institute's new AI Safety Index says leading developers have weakened commitments to pause development near danger thresholds. Anthropic ranked first (C+), followed by OpenAI and Google DeepMind (C)."
+        "cs": "Červencová vlna Microsoft 365 Copilotu přináší vidění v hlasových relacích (Copilot poradí podle toho, co máš na obrazovce či v kameře), přehlednější procházení dlouhých dokumentů s jasnějšími citacemi, vodoznaky u AI generovaného videa a zvuku a myšlenkové mapy v Copilot Notebooks.",
+        "en": "Microsoft 365 Copilot's July wave adds vision in voice sessions (Copilot reasons over what's on your screen or camera), clearer navigation through long documents with better citations, watermarks for AI-generated video and audio, and mind maps in Copilot Notebooks."
       },
       "sources": [
-        {
-          "name": "Future of Life Institute",
-          "url": "https://futureoflife.org"
-        },
-        {
-          "name": "Axios",
-          "url": "https://www.axios.com"
-        }
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
+        { "name": "Super Simple 365", "url": "https://supersimple365.com/whats-new-in-microsoft-365-and-copilot-july-2026/" }
+      ]
+    },
+    {
+      "id": "2026-07-14-gemini-35-pro-delay",
+      "category": "models",
+      "verified": false,
+      "title": {
+        "cs": "Gemini 3.5 Pro se zpozdil, z DeepMindu prý odešli klíčoví lidé",
+        "en": "Gemini 3.5 Pro slips, reports say key DeepMind staff departed"
+      },
+      "summary": {
+        "cs": "Vlajkový Gemini 3.5 Pro podle zpráv nestihl červnové okno a posunul se na červenec. Souběžně měli z DeepMindu odejít čtyři senior výzkumníci včetně spoluvedoucího Gemini. Google to oficiálně nepotvrdil; širší dostupnost má zatím rychlejší Gemini 3.5 Flash.",
+        "en": "Google's flagship Gemini 3.5 Pro reportedly missed its June window and slipped to July, amid reports that four senior DeepMind researchers, including a Gemini co-lead, departed. Google hasn't confirmed the details; the faster Gemini 3.5 Flash is the current broadly available release."
+      },
+      "sources": [
+        { "name": "The Agent Report", "url": "https://the-agent-report.com/2026/07/google-gemini-3-5-pro-delayed-july-2026/" },
+        { "name": "Google blog", "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/" }
+      ]
+    },
+    {
+      "id": "2026-07-14-vc-funding-h1",
+      "category": "business",
+      "verified": false,
+      "title": {
+        "cs": "Americký venture kapitál lámal v 1. pololetí rekordy, 86 % šlo do AI",
+        "en": "US venture funding hit records in H1, 86% went to AI"
+      },
+      "summary": {
+        "cs": "Americké VC investice v prvním pololetí 2026 podle přehledů dosáhly 412,7 miliardy dolarů, o 30 % víc než za celý rok 2025. Na AI startupy připadlo 86 %, tedy zhruba 356 miliard. Jen druhé čtvrtletí vidělo sedm kol nad miliardu dolarů.",
+        "en": "US venture investment in the first half of 2026 reportedly reached $412.7 billion, up 30% from all of 2025. AI startups took 86% of that — about $356 billion. The second quarter alone saw seven billion-dollar-plus rounds."
+      },
+      "sources": [
+        { "name": "unrot.co", "url": "https://unrot.co/blogs/today-top-10-ai-news-july-13-2026" },
+        { "name": "Build Fast with AI", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-13-2026" }
+      ]
+    },
+    {
+      "id": "2026-07-14-meta-iris-chip",
+      "category": "business",
+      "verified": false,
+      "title": {
+        "cs": "Meta chce od září vyrábět vlastní AI čip „Iris“",
+        "en": "Meta plans to start making its own AI chip, 'Iris,' in September"
+      },
+      "summary": {
+        "cs": "Meta podle zpráv začne v září vyrábět vlastní čip pro datacentra s kódovým názvem Iris, součást čtyřgenerační řady MTIA. Firma chce škálovat výpočetní kapacitu až na 14 gigawattů do roku 2027. Cílem je snížit závislost na externích dodavatelích čipů pro AI.",
+        "en": "Meta will reportedly begin manufacturing its custom data-center chip, codenamed Iris, in September as part of a four-generation MTIA roadmap. The company aims to scale compute to 14 gigawatts by 2027. The goal is to reduce reliance on outside AI-chip suppliers."
+      },
+      "sources": [
+        { "name": "Tech Startups", "url": "https://techstartups.com/2026/07/13/top-tech-news-today-july-13-2026-apple-anthropic-blackstone-meta-openai-samsung-sharefile-more/" },
+        { "name": "Tech Reader", "url": "https://www.tech-reader.blog/2026/07/ai-news-mon-july-13-2026.html" }
       ]
     }
   ]
