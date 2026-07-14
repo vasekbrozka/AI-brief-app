@@ -45,6 +45,20 @@ export function formatTime(iso: string, lang: Lang): string {
   return new Intl.DateTimeFormat(LOCALE[lang], { hour: 'numeric', minute: '2-digit' }).format(d);
 }
 
+/**
+ * Picks the Today title by local time of day — the brief "cools" as the day goes on.
+ * Returns the STRINGS key so the caller resolves it in the active language.
+ */
+export function brewTitleKey(
+  date: Date = new Date(),
+): 'brewFresh' | 'brewWarm' | 'brewCooling' | 'brewCold' {
+  const h = date.getHours();
+  if (h >= 5 && h < 11) return 'brewFresh';
+  if (h >= 11 && h < 15) return 'brewWarm';
+  if (h >= 15 && h < 19) return 'brewCooling';
+  return 'brewCold';
+}
+
 /** Uppercase the first character (Intl weekday/month names come lowercased in cs). */
 export function capitalizeFirst(text: string): string {
   return text.length ? text[0].toUpperCase() + text.slice(1) : text;

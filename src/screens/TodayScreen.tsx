@@ -2,12 +2,17 @@ import { ScreenScaffold } from '../components/ScreenScaffold';
 import { BriefView } from '../components/BriefView';
 import { BriefSkeleton, EmptyState, ErrorState } from '../components/states';
 import { useLatestBrief } from '../hooks/useBrief';
+import { useClockTick } from '../hooks/useClockTick';
 import { useSettings } from '../providers/SettingsProvider';
-import { capitalizeFirst, formatFullDate, formatTime } from '../lib/format';
+import { brewTitleKey, capitalizeFirst, formatFullDate, formatTime } from '../lib/format';
 
 export function TodayScreen() {
   const { t, lang } = useSettings();
   const { status, data, reload, updated } = useLatestBrief();
+  useClockTick();
+
+  // Title changes with the time of day — the brew "cools" as the day goes on.
+  const title = t[brewTitleKey()];
 
   let subtitle = t.tagline;
   if (status === 'ready' && data) {
@@ -17,7 +22,7 @@ export function TodayScreen() {
   }
 
   return (
-    <ScreenScaffold title={t.todayTitle} subtitle={subtitle}>
+    <ScreenScaffold title={title} subtitle={subtitle}>
       {status === 'loading' && <BriefSkeleton />}
       {status === 'error' && <ErrorState onRetry={reload} />}
       {status === 'ready' && !data && (

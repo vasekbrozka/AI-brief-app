@@ -28,7 +28,7 @@ export function BriefView({ brief }: { brief: Brief }) {
       {brief.intro?.[lang] && (
         <section className="gist">
           <div className="gist__label">
-            <Icon name="sparkle" className="gist__icon" size={16} />
+            <Icon name="cup" className="gist__icon" size={16} />
             {t.gistLabel}
           </div>
           <p className="gist__text">{brief.intro[lang]}</p>

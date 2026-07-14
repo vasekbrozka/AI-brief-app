@@ -11,7 +11,8 @@ export type IconName =
   | 'globe'
   | 'external'
   | 'close'
-  | 'sparkle';
+  | 'sparkle'
+  | 'cup';
 
 const S = { fill: 'none', stroke: 'currentColor', strokeWidth: 1.7, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const };
 
@@ -76,6 +77,13 @@ const PATHS: Record<IconName, JSX.Element> = {
       d="M12 4l1.7 4.6a1 1 0 00.7.7L19 11l-4.6 1.7a1 1 0 00-.7.7L12 18l-1.7-4.6a1 1 0 00-.7-.7L5 11l4.6-1.7a1 1 0 00.7-.7z"
       fill="currentColor"
     />
+  ),
+  cup: (
+    <>
+      <path d="M6.4 8H15.1L14.2 14.5A2 2 0 0 1 12.3 16.3H9.2A2 2 0 0 1 7.3 14.5Z" {...S} />
+      <path d="M15 9.4h1.5a2.3 2.3 0 0 1 0 4.6h-1.1" {...S} />
+      <path d="M6 18.6h11" {...S} />
+    </>
   ),
 };
 

@@ -7,7 +7,7 @@ export function TabBar({ active, onChange }: { active: Tab; onChange: (t: Tab) =
   const { t } = useSettings();
 
   const tabs: { id: Tab; icon: IconName; label: string }[] = [
-    { id: 'today', icon: 'sparkles', label: t.tabToday },
+    { id: 'today', icon: 'cup', label: t.tabToday },
     { id: 'archive', icon: 'stack', label: t.tabArchive },
     { id: 'settings', icon: 'sliders', label: t.tabSettings },
   ];

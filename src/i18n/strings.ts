@@ -9,8 +9,11 @@ export interface UIStrings {
   tabArchive: string;
   tabSettings: string;
 
-  // Today
-  todayTitle: string;
+  // Today — time-of-day "brew freshness" title (Barista voice)
+  brewFresh: string;
+  brewWarm: string;
+  brewCooling: string;
+  brewCold: string;
   gistLabel: string;
   todayEmptyTitle: string;
   todayEmptyBody: string;
@@ -78,7 +81,10 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tabArchive: 'Archiv',
     tabSettings: 'Nastavení',
 
-    todayTitle: 'Čerstvě uvařeno',
+    brewFresh: 'Čerstvě uvařeno',
+    brewWarm: 'Pořád svěží',
+    brewCooling: 'Zašla by dolívka',
+    brewCold: 'Radši uvař novou',
     gistLabel: 'Ve zkratce',
     todayEmptyTitle: 'Zatím žádný brief',
     todayEmptyBody: 'Dnešní přehled se ještě připravuje. Zkus to prosím později.',
@@ -147,7 +153,10 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tabArchive: 'Archive',
     tabSettings: 'Settings',
 
-    todayTitle: 'Freshly brewed',
+    brewFresh: 'Fresh from the pot',
+    brewWarm: 'Still going strong',
+    brewCooling: 'Could use a refill',
+    brewCold: 'Better brew a fresh one',
     gistLabel: 'The gist',
     todayEmptyTitle: 'No brief yet',
     todayEmptyBody: "Today's brief is still being prepared. Please check back later.",
