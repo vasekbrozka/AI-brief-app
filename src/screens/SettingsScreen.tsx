@@ -7,7 +7,7 @@ import type { Theme } from '../providers/SettingsProvider';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 
-const APP_VERSION = '0.1.0';
+const APP_VERSION = '1.0';
 
 function SettingsGroup({ title, children }: { title: string; children: ReactNode }) {
   return (
@@ -107,21 +107,18 @@ export function SettingsScreen() {
       </SettingsGroup>
 
       <SettingsGroup title={t.sectionAbout}>
-        <p className="setting-text">{t.aboutBody}</p>
-        <p className="setting-text setting-text--spaced">{t.editorialNote}</p>
-        <div className="about-meta">
-          <span>
-            {t.versionLabel} {APP_VERSION}
-          </span>
-          <span className="about-meta__model">
-            {t.modelLabel} <strong>{t.modelName}</strong>
-          </span>
-        </div>
+        <p className="about-title">
+          {t.appName} · {t.aboutTagline}
+        </p>
+        <p className="about-line">
+          {t.versionLabel} {APP_VERSION}
+        </p>
+        <p className="about-line">
+          {t.modelLabel} <strong>{t.modelName}</strong>
+        </p>
       </SettingsGroup>
 
-      <p className="app-signature">
-        {t.appName} · {t.tagline}
-      </p>
+      <p className="app-signature">{t.signature}</p>
     </ScreenScaffold>
   );
 }

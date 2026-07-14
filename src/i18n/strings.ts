@@ -44,11 +44,11 @@ export interface UIStrings {
   installSteps: string[];
   installShareHint: string;
   howItWorksParagraphs: string[];
-  aboutBody: string;
+  aboutTagline: string;
   versionLabel: string;
-  editorialNote: string;
   modelLabel: string;
   modelName: string;
+  signature: string;
 
   // Common
   loading: string;
@@ -115,17 +115,13 @@ export const STRINGS: Record<Lang, UIStrings> = {
     ],
     installShareHint: 'Funguje pouze v Safari na iPhonu nebo iPadu.',
     howItWorksParagraphs: [
-      'Každé ráno, ještě než vstaneš, projde AIspresso dění ve světě AI za posledních 24 hodin — od oficiálních oznámení až po zpravodajství důvěryhodných redakcí.',
-      'Z desítek zpráv vybere jen těch pár, které opravdu stojí za tvůj čas. Každou porovná s více nezávislými zdroji — a co ověřit nejde, poctivě tak označí. Když se zrovna nic velkého neděje, nic si nedomýšlí: radši méně zpráv než balast.',
-      'Výsledek na tebe čeká u ranní kávy. Pár minut čtení — a víš všechno podstatné.',
+      'Každé ráno, ještě než vstaneš, projde AIspresso dění ve světě AI za posledních 24 hodin. Z desítek zpráv vybere jen těch pár, které opravdu stojí za tvůj čas. Každou porovná s více nezávislými zdroji. Co ověřit nejde, poctivě označí. Když se zrovna nic zajímavého neděje, uvidíš méně obsahu. Výsledek na tebe čeká u ranní kávy.',
     ],
-    aboutBody:
-      'Osobní čtečka denního AI přehledu. Postaveno jako PWA — funguje offline a tváří se jako nativní appka.',
+    aboutTagline: 'Novinky ze světa AI',
     versionLabel: 'Verze',
-    editorialNote:
-      'Výběr i shrnutí se řídí redakčními pravidly podle novinářské praxe: přednost mají oficiální oznámení, každá zpráva se ověřuje proti nezávislým zdrojům a nepotvrzené informace jsou jasně označené. Nic se nedomýšlí.',
     modelLabel: 'Shrnutí připravuje',
     modelName: 'Claude (Anthropic)',
+    signature: 'Autor: Václav Brožka',
 
     loading: 'Načítám…',
     errorTitle: 'Něco se nepovedlo',
@@ -188,17 +184,13 @@ export const STRINGS: Record<Lang, UIStrings> = {
     ],
     installShareHint: 'Works only in Safari on iPhone or iPad.',
     howItWorksParagraphs: [
-      'Every morning, before you get up, AIspresso reviews the last 24 hours in AI — from official announcements to reporting by trusted newsrooms.',
-      "Out of dozens of stories, it picks only the few truly worth your time. Each one is checked against independent sources — and whatever can't be verified is honestly labelled. On quiet days it never pads: fewer stories beat filler.",
-      'The result is waiting for you with your morning coffee. A few minutes of reading — and you know everything that matters.',
+      "Every morning, before you get up, AIspresso reviews the last 24 hours in the world of AI. Out of dozens of stories, it picks only the few that are truly worth your time. It cross-checks each one against multiple independent sources. Whatever can't be verified, it labels honestly. When nothing much is happening, you'll simply see less. The result is waiting for you with your morning coffee.",
     ],
-    aboutBody:
-      'A personal reader for your daily AI brief. Built as a PWA — it works offline and behaves like a native app.',
+    aboutTagline: 'The world of AI',
     versionLabel: 'Version',
-    editorialNote:
-      'Curation and summaries follow newsroom-style editorial rules: official announcements come first, every story is checked against independent sources, and unconfirmed information is clearly labelled. Nothing is ever made up.',
     modelLabel: 'Summaries by',
     modelName: 'Claude (Anthropic)',
+    signature: 'By Václav Brožka',
 
     loading: 'Loading…',
     errorTitle: 'Something went wrong',
