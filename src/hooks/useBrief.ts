@@ -81,5 +81,25 @@ export function useLatestBrief(): LatestBriefResult {
   }, []);
 
   useEffect(() => reload(), [reload]);
+
+  // Silent refresh whenever the app returns to the foreground — a pinned PWA
+  // can survive overnight in memory, and the morning brief should appear
+  // without a manual reload. Failures keep whatever is on screen.
+  useEffect(() => {
+    const onVisible = () => {
+      if (document.visibilityState !== 'visible') return;
+      loadBriefIndex()
+        .then((idx) => {
+          setUpdated(idx.updated ?? null);
+          const latest = idx.briefs[0];
+          if (!latest) return;
+          return loadBrief(latest.date).then(setData);
+        })
+        .catch(() => {});
+    };
+    document.addEventListener('visibilitychange', onVisible);
+    return () => document.removeEventListener('visibilitychange', onVisible);
+  }, []);
+
   return { status, data, reload, updated };
 }
