@@ -206,7 +206,7 @@ svg {
 }
 
 .screen__content {
-  padding: calc(env(safe-area-inset-top, 0px) + 6px) var(--gutter)
+  padding: calc(env(safe-area-inset-top, 0px) + 24px) var(--gutter)
     calc(var(--tabbar-height) + env(safe-area-inset-bottom, 0px) + 28px);
 }
 
@@ -266,6 +266,14 @@ svg {
 .navbar--condensed .navbar__title {
   opacity: 1;
   transform: none;
+}
+
+/* Info variant: date · last-update instead of a repeated screen title. */
+.navbar__title--info {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--text-secondary);
 }
 
 .navbar__side {

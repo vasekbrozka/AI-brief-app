@@ -3,6 +3,8 @@ import { useEffect, useRef, useState, type ReactNode } from 'react';
 interface ScreenScaffoldProps {
   title: string;
   subtitle?: ReactNode;
+  /** Shown in the floating bar while scrolled instead of the title (e.g. date · updated). */
+  barContent?: ReactNode;
   left?: ReactNode;
   right?: ReactNode;
   children: ReactNode;
@@ -16,7 +18,7 @@ interface ScreenScaffoldProps {
  * out of view. Screens with side controls (e.g. a back button) keep the
  * reserved top row so the control does not overlap the large title.
  */
-export function ScreenScaffold({ title, subtitle, left, right, children }: ScreenScaffoldProps) {
+export function ScreenScaffold({ title, subtitle, barContent, left, right, children }: ScreenScaffoldProps) {
   const headerRef = useRef<HTMLElement>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
   const [scrolled, setScrolled] = useState(false);
@@ -50,7 +52,9 @@ export function ScreenScaffold({ title, subtitle, left, right, children }: Scree
     <div className="screen">
       <header ref={headerRef} className={navClass}>
         <div className="navbar__side navbar__side--left">{left}</div>
-        <div className="navbar__title">{title}</div>
+        <div className={`navbar__title${barContent != null ? ' navbar__title--info' : ''}`}>
+          {barContent ?? title}
+        </div>
         <div className="navbar__side navbar__side--right">{right}</div>
       </header>
 

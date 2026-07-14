@@ -22,7 +22,7 @@ export function TodayScreen() {
   }
 
   return (
-    <ScreenScaffold title={title} subtitle={subtitle}>
+    <ScreenScaffold title={title} subtitle={subtitle} barContent={subtitle}>
       {status === 'loading' && <BriefSkeleton />}
       {status === 'error' && <ErrorState onRetry={reload} />}
       {status === 'ready' && !data && (
