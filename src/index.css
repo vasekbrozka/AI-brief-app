@@ -1136,3 +1136,16 @@ svg {
   color: var(--text-tertiary);
   opacity: 0.6;
 }
+
+/* Short fade-out when a story is marked read, then it moves to the read pile. */
+.item--exiting {
+  animation: item-exit 0.22s ease forwards;
+  pointer-events: none;
+}
+
+@keyframes item-exit {
+  to {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
