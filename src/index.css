@@ -206,29 +206,46 @@ svg {
 }
 
 .screen__content {
-  padding: 4px var(--gutter)
+  padding: calc(env(safe-area-inset-top, 0px) + 6px) var(--gutter)
     calc(var(--tabbar-height) + env(safe-area-inset-bottom, 0px) + 28px);
 }
 
+/* Screens with nav-bar controls (back button) keep the reserved top row. */
+.screen__content--chrome {
+  padding-top: calc(env(safe-area-inset-top, 0px) + var(--nav-height));
+}
+
 /* ---- Nav bar ------------------------------------------------------------ */
+/* Floats above the content and takes no layout space. Invisible at rest;
+   the frosted backdrop fades in on scroll, the title once condensed. */
 .navbar {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 50;
+  margin-inline: auto;
+  max-width: var(--content-max);
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   gap: 8px;
   height: calc(var(--nav-height) + env(safe-area-inset-top, 0px));
   padding: env(safe-area-inset-top, 0px) var(--gutter) 0;
+  pointer-events: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.25s ease, background-color 0.25s ease;
+}
+
+/* Only real controls inside the bar catch taps, never the empty strip. */
+.navbar__side * {
+  pointer-events: auto;
+}
+
+.navbar--scrolled {
   background: var(--nav-bg);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.25s ease;
-}
-
-.navbar--condensed {
   border-bottom-color: var(--separator);
 }
 
