@@ -38,7 +38,8 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
    **3 nejnovější dny** a **starší `.json` soubory smaž**.
 8. **Zvaliduj**, že oba soubory jsou platný JSON (`JSON.parse`).
 9. `git add -A` → `git commit -m "brief: <datum>"` → `git push` na produkční větev.
-   (Netlify nasadí automaticky.)
+   Když push selže kvůli novým commitům na originu (non-fast-forward), udělej
+   `git pull --rebase origin <větev>` a push zopakuj. (Netlify nasadí automaticky.)
 
 ---
 
