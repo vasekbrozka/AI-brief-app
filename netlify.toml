@@ -3,12 +3,20 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  # Daily brief content lives in data/briefs/ and is served straight from the
+  # GitHub Contents API (src/lib/briefs.ts), not from this deployed site — so
+  # a commit that only touches it needs no rebuild. Skip (exit 0) when the
+  # diff outside data/briefs/ is empty; a real app change (exit 1) still
+  # deploys as usual. Keeps the daily automation off Netlify's deploy credits.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':!data/briefs'"
 
 [build.environment]
   NODE_VERSION = "22"
 
 # SPA fallback — any unknown path renders the app shell.
-# (Real files such as /data/*.json, /sw.js and /assets/* are served directly.)
+# (Real files such as /sw.js and /assets/* are served directly. Brief content
+# is fetched from the GitHub Contents API, not from this site — see
+# src/lib/briefs.ts.)
 [[redirects]]
   from = "/*"
   to = "/index.html"
@@ -19,12 +27,6 @@
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
-
-# Brief data should always be revalidated so new days show up quickly.
-[[headers]]
-  for = "/data/*"
-  [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
 
 # The service worker must never be cached aggressively.
 [[headers]]

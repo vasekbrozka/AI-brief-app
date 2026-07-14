@@ -30,14 +30,19 @@ npm run icons      # přegeneruje PWA ikony z assets/icon-source.png (scripts/ge
 
 ## Obsah (briefy)
 
-Obsah se načítá za běhu ze statických JSON souborů — díky tomu je fáze 2 (AI crawl)
-jen otázkou zapisování stejných souborů:
+Obsah se načítá za běhu jako statický JSON — díky tomu je fáze 2 (AI crawl) jen otázkou
+zapisování stejných souborů do repa:
 
 ```
-public/data/briefs/
+data/briefs/
 ├── index.json          # seznam dostupných briefů (nejnovější první)
 └── YYYY-MM-DD.json      # jeden brief na den
 ```
+
+Appka (`src/lib/briefs.ts`) je čte přímo z GitHubu (Contents API), ne z Netlify — daily
+commit do `data/briefs/` proto Netlify záměrně nenasazuje (`ignore` v `netlify.toml`),
+aby denní obsah nestál nasazovací kredity. Recept pro generování je v
+`docs/brief-generation.md`.
 
 Datový model najdeš v `src/lib/types.ts`. Každá zpráva má kategorii, dvojjazyčný titulek
 a shrnutí, seznam zdrojů a příznak `verified`. Přidání nového dne = přidat `YYYY-MM-DD.json`

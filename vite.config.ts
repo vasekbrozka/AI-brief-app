@@ -35,15 +35,14 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2,json}'],
-        // Daily briefs must NOT be precached — they'd be frozen into the app
-        // package and only refresh when the whole service worker updates.
-        // They are served by the NetworkFirst runtime route below instead.
-        globIgnores: ['**/data/**'],
+        globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2}'],
+        // Briefs are fetched from the GitHub Contents API (see src/lib/briefs.ts),
+        // not bundled — daily content updates stay off Netlify's deploy bill.
         // Keep the freshly crawled briefs up to date, but still available offline.
         runtimeCaching: [
           {
-            urlPattern: ({ url }) => url.pathname.startsWith('/data/'),
+            urlPattern: ({ url }) =>
+              url.hostname === 'api.github.com' && url.pathname.includes('/contents/data/briefs/'),
             handler: 'NetworkFirst',
             options: {
               cacheName: 'briefs-data',

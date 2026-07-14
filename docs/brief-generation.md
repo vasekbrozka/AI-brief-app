@@ -8,6 +8,12 @@ brief. Naplánovaná (cron) Claude session dostane jednoduchý pokyn:
 
 Ladění obsahu = úprava tohoto souboru. Časovač se nepředělává.
 
+**Poznámka k architektuře:** appka briefy nenačítá z Netlify, ale přímo z GitHubu
+(`src/lib/briefs.ts`, GitHub Contents API). Commit, který mění **jen** `data/briefs/`,
+proto Netlify záměrně **automaticky přeskočí** (`ignore` v `netlify.toml`) — je to
+správné chování, ne chyba, a šetří to nasazovací kredity. Pokud commit vedle dat
+mění i cokoliv jiného (kód, `netlify.toml`…), Netlify normálně nasadí.
+
 ---
 
 ## Cíl
@@ -18,7 +24,7 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
 ## Postup
 
 1. Zjisti **dnešní datum** ve formátu `YYYY-MM-DD` (UTC): `date -u +%F`.
-2. **Přečti si briefy z posledních dnů** v `public/data/briefs/` (jsou v repu) —
+2. **Přečti si briefy z posledních dnů** v `data/briefs/` (jsou v repu) —
    slouží k deduplikaci, viz redakční pravidlo 2.
 3. Udělej **web rešerši** novinek za posledních ~24 h. Vždy se pokus pokrýt jádrová témata
    (pokud se u nich něco dělo): **Anthropic / Claude**, **OpenAI / ChatGPT**,
@@ -33,14 +39,16 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
    - 1–3 `sources` s **reálnými URL** (podle tierů níže)
    - `verified` podle definice níže
    - **Žádný** řádek „proč to je důležité" — jen fakta.
-6. Zapiš `public/data/briefs/<datum>.json` přesně podle schématu níže, `sample: false`.
-7. Aktualizuj `public/data/briefs/index.json`: nastav `updated` na **aktuální čas
+6. Zapiš `data/briefs/<datum>.json` přesně podle schématu níže, `sample: false`.
+7. Aktualizuj `data/briefs/index.json`: nastav `updated` na **aktuální čas
    generování** (`date -u +%Y-%m-%dT%H:%M:%SZ`) — appka ho zobrazuje jako „Aktualizováno" —
    přidej nový záznam **navrch**, nech jen **3 nejnovější dny** a **starší `.json` soubory smaž**.
 8. **Zvaliduj**, že oba soubory jsou platný JSON (`JSON.parse`).
 9. `git add -A` → `git commit -m "brief: <datum>"` → `git push` na produkční větev.
    Když push selže kvůli novým commitům na originu (non-fast-forward), udělej
-   `git pull --rebase origin <větev>` a push zopakuj. (Netlify nasadí automaticky.)
+   `git pull --rebase origin <větev>` a push zopakuj. Netlify tento push **záměrně
+   nenasadí** (viz poznámka k architektuře výše) — appka nová data uvidí přímo
+   z GitHubu do minuty, žádný deploy není potřeba.
 
 ---
 
@@ -98,7 +106,7 @@ to se počítá jako jeden zdroj informace.
 
 ---
 
-## Schéma — `public/data/briefs/<datum>.json`
+## Schéma — `data/briefs/<datum>.json`
 
 ```jsonc
 {
@@ -120,7 +128,7 @@ to se počítá jako jeden zdroj informace.
 }
 ```
 
-## Schéma — `public/data/briefs/index.json`
+## Schéma — `data/briefs/index.json`
 
 ```jsonc
 {
