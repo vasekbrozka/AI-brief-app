@@ -25,7 +25,7 @@ npm run dev        # vývojový server (http://localhost:5173)
 npm run build      # produkční build do dist/
 npm run preview    # náhled produkčního buildu
 npm run typecheck  # kontrola typů
-npm run icons      # znovu vygeneruje PWA ikony z jiskry (scripts/generate-icons.mjs)
+npm run icons      # přegeneruje PWA ikony z assets/icon-source.png (scripts/generate-icons.mjs)
 ```
 
 ## Obsah (briefy)

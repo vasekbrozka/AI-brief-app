@@ -1,52 +1,62 @@
-// Generates the PWA icon set from a single minimalist "sparkle" mark.
+// Generates the PWA icon set from the AIspresso source artwork.
 // Run with:  npm run icons
 import sharp from 'sharp';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const outDir = join(dirname(fileURLToPath(import.meta.url)), '..', 'public', 'icons');
+const root = join(dirname(fileURLToPath(import.meta.url)), '..');
+const SOURCE = join(root, 'assets', 'icon-source.png');
+const outDir = join(root, 'public', 'icons');
 
-// Sparkle mark on a 24×24 grid, centred near (12, 11).
-const SPARKLE =
-  'M12 4l1.7 4.6a1 1 0 00.7.7L19 11l-4.6 1.7a1 1 0 00-.7.7L12 18l-1.7-4.6a1 1 0 00-.7-.7L5 11l4.6-1.7a1 1 0 00.7-.7z';
+// The artwork is an off-white rounded tile that reaches the edges at the
+// mid-points but has small pure-white corners. Crop a small inset so the tile
+// fills the square edge-to-edge (no white corners once iOS/Android round it).
+const INSET = 88;
+// The tile's warm off-white — used to pad the maskable icon.
+const TILE_BG = { r: 251, g: 248, b: 246 };
 
-function iconSvg({ size, rounded = false, glyphScale = 1.05 }) {
-  const rx = rounded ? 5.4 : 0; // 22.5% of the 24-unit grid
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#2c2c2e"/>
-      <stop offset="1" stop-color="#000000"/>
-    </linearGradient>
-  </defs>
-  <rect width="24" height="24" rx="${rx}" fill="url(#bg)"/>
-  <g transform="translate(12 11) scale(${glyphScale}) translate(-12 -11)">
-    <path d="${SPARKLE}" fill="#ffffff"/>
-  </g>
-</svg>`;
+async function croppedBase() {
+  const meta = await sharp(SOURCE).metadata();
+  const size = Math.min(meta.width, meta.height) - INSET * 2;
+  return sharp(SOURCE)
+    .extract({ left: INSET, top: INSET, width: size, height: size })
+    .toBuffer();
 }
 
-async function renderPng(svg, size, file) {
-  const buf = await sharp(Buffer.from(svg)).resize(size, size).png().toBuffer();
-  await writeFile(join(outDir, file), buf);
+async function renderPng(buf, size, file) {
+  const out = await sharp(buf).resize(size, size, { fit: 'cover' }).png().toBuffer();
+  await writeFile(join(outDir, file), out);
+  console.log('✓', file);
+}
+
+// Maskable icons must keep their content inside the central "safe zone", so we
+// scale the artwork down and pad it with the tile colour.
+async function renderMaskable(buf, size, file) {
+  const inner = Math.round(size * 0.84);
+  const resized = await sharp(buf).resize(inner, inner, { fit: 'cover' }).toBuffer();
+  const out = await sharp({
+    create: { width: size, height: size, channels: 3, background: TILE_BG },
+  })
+    .composite([{ input: resized, gravity: 'center' }])
+    .png()
+    .toBuffer();
+  await writeFile(join(outDir, file), out);
   console.log('✓', file);
 }
 
 async function main() {
   await mkdir(outDir, { recursive: true });
+  const base = await croppedBase();
 
-  // Full-bleed app icons (iOS/Android apply their own corner mask).
-  await renderPng(iconSvg({ size: 180 }), 180, 'apple-touch-icon.png');
-  await renderPng(iconSvg({ size: 192 }), 192, 'icon-192.png');
-  await renderPng(iconSvg({ size: 512 }), 512, 'icon-512.png');
+  // Full-bleed icons (iOS/Android apply their own corner mask).
+  await renderPng(base, 180, 'apple-touch-icon.png');
+  await renderPng(base, 192, 'icon-192.png');
+  await renderPng(base, 512, 'icon-512.png');
+  await renderPng(base, 48, 'favicon.png');
 
-  // Maskable: keep the glyph inside the safe zone.
-  await renderPng(iconSvg({ size: 512, glyphScale: 0.62 }), 512, 'icon-maskable-512.png');
-
-  // Rounded vector favicon for the browser tab.
-  await writeFile(join(outDir, 'favicon.svg'), iconSvg({ size: 32, rounded: true }));
-  console.log('✓', 'favicon.svg');
+  // Maskable with a safe-zone margin.
+  await renderMaskable(base, 512, 'icon-maskable-512.png');
 }
 
 main().catch((err) => {
