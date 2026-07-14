@@ -1,96 +1,171 @@
 {
   "date": "2026-07-14",
-  "sample": true,
+  "sample": false,
   "headline": {
-    "cs": "AI týden začíná otevřenými modely a novými pravidly",
-    "en": "The AI week opens with open models and fresh rules"
+    "cs": "GPT-5.6 v Copilotu, Claude po boku a Gemini na spadnutí",
+    "en": "GPT-5.6 lands in Copilot, Claude joins it, and Gemini looms"
   },
   "intro": {
-    "cs": "Dnešní přehled: nová generace otevřených multimodálních modelů, velké sázky na AI infrastrukturu a jasnější evropská pravidla. Vybráno a ověřeno napříč zdroji.",
-    "en": "Today's brief: a new wave of open multimodal models, big bets on AI infrastructure, and clearer European rules. Curated and cross-checked across sources."
+    "cs": "Dnešní várka: OpenAI vydalo GPT-5.6 a Microsoft 365 Copilot ho nasadil jako výchozí — a nově v něm najdeš i Claude. Google chystá Gemini 3.5 Pro a Apple žaluje OpenAI.",
+    "en": "Today's brew: OpenAI shipped GPT-5.6 and Microsoft 365 Copilot made it the default — with Claude available there too. Google preps Gemini 3.5 Pro, and Apple sues OpenAI."
   },
   "items": [
     {
-      "id": "2026-07-14-open-multimodal",
+      "id": "2026-07-14-gpt56-copilot",
       "category": "models",
       "highlight": true,
       "verified": true,
       "title": {
-        "cs": "Nový otevřený multimodální model zvládá text, obraz i zvuk",
-        "en": "New open multimodal model handles text, images and audio"
+        "cs": "OpenAI vydalo GPT-5.6 a stalo se výchozím modelem v Microsoft 365 Copilotu",
+        "en": "OpenAI ships GPT-5.6 and makes it the default model in Microsoft 365 Copilot"
       },
       "summary": {
-        "cs": "Výzkumná laboratoř zveřejnila otevřený model, který v jednom rozhraní kombinuje text, obraz i zvuk a velikostí cílí na běžné notebooky. Publikované testy naznačují kvalitu blízkou uzavřeným modelům při zlomkových nákladech.",
-        "en": "A research lab released an open model that combines text, images and audio in one interface, sized to run on everyday laptops. Published benchmarks suggest quality close to closed models at a fraction of the cost."
+        "cs": "OpenAI představilo GPT-5.6 ve třech variantách — Sol (nejvýkonnější), Luna (rychlá) a Terra (vyvážená pro běžnou práci). Model se zároveň stal preferovaným v Microsoft 365 Copilotu ve Wordu, Excelu, PowerPointu i chatu, takže uživatelé Office ho dostávají automaticky.",
+        "en": "OpenAI unveiled GPT-5.6 in three flavors — Sol (most capable), Luna (fast) and Terra (balanced for everyday work). It also became the preferred model in Microsoft 365 Copilot across Word, Excel, PowerPoint and Chat, so Office users get it automatically."
       },
       "sources": [
-        { "name": "The Verge", "url": "https://www.theverge.com" },
-        { "name": "Ars Technica", "url": "https://arstechnica.com" }
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release"
+        },
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
       ]
     },
     {
-      "id": "2026-07-14-inference-funding",
-      "category": "business",
-      "verified": true,
-      "title": {
-        "cs": "Startup na rychlejší běh modelů uzavřel velké kolo financování",
-        "en": "Startup for faster model serving closes a major funding round"
-      },
-      "summary": {
-        "cs": "Firma zaměřená na levnější a rychlejší provoz modelů oznámila nové investiční kolo. Prostředky mají zamířit do vlastních čipů a rozšíření datacenter.",
-        "en": "A company focused on cheaper, faster model serving announced a fresh funding round. The money is earmarked for custom chips and data-center expansion."
-      },
-      "sources": [
-        { "name": "Reuters", "url": "https://www.reuters.com" },
-        { "name": "TechCrunch", "url": "https://techcrunch.com" }
-      ]
-    },
-    {
-      "id": "2026-07-14-eu-guidance",
-      "category": "policy",
-      "verified": true,
-      "title": {
-        "cs": "EU upřesnila, jak mají firmy nasazovat AI",
-        "en": "EU clarifies how companies should deploy AI"
-      },
-      "summary": {
-        "cs": "Regulátor vydal doplňující pokyny k pravidlům pro umělou inteligenci. Zaměřují se na transparentnost, dokumentaci a hodnocení rizik u vysoce rizikových nasazení.",
-        "en": "Regulators issued supplementary guidance to the AI rulebook. It focuses on transparency, documentation and risk assessment for high-risk deployments."
-      },
-      "sources": [
-        { "name": "Reuters", "url": "https://www.reuters.com" },
-        { "name": "Politico", "url": "https://www.politico.eu" }
-      ]
-    },
-    {
-      "id": "2026-07-14-citation-benchmark",
-      "category": "research",
-      "verified": false,
-      "title": {
-        "cs": "Studie měří, jak spolehlivě modely uvádějí zdroje",
-        "en": "Study measures how reliably models cite their sources"
-      },
-      "summary": {
-        "cs": "Nový preprint navrhuje test, který ověřuje, zda jazykové modely uvádějí správné a dohledatelné zdroje. Autoři upozorňují na velké rozdíly mezi modely.",
-        "en": "A new preprint proposes a benchmark for whether language models cite correct, traceable sources. The authors flag large differences between models."
-      },
-      "sources": [{ "name": "arXiv", "url": "https://arxiv.org" }]
-    },
-    {
-      "id": "2026-07-14-editor-agent",
+      "id": "2026-07-14-claude-copilot",
       "category": "tools",
       "verified": true,
       "title": {
-        "cs": "Oblíbený editor kódu přidal AI agenta pro úpravy napříč projektem",
-        "en": "Popular code editor adds an AI agent for project-wide edits"
+        "cs": "Claude od Anthropicu je nově k výběru v Microsoft 365 Copilot Chatu",
+        "en": "Anthropic's Claude is now selectable in Microsoft 365 Copilot Chat"
       },
       "summary": {
-        "cs": "Do rozšířeného editoru přibyl agent, který umí provést a vysvětlit změny napříč více soubory. Funkce funguje i s lokálně běžícími modely.",
-        "en": "A widely used editor gained an agent that can make and explain changes across many files. The feature also works with locally running models."
+        "cs": "Microsoft přidal Claude jako volitelný model v Copilot Chatu — pro složitější analýzy, práci s dokumenty a strukturovaný obsah. Vedle modelů OpenAI si tak můžeš přímo v Office zvolit i Claude.",
+        "en": "Microsoft added Claude as an optional model in Copilot Chat — for complex analysis, document understanding and structured content. Alongside OpenAI's models, you can now pick Claude right inside Office."
       },
       "sources": [
-        { "name": "The Verge", "url": "https://www.theverge.com" },
-        { "name": "Ars Technica", "url": "https://arstechnica.com" }
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-14-claude-cowork",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Claude Cowork míří na mobil a web",
+        "en": "Claude Cowork expands to mobile and web"
+      },
+      "summary": {
+        "cs": "Anthropic rozšířil Claude Cowork na mobil a web — sezení a soubory tě sledují napříč zařízeními. Přibyly práce na pozadí, naplánované úlohy, sdílené projekty a schvalování z mobilu.",
+        "en": "Anthropic brought Claude Cowork to mobile and web — sessions and files follow you across devices, with background work, scheduled tasks, shared projects and approvals from your phone."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/tech/tech-news/anthropic-will-make-claude-cowork-available-users-cloud-rcna353218"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-14-gemini-35-pro",
+      "category": "models",
+      "verified": false,
+      "title": {
+        "cs": "Google chystá Gemini 3.5 Pro na 17. července — 2 miliony tokenů kontextu",
+        "en": "Google sets Gemini 3.5 Pro for July 17 — a 2-million-token context window"
+      },
+      "summary": {
+        "cs": "Google DeepMind postavil Gemini 3.5 Pro od základu znovu a chystá ho na 17. července. Má nabídnout kontext 2 miliony tokenů (dvojnásobek dnešní špičky), vrstvu Deep Think pro náročné úlohy a autonomní workflow. Zatím nevydáno.",
+        "en": "Google DeepMind rebuilt Gemini 3.5 Pro from the ground up and plans to launch it on July 17. It's set to bring a 2-million-token context window (double today's frontier), a Deep Think reasoning layer and autonomous workflows. Not shipped yet."
+      },
+      "sources": [
+        {
+          "name": "BigGo Finance",
+          "url": "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-14-google-search-gemini",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Vyhledávání Google nově pohání souhrny od Gemini 3.5 Flash",
+        "en": "Google Search is now powered by Gemini 3.5 Flash summaries"
+      },
+      "summary": {
+        "cs": "Od 10. července výsledky vyhledávání Google plně generuje Gemini 3.5 Flash — místo klasických deseti modrých odkazů dostáváš vygenerovaný souhrn. Výchozí zážitek nejpoužívanějšího webu světa se mění na generovaný dokument.",
+        "en": "As of July 10, Google Search results are fully generated by Gemini 3.5 Flash — instead of the classic 'ten blue links', you get a generated summary. The default experience of the world's most-used site becomes a generated document."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-14-apple-openai-suit",
+      "category": "business",
+      "verified": true,
+      "title": {
+        "cs": "Apple žaluje OpenAI kvůli údajné krádeži obchodního tajemství",
+        "en": "Apple sues OpenAI over alleged trade-secret theft"
+      },
+      "summary": {
+        "cs": "Apple podal 11. července u federálního soudu v Kalifornii žalobu na OpenAI. Poukazuje na více než 400 bývalých zaměstnanců Applu, kteří dnes pracují v OpenAI, a viní firmu z krádeže obchodního tajemství.",
+        "en": "Apple filed suit against OpenAI in a California federal court on July 11. It points to more than 400 former Apple employees now working at OpenAI and accuses the company of misappropriating trade secrets."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-14-fli-safety-index",
+      "category": "policy",
+      "verified": true,
+      "title": {
+        "cs": "Index bezpečnosti AI: Anthropic vede s C+, OpenAI a Google mají C",
+        "en": "AI Safety Index: Anthropic leads with a C+, OpenAI and Google get a C"
+      },
+      "summary": {
+        "cs": "Nový AI Safety Index od Future of Life Institute uvádí, že přední vývojáři oslabili závazky pozastavit vývoj u nebezpečných prahů. Nejlépe dopadl Anthropic (C+), následují OpenAI a Google DeepMind (C).",
+        "en": "The Future of Life Institute's new AI Safety Index says leading developers have weakened commitments to pause development near danger thresholds. Anthropic ranked first (C+), followed by OpenAI and Google DeepMind (C)."
+      },
+      "sources": [
+        {
+          "name": "Future of Life Institute",
+          "url": "https://futureoflife.org"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com"
+        }
       ]
     }
   ]
