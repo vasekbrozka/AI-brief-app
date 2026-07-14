@@ -34,8 +34,9 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
    - `verified` podle definice níže
    - **Žádný** řádek „proč to je důležité" — jen fakta.
 6. Zapiš `public/data/briefs/<datum>.json` přesně podle schématu níže, `sample: false`.
-7. Aktualizuj `public/data/briefs/index.json`: přidej nový záznam **navrch**, nech jen
-   **3 nejnovější dny** a **starší `.json` soubory smaž**.
+7. Aktualizuj `public/data/briefs/index.json`: nastav `updated` na **aktuální čas
+   generování** (`date -u +%Y-%m-%dT%H:%M:%SZ`) — appka ho zobrazuje jako „Aktualizováno" —
+   přidej nový záznam **navrch**, nech jen **3 nejnovější dny** a **starší `.json` soubory smaž**.
 8. **Zvaliduj**, že oba soubory jsou platný JSON (`JSON.parse`).
 9. `git add -A` → `git commit -m "brief: <datum>"` → `git push` na produkční větev.
    Když push selže kvůli novým commitům na originu (non-fast-forward), udělej
