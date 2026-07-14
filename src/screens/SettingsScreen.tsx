@@ -1,9 +1,11 @@
 import type { ReactNode } from 'react';
 import { ScreenScaffold } from '../components/ScreenScaffold';
 import { Segmented } from '../components/Segmented';
+import { Switch } from '../components/Switch';
 import type { Lang } from '../lib/types';
 import type { Theme } from '../providers/SettingsProvider';
 import { useSettings } from '../providers/SettingsProvider';
+import { useRead } from '../providers/ReadProvider';
 
 const APP_VERSION = '0.1.0';
 
@@ -17,7 +19,8 @@ function SettingsGroup({ title, children }: { title: string; children: ReactNode
 }
 
 export function SettingsScreen() {
-  const { t, lang, setLang, theme, setTheme } = useSettings();
+  const { t, lang, setLang, theme, setTheme, hideRead, setHideRead } = useSettings();
+  const { clear, readCount } = useRead();
 
   const langOptions: { value: Lang; label: string }[] = [
     { value: 'cs', label: 'Čeština' },
@@ -48,6 +51,25 @@ export function SettingsScreen() {
           options={themeOptions}
           ariaLabel={t.sectionAppearance}
         />
+      </SettingsGroup>
+
+      <SettingsGroup title={t.sectionReading}>
+        <div className="setting-switch">
+          <div className="setting-switch__text">
+            <span className="setting-switch__label">{t.hideReadLabel}</span>
+            <span className="setting-switch__hint">{t.hideReadHint}</span>
+          </div>
+          <Switch checked={hideRead} onChange={setHideRead} ariaLabel={t.hideReadLabel} />
+        </div>
+        <div className="setting-divider" />
+        <button
+          type="button"
+          className="link-btn"
+          onClick={clear}
+          disabled={readCount === 0}
+        >
+          {t.clearReadLabel}
+        </button>
       </SettingsGroup>
 
       <SettingsGroup title={t.sectionInstall}>

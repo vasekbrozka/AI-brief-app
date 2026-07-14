@@ -53,6 +53,16 @@ export interface UIStrings {
   retry: string;
   updatedLabel: string;
   back: string;
+
+  // Reading
+  read: string;
+  markRead: string;
+  markUnread: string;
+  allCaughtUp: string;
+  sectionReading: string;
+  hideReadLabel: string;
+  hideReadHint: string;
+  clearReadLabel: string;
 }
 
 export const STRINGS: Record<Lang, UIStrings> = {
@@ -111,6 +121,15 @@ export const STRINGS: Record<Lang, UIStrings> = {
     retry: 'Zkusit znovu',
     updatedLabel: 'Aktualizováno',
     back: 'Zpět',
+
+    read: 'Přečteno',
+    markRead: 'Označit jako přečtené',
+    markUnread: 'Označit jako nepřečtené',
+    allCaughtUp: 'Vše přečteno',
+    sectionReading: 'Čtení',
+    hideReadLabel: 'Skrýt přečtené',
+    hideReadHint: 'Přečtené zprávy se nebudou zobrazovat v přehledu.',
+    clearReadLabel: 'Označit vše jako nepřečtené',
   },
   en: {
     appName: 'AIspresso',
@@ -167,5 +186,14 @@ export const STRINGS: Record<Lang, UIStrings> = {
     retry: 'Try again',
     updatedLabel: 'Updated',
     back: 'Back',
+
+    read: 'Read',
+    markRead: 'Mark as read',
+    markUnread: 'Mark as unread',
+    allCaughtUp: 'All caught up',
+    sectionReading: 'Reading',
+    hideReadLabel: 'Hide read items',
+    hideReadHint: "Read stories won't appear in the brief.",
+    clearReadLabel: 'Mark all as unread',
   },
 };

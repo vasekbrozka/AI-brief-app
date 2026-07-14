@@ -2,13 +2,15 @@ import { useMemo, useState } from 'react';
 import type { Brief, CategoryId } from '../lib/types';
 import { CATEGORIES, CATEGORY_ORDER } from '../lib/categories';
 import { useSettings } from '../providers/SettingsProvider';
+import { useRead } from '../providers/ReadProvider';
 import { BriefItemCard } from './BriefItemCard';
 import { Icon } from './Icon';
 
 type Filter = CategoryId | 'all';
 
 export function BriefView({ brief }: { brief: Brief }) {
-  const { lang, t } = useSettings();
+  const { lang, t, hideRead } = useSettings();
+  const { isRead } = useRead();
   const [filter, setFilter] = useState<Filter>('all');
 
   const presentCategories = useMemo(
@@ -16,8 +18,10 @@ export function BriefView({ brief }: { brief: Brief }) {
     [brief],
   );
 
-  const items =
+  const visible =
     filter === 'all' ? brief.items : brief.items.filter((item) => item.category === filter);
+  const unread = visible.filter((item) => !isRead(item.id));
+  const read = visible.filter((item) => isRead(item.id));
 
   return (
     <div className="brief">
@@ -55,11 +59,33 @@ export function BriefView({ brief }: { brief: Brief }) {
         </div>
       )}
 
-      <div className="items">
-        {items.map((item) => (
-          <BriefItemCard key={item.id} item={item} />
-        ))}
-      </div>
+      {unread.length > 0 && (
+        <div className="items">
+          {unread.map((item) => (
+            <BriefItemCard key={item.id} item={item} />
+          ))}
+        </div>
+      )}
+
+      {hideRead && unread.length === 0 && read.length > 0 && (
+        <div className="caught-up">
+          <Icon name="sparkles" size={24} />
+          <span>{t.allCaughtUp}</span>
+        </div>
+      )}
+
+      {!hideRead && read.length > 0 && (
+        <>
+          <div className="read-divider">
+            <span>{t.read}</span>
+          </div>
+          <div className="items items--read">
+            {read.map((item) => (
+              <BriefItemCard key={item.id} item={item} />
+            ))}
+          </div>
+        </>
+      )}
 
       {brief.sample && (
         <p className="sample-note">

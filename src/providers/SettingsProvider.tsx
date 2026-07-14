@@ -17,6 +17,8 @@ interface SettingsContextValue {
   toggleLang: () => void;
   theme: Theme;
   setTheme: (t: Theme) => void;
+  hideRead: boolean;
+  setHideRead: (v: boolean) => void;
   /** Localized UI strings for the current language. */
   t: UIStrings;
 }
@@ -25,6 +27,7 @@ const SettingsContext = createContext<SettingsContextValue | null>(null);
 
 const LANG_KEY = 'aibrief.lang';
 const THEME_KEY = 'aibrief.theme';
+const HIDE_READ_KEY = 'aibrief.hideRead';
 
 function detectInitialLang(): Lang {
   try {
@@ -47,9 +50,18 @@ function detectInitialTheme(): Theme {
   return 'auto';
 }
 
+function detectInitialHideRead(): boolean {
+  try {
+    return localStorage.getItem(HIDE_READ_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
 export function SettingsProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>(detectInitialLang);
   const [theme, setTheme] = useState<Theme>(detectInitialTheme);
+  const [hideRead, setHideRead] = useState<boolean>(detectInitialHideRead);
 
   useEffect(() => {
     try {
@@ -71,6 +83,14 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     else root.setAttribute('data-theme', theme);
   }, [theme]);
 
+  useEffect(() => {
+    try {
+      localStorage.setItem(HIDE_READ_KEY, hideRead ? '1' : '0');
+    } catch {
+      /* ignore */
+    }
+  }, [hideRead]);
+
   const value = useMemo<SettingsContextValue>(
     () => ({
       lang,
@@ -78,9 +98,11 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       toggleLang: () => setLang((prev) => (prev === 'cs' ? 'en' : 'cs')),
       theme,
       setTheme,
+      hideRead,
+      setHideRead,
       t: STRINGS[lang],
     }),
-    [lang, theme],
+    [lang, theme, hideRead],
   );
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;

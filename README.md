@@ -12,9 +12,10 @@ ikonou a s podporou offline.
 
 - 📱 **PWA** — přidání na plochu iPhonu, celoobrazovkový režim, funguje offline (service worker)
 - 🌗 **Světlý / tmavý / automatický** motiv ve stylu Apple
-- 🇨🇿 🇬🇧 **Dvojjazyčně** — přepínač CS / EN kdekoli v aplikaci
-- 🗂️ **Tři obrazovky** — Dnes, Archiv (starší briefy), Nastavení
+- 🇨🇿 🇬🇧 **Dvojjazyčně** — přepínač CS / EN v Nastavení
+- 🗂️ **Tři obrazovky** — Dnes, Archiv (poslední 3 dny), Nastavení
 - ✅ **Ověřování** — u každé zprávy zdroje a odznak „Ověřeno", filtrování podle kategorie
+- ✔️ **Přečteno** — odškrtnutí zprávy ji zprůhlední a sesune dolů; přečtené lze i skrýt
 
 ## Vývoj lokálně
 

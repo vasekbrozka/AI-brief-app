@@ -2,6 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { registerSW } from 'virtual:pwa-register';
 import { SettingsProvider } from './providers/SettingsProvider';
+import { ReadProvider } from './providers/ReadProvider';
 import { App } from './App';
 import './index.css';
 
@@ -14,7 +15,9 @@ if (!rootEl) throw new Error('Root element #root not found');
 createRoot(rootEl).render(
   <StrictMode>
     <SettingsProvider>
-      <App />
+      <ReadProvider>
+        <App />
+      </ReadProvider>
     </SettingsProvider>
   </StrictMode>,
 );
