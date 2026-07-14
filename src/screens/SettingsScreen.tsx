@@ -99,16 +99,23 @@ export function SettingsScreen() {
       </SettingsGroup>
 
       <SettingsGroup title={t.sectionHowItWorks}>
-        <p className="setting-text">{t.howItWorksBody}</p>
+        {t.howItWorksParagraphs.map((paragraph, i) => (
+          <p key={i} className="setting-text setting-text--spaced">
+            {paragraph}
+          </p>
+        ))}
       </SettingsGroup>
 
       <SettingsGroup title={t.sectionAbout}>
         <p className="setting-text">{t.aboutBody}</p>
+        <p className="setting-text setting-text--spaced">{t.editorialNote}</p>
         <div className="about-meta">
           <span>
             {t.versionLabel} {APP_VERSION}
           </span>
-          <span className="about-meta__phase">{t.phaseLabel}</span>
+          <span className="about-meta__model">
+            {t.modelLabel} <strong>{t.modelName}</strong>
+          </span>
         </div>
       </SettingsGroup>
 
