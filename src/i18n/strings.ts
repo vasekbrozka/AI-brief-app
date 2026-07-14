@@ -9,11 +9,10 @@ export interface UIStrings {
   tabArchive: string;
   tabSettings: string;
 
-  // Today — time-of-day "brew freshness" title (Barista voice)
-  brewFresh: string;
-  brewWarm: string;
-  brewCooling: string;
-  brewCold: string;
+  // Today — time-of-day "brew freshness" title
+  brewMorning: string;
+  brewAfternoon: string;
+  brewEvening: string;
   gistLabel: string;
   todayEmptyTitle: string;
   todayEmptyBody: string;
@@ -81,11 +80,10 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tabArchive: 'Archiv',
     tabSettings: 'Nastavení',
 
-    brewFresh: 'Čerstvě uvařeno',
-    brewWarm: 'Pořád svěží',
-    brewCooling: 'Zašla by dolívka',
-    brewCold: 'Radši uvař novou',
-    gistLabel: 'Ve zkratce',
+    brewMorning: 'Čerstvě uvařená',
+    brewAfternoon: 'Ještě se dá',
+    brewEvening: 'Dozrála k dokonalosti',
+    gistLabel: 'Zristrettováno',
     todayEmptyTitle: 'Zatím žádný brief',
     todayEmptyBody: 'Dnešní přehled se ještě připravuje. Zkus to prosím později.',
 
@@ -153,11 +151,10 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tabArchive: 'Archive',
     tabSettings: 'Settings',
 
-    brewFresh: 'Fresh from the pot',
-    brewWarm: 'Still going strong',
-    brewCooling: 'Could use a refill',
-    brewCold: 'Better brew a fresh one',
-    gistLabel: 'The gist',
+    brewMorning: 'Freshly brewed',
+    brewAfternoon: 'Still drinkable',
+    brewEvening: 'Aged to perfection',
+    gistLabel: 'Ristrettified',
     todayEmptyTitle: 'No brief yet',
     todayEmptyBody: "Today's brief is still being prepared. Please check back later.",
 

@@ -51,12 +51,11 @@ export function formatTime(iso: string, lang: Lang): string {
  */
 export function brewTitleKey(
   date: Date = new Date(),
-): 'brewFresh' | 'brewWarm' | 'brewCooling' | 'brewCold' {
+): 'brewMorning' | 'brewAfternoon' | 'brewEvening' {
   const h = date.getHours();
-  if (h >= 5 && h < 11) return 'brewFresh';
-  if (h >= 11 && h < 15) return 'brewWarm';
-  if (h >= 15 && h < 19) return 'brewCooling';
-  return 'brewCold';
+  if (h >= 5 && h < 12) return 'brewMorning';
+  if (h >= 12 && h < 18) return 'brewAfternoon';
+  return 'brewEvening';
 }
 
 /** Uppercase the first character (Intl weekday/month names come lowercased in cs). */
