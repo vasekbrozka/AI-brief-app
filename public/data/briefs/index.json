@@ -1,0 +1,29 @@
+{
+  "updated": "2026-07-14T06:00:00Z",
+  "briefs": [
+    {
+      "date": "2026-07-14",
+      "headline": {
+        "cs": "AI týden začíná otevřenými modely a novými pravidly",
+        "en": "The AI week opens with open models and fresh rules"
+      },
+      "itemCount": 5
+    },
+    {
+      "date": "2026-07-13",
+      "headline": {
+        "cs": "Chytřejší agenti a levnější provoz",
+        "en": "Smarter agents, cheaper to run"
+      },
+      "itemCount": 4
+    },
+    {
+      "date": "2026-07-12",
+      "headline": {
+        "cs": "Otevřená data a spolehlivější modely",
+        "en": "Open data and more reliable models"
+      },
+      "itemCount": 4
+    }
+  ]
+}
