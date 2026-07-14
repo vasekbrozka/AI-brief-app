@@ -30,7 +30,6 @@ const PATHS: Record<IconName, JSX.Element> = {
     <>
       <rect x="3.5" y="9.2" width="17" height="11" rx="2.6" {...S} />
       <path d="M6 6.4h12" {...S} />
-      <path d="M8 3.8h8" {...S} />
     </>
   ),
   sliders: (
