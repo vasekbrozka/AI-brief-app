@@ -1,7 +1,5 @@
 import { ScreenScaffold } from '../components/ScreenScaffold';
-import { LangToggle } from '../components/LangToggle';
 import { BriefView } from '../components/BriefView';
-import { InstallHint } from '../components/InstallHint';
 import { BriefSkeleton, EmptyState, ErrorState } from '../components/states';
 import { useLatestBrief } from '../hooks/useBrief';
 import { useSettings } from '../providers/SettingsProvider';
@@ -15,8 +13,7 @@ export function TodayScreen() {
     status === 'ready' && data ? capitalizeFirst(formatFullDate(data.date, lang)) : t.tagline;
 
   return (
-    <ScreenScaffold title={t.todayTitle} subtitle={subtitle} right={<LangToggle />}>
-      <InstallHint />
+    <ScreenScaffold title={t.todayTitle} subtitle={subtitle}>
       {status === 'loading' && <BriefSkeleton />}
       {status === 'error' && <ErrorState onRetry={reload} />}
       {status === 'ready' && !data && (

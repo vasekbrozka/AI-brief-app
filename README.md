@@ -1,8 +1,9 @@
-# Denní AI brief · Daily AI Brief
+# AIspresso
 
-Osobní webová appka (PWA), která na jednom místě zobrazuje krátký, přehledný a ověřený
-denní přehled novinek ze světa AI. Na iPhonu jde přes Safari přidat na plochu a chová se
-jako nativní aplikace — celoobrazovkově, s vlastní ikonou a s podporou offline.
+**AI + espresso** — tvůj každodenní šálek novinek ze světa AI. Osobní webová appka (PWA),
+která na jednom místě zobrazuje krátký, přehledný a ověřený denní přehled. Na iPhonu jde
+přes Safari přidat na plochu a chová se jako nativní aplikace — celoobrazovkově, s vlastní
+ikonou a s podporou offline.
 
 > **Fáze 1 (tato verze):** hotové UI, funkce a kostra appky s **ukázkovým obsahem**.
 > **Fáze 2 (další krok):** automatický denní crawl novinek pomocí AI, který bude obsah generovat.

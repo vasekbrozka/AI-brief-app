@@ -53,24 +53,18 @@ export interface UIStrings {
   retry: string;
   updatedLabel: string;
   back: string;
-
-  // Install hint banner
-  installHintTitle: string;
-  installHintBody: string;
-  installHintAction: string;
-  dismiss: string;
 }
 
 export const STRINGS: Record<Lang, UIStrings> = {
   cs: {
-    appName: 'Denní AI brief',
+    appName: 'AIspresso',
     tagline: 'Novinky ze světa AI — stručně a ověřeně.',
 
     tabToday: 'Dnes',
     tabArchive: 'Archiv',
     tabSettings: 'Nastavení',
 
-    todayTitle: 'Dnešní brief',
+    todayTitle: 'Čerstvě uvařeno',
     gistLabel: 'Ve zkratce',
     todayEmptyTitle: 'Zatím žádný brief',
     todayEmptyBody: 'Dnešní přehled se ještě připravuje. Zkus to prosím později.',
@@ -117,21 +111,16 @@ export const STRINGS: Record<Lang, UIStrings> = {
     retry: 'Zkusit znovu',
     updatedLabel: 'Aktualizováno',
     back: 'Zpět',
-
-    installHintTitle: 'Přidej si appku na plochu',
-    installHintBody: 'Otevře se na celou obrazovku jako běžná aplikace.',
-    installHintAction: 'Jak na to',
-    dismiss: 'Zavřít',
   },
   en: {
-    appName: 'Daily AI Brief',
+    appName: 'AIspresso',
     tagline: 'The world of AI — brief and verified.',
 
     tabToday: 'Today',
     tabArchive: 'Archive',
     tabSettings: 'Settings',
 
-    todayTitle: "Today's Brief",
+    todayTitle: 'Freshly brewed',
     gistLabel: 'The gist',
     todayEmptyTitle: 'No brief yet',
     todayEmptyBody: "Today's brief is still being prepared. Please check back later.",
@@ -178,10 +167,5 @@ export const STRINGS: Record<Lang, UIStrings> = {
     retry: 'Try again',
     updatedLabel: 'Updated',
     back: 'Back',
-
-    installHintTitle: 'Add this app to your Home Screen',
-    installHintBody: 'It opens full-screen, just like a native app.',
-    installHintAction: 'Show me how',
-    dismiss: 'Dismiss',
   },
 };

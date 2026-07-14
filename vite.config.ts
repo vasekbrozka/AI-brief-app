@@ -10,8 +10,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icons/apple-touch-icon.png', 'icons/favicon.svg'],
       manifest: {
-        name: 'Daily AI Brief',
-        short_name: 'AI Brief',
+        name: 'AIspresso',
+        short_name: 'AIspresso',
         description:
           'Tvůj každodenní přehled novinek ze světa AI — stručně a ověřeně na jednom místě.',
         lang: 'cs',

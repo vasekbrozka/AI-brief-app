@@ -1,25 +1,29 @@
 import { ScreenScaffold } from '../components/ScreenScaffold';
-import { LangToggle } from '../components/LangToggle';
 import { Icon } from '../components/Icon';
 import { ArchiveSkeleton, EmptyState, ErrorState } from '../components/states';
 import { useBriefIndex } from '../hooks/useBrief';
 import { useSettings } from '../providers/SettingsProvider';
 import { capitalizeFirst, formatShortDate, itemCountLabel } from '../lib/format';
 
+// Keep the archive lean and current — only the most recent days are shown.
+const MAX_ARCHIVE_DAYS = 3;
+
 export function ArchiveScreen({ onSelect }: { onSelect: (date: string) => void }) {
   const { t, lang } = useSettings();
   const { status, data, reload } = useBriefIndex();
 
+  const briefs = data?.briefs.slice(0, MAX_ARCHIVE_DAYS) ?? [];
+
   return (
-    <ScreenScaffold title={t.archiveTitle} subtitle={t.archiveSubtitle} right={<LangToggle />}>
+    <ScreenScaffold title={t.archiveTitle} subtitle={t.archiveSubtitle}>
       {status === 'loading' && <ArchiveSkeleton />}
       {status === 'error' && <ErrorState onRetry={reload} />}
-      {status === 'ready' && data && data.briefs.length === 0 && (
+      {status === 'ready' && briefs.length === 0 && (
         <EmptyState title={t.archiveTitle} body={t.archiveEmpty} />
       )}
-      {status === 'ready' && data && data.briefs.length > 0 && (
+      {status === 'ready' && briefs.length > 0 && (
         <ul className="archive-list">
-          {data.briefs.map((entry) => (
+          {briefs.map((entry) => (
             <li key={entry.date}>
               <button type="button" className="archive-row" onClick={() => onSelect(entry.date)}>
                 <span className="archive-row__body">

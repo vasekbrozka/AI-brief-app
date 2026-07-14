@@ -1,5 +1,4 @@
 import { ScreenScaffold } from '../components/ScreenScaffold';
-import { LangToggle } from '../components/LangToggle';
 import { Icon } from '../components/Icon';
 import { BriefView } from '../components/BriefView';
 import { BriefSkeleton, ErrorState } from '../components/states';
@@ -23,7 +22,6 @@ export function BriefDetailScreen({ date, onBack }: { date: string; onBack: () =
       title={capitalizeFirst(formatShortDate(date, lang))}
       subtitle={capitalizeFirst(formatFullDate(date, lang))}
       left={backButton}
-      right={<LangToggle />}
     >
       {status === 'loading' && <BriefSkeleton />}
       {status === 'error' && <ErrorState onRetry={reload} />}
