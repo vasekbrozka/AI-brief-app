@@ -2,12 +2,12 @@
   "date": "2026-07-15",
   "sample": false,
   "headline": {
-    "cs": "Claude Artifacts jdou do sdílení, ChatGPT zpět na WhatsApp",
-    "en": "Claude Artifacts go collaborative, ChatGPT returns to WhatsApp"
+    "cs": "Claude Artifacts jdou do sdílení, OpenAI se brání žalobě Applu",
+    "en": "Claude Artifacts go collaborative, OpenAI pushes back on Apple's lawsuit"
   },
   "intro": {
-    "cs": "Po včerejší bouři kolem žaloby Applu je dnes v AI klidněji. Anthropic udělal z Claude Artifacts sdílený pracovní prostor pro týmy, ChatGPT se vrátil na WhatsApp v Evropě po zásahu Evropské komise a OpenAI oznámilo konec prohlížeče Atlas.",
-    "en": "After yesterday's storm around Apple's lawsuit, today is calmer in AI. Anthropic turned Claude Artifacts into a shared team workspace, ChatGPT returned to WhatsApp in Europe following an EU Commission order, and OpenAI announced the end of its Atlas browser."
+    "cs": "Po včerejší bouři kolem žaloby Applu je dnes v AI klidněji, byť spor pokračuje — OpenAI se poprvé oficiálně ohradilo. Anthropic udělal z Claude Artifacts sdílený pracovní prostor pro týmy, ChatGPT se vrátil na WhatsApp v Evropě po zásahu Evropské komise a OpenAI oznámilo konec prohlížeče Atlas.",
+    "en": "After yesterday's storm around Apple's lawsuit, today is calmer in AI, though the dispute continues — OpenAI issued its first formal pushback. Anthropic turned Claude Artifacts into a shared team workspace, ChatGPT returned to WhatsApp in Europe following an EU Commission order, and OpenAI announced the end of its Atlas browser."
   },
   "items": [
     {
@@ -63,20 +63,20 @@
       ]
     },
     {
-      "id": "2026-07-15-deepseek-funding-talks",
+      "id": "2026-07-15-openai-apple-lawsuit-response",
       "category": "business",
-      "verified": false,
+      "verified": true,
       "title": {
-        "cs": "DeepSeek prý zvažuje další kolo financování",
-        "en": "DeepSeek reportedly weighs another funding round"
+        "cs": "OpenAI popírá opodstatněnost žaloby Applu",
+        "en": "OpenAI denies merit of Apple's lawsuit"
       },
       "summary": {
-        "cs": "DeepSeek má podle Financial Times v předběžných jednáních s investory o dalším kole financování, tentokrát s valuací kolem 71 miliard dolarů. Firma přitom teprve koncem května uzavřela svoje vůbec první kolo — 7 miliard dolarů při valuaci 52 miliard. Zprávu zatím potvrzuje jen jeden zdroj, detaily tak zůstávají neověřené.",
-        "en": "DeepSeek is reportedly in early talks with investors about another funding round, this time at a roughly $71 billion valuation, according to the Financial Times — up from the $52 billion valuation of its first-ever raise, just $7 billion, closed in late May. Only one outlet has confirmed this, so details stay unverified."
+        "cs": "OpenAI se poprvé vyjádřilo k žalobě Applu kvůli obchodním tajemstvím — čtyři dny po jejím podání uvedlo, že si není vědomo žádného důkazu, že by měla žaloba opodstatnění. Firma zdůraznila, že věří ve svobodnou soutěž a právo lidí pracovat, kde chtějí, a soustředí se na vlastní technologie.",
+        "en": "OpenAI issued its first public response to Apple's trade-secrets lawsuit — four days after the filing, saying it's 'not aware of any evidence' the complaint has merit. The company said it believes in fair competition and people's freedom to work wherever they choose, and remains focused on building its own technology."
       },
       "sources": [
-        { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-14/deepseek-mulls-new-funding-weeks-after-7-billion-round-ft-says" },
-        { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/deepseek-considers-new-funding-round-after-raising-7-billion/" }
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/" },
+        { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-14/openai-says-it-s-not-aware-of-any-evidence-that-apple-lawsuit-has-merit" }
       ]
     }
   ]
