@@ -139,10 +139,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     sourcesIntro:
       'Brief vzniká z pevného okruhu ověřených zdrojů. Agregátory a neznámé weby se jako zdroj nikdy necitují.',
     sourcesOfficialLabel: 'Oficiální',
-    sourcesOfficialList: 'Anthropic · OpenAI · Google & DeepMind · Microsoft',
+    sourcesOfficialList:
+      'Anthropic · OpenAI · Google & DeepMind · Microsoft · NVIDIA · Meta AI · Hugging Face · Mistral',
     sourcesMediaLabel: 'Média',
     sourcesMediaList:
-      'Reuters · The Verge · Ars Technica · TechCrunch · Axios · Wired · The Register · MIT Technology Review · CNBC',
+      'Reuters · AP · Bloomberg · The Verge · Ars Technica · TechCrunch · Axios · Wired · The Register · MIT Technology Review · CNBC',
     sourcesVerifiedNote:
       'Zelené „Ověřeno“ znamená potvrzení nejméně dvěma nezávislými zdroji.',
     sectionReleaseNotes: 'Poznámky k aktualizaci',
@@ -151,10 +152,12 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseFixedLabel: 'Opraveno',
     releaseAdded: [
       'Rešerše čerpá z pevného okruhu důvěryhodných zdrojů (RSS kanály a cílené vyhledávání)',
+      'Širší okruh zdrojů — AP, Bloomberg, NVIDIA, Meta AI, Hugging Face a Mistral',
       'Nadpis se mění podle denní doby — ráno čerstvě uvařeno, večer už káva chladne',
       'Sekce Zdroje a Poznámky k aktualizaci v Nastavení',
     ],
     releaseImproved: [
+      'Vyváženější výběr — přednost mají novinky, které si můžeš vyzkoušet; v nabitý den až 10 zpráv',
       'Lišta při rolování ukazuje datum a čas poslední aktualizace',
       'Nový brief doputuje do appky do minuty po vydání',
       'Agregátory se už nikdy neobjeví mezi zdroji zpráv',
@@ -239,10 +242,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     sourcesIntro:
       'The brief is built from a fixed circle of vetted sources. Aggregators and unknown sites are never cited as sources.',
     sourcesOfficialLabel: 'Official',
-    sourcesOfficialList: 'Anthropic · OpenAI · Google & DeepMind · Microsoft',
+    sourcesOfficialList:
+      'Anthropic · OpenAI · Google & DeepMind · Microsoft · NVIDIA · Meta AI · Hugging Face · Mistral',
     sourcesMediaLabel: 'Media',
     sourcesMediaList:
-      'Reuters · The Verge · Ars Technica · TechCrunch · Axios · Wired · The Register · MIT Technology Review · CNBC',
+      'Reuters · AP · Bloomberg · The Verge · Ars Technica · TechCrunch · Axios · Wired · The Register · MIT Technology Review · CNBC',
     sourcesVerifiedNote:
       'The green “Verified” badge means confirmation by at least two independent sources.',
     sectionReleaseNotes: 'Release notes',
@@ -251,10 +255,12 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseFixedLabel: 'Fixed',
     releaseAdded: [
       'Research draws on a fixed circle of trusted sources (RSS feeds and targeted search)',
+      'A wider circle of sources — AP, Bloomberg, NVIDIA, Meta AI, Hugging Face and Mistral',
       'The title changes with the time of day — freshly brewed at dawn, cooling by evening',
       'Sources and Release notes sections in Settings',
     ],
     releaseImproved: [
+      'Better-balanced selection — hands-on news comes first, with up to 10 stories on busy days',
       'The bar shown while scrolling displays the date and last-update time',
       'A new brief reaches the app within a minute of publishing',
       'Aggregators can no longer appear among story sources',

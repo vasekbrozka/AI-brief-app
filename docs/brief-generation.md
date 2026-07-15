@@ -32,9 +32,11 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
    `allowed_domains` na kanonické domény, ať kandidáti pocházejí rovnou od zdroje,
    ne z agregátorů:
    - oficiální (Tier 1): `anthropic.com`, `openai.com`, `blog.google`, `deepmind.google`,
-     `microsoft.com`, `learn.microsoft.com`
+     `microsoft.com`, `learn.microsoft.com`, `nvidia.com`, `ai.meta.com`,
+     `huggingface.co`, `mistral.ai`
    - média (Tier 2): `theverge.com`, `arstechnica.com`, `techcrunch.com`, `reuters.com`,
-     `wired.com`, `theregister.com`, `technologyreview.com`, `axios.com`, `cnbc.com`
+     `apnews.com`, `bloomberg.com`, `wired.com`, `theregister.com`,
+     `technologyreview.com`, `axios.com`, `cnbc.com`
    Vždy se pokus pokrýt jádrová témata (pokud se u nich něco dělo): **Anthropic / Claude**,
    **OpenAI / ChatGPT**, **Google / Gemini**, **Microsoft 365 Copilot**.
 
@@ -50,7 +52,7 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
    ⚠️ Síťová poznámka: přímé stahování stránek a RSS feedů (curl/WebFetch) je zdejší
    síťovou politikou **zablokované pro většinu domén** (CONNECT 403) — výjimkou je
    microsoft.com výše. Neztrácej čas opakovanými pokusy; rešerši dělej přes WebSearch.
-4. Vyber zprávy podle **redakčních pravidel níže** (cíl 6–8, tichý den může mít méně).
+4. Vyber zprávy podle **redakčních pravidel níže** (cíl 6–10, tichý den může mít méně).
    Označ právě **jednu** jako hlavní (`highlight: true`) — největší událost dne.
 5. Ke každé zprávě:
    - `category`: jedna z `models` · `research` · `business` · `tools` · `policy` · `opensource`
@@ -88,13 +90,20 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
 - Stejná událost z více zdrojů = **jedna** položka s více zdroji.
 
 ### 3 · Přetlak (je toho moc)
-- **Tvrdý strop 8 zpráv.** Přebytek se záměrně zahodí — kurátorský výběr je hodnota briefu.
+- **Tvrdý strop 10 zpráv.** Přebytek se záměrně zahodí — kurátorský výběr je hodnota briefu.
 - Priorita výběru:
-  1. dopad na jádrová témata (Claude, OpenAI/ChatGPT, Gemini, M365 Copilot),
+  1. **přímý užitek pro uživatele** — nové funkce, produkty, modely a nástroje, které si
+     člověk může vyzkoušet; přednost mají jádrová témata (Claude, OpenAI/ChatGPT, Gemini,
+     M365 Copilot),
   2. velikost události (vydání modelu > malá funkce; miliardová akvizice > kolo série A),
   3. ověřené > neověřené,
   4. čerstvost (dnes > včera večer).
-- Hlavní zpráva (`highlight`) = největší z vybraných.
+- **Vyváženost:** brief čte uživatel, ne investor. Zprávy o funkcích, produktech a modelech
+  mají tvořit většinu (~⅔ briefu); čistý byznys (financování, akvizice, žaloby, kvartální
+  čísla) drž zhruba na třetině. Mimořádná byznys událost dne se samozřejmě vejde — klidně
+  i jako highlight — ale tři fundraisingové zprávy v jednom briefu ne.
+- Hlavní zpráva (`highlight`) = největší z vybraných; při rovnosti vyhrává ta, která se
+  uživatelů dotkne přímo.
 
 ### 4 · Protichůdné informace
 - **Nikdy neprůměruj** rozporná čísla/fakta a nevymýšlej „střed".
@@ -107,7 +116,7 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
 
 | Tier | Co to je | Role |
 |------|----------|------|
-| **1 — Primární / oficiální** | anthropic.com/news · openai.com/news · blog.google · deepmind.google · microsoft.com (blog) · learn.microsoft.com (release notes) · oficiální changelogy a tiskové zprávy · SEC/soudní dokumenty | Primární pravda o tom, co firma oznámila |
+| **1 — Primární / oficiální** | anthropic.com/news · openai.com/news · blog.google · deepmind.google · microsoft.com (blog) · learn.microsoft.com (release notes) · nvidianews.nvidia.com · ai.meta.com · huggingface.co (blog) · mistral.ai · oficiální changelogy a tiskové zprávy · SEC/soudní dokumenty | Primární pravda o tom, co firma oznámila |
 | **2 — Reputabilní média** | Reuters · AP · Bloomberg · The Verge · Ars Technica · TechCrunch · Axios · The Information · Wired · CNBC · FT · WSJ · The Register · MIT Technology Review | Ověření a kontext |
 | **3 — Doplňkové** | agregátory (např. Releasebot) · Hacker News · Reddit · GitHub · specializované blogy · arXiv/preprinty | Jen k **objevení** tématu — samy o sobě nikdy nestačí na „ověřeno" |
 
@@ -117,6 +126,10 @@ anonymní „leak" účty.
 **Do `sources` u zprávy piš vždy jen Tier 1/2 URL.** Tier 3 (agregátory, HN, denní
 přehledové blogy) nikdy necituj jako zdroj — slouží jen k objevení tématu; skutečný
 zdroj pak dohledej a ověř na Tier 1/2.
+
+**Paywallové zdroje (Bloomberg, FT, WSJ, The Information) cituj jen v páru s volně
+čitelným zdrojem** — čtenář musí mít vždy aspoň jeden odkaz, který si otevře bez
+předplatného.
 
 ### Definice `verified: true`
 Zpráva je ověřená, **jen** když je potvrzená **≥2 nezávislými zdroji**, z toho alespoň
