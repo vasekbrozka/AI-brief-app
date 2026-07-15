@@ -26,11 +26,30 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
 1. Zjisti **dnešní datum** ve formátu `YYYY-MM-DD` (UTC): `date -u +%F`.
 2. **Přečti si briefy z posledních dnů** v `data/briefs/` (jsou v repu) —
    slouží k deduplikaci, viz redakční pravidlo 2.
-3. Udělej **web rešerši** novinek za posledních ~24 h. Vždy se pokus pokrýt jádrová témata
-   (pokud se u nich něco dělo): **Anthropic / Claude**, **OpenAI / ChatGPT**,
-   **Google / Gemini**, **Microsoft 365 Copilot**. Doplň **1–3 velké obecné** zprávy
+3. Udělej **rešerši** novinek za posledních ~24 h, ve třech fázích (od nejdůvěryhodnějšího):
+
+   **3a · Kánon zdrojů (primární).** Udělej 2–4 cílené WebSearch dotazy omezené přes
+   `allowed_domains` na kanonické domény, ať kandidáti pocházejí rovnou od zdroje,
+   ne z agregátorů:
+   - oficiální (Tier 1): `anthropic.com`, `openai.com`, `blog.google`, `deepmind.google`,
+     `microsoft.com`, `learn.microsoft.com`
+   - média (Tier 2): `theverge.com`, `arstechnica.com`, `techcrunch.com`, `reuters.com`,
+     `wired.com`, `theregister.com`, `technologyreview.com`, `axios.com`, `cnbc.com`
+   Vždy se pokus pokrýt jádrová témata (pokud se u nich něco dělo): **Anthropic / Claude**,
+   **OpenAI / ChatGPT**, **Google / Gemini**, **Microsoft 365 Copilot**.
+
+   **3b · RSS feed M365 (bonus).** Jediný feed průchozí zdejší sítí — stáhni ho curlem
+   pro přesné pokrytí Microsoft 365 Copilot novinek:
+   `curl -sS --max-time 12 "https://www.microsoft.com/en-us/microsoft-365/blog/feed/" | head -c 100000`
+   Když selže, pokračuj bez něj (pokryje ho 3a).
+
+   **3c · Široký web search (doplněk).** Neomezené dotazy na 1–3 velké obecné zprávy
    (ostatní modely, coding agenti, regulace/EU, velký byznys — IPO/žaloby/akvizice,
-   bezpečnost a výzkum).
+   bezpečnost a výzkum) a na **křížové ověřování** kandidátů z 3a/3b.
+
+   ⚠️ Síťová poznámka: přímé stahování stránek a RSS feedů (curl/WebFetch) je zdejší
+   síťovou politikou **zablokované pro většinu domén** (CONNECT 403) — výjimkou je
+   microsoft.com výše. Neztrácej čas opakovanými pokusy; rešerši dělej přes WebSearch.
 4. Vyber zprávy podle **redakčních pravidel níže** (cíl 6–8, tichý den může mít méně).
    Označ právě **jednu** jako hlavní (`highlight: true`) — největší událost dne.
 5. Ke každé zprávě:
@@ -94,6 +113,10 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
 
 **Nepoužívej:** neznámé blogy, obsahové farmy / SEO weby, sociální sítě bez potvrzení,
 anonymní „leak" účty.
+
+**Do `sources` u zprávy piš vždy jen Tier 1/2 URL.** Tier 3 (agregátory, HN, denní
+přehledové blogy) nikdy necituj jako zdroj — slouží jen k objevení tématu; skutečný
+zdroj pak dohledej a ověř na Tier 1/2.
 
 ### Definice `verified: true`
 Zpráva je ověřená, **jen** když je potvrzená **≥2 nezávislými zdroji**, z toho alespoň
