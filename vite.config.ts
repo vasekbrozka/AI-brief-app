@@ -42,7 +42,9 @@ export default defineConfig({
         runtimeCaching: [
           {
             urlPattern: ({ url }) =>
-              url.hostname === 'api.github.com' && url.pathname.includes('/contents/data/briefs/'),
+              (url.hostname === 'raw.githubusercontent.com' ||
+                url.hostname === 'api.github.com') &&
+              url.pathname.includes('data/briefs/'),
             handler: 'NetworkFirst',
             options: {
               cacheName: 'briefs-data',
