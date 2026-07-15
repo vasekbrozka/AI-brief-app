@@ -107,14 +107,12 @@ export function SettingsScreen() {
       </SettingsGroup>
 
       <SettingsGroup title={t.sectionSources}>
-        <p className="setting-text">{t.sourcesIntro}</p>
         <p className="about-line">
           <strong>{t.sourcesOfficialLabel}</strong>: {t.sourcesOfficialList}
         </p>
         <p className="about-line">
           <strong>{t.sourcesMediaLabel}</strong>: {t.sourcesMediaList}
         </p>
-        <p className="setting-hint">{t.sourcesVerifiedNote}</p>
       </SettingsGroup>
 
       <SettingsGroup title={t.sectionReleaseNotes}>

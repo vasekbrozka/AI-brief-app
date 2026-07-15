@@ -47,12 +47,10 @@ export interface UIStrings {
   installShareHint: string;
   howItWorksParagraphs: string[];
   sectionSources: string;
-  sourcesIntro: string;
   sourcesOfficialLabel: string;
   sourcesOfficialList: string;
   sourcesMediaLabel: string;
   sourcesMediaList: string;
-  sourcesVerifiedNote: string;
   sectionReleaseNotes: string;
   releaseAddedLabel: string;
   releaseImprovedLabel: string;
@@ -136,16 +134,12 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Každé ráno, ještě než vstaneš, projde AIspresso dění ve světě AI za posledních 24 hodin. Čerpá přitom z pevného okruhu důvěryhodných zdrojů — oficiálních blogů AI firem a předních médií, přes jejich RSS kanály a cílené vyhledávání. Z desítek zpráv vybere jen těch pár, které opravdu stojí za tvůj čas. Každou porovná s více nezávislými zdroji. Co ověřit nejde, poctivě označí. Když se zrovna nic zajímavého neděje, uvidíš méně obsahu. Výsledek na tebe čeká u ranní kávy.',
     ],
     sectionSources: 'Zdroje',
-    sourcesIntro:
-      'Brief vzniká z pevného okruhu ověřených zdrojů. Agregátory a neznámé weby se jako zdroj nikdy necitují.',
     sourcesOfficialLabel: 'Oficiální',
     sourcesOfficialList:
       'Anthropic · OpenAI · Google & DeepMind · Microsoft · NVIDIA · Meta AI · Hugging Face · Mistral',
     sourcesMediaLabel: 'Média',
     sourcesMediaList:
       'Reuters · AP · Bloomberg · The Verge · Ars Technica · TechCrunch · Axios · Wired · The Register · MIT Technology Review · CNBC',
-    sourcesVerifiedNote:
-      'Zelené „Ověřeno“ znamená potvrzení nejméně dvěma nezávislými zdroji.',
     sectionReleaseNotes: 'Poznámky k aktualizaci',
     releaseAddedLabel: 'Přidáno',
     releaseImprovedLabel: 'Vylepšeno',
@@ -239,16 +233,12 @@ export const STRINGS: Record<Lang, UIStrings> = {
       "Every morning, before you get up, AIspresso reviews the last 24 hours in the world of AI. It draws on a fixed circle of trusted sources — official AI company blogs and leading media outlets, via their RSS feeds and targeted search. Out of dozens of stories, it picks only the few that are truly worth your time. It cross-checks each one against multiple independent sources. Whatever can't be verified, it labels honestly. When nothing much is happening, you'll simply see less. The result is waiting for you with your morning coffee.",
     ],
     sectionSources: 'Sources',
-    sourcesIntro:
-      'The brief is built from a fixed circle of vetted sources. Aggregators and unknown sites are never cited as sources.',
     sourcesOfficialLabel: 'Official',
     sourcesOfficialList:
       'Anthropic · OpenAI · Google & DeepMind · Microsoft · NVIDIA · Meta AI · Hugging Face · Mistral',
     sourcesMediaLabel: 'Media',
     sourcesMediaList:
       'Reuters · AP · Bloomberg · The Verge · Ars Technica · TechCrunch · Axios · Wired · The Register · MIT Technology Review · CNBC',
-    sourcesVerifiedNote:
-      'The green “Verified” badge means confirmation by at least two independent sources.',
     sectionReleaseNotes: 'Release notes',
     releaseAddedLabel: 'Added',
     releaseImprovedLabel: 'Improved',
