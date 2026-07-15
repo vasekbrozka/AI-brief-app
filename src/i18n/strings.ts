@@ -92,9 +92,9 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tabArchive: 'Archiv',
     tabSettings: 'Nastavení',
 
-    brewMorning: 'Čerstvě uvařená',
-    brewAfternoon: 'Ještě se dá',
-    brewEvening: 'Dozrála k dokonalosti',
+    brewMorning: 'Ranní shot',
+    brewAfternoon: 'Odpolední sedlina',
+    brewEvening: 'Večerní výplach',
     gistLabel: 'Zristrettováno',
     todayEmptyTitle: 'Zatím žádný brief',
     todayEmptyBody: 'Dnešní přehled se ještě připravuje. Zkus to prosím později.',
@@ -147,7 +147,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseAdded: [
       'Rešerše čerpá z pevného okruhu důvěryhodných zdrojů (RSS kanály a cílené vyhledávání)',
       'Širší okruh zdrojů — AP, Bloomberg, NVIDIA, Meta AI, Hugging Face a Mistral',
-      'Nadpis se mění podle denní doby — ráno čerstvě uvařeno, večer už káva chladne',
+      'Nadpis se mění podle denní doby — Ranní shot, Odpolední sedlina, Večerní výplach',
       'Sekce Zdroje a Poznámky k aktualizaci v Nastavení',
     ],
     releaseImproved: [
@@ -191,9 +191,9 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tabArchive: 'Archive',
     tabSettings: 'Settings',
 
-    brewMorning: 'Freshly brewed',
-    brewAfternoon: 'Still drinkable',
-    brewEvening: 'Aged to perfection',
+    brewMorning: 'Morning Shot',
+    brewAfternoon: 'Afternoon Grounds',
+    brewEvening: 'Evening Rinse',
     gistLabel: 'Ristrettified',
     todayEmptyTitle: 'No brief yet',
     todayEmptyBody: "Today's brief is still being prepared. Please check back later.",
@@ -246,7 +246,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseAdded: [
       'Research draws on a fixed circle of trusted sources (RSS feeds and targeted search)',
       'A wider circle of sources — AP, Bloomberg, NVIDIA, Meta AI, Hugging Face and Mistral',
-      'The title changes with the time of day — freshly brewed at dawn, cooling by evening',
+      'The title changes with the time of day — Morning Shot, Afternoon Grounds, Evening Rinse',
       'Sources and Release notes sections in Settings',
     ],
     releaseImproved: [
