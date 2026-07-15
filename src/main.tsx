@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { registerSW } from 'virtual:pwa-register';
 import { SettingsProvider } from './providers/SettingsProvider';
 import { ReadProvider } from './providers/ReadProvider';
+import { clearBadge, ensureSubscribed } from './lib/push';
 import { App } from './App';
 import './index.css';
 
@@ -19,7 +20,15 @@ registerSW({
     document.addEventListener('visibilitychange', () => {
       if (document.visibilityState === 'visible') check();
     });
+    // Push subscriptions on iOS can silently expire — re-affirm on launch.
+    ensureSubscribed();
   },
+});
+
+// The morning push sets a badge on the app icon; opening the app clears it.
+clearBadge();
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') clearBadge();
 });
 
 const rootEl = document.getElementById('root');

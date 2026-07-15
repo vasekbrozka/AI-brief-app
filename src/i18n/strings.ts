@@ -81,6 +81,12 @@ export interface UIStrings {
   hideReadLabel: string;
   hideReadHint: string;
   clearReadLabel: string;
+
+  // Notifications
+  sectionNotifications: string;
+  notifyLabel: string;
+  notifyHint: string;
+  notifyUnsupported: string;
 }
 
 export const STRINGS: Record<Lang, UIStrings> = {
@@ -148,6 +154,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Rešerše čerpá z pevného okruhu důvěryhodných zdrojů (RSS kanály a cílené vyhledávání)',
       'Širší okruh zdrojů — AP, Bloomberg, NVIDIA, Meta AI, Hugging Face a Mistral',
       'Nadpis se mění podle denní doby — Ranní shot, Odpolední sedlina, Večerní výplach',
+      'Ranní upozornění s odznakem na ikoně — zapíná se v Nastavení',
       'Sekce Zdroje a Poznámky k aktualizaci v Nastavení',
     ],
     releaseImproved: [
@@ -182,6 +189,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     hideReadLabel: 'Skrýt přečtené',
     hideReadHint: 'Přečtené zprávy se nebudou zobrazovat v přehledu.',
     clearReadLabel: 'Označit vše jako nepřečtené',
+
+    sectionNotifications: 'Upozornění',
+    notifyLabel: 'Ranní upozornění',
+    notifyHint: 'Jedna notifikace denně, jakmile je čerstvý brief hotový.',
+    notifyUnsupported: 'Dostupné po přidání aplikace na plochu iPhonu.',
   },
   en: {
     appName: 'AIspresso',
@@ -247,6 +259,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Research draws on a fixed circle of trusted sources (RSS feeds and targeted search)',
       'A wider circle of sources — AP, Bloomberg, NVIDIA, Meta AI, Hugging Face and Mistral',
       'The title changes with the time of day — Morning Shot, Afternoon Grounds, Evening Rinse',
+      'A morning alert with an app-icon badge — enable it in Settings',
       'Sources and Release notes sections in Settings',
     ],
     releaseImproved: [
@@ -281,5 +294,10 @@ export const STRINGS: Record<Lang, UIStrings> = {
     hideReadLabel: 'Hide read items',
     hideReadHint: "Read stories won't appear in the brief.",
     clearReadLabel: 'Mark all as unread',
+
+    sectionNotifications: 'Notifications',
+    notifyLabel: 'Morning alert',
+    notifyHint: 'One notification a day, as soon as the fresh brief is ready.',
+    notifyUnsupported: 'Available once the app is added to your iPhone Home Screen.',
   },
 };

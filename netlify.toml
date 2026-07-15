@@ -18,6 +18,11 @@
 [build.environment]
   NODE_VERSION = "22"
 
+# Serverless functions: the push-notification subscribe endpoint and the
+# scheduled morning sender (see netlify/functions/).
+[functions]
+  directory = "netlify/functions"
+
 # SPA fallback — any unknown path renders the app shell.
 # (Real files such as /sw.js and /assets/* are served directly. Brief content
 # is fetched from the GitHub Contents API, not from this site — see

@@ -6,6 +6,7 @@ import type { Lang } from '../lib/types';
 import type { Theme } from '../providers/SettingsProvider';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
+import { useNotifications } from '../hooks/useNotifications';
 
 const APP_VERSION = '1.1';
 
@@ -22,6 +23,7 @@ export function SettingsScreen() {
   const { t, lang, setLang, theme, setTheme, hideRead, setHideRead, showCategories, setShowCategories } =
     useSettings();
   const { clear, readCount } = useRead();
+  const notifications = useNotifications();
 
   const langOptions: { value: Lang; label: string }[] = [
     { value: 'cs', label: 'Čeština' },
@@ -83,6 +85,24 @@ export function SettingsScreen() {
         >
           {t.clearReadLabel}
         </button>
+      </SettingsGroup>
+
+      <SettingsGroup title={t.sectionNotifications}>
+        {notifications.supported ? (
+          <div className="setting-switch">
+            <div className="setting-switch__text">
+              <span className="setting-switch__label">{t.notifyLabel}</span>
+              <span className="setting-switch__hint">{t.notifyHint}</span>
+            </div>
+            <Switch
+              checked={notifications.enabled}
+              onChange={notifications.toggle}
+              ariaLabel={t.notifyLabel}
+            />
+          </div>
+        ) : (
+          <p className="setting-hint">{t.notifyUnsupported}</p>
+        )}
       </SettingsGroup>
 
       <SettingsGroup title={t.sectionInstall}>

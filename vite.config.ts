@@ -36,6 +36,9 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2}'],
+        // Push + notification-click handlers live in a separate script so we
+        // can keep using the zero-config generated service worker.
+        importScripts: ['push-sw.js'],
         // Briefs are fetched from the GitHub Contents API (see src/lib/briefs.ts),
         // not bundled — daily content updates stay off Netlify's deploy bill.
         // Keep the freshly crawled briefs up to date, but still available offline.
