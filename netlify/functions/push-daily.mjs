@@ -10,12 +10,6 @@ const VAPID_PUBLIC_KEY =
   'BDM3FG_HdmoXa_wlZPrbcvGW99d5OodcIdAjsZ3LtPBtuOtFpVQN41m2LltNbZfjCFuCGuA51mffSdusGTnRkA0';
 const VAPID_SUBJECT = 'https://aispresso.netlify.app';
 
-function novinky(n) {
-  if (n === 1) return '1 novinka';
-  if (n >= 2 && n <= 4) return `${n} novinky`;
-  return `${n} novinek`;
-}
-
 export default async () => {
   const privateKey = process.env.VAPID_PRIVATE_KEY;
   if (!privateKey) {
@@ -49,8 +43,8 @@ export default async () => {
 
   webpush.setVapidDetails(VAPID_SUBJECT, VAPID_PUBLIC_KEY, privateKey);
   const payload = JSON.stringify({
-    title: '☕ Ranní shot je připravený',
-    body: `${latest.headline?.cs ?? 'Dnešní brief'} · ${novinky(latest.itemCount ?? 0)}`,
+    title: 'Tvůj ranní shot je připraven',
+    body: 'Lokni si ☕️',
     badge: 1,
   });
 
