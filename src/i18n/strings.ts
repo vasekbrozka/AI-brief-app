@@ -46,6 +46,20 @@ export interface UIStrings {
   installSteps: string[];
   installShareHint: string;
   howItWorksParagraphs: string[];
+  sectionSources: string;
+  sourcesIntro: string;
+  sourcesOfficialLabel: string;
+  sourcesOfficialList: string;
+  sourcesMediaLabel: string;
+  sourcesMediaList: string;
+  sourcesVerifiedNote: string;
+  sectionReleaseNotes: string;
+  releaseAddedLabel: string;
+  releaseImprovedLabel: string;
+  releaseFixedLabel: string;
+  releaseAdded: string[];
+  releaseImproved: string[];
+  releaseFixed: string[];
   aboutTagline: string;
   versionLabel: string;
   modelLabel: string;
@@ -119,7 +133,36 @@ export const STRINGS: Record<Lang, UIStrings> = {
     ],
     installShareHint: 'Funguje pouze v Safari na iPhonu nebo iPadu.',
     howItWorksParagraphs: [
-      'Každé ráno, ještě než vstaneš, projde AIspresso dění ve světě AI za posledních 24 hodin. Z desítek zpráv vybere jen těch pár, které opravdu stojí za tvůj čas. Každou porovná s více nezávislými zdroji. Co ověřit nejde, poctivě označí. Když se zrovna nic zajímavého neděje, uvidíš méně obsahu. Výsledek na tebe čeká u ranní kávy.',
+      'Každé ráno, ještě než vstaneš, projde AIspresso dění ve světě AI za posledních 24 hodin. Čerpá přitom z pevného okruhu důvěryhodných zdrojů — oficiálních blogů AI firem a předních médií, přes jejich RSS kanály a cílené vyhledávání. Z desítek zpráv vybere jen těch pár, které opravdu stojí za tvůj čas. Každou porovná s více nezávislými zdroji. Co ověřit nejde, poctivě označí. Když se zrovna nic zajímavého neděje, uvidíš méně obsahu. Výsledek na tebe čeká u ranní kávy.',
+    ],
+    sectionSources: 'Zdroje',
+    sourcesIntro:
+      'Brief vzniká z pevného okruhu ověřených zdrojů. Agregátory a neznámé weby se jako zdroj nikdy necitují.',
+    sourcesOfficialLabel: 'Oficiální',
+    sourcesOfficialList: 'Anthropic · OpenAI · Google & DeepMind · Microsoft',
+    sourcesMediaLabel: 'Média',
+    sourcesMediaList:
+      'Reuters · The Verge · Ars Technica · TechCrunch · Axios · Wired · The Register · MIT Technology Review · CNBC',
+    sourcesVerifiedNote:
+      'Zelené „Ověřeno“ znamená potvrzení nejméně dvěma nezávislými zdroji.',
+    sectionReleaseNotes: 'Poznámky k aktualizaci',
+    releaseAddedLabel: 'Přidáno',
+    releaseImprovedLabel: 'Vylepšeno',
+    releaseFixedLabel: 'Opraveno',
+    releaseAdded: [
+      'Rešerše čerpá z pevného okruhu důvěryhodných zdrojů (RSS kanály a cílené vyhledávání)',
+      'Nadpis se mění podle denní doby — ráno čerstvě uvařeno, večer už káva chladne',
+      'Sekce Zdroje a Poznámky k aktualizaci v Nastavení',
+    ],
+    releaseImproved: [
+      'Lišta při rolování ukazuje datum a čas poslední aktualizace',
+      'Nový brief doputuje do appky do minuty po vydání',
+      'Agregátory se už nikdy neobjeví mezi zdroji zpráv',
+    ],
+    releaseFixed: [
+      'Čas „Aktualizováno“ ukazoval pořád 5:00',
+      'Připnutá appka na iPhonu se sama neaktualizovala na novou verzi',
+      'Ikona archivu byla vyšší než ostatní ikony v liště',
     ],
     aboutTagline: 'Novinky ze světa AI',
     versionLabel: 'Verze',
@@ -190,7 +233,36 @@ export const STRINGS: Record<Lang, UIStrings> = {
     ],
     installShareHint: 'Works only in Safari on iPhone or iPad.',
     howItWorksParagraphs: [
-      "Every morning, before you get up, AIspresso reviews the last 24 hours in the world of AI. Out of dozens of stories, it picks only the few that are truly worth your time. It cross-checks each one against multiple independent sources. Whatever can't be verified, it labels honestly. When nothing much is happening, you'll simply see less. The result is waiting for you with your morning coffee.",
+      "Every morning, before you get up, AIspresso reviews the last 24 hours in the world of AI. It draws on a fixed circle of trusted sources — official AI company blogs and leading media outlets, via their RSS feeds and targeted search. Out of dozens of stories, it picks only the few that are truly worth your time. It cross-checks each one against multiple independent sources. Whatever can't be verified, it labels honestly. When nothing much is happening, you'll simply see less. The result is waiting for you with your morning coffee.",
+    ],
+    sectionSources: 'Sources',
+    sourcesIntro:
+      'The brief is built from a fixed circle of vetted sources. Aggregators and unknown sites are never cited as sources.',
+    sourcesOfficialLabel: 'Official',
+    sourcesOfficialList: 'Anthropic · OpenAI · Google & DeepMind · Microsoft',
+    sourcesMediaLabel: 'Media',
+    sourcesMediaList:
+      'Reuters · The Verge · Ars Technica · TechCrunch · Axios · Wired · The Register · MIT Technology Review · CNBC',
+    sourcesVerifiedNote:
+      'The green “Verified” badge means confirmation by at least two independent sources.',
+    sectionReleaseNotes: 'Release notes',
+    releaseAddedLabel: 'Added',
+    releaseImprovedLabel: 'Improved',
+    releaseFixedLabel: 'Fixed',
+    releaseAdded: [
+      'Research draws on a fixed circle of trusted sources (RSS feeds and targeted search)',
+      'The title changes with the time of day — freshly brewed at dawn, cooling by evening',
+      'Sources and Release notes sections in Settings',
+    ],
+    releaseImproved: [
+      'The bar shown while scrolling displays the date and last-update time',
+      'A new brief reaches the app within a minute of publishing',
+      'Aggregators can no longer appear among story sources',
+    ],
+    releaseFixed: [
+      'The “Updated” time was stuck at 5:00',
+      "The pinned iPhone app wasn't picking up new versions on its own",
+      'The archive icon was taller than its tab-bar neighbours',
     ],
     aboutTagline: 'The world of AI',
     versionLabel: 'Version',

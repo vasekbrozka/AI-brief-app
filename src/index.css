@@ -800,6 +800,34 @@ svg {
   color: var(--text);
 }
 
+/* ---- Release notes ------------------------------------------------------- */
+.release-version {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.release-label {
+  margin-top: 14px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+
+.release-list {
+  margin: 6px 0 0;
+  padding-left: 18px;
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.release-list li + li {
+  margin-top: 4px;
+}
+
 .app-signature {
   margin-top: 26px;
   text-align: center;

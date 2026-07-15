@@ -7,7 +7,7 @@ import type { Theme } from '../providers/SettingsProvider';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 
-const APP_VERSION = '1.0';
+const APP_VERSION = '1.1';
 
 function SettingsGroup({ title, children }: { title: string; children: ReactNode }) {
   return (
@@ -104,6 +104,41 @@ export function SettingsScreen() {
             {paragraph}
           </p>
         ))}
+      </SettingsGroup>
+
+      <SettingsGroup title={t.sectionSources}>
+        <p className="setting-text">{t.sourcesIntro}</p>
+        <p className="about-line">
+          <strong>{t.sourcesOfficialLabel}</strong>: {t.sourcesOfficialList}
+        </p>
+        <p className="about-line">
+          <strong>{t.sourcesMediaLabel}</strong>: {t.sourcesMediaList}
+        </p>
+        <p className="setting-hint">{t.sourcesVerifiedNote}</p>
+      </SettingsGroup>
+
+      <SettingsGroup title={t.sectionReleaseNotes}>
+        <p className="release-version">
+          {t.versionLabel} {APP_VERSION}
+        </p>
+        <p className="release-label">{t.releaseAddedLabel}</p>
+        <ul className="release-list">
+          {t.releaseAdded.map((line, i) => (
+            <li key={i}>{line}</li>
+          ))}
+        </ul>
+        <p className="release-label">{t.releaseImprovedLabel}</p>
+        <ul className="release-list">
+          {t.releaseImproved.map((line, i) => (
+            <li key={i}>{line}</li>
+          ))}
+        </ul>
+        <p className="release-label">{t.releaseFixedLabel}</p>
+        <ul className="release-list">
+          {t.releaseFixed.map((line, i) => (
+            <li key={i}>{line}</li>
+          ))}
+        </ul>
       </SettingsGroup>
 
       <SettingsGroup title={t.sectionAbout}>
