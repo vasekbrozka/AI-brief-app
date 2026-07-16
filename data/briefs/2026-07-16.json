@@ -6,8 +6,8 @@
     "en": "China reins in AI companions as the world awaits Gemini 3.5"
   },
   "intro": {
-    "cs": "Úterý bylo ve světě AI nezvykle klidné — většina „novinek“ v oběhu byla recyklovaná. Podstatné jsou dvě věci: v Číně začala platit přísná pravidla pro polidštěné AI služby a čtvrtek má přinést dlouho očekávaný Gemini 3.5 Pro.",
-    "en": "Tuesday was unusually quiet in AI — most of the 'news' in circulation was recycled. Two things matter: China's strict rules for human-like AI services took effect, and Thursday is expected to bring the long-awaited Gemini 3.5 Pro."
+    "cs": "Ve světě AI bylo v posledních 24 hodinách nezvykle klidno — většina „novinek“ v oběhu byla recyklovaná. Podstatné jsou dvě věci: v Číně začala platit přísná pravidla pro polidštěné AI služby a na 17. července se chystá dlouho očekávaný Gemini 3.5 Pro.",
+    "en": "The last 24 hours in AI were unusually quiet — most of the 'news' in circulation was recycled. Two things matter: China's strict rules for human-like AI services took effect, and the long-awaited Gemini 3.5 Pro is expected on July 17."
   },
   "items": [
     {
@@ -34,12 +34,12 @@
       "category": "models",
       "verified": false,
       "title": {
-        "cs": "Gemini 3.5 Pro má podle zpráv vyjít ve čtvrtek",
-        "en": "Gemini 3.5 Pro reportedly lands on Thursday"
+        "cs": "Gemini 3.5 Pro má podle zpráv vyjít 17. července",
+        "en": "Gemini 3.5 Pro reportedly lands July 17"
       },
       "summary": {
-        "cs": "Vlajkový model Gemini 3.5 Pro má podle zpráv vyjít už ve čtvrtek 17. července, po kompletní přestavbě. Google ale zatím nepotvrdil datum, parametry ani cenu — v oficiální dokumentaci model nefiguruje. Pokud termín platí, půjde o největší událost týdne ve světě AI.",
-        "en": "Google's flagship Gemini 3.5 Pro is reportedly set to launch this Thursday, July 17, after a full rebuild. Google hasn't confirmed the date, specs, or pricing — the model doesn't yet appear in official documentation. If the date holds, it will be the week's biggest AI event."
+        "cs": "Vlajkový model Gemini 3.5 Pro má podle zpráv vyjít 17. července, po kompletní přestavbě. Google ale zatím nepotvrdil datum, parametry ani cenu — v oficiální dokumentaci model nefiguruje. Pokud termín platí, půjde o největší událost týdne ve světě AI.",
+        "en": "Google's flagship Gemini 3.5 Pro is reportedly set to launch on July 17, after a full rebuild. Google hasn't confirmed the date, specs, or pricing — the model doesn't yet appear in official documentation. If the date holds, it will be the week's biggest AI event."
       },
       "sources": [
         { "name": "The Tech Times", "url": "https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm" }

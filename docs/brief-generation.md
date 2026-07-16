@@ -178,6 +178,11 @@ to se počítá jako jeden zdroj informace.
 ## Guardrails
 
 - **Nikdy si nevymýšlej fakta ani URL.** Každá zpráva musí mít dohledatelný zdroj.
+- **Nehádej dny v týdnu.** Mapování datum→den si jazykový model plete. Appka už u každého
+  briefu ukazuje celé datum, takže v `intro`, `headline`, `title` i `summary` **nepiš názvy
+  dnů** (pondělí, úterý…). Použij konkrétní datum („17. července") nebo relativní výraz
+  vztažený k dnešku („za posledních 24 h", „včera", „dnes"). Když den v týdnu opravdu
+  potřebuješ, **spočítej** ho příkazem (`date -u -d 2026-07-17 +%A`), nikdy neodhaduj.
 - Drž se schématu 1:1 (klíče, kategorie, dvojjazyčnost).
 - Tón: věcný, jako když ti to shrne chytrý kolega. Žádný marketing.
 - Když rešerše nebo push selže, jasně to ohlas a **nezanechávej rozbitý JSON**.
