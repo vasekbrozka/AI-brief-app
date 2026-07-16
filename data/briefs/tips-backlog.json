@@ -78,6 +78,44 @@
       "used": null
     },
     {
+      "slug": "tip-gemini-spark-macos",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "Gemini Spark umí na macOS ovládat plochu i soubory",
+        "en": "Gemini Spark can now automate your Mac"
+      },
+      "summary": {
+        "cs": "Gemini Spark běží nově na macOS — umí automatizovat úkoly napříč soubory na ploše, zadat Macu složitější práci na dálku a propojit se s aplikacemi jako Canva nebo Dropbox. Google to spustil v červnu.",
+        "en": "Gemini Spark now runs on macOS — it can automate tasks across your desktop files, hand your Mac complex work remotely, and connect to apps like Canva and Dropbox. Google launched it in June."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/" }
+      ],
+      "added": "2026-07-16",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-live-translate",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "Gemini 3.5 překládá řeč naživo přes 70 jazyků",
+        "en": "Gemini 3.5 Live Translate covers 70+ languages"
+      },
+      "summary": {
+        "cs": "Nový audio model Gemini 3.5 Live Translate převádí řeč na řeč téměř v reálném čase, sám rozpozná přes 70 jazyků a zachová přirozenou intonaci mluvčího — hodí se na vícejazyčné hovory, schůzky i cesty. Google to představil v červnu.",
+        "en": "The new Gemini 3.5 Live Translate audio model does near-real-time speech-to-speech translation, auto-detects 70+ languages, and preserves the speaker's natural intonation — handy for multilingual calls, meetings, and travel. Google unveiled it in June."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/" }
+      ],
+      "added": "2026-07-16",
+      "used": null
+    },
+    {
       "slug": "tip-copilot-word-chat-history",
       "category": "tools",
       "theme": "copilot",

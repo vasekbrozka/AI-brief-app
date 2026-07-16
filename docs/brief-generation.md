@@ -90,8 +90,12 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
     (např. „Microsoft to nasadil v červnu…") — nikdy tip nevydávej za breaking news.
   - Tip má **vždy `category: "tools"`** — jeho domovem je filtr „Nástroje", podle toho se pozná.
     **V titulku nikdy nepiš slovo „tip"** (žádný prefix); titulek je normální věta jako u zpráv.
-  - Otaguj tip v backlogu polem `theme` (`claude` · `chatgpt` · `gemini` · `copilot` · `other`)
-    a **střídej témata** — nedávej víc tipů o jednom nástroji za sebou, když jde vybrat pestřeji.
+  - Otaguj tip v backlogu polem `theme` (`claude` · `chatgpt` · `gemini` · `copilot` · `other`).
+  - **Rovnoměrné zastoupení napříč nástroji.** Za měsíc má mít každý jádrový nástroj (claude,
+    chatgpt, gemini, copilot) zhruba stejně tipů. Při výběru dej **přednost tématu, které v
+    briefech nejdéle nebylo** — spočítej u každého tématu nejnovější `used` datum v backlogu;
+    téma nikdy nezveřejněné jde první, pak od nejstaršího. V jednom briefu **stejné téma
+    neopakuj**, pokud je z čeho vybírat.
   - Tipy z **oficiálních release notes / first-party** (Tier 1) jsou `verified: true` — je to
     primární pravda výrobce o vlastním produktu.
   - Tip **není nikdy** hlavní zpráva (`highlight`) — highlight je vždy skutečná zpráva dne.
@@ -112,6 +116,9 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
   - **Publish:** v tichý den ber tipy z fronty (`used: null`), nejstarší `added` první; po
     zveřejnění (zkopíruj do briefu s id `<datum>-<slug>`) jim v backlogu nastav `used` na dnešek.
   - **Prune:** použité (`used`) starší ~60 dní zahoď; nepoužité kandidáty starší ~90 dní taky.
+  - **Drž frontu pestrou:** při bankování cíleně hledej funkce z podzastoupených témat; když má
+    některý jádrový nástroj (claude/chatgpt/gemini/copilot) **0 čekajících** kandidátů, prioritně
+    mu jednoho najdi. Cíl: z každého jádrového nástroje aspoň jeden čekající tip ve frontě.
 
 ### 3 · Přetlak (je toho moc)
 - **Tvrdý strop 10 zpráv.** Přebytek se záměrně zahodí — kurátorský výběr je hodnota briefu.
