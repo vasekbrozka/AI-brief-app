@@ -64,7 +64,7 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
 7. Aktualizuj `data/briefs/index.json`: nastav `updated` na **aktuální čas
    generování** (`date -u +%Y-%m-%dT%H:%M:%SZ`) — appka ho zobrazuje jako „Aktualizováno" —
    přidej nový záznam **navrch**, nech jen **3 nejnovější dny** a **starší denní soubory
-   `YYYY-MM-DD.json` smaž** (soubor `tips-log.json` NEMAŽ — je to trvalý ledger tipů).
+   `YYYY-MM-DD.json` smaž** (soubor `tips-backlog.json` NEMAŽ — je to trvalý backlog tipů).
 8. **Zvaliduj**, že oba soubory jsou platný JSON (`JSON.parse`).
 9. `git add -A` → `git commit -m "brief: <datum>"` → `git push` na produkční větev.
    Když push selže kvůli novým commitům na originu (non-fast-forward), udělej
@@ -80,19 +80,18 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
 - **Nikdy nepřidávej vatu.** Kvalita > počet: radši 3–5 kvalitních zpráv než 8 nafouknutých.
 - Nejdřív rozšiř záběr: obecné AI dění, sousední témata, významná **pokračování**
   dřívějších událostí.
-- **Doplň tipy (evergreen novinky).** Když je čerstvých 24h zpráv málo, přidej **1–4 „tipy"** —
-  užitečné, ale ne nutně horké funkce napříč jádrovými nástroji (Claude, ChatGPT, Gemini,
-  M365 Copilot) z **posledních ~30 dní** (dnes − 30). Typicky nové funkce, které si uživatel
-  může hned vyzkoušet. Zdroj: oficiální release notes / blogy nástrojů (výborný a zdejší sítí
-  průchozí je M365 feed z kroku 3b).
+- **Doplň tipy (evergreen novinky) z backlogu.** Když je čerstvých 24h zpráv málo, doplň brief
+  „tipy" — užitečné, ale ne nutně horké funkce napříč jádrovými nástroji (Claude, ChatGPT,
+  Gemini, M365 Copilot) z **posledních ~30 dní**. Bereš je z fronty v `tips-backlog.json`
+  (viz pravidlo 2).
+  - **Kolik:** doplň tak, aby brief měl aspoň ~5 položek. **Počet tipů = 5 − počet čerstvých
+    zpráv, strop 3** (0–2 zprávy → 3 tipy · 3 → 2 · 4 → 1 · 5+ → 0 — do bohatého dne tipy nepatří).
   - Tip má id `<datum>-tip-<slug>` a v `summary` **poctivě uveď, že nejde o dnešní novinku**
-    (např. „Microsoft to nasadil v červnu…", „nově v Excelu…") — nikdy tip nevydávej za breaking news.
-  - Tipy z **oficiálních release notes** (Tier 1) jsou `verified: true` — je to primární pravda
-    výrobce o vlastním produktu; ideálně cituj release notes + „What's new" blog.
-  - Tip **není nikdy** hlavní zpráva (`highlight`). Highlight = vždy skutečná zpráva dne;
-    tipy jsou doplněk, ne náhrada za čerstvé zprávy v rušný den.
-  - **Neopakuj tipy** — viz ledger v pravidle 2. V `intro` klidný den s tipy poctivě přiznej
-    (např. „Klidný den doplňujeme tipy z posledních týdnů.").
+    (např. „Microsoft to nasadil v červnu…") — nikdy tip nevydávej za breaking news.
+  - Tipy z **oficiálních release notes / first-party** (Tier 1) jsou `verified: true` — je to
+    primární pravda výrobce o vlastním produktu.
+  - Tip **není nikdy** hlavní zpráva (`highlight`) — highlight je vždy skutečná zpráva dne.
+  - V `intro` klidný den s tipy poctivě přiznej („Klidný den doplňujeme tipy z posledních týdnů.").
 - Když je i s tipy opravdu ticho, napiš to poctivě do `intro` a dej méně zpráv. Nikdy si nevymýšlej.
 
 ### 2 · Duplicita s předchozími dny
@@ -101,10 +100,14 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
   zařaď, ale formuluj jako **update**, ne jako novou událost. Slug odliš
   (`...-update`, `...-results`).
 - Stejná událost z více zdrojů = **jedna** položka s více zdroji.
-- **Tipy — ledger.** Repo drží jen 3 dny briefů, proto se použité tipy evidují zvlášť v
-  `data/briefs/tips-log.json`. Před výběrem tipů ho přečti a **přeskoč slugy, které tam už jsou**.
-  Po zapsání briefu do ledgeru **připiš** nové tipy (`{"slug": "tip-…", "date": "<datum>"}`) a
-  nech jen **posledních ~60 záznamů** (starší zahoď). Soubor je jen pro generování — appka ho nečte.
+- **Tipy — backlog.** Kandidáti i historie tipů žijí v `data/briefs/tips-backlog.json`
+  (appka ho nečte). Pole `tips[]`, každý má `used`: `null` = čeká ve frontě, `"YYYY-MM-DD"` =
+  už zveřejněno. Práce s ním:
+  - **Bank:** když při rešerši (i v rušný den) narazíš na dobrou evergreen funkci, přidej ji do
+    backlogu jako `used: null` — pokud tam slug ještě není. Fronta se tím plní do zásoby.
+  - **Publish:** v tichý den ber tipy z fronty (`used: null`), nejstarší `added` první; po
+    zveřejnění (zkopíruj do briefu s id `<datum>-<slug>`) jim v backlogu nastav `used` na dnešek.
+  - **Prune:** použité (`used`) starší ~60 dní zahoď; nepoužité kandidáty starší ~90 dní taky.
 
 ### 3 · Přetlak (je toho moc)
 - **Tvrdý strop 10 zpráv.** Přebytek se záměrně zahodí — kurátorský výběr je hodnota briefu.
@@ -192,12 +195,21 @@ to se počítá jako jeden zdroj informace.
 }
 ```
 
-## Schéma — `data/briefs/tips-log.json` (jen pro dedup tipů, appka nečte)
+## Schéma — `data/briefs/tips-backlog.json` (fronta + historie tipů; appka ho NEČTE)
 
 ```jsonc
 {
-  "used": [
-    { "slug": "tip-copilot-excel-skills", "date": "2026-07-16" }   // max ~60, nech nejnovější
+  "tips": [
+    {
+      "slug": "tip-claude-cowork-web-mobile",   // bez datumu, stabilní klíč
+      "category": "tools",
+      "verified": true,
+      "title":   { "cs": "...", "en": "..." },
+      "summary": { "cs": "...", "en": "..." },   // ~35 slov, poctivé rámování
+      "sources": [ { "name": "Anthropic", "url": "https://..." } ],
+      "added": "2026-07-16",                     // kdy objeveno
+      "used":  null                              // null = ve frontě, "YYYY-MM-DD" = zveřejněno
+    }
   ]
 }
 ```

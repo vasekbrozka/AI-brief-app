@@ -1,0 +1,134 @@
+{
+  "tips": [
+    {
+      "slug": "tip-claude-cowork-web-mobile",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Claude Cowork běží nově i na webu a mobilu",
+        "en": "Claude Cowork now runs on web and mobile"
+      },
+      "summary": {
+        "cs": "Claude Cowork — režim pro delší samostatnou práci — běží nově i na webu a mobilu, nejen na desktopu. Sezení a soubory se ukládají do účtu, takže práce pokračuje i po zavření notebooku a naplánované úlohy běží bez zapnutého zařízení.",
+        "en": "Claude Cowork — the mode for longer autonomous work — now runs on web and mobile, not just desktop. Sessions and files are saved to your account, so work continues after you close your laptop and scheduled tasks run with no device online."
+      },
+      "sources": [
+        { "name": "Anthropic", "url": "https://www.anthropic.com/product/claude-cowork" }
+      ],
+      "added": "2026-07-16",
+      "used": null
+    },
+    {
+      "slug": "tip-claude-reflect",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Claude umí ohlédnutí za tím, jak ho používáš",
+        "en": "Claude can now reflect on how you use it"
+      },
+      "summary": {
+        "cs": "Nová beta funkce Reflect ukáže souhrn toho, jak Claude používáš — hlavní témata, vzorce a typy úloh za poslední 1 až 12 měsíců. Dostupné pro Free, Pro i Max, když máš zapnutou paměť.",
+        "en": "The new Reflect beta shows a summary of how you use Claude — key topics, patterns, and the kinds of tasks you work through over the past 1 to 12 months. Available to Free, Pro, and Max users with memory turned on."
+      },
+      "sources": [
+        { "name": "Anthropic", "url": "https://www.anthropic.com/news/reflect-with-claude" }
+      ],
+      "added": "2026-07-16",
+      "used": null
+    },
+    {
+      "slug": "tip-gpt-live-voice",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT má nové hlasové modely GPT-Live",
+        "en": "ChatGPT's new GPT-Live voice models"
+      },
+      "summary": {
+        "cs": "GPT-Live je nová generace hlasových modelů ChatGPT s plně obousměrnou architekturou — poslouchá a mluví zároveň, takže ho můžeš přirozeně přerušit. Rolluje se globálně ve verzích GPT-Live-1 a GPT-Live-1 mini.",
+        "en": "GPT-Live is a new generation of ChatGPT voice models with a full-duplex architecture — it listens and speaks at once, so you can interrupt naturally. Rolling out globally as GPT-Live-1 and GPT-Live-1 mini."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/index/introducing-gpt-live/" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/" }
+      ],
+      "added": "2026-07-16",
+      "used": null
+    },
+    {
+      "slug": "tip-chatgpt-work",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT Work: agent, co odevzdá hotovou práci",
+        "en": "ChatGPT Work: an agent that ships finished work"
+      },
+      "summary": {
+        "cs": "ChatGPT Work je agent uvnitř ChatGPT: vezme zadání, posbírá informace napříč aplikacemi a rozdělí úkol na kroky. Výstupem nejsou odpovědi v chatu, ale hotové materiály — tabulky, prezentace, dokumenty i weby.",
+        "en": "ChatGPT Work is an agent inside ChatGPT: it takes an outcome, gathers information across apps, and breaks the task into steps. The output isn't chat but finished materials — sheets, slides, docs, and web apps."
+      },
+      "sources": [
+        { "name": "Axios", "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release" }
+      ],
+      "added": "2026-07-16",
+      "used": null
+    },
+    {
+      "slug": "tip-copilot-word-chat-history",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Tip: Copilot ve Wordu si pamatuje historii konverzace",
+        "en": "Tip: Copilot in Word now remembers your chat history"
+      },
+      "summary": {
+        "cs": "Copilot Chat ve Wordu si nově drží historii konverzace i při přechodu mezi aplikacemi — na složitou vícekrokovou práci s dokumentem se dá navázat bez ztráty kontextu. Microsoft to zpřístupnil v červnu.",
+        "en": "Copilot Chat in Word now keeps your conversation history across apps — you can pick up complex, multi-step document work without losing the thread. Microsoft rolled this out in June."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
+        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572" }
+      ],
+      "added": "2026-07-16",
+      "used": "2026-07-16"
+    },
+    {
+      "slug": "tip-copilot-ppt-brand-kit",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Tip: PowerPoint Copilot umí firemní Brand Kit",
+        "en": "Tip: PowerPoint Copilot gets a Brand Kit Picker"
+      },
+      "summary": {
+        "cs": "Copilot v PowerPointu dostal Brand Kit Picker — při tvorbě prezentace vybereš schválený firemní brand kit a deck rovnou vznikne se správnými barvami, fonty a stylem. Microsoft to nasadil v červnu.",
+        "en": "Copilot in PowerPoint added a Brand Kit Picker — pick your organization's approved brand kit and the deck starts with the right colors, fonts, and style. Microsoft rolled it out in June."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
+        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572" }
+      ],
+      "added": "2026-07-16",
+      "used": "2026-07-16"
+    },
+    {
+      "slug": "tip-copilot-excel-skills",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Tip: Excel Copilot má Skills pro opakované postupy",
+        "en": "Tip: Copilot in Excel now has reusable Skills"
+      },
+      "summary": {
+        "cs": "V Copilotu pro Excel jsou nově Skills — opakované postupy (analýzy, modelování, reporty) si zabalíš jako znovupoužitelné instrukce a vyvoláš je, místo abys psal stejný prompt dokola. Microsoft to nasadil v červnu.",
+        "en": "Copilot in Excel now has Skills — package repeatable workflows (analysis, modeling, reporting) as reusable instructions and invoke them instead of rewriting the same prompt each time. Microsoft rolled it out in June."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
+        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572" }
+      ],
+      "added": "2026-07-16",
+      "used": "2026-07-16"
+    }
+  ]
+}
