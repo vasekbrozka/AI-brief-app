@@ -6,8 +6,8 @@
     "en": "China reins in AI companions as the world awaits Gemini 3.5"
   },
   "intro": {
-    "cs": "Ve světě AI bylo v posledních 24 hodinách nezvykle klidno — většina „novinek“ v oběhu byla recyklovaná. Podstatné jsou dvě věci: v Číně začala platit přísná pravidla pro polidštěné AI služby a na 17. července se chystá dlouho očekávaný Gemini 3.5 Pro.",
-    "en": "The last 24 hours in AI were unusually quiet — most of the 'news' in circulation was recycled. Two things matter: China's strict rules for human-like AI services took effect, and the long-awaited Gemini 3.5 Pro is expected on July 17."
+    "cs": "Ve světě AI bylo v posledních 24 hodinách nezvykle klidno — většina „novinek“ v oběhu byla recyklovaná. Podstatné jsou dvě věci: v Číně začala platit přísná pravidla pro polidštěné AI služby a na 17. července se chystá dlouho očekávaný Gemini 3.5 Pro. Klidný den doplňujeme několika tipy z posledních týdnů napříč nástroji.",
+    "en": "The last 24 hours in AI were unusually quiet — most of the 'news' in circulation was recycled. Two things matter: China's strict rules for human-like AI services took effect, and the long-awaited Gemini 3.5 Pro is expected on July 17. On a quiet day, we round it out with a few tips from recent weeks across the tools."
   },
   "items": [
     {
@@ -43,6 +43,57 @@
       },
       "sources": [
         { "name": "The Tech Times", "url": "https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm" }
+      ]
+    },
+    {
+      "id": "2026-07-16-tip-copilot-word-chat-history",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Tip: Copilot ve Wordu si pamatuje historii konverzace",
+        "en": "Tip: Copilot in Word now remembers your chat history"
+      },
+      "summary": {
+        "cs": "Copilot Chat ve Wordu si nově drží historii konverzace i při přechodu mezi aplikacemi — na složitou vícekrokovou práci s dokumentem se dá navázat bez ztráty kontextu. Užitečné, když se ke Copilotu vracíš průběžně. Microsoft to zpřístupnil v červnu.",
+        "en": "Copilot Chat in Word now keeps your conversation history across apps — you can pick up complex, multi-step document work without losing the thread. Handy when you return to Copilot throughout a task. Microsoft rolled this out in June."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
+        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572" }
+      ]
+    },
+    {
+      "id": "2026-07-16-tip-copilot-ppt-brand-kit",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Tip: PowerPoint Copilot umí firemní Brand Kit",
+        "en": "Tip: PowerPoint Copilot gets a Brand Kit Picker"
+      },
+      "summary": {
+        "cs": "Copilot v PowerPointu dostal Brand Kit Picker — při tvorbě prezentace vybereš schválený firemní brand kit a deck rovnou vznikne se správnými barvami, fonty a stylem. Míň ručního formátování a čištění po vygenerování. Microsoft to nasadil v červnu.",
+        "en": "Copilot in PowerPoint added a Brand Kit Picker — when building a deck, pick your organization's approved brand kit and the presentation starts with the right colors, fonts, and style. Less manual formatting and brand cleanup afterwards. Microsoft rolled it out in June."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
+        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572" }
+      ]
+    },
+    {
+      "id": "2026-07-16-tip-copilot-excel-skills",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Tip: Excel Copilot má Skills pro opakované postupy",
+        "en": "Tip: Copilot in Excel now has reusable Skills"
+      },
+      "summary": {
+        "cs": "V Copilotu pro Excel jsou nově Skills — opakované postupy (analýzy, modelování, reporty) si zabalíš jako znovupoužitelné instrukce a vyvoláš je, místo abys psal stejný prompt dokola. Standardizace složité práce bez copy-paste. Microsoft to nasadil v červnu.",
+        "en": "Copilot in Excel now has Skills — package repeatable workflows (analysis, modeling, reporting) as reusable instructions and invoke them instead of rewriting the same prompt each time. Standardize complex work without copy-paste. Microsoft rolled it out in June."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
+        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572" }
       ]
     }
   ]

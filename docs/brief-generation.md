@@ -63,7 +63,8 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
 6. Zapiš `data/briefs/<datum>.json` přesně podle schématu níže, `sample: false`.
 7. Aktualizuj `data/briefs/index.json`: nastav `updated` na **aktuální čas
    generování** (`date -u +%Y-%m-%dT%H:%M:%SZ`) — appka ho zobrazuje jako „Aktualizováno" —
-   přidej nový záznam **navrch**, nech jen **3 nejnovější dny** a **starší `.json` soubory smaž**.
+   přidej nový záznam **navrch**, nech jen **3 nejnovější dny** a **starší denní soubory
+   `YYYY-MM-DD.json` smaž** (soubor `tips-log.json` NEMAŽ — je to trvalý ledger tipů).
 8. **Zvaliduj**, že oba soubory jsou platný JSON (`JSON.parse`).
 9. `git add -A` → `git commit -m "brief: <datum>"` → `git push` na produkční větev.
    Když push selže kvůli novým commitům na originu (non-fast-forward), udělej
@@ -79,8 +80,20 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
 - **Nikdy nepřidávej vatu.** Kvalita > počet: radši 3–5 kvalitních zpráv než 8 nafouknutých.
 - Nejdřív rozšiř záběr: obecné AI dění, sousední témata, významná **pokračování**
   dřívějších událostí.
-- Když je opravdu ticho, napiš to poctivě do `intro` (např. „Dnes bylo v AI klidněji —
-  tady je to podstatné.") a dej méně zpráv. Nikdy si nevymýšlej.
+- **Doplň tipy (evergreen novinky).** Když je čerstvých 24h zpráv málo, přidej **1–4 „tipy"** —
+  užitečné, ale ne nutně horké funkce napříč jádrovými nástroji (Claude, ChatGPT, Gemini,
+  M365 Copilot) z **posledních ~30 dní** (dnes − 30). Typicky nové funkce, které si uživatel
+  může hned vyzkoušet. Zdroj: oficiální release notes / blogy nástrojů (výborný a zdejší sítí
+  průchozí je M365 feed z kroku 3b).
+  - Tip má id `<datum>-tip-<slug>` a v `summary` **poctivě uveď, že nejde o dnešní novinku**
+    (např. „Microsoft to nasadil v červnu…", „nově v Excelu…") — nikdy tip nevydávej za breaking news.
+  - Tipy z **oficiálních release notes** (Tier 1) jsou `verified: true` — je to primární pravda
+    výrobce o vlastním produktu; ideálně cituj release notes + „What's new" blog.
+  - Tip **není nikdy** hlavní zpráva (`highlight`). Highlight = vždy skutečná zpráva dne;
+    tipy jsou doplněk, ne náhrada za čerstvé zprávy v rušný den.
+  - **Neopakuj tipy** — viz ledger v pravidle 2. V `intro` klidný den s tipy poctivě přiznej
+    (např. „Klidný den doplňujeme tipy z posledních týdnů.").
+- Když je i s tipy opravdu ticho, napiš to poctivě do `intro` a dej méně zpráv. Nikdy si nevymýšlej.
 
 ### 2 · Duplicita s předchozími dny
 - Před výběrem si přečti poslední 1–3 briefy v repu. **Stejnou zprávu neopakuj.**
@@ -88,6 +101,10 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
   zařaď, ale formuluj jako **update**, ne jako novou událost. Slug odliš
   (`...-update`, `...-results`).
 - Stejná událost z více zdrojů = **jedna** položka s více zdroji.
+- **Tipy — ledger.** Repo drží jen 3 dny briefů, proto se použité tipy evidují zvlášť v
+  `data/briefs/tips-log.json`. Před výběrem tipů ho přečti a **přeskoč slugy, které tam už jsou**.
+  Po zapsání briefu do ledgeru **připiš** nové tipy (`{"slug": "tip-…", "date": "<datum>"}`) a
+  nech jen **posledních ~60 záznamů** (starší zahoď). Soubor je jen pro generování — appka ho nečte.
 
 ### 3 · Přetlak (je toho moc)
 - **Tvrdý strop 10 zpráv.** Přebytek se záměrně zahodí — kurátorský výběr je hodnota briefu.
@@ -171,6 +188,16 @@ to se počítá jako jeden zdroj informace.
   "updated": "ISO-8601 timestamp",
   "briefs": [                                   // max 3, nejnovější první
     { "date": "YYYY-MM-DD", "headline": { "cs": "...", "en": "..." }, "itemCount": 8 }
+  ]
+}
+```
+
+## Schéma — `data/briefs/tips-log.json` (jen pro dedup tipů, appka nečte)
+
+```jsonc
+{
+  "used": [
+    { "slug": "tip-copilot-excel-skills", "date": "2026-07-16" }   // max ~60, nech nejnovější
   ]
 }
 ```
