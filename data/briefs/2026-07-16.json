@@ -1,0 +1,49 @@
+{
+  "date": "2026-07-16",
+  "sample": false,
+  "headline": {
+    "cs": "Čína zregulovala AI společníky, svět čeká na Gemini 3.5",
+    "en": "China reins in AI companions as the world awaits Gemini 3.5"
+  },
+  "intro": {
+    "cs": "Úterý bylo ve světě AI nezvykle klidné — většina „novinek“ v oběhu byla recyklovaná. Podstatné jsou dvě věci: v Číně začala platit přísná pravidla pro polidštěné AI služby a čtvrtek má přinést dlouho očekávaný Gemini 3.5 Pro.",
+    "en": "Tuesday was unusually quiet in AI — most of the 'news' in circulation was recycled. Two things matter: China's strict rules for human-like AI services took effect, and Thursday is expected to bring the long-awaited Gemini 3.5 Pro."
+  },
+  "items": [
+    {
+      "id": "2026-07-16-china-ai-companion-rules",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "V Číně začala platit pravidla pro „polidštěné“ AI společníky",
+        "en": "China's rules for human-like AI companions take effect"
+      },
+      "summary": {
+        "cs": "V Číně 15. července nabyla účinnosti pravidla pro AI služby s lidskými rysy — virtuální společníky a citově reagující chatboty. Poskytovatelé musí přiznávat, že jde o AI, po dvou hodinách upozorňovat na závislost, zasáhnout při známkách sebepoškozování a nesmí nabízet virtuální partnery nezletilým. ByteDance i Alibaba část funkcí vypnuly.",
+        "en": "China's rules for anthropomorphic AI services — virtual companions and emotionally responsive chatbots — took effect on July 15. Providers must disclose users are talking to AI, show anti-addiction reminders after two hours, intervene on signs of self-harm, and can't offer virtual companions to minors. ByteDance and Alibaba switched off some features in response."
+      },
+      "sources": [
+        { "name": "Quartz", "url": "https://qz.com/bytedance-alibaba-ai-companion-chatbot-china-rules-070626" },
+        { "name": "The Tech Times", "url": "https://www.techtimes.com/articles/320525/20260715/china-ai-companion-law-takes-effect-doubao-qwen-shut-down-millions-lose-chat-data.htm" },
+        { "name": "IAPP", "url": "https://iapp.org/news/a/china-s-new-ai-rules-ethics-ai-agents-and-anthropomorphic-ai" }
+      ]
+    },
+    {
+      "id": "2026-07-16-gemini-35-pro-thursday",
+      "category": "models",
+      "verified": false,
+      "title": {
+        "cs": "Gemini 3.5 Pro má podle zpráv vyjít ve čtvrtek",
+        "en": "Gemini 3.5 Pro reportedly lands on Thursday"
+      },
+      "summary": {
+        "cs": "Vlajkový model Gemini 3.5 Pro má podle zpráv vyjít už ve čtvrtek 17. července, po kompletní přestavbě. Google ale zatím nepotvrdil datum, parametry ani cenu — v oficiální dokumentaci model nefiguruje. Pokud termín platí, půjde o největší událost týdne ve světě AI.",
+        "en": "Google's flagship Gemini 3.5 Pro is reportedly set to launch this Thursday, July 17, after a full rebuild. Google hasn't confirmed the date, specs, or pricing — the model doesn't yet appear in official documentation. If the date holds, it will be the week's biggest AI event."
+      },
+      "sources": [
+        { "name": "The Tech Times", "url": "https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm" }
+      ]
+    }
+  ]
+}
