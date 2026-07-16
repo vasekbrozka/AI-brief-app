@@ -50,8 +50,8 @@
       "category": "tools",
       "verified": true,
       "title": {
-        "cs": "Tip: Copilot ve Wordu si pamatuje historii konverzace",
-        "en": "Tip: Copilot in Word now remembers your chat history"
+        "cs": "Copilot ve Wordu si pamatuje historii konverzace",
+        "en": "Copilot in Word now remembers your chat history"
       },
       "summary": {
         "cs": "Copilot Chat ve Wordu si nově drží historii konverzace i při přechodu mezi aplikacemi — na složitou vícekrokovou práci s dokumentem se dá navázat bez ztráty kontextu. Užitečné, když se ke Copilotu vracíš průběžně. Microsoft to zpřístupnil v červnu.",
@@ -67,8 +67,8 @@
       "category": "tools",
       "verified": true,
       "title": {
-        "cs": "Tip: PowerPoint Copilot umí firemní Brand Kit",
-        "en": "Tip: PowerPoint Copilot gets a Brand Kit Picker"
+        "cs": "PowerPoint Copilot umí firemní Brand Kit",
+        "en": "PowerPoint Copilot gets a Brand Kit Picker"
       },
       "summary": {
         "cs": "Copilot v PowerPointu dostal Brand Kit Picker — při tvorbě prezentace vybereš schválený firemní brand kit a deck rovnou vznikne se správnými barvami, fonty a stylem. Míň ručního formátování a čištění po vygenerování. Microsoft to nasadil v červnu.",
@@ -84,8 +84,8 @@
       "category": "tools",
       "verified": true,
       "title": {
-        "cs": "Tip: Excel Copilot má Skills pro opakované postupy",
-        "en": "Tip: Copilot in Excel now has reusable Skills"
+        "cs": "Excel Copilot má Skills pro opakované postupy",
+        "en": "Copilot in Excel now has reusable Skills"
       },
       "summary": {
         "cs": "V Copilotu pro Excel jsou nově Skills — opakované postupy (analýzy, modelování, reporty) si zabalíš jako znovupoužitelné instrukce a vyvoláš je, místo abys psal stejný prompt dokola. Standardizace složité práce bez copy-paste. Microsoft to nasadil v červnu.",

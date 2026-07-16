@@ -3,6 +3,7 @@
     {
       "slug": "tip-claude-cowork-web-mobile",
       "category": "tools",
+      "theme": "claude",
       "verified": true,
       "title": {
         "cs": "Claude Cowork běží nově i na webu a mobilu",
@@ -21,6 +22,7 @@
     {
       "slug": "tip-claude-reflect",
       "category": "tools",
+      "theme": "claude",
       "verified": true,
       "title": {
         "cs": "Claude umí ohlédnutí za tím, jak ho používáš",
@@ -39,6 +41,7 @@
     {
       "slug": "tip-gpt-live-voice",
       "category": "tools",
+      "theme": "chatgpt",
       "verified": true,
       "title": {
         "cs": "ChatGPT má nové hlasové modely GPT-Live",
@@ -58,6 +61,7 @@
     {
       "slug": "tip-chatgpt-work",
       "category": "tools",
+      "theme": "chatgpt",
       "verified": false,
       "title": {
         "cs": "ChatGPT Work: agent, co odevzdá hotovou práci",
@@ -76,10 +80,11 @@
     {
       "slug": "tip-copilot-word-chat-history",
       "category": "tools",
+      "theme": "copilot",
       "verified": true,
       "title": {
-        "cs": "Tip: Copilot ve Wordu si pamatuje historii konverzace",
-        "en": "Tip: Copilot in Word now remembers your chat history"
+        "cs": "Copilot ve Wordu si pamatuje historii konverzace",
+        "en": "Copilot in Word now remembers your chat history"
       },
       "summary": {
         "cs": "Copilot Chat ve Wordu si nově drží historii konverzace i při přechodu mezi aplikacemi — na složitou vícekrokovou práci s dokumentem se dá navázat bez ztráty kontextu. Microsoft to zpřístupnil v červnu.",
@@ -95,10 +100,11 @@
     {
       "slug": "tip-copilot-ppt-brand-kit",
       "category": "tools",
+      "theme": "copilot",
       "verified": true,
       "title": {
-        "cs": "Tip: PowerPoint Copilot umí firemní Brand Kit",
-        "en": "Tip: PowerPoint Copilot gets a Brand Kit Picker"
+        "cs": "PowerPoint Copilot umí firemní Brand Kit",
+        "en": "PowerPoint Copilot gets a Brand Kit Picker"
       },
       "summary": {
         "cs": "Copilot v PowerPointu dostal Brand Kit Picker — při tvorbě prezentace vybereš schválený firemní brand kit a deck rovnou vznikne se správnými barvami, fonty a stylem. Microsoft to nasadil v červnu.",
@@ -114,10 +120,11 @@
     {
       "slug": "tip-copilot-excel-skills",
       "category": "tools",
+      "theme": "copilot",
       "verified": true,
       "title": {
-        "cs": "Tip: Excel Copilot má Skills pro opakované postupy",
-        "en": "Tip: Copilot in Excel now has reusable Skills"
+        "cs": "Excel Copilot má Skills pro opakované postupy",
+        "en": "Copilot in Excel now has reusable Skills"
       },
       "summary": {
         "cs": "V Copilotu pro Excel jsou nově Skills — opakované postupy (analýzy, modelování, reporty) si zabalíš jako znovupoužitelné instrukce a vyvoláš je, místo abys psal stejný prompt dokola. Microsoft to nasadil v červnu.",

@@ -88,6 +88,10 @@ AI za posledních ~24 hodin. Věcný tón, žádný hype, žádné spekulace.
     zpráv, strop 3** (0–2 zprávy → 3 tipy · 3 → 2 · 4 → 1 · 5+ → 0 — do bohatého dne tipy nepatří).
   - Tip má id `<datum>-tip-<slug>` a v `summary` **poctivě uveď, že nejde o dnešní novinku**
     (např. „Microsoft to nasadil v červnu…") — nikdy tip nevydávej za breaking news.
+  - Tip má **vždy `category: "tools"`** — jeho domovem je filtr „Nástroje", podle toho se pozná.
+    **V titulku nikdy nepiš slovo „tip"** (žádný prefix); titulek je normální věta jako u zpráv.
+  - Otaguj tip v backlogu polem `theme` (`claude` · `chatgpt` · `gemini` · `copilot` · `other`)
+    a **střídej témata** — nedávej víc tipů o jednom nástroji za sebou, když jde vybrat pestřeji.
   - Tipy z **oficiálních release notes / first-party** (Tier 1) jsou `verified: true` — je to
     primární pravda výrobce o vlastním produktu.
   - Tip **není nikdy** hlavní zpráva (`highlight`) — highlight je vždy skutečná zpráva dne.
@@ -202,7 +206,8 @@ to se počítá jako jeden zdroj informace.
   "tips": [
     {
       "slug": "tip-claude-cowork-web-mobile",   // bez datumu, stabilní klíč
-      "category": "tools",
+      "category": "tools",                       // tip má VŽDY tools (filtr „Nástroje")
+      "theme": "claude",                         // claude·chatgpt·gemini·copilot·other
       "verified": true,
       "title":   { "cs": "...", "en": "..." },
       "summary": { "cs": "...", "en": "..." },   // ~35 slov, poctivé rámování
