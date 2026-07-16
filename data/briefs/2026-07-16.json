@@ -6,8 +6,8 @@
     "en": "China reins in AI companions as the world awaits Gemini 3.5"
   },
   "intro": {
-    "cs": "Ve světě AI bylo v posledních 24 hodinách nezvykle klidno — většina „novinek“ v oběhu byla recyklovaná. Podstatné jsou dvě věci: v Číně začala platit přísná pravidla pro polidštěné AI služby a na 17. července se chystá dlouho očekávaný Gemini 3.5 Pro. Klidný den doplňujeme několika tipy z posledních týdnů napříč nástroji.",
-    "en": "The last 24 hours in AI were unusually quiet — most of the 'news' in circulation was recycled. Two things matter: China's strict rules for human-like AI services took effect, and the long-awaited Gemini 3.5 Pro is expected on July 17. On a quiet day, we round it out with a few tips from recent weeks across the tools."
+    "cs": "Ve světě AI bylo v posledních 24 hodinách nezvykle klidno — většina „novinek“ v oběhu byla recyklovaná. Podstatné jsou tři věci: v Číně začala platit přísná pravidla pro polidštěné AI služby, NVIDIA prohloubila se SoftBankem partnerství na AI v Japonsku a na 17. července se chystá dlouho očekávaný Gemini 3.5 Pro. Klidný den doplňujeme pár tipy z posledních týdnů.",
+    "en": "The last 24 hours in AI were unusually quiet — most of the 'news' in circulation was recycled. Three things matter: China's strict rules for human-like AI services took effect, NVIDIA deepened its AI partnership with SoftBank in Japan, and the long-awaited Gemini 3.5 Pro is expected on July 17. On a quiet day, we round it out with a couple of tips from recent weeks."
   },
   "items": [
     {
@@ -46,20 +46,20 @@
       ]
     },
     {
-      "id": "2026-07-16-tip-copilot-word-chat-history",
-      "category": "tools",
+      "id": "2026-07-16-nvidia-softbank-japan",
+      "category": "business",
       "verified": true,
       "title": {
-        "cs": "Copilot ve Wordu si pamatuje historii konverzace",
-        "en": "Copilot in Word now remembers your chat history"
+        "cs": "NVIDIA a SoftBank prohlubují AI partnerství v Japonsku",
+        "en": "NVIDIA and SoftBank deepen their AI partnership in Japan"
       },
       "summary": {
-        "cs": "Copilot Chat ve Wordu si nově drží historii konverzace i při přechodu mezi aplikacemi — na složitou vícekrokovou práci s dokumentem se dá navázat bez ztráty kontextu. Užitečné, když se ke Copilotu vracíš průběžně. Microsoft to zpřístupnil v červnu.",
-        "en": "Copilot Chat in Word now keeps your conversation history across apps — you can pick up complex, multi-step document work without losing the thread. Handy when you return to Copilot throughout a task. Microsoft rolled this out in June."
+        "cs": "NVIDIA a SoftBank při návštěvě šéfa NVIDIA Jensena Huanga v Japonsku 16. července oznámily rozšíření spolupráce na suverénní a fyzické AI — SoftBank jako první na světě nasadí superpočítač NVIDIA DGX B200 pro generativní AI a výzkum. Huang zdůraznil roli Japonska v robotice a takzvané fyzické AI.",
+        "en": "NVIDIA and SoftBank announced expanded cooperation on sovereign and physical AI during CEO Jensen Huang's July 16 visit to Japan — SoftBank will be first in the world to deploy NVIDIA's DGX B200 supercomputer for generative AI research. Huang highlighted Japan's role in robotics and so-called physical AI."
       },
       "sources": [
-        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
-        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572" }
+        { "name": "NVIDIA", "url": "https://nvidianews.nvidia.com/news/nvidia-and-softbank-accelerate-japans-journey-to-global-ai-powerhouse" },
+        { "name": "Nikkei Asia", "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-cashes-in-on-sovereign-ai-setting-sights-on-japan-for-latest-tie-up" }
       ]
     },
     {
@@ -80,20 +80,20 @@
       ]
     },
     {
-      "id": "2026-07-16-tip-copilot-excel-skills",
+      "id": "2026-07-16-tip-claude-cowork-web-mobile",
       "category": "tools",
       "verified": true,
       "title": {
-        "cs": "Excel Copilot má Skills pro opakované postupy",
-        "en": "Copilot in Excel now has reusable Skills"
+        "cs": "Claude Cowork běží nově i na webu a mobilu",
+        "en": "Claude Cowork now runs on web and mobile"
       },
       "summary": {
-        "cs": "V Copilotu pro Excel jsou nově Skills — opakované postupy (analýzy, modelování, reporty) si zabalíš jako znovupoužitelné instrukce a vyvoláš je, místo abys psal stejný prompt dokola. Standardizace složité práce bez copy-paste. Microsoft to nasadil v červnu.",
-        "en": "Copilot in Excel now has Skills — package repeatable workflows (analysis, modeling, reporting) as reusable instructions and invoke them instead of rewriting the same prompt each time. Standardize complex work without copy-paste. Microsoft rolled it out in June."
+        "cs": "Claude Cowork — režim pro delší samostatnou práci — běží nově i na webu a mobilu, nejen na desktopu. Sezení a soubory se ukládají do účtu, takže práce pokračuje i po zavření notebooku a naplánované úlohy běží bez zapnutého zařízení.",
+        "en": "Claude Cowork — the mode for longer autonomous work — now runs on web and mobile, not just desktop. Sessions and files are saved to your account, so work continues after you close your laptop and scheduled tasks run with no device online."
       },
       "sources": [
-        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
-        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572" }
+        { "name": "Claude Blog", "url": "https://claude.com/blog/cowork-web-mobile" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/" }
       ]
     }
   ]
