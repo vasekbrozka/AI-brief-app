@@ -2,18 +2,17 @@
   "date": "2026-07-17",
   "sample": false,
   "headline": {
-    "cs": "Gemini 3.5 Pro se odkládá, Kimi K3 boduje",
-    "en": "Gemini 3.5 Pro delayed, Kimi K3 impresses"
+    "cs": "Kimi K3 otřásl trhy, Gemini opět čeká",
+    "en": "Kimi K3 rattles markets, Gemini delay drags on"
   },
   "intro": {
-    "cs": "Google znovu odsunul vydání Gemini 3.5 Pro kvůli slabším programátorským schopnostem, akcie Alphabetu klesly. Čínská Moonshot AI mezitím představila Kimi K3 — obří otevřený model, který v testech porazil špičku americké konkurence. Doplňujeme pár tipy z posledních týdnů napříč nástroji.",
-    "en": "Google pushed back Gemini 3.5 Pro again over coding shortfalls, and Alphabet shares slid on the news. Meanwhile China's Moonshot AI unveiled Kimi K3, a massive open-weight model that beat top US rivals in testing. We round it out with a few tips from recent weeks."
+    "cs": "Nečekaně silný čínský model Kimi K3 rozpoutal výprodej AI a čipových akcií po celém světě — trh se lekl, že Čína dotáhla americký náskok ve špičkové AI. Google mezitím znovu odsunul Gemini 3.5 Pro kvůli slabším programátorským schopnostem. Doplňujeme pár tipy z posledních týdnů napříč nástroji.",
+    "en": "China's surprisingly strong Kimi K3 model triggered a sell-off in AI and chip stocks worldwide, as markets grappled with China closing the US lead in frontier AI. Google, meanwhile, pushed back Gemini 3.5 Pro again over coding shortfalls. We round it out with a few tips from recent weeks."
   },
   "items": [
     {
       "id": "2026-07-17-gemini-35-pro-delayed",
       "category": "models",
-      "highlight": true,
       "verified": true,
       "title": {
         "cs": "Gemini 3.5 Pro se znovu odkládá, akcie Alphabetu klesly",
@@ -43,6 +42,24 @@
       "sources": [
         { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/" },
         { "name": "Axios", "url": "https://www.axios.com/2026/07/16/moonshot-kimi-ai-china-model-openai-anthropic" }
+      ]
+    },
+    {
+      "id": "2026-07-17-kimi-k3-market-rout-update",
+      "category": "business",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Kimi K3 rozpoutal výprodej AI a čipových akcií",
+        "en": "Kimi K3 sparks a sell-off in AI and chip stocks"
+      },
+      "summary": {
+        "cs": "Nečekaně silné výsledky čínského modelu Kimi K3 vyvolaly 17. července výprodej akcií AI firem a výrobců čipů po celém světě — trh se lekl zjištění, že Čína dotáhla americký náskok ve špičkové AI za výrazně nižší cenu. Analytici mluví o zásadním posunu v závodě USA a Číny o AI.",
+        "en": "Kimi K3's surprisingly strong results triggered a sell-off in AI and chip stocks worldwide on July 17 — markets were rattled by signs that China has closed the US lead in frontier AI, undercutting rivals sharply on price. Analysts are calling it a turning point in the US-China AI race."
+      },
+      "sources": [
+        { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-07-17/china-s-powerful-new-ai-surprises-investors-fueling-tech-rout-mroxm71p" },
+        { "name": "Axios", "url": "https://www.axios.com/2026/07/17/china-ai-kimi-k3-open-source-anthropic-opus" }
       ]
     },
     {
