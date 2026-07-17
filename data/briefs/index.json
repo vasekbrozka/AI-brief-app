@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-16T09:41:32Z",
+  "updated": "2026-07-17T03:09:36Z",
   "briefs": [
+    {
+      "date": "2026-07-17",
+      "headline": {
+        "cs": "Gemini 3.5 Pro se odkládá, Kimi K3 boduje",
+        "en": "Gemini 3.5 Pro delayed, Kimi K3 impresses"
+      },
+      "itemCount": 5
+    },
     {
       "date": "2026-07-16",
       "headline": {
@@ -16,14 +24,6 @@
         "en": "Claude Artifacts go collaborative, OpenAI pushes back on Apple's lawsuit"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-07-14",
-      "headline": {
-        "cs": "Apple žaluje OpenAI, Claude míří do škol",
-        "en": "Apple sues OpenAI; Claude heads to the classroom"
-      },
-      "itemCount": 6
     }
   ]
 }
