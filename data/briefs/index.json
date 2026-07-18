@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-17T18:01:37Z",
+  "updated": "2026-07-18T03:04:09Z",
   "briefs": [
+    {
+      "date": "2026-07-18",
+      "headline": {
+        "cs": "Kimi K3 dál rozviřuje debatu o AI politice",
+        "en": "Kimi K3 keeps stirring the AI policy debate"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-07-17",
       "headline": {
@@ -16,14 +24,6 @@
         "en": "China reins in AI companions as the world awaits Gemini 3.5"
       },
       "itemCount": 5
-    },
-    {
-      "date": "2026-07-15",
-      "headline": {
-        "cs": "Claude Artifacts jdou do sdílení, OpenAI se brání žalobě Applu",
-        "en": "Claude Artifacts go collaborative, OpenAI pushes back on Apple's lawsuit"
-      },
-      "itemCount": 4
     }
   ]
 }

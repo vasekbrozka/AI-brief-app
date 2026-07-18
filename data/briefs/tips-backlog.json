@@ -34,10 +34,11 @@
         "en": "The new Reflect beta shows a summary of how you use Claude — key topics, patterns, and the kinds of tasks you work through over the past 1 to 12 months. Available to Free, Pro, and Max users with memory turned on."
       },
       "sources": [
-        { "name": "Anthropic", "url": "https://www.anthropic.com/news/reflect-with-claude" }
+        { "name": "Anthropic", "url": "https://www.anthropic.com/news/reflect-with-claude" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/" }
       ],
       "added": "2026-07-16",
-      "used": null
+      "used": "2026-07-18"
     },
     {
       "slug": "tip-gpt-live-voice",
@@ -76,7 +77,7 @@
         { "name": "Axios", "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release" }
       ],
       "added": "2026-07-16",
-      "used": null
+      "used": "2026-07-18"
     },
     {
       "slug": "tip-gemini-spark-macos",
@@ -92,10 +93,11 @@
         "en": "Gemini Spark now runs on macOS — it can automate tasks across your desktop files, hand your Mac complex work remotely, and connect to apps like Canva and Dropbox. Google launched it in June."
       },
       "sources": [
-        { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/" }
+        { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/" }
       ],
       "added": "2026-07-16",
-      "used": null
+      "used": "2026-07-18"
     },
     {
       "slug": "tip-gemini-live-translate",
