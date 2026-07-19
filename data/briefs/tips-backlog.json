@@ -41,6 +41,26 @@
       "used": "2026-07-18"
     },
     {
+      "slug": "tip-claude-tag",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "title": {
+        "cs": "Claude Tag se připojí jako člen týmu na Slacku",
+        "en": "Claude Tag joins your team on Slack"
+      },
+      "summary": {
+        "cs": "Claude Tag umí naskočit přímo do slackového vlákna — stačí ho označit @Claude a převezme práci s kontextem celého kanálu. V kanálu funguje jeden sdílený Claude, na konverzaci může navázat kdokoli z týmu. Beta pro Enterprise a Team, zveřejněno 23. června.",
+        "en": "Claude Tag can jump straight into a Slack thread — tag @Claude and it takes on the work with full channel context. One shared Claude works per channel, and anyone on the team can pick up the conversation. Beta for Enterprise and Team, announced June 23."
+      },
+      "sources": [
+        { "name": "Anthropic", "url": "https://www.anthropic.com/news/introducing-claude-tag" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/" }
+      ],
+      "added": "2026-07-19",
+      "used": "2026-07-19"
+    },
+    {
       "slug": "tip-gpt-live-voice",
       "category": "tools",
       "theme": "chatgpt",
@@ -98,6 +118,26 @@
       ],
       "added": "2026-07-16",
       "used": "2026-07-18"
+    },
+    {
+      "slug": "tip-gemini-vids-avatar",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "Google Vids vytvoří tvého AI dvojníka pro videa",
+        "en": "Google Vids can create your AI video avatar"
+      },
+      "summary": {
+        "cs": "Google Vids umí z jedné selfie a nahrávky hlasu vytvořit tvého digitálního dvojníka, který pak mluví ve vygenerovaných videích za tebe. Videa nesou neviditelný vodoznak SynthID proti zneužití. Zatím jen pro dospělé uživatele ve vybraných zemích, Google to spustil v polovině července.",
+        "en": "Google Vids can turn a selfie and a voice recording into your digital avatar, which then speaks for you in generated videos. Videos carry an invisible SynthID watermark against misuse. For now it's limited to adult users in select regions; Google rolled it out in mid-July."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/" },
+        { "name": "Google", "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/" }
+      ],
+      "added": "2026-07-19",
+      "used": "2026-07-19"
     },
     {
       "slug": "tip-gemini-live-translate",
@@ -177,7 +217,7 @@
         { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572" }
       ],
       "added": "2026-07-16",
-      "used": null
+      "used": "2026-07-19"
     }
   ]
 }
