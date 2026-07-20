@@ -6,16 +6,29 @@ import { TodayScreen } from './screens/TodayScreen';
 import { ArchiveScreen } from './screens/ArchiveScreen';
 import { BriefDetailScreen } from './screens/BriefDetailScreen';
 import { SettingsScreen } from './screens/SettingsScreen';
+import { AboutScreen } from './screens/AboutScreen';
 
 export function App() {
   const [tab, setTab] = useState<Tab>('today');
   const [archiveDate, setArchiveDate] = useState<string | null>(null);
+  const [aboutOpen, setAboutOpen] = useState(false);
 
   function handleTab(next: Tab) {
     // Tapping "Archive" again while inside a brief returns to the list.
     if (next !== 'archive' || tab === 'archive') setArchiveDate(null);
+    // Tapping "Settings" again while in About returns to the settings list.
+    if (next !== 'settings' || tab === 'settings') setAboutOpen(false);
     setTab(next);
   }
+
+  const openAbout = useCallback(() => {
+    setAboutOpen(true);
+    window.scrollTo({ top: 0 });
+  }, []);
+  const closeAbout = useCallback(() => {
+    setAboutOpen(false);
+    window.scrollTo({ top: 0 });
+  }, []);
 
   // Story-thread links jump straight to an archived brief.
   const openBriefDate = useCallback((date: string) => {
@@ -37,7 +50,12 @@ export function App() {
             ) : (
               <ArchiveScreen onSelect={setArchiveDate} />
             ))}
-          {tab === 'settings' && <SettingsScreen />}
+          {tab === 'settings' &&
+            (aboutOpen ? (
+              <AboutScreen onBack={closeAbout} />
+            ) : (
+              <SettingsScreen onOpenAbout={openAbout} />
+            ))}
         </main>
         <TabBar active={tab} onChange={handleTab} />
       </div>

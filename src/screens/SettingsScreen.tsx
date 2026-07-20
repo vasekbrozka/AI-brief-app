@@ -12,8 +12,6 @@ import { useNotifications } from '../hooks/useNotifications';
 import { CATEGORIES, CATEGORY_ORDER } from '../lib/categories';
 import { streakLabel } from '../lib/format';
 
-const APP_VERSION = '1.4';
-
 function SettingsGroup({ title, children }: { title: string; children: ReactNode }) {
   return (
     <section className="settings-group">
@@ -23,7 +21,7 @@ function SettingsGroup({ title, children }: { title: string; children: ReactNode
   );
 }
 
-export function SettingsScreen() {
+export function SettingsScreen({ onOpenAbout }: { onOpenAbout: () => void }) {
   const {
     t,
     lang,
@@ -32,8 +30,6 @@ export function SettingsScreen() {
     setTheme,
     hideRead,
     setHideRead,
-    showCategories,
-    setShowCategories,
     mutedCategories,
     toggleCategory,
     gamification,
@@ -77,23 +73,10 @@ export function SettingsScreen() {
       </SettingsGroup>
 
       <SettingsGroup title={t.sectionCategories}>
-        <div className="setting-switch">
-          <div className="setting-switch__text">
-            <span className="setting-switch__label">{t.categoriesLabel}</span>
-            <span className="setting-switch__hint">{t.categoriesHint}</span>
-          </div>
-          <Switch
-            checked={showCategories}
-            onChange={setShowCategories}
-            ariaLabel={t.categoriesLabel}
-          />
-        </div>
-        <div className="setting-divider" />
         <div className="setting-switch__text">
-          <span className="setting-switch__label">{t.categoriesShownLabel}</span>
           <span className="setting-switch__hint">{t.categoriesShownHint}</span>
         </div>
-        <div className="cat-toggles" role="group" aria-label={t.categoriesShownLabel}>
+        <div className="cat-toggles" role="group" aria-label={t.sectionCategories}>
           {CATEGORY_ORDER.map((c) => {
             const on = !mutedCategories.includes(c);
             return (
@@ -173,82 +156,13 @@ export function SettingsScreen() {
         )}
       </SettingsGroup>
 
-      <SettingsGroup title={t.sectionInstall}>
-        <p className="setting-text">{t.installIntro}</p>
-        <ol className="steps">
-          {t.installSteps.map((step, i) => (
-            <li key={i} className="steps__item">
-              <span className="steps__num">{i + 1}</span>
-              <span>{step}</span>
-            </li>
-          ))}
-        </ol>
-        <p className="setting-hint">{t.installShareHint}</p>
-      </SettingsGroup>
-
-      <SettingsGroup title={t.sectionHowItWorks}>
-        {t.howItWorksParagraphs.map((paragraph, i) => (
-          <p key={i} className="setting-text setting-text--spaced">
-            {paragraph}
-          </p>
-        ))}
-      </SettingsGroup>
-
-      <SettingsGroup title={t.sectionSources}>
-        <p className="about-line">
-          <strong>{t.sourcesOfficialLabel}</strong>: {t.sourcesOfficialList}
-        </p>
-        <p className="about-line">
-          <strong>{t.sourcesMediaLabel}</strong>: {t.sourcesMediaList}
-        </p>
-      </SettingsGroup>
-
-      <SettingsGroup title={t.sectionReleaseNotes}>
-        <p className="release-version">
-          {t.versionLabel} {APP_VERSION}
-        </p>
-        {[
-          { label: t.releaseAddedLabel, items: t.releaseAdded },
-          { label: t.releaseImprovedLabel, items: t.releaseImproved },
-          { label: t.releaseFixedLabel, items: t.releaseFixed },
-        ].map(({ label, items }) =>
-          items.length > 0 ? (
-            <div key={label}>
-              <p className="release-label">{label}</p>
-              <ul className="release-list">
-                {items.map((line, i) => (
-                  <li key={i}>{line}</li>
-                ))}
-              </ul>
-            </div>
-          ) : null,
-        )}
-      </SettingsGroup>
-
-      <SettingsGroup title={t.sectionAbout}>
-        <p className="about-title">
-          {t.appName} · {t.aboutTagline}
-        </p>
-        <p className="about-line">
-          {t.versionLabel} {APP_VERSION}
-        </p>
-        <p className="about-line">
-          {t.modelLabel} <strong>{t.modelName}</strong>
-        </p>
-        <div className="setting-divider" />
-        <p className="setting-text">{t.supportText}</p>
-        <a
-          className="support-link"
-          href="https://buymeacoffee.com/vasekbrozka"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ☕️ {t.supportCta}
-          <Icon name="external" size={15} />
-        </a>
-      </SettingsGroup>
-
-      <p className="app-signature">{t.signature}</p>
+      <button type="button" className="settings-link" onClick={onOpenAbout}>
+        <span className="settings-link__text">
+          <span className="settings-link__label">{t.sectionAbout}</span>
+          <span className="settings-link__hint">{t.aboutRowHint}</span>
+        </span>
+        <Icon name="chevronRight" size={18} />
+      </button>
     </ScreenScaffold>
   );
 }

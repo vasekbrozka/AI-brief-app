@@ -13,7 +13,6 @@ export interface UIStrings {
   brewMorning: string;
   brewAfternoon: string;
   brewEvening: string;
-  gistLabel: string;
   todayEmptyTitle: string;
   todayEmptyBody: string;
 
@@ -23,7 +22,6 @@ export interface UIStrings {
   sourcesLabel: string;
   shareLabel: string;
   threadLabel: string;
-  allCategories: string;
   sampleBadge: string;
   sampleNote: string;
 
@@ -37,13 +35,11 @@ export interface UIStrings {
   sectionLanguage: string;
   sectionAppearance: string;
   sectionCategories: string;
-  categoriesLabel: string;
-  categoriesHint: string;
-  categoriesShownLabel: string;
   categoriesShownHint: string;
   sectionInstall: string;
   sectionHowItWorks: string;
   sectionAbout: string;
+  aboutRowHint: string;
   themeAuto: string;
   themeLight: string;
   themeDark: string;
@@ -119,7 +115,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     brewMorning: 'Ranní shot',
     brewAfternoon: 'Odpolední sedlina',
     brewEvening: 'Večerní výplach',
-    gistLabel: 'Zristrettováno',
     todayEmptyTitle: 'Zatím žádný brief',
     todayEmptyBody: 'Dnešní přehled se ještě připravuje. Zkus to prosím později.',
 
@@ -128,7 +123,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     sourcesLabel: 'Zdroje',
     shareLabel: 'Sdílet',
     threadLabel: 'Navazuje na',
-    allCategories: 'Vše',
     sampleBadge: 'Ukázka',
     sampleNote:
       'Toto je ukázkový obsah pro fázi 1. Skutečný denní přehled bude automaticky sestavovat AI ve fázi 2.',
@@ -141,13 +135,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     sectionLanguage: 'Jazyk',
     sectionAppearance: 'Vzhled',
     sectionCategories: 'Kategorie',
-    categoriesLabel: 'Filtry kategorií',
-    categoriesHint: 'Zobrazit v přehledu lištu s filtrováním podle kategorií.',
-    categoriesShownLabel: 'Zobrazené kategorie',
     categoriesShownHint: 'Vypnuté kategorie se v přehledu nezobrazí. Hlavní zpráva zůstává vždy.',
     sectionInstall: 'Přidat na plochu',
     sectionHowItWorks: 'Jak to funguje',
     sectionAbout: 'O aplikaci',
+    aboutRowHint: 'Jak to funguje, zdroje, novinky a podpora',
     themeAuto: 'Automaticky',
     themeLight: 'Světlý',
     themeDark: 'Tmavý',
@@ -173,14 +165,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseAddedLabel: 'Přidáno',
     releaseImprovedLabel: 'Vylepšeno',
     releaseFixedLabel: 'Opraveno',
-    releaseAdded: [
-      'Ťukni na odborný pojem v přehledu a hned se ukáže prosté vysvětlení',
-      'Série čtení nově jako týdenní návyk — řetěz dnů, dnešek se plní, jak čteš',
-      'Oslava při dočtení a barva, která houstne s délkou série',
-    ],
+    releaseAdded: [],
     releaseImproved: [
-      'Přečtené novinky se nově skrývají hned od začátku — víc prostoru pro sérii (kdykoli lze vypnout v Nastavení)',
-      'Podpora projektu decentně v sekci O aplikaci',
+      'Přehlednější úvod dne — kratší a lehčí, bez rámečku navíc',
+      'Nastavení zeštíhlela — nápověda, zdroje i novinky se přesunuly do „O aplikaci“',
+      'Jednodušší kategorie — jedno místo na jejich skrývání',
     ],
     releaseFixed: [],
     aboutTagline: 'Novinky ze světa AI',
@@ -239,7 +228,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     brewMorning: 'Morning Shot',
     brewAfternoon: 'Afternoon Grounds',
     brewEvening: 'Evening Rinse',
-    gistLabel: 'Ristrettified',
     todayEmptyTitle: 'No brief yet',
     todayEmptyBody: "Today's brief is still being prepared. Please check back later.",
 
@@ -248,7 +236,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     sourcesLabel: 'Sources',
     shareLabel: 'Share',
     threadLabel: 'Follows up on',
-    allCategories: 'All',
     sampleBadge: 'Sample',
     sampleNote:
       'This is sample content for Phase 1. The real daily brief will be assembled automatically by AI in Phase 2.',
@@ -261,13 +248,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     sectionLanguage: 'Language',
     sectionAppearance: 'Appearance',
     sectionCategories: 'Categories',
-    categoriesLabel: 'Category filters',
-    categoriesHint: 'Show the category filter bar in the brief.',
-    categoriesShownLabel: 'Shown categories',
     categoriesShownHint: "Muted categories won't appear in the brief. The top story always stays.",
     sectionInstall: 'Add to Home Screen',
     sectionHowItWorks: 'How it works',
     sectionAbout: 'About',
+    aboutRowHint: 'How it works, sources, what\'s new and support',
     themeAuto: 'Automatic',
     themeLight: 'Light',
     themeDark: 'Dark',
@@ -293,14 +278,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseAddedLabel: 'Added',
     releaseImprovedLabel: 'Improved',
     releaseFixedLabel: 'Fixed',
-    releaseAdded: [
-      'Tap a technical term in the brief for a plain-language explanation',
-      'Reading streak reimagined as a weekly habit — a chain of days that fills as you read',
-      'A celebration when you finish, and a colour that deepens with your streak',
-    ],
+    releaseAdded: [],
     releaseImproved: [
-      'Read items are now hidden from the start — more room for the streak (can be turned off in Settings)',
-      'A quiet way to support the project in the About section',
+      "A lighter, shorter lead-in to each day's brief",
+      'Slimmer Settings — help, sources and what\'s new now live under "About"',
+      "Simpler categories — one place to hide the ones you don't want",
     ],
     releaseFixed: [],
     aboutTagline: 'The world of AI',
