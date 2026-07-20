@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, type MouseEvent, type PointerEvent, type ReactNode } from 'react';
+import { haptic } from '../lib/haptics';
 import { Icon } from './Icon';
 
 const ACTION_WIDTH = 76; // px revealed when the panel is open
@@ -6,6 +7,7 @@ const OPEN_AT = 40; // drag further than this (px) snaps open on release
 const AXIS_LOCK = 12; // px of travel before the gesture's axis is decided
 const H_BIAS = 0.7; // meaningful swipes win even when slightly diagonal
 const FLICK = 0.5; // px/ms — a fast release opens/closes regardless of distance
+const SHARE_FLICK = 1.1; // px/ms — a hard leftward fling fires Share directly
 const OVERDRAG_DAMP = 0.5; // rubber-band resistance past the open position
 const COMMIT_EXTRA = 28; // shown px past open that triggers Share on release
 const SETTLE_MS = 340; // slightly over the CSS snap transition
@@ -51,6 +53,20 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
     },
     [],
   );
+
+  // Once the gesture locks horizontal, block native vertical scrolling for
+  // the rest of the touch — the page must not creep up/down mid-swipe, and
+  // iOS must not steal the gesture (pointercancel) halfway through. Needs a
+  // raw non-passive listener; React registers touch handlers as passive.
+  useEffect(() => {
+    const fg = fgRef.current;
+    if (!fg) return;
+    const onTouchMove = (e: TouchEvent) => {
+      if (axisRef.current === 'h') e.preventDefault();
+    };
+    fg.addEventListener('touchmove', onTouchMove, { passive: false });
+    return () => fg.removeEventListener('touchmove', onTouchMove);
+  }, []);
 
   function apply(offset: number, animate: boolean) {
     const fg = fgRef.current;
@@ -128,6 +144,7 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
     if (committed !== commitRef.current) {
       commitRef.current = committed;
       shellRef.current?.classList.toggle('swipe--commit', committed);
+      if (committed) haptic(); // crossing the fire-on-release point
     }
     offsetRef.current = next;
     cancelAnimationFrame(rafRef.current);
@@ -139,17 +156,25 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
     startRef.current = null;
     if (axisRef.current !== 'h') return;
     shellRef.current?.classList.remove('swipe--commit');
-    if (commitRef.current) {
-      // Swiped all the way through — share right away.
+    const v = velRef.current;
+    // Dragged past the commit point, or flung hard left — share right away.
+    if (commitRef.current || (v < -SHARE_FLICK && offsetRef.current <= -OPEN_AT)) {
       commitRef.current = false;
+      haptic();
       onAction();
       settle(0);
       return;
     }
-    const v = velRef.current;
-    if (v < -FLICK) settle(-ACTION_WIDTH);
-    else if (v > FLICK) settle(0);
-    else settle(offsetRef.current <= -OPEN_AT ? -ACTION_WIDTH : 0);
+    if (v < -FLICK) {
+      haptic();
+      settle(-ACTION_WIDTH);
+    } else if (v > FLICK) {
+      settle(0);
+    } else {
+      const opening = offsetRef.current <= -OPEN_AT;
+      if (opening && offsetRef.current !== -ACTION_WIDTH) haptic();
+      settle(opening ? -ACTION_WIDTH : 0);
+    }
   }
 
   // Stop the click that ends a swipe — or a tap while open — from reaching the
