@@ -15,6 +15,10 @@ interface SwipeToRevealProps {
  * iOS-style swipe-left-to-reveal. Keeps the card face clean — the action
  * (Share) hides behind it and appears only on a horizontal swipe. Vertical
  * scrolling is untouched (touch-action: pan-y + an axis lock).
+ *
+ * The action panel's width tracks the revealed gap exactly (0 at rest), so
+ * no blue ever bleeds around the card's rounded corners, gets clipped
+ * mid-drag, or shows through dimmed (read) cards.
  */
 export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToRevealProps) {
   const [offset, setOffset] = useState(0); // 0 closed … -ACTION_WIDTH open
@@ -77,8 +81,8 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
   }
 
   return (
-    <div className="swipe">
-      <div className="swipe__action" aria-hidden={!open}>
+    <div className={`swipe${dragging ? ' swipe--dragging' : ''}`}>
+      <div className="swipe__action" style={{ width: `${-offset}px` }} aria-hidden={!open}>
         <button
           type="button"
           className="swipe__action-btn"
@@ -93,7 +97,7 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
         </button>
       </div>
       <div
-        className={`swipe__fg${dragging ? ' is-dragging' : ''}`}
+        className="swipe__fg"
         style={{ transform: `translate3d(${offset}px, 0, 0)` }}
         onPointerDown={down}
         onPointerMove={move}

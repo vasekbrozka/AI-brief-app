@@ -513,15 +513,22 @@ svg {
   transition: transform 0.24s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
-.swipe__fg.is-dragging {
-  transition: none;
-}
-
+/* Width tracks the revealed gap exactly — zero at rest, so nothing bleeds
+   around the card's rounded corners or through dimmed (read) cards. */
 .swipe__action {
   position: absolute;
-  inset: 0 0 0 auto;
-  width: 76px;
+  top: 0;
+  bottom: 0;
+  right: 0;
   display: flex;
+  overflow: hidden;
+  background: var(--accent);
+  transition: width 0.24s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.swipe--dragging .swipe__fg,
+.swipe--dragging .swipe__action {
+  transition: none;
 }
 
 .swipe__action-btn {
@@ -532,10 +539,11 @@ svg {
   justify-content: center;
   gap: 5px;
   border: 0;
-  background: var(--accent);
+  background: none;
   color: #fff;
   font-size: 12px;
   font-weight: 600;
+  white-space: nowrap;
   cursor: pointer;
 }
 
@@ -1155,7 +1163,7 @@ button.thread:active .thread__title {
   }
 }
 
-.item {
+.item > * {
   transition: opacity 0.2s ease;
 }
 
@@ -1200,7 +1208,9 @@ button.thread:active .thread__title {
   border-color: var(--accent);
 }
 
-.item--read {
+/* Dim the content, not the card — the surface stays opaque so the swipe
+   action behind can never show through a read card. */
+.item--read > * {
   opacity: 0.6;
 }
 
@@ -1284,14 +1294,14 @@ button.thread:active .thread__title {
   }
 }
 
-/* Closing ritual — the reward at the end of today's brief */
+/* Reading ritual — the cup fills with today's progress; full = day done */
 .ritual {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 6px;
   margin-top: 26px;
-  padding: 26px 24px 12px;
+  padding: 20px 24px 8px;
   text-align: center;
 }
 
@@ -1304,7 +1314,21 @@ button.thread:active .thread__title {
   border-radius: 999px;
   color: var(--accent);
   background: var(--accent-soft-bg);
+}
+
+.ritual--done .ritual__cup {
   animation: ritual-pop 0.32s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.cup-fill {
+  transition: y 0.35s ease, height 0.35s ease;
+}
+
+.ritual__count {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
 }
 
 .ritual__title {
@@ -1337,13 +1361,15 @@ button.thread:active .thread__title {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .swipe__fg {
+  .swipe__fg,
+  .swipe__action,
+  .cup-fill {
     transition: none;
   }
   .toast {
     animation: none;
   }
-  .ritual__cup {
+  .ritual--done .ritual__cup {
     animation: none;
   }
 }
