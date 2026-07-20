@@ -95,3 +95,12 @@ export function streakLabel(n: number, lang: Lang): string {
   }
   return `${n}-day streak`;
 }
+
+/** Caffeine-addiction tier (0–4) for a streak: 1 · 2–3 · 4–6 · 7–13 · 14+ days. */
+export function streakLevelIndex(days: number): number {
+  if (days <= 1) return 0;
+  if (days <= 3) return 1;
+  if (days <= 6) return 2;
+  if (days <= 13) return 3;
+  return 4;
+}

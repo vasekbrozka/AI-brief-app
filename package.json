@@ -1,7 +1,7 @@
 {
   "name": "ai-brief-app",
   "private": true,
-  "version": "1.2.5",
+  "version": "1.2.6",
   "type": "module",
   "description": "Daily AI Brief — tvůj každodenní přehled novinek ze světa AI, stručně a ověřeně.",
   "scripts": {

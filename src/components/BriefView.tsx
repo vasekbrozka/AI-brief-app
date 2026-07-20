@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Brief, CategoryId } from '../lib/types';
 import { CATEGORIES, CATEGORY_ORDER } from '../lib/categories';
-import { hiddenCountLabel, streakLabel } from '../lib/format';
+import { hiddenCountLabel, streakLabel, streakLevelIndex } from '../lib/format';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 import { useStreak } from '../providers/StreakProvider';
@@ -113,7 +113,9 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
           </span>
           {done ? (
             <>
-              <span className="ritual__title">{t.ritualDone}</span>
+              <span className="ritual__title">
+                {t.streakLevels[streakLevelIndex(Math.max(1, currentStreak))]}
+              </span>
               <span className="ritual__streak">
                 {streakLabel(Math.max(1, currentStreak), lang)}
               </span>

@@ -82,7 +82,8 @@ export interface UIStrings {
   markRead: string;
   markUnread: string;
   allCaughtUp: string;
-  ritualDone: string;
+  /** Streak-tier titles for the finished-brief ritual, mildest first. */
+  streakLevels: string[];
   sectionReading: string;
   hideReadLabel: string;
   hideReadHint: string;
@@ -194,7 +195,13 @@ export const STRINGS: Record<Lang, UIStrings> = {
     markRead: 'Označit jako přečtené',
     markUnread: 'Označit jako nepřečtené',
     allCaughtUp: 'Vše přečteno',
-    ritualDone: 'Shot vytažen ☕️',
+    streakLevels: [
+      'Jen na skok',
+      'Lehká závislost',
+      'Třese se, ale čte',
+      'Bez dávky nefunguje',
+      'Tlak 180. Přehled 100 %.',
+    ],
     sectionReading: 'Čtení',
     hideReadLabel: 'Skrýt přečtené',
     hideReadHint: 'Přečtené zprávy se nebudou zobrazovat v přehledu.',
@@ -303,7 +310,13 @@ export const STRINGS: Record<Lang, UIStrings> = {
     markRead: 'Mark as read',
     markUnread: 'Mark as unread',
     allCaughtUp: 'All caught up',
-    ritualDone: 'Shot pulled ☕️',
+    streakLevels: [
+      'Just One Quick Shot',
+      'Mildly Addicted',
+      'Shaking, Still Reading',
+      'Can’t Function Without a Shot',
+      'Blood Pressure: 180. Fully Briefed.',
+    ],
     sectionReading: 'Reading',
     hideReadLabel: 'Hide read items',
     hideReadHint: "Read stories won't appear in the brief.",
