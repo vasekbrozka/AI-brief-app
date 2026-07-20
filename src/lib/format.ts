@@ -77,3 +77,12 @@ export function itemCountLabel(n: number, lang: Lang): string {
   }
   return n === 1 ? '1 story' : `${n} stories`;
 }
+
+/** "N stories hidden by your filter", pluralized. */
+export function hiddenCountLabel(n: number, lang: Lang): string {
+  if (lang === 'cs') {
+    const noun = n === 1 ? 'novinka skryta' : n >= 2 && n <= 4 ? 'novinky skryté' : 'novinek skryto';
+    return `${n} ${noun} filtrem`;
+  }
+  return `${n} ${n === 1 ? 'story' : 'stories'} hidden by your filter`;
+}

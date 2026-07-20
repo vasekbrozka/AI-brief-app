@@ -36,8 +36,11 @@ export interface UIStrings {
   settingsTitle: string;
   sectionLanguage: string;
   sectionAppearance: string;
+  sectionCategories: string;
   categoriesLabel: string;
   categoriesHint: string;
+  categoriesShownLabel: string;
+  categoriesShownHint: string;
   sectionInstall: string;
   sectionHowItWorks: string;
   sectionAbout: string;
@@ -124,8 +127,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     settingsTitle: 'Nastavení',
     sectionLanguage: 'Jazyk',
     sectionAppearance: 'Vzhled',
+    sectionCategories: 'Kategorie',
     categoriesLabel: 'Filtry kategorií',
     categoriesHint: 'Zobrazit v přehledu lištu s filtrováním podle kategorií.',
+    categoriesShownLabel: 'Zobrazené kategorie',
+    categoriesShownHint: 'Vypnuté kategorie se v přehledu nezobrazí. Hlavní zpráva zůstává vždy.',
     sectionInstall: 'Přidat na plochu',
     sectionHowItWorks: 'Jak to funguje',
     sectionAbout: 'O aplikaci',
@@ -231,8 +237,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     settingsTitle: 'Settings',
     sectionLanguage: 'Language',
     sectionAppearance: 'Appearance',
+    sectionCategories: 'Categories',
     categoriesLabel: 'Category filters',
     categoriesHint: 'Show the category filter bar in the brief.',
+    categoriesShownLabel: 'Shown categories',
+    categoriesShownHint: "Muted categories won't appear in the brief. The top story always stays.",
     sectionInstall: 'Add to Home Screen',
     sectionHowItWorks: 'How it works',
     sectionAbout: 'About',

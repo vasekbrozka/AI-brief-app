@@ -6,7 +6,8 @@ import {
   useState,
   type ReactNode,
 } from 'react';
-import type { Lang } from '../lib/types';
+import type { CategoryId, Lang } from '../lib/types';
+import { CATEGORY_ORDER } from '../lib/categories';
 import { STRINGS, type UIStrings } from '../i18n/strings';
 
 export type Theme = 'auto' | 'light' | 'dark';
@@ -21,6 +22,9 @@ interface SettingsContextValue {
   setHideRead: (v: boolean) => void;
   showCategories: boolean;
   setShowCategories: (v: boolean) => void;
+  /** Categories the reader has hidden from the brief. */
+  mutedCategories: CategoryId[];
+  toggleCategory: (id: CategoryId) => void;
   /** Localized UI strings for the current language. */
   t: UIStrings;
 }
@@ -31,6 +35,7 @@ const LANG_KEY = 'aibrief.lang';
 const THEME_KEY = 'aibrief.theme';
 const HIDE_READ_KEY = 'aibrief.hideRead';
 const SHOW_CATEGORIES_KEY = 'aibrief.showCategories';
+const MUTED_CATEGORIES_KEY = 'aibrief.mutedCategories';
 
 function detectInitialLang(): Lang {
   try {
@@ -69,11 +74,24 @@ function detectInitialShowCategories(): boolean {
   }
 }
 
+function detectInitialMuted(): CategoryId[] {
+  try {
+    const raw = localStorage.getItem(MUTED_CATEGORIES_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw) as unknown;
+    if (!Array.isArray(parsed)) return [];
+    return CATEGORY_ORDER.filter((c) => parsed.includes(c));
+  } catch {
+    return [];
+  }
+}
+
 export function SettingsProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>(detectInitialLang);
   const [theme, setTheme] = useState<Theme>(detectInitialTheme);
   const [hideRead, setHideRead] = useState<boolean>(detectInitialHideRead);
   const [showCategories, setShowCategories] = useState<boolean>(detectInitialShowCategories);
+  const [mutedCategories, setMutedCategories] = useState<CategoryId[]>(detectInitialMuted);
 
   useEffect(() => {
     try {
@@ -111,6 +129,14 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     }
   }, [showCategories]);
 
+  useEffect(() => {
+    try {
+      localStorage.setItem(MUTED_CATEGORIES_KEY, JSON.stringify(mutedCategories));
+    } catch {
+      /* ignore */
+    }
+  }, [mutedCategories]);
+
   const value = useMemo<SettingsContextValue>(
     () => ({
       lang,
@@ -122,9 +148,14 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       setHideRead,
       showCategories,
       setShowCategories,
+      mutedCategories,
+      toggleCategory: (id: CategoryId) =>
+        setMutedCategories((prev) =>
+          prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id],
+        ),
       t: STRINGS[lang],
     }),
-    [lang, theme, hideRead, showCategories],
+    [lang, theme, hideRead, showCategories, mutedCategories],
   );
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;

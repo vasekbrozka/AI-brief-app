@@ -658,6 +658,39 @@ button.thread:active .thread__title {
 .chip--pink { color: var(--c-pink); background: var(--c-pink-bg); }
 .chip--green { color: var(--c-green); background: var(--c-green-bg); }
 
+/* Category show/hide toggles (Settings) */
+.cat-toggles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.cat-toggle {
+  padding: 6px 12px;
+  border-radius: 9px;
+  border: 1px solid transparent;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cat-toggle:not(.is-on) {
+  background: var(--fill);
+  color: var(--text-tertiary);
+  border-color: var(--hairline);
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* "N stories hidden by your filter" note in the brief */
+.filtered-note {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 12.5px;
+  color: var(--text-tertiary);
+}
+
 /* Verified badge — icon only, pinned to the right of the sources line */
 .verified {
   flex: 0 0 auto;

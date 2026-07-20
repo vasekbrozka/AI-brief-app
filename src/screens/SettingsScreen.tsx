@@ -7,8 +7,9 @@ import type { Theme } from '../providers/SettingsProvider';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 import { useNotifications } from '../hooks/useNotifications';
+import { CATEGORIES, CATEGORY_ORDER } from '../lib/categories';
 
-const APP_VERSION = '1.1';
+const APP_VERSION = '1.2';
 
 function SettingsGroup({ title, children }: { title: string; children: ReactNode }) {
   return (
@@ -20,8 +21,19 @@ function SettingsGroup({ title, children }: { title: string; children: ReactNode
 }
 
 export function SettingsScreen() {
-  const { t, lang, setLang, theme, setTheme, hideRead, setHideRead, showCategories, setShowCategories } =
-    useSettings();
+  const {
+    t,
+    lang,
+    setLang,
+    theme,
+    setTheme,
+    hideRead,
+    setHideRead,
+    showCategories,
+    setShowCategories,
+    mutedCategories,
+    toggleCategory,
+  } = useSettings();
   const { clear, readCount } = useRead();
   const notifications = useNotifications();
 
@@ -54,7 +66,9 @@ export function SettingsScreen() {
           options={themeOptions}
           ariaLabel={t.sectionAppearance}
         />
-        <div className="setting-divider" />
+      </SettingsGroup>
+
+      <SettingsGroup title={t.sectionCategories}>
         <div className="setting-switch">
           <div className="setting-switch__text">
             <span className="setting-switch__label">{t.categoriesLabel}</span>
@@ -65,6 +79,27 @@ export function SettingsScreen() {
             onChange={setShowCategories}
             ariaLabel={t.categoriesLabel}
           />
+        </div>
+        <div className="setting-divider" />
+        <div className="setting-switch__text">
+          <span className="setting-switch__label">{t.categoriesShownLabel}</span>
+          <span className="setting-switch__hint">{t.categoriesShownHint}</span>
+        </div>
+        <div className="cat-toggles" role="group" aria-label={t.categoriesShownLabel}>
+          {CATEGORY_ORDER.map((c) => {
+            const on = !mutedCategories.includes(c);
+            return (
+              <button
+                key={c}
+                type="button"
+                className={`cat-toggle chip--${CATEGORIES[c].tint}${on ? ' is-on' : ''}`}
+                aria-pressed={on}
+                onClick={() => toggleCategory(c)}
+              >
+                {CATEGORIES[c].label[lang]}
+              </button>
+            );
+          })}
         </div>
       </SettingsGroup>
 

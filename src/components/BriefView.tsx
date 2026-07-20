@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import type { Brief, CategoryId } from '../lib/types';
 import { CATEGORIES, CATEGORY_ORDER } from '../lib/categories';
+import { hiddenCountLabel } from '../lib/format';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 import { BriefItemCard } from './BriefItemCard';
@@ -9,17 +10,26 @@ import { Icon } from './Icon';
 type Filter = CategoryId | 'all';
 
 export function BriefView({ brief }: { brief: Brief }) {
-  const { lang, t, hideRead, showCategories } = useSettings();
+  const { lang, t, hideRead, showCategories, mutedCategories } = useSettings();
   const { isRead } = useRead();
   const [filter, setFilter] = useState<Filter>('all');
 
+  // Muted categories drop out of the brief — but the day's top story always
+  // stays, so muting never silently swallows the single highlight.
+  const muted = useMemo(() => new Set(mutedCategories), [mutedCategories]);
+  const shown = useMemo(
+    () => brief.items.filter((item) => item.highlight || !muted.has(item.category)),
+    [brief, muted],
+  );
+  const hiddenCount = brief.items.length - shown.length;
+
   const presentCategories = useMemo(
-    () => CATEGORY_ORDER.filter((c) => brief.items.some((item) => item.category === c)),
-    [brief],
+    () => CATEGORY_ORDER.filter((c) => shown.some((item) => item.category === c)),
+    [shown],
   );
 
   const visible =
-    filter === 'all' ? brief.items : brief.items.filter((item) => item.category === filter);
+    filter === 'all' ? shown : shown.filter((item) => item.category === filter);
   const unread = visible.filter((item) => !isRead(item.id));
   const read = visible.filter((item) => isRead(item.id));
 
@@ -83,6 +93,8 @@ export function BriefView({ brief }: { brief: Brief }) {
           </div>
         </>
       )}
+
+      {hiddenCount > 0 && <p className="filtered-note">{hiddenCountLabel(hiddenCount, lang)}</p>}
 
       {brief.sample && (
         <p className="sample-note">
