@@ -1,4 +1,5 @@
 import type { Brief, BriefIndex } from './types';
+import type { Glossary } from './glossary';
 
 // Briefs are served straight from GitHub instead of Netlify, so the daily
 // content commit doesn't trigger a (billed) Netlify deploy. Primary source is
@@ -43,4 +44,10 @@ export async function loadBriefIndex(): Promise<BriefIndex> {
 
 export async function loadBrief(date: string): Promise<Brief> {
   return fetchJson<Brief>(`data/briefs/${date}.json`);
+}
+
+// The glossary of AI terms is served the same way as briefs, so growing the
+// dictionary stays a free content commit rather than a billed Netlify deploy.
+export async function loadGlossary(): Promise<Glossary> {
+  return fetchJson<Glossary>('data/glossary.json');
 }

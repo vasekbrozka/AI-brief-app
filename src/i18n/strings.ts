@@ -95,6 +95,8 @@ export interface UIStrings {
   gamifyLabel: string;
   gamifyHint: string;
   gamifyCurrentLabel: string;
+  glossaryLabel: string;
+  glossaryHint: string;
 
   // Notifications
   sectionNotifications: string;
@@ -170,6 +172,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImprovedLabel: 'Vylepšeno',
     releaseFixedLabel: 'Opraveno',
     releaseAdded: [
+      'Ťukni na odborný pojem v přehledu a hned se ukáže prosté vysvětlení',
       'Série čtení nově jako týdenní návyk — řetěz dnů, dnešek se plní, jak čteš',
       'Oslava při dočtení a barva, která houstne s délkou série',
     ],
@@ -212,8 +215,10 @@ export const STRINGS: Record<Lang, UIStrings> = {
     hideReadHint: 'Přečtené zprávy se nebudou zobrazovat v přehledu.',
     clearReadLabel: 'Označit vše jako nepřečtené',
     gamifyLabel: 'Série čtení',
-    gamifyHint: 'Šálek se plní s každou přečtenou novinkou. Dočtený den drží sérii.',
+    gamifyHint: 'Týdenní série — dnešek se plní, jak čteš, a dočtený den drží sérii.',
     gamifyCurrentLabel: 'Aktuální série',
+    glossaryLabel: 'Vysvětlivky pojmů',
+    glossaryHint: 'Odborné pojmy v přehledu podtrhneme — ťuknutím zobrazíš prosté vysvětlení.',
 
     sectionNotifications: 'Upozornění',
     notifyLabel: 'Ranní upozornění',
@@ -286,6 +291,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImprovedLabel: 'Improved',
     releaseFixedLabel: 'Fixed',
     releaseAdded: [
+      'Tap a technical term in the brief for a plain-language explanation',
       'Reading streak reimagined as a weekly habit — a chain of days that fills as you read',
       'A celebration when you finish, and a colour that deepens with your streak',
     ],
@@ -328,8 +334,10 @@ export const STRINGS: Record<Lang, UIStrings> = {
     hideReadHint: "Read stories won't appear in the brief.",
     clearReadLabel: 'Mark all as unread',
     gamifyLabel: 'Reading streak',
-    gamifyHint: 'The cup fills with every story you read. Finishing the day keeps your streak.',
+    gamifyHint: 'A weekly streak — today fills as you read, and finishing the day keeps it alive.',
     gamifyCurrentLabel: 'Current streak',
+    glossaryLabel: 'Term explanations',
+    glossaryHint: 'We underline technical terms in the brief — tap one for a plain explanation.',
 
     sectionNotifications: 'Notifications',
     notifyLabel: 'Morning alert',

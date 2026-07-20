@@ -47,7 +47,8 @@ export default defineConfig({
             urlPattern: ({ url }) =>
               (url.hostname === 'raw.githubusercontent.com' ||
                 url.hostname === 'api.github.com') &&
-              url.pathname.includes('data/briefs/'),
+              (url.pathname.includes('data/briefs/') ||
+                url.pathname.includes('data/glossary')),
             handler: 'NetworkFirst',
             options: {
               cacheName: 'briefs-data',

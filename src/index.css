@@ -761,6 +761,105 @@ button.thread:active .thread__title {
   color: var(--text-tertiary);
 }
 
+/* ---- Glossary: tappable AI terms + explanation "bublina" ---------------- */
+/* A term keeps the body colour and just gains a dotted underline — a quiet
+   "there's more here" hint, never a link. */
+.term {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1.6px;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--accent) 50%, transparent);
+  border-radius: 4px;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.15s ease;
+}
+.term:active {
+  background: var(--accent-soft-bg);
+}
+@media (hover: hover) and (pointer: fine) {
+  .term:hover {
+    text-decoration-color: var(--accent);
+  }
+}
+
+/* The floating explanation card, anchored under (or above) the tapped word. */
+.gpop {
+  position: fixed;
+  z-index: 200;
+  width: 262px;
+  max-width: calc(100vw - 24px);
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 15px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1), 0 18px 40px rgba(0, 0, 0, 0.16);
+  padding: 13px 15px 14px;
+  animation: gpop-in 0.16s cubic-bezier(0.32, 0.72, 0, 1);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .gpop {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5), 0 18px 40px rgba(0, 0, 0, 0.6);
+  }
+}
+:root[data-theme='dark'] .gpop {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5), 0 18px 40px rgba(0, 0, 0, 0.6);
+}
+/* Diamond pointer whose two visible edges continue the card's hairline. */
+.gpop__arrow {
+  position: absolute;
+  top: -7px;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  background: var(--surface);
+  border-left: 1px solid var(--hairline);
+  border-top: 1px solid var(--hairline);
+  transform: rotate(45deg);
+}
+.gpop[data-flip='true'] .gpop__arrow {
+  top: auto;
+  bottom: -7px;
+  border-left: 0;
+  border-top: 0;
+  border-right: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+}
+.gpop__term {
+  font-size: 14.5px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+.gpop__body {
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+@keyframes gpop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gpop {
+    animation: none;
+  }
+}
+
 /* Sample content note */
 .sample-note {
   display: flex;

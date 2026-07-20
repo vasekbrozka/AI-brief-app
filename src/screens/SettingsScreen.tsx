@@ -38,6 +38,8 @@ export function SettingsScreen() {
     toggleCategory,
     gamification,
     setGamification,
+    glossaryEnabled,
+    setGlossaryEnabled,
   } = useSettings();
   const { clear, readCount } = useRead();
   const { currentStreak } = useStreak();
@@ -130,6 +132,18 @@ export function SettingsScreen() {
             {t.gamifyCurrentLabel}: {streakLabel(currentStreak, lang)}
           </p>
         )}
+        <div className="setting-divider" />
+        <div className="setting-switch">
+          <div className="setting-switch__text">
+            <span className="setting-switch__label">{t.glossaryLabel}</span>
+            <span className="setting-switch__hint">{t.glossaryHint}</span>
+          </div>
+          <Switch
+            checked={glossaryEnabled}
+            onChange={setGlossaryEnabled}
+            ariaLabel={t.glossaryLabel}
+          />
+        </div>
         <div className="setting-divider" />
         <button
           type="button"

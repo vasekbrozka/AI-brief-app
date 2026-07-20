@@ -9,6 +9,7 @@ import { CategoryChip } from './CategoryChip';
 import { SourceList } from './SourceList';
 import { VerifiedBadge } from './VerifiedBadge';
 import { SwipeToReveal } from './SwipeToReveal';
+import { GlossaryText } from './GlossaryText';
 import { Icon } from './Icon';
 
 // Keep in sync with the `item-exit` animation duration in index.css.
@@ -104,7 +105,9 @@ export function BriefItemCard({ item }: { item: BriefItem }) {
           </div>
         </div>
         <h3 className="item__title">{item.title[lang]}</h3>
-        <p className="item__summary">{item.summary[lang]}</p>
+        <p className="item__summary">
+          <GlossaryText text={item.summary[lang]} />
+        </p>
         {item.followsUp && <ThreadLink thread={item.followsUp} />}
         <div className="item__footer">
           <SourceList sources={item.sources} />
