@@ -100,6 +100,26 @@
       "used": "2026-07-18"
     },
     {
+      "slug": "tip-chatgpt-codex-remote",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "title": {
+        "cs": "Codex teď zvládneš řídit na dálku z mobilu",
+        "en": "Codex now works remotely from your phone"
+      },
+      "summary": {
+        "cs": "Kódovacího agenta Codex teď v ChatGPT aplikaci ovládneš i z mobilu — zkontroluješ rozdělanou práci, schválíš příkazy, přepneš model nebo zadáš nový úkol, aniž bys seděl u počítače. OpenAI to spustilo přes aplikaci pro iOS a Android.",
+        "en": "You can now control your Codex coding agent remotely from the ChatGPT mobile app — check on work in progress, approve commands, switch models, or start a new task without sitting at your computer. OpenAI rolled it out on iOS and Android."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/index/work-with-codex-from-anywhere/" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/" }
+      ],
+      "added": "2026-07-20",
+      "used": "2026-07-20"
+    },
+    {
       "slug": "tip-gemini-spark-macos",
       "category": "tools",
       "theme": "gemini",
@@ -138,6 +158,26 @@
       ],
       "added": "2026-07-19",
       "used": "2026-07-19"
+    },
+    {
+      "slug": "tip-gemini-notebook-rebrand",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "NotebookLM se přejmenoval na Gemini Notebook",
+        "en": "NotebookLM is now called Gemini Notebook"
+      },
+      "summary": {
+        "cs": "Google přejmenoval NotebookLM na Gemini Notebook — stejný nástroj na výzkum a poznámky teď jasněji patří do rodiny Gemini a propojuje se s Gemini aplikací i Vyhledáváním. Uživatelé Pro navíc brzy dostanou možnost spouštět kód přímo v poznámkovém bloku pro hlubší analýzu dat.",
+        "en": "Google renamed NotebookLM to Gemini Notebook — the same research and note-taking tool now sits more clearly inside the Gemini family and syncs with the Gemini app and Search. Pro users will also soon get the option to run code directly inside a notebook for deeper data analysis."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/" }
+      ],
+      "added": "2026-07-20",
+      "used": "2026-07-20"
     },
     {
       "slug": "tip-gemini-live-translate",
@@ -218,6 +258,26 @@
       ],
       "added": "2026-07-16",
       "used": "2026-07-19"
+    },
+    {
+      "slug": "tip-copilot-notebooks-outlook",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "title": {
+        "cs": "Copilot Notebooks umí čerpat i z e-mailů v Outlooku",
+        "en": "Copilot Notebooks can now pull in Outlook emails"
+      },
+      "summary": {
+        "cs": "Do Copilot Notebooks teď přidáš jako zdroj i e-maily z Outlooku, vedle Wordu, Excelu nebo PowerPointu — Copilot pak čerpá přímo z konverzací a rozhodnutí, na kterých projekt stojí. Microsoft to zpřístupnil v červnu i uživatelům Copilot Chat, dřív jen s plnou licencí.",
+        "en": "Copilot Notebooks can now pull in Outlook emails as a source too, alongside Word, Excel, or PowerPoint files — so Copilot draws straight from the conversations and decisions behind a project. Microsoft opened this to Copilot Chat users in June, previously reserved for full license holders."
+      },
+      "sources": [
+        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-notebooks--june-2026/4525625" },
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
+      ],
+      "added": "2026-07-20",
+      "used": "2026-07-20"
     }
   ]
 }

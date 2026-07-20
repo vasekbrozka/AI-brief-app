@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-19T03:10:32Z",
+  "updated": "2026-07-20T03:10:04Z",
   "briefs": [
+    {
+      "date": "2026-07-20",
+      "headline": {
+        "cs": "Experti se přou o riziko otevřené čínské AI",
+        "en": "Experts clash over risk of open Chinese AI"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-07-19",
       "headline": {
@@ -16,14 +24,6 @@
         "en": "Kimi K3 keeps stirring the AI policy debate"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-07-17",
-      "headline": {
-        "cs": "Kimi K3 otřásl trhy, Gemini opět čeká",
-        "en": "Kimi K3 rattles markets, Gemini delay drags on"
-      },
-      "itemCount": 6
     }
   ]
 }
