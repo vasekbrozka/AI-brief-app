@@ -116,8 +116,10 @@ Pro **každého** kandidáta, než ho pustíš dál:
 ### 4 · Psaní — stylový manuál
 
 - **Headline:** cíl ≤ 8 slov (strop 12), věcný, žádný clickbait.
-- **Intro:** 1–2 věty shrnutí dne; klidný den s tipy poctivě přiznej
-  („Klidný den doplňujeme tipy z posledních týdnů.").
+- **Intro:** krátký úvod dne — **ideálně 1 věta, nejvýš 2**; **tvrdý strop ~25 slov
+  (≈160 znaků)**. Jedna myšlenka: vede pohled, neopakuje titulky. **Žádné řetězení
+  přes pomlčky/dvojtečky ani vnořené vedlejší věty** (to je přesně to, co úvod nafoukne).
+  Klidný den s tipy poctivě přiznej („Klidný den doplňujeme tipy z posledních týdnů.").
 - **Summary zpráv: 40–50 slov v obou jazycích** (tvrdé meze 30–60). Tipy ~35 slov
   (meze 25–55). Žádný řádek „proč je to důležité" — jen fakta.
 - **EN není překlad slovo od slova** — piš přirozenou angličtinou, ale **fakta (čísla,
@@ -240,7 +242,7 @@ T1/T2. Ideál: oficiální oznámení (T1) + médium (T2), nebo 2× nezávislé 
   "date": "YYYY-MM-DD",
   "sample": false,
   "headline": { "cs": "...", "en": "..." },   // ≤ 8 slov, věcný
-  "intro":    { "cs": "...", "en": "..." },    // 1–2 věty souhrn dne
+  "intro":    { "cs": "...", "en": "..." },    // krátký úvod, ideálně 1 věta (max ~25 slov)
   "items": [
     {
       "id": "YYYY-MM-DD-kratky-slug",          // tipy: YYYY-MM-DD-tip-<slug>
