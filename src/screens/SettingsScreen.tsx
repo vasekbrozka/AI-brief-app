@@ -11,7 +11,7 @@ import { useNotifications } from '../hooks/useNotifications';
 import { CATEGORIES, CATEGORY_ORDER } from '../lib/categories';
 import { streakLabel } from '../lib/format';
 
-const APP_VERSION = '1.2';
+const APP_VERSION = '1.3';
 
 function SettingsGroup({ title, children }: { title: string; children: ReactNode }) {
   return (

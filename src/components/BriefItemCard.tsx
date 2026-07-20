@@ -84,6 +84,14 @@ export function BriefItemCard({ item }: { item: BriefItem }) {
             {read && <span className="item__readtag">{t.read}</span>}
             <button
               type="button"
+              className="card-share"
+              aria-label={t.shareLabel}
+              onClick={() => void shareItem(item, lang)}
+            >
+              <Icon name="share" size={17} />
+            </button>
+            <button
+              type="button"
               className={`read-toggle${checked ? ' is-read' : ''}`}
               aria-pressed={checked}
               aria-label={read ? t.markUnread : t.markRead}

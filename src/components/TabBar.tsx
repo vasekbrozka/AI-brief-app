@@ -14,6 +14,13 @@ export function TabBar({ active, onChange }: { active: Tab; onChange: (t: Tab) =
 
   return (
     <nav className="tabbar" aria-label={t.appName}>
+      {/* Shown only in the desktop sidebar layout. */}
+      <div className="tabbar__brand" aria-hidden="true">
+        <span className="tabbar__brand-icon">
+          <Icon name="cup" size={19} />
+        </span>
+        <span>{t.appName}</span>
+      </div>
       <div className="tabbar__inner">
         {tabs.map((tab) => {
           const isActive = active === tab.id;

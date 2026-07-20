@@ -1150,6 +1150,194 @@ button.thread:active .thread__title {
   }
 }
 
+/* ---- Pointer niceties (any screen with a mouse) -------------------------- */
+/* Card share button — swipe is a touch gesture; mice get an icon instead.
+   Hidden on touch devices, revealed on card hover / keyboard focus. */
+.card-share {
+  display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .card-share {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    margin: -6px -4px -6px 0;
+    border: 0;
+    background: none;
+    color: var(--text-tertiary);
+    opacity: 0;
+    transition: opacity 0.15s ease, color 0.15s ease;
+  }
+
+  .swipe:hover .card-share,
+  .card-share:focus-visible {
+    opacity: 1;
+  }
+
+  .card-share:hover {
+    color: var(--accent);
+  }
+
+  .swipe:hover {
+    border-color: var(--separator);
+  }
+
+  .archive-row:hover {
+    background: var(--fill);
+  }
+
+  .source-link:hover {
+    text-decoration: underline;
+  }
+
+  button.thread:hover .thread__title {
+    text-decoration: underline;
+  }
+
+  .filter:hover:not(.is-active) {
+    background: var(--fill);
+  }
+
+  .link-btn:hover {
+    text-decoration: underline;
+  }
+
+  .tabbar__item:hover:not(.is-active) {
+    color: var(--text-secondary);
+  }
+}
+
+/* ---- Desktop layout (≥ 900px): sidebar + wider column -------------------- */
+.tabbar__brand {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  :root {
+    --content-max: 748px;
+    --sidebar-w: 224px;
+  }
+
+  html,
+  body {
+    background: var(--bg);
+  }
+
+  .app {
+    max-width: none;
+    padding-left: var(--sidebar-w);
+    box-shadow: none;
+  }
+
+  .app__main {
+    max-width: var(--content-max);
+    margin-inline: auto;
+  }
+
+  /* The top bar floats over the content area, right of the sidebar. */
+  .navbar {
+    left: var(--sidebar-w);
+  }
+
+  .toaster {
+    left: var(--sidebar-w);
+    bottom: 40px;
+  }
+
+  /* No bottom tab bar to clear anymore. */
+  .screen__content {
+    padding-bottom: 56px;
+  }
+
+  /* Bottom tab bar becomes the left sidebar. */
+  .tabbar {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: auto;
+    transform: none;
+    width: var(--sidebar-w);
+    max-width: none;
+    padding: 26px 14px 16px;
+    background: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    border-top: 0;
+    border-right: 1px solid var(--hairline);
+  }
+
+  .tabbar__brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4px 10px 22px;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--text);
+  }
+
+  .tabbar__brand-icon {
+    display: grid;
+    place-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 9px;
+    background: var(--accent);
+    color: #fff;
+  }
+
+  .tabbar__inner {
+    flex-direction: column;
+    height: auto;
+    gap: 3px;
+  }
+
+  .tabbar__item {
+    flex: 0 0 auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 11px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    color: var(--text-secondary);
+  }
+
+  .tabbar__item .tabbar__icon {
+    width: 21px;
+    height: 21px;
+  }
+
+  .tabbar__label {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+  }
+
+  .tabbar__item.is-active {
+    color: var(--accent);
+    background: var(--accent-soft-bg);
+  }
+
+  .tabbar__item:active {
+    transform: none;
+  }
+
+  /* Roomier cards on the wide column. */
+  .item {
+    padding: 18px 22px;
+  }
+}
+
+@media (min-width: 900px) and (hover: hover) {
+  .tabbar__item:hover:not(.is-active) {
+    background: var(--fill);
+    color: var(--text);
+  }
+}
+
 /* ---- Accessibility ------------------------------------------------------ */
 @media (prefers-reduced-motion: reduce) {
   *,
