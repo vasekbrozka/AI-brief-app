@@ -8,7 +8,7 @@ const RAW_INDEX =
   'https://raw.githubusercontent.com/vasekbrozka/AI-brief-app/refs/heads/claude/daily-ai-brief-app-b1qq0p/data/briefs/index.json';
 const VAPID_PUBLIC_KEY =
   'BDM3FG_HdmoXa_wlZPrbcvGW99d5OodcIdAjsZ3LtPBtuOtFpVQN41m2LltNbZfjCFuCGuA51mffSdusGTnRkA0';
-const VAPID_SUBJECT = 'https://aispresso.netlify.app';
+const VAPID_SUBJECT = 'https://aispresso.app';
 
 export default async () => {
   const privateKey = process.env.VAPID_PRIVATE_KEY;

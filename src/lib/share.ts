@@ -1,7 +1,7 @@
 import type { BriefItem, Lang } from './types';
 import { toast } from './toast';
 
-const APP_URL = 'https://aispresso.netlify.app';
+const APP_URL = 'https://aispresso.app';
 
 /**
  * Plain-text share payload. Kept deliberately simple so it survives intact
