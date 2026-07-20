@@ -20,8 +20,6 @@ interface SettingsContextValue {
   setTheme: (t: Theme) => void;
   hideRead: boolean;
   setHideRead: (v: boolean) => void;
-  showCategories: boolean;
-  setShowCategories: (v: boolean) => void;
   /** Categories the reader has hidden from the brief. */
   mutedCategories: CategoryId[];
   toggleCategory: (id: CategoryId) => void;
@@ -44,7 +42,6 @@ const HIDE_READ_KEY = 'aibrief.hideRead';
 // existing installs (which auto-saved the old OFF default) adopt it once. After
 // that, the reader's own choice is respected.
 const HIDE_READ_DEFAULTED_KEY = 'aibrief.hideRead.default2';
-const SHOW_CATEGORIES_KEY = 'aibrief.showCategories';
 const MUTED_CATEGORIES_KEY = 'aibrief.mutedCategories';
 const GAMIFICATION_KEY = 'aibrief.gamification';
 const GLOSSARY_KEY = 'aibrief.glossary';
@@ -83,14 +80,6 @@ function detectInitialHideRead(): boolean {
   }
 }
 
-function detectInitialShowCategories(): boolean {
-  try {
-    return localStorage.getItem(SHOW_CATEGORIES_KEY) === '1';
-  } catch {
-    return false;
-  }
-}
-
 function detectInitialMuted(): CategoryId[] {
   try {
     const raw = localStorage.getItem(MUTED_CATEGORIES_KEY);
@@ -125,7 +114,6 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>(detectInitialLang);
   const [theme, setTheme] = useState<Theme>(detectInitialTheme);
   const [hideRead, setHideRead] = useState<boolean>(detectInitialHideRead);
-  const [showCategories, setShowCategories] = useState<boolean>(detectInitialShowCategories);
   const [mutedCategories, setMutedCategories] = useState<CategoryId[]>(detectInitialMuted);
   const [gamification, setGamification] = useState<boolean>(detectInitialGamification);
   const [glossaryEnabled, setGlossaryEnabled] = useState<boolean>(detectInitialGlossary);
@@ -163,14 +151,6 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     try {
-      localStorage.setItem(SHOW_CATEGORIES_KEY, showCategories ? '1' : '0');
-    } catch {
-      /* ignore */
-    }
-  }, [showCategories]);
-
-  useEffect(() => {
-    try {
       localStorage.setItem(MUTED_CATEGORIES_KEY, JSON.stringify(mutedCategories));
     } catch {
       /* ignore */
@@ -202,8 +182,6 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       setTheme,
       hideRead,
       setHideRead,
-      showCategories,
-      setShowCategories,
       mutedCategories,
       toggleCategory: (id: CategoryId) =>
         setMutedCategories((prev) =>
@@ -215,7 +193,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       setGlossaryEnabled,
       t: STRINGS[lang],
     }),
-    [lang, theme, hideRead, showCategories, mutedCategories, gamification, glossaryEnabled],
+    [lang, theme, hideRead, mutedCategories, gamification, glossaryEnabled],
   );
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;

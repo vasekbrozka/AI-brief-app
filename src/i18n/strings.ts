@@ -13,7 +13,6 @@ export interface UIStrings {
   brewMorning: string;
   brewAfternoon: string;
   brewEvening: string;
-  gistLabel: string;
   todayEmptyTitle: string;
   todayEmptyBody: string;
 
@@ -22,8 +21,14 @@ export interface UIStrings {
   topStory: string;
   sourcesLabel: string;
   shareLabel: string;
+  saveLabel: string;
+  removeLabel: string;
+  savedToast: string;
+  unsavedToast: string;
+  savedTitle: string;
+  savedEmpty: string;
+  savedEmptyBody: string;
   threadLabel: string;
-  allCategories: string;
   sampleBadge: string;
   sampleNote: string;
 
@@ -37,13 +42,11 @@ export interface UIStrings {
   sectionLanguage: string;
   sectionAppearance: string;
   sectionCategories: string;
-  categoriesLabel: string;
-  categoriesHint: string;
-  categoriesShownLabel: string;
   categoriesShownHint: string;
   sectionInstall: string;
   sectionHowItWorks: string;
   sectionAbout: string;
+  aboutRowHint: string;
   themeAuto: string;
   themeLight: string;
   themeDark: string;
@@ -119,7 +122,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     brewMorning: 'Ranní shot',
     brewAfternoon: 'Odpolední sedlina',
     brewEvening: 'Večerní výplach',
-    gistLabel: 'Zristrettováno',
     todayEmptyTitle: 'Zatím žádný brief',
     todayEmptyBody: 'Dnešní přehled se ještě připravuje. Zkus to prosím později.',
 
@@ -127,8 +129,14 @@ export const STRINGS: Record<Lang, UIStrings> = {
     topStory: 'Hlavní zpráva',
     sourcesLabel: 'Zdroje',
     shareLabel: 'Sdílet',
+    saveLabel: 'Uložit',
+    removeLabel: 'Odebrat',
+    savedToast: 'Uloženo ☕️',
+    unsavedToast: 'Odebráno',
+    savedTitle: 'Uložené',
+    savedEmpty: 'Zatím nic uloženého',
+    savedEmptyBody: 'Táhni novinku doprava a nech si ji na později.',
     threadLabel: 'Navazuje na',
-    allCategories: 'Vše',
     sampleBadge: 'Ukázka',
     sampleNote:
       'Toto je ukázkový obsah pro fázi 1. Skutečný denní přehled bude automaticky sestavovat AI ve fázi 2.',
@@ -141,13 +149,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     sectionLanguage: 'Jazyk',
     sectionAppearance: 'Vzhled',
     sectionCategories: 'Kategorie',
-    categoriesLabel: 'Filtry kategorií',
-    categoriesHint: 'Zobrazit v přehledu lištu s filtrováním podle kategorií.',
-    categoriesShownLabel: 'Zobrazené kategorie',
     categoriesShownHint: 'Vypnuté kategorie se v přehledu nezobrazí. Hlavní zpráva zůstává vždy.',
     sectionInstall: 'Přidat na plochu',
     sectionHowItWorks: 'Jak to funguje',
     sectionAbout: 'O aplikaci',
+    aboutRowHint: 'Jak to funguje, zdroje, novinky a podpora',
     themeAuto: 'Automaticky',
     themeLight: 'Světlý',
     themeDark: 'Tmavý',
@@ -174,13 +180,12 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImprovedLabel: 'Vylepšeno',
     releaseFixedLabel: 'Opraveno',
     releaseAdded: [
-      'Ťukni na odborný pojem v přehledu a hned se ukáže prosté vysvětlení',
-      'Série čtení nově jako týdenní návyk — řetěz dnů, dnešek se plní, jak čteš',
-      'Oslava při dočtení a barva, která houstne s délkou série',
+      'Ulož si novinku na později — táhni ji doprava; uložené pak najdeš v Archivu',
     ],
     releaseImproved: [
-      'Přečtené novinky se nově skrývají hned od začátku — víc prostoru pro sérii (kdykoli lze vypnout v Nastavení)',
-      'Podpora projektu decentně v sekci O aplikaci',
+      'Přehlednější úvod dne — kratší a lehčí, bez rámečku navíc',
+      'Nastavení zeštíhlela — nápověda, zdroje i novinky se přesunuly do „O aplikaci“',
+      'Jednodušší kategorie — jedno místo na jejich skrývání',
     ],
     releaseFixed: [],
     aboutTagline: 'Novinky ze světa AI',
@@ -239,7 +244,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     brewMorning: 'Morning Shot',
     brewAfternoon: 'Afternoon Grounds',
     brewEvening: 'Evening Rinse',
-    gistLabel: 'Ristrettified',
     todayEmptyTitle: 'No brief yet',
     todayEmptyBody: "Today's brief is still being prepared. Please check back later.",
 
@@ -247,8 +251,14 @@ export const STRINGS: Record<Lang, UIStrings> = {
     topStory: 'Top story',
     sourcesLabel: 'Sources',
     shareLabel: 'Share',
+    saveLabel: 'Save',
+    removeLabel: 'Remove',
+    savedToast: 'Saved ☕️',
+    unsavedToast: 'Removed',
+    savedTitle: 'Saved',
+    savedEmpty: 'Nothing saved yet',
+    savedEmptyBody: 'Swipe a story right to keep it for later.',
     threadLabel: 'Follows up on',
-    allCategories: 'All',
     sampleBadge: 'Sample',
     sampleNote:
       'This is sample content for Phase 1. The real daily brief will be assembled automatically by AI in Phase 2.',
@@ -261,13 +271,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     sectionLanguage: 'Language',
     sectionAppearance: 'Appearance',
     sectionCategories: 'Categories',
-    categoriesLabel: 'Category filters',
-    categoriesHint: 'Show the category filter bar in the brief.',
-    categoriesShownLabel: 'Shown categories',
     categoriesShownHint: "Muted categories won't appear in the brief. The top story always stays.",
     sectionInstall: 'Add to Home Screen',
     sectionHowItWorks: 'How it works',
     sectionAbout: 'About',
+    aboutRowHint: 'How it works, sources, what\'s new and support',
     themeAuto: 'Automatic',
     themeLight: 'Light',
     themeDark: 'Dark',
@@ -294,13 +302,12 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImprovedLabel: 'Improved',
     releaseFixedLabel: 'Fixed',
     releaseAdded: [
-      'Tap a technical term in the brief for a plain-language explanation',
-      'Reading streak reimagined as a weekly habit — a chain of days that fills as you read',
-      'A celebration when you finish, and a colour that deepens with your streak',
+      'Save a story for later — swipe it right; find them later in the Archive',
     ],
     releaseImproved: [
-      'Read items are now hidden from the start — more room for the streak (can be turned off in Settings)',
-      'A quiet way to support the project in the About section',
+      "A lighter, shorter lead-in to each day's brief",
+      'Slimmer Settings — help, sources and what\'s new now live under "About"',
+      "Simpler categories — one place to hide the ones you don't want",
     ],
     releaseFixed: [],
     aboutTagline: 'The world of AI',

@@ -5,10 +5,9 @@ import { Icon } from './Icon';
 export function BriefSkeleton() {
   return (
     <div className="brief" aria-busy="true" aria-live="polite">
-      <div className="gist skeleton">
-        <div className="skeleton-line" style={{ width: '30%' }} />
-        <div className="skeleton-line" style={{ width: '95%', marginTop: 10 }} />
-        <div className="skeleton-line" style={{ width: '80%' }} />
+      <div className="lede" aria-hidden="true">
+        <div className="skeleton-line" style={{ width: '96%' }} />
+        <div className="skeleton-line" style={{ width: '72%', marginTop: 8 }} />
       </div>
       <div className="items">
         {Array.from({ length: 4 }).map((_, i) => (
