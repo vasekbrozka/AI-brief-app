@@ -1595,6 +1595,30 @@ button.thread:active .thread__title {
 
 /* Reading-streak card — consecutive days + the week as a chain of dots.
    Colour (--tier) escalates with the streak level. */
+/* Section label introducing the streak card, so the habit tracker never reads
+   as just another news card. Mirrors the "read" divider for a coherent feed. */
+.streak-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 26px 2px 14px;
+  color: var(--text-tertiary);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.streak-divider::before,
+.streak-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--separator);
+}
+.streak-divider + .streakcard {
+  margin-top: 0;
+}
+
 .streakcard {
   --tier: var(--accent);
   --tier-soft: color-mix(in srgb, var(--tier) 13%, transparent);

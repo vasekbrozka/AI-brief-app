@@ -109,7 +109,14 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
         </>
       )}
 
-      {showCard && <WeekStreak todayProgress={todayProgress} done={done} />}
+      {showCard && (
+        <>
+          <div className="streak-divider">
+            <span>{t.streakSectionLabel}</span>
+          </div>
+          <WeekStreak todayProgress={todayProgress} done={done} />
+        </>
+      )}
 
       {hiddenCount > 0 && <p className="filtered-note">{hiddenCountLabel(hiddenCount, lang)}</p>}
 

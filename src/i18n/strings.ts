@@ -84,6 +84,8 @@ export interface UIStrings {
   markRead: string;
   markUnread: string;
   allCaughtUp: string;
+  /** Section label shown above the reading-streak card in the brief. */
+  streakSectionLabel: string;
   /** Streak-tier titles for the finished-brief ritual, mildest first. */
   streakLevels: string[];
   streakStart: string;
@@ -201,6 +203,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     markRead: 'Označit jako přečtené',
     markUnread: 'Označit jako nepřečtené',
     allCaughtUp: 'Vše přečteno',
+    streakSectionLabel: 'Série čtení',
     streakLevels: [
       'Jen na skok',
       'Lehká závislost',
@@ -320,6 +323,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     markRead: 'Mark as read',
     markUnread: 'Mark as unread',
     allCaughtUp: 'All caught up',
+    streakSectionLabel: 'Reading streak',
     streakLevels: [
       'Just One Quick Shot',
       'Mildly Addicted',
