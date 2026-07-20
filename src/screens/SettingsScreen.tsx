@@ -192,24 +192,22 @@ export function SettingsScreen() {
         <p className="release-version">
           {t.versionLabel} {APP_VERSION}
         </p>
-        <p className="release-label">{t.releaseAddedLabel}</p>
-        <ul className="release-list">
-          {t.releaseAdded.map((line, i) => (
-            <li key={i}>{line}</li>
-          ))}
-        </ul>
-        <p className="release-label">{t.releaseImprovedLabel}</p>
-        <ul className="release-list">
-          {t.releaseImproved.map((line, i) => (
-            <li key={i}>{line}</li>
-          ))}
-        </ul>
-        <p className="release-label">{t.releaseFixedLabel}</p>
-        <ul className="release-list">
-          {t.releaseFixed.map((line, i) => (
-            <li key={i}>{line}</li>
-          ))}
-        </ul>
+        {[
+          { label: t.releaseAddedLabel, items: t.releaseAdded },
+          { label: t.releaseImprovedLabel, items: t.releaseImproved },
+          { label: t.releaseFixedLabel, items: t.releaseFixed },
+        ].map(({ label, items }) =>
+          items.length > 0 ? (
+            <div key={label}>
+              <p className="release-label">{label}</p>
+              <ul className="release-list">
+                {items.map((line, i) => (
+                  <li key={i}>{line}</li>
+                ))}
+              </ul>
+            </div>
+          ) : null,
+        )}
       </SettingsGroup>
 
       <SettingsGroup title={t.sectionAbout}>
