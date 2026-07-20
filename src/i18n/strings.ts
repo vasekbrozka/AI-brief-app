@@ -21,6 +21,13 @@ export interface UIStrings {
   topStory: string;
   sourcesLabel: string;
   shareLabel: string;
+  saveLabel: string;
+  removeLabel: string;
+  savedToast: string;
+  unsavedToast: string;
+  savedTitle: string;
+  savedEmpty: string;
+  savedEmptyBody: string;
   threadLabel: string;
   sampleBadge: string;
   sampleNote: string;
@@ -122,6 +129,13 @@ export const STRINGS: Record<Lang, UIStrings> = {
     topStory: 'Hlavní zpráva',
     sourcesLabel: 'Zdroje',
     shareLabel: 'Sdílet',
+    saveLabel: 'Uložit',
+    removeLabel: 'Odebrat',
+    savedToast: 'Uloženo ☕️',
+    unsavedToast: 'Odebráno',
+    savedTitle: 'Uložené',
+    savedEmpty: 'Zatím nic uloženého',
+    savedEmptyBody: 'Táhni novinku doprava a nech si ji na později.',
     threadLabel: 'Navazuje na',
     sampleBadge: 'Ukázka',
     sampleNote:
@@ -165,7 +179,9 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseAddedLabel: 'Přidáno',
     releaseImprovedLabel: 'Vylepšeno',
     releaseFixedLabel: 'Opraveno',
-    releaseAdded: [],
+    releaseAdded: [
+      'Ulož si novinku na později — táhni ji doprava; uložené najdeš přes záložku nahoře',
+    ],
     releaseImproved: [
       'Přehlednější úvod dne — kratší a lehčí, bez rámečku navíc',
       'Nastavení zeštíhlela — nápověda, zdroje i novinky se přesunuly do „O aplikaci“',
@@ -235,6 +251,13 @@ export const STRINGS: Record<Lang, UIStrings> = {
     topStory: 'Top story',
     sourcesLabel: 'Sources',
     shareLabel: 'Share',
+    saveLabel: 'Save',
+    removeLabel: 'Remove',
+    savedToast: 'Saved ☕️',
+    unsavedToast: 'Removed',
+    savedTitle: 'Saved',
+    savedEmpty: 'Nothing saved yet',
+    savedEmptyBody: 'Swipe a story right to keep it for later.',
     threadLabel: 'Follows up on',
     sampleBadge: 'Sample',
     sampleNote:
@@ -278,7 +301,9 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseAddedLabel: 'Added',
     releaseImprovedLabel: 'Improved',
     releaseFixedLabel: 'Fixed',
-    releaseAdded: [],
+    releaseAdded: [
+      'Save a story for later — swipe it right; find saved ones via the bookmark up top',
+    ],
     releaseImproved: [
       "A lighter, shorter lead-in to each day's brief",
       'Slimmer Settings — help, sources and what\'s new now live under "About"',

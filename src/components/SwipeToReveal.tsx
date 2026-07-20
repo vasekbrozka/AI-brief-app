@@ -1,50 +1,57 @@
 import { useEffect, useRef, useState, type MouseEvent, type PointerEvent, type ReactNode } from 'react';
 import { haptic } from '../lib/haptics';
-import { Icon } from './Icon';
+import { Icon, type IconName } from './Icon';
 
-const ACTION_WIDTH = 76; // px revealed when the panel is open
+const ACTION_WIDTH = 76; // px revealed when a panel is open
 const OPEN_AT = 40; // drag further than this (px) snaps open on release
 const AXIS_LOCK = 12; // px of travel before the gesture's axis is decided
 const H_BIAS = 0.7; // meaningful swipes win even when slightly diagonal
 const FLICK = 0.5; // px/ms — a fast release opens/closes regardless of distance
-const SHARE_FLICK = 1.1; // px/ms — a hard leftward fling fires Share directly
+const HARD_FLICK = 1.1; // px/ms — a hard fling fires the action directly
 const OVERDRAG_DAMP = 0.5; // rubber-band resistance past the open position
-const COMMIT_EXTRA = 28; // shown px past open that triggers Share on release
+const COMMIT_EXTRA = 28; // shown px past open that triggers the action on release
 const SETTLE_MS = 340; // slightly over the CSS snap transition
 
-interface SwipeToRevealProps {
-  children: ReactNode;
-  actionLabel: string;
+export interface SwipeAction {
+  label: string;
+  icon: IconName;
   onAction: () => void;
 }
 
+interface SwipeToRevealProps {
+  children: ReactNode;
+  /** Revealed by swiping LEFT — sits on the right (e.g. Share). */
+  right: SwipeAction;
+  /** Revealed by swiping RIGHT — sits on the left (e.g. Save). Optional. */
+  left?: SwipeAction;
+}
+
 /**
- * iOS-style swipe-left-to-reveal, inset-card variant: the shell IS the card —
- * it owns the border, rounding and shadow and never moves. Only the content
- * slides, and the Share action sits behind it inside the shell, clipped by
- * the card's own rounding. Because the reveal is purely the content's
- * transform (the action never animates), the blue is visible exactly where
- * the content has moved away — no notches, no clipped borders, no end-of-
- * animation flashes. Drag frames go straight to the DOM via rAF, so nothing
- * re-renders mid-gesture.
+ * iOS-style swipe-to-reveal, inset-card variant: the shell IS the card — it
+ * owns the border, rounding and shadow and never moves. Only the content
+ * slides, and each action sits behind it inside the shell, clipped by the
+ * card's own rounding. Swipe left reveals the right action; swipe right (when
+ * a left action is given) reveals the left one. Because the reveal is purely
+ * the content's transform, the colour shows exactly where the content moved
+ * away — no notches, no clipped borders, no end-of-animation flashes.
  *
- * Gesture forgiveness: slightly diagonal swipes still count (thumbs arc), a
- * fast flick opens from any distance, and dragging far past the open point
- * rubber-bands and fires Share directly on release.
+ * Gesture forgiveness (both directions): slightly diagonal swipes still count
+ * (thumbs arc), a fast flick opens from any distance, and dragging far past the
+ * open point rubber-bands and fires the action directly on release.
  */
-export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToRevealProps) {
+export function SwipeToReveal({ children, right, left }: SwipeToRevealProps) {
   const shellRef = useRef<HTMLDivElement | null>(null);
   const fgRef = useRef<HTMLDivElement | null>(null);
-  const offsetRef = useRef(0); // 0 closed … -ACTION_WIDTH open
+  const offsetRef = useRef(0); // -ACTION_WIDTH (right open) … 0 … +ACTION_WIDTH (left open)
   const rafRef = useRef(0);
   const hideRef = useRef(0);
   const startRef = useRef<{ x: number; y: number; base: number } | null>(null);
   const axisRef = useRef<'?' | 'h' | 'v'>('?');
   const movedRef = useRef(false);
-  const commitRef = useRef(false);
+  const commitRef = useRef(0); // -1 right-action armed, 0 none, +1 left-action armed
   const velRef = useRef(0);
   const lastRef = useRef({ x: 0, t: 0 });
-  const [open, setOpen] = useState(false); // resting position, for a11y only
+  const [open, setOpen] = useState(0); // -1 right open, 0 closed, +1 left open (a11y)
 
   useEffect(
     () => () => {
@@ -54,10 +61,9 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
     [],
   );
 
-  // Once the gesture locks horizontal, block native vertical scrolling for
-  // the rest of the touch — the page must not creep up/down mid-swipe, and
-  // iOS must not steal the gesture (pointercancel) halfway through. Needs a
-  // raw non-passive listener; React registers touch handlers as passive.
+  // Once the gesture locks horizontal, block native vertical scrolling for the
+  // rest of the touch. Needs a raw non-passive listener; React registers touch
+  // handlers as passive.
   useEffect(() => {
     const fg = fgRef.current;
     if (!fg) return;
@@ -76,11 +82,15 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
     fg.style.transform = `translate3d(${offset}px, 0, 0)`;
     window.clearTimeout(hideRef.current);
     if (offset < 0) {
-      shell.classList.add('swipe--active');
+      shell.classList.add('swipe--right');
+      shell.classList.remove('swipe--left');
+    } else if (offset > 0) {
+      shell.classList.add('swipe--left');
+      shell.classList.remove('swipe--right');
     } else {
       // Keep the action visible until the content has slid back over it.
       hideRef.current = window.setTimeout(
-        () => shell.classList.remove('swipe--active'),
+        () => shell.classList.remove('swipe--right', 'swipe--left'),
         animate ? SETTLE_MS : 0,
       );
     }
@@ -90,7 +100,7 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
     cancelAnimationFrame(rafRef.current);
     offsetRef.current = target;
     apply(target, true);
-    setOpen(target !== 0);
+    setOpen(target < 0 ? -1 : target > 0 ? 1 : 0);
   }
 
   function down(e: PointerEvent<HTMLDivElement>) {
@@ -98,7 +108,7 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
     startRef.current = { x: e.clientX, y: e.clientY, base: offsetRef.current };
     axisRef.current = '?';
     movedRef.current = false;
-    commitRef.current = false;
+    commitRef.current = 0;
     velRef.current = 0;
     lastRef.current = { x: e.clientX, t: e.timeStamp };
   }
@@ -110,11 +120,12 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
     const dy = e.clientY - start.y;
     if (axisRef.current === '?') {
       if (Math.abs(dx) < AXIS_LOCK && Math.abs(dy) < AXIS_LOCK) return;
-      // A swipe in a direction that means something (left, or any way while
-      // open) wins even when slightly diagonal — thumbs arc naturally.
-      // Plain rightward drags on a closed card stay strict, so ordinary
-      // scrolling never gets hijacked.
-      const meaningful = dx < 0 || start.base !== 0;
+      // A swipe that means something wins even when slightly diagonal (thumbs
+      // arc): left always reveals the right action; right reveals the left
+      // action only when one exists; and any direction while already open. A
+      // plain rightward drag with no left action stays strict, so ordinary
+      // scrolling is never hijacked.
+      const meaningful = dx < 0 || (dx > 0 && left != null) || start.base !== 0;
       const horizontal = meaningful
         ? Math.abs(dx) > H_BIAS * Math.abs(dy)
         : Math.abs(dx) > Math.abs(dy);
@@ -134,17 +145,22 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
     }
 
     let next = start.base + dx;
-    if (next > 0) next = 0;
+    const maxRight = left != null ? ACTION_WIDTH : 0;
     if (next < -ACTION_WIDTH) {
-      // Rubber-band past the open position; far enough commits to Share.
       const over = -ACTION_WIDTH - next;
       next = -ACTION_WIDTH - over * OVERDRAG_DAMP;
+    } else if (next > maxRight) {
+      const over = next - maxRight;
+      next = maxRight + over * OVERDRAG_DAMP;
     }
-    const committed = next <= -(ACTION_WIDTH + COMMIT_EXTRA);
-    if (committed !== commitRef.current) {
-      commitRef.current = committed;
-      shellRef.current?.classList.toggle('swipe--commit', committed);
-      if (committed) haptic(); // crossing the fire-on-release point
+
+    let commit = 0;
+    if (next <= -(ACTION_WIDTH + COMMIT_EXTRA)) commit = -1;
+    else if (left != null && next >= ACTION_WIDTH + COMMIT_EXTRA) commit = 1;
+    if (commit !== commitRef.current) {
+      commitRef.current = commit;
+      shellRef.current?.classList.toggle('swipe--commit', commit !== 0);
+      if (commit !== 0) haptic(); // crossing the fire-on-release point
     }
     offsetRef.current = next;
     cancelAnimationFrame(rafRef.current);
@@ -157,23 +173,48 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
     if (axisRef.current !== 'h') return;
     shellRef.current?.classList.remove('swipe--commit');
     const v = velRef.current;
-    // Dragged past the commit point, or flung hard left — share right away.
-    if (commitRef.current || (v < -SHARE_FLICK && offsetRef.current <= -OPEN_AT)) {
-      commitRef.current = false;
+    const off = offsetRef.current;
+    const commit = commitRef.current;
+    commitRef.current = 0;
+
+    // Dragged past the commit point, or flung hard — fire the action directly.
+    if (commit < 0 || (v < -HARD_FLICK && off <= -OPEN_AT)) {
       haptic();
-      onAction();
+      right.onAction();
       settle(0);
       return;
     }
-    if (v < -FLICK) {
+    if (left != null && (commit > 0 || (v > HARD_FLICK && off >= OPEN_AT))) {
       haptic();
-      settle(-ACTION_WIDTH);
-    } else if (v > FLICK) {
+      left.onAction();
       settle(0);
+      return;
+    }
+
+    if (off < 0) {
+      if (v < -FLICK) {
+        haptic();
+        settle(-ACTION_WIDTH);
+      } else if (v > FLICK) {
+        settle(0);
+      } else {
+        const opening = off <= -OPEN_AT;
+        if (opening && off !== -ACTION_WIDTH) haptic();
+        settle(opening ? -ACTION_WIDTH : 0);
+      }
+    } else if (off > 0 && left != null) {
+      if (v > FLICK) {
+        haptic();
+        settle(ACTION_WIDTH);
+      } else if (v < -FLICK) {
+        settle(0);
+      } else {
+        const opening = off >= OPEN_AT;
+        if (opening && off !== ACTION_WIDTH) haptic();
+        settle(opening ? ACTION_WIDTH : 0);
+      }
     } else {
-      const opening = offsetRef.current <= -OPEN_AT;
-      if (opening && offsetRef.current !== -ACTION_WIDTH) haptic();
-      settle(opening ? -ACTION_WIDTH : 0);
+      settle(0);
     }
   }
 
@@ -186,7 +227,7 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
       movedRef.current = false;
       return;
     }
-    if (open) {
+    if (open !== 0) {
       e.preventDefault();
       e.stopPropagation();
       settle(0);
@@ -195,18 +236,34 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
 
   return (
     <div ref={shellRef} className="swipe">
-      <div className="swipe__action" aria-hidden={!open}>
+      {left && (
+        <div className="swipe__action swipe__action--left" aria-hidden={open !== 1}>
+          <button
+            type="button"
+            className="swipe__action-btn"
+            tabIndex={open === 1 ? 0 : -1}
+            onClick={() => {
+              left.onAction();
+              settle(0);
+            }}
+          >
+            <Icon name={left.icon} size={20} />
+            <span>{left.label}</span>
+          </button>
+        </div>
+      )}
+      <div className="swipe__action swipe__action--right" aria-hidden={open !== -1}>
         <button
           type="button"
           className="swipe__action-btn"
-          tabIndex={open ? 0 : -1}
+          tabIndex={open === -1 ? 0 : -1}
           onClick={() => {
-            onAction();
+            right.onAction();
             settle(0);
           }}
         >
-          <Icon name="share" size={20} />
-          <span>{actionLabel}</span>
+          <Icon name={right.icon} size={20} />
+          <span>{right.label}</span>
         </button>
       </div>
       <div

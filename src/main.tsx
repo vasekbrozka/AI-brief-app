@@ -4,6 +4,7 @@ import { registerSW } from 'virtual:pwa-register';
 import { SettingsProvider } from './providers/SettingsProvider';
 import { ReadProvider } from './providers/ReadProvider';
 import { StreakProvider } from './providers/StreakProvider';
+import { SavedProvider } from './providers/SavedProvider';
 import { GlossaryProvider } from './providers/GlossaryProvider';
 import { GlossaryPopover } from './components/GlossaryPopover';
 import { clearBadge, ensureSubscribed } from './lib/push';
@@ -42,10 +43,12 @@ createRoot(rootEl).render(
     <SettingsProvider>
       <ReadProvider>
         <StreakProvider>
-          <GlossaryProvider>
-            <App />
-            <GlossaryPopover />
-          </GlossaryProvider>
+          <SavedProvider>
+            <GlossaryProvider>
+              <App />
+              <GlossaryPopover />
+            </GlossaryProvider>
+          </SavedProvider>
         </StreakProvider>
       </ReadProvider>
     </SettingsProvider>

@@ -13,7 +13,9 @@ export type IconName =
   | 'close'
   | 'sparkle'
   | 'cup'
-  | 'thread';
+  | 'thread'
+  | 'bookmark'
+  | 'bookmarkFilled';
 
 const S = { fill: 'none', stroke: 'currentColor', strokeWidth: 1.7, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const };
 
@@ -90,6 +92,16 @@ const PATHS: Record<IconName, JSX.Element> = {
       <path d="M7 5.5v6a2.4 2.4 0 0 0 2.4 2.4H17" {...S} />
       <path d="M14 10.6l3.4 3.3-3.4 3.4" {...S} />
     </>
+  ),
+  bookmark: <path d="M7 4.6h10a1 1 0 0 1 1 1V20l-6-3.7L6 20V5.6a1 1 0 0 1 1-1z" {...S} />,
+  bookmarkFilled: (
+    <path
+      d="M7 4.6h10a1 1 0 0 1 1 1V20l-6-3.7L6 20V5.6a1 1 0 0 1 1-1z"
+      fill="currentColor"
+      stroke="currentColor"
+      strokeWidth={1.3}
+      strokeLinejoin="round"
+    />
   ),
 };
 

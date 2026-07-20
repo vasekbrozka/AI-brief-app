@@ -2,8 +2,10 @@ import { useEffect, useRef, useState } from 'react';
 import type { BriefItem, ThreadRef } from '../lib/types';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
+import { useSaved } from '../providers/SavedProvider';
 import { useNav } from '../providers/NavProvider';
 import { shareItem } from '../lib/share';
+import { toast } from '../lib/toast';
 import { capitalizeFirst, daysAgo, formatShortDate } from '../lib/format';
 import { CategoryChip } from './CategoryChip';
 import { SourceList } from './SourceList';
@@ -43,7 +45,15 @@ function ThreadLink({ thread }: { thread: ThreadRef }) {
 export function BriefItemCard({ item }: { item: BriefItem }) {
   const { lang, t } = useSettings();
   const { isRead, toggle } = useRead();
+  const { isSaved, toggle: toggleSaved } = useSaved();
   const read = isRead(item.id);
+  const saved = isSaved(item.id);
+
+  function handleSave() {
+    const wasSaved = saved;
+    toggleSaved(item);
+    toast(wasSaved ? t.unsavedToast : t.savedToast);
+  }
 
   const [exiting, setExiting] = useState(false);
   const timeoutRef = useRef<number | null>(null);
@@ -72,7 +82,14 @@ export function BriefItemCard({ item }: { item: BriefItem }) {
   }
 
   return (
-    <SwipeToReveal actionLabel={t.shareLabel} onAction={() => void shareItem(item, lang)}>
+    <SwipeToReveal
+      right={{ label: t.shareLabel, icon: 'share', onAction: () => void shareItem(item, lang) }}
+      left={{
+        label: saved ? t.removeLabel : t.saveLabel,
+        icon: saved ? 'bookmarkFilled' : 'bookmark',
+        onAction: handleSave,
+      }}
+    >
       <article
         className={`item${showTop ? ' item--highlight' : ''}${read ? ' item--read' : ''}${
           exiting ? ' item--exiting' : ''
@@ -83,6 +100,15 @@ export function BriefItemCard({ item }: { item: BriefItem }) {
           {showTop && <span className="item__top">{t.topStory}</span>}
           <div className="item__meta-right">
             {read && <span className="item__readtag">{t.read}</span>}
+            <button
+              type="button"
+              className={`card-save${saved ? ' is-saved' : ''}`}
+              aria-label={saved ? t.removeLabel : t.saveLabel}
+              aria-pressed={saved}
+              onClick={handleSave}
+            >
+              <Icon name={saved ? 'bookmarkFilled' : 'bookmark'} size={17} />
+            </button>
             <button
               type="button"
               className="card-share"
