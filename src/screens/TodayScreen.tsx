@@ -1,13 +1,12 @@
 import { ScreenScaffold } from '../components/ScreenScaffold';
 import { BriefView } from '../components/BriefView';
 import { BriefSkeleton, EmptyState, ErrorState } from '../components/states';
-import { Icon } from '../components/Icon';
 import { useLatestBrief } from '../hooks/useBrief';
 import { useClockTick } from '../hooks/useClockTick';
 import { useSettings } from '../providers/SettingsProvider';
 import { brewTitleKey, capitalizeFirst, formatFullDate, formatTime } from '../lib/format';
 
-export function TodayScreen({ onOpenSaved }: { onOpenSaved: () => void }) {
+export function TodayScreen() {
   const { t, lang } = useSettings();
   const { status, data, reload, updated } = useLatestBrief();
   useClockTick();
@@ -22,14 +21,8 @@ export function TodayScreen({ onOpenSaved }: { onOpenSaved: () => void }) {
     if (time) subtitle += ` · ${t.updatedLabel} ${time}`;
   }
 
-  const savedButton = (
-    <button type="button" className="navbtn navbtn--icon" aria-label={t.savedTitle} onClick={onOpenSaved}>
-      <Icon name="bookmark" size={21} />
-    </button>
-  );
-
   return (
-    <ScreenScaffold title={title} subtitle={subtitle} barContent={subtitle} right={savedButton}>
+    <ScreenScaffold title={title} subtitle={subtitle} barContent={subtitle}>
       {status === 'loading' && <BriefSkeleton />}
       {status === 'error' && <ErrorState onRetry={reload} />}
       {status === 'ready' && !data && (

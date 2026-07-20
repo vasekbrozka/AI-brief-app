@@ -16,12 +16,13 @@ export function App() {
   const [savedOpen, setSavedOpen] = useState(false);
 
   function handleTab(next: Tab) {
-    // Tapping "Archive" again while inside a brief returns to the list.
-    if (next !== 'archive' || tab === 'archive') setArchiveDate(null);
+    // Tapping "Archive" again returns to the list — from a brief or from Saved.
+    if (next !== 'archive' || tab === 'archive') {
+      setArchiveDate(null);
+      setSavedOpen(false);
+    }
     // Tapping "Settings" again while in About returns to the settings list.
     if (next !== 'settings' || tab === 'settings') setAboutOpen(false);
-    // Tapping "Today" again while in Saved returns to the brief.
-    if (next !== 'today' || tab === 'today') setSavedOpen(false);
     setTab(next);
   }
 
@@ -55,17 +56,14 @@ export function App() {
     <NavProvider value={nav}>
       <div className="app">
         <main className="app__main">
-          {tab === 'today' &&
+          {tab === 'today' && <TodayScreen />}
+          {tab === 'archive' &&
             (savedOpen ? (
               <SavedScreen onBack={closeSaved} />
-            ) : (
-              <TodayScreen onOpenSaved={openSaved} />
-            ))}
-          {tab === 'archive' &&
-            (archiveDate ? (
+            ) : archiveDate ? (
               <BriefDetailScreen date={archiveDate} onBack={() => setArchiveDate(null)} />
             ) : (
-              <ArchiveScreen onSelect={setArchiveDate} />
+              <ArchiveScreen onSelect={setArchiveDate} onOpenSaved={openSaved} />
             ))}
           {tab === 'settings' &&
             (aboutOpen ? (

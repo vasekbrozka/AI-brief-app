@@ -180,7 +180,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImprovedLabel: 'Vylepšeno',
     releaseFixedLabel: 'Opraveno',
     releaseAdded: [
-      'Ulož si novinku na později — táhni ji doprava; uložené najdeš přes záložku nahoře',
+      'Ulož si novinku na později — táhni ji doprava; uložené pak najdeš v Archivu',
     ],
     releaseImproved: [
       'Přehlednější úvod dne — kratší a lehčí, bez rámečku navíc',
@@ -302,7 +302,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImprovedLabel: 'Improved',
     releaseFixedLabel: 'Fixed',
     releaseAdded: [
-      'Save a story for later — swipe it right; find saved ones via the bookmark up top',
+      'Save a story for later — swipe it right; find them later in the Archive',
     ],
     releaseImproved: [
       "A lighter, shorter lead-in to each day's brief",

@@ -3,19 +3,34 @@ import { Icon } from '../components/Icon';
 import { ArchiveSkeleton, EmptyState, ErrorState } from '../components/states';
 import { useBriefIndex } from '../hooks/useBrief';
 import { useSettings } from '../providers/SettingsProvider';
+import { useSaved } from '../providers/SavedProvider';
 import { capitalizeFirst, formatShortDate, itemCountLabel } from '../lib/format';
 
 // Keep the archive lean and current — the most recent week is shown.
 const MAX_ARCHIVE_DAYS = 7;
 
-export function ArchiveScreen({ onSelect }: { onSelect: (date: string) => void }) {
+export function ArchiveScreen({
+  onSelect,
+  onOpenSaved,
+}: {
+  onSelect: (date: string) => void;
+  onOpenSaved: () => void;
+}) {
   const { t, lang } = useSettings();
   const { status, data, reload } = useBriefIndex();
+  const { savedCount } = useSaved();
 
   const briefs = data?.briefs.slice(0, MAX_ARCHIVE_DAYS) ?? [];
 
   return (
     <ScreenScaffold title={t.archiveTitle} subtitle={t.archiveSubtitle}>
+      <button type="button" className="saved-entry" onClick={onOpenSaved}>
+        <Icon name="bookmark" className="saved-entry__icon" size={20} />
+        <span className="saved-entry__label">{t.savedTitle}</span>
+        {savedCount > 0 && <span className="saved-entry__count">{savedCount}</span>}
+        <Icon name="chevronRight" size={18} />
+      </button>
+
       {status === 'loading' && <ArchiveSkeleton />}
       {status === 'error' && <ErrorState onRetry={reload} />}
       {status === 'ready' && briefs.length === 0 && (
