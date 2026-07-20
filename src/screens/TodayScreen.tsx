@@ -28,7 +28,7 @@ export function TodayScreen() {
       {status === 'ready' && !data && (
         <EmptyState title={t.todayEmptyTitle} body={t.todayEmptyBody} />
       )}
-      {status === 'ready' && data && <BriefView brief={data} />}
+      {status === 'ready' && data && <BriefView brief={data} isToday />}
     </ScreenScaffold>
   );
 }

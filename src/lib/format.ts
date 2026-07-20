@@ -86,3 +86,12 @@ export function hiddenCountLabel(n: number, lang: Lang): string {
   }
   return `${n} ${n === 1 ? 'story' : 'stories'} hidden by your filter`;
 }
+
+/** Reading-streak label, e.g. "5 dní v řadě" / "5-day streak". */
+export function streakLabel(n: number, lang: Lang): string {
+  if (lang === 'cs') {
+    const noun = n === 1 ? 'den' : n >= 2 && n <= 4 ? 'dny' : 'dní';
+    return `${n} ${noun} v řadě`;
+  }
+  return `${n}-day streak`;
+}

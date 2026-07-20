@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { registerSW } from 'virtual:pwa-register';
 import { SettingsProvider } from './providers/SettingsProvider';
 import { ReadProvider } from './providers/ReadProvider';
+import { StreakProvider } from './providers/StreakProvider';
 import { clearBadge, ensureSubscribed } from './lib/push';
 import { App } from './App';
 import './index.css';
@@ -38,7 +39,9 @@ createRoot(rootEl).render(
   <StrictMode>
     <SettingsProvider>
       <ReadProvider>
-        <App />
+        <StreakProvider>
+          <App />
+        </StreakProvider>
       </ReadProvider>
     </SettingsProvider>
   </StrictMode>,

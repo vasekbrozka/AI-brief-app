@@ -82,10 +82,14 @@ export interface UIStrings {
   markRead: string;
   markUnread: string;
   allCaughtUp: string;
+  ritualDone: string;
   sectionReading: string;
   hideReadLabel: string;
   hideReadHint: string;
   clearReadLabel: string;
+  gamifyLabel: string;
+  gamifyHint: string;
+  gamifyCurrentLabel: string;
 
   // Notifications
   sectionNotifications: string;
@@ -195,10 +199,14 @@ export const STRINGS: Record<Lang, UIStrings> = {
     markRead: 'Označit jako přečtené',
     markUnread: 'Označit jako nepřečtené',
     allCaughtUp: 'Vše přečteno',
+    ritualDone: 'Došlo ti to ☕️',
     sectionReading: 'Čtení',
     hideReadLabel: 'Skrýt přečtené',
     hideReadHint: 'Přečtené zprávy se nebudou zobrazovat v přehledu.',
     clearReadLabel: 'Označit vše jako nepřečtené',
+    gamifyLabel: 'Série čtení',
+    gamifyHint: 'Malá odměna na konci, když dočteš celý dnešní brief.',
+    gamifyCurrentLabel: 'Aktuální série',
 
     sectionNotifications: 'Upozornění',
     notifyLabel: 'Ranní upozornění',
@@ -305,10 +313,14 @@ export const STRINGS: Record<Lang, UIStrings> = {
     markRead: 'Mark as read',
     markUnread: 'Mark as unread',
     allCaughtUp: 'All caught up',
+    ritualDone: 'Sipped to the last drop ☕️',
     sectionReading: 'Reading',
     hideReadLabel: 'Hide read items',
     hideReadHint: "Read stories won't appear in the brief.",
     clearReadLabel: 'Mark all as unread',
+    gamifyLabel: 'Reading streak',
+    gamifyHint: "A small reward at the end when you finish today's brief.",
+    gamifyCurrentLabel: 'Current streak',
 
     sectionNotifications: 'Notifications',
     notifyLabel: 'Morning alert',

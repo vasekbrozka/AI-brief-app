@@ -25,6 +25,9 @@ interface SettingsContextValue {
   /** Categories the reader has hidden from the brief. */
   mutedCategories: CategoryId[];
   toggleCategory: (id: CategoryId) => void;
+  /** Reading streak / closing ritual — on by default, fully optional. */
+  gamification: boolean;
+  setGamification: (v: boolean) => void;
   /** Localized UI strings for the current language. */
   t: UIStrings;
 }
@@ -36,6 +39,7 @@ const THEME_KEY = 'aibrief.theme';
 const HIDE_READ_KEY = 'aibrief.hideRead';
 const SHOW_CATEGORIES_KEY = 'aibrief.showCategories';
 const MUTED_CATEGORIES_KEY = 'aibrief.mutedCategories';
+const GAMIFICATION_KEY = 'aibrief.gamification';
 
 function detectInitialLang(): Lang {
   try {
@@ -86,12 +90,22 @@ function detectInitialMuted(): CategoryId[] {
   }
 }
 
+function detectInitialGamification(): boolean {
+  try {
+    // Default on — only an explicit "0" disables it.
+    return localStorage.getItem(GAMIFICATION_KEY) !== '0';
+  } catch {
+    return true;
+  }
+}
+
 export function SettingsProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>(detectInitialLang);
   const [theme, setTheme] = useState<Theme>(detectInitialTheme);
   const [hideRead, setHideRead] = useState<boolean>(detectInitialHideRead);
   const [showCategories, setShowCategories] = useState<boolean>(detectInitialShowCategories);
   const [mutedCategories, setMutedCategories] = useState<CategoryId[]>(detectInitialMuted);
+  const [gamification, setGamification] = useState<boolean>(detectInitialGamification);
 
   useEffect(() => {
     try {
@@ -137,6 +151,14 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     }
   }, [mutedCategories]);
 
+  useEffect(() => {
+    try {
+      localStorage.setItem(GAMIFICATION_KEY, gamification ? '1' : '0');
+    } catch {
+      /* ignore */
+    }
+  }, [gamification]);
+
   const value = useMemo<SettingsContextValue>(
     () => ({
       lang,
@@ -153,9 +175,11 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
         setMutedCategories((prev) =>
           prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id],
         ),
+      gamification,
+      setGamification,
       t: STRINGS[lang],
     }),
-    [lang, theme, hideRead, showCategories, mutedCategories],
+    [lang, theme, hideRead, showCategories, mutedCategories, gamification],
   );
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;

@@ -6,8 +6,10 @@ import type { Lang } from '../lib/types';
 import type { Theme } from '../providers/SettingsProvider';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
+import { useStreak } from '../providers/StreakProvider';
 import { useNotifications } from '../hooks/useNotifications';
 import { CATEGORIES, CATEGORY_ORDER } from '../lib/categories';
+import { streakLabel } from '../lib/format';
 
 const APP_VERSION = '1.2';
 
@@ -33,8 +35,11 @@ export function SettingsScreen() {
     setShowCategories,
     mutedCategories,
     toggleCategory,
+    gamification,
+    setGamification,
   } = useSettings();
   const { clear, readCount } = useRead();
+  const { currentStreak } = useStreak();
   const notifications = useNotifications();
 
   const langOptions: { value: Lang; label: string }[] = [
@@ -111,6 +116,19 @@ export function SettingsScreen() {
           </div>
           <Switch checked={hideRead} onChange={setHideRead} ariaLabel={t.hideReadLabel} />
         </div>
+        <div className="setting-divider" />
+        <div className="setting-switch">
+          <div className="setting-switch__text">
+            <span className="setting-switch__label">{t.gamifyLabel}</span>
+            <span className="setting-switch__hint">{t.gamifyHint}</span>
+          </div>
+          <Switch checked={gamification} onChange={setGamification} ariaLabel={t.gamifyLabel} />
+        </div>
+        {gamification && currentStreak > 0 && (
+          <p className="setting-hint setting-hint--streak">
+            {t.gamifyCurrentLabel}: {streakLabel(currentStreak, lang)}
+          </p>
+        )}
         <div className="setting-divider" />
         <button
           type="button"
