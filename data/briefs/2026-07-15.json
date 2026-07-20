@@ -1,0 +1,115 @@
+{
+  "date": "2026-07-15",
+  "sample": false,
+  "headline": {
+    "cs": "Claude Artifacts jdou do sdílení, OpenAI se brání žalobě Applu",
+    "en": "Claude Artifacts go collaborative, OpenAI pushes back on Apple's lawsuit"
+  },
+  "intro": {
+    "cs": "Po včerejší bouři kolem žaloby Applu je dnes v AI klidněji, byť spor pokračuje — OpenAI se poprvé oficiálně ohradilo. Anthropic udělal z Claude Artifacts sdílený pracovní prostor pro týmy, ChatGPT se vrátil na WhatsApp v Evropě po zásahu Evropské komise a OpenAI oznámilo konec prohlížeče Atlas.",
+    "en": "After yesterday's storm around Apple's lawsuit, today is calmer in AI, though the dispute continues — OpenAI issued its first formal pushback. Anthropic turned Claude Artifacts into a shared team workspace, ChatGPT returned to WhatsApp in Europe following an EU Commission order, and OpenAI announced the end of its Atlas browser."
+  },
+  "items": [
+    {
+      "id": "2026-07-15-claude-artifacts-sharing",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Claude Artifacts umí veřejné sdílení a týmovou spolupráci",
+        "en": "Claude Artifacts gain public sharing and team editing"
+      },
+      "summary": {
+        "cs": "Anthropic přidal do Claude Code Artifacts veřejné sdílení odkazem a souběžnou editaci víc lidí najednou — místo posílání souborů vzniká společný pracovní prostor. Artifact lze nově vytvořit i přímo ze Slacku přes Claude Tag. U Team a Enterprise plánů sdílení navenek zapíná až správce organizace.",
+        "en": "Anthropic added public link sharing and simultaneous multi-person editing to Claude Code Artifacts — instead of passing files back and forth, teams get a shared workspace. Artifacts can also be created straight from Slack via Claude Tag. On Team and Enterprise plans, external sharing stays off until an owner enables it."
+      },
+      "sources": [
+        {
+          "name": "Claude Docs",
+          "url": "https://code.claude.com/docs/en/artifacts"
+        },
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/data/anthropics-claude-code-artifacts-update-brings-live-shared-dashboards-and-interactive-workspaces-to-enterprises"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-15-chatgpt-whatsapp-eea",
+      "category": "policy",
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT se po nařízení EU vrací na WhatsApp",
+        "en": "ChatGPT returns to WhatsApp after EU order"
+      },
+      "summary": {
+        "cs": "OpenAI obnovilo ChatGPT na WhatsAppu ve všech 30 zemích EHP přes ověřené číslo, bez nutnosti účtu pro základní použití. Návrat následuje po nařízení Evropské komise, které v červnu přikázalo Metě do pěti pracovních dnů obnovit přístup konkurenčním AI asistentům poté, co je v lednu zablokovala změnou podmínek WhatsApp Business API.",
+        "en": "OpenAI restored ChatGPT on WhatsApp across all 30 EEA countries via a verified number, no account required for basic use. The return follows a June European Commission order that gave Meta five working days to restore rival AI assistants' access, after it blocked them in January by changing WhatsApp Business API terms."
+      },
+      "sources": [
+        {
+          "name": "GSMArena",
+          "url": "https://www.gsmarena.com/chatgpt_is_back_in_whatsapp_in_europe_thanks_to_the_european_commission-news-73714.php"
+        },
+        {
+          "name": "Business Today",
+          "url": "https://www.businesstoday.in/technology/news/story/chatgpt-makes-a-comeback-on-whatsapp-everything-users-need-to-know-542721-2026-07-14"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-15-chatgpt-atlas-shutdown",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "OpenAI ukončuje prohlížeč ChatGPT Atlas",
+        "en": "OpenAI is shutting down the ChatGPT Atlas browser"
+      },
+      "summary": {
+        "cs": "OpenAI oznámilo konec samostatného prohlížeče ChatGPT Atlas — přestane fungovat 9. srpna, uživatelé mají zhruba měsíc na export záložek a uložených dat. Prohlížecí agentní funkce se stěhují přímo do desktopové aplikace ChatGPT, po boku agenta ChatGPT Work a nástroje Codex pro programování.",
+        "en": "OpenAI is discontinuing its standalone ChatGPT Atlas browser — it stops working on August 9, giving users about a month to export bookmarks and saved data. Browser-based agentic features are moving directly into the ChatGPT desktop app, alongside the ChatGPT Work agent and the Codex coding tool."
+      },
+      "sources": [
+        {
+          "name": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/20001371-evolving-atlas-into-chatgpt-for-browser-based-agentic-work"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/07/09/openai-is-discontinuing-chatgpt-atlas-its-standalone-desktop-browser/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-15-openai-apple-lawsuit-response",
+      "category": "business",
+      "verified": true,
+      "title": {
+        "cs": "OpenAI popírá opodstatněnost žaloby Applu",
+        "en": "OpenAI denies merit of Apple's lawsuit"
+      },
+      "summary": {
+        "cs": "OpenAI se poprvé vyjádřilo k žalobě Applu kvůli obchodním tajemstvím — čtyři dny po jejím podání uvedlo, že si není vědomo žádného důkazu, že by měla žaloba opodstatnění. Firma zdůraznila, že věří ve svobodnou soutěž a právo lidí pracovat, kde chtějí, a soustředí se na vlastní technologie.",
+        "en": "OpenAI issued its first public response to Apple's trade-secrets lawsuit — four days after the filing, saying it's 'not aware of any evidence' the complaint has merit. The company said it believes in fair competition and people's freedom to work wherever they choose, and remains focused on building its own technology."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-14/openai-says-it-s-not-aware-of-any-evidence-that-apple-lawsuit-has-merit"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-07-14",
+        "id": "2026-07-14-apple-openai-lawsuit",
+        "title": {
+          "cs": "Apple žaluje OpenAI kvůli krádeži obchodních tajemství",
+          "en": "Apple sues OpenAI over alleged theft of trade secrets"
+        }
+      }
+    }
+  ]
+}

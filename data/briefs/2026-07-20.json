@@ -24,8 +24,19 @@
         "en": "A debate broke out over the risk of open Chinese models around Kimi K3, TechCrunch reports. OpenAI's Dean Ball warned a world dominated by open weights could end in 'AI communism' and dystopia. Transformer editor Shakeel Hashim called that overblown — Kimi, he argued, lacks dangerous cyber capabilities."
       },
       "sources": [
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/" }
-      ]
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-07-19",
+        "id": "2026-07-19-chinese-models-openrouter-share-update",
+        "title": {
+          "cs": "Kimi K3 není jediný, čínské modely bodují na OpenRouter",
+          "en": "Not just Kimi K3 — Chinese models climb OpenRouter charts"
+        }
+      }
     },
     {
       "id": "2026-07-20-tip-chatgpt-codex-remote",
@@ -40,8 +51,14 @@
         "en": "You can now control your Codex coding agent remotely from the ChatGPT mobile app — check on work in progress, approve commands, switch models, or start a new task without sitting at your computer. OpenAI rolled it out on iOS and Android."
       },
       "sources": [
-        { "name": "OpenAI", "url": "https://openai.com/index/work-with-codex-from-anywhere/" },
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/" }
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/work-with-codex-from-anywhere/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/"
+        }
       ]
     },
     {
@@ -57,8 +74,14 @@
         "en": "Copilot Notebooks can now pull in Outlook emails as a source too, alongside Word, Excel, or PowerPoint files — so Copilot draws straight from the conversations and decisions behind a project. Microsoft opened this to Copilot Chat users in June, previously reserved for full license holders."
       },
       "sources": [
-        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-notebooks--june-2026/4525625" },
-        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
+        {
+          "name": "Microsoft 365 Copilot Blog",
+          "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-notebooks--june-2026/4525625"
+        },
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
       ]
     },
     {
@@ -74,8 +97,14 @@
         "en": "Google renamed NotebookLM to Gemini Notebook — the same research and note-taking tool now sits more clearly inside the Gemini family and syncs with the Gemini app and Search. Pro users will also soon get the option to run code directly inside a notebook for deeper data analysis."
       },
       "sources": [
-        { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/" },
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/" }
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/"
+        }
       ]
     }
   ]

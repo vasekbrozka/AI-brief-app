@@ -24,9 +24,23 @@
         "en": "Kimi K3's open weights reignited debate over US AI policy. White House adviser David Sacks warned on July 17 that America's own regulation — data-center bans, mandatory model pre-approval — risks losing the AI race to China. Chinese open-weight models now run 60–90% cheaper than top US rivals, per CNBC."
       },
       "sources": [
-        { "name": "Axios", "url": "https://www.axios.com/2026/07/17/sacks-kimi-open-source-weights-trump" },
-        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html" }
-      ]
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/07/17/sacks-kimi-open-source-weights-trump"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-07-17",
+        "id": "2026-07-17-kimi-k3-market-rout-update",
+        "title": {
+          "cs": "Kimi K3 rozpoutal výprodej AI a čipových akcií",
+          "en": "Kimi K3 sparks a sell-off in AI and chip stocks"
+        }
+      }
     },
     {
       "id": "2026-07-18-tip-claude-reflect",
@@ -41,8 +55,14 @@
         "en": "The new Reflect beta shows a summary of how you use Claude — key topics, patterns, and the kinds of tasks you work through over the past 1 to 12 months. Available to Free, Pro, and Max users with memory turned on."
       },
       "sources": [
-        { "name": "Anthropic", "url": "https://www.anthropic.com/news/reflect-with-claude" },
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/" }
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/reflect-with-claude"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/"
+        }
       ]
     },
     {
@@ -58,7 +78,10 @@
         "en": "ChatGPT Work is an agent inside ChatGPT: it takes an outcome, gathers information across apps, and breaks the task into steps. The output isn't chat but finished materials — sheets, slides, docs, and web apps."
       },
       "sources": [
-        { "name": "Axios", "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release" }
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release"
+        }
       ]
     },
     {
@@ -74,8 +97,14 @@
         "en": "Gemini Spark now runs on macOS — it can automate tasks across your desktop files, hand your Mac complex work remotely, and connect to apps like Canva and Dropbox. Google launched it in June."
       },
       "sources": [
-        { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/" },
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/" }
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/"
+        }
       ]
     }
   ]
