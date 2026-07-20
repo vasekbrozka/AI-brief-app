@@ -1204,6 +1204,10 @@ button.thread:active .thread__title {
     text-decoration: underline;
   }
 
+  .support-link:hover {
+    text-decoration: underline;
+  }
+
   .tabbar__item:hover:not(.is-active) {
     color: var(--text-secondary);
   }
@@ -1543,6 +1547,22 @@ button.thread:active .thread__title {
   margin-top: 10px;
   color: var(--accent);
   font-weight: 600;
+}
+
+/* Quiet support link at the bottom of the About section */
+.support-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.support-link svg {
+  color: var(--text-tertiary);
 }
 
 @keyframes ritual-pop {

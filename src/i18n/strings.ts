@@ -68,6 +68,8 @@ export interface UIStrings {
   modelLabel: string;
   modelName: string;
   signature: string;
+  supportText: string;
+  supportCta: string;
 
   // Common
   loading: string;
@@ -180,6 +182,9 @@ export const STRINGS: Record<Lang, UIStrings> = {
     modelLabel: 'Shrnutí připravuje',
     modelName: 'Claude (Anthropic)',
     signature: 'Autor: Václav Brožka',
+    supportText:
+      'AIspresso je a zůstane zdarma, bez reklam. Jestli ti ranní shot dělá dny hezčí, můžeš mi symbolicky koupit kafe.',
+    supportCta: 'Buy me a coffee',
 
     loading: 'Načítám…',
     errorTitle: 'Něco se nepovedlo',
@@ -292,6 +297,9 @@ export const STRINGS: Record<Lang, UIStrings> = {
     modelLabel: 'Summaries by',
     modelName: 'Claude (Anthropic)',
     signature: 'By Václav Brožka',
+    supportText:
+      'AIspresso is free and stays that way — no ads. If the morning shot makes your days a little better, you can buy me a coffee.',
+    supportCta: 'Buy me a coffee',
 
     loading: 'Loading…',
     errorTitle: 'Something went wrong',

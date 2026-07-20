@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { ScreenScaffold } from '../components/ScreenScaffold';
 import { Segmented } from '../components/Segmented';
 import { Switch } from '../components/Switch';
+import { Icon } from '../components/Icon';
 import type { Lang } from '../lib/types';
 import type { Theme } from '../providers/SettingsProvider';
 import { useSettings } from '../providers/SettingsProvider';
@@ -220,6 +221,17 @@ export function SettingsScreen() {
         <p className="about-line">
           {t.modelLabel} <strong>{t.modelName}</strong>
         </p>
+        <div className="setting-divider" />
+        <p className="setting-text">{t.supportText}</p>
+        <a
+          className="support-link"
+          href="https://buymeacoffee.com/vasekbrozka"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ☕️ {t.supportCta}
+          <Icon name="external" size={15} />
+        </a>
       </SettingsGroup>
 
       <p className="app-signature">{t.signature}</p>
