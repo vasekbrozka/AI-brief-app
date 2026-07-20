@@ -37,6 +37,10 @@ const SettingsContext = createContext<SettingsContextValue | null>(null);
 const LANG_KEY = 'aibrief.lang';
 const THEME_KEY = 'aibrief.theme';
 const HIDE_READ_KEY = 'aibrief.hideRead';
+// One-time marker: the out-of-the-box default for hide-read changed to ON, so
+// existing installs (which auto-saved the old OFF default) adopt it once. After
+// that, the reader's own choice is respected.
+const HIDE_READ_DEFAULTED_KEY = 'aibrief.hideRead.default2';
 const SHOW_CATEGORIES_KEY = 'aibrief.showCategories';
 const MUTED_CATEGORIES_KEY = 'aibrief.mutedCategories';
 const GAMIFICATION_KEY = 'aibrief.gamification';
@@ -64,9 +68,14 @@ function detectInitialTheme(): Theme {
 
 function detectInitialHideRead(): boolean {
   try {
-    return localStorage.getItem(HIDE_READ_KEY) === '1';
+    // Reading-focused default: hide-read is ON out of the box so the brief
+    // empties as you read and the streak takes the spotlight. Existing installs
+    // adopt the new default once (guarded by the marker below); afterwards the
+    // reader's explicit choice wins.
+    if (localStorage.getItem(HIDE_READ_DEFAULTED_KEY) !== '1') return true;
+    return localStorage.getItem(HIDE_READ_KEY) !== '0';
   } catch {
-    return false;
+    return true;
   }
 }
 
@@ -130,6 +139,9 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     try {
       localStorage.setItem(HIDE_READ_KEY, hideRead ? '1' : '0');
+      // Mark the new hide-read default as applied so the one-time adoption
+      // above never runs again on this install.
+      localStorage.setItem(HIDE_READ_DEFAULTED_KEY, '1');
     } catch {
       /* ignore */
     }

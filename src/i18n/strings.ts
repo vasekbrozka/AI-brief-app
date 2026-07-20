@@ -174,6 +174,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Oslava při dočtení a barva, která houstne s délkou série',
     ],
     releaseImproved: [
+      'Přečtené novinky se nově skrývají hned od začátku — víc prostoru pro sérii (kdykoli lze vypnout v Nastavení)',
       'Podpora projektu decentně v sekci O aplikaci',
     ],
     releaseFixed: [],
@@ -289,6 +290,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'A celebration when you finish, and a colour that deepens with your streak',
     ],
     releaseImproved: [
+      'Read items are now hidden from the start — more room for the streak (can be turned off in Settings)',
       'A quiet way to support the project in the About section',
     ],
     releaseFixed: [],
