@@ -4,9 +4,7 @@ import { Icon } from './Icon';
 const ACTION_WIDTH = 76; // px revealed when the panel is open
 const OPEN_AT = 40; // drag further than this (px) snaps open on release
 const AXIS_LOCK = 8; // px of travel before committing to a horizontal swipe
-// How far the blue panel slides under the card, so the card's rounded right
-// corners sit on blue instead of the page background. Matches --radius.
-const OVERLAP = 18;
+const SETTLE_MS = 340; // slightly over the CSS snap transition
 
 interface SwipeToRevealProps {
   children: ReactNode;
@@ -15,36 +13,50 @@ interface SwipeToRevealProps {
 }
 
 /**
- * iOS-style swipe-left-to-reveal. Keeps the card face clean — the action
- * (Share) hides behind it and appears only on a horizontal swipe. Vertical
- * scrolling is untouched (touch-action: pan-y + an axis lock).
- *
- * Nothing is clipped: the card keeps its full border while sliding, and the
- * action panel's width tracks the revealed gap (plus a slide-under overlap
- * that backs the card's rounded corners). Zero width at rest = no blue ever
- * bleeds through. Drag frames are written straight to the DOM via rAF — no
- * React re-renders mid-gesture — so the motion stays smooth.
+ * iOS-style swipe-left-to-reveal, inset-card variant: the shell IS the card —
+ * it owns the border, rounding and shadow and never moves. Only the content
+ * slides, and the Share action sits behind it inside the shell, clipped by
+ * the card's own rounding. Because the reveal is purely the content's
+ * transform (the action never animates), the blue is visible exactly where
+ * the content has moved away — no notches, no clipped borders, no end-of-
+ * animation flashes. Drag frames go straight to the DOM via rAF, so nothing
+ * re-renders mid-gesture.
  */
 export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToRevealProps) {
+  const shellRef = useRef<HTMLDivElement | null>(null);
   const fgRef = useRef<HTMLDivElement | null>(null);
-  const actionRef = useRef<HTMLDivElement | null>(null);
   const offsetRef = useRef(0); // 0 closed … -ACTION_WIDTH open
   const rafRef = useRef(0);
+  const hideRef = useRef(0);
   const startRef = useRef<{ x: number; y: number; base: number } | null>(null);
   const axisRef = useRef<'?' | 'h' | 'v'>('?');
   const movedRef = useRef(false);
   const [open, setOpen] = useState(false); // resting position, for a11y only
 
-  useEffect(() => () => cancelAnimationFrame(rafRef.current), []);
+  useEffect(
+    () => () => {
+      cancelAnimationFrame(rafRef.current);
+      window.clearTimeout(hideRef.current);
+    },
+    [],
+  );
 
   function apply(offset: number, animate: boolean) {
     const fg = fgRef.current;
-    const action = actionRef.current;
-    if (!fg || !action) return;
+    const shell = shellRef.current;
+    if (!fg || !shell) return;
     fg.style.transition = animate ? '' : 'none';
-    action.style.transition = animate ? '' : 'none';
     fg.style.transform = `translate3d(${offset}px, 0, 0)`;
-    action.style.width = offset < 0 ? `${-offset + OVERLAP}px` : '0px';
+    window.clearTimeout(hideRef.current);
+    if (offset < 0) {
+      shell.classList.add('swipe--active');
+    } else {
+      // Keep the action visible until the content has slid back over it.
+      hideRef.current = window.setTimeout(
+        () => shell.classList.remove('swipe--active'),
+        animate ? SETTLE_MS : 0,
+      );
+    }
   }
 
   function settle(target: number) {
@@ -104,8 +116,8 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
   }
 
   return (
-    <div className="swipe">
-      <div ref={actionRef} className="swipe__action" style={{ width: 0 }} aria-hidden={!open}>
+    <div ref={shellRef} className="swipe">
+      <div className="swipe__action" aria-hidden={!open}>
         <button
           type="button"
           className="swipe__action-btn"

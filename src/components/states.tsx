@@ -12,11 +12,14 @@ export function BriefSkeleton() {
       </div>
       <div className="items">
         {Array.from({ length: 4 }).map((_, i) => (
-          <div key={i} className="item">
-            <div className="skeleton-pill" />
-            <div className="skeleton-line" style={{ width: '75%', height: 17, marginTop: 12 }} />
-            <div className="skeleton-line" style={{ width: '100%', marginTop: 12 }} />
-            <div className="skeleton-line" style={{ width: '88%' }} />
+          // Wrapped in the card shell so skeletons match real cards.
+          <div key={i} className="swipe">
+            <div className="item">
+              <div className="skeleton-pill" />
+              <div className="skeleton-line" style={{ width: '75%', height: 17, marginTop: 12 }} />
+              <div className="skeleton-line" style={{ width: '100%', marginTop: 12 }} />
+              <div className="skeleton-line" style={{ width: '88%' }} />
+            </div>
           </div>
         ))}
       </div>

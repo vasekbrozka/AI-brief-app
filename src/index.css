@@ -496,11 +496,21 @@ svg {
   margin-top: 16px;
 }
 
-/* Swipe-to-reveal wrapper — hosts the hidden Share action behind the card.
-   Nothing is clipped here: the card slides with its full border and shadow,
-   and the action panel rounds itself. */
+/* Swipe-to-reveal — the shell IS the card: it owns the border, rounding and
+   shadow and never moves. Only the content slides; the Share action sits
+   behind it, clipped by the card's own rounding, and is visible exactly
+   where the content has slid away. No notches, no clipped borders. */
 .swipe {
   position: relative;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.swipe:has(.item--highlight) {
+  border-color: var(--accent-soft-border);
 }
 
 .swipe__fg {
@@ -511,20 +521,20 @@ svg {
   transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1);
 }
 
-/* Width tracks the revealed gap plus an 18px slide-under overlap, so the
-   card's rounded corners sit on blue, not on the page background. Zero at
-   rest — no blue can ever bleed around or through the card. */
+/* Hidden whenever the card is at rest, so it can never bleed or flash. */
 .swipe__action {
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
-  width: 0;
+  width: 76px;
   display: flex;
-  overflow: hidden;
+  visibility: hidden;
   background: var(--accent);
-  border-radius: var(--radius);
-  transition: width 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+.swipe--active .swipe__action {
+  visibility: visible;
 }
 
 .swipe__action-btn {
@@ -534,8 +544,6 @@ svg {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  /* Offsets the slide-under overlap — centers content in the visible strip. */
-  padding-left: 18px;
   border: 0;
   background: none;
   color: #fff;
@@ -548,13 +556,9 @@ svg {
 .item {
   padding: 16px 18px;
   background: var(--surface);
-  border: 1px solid var(--hairline);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-sm);
 }
 
 .item--highlight {
-  border-color: var(--accent-soft-border);
   background: linear-gradient(var(--accent-soft-bg), var(--accent-soft-bg)), var(--surface);
 }
 
@@ -1361,7 +1365,6 @@ button.thread:active .thread__title {
 
 @media (prefers-reduced-motion: reduce) {
   .swipe__fg,
-  .swipe__action,
   .cup-fill {
     transition: none;
   }
@@ -1451,8 +1454,12 @@ button.thread:active .thread__title {
 
 /* Short fade-out when a story is marked read, then it moves to the read pile. */
 .item--exiting {
-  animation: item-exit 0.22s ease forwards;
   pointer-events: none;
+}
+
+/* The whole card (shell incl. border) fades out, not just the content. */
+.swipe:has(.item--exiting) {
+  animation: item-exit 0.22s ease forwards;
 }
 
 @keyframes item-exit {
