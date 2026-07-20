@@ -725,15 +725,19 @@ button.thread:active .thread__title {
   color: #fff;
 }
 
-/* Sources */
+/* Sources — always a single line; a long list never grows the card, it just
+   fades out under the verified seal at the right edge. */
 .sources {
   flex: 1 1 auto;
   min-width: 0;
   display: flex;
   align-items: baseline;
   gap: 7px;
-  flex-wrap: wrap;
+  white-space: nowrap;
+  overflow: hidden;
   font-size: 13px;
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent);
+  mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent);
 }
 
 .sources__label {
@@ -743,7 +747,6 @@ button.thread:active .thread__title {
 .sources__items {
   display: inline-flex;
   gap: 6px;
-  flex-wrap: wrap;
 }
 
 .source-link {
