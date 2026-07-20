@@ -125,7 +125,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Toto je ukázkový obsah pro fázi 1. Skutečný denní přehled bude automaticky sestavovat AI ve fázi 2.',
 
     archiveTitle: 'Archiv',
-    archiveSubtitle: 'Všechny dosavadní briefy',
+    archiveSubtitle: 'Poslední týden',
     archiveEmpty: 'Archiv je zatím prázdný.',
 
     settingsTitle: 'Nastavení',
@@ -239,7 +239,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'This is sample content for Phase 1. The real daily brief will be assembled automatically by AI in Phase 2.',
 
     archiveTitle: 'Archive',
-    archiveSubtitle: 'Every brief so far',
+    archiveSubtitle: 'The past week',
     archiveEmpty: 'The archive is still empty.',
 
     settingsTitle: 'Settings',

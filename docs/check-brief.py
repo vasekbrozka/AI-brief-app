@@ -202,6 +202,30 @@ def main() -> int:
     if len(tip_themes) != len(set(tip_themes)):
         warn(f"opakované téma tipů v jednom briefu: {tip_themes}")
 
+    # --- followsUp (příběhové linky) ------------------------------------------
+    date_re = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+    for i in items:
+        fu = i.get("followsUp")
+        if fu is None:
+            continue
+        if not isinstance(fu, dict):
+            fail(f"{i['id']}: followsUp musí být objekt")
+            continue
+        d = str(fu.get("date", ""))
+        if not date_re.match(d):
+            fail(f"{i['id']}: followsUp.date neplatné ({d!r})")
+        elif d >= today:
+            fail(f"{i['id']}: followsUp.date {d} musí být starší než dnešek")
+        else:
+            delta = (datetime.strptime(today, "%Y-%m-%d") - datetime.strptime(d, "%Y-%m-%d")).days
+            if delta >= 7:
+                warn(f"{i['id']}: followsUp.date {d} je mimo 7denní archiv (odkaz nebude klikací)")
+        if not fu.get("id"):
+            fail(f"{i['id']}: followsUp.id chybí")
+        for lang in ("cs", "en"):
+            if not fu.get("title", {}).get(lang, "").strip():
+                fail(f"{i['id']}: followsUp.title.{lang} chybí")
+
     # --- published-log --------------------------------------------------------
     logged = {e.get("slug") for e in publog.get("published", [])}
     for i in news:
@@ -217,8 +241,8 @@ def main() -> int:
     entries = index.get("briefs", [])
     if not entries or entries[0].get("date") != today:
         fail("index.briefs[0] musí být dnešek")
-    if len(entries) > 3:
-        fail(f"index má {len(entries)} dnů (max 3)")
+    if len(entries) > 7:
+        fail(f"index má {len(entries)} dnů (max 7)")
     for e in entries:
         if e.get("date") == today and e.get("itemCount") != len(items):
             fail(f"index.itemCount {e.get('itemCount')} ≠ {len(items)}")

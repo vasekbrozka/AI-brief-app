@@ -34,7 +34,7 @@ a pravdivě než více a přibližně.
 2. Dnešní datum (UTC): `date -u +%F`. Pokud `data/briefs/<dnešek>.json` už existuje a je
    platný JSON, brief je hotový — nic negeneruj a skonči.
 3. Přečti si redakční stav:
-   - poslední briefy `data/briefs/*.json` (okno 3 dnů),
+   - poslední briefy `data/briefs/*.json` (okno 7 dnů),
    - `data/briefs/published-log.json` — zveřejněné zprávy za ~30 dní (dedup),
    - `data/briefs/tips-backlog.json` — fronta a historie tipů.
 
@@ -100,9 +100,13 @@ Pro **každého** kandidáta, než ho pustíš dál:
 - **Vyváženost:** funkce/produkty/modely ~⅔ briefu, čistý byznys (financování, akvizice,
   žaloby, kvartály) max ~⅓. Mimořádná byznys událost se vejde i jako highlight, ale tři
   fundraisingy v jednom briefu ne.
-- **Dedup:** proti posledním 3 briefům **a** proti `published-log.json` (30 dní). Stejná
+- **Dedup:** proti poslednímu týdnu briefů **a** proti `published-log.json` (30 dní). Stejná
   událost = neopakovat; nový vývoj = update se změněným slugem. Stejná událost z více
   zdrojů = jedna položka s více zdroji.
+- **Příběhové linky (`followsUp`):** když dnešní zpráva navazuje na dřívější díl
+  z posledních 7 dní (stejná kauza, nový vývoj), přidej položce pole `followsUp`
+  s `date`, `id` a `title` (cs+en) toho dílu — titulek **zkopíruj doslova**, ať je
+  odkaz soběstačný. Odkazuj na nejbližší předchozí díl; když nic nenavazuje, pole vynech.
 - **Highlight:** právě jedna zpráva — největší událost dne; při rovnosti ta, která se
   uživatele dotkne přímo. Highlight není nikdy tip.
 - **Tichý den:** nejdřív rozšiř záběr (obecné dění, pokračování), pak doplň **tipy**
@@ -155,7 +159,7 @@ python3 docs/check-brief.py
 
 1. `data/briefs/<datum>.json` podle schématu (`sample: false`).
 2. `data/briefs/index.json`: `updated` = aktuální čas (`date -u +%Y-%m-%dT%H:%M:%SZ`) —
-   appka ho ukazuje jako „Aktualizováno"; nový záznam navrch; jen **3 nejnovější dny**;
+   appka ho ukazuje jako „Aktualizováno"; nový záznam navrch; jen **7 nejnovějších dnů**;
    starší **denní** soubory `YYYY-MM-DD.json` smaž. **Nikdy nemaž** `tips-backlog.json`
    a `published-log.json` — to jsou trvalé ledgery.
 3. `published-log.json`: připiš dnešní **zprávy** (`slug`, `date`, jednořádkové `topic`
@@ -245,7 +249,10 @@ T1/T2. Ideál: oficiální oznámení (T1) + médium (T2), nebo 2× nezávislé 
       "verified": true,
       "title":   { "cs": "...", "en": "..." },
       "summary": { "cs": "...", "en": "..." },  // zprávy 40–50 slov, tipy ~35
-      "sources": [ { "name": "The Verge", "url": "https://www.theverge.com/..." } ]
+      "sources": [ { "name": "The Verge", "url": "https://www.theverge.com/..." } ],
+      "followsUp": {                            // volitelné — odkaz na starší díl (posledních 7 dní)
+        "date": "YYYY-MM-DD", "id": "…", "title": { "cs": "…", "en": "…" }
+      }
     }
   ]
 }
@@ -256,7 +263,7 @@ T1/T2. Ideál: oficiální oznámení (T1) + médium (T2), nebo 2× nezávislé 
 ```jsonc
 {
   "updated": "ISO-8601 timestamp",              // čas generování; appka: „Aktualizováno"
-  "briefs": [                                   // max 3, nejnovější první
+  "briefs": [                                   // max 7, nejnovější první
     { "date": "YYYY-MM-DD", "headline": { "cs": "...", "en": "..." }, "itemCount": 5 }
   ]
 }

@@ -5,8 +5,8 @@ import { useBriefIndex } from '../hooks/useBrief';
 import { useSettings } from '../providers/SettingsProvider';
 import { capitalizeFirst, formatShortDate, itemCountLabel } from '../lib/format';
 
-// Keep the archive lean and current — only the most recent days are shown.
-const MAX_ARCHIVE_DAYS = 3;
+// Keep the archive lean and current — the most recent week is shown.
+const MAX_ARCHIVE_DAYS = 7;
 
 export function ArchiveScreen({ onSelect }: { onSelect: (date: string) => void }) {
   const { t, lang } = useSettings();
