@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Brief, CategoryId } from '../lib/types';
 import { CATEGORIES, CATEGORY_ORDER } from '../lib/categories';
-import { hiddenCountLabel, streakLabel, streakLevelIndex } from '../lib/format';
+import { hiddenCountLabel } from '../lib/format';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 import { useStreak } from '../providers/StreakProvider';
 import { BriefItemCard } from './BriefItemCard';
-import { FillingCup } from './FillingCup';
+import { WeekStreak } from './WeekStreak';
 import { Icon } from './Icon';
 
 type Filter = CategoryId | 'all';
@@ -36,14 +36,17 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
   const unread = visible.filter((item) => !isRead(item.id));
   const read = visible.filter((item) => isRead(item.id));
 
-  // The cup fills with today's reading progress; full cup = day finished.
+  // Today's reading progress drives the streak card; all read = day finished.
   const readShownCount = shown.filter((item) => isRead(item.id)).length;
+  const todayProgress = shown.length ? readShownCount / shown.length : 0;
   const done = shown.length > 0 && readShownCount === shown.length;
-  const showCup = isToday && gamification && shown.length > 0;
+  // Show once there's something to track — never greet a fresh morning with 0.
+  const showCard =
+    isToday && gamification && shown.length > 0 && (readShownCount > 0 || currentStreak > 0);
 
   useEffect(() => {
-    if (showCup && done) markFinished();
-  }, [showCup, done, markFinished]);
+    if (isToday && gamification && done) markFinished();
+  }, [isToday, gamification, done, markFinished]);
 
   return (
     <div className="brief">
@@ -86,7 +89,7 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
         </div>
       )}
 
-      {!showCup && hideRead && unread.length === 0 && read.length > 0 && (
+      {!showCard && hideRead && unread.length === 0 && read.length > 0 && (
         <div className="caught-up">
           <Icon name="sparkles" size={24} />
           <span>{t.allCaughtUp}</span>
@@ -106,27 +109,7 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
         </>
       )}
 
-      {showCup && (
-        <div className={`ritual${done ? ' ritual--done' : ''}`}>
-          <span className="ritual__cup">
-            <FillingCup fraction={readShownCount / shown.length} size={30} />
-          </span>
-          {done ? (
-            <>
-              <span className="ritual__title">
-                {t.streakLevels[streakLevelIndex(Math.max(1, currentStreak))]}
-              </span>
-              <span className="ritual__streak">
-                {streakLabel(Math.max(1, currentStreak), lang)}
-              </span>
-            </>
-          ) : (
-            <span className="ritual__count">
-              {readShownCount} / {shown.length}
-            </span>
-          )}
-        </div>
-      )}
+      {showCard && <WeekStreak todayProgress={todayProgress} done={done} />}
 
       {hiddenCount > 0 && <p className="filtered-note">{hiddenCountLabel(hiddenCount, lang)}</p>}
 

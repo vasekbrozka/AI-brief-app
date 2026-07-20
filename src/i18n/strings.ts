@@ -86,6 +86,8 @@ export interface UIStrings {
   allCaughtUp: string;
   /** Streak-tier titles for the finished-brief ritual, mildest first. */
   streakLevels: string[];
+  streakStart: string;
+  streakTodayLeft: string;
   sectionReading: string;
   hideReadLabel: string;
   hideReadHint: string;
@@ -168,13 +170,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImprovedLabel: 'Vylepšeno',
     releaseFixedLabel: 'Opraveno',
     releaseAdded: [
-      'Rozhraní pro počítač — na velké obrazovce boční navigace a širší sloupec',
-      'Sdílení ikonkou přímo na kartě (na zařízeních s myší)',
-      'Aplikace běží na vlastní doméně aispresso.app',
+      'Série čtení nově jako týdenní návyk — řetěz dnů, dnešek se plní, jak čteš',
+      'Oslava při dočtení a barva, která houstne s délkou série',
     ],
     releaseImproved: [
-      'Jemné odezvy při najetí myší napříč aplikací',
-      'Vstřícnější swipe — snese šikmý tah, švihnutí, protažením rovnou sdílíš',
+      'Podpora projektu decentně v sekci O aplikaci',
     ],
     releaseFixed: [],
     aboutTagline: 'Novinky ze světa AI',
@@ -204,6 +204,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Bez dávky nefunguje',
       'Tlak 180. Přehled 100 %.',
     ],
+    streakStart: 'Dočti dnešní brief a nastartuj sérii',
+    streakTodayLeft: 'Ještě dnešek, ať série žije',
     sectionReading: 'Čtení',
     hideReadLabel: 'Skrýt přečtené',
     hideReadHint: 'Přečtené zprávy se nebudou zobrazovat v přehledu.',
@@ -283,13 +285,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImprovedLabel: 'Improved',
     releaseFixedLabel: 'Fixed',
     releaseAdded: [
-      'A desktop layout — side navigation and a wider column on large screens',
-      'Share from an icon right on the card (on devices with a mouse)',
-      'The app now lives on its own domain, aispresso.app',
+      'Reading streak reimagined as a weekly habit — a chain of days that fills as you read',
+      'A celebration when you finish, and a colour that deepens with your streak',
     ],
     releaseImproved: [
-      'Subtle hover feedback across the app',
-      'A more forgiving swipe — diagonal drags, flicks, and swipe-through-to-share',
+      'A quiet way to support the project in the About section',
     ],
     releaseFixed: [],
     aboutTagline: 'The world of AI',
@@ -319,6 +319,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Can’t Function Without a Shot',
       'Blood Pressure: 180. Fully Briefed.',
     ],
+    streakStart: "Finish today's brief to start a streak",
+    streakTodayLeft: 'Finish today to keep the streak alive',
     sectionReading: 'Reading',
     hideReadLabel: 'Hide read items',
     hideReadHint: "Read stories won't appear in the brief.",

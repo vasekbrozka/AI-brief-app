@@ -1494,53 +1494,192 @@ button.thread:active .thread__title {
   }
 }
 
-/* Reading ritual — the cup fills with today's progress; full = day done */
-.ritual {
+/* Reading-streak card — consecutive days + the week as a chain of dots.
+   Colour (--tier) escalates with the streak level. */
+.streakcard {
+  --tier: var(--accent);
+  --tier-soft: color-mix(in srgb, var(--tier) 13%, transparent);
+  position: relative;
+  margin-top: 22px;
+  padding: 18px 18px 16px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.streakcard[data-tier='0'] { --tier: #0071e3; }
+.streakcard[data-tier='1'] { --tier: #0e9e97; }
+.streakcard[data-tier='2'] { --tier: #b4620a; }
+.streakcard[data-tier='3'] { --tier: #e0592b; }
+.streakcard[data-tier='4'] { --tier: #d33a3a; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .streakcard[data-tier='0'] { --tier: #0a84ff; }
+  :root:not([data-theme='light']) .streakcard[data-tier='1'] { --tier: #40d0c8; }
+  :root:not([data-theme='light']) .streakcard[data-tier='2'] { --tier: #ff9f45; }
+  :root:not([data-theme='light']) .streakcard[data-tier='3'] { --tier: #ff7a4d; }
+  :root:not([data-theme='light']) .streakcard[data-tier='4'] { --tier: #ff5c5c; }
+}
+:root[data-theme='dark'] .streakcard[data-tier='0'] { --tier: #0a84ff; }
+:root[data-theme='dark'] .streakcard[data-tier='1'] { --tier: #40d0c8; }
+:root[data-theme='dark'] .streakcard[data-tier='2'] { --tier: #ff9f45; }
+:root[data-theme='dark'] .streakcard[data-tier='3'] { --tier: #ff7a4d; }
+:root[data-theme='dark'] .streakcard[data-tier='4'] { --tier: #ff5c5c; }
+
+.streakcard.is-milestone {
+  border-color: var(--tier);
+  background: linear-gradient(var(--tier-soft), var(--tier-soft)), var(--surface);
+}
+
+.sc__head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.sc__num {
+  font-size: 38px;
+  font-weight: 750;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--tier);
+  font-variant-numeric: tabular-nums;
+  animation: sc-num 0.42s cubic-bezier(0.3, 1.3, 0.5, 1) both;
+}
+
+.sc__meta {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 6px;
-  margin-top: 26px;
-  padding: 20px 24px 8px;
-  text-align: center;
+  gap: 2px;
+  min-width: 0;
 }
 
-.ritual__cup {
-  display: grid;
-  place-items: center;
-  width: 56px;
-  height: 56px;
-  margin-bottom: 4px;
-  border-radius: 999px;
-  color: var(--accent);
-  background: var(--accent-soft-bg);
+.sc__title {
+  font-size: 16px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  text-wrap: balance;
 }
 
-.ritual--done .ritual__cup {
-  animation: ritual-pop 0.32s cubic-bezier(0.22, 0.61, 0.36, 1);
+.streakcard.is-starter .sc__title {
+  font-weight: 600;
+  color: var(--text-secondary);
 }
 
-.cup-fill {
-  transition: y 0.35s ease, height 0.35s ease;
-}
-
-.ritual__count {
+.sc__sub {
   font-size: 13px;
   font-weight: 600;
-  color: var(--text-tertiary);
+  color: var(--tier);
   font-variant-numeric: tabular-nums;
 }
 
-.ritual__title {
-  font-size: 17px;
-  font-weight: 650;
-  color: var(--text);
+/* Week row */
+.sc__week {
+  display: flex;
+  margin-top: 16px;
 }
 
-.ritual__streak {
+.sc__day {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+/* Chain link to the next day when both are done */
+.sc__day.has-chain::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  width: 100%;
+  height: 3px;
+  background: var(--tier);
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.sc__dot {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  background: var(--fill);
+  color: #fff;
+}
+
+.sc__dot.is-done {
+  background: var(--tier);
+}
+
+.sc__dot.is-missed {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px var(--hairline);
+}
+
+.sc__dot.is-future {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px var(--hairline);
+  opacity: 0.45;
+}
+
+/* Today, still in progress: a ring that fills with today's reading */
+.sc__dot.is-progress {
+  background:
+    radial-gradient(circle 11px at center, var(--surface) 96%, transparent 100%),
+    conic-gradient(var(--tier) calc(var(--tp, 0) * 360deg), var(--fill) 0);
+  animation: sc-pulse 1.9s ease-in-out infinite;
+}
+
+.sc__dot.is-today.is-done {
+  box-shadow: 0 0 0 4px var(--tier-soft);
+}
+
+.streakcard.is-celebrate .sc__dot.is-today.is-done {
+  animation: sc-pop 0.5s cubic-bezier(0.3, 1.4, 0.5, 1) both;
+}
+
+.sc__day small {
+  font-size: 10.5px;
+  font-weight: 500;
+  color: var(--text-tertiary);
+}
+
+.sc__day small.is-today {
+  color: var(--tier);
+  font-weight: 700;
+}
+
+.sc__banner {
+  margin-top: 14px;
+  text-align: center;
   font-size: 13.5px;
-  font-weight: 600;
-  color: var(--accent);
+  font-weight: 700;
+  color: var(--tier);
+}
+
+/* Celebration beans burst from near the streak number */
+.sc__beans {
+  position: absolute;
+  top: 32px;
+  left: 34px;
+  width: 0;
+  height: 0;
+  z-index: 5;
+  pointer-events: none;
+}
+.sc__beans span {
+  position: absolute;
+  width: 7px;
+  height: 9px;
+  border-radius: 60% 60% 55% 55%;
+  background: var(--tier);
+  animation: sc-bean 1s ease-out forwards;
 }
 
 .setting-hint--streak {
@@ -1565,27 +1704,33 @@ button.thread:active .thread__title {
   color: var(--text-tertiary);
 }
 
-@keyframes ritual-pop {
-  from {
-    transform: scale(0.7);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
+@keyframes sc-num {
+  from { transform: scale(0.6); opacity: 0; }
+}
+@keyframes sc-pop {
+  0% { transform: scale(0.5); }
+  60% { transform: scale(1.18); }
+  100% { transform: scale(1); }
+}
+@keyframes sc-pulse {
+  0% { box-shadow: 0 0 0 0 var(--tier-soft); }
+  70%, 100% { box-shadow: 0 0 0 7px transparent; }
+}
+@keyframes sc-bean {
+  0% { opacity: 0; transform: rotate(calc(var(--i) * 45deg)) translateY(0) scale(0.5); }
+  30% { opacity: 1; }
+  100% { opacity: 0; transform: rotate(calc(var(--i) * 45deg)) translateY(-46px) scale(1); }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .swipe__fg,
-  .swipe__action-btn,
-  .cup-fill {
+  .swipe__action-btn {
     transition: none;
   }
-  .toast {
-    animation: none;
-  }
-  .ritual--done .ritual__cup {
+  .toast,
+  .sc__num,
+  .sc__dot,
+  .sc__beans span {
     animation: none;
   }
 }
