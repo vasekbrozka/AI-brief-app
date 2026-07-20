@@ -21,6 +21,8 @@ export interface UIStrings {
   verified: string;
   topStory: string;
   sourcesLabel: string;
+  shareLabel: string;
+  threadLabel: string;
   allCategories: string;
   sampleBadge: string;
   sampleNote: string;
@@ -108,6 +110,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
     verified: 'Ověřeno',
     topStory: 'Hlavní zpráva',
     sourcesLabel: 'Zdroje',
+    shareLabel: 'Sdílet',
+    threadLabel: 'Navazuje na',
     allCategories: 'Vše',
     sampleBadge: 'Ukázka',
     sampleNote:
@@ -213,6 +217,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
     verified: 'Verified',
     topStory: 'Top story',
     sourcesLabel: 'Sources',
+    shareLabel: 'Share',
+    threadLabel: 'Follows up on',
     allCategories: 'All',
     sampleBadge: 'Sample',
     sampleNote:

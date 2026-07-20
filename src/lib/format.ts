@@ -27,14 +27,19 @@ export function formatWeekday(dateStr: string, lang: Lang): string {
   return new Intl.DateTimeFormat(LOCALE[lang], { weekday: 'long' }).format(parse(dateStr));
 }
 
-/** "today" / "yesterday" for recent dates, otherwise null. */
-export function relativeDayKey(dateStr: string): 'today' | 'yesterday' | null {
+/** Whole days between an ISO date and local today (0 = today, 1 = yesterday). */
+export function daysAgo(dateStr: string): number {
   const then = parse(dateStr);
   const now = new Date();
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  const diffDays = Math.round((today.getTime() - then.getTime()) / 86_400_000);
-  if (diffDays === 0) return 'today';
-  if (diffDays === 1) return 'yesterday';
+  return Math.round((today.getTime() - then.getTime()) / 86_400_000);
+}
+
+/** "today" / "yesterday" for recent dates, otherwise null. */
+export function relativeDayKey(dateStr: string): 'today' | 'yesterday' | null {
+  const diff = daysAgo(dateStr);
+  if (diff === 0) return 'today';
+  if (diff === 1) return 'yesterday';
   return null;
 }
 

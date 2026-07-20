@@ -14,6 +14,20 @@ export interface Source {
   url: string;
 }
 
+/**
+ * A link back to an earlier item this story continues. Self-contained (carries
+ * the referenced headline) so the card can always render the link without
+ * loading the other brief; tappable only while that date is still in the archive.
+ */
+export interface ThreadRef {
+  /** ISO date of the earlier brief, e.g. "2026-07-17". */
+  date: string;
+  /** id of the earlier item. */
+  id: string;
+  /** The earlier item's title, duplicated so the link stands alone. */
+  title: Localized;
+}
+
 export type CategoryId =
   | 'models'
   | 'research'
@@ -32,6 +46,8 @@ export interface BriefItem {
   verified: boolean;
   /** Marks the single most important story of the day. */
   highlight?: boolean;
+  /** Optional link to the earlier item this story continues. */
+  followsUp?: ThreadRef;
 }
 
 export interface Brief {

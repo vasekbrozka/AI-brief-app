@@ -12,7 +12,8 @@ export type IconName =
   | 'external'
   | 'close'
   | 'sparkle'
-  | 'cup';
+  | 'cup'
+  | 'thread';
 
 const S = { fill: 'none', stroke: 'currentColor', strokeWidth: 1.7, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const };
 
@@ -82,6 +83,12 @@ const PATHS: Record<IconName, JSX.Element> = {
       <path d="M5.4 6.4H16.2L15.1 15A2.3 2.3 0 0 1 12.9 17H8.7A2.3 2.3 0 0 1 6.5 15Z" {...S} />
       <path d="M16.3 8h1.8a2.7 2.7 0 0 1 0 5.4h-1.4" {...S} />
       <path d="M4.2 19.6h15.6" {...S} />
+    </>
+  ),
+  thread: (
+    <>
+      <path d="M7 5.5v6a2.4 2.4 0 0 0 2.4 2.4H17" {...S} />
+      <path d="M14 10.6l3.4 3.3-3.4 3.4" {...S} />
     </>
   ),
 };

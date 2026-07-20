@@ -496,12 +496,54 @@ svg {
   margin-top: 16px;
 }
 
+/* Swipe-to-reveal wrapper — hosts the hidden Share action behind the card.
+   The card's drop shadow lives here so overflow:hidden can clip the sliding
+   foreground without clipping the shadow (own box-shadow is drawn outside). */
+.swipe {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.swipe__fg {
+  position: relative;
+  z-index: 1;
+  touch-action: pan-y;
+  transition: transform 0.24s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.swipe__fg.is-dragging {
+  transition: none;
+}
+
+.swipe__action {
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: 76px;
+  display: flex;
+}
+
+.swipe__action-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: 0;
+  background: var(--accent);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 .item {
   padding: 16px 18px;
   background: var(--surface);
   border: 1px solid var(--hairline);
   border-radius: var(--radius);
-  box-shadow: var(--shadow-sm);
 }
 
 .item--highlight {
@@ -543,8 +585,59 @@ svg {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  flex-wrap: wrap;
+  gap: 10px;
+  /* Verified seal stays pinned right on the sources line — never wraps below. */
+  flex-wrap: nowrap;
+}
+
+/* Story-thread link ("Follows up on …") */
+.thread {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  margin-top: 11px;
+  padding: 0;
+  border: 0;
+  background: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left;
+  font-size: 12.5px;
+  line-height: 1.3;
+  color: var(--text-tertiary);
+}
+
+button.thread {
+  cursor: pointer;
+}
+
+.thread__icon {
+  flex: 0 0 auto;
+}
+
+.thread__label {
+  flex: 0 0 auto;
+  font-weight: 600;
+}
+
+.thread__title {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--accent);
+}
+
+.thread--static .thread__title {
+  color: var(--text-secondary);
+}
+
+button.thread:active .thread__title {
+  opacity: 0.6;
+}
+
+.thread__date {
+  flex: 0 0 auto;
 }
 
 /* Category chips */
@@ -565,13 +658,11 @@ svg {
 .chip--pink { color: var(--c-pink); background: var(--c-pink-bg); }
 .chip--green { color: var(--c-green); background: var(--c-green-bg); }
 
-/* Verified badge */
+/* Verified badge — icon only, pinned to the right of the sources line */
 .verified {
+  flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-  font-size: 12.5px;
-  font-weight: 600;
   color: var(--verified);
 }
 
@@ -587,6 +678,8 @@ svg {
 
 /* Sources */
 .sources {
+  flex: 1 1 auto;
+  min-width: 0;
   display: flex;
   align-items: baseline;
   gap: 7px;
@@ -1120,6 +1213,51 @@ svg {
   font-size: 16px;
   font-weight: 600;
   color: var(--text-secondary);
+}
+
+/* Transient toast — share fallback confirmation */
+.toaster {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: calc(96px + env(safe-area-inset-bottom, 0px));
+  display: flex;
+  justify-content: center;
+  padding: 0 24px;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.toast {
+  max-width: 90%;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: rgba(28, 28, 30, 0.94);
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 500;
+  box-shadow: var(--shadow-sm);
+  animation: toast-in 0.18s ease;
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .swipe__fg {
+    transition: none;
+  }
+  .toast {
+    animation: none;
+  }
 }
 
 /* iOS-style switch */
