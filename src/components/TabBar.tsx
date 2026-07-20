@@ -16,9 +16,13 @@ export function TabBar({ active, onChange }: { active: Tab; onChange: (t: Tab) =
     <nav className="tabbar" aria-label={t.appName}>
       {/* Shown only in the desktop sidebar layout. */}
       <div className="tabbar__brand" aria-hidden="true">
-        <span className="tabbar__brand-icon">
-          <Icon name="cup" size={19} />
-        </span>
+        <img
+          className="tabbar__brand-icon"
+          src="/icons/icon-192.png"
+          alt=""
+          width={30}
+          height={30}
+        />
         <span>{t.appName}</span>
       </div>
       <div className="tabbar__inner">

@@ -1280,13 +1280,10 @@ button.thread:active .thread__title {
   }
 
   .tabbar__brand-icon {
-    display: grid;
-    place-items: center;
     width: 30px;
     height: 30px;
-    border-radius: 9px;
-    background: var(--accent);
-    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px var(--hairline);
   }
 
   .tabbar__inner {
