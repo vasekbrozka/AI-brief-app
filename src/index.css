@@ -521,14 +521,13 @@ svg {
   transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1);
 }
 
-/* Hidden whenever the card is at rest, so it can never bleed or flash. */
+/* Full-bleed behind the content (so an over-drag stays seamlessly blue) and
+   hidden whenever the card is at rest, so it can never bleed or flash. */
 .swipe__action {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 76px;
+  inset: 0;
   display: flex;
+  justify-content: flex-end;
   visibility: hidden;
   background: var(--accent);
 }
@@ -538,7 +537,7 @@ svg {
 }
 
 .swipe__action-btn {
-  flex: 1;
+  flex: 0 0 76px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -551,6 +550,12 @@ svg {
   font-weight: 600;
   white-space: nowrap;
   cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+/* Swiped past the commit point — Share fires on release. */
+.swipe--commit .swipe__action-btn {
+  transform: scale(1.12);
 }
 
 .item {
@@ -1365,6 +1370,7 @@ button.thread:active .thread__title {
 
 @media (prefers-reduced-motion: reduce) {
   .swipe__fg,
+  .swipe__action-btn,
   .cup-fill {
     transition: none;
   }

@@ -3,7 +3,11 @@ import { Icon } from './Icon';
 
 const ACTION_WIDTH = 76; // px revealed when the panel is open
 const OPEN_AT = 40; // drag further than this (px) snaps open on release
-const AXIS_LOCK = 8; // px of travel before committing to a horizontal swipe
+const AXIS_LOCK = 12; // px of travel before the gesture's axis is decided
+const H_BIAS = 0.7; // meaningful swipes win even when slightly diagonal
+const FLICK = 0.5; // px/ms — a fast release opens/closes regardless of distance
+const OVERDRAG_DAMP = 0.5; // rubber-band resistance past the open position
+const COMMIT_EXTRA = 28; // shown px past open that triggers Share on release
 const SETTLE_MS = 340; // slightly over the CSS snap transition
 
 interface SwipeToRevealProps {
@@ -21,6 +25,10 @@ interface SwipeToRevealProps {
  * the content has moved away — no notches, no clipped borders, no end-of-
  * animation flashes. Drag frames go straight to the DOM via rAF, so nothing
  * re-renders mid-gesture.
+ *
+ * Gesture forgiveness: slightly diagonal swipes still count (thumbs arc), a
+ * fast flick opens from any distance, and dragging far past the open point
+ * rubber-bands and fires Share directly on release.
  */
 export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToRevealProps) {
   const shellRef = useRef<HTMLDivElement | null>(null);
@@ -31,6 +39,9 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
   const startRef = useRef<{ x: number; y: number; base: number } | null>(null);
   const axisRef = useRef<'?' | 'h' | 'v'>('?');
   const movedRef = useRef(false);
+  const commitRef = useRef(false);
+  const velRef = useRef(0);
+  const lastRef = useRef({ x: 0, t: 0 });
   const [open, setOpen] = useState(false); // resting position, for a11y only
 
   useEffect(
@@ -71,6 +82,9 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
     startRef.current = { x: e.clientX, y: e.clientY, base: offsetRef.current };
     axisRef.current = '?';
     movedRef.current = false;
+    commitRef.current = false;
+    velRef.current = 0;
+    lastRef.current = { x: e.clientX, t: e.timeStamp };
   }
 
   function move(e: PointerEvent<HTMLDivElement>) {
@@ -80,14 +94,41 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
     const dy = e.clientY - start.y;
     if (axisRef.current === '?') {
       if (Math.abs(dx) < AXIS_LOCK && Math.abs(dy) < AXIS_LOCK) return;
-      axisRef.current = Math.abs(dx) > Math.abs(dy) ? 'h' : 'v';
+      // A swipe in a direction that means something (left, or any way while
+      // open) wins even when slightly diagonal — thumbs arc naturally.
+      // Plain rightward drags on a closed card stay strict, so ordinary
+      // scrolling never gets hijacked.
+      const meaningful = dx < 0 || start.base !== 0;
+      const horizontal = meaningful
+        ? Math.abs(dx) > H_BIAS * Math.abs(dy)
+        : Math.abs(dx) > Math.abs(dy);
+      axisRef.current = horizontal ? 'h' : 'v';
       if (axisRef.current === 'h') e.currentTarget.setPointerCapture?.(e.pointerId);
     }
     if (axisRef.current !== 'h') return;
     movedRef.current = true;
+
+    // Release velocity (px/ms), lightly smoothed for the flick decision.
+    const last = lastRef.current;
+    const dt = e.timeStamp - last.t;
+    if (dt > 0) {
+      const inst = (e.clientX - last.x) / dt;
+      velRef.current = 0.7 * inst + 0.3 * velRef.current;
+      lastRef.current = { x: e.clientX, t: e.timeStamp };
+    }
+
     let next = start.base + dx;
     if (next > 0) next = 0;
-    if (next < -ACTION_WIDTH) next = -ACTION_WIDTH;
+    if (next < -ACTION_WIDTH) {
+      // Rubber-band past the open position; far enough commits to Share.
+      const over = -ACTION_WIDTH - next;
+      next = -ACTION_WIDTH - over * OVERDRAG_DAMP;
+    }
+    const committed = next <= -(ACTION_WIDTH + COMMIT_EXTRA);
+    if (committed !== commitRef.current) {
+      commitRef.current = committed;
+      shellRef.current?.classList.toggle('swipe--commit', committed);
+    }
     offsetRef.current = next;
     cancelAnimationFrame(rafRef.current);
     rafRef.current = requestAnimationFrame(() => apply(next, false));
@@ -96,7 +137,19 @@ export function SwipeToReveal({ children, actionLabel, onAction }: SwipeToReveal
   function up() {
     if (!startRef.current) return;
     startRef.current = null;
-    if (axisRef.current === 'h') settle(offsetRef.current <= -OPEN_AT ? -ACTION_WIDTH : 0);
+    if (axisRef.current !== 'h') return;
+    shellRef.current?.classList.remove('swipe--commit');
+    if (commitRef.current) {
+      // Swiped all the way through — share right away.
+      commitRef.current = false;
+      onAction();
+      settle(0);
+      return;
+    }
+    const v = velRef.current;
+    if (v < -FLICK) settle(-ACTION_WIDTH);
+    else if (v > FLICK) settle(0);
+    else settle(offsetRef.current <= -OPEN_AT ? -ACTION_WIDTH : 0);
   }
 
   // Stop the click that ends a swipe — or a tap while open — from reaching the
