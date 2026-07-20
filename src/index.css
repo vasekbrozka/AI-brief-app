@@ -497,38 +497,34 @@ svg {
 }
 
 /* Swipe-to-reveal wrapper — hosts the hidden Share action behind the card.
-   The card's drop shadow lives here so overflow:hidden can clip the sliding
-   foreground without clipping the shadow (own box-shadow is drawn outside). */
+   Nothing is clipped here: the card slides with its full border and shadow,
+   and the action panel rounds itself. */
 .swipe {
   position: relative;
-  border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: var(--shadow-sm);
 }
 
 .swipe__fg {
   position: relative;
   z-index: 1;
   touch-action: pan-y;
-  transition: transform 0.24s cubic-bezier(0.22, 0.61, 0.36, 1);
+  will-change: transform;
+  transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1);
 }
 
-/* Width tracks the revealed gap exactly — zero at rest, so nothing bleeds
-   around the card's rounded corners or through dimmed (read) cards. */
+/* Width tracks the revealed gap plus an 18px slide-under overlap, so the
+   card's rounded corners sit on blue, not on the page background. Zero at
+   rest — no blue can ever bleed around or through the card. */
 .swipe__action {
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
+  width: 0;
   display: flex;
   overflow: hidden;
   background: var(--accent);
-  transition: width 0.24s cubic-bezier(0.22, 0.61, 0.36, 1);
-}
-
-.swipe--dragging .swipe__fg,
-.swipe--dragging .swipe__action {
-  transition: none;
+  border-radius: var(--radius);
+  transition: width 0.3s cubic-bezier(0.32, 0.72, 0, 1);
 }
 
 .swipe__action-btn {
@@ -538,6 +534,8 @@ svg {
   align-items: center;
   justify-content: center;
   gap: 5px;
+  /* Offsets the slide-under overlap — centers content in the visible strip. */
+  padding-left: 18px;
   border: 0;
   background: none;
   color: #fff;
@@ -552,6 +550,7 @@ svg {
   background: var(--surface);
   border: 1px solid var(--hairline);
   border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
 }
 
 .item--highlight {
