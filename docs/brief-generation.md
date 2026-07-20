@@ -127,6 +127,10 @@ Pro **každého** kandidáta, než ho pustíš dál:
   česky „takto“, anglicky ‘takto’ nebo bez uvozovek.
 - **Tón:** věcný, jako když ti to shrne chytrý kolega. Shrnutí zpráv neutrálně; jen tipy
   smí lehce tykat (hlas appky).
+- **Bez kalků:** v CS textu (headline/intro/summary) nikdy „jádrové nástroje" ani
+  podobné neohrabané spojení — když je potřeba shrnout Claude/ChatGPT/Gemini/Copilot
+  jako skupinu, buď je vyjmenuj přímo, nebo napiš „hlavní nástroje". (Toto je čistě
+  o CS znění — EN „core tools" je v pořádku.)
 - **Kanonická jména zdrojů** (pole `name`): Anthropic · OpenAI · Google · DeepMind ·
   Microsoft · Microsoft Learn · NVIDIA · Meta AI · Hugging Face · Mistral · Reuters ·
   AP · Bloomberg · The Verge · Ars Technica · TechCrunch · Axios · Wired ·
