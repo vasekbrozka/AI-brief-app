@@ -1,0 +1,105 @@
+{
+  "date": "2026-07-21",
+  "sample": false,
+  "headline": {
+    "cs": "Google chystá vlastní čip pro efektivnější Gemini",
+    "en": "Google plans its own chip for a leaner Gemini"
+  },
+  "intro": {
+    "cs": "Klidnější den. Hlavní zpráva je report o vlastním čipu Googlu pro efektivnější Gemini, k tomu odchod z americké AI agentury a čerstvé tipy.",
+    "en": "A calmer day. The lead is a report on Google's own chip for a leaner Gemini, plus a US AI-agency exit and fresh tips."
+  },
+  "items": [
+    {
+      "id": "2026-07-21-google-frozen-v2-chip",
+      "category": "business",
+      "highlight": true,
+      "verified": false,
+      "title": {
+        "cs": "Google chystá vlastní čip pro efektivnější Gemini",
+        "en": "Google plans its own chip for a leaner Gemini"
+      },
+      "summary": {
+        "cs": "Podle zpráv CNBC a TechCrunche vyvíjí Google čip Frozen v2, který zabuduje část architektury Gemini přímo do křemíku a zvládne šest až desetkrát víc tokenů na jednotku energie než dnešní TPU. Google ho bere jako pokus s nasazením kolem roku 2028. Akcie Alphabetu posílily.",
+        "en": "According to CNBC and TechCrunch, Google is developing a chip, Frozen v2, that bakes part of Gemini's architecture into the silicon and serves six to ten times more tokens per unit of power than today's TPUs. Google treats it as a trial, with deployment expected around 2028. Alphabet stock rose."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/20/alphabet-googl-stock-ai-chip-report.html" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/" }
+      ]
+    },
+    {
+      "id": "2026-07-21-caisi-director-resigns",
+      "category": "policy",
+      "verified": true,
+      "title": {
+        "cs": "Šéf americké AI agentury CAISI po třech měsících končí",
+        "en": "Head of US AI agency CAISI resigns after three months"
+      },
+      "summary": {
+        "cs": "Chris Fall, ředitel amerického Centra pro standardy a inovace v AI (CAISI), po třech měsících rezignoval. Ministerstvo obchodu to potvrdilo 20. července a důvod neuvedlo. Fall nastoupil v dubnu; jeho předchůdce vydržel necelý týden. Agenturu dočasně povede ředitel NIST Arvind Raman.",
+        "en": "Chris Fall, director of the US Center for AI Standards and Innovation (CAISI), has resigned after three months. The Commerce Department confirmed it on July 20 and gave no reason. Fall took over in April; his predecessor lasted under a week. NIST director Arvind Raman will run the agency."
+      },
+      "sources": [
+        { "name": "Axios", "url": "https://www.axios.com/2026/07/20/trump-ai-security-agency-head-resigns" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/20/trumps-head-of-ai-safety-agency-caisi-resigns-after-months-on-job.html" }
+      ]
+    },
+    {
+      "id": "2026-07-21-openai-open-weight-retraction-update",
+      "category": "policy",
+      "verified": false,
+      "title": {
+        "cs": "Debata o otevřených čínských modelech ochládá",
+        "en": "The open-weight China debate starts to cool"
+      },
+      "summary": {
+        "cs": "Spor o riziko otevřených čínských modelů kolem Kimi K3 podle TechCrunche polevuje. Stratég OpenAI Dean Ball, který volal po regulační přísnosti vůči otevřeným váhám, svá slova o zásahu stáhl poté, co se proti nim postavili Yann LeCun a Martin Casado s tím, že otevřený software zrychluje inovace.",
+        "en": "The fight over the risk of open-weight Chinese models around Kimi K3 is easing, TechCrunch reports. OpenAI strategist Dean Ball, who had urged regulatory pressure on open weights, walked back his call for a crackdown after Yann LeCun and Martin Casado pushed back, arguing open software speeds up innovation."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/" }
+      ],
+      "followsUp": {
+        "date": "2026-07-20",
+        "id": "2026-07-20-kimi-open-weight-danger-debate",
+        "title": {
+          "cs": "Experti se přou o riziko otevřené čínské AI",
+          "en": "Experts clash over risk of open Chinese AI"
+        }
+      }
+    },
+    {
+      "id": "2026-07-21-tip-gemini-business-profile",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Gemini se propojí s tvým firemním profilem",
+        "en": "Gemini can connect to your Business Profile"
+      },
+      "summary": {
+        "cs": "Svůj Google Business Profile teď propojíš s Gemini a dostaneš asistenta, který zná tvoje recenze, dotazy zákazníků i výkonnostní data. Umí naformulovat odpovědi na recenze ve stylu značky, upravit otevírací dobu nebo najít mezery v profilu. Google to spustil v červenci.",
+        "en": "Connect your Google Business Profile to Gemini and you get an assistant that knows your reviews, customer questions, and performance data. It can draft review replies in your brand voice, update opening hours, or spot gaps in your profile. Google rolled this out in July."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/" }
+      ]
+    },
+    {
+      "id": "2026-07-21-tip-chatgpt-search-everything",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT prohledá všechny tvoje chaty i soubory",
+        "en": "ChatGPT can search across all your chats and files"
+      },
+      "summary": {
+        "cs": "V ChatGPT teď z jednoho místa najdeš svoje starší chaty, projekty, obrázky i dokumenty. Hledání spustíš z bočního panelu a filtrem si výsledky zúžíš podle typu obsahu. Kliknutím otevřeš rovnou daný chat nebo soubor. OpenAI to zpřístupnilo napříč všemi plány.",
+        "en": "In ChatGPT you can now find your older chats, projects, images, and documents from one place. Start searching from the sidebar and use filters to narrow results by content type. Select a result to open the chat or file directly. OpenAI made it available across all plans."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/products/release-notes/" }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,82 @@
 {
   "tips": [
     {
+      "slug": "tip-gemini-business-profile",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": false,
+      "title": {
+        "cs": "Gemini se propojí s tvým firemním profilem",
+        "en": "Gemini can connect to your Business Profile"
+      },
+      "summary": {
+        "cs": "Svůj Google Business Profile teď propojíš s Gemini a dostaneš asistenta, který zná tvoje recenze, dotazy zákazníků i výkonnostní data. Umí naformulovat odpovědi na recenze ve stylu značky, upravit otevírací dobu nebo najít mezery v profilu. Google to spustil v červenci.",
+        "en": "Connect your Google Business Profile to Gemini and you get an assistant that knows your reviews, customer questions, and performance data. It can draft review replies in your brand voice, update opening hours, or spot gaps in your profile. Google rolled this out in July."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/" }
+      ],
+      "added": "2026-07-21",
+      "used": "2026-07-21"
+    },
+    {
+      "slug": "tip-chatgpt-search-everything",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT prohledá všechny tvoje chaty i soubory",
+        "en": "ChatGPT can search across all your chats and files"
+      },
+      "summary": {
+        "cs": "V ChatGPT teď z jednoho místa najdeš svoje starší chaty, projekty, obrázky i dokumenty. Hledání spustíš z bočního panelu a filtrem si výsledky zúžíš podle typu obsahu. Kliknutím otevřeš rovnou daný chat nebo soubor. OpenAI to zpřístupnilo napříč všemi plány.",
+        "en": "In ChatGPT you can now find your older chats, projects, images, and documents from one place. Start searching from the sidebar and use filters to narrow results by content type. Select a result to open the chat or file directly. OpenAI made it available across all plans."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/products/release-notes/" }
+      ],
+      "added": "2026-07-21",
+      "used": "2026-07-21"
+    },
+    {
+      "slug": "tip-chatgpt-dictation",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT líp přepíše diktování i míchané jazyky",
+        "en": "ChatGPT dictation now handles mixed languages better"
+      },
+      "summary": {
+        "cs": "ChatGPT dostal nový model pro převod řeči na text — diktování je přesnější napříč jazyky a přízvuky, včetně situací, kdy ve větě přepínáš mezi jazyky. Funguje napříč plány.",
+        "en": "ChatGPT added a new speech-to-text model — dictation is more accurate across languages and accents, including when you switch between languages mid-sentence. It works across plans."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/products/release-notes/" }
+      ],
+      "added": "2026-07-21",
+      "used": null
+    },
+    {
+      "slug": "tip-copilot-agent-store",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": false,
+      "title": {
+        "cs": "Firemní agenty z Copilotu jde zveřejnit v Agent Store",
+        "en": "Org-built Copilot agents can go to the Agent Store"
+      },
+      "summary": {
+        "cs": "Agenty postavené v Agent Builderu teď firma může po schválení administrátorem zveřejnit v Agent Store v sekci vytvořeno vaší organizací, aby je našli a používali i ostatní kolegové. Microsoft to nasadil v červenci.",
+        "en": "Agents built in Agent Builder can now, after admin approval, be published to the Agent Store under 'Built by your org', so colleagues can discover and use them. Microsoft rolled it out in July."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
+      ],
+      "added": "2026-07-21",
+      "used": null
+    },
+    {
       "slug": "tip-claude-cowork-web-mobile",
       "category": "tools",
       "theme": "claude",

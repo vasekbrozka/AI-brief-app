@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-20T07:01:29Z",
+  "updated": "2026-07-21T03:16:51Z",
   "briefs": [
+    {
+      "date": "2026-07-21",
+      "headline": {
+        "cs": "Google chystá vlastní čip pro efektivnější Gemini",
+        "en": "Google plans its own chip for a leaner Gemini"
+      },
+      "itemCount": 5
+    },
     {
       "date": "2026-07-20",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Claude Artifacts go collaborative, OpenAI pushes back on Apple's lawsuit"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-07-14",
-      "headline": {
-        "cs": "Apple žaluje OpenAI, Claude míří do škol",
-        "en": "Apple sues OpenAI; Claude heads to the classroom"
-      },
-      "itemCount": 6
     }
   ]
 }
