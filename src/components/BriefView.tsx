@@ -41,40 +41,55 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
     <div className="brief">
       {brief.intro?.[lang] && <p className="lede">{brief.intro[lang]}</p>}
 
-      {unread.length > 0 && (
-        <div className="items">
-          {unread.map((item) => (
-            <BriefItemCard key={item.id} item={item} />
-          ))}
-        </div>
-      )}
-
-      {!showCard && hideRead && unread.length === 0 && read.length > 0 && (
-        <div className="caught-up">
-          <Icon name="sparkles" size={24} />
-          <span>{t.allCaughtUp}</span>
-        </div>
-      )}
-
-      {!hideRead && read.length > 0 && (
-        <>
-          <div className="read-divider">
-            <span>{t.read}</span>
-          </div>
-          <div className="items items--read">
-            {read.map((item) => (
-              <BriefItemCard key={item.id} item={item} />
+      {!isToday ? (
+        // Archive is a read-only browse: every story is shown, the read state
+        // is ignored (never hide or dim), so a past day never collapses to
+        // "all caught up". The streak is unaffected — it's driven by Today.
+        shown.length > 0 && (
+          <div className="items">
+            {shown.map((item) => (
+              <BriefItemCard key={item.id} item={item} plain />
             ))}
           </div>
-        </>
-      )}
-
-      {showCard && (
+        )
+      ) : (
         <>
-          <div className="streak-divider">
-            <span>{t.streakSectionLabel}</span>
-          </div>
-          <WeekStreak todayProgress={todayProgress} done={done} />
+          {unread.length > 0 && (
+            <div className="items">
+              {unread.map((item) => (
+                <BriefItemCard key={item.id} item={item} />
+              ))}
+            </div>
+          )}
+
+          {!showCard && hideRead && unread.length === 0 && read.length > 0 && (
+            <div className="caught-up">
+              <Icon name="sparkles" size={24} />
+              <span>{t.allCaughtUp}</span>
+            </div>
+          )}
+
+          {!hideRead && read.length > 0 && (
+            <>
+              <div className="read-divider">
+                <span>{t.read}</span>
+              </div>
+              <div className="items items--read">
+                {read.map((item) => (
+                  <BriefItemCard key={item.id} item={item} />
+                ))}
+              </div>
+            </>
+          )}
+
+          {showCard && (
+            <>
+              <div className="streak-divider">
+                <span>{t.streakSectionLabel}</span>
+              </div>
+              <WeekStreak todayProgress={todayProgress} done={done} />
+            </>
+          )}
         </>
       )}
 

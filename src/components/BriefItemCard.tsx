@@ -42,11 +42,13 @@ function ThreadLink({ thread }: { thread: ThreadRef }) {
   );
 }
 
-export function BriefItemCard({ item }: { item: BriefItem }) {
+export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?: boolean }) {
   const { lang, t } = useSettings();
   const { isRead, toggle } = useRead();
   const { isSaved, toggle: toggleSaved } = useSaved();
-  const read = isRead(item.id);
+  // `plain` (archive browse) ignores the read state entirely — no dim, no
+  // read-toggle — so past days always show every story.
+  const read = plain ? false : isRead(item.id);
   const saved = isSaved(item.id);
 
   function handleSave() {
@@ -117,17 +119,19 @@ export function BriefItemCard({ item }: { item: BriefItem }) {
             >
               <Icon name="share" size={17} />
             </button>
-            <button
-              type="button"
-              className={`read-toggle${checked ? ' is-read' : ''}`}
-              aria-pressed={checked}
-              aria-label={read ? t.markUnread : t.markRead}
-              onClick={handleToggle}
-            >
-              <span className="read-toggle__circle">
-                {checked && <Icon name="check" size={13} />}
-              </span>
-            </button>
+            {!plain && (
+              <button
+                type="button"
+                className={`read-toggle${checked ? ' is-read' : ''}`}
+                aria-pressed={checked}
+                aria-label={read ? t.markUnread : t.markRead}
+                onClick={handleToggle}
+              >
+                <span className="read-toggle__circle">
+                  {checked && <Icon name="check" size={13} />}
+                </span>
+              </button>
+            )}
           </div>
         </div>
         <h3 className="item__title">{item.title[lang]}</h3>

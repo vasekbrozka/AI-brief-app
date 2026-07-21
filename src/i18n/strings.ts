@@ -187,7 +187,9 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Nastavení zeštíhlela — nápověda, zdroje i novinky se přesunuly do „O aplikaci“',
       'Jednodušší kategorie — jedno místo na jejich skrývání',
     ],
-    releaseFixed: [],
+    releaseFixed: [
+      'Archiv ukáže všechny články i po přečtení — stav přečtení se v něm neuplatňuje (série si dokončení pamatuje dál)',
+    ],
     aboutTagline: 'Novinky ze světa AI',
     versionLabel: 'Verze',
     modelLabel: 'Shrnutí připravuje',
@@ -309,7 +311,9 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Slimmer Settings — help, sources and what\'s new now live under "About"',
       "Simpler categories — one place to hide the ones you don't want",
     ],
-    releaseFixed: [],
+    releaseFixed: [
+      "The archive now shows every story even after you've read it — read state no longer hides archived articles (your streak still remembers)",
+    ],
     aboutTagline: 'The world of AI',
     versionLabel: 'Version',
     modelLabel: 'Summaries by',
