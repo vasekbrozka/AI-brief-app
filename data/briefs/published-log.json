@@ -1,5 +1,8 @@
 {
   "published": [
+    { "slug": "2026-07-22-china-ai-sanctions-threat", "date": "2026-07-22", "topic": "ministr financí Bessent hrozí sankcemi za údajnou destilaci čínských AI modelů z amerických" },
+    { "slug": "2026-07-22-openai-small-business", "date": "2026-07-22", "topic": "OpenAI spustil program ChatGPT pro malé firmy (webináře, kurzy, partneři Shopify/Intuit/Slack)" },
+    { "slug": "2026-07-22-anthropic-mythos-bank-security", "date": "2026-07-22", "topic": "report CNBC: Anthropic dal bankám model Claude Mythos na hledání zranitelností (Glasswing), Fed varoval" },
     { "slug": "2026-07-21-google-frozen-v2-chip", "date": "2026-07-21", "topic": "report: Google chystá čip Frozen v2 pro efektivnější Gemini, akcie Alphabetu posílily" },
     { "slug": "2026-07-21-caisi-director-resigns", "date": "2026-07-21", "topic": "šéf americké AI agentury CAISI Chris Fall po třech měsících rezignoval" },
     { "slug": "2026-07-21-openai-open-weight-retraction-update", "date": "2026-07-21", "topic": "debata o riziku otevřených čínských modelů ochládá, Ball stáhl výzvu k regulaci" },

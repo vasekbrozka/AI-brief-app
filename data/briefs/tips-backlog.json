@@ -55,7 +55,7 @@
         { "name": "OpenAI", "url": "https://openai.com/products/release-notes/" }
       ],
       "added": "2026-07-21",
-      "used": null
+      "used": "2026-07-22"
     },
     {
       "slug": "tip-copilot-agent-store",
@@ -74,7 +74,7 @@
         { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
       ],
       "added": "2026-07-21",
-      "used": null
+      "used": "2026-07-22"
     },
     {
       "slug": "tip-claude-cowork-web-mobile",
@@ -354,6 +354,65 @@
       ],
       "added": "2026-07-20",
       "used": "2026-07-20"
+    },
+    {
+      "slug": "tip-claude-memory-all",
+      "category": "tools",
+      "theme": "claude",
+      "verified": false,
+      "title": {
+        "cs": "Claude si tě pamatuje napříč chaty, i zdarma",
+        "en": "Claude remembers you across chats, even free"
+      },
+      "summary": {
+        "cs": "Claude umí čerpat z historie tvých konverzací, takže nemusíš pokaždé znovu vysvětlovat kontext, a paměť je teď dostupná všem včetně bezplatného plánu. U Projektů si navíc drží pro každý projekt zvlášť oddělenou paměť.",
+        "en": "Claude can draw on your chat history so you do not have to re-explain context each time, and memory is now available to everyone, including the free plan. With Projects it also keeps a separate memory per project."
+      },
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/memory" },
+        { "name": "Claude Help Center", "url": "https://support.claude.com/en/articles/12138966-release-notes" }
+      ],
+      "added": "2026-07-22",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-notebook-code",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": false,
+      "title": {
+        "cs": "Gemini Notebook umí sám spustit kód nad tvými zdroji",
+        "en": "Gemini Notebook can run code over your sources"
+      },
+      "summary": {
+        "cs": "Gemini Notebook (dřív NotebookLM) dostal zabudovaný cloudový počítač, takže umí sám napsat a spustit kód přímo nad tvými nahranými zdroji a zvládne i složitější analýzu dat. Google to zpřístupnil vyšším plánům, k ostatním se to teprve rozšíří.",
+        "en": "Gemini Notebook (formerly NotebookLM) gained a built-in cloud computer, so it can write and run code directly over your uploaded sources for deeper data analysis. Google enabled it for higher tiers first, with a wider rollout to come."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/" }
+      ],
+      "added": "2026-07-22",
+      "used": null
+    },
+    {
+      "slug": "tip-copilot-sharepoint-report",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "title": {
+        "cs": "Copilot vytvoří interaktivní report z dat v SharePointu",
+        "en": "Copilot builds an interactive report from SharePoint"
+      },
+      "summary": {
+        "cs": "Copilot teď z obsahu uloženého v SharePointu poskládá interaktivní HTML report, tedy hezký sdílitelný přehled dat bez ručního formátování, ideální na readouty a dashboardy. Microsoft to nasadil v červenci.",
+        "en": "Copilot can now assemble an interactive HTML report from content stored in SharePoint, a polished shareable view of your data with no manual formatting, handy for readouts and dashboards. Microsoft rolled it out in July."
+      },
+      "sources": [
+        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/spblog/what%e2%80%99s-new-in-copilot-in-sharepoint-july-2026/4535420" },
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
+      ],
+      "added": "2026-07-22",
+      "used": null
     }
   ]
 }

@@ -1,0 +1,105 @@
+{
+  "date": "2026-07-22",
+  "sample": false,
+  "headline": {
+    "cs": "USA hrozí sankcemi čínským AI modelům",
+    "en": "US threatens to sanction Chinese AI models"
+  },
+  "intro": {
+    "cs": "Debata o čínských modelech se přesouvá na vládní úroveň. K tomu nový program OpenAI pro malé firmy a dva tipy.",
+    "en": "The China-model debate moves up to the government level. Add a new OpenAI small-business program and two tips."
+  },
+  "items": [
+    {
+      "id": "2026-07-22-china-ai-sanctions-threat",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "USA zvažují sankce za krádež AI modelů",
+        "en": "US weighs sanctions over AI model theft"
+      },
+      "summary": {
+        "cs": "Ministr financí Scott Bessent 21. července řekl, že vláda prověří, zda čínské AI modely nevznikly destilací z amerických, a pohrozil za takovou krádež sankcemi. Reaguje na vzestup otevřených modelů jako Kimi K3. Že jde o krádež, ale panuje spor — destilaci podle kritiků běžně dělá kdekdo.",
+        "en": "On July 21, Treasury Secretary Scott Bessent said the government will examine whether Chinese AI models were distilled from American ones and threatened sanctions over such theft. He pointed to open models like Kimi K3. Whether it counts as theft is disputed — critics say distillation is common practice."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/21/bessent-china-ai-sanctions.html" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/" }
+      ],
+      "followsUp": {
+        "date": "2026-07-21",
+        "id": "2026-07-21-openai-open-weight-retraction-update",
+        "title": {
+          "cs": "Debata o otevřených čínských modelech ochládá",
+          "en": "The open-weight China debate starts to cool"
+        }
+      }
+    },
+    {
+      "id": "2026-07-22-openai-small-business",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "OpenAI spustil program pro malé firmy",
+        "en": "OpenAI launches a small-business program"
+      },
+      "summary": {
+        "cs": "OpenAI představil program ChatGPT pro malé firmy. Nabízí webináře i osobní kurzy, jak zapojit agenta ChatGPT Work do běžné práce, a návody s hotovými prompty. Součástí jsou připravené dovednosti a nabídky od partnerů jako Shopify, Intuit, Slack, Dropbox, Atlassian nebo Wix.",
+        "en": "OpenAI introduced a ChatGPT for small business program. It offers webinars and in-person academies on putting the ChatGPT Work agent to everyday use, plus guides with ready-made prompts. It bundles skills and offers from partners like Shopify, Intuit, Slack, Dropbox, Atlassian, and Wix."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/index/introducing-chatgpt-small-business-program/" }
+      ]
+    },
+    {
+      "id": "2026-07-22-anthropic-mythos-bank-security",
+      "category": "research",
+      "verified": false,
+      "title": {
+        "cs": "Model Anthropicu odhaluje slabiny bank",
+        "en": "Anthropic's model exposes banks' security gaps"
+      },
+      "summary": {
+        "cs": "Podle CNBC dala Anthropic vybraným bankám a firmám nezveřejněný model Claude Mythos, který hledá slabiny v softwaru líp než skoro každý člověk. Partneři programu Glasswing tak našli přes 10 000 vážných zranitelností. Fed a ministerstvo financí varovaly šéfy bank už v dubnu, sám Fed ale model prý tři měsíce neměl.",
+        "en": "According to CNBC, Anthropic gave select banks and firms an unreleased model, Claude Mythos, that finds software weaknesses better than almost any human. Its Project Glasswing partners flagged over 10,000 serious vulnerabilities. The Fed and Treasury warned bank chiefs in April, yet the Fed reportedly went three months without access."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/21/fed-mythos-ai-cybersecurity-banks-project-glasswing.html" },
+        { "name": "Anthropic", "url": "https://www.anthropic.com/glasswing" }
+      ]
+    },
+    {
+      "id": "2026-07-22-tip-chatgpt-dictation",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT líp přepíše diktování i míchané jazyky",
+        "en": "ChatGPT dictation now handles mixed languages better"
+      },
+      "summary": {
+        "cs": "ChatGPT dostal nový model pro převod řeči na text — diktování je přesnější napříč jazyky a přízvuky, včetně situací, kdy ve větě přepínáš mezi jazyky. Funguje napříč plány.",
+        "en": "ChatGPT added a new speech-to-text model — dictation is more accurate across languages and accents, including when you switch between languages mid-sentence. It works across plans."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/products/release-notes/" }
+      ]
+    },
+    {
+      "id": "2026-07-22-tip-copilot-agent-store",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Firemní agenty z Copilotu jde zveřejnit v Agent Store",
+        "en": "Org-built Copilot agents can go to the Agent Store"
+      },
+      "summary": {
+        "cs": "Agenty postavené v Agent Builderu teď firma může po schválení administrátorem zveřejnit v Agent Store v sekci vytvořeno vaší organizací, aby je našli a používali i ostatní kolegové. Microsoft to nasadil v červenci.",
+        "en": "Agents built in Agent Builder can now, after admin approval, be published to the Agent Store under 'Built by your org', so colleagues can discover and use them. Microsoft rolled it out in July."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
+      ]
+    }
+  ]
+}
