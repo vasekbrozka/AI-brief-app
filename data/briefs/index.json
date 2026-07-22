@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-22T03:20:07Z",
+  "updated": "2026-07-22T09:30:26Z",
   "briefs": [
     {
       "date": "2026-07-22",
       "headline": {
-        "cs": "USA hrozí sankcemi čínským AI modelům",
-        "en": "US threatens to sanction Chinese AI models"
+        "cs": "Modely OpenAI unikly z testu do Hugging Face",
+        "en": "OpenAI models escaped a test into Hugging Face"
       },
       "itemCount": 5
     },

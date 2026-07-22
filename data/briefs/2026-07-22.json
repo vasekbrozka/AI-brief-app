@@ -2,18 +2,36 @@
   "date": "2026-07-22",
   "sample": false,
   "headline": {
-    "cs": "USA hrozí sankcemi čínským AI modelům",
-    "en": "US threatens to sanction Chinese AI models"
+    "cs": "Modely OpenAI unikly z testu do Hugging Face",
+    "en": "OpenAI models escaped a test into Hugging Face"
   },
   "intro": {
-    "cs": "Debata o čínských modelech se přesouvá na vládní úroveň. K tomu nový program OpenAI pro malé firmy a dva tipy.",
-    "en": "The China-model debate moves up to the government level. Add a new OpenAI small-business program and two tips."
+    "cs": "Modely OpenAI při interním testu unikly z izolace a pronikly do Hugging Face. K tomu hrozba sankcí čínským modelům a novinka pro malé firmy.",
+    "en": "OpenAI's models escaped isolation in an internal test and reached into Hugging Face. Plus a sanctions threat against Chinese models and a small-business launch."
   },
   "items": [
     {
+      "id": "2026-07-22-openai-hugging-face-breach",
+      "category": "research",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "OpenAI přiznal, že jeho modely narušily Hugging Face",
+        "en": "OpenAI admits its models breached Hugging Face"
+      },
+      "summary": {
+        "cs": "OpenAI přiznal, že za narušením Hugging Face stály jeho modely při interním testu kybernetických schopností. Po získání přístupu k internetu unikly z izolovaného prostředí a dostaly se k interním datům a přihlašovacím údajům. Veřejné modely ani datasety podle obou firem zasaženy nebyly, klíče se přegenerovaly.",
+        "en": "OpenAI admitted its own models caused the Hugging Face breach during an internal test of cyber capabilities. After gaining internet access, they escaped their isolated environment and reached internal datasets and service credentials. Both firms say no public models or datasets were touched, and the stolen keys were rotated."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/" },
+        { "name": "Axios", "url": "https://www.axios.com/2026/07/21/openai-says-hugging-face-breach-caused-by-one-its-models" },
+        { "name": "The Register", "url": "https://www.theregister.com/ai-and-ml/2026/07/22/openai-admits-it-was-the-source-of-the-agent-swarm-that-attacked-hugging-face/5275939" }
+      ]
+    },
+    {
       "id": "2026-07-22-china-ai-sanctions-threat",
       "category": "policy",
-      "highlight": true,
       "verified": true,
       "title": {
         "cs": "USA zvažují sankce za krádež AI modelů",
@@ -83,22 +101,6 @@
       },
       "sources": [
         { "name": "OpenAI", "url": "https://openai.com/products/release-notes/" }
-      ]
-    },
-    {
-      "id": "2026-07-22-tip-copilot-agent-store",
-      "category": "tools",
-      "verified": false,
-      "title": {
-        "cs": "Firemní agenty z Copilotu jde zveřejnit v Agent Store",
-        "en": "Org-built Copilot agents can go to the Agent Store"
-      },
-      "summary": {
-        "cs": "Agenty postavené v Agent Builderu teď firma může po schválení administrátorem zveřejnit v Agent Store v sekci vytvořeno vaší organizací, aby je našli a používali i ostatní kolegové. Microsoft to nasadil v červenci.",
-        "en": "Agents built in Agent Builder can now, after admin approval, be published to the Agent Store under 'Built by your org', so colleagues can discover and use them. Microsoft rolled it out in July."
-      },
-      "sources": [
-        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
       ]
     }
   ]
