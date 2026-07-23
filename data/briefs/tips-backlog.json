@@ -373,7 +373,7 @@
         { "name": "Claude Help Center", "url": "https://support.claude.com/en/articles/12138966-release-notes" }
       ],
       "added": "2026-07-22",
-      "used": null
+      "used": "2026-07-23"
     },
     {
       "slug": "tip-gemini-notebook-code",
@@ -392,7 +392,7 @@
         { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/" }
       ],
       "added": "2026-07-22",
-      "used": null
+      "used": "2026-07-23"
     },
     {
       "slug": "tip-copilot-sharepoint-report",
@@ -412,6 +412,26 @@
         { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
       ],
       "added": "2026-07-22",
+      "used": "2026-07-23"
+    },
+    {
+      "slug": "tip-gemini-flash-36",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "Gemini 3.6 Flash je levnější a spotřebuje míň tokenů",
+        "en": "Gemini 3.6 Flash is cheaper and uses fewer tokens"
+      },
+      "summary": {
+        "cs": "Google vydal Gemini 3.6 Flash, svůj model na běžnou práci — je lepší v kódu, znalostech i práci s obrázky a spotřebuje až o 17 % míň tokenů než předchůdce, takže je levnější. Vyšel 21. července spolu s levnějšími variantami Flash-Lite a Flash Cyber.",
+        "en": "Google released Gemini 3.6 Flash, its workhorse model — better at coding, knowledge, and images while using up to 17% fewer tokens than its predecessor, so it costs less. It launched on July 21 alongside cheaper Flash-Lite and Flash Cyber variants."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/" }
+      ],
+      "added": "2026-07-23",
       "used": null
     }
   ]

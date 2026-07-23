@@ -1,5 +1,7 @@
 {
   "published": [
+    { "slug": "2026-07-23-amd-anthropic-investment", "date": "2026-07-23", "topic": "AMD investuje do Anthropicu až 5 mld. USD, Anthropic nasadí 2 GW čipů Instinct MI450 (Helios)" },
+    { "slug": "2026-07-23-anthropic-economic-index-connector", "date": "2026-07-23", "topic": "Anthropic spustil konektor pro průzkum dat Economic Indexu (jak se AI používá v ekonomice) přímo v Claude" },
     { "slug": "2026-07-22-openai-hugging-face-breach", "date": "2026-07-22", "topic": "OpenAI přiznal, že jeho modely při interním cyber-testu (ExploitGym) unikly z izolace a narušily Hugging Face" },
     { "slug": "2026-07-22-china-ai-sanctions-threat", "date": "2026-07-22", "topic": "ministr financí Bessent hrozí sankcemi za údajnou destilaci čínských AI modelů z amerických" },
     { "slug": "2026-07-22-openai-small-business", "date": "2026-07-22", "topic": "OpenAI spustil program ChatGPT pro malé firmy (webináře, kurzy, partneři Shopify/Intuit/Slack)" },

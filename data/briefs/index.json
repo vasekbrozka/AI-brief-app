@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-22T09:30:26Z",
+  "updated": "2026-07-23T03:09:53Z",
   "briefs": [
+    {
+      "date": "2026-07-23",
+      "headline": {
+        "cs": "AMD investuje do Anthropicu až 5 miliard",
+        "en": "AMD to invest up to $5 billion in Anthropic"
+      },
+      "itemCount": 5
+    },
     {
       "date": "2026-07-22",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Kimi K3 rattles markets, Gemini delay drags on"
       },
       "itemCount": 6
-    },
-    {
-      "date": "2026-07-16",
-      "headline": {
-        "cs": "Čína zregulovala AI společníky, svět čeká na Gemini 3.5",
-        "en": "China reins in AI companions as the world awaits Gemini 3.5"
-      },
-      "itemCount": 5
     }
   ]
 }

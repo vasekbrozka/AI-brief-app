@@ -1,0 +1,97 @@
+{
+  "date": "2026-07-23",
+  "sample": false,
+  "headline": {
+    "cs": "AMD investuje do Anthropicu až 5 miliard",
+    "en": "AMD to invest up to $5 billion in Anthropic"
+  },
+  "intro": {
+    "cs": "Anthropic si dál pojišťuje výpočetní výkon, tentokrát dohodou s AMD za až 5 miliard dolarů. K tomu jeho nový datový konektor a tři tipy.",
+    "en": "Anthropic keeps locking in compute, this time a deal with AMD worth up to $5 billion. Plus its new data connector and three tips."
+  },
+  "items": [
+    {
+      "id": "2026-07-23-amd-anthropic-investment",
+      "category": "business",
+      "highlight": true,
+      "verified": false,
+      "title": {
+        "cs": "AMD vloží do Anthropicu až 5 miliard dolarů",
+        "en": "AMD to put up to $5 billion into Anthropic"
+      },
+      "summary": {
+        "cs": "AMD 22. července oznámil strategické partnerství s Anthropikem a slíbil, že do firmy v budoucnu investuje až 5 miliard dolarů. Anthropic za to nasadí 2 gigawatty čipů AMD Instinct MI450 v systémech Helios, první gigawatt v první polovině příštího roku.",
+        "en": "On July 22, AMD announced a strategic partnership with Anthropic and pledged to invest up to $5 billion in the company in the future. In return, Anthropic will deploy 2 gigawatts of AMD Instinct MI450 chips in Helios rack systems, the first gigawatt in the first half of next year."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html" }
+      ]
+    },
+    {
+      "id": "2026-07-23-anthropic-economic-index-connector",
+      "category": "research",
+      "verified": false,
+      "title": {
+        "cs": "Anthropic otevřel data o používání AI přímo v Claude",
+        "en": "Anthropic opens its AI-usage data inside Claude"
+      },
+      "summary": {
+        "cs": "Anthropic 22. července spustil konektor, který přímo v Claude umožní procházet data Anthropic Economic Indexu — tedy jak lidé a firmy AI reálně používají napříč ekonomikou. Uživatel se zeptá běžnou řečí a Claude z dat sestaví odpověď. Firma k tomu představila i výzkumný program o dopadech AI na práci.",
+        "en": "On July 22, Anthropic launched a connector that lets you explore the Anthropic Economic Index — its data on how people and businesses use AI across the economy. You ask in plain language and Claude answers. It also unveiled a research program on AI's impact on work."
+      },
+      "sources": [
+        { "name": "Anthropic", "url": "https://www.anthropic.com/news/anthropic-economic-index-connector" }
+      ]
+    },
+    {
+      "id": "2026-07-23-tip-claude-memory-all",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Claude si tě pamatuje napříč chaty, i zdarma",
+        "en": "Claude remembers you across chats, even free"
+      },
+      "summary": {
+        "cs": "Claude umí čerpat z historie tvých konverzací, takže nemusíš pokaždé znovu vysvětlovat kontext, a paměť je teď dostupná všem včetně bezplatného plánu. U Projektů si navíc drží pro každý projekt zvlášť oddělenou paměť.",
+        "en": "Claude can draw on your chat history so you do not have to re-explain context each time, and memory is now available to everyone, including the free plan. With Projects it also keeps a separate memory per project."
+      },
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/memory" },
+        { "name": "Claude Help Center", "url": "https://support.claude.com/en/articles/12138966-release-notes" }
+      ]
+    },
+    {
+      "id": "2026-07-23-tip-gemini-notebook-code",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Gemini Notebook umí sám spustit kód nad tvými zdroji",
+        "en": "Gemini Notebook can run code over your sources"
+      },
+      "summary": {
+        "cs": "Gemini Notebook (dřív NotebookLM) dostal zabudovaný cloudový počítač, takže umí sám napsat a spustit kód přímo nad tvými nahranými zdroji a zvládne i složitější analýzu dat. Google to zpřístupnil vyšším plánům, k ostatním se to teprve rozšíří.",
+        "en": "Gemini Notebook (formerly NotebookLM) gained a built-in cloud computer, so it can write and run code directly over your uploaded sources for deeper data analysis. Google enabled it for higher tiers first, with a wider rollout to come."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/" }
+      ]
+    },
+    {
+      "id": "2026-07-23-tip-copilot-sharepoint-report",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Copilot vytvoří interaktivní report z dat v SharePointu",
+        "en": "Copilot builds an interactive report from SharePoint"
+      },
+      "summary": {
+        "cs": "Copilot teď z obsahu uloženého v SharePointu poskládá interaktivní HTML report, tedy hezký sdílitelný přehled dat bez ručního formátování, ideální na readouty a dashboardy. Microsoft to nasadil v červenci.",
+        "en": "Copilot can now assemble an interactive HTML report from content stored in SharePoint, a polished shareable view of your data with no manual formatting, handy for readouts and dashboards. Microsoft rolled it out in July."
+      },
+      "sources": [
+        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/spblog/what%e2%80%99s-new-in-copilot-in-sharepoint-july-2026/4535420" },
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
+      ]
+    }
+  ]
+}
