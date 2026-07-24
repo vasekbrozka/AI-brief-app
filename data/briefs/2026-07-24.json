@@ -1,0 +1,99 @@
+{
+  "date": "2026-07-24",
+  "sample": false,
+  "headline": {
+    "cs": "ChatGPT Health je pro všechny v USA",
+    "en": "ChatGPT Health opens to everyone in the US"
+  },
+  "intro": {
+    "cs": "OpenAI otevřel zdravotního asistenta ChatGPT Health všem v USA. K tomu mezinárodní shoda APEC na pravidlech pro AI a tři tipy.",
+    "en": "OpenAI opened its ChatGPT Health assistant to everyone in the US. Plus an APEC deal on AI principles and three tips."
+  },
+  "items": [
+    {
+      "id": "2026-07-24-chatgpt-health-all-us",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT Health je teď pro všechny v USA",
+        "en": "ChatGPT Health opens to all US users"
+      },
+      "summary": {
+        "cs": "OpenAI 23. července zpřístupnil ChatGPT Health všem uživatelům v USA nad 18 let, na webu i iOS. Je to samostatný prostor na zdravotní dotazy, kam lze propojit data z Apple Health i lékařské záznamy z Epicu. Konverzace se drží zvlášť a neslouží k trénování modelů ani reklamě.",
+        "en": "On July 23, OpenAI opened ChatGPT Health to all US users over 18, on web and iOS. It is a dedicated space for health questions where you can connect Apple Health data or medical records from Epic. Those conversations stay separate and are not used to train models or ads."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/" },
+        { "name": "OpenAI", "url": "https://openai.com/index/health-in-chatgpt/" }
+      ]
+    },
+    {
+      "id": "2026-07-24-apec-chengdu-ai-statement",
+      "category": "policy",
+      "verified": false,
+      "title": {
+        "cs": "APEC se shodl na společných pravidlech pro AI",
+        "en": "APEC agrees on shared AI principles"
+      },
+      "summary": {
+        "cs": "Jednadvacet ekonomik APEC včetně USA a Číny vydalo společné prohlášení k AI z Čcheng-tu. Zdůrazňuje bezpečnost, ochranu dat a duševní vlastnictví a zároveň podporuje otevřený vývoj. Je to vůbec první prohlášení APEC, které na ministerské úrovni řeší spolupráci na otevřených modelech.",
+        "en": "Twenty-one APEC economies, including the US and China, issued the Chengdu statement on AI. It stresses security, data protection, and intellectual property while also backing open-source development. It is APEC's first AI statement to address open-source cooperation at a ministerial level."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html" }
+      ]
+    },
+    {
+      "id": "2026-07-24-tip-claude-cowork-web-mobile",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Claude Cowork běží nově i na webu a mobilu",
+        "en": "Claude Cowork now runs on web and mobile"
+      },
+      "summary": {
+        "cs": "Claude Cowork — režim pro delší samostatnou práci — běží nově i na webu a mobilu, nejen na desktopu. Sezení a soubory se ukládají do účtu, takže práce pokračuje i po zavření notebooku a naplánované úlohy běží bez zapnutého zařízení.",
+        "en": "Claude Cowork — the mode for longer autonomous work — now runs on web and mobile, not just desktop. Sessions and files are saved to your account, so work continues after you close your laptop and scheduled tasks run with no device online."
+      },
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/cowork-web-mobile" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/" }
+      ]
+    },
+    {
+      "id": "2026-07-24-tip-gemini-flash-36",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Gemini 3.6 Flash je levnější a spotřebuje míň tokenů",
+        "en": "Gemini 3.6 Flash is cheaper and uses fewer tokens"
+      },
+      "summary": {
+        "cs": "Google vydal Gemini 3.6 Flash, svůj model na běžnou práci — je lepší v kódu, znalostech i práci s obrázky a spotřebuje až o 17 % míň tokenů než předchůdce, takže je levnější. Vyšel 21. července spolu s levnějšími variantami Flash-Lite a Flash Cyber.",
+        "en": "Google released Gemini 3.6 Flash, its workhorse model — better at coding, knowledge, and images while using up to 17% fewer tokens than its predecessor, so it costs less. It launched on July 21 alongside cheaper Flash-Lite and Flash Cyber variants."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/" }
+      ]
+    },
+    {
+      "id": "2026-07-24-tip-copilot-ppt-brand-kit",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "PowerPoint Copilot umí firemní Brand Kit",
+        "en": "PowerPoint Copilot gets a Brand Kit Picker"
+      },
+      "summary": {
+        "cs": "Copilot v PowerPointu dostal Brand Kit Picker — při tvorbě prezentace vybereš schválený firemní brand kit a deck rovnou vznikne se správnými barvami, fonty a stylem. Microsoft to nasadil v červnu.",
+        "en": "Copilot in PowerPoint added a Brand Kit Picker — pick your organization's approved brand kit and the deck starts with the right colors, fonts, and style. Microsoft rolled it out in June."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
+        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572" }
+      ]
+    }
+  ]
+}

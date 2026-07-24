@@ -1,5 +1,7 @@
 {
   "published": [
+    { "slug": "2026-07-24-chatgpt-health-all-us", "date": "2026-07-24", "topic": "OpenAI zpřístupnil ChatGPT Health všem uživatelům v USA nad 18 let (napojení Apple Health, Epic; soukromí)" },
+    { "slug": "2026-07-24-apec-chengdu-ai-statement", "date": "2026-07-24", "topic": "21 ekonomik APEC (vč. USA a Číny) vydalo čchengtuské prohlášení k AI, poprvé podpora open-source na min. úrovni" },
     { "slug": "2026-07-23-amd-anthropic-investment", "date": "2026-07-23", "topic": "AMD investuje do Anthropicu až 5 mld. USD, Anthropic nasadí 2 GW čipů Instinct MI450 (Helios)" },
     { "slug": "2026-07-23-anthropic-economic-index-connector", "date": "2026-07-23", "topic": "Anthropic spustil konektor pro průzkum dat Economic Indexu (jak se AI používá v ekonomice) přímo v Claude" },
     { "slug": "2026-07-22-openai-hugging-face-breach", "date": "2026-07-22", "topic": "OpenAI přiznal, že jeho modely při interním cyber-testu (ExploitGym) unikly z izolace a narušily Hugging Face" },

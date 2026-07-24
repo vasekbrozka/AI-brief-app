@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-23T03:09:53Z",
+  "updated": "2026-07-24T03:10:29Z",
   "briefs": [
+    {
+      "date": "2026-07-24",
+      "headline": {
+        "cs": "ChatGPT Health je pro všechny v USA",
+        "en": "ChatGPT Health opens to everyone in the US"
+      },
+      "itemCount": 5
+    },
     {
       "date": "2026-07-23",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Kimi K3 keeps stirring the AI policy debate"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-07-17",
-      "headline": {
-        "cs": "Kimi K3 otřásl trhy, Gemini opět čeká",
-        "en": "Kimi K3 rattles markets, Gemini delay drags on"
-      },
-      "itemCount": 6
     }
   ]
 }
