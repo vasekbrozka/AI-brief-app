@@ -327,6 +327,7 @@ T1/T2. Ideál: oficiální oznámení (T1) + médium (T2), nebo 2× nezávislé 
 
 ## Časování
 
-- Hlavní běh **1× denně v 03:00 UTC** (05:00 CEST v létě / 04:00 CET v zimě) — po konci
+- Jediný běh **1× denně v 03:00 UTC** (05:00 CEST v létě / 04:00 CET v zimě) — po konci
   amerického pracovního dne, takže ranní brief nese i čerstvé US novinky.
-- Záložní kontrola v 05:00 UTC jen ověří existenci dnešního briefu, případně ho dogeneruje.
+- Záložní kontrola byla 25. 7. 2026 zrušena (za 9 dní provozu ani jednou nezasáhla).
+  Když běh selže, brief chybí viditelně v appce — dogeneruje se na pokyn v session.
