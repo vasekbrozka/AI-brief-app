@@ -155,7 +155,8 @@ python3 docs/check-brief.py
 - **WARN** → posuď; když je odchylka záměrná a odůvodněná, smí projít.
 - Skript kontroluje: platnost JSON, právě 1 highlight (ne na tipu), kategorie, meze slov,
   názvy dnů, ASCII uvozovky, zakázané domény ve zdrojích, paywall párování, verified se
-  ≥2 zdroji, počty tipů, konzistenci s backlogem a published-logem, index a mazání souborů.
+  ≥2 zdroji, počty tipů, **brzké opakování tipů** (<14 dní od minula = FAIL), konzistenci
+  s backlogem a published-logem (zprávy i tipy), index a mazání souborů.
 
 ### 6 · Publikace
 
@@ -164,8 +165,9 @@ python3 docs/check-brief.py
    appka ho ukazuje jako „Aktualizováno"; nový záznam navrch; jen **7 nejnovějších dnů**;
    starší **denní** soubory `YYYY-MM-DD.json` smaž. **Nikdy nemaž** `tips-backlog.json`
    a `published-log.json` — to jsou trvalé ledgery.
-3. `published-log.json`: připiš dnešní **zprávy** (`slug`, `date`, jednořádkové `topic`
-   česky); záznamy starší ~30 dní zahoď.
+3. `published-log.json`: připiš **všechny dnešní položky — zprávy i tipy** (`slug`,
+   `date`, jednořádkové `topic` česky; u tipu začni topic „tip: “); záznamy starší
+   ~30 dní zahoď.
 4. `tips-backlog.json`: u zveřejněných tipů nastav `used`; nové kandidáty přidej;
    prune (použité >60 dní, nepoužité >90 dní ven).
 5. Kontrola (krok 5) prošla bez FAIL → commit a push **jen obsahu**:
@@ -188,20 +190,28 @@ Tip = užitečná, ne nutně horká funkce jádrového nástroje z **posledních
 si uživatel může vyzkoušet. Žijí ve frontě `data/briefs/tips-backlog.json` (appka ho nečte).
 
 - **Kolik:** brief má mít aspoň ~5 položek → **počet tipů = 5 − počet čerstvých zpráv,
-  strop 3** (0–2 zprávy → 3 tipy · 3 → 2 · 4 → 1 · 5+ → 0).
+  strop 3** (0–2 zprávy → 3 tipy · 3 → 2 · 4 → 1 · 5+ → 0). Když fronta tolik
+  nezveřejněných tipů nedá, **dej méně položek** — recyklace tipů není výplň.
+- **Žádné opakování:** každý zveřejněný tip se zapisuje i do `published-log.json`;
+  stejný tip smí vyjít znovu **nejdřív po 14 dnech** od posledního zveřejnění
+  (`check-brief.py`: dřív = FAIL, ≥14 dní = WARN k vědomému posouzení). Prázdná
+  fronta se neřeší recyklací — dej méně položek, přiznej to v intro a v rešerši
+  prioritně doplň bank; stav banku (kolik tipů čeká) napiš do redakčního deníku.
 - **Identita:** id `<datum>-tip-<slug>`, **vždy `category: "tools"`** (domov = filtr
   „Nástroje"). **V titulku nikdy slovo „tip"** — titulek je normální věta.
 - **Poctivost:** v summary uveď, že nejde o dnešní novinku („Microsoft to nasadil
   v červnu…"). Tip nikdy není highlight.
 - **Rovnoměrnost napříč nástroji:** každý tip má `theme`
-  (`claude`·`chatgpt`·`gemini`·`copilot`·`other`). Publikuj podle **nejdéle
-  nezveřejněného tématu** (nikdy nezveřejněné jde první, pak od nejstaršího `used`);
-  v jednom briefu téma neopakuj, pokud je z čeho vybírat. Za měsíc má mít každý jádrový
-  nástroj zhruba stejně tipů.
+  (`claude`·`chatgpt`·`gemini`·`copilot`·`other`). Rotace se řídí **tématy**: na řadě
+  je téma nejdéle bez tipu (nikdy nezveřejněné téma první, pak od nejstaršího
+  posledního `used`). Vybírá se ale **vždy jen z tipů s `used: null`** — už použitý
+  tip není kandidát (viz Žádné opakování). V jednom briefu téma neopakuj, pokud je
+  z čeho vybírat. Za měsíc má mít každý jádrový nástroj zhruba stejně tipů.
 - **Bank:** kandidáty přidávej průběžně při každé rešerši (`used: null`), přednostně
   z podzastoupených témat; když má některý jádrový nástroj 0 čekajících, prioritně mu
   jednoho najdi.
-- **Publish:** ber z fronty podle rotace témat; po zveřejnění nastav `used` na dnešek.
+- **Publish:** ber z fronty (jen `used: null`) podle rotace témat; po zveřejnění
+  nastav `used` na dnešek a **připiš tip do `published-log.json`** (stejně jako zprávy).
 - **Ověření:** tip z oficiálních release notes / first-party zdroje = `verified: true`
   (cituj aspoň 2 zdroje, např. release notes + oficiální blog, jinak `verified: false`).
 
@@ -271,14 +281,16 @@ T1/T2. Ideál: oficiální oznámení (T1) + médium (T2), nebo 2× nezávislé 
 }
 ```
 
-### `data/briefs/published-log.json` — trvalý ledger zpráv (appka NEČTE, NEMAZAT)
+### `data/briefs/published-log.json` — trvalý ledger zveřejněných položek (appka NEČTE, NEMAZAT)
 
 ```jsonc
 {
   "published": [
     { "slug": "2026-07-16-china-ai-companion-rules", "date": "2026-07-16",
-      "topic": "čínská pravidla pro polidštěné AI služby účinná" }
-  ]                                             // drž ~30 dní, starší zahoď
+      "topic": "čínská pravidla pro polidštěné AI služby účinná" },
+    { "slug": "2026-07-16-tip-claude-cowork-web-mobile", "date": "2026-07-16",
+      "topic": "tip: Claude Cowork i na webu a mobilu" }
+  ]                                             // zprávy i tipy; drž ~30 dní, starší zahoď
 }
 ```
 

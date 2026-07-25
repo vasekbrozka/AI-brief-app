@@ -28,6 +28,9 @@ BANNED_SOURCE_DOMAINS = [
 # Paywall: smí být citován jen v páru s volně čitelným zdrojem.
 PAYWALLED_DOMAINS = ["bloomberg.com", "ft.com", "wsj.com", "theinformation.com"]
 
+# Tip smí znovu vyjít nejdřív po tolika dnech od posledního zveřejnění (viz recept).
+TIP_REPEAT_BLOCK_DAYS = 14
+
 WEEKDAYS = [
     "pondělí", "pondělk", "úterý", "úterk", "středa", "středu", "středy",
     "středě", "čtvrtek", "čtvrtk", "pátek", "pátku", "pátky", "sobota",
@@ -202,6 +205,29 @@ def main() -> int:
     if len(tip_themes) != len(set(tip_themes)):
         warn(f"opakované téma tipů v jednom briefu: {tip_themes}")
 
+    # --- tipy: žádné brzké opakování (published-log nese i tipy) --------------
+    tip_slug_re = re.compile(r"^(\d{4}-\d{2}-\d{2})-(tip-.+)$")
+    prior_tip_use: dict[str, str] = {}  # holý tip-slug -> nejnovější dřívější datum
+    for e in publog.get("published", []):
+        m = tip_slug_re.match(e.get("slug", ""))
+        if not m or m.group(1) >= today:
+            continue
+        s = m.group(2)
+        if s not in prior_tip_use or m.group(1) > prior_tip_use[s]:
+            prior_tip_use[s] = m.group(1)
+    for t in tips:
+        m = tip_slug_re.match(t["id"])
+        prev = prior_tip_use.get(m.group(2)) if m else None
+        if not prev:
+            continue
+        delta = (datetime.strptime(today, "%Y-%m-%d") - datetime.strptime(prev, "%Y-%m-%d")).days
+        if delta < TIP_REPEAT_BLOCK_DAYS:
+            fail(f"{t['id']}: tip už vyšel {prev} (před {delta} dny) — opakovat lze "
+                 f"nejdřív po {TIP_REPEAT_BLOCK_DAYS} dnech; nahraď ho, nebo dej méně položek")
+        else:
+            warn(f"{t['id']}: opakování tipu z {prev} (před {delta} dny) — posuď, "
+                 f"zda je vědomé a funkce je pořád aktuální")
+
     # --- followsUp (příběhové linky) ------------------------------------------
     date_re = re.compile(r"^\d{4}-\d{2}-\d{2}$")
     for i in items:
@@ -228,9 +254,9 @@ def main() -> int:
 
     # --- published-log --------------------------------------------------------
     logged = {e.get("slug") for e in publog.get("published", [])}
-    for i in news:
+    for i in items:
         if i["id"] not in logged:
-            fail(f"{i['id']}: chybí v published-log.json")
+            fail(f"{i['id']}: chybí v published-log.json (loguje se zpráva i tip)")
     for e in publog.get("published", []):
         if not e.get("slug") or not e.get("date"):
             fail("published-log: záznam bez slug/date")
