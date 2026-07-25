@@ -1,0 +1,99 @@
+{
+  "date": "2026-07-25",
+  "sample": false,
+  "headline": {
+    "cs": "Anthropic vydal Claude Opus 5",
+    "en": "Anthropic launches Claude Opus 5"
+  },
+  "intro": {
+    "cs": "Anthropic vydal nový model Claude Opus 5 blízko špičce za poloviční cenu. K tomu ChatGPT Voice v desktopu a dva tipy.",
+    "en": "Anthropic released Claude Opus 5, near the frontier at half the price. Plus ChatGPT Voice on the desktop and two tips."
+  },
+  "items": [
+    {
+      "id": "2026-07-25-anthropic-opus-5",
+      "category": "models",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Anthropic vydal Claude Opus 5",
+        "en": "Anthropic launches Claude Opus 5"
+      },
+      "summary": {
+        "cs": "Anthropic 24. července vydal Claude Opus 5. Rozumově se blíží nejsilnějšímu modelu Fable 5, ale stojí zhruba polovinu a cenou 5 a 25 dolarů za milion tokenů je na úrovni Opusu 4.8. Vede v testech na kódování i ovládání počítače a je dostupný hned přes API, web i cloudové platformy.",
+        "en": "On July 24, Anthropic released Claude Opus 5. It comes close to its top Fable 5 model at about half the price, and at $5 and $25 per million tokens it matches Opus 4.8. It leads coding and computer-use benchmarks and is available now via the API, web, and cloud."
+      },
+      "sources": [
+        { "name": "Anthropic", "url": "https://www.anthropic.com/news/claude-opus-5" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/24/anthropic-claude-opus-5-ai-fable-5-cost.html" }
+      ]
+    },
+    {
+      "id": "2026-07-25-chatgpt-voice-desktop",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT Voice ovládá počítač z desktopu",
+        "en": "ChatGPT Voice comes to the desktop app"
+      },
+      "summary": {
+        "cs": "OpenAI 24. července přineslo hlasový režim ChatGPT Voice i do desktopové aplikace. Hlasem lze ovládat počítač a zadávat práci více agentům běžícím v ChatGPT Work nebo Codexu, bez psaní. Pohání ho nová generace hlasových modelů GPT-Live, která poslouchá a mluví zároveň.",
+        "en": "On July 24, OpenAI brought ChatGPT Voice to the desktop app. You can use your voice to control your computer and hand work to multiple agents running in ChatGPT Work or Codex, without typing. It runs on GPT-Live, a new voice model that listens and speaks at once."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/" }
+      ]
+    },
+    {
+      "id": "2026-07-25-prentis-ai-lab-funding",
+      "category": "business",
+      "verified": false,
+      "title": {
+        "cs": "Nový AI lab Prentis jedná o 100 milionech",
+        "en": "New AI lab Prentis in talks to raise $100M"
+      },
+      "summary": {
+        "cs": "Prentis, nová laboratoř na modely ovládající počítač, podle TechCrunche jedná o získání 100 milionů dolarů při ocenění miliardy. Spoluzaložili ji Reid Hoffman, Mark Pincus a Ritankar Das. Trénuje modely na tom, jak kancelářští pracovníci proklikávají běžné postupy, aby je pak agenti uměli automatizovat.",
+        "en": "Prentis, a new lab building computer-use models, is in talks to raise $100 million at a $1 billion valuation, TechCrunch reports. It was co-founded by Reid Hoffman, Mark Pincus, and Ritankar Das. It trains models on how office workers click through routine workflows, so agents can later automate them."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/" }
+      ]
+    },
+    {
+      "id": "2026-07-25-tip-gemini-live-translate",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Gemini 3.5 překládá řeč naživo přes 70 jazyků",
+        "en": "Gemini 3.5 Live Translate covers 70+ languages"
+      },
+      "summary": {
+        "cs": "Nový audio model Gemini 3.5 Live Translate převádí řeč na řeč téměř v reálném čase, sám rozpozná přes 70 jazyků a zachová přirozenou intonaci mluvčího — hodí se na vícejazyčné hovory, schůzky i cesty. Google to představil v červnu.",
+        "en": "The new Gemini 3.5 Live Translate audio model does near-real-time speech-to-speech translation, auto-detects 70+ languages, and preserves the speaker's natural intonation — handy for multilingual calls, meetings, and travel. Google unveiled it in June."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/" },
+        { "name": "9to5Google", "url": "https://9to5google.com/2026/06/09/gemini-3-5-live-translate-meet/" }
+      ]
+    },
+    {
+      "id": "2026-07-25-tip-copilot-word-chat-history",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Copilot ve Wordu si pamatuje historii konverzace",
+        "en": "Copilot in Word now remembers your chat history"
+      },
+      "summary": {
+        "cs": "Copilot Chat ve Wordu si nově drží historii konverzace i při přechodu mezi aplikacemi — na složitou vícekrokovou práci s dokumentem se dá navázat bez ztráty kontextu. Microsoft to zpřístupnil v červnu.",
+        "en": "Copilot Chat in Word now keeps your conversation history across apps — you can pick up complex, multi-step document work without losing the thread. Microsoft rolled this out in June."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
+        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572" }
+      ]
+    }
+  ]
+}

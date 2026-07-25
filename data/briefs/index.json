@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-24T03:10:29Z",
+  "updated": "2026-07-25T03:06:16Z",
   "briefs": [
+    {
+      "date": "2026-07-25",
+      "headline": {
+        "cs": "Anthropic vydal Claude Opus 5",
+        "en": "Anthropic launches Claude Opus 5"
+      },
+      "itemCount": 5
+    },
     {
       "date": "2026-07-24",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "Čínské modely ovládly žebříček OpenRouter",
         "en": "Chinese models dominate OpenRouter rankings"
-      },
-      "itemCount": 4
-    },
-    {
-      "date": "2026-07-18",
-      "headline": {
-        "cs": "Kimi K3 dál rozviřuje debatu o AI politice",
-        "en": "Kimi K3 keeps stirring the AI policy debate"
       },
       "itemCount": 4
     }

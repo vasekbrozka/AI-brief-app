@@ -1,5 +1,8 @@
 {
   "published": [
+    { "slug": "2026-07-25-anthropic-opus-5", "date": "2026-07-25", "topic": "Anthropic vydal Claude Opus 5: blízko Fable 5 za poloviční cenu, SOTA v kódování i ovládání počítače, ceny jako Opus 4.8" },
+    { "slug": "2026-07-25-chatgpt-voice-desktop", "date": "2026-07-25", "topic": "OpenAI přineslo ChatGPT Voice do desktopu (ovládání počítače a agentů v ChatGPT Work/Codex hlasem, GPT-Live)" },
+    { "slug": "2026-07-25-prentis-ai-lab-funding", "date": "2026-07-25", "topic": "nový AI lab Prentis (Hoffman, Pincus, Das) jedná o 100 mil. USD při ocenění 1 mld., modely na ovládání počítače" },
     { "slug": "2026-07-24-chatgpt-health-all-us", "date": "2026-07-24", "topic": "OpenAI zpřístupnil ChatGPT Health všem uživatelům v USA nad 18 let (napojení Apple Health, Epic; soukromí)" },
     { "slug": "2026-07-24-apec-chengdu-ai-statement", "date": "2026-07-24", "topic": "21 ekonomik APEC (vč. USA a Číny) vydalo čchengtuské prohlášení k AI, poprvé podpora open-source na min. úrovni" },
     { "slug": "2026-07-23-amd-anthropic-investment", "date": "2026-07-23", "topic": "AMD investuje do Anthropicu až 5 mld. USD, Anthropic nasadí 2 GW čipů Instinct MI450 (Helios)" },
