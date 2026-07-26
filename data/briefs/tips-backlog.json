@@ -14,7 +14,10 @@
         "en": "Connect your Google Business Profile to Gemini and you get an assistant that knows your reviews, customer questions, and performance data. It can draft review replies in your brand voice, update opening hours, or spot gaps in your profile. Google rolled this out in July."
       },
       "sources": [
-        { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/" }
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/"
+        }
       ],
       "added": "2026-07-21",
       "used": "2026-07-21"
@@ -33,7 +36,10 @@
         "en": "In ChatGPT you can now find your older chats, projects, images, and documents from one place. Start searching from the sidebar and use filters to narrow results by content type. Select a result to open the chat or file directly. OpenAI made it available across all plans."
       },
       "sources": [
-        { "name": "OpenAI", "url": "https://openai.com/products/release-notes/" }
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/products/release-notes/"
+        }
       ],
       "added": "2026-07-21",
       "used": "2026-07-21"
@@ -52,7 +58,10 @@
         "en": "ChatGPT added a new speech-to-text model — dictation is more accurate across languages and accents, including when you switch between languages mid-sentence. It works across plans."
       },
       "sources": [
-        { "name": "OpenAI", "url": "https://openai.com/products/release-notes/" }
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/products/release-notes/"
+        }
       ],
       "added": "2026-07-21",
       "used": "2026-07-22"
@@ -71,7 +80,10 @@
         "en": "Agents built in Agent Builder can now, after admin approval, be published to the Agent Store under 'Built by your org', so colleagues can discover and use them. Microsoft rolled it out in July."
       },
       "sources": [
-        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
       ],
       "added": "2026-07-21",
       "used": "2026-07-22"
@@ -90,8 +102,14 @@
         "en": "Claude Cowork — the mode for longer autonomous work — now runs on web and mobile, not just desktop. Sessions and files are saved to your account, so work continues after you close your laptop and scheduled tasks run with no device online."
       },
       "sources": [
-        { "name": "Claude Blog", "url": "https://claude.com/blog/cowork-web-mobile" },
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/" }
+        {
+          "name": "Claude Blog",
+          "url": "https://claude.com/blog/cowork-web-mobile"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/"
+        }
       ],
       "added": "2026-07-16",
       "used": "2026-07-24"
@@ -110,8 +128,14 @@
         "en": "The new Reflect beta shows a summary of how you use Claude — key topics, patterns, and the kinds of tasks you work through over the past 1 to 12 months. Available to Free, Pro, and Max users with memory turned on."
       },
       "sources": [
-        { "name": "Anthropic", "url": "https://www.anthropic.com/news/reflect-with-claude" },
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/" }
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/reflect-with-claude"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/"
+        }
       ],
       "added": "2026-07-16",
       "used": "2026-07-18"
@@ -130,8 +154,14 @@
         "en": "Claude Tag can jump straight into a Slack thread — tag @Claude and it takes on the work with full channel context. One shared Claude works per channel, and anyone on the team can pick up the conversation. Beta for Enterprise and Team, announced June 23."
       },
       "sources": [
-        { "name": "Anthropic", "url": "https://www.anthropic.com/news/introducing-claude-tag" },
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/" }
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/introducing-claude-tag"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/"
+        }
       ],
       "added": "2026-07-19",
       "used": "2026-07-19"
@@ -150,8 +180,14 @@
         "en": "GPT-Live is a new generation of ChatGPT voice models with a full-duplex architecture — it listens and speaks at once, so you can interrupt naturally. Rolling out globally as GPT-Live-1 and GPT-Live-1 mini."
       },
       "sources": [
-        { "name": "OpenAI", "url": "https://openai.com/index/introducing-gpt-live/" },
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/" }
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-live/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/"
+        }
       ],
       "added": "2026-07-16",
       "used": "2026-07-17"
@@ -170,7 +206,10 @@
         "en": "ChatGPT Work is an agent inside ChatGPT: it takes an outcome, gathers information across apps, and breaks the task into steps. The output isn't chat but finished materials — sheets, slides, docs, and web apps."
       },
       "sources": [
-        { "name": "Axios", "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release" }
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release"
+        }
       ],
       "added": "2026-07-16",
       "used": "2026-07-18"
@@ -189,8 +228,14 @@
         "en": "You can now control your Codex coding agent remotely from the ChatGPT mobile app — check on work in progress, approve commands, switch models, or start a new task without sitting at your computer. OpenAI rolled it out on iOS and Android."
       },
       "sources": [
-        { "name": "OpenAI", "url": "https://openai.com/index/work-with-codex-from-anywhere/" },
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/" }
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/work-with-codex-from-anywhere/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/"
+        }
       ],
       "added": "2026-07-20",
       "used": "2026-07-20"
@@ -209,8 +254,14 @@
         "en": "Gemini Spark now runs on macOS — it can automate tasks across your desktop files, hand your Mac complex work remotely, and connect to apps like Canva and Dropbox. Google launched it in June."
       },
       "sources": [
-        { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/" },
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/" }
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/"
+        }
       ],
       "added": "2026-07-16",
       "used": "2026-07-18"
@@ -229,8 +280,14 @@
         "en": "Google Vids can turn a selfie and a voice recording into your digital avatar, which then speaks for you in generated videos. Videos carry an invisible SynthID watermark against misuse. For now it's limited to adult users in select regions; Google rolled it out in mid-July."
       },
       "sources": [
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/" },
-        { "name": "Google", "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/" }
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/"
+        },
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/"
+        }
       ],
       "added": "2026-07-19",
       "used": "2026-07-19"
@@ -249,8 +306,14 @@
         "en": "Google renamed NotebookLM to Gemini Notebook — the same research and note-taking tool now sits more clearly inside the Gemini family and syncs with the Gemini app and Search. Pro users will also soon get the option to run code directly inside a notebook for deeper data analysis."
       },
       "sources": [
-        { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/" },
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/" }
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/"
+        }
       ],
       "added": "2026-07-20",
       "used": "2026-07-20"
@@ -269,8 +332,14 @@
         "en": "The new Gemini 3.5 Live Translate audio model does near-real-time speech-to-speech translation, auto-detects 70+ languages, and preserves the speaker's natural intonation — handy for multilingual calls, meetings, and travel. Google unveiled it in June."
       },
       "sources": [
-        { "name": "Google", "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/" },
-        { "name": "9to5Google", "url": "https://9to5google.com/2026/06/09/gemini-3-5-live-translate-meet/" }
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/06/09/gemini-3-5-live-translate-meet/"
+        }
       ],
       "added": "2026-07-16",
       "used": "2026-07-25"
@@ -289,8 +358,14 @@
         "en": "Copilot Chat in Word now keeps your conversation history across apps — you can pick up complex, multi-step document work without losing the thread. Microsoft rolled this out in June."
       },
       "sources": [
-        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
-        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572" }
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        },
+        {
+          "name": "Microsoft 365 Copilot Blog",
+          "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572"
+        }
       ],
       "added": "2026-07-16",
       "used": "2026-07-25"
@@ -309,8 +384,14 @@
         "en": "Copilot in PowerPoint added a Brand Kit Picker — pick your organization's approved brand kit and the deck starts with the right colors, fonts, and style. Microsoft rolled it out in June."
       },
       "sources": [
-        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
-        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572" }
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        },
+        {
+          "name": "Microsoft 365 Copilot Blog",
+          "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572"
+        }
       ],
       "added": "2026-07-16",
       "used": "2026-07-24"
@@ -329,8 +410,14 @@
         "en": "Copilot in Excel now has Skills — package repeatable workflows (analysis, modeling, reporting) as reusable instructions and invoke them instead of rewriting the same prompt each time. Microsoft rolled it out in June."
       },
       "sources": [
-        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
-        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572" }
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        },
+        {
+          "name": "Microsoft 365 Copilot Blog",
+          "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572"
+        }
       ],
       "added": "2026-07-16",
       "used": "2026-07-19"
@@ -349,8 +436,14 @@
         "en": "Copilot Notebooks can now pull in Outlook emails as a source too, alongside Word, Excel, or PowerPoint files — so Copilot draws straight from the conversations and decisions behind a project. Microsoft opened this to Copilot Chat users in June, previously reserved for full license holders."
       },
       "sources": [
-        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-notebooks--june-2026/4525625" },
-        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
+        {
+          "name": "Microsoft 365 Copilot Blog",
+          "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-notebooks--june-2026/4525625"
+        },
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
       ],
       "added": "2026-07-20",
       "used": "2026-07-20"
@@ -369,8 +462,14 @@
         "en": "Claude can draw on your chat history so you do not have to re-explain context each time, and memory is now available to everyone, including the free plan. With Projects it also keeps a separate memory per project."
       },
       "sources": [
-        { "name": "Claude Blog", "url": "https://claude.com/blog/memory" },
-        { "name": "Claude Help Center", "url": "https://support.claude.com/en/articles/12138966-release-notes" }
+        {
+          "name": "Claude Blog",
+          "url": "https://claude.com/blog/memory"
+        },
+        {
+          "name": "Claude Help Center",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
       ],
       "added": "2026-07-22",
       "used": "2026-07-23"
@@ -389,7 +488,10 @@
         "en": "Gemini Notebook (formerly NotebookLM) gained a built-in cloud computer, so it can write and run code directly over your uploaded sources for deeper data analysis. Google enabled it for higher tiers first, with a wider rollout to come."
       },
       "sources": [
-        { "name": "Google", "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/" }
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"
+        }
       ],
       "added": "2026-07-22",
       "used": "2026-07-23"
@@ -408,8 +510,14 @@
         "en": "Copilot can now assemble an interactive HTML report from content stored in SharePoint, a polished shareable view of your data with no manual formatting, handy for readouts and dashboards. Microsoft rolled it out in July."
       },
       "sources": [
-        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/spblog/what%e2%80%99s-new-in-copilot-in-sharepoint-july-2026/4535420" },
-        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
+        {
+          "name": "Microsoft 365 Copilot Blog",
+          "url": "https://techcommunity.microsoft.com/blog/spblog/what%e2%80%99s-new-in-copilot-in-sharepoint-july-2026/4535420"
+        },
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
       ],
       "added": "2026-07-22",
       "used": "2026-07-23"
@@ -428,11 +536,117 @@
         "en": "Google released Gemini 3.6 Flash, its workhorse model — better at coding, knowledge, and images while using up to 17% fewer tokens than its predecessor, so it costs less. It launched on July 21 alongside cheaper Flash-Lite and Flash Cyber variants."
       },
       "sources": [
-        { "name": "Google", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/" },
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/" }
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/"
+        }
       ],
       "added": "2026-07-23",
       "used": "2026-07-24"
+    },
+    {
+      "slug": "tip-chatgpt-shared-projects",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "title": {
+        "cs": "Projekty v ChatGPT jde sdílet s týmem",
+        "en": "ChatGPT Projects can now be shared with your team"
+      },
+      "summary": {
+        "cs": "Projekty v ChatGPT teď nasdílíš týmu i dalším lidem — projekt funguje jako živé centrum kontextu se soubory a instrukcemi, na kterém se pracuje společně. Projekty se nově objevují i v desktopové aplikaci. OpenAI to spustilo v červenci.",
+        "en": "You can now share a ChatGPT Project with your team and others — a project becomes a live context hub with shared files and instructions to work in together. Projects also now appear in the desktop app. OpenAI rolled it out in July."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/more-ways-to-work-with-your-team/"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "added": "2026-07-26",
+      "used": "2026-07-26"
+    },
+    {
+      "slug": "tip-claude-voice-models",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "title": {
+        "cs": "V hlasovém režimu Claude si vybereš model",
+        "en": "Claude voice mode now lets you pick the model"
+      },
+      "summary": {
+        "cs": "Hlasový režim Claude dostal výkonnější modely — nově si v něm vybereš mezi Opusem, Sonnetem a Haiku. Zvládá delší konverzace a umí sáhnout do propojených aplikací jako Gmail, Kalendář, Slack, Canva nebo Notion. Anthropic to vydal 23. července.",
+        "en": "Claude's voice mode got more capable models — you can now pick between Opus, Sonnet, and Haiku. It handles longer conversations and can reach into connected apps like Gmail, Calendar, Slack, Canva, or Notion. Anthropic shipped it on July 23."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/"
+        },
+        {
+          "name": "Claude Help Center",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
+      ],
+      "added": "2026-07-26",
+      "used": "2026-07-26"
+    },
+    {
+      "slug": "tip-copilot-gpt56",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "title": {
+        "cs": "Copilot v Microsoft 365 jede na GPT-5.6",
+        "en": "Microsoft 365 Copilot now runs on GPT-5.6"
+      },
+      "summary": {
+        "cs": "Microsoft 365 Copilot přepnul na GPT-5.6 jako preferovaný model — ve Wordu, Excelu, PowerPointu, Chatu i Coworku teď odpovídá novější a schopnější model. Není třeba nic nastavovat, změna se propsala sama. OpenAI to oznámilo začátkem července.",
+        "en": "Microsoft 365 Copilot switched to GPT-5.6 as its preferred model — Word, Excel, PowerPoint, Chat, and Cowork now answer with the newer, more capable model. There is nothing to set up; the change applied itself. OpenAI announced it in early July."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/"
+        }
+      ],
+      "added": "2026-07-26",
+      "used": "2026-07-26"
+    },
+    {
+      "slug": "tip-gemini-waze",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": false,
+      "title": {
+        "cs": "Waze si s Gemini rozumí běžnou řečí",
+        "en": "Waze gets conversational with Gemini"
+      },
+      "summary": {
+        "cs": "Waze dostal nové funkce s Gemini — dopravní situace nahlásíš běžnou řečí, konverzačně navrhneš i úpravy mapy, a motorkáři mají vlastní režim s trasami šitými na míru. Google to vydal 13. července.",
+        "en": "Waze picked up new Gemini features — report traffic incidents in plain speech, suggest map updates conversationally, and motorcyclists get their own mode with routes tailored to them. Google shipped it on July 13."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/waze/waze-updates-gemini-motorcycle-mode/"
+        }
+      ],
+      "added": "2026-07-26",
+      "used": null
     }
   ]
 }

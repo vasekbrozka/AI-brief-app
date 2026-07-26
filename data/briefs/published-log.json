@@ -1,6 +1,31 @@
 {
   "published": [
     {
+      "slug": "2026-07-26-nvidia-sk-hynix-memory-deal",
+      "date": "2026-07-26",
+      "topic": "NVIDIA si pojistila paměti od SK Hynix — dohoda až 500 mld. USD, datová centra od 2027, ~2 GW, vývoj HBM"
+    },
+    {
+      "slug": "2026-07-26-trump-ai-skeptics-coalition",
+      "date": "2026-07-26",
+      "topic": "analýza CNBC: v USA se formuje koalice skeptiků AI (církve, odbory, aktivisté proti datovým centrům)"
+    },
+    {
+      "slug": "2026-07-26-tip-chatgpt-shared-projects",
+      "date": "2026-07-26",
+      "topic": "tip: sdílení Projektů v ChatGPT s týmem"
+    },
+    {
+      "slug": "2026-07-26-tip-claude-voice-models",
+      "date": "2026-07-26",
+      "topic": "tip: hlasový režim Claude s výběrem modelů a aplikacemi"
+    },
+    {
+      "slug": "2026-07-26-tip-copilot-gpt56",
+      "date": "2026-07-26",
+      "topic": "tip: M365 Copilot přepnul na GPT-5.6"
+    },
+    {
       "slug": "2026-07-25-anthropic-opus-5",
       "date": "2026-07-25",
       "topic": "Anthropic vydal Claude Opus 5: blízko Fable 5 za poloviční cenu, SOTA v kódování i ovládání počítače, ceny jako Opus 4.8"

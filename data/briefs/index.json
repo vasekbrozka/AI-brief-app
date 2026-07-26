@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-25T03:06:16Z",
+  "updated": "2026-07-26T03:06:13Z",
   "briefs": [
+    {
+      "date": "2026-07-26",
+      "headline": {
+        "cs": "NVIDIA si pojistila paměti od SK Hynix",
+        "en": "NVIDIA locks in memory from SK Hynix"
+      },
+      "itemCount": 5
+    },
     {
       "date": "2026-07-25",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "Experti se přou o riziko otevřené čínské AI",
         "en": "Experts clash over risk of open Chinese AI"
-      },
-      "itemCount": 4
-    },
-    {
-      "date": "2026-07-19",
-      "headline": {
-        "cs": "Čínské modely ovládly žebříček OpenRouter",
-        "en": "Chinese models dominate OpenRouter rankings"
       },
       "itemCount": 4
     }
