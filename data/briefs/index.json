@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-26T03:06:13Z",
+  "updated": "2026-07-27T03:04:55Z",
   "briefs": [
+    {
+      "date": "2026-07-27",
+      "headline": {
+        "cs": "Hugging Face žádá transparentnost po průniku OpenAI",
+        "en": "Hugging Face demands transparency after OpenAI breach"
+      },
+      "itemCount": 5
+    },
     {
       "date": "2026-07-26",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Google plans its own chip for a leaner Gemini"
       },
       "itemCount": 5
-    },
-    {
-      "date": "2026-07-20",
-      "headline": {
-        "cs": "Experti se přou o riziko otevřené čínské AI",
-        "en": "Experts clash over risk of open Chinese AI"
-      },
-      "itemCount": 4
     }
   ]
 }

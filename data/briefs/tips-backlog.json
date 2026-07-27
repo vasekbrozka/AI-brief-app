@@ -646,7 +646,59 @@
         }
       ],
       "added": "2026-07-26",
-      "used": null
+      "used": "2026-07-27"
+    },
+    {
+      "slug": "tip-chatgpt-connectors",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT si konektory řídí sám",
+        "en": "ChatGPT now manages its connectors itself"
+      },
+      "summary": {
+        "cs": "ChatGPT teď sám pozná, kdy a který konektor použít — nemusíš je zapínat v každém novém chatu. Data z GitHubu, SharePointu, Dropboxu a Boxu si navíc umí předem synchronizovat, takže odpovídá rychleji a přesněji. OpenAI to vylepšilo v červenci.",
+        "en": "ChatGPT now decides on its own when and which connector to use — no more turning them on in every new chat. It can also sync data from GitHub, SharePoint, Dropbox, and Box ahead of time, so answers come faster and more accurately. OpenAI improved this in July."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/products/release-notes/"
+        }
+      ],
+      "added": "2026-07-27",
+      "used": "2026-07-27"
+    },
+    {
+      "slug": "tip-copilot-sonnet5",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "title": {
+        "cs": "V Copilotu se objevuje Claude Sonnet 5",
+        "en": "Claude Sonnet 5 arrives in Microsoft 365 Copilot"
+      },
+      "summary": {
+        "cs": "Do Microsoft 365 Copilotu se postupně dostává Claude Sonnet 5 — vedle modelů OpenAI si tak pro svou práci vybereš i model od Anthropicu. Microsoft to rolluje v červenci.",
+        "en": "Claude Sonnet 5 is rolling out in Microsoft 365 Copilot — alongside OpenAI's models you can now pick an Anthropic model for your work too. The rollout runs through July."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        },
+        {
+          "name": "Microsoft",
+          "url": "https://techcommunity.microsoft.com/blog/microsoftmechanicsblog/claude--gpt--multi-model-intelligence-in-copilot/4509773"
+        }
+      ],
+      "added": "2026-07-27",
+      "used": "2026-07-27"
     }
   ]
 }

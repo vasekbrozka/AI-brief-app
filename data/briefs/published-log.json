@@ -1,6 +1,31 @@
 {
   "published": [
     {
+      "slug": "2026-07-27-hugging-face-transparency-update",
+      "date": "2026-07-27",
+      "topic": "šéf HF Delangue žádá po průniku „radikální transparentnost“, schůzka s OpenAI, slíbena technická zpráva"
+    },
+    {
+      "slug": "2026-07-27-cxmt-shanghai-debut",
+      "date": "2026-07-27",
+      "topic": "čínský výrobce pamětí CXMT +470 % při debutu v Šanghaji, úpis 8,6 mld. USD, nejhodnotnější firma kotovaná v Číně"
+    },
+    {
+      "slug": "2026-07-27-tip-gemini-waze",
+      "date": "2026-07-27",
+      "topic": "tip: Waze s Gemini konverzačně (hlášení dopravy, režim pro motorkáře)"
+    },
+    {
+      "slug": "2026-07-27-tip-chatgpt-connectors",
+      "date": "2026-07-27",
+      "topic": "tip: ChatGPT si konektory vybírá a předsynchronizuje sám"
+    },
+    {
+      "slug": "2026-07-27-tip-copilot-sonnet5",
+      "date": "2026-07-27",
+      "topic": "tip: Claude Sonnet 5 rolluje do M365 Copilotu"
+    },
+    {
       "slug": "2026-07-26-nvidia-sk-hynix-memory-deal",
       "date": "2026-07-26",
       "topic": "NVIDIA si pojistila paměti od SK Hynix — dohoda až 500 mld. USD, datová centra od 2027, ~2 GW, vývoj HBM"
