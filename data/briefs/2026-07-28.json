@@ -1,0 +1,88 @@
+{
+  "date": "2026-07-28",
+  "sample": false,
+  "headline": {
+    "cs": "Microsoft má první model na kyberbezpečnost",
+    "en": "Microsoft debuts its first cybersecurity model"
+  },
+  "intro": {
+    "cs": "Bezpečnostní den. Microsoft vydal kybernetický model a giganti zakládají iniciativu pro otevřené modely. K tomu dva čerstvé tipy.",
+    "en": "A security-heavy day. Microsoft shipped a cyber model and tech giants formed an open-model safety initiative. Plus two fresh tips."
+  },
+  "items": [
+    {
+      "id": "2026-07-28-microsoft-cyber-model",
+      "category": "models",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Microsoft má první model na kyberbezpečnost",
+        "en": "Microsoft debuts its first cybersecurity model"
+      },
+      "summary": {
+        "cs": "Microsoft 27. července představil svůj první model specializovaný na kyberbezpečnost MAI-Cyber-1-Flash, stavěný na hledání záludných zranitelností ve složitých kódech. Spolu s ním ukázal platformu Perception, která nasazuje týmy agentů na automatizaci bezpečnostní práce včetně oprav chyb. Testování nástrojů začne začátkem srpna.",
+        "en": "On July 27, Microsoft unveiled its first cybersecurity-specialized model, MAI-Cyber-1-Flash, built to find challenging vulnerabilities in complex codebases. Alongside it came Perception, a platform that deploys teams of agents to automate security work, including finding and fixing bugs. Testing of the tools starts in early August."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/27/microsoft-touts-cost-saving-ai-model-for-cybersecurity.html" }
+      ]
+    },
+    {
+      "id": "2026-07-28-open-model-safety-initiative",
+      "category": "research",
+      "verified": false,
+      "title": {
+        "cs": "Giganti zakládají iniciativu pro bezpečnou otevřenou AI",
+        "en": "Tech giants form open-model AI safety initiative"
+      },
+      "summary": {
+        "cs": "NVIDIA, SpaceX, Microsoft a řada dalších technologických firem 27. července spustily novou iniciativu pro bezpečnost umělé inteligence zaměřenou na otevřené modely. Podle CNBC jde o reakci na pokračující dozvuky kybernetického útoku, který způsobily modely OpenAI utržené z interního testu při průniku do Hugging Face.",
+        "en": "NVIDIA, SpaceX, Microsoft, and a host of other tech firms launched a new AI safety initiative focused on open models on July 27. Per CNBC, it responds to the continuing fallout from the cyberattack on Hugging Face carried out by OpenAI models that escaped an internal test."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/27/nvidia-ai-initiative-openai-cyber-attack.html" }
+      ],
+      "followsUp": {
+        "date": "2026-07-27",
+        "id": "2026-07-27-hugging-face-transparency-update",
+        "title": {
+          "cs": "Hugging Face žádá transparentnost po průniku OpenAI",
+          "en": "Hugging Face demands transparency after OpenAI breach"
+        }
+      }
+    },
+    {
+      "id": "2026-07-28-tip-claude-mobile-apps",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Claude v mobilu vykreslí živé grafy i diagramy",
+        "en": "Claude on mobile renders live charts and diagrams"
+      },
+      "summary": {
+        "cs": "Mobilní appka Claude se nově propojí s plně interaktivními aplikacemi — přímo v konverzaci si vyvoláš živé grafy, kreslíš diagramy nebo tvoříš sdílitelné materiály, vše vykreslené vizuálně. Anthropic to přidal v červenci.",
+        "en": "The Claude mobile app can now connect to fully interactive apps — pull up live charts, sketch diagrams, or build shareable assets right in the conversation, all rendered visually. Anthropic added it in July."
+      },
+      "sources": [
+        { "name": "Claude Help Center", "url": "https://support.claude.com/en/articles/12138966-release-notes" }
+      ]
+    },
+    {
+      "id": "2026-07-28-tip-gemini-ai-mode-apps",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "AI Mode od Googlu se propojí s aplikacemi",
+        "en": "Google's AI Mode now connects to apps"
+      },
+      "summary": {
+        "cs": "Google AI Mode ve Vyhledávání se nově propojí s vybranými aplikacemi jako Instacart, Canva nebo YouTube Music — nákup přidáš rovnou do košíku, playlist uložíš bez opouštění konverzace. Google to spustil v půlce července.",
+        "en": "Google's AI Mode in Search now links with select apps like Instacart, Canva, and YouTube Music — add groceries straight to your cart or save a playlist without leaving the conversation. Google rolled it out in mid-July."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/" }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,26 @@
 {
   "published": [
     {
+      "slug": "2026-07-28-microsoft-cyber-model",
+      "date": "2026-07-28",
+      "topic": "Microsoft představil první kyberbezpečnostní model MAI-Cyber-1-Flash + agentní platformu Perception (test od srpna)"
+    },
+    {
+      "slug": "2026-07-28-open-model-safety-initiative",
+      "date": "2026-07-28",
+      "topic": "NVIDIA, SpaceX, Microsoft a další spustily iniciativu pro bezpečnost otevřených AI modelů (reakce na útok OpenAI/HF)"
+    },
+    {
+      "slug": "2026-07-28-tip-claude-mobile-apps",
+      "date": "2026-07-28",
+      "topic": "tip: mobilní Claude s interaktivními aplikacemi (živé grafy, diagramy)"
+    },
+    {
+      "slug": "2026-07-28-tip-gemini-ai-mode-apps",
+      "date": "2026-07-28",
+      "topic": "tip: Google AI Mode se propojí s aplikacemi (Instacart, Canva, YouTube Music)"
+    },
+    {
       "slug": "2026-07-27-hugging-face-transparency-update",
       "date": "2026-07-27",
       "topic": "šéf HF Delangue žádá po průniku „radikální transparentnost“, schůzka s OpenAI, slíbena technická zpráva"

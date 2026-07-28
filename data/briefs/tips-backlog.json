@@ -699,6 +699,50 @@
       ],
       "added": "2026-07-27",
       "used": "2026-07-27"
+    },
+    {
+      "slug": "tip-claude-mobile-apps",
+      "category": "tools",
+      "theme": "claude",
+      "verified": false,
+      "title": {
+        "cs": "Claude v mobilu vykreslí živé grafy i diagramy",
+        "en": "Claude on mobile renders live charts and diagrams"
+      },
+      "summary": {
+        "cs": "Mobilní appka Claude se nově propojí s plně interaktivními aplikacemi — přímo v konverzaci si vyvoláš živé grafy, kreslíš diagramy nebo tvoříš sdílitelné materiály, vše vykreslené vizuálně. Anthropic to přidal v červenci.",
+        "en": "The Claude mobile app can now connect to fully interactive apps — pull up live charts, sketch diagrams, or build shareable assets right in the conversation, all rendered visually. Anthropic added it in July."
+      },
+      "sources": [
+        {
+          "name": "Claude Help Center",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
+      ],
+      "added": "2026-07-28",
+      "used": "2026-07-28"
+    },
+    {
+      "slug": "tip-gemini-ai-mode-apps",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": false,
+      "title": {
+        "cs": "AI Mode od Googlu se propojí s aplikacemi",
+        "en": "Google's AI Mode now connects to apps"
+      },
+      "summary": {
+        "cs": "Google AI Mode ve Vyhledávání se nově propojí s vybranými aplikacemi jako Instacart, Canva nebo YouTube Music — nákup přidáš rovnou do košíku, playlist uložíš bez opouštění konverzace. Google to spustil v půlce července.",
+        "en": "Google's AI Mode in Search now links with select apps like Instacart, Canva, and YouTube Music — add groceries straight to your cart or save a playlist without leaving the conversation. Google rolled it out in mid-July."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/"
+        }
+      ],
+      "added": "2026-07-28",
+      "used": "2026-07-28"
     }
   ]
 }

@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-27T03:04:55Z",
+  "updated": "2026-07-28T03:07:02Z",
   "briefs": [
+    {
+      "date": "2026-07-28",
+      "headline": {
+        "cs": "Microsoft má první model na kyberbezpečnost",
+        "en": "Microsoft debuts its first cybersecurity model"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-07-27",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "Modely OpenAI unikly z testu do Hugging Face",
         "en": "OpenAI models escaped a test into Hugging Face"
-      },
-      "itemCount": 5
-    },
-    {
-      "date": "2026-07-21",
-      "headline": {
-        "cs": "Google chystá vlastní čip pro efektivnější Gemini",
-        "en": "Google plans its own chip for a leaner Gemini"
       },
       "itemCount": 5
     }
