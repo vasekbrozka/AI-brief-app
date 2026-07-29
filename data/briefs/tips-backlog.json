@@ -743,6 +743,50 @@
       ],
       "added": "2026-07-28",
       "used": "2026-07-28"
+    },
+    {
+      "slug": "tip-perplexity-model-council",
+      "category": "tools",
+      "theme": "other",
+      "verified": false,
+      "title": {
+        "cs": "Perplexity nechá odpovídat víc modelů najednou",
+        "en": "Perplexity lets several models answer at once"
+      },
+      "summary": {
+        "cs": "Perplexity přidalo funkci Model Council — na jeden dotaz se zeptáš víc špičkových modelů najednou a jejich odpovědi porovnáš vedle sebe. Hodí se, když chceš víc úhlů pohledu na spornou otázku. Vyšlo to 28. července.",
+        "en": "Perplexity added a Model Council feature — ask once and several frontier models answer at the same time, with their takes side by side to compare. Handy when you want multiple perspectives on a contested question. It shipped on July 28."
+      },
+      "sources": [
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/28/perplexitys-tokenmaxxing-model-council-gives-you-multiple-bot-perspectives/5279972"
+        }
+      ],
+      "added": "2026-07-29",
+      "used": "2026-07-29"
+    },
+    {
+      "slug": "tip-claude-files-mobile",
+      "category": "tools",
+      "theme": "claude",
+      "verified": false,
+      "title": {
+        "cs": "Claude tvoří a upravuje soubory i v mobilu",
+        "en": "Claude creates and edits files on mobile too"
+      },
+      "summary": {
+        "cs": "Vytváření a úpravy souborů v Claude — tabulek či dokumentů — jsou nově dostupné i na plánu Pro a všechny placené plány je mají také v mobilní appce na iOS a Androidu. Anthropic to zpřístupnil v červenci.",
+        "en": "Claude's file creation and editing — spreadsheets and documents — is now available on the Pro plan too, and every paid plan gets it in the mobile app on iOS and Android as well. Anthropic opened it up in July."
+      },
+      "sources": [
+        {
+          "name": "Claude Help Center",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
+      ],
+      "added": "2026-07-29",
+      "used": "2026-07-29"
     }
   ]
 }

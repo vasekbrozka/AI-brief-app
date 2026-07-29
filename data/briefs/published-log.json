@@ -1,6 +1,26 @@
 {
   "published": [
     {
+      "slug": "2026-07-29-nvidia-openai-backstop",
+      "date": "2026-07-29",
+      "topic": "NVIDIA jedná s OpenAI o záruce až 250 mld. USD na dluh pro 10GW kampus v Ohiu; obavy z kruhového financování, NVDA −4,5 %"
+    },
+    {
+      "slug": "2026-07-29-meta-blackrock-elpaso",
+      "date": "2026-07-29",
+      "topic": "Meta + BlackRock: společný podnik na kampus datových center v El Pasu za ~14 mld. USD"
+    },
+    {
+      "slug": "2026-07-29-tip-perplexity-model-council",
+      "date": "2026-07-29",
+      "topic": "tip: Perplexity Model Council — odpovědi více modelů najednou (téma other poprvé)"
+    },
+    {
+      "slug": "2026-07-29-tip-claude-files-mobile",
+      "date": "2026-07-29",
+      "topic": "tip: tvorba a úpravy souborů v Claude na plánu Pro a v mobilu"
+    },
+    {
       "slug": "2026-07-28-microsoft-cyber-model",
       "date": "2026-07-28",
       "topic": "Microsoft představil první kyberbezpečnostní model MAI-Cyber-1-Flash + agentní platformu Perception (test od srpna)"

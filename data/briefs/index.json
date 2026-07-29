@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-28T03:07:02Z",
+  "updated": "2026-07-29T03:06:24Z",
   "briefs": [
+    {
+      "date": "2026-07-29",
+      "headline": {
+        "cs": "NVIDIA zvažuje záruku 250 miliard pro OpenAI",
+        "en": "NVIDIA weighs a $250 billion OpenAI backstop"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-07-28",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "AMD investuje do Anthropicu až 5 miliard",
         "en": "AMD to invest up to $5 billion in Anthropic"
-      },
-      "itemCount": 5
-    },
-    {
-      "date": "2026-07-22",
-      "headline": {
-        "cs": "Modely OpenAI unikly z testu do Hugging Face",
-        "en": "OpenAI models escaped a test into Hugging Face"
       },
       "itemCount": 5
     }

@@ -1,0 +1,80 @@
+{
+  "date": "2026-07-29",
+  "sample": false,
+  "headline": {
+    "cs": "NVIDIA zvažuje záruku 250 miliard pro OpenAI",
+    "en": "NVIDIA weighs a $250 billion OpenAI backstop"
+  },
+  "intro": {
+    "cs": "Den velkých čísel kolem AI infrastruktury. NVIDIA řeší záruku pro OpenAI, Meta staví s BlackRockem. K tomu dva čerstvé tipy.",
+    "en": "A big-numbers day for AI infrastructure. NVIDIA weighs an OpenAI backstop and Meta builds with BlackRock. Plus two fresh tips."
+  },
+  "items": [
+    {
+      "id": "2026-07-29-nvidia-openai-backstop",
+      "category": "business",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "NVIDIA zvažuje záruku 250 miliard pro OpenAI",
+        "en": "NVIDIA weighs a $250 billion OpenAI backstop"
+      },
+      "summary": {
+        "cs": "NVIDIA podle CNBC jedná s OpenAI o záruce až 250 miliard dolarů, která by OpenAI pomohla získat dluh na kampus datových center o výkonu 10 gigawattů v Ohiu. Zpráva oživila obavy z kruhového financování AI: akcie NVIDIA spadly o 4,5 procenta a nejhodnotnější firmou světa je zase Apple.",
+        "en": "NVIDIA is in talks with OpenAI over a backstop of up to $250 billion to help OpenAI raise debt for a 10-gigawatt data center campus in Ohio, CNBC reports. The news revived fears of circular AI financing: NVIDIA shares fell 4.5 percent and Apple is again the most valuable company."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html" },
+        { "name": "Axios", "url": "https://www.axios.com/2026/07/27/nvidia-openai-financing-ai-jensen-huang-ssi" }
+      ]
+    },
+    {
+      "id": "2026-07-29-meta-blackrock-elpaso",
+      "category": "business",
+      "verified": false,
+      "title": {
+        "cs": "Meta a BlackRock staví datacentrum za 14 miliard",
+        "en": "Meta and BlackRock build a $14B data center"
+      },
+      "summary": {
+        "cs": "Meta a investiční gigant BlackRock 28. července oznámily společný podnik, který postaví a bude provozovat kampus datových center v texaském El Pasu za zhruba 14 miliard dolarů. Ukazuje to, jak si technologické firmy na bezprecedentní stavbu AI infrastruktury půjčují a přibírají externí kapitál od správců fondů.",
+        "en": "Meta and investment giant BlackRock announced a venture on July 28 to develop and operate a data center campus in El Paso, Texas, costing about $14 billion. It shows how tech firms are turning to debt and outside capital from fund managers for an unprecedented AI infrastructure buildout."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/28/meta-blackrock-partner-on-14-billion-el-paso-data-center.html" }
+      ]
+    },
+    {
+      "id": "2026-07-29-tip-perplexity-model-council",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Perplexity nechá odpovídat víc modelů najednou",
+        "en": "Perplexity lets several models answer at once"
+      },
+      "summary": {
+        "cs": "Perplexity přidalo funkci Model Council — na jeden dotaz se zeptáš víc špičkových modelů najednou a jejich odpovědi porovnáš vedle sebe. Hodí se, když chceš víc úhlů pohledu na spornou otázku. Vyšlo to 28. července.",
+        "en": "Perplexity added a Model Council feature — ask once and several frontier models answer at the same time, with their takes side by side to compare. Handy when you want multiple perspectives on a contested question. It shipped on July 28."
+      },
+      "sources": [
+        { "name": "The Register", "url": "https://www.theregister.com/ai-and-ml/2026/07/28/perplexitys-tokenmaxxing-model-council-gives-you-multiple-bot-perspectives/5279972" }
+      ]
+    },
+    {
+      "id": "2026-07-29-tip-claude-files-mobile",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Claude tvoří a upravuje soubory i v mobilu",
+        "en": "Claude creates and edits files on mobile too"
+      },
+      "summary": {
+        "cs": "Vytváření a úpravy souborů v Claude — tabulek či dokumentů — jsou nově dostupné i na plánu Pro a všechny placené plány je mají také v mobilní appce na iOS a Androidu. Anthropic to zpřístupnil v červenci.",
+        "en": "Claude's file creation and editing — spreadsheets and documents — is now available on the Pro plan too, and every paid plan gets it in the mobile app on iOS and Android as well. Anthropic opened it up in July."
+      },
+      "sources": [
+        { "name": "Claude Help Center", "url": "https://support.claude.com/en/articles/12138966-release-notes" }
+      ]
+    }
+  ]
+}
