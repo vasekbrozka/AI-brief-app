@@ -787,6 +787,54 @@
       ],
       "added": "2026-07-29",
       "used": "2026-07-29"
+    },
+    {
+      "slug": "tip-chatgpt-desktop-work",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": false,
+      "title": {
+        "cs": "Desktopový ChatGPT líp přepíná mezi chatem a prací",
+        "en": "ChatGPT desktop gets smoother Chat-to-Work flow"
+      },
+      "summary": {
+        "cs": "Desktopová aplikace ChatGPT prošla úklidem — snáz přepneš mezi Chatem a agentem Work, rychleji najdeš konverzace i Projekty a rozdělanou práci Worku převezmeš na jiném zařízení. OpenAI to pustilo všem plánům na macOS i Windows.",
+        "en": "The ChatGPT desktop app got a cleanup — switching between Chat and the Work agent is easier, conversations and Projects are quicker to find, and Work in progress carries over across devices. OpenAI shipped it to all plans on macOS and Windows."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/products/release-notes/"
+        }
+      ],
+      "added": "2026-07-30",
+      "used": "2026-07-30"
+    },
+    {
+      "slug": "tip-spotify-assistant",
+      "category": "tools",
+      "theme": "other",
+      "verified": false,
+      "title": {
+        "cs": "Spotify má hudebního asistenta, se kterým si píšeš",
+        "en": "Spotify's new music assistant chats with you"
+      },
+      "summary": {
+        "cs": "Spotify testuje hudebního asistenta ve stylu chatbota — v mobilní appce si s ním píšeš nebo mluvíš, poradí co pustit, přidá skladby do fronty nebo uloží a poví ti zajímavosti k oblíbené hudbě. Beta zatím běží v USA, Irsku a Švédsku.",
+        "en": "Spotify is testing a chatbot-style music assistant — type or talk to it in the mobile app and it helps pick what to play, queues or saves songs, and shares trivia about your favorite music. The beta runs in the US, Ireland, and Sweden for now."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant/"
+        }
+      ],
+      "added": "2026-07-30",
+      "used": "2026-07-30"
     }
   ]
 }

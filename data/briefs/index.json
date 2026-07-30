@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-29T03:06:24Z",
+  "updated": "2026-07-30T03:06:53Z",
   "briefs": [
+    {
+      "date": "2026-07-30",
+      "headline": {
+        "cs": "Microsoft po výsledcích září, Meta padá",
+        "en": "Microsoft shines on earnings while Meta slides"
+      },
+      "itemCount": 5
+    },
     {
       "date": "2026-07-29",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "ChatGPT Health je pro všechny v USA",
         "en": "ChatGPT Health opens to everyone in the US"
-      },
-      "itemCount": 5
-    },
-    {
-      "date": "2026-07-23",
-      "headline": {
-        "cs": "AMD investuje do Anthropicu až 5 miliard",
-        "en": "AMD to invest up to $5 billion in Anthropic"
       },
       "itemCount": 5
     }

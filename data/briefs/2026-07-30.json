@@ -1,0 +1,105 @@
+{
+  "date": "2026-07-30",
+  "sample": false,
+  "headline": {
+    "cs": "Microsoft po výsledcích září, Meta padá",
+    "en": "Microsoft shines on earnings while Meta slides"
+  },
+  "intro": {
+    "cs": "Výsledková noc rozdělila AI giganty a Samsungu dál pomáhají čipy. K tomu asijská fronta souboje USA s Čínou a dva tipy.",
+    "en": "Earnings night split the AI giants while chips keep lifting Samsung. Plus the Asian front of the US-China contest and two tips."
+  },
+  "items": [
+    {
+      "id": "2026-07-30-msft-meta-earnings",
+      "category": "business",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Microsoft po výsledcích září, Meta padá",
+        "en": "Microsoft shines on earnings while Meta slides"
+      },
+      "summary": {
+        "cs": "Výsledky za čtvrtletí 29. července rozdělily AI giganty. Microsoft rostl o 18 procent na 90 miliard dolarů tržeb, drží plán investic a akcie po výsledcích posílily. Meta zklamala ziskem i výhledem, výdaje jí vyskočily o 55 procent a volná hotovost se propadla o 90 procent — akcie spadly.",
+        "en": "The July 29 quarterly results split the AI giants. Microsoft grew revenue 18 percent to $90 billion, kept its investment plan steady, and its shares rose after the report. Meta disappointed on profit and outlook, expenses jumped 55 percent, and free cash flow plunged 90 percent — its shares fell."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/29/microsoft-aces-earnings-call-while-meta-frustration-grows-do-we-just-need-to-be-a-bit-more-patient.html" },
+        { "name": "Axios", "url": "https://www.axios.com/2026/07/29/meta-microsoft-earnings-reports-ai" }
+      ]
+    },
+    {
+      "id": "2026-07-30-samsung-q2-ai-chips",
+      "category": "business",
+      "verified": false,
+      "title": {
+        "cs": "Samsung nad odhady díky poptávce po AI čipech",
+        "en": "Samsung beats estimates on AI chip demand"
+      },
+      "summary": {
+        "cs": "Samsung 30. července ohlásil provozní zisk za druhé čtvrtletí nad odhady analytiků — rekordní sérii táhne silná poptávka po AI čipech, která žene růst paměťové divize. Akcie po zveřejnění přidaly zhruba 1,6 procenta. Pokračuje tak vlna silných výsledků výrobců pamětí kolem AI.",
+        "en": "On July 30, Samsung reported second-quarter operating profit above analyst estimates — its record run extends on strong demand for AI chips driving growth in the memory business. Shares added about 1.6 percent after the release. It continues a wave of strong results from memory makers around AI."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/30/samsung-q2-earnings-ai-chip-.html" }
+      ]
+    },
+    {
+      "id": "2026-07-30-us-china-ai-asia",
+      "category": "policy",
+      "verified": false,
+      "title": {
+        "cs": "USA a Čína se přetahují o AI v Asii",
+        "en": "US and China tussle over AI in Asia"
+      },
+      "summary": {
+        "cs": "Souboj USA a Číny o AI se přelévá do Asie. Čínské firmy tlačí levnější alternativy amerických modelů a Peking svou technologii aktivně nabízí do zahraničí. Americké ministerstvo obchodu 29. července potvrdilo vystoupení svého zástupce v Čcheng-tu a uvádí, že zájem o program AI exportu předčil očekávání.",
+        "en": "The US-China AI contest is spilling into Asia. Chinese firms push cheaper alternatives to American models while Beijing actively markets its technology abroad. On July 29, the US Commerce Department confirmed an official spoke in Chengdu and says interest in the American AI Exports Program exceeded its expectations."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/30/us-wants-asia-to-use-its-ai-but-china-dominates-cheaper-models.html" }
+      ],
+      "followsUp": {
+        "date": "2026-07-24",
+        "id": "2026-07-24-apec-chengdu-ai-statement",
+        "title": {
+          "cs": "APEC se shodl na společných pravidlech pro AI",
+          "en": "APEC agrees on shared AI principles"
+        }
+      }
+    },
+    {
+      "id": "2026-07-30-tip-chatgpt-desktop-work",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Desktopový ChatGPT líp přepíná mezi chatem a prací",
+        "en": "ChatGPT desktop gets smoother Chat-to-Work flow"
+      },
+      "summary": {
+        "cs": "Desktopová aplikace ChatGPT prošla úklidem — snáz přepneš mezi Chatem a agentem Work, rychleji najdeš konverzace i Projekty a rozdělanou práci Worku převezmeš na jiném zařízení. OpenAI to pustilo všem plánům na macOS i Windows.",
+        "en": "The ChatGPT desktop app got a cleanup — switching between Chat and the Work agent is easier, conversations and Projects are quicker to find, and Work in progress carries over across devices. OpenAI shipped it to all plans on macOS and Windows."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes" },
+        { "name": "OpenAI", "url": "https://openai.com/products/release-notes/" }
+      ]
+    },
+    {
+      "id": "2026-07-30-tip-spotify-assistant",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Spotify má hudebního asistenta, se kterým si píšeš",
+        "en": "Spotify's new music assistant chats with you"
+      },
+      "summary": {
+        "cs": "Spotify testuje hudebního asistenta ve stylu chatbota — v mobilní appce si s ním píšeš nebo mluvíš, poradí co pustit, přidá skladby do fronty nebo uloží a poví ti zajímavosti k oblíbené hudbě. Beta zatím běží v USA, Irsku a Švédsku.",
+        "en": "Spotify is testing a chatbot-style music assistant — type or talk to it in the mobile app and it helps pick what to play, queues or saves songs, and shares trivia about your favorite music. The beta runs in the US, Ireland, and Sweden for now."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant/" }
+      ]
+    }
+  ]
+}
