@@ -10,6 +10,11 @@ dej jí tento soubor a přístup k repu `vasekbrozka/AI-brief-app`
 (větev `claude/daily-ai-brief-app-b1qq0p`). Session pak kopíruje soubory
 přesně podle mapy níže.
 
+> ⚠️ **Tvrdé pravidlo pro novou session:** repo AIspressa je **jen ke
+> čtení** — kopíruje se z něj VEN. Nikdy do něj necommituj ani nepushuj
+> (na jeho větvi stojí produkce aispresso.app i denní automat). Veškerá
+> práce a všechny commity patří výhradně do nového repa to-do projektu.
+
 **Stav požadavků:** bod 1 zadal Vašek (*PWA jen pro mě, private,
 zabezpečená*), body 2–10 jsou domyšlené podle stylu AIspressa a toho, jak
 Vašek pracuje — viz §8. Platí jako výchozí zadání; cokoli z toho jde před
