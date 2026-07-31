@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-30T03:06:53Z",
+  "updated": "2026-07-31T03:05:38Z",
   "briefs": [
+    {
+      "date": "2026-07-31",
+      "headline": {
+        "cs": "OpenAI výrazně zlevnilo modely GPT-5.6",
+        "en": "OpenAI slashes prices on GPT-5.6 models"
+      },
+      "itemCount": 5
+    },
     {
       "date": "2026-07-30",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "Anthropic vydal Claude Opus 5",
         "en": "Anthropic launches Claude Opus 5"
-      },
-      "itemCount": 5
-    },
-    {
-      "date": "2026-07-24",
-      "headline": {
-        "cs": "ChatGPT Health je pro všechny v USA",
-        "en": "ChatGPT Health opens to everyone in the US"
       },
       "itemCount": 5
     }

@@ -835,6 +835,28 @@
       ],
       "added": "2026-07-30",
       "used": "2026-07-30"
+    },
+    {
+      "slug": "tip-copilot-excel-personalization",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": false,
+      "title": {
+        "cs": "Excel Copilot si pamatuje tvoje preference",
+        "en": "Copilot in Excel remembers your preferences"
+      },
+      "summary": {
+        "cs": "Copilot v Excelu si nově zapamatuje tvoje preference — styl formátování, pojmenovávání, oblíbené vzorce, podobu kontingenčních tabulek i reportů — a drží se jich v další práci. Nastavíš jednou, platí dál. Microsoft to rolluje v červenci.",
+        "en": "Copilot in Excel now remembers your preferences — formatting style, naming conventions, favorite formulas, the shape of your PivotTables and reports — and sticks to them in later work. Set it once and it holds. Microsoft is rolling it out in July."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "added": "2026-07-31",
+      "used": "2026-07-31"
     }
   ]
 }
