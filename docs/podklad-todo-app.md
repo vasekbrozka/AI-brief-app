@@ -1,0 +1,223 @@
+# Podklad: nová to-do appka na základech AIspressa
+
+Tento dokument je **kompletní předávací podklad** pro nový projekt: osobní to-do
+aplikaci, která převezme frontend, UI a technické základy z AIspressa
+(https://aispresso.app). Nic z to-do appky se tu nevyvíjí — tohle je mapa,
+co z AIspressa vytáhnout, co nechat ležet a na co si dát pozor.
+
+**Jak dokument použít:** založ nový projekt (nová session, nový repozitář),
+dej jí tento soubor a přístup k repu `vasekbrozka/AI-brief-app`
+(větev `claude/daily-ai-brief-app-b1qq0p`). Session pak kopíruje soubory
+přesně podle mapy níže.
+
+**Stav požadavků:** zatím je potvrzený jediný — *PWA jen pro mě, private,
+zabezpečená*. Další body (2, 3, …) se nedochovaly — **před startem je nutné
+je doplnit**, viz otevřené otázky na konci.
+
+---
+
+## 1 · Technický profil AIspressa (co přebíráme)
+
+| Vrstva | Volba | Poznámka |
+|---|---|---|
+| Build | Vite 5 + TypeScript 5 | `npm run dev / build / typecheck` |
+| UI | React 18, žádný UI framework | vše vlastní, ~5 700 řádků |
+| Styl | Jediný `src/index.css` (2 026 řádků) | design tokeny + komponenty, light/dark |
+| PWA | `vite-plugin-pwa` 0.21 (autoUpdate) | manifest, service worker, offline |
+| Stav | React Context providery + `localStorage` | žádný state management navíc |
+| Hosting | Netlify (build z GitHubu) | SPA redirect, cache hlavičky |
+| Ikony | `scripts/generate-icons.mjs` (sharp) | z jednoho zdroje všechny velikosti |
+
+Bez backendu pro data (AIspresso čte obsah z GitHubu; to-do appka tohle
+mít nebude — viz §6). Jediné serverové části jsou Netlify Functions pro push
+notifikace — přenositelné, ale volitelné.
+
+---
+
+## 2 · Mapa souborů: co převzít, co nechat
+
+### Převzít beze změny (jádro)
+
+| Soubor | Co to je |
+|---|---|
+| `src/index.css` | **Celý design systém** — tokeny, karty, tlačítka, přepínače, tab bar, toasty, swipe, skeletony, empty-states, desktop layout (sidebar ≥900 px). Obsahové sekce (`.item`, `.streakcard`, `.gpop`, `.thread`…) se při úklidu smažou, základ zůstává. |
+| `src/components/SwipeToReveal.tsx` | Obousměrný swipe na kartách (vpravo/vlevo akce) — axis-lock, rubber-band, flick, haptika. Pro to-do ideální: dokončit / smazat. |
+| `src/components/Icon.tsx` | Inline SVG ikonky (check, share, bookmark, chevrony, settings…), snadno rozšiřitelné. |
+| `src/components/TabBar.tsx` + `ScreenScaffold.tsx` | Spodní tab bar + hlavička obrazovky s back tlačítkem (vzor tab → podobrazovka). |
+| `src/components/Switch.tsx`, `Segmented.tsx` | iOS-style přepínač a segmentový volič (světlo/tma/auto). |
+| `src/components/Toaster.tsx` + `src/lib/toast.ts` | Toast hlášky („Uloženo ☕️") přes CustomEvent — bez závislostí. |
+| `src/components/states.tsx` | Skeleton / error / empty stavy obrazovek. |
+| `src/lib/haptics.ts` | Vibrace na interakce (mobil). |
+| `src/lib/format.ts` | Datumové/textové helpery (relativní dny, formát datumu cs/en). |
+| `src/providers/SettingsProvider.tsx` | Vzor nastavení: jazyk, téma (light/dark/auto přes `data-theme`), toggly, vše v localStorage. Osekat o obsahové volby. |
+| `src/providers/NavProvider.tsx` | Mini-navigace mezi taby zvenčí. |
+| `src/screens/SettingsScreen.tsx` + `AboutScreen.tsx` | Vzor Nastavení + O aplikaci (verze, release notes, jak instalovat) — struktura k převzetí, texty vyměnit. |
+| `vite.config.ts` | PWA konfigurace — vyměnit název/manifest, **smazat** `runtimeCaching` pro GitHub a `importScripts: ['push-sw.js']` (pokud nebudou push). |
+| `netlify.toml` | Vzít SPA redirect + cache hlavičky. **Smazat** `ignore` pravidlo (šetřilo deploye za denní obsah — to-do žádný denní obsah nemá) a sekci functions (pokud nebudou push). |
+| `tsconfig*.json`, `index.html`, `src/main.tsx`, `src/vite-env.d.ts` | Kostra projektu; v `main.tsx` vyměnit strom providerů. |
+| `scripts/generate-icons.mjs` | Vygeneruje všechny PWA ikony z jednoho zdrojového obrázku (`npm run icons`). Nový projekt = nový zdrojový obrázek, jinak beze změny. |
+| `.gitignore`, `package.json` | Závislosti štíhlé: react, react-dom + dev nástroje. `@netlify/blobs` a `web-push` jen pokud budou push notifikace. |
+
+### Převzít jako vzor (přepsat obsah, zachovat tvar)
+
+| Soubor | Vzor k zopakování |
+|---|---|
+| `src/providers/ReadProvider.tsx` (76 ř.) | **Kanonický vzor Provider + localStorage** — pro to-do bude `TasksProvider` stejného tvaru (viz §4). |
+| `src/providers/SavedProvider.tsx` | Ukládání celých objektů do localStorage (to samé pro úkoly). |
+| `src/App.tsx` | Přepínání tabů + podobrazovek (`aboutOpen`, …) se scroll-resetem. |
+| `src/i18n/strings.ts` | Dvojjazyčný slovník. **Rozhodnout:** to-do jen pro tebe → nejspíš stačí čeština a celé i18n vyhodit (zjednodušení), nebo nechat vzor. |
+| `src/screens/TodayScreen.tsx` + `components/BriefView.tsx` | Vzor „hlavní obrazovka = čistý seznam karet bez chromu". |
+| `src/hooks/useClockTick.ts` | Překreslení při změně dne — pro to-do užitečné (termíny „dnes/zítra"). |
+
+### Nechat v AIspressu (nekopírovat)
+
+Obsahová logika briefů: `lib/briefs.ts`, `lib/types.ts` (BriefItem…),
+`lib/categories.ts`, `lib/glossary.ts`, `lib/share.ts`, `hooks/useBrief.ts`,
+`providers/{Glossary,Streak}Provider`, `components/{BriefItemCard, BriefView,
+CategoryChip, SourceList, VerifiedBadge, WeekStreak, Glossary*}`,
+`screens/{Archive,BriefDetail,Saved}Screen`, celý adresář `data/`,
+`docs/brief-generation.md`, `docs/check-brief.py`, `public/push-sw.js`
+a `netlify/functions/*` (pokud nebudou push notifikace).
+
+Gamifikaci (streak) v to-do **nepřenášet rovnou** — ale `WeekStreak.tsx` je
+hotový vzor, kdyby ses někdy rozhodl pro „splněno X dní po sobě".
+
+---
+
+## 3 · Design systém v kostce
+
+Celý vizuál drží **CSS proměnné** v `src/index.css` — light je default,
+dark přes `@media (prefers-color-scheme)` i vynucené `:root[data-theme]`.
+Klíčové tokeny (light):
+
+```css
+--bg: #fbfbfd;          /* pozadí aplikace */
+--surface: #ffffff;      /* karty */
+--hairline: rgba(0,0,0,.07);  /* vlasové linky místo rámečků */
+--text: #1d1d1f;  --text-secondary: #55555b;  --text-tertiary: #8a8a8f;
+--accent: #0071e3;       /* JEDINÉ místo, kde se mění barva značky */
+--radius: 18px;  --radius-sm: 12px;
+--content-max: 620px;    /* šířka sloupce obsahu */
+--tabbar-height: 54px;
+```
+
+Principy, které dělají ten „AIspresso pocit":
+- systémový font (SF Pro / -apple-system), žádné webfonty;
+- bílé karty s `--shadow-sm` na šedavém pozadí, vlasové oddělovače;
+- průsvitná chrome (`--nav-bg` + backdrop-filter) nahoře i dole;
+- obsah má spodní padding ~82 px, aby nikdy nekončil pod tab barem;
+- desktop ≥900 px: obsah ve sloupci, navigace v levém sidebaru;
+- animace krátké (~220 ms), respektuje se `prefers-reduced-motion`;
+- akcentová barva se pro novou appku klidně vymění za jinou — jedna proměnná
+  (`--accent` + dark varianta + odvozené `--accent-soft-*`).
+
+---
+
+## 4 · Ověřené vzory (zopakovat 1:1)
+
+**Provider + localStorage** — celý stav aplikace žije v malých context
+providerech, každý si sám čte/píše svůj klíč. Kostra pro úkoly:
+
+```tsx
+const KEY = 'todo.tasks';
+
+export function TasksProvider({ children }: { children: ReactNode }) {
+  const [tasks, setTasks] = useState<Task[]>(() => {
+    try { return JSON.parse(localStorage.getItem(KEY) ?? '[]'); }
+    catch { return []; }
+  });
+  useEffect(() => {
+    localStorage.setItem(KEY, JSON.stringify(tasks));
+  }, [tasks]);
+  // add / toggle / remove / edit … přes useCallback
+  return <Ctx.Provider value={…}>{children}</Ctx.Provider>;
+}
+```
+
+- klíče prefixovat názvem appky (`todo.*`), verzovat migrace markerem
+  (vzor `HIDE_READ_DEFAULTED_KEY` v SettingsProvideru);
+- mazání/označení karty: krátká exit animace, pak změna stavu
+  (vzor `EXIT_MS = 220` v BriefItemCard);
+- swipe akce: `SwipeToReveal` s `right`/`left` akcí (pro to-do: dokončit /
+  smazat či odložit);
+- tab bar: 2–3 taby úplně stačí (např. Dnes · Vše · Nastavení), podobrazovky
+  stavem v `App.tsx`, ne routerem — appka nemá URL navigaci a nevadí to;
+- verze + release notes v `AboutScreen` (`APP_VERSION`) — drž od 1.0.
+
+---
+
+## 5 · PWA checklist pro nový projekt
+
+1. `vite.config.ts`: nový `name/short_name/description`, `theme_color` =
+   `--bg`, `display: 'standalone'`, ikony 192/512/maskable.
+2. `npm run icons` s novým zdrojovým obrázkem (script přebrat).
+3. `registerType: 'autoUpdate'` — appka se sama aktualizuje při otevření;
+   `sw.js` s `max-age=0` (hlavička v netlify.toml), assets `immutable`.
+4. **Smazat** runtimeCaching na GitHub API a `importScripts` (AIspresso
+   specifika). Pro čistě lokální to-do není potřeba žádný runtime caching —
+   precache zvládne offline start celé appky.
+5. iOS: instalace přes Sdílet → Přidat na plochu; `apple-touch-icon`
+   generuje script; badge na ikoně funguje jen přes push (viz §6).
+6. Otestovat: Lighthouse PWA, offline start, chování po deploy nové verze.
+
+---
+
+## 6 · „Private a zabezpečená" — možnosti (rozhodnout před startem)
+
+Bod 1 požadavků. Dvě architektury, každá řeší „zabezpečení" jinak:
+
+**A · Čistě lokální (doporučený start).** Úkoly jen v zařízení
+(localStorage), žádný server, žádný účet. „Zámek" = PIN brána v appce
+(volitelně WebAuthn/biometrie přes `navigator.credentials`). Hosting může
+být veřejná URL s neuhodnutelnou adresou — data na serveru nejsou žádná,
+takže není co ukrást. Zero cost, hotové rychle. Limity: úkoly nejsou na
+druhém zařízení; smazání dat Safari = ztráta (zmírnit exportem do souboru
+v Nastavení — snadné přidat).
+
+**B · Se synchronizací a přihlášením.** Úkoly v cloudu, skutečná
+autentizace. Rozumné cesty:
+- **Supabase** (auth + Postgres, free tier) — přihlášení e-mailem, data za
+  RLS pravidly; nejčistší „opravdové" řešení, ale nový pohyblivý díl;
+- **Cloudflare Pages + Cloudflare Access** (free do 50 uživatelů) — celá
+  appka schovaná za Google login ještě před načtením; jednoduché a solidní,
+  hosting se ale stěhuje z Netlify;
+- Netlify sám o sobě: password-protection je v placeném tarifu a Netlify
+  Identity je pro nové weby utlumené — pro variantu B Netlify nedoporučuji.
+
+**Doporučení:** začít **A** (odpovídá duchu AIspressa: jednoduché, bez
+backendu, zadarmo) + export dat; na **B** přejít, až syncing reálně chybět
+začne — UI vrstva se přitom nemění.
+
+Push notifikace/badge: AIspresso má hotový vzor (`public/push-sw.js`,
+`netlify/functions/push-*`, web-push VAPID) — přenositelné, ale chce Netlify
+Functions a Blobs. Pro to-do volitelné („připomeň úkol") — rozhodnout.
+
+---
+
+## 7 · Co bude nové (jen rámec, nevyvíjet tady)
+
+- **Datový model:** `Task { id, title, note?, due?, done, doneAt?, created }`
+  — držet ploché a malé, jako BriefItem.
+- **Obrazovky (náčrt):** Dnes (úkoly na dnešek + po termínu) · Vše/Seznamy ·
+  Nastavení (téma, zámek, export). Přidávání: plovoucí tlačítko + jeden
+  řádek vstupu — v AIspressu nic takového není, jediný skutečně nový UI kus.
+- **Interakce:** tap = detail/edit, checkbox vlevo (vzor read-toggle),
+  swipe vpravo = hotovo, swipe vlevo = smazat/odložit.
+
+---
+
+## 8 · Otevřené otázky pro Vaška (doplnit před startem)
+
+1. **Zbytek požadavků** — původní zpráva skončila u bodu 1; body 2+ chybí.
+2. Lokální vs. synchronizace (§6 A/B) — určuje celou architekturu.
+3. Jen čeština, nebo nechat dvojjazyčnost?
+4. Push připomínky úkolů ano/ne (rozhoduje o functions).
+5. Akcentová barva/ikona — zůstat u modré, nebo odlišit od AIspressa?
+6. Název appky a dom, kde poběží (Netlify subdoména stačí?).
+
+---
+
+*Vytvořeno 31. 7. 2026 nad stavem AIspressa v1.5 (větev
+`claude/daily-ai-brief-app-b1qq0p`). Čísla řádků a seznam souborů odpovídají
+tomuto dni; kdyby se AIspresso mezitím vyvinulo, mapa souborů platí dál —
+jen si nová session ověří aktuální stav repa.*
