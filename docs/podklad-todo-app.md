@@ -186,8 +186,51 @@ autentizace. Rozumné cesty:
   Identity je pro nové weby utlumené — pro variantu B Netlify nedoporučuji.
 
 **Rozhodnutí pro v1:** varianta **A** (odpovídá duchu AIspressa: jednoduché,
-bez backendu, zadarmo) + export dat v Nastavení; na **B** přejít, až syncing
-reálně chybět začne — UI vrstva se přitom nemění.
+bez backendu, zadarmo) + export dat v Nastavení — **rozšířená o soukromý
+Inbox plněný Claudem** (§7). Na **B** přejít, až syncing reálně chybět
+začne — UI vrstva se přitom nemění.
+
+---
+
+## 7 · Obsah plní Claude: Plaud → úkoly (klíčová novinka zadání)
+
+Vašek nosí **Plaud notetaker** (nahrává porady a hlasové poznámky) a Plaud
+má nově **MCP integraci na Claude**. Úkoly tedy nebude zadávat hlavně ručně —
+poteče to takto:
+
+```
+Plaud nahrávka → Claude session (Plaud MCP) vytěží action itemy
+  → zapíše je do souboru v SOUKROMÉM GitHub repu (push zdarma, bez deploye)
+  → appka si soubor stáhne → úkoly přistanou v Inboxu → ťuknutím přijmeš
+```
+
+Je to **tentýž vzor jako AIspresso** (Claude commituje obsah, appka čte
+z GitHubu, Netlify se nenasazuje), jen v soukromém provedení:
+
+- **Soukromé repo.** Úkoly z porad jsou citlivé → repo musí být private.
+  Appka je čte přes GitHub Contents API s **fine-grained tokenem jen pro
+  čtení jednoho repa** (kód na čtení je v AIspressu hotový — `lib/briefs.ts`
+  používá Contents API, přidá se jen Authorization hlavička). Token se zadá
+  jednou v Nastavení a žije za PIN zámkem; kdyby unikl, umí jen číst seznam
+  úkolů a dá se zneplatnit.
+- **Inbox, ne sync.** Claude do repa jen **přidává návrhy úkolů** (append,
+  se zdrojem: „z porady s X, 31. 7."). Tvůj skutečný seznam žije dál lokálně
+  v zařízení. Nový návrh v Inboxu ťuknutím přijmeš (stane se lokálním
+  úkolem), nebo zahodíš. Claude nikdy nepotřebuje vědět, co máš hotovo —
+  žádný obousměrný sync, žádné konflikty. (Zrcadlí vzor obsah z GitHubu +
+  lokální read-state z AIspressa.)
+- **Úklid inboxu:** automatika při každém běhu smaže návrhy starší ~14 dní
+  (jsou to návrhy, ne archiv); appka si lokálně drží seznam zahozených id.
+- **Automatika:** běh podle AIspresso playbooku — recept v `docs/` nového
+  repa (co je action item, jak formulovat úkol, dedup proti už navrženým),
+  naplánovaný večerní trigger, malý validátor JSON před pushem.
+- ⚠️ **Ověřit při stavbě:** dostupnost Plaud MCP konektoru v naplánovaných
+  (headless) bězích — interaktivně přihlašované konektory v nich někdy
+  nejsou k dispozici. Fallback: běh na pokyn („vytěž dnešek") nebo export
+  z Plaudu souborem. Tohle je jediné technické riziko celé linky.
+
+Ruční zadání (požadavek 2) zůstává vedle toho beze změny — Inbox je hlavní
+přítok, ne jediný.
 
 Push notifikace/badge: AIspresso má hotový vzor (`public/push-sw.js`,
 `netlify/functions/push-*`, web-push VAPID) — přenositelné, ale chce Netlify
@@ -195,15 +238,17 @@ Functions a Blobs. Pro to-do volitelné („připomeň úkol") — rozhodnout.
 
 ---
 
-## 7 · Co bude nové (jen rámec, nevyvíjet tady)
+## 7b · Co bude nové (jen rámec, nevyvíjet tady)
 
 - **Datový model:** `Task { id, title, note?, due?, repeat?, done, doneAt?,
-  created }` — držet ploché a malé, jako BriefItem.
-- **Obrazovky (náčrt):** Dnes (úkoly na dnešek + po termínu) · Vše ·
-  Nastavení (téma, zámek, gamifikace, export). Přidávání: plovoucí tlačítko
-  + jeden řádek vstupu — jediný skutečně nový UI kus.
+  created, source? }` — `source` nese původ z Plaudu („porada s X, 31. 7.");
+  držet ploché a malé, jako BriefItem.
+- **Obrazovky (náčrt):** Dnes (úkoly na dnešek + po termínu, nahoře pruh
+  „nové v Inboxu") · Vše · Nastavení (téma, zámek, gamifikace, token,
+  export). Přidávání: plovoucí tlačítko + jeden řádek vstupu.
 - **Interakce:** tap = detail/edit, checkbox vlevo (vzor read-toggle),
-  swipe vpravo = hotovo, swipe vlevo = smazat/odložit.
+  swipe vpravo = hotovo, swipe vlevo = smazat/odložit; v Inboxu
+  přijmout/zahodit.
 
 ---
 
@@ -230,6 +275,9 @@ Functions a Blobs. Pro to-do volitelné („připomeň úkol") — rozhodnout.
 10. **Stejný pocit jako AIspresso** — design systém beze změny; odlišit jen
     akcentovou barvou (návrh: zelená, v tokenech už je `--verified`)
     a vlastní ikonou. iPhone především, desktop layout zachovat.
+11. **Obsah plní Claude z Plaudu** — action itemy z nahrávek přes Plaud MCP
+    tečou do Inboxu appky (soukromé repo + read-only token, §7); ruční
+    zadání zůstává vedle toho. Přijetí/zahození návrhu jedním ťuknutím.
 
 **Návrhy k potvrzení (snadno změnitelné):** název **Ristretto** (malé,
 koncentrované — sedí k to-do i do kávové rodiny vedle AIspressa; náhradníci:
