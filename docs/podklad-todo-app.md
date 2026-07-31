@@ -10,9 +10,10 @@ dej jí tento soubor a přístup k repu `vasekbrozka/AI-brief-app`
 (větev `claude/daily-ai-brief-app-b1qq0p`). Session pak kopíruje soubory
 přesně podle mapy níže.
 
-**Stav požadavků:** zatím je potvrzený jediný — *PWA jen pro mě, private,
-zabezpečená*. Další body (2, 3, …) se nedochovaly — **před startem je nutné
-je doplnit**, viz otevřené otázky na konci.
+**Stav požadavků:** bod 1 zadal Vašek (*PWA jen pro mě, private,
+zabezpečená*), body 2–10 jsou domyšlené podle stylu AIspressa a toho, jak
+Vašek pracuje — viz §8. Platí jako výchozí zadání; cokoli z toho jde před
+startem jednou větou změnit.
 
 ---
 
@@ -162,7 +163,7 @@ export function TasksProvider({ children }: { children: ReactNode }) {
 
 ---
 
-## 6 · „Private a zabezpečená" — možnosti (rozhodnout před startem)
+## 6 · „Private a zabezpečená" — architektury (pro v1 rozhodnuto: A)
 
 Bod 1 požadavků. Dvě architektury, každá řeší „zabezpečení" jinak:
 
@@ -184,9 +185,9 @@ autentizace. Rozumné cesty:
 - Netlify sám o sobě: password-protection je v placeném tarifu a Netlify
   Identity je pro nové weby utlumené — pro variantu B Netlify nedoporučuji.
 
-**Doporučení:** začít **A** (odpovídá duchu AIspressa: jednoduché, bez
-backendu, zadarmo) + export dat; na **B** přejít, až syncing reálně chybět
-začne — UI vrstva se přitom nemění.
+**Rozhodnutí pro v1:** varianta **A** (odpovídá duchu AIspressa: jednoduché,
+bez backendu, zadarmo) + export dat v Nastavení; na **B** přejít, až syncing
+reálně chybět začne — UI vrstva se přitom nemění.
 
 Push notifikace/badge: AIspresso má hotový vzor (`public/push-sw.js`,
 `netlify/functions/push-*`, web-push VAPID) — přenositelné, ale chce Netlify
@@ -196,24 +197,43 @@ Functions a Blobs. Pro to-do volitelné („připomeň úkol") — rozhodnout.
 
 ## 7 · Co bude nové (jen rámec, nevyvíjet tady)
 
-- **Datový model:** `Task { id, title, note?, due?, done, doneAt?, created }`
-  — držet ploché a malé, jako BriefItem.
-- **Obrazovky (náčrt):** Dnes (úkoly na dnešek + po termínu) · Vše/Seznamy ·
-  Nastavení (téma, zámek, export). Přidávání: plovoucí tlačítko + jeden
-  řádek vstupu — v AIspressu nic takového není, jediný skutečně nový UI kus.
+- **Datový model:** `Task { id, title, note?, due?, repeat?, done, doneAt?,
+  created }` — držet ploché a malé, jako BriefItem.
+- **Obrazovky (náčrt):** Dnes (úkoly na dnešek + po termínu) · Vše ·
+  Nastavení (téma, zámek, gamifikace, export). Přidávání: plovoucí tlačítko
+  + jeden řádek vstupu — jediný skutečně nový UI kus.
 - **Interakce:** tap = detail/edit, checkbox vlevo (vzor read-toggle),
   swipe vpravo = hotovo, swipe vlevo = smazat/odložit.
 
 ---
 
-## 8 · Otevřené otázky pro Vaška (doplnit před startem)
+## 8 · Požadavky (bod 1 od Vaška, body 2–10 domyšlené)
 
-1. **Zbytek požadavků** — původní zpráva skončila u bodu 1; body 2+ chybí.
-2. Lokální vs. synchronizace (§6 A/B) — určuje celou architekturu.
-3. Jen čeština, nebo nechat dvojjazyčnost?
-4. Push připomínky úkolů ano/ne (rozhoduje o functions).
-5. Akcentová barva/ikona — zůstat u modré, nebo odlišit od AIspressa?
-6. Název appky a dom, kde poběží (Netlify subdoména stačí?).
+1. **PWA jen pro mě, private, zabezpečená** — lokální data + PIN/biometrický
+   zámek při otevření, export zálohy v Nastavení (architektura A, §6).
+2. **Bleskové zadání** — jeden řádek, povinný jen název; nový úkol do pár
+   sekund, žádné povinné kolonky ani formuláře.
+3. **Malé konkrétní řešení** — plochý seznam + pohled Dnes; žádné projekty,
+   štítky, priority ani kanban. Stejná filozofie jako AIspresso: radši méně.
+4. **Termíny nalehko** — volitelné datum (dnes · zítra · vybrat); úkoly po
+   termínu viditelně nahoře v Dnes. Bez časů, bez napojení na kalendář.
+5. **Jednoduché opakování** — volitelně „po dokončení znovu za den / týden /
+   měsíc". Nic složitějšího.
+6. **Gesta jako v AIspressu** — swipe vpravo = hotovo, swipe vlevo =
+   smazat/odložit; haptika; krátká exit animace (~220 ms).
+7. **Jen česky** — i18n vrstva se nepřenáší, texty přímo v komponentách
+   nebo jednom souboru konstant.
+8. **Volitelná gamifikace** — řada dní „vše odškrtnuto" ve stylu WeekStreak;
+   ve výchozím stavu zapnutá, vypínatelná v Nastavení (jako v AIspressu).
+9. **Nulové provozní náklady** — Netlify free tier, žádný backend; v1 bez
+   push připomínek (hotový vzor v AIspressu existuje, přidat jde později).
+10. **Stejný pocit jako AIspresso** — design systém beze změny; odlišit jen
+    akcentovou barvou (návrh: zelená, v tokenech už je `--verified`)
+    a vlastní ikonou. iPhone především, desktop layout zachovat.
+
+**Návrhy k potvrzení (snadno změnitelné):** název **Ristretto** (malé,
+koncentrované — sedí k to-do i do kávové rodiny vedle AIspressa; náhradníci:
+Doppio, Hotovka), zelený akcent, Netlify subdoména stačí.
 
 ---
 
