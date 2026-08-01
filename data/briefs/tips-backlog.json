@@ -857,6 +857,98 @@
       ],
       "added": "2026-07-31",
       "used": "2026-07-31"
+    },
+    {
+      "slug": "tip-gemini-macos-voice",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": false,
+      "title": {
+        "cs": "Gemini na Macu píše podle toho, co mu řekneš",
+        "en": "Gemini on a Mac writes from what you say"
+      },
+      "summary": {
+        "cs": "Gemini na Macu teď nadiktuješ text do jakéhokoli okna — podržíš klávesu Fn, řekneš svoje a Gemini text napíše, přepíše označený úsek nebo rovnou vygeneruje obrázek přímo tam, kde máš kurzor. Google to přidal v červencové vlně novinek.",
+        "en": "On a Mac you can now dictate into any window with Gemini — hold the Fn key, say what you need, and it writes the text, rewrites your selection, or generates a visual right where your cursor is. Google added it in its July drop."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/"
+        }
+      ],
+      "added": "2026-08-01",
+      "used": "2026-08-01"
+    },
+    {
+      "slug": "tip-claude-connectors-directory",
+      "category": "tools",
+      "theme": "claude",
+      "verified": false,
+      "title": {
+        "cs": "Claude nabízí adresář s víc než 950 konektory",
+        "en": "Claude offers a directory of 950+ connectors"
+      },
+      "summary": {
+        "cs": "V Claude si nástroje připojíš z adresáře konektorů — je jich přes 950, od pošty po pracovní aplikace. Konektory nově umí vykreslit interaktivní okno přímo v konverzaci, takže vidíš, co dělají, bez přepínání panelů. Anthropic to rozšířil koncem července.",
+        "en": "In Claude you can hook up tools from the connectors directory — over 950 of them, from email to workplace apps. Connectors can now render an interactive window right in the conversation, so you see what they are doing without switching tabs. Anthropic expanded this in late July."
+      },
+      "sources": [
+        {
+          "name": "Claude Blog",
+          "url": "https://claude.com/blog/connectors-directory"
+        },
+        {
+          "name": "Claude Blog",
+          "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude"
+        }
+      ],
+      "added": "2026-08-01",
+      "used": "2026-08-01"
+    },
+    {
+      "slug": "tip-gemini-avatar-images",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": false,
+      "title": {
+        "cs": "Do vygenerovaných obrázků se přidáš svým avatarem",
+        "en": "Put yourself into generated images with an avatar"
+      },
+      "summary": {
+        "cs": "V Gemini si jednou vytvoříš vlastní avatara a pak se přidáš do jakéhokoli vygenerovaného obrázku, aniž bys pokaždé nahrával svoji fotku. Google to zpřístupnil v červencové vlně novinek.",
+        "en": "In Gemini you set up your own avatar once and can then add yourself to any generated image without uploading a photo every time. Google shipped it in its July drop."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/"
+        }
+      ],
+      "added": "2026-08-01",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-app-linking",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": false,
+      "title": {
+        "cs": "Gemini propojíš s aplikacemi, které používáš",
+        "en": "Gemini links up with the apps you use"
+      },
+      "summary": {
+        "cs": "Ke Gemini si připojíš svoje oblíbené aplikace — třeba Dropbox, Zillow Rentals nebo Viator — a pak jedním zadáním vyřídíš práci napříč nimi, aniž bys mezi nimi přeskakoval. Google to přidal v červencové vlně novinek.",
+        "en": "You can link your favorite apps to Gemini — Dropbox, Zillow Rentals, or Viator among them — and then get work done across them from a single prompt instead of hopping between apps. Google added it in its July drop."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/"
+        }
+      ],
+      "added": "2026-08-01",
+      "used": null
     }
   ]
 }

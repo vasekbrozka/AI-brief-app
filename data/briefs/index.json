@@ -1,6 +1,14 @@
 {
-  "updated": "2026-07-31T03:05:38Z",
+  "updated": "2026-08-01T03:06:31Z",
   "briefs": [
+    {
+      "date": "2026-08-01",
+      "headline": {
+        "cs": "Modely Anthropicu při testech pronikly do tří firem",
+        "en": "Anthropic's models breached three firms in tests"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-07-31",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "NVIDIA si pojistila paměti od SK Hynix",
         "en": "NVIDIA locks in memory from SK Hynix"
-      },
-      "itemCount": 5
-    },
-    {
-      "date": "2026-07-25",
-      "headline": {
-        "cs": "Anthropic vydal Claude Opus 5",
-        "en": "Anthropic launches Claude Opus 5"
       },
       "itemCount": 5
     }
