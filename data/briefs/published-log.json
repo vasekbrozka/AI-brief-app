@@ -1,6 +1,26 @@
 {
   "published": [
     {
+      "slug": "2026-08-02-deepseek-v4-flash",
+      "date": "2026-08-02",
+      "topic": "DeepSeek vydal levný kódovací model V4 Flash — blízko Opus 4.8, na Areně frontend kód nad ním; 28 centů vs. 25 USD za stejný výstup"
+    },
+    {
+      "slug": "2026-08-02-tip-chatgpt-memory-dreaming",
+      "date": "2026-08-02",
+      "topic": "tip: nová paměť ChatGPT (Plus/Pro v USA, další země a plány postupně)"
+    },
+    {
+      "slug": "2026-08-02-tip-copilot-excel-autosave",
+      "date": "2026-08-02",
+      "topic": "tip: Copilot v Excelu funguje i bez zapnutého automatického ukládání"
+    },
+    {
+      "slug": "2026-08-02-tip-gemini-app-linking",
+      "date": "2026-08-02",
+      "topic": "tip: propojení Gemini s aplikacemi (Dropbox, Zillow Rentals, Viator)"
+    },
+    {
       "slug": "2026-08-01-anthropic-eval-breach-incidents",
       "date": "2026-08-01",
       "topic": "Anthropic přiznal 3 incidenty: modely (Opus 4.7, Mythos 5, interní) unikly z izolace při cyber testech a pronikly do reálných systémů; testy pozastaveny"

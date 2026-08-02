@@ -1,0 +1,88 @@
+{
+  "date": "2026-08-02",
+  "sample": false,
+  "headline": {
+    "cs": "DeepSeek vydal levný model na kódování",
+    "en": "DeepSeek releases a cheap coding model"
+  },
+  "intro": {
+    "cs": "Klidný víkend. Hlavní zprávou je levný kódovací model DeepSeeku, který přitvrzuje cenovou válku, k tomu tři tipy.",
+    "en": "A quiet weekend. The lead is DeepSeek's cheap coding model sharpening the price war, plus three tips."
+  },
+  "items": [
+    {
+      "id": "2026-08-02-deepseek-v4-flash",
+      "category": "models",
+      "highlight": true,
+      "verified": false,
+      "title": {
+        "cs": "DeepSeek vydal levný model na kódování",
+        "en": "DeepSeek releases a cheap coding model"
+      },
+      "summary": {
+        "cs": "Čínský DeepSeek vydal levný kódovací model V4 Flash. Ve složitém programování se podle Axiosu blíží Claude Opus 4.8 a v žebříčku Areny na frontend kód ho i předběhl, přitom za stejný objem výstupu účtuje 28 centů místo 25 dolarů. Cenová válka o AI se přiostřuje.",
+        "en": "China's DeepSeek released V4 Flash, a cheap coding model. On complex programming it comes close to Claude Opus 4.8, Axios reports, and it even beat it on Arena's front-end coding leaderboard, while charging 28 cents for output that costs $25 on Opus. The AI price war is sharpening."
+      },
+      "sources": [
+        { "name": "Axios", "url": "https://www.axios.com/2026/08/01/deepseek-model-cheap-ai-price-war" }
+      ],
+      "followsUp": {
+        "date": "2026-07-31",
+        "id": "2026-07-31-openai-price-cuts",
+        "title": {
+          "cs": "OpenAI výrazně zlevnilo modely GPT-5.6",
+          "en": "OpenAI slashes prices on GPT-5.6 models"
+        }
+      }
+    },
+    {
+      "id": "2026-08-02-tip-chatgpt-memory-dreaming",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT si tě pamatuje o poznání líp",
+        "en": "ChatGPT remembers you noticeably better"
+      },
+      "summary": {
+        "cs": "ChatGPT dostal novou paměť — lépe si drží, co o tobě ví, opravuje zastaralé údaje a zvládne toho udržet víc. OpenAI to zatím spustilo pro plány Plus a Pro v USA, další země a plány přijdou v dalších týdnech.",
+        "en": "ChatGPT got a new memory system — it holds on to what it knows about you better, fixes stale details, and keeps more of it. OpenAI started with Plus and Pro plans in the US; more countries and plans follow over the coming weeks."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/index/chatgpt-memory-dreaming/" },
+        { "name": "OpenAI", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes" }
+      ]
+    },
+    {
+      "id": "2026-08-02-tip-copilot-excel-autosave",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Copilot v Excelu už nevyžaduje automatické ukládání",
+        "en": "Copilot in Excel no longer demands AutoSave"
+      },
+      "summary": {
+        "cs": "Copilot v Excelu teď funguje i v sešitech, kde nemáš zapnuté automatické ukládání — dřív ho to blokovalo. Když máš neuložené změny, Excel ti připomene AutoSave zapnout, ale můžeš pokračovat i bez něj. Microsoft to rolluje v srpnu.",
+        "en": "Copilot in Excel now works in workbooks with AutoSave turned off — it used to be blocked there. If you have unsaved changes, Excel reminds you to turn AutoSave on, but you can carry on without it. Microsoft is rolling this out in August."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
+      ]
+    },
+    {
+      "id": "2026-08-02-tip-gemini-app-linking",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Gemini propojíš s aplikacemi, které používáš",
+        "en": "Gemini links up with the apps you use"
+      },
+      "summary": {
+        "cs": "Ke Gemini si připojíš svoje oblíbené aplikace — třeba Dropbox, Zillow Rentals nebo Viator — a pak jedním zadáním vyřídíš práci napříč nimi, aniž bys mezi nimi přeskakoval. Google to přidal v červencové vlně novinek.",
+        "en": "You can link your favorite apps to Gemini — Dropbox, Zillow Rentals, or Viator among them — and then get work done across them from a single prompt instead of hopping between apps. Google added it in its July drop."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/" }
+      ]
+    }
+  ]
+}

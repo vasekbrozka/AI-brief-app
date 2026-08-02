@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-01T03:06:31Z",
+  "updated": "2026-08-02T07:50:21Z",
   "briefs": [
+    {
+      "date": "2026-08-02",
+      "headline": {
+        "cs": "DeepSeek vydal levný model na kódování",
+        "en": "DeepSeek releases a cheap coding model"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-08-01",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "Hugging Face žádá transparentnost po průniku OpenAI",
         "en": "Hugging Face demands transparency after OpenAI breach"
-      },
-      "itemCount": 5
-    },
-    {
-      "date": "2026-07-26",
-      "headline": {
-        "cs": "NVIDIA si pojistila paměti od SK Hynix",
-        "en": "NVIDIA locks in memory from SK Hynix"
       },
       "itemCount": 5
     }

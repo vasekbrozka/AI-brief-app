@@ -948,7 +948,55 @@
         }
       ],
       "added": "2026-08-01",
-      "used": null
+      "used": "2026-08-02"
+    },
+    {
+      "slug": "tip-chatgpt-memory-dreaming",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT si tě pamatuje o poznání líp",
+        "en": "ChatGPT remembers you noticeably better"
+      },
+      "summary": {
+        "cs": "ChatGPT dostal novou paměť — lépe si drží, co o tobě ví, opravuje zastaralé údaje a zvládne toho udržet víc. OpenAI to zatím spustilo pro plány Plus a Pro v USA, další země a plány přijdou v dalších týdnech.",
+        "en": "ChatGPT got a new memory system — it holds on to what it knows about you better, fixes stale details, and keeps more of it. OpenAI started with Plus and Pro plans in the US; more countries and plans follow over the coming weeks."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-memory-dreaming/"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "added": "2026-08-02",
+      "used": "2026-08-02"
+    },
+    {
+      "slug": "tip-copilot-excel-autosave",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": false,
+      "title": {
+        "cs": "Copilot v Excelu už nevyžaduje automatické ukládání",
+        "en": "Copilot in Excel no longer demands AutoSave"
+      },
+      "summary": {
+        "cs": "Copilot v Excelu teď funguje i v sešitech, kde nemáš zapnuté automatické ukládání — dřív ho to blokovalo. Když máš neuložené změny, Excel ti připomene AutoSave zapnout, ale můžeš pokračovat i bez něj. Microsoft to rolluje v srpnu.",
+        "en": "Copilot in Excel now works in workbooks with AutoSave turned off — it used to be blocked there. If you have unsaved changes, Excel reminds you to turn AutoSave on, but you can carry on without it. Microsoft is rolling this out in August."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "added": "2026-08-02",
+      "used": "2026-08-02"
     }
   ]
 }
