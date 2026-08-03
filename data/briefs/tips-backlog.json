@@ -1004,12 +1004,12 @@
       "theme": "claude",
       "verified": false,
       "title": {
-        "cs": "V Claude si postavíš vlastní dovednosti",
-        "en": "You can build your own skills in Claude"
+        "cs": "Dovednosti Claude fungují nově i v Excelu a PowerPointu",
+        "en": "Claude's skills now work in Excel and PowerPoint too"
       },
       "summary": {
-        "cs": "V Claude si můžeš postavit vlastní dovednosti — složku s instrukcemi a postupy, kterou si Claude načte, když ji potřebuje, a pak úkol udělá po tvém. Fungují napříč appkou i doplňky v Excelu a PowerPointu. Anthropic je v červenci rozšířil.",
-        "en": "In Claude you can build your own skills — a folder of instructions and steps that Claude loads when it needs them and then does the task your way. They work across the app and the Excel and PowerPoint add-ins. Anthropic expanded them in July."
+        "cs": "Dovednosti Claude — složky s instrukcemi, které si model načte, když je potřeba — fungují nově i v doplňcích pro Excel a PowerPoint. Anthropic v červenci přidal adresář hotových dovedností od partnerů a zveřejnil je jako otevřený standard.",
+        "en": "Claude's skills — folders of instructions the model loads when it needs them — now work in the Excel and PowerPoint add-ins too. In July Anthropic added a directory of ready-made skills from partners and published them as an open standard."
       },
       "sources": [
         {

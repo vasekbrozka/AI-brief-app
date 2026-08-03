@@ -201,6 +201,14 @@ si uživatel může vyzkoušet. Žijí ve frontě `data/briefs/tips-backlog.json
   „Nástroje"). **V titulku nikdy slovo „tip"** — titulek je normální věta.
 - **Poctivost:** v summary uveď, že nejde o dnešní novinku („Microsoft to nasadil
   v červnu…"). Tip nikdy není highlight.
+- **⚠️ Co je vlastně ta novinka:** tip musí stát na tom, co se změnilo za
+  **posledních ~30 dní** — ne na starší funkci, kterou zdroj jen znovu popisuje.
+  **Ověř stáří samotné funkce, ne jen datum článku:** release notes, dokumentace
+  i blogy rády připomínají roky staré věci. Když je nové jen rozšíření, musí to
+  nést **titulek i první věta** („X funguje nově i v Y“), ne základní funkce.
+  Nejde-li stáří ověřit, tip ven. (Kaz z 3. 8. 2026: Agent Skills v Claude jsou
+  z podzimu 2025, nové bylo jen jejich rozšíření do Excelu a PowerPointu —
+  titulek přesto vedl starou funkcí.)
 - **Rovnoměrnost napříč nástroji:** každý tip má `theme`
   (`claude`·`chatgpt`·`gemini`·`copilot`·`other`). Rotace se řídí **tématy**: na řadě
   je téma nejdéle bez tipu (nikdy nezveřejněné téma první, pak od nejstaršího
