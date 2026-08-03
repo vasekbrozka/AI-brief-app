@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-02T07:50:21Z",
+  "updated": "2026-08-03T03:11:07Z",
   "briefs": [
+    {
+      "date": "2026-08-03",
+      "headline": {
+        "cs": "EU odložila pravidla pro rizikovou AI",
+        "en": "EU delays its rules for high-risk AI"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-08-02",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Microsoft debuts its first cybersecurity model"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-07-27",
-      "headline": {
-        "cs": "Hugging Face žádá transparentnost po průniku OpenAI",
-        "en": "Hugging Face demands transparency after OpenAI breach"
-      },
-      "itemCount": 5
     }
   ]
 }

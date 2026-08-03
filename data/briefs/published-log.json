@@ -1,6 +1,26 @@
 {
   "published": [
     {
+      "slug": "2026-08-03-eu-ai-act-high-risk-delay",
+      "date": "2026-08-03",
+      "topic": "pravidla AI Actu pro vysoce rizikovou AI měla platit od 2. 8. 2026, EU je po tlaku průmyslu odložila o 16 měsíců na 2. 12. 2027"
+    },
+    {
+      "slug": "2026-08-03-open-weight-manifesto-war-update",
+      "date": "2026-08-03",
+      "topic": "spor o otevřené váhy: Huang sehnal pod dopis Metu/Microsoft/Google/OpenAI, Anthropic stranou — Amodei chce povinné bezpečnostní testy a kontrolu čipů"
+    },
+    {
+      "slug": "2026-08-03-tip-claude-agent-skills",
+      "date": "2026-08-03",
+      "topic": "tip: vlastní dovednosti (Agent Skills) v Claude, i v doplňcích Excelu a PowerPointu"
+    },
+    {
+      "slug": "2026-08-03-tip-gemini-avatar-images",
+      "date": "2026-08-03",
+      "topic": "tip: vlastní avatar do vygenerovaných obrázků v Gemini"
+    },
+    {
       "slug": "2026-08-02-deepseek-v4-flash",
       "date": "2026-08-02",
       "topic": "DeepSeek vydal levný kódovací model V4 Flash — blízko Opus 4.8, na Areně frontend kód nad ním; 28 centů vs. 25 USD za stejný výstup"

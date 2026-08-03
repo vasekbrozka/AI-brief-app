@@ -926,7 +926,7 @@
         }
       ],
       "added": "2026-08-01",
-      "used": null
+      "used": "2026-08-03"
     },
     {
       "slug": "tip-gemini-app-linking",
@@ -997,6 +997,32 @@
       ],
       "added": "2026-08-02",
       "used": "2026-08-02"
+    },
+    {
+      "slug": "tip-claude-agent-skills",
+      "category": "tools",
+      "theme": "claude",
+      "verified": false,
+      "title": {
+        "cs": "V Claude si postavíš vlastní dovednosti",
+        "en": "You can build your own skills in Claude"
+      },
+      "summary": {
+        "cs": "V Claude si můžeš postavit vlastní dovednosti — složku s instrukcemi a postupy, kterou si Claude načte, když ji potřebuje, a pak úkol udělá po tvém. Fungují napříč appkou i doplňky v Excelu a PowerPointu. Anthropic je v červenci rozšířil.",
+        "en": "In Claude you can build your own skills — a folder of instructions and steps that Claude loads when it needs them and then does the task your way. They work across the app and the Excel and PowerPoint add-ins. Anthropic expanded them in July."
+      },
+      "sources": [
+        {
+          "name": "Claude Blog",
+          "url": "https://claude.com/blog/skills"
+        },
+        {
+          "name": "Claude Help Center",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
+      ],
+      "added": "2026-08-03",
+      "used": "2026-08-03"
     }
   ]
 }

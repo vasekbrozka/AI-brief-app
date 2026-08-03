@@ -1,0 +1,90 @@
+{
+  "date": "2026-08-03",
+  "sample": false,
+  "headline": {
+    "cs": "EU odložila pravidla pro rizikovou AI",
+    "en": "EU delays its rules for high-risk AI"
+  },
+  "intro": {
+    "cs": "Klidný začátek týdne. V EU nenaskočila slíbená pravidla pro rizikovou AI a spor o otevřené modely se vyostřil do manifestů.",
+    "en": "A quiet start to the week. The EU's promised rules for high-risk AI did not arrive, and the open-model fight hardened into manifestos."
+  },
+  "items": [
+    {
+      "id": "2026-08-03-eu-ai-act-high-risk-delay",
+      "category": "policy",
+      "highlight": true,
+      "verified": false,
+      "title": {
+        "cs": "EU odložila pravidla pro rizikovou AI",
+        "en": "EU delays its rules for high-risk AI"
+      },
+      "summary": {
+        "cs": "Druhého srpna měla v EU začít platit pravidla pro vysoce rizikovou AI — tedy biometriku, kritickou infrastrukturu, školství, nábor nebo ochranu hranic. Nezačala: EU je po tlaku průmyslu odložila o šestnáct měsíců na 2. prosince 2027. Zbytek AI Actu platí dál.",
+        "en": "On August 2 the EU's rules for high-risk AI were meant to start applying — biometrics, critical infrastructure, education, hiring, and border control. They did not: after industry pushback the EU delayed them by sixteen months to December 2, 2027. The rest of the AI Act still stands."
+      },
+      "sources": [
+        { "name": "The Register", "url": "https://www.theregister.com/ai-and-ml/2026/05/07/eu-hits-snooze-on-ai-act-rules-after-industry-backlash/5234530" }
+      ]
+    },
+    {
+      "id": "2026-08-03-open-weight-manifesto-war-update",
+      "category": "policy",
+      "verified": true,
+      "title": {
+        "cs": "Spor o otevřené modely má dva tábory a manifesty",
+        "en": "The open-model fight now has two camps and manifestos"
+      },
+      "summary": {
+        "cs": "Spor o otevřené modely rozdělil obor na dva tábory s vlastními manifesty. Šéf NVIDIA Jensen Huang sehnal pod dopis o otevřených vahách podpisy Mety, Microsoftu, Googlu i OpenAI. Anthropic zůstal stranou: Dario Amodei zákaz nechce, žádá ale povinné bezpečnostní testy a přísnější kontrolu čipů.",
+        "en": "The fight over open models has split the industry into two camps with rival manifestos. NVIDIA chief Jensen Huang gathered signatures from Meta, Microsoft, Google, and OpenAI under a letter backing open weights. Anthropic stayed out: Dario Amodei opposes a ban but wants mandatory safety testing and tighter chip controls."
+      },
+      "sources": [
+        { "name": "Axios", "url": "https://www.axios.com/2026/08/02/ai-manifesto-open-weight-models" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/27/anthropic-ceo-dario-amodei-isnt-advocating-open-weight-model-ban.html" }
+      ],
+      "followsUp": {
+        "date": "2026-07-28",
+        "id": "2026-07-28-open-model-safety-initiative",
+        "title": {
+          "cs": "Giganti zakládají iniciativu pro bezpečnou otevřenou AI",
+          "en": "Tech giants form open-model AI safety initiative"
+        }
+      }
+    },
+    {
+      "id": "2026-08-03-tip-claude-agent-skills",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "V Claude si postavíš vlastní dovednosti",
+        "en": "You can build your own skills in Claude"
+      },
+      "summary": {
+        "cs": "V Claude si můžeš postavit vlastní dovednosti — složku s instrukcemi a postupy, kterou si Claude načte, když ji potřebuje, a pak úkol udělá po tvém. Fungují napříč appkou i doplňky v Excelu a PowerPointu. Anthropic je v červenci rozšířil.",
+        "en": "In Claude you can build your own skills — a folder of instructions and steps that Claude loads when it needs them and then does the task your way. They work across the app and the Excel and PowerPoint add-ins. Anthropic expanded them in July."
+      },
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/skills" },
+        { "name": "Claude Help Center", "url": "https://support.claude.com/en/articles/12138966-release-notes" }
+      ]
+    },
+    {
+      "id": "2026-08-03-tip-gemini-avatar-images",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Do vygenerovaných obrázků se přidáš svým avatarem",
+        "en": "Put yourself into generated images with an avatar"
+      },
+      "summary": {
+        "cs": "V Gemini si jednou vytvoříš vlastní avatara a pak se přidáš do jakéhokoli vygenerovaného obrázku, aniž bys pokaždé nahrával svoji fotku. Google to zpřístupnil v červencové vlně novinek.",
+        "en": "In Gemini you set up your own avatar once and can then add yourself to any generated image without uploading a photo every time. Google shipped it in its July drop."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/" }
+      ]
+    }
+  ]
+}
