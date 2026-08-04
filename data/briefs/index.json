@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-03T03:11:07Z",
+  "updated": "2026-08-04T03:09:32Z",
   "briefs": [
+    {
+      "date": "2026-08-04",
+      "headline": {
+        "cs": "Šéf Palantiru znovu zaútočil na velké AI laboratoře",
+        "en": "Palantir's chief attacks the big AI labs again"
+      },
+      "itemCount": 3
+    },
     {
       "date": "2026-08-03",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "NVIDIA zvažuje záruku 250 miliard pro OpenAI",
         "en": "NVIDIA weighs a $250 billion OpenAI backstop"
-      },
-      "itemCount": 4
-    },
-    {
-      "date": "2026-07-28",
-      "headline": {
-        "cs": "Microsoft má první model na kyberbezpečnost",
-        "en": "Microsoft debuts its first cybersecurity model"
       },
       "itemCount": 4
     }

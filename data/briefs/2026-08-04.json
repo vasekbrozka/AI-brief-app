@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-04",
+  "sample": false,
+  "headline": {
+    "cs": "Šéf Palantiru znovu zaútočil na velké AI laboratoře",
+    "en": "Palantir's chief attacks the big AI labs again"
+  },
+  "intro": {
+    "cs": "Tichý den. Šéf Palantiru po silném čtvrtletí spustil na velké AI laboratoře a prohlížeč ChatGPT Atlas za pět dní končí.",
+    "en": "A quiet day. Palantir's chief laid into the big AI labs after a strong quarter, and the ChatGPT Atlas browser has five days left."
+  },
+  "items": [
+    {
+      "id": "2026-08-04-palantir-karp-frontier-labs",
+      "category": "business",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Šéf Palantiru znovu zaútočil na velké AI laboratoře",
+        "en": "Palantir's chief attacks the big AI labs again"
+      },
+      "summary": {
+        "cs": "Šéf Palantiru Alex Karp po silném čtvrtletí znovu tvrdě zaútočil na velké AI laboratoře. Podle něj firmy platí za to, aby si jejich know-how a duševní vlastnictví odnesly cizí modely, a nakonec jim vyrostla konkurence. Radí podnikům držet si data i modely doma.",
+        "en": "After a strong quarter, Palantir chief Alex Karp again attacked the big AI labs. He argues companies are paying for the privilege of having their know-how and intellectual property migrate into someone else's model, breeding their own competitor. He urges businesses to keep data and models in-house."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/08/03/palantir-karp-open-ai-anthropic-open-weight.html" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/" }
+      ]
+    },
+    {
+      "id": "2026-08-04-chatgpt-atlas-shutdown-update",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Prohlížeč ChatGPT Atlas končí 9. srpna",
+        "en": "The ChatGPT Atlas browser shuts down on August 9"
+      },
+      "summary": {
+        "cs": "Prohlížeč ChatGPT Atlas přestane 9. srpna fungovat. OpenAI ho ruší a jeho agentní schopnosti pro práci na webu stěhuje přímo do ChatGPT a do kódovacího Codexu. Kdo Atlas používá, měl by si do té doby přenést, co v něm má uloženého.",
+        "en": "The ChatGPT Atlas browser stops working on August 9. OpenAI is retiring it and moving its agentic web capabilities straight into ChatGPT and into the Codex coding tool. Anyone still on Atlas should move whatever they keep there before that date."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes" }
+      ]
+    },
+    {
+      "id": "2026-08-04-tip-copilot-excel-theme",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Copilot v Excelu sladí vzhled tabulky za tebe",
+        "en": "Copilot in Excel styles your spreadsheet for you"
+      },
+      "summary": {
+        "cs": "Copilot v Excelu umí nově obléknout tvoje data do jednotného vzhledu — sladí barvy, nastyluje grafy a srovná rozvržení, aby klíčová čísla vystoupila. Nemusíš nic formátovat ručně. Microsoft to rolluje v srpnu.",
+        "en": "Copilot in Excel can now dress your data in a coordinated look — harmonized colors, styled charts, and a tidier layout so the key numbers stand out. No manual formatting needed. Microsoft is rolling it out in August."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
+      ]
+    }
+  ]
+}

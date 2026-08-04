@@ -1,6 +1,21 @@
 {
   "published": [
     {
+      "slug": "2026-08-04-palantir-karp-frontier-labs",
+      "date": "2026-08-04",
+      "topic": "Karp (Palantir) po silném Q2 znovu útočí na velké AI laby — firmy prý platí za migraci vlastního know-how do cizích modelů"
+    },
+    {
+      "slug": "2026-08-04-chatgpt-atlas-shutdown-update",
+      "date": "2026-08-04",
+      "topic": "připomínka: prohlížeč ChatGPT Atlas končí 9. 8., agentní schopnosti se stěhují do ChatGPT a Codexu (update k 15. 7.)"
+    },
+    {
+      "slug": "2026-08-04-tip-copilot-excel-theme",
+      "date": "2026-08-04",
+      "topic": "tip: Copilot v Excelu sladí vzhled tabulky (barvy, grafy, rozvržení), rollout v srpnu"
+    },
+    {
       "slug": "2026-08-03-eu-ai-act-high-risk-delay",
       "date": "2026-08-03",
       "topic": "pravidla AI Actu pro vysoce rizikovou AI měla platit od 2. 8. 2026, EU je po tlaku průmyslu odložila o 16 měsíců na 2. 12. 2027"
