@@ -1,6 +1,21 @@
 {
   "published": [
     {
+      "slug": "2026-08-05-alibaba-qwen38-max",
+      "date": "2026-08-05",
+      "topic": "Alibaba představila Qwen3.8-Max (2,4 bil. parametrů, MoE), akcie +6 %, otevřené váhy příští týden; vlastní testy vs. Artificial Analysis se rozcházejí"
+    },
+    {
+      "slug": "2026-08-05-apple-openai-probe-widens-update",
+      "date": "2026-08-05",
+      "topic": "Apple rozšířila vyšetřování kolem OpenAI na dalších 11 bývalých zaměstnanců, žádá předběžné opatření; OpenAI popírá (update k žalobě z 10. 7.)"
+    },
+    {
+      "slug": "2026-08-05-tip-copilot-notebooks-markdown",
+      "date": "2026-08-05",
+      "topic": "tip: Copilot Notebooks přijímají markdown jako zdroj (srpnový rollout)"
+    },
+    {
       "slug": "2026-08-04-palantir-karp-frontier-labs",
       "date": "2026-08-04",
       "topic": "Karp (Palantir) po silném Q2 znovu útočí na velké AI laby — firmy prý platí za migraci vlastního know-how do cizích modelů"

@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-05",
+  "sample": false,
+  "headline": {
+    "cs": "Alibaba představila nejsilnější model Qwen3.8-Max",
+    "en": "Alibaba unveils its most powerful model, Qwen3.8-Max"
+  },
+  "intro": {
+    "cs": "Čína přitvrzuje: Alibaba ukázala svůj nejsilnější model. K tomu se rozšířilo Applovo vyšetřování kolem OpenAI.",
+    "en": "China turns up the heat: Alibaba showed its most powerful model. Plus Apple's investigation around OpenAI has widened."
+  },
+  "items": [
+    {
+      "id": "2026-08-05-alibaba-qwen38-max",
+      "category": "models",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Alibaba představila nejsilnější model Qwen3.8-Max",
+        "en": "Alibaba unveils its most powerful model, Qwen3.8-Max"
+      },
+      "summary": {
+        "cs": "Alibaba 3. srpna představila svůj nejsilnější model Qwen3.8-Max s 2,4 bilionu parametrů a akcie firmy přidaly šest procent. Otevřené váhy slibuje příští týden. Podle vlastních testů se rovná Fable 5, nezávislý žebříček Artificial Analysis ho ale řadí spíš k Sonnetu 5.",
+        "en": "On August 3 Alibaba unveiled its most powerful model, Qwen3.8-Max, with 2.4 trillion parameters, and its shares gained six percent. Open weights are promised next week. Its own tests put it level with Fable 5, though the independent Artificial Analysis leaderboard places it nearer Sonnet 5."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/08/03/alibaba-ai-model-qwen-rival-anthropic.html" },
+        { "name": "The Register", "url": "https://www.theregister.com/ai-and-ml/2026/08/03/china-turns-up-the-heat-with-open-model-blitz-as-us-model-makers-panic/5282526" }
+      ]
+    },
+    {
+      "id": "2026-08-05-apple-openai-probe-widens-update",
+      "category": "business",
+      "verified": false,
+      "title": {
+        "cs": "Vyšetřování Applu kolem OpenAI se rozšířilo",
+        "en": "Apple's investigation around OpenAI has widened"
+      },
+      "summary": {
+        "cs": "Apple v novém soudním podání uvedla, že její vyšetřování kolem OpenAI se rozšířilo — kromě dvou původně jmenovaných může jít o dalších jedenáct bývalých zaměstnanců. Žádá také předběžné opatření, které by OpenAI zabránilo stavět zařízení na sporné technologii. OpenAI tvrdí, že žádná tajemství Applu nemá.",
+        "en": "In a new court filing Apple said its investigation around OpenAI has widened — beyond the two originally named, eleven more former employees may be involved. It is also seeking a preliminary injunction to stop OpenAI building a device on the disputed technology. OpenAI says it holds no Apple secrets."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/" }
+      ]
+    },
+    {
+      "id": "2026-08-05-tip-copilot-notebooks-markdown",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Copilot Notebooks berou jako zdroj i markdown",
+        "en": "Copilot Notebooks now take Markdown files too"
+      },
+      "summary": {
+        "cs": "Do Copilot Notebooks přidáš jako podklad nově i soubory v markdownu, vedle textovek a RTF. Poznámky a dokumentaci psanou v markdownu tak Copilot čte přímo, bez převádění. Microsoft to rolluje v srpnu.",
+        "en": "Copilot Notebooks now accept Markdown files as sources, alongside TXT and RTF. Notes and documentation written in Markdown go straight in, with no converting first. Microsoft is rolling it out in August."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
+      ]
+    }
+  ]
+}

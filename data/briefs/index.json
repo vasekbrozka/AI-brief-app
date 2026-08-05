@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-04T03:09:32Z",
+  "updated": "2026-08-05T03:08:12Z",
   "briefs": [
+    {
+      "date": "2026-08-05",
+      "headline": {
+        "cs": "Alibaba představila nejsilnější model Qwen3.8-Max",
+        "en": "Alibaba unveils its most powerful model, Qwen3.8-Max"
+      },
+      "itemCount": 3
+    },
     {
       "date": "2026-08-04",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Microsoft shines on earnings while Meta slides"
       },
       "itemCount": 5
-    },
-    {
-      "date": "2026-07-29",
-      "headline": {
-        "cs": "NVIDIA zvažuje záruku 250 miliard pro OpenAI",
-        "en": "NVIDIA weighs a $250 billion OpenAI backstop"
-      },
-      "itemCount": 4
     }
   ]
 }
