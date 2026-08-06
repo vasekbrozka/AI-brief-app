@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-05T03:08:12Z",
+  "updated": "2026-08-06T03:09:19Z",
   "briefs": [
+    {
+      "date": "2026-08-06",
+      "headline": {
+        "cs": "Z Googlu odchází hlavní vědec, Hassabis mění roli",
+        "en": "Google loses its chief scientist as Hassabis shifts role"
+      },
+      "itemCount": 5
+    },
     {
       "date": "2026-08-05",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "OpenAI výrazně zlevnilo modely GPT-5.6",
         "en": "OpenAI slashes prices on GPT-5.6 models"
-      },
-      "itemCount": 5
-    },
-    {
-      "date": "2026-07-30",
-      "headline": {
-        "cs": "Microsoft po výsledcích září, Meta padá",
-        "en": "Microsoft shines on earnings while Meta slides"
       },
       "itemCount": 5
     }

@@ -1,6 +1,31 @@
 {
   "published": [
     {
+      "slug": "2026-08-06-google-ai-leadership-reshuffle",
+      "date": "2026-08-06",
+      "topic": "Jeff Dean po 27 letech odchází z Googlu (zakládá Discovery Loop, AI pro vědu), Hassabis z CEO DeepMindu na předsedu + hlavní vědec Alphabetu; GOOGL −4 %"
+    },
+    {
+      "slug": "2026-08-06-meta-muse-code-agent",
+      "date": "2026-08-06",
+      "topic": "Meta vydala první kódovací agent Muse Code (terminál, velké kódové základny, beta, konkurence Claude Code/Codexu cenou)"
+    },
+    {
+      "slug": "2026-08-06-musk-spacex-nvidia-exclusive",
+      "date": "2026-08-06",
+      "topic": "Musk: SpaceX postaví AI infrastrukturu výhradně na NVIDIA; NVDA +3 %, AMD −7 % navzdory silným výsledkům"
+    },
+    {
+      "slug": "2026-08-06-tip-gemini-personalized-images",
+      "date": "2026-08-06",
+      "topic": "tip: personalizované generování obrázků v Gemini (podle zájmů z předchozích chatů, USA)"
+    },
+    {
+      "slug": "2026-08-06-tip-copilot-excel-powerbi",
+      "date": "2026-08-06",
+      "topic": "tip: Copilot v Excelu analyzuje připojený report z Power BI"
+    },
+    {
       "slug": "2026-08-05-alibaba-qwen38-max",
       "date": "2026-08-05",
       "topic": "Alibaba představila Qwen3.8-Max (2,4 bil. parametrů, MoE), akcie +6 %, otevřené váhy příští týden; vlastní testy vs. Artificial Analysis se rozcházejí"

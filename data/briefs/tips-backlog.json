@@ -1066,7 +1066,7 @@
         }
       ],
       "added": "2026-08-04",
-      "used": null
+      "used": "2026-08-06"
     },
     {
       "slug": "tip-copilot-notebooks-markdown",
@@ -1089,6 +1089,28 @@
       ],
       "added": "2026-08-04",
       "used": "2026-08-05"
+    },
+    {
+      "slug": "tip-gemini-personalized-images",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": false,
+      "title": {
+        "cs": "Gemini vygeneruje obrázky podle tvého vkusu",
+        "en": "Gemini generates images that match your taste"
+      },
+      "summary": {
+        "cs": "Gemini umí vygenerovat obrázky ušité na míru tobě — vychází z toho, co o tvých zájmech a vkusu ví z předchozích konverzací. Google to zpřístupnil všem uživatelům v USA v červencové vlně novinek.",
+        "en": "Gemini can generate images tailored to you — drawing on what it knows about your interests and taste from earlier conversations. Google made it available to all users in the US in its July drop."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/"
+        }
+      ],
+      "added": "2026-08-06",
+      "used": "2026-08-06"
     }
   ]
 }
