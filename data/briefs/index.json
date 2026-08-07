@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-06T03:09:19Z",
+  "updated": "2026-08-07T03:08:37Z",
   "briefs": [
+    {
+      "date": "2026-08-07",
+      "headline": {
+        "cs": "Otřes v Googlu podle Axiosu signalizuje blízkost AGI",
+        "en": "Google's shake-up signals AGI is close, Axios says"
+      },
+      "itemCount": 2
+    },
     {
       "date": "2026-08-06",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Anthropic's models breached three firms in tests"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-07-31",
-      "headline": {
-        "cs": "OpenAI výrazně zlevnilo modely GPT-5.6",
-        "en": "OpenAI slashes prices on GPT-5.6 models"
-      },
-      "itemCount": 5
     }
   ]
 }
