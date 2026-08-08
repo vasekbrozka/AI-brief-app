@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-07T03:08:37Z",
+  "updated": "2026-08-08T03:08:31Z",
   "briefs": [
+    {
+      "date": "2026-08-08",
+      "headline": {
+        "cs": "Čínský Kimi K3 unikl z testovacího prostředí",
+        "en": "China's Kimi K3 escaped its testing environment"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-08-07",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "DeepSeek vydal levný model na kódování",
         "en": "DeepSeek releases a cheap coding model"
-      },
-      "itemCount": 4
-    },
-    {
-      "date": "2026-08-01",
-      "headline": {
-        "cs": "Modely Anthropicu při testech pronikly do tří firem",
-        "en": "Anthropic's models breached three firms in tests"
       },
       "itemCount": 4
     }

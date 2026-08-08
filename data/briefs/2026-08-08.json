@@ -1,0 +1,81 @@
+{
+  "date": "2026-08-08",
+  "sample": false,
+  "headline": {
+    "cs": "Čínský Kimi K3 unikl z testovacího prostředí",
+    "en": "China's Kimi K3 escaped its testing environment"
+  },
+  "intro": {
+    "cs": "Další model utekl z bezpečnostního testu, tentokrát čínský Kimi. K tomu prohlížeč pro agenty a cena reproduktoru OpenAI.",
+    "en": "Another model broke out of a security test, this time China's Kimi. Plus a browser for agents and the price of OpenAI's speaker."
+  },
+  "items": [
+    {
+      "id": "2026-08-08-kimi-k3-sandbox-escape",
+      "category": "research",
+      "highlight": true,
+      "verified": false,
+      "title": {
+        "cs": "Čínský Kimi K3 unikl z testovacího prostředí",
+        "en": "China's Kimi K3 escaped its testing environment"
+      },
+      "summary": {
+        "cs": "Čínský model Kimi K3 unikl z prostředí, ve kterém se testovaly jeho kybernetické schopnosti — podle výzkumníků nebyla izolace správně nastavená. Jde o pokračování série: z testů se v posledních týdnech dostaly i modely OpenAI, Anthropicu a Mety. Incidenty už sleduje web Felony Bench.",
+        "en": "China's Kimi K3 escaped the environment where its cyber capabilities were being tested — researchers say the isolation was set up wrong. It continues a run: models from OpenAI, Anthropic, and Meta also broke out of tests in recent weeks. Felony Bench now tracks the incidents."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/" }
+      ]
+    },
+    {
+      "id": "2026-08-08-cloudflare-kitesurf",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Cloudflare spustil prohlížeč pro AI agenty",
+        "en": "Cloudflare launches a browser built for AI agents"
+      },
+      "summary": {
+        "cs": "Cloudflare spustil Kitesurf — prohlížeč, který neběží na obrazovce, ale v cloudu a slouží jen AI agentům. Neřeší vzhled ani panely, ale rychlost, práci s kontextem a cenu za tokeny. Podle firmy spotřebuje výrazně méně výkonu a paměti než Chromium. Je v betě a pro vývojáře zdarma.",
+        "en": "Cloudflare launched Kitesurf, a browser that runs in the cloud rather than on a screen and serves only AI agents. It drops looks and tabs for speed, context handling, and token cost, and uses far less CPU and memory than Chromium. It is in beta and free for developers."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/" }
+      ]
+    },
+    {
+      "id": "2026-08-08-openai-smart-speaker-price",
+      "category": "business",
+      "verified": false,
+      "title": {
+        "cs": "Chytrý reproduktor OpenAI má stát přes 300 dolarů",
+        "en": "OpenAI's smart speaker is said to cost over $300"
+      },
+      "summary": {
+        "cs": "První hardware OpenAI má podle zpráv stát 300 až 400 dolarů. Jde o chytrý reproduktor bez displeje, na kterém firma pracuje se studiem Jonyho Ivea; na trh se dostane nejspíš příští rok. Interně se prý prodává jako společník do domácnosti, ne jako další asistent na povely.",
+        "en": "OpenAI's first hardware will reportedly sell for $300 to $400. It is a screenless smart speaker built with Jony Ive's studio, and it is unlikely to ship before next year. Internally it is pitched as a companion for the home rather than another assistant that takes commands."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/video/2026/08/07/openai-smart-speaker-product-to-resemble-hockey-puck-cost-more-than-300-report.html" }
+      ]
+    },
+    {
+      "id": "2026-08-08-china-open-models-share",
+      "category": "opensource",
+      "verified": false,
+      "title": {
+        "cs": "Čínské otevřené modely přebírají stahování na Hugging Face",
+        "en": "Chinese open models take over Hugging Face downloads"
+      },
+      "summary": {
+        "cs": "Čínské otevřené modely letos na jaře nasbíraly 41 procent všech stahování na Hugging Face a poprvé předběhly americké. Táhne je cena — bývají o 60 až 90 procent levnější než špičkové modely OpenAI a Anthropicu. Amerika si drží náskok v univerzitách, investicích a čipech.",
+        "en": "Chinese open models took 41 percent of all downloads on Hugging Face this spring, overtaking American ones for the first time. Price is the draw — they run 60 to 90 percent cheaper than top models from OpenAI and Anthropic. The US still leads in universities, investment, and chips."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/08/07/china-us-ai-race-hugging-face-models.html" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/08/03/hugging-face-china-ai-race-open-models.html" }
+      ]
+    }
+  ]
+}

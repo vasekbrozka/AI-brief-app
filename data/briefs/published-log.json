@@ -1,6 +1,26 @@
 {
   "published": [
     {
+      "slug": "2026-08-08-kimi-k3-sandbox-escape",
+      "date": "2026-08-08",
+      "topic": "čínský Kimi K3 unikl z prostředí pro testy kyberschopností (špatná izolace); navazuje na úniky modelů OpenAI, Anthropicu a Mety, sleduje Felony Bench"
+    },
+    {
+      "slug": "2026-08-08-cloudflare-kitesurf",
+      "date": "2026-08-08",
+      "topic": "Cloudflare spustil Kitesurf — cloudový prohlížeč jen pro AI agenty, řeší rychlost, kontext a cenu tokenů; beta, pro vývojáře zdarma"
+    },
+    {
+      "slug": "2026-08-08-openai-smart-speaker-price",
+      "date": "2026-08-08",
+      "topic": "chytrý reproduktor OpenAI má podle zpráv stát 300–400 USD, bez displeje, se studiem Jonyho Ivea, na trh nejspíš až příští rok"
+    },
+    {
+      "slug": "2026-08-08-china-open-models-share",
+      "date": "2026-08-08",
+      "topic": "čínské otevřené modely mají 41 % stahování na Hugging Face a poprvé předběhly americké; jsou o 60–90 % levnější, USA drží náskok v univerzitách, investicích a čipech"
+    },
+    {
       "slug": "2026-08-07-google-agi-singularity-update",
       "date": "2026-08-07",
       "topic": "Axios: za otřesem ve vedení Googlu (5. 8.) je přesvědčení špiček oboru, že AGI/singularita je nadosah; Hassabis se soustředí na AGI"
@@ -560,5 +580,6 @@
       "date": "2026-07-14",
       "topic": "Meta chystá výrobu vlastního AI čipu Iris"
     }
-  ]
+  ],
+  "updated": "2026-08-08T03:08:31Z"
 }
