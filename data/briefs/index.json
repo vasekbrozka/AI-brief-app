@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-08T03:08:31Z",
+  "updated": "2026-08-09T03:09:59Z",
   "briefs": [
+    {
+      "date": "2026-08-09",
+      "headline": {
+        "cs": "OpenAI zpomalilo vývoj modelu Astra kvůli bezpečnosti",
+        "en": "OpenAI slows Astra development over security concerns"
+      },
+      "itemCount": 3
+    },
     {
       "date": "2026-08-08",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "EU odložila pravidla pro rizikovou AI",
         "en": "EU delays its rules for high-risk AI"
-      },
-      "itemCount": 4
-    },
-    {
-      "date": "2026-08-02",
-      "headline": {
-        "cs": "DeepSeek vydal levný model na kódování",
-        "en": "DeepSeek releases a cheap coding model"
       },
       "itemCount": 4
     }

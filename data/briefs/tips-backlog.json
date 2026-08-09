@@ -1111,6 +1111,32 @@
       ],
       "added": "2026-08-06",
       "used": "2026-08-06"
+    },
+    {
+      "slug": "tip-chatgpt-unlimited-free",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT ruší limity na psaní i v bezplatném plánu",
+        "en": "ChatGPT drops chat limits, including on the free plan"
+      },
+      "summary": {
+        "cs": "V ChatGPT padají limity na textové chatování, a to i v bezplatném plánu — omezení zůstávají u souborů, obrázků a hlasu. Zdarma navíc dostaneš model GPT-5.6 Luna a tlačítko Think na těžší otázky. OpenAI to oznámilo 6. srpna, neomezené psaní se zapíná až teď.",
+        "en": "ChatGPT is dropping its limits on text chats, including on the free plan — limits stay on files, images, and voice. Free users also get the GPT-5.6 Luna model and a Think button for harder questions. OpenAI announced it on August 6 and unlimited chats switch on now."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/"
+        }
+      ],
+      "added": "2026-08-09",
+      "used": "2026-08-09"
     }
   ]
 }

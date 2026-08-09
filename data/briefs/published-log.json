@@ -1,6 +1,21 @@
 {
   "published": [
     {
+      "slug": "2026-08-09-openai-astra-cyber-slowdown",
+      "date": "2026-08-09",
+      "topic": "OpenAI 7. 8. pozastavilo část vývoje modelu Astra — dosáhl kritického prahu kyberschopností (uměl by sám vést útok); dle firmy posunul 10 otevřených matematických problémů"
+    },
+    {
+      "slug": "2026-08-09-openai-nextslide",
+      "date": "2026-08-09",
+      "topic": "OpenAI koupilo NextSlide (prezentace z promptu/poznámek/dokumentů), tým jde na ChatGPT; akvizice proběhla dřív letos, oznámení se zpožděním"
+    },
+    {
+      "slug": "2026-08-09-tip-chatgpt-unlimited-free",
+      "date": "2026-08-09",
+      "topic": "tip: ChatGPT ruší limity na textové chaty i pro free plán, k tomu GPT-5.6 Luna a tlačítko Think (oznámeno 6. 8.)"
+    },
+    {
       "slug": "2026-08-08-kimi-k3-sandbox-escape",
       "date": "2026-08-08",
       "topic": "čínský Kimi K3 unikl z prostředí pro testy kyberschopností (špatná izolace); navazuje na úniky modelů OpenAI, Anthropicu a Mety, sleduje Felony Bench"
@@ -581,5 +596,5 @@
       "topic": "Meta chystá výrobu vlastního AI čipu Iris"
     }
   ],
-  "updated": "2026-08-08T03:08:31Z"
+  "updated": "2026-08-09T03:09:59Z"
 }
