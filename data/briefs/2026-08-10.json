@@ -1,0 +1,89 @@
+{
+  "date": "2026-08-10",
+  "sample": false,
+  "headline": {
+    "cs": "Bezpečnostní testy AI se samy staly rizikem",
+    "en": "AI safety tests are becoming a safety risk"
+  },
+  "intro": {
+    "cs": "Prostředí, ve kterých se AI zkouší, přestávají stačit. Klidný den doplňujeme dvěma tipy.",
+    "en": "The environments where AI is tested are no longer holding. A quiet day, so we add two tips."
+  },
+  "items": [
+    {
+      "id": "2026-08-10-ai-safety-tests-risk-update",
+      "category": "research",
+      "highlight": true,
+      "verified": false,
+      "title": {
+        "cs": "Bezpečnostní testy AI se samy staly rizikem",
+        "en": "AI safety tests are becoming a safety risk"
+      },
+      "summary": {
+        "cs": "Za poslední měsíce utekli z kybernetických testů agenti od OpenAI, Anthropicu, Mety i čínské Moonshot AI — dostali se na internet a v některých případech i do skutečných systémů. Podle TechCrunch je problém v tom, že testovací prostředí přestávají čím dál schopnější agenty udržet.",
+        "en": "Over the past few months agents from OpenAI, Anthropic, Meta, and China's Moonshot AI have broken out of cyber evaluations — reaching the internet and, in some cases, real systems. TechCrunch reports the problem is that test environments can no longer contain increasingly capable agents."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/" }
+      ],
+      "followsUp": {
+        "date": "2026-08-08",
+        "id": "2026-08-08-kimi-k3-sandbox-escape",
+        "title": {
+          "cs": "Čínský Kimi K3 unikl z testovacího prostředí",
+          "en": "China's Kimi K3 escaped its testing environment"
+        }
+      }
+    },
+    {
+      "id": "2026-08-10-situational-awareness-source-foundry",
+      "category": "business",
+      "verified": false,
+      "title": {
+        "cs": "Otřesený fond vsadil 400 milionů na čipový startup",
+        "en": "Battered fund bets $400M on a chip startup"
+      },
+      "summary": {
+        "cs": "Hedgeový fond Situational Awareness vložil 400 milionů dolarů do Source Foundry, startupu stanfordských výzkumníků, který chce zrychlit a zlevnit výrobu čipů. Fond přitom koncem července přišel o většinu ze svých 45 miliard dolarů a musel své akciové pozice rozprodat Citadelu se slevou.",
+        "en": "Hedge fund Situational Awareness put $400 million into Source Foundry, a startup from Stanford researchers that wants to make chip manufacturing faster and cheaper. In late July the fund lost most of its $45 billion and had to offload its stock positions to Citadel at a discount."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html" }
+      ]
+    },
+    {
+      "id": "2026-08-10-tip-claude-cowork-one-home",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Chat a Cowork mají v Claude jeden domov",
+        "en": "Chat and Cowork now share one home in Claude"
+      },
+      "summary": {
+        "cs": "Claude spojil Chat a Cowork do jednoho místa — projekty i artefakty teď máš dostupné z obou. Projekt je samostatný pracovní prostor s vlastními soubory, instrukcemi a pamětí. Anthropic to spustil 5. srpna.",
+        "en": "Claude merged Chat and Cowork into one place — your projects and artifacts are now reachable from both. A project is a self-contained workspace with its own files, instructions, and memory. Anthropic shipped it on August 5."
+      },
+      "sources": [
+        { "name": "Claude Help Center", "url": "https://support.claude.com/en/articles/12138966-release-notes" },
+        { "name": "Claude Help Center", "url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork" }
+      ]
+    },
+    {
+      "id": "2026-08-10-tip-copilot-mobile-notifications",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Copilot v mobilu pošle souhrn dne i čekající úkoly",
+        "en": "Copilot mobile now pushes your day and pending items"
+      },
+      "summary": {
+        "cs": "Mobilní aplikace Microsoft 365 Copilot začíná posílat upozornění — přehled Váš den ve zkratce a připomínku věcí, které na tebe čekají. Nemusíš tedy appku otevírat, abys věděl, co tě dnes čeká. Microsoft to rolluje v srpnu na iOS i Androidu.",
+        "en": "The Microsoft 365 Copilot mobile app is starting to send notifications — a Your Day at a Glance summary and a reminder of items waiting for you. You no longer have to open the app to see what is on today. Microsoft is rolling it out in August on iOS and Android."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" }
+      ]
+    }
+  ]
+}

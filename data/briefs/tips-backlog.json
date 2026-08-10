@@ -1137,6 +1137,54 @@
       ],
       "added": "2026-08-09",
       "used": "2026-08-09"
+    },
+    {
+      "slug": "tip-claude-cowork-one-home",
+      "category": "tools",
+      "theme": "claude",
+      "verified": false,
+      "title": {
+        "cs": "Chat a Cowork mají v Claude jeden domov",
+        "en": "Chat and Cowork now share one home in Claude"
+      },
+      "summary": {
+        "cs": "Claude spojil Chat a Cowork do jednoho místa — projekty i artefakty teď máš dostupné z obou. Projekt je samostatný pracovní prostor s vlastními soubory, instrukcemi a pamětí. Anthropic to spustil 5. srpna.",
+        "en": "Claude merged Chat and Cowork into one place — your projects and artifacts are now reachable from both. A project is a self-contained workspace with its own files, instructions, and memory. Anthropic shipped it on August 5."
+      },
+      "sources": [
+        {
+          "name": "Claude Help Center",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "name": "Claude Help Center",
+          "url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork"
+        }
+      ],
+      "added": "2026-08-10",
+      "used": "2026-08-10"
+    },
+    {
+      "slug": "tip-copilot-mobile-notifications",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": false,
+      "title": {
+        "cs": "Copilot v mobilu pošle souhrn dne i čekající úkoly",
+        "en": "Copilot mobile now pushes your day and pending items"
+      },
+      "summary": {
+        "cs": "Mobilní aplikace Microsoft 365 Copilot začíná posílat upozornění — přehled Váš den ve zkratce a připomínku věcí, které na tebe čekají. Nemusíš tedy appku otevírat, abys věděl, co tě dnes čeká. Microsoft to rolluje v srpnu na iOS i Androidu.",
+        "en": "The Microsoft 365 Copilot mobile app is starting to send notifications — a Your Day at a Glance summary and a reminder of items waiting for you. You no longer have to open the app to see what is on today. Microsoft is rolling it out in August on iOS and Android."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "added": "2026-08-10",
+      "used": "2026-08-10"
     }
   ]
 }

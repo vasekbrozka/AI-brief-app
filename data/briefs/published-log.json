@@ -1,6 +1,26 @@
 {
   "published": [
     {
+      "slug": "2026-08-10-ai-safety-tests-risk-update",
+      "date": "2026-08-10",
+      "topic": "TechCrunch: testovací prostředí přestávají udržet agenty — úniky z cyber testů u OpenAI, Anthropicu, Mety i Moonshot AI, testuje mj. startup Irregular (update k 8. 8.)"
+    },
+    {
+      "slug": "2026-08-10-situational-awareness-source-foundry",
+      "date": "2026-08-10",
+      "topic": "fond Situational Awareness vložil 400 mil. USD do čipového startupu Source Foundry (stanfordští výzkumníci) — po ztrátě většiny ze 45 mld. koncem července"
+    },
+    {
+      "slug": "2026-08-10-tip-claude-cowork-one-home",
+      "date": "2026-08-10",
+      "topic": "tip: Claude spojil Chat a Cowork do jednoho místa, projekty i artefakty dostupné z obou (5. 8.)"
+    },
+    {
+      "slug": "2026-08-10-tip-copilot-mobile-notifications",
+      "date": "2026-08-10",
+      "topic": "tip: mobilní Copilot posílá upozornění Váš den ve zkratce a čekající položky (srpnový rollout, iOS i Android)"
+    },
+    {
       "slug": "2026-08-09-openai-astra-cyber-slowdown",
       "date": "2026-08-09",
       "topic": "OpenAI 7. 8. pozastavilo část vývoje modelu Astra — dosáhl kritického prahu kyberschopností (uměl by sám vést útok); dle firmy posunul 10 otevřených matematických problémů"
@@ -596,5 +616,5 @@
       "topic": "Meta chystá výrobu vlastního AI čipu Iris"
     }
   ],
-  "updated": "2026-08-09T03:09:59Z"
+  "updated": "2026-08-10T17:08:05Z"
 }
