@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-10T17:08:05Z",
+  "updated": "2026-08-18T11:09:41Z",
   "briefs": [
+    {
+      "date": "2026-08-18",
+      "headline": {
+        "cs": "OpenAI si v Ohiu pronajme obří datové centrum",
+        "en": "OpenAI leases a giant data center in Ohio"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-08-10",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "Alibaba představila nejsilnější model Qwen3.8-Max",
         "en": "Alibaba unveils its most powerful model, Qwen3.8-Max"
-      },
-      "itemCount": 3
-    },
-    {
-      "date": "2026-08-04",
-      "headline": {
-        "cs": "Šéf Palantiru znovu zaútočil na velké AI laboratoře",
-        "en": "Palantir's chief attacks the big AI labs again"
       },
       "itemCount": 3
     }

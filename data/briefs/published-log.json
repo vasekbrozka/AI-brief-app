@@ -1,6 +1,26 @@
 {
   "published": [
     {
+      "slug": "2026-08-18-openai-ports-pike-ohio",
+      "date": "2026-08-18",
+      "topic": "OpenAI si na 20 let pronajme centrum PORTS-Pike v Ohiu (8 IT-GW, staví SB Energy), NVIDIA garantuje financování až 105 mld. USD, první výkon 2028"
+    },
+    {
+      "slug": "2026-08-18-copilot-apps-merged",
+      "date": "2026-08-18",
+      "topic": "Microsoft od 18. 8. slučuje spotřebitelský Copilot a M365 Copilot do jedné aplikace, web na copilot.cloud.microsoft; končí skupinové chaty, podcasty, Copilot Labs a Deep Research"
+    },
+    {
+      "slug": "2026-08-18-stripe-openrouter",
+      "date": "2026-08-18",
+      "topic": "Stripe podle zpráv kupuje OpenRouter za přes 7 mld. USD (Axios uvádí přes 8 mld.); OpenRouter měl nedávno hodnotu 1,3 mld."
+    },
+    {
+      "slug": "2026-08-18-brockman-defenders-window",
+      "date": "2026-08-18",
+      "topic": "esej Grega Brockmana The Defender's Window (17. 8.) — průnik do OpenAI a Hugging Face jako zlom, výzva nasadit bezpečnostní AI agenty hned"
+    },
+    {
       "slug": "2026-08-10-ai-safety-tests-risk-update",
       "date": "2026-08-10",
       "topic": "TechCrunch: testovací prostředí přestávají udržet agenty — úniky z cyber testů u OpenAI, Anthropicu, Mety i Moonshot AI, testuje mj. startup Irregular (update k 8. 8.)"
@@ -489,131 +509,6 @@
       "slug": "2026-07-19-tip-gemini-vids-avatar",
       "date": "2026-07-19",
       "topic": "tip: AI dvojník v Google Vids"
-    },
-    {
-      "slug": "2026-07-18-kimi-open-weight-policy-debate-update",
-      "date": "2026-07-18",
-      "topic": "Sacks: otevřené čínské modely ohrožují americký AI náskok"
-    },
-    {
-      "slug": "2026-07-18-tip-claude-reflect",
-      "date": "2026-07-18",
-      "topic": "tip: Claude Reflect — ohlédnutí za používáním"
-    },
-    {
-      "slug": "2026-07-18-tip-chatgpt-work",
-      "date": "2026-07-18",
-      "topic": "tip: agent ChatGPT Work odevzdá hotové materiály"
-    },
-    {
-      "slug": "2026-07-18-tip-gemini-spark-macos",
-      "date": "2026-07-18",
-      "topic": "tip: Gemini Spark na macOS"
-    },
-    {
-      "slug": "2026-07-17-gemini-35-pro-delayed",
-      "date": "2026-07-17",
-      "topic": "Gemini 3.5 Pro znovu odložen, akcie Alphabetu klesly"
-    },
-    {
-      "slug": "2026-07-17-kimi-k3-launch",
-      "date": "2026-07-17",
-      "topic": "Moonshot AI vydal otevřený model Kimi K3"
-    },
-    {
-      "slug": "2026-07-17-kimi-k3-market-rout-update",
-      "date": "2026-07-17",
-      "topic": "Kimi K3 rozpoutal výprodej AI a čipových akcií"
-    },
-    {
-      "slug": "2026-07-17-tip-gemini-live-translate",
-      "date": "2026-07-17",
-      "topic": "tip: Gemini 3.5 Live Translate (70+ jazyků)"
-    },
-    {
-      "slug": "2026-07-17-tip-gpt-live-voice",
-      "date": "2026-07-17",
-      "topic": "tip: hlasové modely GPT-Live v ChatGPT"
-    },
-    {
-      "slug": "2026-07-17-tip-copilot-word-chat-history",
-      "date": "2026-07-17",
-      "topic": "tip: Copilot ve Wordu si pamatuje historii konverzace"
-    },
-    {
-      "slug": "2026-07-16-china-ai-companion-rules",
-      "date": "2026-07-16",
-      "topic": "čínská pravidla pro polidštěné AI služby účinná"
-    },
-    {
-      "slug": "2026-07-16-gemini-35-pro-launch",
-      "date": "2026-07-16",
-      "topic": "očekávané vydání Gemini 3.5 Pro 17. 7."
-    },
-    {
-      "slug": "2026-07-16-nvidia-softbank-japan",
-      "date": "2026-07-16",
-      "topic": "NVIDIA a SoftBank prohlubují AI partnerství v Japonsku"
-    },
-    {
-      "slug": "2026-07-16-tip-copilot-ppt-brand-kit",
-      "date": "2026-07-16",
-      "topic": "tip: PowerPoint Copilot s firemním Brand Kitem"
-    },
-    {
-      "slug": "2026-07-16-tip-claude-cowork-web-mobile",
-      "date": "2026-07-16",
-      "topic": "tip: Claude Cowork i na webu a mobilu"
-    },
-    {
-      "slug": "2026-07-15-claude-artifacts-sharing",
-      "date": "2026-07-15",
-      "topic": "Claude Artifacts veřejné sdílení a týmová editace"
-    },
-    {
-      "slug": "2026-07-15-chatgpt-whatsapp-eea",
-      "date": "2026-07-15",
-      "topic": "ChatGPT zpět na WhatsApp v EHP po nařízení EK"
-    },
-    {
-      "slug": "2026-07-15-chatgpt-atlas-shutdown",
-      "date": "2026-07-15",
-      "topic": "konec prohlížeče ChatGPT Atlas (9. 8.)"
-    },
-    {
-      "slug": "2026-07-15-openai-apple-lawsuit-response",
-      "date": "2026-07-15",
-      "topic": "první reakce OpenAI na žalobu Applu"
-    },
-    {
-      "slug": "2026-07-14-apple-openai-lawsuit",
-      "date": "2026-07-14",
-      "topic": "Apple žaluje OpenAI kvůli obchodním tajemstvím"
-    },
-    {
-      "slug": "2026-07-14-claude-for-teachers",
-      "date": "2026-07-14",
-      "topic": "Claude for Teachers zdarma pro učitele v USA"
-    },
-    {
-      "slug": "2026-07-14-m365-copilot-july",
-      "date": "2026-07-14",
-      "topic": "červencové novinky M365 Copilot (vidění v hlasu, vodoznaky)"
-    },
-    {
-      "slug": "2026-07-14-gemini-35-pro-delay",
-      "date": "2026-07-14",
-      "topic": "odklad Gemini 3.5 Pro, odchody z DeepMindu"
-    },
-    {
-      "slug": "2026-07-14-vc-funding-h1",
-      "date": "2026-07-14",
-      "topic": "rekordní US venture financování H1 2026, 86 % do AI"
-    },
-    {
-      "slug": "2026-07-14-meta-iris-chip",
-      "date": "2026-07-14",
-      "topic": "Meta chystá výrobu vlastního AI čipu Iris"
     }
   ],
   "updated": "2026-08-10T17:08:05Z"

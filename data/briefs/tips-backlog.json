@@ -1185,6 +1185,116 @@
       ],
       "added": "2026-08-10",
       "used": "2026-08-10"
+    },
+    {
+      "slug": "tip-claude-code-auto-mode-default",
+      "category": "tools",
+      "theme": "claude",
+      "verified": false,
+      "title": {
+        "cs": "Claude Code jede automaticky bez ptaní na každý krok",
+        "en": "Claude Code now runs on auto without step-by-step approval"
+      },
+      "summary": {
+        "cs": "Anthropic zapnul v Claude Code automatický režim jako výchozí pro plány Pro, Max a Team. Od 14. srpna se nástroj neptá na schválení každého kroku, zastaví se jen u nevratných a ničivých akcí.",
+        "en": "Anthropic has made auto mode the default in Claude Code for Pro, Max and Team plans. Since 14 August the tool no longer asks for approval at every step, stopping only at irreversible or destructive actions."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
+        }
+      ],
+      "added": "2026-08-18",
+      "used": null
+    },
+    {
+      "slug": "tip-copilot-sharepoint-dashboards",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": false,
+      "title": {
+        "cs": "Copilot udělá ze seznamu v SharePointu živý dashboard",
+        "en": "Copilot turns a SharePoint list into a live dashboard"
+      },
+      "summary": {
+        "cs": "Copilot v SharePointu umí ze seznamu vygenerovat živý dashboard jako interaktivní HTML report, který zůstane napojený na data. Přibylo i tlačítko na stránce, které spustí připravený prompt jedním kliknutím. Microsoft to nasadil v srpnu.",
+        "en": "Copilot in SharePoint can generate a live dashboard from a list as an interactive HTML report that stays connected to the underlying data. A page button can also fire a prepared prompt in one click. Microsoft shipped it in August."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://techcommunity.microsoft.com/blog/spblog/whats-new-in-copilot-in-sharepoint-august-2026/4535421"
+        }
+      ],
+      "added": "2026-08-18",
+      "used": null
+    },
+    {
+      "slug": "tip-copilot-excel-autosave-off",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": false,
+      "title": {
+        "cs": "Copilot v Excelu funguje nově i s vypnutým automatickým ukládáním",
+        "en": "Copilot in Excel now works with AutoSave switched off"
+      },
+      "summary": {
+        "cs": "Copilot v Excelu funguje nově i v sešitech uložených v cloudu s vypnutým automatickým ukládáním, a to na Windows i na Macu. Excel před první úpravou připomene, ať si automatické ukládání zapnete.",
+        "en": "Copilot in Excel now works in cloud-saved workbooks even when AutoSave is switched off, on both Windows and Mac. Excel reminds you to turn AutoSave back on before it starts making changes."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "added": "2026-08-18",
+      "used": null
+    },
+    {
+      "slug": "tip-chatgpt-effort-slider",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT nechá nastavit, kolik úsilí do odpovědi dá",
+        "en": "ChatGPT lets you dial how much effort an answer gets"
+      },
+      "summary": {
+        "cs": "ChatGPT dostal v srpnu posuvník úsilí pro model GPT-5.6 Sol na plánech Plus a Pro. Uživatelé zdarma a na plánu Go mají zároveň nový výchozí model pro běžné konverzace.",
+        "en": "ChatGPT gained an effort slider for GPT-5.6 Sol on the Plus and Pro plans in August. Free and Go users got a new default model for everyday chats at the same time."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "added": "2026-08-18",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-rambler-voice",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": false,
+      "title": {
+        "cs": "Hlasový vstup Rambler rozumí i souvětí bez konce",
+        "en": "Rambler voice input copes with rambling sentences"
+      },
+      "summary": {
+        "cs": "Google ukázal na akci Made by Google hlasový vstup Rambler, který zvládá souvětí bez konce i slovní vatu. Live Transcribe navíc nově překládá americký znakový jazyk do textu přes fotoaparát Pixelu.",
+        "en": "At Made by Google, Google showed Rambler, a voice input built for run-on sentences and filler words. Live Transcribe also now turns American Sign Language into text through the Pixel camera."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/"
+        }
+      ],
+      "added": "2026-08-18",
+      "used": null
     }
   ]
 }

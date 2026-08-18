@@ -1,0 +1,123 @@
+{
+  "date": "2026-08-18",
+  "sample": false,
+  "headline": {
+    "cs": "OpenAI si v Ohiu pronajme obří datové centrum",
+    "en": "OpenAI leases a giant data center in Ohio"
+  },
+  "intro": {
+    "cs": "Dnešek vede infrastruktura a peníze. Fronta tipů je prázdná, proto dáváme jen čtyři zprávy.",
+    "en": "Infrastructure and money lead today. The tips queue is empty, so we run only four stories."
+  },
+  "items": [
+    {
+      "id": "2026-08-18-openai-ports-pike-ohio",
+      "category": "business",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "OpenAI si na 20 let pronajme centrum PORTS-Pike",
+        "en": "OpenAI takes a 20-year lease on PORTS-Pike"
+      },
+      "summary": {
+        "cs": "OpenAI si na 20 let pronajme datové centrum PORTS-Pike v ohijském Pike County, které postaví a bude provozovat SB Energy. Kapacita 8 IT-gigawattů, financování až 105 miliard dolarů garantuje NVIDIA. První výkon má naběhnout v roce 2028, při stavbě má vzniknout 35 tisíc míst.",
+        "en": "OpenAI has taken a 20-year lease on the PORTS-Pike data center in Pike County, Ohio, which SB Energy will build and operate. It brings 8 IT-gigawatts of capacity, with NVIDIA guaranteeing up to $105 billion in financing. First power is due in 2028, and the build promises 35,000 construction jobs."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/openai-joins-ports-pike-project/"
+        },
+        {
+          "name": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/08/17/openai-nvidia-ohio-data-center-sb-energy"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-18-copilot-apps-merged",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Microsoft dnes slučuje dvě aplikace Copilot v jednu",
+        "en": "Microsoft merges its two Copilot apps today"
+      },
+      "summary": {
+        "cs": "Od 18. srpna Microsoft slučuje spotřebitelskou aplikaci Copilot s Microsoft 365 Copilotem do jedné. Web se stěhuje z m365.cloud.microsoft na copilot.cloud.microsoft a přibývá jasnější rozlišení pracovního a osobního účtu. Ve spotřebitelské verzi končí skupinové chaty, podcasty, Copilot Labs a Deep Research.",
+        "en": "From 18 August Microsoft folds its consumer Copilot app and Microsoft 365 Copilot into a single app. The web address moves from m365.cloud.microsoft to copilot.cloud.microsoft, and work and personal accounts are easier to tell apart. The consumer version drops Group Chats, Podcasts, Copilot Labs and Deep Research."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/learning/changes-microsoft-copilot-app"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/13/microsofts-dueling-copilot-apps-have-combined-into-a-single-entity/5287512"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-18-stripe-openrouter",
+      "category": "business",
+      "verified": false,
+      "title": {
+        "cs": "Stripe podle zpráv kupuje bránu k modelům OpenRouter",
+        "en": "Stripe is reported to be buying OpenRouter"
+      },
+      "summary": {
+        "cs": "Podle zpráv kupuje Stripe službu OpenRouter, přes kterou vývojáři přepínají mezi modely různých dodavatelů. Bloomberg i TechCrunch uvádějí přes 7 miliard dolarů, Axios mluví o více než 8 miliardách v hotovosti a akciích. OpenRouter měl před pár měsíci hodnotu 1,3 miliardy.",
+        "en": "Stripe is reported to be buying OpenRouter, the gateway developers use to switch between models from different vendors. Bloomberg and TechCrunch put the price above $7 billion, while Axios reports more than $8 billion in cash and stock. OpenRouter was valued at $1.3 billion months ago."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/17/payments-giant-stripe-is-about-to-drop-over-7-billion-to-become-a-gateway-to-ai-token-sales/5288743"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/08/17/stripe-openrouter-paypal"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-18-brockman-defenders-window",
+      "category": "policy",
+      "verified": false,
+      "title": {
+        "cs": "Brockman vyzývá firmy, ať nasadí bezpečnostní agenty hned",
+        "en": "Brockman urges firms to deploy security agents now"
+      },
+      "summary": {
+        "cs": "Prezident OpenAI Greg Brockman v eseji z 17. srpna označil průnik do OpenAI a Hugging Face za zlom v kyberbezpečnosti a vyzývá firmy, ať bezpečnostní AI agenty nasadí hned. Modely s otevřenými vahami a kyberschopnostmi jsou podle něj jen měsíce za špičkou.",
+        "en": "In an essay dated 17 August, OpenAI president Greg Brockman called the breach at OpenAI and Hugging Face a watershed for cybersecurity and urged companies to deploy AI security agents now. Open-weight models with cyber capabilities, he writes, trail the frontier by only months."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/the-defenders-window/"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-08-10",
+        "id": "2026-08-10-ai-safety-tests-risk-update",
+        "title": {
+          "cs": "Bezpečnostní testy AI se samy staly rizikem",
+          "en": "AI safety tests are becoming a safety risk"
+        }
+      }
+    }
+  ]
+}
