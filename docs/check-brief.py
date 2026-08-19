@@ -112,8 +112,8 @@ def main() -> int:
 
     if not items:
         fail("brief nemá žádné položky")
-    if len(items) > 10:
-        fail(f"{len(items)} položek (tvrdý strop 10)")
+    if len(items) > 12:
+        fail(f"{len(items)} položek (tvrdý strop 12)")
 
     highlights = [i["id"] for i in items if i.get("highlight")]
     if len(highlights) != 1:
@@ -184,11 +184,11 @@ def main() -> int:
             fail(f"{i['id']}: verified musí být true/false")
 
     # --- tipy ----------------------------------------------------------------
-    expected_tips = min(3, max(0, 5 - len(news)))
-    if len(news) >= 5 and tips:
+    expected_tips = min(4, max(0, 8 - len(news)))
+    if len(news) >= 8 and tips:
         fail(f"{len(news)} čerstvých zpráv → tipy do briefu nepatří (je jich {len(tips)})")
-    if len(tips) > 3:
-        fail(f"{len(tips)} tipů (strop 3)")
+    if len(tips) > 4:
+        fail(f"{len(tips)} tipů (strop 4)")
     elif tips and len(tips) != expected_tips:
         warn(f"{len(tips)} tipů při {len(news)} zprávách (vzorec říká {expected_tips})")
     bl = {t["slug"]: t for t in backlog.get("tips", [])}

@@ -40,10 +40,11 @@ a pravdivě než více a přibližně.
 
 ### 1 · Sběr kandidátů
 
-Tři vrstvy, od nejdůvěryhodnější. **Rozpočet: 6–12 vyhledávání.** Skonči dřív, když dva
-dotazy po sobě nepřinesou nic nového — zbytek dne dorovnají tipy.
+Tři vrstvy, od nejdůvěryhodnější. **Rozpočet: 10–18 vyhledávání** — cílem je širší
+záběr, ne jen první nalezená hrstka. Skonči dřív, jen když **tři** dotazy po sobě
+nepřinesou nic nového.
 
-**1a · Kánon zdrojů (primární).** 2–4 cílené WebSearch dotazy s `allowed_domains`:
+**1a · Kánon zdrojů (primární).** 4–6 cílených WebSearch dotazů s `allowed_domains`:
 - oficiální (T1): `anthropic.com`, `openai.com`, `blog.google`, `deepmind.google`,
   `microsoft.com`, `learn.microsoft.com`, `nvidia.com`, `ai.meta.com`,
   `huggingface.co`, `mistral.ai`
@@ -51,22 +52,27 @@ dotazy po sobě nepřinesou nic nového — zbytek dne dorovnají tipy.
   `apnews.com`, `bloomberg.com`, `wired.com`, `theregister.com`,
   `technologyreview.com`, `axios.com`, `cnbc.com`
 
-Vždy zkus pokrýt jádrová témata (děje-li se u nich něco): **Anthropic / Claude**,
-**OpenAI / ChatGPT**, **Google / Gemini**, **Microsoft 365 Copilot**.
+Pokrývej jádrová témata **samostatným dotazem, každý den, i v klidný den**:
+**Anthropic / Claude**, **OpenAI / ChatGPT**, **Google / Gemini**,
+**Microsoft 365 Copilot** — a přidej aspoň jeden dotaz navíc na **další velké hráče**
+(Meta, xAI/Grok, Mistral, NVIDIA, Amazon), aby se nezůstávalo jen u čtyř jader.
 
 **1b · RSS feed M365 (bonus).** Jediný feed průchozí zdejší sítí:
 `curl -sS --max-time 12 "https://www.microsoft.com/en-us/microsoft-365/blog/feed/" | head -c 100000`
 Když selže, pokračuj bez něj.
 
-**1c · Široký web search (doplněk).** Dotazy bez omezení na 1–3 velké obecné zprávy
-(ostatní modely, coding agenti, regulace/EU, velký byznys, bezpečnost a výzkum) a na
-křížové ověřování.
+**1c · Široký web search (doplněk).** 3–5 dotazů bez omezení na velké obecné zprávy
+(ostatní modely a firmy, coding agenti, regulace/EU, velký byznys, bezpečnost a výzkum,
+open-source) a na křížové ověřování.
 
 ⚠️ **Síť:** přímé stahování stránek (curl/WebFetch) je pro většinu domén blokované
 (CONNECT 403) — výjimkou je microsoft.com výše. Neztrácej čas opakovanými pokusy.
 
-💡 Když při sběru narazíš na dobrou **evergreen funkci** (i v rušný den), zapiš ji do
-fronty v `tips-backlog.json` — viz sekce Tipy.
+💡 **Tipy hledej aktivně, ne jen mimochodem.** Když má některé jádrové téma
+(`claude`·`chatgpt`·`gemini`·`copilot`·`other`) ve frontě `tips-backlog.json` míň
+než 2 čekající (`used: null`) tipy, věnuj mu při dnešní rešerši aspoň jeden cílený
+dotaz navíc (release notes / help center / oficiální blog dané firmy) — vyšší denní
+počet tipů (viz sekce Tipy) potřebuje frontu, která se sama nedoplní.
 
 ### 2 · Datace a ověření — brána čerstvosti
 
@@ -77,7 +83,7 @@ Pro **každého** kandidáta, než ho pustíš dál:
 
 1. **Zjisti datum primární události** (oznámení, účinnost, podání žaloby…) z T1/T2 zdroje —
    ne z agregátoru. Když se datum nedá spolehlivě určit, kandidát **jde ven**.
-2. **Okno čerstvosti:** událost starší než **~36 hodin** → ven. Výjimky:
+2. **Okno čerstvosti:** událost starší než **~48 hodin** → ven. Výjimky:
    - **update** — starší událost s novým vývojem: zařaď, formuluj jako update
      (slug `...-update`), novým vývojem musí být to hlavní;
    - **výhledová zpráva** („X vyjde 17. 7."): povolená jen s **konkrétním termínem do
@@ -92,8 +98,9 @@ Pro **každého** kandidáta, než ho pustíš dál:
 
 ### 3 · Výběr
 
-- **Cíl 6–10 položek, tvrdý strop 10.** Přebytek se zahazuje — kurátorský výběr je
-  hodnota briefu.
+- **Cíl 8–12 položek, tvrdý strop 12.** Širší rešerše (krok 1) má dodat víc kandidátů —
+  vybírej štědřeji, ale přebytek nad strop se pořád zahazuje, kurátorský výběr zůstává
+  hodnotou briefu.
 - **Priorita:** 1. přímý užitek pro uživatele (funkce, produkty, modely k vyzkoušení;
   přednost jádrová témata) → 2. velikost události → 3. ověřené > neověřené →
   4. čerstvost.
@@ -189,9 +196,11 @@ python3 docs/check-brief.py
 Tip = užitečná, ne nutně horká funkce jádrového nástroje z **posledních ~30 dní**, kterou
 si uživatel může vyzkoušet. Žijí ve frontě `data/briefs/tips-backlog.json` (appka ho nečte).
 
-- **Kolik:** brief má mít aspoň ~5 položek → **počet tipů = 5 − počet čerstvých zpráv,
-  strop 3** (0–2 zprávy → 3 tipy · 3 → 2 · 4 → 1 · 5+ → 0). Když fronta tolik
-  nezveřejněných tipů nedá, **dej méně položek** — recyklace tipů není výplň.
+- **Kolik:** brief má mít aspoň ~8 položek → **počet tipů = 8 − počet čerstvých zpráv,
+  strop 4** (0–4 zprávy → 4 tipy · 5 → 3 · 6 → 2 · 7 → 1 · 8+ → 0). Když fronta tolik
+  nezveřejněných tipů nedá, **dej méně položek** — recyklace tipů není výplň. Vzorec je
+  ale jen tolik dobrý, kolik dobrý je bank — bez aktivního hledání tipů (viz krok 1)
+  na vyšší číslo nedosáhneš.
 - **Žádné opakování:** každý zveřejněný tip se zapisuje i do `published-log.json`;
   stejný tip smí vyjít znovu **nejdřív po 14 dnech** od posledního zveřejnění
   (`check-brief.py`: dřív = FAIL, ≥14 dní = WARN k vědomému posouzení). Prázdná
