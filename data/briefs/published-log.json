@@ -1,6 +1,26 @@
 {
   "published": [
     {
+      "slug": "2026-08-19-chatgpt-for-teens",
+      "date": "2026-08-19",
+      "topic": "OpenAI spustilo 18. 8. ChatGPT pro teenagery (13-17 let) — automatické přepnutí do bezpečnějšího režimu, blok romantického tónu, přísnější ochrana u sebepoškozování/násilí, Study Mode"
+    },
+    {
+      "slug": "2026-08-19-tip-gemini-rambler-voice",
+      "date": "2026-08-19",
+      "topic": "tip: hlasový vstup Rambler (Made by Google) zvládá souvětí bez konce, Live Transcribe umí ASL přes kameru Pixelu"
+    },
+    {
+      "slug": "2026-08-19-tip-chatgpt-effort-slider",
+      "date": "2026-08-19",
+      "topic": "tip: ChatGPT má posuvník úsilí pro GPT-5.6 Sol (Plus/Pro), nový výchozí model pro free/Go"
+    },
+    {
+      "slug": "2026-08-19-tip-meta-muse-glimmer",
+      "date": "2026-08-19",
+      "topic": "tip: Meta vydala Muse Glimmer, otevřený model odvozený z Muse Sparku běžící lokálně na notebooku"
+    },
+    {
       "slug": "2026-08-18-openai-ports-pike-ohio",
       "date": "2026-08-18",
       "topic": "OpenAI si na 20 let pronajme centrum PORTS-Pike v Ohiu (8 IT-GW, staví SB Energy), NVIDIA garantuje financování až 105 mld. USD, první výkon 2028"
@@ -489,27 +509,7 @@
       "slug": "2026-07-20-tip-gemini-notebook-rebrand",
       "date": "2026-07-20",
       "topic": "tip: NotebookLM → Gemini Notebook"
-    },
-    {
-      "slug": "2026-07-19-chinese-models-openrouter-share-update",
-      "date": "2026-07-19",
-      "topic": "čínské modely obsadily top 5 na OpenRouter"
-    },
-    {
-      "slug": "2026-07-19-tip-copilot-excel-skills",
-      "date": "2026-07-19",
-      "topic": "tip: Skills v Excel Copilotu"
-    },
-    {
-      "slug": "2026-07-19-tip-claude-tag",
-      "date": "2026-07-19",
-      "topic": "tip: Claude Tag na Slacku"
-    },
-    {
-      "slug": "2026-07-19-tip-gemini-vids-avatar",
-      "date": "2026-07-19",
-      "topic": "tip: AI dvojník v Google Vids"
     }
   ],
-  "updated": "2026-08-10T17:08:05Z"
+  "updated": "2026-08-19T03:06:58Z"
 }

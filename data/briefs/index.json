@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-18T11:42:30Z",
+  "updated": "2026-08-19T03:06:58Z",
   "briefs": [
+    {
+      "date": "2026-08-19",
+      "headline": {
+        "cs": "OpenAI spustilo ChatGPT pro teenagery",
+        "en": "OpenAI launches ChatGPT for Teens"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-08-18",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Google loses its chief scientist as Hassabis shifts role"
       },
       "itemCount": 5
-    },
-    {
-      "date": "2026-08-05",
-      "headline": {
-        "cs": "Alibaba představila nejsilnější model Qwen3.8-Max",
-        "en": "Alibaba unveils its most powerful model, Qwen3.8-Max"
-      },
-      "itemCount": 3
     }
   ]
 }

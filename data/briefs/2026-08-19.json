@@ -1,0 +1,99 @@
+{
+  "date": "2026-08-19",
+  "sample": false,
+  "headline": {
+    "cs": "OpenAI spustilo ChatGPT pro teenagery",
+    "en": "OpenAI launches ChatGPT for Teens"
+  },
+  "intro": {
+    "cs": "Klidný den, hlavní zprávou je bezpečnější ChatGPT pro teenagery. Doplňujeme třemi tipy z posledních týdnů.",
+    "en": "A quiet day, with a safer ChatGPT for teens as the headline story. We round it out with three tips from recent weeks."
+  },
+  "items": [
+    {
+      "id": "2026-08-19-chatgpt-for-teens",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "OpenAI spustilo ChatGPT pro teenagery",
+        "en": "OpenAI launches ChatGPT for Teens"
+      },
+      "summary": {
+        "cs": "OpenAI spustilo 18. srpna ChatGPT pro teenagery — účty, které systém odhadne na 13 až 17 let, přepne do bezpečnějšího režimu automaticky. Ten blokuje romantický tón a tvrzení, že má pocity, zpřísňuje ochranu u sebepoškozování a násilí a přidává Study Mode s nápovědnými otázkami místo hotových odpovědí. Rolluje se globálně.",
+        "en": "OpenAI launched ChatGPT for Teens on August 18 — accounts the system predicts belong to 13-to-17-year-olds switch into a safer experience automatically. It blocks romantic language and claims of having feelings, tightens protections around self-harm and violence, and adds Study Mode, which asks guiding questions instead of giving ready answers."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-for-teens/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/08/18/openai-chatgpt-for-teens"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/18/openai-chatgpt-for-teens-safety.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-19-tip-gemini-rambler-voice",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Hlasový vstup Rambler rozumí i souvětí bez konce",
+        "en": "Rambler voice input copes with rambling sentences"
+      },
+      "summary": {
+        "cs": "Google ukázal na akci Made by Google hlasový vstup Rambler, který zvládá souvětí bez konce i slovní vatu. Live Transcribe navíc nově překládá americký znakový jazyk do textu přes fotoaparát Pixelu.",
+        "en": "At Made by Google, Google showed Rambler, a voice input built for run-on sentences and filler words. Live Transcribe also now turns American Sign Language into text through the Pixel camera."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-19-tip-chatgpt-effort-slider",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT nechá nastavit, kolik úsilí do odpovědi dá",
+        "en": "ChatGPT lets you dial how much effort an answer gets"
+      },
+      "summary": {
+        "cs": "ChatGPT dostal v srpnu posuvník úsilí pro model GPT-5.6 Sol na plánech Plus a Pro. Uživatelé zdarma a na plánu Go mají zároveň nový výchozí model pro běžné konverzace.",
+        "en": "ChatGPT gained an effort slider for GPT-5.6 Sol on the Plus and Pro plans in August. Free and Go users got a new default model for everyday chats at the same time."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-19-tip-meta-muse-glimmer",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Meta pustila Muse Glimmer, model na tvůj notebook",
+        "en": "Meta releases Muse Glimmer, a model for your laptop"
+      },
+      "summary": {
+        "cs": "Meta v polovině srpna vydala Muse Glimmer — otevřený model odvozený z jejího nejsilnějšího Muse Sparku, dost malý na to, aby běžel lokálně na notebooku. Podle Mety patří mezi nejvýkonnější modely své velikosti. Je součástí rodiny Muse z laboratoře Meta Superintelligence Labs.",
+        "en": "Meta released Muse Glimmer in mid-August — an open-weight model spun off its strongest system, Muse Spark, small enough to run locally on a laptop. Meta calls it one of the highest-performing models of its size. It belongs to the Muse family from Meta Superintelligence Labs."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/"
+        }
+      ]
+    }
+  ]
+}

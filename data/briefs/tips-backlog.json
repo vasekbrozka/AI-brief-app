@@ -1272,7 +1272,7 @@
         }
       ],
       "added": "2026-08-18",
-      "used": null
+      "used": "2026-08-19"
     },
     {
       "slug": "tip-gemini-rambler-voice",
@@ -1294,7 +1294,29 @@
         }
       ],
       "added": "2026-08-18",
-      "used": null
+      "used": "2026-08-19"
+    },
+    {
+      "slug": "tip-meta-muse-glimmer",
+      "category": "tools",
+      "theme": "other",
+      "verified": false,
+      "title": {
+        "cs": "Meta pustila Muse Glimmer, model na tvůj notebook",
+        "en": "Meta releases Muse Glimmer, a model for your laptop"
+      },
+      "summary": {
+        "cs": "Meta v polovině srpna vydala Muse Glimmer — otevřený model odvozený z jejího nejsilnějšího Muse Sparku, dost malý na to, aby běžel lokálně na notebooku. Podle Mety patří mezi nejvýkonnější modely své velikosti. Je součástí rodiny Muse z laboratoře Meta Superintelligence Labs.",
+        "en": "Meta released Muse Glimmer in mid-August — an open-weight model spun off its strongest system, Muse Spark, small enough to run locally on a laptop. Meta calls it one of the highest-performing models of its size. It belongs to the Muse family from Meta Superintelligence Labs."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/"
+        }
+      ],
+      "added": "2026-08-19",
+      "used": "2026-08-19"
     }
   ]
 }
