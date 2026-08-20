@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-20",
+  "sample": false,
+  "headline": {
+    "cs": "OpenAI slibuje bezpečnost bez čtení soukromých dat",
+    "en": "OpenAI previews safety checks that never read your data"
+  },
+  "intro": {
+    "cs": "OpenAI řeší soukromí dat, Stripe potvrdil velký nákup a Meta i ChatGPT rozšiřují nabídku pro firmy.",
+    "en": "OpenAI tackles data privacy, Stripe confirms a big buy, and Meta and ChatGPT both expand for businesses."
+  },
+  "items": [
+    {
+      "id": "2026-08-20-openai-zero-data-retention",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "OpenAI slibuje bezpečnost bez čtení soukromých dat",
+        "en": "OpenAI previews safety checks that never read your data"
+      },
+      "summary": {
+        "cs": "OpenAI 19. srpna potvrdilo nulové uchovávání dat pro firemní zákazníky API a představilo Private Safety Processing — kontrolu bezpečnostních vzorců napříč konverzacemi bez toho, aby týmy OpenAI viděly obsah promptů. Systém pošle jen úzce vymezený signál rizika. Širší nasazení a technický dokument slibuje OpenAI na září.",
+        "en": "OpenAI confirmed zero data retention for enterprise API customers on August 19 and previewed Private Safety Processing — a check for safety patterns across conversations without OpenAI staff seeing prompt content. The system sends a narrowly defined risk signal. A broader rollout and technical paper are due in September."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/08/19/openai-previews-zero-retention-safety-system-as-anthropic-requires-data-logs"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-20-stripe-openrouter-update",
+      "category": "business",
+      "verified": true,
+      "title": {
+        "cs": "Stripe potvrdil akvizici OpenRouter za miliardy",
+        "en": "Stripe confirms its OpenRouter acquisition"
+      },
+      "summary": {
+        "cs": "Stripe 19. srpna oficiálně potvrdil akvizici OpenRouter, brány pro přepínání mezi AI modely různých dodavatelů. Cena se podle zdrojů liší: Axios píše přes 8 miliard dolarů, většinou v akciích, New York Times uvádí 7,5 miliardy. Šéf Stripe Collison mluví o budování ekonomické infrastruktury pro AI.",
+        "en": "Stripe officially confirmed its acquisition of OpenRouter, the gateway for switching between AI models from different vendors, on August 19. Sources differ on price: Axios says over $8 billion, mostly in stock; the New York Times puts it at $7.5 billion. Stripe's Collison called it AI's economic infrastructure."
+      },
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/pro/fintech-deals/2026/08/19/stripe-openrouter-acquisition"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-08-18",
+        "id": "2026-08-18-stripe-openrouter",
+        "title": {
+          "cs": "Stripe podle zpráv kupuje bránu k modelům OpenRouter",
+          "en": "Stripe is reported to be buying OpenRouter"
+        }
+      }
+    },
+    {
+      "id": "2026-08-20-chatgpt-ads-europe",
+      "category": "business",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT rozšiřuje reklamy do Evropy",
+        "en": "ChatGPT expands ads to Europe"
+      },
+      "summary": {
+        "cs": "OpenAI 18. srpna oznámilo, že reklamy v ChatGPT rozšíří příští týden do 31 evropských zemí včetně Německa, Francie, Španělska a Itálie. Zatím k nim dostanou přístup jen přes tým OpenAI Ads Solutions nebo agenturní a technologické partnery, samoobslužný Ads Manager přijde později v létě.",
+        "en": "OpenAI announced on August 18 that ChatGPT ads will expand next week to 31 European countries, including Germany, France, Spain and Italy. Access will initially run through OpenAI's Ads Solutions team or agency and technology partners, with a self-serve Ads Manager arriving later this summer."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-20-meta-ai-mac-app",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Meta spustila AI appku pro Mac",
+        "en": "Meta launches an AI app for Mac"
+      },
+      "summary": {
+        "cs": "Meta vydala desktopovou appku pro Mac, která sdružuje AI nástroje na jedno místo — tvůrcům a malým firmám ukáže výkon reklam a pomůže psát cílenější zprávy. Appka se propojí i s účtem Google Workspace kvůli e-mailu, kalendáři a dokumentům. Sdílená data smí Meta použít i na trénink a cílení reklam.",
+        "en": "Meta released a Mac desktop app that brings its AI tools into one place — creators and small businesses can see ad performance and craft more targeted messages. The app connects to Google Workspace for email, calendar and documents. Meta may use shared data to train models and target ads."
+      },
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/08/19/metas-new-mac-app-helps-influencers-and-small-biz-harness-ai"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-20-tip-claude-code-auto-mode-default",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Claude Code jede automaticky bez ptaní na každý krok",
+        "en": "Claude Code now runs on auto without step-by-step approval"
+      },
+      "summary": {
+        "cs": "Anthropic zapnul v Claude Code automatický režim jako výchozí pro plány Pro, Max a Team. Od 14. srpna se nástroj neptá na schválení každého kroku, zastaví se jen u nevratných a ničivých akcí.",
+        "en": "Anthropic has made auto mode the default in Claude Code for Pro, Max and Team plans. Since 14 August the tool no longer asks for approval at every step, stopping only at irreversible or destructive actions."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-20-tip-copilot-sharepoint-dashboards",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Copilot udělá ze seznamu v SharePointu živý dashboard",
+        "en": "Copilot turns a SharePoint list into a live dashboard"
+      },
+      "summary": {
+        "cs": "Copilot v SharePointu umí ze seznamu vygenerovat živý dashboard jako interaktivní HTML report, který zůstane napojený na data. Přibylo i tlačítko na stránce, které spustí připravený prompt jedním kliknutím. Microsoft to nasadil v srpnu.",
+        "en": "Copilot in SharePoint can generate a live dashboard from a list as an interactive HTML report that stays connected to the underlying data. A page button can also fire a prepared prompt in one click. Microsoft shipped it in August."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://techcommunity.microsoft.com/blog/spblog/whats-new-in-copilot-in-sharepoint-august-2026/4535421"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-20-tip-copilot-excel-autosave-off",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Copilot v Excelu funguje nově i s vypnutým automatickým ukládáním",
+        "en": "Copilot in Excel now works with AutoSave switched off"
+      },
+      "summary": {
+        "cs": "Copilot v Excelu funguje nově i v sešitech uložených v cloudu s vypnutým automatickým ukládáním, a to na Windows i na Macu. Excel před první úpravou připomene, ať si automatické ukládání zapnete.",
+        "en": "Copilot in Excel now works in cloud-saved workbooks even when AutoSave is switched off, on both Windows and Mac. Excel reminds you to turn AutoSave back on before it starts making changes."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ]
+    }
+  ]
+}

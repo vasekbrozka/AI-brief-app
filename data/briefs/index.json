@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-19T03:06:58Z",
+  "updated": "2026-08-20T03:12:13Z",
   "briefs": [
+    {
+      "date": "2026-08-20",
+      "headline": {
+        "cs": "OpenAI slibuje bezpečnost bez čtení soukromých dat",
+        "en": "OpenAI previews safety checks that never read your data"
+      },
+      "itemCount": 7
+    },
     {
       "date": "2026-08-19",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Google's shake-up signals AGI is close, Axios says"
       },
       "itemCount": 2
-    },
-    {
-      "date": "2026-08-06",
-      "headline": {
-        "cs": "Z Googlu odchází hlavní vědec, Hassabis mění roli",
-        "en": "Google loses its chief scientist as Hassabis shifts role"
-      },
-      "itemCount": 5
     }
   ]
 }

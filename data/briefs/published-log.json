@@ -1,6 +1,41 @@
 {
   "published": [
     {
+      "slug": "2026-08-20-openai-zero-data-retention",
+      "date": "2026-08-20",
+      "topic": "OpenAI 19. 8. potvrdilo nulové uchovávání dat pro API zákazníky a představilo Private Safety Processing (kontrola bez čtení promptů); širší nasazení a whitepaper v září"
+    },
+    {
+      "slug": "2026-08-20-stripe-openrouter-update",
+      "date": "2026-08-20",
+      "topic": "Stripe 19. 8. oficiálně potvrdil akvizici OpenRouter (dřív jen reportováno) — cena 7,5-8+ mld. USD podle zdroje, Collison mluví o AI infrastruktuře"
+    },
+    {
+      "slug": "2026-08-20-chatgpt-ads-europe",
+      "date": "2026-08-20",
+      "topic": "OpenAI 18. 8. oznámilo rozšíření reklam v ChatGPT do 31 evropských zemí od příštího týdne"
+    },
+    {
+      "slug": "2026-08-20-meta-ai-mac-app",
+      "date": "2026-08-20",
+      "topic": "Meta vydala AI appku pro Mac (tvůrci/malé firmy, výkon reklam, propojení s Google Workspace)"
+    },
+    {
+      "slug": "2026-08-20-tip-claude-code-auto-mode-default",
+      "date": "2026-08-20",
+      "topic": "tip: Claude Code jede od 14. 8. automaticky bez ptaní na každý krok (Pro/Max/Team)"
+    },
+    {
+      "slug": "2026-08-20-tip-copilot-sharepoint-dashboards",
+      "date": "2026-08-20",
+      "topic": "tip: Copilot v SharePointu udělá ze seznamu živý dashboard/HTML report"
+    },
+    {
+      "slug": "2026-08-20-tip-copilot-excel-autosave-off",
+      "date": "2026-08-20",
+      "topic": "tip: Copilot v Excelu funguje i s vypnutým automatickým ukládáním"
+    },
+    {
       "slug": "2026-08-19-chatgpt-for-teens",
       "date": "2026-08-19",
       "topic": "OpenAI spustilo 18. 8. ChatGPT pro teenagery (13-17 let) — automatické přepnutí do bezpečnějšího režimu, blok romantického tónu, přísnější ochrana u sebepoškozování/násilí, Study Mode"
@@ -489,27 +524,7 @@
       "slug": "2026-07-21-tip-chatgpt-search-everything",
       "date": "2026-07-21",
       "topic": "tip: hledání napříč chaty a soubory v ChatGPT"
-    },
-    {
-      "slug": "2026-07-20-kimi-open-weight-danger-debate",
-      "date": "2026-07-20",
-      "topic": "debata expertů o riziku otevřené čínské AI (Kimi K3)"
-    },
-    {
-      "slug": "2026-07-20-tip-chatgpt-codex-remote",
-      "date": "2026-07-20",
-      "topic": "tip: Codex na dálku z mobilu"
-    },
-    {
-      "slug": "2026-07-20-tip-copilot-notebooks-outlook",
-      "date": "2026-07-20",
-      "topic": "tip: Copilot Notebooks čte i Outlook"
-    },
-    {
-      "slug": "2026-07-20-tip-gemini-notebook-rebrand",
-      "date": "2026-07-20",
-      "topic": "tip: NotebookLM → Gemini Notebook"
     }
   ],
-  "updated": "2026-08-19T03:06:58Z"
+  "updated": "2026-08-20T03:12:13Z"
 }
