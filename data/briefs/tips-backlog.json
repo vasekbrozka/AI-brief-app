@@ -1317,6 +1317,50 @@
       ],
       "added": "2026-08-19",
       "used": "2026-08-19"
+    },
+    {
+      "slug": "tip-gemini-connected-apps-wave",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": false,
+      "title": {
+        "cs": "Gemini se propojí s další vlnou aplikací",
+        "en": "Gemini connects to a fresh wave of apps"
+      },
+      "summary": {
+        "cs": "Gemini nabídl další vlnu propojených aplikací — mimo jiné Wix na úpravu webu, OpenTable a Ticketmaster na rezervace, nebo Zocdoc na objednání k lékaři. Stačí si službu v Gemini zapnout a rovnou v konverzaci naplánuješ, vytvoříš i vyřídíš úkoly. Google to rozjíždí postupně během několika týdnů.",
+        "en": "Gemini rolled out another wave of connected apps — including Wix for editing your website, OpenTable and Ticketmaster for bookings, and Zocdoc for doctor's appointments. Turn a service on in Gemini and plan, create, and get things done right from the conversation. Google is rolling it out gradually over the coming weeks."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/"
+        }
+      ],
+      "added": "2026-08-21",
+      "used": "2026-08-21"
+    },
+    {
+      "slug": "tip-perplexity-brain",
+      "category": "tools",
+      "theme": "other",
+      "verified": false,
+      "title": {
+        "cs": "Perplexity si buduje vlastní paměťovou wiki",
+        "en": "Perplexity builds itself a memory wiki"
+      },
+      "summary": {
+        "cs": "Perplexity spustilo Brain — strukturovanou wiki, kterou si nástroj sám průběžně skládá a vylepšuje z toho, co s ním řešíš, a pak se v ní podle potřeby dovzdělá. Funguje jako sledovatelný souborový systém v markdownu, který se skládá offline. Perplexity to vydalo 19. srpna.",
+        "en": "Perplexity launched Brain, a structured wiki the tool builds and improves for itself from what you work on with it, then consults as needed. It works as a traceable Markdown filesystem compiled offline. Perplexity shipped it on August 19."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
+      ],
+      "added": "2026-08-21",
+      "used": "2026-08-21"
     }
   ]
 }

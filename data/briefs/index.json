@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-20T03:12:13Z",
+  "updated": "2026-08-21T03:10:19Z",
   "briefs": [
+    {
+      "date": "2026-08-21",
+      "headline": {
+        "cs": "Google pomůže vydavatelům proti úbytku návštěvnosti z AI",
+        "en": "Google helps publishers fight AI-driven traffic losses"
+      },
+      "itemCount": 5
+    },
     {
       "date": "2026-08-20",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "China's Kimi K3 escaped its testing environment"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-08-07",
-      "headline": {
-        "cs": "Otřes v Googlu podle Axiosu signalizuje blízkost AGI",
-        "en": "Google's shake-up signals AGI is close, Axios says"
-      },
-      "itemCount": 2
     }
   ]
 }

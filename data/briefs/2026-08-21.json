@@ -1,0 +1,114 @@
+{
+  "date": "2026-08-21",
+  "sample": false,
+  "headline": {
+    "cs": "Google pomůže vydavatelům proti úbytku návštěvnosti z AI",
+    "en": "Google helps publishers fight AI-driven traffic losses"
+  },
+  "intro": {
+    "cs": "Google dal vydavatelům nový nástroj, ChatGPT umí psát a odesílat zprávy za tebe a Meta i Gemini rozšiřují nabídku aplikací.",
+    "en": "Google gave publishers a new tool, ChatGPT can now draft and send messages for you, and Meta and Gemini both expand their app lineups."
+  },
+  "items": [
+    {
+      "id": "2026-08-21-google-preferred-sources",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Google pomůže vydavatelům proti úbytku návštěvnosti z AI",
+        "en": "Google helps publishers fight AI-driven traffic losses"
+      },
+      "summary": {
+        "cs": "Google spustil Preferred Sources — hvězdičkou vedle Top Stories nebo tlačítkem na webu vydavatele označíš oblíbené zdroje, které se pak častěji zobrazí v Top Stories, AI Overviews, AI Mode i Discover. Podle Googlu lidé na takto označený zdroj klikají dvakrát častěji. Reaguje to na klesající návštěvnost webů z AI vyhledávání.",
+        "en": "Google launched Preferred Sources — a star icon next to Top Stories, or a button on a publisher's page, lets you mark favorite sites, which then appear more often in Top Stories, AI Overviews, AI Mode and Discover. Google says people click a preferred source twice as often, addressing falling traffic from AI search."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/products/search/personalize-search-discover-news/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-21-chatgpt-apple-messages-plugin",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT teď umí za tebe psát a posílat zprávy",
+        "en": "ChatGPT can now draft and send texts for you"
+      },
+      "summary": {
+        "cs": "OpenAI spustilo plugin, který propojí ChatGPT s aplikací Zprávy na Apple zařízeních. Roztřídí je, najde cokoli ve starší konverzaci, smaže je nebo za tebe napíše a odešle odpověď. Funguje i v Codexu a ChatGPT Work. OpenAI radí u odesílání nezapínat trvalé schvalování — bereš tím poslední šanci zprávu zkontrolovat.",
+        "en": "OpenAI launched a plugin connecting ChatGPT to Apple's Messages app. It can sort messages, find anything in an older conversation, delete them, or draft and send a reply for you. It also works in Codex and ChatGPT Work. OpenAI advises against persistent approval — it removes your last chance to check a message first."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-21-meta-pocket-app-us",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Meta pustila appku na tvorbu her z promptu i do USA",
+        "en": "Meta brings its prompt-to-game app to the US"
+      },
+      "summary": {
+        "cs": "Meta rozšířila appku Pocket, ve které si napíšeš krátkou hru textovým promptem, z testu v Brazílii i na uživatele v USA. Hotovou hru sdílíš na profilu, ostatní ji můžou uložit nebo předělat. Appka vznikla z týmu, který Meta koupila spolu se službou Gizmo — tu teď kvůli Pocketu ruší.",
+        "en": "Meta expanded Pocket, an app for writing short games with a text prompt, from a Brazil test to US users. Finished games get shared on your profile, where others can save or remix them. The app grew from the team behind Gizmo, which Meta is now shutting down in Pocket's favor."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-21-tip-gemini-connected-apps-wave",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Gemini se propojí s další vlnou aplikací",
+        "en": "Gemini connects to a fresh wave of apps"
+      },
+      "summary": {
+        "cs": "Gemini nabídl další vlnu propojených aplikací — mimo jiné Wix na úpravu webu, OpenTable a Ticketmaster na rezervace, nebo Zocdoc na objednání k lékaři. Stačí si službu v Gemini zapnout a rovnou v konverzaci naplánuješ, vytvoříš i vyřídíš úkoly. Google to rozjíždí postupně během několika týdnů.",
+        "en": "Gemini rolled out another wave of connected apps — including Wix for editing your website, OpenTable and Ticketmaster for bookings, and Zocdoc for doctor's appointments. Turn a service on in Gemini and plan, create, and get things done right from the conversation. Google is rolling it out gradually over the coming weeks."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-21-tip-perplexity-brain",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Perplexity si buduje vlastní paměťovou wiki",
+        "en": "Perplexity builds itself a memory wiki"
+      },
+      "summary": {
+        "cs": "Perplexity spustilo Brain — strukturovanou wiki, kterou si nástroj sám průběžně skládá a vylepšuje z toho, co s ním řešíš, a pak se v ní podle potřeby dovzdělá. Funguje jako sledovatelný souborový systém v markdownu, který se skládá offline. Perplexity to vydalo 19. srpna.",
+        "en": "Perplexity launched Brain, a structured wiki the tool builds and improves for itself from what you work on with it, then consults as needed. It works as a traceable Markdown filesystem compiled offline. Perplexity shipped it on August 19."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
+      ]
+    }
+  ]
+}

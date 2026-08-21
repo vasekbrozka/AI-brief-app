@@ -1,6 +1,31 @@
 {
   "published": [
     {
+      "slug": "2026-08-21-google-preferred-sources",
+      "date": "2026-08-21",
+      "topic": "Google spustil Preferred Sources (hvězdička/tlačítko), oblíbené zdroje se víc zobrazují v Top Stories/AI Overviews/AI Mode/Discover; reakce na úbytek návštěvnosti z AI vyhledávání"
+    },
+    {
+      "slug": "2026-08-21-chatgpt-apple-messages-plugin",
+      "date": "2026-08-21",
+      "topic": "OpenAI spustilo plugin ChatGPT-Zprávy na Apple zařízeních (třídění, hledání, mazání, psaní/odesílání za uživatele), funguje i v Codexu/ChatGPT Work"
+    },
+    {
+      "slug": "2026-08-21-meta-pocket-app-us",
+      "date": "2026-08-21",
+      "topic": "Meta appka Pocket (hry z textového promptu) rozšířena z Brazílie do USA, nahrazuje Gizmo"
+    },
+    {
+      "slug": "2026-08-21-tip-gemini-connected-apps-wave",
+      "date": "2026-08-21",
+      "topic": "tip: další vlna propojených aplikací v Gemini (Wix, OpenTable, Ticketmaster, Zocdoc aj.)"
+    },
+    {
+      "slug": "2026-08-21-tip-perplexity-brain",
+      "date": "2026-08-21",
+      "topic": "tip: Perplexity Brain — sebe-budovaná paměťová wiki v markdownu (19. 8.)"
+    },
+    {
       "slug": "2026-08-20-openai-zero-data-retention",
       "date": "2026-08-20",
       "topic": "OpenAI 19. 8. potvrdilo nulové uchovávání dat pro API zákazníky a představilo Private Safety Processing (kontrola bez čtení promptů); širší nasazení a whitepaper v září"
@@ -499,32 +524,7 @@
       "slug": "2026-07-22-tip-copilot-agent-store",
       "date": "2026-07-22",
       "topic": "tip: firemní agenty v Copilot Agent Store (ráno, stažen při mid-day updatu)"
-    },
-    {
-      "slug": "2026-07-21-google-frozen-v2-chip",
-      "date": "2026-07-21",
-      "topic": "report: Google chystá čip Frozen v2 pro efektivnější Gemini, akcie Alphabetu posílily"
-    },
-    {
-      "slug": "2026-07-21-caisi-director-resigns",
-      "date": "2026-07-21",
-      "topic": "šéf americké AI agentury CAISI Chris Fall po třech měsících rezignoval"
-    },
-    {
-      "slug": "2026-07-21-openai-open-weight-retraction-update",
-      "date": "2026-07-21",
-      "topic": "debata o riziku otevřených čínských modelů ochládá, Ball stáhl výzvu k regulaci"
-    },
-    {
-      "slug": "2026-07-21-tip-gemini-business-profile",
-      "date": "2026-07-21",
-      "topic": "tip: Gemini s Google Business Profile"
-    },
-    {
-      "slug": "2026-07-21-tip-chatgpt-search-everything",
-      "date": "2026-07-21",
-      "topic": "tip: hledání napříč chaty a soubory v ChatGPT"
     }
   ],
-  "updated": "2026-08-20T03:12:13Z"
+  "updated": "2026-08-21T03:10:19Z"
 }
