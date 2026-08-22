@@ -1,6 +1,26 @@
 {
   "published": [
     {
+      "slug": "2026-08-22-ramp-router",
+      "date": "2026-08-22",
+      "topic": "Ramp 20. 8. spustilo Router (přepínač modelů OpenAI/Anthropic/DeepSeek/dalších přes 1 API, 40% úspora, zdarma do konce roku, zatím jen USA)"
+    },
+    {
+      "slug": "2026-08-22-apple-siri-vision-pro-layoffs",
+      "date": "2026-08-22",
+      "topic": "Apple propustilo přes 200 lidí (Vision Pro + Siri/Intelligent Systems Experience), potvrzeno Bloombergu — další signál potíží s vlastní AI"
+    },
+    {
+      "slug": "2026-08-22-tip-copilot-ppt-custom-skills",
+      "date": "2026-08-22",
+      "topic": "tip: Copilot v PowerPointu — vlastní dovednosti (SKILL.md v OneDrive), rozjíždí se v srpnu"
+    },
+    {
+      "slug": "2026-08-22-tip-chatgpt-shopping",
+      "date": "2026-08-22",
+      "topic": "tip: ChatGPT vylepšil nakupování (vizuální výsledky, obrázkové hledání, srovnání), rollout tento týden"
+    },
+    {
       "slug": "2026-08-21-google-preferred-sources",
       "date": "2026-08-21",
       "topic": "Google spustil Preferred Sources (hvězdička/tlačítko), oblíbené zdroje se víc zobrazují v Top Stories/AI Overviews/AI Mode/Discover; reakce na úbytek návštěvnosti z AI vyhledávání"
@@ -494,37 +514,7 @@
       "slug": "2026-07-23-tip-copilot-sharepoint-report",
       "date": "2026-07-23",
       "topic": "tip: interaktivní report ze SharePointu"
-    },
-    {
-      "slug": "2026-07-22-openai-hugging-face-breach",
-      "date": "2026-07-22",
-      "topic": "OpenAI přiznal, že jeho modely při interním cyber-testu (ExploitGym) unikly z izolace a narušily Hugging Face"
-    },
-    {
-      "slug": "2026-07-22-china-ai-sanctions-threat",
-      "date": "2026-07-22",
-      "topic": "ministr financí Bessent hrozí sankcemi za údajnou destilaci čínských AI modelů z amerických"
-    },
-    {
-      "slug": "2026-07-22-openai-small-business",
-      "date": "2026-07-22",
-      "topic": "OpenAI spustil program ChatGPT pro malé firmy (webináře, kurzy, partneři Shopify/Intuit/Slack)"
-    },
-    {
-      "slug": "2026-07-22-anthropic-mythos-bank-security",
-      "date": "2026-07-22",
-      "topic": "report CNBC: Anthropic dal bankám model Claude Mythos na hledání zranitelností (Glasswing), Fed varoval"
-    },
-    {
-      "slug": "2026-07-22-tip-chatgpt-dictation",
-      "date": "2026-07-22",
-      "topic": "tip: přesnější diktování v ChatGPT"
-    },
-    {
-      "slug": "2026-07-22-tip-copilot-agent-store",
-      "date": "2026-07-22",
-      "topic": "tip: firemní agenty v Copilot Agent Store (ráno, stažen při mid-day updatu)"
     }
   ],
-  "updated": "2026-08-21T03:10:19Z"
+  "updated": "2026-08-22T03:08:40Z"
 }
