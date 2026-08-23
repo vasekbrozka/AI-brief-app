@@ -1405,6 +1405,28 @@
       ],
       "added": "2026-08-22",
       "used": "2026-08-22"
+    },
+    {
+      "slug": "tip-claude-cowork-chrome-panel",
+      "category": "tools",
+      "theme": "claude",
+      "verified": false,
+      "title": {
+        "cs": "Postranní panel Claude v Chromu je teď Cowork",
+        "en": "Claude's Chrome side panel is now a Cowork session"
+      },
+      "summary": {
+        "cs": "Postranní panel Claude v Chromu se od 12. srpna chová jako plnohodnotná session Coworku — konverzace se ukládají do historie, fungují v něm dovednosti i konektory a rozdělaný úkol z prohlížeče dokončíš na desktopu, webu i mobilu. Zatím pro Max a Team, na Pro se postupně rozjíždí.",
+        "en": "Since August 12, the Claude side panel in Chrome behaves like a full Cowork session — conversations save to your history, skills and connectors work inside it, and a task started in the browser finishes on desktop, web, or mobile. It's on Max and Team, rolling out to Pro."
+      },
+      "sources": [
+        {
+          "name": "Claude Blog",
+          "url": "https://claude.com/blog/cowork-chrome-side-panel"
+        }
+      ],
+      "added": "2026-08-23",
+      "used": "2026-08-23"
     }
   ]
 }

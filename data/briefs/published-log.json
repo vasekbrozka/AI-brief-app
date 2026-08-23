@@ -1,6 +1,21 @@
 {
   "published": [
     {
+      "slug": "2026-08-23-openai-sb53-strengthen",
+      "date": "2026-08-23",
+      "topic": "OpenAI vyzvalo Kalifornii ke zpřísnění SB 53 (monitoring modelů při tréninku/testech, silnější kyberochrana) — dřív přitom Newsoma od podpisu odrazovalo"
+    },
+    {
+      "slug": "2026-08-23-frontier-labs-rogue-model-containment",
+      "date": "2026-08-23",
+      "topic": "studie Guidelight AI Standards: OpenAI nejlépe, Anthropic a Meta nejhůř zveřejňují plán pro nezvladatelný model (u Mety žádný nenalezen)"
+    },
+    {
+      "slug": "2026-08-23-tip-claude-cowork-chrome-panel",
+      "date": "2026-08-23",
+      "topic": "tip: postranní panel Claude v Chromu je od 12. 8. plnohodnotná Cowork session (Max/Team, Pro se rozjíždí)"
+    },
+    {
       "slug": "2026-08-22-ramp-router",
       "date": "2026-08-22",
       "topic": "Ramp 20. 8. spustilo Router (přepínač modelů OpenAI/Anthropic/DeepSeek/dalších přes 1 API, 40% úspora, zdarma do konce roku, zatím jen USA)"
@@ -489,32 +504,7 @@
       "slug": "2026-07-24-tip-copilot-ppt-brand-kit",
       "date": "2026-07-24",
       "topic": "tip: PowerPoint Copilot s firemním Brand Kitem (opakování z 16. 7.)"
-    },
-    {
-      "slug": "2026-07-23-amd-anthropic-investment",
-      "date": "2026-07-23",
-      "topic": "AMD investuje do Anthropicu až 5 mld. USD, Anthropic nasadí 2 GW čipů Instinct MI450 (Helios)"
-    },
-    {
-      "slug": "2026-07-23-anthropic-economic-index-connector",
-      "date": "2026-07-23",
-      "topic": "Anthropic spustil konektor pro průzkum dat Economic Indexu (jak se AI používá v ekonomice) přímo v Claude"
-    },
-    {
-      "slug": "2026-07-23-tip-claude-memory-all",
-      "date": "2026-07-23",
-      "topic": "tip: paměť Claude pro všechny plány"
-    },
-    {
-      "slug": "2026-07-23-tip-gemini-notebook-code",
-      "date": "2026-07-23",
-      "topic": "tip: Gemini Notebook spouští kód"
-    },
-    {
-      "slug": "2026-07-23-tip-copilot-sharepoint-report",
-      "date": "2026-07-23",
-      "topic": "tip: interaktivní report ze SharePointu"
     }
   ],
-  "updated": "2026-08-22T03:08:40Z"
+  "updated": "2026-08-23T03:07:48Z"
 }

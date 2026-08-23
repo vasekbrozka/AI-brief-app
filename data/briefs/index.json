@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-22T03:08:40Z",
+  "updated": "2026-08-23T03:07:48Z",
   "briefs": [
+    {
+      "date": "2026-08-23",
+      "headline": {
+        "cs": "OpenAI chce přísnější kalifornský zákon o AI",
+        "en": "OpenAI wants California's AI safety law tightened"
+      },
+      "itemCount": 3
+    },
     {
       "date": "2026-08-22",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "AI safety tests are becoming a safety risk"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-08-09",
-      "headline": {
-        "cs": "OpenAI zpomalilo vývoj modelu Astra kvůli bezpečnosti",
-        "en": "OpenAI slows Astra development over security concerns"
-      },
-      "itemCount": 3
     }
   ]
 }
