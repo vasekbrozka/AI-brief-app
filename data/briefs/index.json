@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-23T03:07:48Z",
+  "updated": "2026-08-24T03:08:37Z",
   "briefs": [
+    {
+      "date": "2026-08-24",
+      "headline": {
+        "cs": "Tajemný model Ox Alpha rozpoutal spekulace",
+        "en": "Mystery model Ox Alpha sparks speculation"
+      },
+      "itemCount": 3
+    },
     {
       "date": "2026-08-23",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "OpenAI si v Ohiu pronajme obří datové centrum",
         "en": "OpenAI leases a giant data center in Ohio"
-      },
-      "itemCount": 4
-    },
-    {
-      "date": "2026-08-10",
-      "headline": {
-        "cs": "Bezpečnostní testy AI se samy staly rizikem",
-        "en": "AI safety tests are becoming a safety risk"
       },
       "itemCount": 4
     }

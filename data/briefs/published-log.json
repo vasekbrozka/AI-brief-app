@@ -1,6 +1,21 @@
 {
   "published": [
     {
+      "slug": "2026-08-24-ox-alpha-stealth-model",
+      "date": "2026-08-24",
+      "topic": "tajemný stealth model Ox Alpha zdarma na OpenRouteru (od cca 20. 8.), provozovatel anonymní, spekulace o Z.ai/Microsoft MAI, nepotvrzeno"
+    },
+    {
+      "slug": "2026-08-24-tip-copilot-cowork-event-tasks",
+      "date": "2026-08-24",
+      "topic": "tip: Cowork v Copilotu spustí úkol sám podle e-mailu/Teams triggeru (odesílatel, klíčové slovo, zmínka), vždy s doschválením"
+    },
+    {
+      "slug": "2026-08-24-tip-grok-bot",
+      "date": "2026-08-24",
+      "topic": "tip: xAI spustilo Grok Bota — AI kolegy na sdíleném trvalém cloudovém počítači (11. 8.)"
+    },
+    {
       "slug": "2026-08-23-openai-sb53-strengthen",
       "date": "2026-08-23",
       "topic": "OpenAI vyzvalo Kalifornii ke zpřísnění SB 53 (monitoring modelů při tréninku/testech, silnější kyberochrana) — dřív přitom Newsoma od podpisu odrazovalo"
@@ -479,32 +494,7 @@
       "slug": "2026-07-25-tip-copilot-word-chat-history",
       "date": "2026-07-25",
       "topic": "tip: Copilot ve Wordu paměť konverzace (opakování ze 17. 7.)"
-    },
-    {
-      "slug": "2026-07-24-chatgpt-health-all-us",
-      "date": "2026-07-24",
-      "topic": "OpenAI zpřístupnil ChatGPT Health všem uživatelům v USA nad 18 let (napojení Apple Health, Epic; soukromí)"
-    },
-    {
-      "slug": "2026-07-24-apec-chengdu-ai-statement",
-      "date": "2026-07-24",
-      "topic": "21 ekonomik APEC (vč. USA a Číny) vydalo čchengtuské prohlášení k AI, poprvé podpora open-source na min. úrovni"
-    },
-    {
-      "slug": "2026-07-24-tip-claude-cowork-web-mobile",
-      "date": "2026-07-24",
-      "topic": "tip: Claude Cowork i na webu a mobilu (opakování z 16. 7.)"
-    },
-    {
-      "slug": "2026-07-24-tip-gemini-flash-36",
-      "date": "2026-07-24",
-      "topic": "tip: Gemini 3.6 Flash levnější a úspornější"
-    },
-    {
-      "slug": "2026-07-24-tip-copilot-ppt-brand-kit",
-      "date": "2026-07-24",
-      "topic": "tip: PowerPoint Copilot s firemním Brand Kitem (opakování z 16. 7.)"
     }
   ],
-  "updated": "2026-08-23T03:07:48Z"
+  "updated": "2026-08-24T03:08:37Z"
 }

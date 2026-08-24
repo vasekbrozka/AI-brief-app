@@ -1427,6 +1427,50 @@
       ],
       "added": "2026-08-23",
       "used": "2026-08-23"
+    },
+    {
+      "slug": "tip-copilot-cowork-event-tasks",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": false,
+      "title": {
+        "cs": "Copilot Cowork spustí úkol sám, když něco přijde",
+        "en": "Copilot Cowork now starts tasks on its own trigger"
+      },
+      "summary": {
+        "cs": "Cowork v Copilotu teď umí hlídat e-mail i Teams a sám spustit úkol, když dorazí zpráva od konkrétního odesílatele, s klíčovým slovem nebo tě někdo označí. Připraví odpověď nebo akci předem, ale než něco pošle nebo změní, vždy si vyžádá tvoje schválení. Microsoft to rozjíždí v srpnu.",
+        "en": "Cowork in Copilot can now watch email and Teams and start a task on its own when a message arrives from a specific sender, contains a keyword, or mentions you. It prepares a reply or action, but always asks your approval before sending or changing anything. Rolling out in August."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/cowork-in-progress/4511672"
+        }
+      ],
+      "added": "2026-08-24",
+      "used": "2026-08-24"
+    },
+    {
+      "slug": "tip-grok-bot",
+      "category": "tools",
+      "theme": "other",
+      "verified": false,
+      "title": {
+        "cs": "Grok dostal AI kolegy na trvalém cloudovém počítači",
+        "en": "Grok gets AI teammates on a persistent cloud computer"
+      },
+      "summary": {
+        "cs": "xAI spustilo Grok Bota — pojmenované AI kolegy, kteří běží na sdíleném trvalém cloudovém počítači s prohlížečem, příkazovou řádkou i přihlášením do appek. Pamatují si kontext napříč úkoly, umí se naučit postup podle jedné ukázky a spouštět ho pak sami podle plánu. xAI to spustilo 11. srpna.",
+        "en": "xAI launched Grok Bot — named AI teammates that run on a shared, persistent cloud computer with a browser, command line, and app logins. They keep context across tasks, can learn a workflow from a single demonstration, and then run it themselves on a schedule. xAI shipped it on August 11."
+      },
+      "sources": [
+        {
+          "name": "xAI",
+          "url": "https://x.ai/news/introducing-grok-bot"
+        }
+      ],
+      "added": "2026-08-24",
+      "used": "2026-08-24"
     }
   ]
 }
