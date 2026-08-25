@@ -1471,6 +1471,28 @@
       ],
       "added": "2026-08-24",
       "used": "2026-08-24"
+    },
+    {
+      "slug": "tip-gemini-interactive-storytime",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": false,
+      "title": {
+        "cs": "Gemini pro domácnost umí interaktivní pohádky",
+        "en": "Gemini for Home tells interactive bedtime stories"
+      },
+      "summary": {
+        "cs": "Google Home s Gemini teď umí vyprávět pohádku, do které rodina zasahuje za chodu — řekneš mu, ať hlavní postava najde mapu pokladu nebo místo vlka přidá tyranosaura, a příběh se hned upraví. Google to spustil 5. srpna jako součást Gemini pro domácnost.",
+        "en": "Google Home with Gemini can now tell a bedtime story your family shapes as it goes — ask it to have the hero find a treasure map, or swap the wolf for a T-Rex, and the story adjusts on the spot. Google launched it on August 5 as part of Gemini for Home."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/devices/google-nest/gemini-for-home-things-to-try/"
+        }
+      ],
+      "added": "2026-08-25",
+      "used": "2026-08-25"
     }
   ]
 }

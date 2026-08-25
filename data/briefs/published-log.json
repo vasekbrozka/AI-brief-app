@@ -1,6 +1,21 @@
 {
   "published": [
     {
+      "slug": "2026-08-25-instinct-privacy-concerns",
+      "date": "2026-08-25",
+      "topic": "AI asistent Instinct (soukromé testování) — podmínky dávají trvalou licenci k datům, sběr snímků obrazovky/kláves, může uzavírat dohody za uživatele"
+    },
+    {
+      "slug": "2026-08-25-situational-awareness-sec-probe",
+      "date": "2026-08-25",
+      "topic": "SEC prověřuje banky spojené s fondem Situational Awareness po jeho kolapsu z 45 na 10 mld. USD (dle NYT)"
+    },
+    {
+      "slug": "2026-08-25-tip-gemini-interactive-storytime",
+      "date": "2026-08-25",
+      "topic": "tip: Gemini pro domácnost vypráví interaktivní pohádky, rodina mění děj za chodu (5. 8.)"
+    },
+    {
       "slug": "2026-08-24-ox-alpha-stealth-model",
       "date": "2026-08-24",
       "topic": "tajemný stealth model Ox Alpha zdarma na OpenRouteru (od cca 20. 8.), provozovatel anonymní, spekulace o Z.ai/Microsoft MAI, nepotvrzeno"
@@ -469,32 +484,7 @@
       "slug": "2026-07-26-tip-copilot-gpt56",
       "date": "2026-07-26",
       "topic": "tip: M365 Copilot přepnul na GPT-5.6"
-    },
-    {
-      "slug": "2026-07-25-anthropic-opus-5",
-      "date": "2026-07-25",
-      "topic": "Anthropic vydal Claude Opus 5: blízko Fable 5 za poloviční cenu, SOTA v kódování i ovládání počítače, ceny jako Opus 4.8"
-    },
-    {
-      "slug": "2026-07-25-chatgpt-voice-desktop",
-      "date": "2026-07-25",
-      "topic": "OpenAI přineslo ChatGPT Voice do desktopu (ovládání počítače a agentů v ChatGPT Work/Codex hlasem, GPT-Live)"
-    },
-    {
-      "slug": "2026-07-25-prentis-ai-lab-funding",
-      "date": "2026-07-25",
-      "topic": "nový AI lab Prentis (Hoffman, Pincus, Das) jedná o 100 mil. USD při ocenění 1 mld., modely na ovládání počítače"
-    },
-    {
-      "slug": "2026-07-25-tip-gemini-live-translate",
-      "date": "2026-07-25",
-      "topic": "tip: Gemini 3.5 Live Translate (opakování ze 17. 7.)"
-    },
-    {
-      "slug": "2026-07-25-tip-copilot-word-chat-history",
-      "date": "2026-07-25",
-      "topic": "tip: Copilot ve Wordu paměť konverzace (opakování ze 17. 7.)"
     }
   ],
-  "updated": "2026-08-24T03:08:37Z"
+  "updated": "2026-08-25T03:08:09Z"
 }

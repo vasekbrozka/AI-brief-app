@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-25",
+  "sample": false,
+  "headline": {
+    "cs": "Nový AI asistent Instinct budí obavy o soukromí",
+    "en": "New AI assistant Instinct raises privacy concerns"
+  },
+  "intro": {
+    "cs": "Nový asistent Instinct budí obavy o soukromí a fond Situational Awareness teď prověřuje SEC. Doplňujeme jedním tipem.",
+    "en": "New assistant Instinct raises privacy concerns, and the SEC now investigates the Situational Awareness fund. We add one tip."
+  },
+  "items": [
+    {
+      "id": "2026-08-25-instinct-privacy-concerns",
+      "category": "policy",
+      "highlight": true,
+      "verified": false,
+      "title": {
+        "cs": "Nový AI asistent Instinct budí obavy o soukromí",
+        "en": "New AI assistant Instinct raises privacy concerns"
+      },
+      "summary": {
+        "cs": "Testeři chválí nového AI asistenta Instinct za schopnosti, ale znepokojují je jeho podmínky použití. Ty firmě dávají trvalou a neodvolatelnou licenci k datům uživatele, umožňují sbírat snímky obrazovky, pohyb kurzoru i stisky kláves a dokonce za uživatele uzavírat závazné dohody. Instinct je zatím jen v soukromém testování.",
+        "en": "Testers praise the new AI assistant Instinct's abilities, but its terms of service are raising alarm. They grant the company a perpetual, irrevocable license to user data, let it collect screen captures, cursor movement and keystrokes, and even let it enter binding agreements on a user's behalf. Instinct is still in private testing."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/" }
+      ]
+    },
+    {
+      "id": "2026-08-25-situational-awareness-sec-probe",
+      "category": "business",
+      "verified": false,
+      "title": {
+        "cs": "Fond Situational Awareness teď prověřuje SEC",
+        "en": "SEC now investigates hedge fund Situational Awareness"
+      },
+      "summary": {
+        "cs": "Americká komise pro cenné papíry SEC podle New York Times prověřuje banky, které obchodovaly s hedgeovým fondem Situational Awareness — sleduje, kdo dohlížel na jeho obchody a kdo mu poskytoval financování. Fond koncem července klesl ze 45 na 10 miliard dolarů a musel prodat pozice Citadelu se ztrátou.",
+        "en": "The SEC is reportedly subpoenaing banks that did business with the hedge fund Situational Awareness, according to the New York Times, focused on who supervised its trades and channeled its financing. The fund collapsed from $45 billion to $10 billion in late July and had to sell its positions to Citadel at a discount."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/" }
+      ],
+      "followsUp": {
+        "date": "2026-08-10",
+        "id": "2026-08-10-situational-awareness-source-foundry",
+        "title": {
+          "cs": "Otřesený fond vsadil 400 milionů na čipový startup",
+          "en": "Battered fund bets $400M on a chip startup"
+        }
+      }
+    },
+    {
+      "id": "2026-08-25-tip-gemini-interactive-storytime",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Gemini pro domácnost umí interaktivní pohádky",
+        "en": "Gemini for Home tells interactive bedtime stories"
+      },
+      "summary": {
+        "cs": "Google Home s Gemini teď umí vyprávět pohádku, do které rodina zasahuje za chodu — řekneš mu, ať hlavní postava najde mapu pokladu nebo místo vlka přidá tyranosaura, a příběh se hned upraví. Google to spustil 5. srpna jako součást Gemini pro domácnost.",
+        "en": "Google Home with Gemini can now tell a bedtime story your family shapes as it goes — ask it to have the hero find a treasure map, or swap the wolf for a T-Rex, and the story adjusts on the spot. Google launched it on August 5 as part of Gemini for Home."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/products-and-platforms/devices/google-nest/gemini-for-home-things-to-try/" }
+      ]
+    }
+  ]
+}

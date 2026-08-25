@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-24T03:08:37Z",
+  "updated": "2026-08-25T03:08:09Z",
   "briefs": [
+    {
+      "date": "2026-08-25",
+      "headline": {
+        "cs": "Nový AI asistent Instinct budí obavy o soukromí",
+        "en": "New AI assistant Instinct raises privacy concerns"
+      },
+      "itemCount": 3
+    },
     {
       "date": "2026-08-24",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "OpenAI spustilo ChatGPT pro teenagery",
         "en": "OpenAI launches ChatGPT for Teens"
-      },
-      "itemCount": 4
-    },
-    {
-      "date": "2026-08-18",
-      "headline": {
-        "cs": "OpenAI si v Ohiu pronajme obří datové centrum",
-        "en": "OpenAI leases a giant data center in Ohio"
       },
       "itemCount": 4
     }
