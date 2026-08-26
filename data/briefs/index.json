@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-25T03:08:09Z",
+  "updated": "2026-08-26T03:09:36Z",
   "briefs": [
+    {
+      "date": "2026-08-26",
+      "headline": {
+        "cs": "Apple představil nové čipy M6 a M5 Ultra",
+        "en": "Apple unveils new M6 and M5 Ultra chips"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-08-25",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "OpenAI previews safety checks that never read your data"
       },
       "itemCount": 7
-    },
-    {
-      "date": "2026-08-19",
-      "headline": {
-        "cs": "OpenAI spustilo ChatGPT pro teenagery",
-        "en": "OpenAI launches ChatGPT for Teens"
-      },
-      "itemCount": 4
     }
   ]
 }

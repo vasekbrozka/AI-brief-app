@@ -1493,6 +1493,28 @@
       ],
       "added": "2026-08-25",
       "used": "2026-08-25"
+    },
+    {
+      "slug": "tip-claude-remote-control",
+      "category": "tools",
+      "theme": "claude",
+      "verified": false,
+      "title": {
+        "cs": "Claude Code teď ovládneš i z mobilu",
+        "en": "Claude Code can now be controlled from your phone"
+      },
+      "summary": {
+        "cs": "Remote Control u Claude Code vyšlo z beta verze — session spuštěnou na počítači teď dokončíš z mobilu nebo jiného prohlížeče, kód i soubory přitom zůstávají na tvém stroji. Zařízení se objeví jako karta v appce Claude a zprávy jde posílat z terminálu i telefonu střídavě. Spojení jde přes zabezpečené, krátkodobé přístupy.",
+        "en": "Remote Control for Claude Code has left beta — a session started on your computer can now be picked up from your phone or another browser, while code and files stay on your machine. The device shows up as a card in the Claude app, and messages go from terminal and phone interchangeably."
+      },
+      "sources": [
+        {
+          "name": "Claude Code Docs",
+          "url": "https://code.claude.com/docs/en/remote-control"
+        }
+      ],
+      "added": "2026-08-26",
+      "used": "2026-08-26"
     }
   ]
 }
