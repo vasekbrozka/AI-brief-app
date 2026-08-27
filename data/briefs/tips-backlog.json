@@ -1515,6 +1515,50 @@
       ],
       "added": "2026-08-26",
       "used": "2026-08-26"
+    },
+    {
+      "slug": "tip-copilot-excel-change-history",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": false,
+      "title": {
+        "cs": "Copilot v Excelu teď vysvětlí historii úprav sešitu",
+        "en": "Copilot in Excel can now explain your workbook's edit history"
+      },
+      "summary": {
+        "cs": "Copilot v Excelu umí shrnout, jak se sešit v čase měnil, a rozliší úpravy člověka od těch svých. Konkrétní změnu jde i vrátit zpět nebo se posunout k dřívější funkční verzi sešitu. Microsoft to přidal v srpnovém vydání novinek pro Excel.",
+        "en": "Copilot in Excel can now summarize how a workbook has changed over time, telling apart human edits from its own. You can undo a specific change or roll the whole workbook back to an earlier working version. Microsoft added it in its August Excel update."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://techcommunity.microsoft.com/blog/excelblog/whats-new-in-excel-august-2026/4527283"
+        }
+      ],
+      "added": "2026-08-27",
+      "used": "2026-08-27"
+    },
+    {
+      "slug": "tip-copilot-excel-python-skill",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": false,
+      "title": {
+        "cs": "Copilot v Excelu umí analyzovat data v Pythonu",
+        "en": "Copilot in Excel can analyze data with Python"
+      },
+      "summary": {
+        "cs": "Copilot v Excelu nově umí na požádání analyzovat a vizualizovat data pomocí Pythonu přímo v sešitu — vznikne upravitelný, obnovitelný Python vzorec pro hlubší rozbor dat. Zatím jen v Insiders programu, ne pro všechny. Microsoft to přidal v srpnovém vydání novinek pro Excel.",
+        "en": "Copilot in Excel can now analyze and visualize data with Python directly in a workbook on request, producing an editable, refreshable Python formula for deeper analysis. Currently Insiders-only, not yet generally available. Microsoft added it in its August Excel update."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://techcommunity.microsoft.com/blog/excelblog/whats-new-in-excel-august-2026/4527283"
+        }
+      ],
+      "added": "2026-08-27",
+      "used": null
     }
   ]
 }
