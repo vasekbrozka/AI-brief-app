@@ -114,6 +114,8 @@ def main() -> int:
         fail("brief nemá žádné položky")
     if len(items) > 12:
         fail(f"{len(items)} položek (tvrdý strop 12)")
+    if len(news) < 8:
+        warn(f"{len(news)} čerstvých zpráv (cíl aspoň 8) — zdůvodni v redakčním deníku")
 
     highlights = [i["id"] for i in items if i.get("highlight")]
     if len(highlights) != 1:
@@ -184,8 +186,8 @@ def main() -> int:
             fail(f"{i['id']}: verified musí být true/false")
 
     # --- tipy ----------------------------------------------------------------
-    expected_tips = min(4, max(0, 8 - len(news)))
-    if len(news) >= 8 and tips:
+    expected_tips = min(4, max(0, 12 - len(news)))
+    if len(news) >= 12 and tips:
         fail(f"{len(news)} čerstvých zpráv → tipy do briefu nepatří (je jich {len(tips)})")
     if len(tips) > 4:
         fail(f"{len(tips)} tipů (strop 4)")

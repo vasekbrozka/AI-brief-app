@@ -6,8 +6,8 @@
     "en": "OpenAI publishes report on Hugging Face breach"
   },
   "intro": {
-    "cs": "OpenAI po měsíci zveřejnilo zprávu o průniku do Hugging Face a rozšířilo ChatGPT pro učitele, záhadu Ox Alpha rozlouskl Z.ai a Instinct navzdory obavám získal 350 milionů. Doplňujeme jedním tipem.",
-    "en": "OpenAI published its report on the Hugging Face breach and expanded ChatGPT for Teachers, Z.ai solved the Ox Alpha mystery, and Instinct raised $350M despite privacy concerns. We add one tip."
+    "cs": "OpenAI po měsíci zveřejnilo zprávu o průniku do Hugging Face, Salesforce a Anthropic spustili Claudeforce a Claude v Chromu vyšel z pilotu pro všechny placené plány. Google navíc vylepšil Gemini v Chatu i Live, ChatGPT se rozšířil pro učitele, záhadu Ox Alpha rozlouskl Z.ai a Instinct navzdory obavám získal 350 milionů. Doplňujeme jedním tipem.",
+    "en": "OpenAI published its report on the Hugging Face breach a month later, Salesforce and Anthropic launched Claudeforce, and Claude in Chrome left pilot for all paid plans. Google also upgraded Gemini in Chat and Live, ChatGPT expanded for teachers, Z.ai solved the Ox Alpha mystery, and Instinct raised $350M despite privacy concerns. We add one tip."
   },
   "items": [
     {
@@ -38,6 +38,40 @@
       }
     },
     {
+      "id": "2026-08-27-salesforce-anthropic-claudeforce",
+      "category": "business",
+      "verified": true,
+      "title": {
+        "cs": "Salesforce a Anthropic spustili Claudeforce",
+        "en": "Salesforce and Anthropic launch Claudeforce"
+      },
+      "summary": {
+        "cs": "Salesforce a Anthropic 26. srpna rozšířili partnerství a spustili Claudeforce — poprvé dal Salesforce svou příponu „force“ do jména produktu jiné firmy. Modul Salesforce v Claude nabízí 37 prodejních dovedností přímo v Claude, bez otevírání Salesforce appky. Zatím jen pro vybrané zákazníky, veřejná beta v září.",
+        "en": "Salesforce and Anthropic expanded their partnership on August 26 with Claudeforce — the first time Salesforce has put its “force” suffix on another company's product. The Salesforce in Claude plugin brings 37 sales skills directly into Claude, no need to open the Salesforce app. Limited to pilot customers, public beta in September."
+      },
+      "sources": [
+        { "name": "Salesforce", "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/08/26/salesforce-anthropic-partnership-claudeforce.html" }
+      ]
+    },
+    {
+      "id": "2026-08-27-claude-in-chrome-ga",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Claude v Chromu vyšel z pilotu pro všechny placené plány",
+        "en": "Claude in Chrome leaves pilot, opens to all paid plans"
+      },
+      "summary": {
+        "cs": "Rozšíření Claude v Chromu je od 26. srpna obecně dostupné na všech placených plánech. Claude teď umí v prohlížeči jednat samostatně bez schvalování každého kroku, bezpečnostní klasifikátor ale každou akci ověří předem. Zvládne i nástroje bez oficiální integrace — vnitřní dashboardy, starší systémy nebo portály dodavatelů, přes tvoje přihlášení.",
+        "en": "Claude in Chrome became generally available on every paid plan on August 26. Claude can now act autonomously in the browser instead of asking approval for every step, though a safety classifier still checks each action first. It also reaches tools with no official integration — internal dashboards, legacy systems, vendor portals."
+      },
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/claude-in-chrome-generally-available" },
+        { "name": "GIGAZINE", "url": "https://gigazine.net/gsc_news/en/20260827-claude-chrome-available/" }
+      ]
+    },
+    {
       "id": "2026-08-27-chatgpt-teachers-expansion",
       "category": "policy",
       "verified": true,
@@ -52,6 +86,40 @@
       "sources": [
         { "name": "OpenAI", "url": "https://openai.com/index/chatgpt-for-teachers/" },
         { "name": "9to5Mac", "url": "https://9to5mac.com/2026/08/26/free-chatgpt-for-teachers-expansion/" }
+      ]
+    },
+    {
+      "id": "2026-08-27-gemini-ask-in-chat",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Google spustil Ask Gemini v Google Chatu",
+        "en": "Google launches Ask Gemini in Google Chat"
+      },
+      "summary": {
+        "cs": "Google od 26. srpna nahradil postranní panel v Google Chatu novou funkcí Ask Gemini — jednotným panelem pro práci nad daty z Gmailu, Disku i Kalendáře. Umí i generovat obrázky, psát návrhy zpráv, shrnout zmeškané konverzace nebo plánovat schůzky. Do 1. října mají firemní zákazníci vyšší limity zdarma na vyzkoušení.",
+        "en": "Google replaced Google Chat's side panel with a new Ask Gemini feature on August 26 — a command bar that searches your Gmail, Drive and Calendar. It can also generate images, draft messages, catch you up on missed conversations, and schedule meetings. Workspace customers get free higher limits through October 1."
+      },
+      "sources": [
+        { "name": "Google Workspace Updates", "url": "https://workspaceupdates.googleblog.com/2026/08/ask-gemini-in-chat.html" },
+        { "name": "Neowin", "url": "https://www.neowin.net/news/google-replaces-chat-side-panel-with-new-ask-gemini-integration/" }
+      ]
+    },
+    {
+      "id": "2026-08-27-gemini-live-spark-productivity",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Gemini Live teď umí i víceúkolové hlasové příkazy",
+        "en": "Gemini Live now handles multi-step voice commands"
+      },
+      "summary": {
+        "cs": "Gemini Live od 26. srpna umí z hlasového příkazu spustit i víceúkolové zadání díky propojení se Sparkem — třeba proměnit mluvený „brainstorming“ ve strukturovanou osnovu v Dokumentech. Přibyl i denní přehled a hands-free správa Gmailu. Spark vyžaduje Google AI Pro a vyšší, denní přehled Plus a vyšší.",
+        "en": "Gemini Live can now turn a spoken request into a multi-step task through its new Spark integration, launched August 26 — turning a rambling voice brainstorm into a structured Docs outline. It also gained a Daily Brief and hands-free Gmail management. Spark needs Google AI Pro or higher; Daily Brief needs Plus or higher."
+      },
+      "sources": [
+        { "name": "Google Blog", "url": "https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/" },
+        { "name": "9to5Google", "url": "https://9to5google.com/2026/08/26/gemini-live-productivity-upgrade/" }
       ]
     },
     {

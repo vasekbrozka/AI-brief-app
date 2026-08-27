@@ -40,8 +40,10 @@ a pravdivě než více a přibližně.
 
 ### 1 · Sběr kandidátů
 
-Tři vrstvy, od nejdůvěryhodnější. **Rozpočet: 10–18 vyhledávání** — cílem je širší
-záběr, ne jen první nalezená hrstka. Skonči dřív, jen když **tři** dotazy po sobě
+Tři vrstvy, od nejdůvěryhodnější. **Rozpočet: 14–24 vyhledávání** — s cílem aspoň 8 zpráv
+denně (krok 3) je potřeba širší záběr napříč hráči (OpenAI/ChatGPT, Anthropic/Claude,
+Google/Gemini, Microsoft/Copilot, Meta, xAI, další) i typy zdrojů (firemní blogy, media,
+release notes), ne jen první nalezená hrstka. Skonči dřív, jen když **tři** dotazy po sobě
 nepřinesou nic nového.
 
 **1a · Kánon zdrojů (primární).** 4–6 cílených WebSearch dotazů s `allowed_domains`:
@@ -101,6 +103,11 @@ Pro **každého** kandidáta, než ho pustíš dál:
 - **Cíl 8–12 položek, tvrdý strop 12.** Širší rešerše (krok 1) má dodat víc kandidátů —
   vybírej štědřeji, ale přebytek nad strop se pořád zahazuje, kurátorský výběr zůstává
   hodnotou briefu.
+- **Zprávy: cíl aspoň 8 denně.** Rešerše (krok 1) má tomu odpovídat — pokrývej víc úhlů
+  (víc hráčů, víc témat na hráče), ne jen první nalezenou hrstku. Na výjimečně tichý den,
+  kdy ani širší rešerše 8 skutečných, ověřitelných a neopakujících se zpráv nenajde, dej
+  méně a napiš proč do redakčního deníku — nikdy nedoplňuj počet starou/nejistou/
+  aggregator-trap zprávou jen kvůli číslu (stejná zásada jako u tipů níže).
 - **Priorita:** 1. přímý užitek pro uživatele (funkce, produkty, modely k vyzkoušení;
   přednost jádrová témata) → 2. velikost události → 3. ověřené > neověřené →
   4. čerstvost.
@@ -196,8 +203,9 @@ python3 docs/check-brief.py
 Tip = užitečná, ne nutně horká funkce jádrového nástroje z **posledních ~30 dní**, kterou
 si uživatel může vyzkoušet. Žijí ve frontě `data/briefs/tips-backlog.json` (appka ho nečte).
 
-- **Kolik:** brief má mít aspoň ~8 položek → **počet tipů = 8 − počet čerstvých zpráv,
-  strop 4** (0–4 zprávy → 4 tipy · 5 → 3 · 6 → 2 · 7 → 1 · 8+ → 0). Když fronta tolik
+- **Kolik:** zprávy mají svůj vlastní cíl (aspoň 8, viz krok 3) — tipy na ně nedoplácí.
+  **Počet tipů = 12 − počet čerstvých zpráv, strop 4** (0–8 zpráv → 4 tipy · 9 → 3 ·
+  10 → 2 · 11 → 1 · 12 → 0; tvrdý strop 12 položek celkem platí furt). Když fronta tolik
   nezveřejněných tipů nedá, **dej méně položek** — recyklace tipů není výplň. Vzorec je
   ale jen tolik dobrý, kolik dobrý je bank — bez aktivního hledání tipů (viz krok 1)
   na vyšší číslo nedosáhneš.

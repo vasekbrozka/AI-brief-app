@@ -26,6 +26,26 @@
       "topic": "tip: Copilot v Excelu shrne historii úprav sešitu (rozliší člověka od AI) a umí vrátit konkrétní změnu nebo celý sešit na dřívější verzi; srpen 2026"
     },
     {
+      "slug": "2026-08-27-salesforce-anthropic-claudeforce",
+      "date": "2026-08-27",
+      "topic": "Salesforce a Anthropic 26.8. spustili Claudeforce (poprvé přípona „force“ na cizím produktu); modul Salesforce v Claude, 37 prodejních dovedností; pilot, beta v září; akcie +12%"
+    },
+    {
+      "slug": "2026-08-27-claude-in-chrome-ga",
+      "date": "2026-08-27",
+      "topic": "Claude v Chromu 26.8. obecně dostupný na všech placených plánech — samostatné jednání v prohlížeči s bezpečnostním klasifikátorem, i nástroje bez oficiální integrace"
+    },
+    {
+      "slug": "2026-08-27-gemini-ask-in-chat",
+      "date": "2026-08-27",
+      "topic": "Google 26.8. nahradil postranní panel Google Chatu funkcí Ask Gemini (hledání v Gmailu/Disku/Kalendáři, generování obrázků, návrhy zpráv, plánování); vyšší limity do 1.10."
+    },
+    {
+      "slug": "2026-08-27-gemini-live-spark-productivity",
+      "date": "2026-08-27",
+      "topic": "Gemini Live 26.8. propojen se Sparkem — víceúkolové hlasové zadání, denní přehled, hands-free Gmail; Spark=AI Pro+, denní přehled=Plus+"
+    },
+    {
       "slug": "2026-08-26-apple-m6-m5-ultra-mac",
       "date": "2026-08-26",
       "topic": "Apple 25. 8. představil čip M6 (Mac mini, první 2nm, AI výkon 4×) a M5 Ultra (Mac Studio, 4,3× AI výkon M3 Ultra); Mac mini od 899 USD"
@@ -481,5 +501,5 @@
       "topic": "tip: Google AI Mode se propojí s aplikacemi (Instacart, Canva, YouTube Music)"
     }
   ],
-  "updated": "2026-08-27T03:20:17Z"
+  "updated": "2026-08-27T18:07:45Z"
 }
