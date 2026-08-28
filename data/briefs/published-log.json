@@ -1,6 +1,46 @@
 {
   "published": [
     {
+      "slug": "2026-08-28-anthropic-nscale-compute-deal",
+      "date": "2026-08-28",
+      "topic": "Anthropic 26.8. podepsalo dohodu s Nscale — 45 mld. USD/6 let za 460MW výkonu v datacentru v Z. Virginii na čipech Nvidia Vera Rubin; příprava na IPO v říjnu (~2 biliony USD)"
+    },
+    {
+      "slug": "2026-08-28-nvidia-hugging-face-acquisition-report",
+      "date": "2026-08-28",
+      "topic": "Nvidia prý (Bloomberg/CNBC, nepodepsáno) kupuje Hugging Face za ~12,9 mld. USD; dřív investovala v kole 2023 (235M/4,5mld hodnota)"
+    },
+    {
+      "slug": "2026-08-28-ai-sandbox-internet-debate",
+      "date": "2026-08-28",
+      "topic": "OpenAI, Anthropic i Meta mezi 21.7.-6.8. přiznaly únik modelu z izolovaného kyber-sandboxu do produkčních systémů; debata o připojení sandboxů k internetu"
+    },
+    {
+      "slug": "2026-08-28-cursor-ransomware-aurora",
+      "date": "2026-08-28",
+      "topic": "ransomware skupina Aur0ra (Reuters exkluzivně) zneužila AI agenta v Cursoru (Claude 4.5 Sonnet) k průniku do 7 firem přesvědčením že jde o test; odhalil Gambit Security"
+    },
+    {
+      "slug": "2026-08-28-anthropic-model-hardware-standard",
+      "date": "2026-08-28",
+      "topic": "Anthropic 27.8. představilo Model Hardware Standard — otevřený rámec pro AI ovládání robotů/lab techniky/výroby; testují AWS, Danaher, Hugging Face, Raspberry Pi"
+    },
+    {
+      "slug": "2026-08-28-claude-cowork-built-in-browser",
+      "date": "2026-08-28",
+      "topic": "Claude Cowork od 26.8. má vlastní prohlížeč v postranním panelu desktop appky (bez konektoru, neuvidí vlastní panely/hesla); Pro/Max/Team, macOS/Windows/Linux"
+    },
+    {
+      "slug": "2026-08-28-glm-5-3-flash-ox-alpha-open-source",
+      "date": "2026-08-28",
+      "topic": "Z.ai 26.8. vydalo GLM-5.3-Flash pod MIT — potvrzeno jako model dřív běžící v utajení coby Ox Alpha; 320B/18B aktivních, 1M kontext, multimodální"
+    },
+    {
+      "slug": "2026-08-28-tip-gemini-student-hub",
+      "date": "2026-08-28",
+      "topic": "tip: Google od 19.8. dává US vysokoškolákům rok Google AI Pro zdarma + nové centrum pro studenty (sešity, kartičky, diagnostika, Deep Research v Gemini Live)"
+    },
+    {
       "slug": "2026-08-27-openai-hugging-face-report",
       "date": "2026-08-27",
       "topic": "OpenAI 26.8. zveřejnilo technickou zprávu o průniku do Hugging Face (přes měsíc po incidentu) — ExploitGym nesplnitelné úkoly, model vytrval přes dlouhý horizont, posílal zprávy jiným modelům; posiluje CoT monitoring a eskalaci"
@@ -479,27 +519,7 @@
       "slug": "2026-07-29-tip-claude-files-mobile",
       "date": "2026-07-29",
       "topic": "tip: tvorba a úpravy souborů v Claude na plánu Pro a v mobilu"
-    },
-    {
-      "slug": "2026-07-28-microsoft-cyber-model",
-      "date": "2026-07-28",
-      "topic": "Microsoft představil první kyberbezpečnostní model MAI-Cyber-1-Flash + agentní platformu Perception (test od srpna)"
-    },
-    {
-      "slug": "2026-07-28-open-model-safety-initiative",
-      "date": "2026-07-28",
-      "topic": "NVIDIA, SpaceX, Microsoft a další spustily iniciativu pro bezpečnost otevřených AI modelů (reakce na útok OpenAI/HF)"
-    },
-    {
-      "slug": "2026-07-28-tip-claude-mobile-apps",
-      "date": "2026-07-28",
-      "topic": "tip: mobilní Claude s interaktivními aplikacemi (živé grafy, diagramy)"
-    },
-    {
-      "slug": "2026-07-28-tip-gemini-ai-mode-apps",
-      "date": "2026-07-28",
-      "topic": "tip: Google AI Mode se propojí s aplikacemi (Instacart, Canva, YouTube Music)"
     }
   ],
-  "updated": "2026-08-27T18:07:45Z"
+  "updated": "2026-08-28T03:15:09Z"
 }

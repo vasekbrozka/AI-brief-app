@@ -1559,6 +1559,32 @@
       ],
       "added": "2026-08-27",
       "used": null
+    },
+    {
+      "slug": "tip-gemini-student-hub",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "Gemini spustil centrum pro studenty s ročním Pro zdarma",
+        "en": "Gemini launches a student hub with a free year of Pro"
+      },
+      "summary": {
+        "cs": "Google od 19. srpna dává americkým vysokoškolákům rok Google AI Pro zdarma (běžně 20 dolarů měsíčně) a spustil nové centrum pro studenty na gemini.google.com/students — sešity na učení, kartičky, diagnostické testy i Deep Research přímo v Gemini Live.",
+        "en": "Google is giving U.S. college students a free year of Google AI Pro (normally $19.99/month) starting August 19, alongside a new Student Hub at gemini.google.com/students — study notebooks, flashcards, diagnostic quizzes, and Deep Research built right into Gemini Live."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/"
+        },
+        {
+          "name": "Tom's Guide",
+          "url": "https://www.tomsguide.com/ai/google-gemini/google-is-giving-students-a-free-year-of-gemini-pro-plus-new-ai-study-features"
+        }
+      ],
+      "added": "2026-08-28",
+      "used": "2026-08-28"
     }
   ]
 }
