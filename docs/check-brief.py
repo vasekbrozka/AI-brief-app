@@ -109,6 +109,12 @@ def main() -> int:
         fail(f"headline.cs má {hl_words} slov (tvrdý strop 12)")
     elif hl_words > 8:
         warn(f"headline.cs má {hl_words} slov (cíl ≤ 8)")
+    for lang in ("cs", "en"):
+        intro_words = len(brief.get("intro", {}).get(lang, "").split())
+        if intro_words > 30:
+            fail(f"intro.{lang} má {intro_words} slov (tvrdý strop ~25)")
+        elif intro_words > 25:
+            warn(f"intro.{lang} má {intro_words} slov (cíl ~25)")
 
     if not items:
         fail("brief nemá žádné položky")
