@@ -1,6 +1,31 @@
 {
   "published": [
     {
+      "slug": "2026-08-29-uk-voice-cloning-campaign",
+      "date": "2026-08-29",
+      "topic": "kampaň Save Our Voices Now (28.8., Coughlan/Bonneville/Lucas/Evans) — otevřený dopis premiérovi (80+ podpisů) + petice vlády za zákonnou ochranu hlasu"
+    },
+    {
+      "slug": "2026-08-29-meta-glasses-recording-fix",
+      "date": "2026-08-29",
+      "topic": "Meta 27.8. opravila chytré brýle — kamera se vypne při zakrytí LED během nahrávání (dřív šlo obejít); druhá oprava za 2 měsíce"
+    },
+    {
+      "slug": "2026-08-29-gemini-notebook-expert-intelligence",
+      "date": "2026-08-29",
+      "topic": "Google 27.8. spustil Expert Intelligence v Gemini Notebooku — koupené Google Play e-knihy jako zdroj, 100k+ titulů, kurátorované sešity (Pinker aj.)"
+    },
+    {
+      "slug": "2026-08-29-openai-thailand-accelerator",
+      "date": "2026-08-29",
+      "topic": "OpenAI 28.8. spustilo akcelerátor s thajským MHESI v Bangkoku (8 týdnů, 10 startupů zdraví/vzdělávání) — první partnerství s thajskou vládou"
+    },
+    {
+      "slug": "2026-08-29-tip-chatgpt-multi-google-accounts",
+      "date": "2026-08-29",
+      "topic": "tip: ChatGPT od 28.8. zvládne víc účtů Gmail/Kalendář/Kontakty najednou (osobní i pracovní v jednom vlákně)"
+    },
+    {
       "slug": "2026-08-28-anthropic-nscale-compute-deal",
       "date": "2026-08-28",
       "topic": "Anthropic 26.8. podepsalo dohodu s Nscale — 45 mld. USD/6 let za 460MW výkonu v datacentru v Z. Virginii na čipech Nvidia Vera Rubin; příprava na IPO v říjnu (~2 biliony USD)"
@@ -499,27 +524,7 @@
       "slug": "2026-07-30-tip-spotify-assistant",
       "date": "2026-07-30",
       "topic": "tip: hudební asistent Spotify (chat v mobilu, beta USA/Irsko/Švédsko)"
-    },
-    {
-      "slug": "2026-07-29-nvidia-openai-backstop",
-      "date": "2026-07-29",
-      "topic": "NVIDIA jedná s OpenAI o záruce až 250 mld. USD na dluh pro 10GW kampus v Ohiu; obavy z kruhového financování, NVDA −4,5 %"
-    },
-    {
-      "slug": "2026-07-29-meta-blackrock-elpaso",
-      "date": "2026-07-29",
-      "topic": "Meta + BlackRock: společný podnik na kampus datových center v El Pasu za ~14 mld. USD"
-    },
-    {
-      "slug": "2026-07-29-tip-perplexity-model-council",
-      "date": "2026-07-29",
-      "topic": "tip: Perplexity Model Council — odpovědi více modelů najednou (téma other poprvé)"
-    },
-    {
-      "slug": "2026-07-29-tip-claude-files-mobile",
-      "date": "2026-07-29",
-      "topic": "tip: tvorba a úpravy souborů v Claude na plánu Pro a v mobilu"
     }
   ],
-  "updated": "2026-08-28T03:15:09Z"
+  "updated": "2026-08-29T03:09:57Z"
 }

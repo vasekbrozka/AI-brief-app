@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-28T03:15:09Z",
+  "updated": "2026-08-29T03:09:57Z",
   "briefs": [
+    {
+      "date": "2026-08-29",
+      "headline": {
+        "cs": "Britské hvězdy žádají zákonnou ochranu hlasu",
+        "en": "UK stars demand legal protection for their voices"
+      },
+      "itemCount": 5
+    },
     {
       "date": "2026-08-28",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "OpenAI wants California's AI safety law tightened"
       },
       "itemCount": 3
-    },
-    {
-      "date": "2026-08-22",
-      "headline": {
-        "cs": "Ramp spustil vlastní přepínač AI modelů",
-        "en": "Ramp launches its own AI model router"
-      },
-      "itemCount": 4
     }
   ]
 }

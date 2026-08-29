@@ -1585,6 +1585,32 @@
       ],
       "added": "2026-08-28",
       "used": "2026-08-28"
+    },
+    {
+      "slug": "tip-chatgpt-multi-google-accounts",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT teď zvládne víc Google účtů najednou",
+        "en": "ChatGPT can now juggle multiple Google accounts at once"
+      },
+      "summary": {
+        "cs": "ChatGPT od 28. srpna umí připojit víc účtů Gmailu, Kalendáře i Kontaktů zároveň — v jednom vlákně necháš pracovat osobní účet, ve druhém pracovní. Další účet přidáš přes ozubené kolečko u už připojeného pluginu v postranním panelu. ChatGPT pak čerpá informace napříč všemi připojenými účty.",
+        "en": "ChatGPT can now connect multiple Gmail, Calendar, and Contacts accounts at once, as of August 28 — one conversation can draw on your personal account while another works from your job. Add another account through the gear icon on a plugin you've already connected, in the sidebar. ChatGPT then pulls from all of them."
+      },
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/08/28/chatgpt-and-codex-now-support-multiple-gmail-and-google-calendar-accounts/"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-gmail-calendar-and-contacts-integration-in-chatgpt/"
+        }
+      ],
+      "added": "2026-08-29",
+      "used": "2026-08-29"
     }
   ]
 }
