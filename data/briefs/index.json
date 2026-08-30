@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-29T03:09:57Z",
+  "updated": "2026-08-30T03:08:51Z",
   "briefs": [
+    {
+      "date": "2026-08-30",
+      "headline": {
+        "cs": "Soud: Pentagon nezákonně potrestal Anthropic",
+        "en": "Judge rules Pentagon illegally targeted Anthropic"
+      },
+      "itemCount": 2
+    },
     {
       "date": "2026-08-29",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "Tajemný model Ox Alpha rozpoutal spekulace",
         "en": "Mystery model Ox Alpha sparks speculation"
-      },
-      "itemCount": 3
-    },
-    {
-      "date": "2026-08-23",
-      "headline": {
-        "cs": "OpenAI chce přísnější kalifornský zákon o AI",
-        "en": "OpenAI wants California's AI safety law tightened"
       },
       "itemCount": 3
     }

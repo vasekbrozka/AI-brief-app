@@ -1,6 +1,16 @@
 {
   "published": [
     {
+      "slug": "2026-08-30-anthropic-pentagon-ruling",
+      "date": "2026-08-30",
+      "topic": "soudkyně Rita Lin 28.8. rozhodla, že Pentagon nezákonně (protiústavní odveta) označil Anthropic za bezpečnostní riziko po odmítnutí autonomních zbraní/masového sledování; vláda se odvolá"
+    },
+    {
+      "slug": "2026-08-30-tip-claude-code-startup-speedup",
+      "date": "2026-08-30",
+      "topic": "tip: Claude Code od 29.8. startuje rychleji (CLI před sandboxem), Linux instalace ~75MB, /cost /usage /tasks detailnější tokeny"
+    },
+    {
       "slug": "2026-08-29-uk-voice-cloning-campaign",
       "date": "2026-08-29",
       "topic": "kampaň Save Our Voices Now (28.8., Coughlan/Bonneville/Lucas/Evans) — otevřený dopis premiérovi (80+ podpisů) + petice vlády za zákonnou ochranu hlasu"
@@ -499,32 +509,7 @@
       "slug": "2026-07-31-tip-copilot-excel-personalization",
       "date": "2026-07-31",
       "topic": "tip: Excel Copilot si pamatuje preference (formátování, vzorce, reporty)"
-    },
-    {
-      "slug": "2026-07-30-msft-meta-earnings",
-      "date": "2026-07-30",
-      "topic": "výsledková noc 29.7.: Microsoft +18 % tržby (90 mld., Azure, capex drží) nahoru, Meta zklamala (výdaje +55 %, FCF −90 %) dolů"
-    },
-    {
-      "slug": "2026-07-30-samsung-q2-ai-chips",
-      "date": "2026-07-30",
-      "topic": "Samsung Q2 provozní zisk nad odhady díky poptávce po AI čipech, akcie +1,6 %"
-    },
-    {
-      "slug": "2026-07-30-us-china-ai-asia",
-      "date": "2026-07-30",
-      "topic": "souboj USA a Číny o AI v Asii; ITA 29.7. potvrdila vystoupení v Čcheng-tu, zájem o AI Exports Program předčil očekávání"
-    },
-    {
-      "slug": "2026-07-30-tip-chatgpt-desktop-work",
-      "date": "2026-07-30",
-      "topic": "tip: desktopový ChatGPT — přepínání Chat/Work, pokračování práce napříč zařízeními"
-    },
-    {
-      "slug": "2026-07-30-tip-spotify-assistant",
-      "date": "2026-07-30",
-      "topic": "tip: hudební asistent Spotify (chat v mobilu, beta USA/Irsko/Švédsko)"
     }
   ],
-  "updated": "2026-08-29T03:09:57Z"
+  "updated": "2026-08-30T03:08:51Z"
 }

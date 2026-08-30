@@ -1611,6 +1611,28 @@
       ],
       "added": "2026-08-29",
       "used": "2026-08-29"
+    },
+    {
+      "slug": "tip-claude-code-startup-speedup",
+      "category": "tools",
+      "theme": "claude",
+      "verified": false,
+      "title": {
+        "cs": "Claude Code teď startuje rychleji a méně zabírá na Linuxu",
+        "en": "Claude Code now starts faster and installs smaller on Linux"
+      },
+      "summary": {
+        "cs": "Claude Code od 29. srpna startuje rychleji — příkazová řádka se spustí dřív, než se načte sandbox, takže dřív můžeš psát. Instalace na Linuxu se zmenšila na asi 75 MB. Příkazy /cost, /usage a /tasks navíc ukážou podrobnější rozpis spotřebovaných tokenů.",
+        "en": "Claude Code now starts faster as of August 29 — the CLI becomes usable before the sandbox finishes loading, instead of waiting on it. The Linux download shrank to about 75 MB. The /cost, /usage, and /tasks commands also now show more detailed token breakdowns."
+      },
+      "sources": [
+        {
+          "name": "Claude Code Docs",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-08-30",
+      "used": "2026-08-30"
     }
   ]
 }
