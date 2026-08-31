@@ -1,6 +1,16 @@
 {
   "published": [
     {
+      "slug": "2026-08-31-openai-dalle-gpt-retirement",
+      "date": "2026-08-31",
+      "topic": "OpenAI 30.8. zrušilo samostatné GPT DALL-E v ChatGPT (jeden z původních custom GPT); nahrazuje ChatGPT Images, API bez změny"
+    },
+    {
+      "slug": "2026-08-31-tip-gemini-transcribe",
+      "date": "2026-08-31",
+      "topic": "tip: Google 26.8. spustilo Gemini 3.5 Transcribe (přepis řeči, 85+ jazyků, rozpozná mluvčí, vlastní slovník), pohání Gboard Rambler, míří do Chromu"
+    },
+    {
       "slug": "2026-08-30-anthropic-pentagon-ruling",
       "date": "2026-08-30",
       "topic": "soudkyně Rita Lin 28.8. rozhodla, že Pentagon nezákonně (protiústavní odveta) označil Anthropic za bezpečnostní riziko po odmítnutí autonomních zbraní/masového sledování; vláda se odvolá"
@@ -484,32 +494,7 @@
       "slug": "2026-08-01-tip-claude-connectors-directory",
       "date": "2026-08-01",
       "topic": "tip: adresář konektorů v Claude (950+) a interaktivní okna konektorů v konverzaci"
-    },
-    {
-      "slug": "2026-07-31-openai-price-cuts",
-      "date": "2026-07-31",
-      "topic": "OpenAI zlevnilo GPT-5.6 Luna o 80 % a Terra o 20 % (od 30.7., platí i pro Codex/ChatGPT Work)"
-    },
-    {
-      "slug": "2026-07-31-amazon-q2-aws-ai",
-      "date": "2026-07-31",
-      "topic": "Amazon Q2: tržby nad odhady, akcie +9 %, AI a vlastní čipy v AWS přes 25 mld. run rate, FCF −7,6 mld."
-    },
-    {
-      "slug": "2026-07-31-gemini-spark-chrome",
-      "date": "2026-07-31",
-      "topic": "Gemini Spark integrován s Chromem (přihlášené účty, pochůzky po webu, platby vrací člověku), zatím USA"
-    },
-    {
-      "slug": "2026-07-31-chrome-ai-bug-fixes",
-      "date": "2026-07-31",
-      "topic": "Google: Chrome díky AI opravil v červnu 1 072 chyb — víc než za předchozí 2 roky dohromady"
-    },
-    {
-      "slug": "2026-07-31-tip-copilot-excel-personalization",
-      "date": "2026-07-31",
-      "topic": "tip: Excel Copilot si pamatuje preference (formátování, vzorce, reporty)"
     }
   ],
-  "updated": "2026-08-30T03:08:51Z"
+  "updated": "2026-08-31T03:08:54Z"
 }

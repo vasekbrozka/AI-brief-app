@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-30T03:08:51Z",
+  "updated": "2026-08-31T03:08:54Z",
   "briefs": [
+    {
+      "date": "2026-08-31",
+      "headline": {
+        "cs": "OpenAI ukončilo DALL-E GPT v ChatGPT",
+        "en": "OpenAI shuts down DALL-E GPT in ChatGPT"
+      },
+      "itemCount": 2
+    },
     {
       "date": "2026-08-30",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "Nový AI asistent Instinct budí obavy o soukromí",
         "en": "New AI assistant Instinct raises privacy concerns"
-      },
-      "itemCount": 3
-    },
-    {
-      "date": "2026-08-24",
-      "headline": {
-        "cs": "Tajemný model Ox Alpha rozpoutal spekulace",
-        "en": "Mystery model Ox Alpha sparks speculation"
       },
       "itemCount": 3
     }

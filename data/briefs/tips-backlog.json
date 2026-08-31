@@ -1633,6 +1633,32 @@
       ],
       "added": "2026-08-30",
       "used": "2026-08-30"
+    },
+    {
+      "slug": "tip-gemini-transcribe",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "Gemini 3.5 Transcribe přepisuje řeč v 85 jazycích",
+        "en": "Gemini 3.5 Transcribe handles speech in 85+ languages"
+      },
+      "summary": {
+        "cs": "Google 26. srpna spustilo Gemini 3.5 Transcribe — nový model na převod řeči na text, zatím ve veřejné preview verzi pro vývojáře. Zvládá přes 85 jazyků, pozná jednotlivé mluvčí, umí vlastní slovník i odstranit vycpávková slova jako „ehm“. Pohání i diktování Rambler v Gboardu a míří i do Chromu.",
+        "en": "Google launched Gemini 3.5 Transcribe on August 26 — a new speech-to-text model, currently in public preview for developers. It handles more than 85 languages, tells speakers apart, supports a custom vocabulary, and strips out filler words like “um.” It already powers Gboard's Rambler dictation and is coming to Chrome."
+      },
+      "sources": [
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/08/26/gemini-3-5-transcribe/"
+        },
+        {
+          "name": "Google AI for Developers",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog"
+        }
+      ],
+      "added": "2026-08-31",
+      "used": "2026-08-31"
     }
   ]
 }

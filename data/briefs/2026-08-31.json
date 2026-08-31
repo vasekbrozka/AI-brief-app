@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-31",
+  "sample": false,
+  "headline": {
+    "cs": "OpenAI ukončilo DALL-E GPT v ChatGPT",
+    "en": "OpenAI shuts down DALL-E GPT in ChatGPT"
+  },
+  "intro": {
+    "cs": "OpenAI v ChatGPT zrušilo samostatné GPT pro DALL-E, obrázky teď dělá novější ChatGPT Images. Doplňujeme jedním tipem.",
+    "en": "OpenAI shut down the standalone DALL-E GPT in ChatGPT; images now go through the newer ChatGPT Images. We add one tip."
+  },
+  "items": [
+    {
+      "id": "2026-08-31-openai-dalle-gpt-retirement",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "OpenAI ukončilo v ChatGPT samostatné GPT pro DALL-E",
+        "en": "OpenAI shuts down the standalone DALL-E GPT in ChatGPT"
+      },
+      "summary": {
+        "cs": "OpenAI 30. srpna v ChatGPT zrušilo samostatné GPT pro DALL-E, jeden z původních vlastních GPT z dob, kdy ještě šly vytvářet. Kdo chtěl staré obrázky zachovat, musel si je stáhnout předem. Tvorbu a úpravu obrázků teď v ChatGPT zajišťuje novější ChatGPT Images, API se změna netýká.",
+        "en": "OpenAI shut down the standalone DALL-E GPT in ChatGPT on August 30, one of the original custom GPTs from when they first launched. Anyone who wanted to keep their old images had to download them beforehand. Image creation and editing in ChatGPT now runs through the newer ChatGPT Images; the API is unaffected."
+      },
+      "sources": [
+        { "name": "Tom's Guide", "url": "https://www.tomsguide.com/ai/chatgpt/you-have-until-august-30-to-save-your-chatgpt-dall-e-images-heres-how-to-avoid-losing-them-forever" },
+        { "name": "Windows Report", "url": "https://windowsreport.com/openai-will-retire-the-official-dalle-gpt-on-august-30/" }
+      ]
+    },
+    {
+      "id": "2026-08-31-tip-gemini-transcribe",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Gemini 3.5 Transcribe přepisuje řeč v 85 jazycích",
+        "en": "Gemini 3.5 Transcribe handles speech in 85+ languages"
+      },
+      "summary": {
+        "cs": "Google 26. srpna spustilo Gemini 3.5 Transcribe — nový model na převod řeči na text, zatím ve veřejné preview verzi pro vývojáře. Zvládá přes 85 jazyků, pozná jednotlivé mluvčí, umí vlastní slovník i odstranit vycpávková slova jako „ehm“. Pohání i diktování Rambler v Gboardu a míří i do Chromu.",
+        "en": "Google launched Gemini 3.5 Transcribe on August 26 — a new speech-to-text model, currently in public preview for developers. It handles more than 85 languages, tells speakers apart, supports a custom vocabulary, and strips out filler words like “um.” It already powers Gboard's Rambler dictation and is coming to Chrome."
+      },
+      "sources": [
+        { "name": "9to5Google", "url": "https://9to5google.com/2026/08/26/gemini-3-5-transcribe/" },
+        { "name": "Google AI for Developers", "url": "https://ai.google.dev/gemini-api/docs/changelog" }
+      ]
+    }
+  ]
+}
