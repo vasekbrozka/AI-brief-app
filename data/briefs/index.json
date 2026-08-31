@@ -1,13 +1,13 @@
 {
-  "updated": "2026-08-31T03:08:54Z",
+  "updated": "2026-08-31T05:19:32Z",
   "briefs": [
     {
       "date": "2026-08-31",
       "headline": {
-        "cs": "OpenAI ukončilo DALL-E GPT v ChatGPT",
-        "en": "OpenAI shuts down DALL-E GPT in ChatGPT"
+        "cs": "Anthropic varuje: malware krade přihlášení do Claude",
+        "en": "Anthropic warns malware is hijacking Claude sessions"
       },
-      "itemCount": 2
+      "itemCount": 5
     },
     {
       "date": "2026-08-30",

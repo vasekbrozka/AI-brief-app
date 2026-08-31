@@ -2,18 +2,69 @@
   "date": "2026-08-31",
   "sample": false,
   "headline": {
-    "cs": "OpenAI ukončilo DALL-E GPT v ChatGPT",
-    "en": "OpenAI shuts down DALL-E GPT in ChatGPT"
+    "cs": "Anthropic varuje: malware krade přihlášení do Claude",
+    "en": "Anthropic warns malware is hijacking Claude sessions"
   },
   "intro": {
-    "cs": "OpenAI v ChatGPT zrušilo samostatné GPT pro DALL-E, obrázky teď dělá novější ChatGPT Images. Doplňujeme jedním tipem.",
-    "en": "OpenAI shut down the standalone DALL-E GPT in ChatGPT; images now go through the newer ChatGPT Images. We add one tip."
+    "cs": "Anthropic varuje před malwarem, který krade přihlášení do Claude. Doplňujeme jedním tipem.",
+    "en": "Anthropic warns malware is hijacking Claude login sessions. We add one tip."
   },
   "items": [
     {
+      "id": "2026-08-31-anthropic-infostealer-warning",
+      "category": "research",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Anthropic varuje: malware krade přihlášení do Claude",
+        "en": "Anthropic warns infostealer malware is hijacking Claude sessions"
+      },
+      "summary": {
+        "cs": "Anthropic varuje, že infostealer malware (Vidar, LummaC2, StealC, RedLine, Acreed na Windows, Atomic Stealer na Macu) krade přihlašovací relace Claude přímo z napadených počítačů a pak čerpá limity uživatelů. Firma postižené účty odhlašuje, maže uložené platební metody a vrací neoprávněné platby. Doporučuje změnit hesla a zkontrolovat počítač na malware.",
+        "en": "Anthropic is warning that infostealer malware (Vidar, LummaC2, StealC, RedLine, Acreed on Windows, Atomic Stealer on Mac) is stealing Claude login sessions straight from infected computers and draining victims' usage limits. The company is signing out affected accounts, removing saved payment methods, and refunding unauthorized charges. It recommends changing passwords and scanning for malware."
+      },
+      "sources": [
+        { "name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/" },
+        { "name": "Search Engine Journal", "url": "https://www.searchenginejournal.com/anthropic-warns-hackers-are-stealing-claude-sessions-to-hijack-accounts/587566/" }
+      ]
+    },
+    {
+      "id": "2026-08-31-ai-cyber-defense-joint-statement",
+      "category": "policy",
+      "verified": true,
+      "title": {
+        "cs": "117 firem podepsalo výzvu ke společné kybernetické obraně",
+        "en": "117 companies sign joint call for AI cyber defense"
+      },
+      "summary": {
+        "cs": "OpenAI, Anthropic, Google, Microsoft, AWS i 113 dalších firem a organizací (Cloudflare, CrowdStrike, IBM, Mastercard, Visa a další) 27.–28. srpna podepsaly společnou výzvu ke kolektivní obraně proti kyberútokům poháněným AI. Signatáři varují, že na zabezpečení digitálního světa proti stále schopnějším modelům zbývá jen omezený čas.",
+        "en": "OpenAI, Anthropic, Google, Microsoft, AWS and 113 other companies and organizations — including Cloudflare, CrowdStrike, IBM, Mastercard and Visa — signed a joint call for collective defense against AI-powered cyberattacks on August 27–28. The signatories warn there is only a limited window to secure the digital world against increasingly capable models."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/08/27/ai-cyber-defense-letter.html" },
+        { "name": "NBC News", "url": "https://www.nbcnews.com/tech/security/major-tech-companies-call-defensive-surge-defeat-ai-driven-hacks-rcna594780" }
+      ]
+    },
+    {
+      "id": "2026-08-31-deepseek-funding-round",
+      "category": "business",
+      "verified": false,
+      "title": {
+        "cs": "DeepSeek prý blízko kolu za 7,4 miliardy dolarů",
+        "en": "DeepSeek reportedly nears $7.4B funding round"
+      },
+      "summary": {
+        "cs": "DeepSeek podle zpráv z 29. srpna blízko uzavření kola za asi 7,4 miliardy dolarů (50 miliard jüanů) při hodnotě kolem 74 miliard — mezi investory se zmiňují Tencent i výrobce baterií CATL. Peníze míří do vývoje modelů a výpočetního výkonu, firma se prý chystá na IPO na šanghajské burze v roce 2027.",
+        "en": "DeepSeek is reportedly nearing a roughly $7.4 billion funding round (50 billion yuan), as of August 29, at a valuation around $74 billion — investors said to be involved include Tencent and battery maker CATL. The money is earmarked for model research and compute; the company is said to be eyeing a 2027 Shanghai IPO."
+      },
+      "sources": [
+        { "name": "China Money Network", "url": "https://www.chinamoneynetwork.com/2026/08/29/deepseek-nears-7-4-billion-funding-round-at-74-billion-valuation-ahead-of-2027-ipo" },
+        { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/sectors/technology/articles/deepseek-eyes-7-4-billion-123039218.html" }
+      ]
+    },
+    {
       "id": "2026-08-31-openai-dalle-gpt-retirement",
       "category": "tools",
-      "highlight": true,
       "verified": true,
       "title": {
         "cs": "OpenAI ukončilo v ChatGPT samostatné GPT pro DALL-E",

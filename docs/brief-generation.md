@@ -19,7 +19,7 @@ pravidlo) — přeskočený deploy je správné chování, ne chyba. Denní obsa
 ## Cíl
 
 Krátký, **ověřený**, **dvojjazyčný** (CZ + EN) přehled nejdůležitějších novinek ze světa
-AI za posledních ~24 hodin, doplněný v klidné dny užitečnými tipy. Věcný tón, žádný hype,
+AI za posledních ~72 hodin, doplněný v klidné dny užitečnými tipy. Věcný tón, žádný hype,
 žádné spekulace. **Relevance a spolehlivost obsahu je jediný smysl appky** — radši méně
 a pravdivě než více a přibližně.
 
@@ -85,7 +85,7 @@ Pro **každého** kandidáta, než ho pustíš dál:
 
 1. **Zjisti datum primární události** (oznámení, účinnost, podání žaloby…) z T1/T2 zdroje —
    ne z agregátoru. Když se datum nedá spolehlivě určit, kandidát **jde ven**.
-2. **Okno čerstvosti:** událost starší než **~48 hodin** → ven. Výjimky:
+2. **Okno čerstvosti:** událost starší než **~72 hodin** → ven. Výjimky:
    - **update** — starší událost s novým vývojem: zařaď, formuluj jako update
      (slug `...-update`), novým vývojem musí být to hlavní;
    - **výhledová zpráva** („X vyjde 17. 7."): povolená jen s **konkrétním termínem do
@@ -140,7 +140,7 @@ Pro **každého** kandidáta, než ho pustíš dál:
   jména, data) musí být v obou jazycích identická**.
 - **Čísla přebírej doslova ze zdroje.** Číslo, které má jen agregátor, do briefu nepatří.
 - **Datace v textu:** u událostí piš **konkrétní datum** („15. července"), ne „dnes/včera".
-  Relativní výrazy jen pro okno rešerše („za posledních 24 hodin"). **Názvy dnů v týdnu
+  Relativní výrazy jen pro okno rešerše („za posledních 72 hodin"). **Názvy dnů v týdnu
   nepiš vůbec** — model si mapování datum→den plete; když je den nutný, spočítej ho
   (`date -u -d 2026-07-17 +%A`).
 - **Typografie:** uvnitř textů **nikdy ASCII uvozovka `"`** (rozbíjí JSON a je ošklivá) —

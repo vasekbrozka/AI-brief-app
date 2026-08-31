@@ -11,6 +11,21 @@
       "topic": "tip: Google 26.8. spustilo Gemini 3.5 Transcribe (přepis řeči, 85+ jazyků, rozpozná mluvčí, vlastní slovník), pohání Gboard Rambler, míří do Chromu"
     },
     {
+      "slug": "2026-08-31-anthropic-infostealer-warning",
+      "date": "2026-08-31",
+      "topic": "Anthropic varuje před infostealer malwarem (Vidar/LummaC2/StealC/RedLine/Acreed, AMOS na Macu) krad. přihlášení do Claude a čerpajícím limity; firma odhlašuje účty, maže platby, vrací neoprávněné"
+    },
+    {
+      "slug": "2026-08-31-ai-cyber-defense-joint-statement",
+      "date": "2026-08-31",
+      "topic": "117 firem (OpenAI/Anthropic/Google/Microsoft/AWS/Cloudflare/CrowdStrike/IBM/Mastercard/Visa aj.) 27.-28.8. podepsalo výzvu ke společné kyberobraně proti AI útokům"
+    },
+    {
+      "slug": "2026-08-31-deepseek-funding-round",
+      "date": "2026-08-31",
+      "topic": "DeepSeek prý (29.8., nepotvrzeno) blízko kola 7,4 mld. USD / 74 mld. hodnota, investoři Tencent+CATL, míří na IPO Šanghaj 2027"
+    },
+    {
       "slug": "2026-08-30-anthropic-pentagon-ruling",
       "date": "2026-08-30",
       "topic": "soudkyně Rita Lin 28.8. rozhodla, že Pentagon nezákonně (protiústavní odveta) označil Anthropic za bezpečnostní riziko po odmítnutí autonomních zbraní/masového sledování; vláda se odvolá"
@@ -496,5 +511,5 @@
       "topic": "tip: adresář konektorů v Claude (950+) a interaktivní okna konektorů v konverzaci"
     }
   ],
-  "updated": "2026-08-31T03:08:54Z"
+  "updated": "2026-08-31T05:19:32Z"
 }
