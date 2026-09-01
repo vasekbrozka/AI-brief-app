@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-31T05:19:32Z",
+  "updated": "2026-09-01T03:08:36Z",
   "briefs": [
+    {
+      "date": "2026-09-01",
+      "headline": {
+        "cs": "Reklamy v ChatGPT dosáhly miliardy dolarů ročně",
+        "en": "ChatGPT Ads hits $1 billion in annualized revenue"
+      },
+      "itemCount": 2
+    },
     {
       "date": "2026-08-31",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Apple unveils new M6 and M5 Ultra chips"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-08-25",
-      "headline": {
-        "cs": "Nový AI asistent Instinct budí obavy o soukromí",
-        "en": "New AI assistant Instinct raises privacy concerns"
-      },
-      "itemCount": 3
     }
   ]
 }

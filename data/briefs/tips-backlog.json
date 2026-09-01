@@ -1659,6 +1659,28 @@
       ],
       "added": "2026-08-31",
       "used": "2026-08-31"
+    },
+    {
+      "slug": "tip-alexa-fire-tv-free",
+      "category": "tools",
+      "theme": "other",
+      "verified": false,
+      "title": {
+        "cs": "Alexa+ je teď zdarma na všech Fire TV bez Prime",
+        "en": "Alexa+ is now free on all Fire TVs, no Prime required"
+      },
+      "summary": {
+        "cs": "Amazon od 19. srpna zdarma nasazuje Alexa+ na všechna kompatibilní zařízení Fire TV v USA — bez ohledu na to, jestli máš Prime. Aktualizace přináší konverzační vyhledávání, ovládání chytré domácnosti a AI doporučení. Přechod na Alexa+ proběhne automaticky, nemusíš nic instalovat ani se nikam přihlašovat.",
+        "en": "Amazon started rolling out Alexa+ for free on all compatible Fire TV devices in the US on August 19, Prime subscription or not. The update brings conversational search, smart home controls, and AI-powered recommendations. Everyone gets upgraded automatically — no app to download, no sign-up needed."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/"
+        }
+      ],
+      "added": "2026-09-01",
+      "used": "2026-09-01"
     }
   ]
 }

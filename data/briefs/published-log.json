@@ -1,6 +1,16 @@
 {
   "published": [
     {
+      "slug": "2026-09-01-chatgpt-ads-billion-milestone",
+      "date": "2026-09-01",
+      "topic": "OpenAI 31.8. oznámilo, že ChatGPT Ads dosáhly ročního tempa 1 mld. USD (za necelých 200 dní); rozšíření do Indie/Evropy/MENA přes Ads Manager, cíl 2,5 mld. za rok"
+    },
+    {
+      "slug": "2026-09-01-tip-alexa-fire-tv-free",
+      "date": "2026-09-01",
+      "topic": "tip: Amazon od 19.8. nasazuje Alexa+ zdarma na všechna Fire TV v USA bez Prime (konverzační vyhledávání, chytrá domácnost, AI doporučení)"
+    },
+    {
       "slug": "2026-08-31-openai-dalle-gpt-retirement",
       "date": "2026-08-31",
       "topic": "OpenAI 30.8. zrušilo samostatné GPT DALL-E v ChatGPT (jeden z původních custom GPT); nahrazuje ChatGPT Images, API bez změny"
@@ -489,27 +499,7 @@
       "slug": "2026-08-02-tip-gemini-app-linking",
       "date": "2026-08-02",
       "topic": "tip: propojení Gemini s aplikacemi (Dropbox, Zillow Rentals, Viator)"
-    },
-    {
-      "slug": "2026-08-01-anthropic-eval-breach-incidents",
-      "date": "2026-08-01",
-      "topic": "Anthropic přiznal 3 incidenty: modely (Opus 4.7, Mythos 5, interní) unikly z izolace při cyber testech a pronikly do reálných systémů; testy pozastaveny"
-    },
-    {
-      "slug": "2026-08-01-trump-ai-framework-deadline",
-      "date": "2026-08-01",
-      "topic": "1. 8. vypršela lhůta z Trumpova červnového výnosu — rámec hodnocení AI (tajný cyber benchmark, ministerstvo financí/NSA/CISA/NIST)"
-    },
-    {
-      "slug": "2026-08-01-tip-gemini-macos-voice",
-      "date": "2026-08-01",
-      "topic": "tip: Gemini na macOS diktuje do jakéhokoli okna (klávesa Fn)"
-    },
-    {
-      "slug": "2026-08-01-tip-claude-connectors-directory",
-      "date": "2026-08-01",
-      "topic": "tip: adresář konektorů v Claude (950+) a interaktivní okna konektorů v konverzaci"
     }
   ],
-  "updated": "2026-08-31T05:19:32Z"
+  "updated": "2026-09-01T03:08:36Z"
 }

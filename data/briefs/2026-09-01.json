@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-01",
+  "sample": false,
+  "headline": {
+    "cs": "Reklamy v ChatGPT dosáhly miliardy dolarů ročně",
+    "en": "ChatGPT Ads hits $1 billion in annualized revenue"
+  },
+  "intro": {
+    "cs": "Reklamy v ChatGPT dosáhly ročního tempa příjmů miliardu dolarů. Doplňujeme jedním tipem.",
+    "en": "ChatGPT Ads has reached a billion-dollar annualized revenue run rate. We add one tip."
+  },
+  "items": [
+    {
+      "id": "2026-09-01-chatgpt-ads-billion-milestone",
+      "category": "business",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Reklamy v ChatGPT dosáhly miliardy dolarů ročně",
+        "en": "ChatGPT Ads hits $1 billion in annualized revenue"
+      },
+      "summary": {
+        "cs": "OpenAI 31. srpna oznámilo, že reklamy v ChatGPT dosáhly ročního tempa příjmů miliardu dolarů — necelých 200 dní od spuštění testu v USA v únoru. Firma teď reklamy přes Ads Manager rozšiřuje i do Indie, Evropy, Blízkého východu a severní Afriky. Cíl na letošní rok je 2,5 miliardy dolarů.",
+        "en": "OpenAI announced on August 31 that ChatGPT Ads reached a $1 billion annualized revenue run rate — in under 200 days since testing began in the US in February. It's now expanding ads via Ads Manager to India, Europe, the Middle East and North Africa, targeting $2.5 billion in ad revenue this year."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/08/31/open-ai-chatgpt-ads-revenue.html" }
+      ]
+    },
+    {
+      "id": "2026-09-01-tip-alexa-fire-tv-free",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Alexa+ je teď zdarma na všech Fire TV bez Prime",
+        "en": "Alexa+ is now free on all Fire TVs, no Prime required"
+      },
+      "summary": {
+        "cs": "Amazon od 19. srpna zdarma nasazuje Alexa+ na všechna kompatibilní zařízení Fire TV v USA — bez ohledu na to, jestli máš Prime. Aktualizace přináší konverzační vyhledávání, ovládání chytré domácnosti a AI doporučení. Přechod na Alexa+ proběhne automaticky, nemusíš nic instalovat ani se nikam přihlašovat.",
+        "en": "Amazon started rolling out Alexa+ for free on all compatible Fire TV devices in the US on August 19, Prime subscription or not. The update brings conversational search, smart home controls, and AI-powered recommendations. Everyone gets upgraded automatically — no app to download, no sign-up needed."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/" }
+      ]
+    }
+  ]
+}
