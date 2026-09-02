@@ -1681,6 +1681,28 @@
       ],
       "added": "2026-09-01",
       "used": "2026-09-01"
+    },
+    {
+      "slug": "tip-chatgpt-live-lock-screen",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": false,
+      "title": {
+        "cs": "Hlasový rozhovor s ChatGPT teď uvidíš na uzamčené obrazovce",
+        "en": "ChatGPT voice chats now show on your lock screen"
+      },
+      "summary": {
+        "cs": "ChatGPT od začátku září umí ukázat probíhající hlasový rozhovor přímo na uzamčené obrazovce iPhonu a v Dynamic Islandu. V nastavení hlasu stačí zapnout Background Conversations a povídat si s ChatGPT dál i s vypnutou obrazovkou nebo v jiné appce, konverzace zůstane vidět a dostupná.",
+        "en": "Since early September, ChatGPT can show an ongoing voice conversation right on your iPhone's lock screen and in the Dynamic Island. Turn on Background Conversations in Voice settings, and you can keep talking to ChatGPT with the screen off or another app open — the conversation stays visible and accessible."
+      },
+      "sources": [
+        {
+          "name": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "added": "2026-09-02",
+      "used": "2026-09-02"
     }
   ]
 }

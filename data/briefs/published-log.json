@@ -1,6 +1,36 @@
 {
   "published": [
     {
+      "slug": "2026-09-02-claude-fable-mythos-5-1",
+      "date": "2026-09-02",
+      "topic": "Anthropic 1.9. vydalo Claude Fable 5.1 a Mythos 5.1 (navazuje na červnovou 5.0 řadu); mid-conversation effort dial, provenance tracking, cache -75%"
+    },
+    {
+      "slug": "2026-09-02-pentagon-genai-mil-chatgpt-grok",
+      "date": "2026-09-02",
+      "topic": "Pentagon 31.8. přidal ChatGPT Mil a Grok pro vládu vedle Gemini na GenAI.mil (3M lidí, 1,7M zaregistrováno); Grok nasazen bez zveřejnění interního zjištění o neřešitelném CSAM riziku"
+    },
+    {
+      "slug": "2026-09-02-google-android-drop-gemini-guided-vision",
+      "date": "2026-09-02",
+      "topic": "Google 1.9. zářijový Android Drop — Gemini Guided Vision pro nevidomé, Find Hub pamatuje věci bez čipu (fotka), Messages sdílené seznamy"
+    },
+    {
+      "slug": "2026-09-02-anthropic-lambda-nvidia-texas-deal",
+      "date": "2026-09-02",
+      "topic": "Anthropic 31.8. podepsalo 2. mega-dohodu tento týden — 35 mld. USD/6 let s Lambda (Nvidia-backed) za 350MW v Beacon Point, Texas (po 45mld. s Nscale)"
+    },
+    {
+      "slug": "2026-09-02-metr-security-incident-disclosure",
+      "date": "2026-09-02",
+      "topic": "METR 31.8. přiznalo 2 kyberútoky z 2026 (březen: ukradený API klíč, ~600k USD kreditů; květen: neúspěšný pokus o data přes odkrytý endpoint), žádná citlivá data neunikla"
+    },
+    {
+      "slug": "2026-09-02-tip-chatgpt-live-lock-screen",
+      "date": "2026-09-02",
+      "topic": "tip: ChatGPT od začátku září ukáže hlasový rozhovor na uzamčené obrazovce iPhonu a v Dynamic Islandu (Background Conversations)"
+    },
+    {
       "slug": "2026-09-01-chatgpt-ads-billion-milestone",
       "date": "2026-09-01",
       "topic": "OpenAI 31.8. oznámilo, že ChatGPT Ads dosáhly ročního tempa 1 mld. USD (za necelých 200 dní); rozšíření do Indie/Evropy/MENA přes Ads Manager, cíl 2,5 mld. za rok"
@@ -479,27 +509,7 @@
       "slug": "2026-08-03-tip-gemini-avatar-images",
       "date": "2026-08-03",
       "topic": "tip: vlastní avatar do vygenerovaných obrázků v Gemini"
-    },
-    {
-      "slug": "2026-08-02-deepseek-v4-flash",
-      "date": "2026-08-02",
-      "topic": "DeepSeek vydal levný kódovací model V4 Flash — blízko Opus 4.8, na Areně frontend kód nad ním; 28 centů vs. 25 USD za stejný výstup"
-    },
-    {
-      "slug": "2026-08-02-tip-chatgpt-memory-dreaming",
-      "date": "2026-08-02",
-      "topic": "tip: nová paměť ChatGPT (Plus/Pro v USA, další země a plány postupně)"
-    },
-    {
-      "slug": "2026-08-02-tip-copilot-excel-autosave",
-      "date": "2026-08-02",
-      "topic": "tip: Copilot v Excelu funguje i bez zapnutého automatického ukládání"
-    },
-    {
-      "slug": "2026-08-02-tip-gemini-app-linking",
-      "date": "2026-08-02",
-      "topic": "tip: propojení Gemini s aplikacemi (Dropbox, Zillow Rentals, Viator)"
     }
   ],
-  "updated": "2026-09-01T03:08:36Z"
+  "updated": "2026-09-02T03:10:18Z"
 }

@@ -1,0 +1,116 @@
+{
+  "date": "2026-09-02",
+  "sample": false,
+  "headline": {
+    "cs": "Anthropic vydal Claude Fable 5.1 a Mythos 5.1",
+    "en": "Anthropic releases Claude Fable 5.1 and Mythos 5.1"
+  },
+  "intro": {
+    "cs": "Anthropic vydalo nové modely Fable 5.1 a Mythos 5.1. Doplňujeme jedním tipem.",
+    "en": "Anthropic released new Fable 5.1 and Mythos 5.1 models. We add one tip."
+  },
+  "items": [
+    {
+      "id": "2026-09-02-claude-fable-mythos-5-1",
+      "category": "models",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Anthropic vydal Claude Fable 5.1 a Mythos 5.1",
+        "en": "Anthropic releases Claude Fable 5.1 and Mythos 5.1"
+      },
+      "summary": {
+        "cs": "Anthropic 1. září vydalo Claude Fable 5.1 a Mythos 5.1, navazující na červnovou řadu Fable/Mythos 5. Fable 5.1 je veřejně dostupný, Mythos 5.1 jen přes prověřené programy pro kybernetickou bezpečnost a biovědy. Umí za běhu měnit úsilí modelu uprostřed konverzace a nově značí původ výstupů. Ceny čtení z cache klesly o 75 %.",
+        "en": "Anthropic released Claude Fable 5.1 and Mythos 5.1 on September 1, building on the Fable/Mythos 5 lineage from June. Fable 5.1 is generally available; Mythos 5.1 only through vetted cybersecurity and life-sciences access programs. Both let you adjust the model's effort mid-conversation and now tag output provenance. Cache-read prices dropped 75%."
+      },
+      "sources": [
+        { "name": "Anthropic", "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1" },
+        { "name": "9to5Mac", "url": "https://9to5mac.com/2026/09/01/anthropic-upgrades-claude-with-new-fable-5-1-model-details-here/" }
+      ]
+    },
+    {
+      "id": "2026-09-02-pentagon-genai-mil-chatgpt-grok",
+      "category": "policy",
+      "verified": true,
+      "title": {
+        "cs": "Pentagon přidal ChatGPT a Grok na platformu GenAI.mil",
+        "en": "Pentagon adds ChatGPT and Grok to GenAI.mil platform"
+      },
+      "summary": {
+        "cs": "Ministerstvo obrany USA 31. srpna spustilo na platformě GenAI.mil vedle Gemini i ChatGPT Mil a Grok pro vládu — dosah má 3 miliony vojenských i civilních zaměstnanců, 1,7 milionu se už zaregistrovalo. Nasazení Groku ale podle zpráv proběhlo bez veřejného zveřejnění zjištění vlastních inženýrů, že riziko zneužití k CSAM obsahu nejde spolehlivě odstranit.",
+        "en": "The US Department of War switched on ChatGPT Mil and Grok for Government alongside Gemini on the GenAI.mil platform on August 31 — reaching 3 million military and civilian personnel, 1.7 million already signed up. Grok's rollout reportedly happened without publicly disclosing its own engineers' finding that CSAM-generation risk has no reliable fix."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/" },
+        { "name": "DefenseScoop", "url": "https://defensescoop.com/2026/08/31/grok-chatgpt-added-to-genai-mil/" }
+      ]
+    },
+    {
+      "id": "2026-09-02-google-android-drop-gemini-guided-vision",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Gemini pomůže nevidomým i najde ztracené věci bez čipu",
+        "en": "Gemini helps blind users and finds untagged lost items"
+      },
+      "summary": {
+        "cs": "Google 1. září v rámci zářijové aktualizace Androidu spustil Guided Vision — Gemini teď pomůže nevidomým a slabozrakým přečíst drobný text, objednat si v šeru z menu nebo poznat věci kolem sebe s hlasovým vedením. Find Hub si navíc zapamatuje polohu věcí i bez čipu, stačí přidat fotku. Google Messages umí sdílené seznamy.",
+        "en": "Google rolled out Guided Vision in its September Android Drop on September 1 — Gemini now helps blind and low-vision users read fine print, order from a dim restaurant menu, or identify objects with voice guidance. Find Hub can also remember where you put untagged items with a photo; Google Messages gained shared lists."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/" },
+        { "name": "9to5Google", "url": "https://9to5google.com/2026/09/01/september-2026-android-drop/" }
+      ]
+    },
+    {
+      "id": "2026-09-02-anthropic-lambda-nvidia-texas-deal",
+      "category": "business",
+      "verified": true,
+      "title": {
+        "cs": "Anthropic uzavřel druhou mega-dohodu o výkonu za 35 miliard",
+        "en": "Anthropic signs second mega compute deal, this time for $35B"
+      },
+      "summary": {
+        "cs": "Anthropic 31. srpna podepsalo šestiletou smlouvu na 35 miliard dolarů s Lambda, poskytovatelem podporovaným Nvidií — jde o 350 megawattů výkonu z datacentra Beacon Point v texaském Nueces County, které staví Hut 8 na pozemku Nvidie. Je to už druhá mega-dohoda tento týden po 45 miliardách dolarů se společností Nscale.",
+        "en": "Anthropic signed a six-year, $35 billion deal with Lambda, a cloud provider backed by Nvidia, on August 31 — covering 350 megawatts from the Beacon Point data center in Nueces County, Texas, which Hut 8 is building on Nvidia-leased land. It's Anthropic's second mega compute deal this week, after the $45 billion Nscale agreement."
+      },
+      "sources": [
+        { "name": "Forbes", "url": "https://www.forbes.com/sites/jonmarkman/2026/09/01/anthropic-books-35-billion-to-nvidia-backed-lambda-for-cloud-capacity/" },
+        { "name": "TechXplore", "url": "https://techxplore.com/news/2026-09-anthropic-35b-startup-nvidia.html" }
+      ]
+    },
+    {
+      "id": "2026-09-02-metr-security-incident-disclosure",
+      "category": "research",
+      "verified": true,
+      "title": {
+        "cs": "AI hodnotitel METR přiznal dva kybernetické útoky",
+        "en": "AI evaluator METR discloses two cyberattacks"
+      },
+      "summary": {
+        "cs": "METR, nezisková organizace hodnotící bezpečnostní rizika předních AI modelů, 31. srpna přiznala dva útoky z letošního roku. V březnu útočník ukradl API klíč a týdny nepozorovaně čerpal kredity za zhruba 600 tisíc dolarů, v květnu se někdo neúspěšně pokusil dostat k datům přes omylem odkrytý endpoint. Citlivá data podle METR unikla nebyla.",
+        "en": "METR, the nonprofit that evaluates frontier AI models for safety, disclosed two 2026 cyberattacks on August 31. In March, an attacker stole an API key and drained roughly $600,000 in credits over weeks unnoticed; in May, someone unsuccessfully tried reaching internal data through an exposed endpoint. No sensitive data was accessed, METR said."
+      },
+      "sources": [
+        { "name": "METR", "url": "https://metr.org/blog/2026-08-31-security-update/" },
+        { "name": "The Register", "url": "https://www.theregister.com/security/2026/09/01/attacker-stole-a-metr-api-key-used-600k-worth-of-credits-and-no-one-noticed-for-weeks/5293730" }
+      ]
+    },
+    {
+      "id": "2026-09-02-tip-chatgpt-live-lock-screen",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Hlasový rozhovor s ChatGPT teď uvidíš na uzamčené obrazovce",
+        "en": "ChatGPT voice chats now show on your lock screen"
+      },
+      "summary": {
+        "cs": "ChatGPT od začátku září umí ukázat probíhající hlasový rozhovor přímo na uzamčené obrazovce iPhonu a v Dynamic Islandu. V nastavení hlasu stačí zapnout Background Conversations a povídat si s ChatGPT dál i s vypnutou obrazovkou nebo v jiné appce, konverzace zůstane vidět a dostupná.",
+        "en": "Since early September, ChatGPT can show an ongoing voice conversation right on your iPhone's lock screen and in the Dynamic Island. Turn on Background Conversations in Voice settings, and you can keep talking to ChatGPT with the screen off or another app open — the conversation stays visible and accessible."
+      },
+      "sources": [
+        { "name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes" }
+      ]
+    }
+  ]
+}
