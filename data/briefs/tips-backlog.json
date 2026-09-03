@@ -1703,6 +1703,32 @@
       ],
       "added": "2026-09-02",
       "used": "2026-09-02"
+    },
+    {
+      "slug": "tip-gemini-interactive-visualizations",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "Gemini teď umí i interaktivní 3D vizualizace v chatu",
+        "en": "Gemini can now generate interactive 3D visualizations in chat"
+      },
+      "summary": {
+        "cs": "Gemini od 24. srpna umí místo statického textu a obrázků vytvořit rovnou funkční interaktivní vizualizaci — třeba si necháš ukázat stavbu DNA a pak si ji v prohlížeči otočíš a přiblížíš. Stačí požádat „ukaž mi“ nebo „pomoz mi vizualizovat“ u složitějšího tématu. Dostupné pro Workspace i jednotlivé předplatitele.",
+        "en": "Since August 24, Gemini can turn a question into a functional, interactive visualization instead of static text — ask it to show you DNA's structure, and you can rotate and zoom into it right in the browser. Just ask Gemini to 'show me' or 'help me visualize' something complex. Available to Workspace and individual subscribers."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/google-gemini-now-generates-interactive-visualizations-you-can-tweak-and-explore-right-in-the-chat/"
+        }
+      ],
+      "added": "2026-09-03",
+      "used": "2026-09-03"
     }
   ]
 }

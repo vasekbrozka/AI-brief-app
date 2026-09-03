@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-03",
+  "sample": false,
+  "headline": {
+    "cs": "Astra od OpenAI překročil kritickou hranici v kybernetice",
+    "en": "OpenAI's Astra crosses critical cybersecurity threshold"
+  },
+  "intro": {
+    "cs": "Nevydaný model Astra od OpenAI jako první překročil kritickou hranici kybernetických schopností. Doplňujeme jedním tipem.",
+    "en": "OpenAI's unreleased Astra model is the first to cross a critical cybersecurity capability threshold. We add one tip."
+  },
+  "items": [
+    {
+      "id": "2026-09-03-openai-astra-critical-cyber-threshold",
+      "category": "research",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Astra od OpenAI překročil kritickou hranici v kybernetice",
+        "en": "OpenAI's Astra crosses critical cybersecurity threshold"
+      },
+      "summary": {
+        "cs": "OpenAI oznámilo, že jeho nevydaný model Astra jako první překročil „kritickou“ hranici kybernetických schopností podle jejich rámce Preparedness — dokázal samostatně, bez lidské pomoci najít a využít dvě dosud neznámé zranitelnosti (zero-day). Firma kvůli tomu pozastavila část vývoje a přidala silnější pojistky, než model vydá dál.",
+        "en": "OpenAI announced that its unreleased Astra model is the first to cross the 'Critical' cybersecurity threshold under its Preparedness Framework — autonomously finding and exploiting two previously unknown zero-day vulnerabilities without human help. The company paused parts of Astra's development to add stronger safeguards before releasing it further."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/index/path-to-astra/" },
+        { "name": "SecurityWeek", "url": "https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/" }
+      ]
+    },
+    {
+      "id": "2026-09-03-lutnick-trusts-anthropic",
+      "category": "policy",
+      "verified": true,
+      "title": {
+        "cs": "Ministr Lutnick: Vládě už Anthropic zase věří",
+        "en": "Commerce Secretary: administration trusts Anthropic again"
+      },
+      "summary": {
+        "cs": "Americký ministr obchodu Howard Lutnick 1. září v rozhovoru pro Axios řekl, že Trumpova administrativa Anthropicu znovu věří — firma prý splnila, co po ní vláda chtěla, a je „opět na správné straně“. Výrok padl na summitu G20 pro inovace v Severní Karolíně, pár dní po soudní prohře Pentagonu ve sporu s Anthropicem.",
+        "en": "US Commerce Secretary Howard Lutnick told Axios on September 1 that the Trump administration trusts Anthropic again — the company has done what was asked of it and is 'back on the right side,' he said. The comment came at the G20 Innovation Ministerial in North Carolina, days after Anthropic's court win against the Pentagon."
+      },
+      "sources": [
+        { "name": "Axios", "url": "https://www.axios.com/2026/09/02/lutnick-anthropic-trump" },
+        { "name": "Forbes", "url": "https://www.forbes.com/sites/saradorn/2026/09/02/anthropic-back-on-trumps-right-side-lutnick-says/" }
+      ],
+      "followsUp": {
+        "date": "2026-08-30",
+        "id": "2026-08-30-anthropic-pentagon-ruling",
+        "title": {
+          "cs": "Soud: Pentagon nezákonně potrestal Anthropic za odmítnutí",
+          "en": "Judge rules Pentagon's blacklisting of Anthropic was illegal"
+        }
+      }
+    },
+    {
+      "id": "2026-09-03-claude-commerce-agent-blueprint",
+      "category": "business",
+      "verified": true,
+      "title": {
+        "cs": "Anthropic spustil nástroje pro AI nákupní agenty",
+        "en": "Anthropic launches blueprints for AI shopping agents"
+      },
+      "summary": {
+        "cs": "Anthropic 2. září představilo blueprint pro obchodní agenty na Claude — hotové vzory a pojistky, díky kterým tým rozjede nákupního nebo obchodnického agenta za pár dní. Shopify, Priceline i další firmy je už nasazují, Accenture, Mastercard a Visa je zabudují do vlastních produktů. U jednoho partnera to zvedlo velikost košíku o 30-35 %.",
+        "en": "Anthropic unveiled a commerce agent blueprint for Claude on September 2 — ready-made patterns and guardrails that get a shopping or merchant agent running in days. Shopify and Priceline are already deploying it, while Accenture, Mastercard and Visa plan to build it into their products. One partner saw cart size grow 30-35%."
+      },
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/claude-for-commerce-agents" },
+        { "name": "Digital Commerce 360", "url": "https://www.digitalcommerce360.com/2026/09/02/anthropic-debuts-claude-features-focused-on-agentic-commerce/" }
+      ]
+    },
+    {
+      "id": "2026-09-03-sony-warner-chappell-sue-anthropic",
+      "category": "policy",
+      "verified": true,
+      "title": {
+        "cs": "Sony Music a Warner Chappell žalují Anthropic i zakladatele",
+        "en": "Sony Music and Warner Chappell sue Anthropic and its founders"
+      },
+      "summary": {
+        "cs": "Sony Music Publishing a Warner Chappell 31. srpna žalovaly Anthropic za autorská práva k písním — osobně jmenovaly i šéfa Daria Amodeie a spoluzakladatele Benjamina Manna, žádají až 150 tisíc dolarů za skladbu. Podle žaloby Anthropic desetitisíce písní vzal z pirátských archivů jako Library Genesis. Anthropic obvinění odmítá.",
+        "en": "Sony Music Publishing and Warner Chappell sued Anthropic over song lyrics on August 31, naming CEO Dario Amodei and co-founder Benjamin Mann personally and seeking up to $150,000 per composition. The suit alleges Anthropic pulled tens of thousands of songs from piracy archives like Library Genesis. Anthropic denies the claims."
+      },
+      "sources": [
+        { "name": "Music Business Worldwide", "url": "https://www.musicbusinessworldwide.com/now-sony-music-publishing-and-warner-chappell-sue-anthropic-in-multi-billion-dollar-lawsuit-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history/" },
+        { "name": "Fortune", "url": "https://fortune.com/2026/09/01/anthropic-warner-sony-music-songs-lawsuit/" }
+      ]
+    },
+    {
+      "id": "2026-09-03-gemini-3-8-flash",
+      "category": "models",
+      "verified": true,
+      "title": {
+        "cs": "Google DeepMind představil Gemini 3.8 Flash",
+        "en": "Google DeepMind unveils Gemini 3.8 Flash"
+      },
+      "summary": {
+        "cs": "Google DeepMind 2. září představilo Gemini 3.8 Flash, jen tři týdny po verzi 3.7 — hlavní změnou je méně upovídaný výstup, model je zaměřený na kódování. Interně ho testovali proti Anthropic Opus na vlastním nástroji Jetski a nový model si oblíbili víc. Dostupný je v appce Gemini, AI Studiu i přes API.",
+        "en": "Google DeepMind unveiled Gemini 3.8 Flash on September 2, just three weeks after version 3.7 — mainly a refinement cutting verbose output, geared toward coding. Engineers internally tested it against Anthropic's Opus on their Jetski tool and preferred the new model. It's available in the Gemini app, AI Studio, and via the API."
+      },
+      "sources": [
+        { "name": "Google DeepMind", "url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/" },
+        { "name": "9to5Google", "url": "https://9to5google.com/2026/09/02/gemini-3-8-flash-launch/" }
+      ]
+    },
+    {
+      "id": "2026-09-03-tip-gemini-interactive-visualizations",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Gemini teď umí i interaktivní 3D vizualizace v chatu",
+        "en": "Gemini can now generate interactive 3D visualizations in chat"
+      },
+      "summary": {
+        "cs": "Gemini od 24. srpna umí místo statického textu a obrázků vytvořit rovnou funkční interaktivní vizualizaci — třeba si necháš ukázat stavbu DNA a pak si ji v prohlížeči otočíš a přiblížíš. Stačí požádat „ukaž mi“ nebo „pomoz mi vizualizovat“ u složitějšího tématu. Dostupné pro Workspace i jednotlivé předplatitele.",
+        "en": "Since August 24, Gemini can turn a question into a functional, interactive visualization instead of static text — ask it to show you DNA's structure, and you can rotate and zoom into it right in the browser. Just ask Gemini to 'show me' or 'help me visualize' something complex. Available to Workspace and individual subscribers."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/" },
+        { "name": "The Decoder", "url": "https://the-decoder.com/google-gemini-now-generates-interactive-visualizations-you-can-tweak-and-explore-right-in-the-chat/" }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,36 @@
 {
   "published": [
     {
+      "slug": "2026-09-03-openai-astra-critical-cyber-threshold",
+      "date": "2026-09-03",
+      "topic": "OpenAI oznámilo, že nevydaný Astra jako první překročil kritickou hranici kybernetických schopností (Preparedness) — sám našel a využil 2 zero-day; vývoj pozastaven kvůli pojistkám"
+    },
+    {
+      "slug": "2026-09-03-lutnick-trusts-anthropic",
+      "date": "2026-09-03",
+      "topic": "ministr obchodu Lutnick 1.9. (Axios): administrativa Anthropicu zase věří, „zpátky na správné straně“ — pár dní po soudní prohře Pentagonu"
+    },
+    {
+      "slug": "2026-09-03-claude-commerce-agent-blueprint",
+      "date": "2026-09-03",
+      "topic": "Anthropic 2.9. spustilo blueprint pro nákupní/obchodní agenty na Claude (Shopify, Priceline, Accenture, Mastercard, Visa); +30-35% velikost košíku u partnera"
+    },
+    {
+      "slug": "2026-09-03-sony-warner-chappell-sue-anthropic",
+      "date": "2026-09-03",
+      "topic": "Sony Music Publishing + Warner Chappell 31.8. žalují Anthropic i osobně Amodeie a Manna za autorská práva k písním (piráctví, LibGen), až 150k USD/skladba"
+    },
+    {
+      "slug": "2026-09-03-gemini-3-8-flash",
+      "date": "2026-09-03",
+      "topic": "Google DeepMind 2.9. představilo Gemini 3.8 Flash (3 týdny po 3.7) — refinement, méně upovídaný výstup, zaměřený na kódování"
+    },
+    {
+      "slug": "2026-09-03-tip-gemini-interactive-visualizations",
+      "date": "2026-09-03",
+      "topic": "tip: Gemini od 24.8. vytvoří interaktivní 3D vizualizace přímo v chatu (např. otočitelná DNA struktura) místo statického textu"
+    },
+    {
       "slug": "2026-09-02-claude-fable-mythos-5-1",
       "date": "2026-09-02",
       "topic": "Anthropic 1.9. vydalo Claude Fable 5.1 a Mythos 5.1 (navazuje na červnovou 5.0 řadu); mid-conversation effort dial, provenance tracking, cache -75%"
@@ -489,27 +519,7 @@
       "slug": "2026-08-04-tip-copilot-excel-theme",
       "date": "2026-08-04",
       "topic": "tip: Copilot v Excelu sladí vzhled tabulky (barvy, grafy, rozvržení), rollout v srpnu"
-    },
-    {
-      "slug": "2026-08-03-eu-ai-act-high-risk-delay",
-      "date": "2026-08-03",
-      "topic": "pravidla AI Actu pro vysoce rizikovou AI měla platit od 2. 8. 2026, EU je po tlaku průmyslu odložila o 16 měsíců na 2. 12. 2027"
-    },
-    {
-      "slug": "2026-08-03-open-weight-manifesto-war-update",
-      "date": "2026-08-03",
-      "topic": "spor o otevřené váhy: Huang sehnal pod dopis Metu/Microsoft/Google/OpenAI, Anthropic stranou — Amodei chce povinné bezpečnostní testy a kontrolu čipů"
-    },
-    {
-      "slug": "2026-08-03-tip-claude-agent-skills",
-      "date": "2026-08-03",
-      "topic": "tip: dovednosti Claude nově v doplňcích Excelu a PowerPointu + adresář partnerských dovedností (červenec; základ Skills je starší)"
-    },
-    {
-      "slug": "2026-08-03-tip-gemini-avatar-images",
-      "date": "2026-08-03",
-      "topic": "tip: vlastní avatar do vygenerovaných obrázků v Gemini"
     }
   ],
-  "updated": "2026-09-02T03:10:18Z"
+  "updated": "2026-09-03T03:11:06Z"
 }
