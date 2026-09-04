@@ -1729,6 +1729,28 @@
       ],
       "added": "2026-09-03",
       "used": "2026-09-03"
+    },
+    {
+      "slug": "tip-copilot-teams-recap-translation",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": false,
+      "title": {
+        "cs": "Souhrn schůzky v Teams uvidíš rovnou ve svém jazyce",
+        "en": "Teams meeting recaps now show in your own language"
+      },
+      "summary": {
+        "cs": "Teams od srpna umí každému účastníkovi ukázat souhrn schůzky rovnou v jazyce, který si zvolil pro titulky nebo tlumočníka během hovoru — a jazyk jde po vygenerování i změnit. Když někdo poslouchal německou schůzku s francouzskými titulky, dostane souhrn nejdřív francouzsky. Funkce patří k Teams Premium a Microsoft 365 Copilot licenci.",
+        "en": "Since August, Teams shows each participant's meeting recap in the language they picked for captions or the interpreter during the call — and you can switch it afterward too. Someone who followed a German meeting with French captions gets their recap in French first. Requires Teams Premium and a Microsoft 365 Copilot license."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Support",
+          "url": "https://support.microsoft.com/en-us/teams/meetings/multilingual-speech-recognition-in-microsoft-teams"
+        }
+      ],
+      "added": "2026-09-04",
+      "used": "2026-09-04"
     }
   ]
 }

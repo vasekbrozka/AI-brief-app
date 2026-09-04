@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-03T03:11:06Z",
+  "updated": "2026-09-04T03:07:52Z",
   "briefs": [
+    {
+      "date": "2026-09-04",
+      "headline": {
+        "cs": "OpenAI spustilo GPT-6 Astra",
+        "en": "OpenAI launches GPT-6 Astra"
+      },
+      "itemCount": 3
+    },
     {
       "date": "2026-09-03",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "UK stars demand legal protection for their voices"
       },
       "itemCount": 5
-    },
-    {
-      "date": "2026-08-28",
-      "headline": {
-        "cs": "Anthropic si smluvil výkon za 45 miliard dolarů",
-        "en": "Anthropic strikes $45 billion computing power deal"
-      },
-      "itemCount": 8
     }
   ]
 }

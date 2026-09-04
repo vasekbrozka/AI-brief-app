@@ -1,6 +1,21 @@
 {
   "published": [
     {
+      "slug": "2026-09-04-gpt-6-astra-launch",
+      "date": "2026-09-04",
+      "topic": "OpenAI 3.9. začalo vydávat GPT-6 Astra (1. model 6. generace, nahrazuje GPT-5.6 Sol) — zatím jen Daybreak (kyberobrana), ostatní plány v příštích dnech, cena $10/$50 za milion tokenů"
+    },
+    {
+      "slug": "2026-09-04-chatgpt-health-epic-integration",
+      "date": "2026-09-04",
+      "topic": "OpenAI 1.9. propojilo ChatGPT pro zdravotnictví s Epic (325M+ pacientů) — jen ke čtení, 99,1% odpovědí hodnoceno jako bezpečné (4363 hodnocení)"
+    },
+    {
+      "slug": "2026-09-04-tip-copilot-teams-recap-translation",
+      "date": "2026-09-04",
+      "topic": "tip: Teams od srpna ukáže souhrn schůzky v jazyce zvoleném pro titulky/tlumočníka, jde změnit i po vygenerování (Teams Premium + M365 Copilot)"
+    },
+    {
       "slug": "2026-09-03-openai-astra-critical-cyber-threshold",
       "date": "2026-09-03",
       "topic": "OpenAI oznámilo, že nevydaný Astra jako první překročil kritickou hranici kybernetických schopností (Preparedness) — sám našel a využil 2 zero-day; vývoj pozastaven kvůli pojistkám"
@@ -504,22 +519,7 @@
       "slug": "2026-08-05-tip-copilot-notebooks-markdown",
       "date": "2026-08-05",
       "topic": "tip: Copilot Notebooks přijímají markdown jako zdroj (srpnový rollout)"
-    },
-    {
-      "slug": "2026-08-04-palantir-karp-frontier-labs",
-      "date": "2026-08-04",
-      "topic": "Karp (Palantir) po silném Q2 znovu útočí na velké AI laby — firmy prý platí za migraci vlastního know-how do cizích modelů"
-    },
-    {
-      "slug": "2026-08-04-chatgpt-atlas-shutdown-update",
-      "date": "2026-08-04",
-      "topic": "připomínka: prohlížeč ChatGPT Atlas končí 9. 8., agentní schopnosti se stěhují do ChatGPT a Codexu (update k 15. 7.)"
-    },
-    {
-      "slug": "2026-08-04-tip-copilot-excel-theme",
-      "date": "2026-08-04",
-      "topic": "tip: Copilot v Excelu sladí vzhled tabulky (barvy, grafy, rozvržení), rollout v srpnu"
     }
   ],
-  "updated": "2026-09-03T03:11:06Z"
+  "updated": "2026-09-04T03:07:52Z"
 }

@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-04",
+  "sample": false,
+  "headline": {
+    "cs": "OpenAI spustilo GPT-6 Astra",
+    "en": "OpenAI launches GPT-6 Astra"
+  },
+  "intro": {
+    "cs": "OpenAI spustilo GPT-6 Astra, první model šesté generace. Doplňujeme jedním tipem.",
+    "en": "OpenAI launched GPT-6 Astra, its first sixth-generation model. We add one tip."
+  },
+  "items": [
+    {
+      "id": "2026-09-04-gpt-6-astra-launch",
+      "category": "models",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "OpenAI spustilo GPT-6 Astra",
+        "en": "OpenAI launches GPT-6 Astra"
+      },
+      "summary": {
+        "cs": "OpenAI 3. září začalo vydávat GPT-6 Astra — první model šesté generace, nahrazuje na špičce nabídky GPT-5.6 Sol. Zatím ho mají jen organizace v programu Daybreak pro kyberobranu, předplatitelé Plus/Pro/Business/Enterprise i API ho dostanou v příštích dnech. Cena zůstává 10 dolarů za milion vstupních a 50 za milion výstupních tokenů.",
+        "en": "OpenAI began rolling out GPT-6 Astra on September 3 — the first sixth-generation model, replacing GPT-5.6 Sol atop its lineup. For now it's only available to cyber-defense organizations in the Daybreak program; Plus, Pro, Business and Enterprise subscribers get access in the coming days. Pricing stays at $10/$50 per million tokens."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html" },
+        { "name": "SiliconANGLE", "url": "https://siliconangle.com/2026/09/03/openai-starts-rolling-out-its-next-generation-gpt-6-astra-model/" }
+      ],
+      "followsUp": {
+        "date": "2026-09-03",
+        "id": "2026-09-03-openai-astra-critical-cyber-threshold",
+        "title": {
+          "cs": "Astra od OpenAI překročil kritickou hranici v kybernetice",
+          "en": "OpenAI's Astra crosses critical cybersecurity threshold"
+        }
+      }
+    },
+    {
+      "id": "2026-09-04-chatgpt-health-epic-integration",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT pro zdravotnictví se propojil s Epic",
+        "en": "ChatGPT Health connects to Epic health records"
+      },
+      "summary": {
+        "cs": "OpenAI 1. září umožnilo zdravotnickým zařízením propojit ChatGPT pro zdravotnictví s Epic, systémem záznamů pro přes 325 milionů pacientů. Lékaři v chatu jen ke čtení uvidí historii pacienta i změny od minulé návštěvy — nic se nezapisuje zpět do karty. Ve 4363 hodnoceních označili 99,1 % odpovědí za bezpečné.",
+        "en": "OpenAI let healthcare organizations connect ChatGPT for Healthcare to Epic on September 1 — the records system covering over 325 million patients. Clinicians get read-only access to a patient's history in chat and can spot changes since a prior visit; nothing writes back to the chart. Physicians rated 99.1% of 4,363 responses safe."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/" },
+        { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-brings-epic-health-records-to-chatgpt-for-clinicians/" }
+      ]
+    },
+    {
+      "id": "2026-09-04-tip-copilot-teams-recap-translation",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Souhrn schůzky v Teams uvidíš rovnou ve svém jazyce",
+        "en": "Teams meeting recaps now show in your own language"
+      },
+      "summary": {
+        "cs": "Teams od srpna umí každému účastníkovi ukázat souhrn schůzky rovnou v jazyce, který si zvolil pro titulky nebo tlumočníka během hovoru — a jazyk jde po vygenerování i změnit. Když někdo poslouchal německou schůzku s francouzskými titulky, dostane souhrn nejdřív francouzsky. Funkce patří k Teams Premium a Microsoft 365 Copilot licenci.",
+        "en": "Since August, Teams shows each participant's meeting recap in the language they picked for captions or the interpreter during the call — and you can switch it afterward too. Someone who followed a German meeting with French captions gets their recap in French first. Requires Teams Premium and a Microsoft 365 Copilot license."
+      },
+      "sources": [
+        { "name": "Microsoft Support", "url": "https://support.microsoft.com/en-us/teams/meetings/multilingual-speech-recognition-in-microsoft-teams" }
+      ]
+    }
+  ]
+}
