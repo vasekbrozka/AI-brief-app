@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-04T03:07:52Z",
+  "updated": "2026-09-05T03:10:53Z",
   "briefs": [
+    {
+      "date": "2026-09-05",
+      "headline": {
+        "cs": "Kongres navrhl zákon proti nezvladatelným AI agentům",
+        "en": "Congress bill targets rogue AI agents"
+      },
+      "itemCount": 5
+    },
     {
       "date": "2026-09-04",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Judge rules Pentagon illegally targeted Anthropic"
       },
       "itemCount": 2
-    },
-    {
-      "date": "2026-08-29",
-      "headline": {
-        "cs": "Britské hvězdy žádají zákonnou ochranu hlasu",
-        "en": "UK stars demand legal protection for their voices"
-      },
-      "itemCount": 5
     }
   ]
 }

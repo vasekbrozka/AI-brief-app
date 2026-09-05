@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-05",
+  "sample": false,
+  "headline": {
+    "cs": "Kongres navrhl zákon proti nezvladatelným AI agentům",
+    "en": "Congress bill targets rogue AI agents"
+  },
+  "intro": {
+    "cs": "Kongres navrhl zákon na zvládnutí nezvladatelných AI agentů po průniku do Hugging Face. Doplňujeme jedním tipem.",
+    "en": "Congress introduced a bill to rein in rogue AI agents after the Hugging Face breach. We add one tip."
+  },
+  "items": [
+    {
+      "id": "2026-09-05-stop-rogue-ai-act",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Kongres navrhl zákon proti nezvladatelným AI agentům",
+        "en": "Congress introduces bill to rein in rogue AI agents"
+      },
+      "summary": {
+        "cs": "Zákonodárci Gottheimer a Lawler 3. září představili Stop Rogue AI Act — reakci na letošní průnik AI agentů OpenAI do Hugging Face. Návrh by NIST uložil vytvořit do roka standardy pro bezpečné nasazení AI agentů a firmám povinnost vést průběžný, strojově čitelný soupis všech svých agentů i nezfalšovatelné záznamy jejich činnosti.",
+        "en": "Lawmakers Gottheimer and Lawler introduced the Stop Rogue AI Act on September 3, responding to this year's OpenAI-agent breach of Hugging Face. The bill gives NIST a year to develop standards for securely deploying AI agents and requires companies to keep a continuous, machine-readable inventory of their agents and tamper-proof activity logs."
+      },
+      "sources": [
+        { "name": "Axios", "url": "https://www.axios.com/2026/09/03/house-bill-ai-agents-security" },
+        { "name": "Congressman Mike Lawler", "url": "https://lawler.house.gov/news/documentsingle.aspx?DocumentID=6424" }
+      ],
+      "followsUp": {
+        "date": "2026-08-27",
+        "id": "2026-08-27-openai-hugging-face-report",
+        "title": {
+          "cs": "OpenAI zveřejnilo zprávu o průniku do Hugging Face",
+          "en": "OpenAI publishes its report on the Hugging Face breach"
+        }
+      }
+    },
+    {
+      "id": "2026-09-05-crusoe-30-billion-funding",
+      "category": "business",
+      "verified": true,
+      "title": {
+        "cs": "Crusoe ztrojnásobilo hodnotu na 30 miliard dolarů",
+        "en": "Crusoe triples its valuation to $30 billion"
+      },
+      "summary": {
+        "cs": "Crusoe, firma stavějící datacentra pro AI, 3. září uzavřelo kolo přes 3 miliardy dolarů při hodnotě kolem 30 miliard — vedly ho Atreides Management a Valor Equity Partners, zapojil se i Mubadala Capital. Hodnota se tak ztrojnásobila oproti loňskému říjnu, kdy Crusoe vybralo 1,38 miliardy při hodnotě 10 miliard.",
+        "en": "Crusoe, an AI data-center builder, closed a round of over $3 billion on September 3 at roughly a $30 billion valuation — led by Atreides Management and Valor Equity Partners, with Mubadala Capital also joining. That's triple its valuation from last October, when Crusoe raised $1.38 billion at a $10 billion valuation."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/" },
+        { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-03/crusoe-raises-over-3-billion-in-funding-at-30-billion-valuation" }
+      ]
+    },
+    {
+      "id": "2026-09-05-microsoft-mai-transcribe-2",
+      "category": "models",
+      "verified": true,
+      "title": {
+        "cs": "Microsoft vydal levný a rychlý přepis řeči MAI-Transcribe-2",
+        "en": "Microsoft launches fast, cheap MAI-Transcribe-2 speech model"
+      },
+      "summary": {
+        "cs": "Microsoft AI 3. září vydalo MAI-Transcribe-2 — model na přepis řeči v 60 jazycích za 10 centů na hodinu audia do konce roku. Podle vlastních testů je nejpřesnější na benchmarku FLEURS (chybovost 5,2 %) a zároveň desetkrát rychlejší i levnější než konkurence od OpenAI, Googlu a ElevenLabs.",
+        "en": "Microsoft AI released MAI-Transcribe-2 on September 3 — a speech-to-text model covering 60 languages for 10 cents per hour of audio through year-end. The company says it tops the FLEURS accuracy benchmark with a 5.2% word-error rate while running ten times faster and cheaper than rivals from OpenAI, Google, and ElevenLabs."
+      },
+      "sources": [
+        { "name": "Microsoft", "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/mai-transcribe-2-highest-quality-transcription-at-the-fastest-speed-and-lowest-c/4550972" },
+        { "name": "eWeek", "url": "https://www.eweek.com/news/microsoft-10-cent-ai-transcription-mai-transcribe-2/" }
+      ]
+    },
+    {
+      "id": "2026-09-05-humain-m3-saudi-arabic-model",
+      "category": "opensource",
+      "verified": true,
+      "title": {
+        "cs": "Saúdský model pro arabštinu staví na čínském MiniMaxu",
+        "en": "Saudi Arabic model is built on China's open MiniMax"
+      },
+      "summary": {
+        "cs": "Saúdská firma HUMAIN 3. září na konferenci LEAP v Rijádu představila humain-m3 — model pro arabštinu s 428 miliardami parametrů, dotrénovaný na bilionu arabských tokenů nad otevřenou čínskou MiniMax-M3. Podle vlastních testů dosáhl 89,4 % napříč sedmi benchmarky, před GPT-5.6 Sol i Opus 5. Blízký spojenec USA tak staví na čínském základu.",
+        "en": "Saudi firm HUMAIN unveiled humain-m3 at LEAP in Riyadh on September 3 — a 428-billion-parameter Arabic model trained on a trillion Arabic tokens atop China's open MiniMax-M3. Its tests put it at 89.4% across seven benchmarks, ahead of GPT-5.6 Sol and Opus 5 — a US ally building national AI on a Chinese base."
+      },
+      "sources": [
+        { "name": "Unite.AI", "url": "https://www.unite.ai/pif-backed-humain-launches-humain-m3-arabic-model-at-leap-riyadh/" },
+        { "name": "Al-Monitor", "url": "https://www.al-monitor.com/originals/2026/09/saudi-arabia-taps-chinas-minimax-arabic-ai-model" }
+      ]
+    },
+    {
+      "id": "2026-09-05-tip-chatgpt-google-workspace-sidebyside",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT teď umí pracovat s Google soubory vedle konverzace",
+        "en": "ChatGPT can now work with Google files alongside your chat"
+      },
+      "summary": {
+        "cs": "ChatGPT od 3. září umí nechat otevřený Google dokument, tabulku nebo prezentaci přímo vedle konverzace, zatímco ho žádáš o shrnutí, rozbor, srovnání nebo něco nového. Jde vybrat i celou složku a nechat ChatGPT pracovat napříč všemi soubory v ní. Zatím pro Plus, Pro, Enterprise, Edu, zdravotnictví a firemní účty.",
+        "en": "Since September 3, ChatGPT can keep a Google Doc, Sheet, or Slide deck open beside the conversation while you ask it to summarize, analyze, compare, or build something new. You can also pick a whole folder and have ChatGPT work across every file inside. Rolling out to Plus, Pro, Enterprise, Edu, and Business accounts."
+      },
+      "sources": [
+        { "name": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes" }
+      ]
+    }
+  ]
+}

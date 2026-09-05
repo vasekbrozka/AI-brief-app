@@ -1751,6 +1751,28 @@
       ],
       "added": "2026-09-04",
       "used": "2026-09-04"
+    },
+    {
+      "slug": "tip-chatgpt-google-workspace-sidebyside",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": false,
+      "title": {
+        "cs": "ChatGPT teď umí pracovat s Google soubory vedle konverzace",
+        "en": "ChatGPT can now work with Google files alongside your chat"
+      },
+      "summary": {
+        "cs": "ChatGPT od 3. září umí nechat otevřený Google dokument, tabulku nebo prezentaci přímo vedle konverzace, zatímco ho žádáš o shrnutí, rozbor, srovnání nebo něco nového. Jde vybrat i celou složku a nechat ChatGPT pracovat napříč všemi soubory v ní. Zatím pro Plus, Pro, Enterprise, Edu, zdravotnictví a firemní účty.",
+        "en": "Since September 3, ChatGPT can keep a Google Doc, Sheet, or Slide deck open beside the conversation while you ask it to summarize, analyze, compare, or build something new. You can also pick a whole folder and have ChatGPT work across every file inside. Rolling out to Plus, Pro, Enterprise, Edu, and Business accounts."
+      },
+      "sources": [
+        {
+          "name": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "added": "2026-09-05",
+      "used": "2026-09-05"
     }
   ]
 }

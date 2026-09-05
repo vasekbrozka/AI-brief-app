@@ -1,6 +1,31 @@
 {
   "published": [
     {
+      "slug": "2026-09-05-stop-rogue-ai-act",
+      "date": "2026-09-05",
+      "topic": "poslanci Gottheimer+Lawler 3.9. navrhli Stop Rogue AI Act (reakce na HF průnik) — NIST standardy do roka, povinný strojově čitelný soupis AI agentů a nezfalšovatelné logy"
+    },
+    {
+      "slug": "2026-09-05-crusoe-30-billion-funding",
+      "date": "2026-09-05",
+      "topic": "Crusoe (AI datacentra) 3.9. uzavřelo kolo 3+ mld. USD při hodnotě ~30 mld. (Atreides, Valor, Mubadala) — ztrojnásobení oproti říjnu 2025 (10 mld.)"
+    },
+    {
+      "slug": "2026-09-05-microsoft-mai-transcribe-2",
+      "date": "2026-09-05",
+      "topic": "Microsoft AI 3.9. vydalo MAI-Transcribe-2 (60 jazyků, $0,10/hod, FLEURS chybovost 5,2%) — 10x rychlejší/levnější než OpenAI/Google/ElevenLabs"
+    },
+    {
+      "slug": "2026-09-05-humain-m3-saudi-arabic-model",
+      "date": "2026-09-05",
+      "topic": "saúdská HUMAIN 3.9. na LEAP Riyadh představila humain-m3 (428B parametrů, arabština, staví na čínské otevřené MiniMax-M3) — 89,4% na 7 benchmarcích"
+    },
+    {
+      "slug": "2026-09-05-tip-chatgpt-google-workspace-sidebyside",
+      "date": "2026-09-05",
+      "topic": "tip: ChatGPT od 3.9. umí otevřít Google Doc/Sheet/Slide vedle konverzace + pracovat napříč celou složkou"
+    },
+    {
       "slug": "2026-09-04-gpt-6-astra-launch",
       "date": "2026-09-04",
       "topic": "OpenAI 3.9. začalo vydávat GPT-6 Astra (1. model 6. generace, nahrazuje GPT-5.6 Sol) — zatím jen Daybreak (kyberobrana), ostatní plány v příštích dnech, cena $10/$50 za milion tokenů"
@@ -504,22 +529,7 @@
       "slug": "2026-08-06-tip-copilot-excel-powerbi",
       "date": "2026-08-06",
       "topic": "tip: Copilot v Excelu analyzuje připojený report z Power BI"
-    },
-    {
-      "slug": "2026-08-05-alibaba-qwen38-max",
-      "date": "2026-08-05",
-      "topic": "Alibaba představila Qwen3.8-Max (2,4 bil. parametrů, MoE), akcie +6 %, otevřené váhy příští týden; vlastní testy vs. Artificial Analysis se rozcházejí"
-    },
-    {
-      "slug": "2026-08-05-apple-openai-probe-widens-update",
-      "date": "2026-08-05",
-      "topic": "Apple rozšířila vyšetřování kolem OpenAI na dalších 11 bývalých zaměstnanců, žádá předběžné opatření; OpenAI popírá (update k žalobě z 10. 7.)"
-    },
-    {
-      "slug": "2026-08-05-tip-copilot-notebooks-markdown",
-      "date": "2026-08-05",
-      "topic": "tip: Copilot Notebooks přijímají markdown jako zdroj (srpnový rollout)"
     }
   ],
-  "updated": "2026-09-04T03:07:52Z"
+  "updated": "2026-09-05T03:10:53Z"
 }
