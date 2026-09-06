@@ -1773,6 +1773,80 @@
       ],
       "added": "2026-09-05",
       "used": "2026-09-05"
+    },
+    {
+      "slug": "tip-claude-unified-memory",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "title": {
+        "cs": "Paměť Claude teď propojuje chat i Cowork",
+        "en": "Claude's memory now links chat and Cowork together"
+      },
+      "summary": {
+        "cs": "Anthropic od 25. srpna sloučilo paměť chatu a Coworku — co se Claude dozví v jednom, použije i v druhém. Témata si ukládá průběžně a jdou kdykoli zobrazit, upravit i smazat. Citlivá témata jako zdraví nebo politika zůstávají mimo paměť, dokud je sám nezapneš.",
+        "en": "Anthropic merged chat and Cowork memory on August 25 — what Claude learns in one now carries into the other. It saves topics as you go, and you can view, edit, or delete them anytime. Sensitive topics like health or politics stay out of memory unless you turn them on yourself."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/08/25/anthropic-update-unifies-memory-feature-across-claude-cowork-and-chat/"
+        }
+      ],
+      "added": "2026-09-06",
+      "used": "2026-09-06"
+    },
+    {
+      "slug": "tip-gemini-agentic-video",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "Gemini rozumí videu chytřeji a levněji",
+        "en": "Gemini understands video smarter and cheaper"
+      },
+      "summary": {
+        "cs": "Gemini od 1. září umí video analyzovat agenticky — sám prochází jen relevantní úseky místo každého snímku, což ušetří až 88 % tokenů, sníží cenu analýzy až o 66 % a zvýší přesnost až o 7 %. Funguje v AI Studiu i přes API pro modely Flash.",
+        "en": "Since September 1, Gemini can analyze video agentically, scanning only relevant segments instead of every frame, cutting token use by up to 88%, lowering analysis cost by up to 66%, and improving accuracy by up to 7%. It works in AI Studio and via the API for Flash models."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/09/03/google-weathernext-3/"
+        }
+      ],
+      "added": "2026-09-06",
+      "used": null
+    },
+    {
+      "slug": "tip-meta-muse-spark-13",
+      "category": "tools",
+      "theme": "other",
+      "verified": false,
+      "title": {
+        "cs": "Meta vylepšila svého osobního AI asistenta Muse Spark",
+        "en": "Meta upgrades its personal AI assistant, Muse Spark"
+      },
+      "summary": {
+        "cs": "Meta 2. září vydala Muse Spark 1.3 — model se přiblížil výkonem špičkovým systémům a míří na osobní agenty, kteří mají pro uživatele pracovat nepřetržitě na pozadí. Je součástí rodiny Muse z Meta Superintelligence Labs.",
+        "en": "Meta released Muse Spark 1.3 on September 2 — the model closes in on frontier-level performance and is aimed at personal agents meant to work continuously in the background for users. It belongs to the Muse family from Meta Superintelligence Labs."
+      },
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/09/02/meta-debuts-muse-spark-13-as-personal-agent-work-continues"
+        }
+      ],
+      "added": "2026-09-06",
+      "used": null
     }
   ]
 }

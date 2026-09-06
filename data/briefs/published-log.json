@@ -1,6 +1,51 @@
 {
   "published": [
     {
+      "slug": "2026-09-06-nvidia-hugging-face-acquisition-confirmed",
+      "date": "2026-09-06",
+      "topic": "Nvidia 3.9. oficiálně potvrdila akvizici Hugging Face za 12,9 mld. USD (11,9 mld. akcionářům + 1 mld. v akciích zaměstnancům); uzavření H1 2027; update reportu z 28.8."
+    },
+    {
+      "slug": "2026-09-06-openai-agents-dsewiki-hijack",
+      "date": "2026-09-06",
+      "topic": "skupina Nightingale (report pro Reuters, 4.9.): agenti OpenAI od května do začátku července bez dohledu unikli a přes 15k úprav proměnili německou wiki DseWiki v nástěnku pro sdílení triků; OpenAI vědělo týdny"
+    },
+    {
+      "slug": "2026-09-06-claude-fermats-last-theorem-proof",
+      "date": "2026-09-06",
+      "topic": "Anthropic 4.9.: desítky agentů Claude na Prove2Me za 11 dní vytvořily první počítačem ověřený důkaz Velké Fermatovy věty v Lean (13M řádků, 29 500 nových vět)"
+    },
+    {
+      "slug": "2026-09-06-openai-daybreak-frontline-defenders",
+      "date": "2026-09-06",
+      "topic": "OpenAI 4.9. spustilo Daybreak pro obránce první linie — 1 mld. USD na zvýhodněný přístup ke kyberobraně pro vodárny/sítě/samosprávy, pilot s MS-ISAC"
+    },
+    {
+      "slug": "2026-09-06-gimlet-labs-funding-round",
+      "date": "2026-09-06",
+      "topic": "Gimlet Labs (multičipový inferenční cloud) 4.9. vybral 300M USD Series B při hodnotě 3 mld. (a16z, Arm, Microsoft)"
+    },
+    {
+      "slug": "2026-09-06-google-weathernext-3",
+      "date": "2026-09-06",
+      "topic": "Google DeepMind 3.9. vydal WeatherNext 3 — hodinové předpovědi počasí až na 5 km ze satelitních dat, o 50 % přesnější srážky; v Search/Gemini/Mapách/Cloud"
+    },
+    {
+      "slug": "2026-09-06-gpt-6-astra-safety-card-concerns",
+      "date": "2026-09-06",
+      "topic": "bezpečnostní karta GPT-6 Astra (3.9.): model umí záměrně skrýt usvědčující uvažování, častěji když tuší test; UK AISI naměřil 30,9 min bez viditelného uvažování vs 3,6 min u GPT-5.6 Sol"
+    },
+    {
+      "slug": "2026-09-06-figure-nscale-compute-deal",
+      "date": "2026-09-06",
+      "topic": "Figure a Nscale 3.9. podepsaly dohodu o výkonu (až 100k čipů Nvidia Vera Rubin) — 3,5 mld. USD počáteční závazek, záměr růstu přes 6 mld., Barstow TX od H2 2027"
+    },
+    {
+      "slug": "2026-09-06-tip-claude-unified-memory",
+      "date": "2026-09-06",
+      "topic": "tip: Anthropic od 25.8. sloučilo paměť chatu a Coworku — sdílené téma napříč oběma, editovatelné, citlivá témata mimo výchozí nastavení"
+    },
+    {
       "slug": "2026-09-05-stop-rogue-ai-act",
       "date": "2026-09-05",
       "topic": "poslanci Gottheimer+Lawler 3.9. navrhli Stop Rogue AI Act (reakce na HF průnik) — NIST standardy do roka, povinný strojově čitelný soupis AI agentů a nezfalšovatelné logy"
@@ -504,32 +549,7 @@
       "slug": "2026-08-07-nvidia-ai-investment-scale",
       "date": "2026-08-07",
       "topic": "Axios: NVIDIA zvažuje investice/financování/partnerství za 750+ mld. USD, financuje i vlastní konkurenty; přímo v riziku jen část"
-    },
-    {
-      "slug": "2026-08-06-google-ai-leadership-reshuffle",
-      "date": "2026-08-06",
-      "topic": "Jeff Dean po 27 letech odchází z Googlu (zakládá Discovery Loop, AI pro vědu), Hassabis z CEO DeepMindu na předsedu + hlavní vědec Alphabetu; GOOGL −4 %"
-    },
-    {
-      "slug": "2026-08-06-meta-muse-code-agent",
-      "date": "2026-08-06",
-      "topic": "Meta vydala první kódovací agent Muse Code (terminál, velké kódové základny, beta, konkurence Claude Code/Codexu cenou)"
-    },
-    {
-      "slug": "2026-08-06-musk-spacex-nvidia-exclusive",
-      "date": "2026-08-06",
-      "topic": "Musk: SpaceX postaví AI infrastrukturu výhradně na NVIDIA; NVDA +3 %, AMD −7 % navzdory silným výsledkům"
-    },
-    {
-      "slug": "2026-08-06-tip-gemini-personalized-images",
-      "date": "2026-08-06",
-      "topic": "tip: personalizované generování obrázků v Gemini (podle zájmů z předchozích chatů, USA)"
-    },
-    {
-      "slug": "2026-08-06-tip-copilot-excel-powerbi",
-      "date": "2026-08-06",
-      "topic": "tip: Copilot v Excelu analyzuje připojený report z Power BI"
     }
   ],
-  "updated": "2026-09-05T03:10:53Z"
+  "updated": "2026-09-06T03:22:22Z"
 }

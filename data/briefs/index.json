@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-05T03:10:53Z",
+  "updated": "2026-09-06T03:22:22Z",
   "briefs": [
+    {
+      "date": "2026-09-06",
+      "headline": {
+        "cs": "Nvidia potvrdila koupi Hugging Face",
+        "en": "Nvidia confirms Hugging Face acquisition"
+      },
+      "itemCount": 9
+    },
     {
       "date": "2026-09-05",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Anthropic warns malware is hijacking Claude sessions"
       },
       "itemCount": 5
-    },
-    {
-      "date": "2026-08-30",
-      "headline": {
-        "cs": "Soud: Pentagon nezákonně potrestal Anthropic",
-        "en": "Judge rules Pentagon illegally targeted Anthropic"
-      },
-      "itemCount": 2
     }
   ]
 }
