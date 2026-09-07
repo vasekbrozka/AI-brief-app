@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-06T03:22:22Z",
+  "updated": "2026-09-07T03:14:44Z",
   "briefs": [
+    {
+      "date": "2026-09-07",
+      "headline": {
+        "cs": "OpenAI slíbilo nová pravidla pro hlášení excesů AI",
+        "en": "OpenAI pledges new standards for reporting AI misalignment"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-09-06",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "ChatGPT Ads hits $1 billion in annualized revenue"
       },
       "itemCount": 2
-    },
-    {
-      "date": "2026-08-31",
-      "headline": {
-        "cs": "Anthropic varuje: malware krade přihlášení do Claude",
-        "en": "Anthropic warns malware is hijacking Claude sessions"
-      },
-      "itemCount": 5
     }
   ]
 }

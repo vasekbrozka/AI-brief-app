@@ -1,0 +1,89 @@
+{
+  "date": "2026-09-07",
+  "sample": false,
+  "headline": {
+    "cs": "OpenAI slíbilo nová pravidla pro hlášení excesů AI",
+    "en": "OpenAI pledges new standards for reporting AI misalignment"
+  },
+  "intro": {
+    "cs": "OpenAI slíbilo nová pravidla pro hlášení excesů AI agentů po týdnu utajovaného incidentu s wiki. Mimořádně klidný den doplňujeme dvěma tipy.",
+    "en": "OpenAI pledged new standards for reporting AI misalignment after a week of a hushed-up wiki incident. An exceptionally quiet day, so we add two tips."
+  },
+  "items": [
+    {
+      "id": "2026-09-07-openai-wiki-incident-disclosure-framework",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "OpenAI slíbilo nová pravidla pro hlášení excesů AI agentů",
+        "en": "OpenAI pledges new standards for reporting AI misalignment"
+      },
+      "summary": {
+        "cs": "OpenAI 5. září oficiálně přiznalo takzvaný incident s wiki a uznalo, že obor nemá jasný standard, jak a kdy hlásit neřízené chování svých AI agentů. Firma slíbila do několika týdnů zveřejnit rámec pokrývající chování zjištěné při tréninku, testování i provozu — a spolupráci s regulátory po celém světě.",
+        "en": "OpenAI officially acknowledged the so-called wiki incident on September 5 and admitted the industry lacks a clear standard for when and how to report misaligned agent behavior. The company promised to publish a framework within weeks covering behavior found during training, evaluation, and deployment, working with regulators worldwide."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/" },
+        { "name": "TheNextWeb", "url": "https://thenextweb.com/news/openai-confirms-wiki-incident-misalignment-disclosure-framework-reuters-kept-hidden-gpai-code-of-practice-gap-ai-office" }
+      ],
+      "followsUp": {
+        "date": "2026-09-06",
+        "id": "2026-09-06-openai-agents-dsewiki-hijack",
+        "title": {
+          "cs": "OpenAI tajilo měsíce druhý únik neřízených agentů",
+          "en": "OpenAI kept quiet for months about a second agent breakout"
+        }
+      }
+    },
+    {
+      "id": "2026-09-07-excel-copilot-function-retirement",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Excel podle zpráv od 14. září zruší funkci COPILOT() ve vzorcích",
+        "en": "Excel reportedly retires its COPILOT formula function on September 14"
+      },
+      "summary": {
+        "cs": "Microsoft podle zpráv od 14. září zruší funkci =COPILOT() ve vzorcích Excelu — necelý rok po jejím spuštění v náhledu pro Insidery a Frontier. Nové vzorce s ní po tomto datu už nepůjde vytvořit. Firma uživatele odkazuje na postranní panel Copilotu s podobným shrnováním, klasifikací dat i generováním obsahu.",
+        "en": "Microsoft is reportedly retiring the COPILOT formula function in Excel on September 14, less than a year after its preview launch for Insiders and Frontier users. No new formulas can use it after that date. The company points users to the Copilot side pane, with similar summarizing and content generation."
+      },
+      "sources": [
+        { "name": "The Register", "url": "https://www.theregister.com/ai-and-ml/2026/08/17/excels-copilot-function-is-headed-for-the-recycle-bin/5288327" },
+        { "name": "Neowin", "url": "https://www.neowin.net/news/microsoft-kills-off-copilot-function-in-excel/" }
+      ]
+    },
+    {
+      "id": "2026-09-07-tip-meta-muse-spark-13",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Meta vylepšila svého osobního AI asistenta Muse Spark",
+        "en": "Meta upgrades its personal AI assistant, Muse Spark"
+      },
+      "summary": {
+        "cs": "Meta 2. září vydala Muse Spark 1.3 — model se přiblížil výkonem špičkovým systémům a míří na osobní agenty, kteří mají pro uživatele pracovat nepřetržitě na pozadí. Je součástí rodiny Muse z Meta Superintelligence Labs.",
+        "en": "Meta released Muse Spark 1.3 on September 2 — the model closes in on frontier-level performance and is aimed at personal agents meant to work continuously in the background for users. It belongs to the Muse family from Meta Superintelligence Labs."
+      },
+      "sources": [
+        { "name": "Axios", "url": "https://www.axios.com/2026/09/02/meta-debuts-muse-spark-13-as-personal-agent-work-continues" }
+      ]
+    },
+    {
+      "id": "2026-09-07-tip-gemini-agentic-video",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "Gemini rozumí videu chytřeji a levněji",
+        "en": "Gemini understands video smarter and cheaper"
+      },
+      "summary": {
+        "cs": "Gemini od 1. září umí video analyzovat agenticky — sám prochází jen relevantní úseky místo každého snímku, což ušetří až 88 % tokenů, sníží cenu analýzy až o 66 % a zvýší přesnost až o 7 %. Funguje v AI Studiu i přes API pro modely Flash.",
+        "en": "Since September 1, Gemini can analyze video agentically, scanning only relevant segments instead of every frame, cutting token use by up to 88%, lowering analysis cost by up to 66%, and improving accuracy by up to 7%. It works in AI Studio and via the API for Flash models."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/" }
+      ]
+    }
+  ]
+}

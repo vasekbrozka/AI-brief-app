@@ -1804,7 +1804,7 @@
       "slug": "tip-gemini-agentic-video",
       "category": "tools",
       "theme": "gemini",
-      "verified": true,
+      "verified": false,
       "title": {
         "cs": "Gemini rozumí videu chytřeji a levněji",
         "en": "Gemini understands video smarter and cheaper"
@@ -1817,14 +1817,10 @@
         {
           "name": "Google",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"
-        },
-        {
-          "name": "9to5Google",
-          "url": "https://9to5google.com/2026/09/03/google-weathernext-3/"
         }
       ],
       "added": "2026-09-06",
-      "used": null
+      "used": "2026-09-07"
     },
     {
       "slug": "tip-meta-muse-spark-13",
@@ -1846,6 +1842,32 @@
         }
       ],
       "added": "2026-09-06",
+      "used": "2026-09-07"
+    },
+    {
+      "slug": "tip-gemini-spark-photos",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "Gemini Spark teď spravuje i tvoje Fotky Google",
+        "en": "Gemini Spark can now manage your Google Photos"
+      },
+      "summary": {
+        "cs": "Gemini Spark od 3. září umí ve Fotkách Google vyhledávat a třídit snímky podle tématu, místa nebo data, upravovat je, vytvářet alba a sdílet je přes propojené aplikace jako Gmail nebo Zprávy. Zatím pro předplatitele Google AI Pro a Ultra v USA, nová alba jsou ve výchozím stavu soukromá.",
+        "en": "Since September 3, Gemini Spark can search and sort Google Photos by subject, place, or date, edit images, build albums, and share them through connected apps like Gmail or Messages. Currently for Google AI Pro and Ultra subscribers in the US, with new albums private by default."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/09/03/gemini-spark-google-photos/"
+        }
+      ],
+      "added": "2026-09-07",
       "used": null
     }
   ]
