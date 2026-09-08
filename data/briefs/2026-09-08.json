@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-08",
+  "sample": false,
+  "headline": {
+    "cs": "AI navržený lék poprvé zvrátil biologické stárnutí",
+    "en": "AI-designed drug reverses biological aging markers"
+  },
+  "intro": {
+    "cs": "AI navržený lék poprvé v klinické studii prokazatelně zvrátil biologické stárnutí. Další tichý den doplňujeme dvěma tipy.",
+    "en": "An AI-designed drug reversed biological aging markers in a clinical study for the first time. Another quiet day, so we add two tips."
+  },
+  "items": [
+    {
+      "id": "2026-09-08-insilico-rentosertib-aging-reversal",
+      "category": "research",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "AI navržený lék poprvé zvrátil biologické stárnutí v klinické studii",
+        "en": "AI-designed drug reverses biological aging markers in clinical study"
+      },
+      "summary": {
+        "cs": "Insilico Medicine 7. září zveřejnilo v časopise Nature Biotechnology výsledky studie s 42 pacienty — lék rentosertib, navržený jejich AI platformou Pharma.AI pro plicní fibrózu, podle šesti různých hodin biologického stárnutí prokazatelně snížil biologický věk. Jde o první klinický případ, kdy AI navrhla jak cíl léku, tak jeho molekulu.",
+        "en": "Insilico Medicine published results in Nature Biotechnology on September 7 from a 42-patient study of rentosertib, a lung fibrosis drug designed by its Pharma.AI platform, with biological age dropping consistently across six different aging clocks. It is the first clinical case of AI identifying both a drug target and its molecule."
+      },
+      "sources": [
+        { "name": "Insilico Medicine", "url": "https://insilico.com/news/rnt0709261-rentosertib-proteomic-aging-clocks" },
+        { "name": "TheNextWeb", "url": "https://thenextweb.com/news/insilico-rentosertib-proteomic-aging-clocks" }
+      ]
+    },
+    {
+      "id": "2026-09-08-tip-chatgpt-restaurant-reservations",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT teď rezervuje stůl v restauraci za tebe",
+        "en": "ChatGPT can now book your restaurant table for you"
+      },
+      "summary": {
+        "cs": "ChatGPT od 10. srpna umí najít volný termín a rovnou zarezervovat stůl přes OpenTable, Resy nebo Yelp, aniž bys opouštěl konverzaci — stačí popsat, co hledáš, a doladit to doplňujícími dotazy. OpenTable pokrývá svět, Resy a Yelp zatím jen USA a Kanadu.",
+        "en": "Since August 10, ChatGPT can find an open time and book a table through OpenTable, Resy, or Yelp without leaving the conversation — just describe what you want and narrow it down with follow-up questions. OpenTable works worldwide; Resy and Yelp currently cover only the US and Canada."
+      },
+      "sources": [
+        { "name": "Yelp", "url": "https://blog.yelp.com/news/yelp-chatgpt-integration/" },
+        { "name": "Android Authority", "url": "https://www.androidauthority.com/chatgpt-restaurant-reservations-and-waitlists-3696712/" }
+      ]
+    },
+    {
+      "id": "2026-09-08-tip-gemini-spark-photos",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Gemini Spark teď spravuje i tvoje Fotky Google",
+        "en": "Gemini Spark can now manage your Google Photos"
+      },
+      "summary": {
+        "cs": "Gemini Spark od 3. září umí ve Fotkách Google vyhledávat a třídit snímky podle tématu, místa nebo data, upravovat je, vytvářet alba a sdílet je přes propojené aplikace jako Gmail nebo Zprávy. Zatím pro předplatitele Google AI Pro a Ultra v USA, nová alba jsou ve výchozím stavu soukromá.",
+        "en": "Since September 3, Gemini Spark can search and sort Google Photos by subject, place, or date, edit images, build albums, and share them through connected apps like Gmail or Messages. Currently for Google AI Pro and Ultra subscribers in the US, with new albums private by default."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/" },
+        { "name": "9to5Google", "url": "https://9to5google.com/2026/09/03/gemini-spark-google-photos/" }
+      ]
+    }
+  ]
+}

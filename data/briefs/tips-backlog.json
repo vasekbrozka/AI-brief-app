@@ -1868,7 +1868,33 @@
         }
       ],
       "added": "2026-09-07",
-      "used": null
+      "used": "2026-09-08"
+    },
+    {
+      "slug": "tip-chatgpt-restaurant-reservations",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT teď rezervuje stůl v restauraci za tebe",
+        "en": "ChatGPT can now book your restaurant table for you"
+      },
+      "summary": {
+        "cs": "ChatGPT od 10. srpna umí najít volný termín a rovnou zarezervovat stůl přes OpenTable, Resy nebo Yelp, aniž bys opouštěl konverzaci — stačí popsat, co hledáš, a doladit to doplňujícími dotazy. OpenTable pokrývá svět, Resy a Yelp zatím jen USA a Kanadu.",
+        "en": "Since August 10, ChatGPT can find an open time and book a table through OpenTable, Resy, or Yelp without leaving the conversation — just describe what you want and narrow it down with follow-up questions. OpenTable works worldwide; Resy and Yelp currently cover only the US and Canada."
+      },
+      "sources": [
+        {
+          "name": "Yelp",
+          "url": "https://blog.yelp.com/news/yelp-chatgpt-integration/"
+        },
+        {
+          "name": "Android Authority",
+          "url": "https://www.androidauthority.com/chatgpt-restaurant-reservations-and-waitlists-3696712/"
+        }
+      ],
+      "added": "2026-09-08",
+      "used": "2026-09-08"
     }
   ]
 }

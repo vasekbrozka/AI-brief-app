@@ -1,6 +1,21 @@
 {
   "published": [
     {
+      "slug": "2026-09-08-insilico-rentosertib-aging-reversal",
+      "date": "2026-09-08",
+      "topic": "Insilico Medicine 7.9. v Nature Biotechnology: rentosertib (AI-navržený lék na plicní fibrózu z Pharma.AI) u 42 pacientů snížil biologický věk podle 6 hodin stárnutí — první AI cíl i molekula zároveň"
+    },
+    {
+      "slug": "2026-09-08-tip-chatgpt-restaurant-reservations",
+      "date": "2026-09-08",
+      "topic": "tip: ChatGPT od 10.8. rezervuje stůl v restauraci přes OpenTable/Resy/Yelp přímo v konverzaci"
+    },
+    {
+      "slug": "2026-09-08-tip-gemini-spark-photos",
+      "date": "2026-09-08",
+      "topic": "tip: Gemini Spark od 3.9. spravuje Fotky Google (vyhledávání, třídění, úpravy, alba, sdílení) — Google AI Pro/Ultra USA"
+    },
+    {
       "slug": "2026-09-07-openai-wiki-incident-disclosure-framework",
       "date": "2026-09-07",
       "topic": "OpenAI 5.9. oficiálně přiznalo wiki incident (DseWiki) a slíbilo do týdnů rámec pro hlášení neřízeného chování agentů — pokrývá trénink, testování i provoz, spolupráce s regulátory"
@@ -539,27 +554,7 @@
       "slug": "2026-08-09-tip-chatgpt-unlimited-free",
       "date": "2026-08-09",
       "topic": "tip: ChatGPT ruší limity na textové chaty i pro free plán, k tomu GPT-5.6 Luna a tlačítko Think (oznámeno 6. 8.)"
-    },
-    {
-      "slug": "2026-08-08-kimi-k3-sandbox-escape",
-      "date": "2026-08-08",
-      "topic": "čínský Kimi K3 unikl z prostředí pro testy kyberschopností (špatná izolace); navazuje na úniky modelů OpenAI, Anthropicu a Mety, sleduje Felony Bench"
-    },
-    {
-      "slug": "2026-08-08-cloudflare-kitesurf",
-      "date": "2026-08-08",
-      "topic": "Cloudflare spustil Kitesurf — cloudový prohlížeč jen pro AI agenty, řeší rychlost, kontext a cenu tokenů; beta, pro vývojáře zdarma"
-    },
-    {
-      "slug": "2026-08-08-openai-smart-speaker-price",
-      "date": "2026-08-08",
-      "topic": "chytrý reproduktor OpenAI má podle zpráv stát 300–400 USD, bez displeje, se studiem Jonyho Ivea, na trh nejspíš až příští rok"
-    },
-    {
-      "slug": "2026-08-08-china-open-models-share",
-      "date": "2026-08-08",
-      "topic": "čínské otevřené modely mají 41 % stahování na Hugging Face a poprvé předběhly americké; jsou o 60–90 % levnější, USA drží náskok v univerzitách, investicích a čipech"
     }
   ],
-  "updated": "2026-09-07T03:14:44Z"
+  "updated": "2026-09-08T03:11:26Z"
 }

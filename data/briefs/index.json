@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-07T03:14:44Z",
+  "updated": "2026-09-08T03:11:26Z",
   "briefs": [
+    {
+      "date": "2026-09-08",
+      "headline": {
+        "cs": "AI navržený lék poprvé zvrátil biologické stárnutí",
+        "en": "AI-designed drug reverses biological aging markers"
+      },
+      "itemCount": 3
+    },
     {
       "date": "2026-09-07",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Anthropic releases Claude Fable 5.1 and Mythos 5.1"
       },
       "itemCount": 6
-    },
-    {
-      "date": "2026-09-01",
-      "headline": {
-        "cs": "Reklamy v ChatGPT dosáhly miliardy dolarů ročně",
-        "en": "ChatGPT Ads hits $1 billion in annualized revenue"
-      },
-      "itemCount": 2
     }
   ]
 }
