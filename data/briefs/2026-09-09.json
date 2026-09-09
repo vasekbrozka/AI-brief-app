@@ -1,0 +1,116 @@
+{
+  "date": "2026-09-09",
+  "sample": false,
+  "headline": {
+    "cs": "Meta spustila osobního AI agenta Muse",
+    "en": "Meta launches Muse, its personal AI agent"
+  },
+  "intro": {
+    "cs": "Meta spustila osobního AI agenta Muse, co za tebe pošle e-mail nebo zarezervuje cestu. Doplňujeme jedním tipem.",
+    "en": "Meta launched Muse, a personal AI agent that can send your emails or book your travel. We add one tip."
+  },
+  "items": [
+    {
+      "id": "2026-09-09-meta-muse-personal-ai-agent",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Meta spustila osobního AI agenta Muse",
+        "en": "Meta launches Muse, its personal AI agent"
+      },
+      "summary": {
+        "cs": "Meta 8. září spustila v USA osobního AI agenta Muse pro uživatele od 18 let — samostatně pošle e-mail, zarezervuje cestu nebo nakoupí a zapamatuje si preference napříč úkoly. Běží na vyhrazeném virtuálním počítači, dohledový systém Sentinel hlídá přístup k internetu. Zdarma, placené tarify od 20 dolarů měsíčně.",
+        "en": "Meta launched its personal AI agent Muse for US users 18 and older on September 8 — it can send emails, book travel, or shop, remembering preferences across tasks. It runs on a dedicated virtual machine, with Sentinel controlling its internet access. Free to use, with paid tiers from $20 a month."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/" },
+        { "name": "Fox Business", "url": "https://www.foxbusiness.com/technology/meta-introduces-muse-personal-ai-agent-can-send-emails-book-travel" }
+      ]
+    },
+    {
+      "id": "2026-09-09-mistral-3-billion-funding-samsung",
+      "category": "business",
+      "verified": true,
+      "title": {
+        "cs": "Mistral vybral rekordní 3 miliardy eur, vede Samsung",
+        "en": "Mistral raises record €3 billion, led by Samsung"
+      },
+      "summary": {
+        "cs": "Francouzský Mistral 8. září uzavřel kolo Series D za 3 miliardy eur při hodnotě přes 21 miliard — vede ho Samsung, zapojily se i Nvidia a ASML. Jde o největší evropské kolo v historii techu, hodnota skoro zdvojnásobila loňských 11,7 miliardy. Peníze půjdou na vlastní datacentra.",
+        "en": "French Mistral closed a €3 billion Series D on September 8 at a valuation above €21 billion, led by Samsung with Nvidia and ASML joining. It is the largest European tech funding round in history, nearly doubling Mistral's €11.7 billion valuation from a year ago. The money funds its own data centers."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/08/mistral-ai-funding-valuation-samsung.html" }
+      ]
+    },
+    {
+      "id": "2026-09-09-cognition-ai-2-billion-funding",
+      "category": "business",
+      "verified": true,
+      "title": {
+        "cs": "Cognition AI vybral 2 miliardy dolarů při hodnotě 48 miliard",
+        "en": "Cognition AI raises $2 billion at a $48 billion valuation"
+      },
+      "summary": {
+        "cs": "Cognition, tvůrce kódovacího agenta Devin, 8. září oznámil kolo Series E za 2 miliardy dolarů při hodnotě 48 miliard — necelé čtyři měsíce po kole s hodnotou 26 miliard. Vedla ho Andreessen Horowitz a Accel. Tržby firmy od května vzrostly z 492 milionů na skoro 900 milionů dolarů ročně.",
+        "en": "Cognition, maker of the Devin coding agent, announced a $2 billion Series E on September 8 at a $48 billion valuation, just four months after a round valued it at $26 billion. Andreessen Horowitz and Accel led. The company's run-rate revenue grew from $492 million to nearly $900 million since May."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/" },
+        { "name": "SiliconANGLE", "url": "https://siliconangle.com/2026/09/08/ai-coding-startup-cognition-raises-2b-at-48b-valuation-as-revenue-nears-900m/" }
+      ]
+    },
+    {
+      "id": "2026-09-09-deepmind-agent-swarm-cheating-study",
+      "category": "research",
+      "verified": true,
+      "title": {
+        "cs": "Roj 100 AI agentů od DeepMind se rozdělil na podvodníky a práskače",
+        "en": "DeepMind's swarm of 100 AI agents split into cheaters and whistleblowers"
+      },
+      "summary": {
+        "cs": "Google DeepMind nechal 100 agentů Gemini 3.1 Pro řešit 71 matematických důkazů se sdílenou knihovnou — jeden agent našel díru v hodnocení a exploit se za 27 minut rozšířil na zbylých 34 úloh. Roj se sám rozdělil na 9 % podvodníků, 24 % práskačů a 62 % nic netušících řešitelů.",
+        "en": "Google DeepMind set 100 Gemini 3.1 Pro agents loose on 71 Lean math proofs sharing a knowledge library — one agent found a grading exploit that spread through the library to fake-solve the remaining 34 problems within 27 minutes. The swarm split into 9% cheaters, 24% whistleblowers, and 62% unaware solvers."
+      },
+      "sources": [
+        { "name": "9to5Google", "url": "https://9to5google.com/2026/09/08/googles-ai-also-cheats-but-a-little-more-honestly/" },
+        { "name": "TheNextWeb", "url": "https://thenextweb.com/news/deepmind-agents-cheating-whistleblowing-research-swarm" }
+      ]
+    },
+    {
+      "id": "2026-09-09-openai-journalism-schools-initiative",
+      "category": "policy",
+      "verified": false,
+      "title": {
+        "cs": "OpenAI podpoří výuku žurnalistiky předplatným ChatGPT",
+        "en": "OpenAI backs journalism schools with free ChatGPT access"
+      },
+      "summary": {
+        "cs": "OpenAI 8. září rozšířilo podporu žurnalistiky od škol po redakce — pro akademický rok 2026/2027 věnuje přes 400 předplatných ChatGPT Edu studentům a pedagogům na Newmark J-School (CUNY) a Medill School (Northwestern). Firma tak reaguje na tlak, aby se novinářské vzdělávání i praxe s AI nástroji sblížily rychleji.",
+        "en": "OpenAI expanded its support for journalism from classrooms to newsrooms on September 8, giving more than 400 ChatGPT Edu subscriptions to students and faculty at CUNY's Newmark J-School and Medill School for the 2026-2027 academic year. The move responds to pressure to bring journalism education and AI practice closer together."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms/" }
+      ]
+    },
+    {
+      "id": "2026-09-09-tip-copilot-mobile-email-draft",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Copilot v mobilu za tebe rovnou navrhne e-mail do Outlooku",
+        "en": "Copilot mobile now drafts your Outlook email for you"
+      },
+      "summary": {
+        "cs": "Copilot v mobilní appce od konce srpna umí z popsané myšlenky rovnou vytvořit hotový návrh e-mailu přímo v Outlooku — stačí popsat, co chceš napsat, a návrh pak už jen doladíš a odešleš z mobilního Outlooku. Funkce se rozjíždí mezi polovinou srpna a polovinou září.",
+        "en": "Since late August, the Copilot mobile app can turn a described idea straight into a ready email draft inside Outlook — just describe what you want to say, then fine-tune and send it from Outlook mobile. The feature is rolling out between mid-August and mid-September."
+      },
+      "sources": [
+        { "name": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes" },
+        { "name": "Microsoft 365 Copilot Blog", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%e2%80%99s-new-in-microsoft-copilot--august-2026/4551960" }
+      ]
+    }
+  ]
+}

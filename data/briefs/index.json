@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-08T03:11:26Z",
+  "updated": "2026-09-09T03:15:19Z",
   "briefs": [
+    {
+      "date": "2026-09-09",
+      "headline": {
+        "cs": "Meta spustila osobního AI agenta Muse",
+        "en": "Meta launches Muse, its personal AI agent"
+      },
+      "itemCount": 6
+    },
     {
       "date": "2026-09-08",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "Astra od OpenAI překročil kritickou hranici v kybernetice",
         "en": "OpenAI's Astra crosses critical cybersecurity threshold"
-      },
-      "itemCount": 6
-    },
-    {
-      "date": "2026-09-02",
-      "headline": {
-        "cs": "Anthropic vydal Claude Fable 5.1 a Mythos 5.1",
-        "en": "Anthropic releases Claude Fable 5.1 and Mythos 5.1"
       },
       "itemCount": 6
     }

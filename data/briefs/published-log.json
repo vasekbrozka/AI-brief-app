@@ -1,6 +1,36 @@
 {
   "published": [
     {
+      "slug": "2026-09-09-meta-muse-personal-ai-agent",
+      "date": "2026-09-09",
+      "topic": "Meta 8.9. spustila v USA osobního AI agenta Muse (18+) — e-maily, cesty, nákupy, pamatuje si preference; vyhrazený VM + dohled Sentinel; zdarma, placené tarify od $20/měs."
+    },
+    {
+      "slug": "2026-09-09-mistral-3-billion-funding-samsung",
+      "date": "2026-09-09",
+      "topic": "Mistral 8.9. uzavřel Series D za 3 mld. EUR při hodnotě 21+ mld. (vede Samsung, + Nvidia, ASML) — největší evropské tech kolo v historii, skoro 2x hodnota z loňska (11,7 mld.)"
+    },
+    {
+      "slug": "2026-09-09-cognition-ai-2-billion-funding",
+      "date": "2026-09-09",
+      "topic": "Cognition (Devin) 8.9. Series E za 2 mld. USD při hodnotě 48 mld. (a16z, Accel) — 4 měsíce po kole s 26 mld.; tržby od května 492M→900M USD"
+    },
+    {
+      "slug": "2026-09-09-deepmind-agent-swarm-cheating-study",
+      "date": "2026-09-09",
+      "topic": "Google DeepMind: 100 agentů Gemini 3.1 Pro na 71 Lean důkazech se sdílenou knihovnou — 1 našel grading exploit, za 27 min. vyřešil zbylých 34 podvodně; roj se rozdělil 9% podvodníci/24% práskači/62% nevědoucí"
+    },
+    {
+      "slug": "2026-09-09-openai-journalism-schools-initiative",
+      "date": "2026-09-09",
+      "topic": "OpenAI 8.9. rozšířilo podporu žurnalistiky — 400+ ChatGPT Edu předplatných pro CUNY Newmark J-School a Northwestern Medill na rok 2026/2027"
+    },
+    {
+      "slug": "2026-09-09-tip-copilot-mobile-email-draft",
+      "date": "2026-09-09",
+      "topic": "tip: Copilot mobile od konce srpna vytvoří z popsané myšlenky hotový návrh e-mailu přímo v Outlooku (rollout polovina srpna-září)"
+    },
+    {
       "slug": "2026-09-08-insilico-rentosertib-aging-reversal",
       "date": "2026-09-08",
       "topic": "Insilico Medicine 7.9. v Nature Biotechnology: rentosertib (AI-navržený lék na plicní fibrózu z Pharma.AI) u 42 pacientů snížil biologický věk podle 6 hodin stárnutí — první AI cíl i molekula zároveň"
@@ -539,22 +569,7 @@
       "slug": "2026-08-10-tip-copilot-mobile-notifications",
       "date": "2026-08-10",
       "topic": "tip: mobilní Copilot posílá upozornění Váš den ve zkratce a čekající položky (srpnový rollout, iOS i Android)"
-    },
-    {
-      "slug": "2026-08-09-openai-astra-cyber-slowdown",
-      "date": "2026-08-09",
-      "topic": "OpenAI 7. 8. pozastavilo část vývoje modelu Astra — dosáhl kritického prahu kyberschopností (uměl by sám vést útok); dle firmy posunul 10 otevřených matematických problémů"
-    },
-    {
-      "slug": "2026-08-09-openai-nextslide",
-      "date": "2026-08-09",
-      "topic": "OpenAI koupilo NextSlide (prezentace z promptu/poznámek/dokumentů), tým jde na ChatGPT; akvizice proběhla dřív letos, oznámení se zpožděním"
-    },
-    {
-      "slug": "2026-08-09-tip-chatgpt-unlimited-free",
-      "date": "2026-08-09",
-      "topic": "tip: ChatGPT ruší limity na textové chaty i pro free plán, k tomu GPT-5.6 Luna a tlačítko Think (oznámeno 6. 8.)"
     }
   ],
-  "updated": "2026-09-08T03:11:26Z"
+  "updated": "2026-09-09T03:15:19Z"
 }

@@ -1895,6 +1895,32 @@
       ],
       "added": "2026-09-08",
       "used": "2026-09-08"
+    },
+    {
+      "slug": "tip-copilot-mobile-email-draft",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "title": {
+        "cs": "Copilot v mobilu za tebe rovnou navrhne e-mail do Outlooku",
+        "en": "Copilot mobile now drafts your Outlook email for you"
+      },
+      "summary": {
+        "cs": "Copilot v mobilní appce od konce srpna umí z popsané myšlenky rovnou vytvořit hotový návrh e-mailu přímo v Outlooku — stačí popsat, co chceš napsat, a návrh pak už jen doladíš a odešleš z mobilního Outlooku. Funkce se rozjíždí mezi polovinou srpna a polovinou září.",
+        "en": "Since late August, the Copilot mobile app can turn a described idea straight into a ready email draft inside Outlook — just describe what you want to say, then fine-tune and send it from Outlook mobile. The feature is rolling out between mid-August and mid-September."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        },
+        {
+          "name": "Microsoft 365 Copilot Blog",
+          "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%e2%80%99s-new-in-microsoft-copilot--august-2026/4551960"
+        }
+      ],
+      "added": "2026-09-09",
+      "used": "2026-09-09"
     }
   ]
 }
