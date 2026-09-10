@@ -1,6 +1,31 @@
 {
   "published": [
     {
+      "slug": "2026-09-10-apple-watch-ai-ambient-listening-privacy",
+      "date": "2026-09-10",
+      "topic": "Apple 9.9. Watch Series 12/Ultra 4 se Siri Recap (okolní poslech shrne rozhovory bez ukládání zvuku) a Live Rewind (textově posledních 15s); kritika kvůli metadatům o časování/délce"
+    },
+    {
+      "slug": "2026-09-10-chatgpt-images-2-5-launch",
+      "date": "2026-09-10",
+      "topic": "OpenAI 8.9. vydalo ChatGPT Images 2.5 — ostřejší detaily, spolehlivější víceturové úpravy, až -50% rychlost; nový Sketch nástroj + Edit panel (BG removal, resize, erase)"
+    },
+    {
+      "slug": "2026-09-10-harvey-550-million-funding-guardrails",
+      "date": "2026-09-10",
+      "topic": "Harvey (právní AI) 9.9. kolo 550M USD při hodnotě 15,5 mld. (z 11 mld. před 6 měsíci) + akvizice Guardrails AI (4. letos); tržby 400M+/3000+ zákazníků"
+    },
+    {
+      "slug": "2026-09-10-shipt-ai-shopping-assistant",
+      "date": "2026-09-10",
+      "topic": "Shipt (Target) 9.9. spustil Ask Shipt — AI asistent poskládá košík z popisu/receptu/fotky jídla; Instacart spustil podobného asistenta stejný den"
+    },
+    {
+      "slug": "2026-09-10-tip-claude-carplay",
+      "date": "2026-09-10",
+      "topic": "tip: Claude na iPhonu od 4.9. podporuje Apple CarPlay — hands-free hlasový chat z displeje auta, 5. velký chatbot s CarPlay"
+    },
+    {
       "slug": "2026-09-09-meta-muse-personal-ai-agent",
       "date": "2026-09-09",
       "topic": "Meta 8.9. spustila v USA osobního AI agenta Muse (18+) — e-maily, cesty, nákupy, pamatuje si preference; vyhrazený VM + dohled Sentinel; zdarma, placené tarify od $20/měs."
@@ -549,27 +574,7 @@
       "slug": "2026-08-18-brockman-defenders-window",
       "date": "2026-08-18",
       "topic": "esej Grega Brockmana The Defender's Window (17. 8.) — průnik do OpenAI a Hugging Face jako zlom, výzva nasadit bezpečnostní AI agenty hned"
-    },
-    {
-      "slug": "2026-08-10-ai-safety-tests-risk-update",
-      "date": "2026-08-10",
-      "topic": "TechCrunch: testovací prostředí přestávají udržet agenty — úniky z cyber testů u OpenAI, Anthropicu, Mety i Moonshot AI, testuje mj. startup Irregular (update k 8. 8.)"
-    },
-    {
-      "slug": "2026-08-10-situational-awareness-source-foundry",
-      "date": "2026-08-10",
-      "topic": "fond Situational Awareness vložil 400 mil. USD do čipového startupu Source Foundry (stanfordští výzkumníci) — po ztrátě většiny ze 45 mld. koncem července"
-    },
-    {
-      "slug": "2026-08-10-tip-claude-cowork-one-home",
-      "date": "2026-08-10",
-      "topic": "tip: Claude spojil Chat a Cowork do jednoho místa, projekty i artefakty dostupné z obou (5. 8.)"
-    },
-    {
-      "slug": "2026-08-10-tip-copilot-mobile-notifications",
-      "date": "2026-08-10",
-      "topic": "tip: mobilní Copilot posílá upozornění Váš den ve zkratce a čekající položky (srpnový rollout, iOS i Android)"
     }
   ],
-  "updated": "2026-09-09T03:15:19Z"
+  "updated": "2026-09-10T08:41:21Z"
 }

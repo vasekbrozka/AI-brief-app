@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-10",
+  "sample": false,
+  "headline": {
+    "cs": "Apple Watch teď poslouchá a shrnuje rozhovory",
+    "en": "Apple Watch now listens and recaps conversations"
+  },
+  "intro": {
+    "cs": "Nový Apple Watch umí shrnout rozhovory z okolí, což vzbudilo otázky o soukromí. Doplňujeme jedním tipem.",
+    "en": "The new Apple Watch can summarize conversations around you, raising privacy questions. We add one tip."
+  },
+  "items": [
+    {
+      "id": "2026-09-10-apple-watch-ai-ambient-listening-privacy",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Apple Watch teď poslouchá a shrnuje rozhovory, vzbuzuje otázky o soukromí",
+        "en": "Apple Watch now listens and recaps conversations, raising privacy questions"
+      },
+      "summary": {
+        "cs": "Apple 9. září představilo Watch Series 12 a Ultra 4 s funkcí Siri Recap, co pomocí okolního poslechu shrne rozhovory do titulku a klíčových bodů — bez uložení syrového zvuku. Live Rewind na stisk korunky přehraje textově posledních 15 sekund řeči. Kritici upozorňují, že i jen metadata o časování rozhovorů vytvářejí odhalující otisk chování.",
+        "en": "Apple unveiled Watch Series 12 and Ultra 4 on September 9 with Siri Recap, which uses ambient listening to summarize conversations into a title and key points, without storing raw audio. Live Rewind shows the last 15 seconds of speech as text at a press of the Digital Crown. Critics note even timing metadata creates a revealing behavioral fingerprint."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/" },
+        { "name": "MacRumors", "url": "https://www.macrumors.com/2026/09/09/apple-watch-day-summary-tracks-these-activities/" }
+      ]
+    },
+    {
+      "id": "2026-09-10-chatgpt-images-2-5-launch",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT vydal přesnější a rychlejší generátor obrázků Images 2.5",
+        "en": "ChatGPT launches sharper, faster Images 2.5 generator"
+      },
+      "summary": {
+        "cs": "OpenAI 8. září vydalo ChatGPT Images 2.5 — ostřejší detaily, přesnější úpravy podle více pokynů za sebou a až o 50 % rychlejší generování. Nově jde kreslit přímo v ChatGPT jako předlohu a upravovat výsledek přes panel Edit (odstranění pozadí, změna poměru stran, mazání, poznámky). Dostupné všem uživatelům ChatGPT, Work i Codexu.",
+        "en": "OpenAI released ChatGPT Images 2.5 on September 8 — sharper detail, more reliable multi-turn editing, and generation up to 50% faster. A new Sketch tool lets you draw directly in ChatGPT as a reference, and a dedicated Edit toolbar adds background removal, aspect-ratio resizing, erasing, and annotations. Available to all ChatGPT, Work, and Codex users."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/index/introducing-chatgpt-images-2-5/" },
+        { "name": "9to5Mac", "url": "https://9to5mac.com/2026/09/08/openai-releases-chatgpt-images-2-5-with-sharper-details-and-more-precise-editing/" }
+      ]
+    },
+    {
+      "id": "2026-09-10-harvey-550-million-funding-guardrails",
+      "category": "business",
+      "verified": true,
+      "title": {
+        "cs": "Právní AI Harvey vybrala 550 milionů, koupila startup Guardrails AI",
+        "en": "Legal AI firm Harvey raises $550 million, acquires Guardrails AI"
+      },
+      "summary": {
+        "cs": "Harvey, startup na AI pro právníky, 9. září oznámilo kolo za 550 milionů dolarů při hodnotě 15,5 miliardy — necelých šest měsíců po kole s hodnotou 11 miliard. Zároveň koupilo Guardrails AI, bezpečnostní platformu pro AI agenty — už čtvrtou akvizici letos. Roční tržby přesáhly 400 milionů dolarů, zákazníků má přes 3000.",
+        "en": "Harvey, a startup building AI for lawyers, announced a $550 million round on September 9 at a $15.5 billion valuation, less than six months after a round valued it at $11 billion. It also acquired Guardrails AI, an AI-agent security platform, its fourth acquisition this year. Revenue has passed $400 million, with over 3,000 customers."
+      },
+      "sources": [
+        { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-09/legal-ai-startup-harvey-hits-15-6-billion-value-with-550-million-round" },
+        { "name": "TheNextWeb", "url": "https://thenextweb.com/news/harvey-550m-round-15-6bn-guardrails-acquisition" }
+      ]
+    },
+    {
+      "id": "2026-09-10-shipt-ai-shopping-assistant",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Shipt spustil AI asistenta, co ti podle fotky poskládá nákup",
+        "en": "Shipt launches an AI assistant that builds your cart from a photo"
+      },
+      "summary": {
+        "cs": "Shipt, donášková služba vlastněná Targetem, 9. září spustilo Ask Shipt — stačí popsat, co chceš, nahrát recept nebo vyfotit jídlo z restaurace a asistent za pár vteřin poskládá odpovídající košík k nákupu. Košík si před objednáním ještě upravíš. Vedle Shiptu podobného asistenta stejný den spustil i Instacart.",
+        "en": "Shipt, the Target-owned delivery service, launched Ask Shipt on September 9 — describe what you want, upload a recipe, or photograph a restaurant dish, and the assistant builds a matching cart within seconds. You can still edit the cart before checkout. Instacart launched a similar assistant the same day."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/09/shipt-becomes-the-latest-delivery-app-with-an-ai-shopping-assistant/" },
+        { "name": "Unite.AI", "url": "https://www.unite.ai/shipt-launches-ask-shipt-an-ai-shopping-assistant-that-builds-carts/" }
+      ]
+    },
+    {
+      "id": "2026-09-10-tip-claude-carplay",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Claude teď mluví s tebou i přes CarPlay v autě",
+        "en": "Claude now talks to you through CarPlay in your car"
+      },
+      "summary": {
+        "cs": "Claude na iPhonu od 4. září podporuje Apple CarPlay — z displeje auta spustíš hlasový rozhovor bez dotýkání telefonu, se zapnutím/vypnutím mikrofonu i vizuálním náznakem, kdy Claude poslouchá nebo mluví. Ovládat auto nebo telefon zatím neumí, appku musíš spustit ručně. Je pátým velkým chatbotem s podporou CarPlay.",
+        "en": "Since September 4, Claude on iPhone supports Apple CarPlay — start a hands-free voice chat from your car's display, with mute controls and visual cues for when Claude is listening or talking. It cannot control the car or phone yet, and you must open the app manually — the fifth major chatbot with CarPlay support."
+      },
+      "sources": [
+        { "name": "MacRumors", "url": "https://www.macrumors.com/2026/09/04/anthropics-claude-is-coming-to-carplay/" },
+        { "name": "NewsBytes", "url": "https://www.newsbytesapp.com/news/science/anthropic-claude-integrates-with-carplay-for-hands-free-chat/story" }
+      ]
+    }
+  ]
+}

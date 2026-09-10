@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-09T03:15:19Z",
+  "updated": "2026-09-10T08:41:21Z",
   "briefs": [
+    {
+      "date": "2026-09-10",
+      "headline": {
+        "cs": "Apple Watch teď poslouchá a shrnuje rozhovory",
+        "en": "Apple Watch now listens and recaps conversations"
+      },
+      "itemCount": 5
+    },
     {
       "date": "2026-09-09",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "OpenAI launches GPT-6 Astra"
       },
       "itemCount": 3
-    },
-    {
-      "date": "2026-09-03",
-      "headline": {
-        "cs": "Astra od OpenAI překročil kritickou hranici v kybernetice",
-        "en": "OpenAI's Astra crosses critical cybersecurity threshold"
-      },
-      "itemCount": 6
     }
   ]
 }

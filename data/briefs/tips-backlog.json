@@ -1921,6 +1921,32 @@
       ],
       "added": "2026-09-09",
       "used": "2026-09-09"
+    },
+    {
+      "slug": "tip-claude-carplay",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "title": {
+        "cs": "Claude teď mluví s tebou i přes CarPlay v autě",
+        "en": "Claude now talks to you through CarPlay in your car"
+      },
+      "summary": {
+        "cs": "Claude na iPhonu od 4. září podporuje Apple CarPlay — z displeje auta spustíš hlasový rozhovor bez dotýkání telefonu, se zapnutím/vypnutím mikrofonu i vizuálním náznakem, kdy Claude poslouchá nebo mluví. Ovládat auto nebo telefon zatím neumí, appku musíš spustit ručně. Je pátým velkým chatbotem s podporou CarPlay.",
+        "en": "Since September 4, Claude on iPhone supports Apple CarPlay — start a hands-free voice chat from your car's display, with mute controls and visual cues for when Claude is listening or talking. It cannot control the car or phone yet, and you must open the app manually — the fifth major chatbot with CarPlay support."
+      },
+      "sources": [
+        {
+          "name": "MacRumors",
+          "url": "https://www.macrumors.com/2026/09/04/anthropics-claude-is-coming-to-carplay/"
+        },
+        {
+          "name": "NewsBytes",
+          "url": "https://www.newsbytesapp.com/news/science/anthropic-claude-integrates-with-carplay-for-hands-free-chat/story"
+        }
+      ],
+      "added": "2026-09-10",
+      "used": "2026-09-10"
     }
   ]
 }
