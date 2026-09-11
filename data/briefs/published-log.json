@@ -1,6 +1,26 @@
 {
   "published": [
     {
+      "slug": "2026-09-11-anthropic-accuses-chinese-labs-claude-distillation",
+      "date": "2026-09-11",
+      "topic": "Anthropic 10.9. zveřejnilo: Moonshot AI tajně přesměroval ~300k požadavků na Claude Opus přes 5380 podvodných účtů, vydával odpovědi za vlastní; podobně DeepSeek/Alibaba, dohromady 151M+ dotazů (destilace)"
+    },
+    {
+      "slug": "2026-09-11-chatgpt-financial-services-launch",
+      "date": "2026-09-11",
+      "topic": "OpenAI 10.9. spustilo ChatGPT pro finanční služby (na GPT-6 Astra) — práce juniorních bankéřů, s Morgan Stanley+Evercore jako design partnery, data z LSEG/Daloopa/PitchBook/Crunchbase"
+    },
+    {
+      "slug": "2026-09-11-openai-government-pricing-change",
+      "date": "2026-09-11",
+      "topic": "OpenAI 10.9. ukončilo pilot $1/rok pro US úřady — od 1.10. 50% sleva podle spotřeby do 2028; pilot využilo 3,5M zaměstnanců, úspora $1,4 mld.; rozšířeno na státní/městské/kmenové samosprávy"
+    },
+    {
+      "slug": "2026-09-11-positron-ai-875-million-funding",
+      "date": "2026-09-11",
+      "topic": "Positron AI (paměťové inferenční čipy) 10.9. Series C 875M USD při hodnotě 5 mld. (4x za 7 měsíců) — čip Asimov až 2304GB LPDDR5X, výroba TSMC 2027"
+    },
+    {
       "slug": "2026-09-10-apple-watch-ai-ambient-listening-privacy",
       "date": "2026-09-10",
       "topic": "Apple 9.9. Watch Series 12/Ultra 4 se Siri Recap (okolní poslech shrne rozhovory bez ukládání zvuku) a Live Rewind (textově posledních 15s); kritika kvůli metadatům o časování/délce"
@@ -576,5 +596,5 @@
       "topic": "esej Grega Brockmana The Defender's Window (17. 8.) — průnik do OpenAI a Hugging Face jako zlom, výzva nasadit bezpečnostní AI agenty hned"
     }
   ],
-  "updated": "2026-09-10T08:41:21Z"
+  "updated": "2026-09-11T03:09:09Z"
 }

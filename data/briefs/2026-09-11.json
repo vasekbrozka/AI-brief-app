@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-11",
+  "sample": false,
+  "headline": {
+    "cs": "Anthropic obvinilo Čínu z kopírování Claude",
+    "en": "Anthropic accuses China of copying Claude"
+  },
+  "intro": {
+    "cs": "Anthropic zveřejnilo, že čínské AI firmy tajně kopírovaly Claude přes stovky tisíc dotazů. Přinášíme čtyři zprávy.",
+    "en": "Anthropic revealed Chinese AI firms secretly copied Claude through hundreds of thousands of queries. We bring four news items."
+  },
+  "items": [
+    {
+      "id": "2026-09-11-anthropic-accuses-chinese-labs-claude-distillation",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Anthropic obvinilo čínské AI firmy z tajného kopírování Claude",
+        "en": "Anthropic accuses Chinese AI labs of secretly distilling Claude"
+      },
+      "summary": {
+        "cs": "Anthropic 10. září zveřejnilo, že čínský Moonshot AI tajně přesměroval skoro 300 tisíc požadavků uživatelů na model Claude Opus a jeho odpovědi vydával za vlastní přes 5380 podvodných účtů. Podobné obvinění z přebírání dat cílilo i na DeepSeek a Alibabu, dohromady přes 151 milionů dotazů. Šlo o destilaci, část požadavků obsahovala citlivé informace.",
+        "en": "Anthropic revealed on September 10 that China's Moonshot AI secretly routed nearly 300,000 user requests to its Claude Opus model and presented the responses as its own, via over 5,380 fraudulent accounts. Similar data-distillation accusations targeted DeepSeek and Alibaba, covering more than 151 million queries combined. Some routed requests contained sensitive information."
+      },
+      "sources": [
+        { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-10/moonshot-secretly-routed-user-requests-through-claude-anthropic-says" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/11/chinese-ai-labs-moonshot-deepseek-alibaba-anthropic.html" }
+      ]
+    },
+    {
+      "id": "2026-09-11-chatgpt-financial-services-launch",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "OpenAI spustilo ChatGPT pro finanční sektor, míří na juniorní bankéře",
+        "en": "OpenAI launches ChatGPT for Financial Services, targeting junior bankers"
+      },
+      "summary": {
+        "cs": "OpenAI 10. září spustilo ChatGPT pro finanční služby — verzi postavenou na modelu GPT-6 Astra, co dělá práci juniorních bankéřů: firemní rešerše, finanční analýzu i tvorbu prezentací podle šablony banky. Vyvíjeli ji s Morgan Stanley a Evercore, napojená je na data z LSEG, Daloopy, PitchBooku i Crunchbase.",
+        "en": "OpenAI launched ChatGPT for Financial Services on September 10 — a version built on GPT-6 Astra that handles junior-banker work: company research, financial analysis, and building bank-templated pitch decks. Morgan Stanley and Evercore served as design partners, and it connects to data from LSEG, Daloopa, PitchBook, and Crunchbase."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html" },
+        { "name": "Quartz", "url": "https://qz.com/openai-chatgpt-financial-services-junior-bankers-091026" }
+      ]
+    },
+    {
+      "id": "2026-09-11-openai-government-pricing-change",
+      "category": "policy",
+      "verified": true,
+      "title": {
+        "cs": "OpenAI končí dolarovou nabídku pro vládu, nahradí ji 50% slevou",
+        "en": "OpenAI ends $1 government deal, replaces it with a 50% discount"
+      },
+      "summary": {
+        "cs": "OpenAI 10. září oznámilo konec pilotního programu, kdy americké úřady platily za ChatGPT jen dolar ročně — od 1. října ho nahradí sleva 50 % z běžné ceny podle spotřeby, platná do konce roku 2028. Za rok pilotu appku využilo 3,5 milionu federálních zaměstnanců, úspora měla dosáhnout 1,4 miliardy dolarů. Zvýhodněná cena teď půjde i státním, městským a kmenovým samosprávám.",
+        "en": "OpenAI announced on September 10 the end of its pilot letting US agencies pay $1 a year for ChatGPT — from October 1, a 50% usage-based discount replaces it, running through 2028. During the pilot, 3.5 million federal employees used it, generating a claimed $1.4 billion in savings. The discount now extends to state, local, and tribal governments too."
+      },
+      "sources": [
+        { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-10/openai-gives-us-agencies-50-off-models-ending-1-per-year-deal" },
+        { "name": "FedScoop", "url": "https://fedscoop.com/openai-gsa-reach-onegov-deal-chatgpt-2028/" }
+      ]
+    },
+    {
+      "id": "2026-09-11-positron-ai-875-million-funding",
+      "category": "business",
+      "verified": true,
+      "title": {
+        "cs": "Startup Positron AI vybral 875 milionů na paměťové čipy pro AI",
+        "en": "Positron AI raises $875 million for memory-first AI chips"
+      },
+      "summary": {
+        "cs": "Positron AI, startup na čipy pro provoz AI modelů, 10. září oznámil kolo Series C za 875 milionů dolarů při hodnotě 5 miliard — hodnota vzrostla víc než čtyřikrát za sedm měsíců. Firma staví čipy kolem kapacity paměti místo hrubého výkonu; nový čip Asimov použije až 2304 GB paměti LPDDR5X. Výroba na TSMC začne v druhé půli 2027.",
+        "en": "Positron AI, a startup building chips for running AI models, announced an $875 million Series C on September 10 at a $5 billion valuation, quadrupling its value in seven months. It designs chips around memory capacity rather than raw compute; its new Asimov chip uses up to 2,304 GB of commodity LPDDR5X memory. Production targets late 2027."
+      },
+      "sources": [
+        { "name": "SiliconANGLE", "url": "https://siliconangle.com/2026/09/10/chipmaker-positron-nabs-875m-to-speed-up-inference-with-consumer-grade-memory/" },
+        { "name": "PRNewswire", "url": "https://www.prnewswire.com/news-releases/positron-ai-raises-875-million-at-a-5-billion-valuation-to-bring-its-next-generation-inference-silicon-to-market-302874601.html" }
+      ]
+    }
+  ]
+}
