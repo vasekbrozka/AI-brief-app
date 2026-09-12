@@ -1,6 +1,26 @@
 {
   "published": [
     {
+      "slug": "2026-09-12-anthropic-ipo-nvidia-anchor-investment",
+      "date": "2026-09-12",
+      "topic": "Anthropic (Reuters) chystá IPO až 100 mld. USD při hodnotě ~2 biliony (možná největší IPO historie); Nvidia v jednání o kotevní investici až 10 mld. USD; neuzavřeno"
+    },
+    {
+      "slug": "2026-09-12-openai-considers-slowing-development",
+      "date": "2026-09-12",
+      "topic": "Sam Altman na celofiremním setkání 11.9.: OpenAI zvažuje zpomalit vývoj nejvyspělejších modelů, doufá že se přidají konkurenti; reakce na viral post J. Coxona (150M+ zhlédnutí) o existenčním riziku"
+    },
+    {
+      "slug": "2026-09-12-gemini-app-windows-launch",
+      "date": "2026-09-12",
+      "topic": "Google 10.9. vydal appku Gemini pro Windows 10/11 — Alt+Space plovoucí okno, Gemini Spark, Nano Banana; zdarma, x64+ARM64"
+    },
+    {
+      "slug": "2026-09-12-openai-agents-api-public-beta",
+      "date": "2026-09-12",
+      "topic": "OpenAI 10.9. otevřelo Agents API (veřejná beta) — infrastruktura Codexu pro všechny vývojáře; dlouhé session, subagenti, hostovaný sandbox; bez extra poplatku"
+    },
+    {
       "slug": "2026-09-11-anthropic-accuses-chinese-labs-claude-distillation",
       "date": "2026-09-11",
       "topic": "Anthropic 10.9. zveřejnilo: Moonshot AI tajně přesměroval ~300k požadavků na Claude Opus přes 5380 podvodných účtů, vydával odpovědi za vlastní; podobně DeepSeek/Alibaba, dohromady 151M+ dotazů (destilace)"
@@ -596,5 +616,5 @@
       "topic": "esej Grega Brockmana The Defender's Window (17. 8.) — průnik do OpenAI a Hugging Face jako zlom, výzva nasadit bezpečnostní AI agenty hned"
     }
   ],
-  "updated": "2026-09-11T03:09:09Z"
+  "updated": "2026-09-12T03:07:55Z"
 }

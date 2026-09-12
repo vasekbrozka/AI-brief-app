@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-12",
+  "sample": false,
+  "headline": {
+    "cs": "Anthropic chystá IPO, Nvidia zvažuje vstup",
+    "en": "Anthropic plans IPO, Nvidia weighs anchor investment"
+  },
+  "intro": {
+    "cs": "Anthropic chystá vstup na burzu za až 100 miliard dolarů, Nvidia zvažuje roli kotevního investora. Přinášíme čtyři zprávy.",
+    "en": "Anthropic is preparing an IPO seeking up to $100 billion, with Nvidia weighing an anchor investment. We bring four news items."
+  },
+  "items": [
+    {
+      "id": "2026-09-12-anthropic-ipo-nvidia-anchor-investment",
+      "category": "business",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Anthropic chystá IPO za 100 miliard, Nvidia zvažuje vstup 10 miliardami",
+        "en": "Anthropic plans $100B IPO, Nvidia weighs $10B anchor investment"
+      },
+      "summary": {
+        "cs": "Anthropic podle zdrojů agentury Reuters chystá vstup na burzu s cílem získat až 100 miliard dolarů při hodnotě kolem 2 bilionů — což by z něj mohlo udělat největší IPO historie. Nvidia je v jednání o roli kotevního investora až za 10 miliard dolarů. Jednání ještě nejsou uzavřená a podmínky se můžou změnit.",
+        "en": "Anthropic is preparing to go public seeking as much as $100 billion at a roughly $2 trillion valuation, according to Reuters sources — potentially the largest IPO ever. Nvidia is in talks to serve as an anchor investor for up to $10 billion of that offering. The negotiations remain unfinished and terms could still change."
+      },
+      "sources": [
+        { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-11/nvidia-in-talks-to-invest-up-to-10b-in-anthropic-ipo-reuters" },
+        { "name": "Reuters", "url": "https://www.investing.com/news/stock-market-news/exclusivenvidia-in-talks-to-invest-in-anthropics-mega-ipo-sources-say-4898552" }
+      ]
+    },
+    {
+      "id": "2026-09-12-openai-considers-slowing-development",
+      "category": "policy",
+      "verified": true,
+      "title": {
+        "cs": "Sam Altman: OpenAI je otevřené zpomalit vývoj nejvyspělejší AI",
+        "en": "Sam Altman: OpenAI is open to slowing cutting-edge AI development"
+      },
+      "summary": {
+        "cs": "Sam Altman řekl zaměstnancům OpenAI na celofiremním setkání, že firma zvažuje zpomalit vývoj nejvyspělejších modelů — a doufá, že se přidají i konkurenti, i když uznal, že se k tomu nemusí připojit všichni. Reaguje tak na sílící bezpečnostní obavy, včetně virálního příspěvku bývalého inženýra Anthropicu a OpenAI Jacoba Coxona s přes 150 miliony zhlédnutí.",
+        "en": "Sam Altman told OpenAI staff at a company-wide meeting that the company is considering slowing development of its most advanced models, hoping rivals will follow even though he acknowledged not all of them might. It comes amid mounting safety concerns, including a viral post from former Anthropic and OpenAI engineer Jacob Coxon that drew more than 150 million views."
+      },
+      "sources": [
+        { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff" },
+        { "name": "Quartz", "url": "https://qz.com/sam-altman-openai-slow-ai-development-staff-meeting-091126" }
+      ]
+    },
+    {
+      "id": "2026-09-12-gemini-app-windows-launch",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Gemini vyšel jako appka pro Windows, spustíš ji přes Alt+Space",
+        "en": "Gemini launches as a Windows app, opens with Alt+Space"
+      },
+      "summary": {
+        "cs": "Google 10. září vydalo appku Gemini pro Windows 10 a 11 — klávesová zkratka Alt+Space vyvolá plovoucí okno nad čímkoli, co máš na obrazovce, ať jde o tabulku, editor kódu nebo PDF. Appka nabízí i Gemini Spark a generování obrázků Nano Banana, ke stažení je zdarma na gemini.google/desktop pro x64 i ARM64 stroje.",
+        "en": "Google released a Gemini app for Windows 10 and 11 on September 10 — the Alt+Space shortcut brings up a floating window over anything on screen, whether it's a spreadsheet, code editor, or PDF. The app also includes Gemini Spark and Nano Banana image generation, and is free to download at gemini.google/desktop for both x64 and ARM64 machines."
+      },
+      "sources": [
+        { "name": "9to5Google", "url": "https://9to5google.com/2026/09/10/gemini-windows-app/" },
+        { "name": "Softonic", "url": "https://en.softonic.com/articles/google-gemini-app-for-windows-is-out-now-alt-space-opens-it" }
+      ]
+    },
+    {
+      "id": "2026-09-12-openai-agents-api-public-beta",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "OpenAI zpřístupnilo Agents API, základ agenta Codex, všem vývojářům",
+        "en": "OpenAI opens up the Agents API, Codex's engine, to all developers"
+      },
+      "summary": {
+        "cs": "OpenAI 10. září zpřístupnilo ve veřejné beta verzi Agents API — stejnou infrastrukturu, na které běží kódovací agent Codex, teď dostanou i ostatní vývojáři jedním voláním API. Agent umí běžet dlouho, koordinovat další agenty i pracovat v hostovaném prostředí se soubory a příkazy. Bez extra poplatku, platí se jen za tokeny a nástroje.",
+        "en": "OpenAI opened its Agents API in public beta on September 10 — the same infrastructure behind its Codex coding agent, now available to any developer through a single API call. Agents can run long sessions, coordinate other agents, and work inside a hosted sandbox with file and command access. There's no extra fee, just the usual token and tool costs."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/index/introducing-the-agents-api/" },
+        { "name": "The Decoder", "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/" }
+      ]
+    }
+  ]
+}
