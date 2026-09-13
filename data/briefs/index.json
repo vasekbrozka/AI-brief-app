@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-12T03:07:55Z",
+  "updated": "2026-09-13T03:06:51Z",
   "briefs": [
+    {
+      "date": "2026-09-13",
+      "headline": {
+        "cs": "Amodei vyzval ke zpomalení AI, OpenAI přidalo",
+        "en": "Amodei calls to slow AI, OpenAI joins in"
+      },
+      "itemCount": 2
+    },
     {
       "date": "2026-09-12",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "OpenAI pledges new standards for reporting AI misalignment"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-09-06",
-      "headline": {
-        "cs": "Nvidia potvrdila koupi Hugging Face",
-        "en": "Nvidia confirms Hugging Face acquisition"
-      },
-      "itemCount": 9
     }
   ]
 }

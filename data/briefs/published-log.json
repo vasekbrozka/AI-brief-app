@@ -1,6 +1,16 @@
 {
   "published": [
     {
+      "slug": "2026-09-13-anthropic-openai-pace-the-frontier-pledge",
+      "date": "2026-09-13",
+      "topic": "Amodei 12.9. esej Pace the Frontier — Anthropic jednostranně dá METR aj. trvalý přístup na úrovni zaměstnanců + právo publikovat bez cenzury; OpenAI (Altman) i Musk během hodin veřejně přizvukovali a OpenAI slíbilo stejný závazek"
+    },
+    {
+      "slug": "2026-09-13-openai-ipo-delayed-2027-safety",
+      "date": "2026-09-13",
+      "topic": "Altman (Fortune, 12.9.): IPO OpenAI se letos nekoná (\"ill-advised\"), posunuto na 2027 kvůli bezpečnostním obavám; obor se blíží ke společnému formálnímu závazku"
+    },
+    {
       "slug": "2026-09-12-anthropic-ipo-nvidia-anchor-investment",
       "date": "2026-09-12",
       "topic": "Anthropic (Reuters) chystá IPO až 100 mld. USD při hodnotě ~2 biliony (možná největší IPO historie); Nvidia v jednání o kotevní investici až 10 mld. USD; neuzavřeno"
@@ -616,5 +626,5 @@
       "topic": "esej Grega Brockmana The Defender's Window (17. 8.) — průnik do OpenAI a Hugging Face jako zlom, výzva nasadit bezpečnostní AI agenty hned"
     }
   ],
-  "updated": "2026-09-12T03:07:55Z"
+  "updated": "2026-09-13T03:06:51Z"
 }

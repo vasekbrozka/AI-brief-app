@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-13",
+  "sample": false,
+  "headline": {
+    "cs": "Amodei vyzval ke zpomalení AI, OpenAI přidalo",
+    "en": "Amodei calls to slow AI, OpenAI joins in"
+  },
+  "intro": {
+    "cs": "Šéf Anthropicu vyzval obor ke zpomalení AI a OpenAI se hned přidalo. Přinášíme dvě zprávy.",
+    "en": "Anthropic's CEO called on the industry to slow AI, and OpenAI immediately joined in. We bring two news items."
+  },
+  "items": [
+    {
+      "id": "2026-09-13-anthropic-openai-pace-the-frontier-pledge",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Amodei vyzval ke zpomalení AI, OpenAI se hned přidalo",
+        "en": "Amodei calls to slow down AI, OpenAI immediately joins in"
+      },
+      "summary": {
+        "cs": "Šéf Anthropicu Dario Amodei 12. září v esejí Pace the Frontier vyzval obor, ať zpomalí tempo vylepšování AI modelů, a firma se jednostranně zavázala dát nezávislým hodnotitelům jako METR trvalý přístup na úrovni zaměstnanců — s právem zveřejnit zjištění bez cenzury firmy. OpenAI se během hodin ke stejnému závazku přidalo, Sam Altman i Elon Musk Amodeimu veřejně přizvukovali.",
+        "en": "Anthropic CEO Dario Amodei called on the industry to slow AI development in a September 12 essay, unilaterally committing his company to give independent evaluators like METR permanent, employee-level access, with the right to publish findings without company censorship. OpenAI matched the pledge within hours, and Sam Altman and Elon Musk both publicly backed Amodei."
+      },
+      "sources": [
+        { "name": "Anthropic", "url": "https://darioamodei.com/post/we-must-pace-the-frontier" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/" }
+      ],
+      "followsUp": {
+        "date": "2026-09-12",
+        "id": "2026-09-12-openai-considers-slowing-development",
+        "title": {
+          "cs": "Sam Altman: OpenAI je otevřené zpomalit vývoj nejvyspělejší AI",
+          "en": "Sam Altman: OpenAI is open to slowing cutting-edge AI development"
+        }
+      }
+    },
+    {
+      "id": "2026-09-13-openai-ipo-delayed-2027-safety",
+      "category": "business",
+      "verified": true,
+      "title": {
+        "cs": "Altman: IPO OpenAI se letos nekoná, kvůli obavám o bezpečnost",
+        "en": "Altman: OpenAI's IPO won't happen this year, citing safety concerns"
+      },
+      "summary": {
+        "cs": "Sam Altman v rozhovoru pro Fortune zveřejněném 12. září řekl, že vzhledem k bezpečnostní situaci by byl letošní vstup na burzu nerozvážný — IPO OpenAI se tak neuskuteční před rokem 2027. Zmínil sérii varovných incidentů s neřízenými AI agenty a naznačil, že se obor blíží ke společnému formálnímu závazku řešit rostoucí bezpečnostní rizika.",
+        "en": "Sam Altman told Fortune in an interview published September 12 that given the current safety situation, going public this year would be ill-advised, so OpenAI's IPO won't happen before 2027. He pointed to a string of alarming incidents involving rogue AI agents and suggested the industry may be nearing a joint formal commitment to address escalating safety risks."
+      },
+      "sources": [
+        { "name": "Fortune", "url": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/" },
+        { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-12/openai-ipo-won-t-happen-until-2027-sam-altman-tells-fortune" }
+      ]
+    }
+  ]
+}
