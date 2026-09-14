@@ -1,6 +1,21 @@
 {
   "published": [
     {
+      "slug": "2026-09-14-xi-brics-ai-open-source-initiative",
+      "date": "2026-09-14",
+      "topic": "Si Ťin-pching 13.9. na summitu BRICS (Nové Dillí) navrhl čínské vedení otevřené AI komunity zemí BRICS (LLM vývoj, semináře, výcvik) — pětibodový plán, den po pozvání do World AI Cooperation Organization"
+    },
+    {
+      "slug": "2026-09-14-anthropic-second-profitable-quarter-nasdaq",
+      "date": "2026-09-14",
+      "topic": "Anthropic (FT) sdělilo akcionářům 2. ziskový kvartál v řadě (adj. provozní zisk); roční tržby $65 mld. (konec července), marže 80%+; vybrána burza Nasdaq pro IPO"
+    },
+    {
+      "slug": "2026-09-14-congress-ai-guardrails-push",
+      "date": "2026-09-14",
+      "topic": "Kongres (oba tábory) o víkendu 13.9. vyzval k přísnějším AI pravidlům po Amodeiho varování — Jeffries: demokraté se sejdou v úterý; návrhy: transparentnost, hodnocení modelů, kill-switch"
+    },
+    {
       "slug": "2026-09-13-anthropic-openai-pace-the-frontier-pledge",
       "date": "2026-09-13",
       "topic": "Amodei 12.9. esej Pace the Frontier — Anthropic jednostranně dá METR aj. trvalý přístup na úrovni zaměstnanců + právo publikovat bez cenzury; OpenAI (Altman) i Musk během hodin veřejně přizvukovali a OpenAI slíbilo stejný závazek"
@@ -626,5 +641,5 @@
       "topic": "esej Grega Brockmana The Defender's Window (17. 8.) — průnik do OpenAI a Hugging Face jako zlom, výzva nasadit bezpečnostní AI agenty hned"
     }
   ],
-  "updated": "2026-09-13T03:06:51Z"
+  "updated": "2026-09-14T03:08:01Z"
 }

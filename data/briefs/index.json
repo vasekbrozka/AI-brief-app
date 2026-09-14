@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-13T03:06:51Z",
+  "updated": "2026-09-14T03:08:01Z",
   "briefs": [
+    {
+      "date": "2026-09-14",
+      "headline": {
+        "cs": "Si navrhl otevřenou AI komunitu zemí BRICS",
+        "en": "Xi proposes an open-source AI community for BRICS"
+      },
+      "itemCount": 3
+    },
     {
       "date": "2026-09-13",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "AI-designed drug reverses biological aging markers"
       },
       "itemCount": 3
-    },
-    {
-      "date": "2026-09-07",
-      "headline": {
-        "cs": "OpenAI slíbilo nová pravidla pro hlášení excesů AI",
-        "en": "OpenAI pledges new standards for reporting AI misalignment"
-      },
-      "itemCount": 4
     }
   ]
 }

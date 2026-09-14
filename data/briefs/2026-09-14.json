@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-14",
+  "sample": false,
+  "headline": {
+    "cs": "Si navrhl otevřenou AI komunitu zemí BRICS",
+    "en": "Xi proposes an open-source AI community for BRICS"
+  },
+  "intro": {
+    "cs": "Čínský prezident navrhl otevřenou AI komunitu zemí BRICS jako protiváhu USA. Přinášíme tři zprávy.",
+    "en": "China's president proposed an open-source AI community for BRICS nations as a counterweight to the US. We bring three news items."
+  },
+  "items": [
+    {
+      "id": "2026-09-14-xi-brics-ai-open-source-initiative",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Si Ťin-pching navrhl otevřenou AI komunitu zemí BRICS",
+        "en": "Xi Jinping proposes an open-source AI community for BRICS nations"
+      },
+      "summary": {
+        "cs": "Čínský prezident Si Ťin-pching 13. září na summitu BRICS v Novém Dillí navrhl, že Čína povede vznik otevřené AI komunity zemí BRICS se společným vývojem jazykových modelů, semináři i výcvikovými kurzy. Je to součást jeho pětibodového plánu a soupeření s USA o globální vliv nad směřováním AI.",
+        "en": "Chinese President Xi Jinping proposed on September 13 at the BRICS summit in New Delhi that China will lead an open-source AI community among BRICS nations, with joint large-language-model development, seminars, and training courses. It is part of his five-point plan and China's rivalry with the US for global influence over AI."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/13/china-xi-ai-tech-brics.html" },
+        { "name": "Malay Mail", "url": "https://www.malaymail.com/news/world/2026/09/13/china-steps-up-ai-push-with-open-source-zone-for-brics-countries/235054" }
+      ]
+    },
+    {
+      "id": "2026-09-14-anthropic-second-profitable-quarter-nasdaq",
+      "category": "business",
+      "verified": true,
+      "title": {
+        "cs": "Anthropic čeká druhý ziskový kvartál v řadě, vybral si burzu Nasdaq",
+        "en": "Anthropic expects second straight profitable quarter, picks Nasdaq"
+      },
+      "summary": {
+        "cs": "Anthropic podle Financial Times sdělil menší skupině akcionářů, že tento čtvrtrok znovu vykáže upravený provozní zisk — druhé po sobě jdoucí ziskové čtvrtletí. Roční tržby ke konci července dosáhly 65 miliard dolarů, hrubá marže přesahuje 80 %. Firma si pro plánované IPO vybrala burzu Nasdaq.",
+        "en": "Anthropic told a small group of shareholders it will again report an adjusted operating profit this quarter, according to the Financial Times, its second straight profitable quarter. Annualized revenue reached $65 billion by the end of July, with gross margins above 80%. The company has chosen Nasdaq for its planned IPO."
+      },
+      "sources": [
+        { "name": "Investing.com", "url": "https://www.investing.com/news/stock-market-news/anthropic-tells-investors-it-will-post-second-straight-quarterly-profit--ft-4898778" },
+        { "name": "Detroit News", "url": "https://www.detroitnews.com/story/business/2026/09/13/anthropic-expects-profit-as-it-prepares-for-ipo/91752474007/" }
+      ],
+      "followsUp": {
+        "date": "2026-09-12",
+        "id": "2026-09-12-anthropic-ipo-nvidia-anchor-investment",
+        "title": {
+          "cs": "Anthropic chystá IPO za 100 miliard, Nvidia zvažuje vstup 10 miliardami",
+          "en": "Anthropic plans $100B IPO, Nvidia weighs $10B anchor investment"
+        }
+      }
+    },
+    {
+      "id": "2026-09-14-congress-ai-guardrails-push",
+      "category": "policy",
+      "verified": true,
+      "title": {
+        "cs": "Kongres tlačí na nová pravidla pro AI po Amodeiho varování",
+        "en": "Congress pushes for new AI rules after Amodei's warning"
+      },
+      "summary": {
+        "cs": "Poslanci z obou stran o víkendu vyzvali k přísnějším pravidlům pro AI, mezinárodní koordinaci a někteří i k dočasnému pozastavení vývoje nejvyspělejších modelů — jako reakci na Amodeiho varování. Vůdce demokratů ve Sněmovně Hakeem Jeffries oznámil, že se demokraté 15. září sejdou k tématu AI pojistek. Mezi navrhovanými opatřeními je povinná transparentnost, hodnocení modelů i požadavek na nouzový vypínač.",
+        "en": "Lawmakers from both parties called over the weekend for stricter AI rules, international coordination, and in some cases a temporary pause on developing the most advanced models, responding to Amodei's warning. House Democratic Leader Hakeem Jeffries announced Democrats will meet on September 15 to discuss AI guardrails. Proposed measures include mandatory transparency, model evaluations, and a kill-switch requirement."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/13/ai-congress-anthropic-openai-crisis.html" },
+        { "name": "The Hill", "url": "https://thehill.com/policy/technology/6086167-anthropic-ceo-ai-development-guardrails/" }
+      ]
+    }
+  ]
+}
