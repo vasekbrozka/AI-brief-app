@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-15",
+  "sample": false,
+  "headline": {
+    "cs": "Anthropic, OpenAI a Google jednají o AI standardech",
+    "en": "Anthropic, OpenAI, Google discuss joint AI standards body"
+  },
+  "intro": {
+    "cs": "Tři největší AI firmy tajně jednají o společném úřadu pro bezpečnostní standardy AI. Přinášíme tři zprávy a doplňujeme jedním tipem.",
+    "en": "The three biggest AI labs are quietly discussing a joint AI safety standards body. We bring three news items and add one tip."
+  },
+  "items": [
+    {
+      "id": "2026-09-15-anthropic-openai-google-ai-safety-standards-body",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Anthropic, OpenAI a Google jednají o společném úřadu pro bezpečnostní standardy AI",
+        "en": "Anthropic, OpenAI, and Google discuss a joint AI safety standards body"
+      },
+      "summary": {
+        "cs": "Anthropic, OpenAI a Google podle The Information od července jednají o společném úřadu pro bezpečnostní standardy AI — se sdílenými protokoly pro testování modelů před vydáním a nezávislými hodnoceními. Impulsem byla červencová esej šéfa Google DeepMind, Demis Hassabis. Firmy se liší v pohledu na roli státu; šéf Cohere varoval před znevýhodněním menší konkurence.",
+        "en": "Anthropic, OpenAI, and Google have discussed a joint industry safety standards body since July, The Information reports — shared protocols for testing frontier models pre-release, plus independent evaluations. The catalyst was a July essay by Google DeepMind's Demis Hassabis. The firms differ on government's role; Cohere's CEO warned smaller rivals could be squeezed out."
+      },
+      "sources": [
+        { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/google-openai-and-anthropic-float-idea-of-ai-standards-body/" },
+        { "name": "InvestingLive", "url": "https://investinglive.com/news/anthropic-openai-and-google-held-talks-on-ai-safety-body-report-says/" }
+      ]
+    },
+    {
+      "id": "2026-09-15-microsoft-humanist-ai-code-of-conduct",
+      "category": "policy",
+      "verified": true,
+      "title": {
+        "cs": "Microsoft zveřejnil kodex chování pro vlastní AI modely",
+        "en": "Microsoft publishes a code of conduct for its own AI models"
+      },
+      "summary": {
+        "cs": "Satya Nadella 13. září oznámil a Microsoft 14. září otevřel šestitýdenní konzultaci k tzv. Humanist AI Code of Conduct — pravidlům pro vlastní modely řady MAI. Sedmatřicetistránkový dokument jim zakazuje odolávat vypnutí, sledovat vlastní cíle nebo skrývat uvažování před lidmi. Nadella tak reagoval na Amodeiho esej o zpomalení AI.",
+        "en": "Satya Nadella announced on September 13 that Microsoft would open a six-week public consultation on its 'Humanist AI Code of Conduct' for its MAI models, which began the next day. The 37-page document bars the models from resisting shutdown, setting their own goals, or hiding reasoning from humans. Nadella was responding to Amodei's essay on slowing AI down."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/" },
+        { "name": "GeekWire", "url": "https://www.geekwire.com/2026/microsoft-floats-rules-for-its-own-ai-models-as-industry-debates-a-slowdown/" }
+      ],
+      "followsUp": {
+        "date": "2026-09-13",
+        "id": "2026-09-13-anthropic-openai-pace-the-frontier-pledge",
+        "title": {
+          "cs": "Amodei vyzval ke zpomalení AI, OpenAI se hned přidalo",
+          "en": "Amodei calls to slow down AI, OpenAI immediately joins in"
+        }
+      }
+    },
+    {
+      "id": "2026-09-15-grok-models-microsoft-copilot",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Microsoft Copilot teď nabízí i modely Grok od xAI",
+        "en": "Microsoft Copilot now offers xAI's Grok models too"
+      },
+      "summary": {
+        "cs": "Microsoft 12. září oznámilo, že do Copilotu ve Wordu, Excelu a PowerPointu přidává modely Grok od xAI — zatím jen pro účastníky programu Frontier. Jde o první případ, kdy si přímí konkurenti v AI navzájem nabízejí modely uvnitř vlastního produktu. Elon Musk integraci na síti X přivítal.",
+        "en": "Microsoft announced on September 12 that it's adding xAI's Grok models to Copilot in Word, Excel, and PowerPoint — for now limited to its Frontier program participants. It marks the first time direct AI rivals have offered each other's models inside their own product. Elon Musk welcomed the integration on X."
+      },
+      "sources": [
+        { "name": "Microsoft", "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/expanding-model-choice-in-copilot-with-grok/4555749" },
+        { "name": "Windows Central", "url": "https://www.windowscentral.com/artificial-intelligence/microsoft-copilot/grok-is-now-in-microsoft-copilot-but-dont-expect-snark-in-your-spreadsheets" }
+      ]
+    },
+    {
+      "id": "2026-09-15-tip-perplexity-portable-computer-windows",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Perplexity Portable Computer teď běží i na Windows s NVIDIA RTX",
+        "en": "Perplexity's Portable Computer now runs on Windows with NVIDIA RTX"
+      },
+      "summary": {
+        "cs": "Perplexity 14. září rozšířilo Portable Computer — AI agenta běžícího celý lokálně, bez posílání dat do cloudu — na Windows počítače s grafikou NVIDIA GeForce RTX nebo RTX PRO (24 GB+ VRAM). Lokální úlohy teď nestojí žádné kredity. Dřív běžel jen na Linuxu nebo NVIDIA DGX Spark.",
+        "en": "Perplexity expanded Portable Computer on September 14 — an AI agent that runs entirely locally, without sending data to the cloud — to Windows PCs with NVIDIA GeForce RTX or RTX PRO graphics (24GB+ VRAM). Local tasks now cost no credits. It previously ran only on Linux or NVIDIA DGX Spark."
+      },
+      "sources": [
+        { "name": "NVIDIA", "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/" },
+        { "name": "PC Guide", "url": "https://www.pcguide.com/pro/news-pro/nvidia-partners-with-perplexity-to-bring-portable-computer-ai-to-windows-pcs-on-high-end-rtx-gpus/" }
+      ]
+    }
+  ]
+}

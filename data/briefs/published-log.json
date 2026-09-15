@@ -1,6 +1,26 @@
 {
   "published": [
     {
+      "slug": "2026-09-15-anthropic-openai-google-ai-safety-standards-body",
+      "date": "2026-09-15",
+      "topic": "Anthropic, OpenAI a Google (The Information) od července jednají o společném úřadu pro bezpečnostní standardy AI — sdílené protokoly testování před vydáním; impuls: červencová esej Demise Hassabise"
+    },
+    {
+      "slug": "2026-09-15-microsoft-humanist-ai-code-of-conduct",
+      "date": "2026-09-15",
+      "topic": "Nadella 13.9. oznámil, Microsoft 14.9. otevřel konzultaci k Humanist AI Code of Conduct pro MAI modely (zákaz odolávat vypnutí/skrývat uvažování) — reakce na Amodeiho esej"
+    },
+    {
+      "slug": "2026-09-15-grok-models-microsoft-copilot",
+      "date": "2026-09-15",
+      "topic": "Microsoft 12.9. přidal modely Grok (xAI) do Copilotu ve Word/Excel/PowerPoint (zatím jen Frontier program) — první nabídnutí modelu mezi přímými konkurenty"
+    },
+    {
+      "slug": "2026-09-15-tip-perplexity-portable-computer-windows",
+      "date": "2026-09-15",
+      "topic": "tip: Perplexity Portable Computer (lokální AI agent) 14.9. rozšířeno na Windows s NVIDIA GeForce RTX/RTX PRO (24GB+ VRAM), dřív jen Linux/DGX Spark"
+    },
+    {
       "slug": "2026-09-14-xi-brics-ai-open-source-initiative",
       "date": "2026-09-14",
       "topic": "Si Ťin-pching 13.9. na summitu BRICS (Nové Dillí) navrhl čínské vedení otevřené AI komunity zemí BRICS (LLM vývoj, semináře, výcvik) — pětibodový plán, den po pozvání do World AI Cooperation Organization"
@@ -641,5 +661,5 @@
       "topic": "esej Grega Brockmana The Defender's Window (17. 8.) — průnik do OpenAI a Hugging Face jako zlom, výzva nasadit bezpečnostní AI agenty hned"
     }
   ],
-  "updated": "2026-09-14T03:08:01Z"
+  "updated": "2026-09-15T03:10:00Z"
 }

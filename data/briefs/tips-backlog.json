@@ -1947,6 +1947,32 @@
       ],
       "added": "2026-09-10",
       "used": "2026-09-10"
+    },
+    {
+      "slug": "tip-perplexity-portable-computer-windows",
+      "category": "tools",
+      "theme": "other",
+      "verified": true,
+      "title": {
+        "cs": "Perplexity Portable Computer teď běží i na Windows s NVIDIA RTX",
+        "en": "Perplexity's Portable Computer now runs on Windows with NVIDIA RTX"
+      },
+      "summary": {
+        "cs": "Perplexity 14. září rozšířilo Portable Computer — AI agenta běžícího celý lokálně, bez posílání dat do cloudu — na Windows počítače s grafikou NVIDIA GeForce RTX nebo RTX PRO (24 GB+ VRAM). Lokální úlohy teď nestojí žádné kredity. Dřív běžel jen na Linuxu nebo NVIDIA DGX Spark.",
+        "en": "Perplexity expanded Portable Computer on September 14 — an AI agent that runs entirely locally, without sending data to the cloud — to Windows PCs with NVIDIA GeForce RTX or RTX PRO graphics (24GB+ VRAM). Local tasks now cost no credits. It previously ran only on Linux or NVIDIA DGX Spark."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/"
+        },
+        {
+          "name": "PC Guide",
+          "url": "https://www.pcguide.com/pro/news-pro/nvidia-partners-with-perplexity-to-bring-portable-computer-ai-to-windows-pcs-on-high-end-rtx-gpus/"
+        }
+      ],
+      "added": "2026-09-15",
+      "used": "2026-09-15"
     }
   ]
 }
