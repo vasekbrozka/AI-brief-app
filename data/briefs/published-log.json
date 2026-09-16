@@ -1,6 +1,21 @@
 {
   "published": [
     {
+      "slug": "2026-09-16-sanders-bannon-pro-human-assembly-ai-curbs",
+      "date": "2026-09-16",
+      "topic": "Sanders (D) a Bannon 15.9. spolu na washingtonské Pro-Human Assembly (Future of Life Institute) — Sanders s kongresmanem Casarem chystá zákon na trvalý zákaz superinteligentní AI, na regulaci se ale neshodli"
+    },
+    {
+      "slug": "2026-09-16-shanghai-ai-lab-atria-dawn-preview",
+      "date": "2026-09-16",
+      "topic": "Shanghai AI Lab 14.9. publikovala 143-autorskou práci k Atria Dawn Preview (744B agentní MoE, na HF od 11.9.) — studie 769 úkolů od 56 lidí, třetina bez AI neproveditelná"
+    },
+    {
+      "slug": "2026-09-16-cloudflare-ai-crawler-default-block",
+      "date": "2026-09-16",
+      "topic": "Cloudflare od 15.9. defaultně blokuje smíšené (search+agent+training) AI roboty na stránkách s reklamou — nové/free účty, placení se stávajícím nastavením beze změny"
+    },
+    {
       "slug": "2026-09-15-anthropic-openai-google-ai-safety-standards-body",
       "date": "2026-09-15",
       "topic": "Anthropic, OpenAI a Google (The Information) od července jednají o společném úřadu pro bezpečnostní standardy AI — sdílené protokoly testování před vydáním; impuls: červencová esej Demise Hassabise"
@@ -661,5 +676,5 @@
       "topic": "esej Grega Brockmana The Defender's Window (17. 8.) — průnik do OpenAI a Hugging Face jako zlom, výzva nasadit bezpečnostní AI agenty hned"
     }
   ],
-  "updated": "2026-09-15T03:10:00Z"
+  "updated": "2026-09-16T03:10:00Z"
 }

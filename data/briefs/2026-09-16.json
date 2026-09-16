@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-16",
+  "sample": false,
+  "headline": {
+    "cs": "Sanders a Bannon spojili síly proti nekontrolované AI",
+    "en": "Sanders and Bannon join forces against unchecked AI"
+  },
+  "intro": {
+    "cs": "Bernie Sanders a Steve Bannon nečekaně spojili síly za omezení AI, Sanders chystá zákon proti superinteligenci. Přinášíme tři zprávy.",
+    "en": "Bernie Sanders and Steve Bannon unexpectedly joined forces to curb AI, and Sanders is drafting a bill against superintelligence. We bring three news items."
+  },
+  "items": [
+    {
+      "id": "2026-09-16-sanders-bannon-pro-human-assembly-ai-curbs",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Sanders a Bannon spojili síly ve Washingtonu proti nekontrolované AI",
+        "en": "Sanders and Bannon join forces in Washington against unchecked AI"
+      },
+      "summary": {
+        "cs": "Senátor Bernie Sanders a bývalý poradce Donalda Trumpa Steve Bannon 15. září společně vystoupili na washingtonské konferenci Pro-Human Assembly, kterou pořádal Future of Life Institute. Sanders oznámil, že s kongresmanem Gregem Casarem připraví zákon na trvalý zákaz vývoje takzvané superinteligentní AI. Na způsobu regulace se ale neshodli — každý razí jinou cestu.",
+        "en": "Senator Bernie Sanders and former Trump adviser Steve Bannon shared a stage on September 15 at the Pro-Human Assembly, a Washington conference hosted by the Future of Life Institute. Sanders announced he'll introduce legislation with Rep. Greg Casar to permanently ban development of superintelligent AI. The two disagreed on how to regulate it — each pushing a different approach."
+      },
+      "sources": [
+        { "name": "NPR", "url": "https://www.npr.org/2026/09/15/nx-s1-5968678/bernie-sanders-and-steve-bannon-to-share-a-stage-to-promote-curbs-on-ai" },
+        { "name": "Axios", "url": "https://www.axios.com/2026/09/14/coxon-bernie-bannon-unite-human-ai" }
+      ],
+      "followsUp": {
+        "date": "2026-09-14",
+        "id": "2026-09-14-congress-ai-guardrails-push",
+        "title": {
+          "cs": "Kongres tlačí na nová pravidla pro AI po Amodeiho varování",
+          "en": "Congress pushes for new AI rules after Amodei's warning"
+        }
+      }
+    },
+    {
+      "id": "2026-09-16-shanghai-ai-lab-atria-dawn-preview",
+      "category": "research",
+      "verified": true,
+      "title": {
+        "cs": "Čínská laboratoř vydala agentní model Atria Dawn a studii o AI v praxi",
+        "en": "China's Shanghai AI Lab ships Atria Dawn agent model and real-world study"
+      },
+      "summary": {
+        "cs": "Shanghai AI Laboratory zveřejnila 14. září vědeckou práci se 143 autory k modelu Atria Dawn Preview — agentnímu systému o 744 miliardách parametrů pro dlouhé výzkumné a inženýrské úlohy. Studie rozebrala 769 úkolů od 56 lidí, kteří s modelem pracovali během vývoje — asi třetinu dokončených úloh hodnotili jako bez AI neproveditelnou, poslední slovo si ale ponechal vždy člověk.",
+        "en": "Shanghai AI Laboratory published a 143-author paper on September 14 about Atria Dawn Preview, a 744-billion-parameter agentic model built for long research and engineering tasks. The study analyzed 769 tasks from 56 people who used the model during development — about a third of completed tasks were rated infeasible without AI, though humans always kept final say."
+      },
+      "sources": [
+        { "name": "Hugging Face", "url": "https://huggingface.co/internlm/Atria-Dawn-Preview" },
+        { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/atria-releases-atria-dawn-preview-121900267.html" }
+      ]
+    },
+    {
+      "id": "2026-09-16-cloudflare-ai-crawler-default-block",
+      "category": "policy",
+      "verified": true,
+      "title": {
+        "cs": "Cloudflare od 15. září defaultně blokuje AI roboty na stránkách s reklamou",
+        "en": "Cloudflare now blocks AI crawlers by default on ad-supported pages"
+      },
+      "summary": {
+        "cs": "Cloudflare od 15. září mění výchozí nastavení — takzvané smíšené AI roboty, co kombinují vyhledávání, agenty a trénování modelů, teď na stránkách s reklamou blokuje automaticky, pokud si majitel webu nenastaví jinak. Vyhledávací roboti zůstávají povolení, trénovací a agentní se blokují. Týká se nových zákazníků, nových webů i všech uživatelů zdarma; placení zákazníci se stávajícím nastavením zůstávají beze změny.",
+        "en": "Cloudflare changed its default settings on September 15 — so-called mixed-use AI crawlers, which blend search, agent, and training traffic, are now automatically blocked on ad-supported pages unless the site owner opts out. Search crawlers stay allowed; training and agent crawlers get blocked. It applies to new customers, new sites, and all free users; paid customers keep their existing settings."
+      },
+      "sources": [
+        { "name": "Cloudflare", "url": "https://blog.cloudflare.com/content-independence-day-ai-options/" },
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/" }
+      ]
+    }
+  ]
+}

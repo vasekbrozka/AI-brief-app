@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-15T03:10:00Z",
+  "updated": "2026-09-16T03:10:00Z",
   "briefs": [
+    {
+      "date": "2026-09-16",
+      "headline": {
+        "cs": "Sanders a Bannon spojili síly proti nekontrolované AI",
+        "en": "Sanders and Bannon join forces against unchecked AI"
+      },
+      "itemCount": 3
+    },
     {
       "date": "2026-09-15",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Apple Watch now listens and recaps conversations"
       },
       "itemCount": 5
-    },
-    {
-      "date": "2026-09-09",
-      "headline": {
-        "cs": "Meta spustila osobního AI agenta Muse",
-        "en": "Meta launches Muse, its personal AI agent"
-      },
-      "itemCount": 6
     }
   ]
 }
