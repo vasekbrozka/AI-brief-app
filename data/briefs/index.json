@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-16T03:10:00Z",
+  "updated": "2026-09-17T03:10:00Z",
   "briefs": [
+    {
+      "date": "2026-09-17",
+      "headline": {
+        "cs": "OpenAI přiznalo šest bezpečnostních incidentů modelů",
+        "en": "OpenAI discloses six AI model safety incidents"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-09-16",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Anthropic accuses China of copying Claude"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-09-10",
-      "headline": {
-        "cs": "Apple Watch teď poslouchá a shrnuje rozhovory",
-        "en": "Apple Watch now listens and recaps conversations"
-      },
-      "itemCount": 5
     }
   ]
 }

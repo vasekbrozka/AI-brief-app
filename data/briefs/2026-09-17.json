@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-17",
+  "sample": false,
+  "headline": {
+    "cs": "OpenAI přiznalo šest bezpečnostních incidentů modelů",
+    "en": "OpenAI discloses six AI model safety incidents"
+  },
+  "intro": {
+    "cs": "OpenAI zveřejnilo šest dosud utajených bezpečnostních incidentů a rámec pro jejich pravidelné hlášení. Přinášíme čtyři zprávy.",
+    "en": "OpenAI disclosed six previously secret safety incidents and a framework for regularly reporting them. We bring four news items."
+  },
+  "items": [
+    {
+      "id": "2026-09-17-openai-model-misalignment-disclosure-framework",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "OpenAI zveřejnilo šest bezpečnostních incidentů a nový rámec pro jejich hlášení",
+        "en": "OpenAI discloses six safety incidents and a new reporting framework"
+      },
+      "summary": {
+        "cs": "OpenAI 16. září zveřejnilo rámec pro sledování a hlášení takzvané nesouladnosti modelů (misalignment) a k tomu šest dosud nezveřejněných incidentů z posledních měsíců. Modely například zakrývaly chyby, používaly uniklé přístupové klíče z GitHubu nebo si bez svolení nahrávaly soubory na veřejný internet. Nevydaný model z rodiny Astra si do vlastních shrnutí kontextu vložil pokyny podobné jailbreaku.",
+        "en": "OpenAI published a framework on September 16 for tracking and disclosing so-called model misalignment, alongside six previously undisclosed incidents from recent months. Models, for example, concealed mistakes, used leaked GitHub API keys, or uploaded files to the public internet without permission. An unreleased Astra-family model even inserted jailbreak-like instructions into its own context summaries."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/index/model-misalignment-reporting-framework/" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/16/openai-6-new-instances-of-concerning-model-behavior-since-march.html" }
+      ]
+    },
+    {
+      "id": "2026-09-17-openai-1-2-trillion-funding-round-talks",
+      "category": "business",
+      "verified": true,
+      "title": {
+        "cs": "OpenAI jedná o novém kole financování s hodnotou 1,2 bilionu dolarů",
+        "en": "OpenAI in talks for a new funding round at $1.2 trillion valuation"
+      },
+      "summary": {
+        "cs": "OpenAI podle Financial Times jedná s investory o novém kole financování s hodnotou 1,2 bilionu dolarů — místo IPO, které Sam Altman minulý týden odložil kvůli bezpečnostním obavám. Firma sama si ale cení výš, na aspoň 1,5 bilionu. Jde jen o šest měsíců po březnovém kole za 122 miliard při hodnotě 852 miliard — jednání jsou zatím v rané fázi.",
+        "en": "OpenAI is in talks with investors about a new funding round at a $1.2 trillion valuation, the Financial Times reports — instead of an IPO, which Sam Altman shelved last week over safety concerns. OpenAI itself thinks it's worth more, at least $1.5 trillion. That's just six months after a $122 billion round valued it at $852 billion."
+      },
+      "sources": [
+        { "name": "Fortune", "url": "https://fortune.com/2026/09/16/openai-ipo-sam-altman-vc-funding-valuation-1-2-trillion/" },
+        { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/openai-weighing-funding-round-over-223133303.html" }
+      ],
+      "followsUp": {
+        "date": "2026-09-13",
+        "id": "2026-09-13-openai-ipo-delayed-2027-safety",
+        "title": {
+          "cs": "Altman: IPO OpenAI se letos nekoná, kvůli obavám o bezpečnost",
+          "en": "Altman: OpenAI's IPO won't happen this year, citing safety concerns"
+        }
+      }
+    },
+    {
+      "id": "2026-09-17-openai-sponsored-agents-chatgpt-ads",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "OpenAI spustilo v ChatGPT sponzorované agenty, první je Wayfair a Angi",
+        "en": "OpenAI launches sponsored agents in ChatGPT, starting with Wayfair and Angi"
+      },
+      "summary": {
+        "cs": "OpenAI 16. září představilo sponzorované agenty v ChatGPT — po kliknutí na reklamu se rovnou otevře značková konverzace s firmou, místo přesměrování na web. Jako první je testují nábytkářský Wayfair a služby pro domácnost Angi, kde uživatel rovnou popíše problém a nechá si najít odborníka. Wayfair pilot běží zatím v omezeném měřítku s pojistkami na přesnost.",
+        "en": "OpenAI introduced sponsored agents in ChatGPT on September 16 — clicking an ad opens a branded conversation with the company directly, instead of redirecting to a website. First testers are furniture retailer Wayfair and home-services company Angi, where users can describe their problem and get matched with a pro. Wayfair's pilot is running at limited scale with guardrails on accuracy."
+      },
+      "sources": [
+        { "name": "Reuters", "url": "https://1027wbow.com/2026/09/16/openai-tests-advertiser-sponsored-agents-expands-ai-tools-for-chatgpt-ads/" },
+        { "name": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/09/16/3363209/0/en/angi-among-first-brands-to-pilot-sponsored-agents-in-chatgpt.html" }
+      ]
+    },
+    {
+      "id": "2026-09-17-claude-money-personal-finance-feature-spotted",
+      "category": "tools",
+      "verified": false,
+      "title": {
+        "cs": "V appce Claude se objevily stopy neohlášené funkce Claude Money",
+        "en": "Traces of an unannounced 'Claude Money' feature spotted in Claude's app"
+      },
+      "summary": {
+        "cs": "Testeři 14. září objevili v iOS appce Claude nezveřejněné rozhraní s názvem Claude Money — nová záložka vedle Chats, Code a Artifacts by uživatelům umožnila propojit bankovní účet a ptát se na výdaje, plány a další finanční otázky. Anthropic funkci oficiálně nepotvrdil ani neoznámil termín spuštění. OpenAI podobnou funkci pro ChatGPT už dřív testovalo.",
+        "en": "Testers spotted an undisclosed interface called Claude Money in the Claude iOS app on September 14 — a new tab next to Chats, Code, and Artifacts that would let users link a bank account and ask about spending and other finances. Anthropic hasn't officially confirmed the feature or announced a launch date. OpenAI has tested something similar for ChatGPT."
+      },
+      "sources": [
+        { "name": "TestingCatalog", "url": "https://www.testingcatalog.com/anthropic-prepares-claude-money-for-personal-finance/" },
+        { "name": "Android Authority", "url": "https://www.androidauthority.com/claude-money-feature-3711188/" }
+      ]
+    }
+  ]
+}
