@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-18",
+  "sample": false,
+  "headline": {
+    "cs": "Claude spojil chat s Coworkem, přidal Docs",
+    "en": "Claude merges chat with Cowork, adds Docs"
+  },
+  "intro": {
+    "cs": "Anthropic sloučil Claude Cowork s běžným chatem a přidal nástroje Docs a Slides. Přinášíme tři zprávy a jeden tip.",
+    "en": "Anthropic merged Claude Cowork with regular chat and added the Docs and Slides tools. We bring three news items and one tip."
+  },
+  "items": [
+    {
+      "id": "2026-09-18-claude-cowork-chat-merge-docs-slides-design",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "Claude spojil Cowork s chatem, přidal Docs, Slides a Design do konverzace",
+        "en": "Claude merges Cowork into chat, adds Docs, Slides, and Design to conversations"
+      },
+      "summary": {
+        "cs": "Anthropic 16. září oznámil, že Cowork a běžný chat spojuje do jedné appky Claude — místo přepínání mezi režimy stačí jedna konverzace. Přibývají i nové nástroje Claude Docs a Claude Slides a Claude Design teď funguje přímo v chatu. Změna se v betě rozjíždí pro Pro a Max plány na webu, desktopu i mobilu, Team a Free budou následovat.",
+        "en": "Anthropic announced on September 16 that it's merging Cowork and regular chat into one Claude app — a single conversation now covers both instead of switching modes. New tools Claude Docs and Claude Slides are arriving too, and Claude Design now works directly inside chat. The beta rolls out to Pro and Max plans first; Team and Free follow later."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/" },
+        { "name": "VentureBeat", "url": "https://venturebeat.com/technology/anthropic-is-killing-off-cowork-and-folding-it-into-claude-launching-claude-docs-and-claude-slides" }
+      ]
+    },
+    {
+      "id": "2026-09-18-anthropic-rd-automation-index-claude-26-percent",
+      "category": "research",
+      "verified": true,
+      "title": {
+        "cs": "Claude podle Anthropicu vede 26 % vlastního výzkumu a vývoje firmy",
+        "en": "Claude now leads 26% of Anthropic's own research and development"
+      },
+      "summary": {
+        "cs": "Anthropic 17. září zveřejnil první výsledky nového R&D Automation Index — Claude podle firmy teď „vede“ 26 % jejího výzkumu a vývoje modelů, tedy dokáže většinu zadaného úkolu dokončit sám od jednoho zadání, i když pod lidským dohledem. V únoru to bylo necelé 1 %. Se zaměstnanci Claude podle indexu spolupracuje na asi 90 % jejich práce.",
+        "en": "Anthropic published the first results of its new R&D Automation Index on September 17 — Claude now 'leads' 26% of its model research and development, meaning it can complete most of a given task end-to-end from one prompt under human supervision. That's up from under 1% in February. Claude also collaborates with staff on about 90% of their work."
+      },
+      "sources": [
+        { "name": "Unite.AI", "url": "https://www.unite.ai/anthropic-says-claude-leads-26-of-its-ai-research-and-development/" },
+        { "name": "Bozeman Daily Chronicle", "url": "https://www.bozemandailychronicle.com/wire/business/anthropic-says-its-model-claude-is-helping-to-build-the-next-version-of-itself/article_857b1c21-27d0-5e1a-9dbe-80c33b0875a5.html" }
+      ]
+    },
+    {
+      "id": "2026-09-18-microsoft-copilot-outage-september-17",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "Microsoft Copilot 17. září na hodiny vypadl, viníkem je prý síť",
+        "en": "Microsoft Copilot went down for hours on September 17, blaming a network change"
+      },
+      "summary": {
+        "cs": "Copilot od Microsoftu 17. září ráno kolem 6:20 tichomořského času přestal fungovat — přes tři tisíce lidí hlásilo přes Downdetector chybu „mám potíže reagovat na požadavky“. Microsoft potíže svedl na nedávnou změnu síťové infrastruktury a pracoval na jejím vrácení zpět i na navýšení kapacity. Plný provoz firma obnovila kolem 17:21 východního času téhož dne.",
+        "en": "Microsoft's Copilot went down around 6:20 a.m. Pacific on September 17 — more than 3,000 users reported a 'trouble responding to requests' error on Downdetector. Microsoft blamed a recent network infrastructure change and worked on rolling it back while adding capacity. Full service was restored around 5:21 p.m. Eastern the same day."
+      },
+      "sources": [
+        { "name": "Android Authority", "url": "https://www.androidauthority.com/microsoft-copilot-outage-sept-2026-3712534/" },
+        { "name": "GV Wire", "url": "https://gvwire.com/2026/09/17/microsoft-copilot-goes-down-for-thousands-thursday-downdetector-reports/" }
+      ]
+    },
+    {
+      "id": "2026-09-18-tip-chatgpt-word-integration",
+      "category": "tools",
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT teď umí psát a upravovat přímo ve Wordu",
+        "en": "ChatGPT can now draft and edit directly inside Word"
+      },
+      "summary": {
+        "cs": "ChatGPT od 17. září funguje jako doplněk přímo v Microsoft Wordu — z postranního panelu můžeš z poznámek vytvořit návrh textu, shrnout dokument, upravit vybraný text nebo sjednotit formátování, aniž bys opustil Word. Doplněk najdeš na Microsoft Marketplace, funguje na všech plánech ChatGPT včetně bezplatného. Word se tak přidává k už podporovanému Excelu a PowerPointu.",
+        "en": "ChatGPT now works as an add-in inside Microsoft Word — the sidebar lets you turn notes into a draft, summarize a document, revise selected text, or apply consistent formatting without leaving Word. Find it on the Microsoft Marketplace; it works on every ChatGPT plan, including Free. Word joins Excel and PowerPoint."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes" },
+        { "name": "Crypto Briefing", "url": "https://cryptobriefing.com/microsoft-chatgpt-word-integration/" }
+      ]
+    }
+  ]
+}

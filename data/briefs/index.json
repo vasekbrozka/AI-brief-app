@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-17T03:10:00Z",
+  "updated": "2026-09-18T03:10:00Z",
   "briefs": [
+    {
+      "date": "2026-09-18",
+      "headline": {
+        "cs": "Claude spojil chat s Coworkem, přidal Docs",
+        "en": "Claude merges chat with Cowork, adds Docs"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-09-17",
       "headline": {
@@ -46,14 +54,6 @@
       "headline": {
         "cs": "Anthropic chystá IPO, Nvidia zvažuje vstup",
         "en": "Anthropic plans IPO, Nvidia weighs anchor investment"
-      },
-      "itemCount": 4
-    },
-    {
-      "date": "2026-09-11",
-      "headline": {
-        "cs": "Anthropic obvinilo Čínu z kopírování Claude",
-        "en": "Anthropic accuses China of copying Claude"
       },
       "itemCount": 4
     }

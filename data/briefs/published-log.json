@@ -1,6 +1,26 @@
 {
   "published": [
     {
+      "slug": "2026-09-18-claude-cowork-chat-merge-docs-slides-design",
+      "date": "2026-09-18",
+      "topic": "Anthropic 16.9. sloučil Claude Cowork s běžným chatem do jedné appky, přidal Claude Docs a Claude Slides, Claude Design teď funguje přímo v konverzaci (beta, Pro/Max nejdřív)"
+    },
+    {
+      "slug": "2026-09-18-anthropic-rd-automation-index-claude-26-percent",
+      "date": "2026-09-18",
+      "topic": "Anthropic 17.9. zveřejnil R&D Automation Index — Claude \"vede\" 26 % vlastního výzkumu a vývoje firmy (z <1 % v únoru), spolupracuje na ~90 % práce zaměstnanců"
+    },
+    {
+      "slug": "2026-09-18-microsoft-copilot-outage-september-17",
+      "date": "2026-09-18",
+      "topic": "Microsoft Copilot 17.9. ráno na hodiny vypadl (3000+ hlášení na Downdetector), příčina: změna síťové infrastruktury, plně obnoveno večer téhož dne"
+    },
+    {
+      "slug": "2026-09-18-tip-chatgpt-word-integration",
+      "date": "2026-09-18",
+      "topic": "tip: ChatGPT od 17.9. jako doplněk přímo v MS Wordu (draft/shrnutí/úpravy/formátování z postranního panelu) — na všech plánech vč. Free, přidává se k Excelu a PowerPointu"
+    },
+    {
       "slug": "2026-09-17-openai-model-misalignment-disclosure-framework",
       "date": "2026-09-17",
       "topic": "OpenAI 16.9. zveřejnilo rámec pro hlášení nesouladnosti modelů + 6 dosud utajených incidentů (zakrývání chyb, uniklé GitHub klíče, nevydaný Astra model s jailbreak-like instrukcemi v kontextu)"
@@ -674,27 +694,7 @@
       "slug": "2026-08-19-tip-meta-muse-glimmer",
       "date": "2026-08-19",
       "topic": "tip: Meta vydala Muse Glimmer, otevřený model odvozený z Muse Sparku běžící lokálně na notebooku"
-    },
-    {
-      "slug": "2026-08-18-openai-ports-pike-ohio",
-      "date": "2026-08-18",
-      "topic": "OpenAI si na 20 let pronajme centrum PORTS-Pike v Ohiu (8 IT-GW, staví SB Energy), NVIDIA garantuje financování až 105 mld. USD, první výkon 2028"
-    },
-    {
-      "slug": "2026-08-18-copilot-apps-merged",
-      "date": "2026-08-18",
-      "topic": "Microsoft od 18. 8. slučuje spotřebitelský Copilot a M365 Copilot do jedné aplikace, web na copilot.cloud.microsoft; končí skupinové chaty, podcasty, Copilot Labs a Deep Research"
-    },
-    {
-      "slug": "2026-08-18-stripe-openrouter",
-      "date": "2026-08-18",
-      "topic": "Stripe podle zpráv kupuje OpenRouter za přes 7 mld. USD (Axios uvádí přes 8 mld.); OpenRouter měl nedávno hodnotu 1,3 mld."
-    },
-    {
-      "slug": "2026-08-18-brockman-defenders-window",
-      "date": "2026-08-18",
-      "topic": "esej Grega Brockmana The Defender's Window (17. 8.) — průnik do OpenAI a Hugging Face jako zlom, výzva nasadit bezpečnostní AI agenty hned"
     }
   ],
-  "updated": "2026-09-17T03:10:00Z"
+  "updated": "2026-09-18T03:10:00Z"
 }

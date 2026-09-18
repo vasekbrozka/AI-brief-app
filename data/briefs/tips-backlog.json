@@ -1973,6 +1973,32 @@
       ],
       "added": "2026-09-15",
       "used": "2026-09-15"
+    },
+    {
+      "slug": "tip-chatgpt-word-integration",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT teď umí psát a upravovat přímo ve Wordu",
+        "en": "ChatGPT can now draft and edit directly inside Word"
+      },
+      "summary": {
+        "cs": "ChatGPT od 17. září funguje jako doplněk přímo v Microsoft Wordu — z postranního panelu můžeš z poznámek vytvořit návrh textu, shrnout dokument, upravit vybraný text nebo sjednotit formátování, aniž bys opustil Word. Doplněk najdeš na Microsoft Marketplace, funguje na všech plánech ChatGPT včetně bezplatného. Word se tak přidává k už podporovanému Excelu a PowerPointu.",
+        "en": "ChatGPT now works as an add-in inside Microsoft Word — the sidebar lets you turn notes into a draft, summarize a document, revise selected text, or apply consistent formatting without leaving Word. Find it on the Microsoft Marketplace; it works on every ChatGPT plan, including Free. Word joins Excel and PowerPoint."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        },
+        {
+          "name": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/microsoft-chatgpt-word-integration/"
+        }
+      ],
+      "added": "2026-09-18",
+      "used": "2026-09-18"
     }
   ]
 }
