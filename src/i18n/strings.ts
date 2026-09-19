@@ -131,7 +131,6 @@ export interface UIStrings {
   /** Read cards fold to their title; the title toggles the body. */
   unfoldLabel: string;
   foldLabel: string;
-  allCaughtUp: string;
   /** Section label shown above the reading-streak card in the brief. */
   streakSectionLabel: string;
   /** Streak-tier titles for the finished-brief ritual, mildest first. */
@@ -298,7 +297,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     markUnread: 'Označit jako nepřečtené',
     unfoldLabel: 'Rozbalit',
     foldLabel: 'Sbalit',
-    allCaughtUp: 'Dopito. Dolít zítra ☕️',
     streakSectionLabel: 'Série čtení',
     streakLevels: [
       'Jen na skok',
@@ -466,7 +464,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     markUnread: 'Mark as unread',
     unfoldLabel: 'Unfold',
     foldLabel: 'Fold',
-    allCaughtUp: 'Cup empty. Refill tomorrow ☕️',
     streakSectionLabel: 'Reading streak',
     streakLevels: [
       'Just One Quick Shot',

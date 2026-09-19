@@ -34,7 +34,6 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
   const hiddenCount = brief.items.length - shown.length;
 
   const readShownCount = shown.filter((item) => isRead(item.id)).length;
-  const unreadCount = shown.length - readShownCount;
   // Read cards fold to their title and stay in place; "hide read" drops them.
   const listed = hideRead ? shown.filter((item) => !isRead(item.id)) : shown;
 
@@ -97,13 +96,6 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
               {listed.map((item) => (
                 <BriefItemCard key={item.id} item={item} />
               ))}
-            </div>
-          )}
-
-          {!showCard && unreadCount === 0 && readShownCount > 0 && (
-            <div className="caught-up">
-              <Icon name="sparkles" size={24} />
-              <span>{t.allCaughtUp}</span>
             </div>
           )}
 
