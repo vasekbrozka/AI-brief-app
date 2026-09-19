@@ -132,6 +132,9 @@ export interface UIStrings {
   read: string;
   markRead: string;
   markUnread: string;
+  /** Read cards fold to their title; the title toggles the body. */
+  unfoldLabel: string;
+  foldLabel: string;
   allCaughtUp: string;
   /** Section label shown above the reading-streak card in the brief. */
   streakSectionLabel: string;
@@ -273,6 +276,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImproved: [
       'Archiv drží dva týdny místo jednoho a odkazy „Navazuje na“ tak fungují déle',
       'Přísnější ověřování: Ověřeno znamená oficiální zdroj, nebo dvě nezávislá média',
+      'Přečtená novinka se sbalí na titulek a zůstane na místě; ťuknutím ji zase rozbalíš',
+      'Tlačítka a odškrtávání reagují na ťuknutí (stisk, odskočení, zatřesení u špatné odpovědi)',
       'Úvodní odstavec pod nadpisem je pryč, přehled začíná rovnou kartami',
       'Sdílení novinky přibalí i větu, proč na ní záleží',
       'Ranní upozornění nese titulek dne a počet novinek',
@@ -298,6 +303,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
     read: 'Přečteno',
     markRead: 'Označit jako přečtené',
     markUnread: 'Označit jako nepřečtené',
+    unfoldLabel: 'Rozbalit',
+    foldLabel: 'Sbalit',
     allCaughtUp: 'Vše přečteno',
     streakSectionLabel: 'Série čtení',
     streakLevels: [
@@ -311,7 +318,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     streakTodayLeft: 'Ještě dnešek, ať série žije',
     sectionReading: 'Čtení',
     hideReadLabel: 'Skrýt přečtené',
-    hideReadHint: 'Přečtené zprávy se nebudou zobrazovat v přehledu.',
+    hideReadHint: 'Přečtené novinky zmizí z přehledu. Jinak se jen sbalí na titulek a zůstanou na místě.',
     clearReadLabel: 'Označit vše jako nepřečtené',
     gamifyLabel: 'Série čtení',
     gamifyHint: 'Týdenní série — dnešek se plní, jak čteš, a dočtený den drží sérii.',
@@ -440,6 +447,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImproved: [
       'The archive keeps two weeks instead of one, so "Follows up on" links work longer',
       'Stricter verification: Verified means an official source, or two independent outlets',
+      'A read story folds to its title and stays in place; tap it to unfold',
+      'Buttons and ticks respond to touch (press, pop, a shake on a wrong answer)',
       'The lead-in paragraph under the title is gone; the brief starts with the cards',
       'Sharing a story now includes the why-it-matters line',
       'The morning notification carries the headline of the day and the story count',
@@ -465,6 +474,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
     read: 'Read',
     markRead: 'Mark as read',
     markUnread: 'Mark as unread',
+    unfoldLabel: 'Unfold',
+    foldLabel: 'Fold',
     allCaughtUp: 'All caught up',
     streakSectionLabel: 'Reading streak',
     streakLevels: [
@@ -478,7 +489,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     streakTodayLeft: 'Finish today to keep the streak alive',
     sectionReading: 'Reading',
     hideReadLabel: 'Hide read items',
-    hideReadHint: "Read stories won't appear in the brief.",
+    hideReadHint: 'Read stories leave the brief. Otherwise they fold to their title and stay in place.',
     clearReadLabel: 'Mark all as unread',
     gamifyLabel: 'Reading streak',
     gamifyHint: 'A weekly streak — today fills as you read, and finishing the day keeps it alive.',

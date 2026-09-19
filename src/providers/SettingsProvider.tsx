@@ -38,10 +38,11 @@ const SettingsContext = createContext<SettingsContextValue | null>(null);
 const LANG_KEY = 'aibrief.lang';
 const THEME_KEY = 'aibrief.theme';
 const HIDE_READ_KEY = 'aibrief.hideRead';
-// One-time marker: the out-of-the-box default for hide-read changed to ON, so
-// existing installs (which auto-saved the old OFF default) adopt it once. After
-// that, the reader's own choice is respected.
-const HIDE_READ_DEFAULTED_KEY = 'aibrief.hideRead.default2';
+// One-time marker for the hide-read default. Since 1.6 read stories fold to
+// their title and stay in place, so hiding them is opt-in again (OFF): every
+// install adopts the new default once, after that the reader's own choice is
+// respected. (default2 was the earlier ON migration.)
+const HIDE_READ_DEFAULTED_KEY = 'aibrief.hideRead.default3';
 const MUTED_CATEGORIES_KEY = 'aibrief.mutedCategories';
 const GAMIFICATION_KEY = 'aibrief.gamification';
 const GLOSSARY_KEY = 'aibrief.glossary';
@@ -69,14 +70,12 @@ function detectInitialTheme(): Theme {
 
 function detectInitialHideRead(): boolean {
   try {
-    // Reading-focused default: hide-read is ON out of the box so the brief
-    // empties as you read and the streak takes the spotlight. Existing installs
-    // adopt the new default once (guarded by the marker below); afterwards the
-    // reader's explicit choice wins.
-    if (localStorage.getItem(HIDE_READ_DEFAULTED_KEY) !== '1') return true;
-    return localStorage.getItem(HIDE_READ_KEY) !== '0';
+    // Default OFF: read stories fold in place, nothing disappears. Installs
+    // adopt this once (marker below); afterwards the reader's choice wins.
+    if (localStorage.getItem(HIDE_READ_DEFAULTED_KEY) !== '1') return false;
+    return localStorage.getItem(HIDE_READ_KEY) === '1';
   } catch {
-    return true;
+    return false;
   }
 }
 

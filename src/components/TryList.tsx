@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import type { TipEntry } from '../lib/types';
 import { useSettings } from '../providers/SettingsProvider';
 import { useNav } from '../providers/NavProvider';
@@ -10,16 +11,22 @@ import { Icon } from './Icon';
 // How many untried tips the compact card on Today shows before "All tips".
 const COMPACT_ROWS = 3;
 
-/** One tip with its "tried" tick; `compact` drops the summary fallback and meta line. */
+/**
+ * One tip with its "tried" tick. `compact` (Today) shows the how-to only. The
+ * full list clamps the text to three lines until tapped; a ticked tip folds to
+ * its title, like a read story.
+ */
 export function TryRow({ tip, compact = false }: { tip: TipEntry; compact?: boolean }) {
   const { lang, t } = useSettings();
   const { isTried, toggle } = useTried();
+  const [expanded, setExpanded] = useState(false);
   const tried = isTried(tip.slug);
   const detail = tip.why?.[lang] ?? (compact ? null : tip.summary[lang]);
   const primary = tip.sources[0];
+  const folded = tried && !compact;
 
   return (
-    <li className={`try__row${tried ? ' is-tried' : ''}`}>
+    <li className={`try__row${tried ? ' is-tried' : ''}${folded ? ' is-folded' : ''}`}>
       <button
         type="button"
         className={`try__check${tried ? ' is-on' : ''}`}
@@ -32,10 +39,29 @@ export function TryRow({ tip, compact = false }: { tip: TipEntry; compact?: bool
       >
         {tried && <Icon name="check" size={13} />}
       </button>
-      <div className="try__body">
+      <div
+        className="try__body"
+        onClick={compact ? undefined : () => setExpanded((v) => !v)}
+        role={compact ? undefined : 'button'}
+        tabIndex={compact ? undefined : 0}
+        onKeyDown={
+          compact
+            ? undefined
+            : (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  setExpanded((v) => !v);
+                }
+              }
+        }
+      >
         <span className="try__title">{tip.title[lang]}</span>
-        {detail && <span className="try__detail">{detail}</span>}
-        {!compact && (
+        {detail && !folded && (
+          <span className={`try__detail${!compact && !expanded ? ' try__detail--clamp' : ''}`}>
+            {detail}
+          </span>
+        )}
+        {!compact && !folded && (
           <span className="try__meta">
             {tip.used && capitalizeFirst(formatShortDate(tip.used, lang))}
             {primary && (

@@ -33,11 +33,12 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
   );
   const hiddenCount = brief.items.length - shown.length;
 
-  const unread = shown.filter((item) => !isRead(item.id));
-  const read = shown.filter((item) => isRead(item.id));
+  const readShownCount = shown.filter((item) => isRead(item.id)).length;
+  const unreadCount = shown.length - readShownCount;
+  // Read cards fold to their title and stay in place; "hide read" drops them.
+  const listed = hideRead ? shown.filter((item) => !isRead(item.id)) : shown;
 
   // Today's reading progress drives the streak card; all read = day finished.
-  const readShownCount = read.length;
   const todayProgress = shown.length ? readShownCount / shown.length : 0;
   const done = shown.length > 0 && readShownCount === shown.length;
   // Show once there's something to track — never greet a fresh morning with 0.
@@ -75,7 +76,8 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
   // Today shows the newest brief there is; when that is older than today the
   // morning run is late (or failed), and the reader should know rather than
   // mistake yesterday for today.
-  const stale = isToday && daysAgo(brief.date) > 0;
+  const age = daysAgo(brief.date);
+  const stale = isToday && (age > 1 || (age === 1 && new Date().getHours() >= 6));
 
   return (
     <div className="brief">
@@ -101,32 +103,19 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
         </>
       ) : (
         <>
-          {unread.length > 0 && (
+          {listed.length > 0 && (
             <div className="items">
-              {unread.map((item) => (
+              {listed.map((item) => (
                 <BriefItemCard key={item.id} item={item} />
               ))}
             </div>
           )}
 
-          {!showCard && hideRead && unread.length === 0 && read.length > 0 && (
+          {!showCard && unreadCount === 0 && readShownCount > 0 && (
             <div className="caught-up">
               <Icon name="sparkles" size={24} />
               <span>{t.allCaughtUp}</span>
             </div>
-          )}
-
-          {!hideRead && read.length > 0 && (
-            <>
-              <div className="read-divider">
-                <span>{t.read}</span>
-              </div>
-              <div className="items items--read">
-                {read.map((item) => (
-                  <BriefItemCard key={item.id} item={item} />
-                ))}
-              </div>
-            </>
           )}
 
           {/* The streak card is the reward for finishing the reading, so it

@@ -1581,30 +1581,6 @@ button.thread:active .thread__title {
   color: var(--text-secondary);
 }
 
-.items--read {
-  margin-top: 0;
-}
-
-.read-divider {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin: 24px 2px 14px;
-  color: var(--text-tertiary);
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.read-divider::before,
-.read-divider::after {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: var(--separator);
-}
-
 .caught-up {
   display: flex;
   flex-direction: column;
@@ -2515,8 +2491,8 @@ button.week__row:active {
 }
 
 .try__check.is-on {
-  background: var(--verified);
-  border-color: var(--verified);
+  background: var(--accent);
+  border-color: var(--accent);
 }
 
 .try__body {
@@ -2684,4 +2660,250 @@ button.week__row:active {
 /* Read cards dim everything else; keep the thumbs readable. */
 .item--read .item__vote {
   opacity: 0.9;
+}
+
+/* ---- Folding read cards ------------------------------------------------------
+   A read story stays where it is and folds to its title; the body slides shut
+   with a grid-rows transition (no measuring, no jump). Tapping the title
+   unfolds it again. */
+.item__body {
+  display: grid;
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 0.32s cubic-bezier(0.2, 0.7, 0.2, 1), opacity 0.22s ease;
+}
+
+.item__body[data-open='false'] {
+  grid-template-rows: 0fr;
+  opacity: 0;
+}
+
+.item__body-inner {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.item__body[data-open='false'] .item__body-inner {
+  pointer-events: none;
+}
+
+.item__title--btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  text-align: left;
+  font: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.012em;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: font-size 0.25s ease, margin 0.25s ease;
+}
+
+.item--folded .item__title--btn {
+  margin-top: 8px;
+  font-size: 15.5px;
+}
+
+.item--folded {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.item__fold-chevron {
+  flex: 0 0 auto;
+  margin-top: 3px;
+  color: var(--text-tertiary);
+  transition: transform 0.25s ease;
+}
+
+.item--read:not(.item--folded) .item__fold-chevron {
+  transform: rotate(90deg);
+}
+
+/* ---- Touch feedback ------------------------------------------------------------
+   Every tappable control presses in, and a state that switches on pops. The
+   global reduced-motion rule above turns all of it off. */
+@keyframes pop {
+  0% {
+    transform: scale(0.6);
+  }
+  60% {
+    transform: scale(1.18);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes pop-in {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-4px);
+  }
+  75% {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes ring-ok {
+  from {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--verified) 45%, transparent);
+  }
+  to {
+    box-shadow: 0 0 0 12px transparent;
+  }
+}
+
+.vote-btn,
+.try__check,
+.read-toggle__circle,
+.quiz__opt,
+.share-brief,
+.btn,
+.cat-toggle,
+.week__row,
+.saved-entry,
+.settings-link,
+.archive-row {
+  will-change: transform;
+}
+
+.vote-btn {
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease,
+    transform 0.12s ease;
+}
+
+.vote-btn:active {
+  transform: scale(0.9);
+}
+
+.vote-btn.is-on svg {
+  animation: pop 0.32s cubic-bezier(0.2, 0.8, 0.3, 1.2);
+}
+
+.try__check {
+  transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.12s ease;
+}
+
+.try__check:active {
+  transform: scale(0.86);
+}
+
+.try__check.is-on {
+  animation: pop 0.3s cubic-bezier(0.2, 0.8, 0.3, 1.2);
+}
+
+.try__check.is-on svg,
+.read-toggle.is-read .read-toggle__circle svg {
+  animation: pop-in 0.22s ease both;
+}
+
+.read-toggle__circle {
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.12s ease;
+}
+
+.read-toggle:active .read-toggle__circle {
+  transform: scale(0.86);
+}
+
+.read-toggle.is-read .read-toggle__circle {
+  animation: pop 0.3s cubic-bezier(0.2, 0.8, 0.3, 1.2);
+}
+
+.quiz__opt {
+  transition: background-color 0.15s ease, border-color 0.15s ease, opacity 0.15s ease,
+    transform 0.12s ease;
+}
+
+.quiz__opt:not(:disabled):active {
+  transform: scale(0.985);
+}
+
+.quiz__opt.is-correct {
+  animation: ring-ok 0.55s ease-out;
+}
+
+.quiz__opt.is-wrong {
+  animation: shake 0.35s ease;
+}
+
+.quiz__score {
+  animation: pop 0.45s cubic-bezier(0.2, 0.8, 0.3, 1.2);
+}
+
+.share-brief,
+.btn {
+  transition: transform 0.12s ease, opacity 0.12s ease;
+}
+
+.share-brief:active,
+.btn:active {
+  transform: scale(0.96);
+  opacity: 0.85;
+}
+
+.link-btn {
+  transition: opacity 0.12s ease;
+}
+
+.link-btn:active {
+  opacity: 0.55;
+}
+
+.cat-toggle {
+  transition: transform 0.12s ease, opacity 0.15s ease, background-color 0.15s ease;
+}
+
+.cat-toggle:active {
+  transform: scale(0.94);
+}
+
+.week__row,
+.saved-entry,
+.settings-link {
+  transition: transform 0.12s ease, background-color 0.15s ease;
+}
+
+button.week__row:active,
+.saved-entry:active,
+.settings-link:active {
+  transform: scale(0.985);
+}
+
+/* ---- Tip rows: clamp until tapped, ticked ones fold to the title ---------- */
+.try__body[role='button'] {
+  cursor: pointer;
+}
+
+.try__detail--clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.try__row.is-folded {
+  padding-top: 11px;
+  padding-bottom: 11px;
 }

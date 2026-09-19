@@ -4,10 +4,10 @@ import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 import { useSaved } from '../providers/SavedProvider';
 import { useVotes } from '../providers/VotesProvider';
-import { VoteButtons } from './VoteButtons';
 import { useNav } from '../providers/NavProvider';
 import { shareItem } from '../lib/share';
 import { toast } from '../lib/toast';
+import { haptic } from '../lib/haptics';
 import { capitalizeFirst, daysAgo, formatDayMonth, formatShortDate } from '../lib/format';
 import { ARCHIVE_DAYS } from '../lib/archive';
 import { CategoryChip } from './CategoryChip';
@@ -15,6 +15,7 @@ import { SourceList } from './SourceList';
 import { VerifiedBadge } from './VerifiedBadge';
 import { SwipeToReveal } from './SwipeToReveal';
 import { GlossaryText } from './GlossaryText';
+import { VoteButtons } from './VoteButtons';
 import { Icon } from './Icon';
 
 // Keep in sync with the `item-exit` animation duration in index.css.
@@ -45,17 +46,29 @@ function ThreadLink({ thread }: { thread: ThreadRef }) {
   );
 }
 
+/**
+ * One story. Marking it read keeps it in place but folds it to its title (the
+ * body slides shut); tapping the title unfolds it again. With "hide read" on,
+ * the card fades out and leaves the list instead.
+ */
 export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?: boolean }) {
-  const { lang, t } = useSettings();
+  const { lang, t, hideRead } = useSettings();
   const { isRead, toggle } = useRead();
   const { isSaved, toggle: toggleSaved } = useSaved();
   const myVote = useVotes().voteFor(item.id);
   // `plain` (archive browse) ignores the read state entirely — no dim, no
-  // read-toggle — so past days always show every story.
+  // fold, no read-toggle — so past days always show every story.
   const read = plain ? false : isRead(item.id);
   const saved = isSaved(item.id);
   const tip = isTip(item);
   const why = item.why?.[lang];
+
+  // A read card is folded unless the reader unfolds it; unreading resets that.
+  const [unfolded, setUnfolded] = useState(false);
+  useEffect(() => {
+    if (!read) setUnfolded(false);
+  }, [read]);
+  const folded = read && !unfolded;
 
   function handleSave() {
     const wasSaved = saved;
@@ -78,16 +91,29 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
   const showTop = Boolean(item.highlight) && !read;
 
   function handleToggle() {
+    haptic();
     const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-    // Un-reading, or reduced motion: apply immediately with no animation.
-    if (read || reduce) {
+    // Unreading, folding in place, or reduced motion: apply immediately — the
+    // fold itself is a CSS transition. Only a card that leaves the list
+    // (hide-read on) gets the short fade-out first.
+    if (read || !hideRead || reduce) {
       toggle(item.id);
       return;
     }
-    // Marking read: brief fade-out, then move it to the read pile.
     setExiting(true);
     timeoutRef.current = window.setTimeout(() => toggle(item.id), EXIT_MS);
   }
+
+  const cls = [
+    'item',
+    showTop ? 'item--highlight' : '',
+    tip ? 'item--tip' : '',
+    read ? 'item--read' : '',
+    folded ? 'item--folded' : '',
+    exiting ? 'item--exiting' : '',
+  ]
+    .filter(Boolean)
+    .join(' ');
 
   return (
     <SwipeToReveal
@@ -98,11 +124,7 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
         onAction: handleSave,
       }}
     >
-      <article
-        className={`item${showTop ? ' item--highlight' : ''}${tip ? ' item--tip' : ''}${
-          read ? ' item--read' : ''
-        }${exiting ? ' item--exiting' : ''}`}
-      >
+      <article className={cls}>
         <div className="item__meta">
           <CategoryChip id={item.category} />
           {showTop && <span className="item__top">{t.topStory}</span>}
@@ -146,32 +168,57 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
             )}
           </div>
         </div>
-        <h3 className="item__title">{item.title[lang]}</h3>
-        <p className="item__summary">
-          <GlossaryText text={item.summary[lang]} />
-        </p>
-        {why && (
-          <div className="item__why">
-            <span className="item__why-label">{tip ? t.howToTryLabel : t.whyLabel}</span>
-            <p className="item__why-text">
-              <GlossaryText text={why} />
-            </p>
-          </div>
+        {read ? (
+          <button
+            type="button"
+            className="item__title item__title--btn"
+            aria-expanded={!folded}
+            aria-label={folded ? t.unfoldLabel : t.foldLabel}
+            onClick={() => {
+              haptic();
+              setUnfolded((v) => !v);
+            }}
+          >
+            <span>{item.title[lang]}</span>
+            <Icon name="chevronRight" className="item__fold-chevron" size={16} />
+          </button>
+        ) : (
+          <h3 className="item__title">{item.title[lang]}</h3>
         )}
-        {item.followsUp && <ThreadLink thread={item.followsUp} />}
-        <div className="item__footer">
-          {item.eventDate && (
-            <span className="item__date" title={capitalizeFirst(formatShortDate(item.eventDate, lang))}>
-              {formatDayMonth(item.eventDate, lang)}
-            </span>
-          )}
-          <SourceList sources={item.sources} />
-          {item.verified && <VerifiedBadge />}
-        </div>
-        {/* Anonymous thumbs: the one signal the generator gets back from readers. */}
-        <div className="item__vote">
-          <span className="item__vote-label">{myVote ? t.voteThanks : t.voteLabel}</span>
-          <VoteButtons id={item.id} />
+        {/* The body folds shut on a read card — a grid-rows transition, so
+            no measuring and no jump. */}
+        <div className="item__body" data-open={folded ? 'false' : 'true'} aria-hidden={folded}>
+          <div className="item__body-inner">
+            <p className="item__summary">
+              <GlossaryText text={item.summary[lang]} />
+            </p>
+            {why && (
+              <div className="item__why">
+                <span className="item__why-label">{tip ? t.howToTryLabel : t.whyLabel}</span>
+                <p className="item__why-text">
+                  <GlossaryText text={why} />
+                </p>
+              </div>
+            )}
+            {item.followsUp && <ThreadLink thread={item.followsUp} />}
+            <div className="item__footer">
+              {item.eventDate && (
+                <span
+                  className="item__date"
+                  title={capitalizeFirst(formatShortDate(item.eventDate, lang))}
+                >
+                  {formatDayMonth(item.eventDate, lang)}
+                </span>
+              )}
+              <SourceList sources={item.sources} />
+              {item.verified && <VerifiedBadge />}
+            </div>
+            {/* Anonymous thumbs: the one signal the generator gets back from readers. */}
+            <div className="item__vote">
+              <span className="item__vote-label">{myVote ? t.voteThanks : t.voteLabel}</span>
+              <VoteButtons id={item.id} />
+            </div>
+          </div>
         </div>
       </article>
     </SwipeToReveal>
