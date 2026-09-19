@@ -1,11 +1,13 @@
 import { useEffect, useMemo } from 'react';
 import type { Brief } from '../lib/types';
-import { hiddenCountLabel } from '../lib/format';
+import { capitalizeFirst, daysAgo, formatShortDate, hiddenCountLabel } from '../lib/format';
+import { shareBrief } from '../lib/share';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 import { useStreak } from '../providers/StreakProvider';
 import { BriefItemCard } from './BriefItemCard';
 import { RadarSection } from './RadarSection';
+import { WeekReviewSection } from './WeekReviewSection';
 import { WeekStreak } from './WeekStreak';
 import { Icon } from './Icon';
 
@@ -38,12 +40,36 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
     if (isToday && gamification && done) markFinished();
   }, [isToday, gamification, done, markFinished]);
 
-  // Upcoming dates sit below the stories in both Today and the archive; they
-  // are not part of the read/unread flow, so they never affect the streak.
-  const radar = brief.radar && brief.radar.length > 0 ? <RadarSection radar={brief.radar} /> : null;
+  // The week's look-back and the upcoming dates sit below the stories in both
+  // Today and the archive; they are not part of the read/unread flow, so they
+  // never affect the streak.
+  const extras = (
+    <>
+      {brief.weekInReview && brief.weekInReview.length > 0 && (
+        <WeekReviewSection entries={brief.weekInReview} />
+      )}
+      {brief.radar && brief.radar.length > 0 && <RadarSection radar={brief.radar} />}
+      <div className="share-brief-wrap">
+        <button type="button" className="share-brief" onClick={() => void shareBrief(brief, lang)}>
+          <Icon name="share" size={16} />
+          {isToday ? t.shareBriefLabel : t.shareBriefArchiveLabel}
+        </button>
+      </div>
+    </>
+  );
+
+  // Today shows the newest brief there is; when that is older than today the
+  // morning run is late (or failed), and the reader should know rather than
+  // mistake yesterday for today.
+  const stale = isToday && daysAgo(brief.date) > 0;
 
   return (
     <div className="brief">
+      {stale && (
+        <p className="stale-note" role="status">
+          <strong>{t.staleTitle}</strong> {t.staleBody} {capitalizeFirst(formatShortDate(brief.date, lang))}.
+        </p>
+      )}
       {brief.intro?.[lang] && <p className="lede">{brief.intro[lang]}</p>}
 
       {!isToday ? (
@@ -58,7 +84,7 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
               ))}
             </div>
           )}
-          {radar}
+          {extras}
         </>
       ) : (
         <>
@@ -90,7 +116,7 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
             </>
           )}
 
-          {radar}
+          {extras}
 
           {showCard && (
             <>

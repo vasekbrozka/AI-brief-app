@@ -14,7 +14,13 @@ export default async (req) => {
       return new Response('bad request', { status: 400 });
     }
     const next = subs.filter((s) => s.endpoint !== sub.endpoint);
-    next.push({ endpoint: sub.endpoint, keys: sub.keys, expirationTime: sub.expirationTime ?? null });
+    next.push({
+      endpoint: sub.endpoint,
+      keys: sub.keys,
+      expirationTime: sub.expirationTime ?? null,
+      // UI language of the device, so the morning push can carry the headline in it.
+      lang: sub.lang === 'en' ? 'en' : 'cs',
+    });
     while (next.length > MAX_SUBS) next.shift();
     await store.setJSON('subs', next);
     return Response.json({ ok: true, count: next.length });

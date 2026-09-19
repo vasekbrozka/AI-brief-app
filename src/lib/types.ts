@@ -72,6 +72,18 @@ export interface RadarItem {
   tentative?: boolean;
 }
 
+/** v3.1 — one story of the past week, pointing back into the archive (Sunday briefs). */
+export interface WeekReviewEntry {
+  /** ISO date of the brief the story ran in. */
+  date: string;
+  /** id of that item. */
+  id: string;
+  /** The item's title, copied verbatim so the row stands alone. */
+  title: Localized;
+  /** Why it was the story of the week / what happened since. */
+  note: Localized;
+}
+
 export interface Brief {
   /** ISO date, e.g. "2026-07-14". */
   date: string;
@@ -81,6 +93,8 @@ export interface Brief {
   items: BriefItem[];
   /** v3 — upcoming dates, sorted ascending. */
   radar?: RadarItem[];
+  /** v3.1 — the week's key stories, most important first (Sunday briefs only). */
+  weekInReview?: WeekReviewEntry[];
   /** Phase 1 marker: the content is illustrative sample data, not a real crawl. */
   sample?: boolean;
 }

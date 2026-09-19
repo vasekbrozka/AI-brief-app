@@ -1,5 +1,6 @@
-import type { BriefItem, Lang } from './types';
+import { isTip, type Brief, type BriefItem, type Lang } from './types';
 import { toast } from './toast';
+import { formatDayMonth, formatShortDate } from './format';
 
 const APP_URL = 'https://aispresso.app';
 
@@ -22,10 +23,27 @@ function buildShareText(item: BriefItem, lang: Lang): string {
   return parts.join('\n');
 }
 
-export async function shareItem(item: BriefItem, lang: Lang): Promise<void> {
-  const text = buildShareText(item, lang);
-  const title = item.title[lang];
+/**
+ * The whole day as plain text: date and headline, one line per story (tips
+ * marked), the upcoming dates, and the app link.
+ */
+function buildBriefShareText(brief: Brief, lang: Lang): string {
+  const date = formatShortDate(brief.date, lang);
+  const parts = [`AIspresso · ${date}`, brief.headline[lang], ''];
+  for (const item of brief.items) {
+    parts.push(`${isTip(item) ? '💡' : '•'} ${item.title[lang]}`);
+  }
+  if (brief.radar && brief.radar.length > 0) {
+    parts.push('', lang === 'cs' ? 'Na obzoru:' : 'On the radar:');
+    for (const entry of brief.radar) {
+      parts.push(`${formatDayMonth(entry.date, lang)} ${entry.title[lang]}`);
+    }
+  }
+  parts.push('', `☕️ ${APP_URL}`);
+  return parts.join('\n');
+}
 
+async function shareText(title: string, text: string, lang: Lang): Promise<void> {
   // Web Share API (iOS/Android). Only title + text — no separate url field,
   // which some targets promote to a link preview and drop the rest.
   if (typeof navigator !== 'undefined' && typeof navigator.share === 'function') {
@@ -49,4 +67,12 @@ export async function shareItem(item: BriefItem, lang: Lang): Promise<void> {
   } catch {
     toast(bad);
   }
+}
+
+export async function shareBrief(brief: Brief, lang: Lang): Promise<void> {
+  await shareText(`AIspresso · ${brief.headline[lang]}`, buildBriefShareText(brief, lang), lang);
+}
+
+export async function shareItem(item: BriefItem, lang: Lang): Promise<void> {
+  await shareText(item.title[lang], buildShareText(item, lang), lang);
 }

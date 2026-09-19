@@ -39,6 +39,15 @@ export interface UIStrings {
   radarTitle: string;
   /** Tag on a radar row whose date is reported but not confirmed. */
   radarTentative: string;
+  /** Section title for the Sunday week-in-review list. */
+  weekTitle: string;
+  /** Button under the brief that shares the whole day as text. */
+  shareBriefLabel: string;
+  shareBriefArchiveLabel: string;
+  /** Shown in Today when the newest brief is older than today (generation late or failed). */
+  staleTitle: string;
+  /** Followed by the brief's date, e.g. "… z 19. září". */
+  staleBody: string;
   sampleBadge: string;
   sampleNote: string;
 
@@ -152,6 +161,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tipBadge: 'Vyzkoušej',
     radarTitle: 'Na obzoru',
     radarTentative: 'podle zpráv',
+    weekTitle: 'Týden v AI',
+    shareBriefLabel: 'Sdílet dnešní přehled',
+    shareBriefArchiveLabel: 'Sdílet přehled',
+    staleTitle: 'Dnešní přehled se ještě připravuje.',
+    staleBody: 'Zobrazujeme poslední dostupný přehled z',
     sampleBadge: 'Ukázka',
     sampleNote:
       'Toto je ukázkový obsah pro fázi 1. Skutečný denní přehled bude automaticky sestavovat AI ve fázi 2.',
@@ -199,11 +213,15 @@ export const STRINGS: Record<Lang, UIStrings> = {
       '„Na obzoru“ — termíny, které se blíží: vydání, konference, lhůty a soudy',
       'Tipy k vyzkoušení mají štítek Vyzkoušej a návod, kde funkci najdeš',
       'Datum události u každé novinky, ať víš, jestli jde o včerejšek nebo minulý týden',
+      '„Týden v AI“ — nedělní ohlédnutí za událostmi týdne s odkazy do archivu',
+      'Sdílení celého přehledu jedním ťuknutím',
     ],
     releaseImproved: [
       'Archiv drží dva týdny místo jednoho a odkazy „Navazuje na“ tak fungují déle',
       'Přísnější ověřování: Ověřeno znamená oficiální zdroj, nebo dvě nezávislá média',
       'Sdílení novinky přibalí i větu, proč na ní záleží',
+      'Ranní upozornění nese titulek dne a počet novinek',
+      'Když ranní přehled ještě není hotový, appka to řekne místo tichého zobrazení včerejška',
     ],
     releaseFixed: [],
     aboutTagline: 'Novinky ze světa AI',
@@ -282,6 +300,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tipBadge: 'Try it',
     radarTitle: 'On the radar',
     radarTentative: 'reported',
+    weekTitle: 'The week in AI',
+    shareBriefLabel: "Share today's brief",
+    shareBriefArchiveLabel: 'Share this brief',
+    staleTitle: "Today's brief is still being prepared.",
+    staleBody: 'Showing the latest available brief from',
     sampleBadge: 'Sample',
     sampleNote:
       'This is sample content for Phase 1. The real daily brief will be assembled automatically by AI in Phase 2.',
@@ -329,11 +352,15 @@ export const STRINGS: Record<Lang, UIStrings> = {
       '"On the radar" — dates coming up: launches, conferences, deadlines and hearings',
       'Tips you can try carry a Try it badge and a note on where to find the feature',
       'The event date on every story, so you know whether it happened yesterday or last week',
+      '"The week in AI" — a Sunday look back at the week\'s key stories, linked into the archive',
+      'Share the whole brief with one tap',
     ],
     releaseImproved: [
       'The archive keeps two weeks instead of one, so "Follows up on" links work longer',
       'Stricter verification: Verified means an official source, or two independent outlets',
       'Sharing a story now includes the why-it-matters line',
+      'The morning notification carries the headline of the day and the story count',
+      "When the morning brief isn't ready yet, the app says so instead of quietly showing yesterday",
     ],
     releaseFixed: [],
     aboutTagline: 'The world of AI',

@@ -20,7 +20,9 @@ z GitHubu.
 - 💡 **Proč na tom záleží** — u každé zprávy věta dvě, co z ní plyne pro čtenáře;
   u tipů návod, kde funkci najít
 - 📅 **Na obzoru** — nadcházející termíny (vydání, konference, lhůty, soudy)
-- ✔️ **Přečteno**, uložení na později, sdílení, série čtení, vysvětlivky pojmů
+- 🗓️ **Týden v AI** — nedělní ohlédnutí za událostmi týdne s odkazy do archivu
+- ✔️ **Přečteno**, uložení na později, sdílení novinky i celého přehledu, série čtení,
+  vysvětlivky pojmů (slovníček roste s obsahem), ranní upozornění s titulkem dne
 
 ## Vývoj lokálně
 
@@ -38,24 +40,28 @@ npm run icons      # přegeneruje PWA ikony z assets/icon-source.png (scripts/ge
 Obsah se načítá za běhu jako statický JSON:
 
 ```
-data/briefs/
-├── index.json          # seznam dostupných briefů (nejnovější první, 14 dnů)
-├── YYYY-MM-DD.json      # jeden brief na den (starší dny zůstávají, jen nejsou v indexu)
-├── published-log.json   # ledger zveřejněných položek (dedup, 60 dní) — appka nečte
-└── tips-backlog.json    # fronta tipů k vyzkoušení — appka nečte
+data/
+├── glossary.json            # slovníček pojmů (appka podtrhává a vysvětluje)
+└── briefs/
+    ├── index.json           # seznam dostupných briefů (nejnovější první, 14 dnů)
+    ├── YYYY-MM-DD.json      # jeden brief na den (starší dny zůstávají, jen nejsou v indexu)
+    ├── published-log.json   # ledger zveřejněných položek (dedup, 60 dní) — appka nečte
+    └── tips-backlog.json    # fronta tipů k vyzkoušení — appka nečte
 ```
 
 Appka (`src/lib/briefs.ts`) je čte přímo z GitHubu (raw + Contents API jako záloha),
-ne z Netlify — daily commit do `data/briefs/` proto Netlify záměrně nenasazuje (`ignore`
+ne z Netlify — daily commit do `data/` proto Netlify záměrně nenasazuje (`ignore`
 v `netlify.toml`), aby denní obsah nestál nasazovací kredity.
 
 Datový model je v `src/lib/types.ts`. Každá položka má `kind` (zpráva / tip), kategorii,
 dvojjazyčný titulek, shrnutí a **`why`** (proč na tom záleží), **`eventDate`**, seznam
-zdrojů a příznak `verified`; brief má navíc **`radar`** s nadcházejícími termíny. Pole
-z v3 jsou volitelná, starší briefy se vykreslí beze změny.
+zdrojů a příznak `verified`; brief má navíc **`radar`** s nadcházejícími termíny a
+v neděli **`weekInReview`** s událostmi týdne. Pole z v3 jsou volitelná, starší briefy
+se vykreslí beze změny.
 
 - Recept pro generování: `docs/brief-generation.md`
-- Kontrola před publikací: `python3 docs/check-brief.py` (schéma, meze, zdroje, ledgery)
+- Kontrola před publikací: `python3 docs/check-brief.py` (schéma, meze, zdroje, ledgery,
+  slovníček); `--stats` vypíše čísla za posledních 14 dnů
 - Ukázka briefu v3: `docs/examples/brief-v3-example.json`
 - Analýza, ze které v3 vzešla: `docs/analyza-receptu-2026-09.md`
 

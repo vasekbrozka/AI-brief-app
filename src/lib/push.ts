@@ -26,11 +26,20 @@ function urlBase64ToUint8Array(base64: string): Uint8Array<ArrayBuffer> {
   return bytes;
 }
 
+/** The reader's UI language, so the morning push can carry the headline in it. */
+function currentLang(): 'cs' | 'en' {
+  try {
+    return localStorage.getItem('aibrief.lang') === 'en' ? 'en' : 'cs';
+  } catch {
+    return 'cs';
+  }
+}
+
 async function registerOnServer(sub: PushSubscription): Promise<boolean> {
   const res = await fetch(SUBSCRIBE_ENDPOINT, {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
-    body: JSON.stringify(sub.toJSON()),
+    body: JSON.stringify({ ...sub.toJSON(), lang: currentLang() }),
   });
   return res.ok;
 }
