@@ -51,7 +51,7 @@
       "term": { "cs": "Kontextové okno", "en": "Context window" },
       "aliases": ["kontextové okno", "kontextového okna", "kontextovém okně", "kontextovým oknem", "context window", "context windows"],
       "short": {
-        "cs": "Kolik textu model udrží „v hlavě\" najednou. Čím větší okno, tím delší dokument nebo konverzaci zvládne bez ztráty nitě.",
+        "cs": "Kolik textu model udrží „v hlavě“ najednou. Čím větší okno, tím delší dokument nebo konverzaci zvládne bez ztráty nitě.",
         "en": "How much text the model can hold 'in mind' at once. The bigger the window, the longer a document or conversation it handles."
       }
     },
@@ -60,7 +60,7 @@
       "term": { "cs": "MoE (směs expertů)", "en": "MoE (mixture of experts)" },
       "aliases": ["MoE", "mixture of experts", "směs expertů"],
       "short": {
-        "cs": "Architektura složená z mnoha „expertů\", kde se pro každý dotaz zapojí jen část. Model je pak výkonný, ale levnější na provoz.",
+        "cs": "Architektura složená z mnoha „expertů“, kde se pro každý dotaz zapojí jen část. Model je pak výkonný, ale levnější na provoz.",
         "en": "An architecture of many 'experts' where only part activates per query. The model is powerful yet cheaper to run."
       }
     },
@@ -105,7 +105,7 @@
       "term": { "cs": "Otevřené váhy (open-weight)", "en": "Open weights" },
       "aliases": ["open-weight", "open weight", "open-weights", "otevřené váhy", "otevřenými váhami", "otevřených vah", "open-source model", "open source model"],
       "short": {
-        "cs": "Model, jehož „váhy\" (naučené parametry) jsou volně ke stažení, takže si ho lze provozovat i upravovat samostatně.",
+        "cs": "Model, jehož „váhy“ (naučené parametry) jsou volně ke stažení, takže si ho lze provozovat i upravovat samostatně.",
         "en": "A model whose 'weights' (learned parameters) are freely downloadable, so anyone can run and modify it."
       }
     },
@@ -114,7 +114,7 @@
       "term": { "cs": "GPU", "en": "GPU" },
       "aliases": ["GPU", "GPUs"],
       "short": {
-        "cs": "Výkonný čip původně pro grafiku, dnes hlavní „motor\" pro trénink i běh AI modelů.",
+        "cs": "Výkonný čip původně pro grafiku, dnes hlavní „motor“ pro trénink i běh AI modelů.",
         "en": "A powerful chip originally for graphics, now the main 'engine' for training and running AI models."
       }
     },
@@ -150,7 +150,7 @@
       "term": { "cs": "Uvažování (reasoning)", "en": "Reasoning" },
       "aliases": ["reasoning", "uvažování", "uvažovací", "reasoning model", "reasoning modely"],
       "short": {
-        "cs": "Schopnost modelu „přemýšlet\" krok za krokem před odpovědí. Uvažovací modely řeší složitější úlohy, ale trvá jim to déle.",
+        "cs": "Schopnost modelu „přemýšlet“ krok za krokem před odpovědí. Uvažovací modely řeší složitější úlohy, ale trvá jim to déle.",
         "en": "The model's ability to 'think' step by step before answering. Reasoning models solve harder tasks but take longer."
       }
     },

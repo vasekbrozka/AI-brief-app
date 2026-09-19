@@ -257,5 +257,67 @@
       ],
       "tentative": false
     }
+  ],
+  "weekInReview": [
+    {
+      "date": "2026-09-18",
+      "id": "2026-09-18-claude-cowork-chat-merge-docs-slides-design",
+      "title": {
+        "cs": "Claude spojil Cowork s chatem, přidal Docs, Slides a Design do konverzace",
+        "en": "Claude merges Cowork into chat, adds Docs, Slides, and Design to conversations"
+      },
+      "note": {
+        "cs": "Největší produktová změna Claude za měsíce: jedna appka místo dvou režimů, k tomu nové nástroje Docs a Slides.",
+        "en": "The biggest Claude product change in months: one app instead of two modes, plus the new Docs and Slides tools."
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "id": "2026-09-17-openai-model-misalignment-disclosure-framework",
+      "title": {
+        "cs": "OpenAI zveřejnilo šest bezpečnostních incidentů a nový rámec pro jejich hlášení",
+        "en": "OpenAI discloses six safety incidents and a new reporting framework"
+      },
+      "note": {
+        "cs": "Poprvé veřejný rámec pro hlášení chování modelů proti zadání; Microsoft pár dní předtím zveřejnil vlastní kodex.",
+        "en": "The first public framework for reporting models acting against instructions; Microsoft had published its own code days earlier."
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "id": "2026-09-17-openai-1-2-trillion-funding-round-talks",
+      "title": {
+        "cs": "OpenAI jedná o novém kole financování s hodnotou 1,2 bilionu dolarů",
+        "en": "OpenAI in talks for a new funding round at $1.2 trillion valuation"
+      },
+      "note": {
+        "cs": "Místo odloženého IPO jedná OpenAI o soukromém kole s hodnotou 1,2 bilionu dolarů.",
+        "en": "Instead of the postponed IPO, OpenAI is negotiating a private round at a 1.2 trillion dollar valuation."
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "id": "2026-09-14-xi-brics-ai-open-source-initiative",
+      "title": {
+        "cs": "Si Ťin-pching navrhl otevřenou AI komunitu zemí BRICS",
+        "en": "Xi Jinping proposes an open-source AI community for BRICS nations"
+      },
+      "note": {
+        "cs": "Geopolitická odpověď na americkou debatu o zpomalení AI: Čína nabízí zemím BRICS otevřené modely a školení.",
+        "en": "A geopolitical answer to the US debate on slowing AI down: China offers BRICS countries open models and training."
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "id": "2026-09-16-cloudflare-ai-crawler-default-block",
+      "title": {
+        "cs": "Cloudflare od 15. září defaultně blokuje AI roboty na stránkách s reklamou",
+        "en": "Cloudflare now blocks AI crawlers by default on ad-supported pages"
+      },
+      "note": {
+        "cs": "Změna, která se dotkne každého webu s reklamou na Cloudflare, včetně všech bezplatných účtů.",
+        "en": "A change that touches every ad-supported site on Cloudflare, including all free accounts."
+      }
+    }
   ]
 }

@@ -4,6 +4,7 @@
 Použití (z kořene repa):
   python3 docs/check-brief.py [YYYY-MM-DD]       # dnešní (UTC) nebo zadaný den — vše včetně ledgerů
   python3 docs/check-brief.py --file CESTA.json  # jen schéma a texty souboru (bez indexu a ledgerů)
+  python3 docs/check-brief.py --stats [N]        # čísla za posledních N dnů (výchozí 14) do deníku
 
 FAIL = nepublikovat, oprav a spusť znovu.  WARN = posuď a rozhodni (důvod do deníku).
 Exit kód 0 = vše OK (warny povolené), 1 = aspoň jeden FAIL.
@@ -11,7 +12,7 @@ Exit kód 0 = vše OK (warny povolené), 1 = aspoň jeden FAIL.
 import json
 import re
 import sys
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 BRIEFS = Path("data/briefs")
@@ -38,6 +39,30 @@ INDEX_MAX_DAYS = 14
 FOLLOWSUP_WINDOW = 14
 PUBLOG_KEEP_DAYS = 60
 PUBLOG_STALE_WARN_DAYS = 75
+WEEK_MIN, WEEK_MAX, WEEK_HARD = 4, 6, 8   # weekInReview (nedělní brief)
+WEEK_NOTE_WORDS_OK, WEEK_NOTE_WORDS_HARD = 25, 35
+DUP_TITLE_SIMILARITY = 0.5   # Jaccard přes slova titulků; víc = WARN „možná duplicita“
+GLOSSARY = Path("data/glossary.json")
+GLOSSARY_MAX_NEW_PER_DAY = 3
+
+# Kanonická jména zdrojů (pole `name`) pro nejčastější domény — viz recept, sekce Psaní.
+CANONICAL_NAMES = {
+    "anthropic.com": "Anthropic", "claude.com": "Anthropic", "support.claude.com": "Anthropic",
+    "code.claude.com": "Anthropic", "openai.com": "OpenAI", "help.openai.com": "OpenAI",
+    "blog.google": "Google", "deepmind.google": "DeepMind", "googleblog.com": "Google",
+    "microsoft.com": "Microsoft", "learn.microsoft.com": "Microsoft Learn",
+    "nvidia.com": "NVIDIA", "ai.meta.com": "Meta", "huggingface.co": "Hugging Face",
+    "mistral.ai": "Mistral", "x.ai": "xAI", "apple.com": "Apple",
+    "reuters.com": "Reuters", "apnews.com": "AP", "bloomberg.com": "Bloomberg",
+    "theverge.com": "The Verge", "arstechnica.com": "Ars Technica", "techcrunch.com": "TechCrunch",
+    "axios.com": "Axios", "wired.com": "Wired", "theregister.com": "The Register",
+    "technologyreview.com": "MIT Technology Review", "cnbc.com": "CNBC",
+    "theinformation.com": "The Information", "ft.com": "Financial Times",
+    "wsj.com": "Wall Street Journal", "nytimes.com": "The New York Times",
+    "washingtonpost.com": "The Washington Post", "theguardian.com": "The Guardian",
+    "bbc.com": "BBC", "bbc.co.uk": "BBC", "npr.org": "NPR", "fortune.com": "Fortune",
+    "venturebeat.com": "VentureBeat",
+}
 
 # --- zdroje: tiery důvěryhodnosti (viz recept, sekce Zdroje) ------------------
 # Tier 1 = oficiální/primární. Shoda = doména nebo její subdoména.
@@ -163,6 +188,63 @@ def tier_of(domain: str) -> int:
     return 3
 
 
+def canonical_name(domain: str) -> str | None:
+    """Nejdelší odpovídající klíč (subdoména má přednost před doménou)."""
+    best = None
+    for d, name in CANONICAL_NAMES.items():
+        if (domain == d or domain.endswith("." + d)) and (best is None or len(d) > len(best[0])):
+            best = (d, name)
+    return best[1] if best else None
+
+
+def load_brief_file(d: date) -> dict | None:
+    try:
+        return json.load(open(BRIEFS / f"{d.isoformat()}.json", encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+
+
+def title_tokens(text: str) -> set[str]:
+    return {w for w in re.findall(r"[\w]+", (text or "").lower()) if len(w) > 3}
+
+
+def jaccard(a: set[str], b: set[str]) -> float:
+    return len(a & b) / len(a | b) if a and b else 0.0
+
+
+def stats(days: int) -> int:
+    """Tabulka posledních N dnů pro redakční deník (jen existující soubory)."""
+    today = date.fromisoformat(datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+    rows = []
+    for k in range(days):
+        d = today - timedelta(days=k)
+        b = load_brief_file(d)
+        if not b:
+            continue
+        items = b.get("items", [])
+        news = [i for i in items if "-tip-" not in i.get("id", "")]
+        tips = len(items) - len(news)
+        verified = sum(1 for i in items if i.get("verified") is True)
+        src = [domain_of(s.get("url", "")) for i in items for s in i.get("sources", [])]
+        weak = sum(1 for d_ in src if tier_of(d_) == 3)
+        rows.append((d.isoformat(), len(items), len(news), tips, len(b.get("radar") or []),
+                     verified, len(items), weak, len(src)))
+    if not rows:
+        print("žádné briefy k dispozici")
+        return 0
+    print(f"{'den':<12}{'položek':>8}{'zpráv':>7}{'tipů':>6}{'radar':>7}{'ověřeno':>10}{'slabé zdroje':>14}")
+    for d, n, nn, nt, nr, v, tot, weak, ns in rows:
+        print(f"{d:<12}{n:>8}{nn:>7}{nt:>6}{nr:>7}{v:>4}/{tot:<5}{weak:>6}/{ns:<7}")
+    n = len(rows)
+    avg = lambda idx: sum(r[idx] for r in rows) / n
+    tot_items = sum(r[1] for r in rows)
+    tot_src = sum(r[8] for r in rows)
+    print(f"\nprůměr za {n} dnů: {avg(1):.1f} položek · {avg(2):.1f} zpráv · {avg(3):.1f} tipů · "
+          f"{avg(4):.1f} na obzoru · ověřeno {100 * sum(r[5] for r in rows) / max(1, tot_items):.0f} % · "
+          f"slabé zdroje {100 * sum(r[7] for r in rows) / max(1, tot_src):.0f} %")
+    return 0
+
+
 def check_text(name: str, text: str, lang: str) -> None:
     low = (text or "").lower()
     for d in WEEKDAYS:
@@ -194,6 +276,9 @@ def check_sources(owner: str, srcs, lo: int, hi: int) -> tuple[list[int], list[s
             continue
         d = domain_of(url)
         domains.append(d)
+        canon = canonical_name(d)
+        if canon and s.get("name", "").strip() != canon:
+            warn(f"{owner}: zdroj {d} má name {s.get('name')!r}, kanonicky „{canon}“")
         if _matches(d, BANNED_SOURCE_DOMAINS):
             fail(f"{owner}: zakázaná doména ve zdrojích ({d})")
             tiers.append(3)
@@ -220,6 +305,8 @@ def main() -> int:
     argv = sys.argv[1:]
     file_mode = False
     brief_path: Path
+    if argv and argv[0] == "--stats":
+        return stats(int(argv[1]) if len(argv) > 1 else 14)
     if argv and argv[0] == "--file":
         if len(argv) < 2:
             print("použití: check-brief.py --file CESTA.json")
@@ -547,6 +634,150 @@ def main() -> int:
             if "tentative" in r and not isinstance(r["tentative"], bool):
                 fail(f"{name}: tentative musí být true/false")
 
+    # --- radar: přenos ze včerejška (jen denní režim) ---------------------------
+    if not file_mode and isinstance(radar, list):
+        yesterday = load_brief_file(today - timedelta(days=1))
+        for r in (yesterday or {}).get("radar") or []:
+            d = parse_iso(str(r.get("date", ""))) if isinstance(r, dict) else None
+            if d is None or d < today:
+                continue
+            old_title = loc(r, "title", "cs")
+            kept = any(
+                isinstance(t, dict) and str(t.get("date")) == d.isoformat()
+                and (loc(t, "title", "cs").strip().lower() == old_title.strip().lower()
+                     or jaccard(title_tokens(loc(t, "title", "cs")), title_tokens(old_title)) >= DUP_TITLE_SIMILARITY)
+                for t in radar
+            )
+            if not kept:
+                warn(f"radar: termín „{old_title}“ ({d}) ze včerejšího briefu chybí, ačkoli ještě neuplynul — "
+                     f"přenes ho, nebo do deníku napiš proč ne")
+
+    # --- podobné titulky proti posledním 14 dnům (jen denní režim) -----------------
+    if not file_mode:
+        prior: list[tuple[str, set[str]]] = []
+        for k in range(1, INDEX_MAX_DAYS + 1):
+            b = load_brief_file(today - timedelta(days=k))
+            for pi in (b or {}).get("items", []):
+                if isinstance(pi, dict) and pi.get("id"):
+                    prior.append((pi["id"], title_tokens(loc(pi, "title", "cs"))))
+        for i in news:
+            mine = title_tokens(loc(i, "title", "cs"))
+            for pid, toks in prior:
+                if jaccard(mine, toks) >= DUP_TITLE_SIMILARITY:
+                    warn(f"{i['id']}: titulek se podobá {pid} — stejná událost se neopakuje; nový vývoj = update s followsUp")
+                    break
+
+    # --- weekInReview (týden v AI, nedělní brief) ------------------------------------
+    week = brief.get("weekInReview")
+    is_sunday = today.weekday() == 6
+    if week is None:
+        if v3 and is_sunday:
+            warn("nedělní brief nemá weekInReview (Týden v AI) — doplň 4–6 událostí týdne z archivu")
+    elif not isinstance(week, list):
+        fail("weekInReview musí být pole")
+    else:
+        if not is_sunday:
+            warn("weekInReview je jen pro nedělní brief")
+        if len(week) > WEEK_HARD:
+            fail(f"weekInReview má {len(week)} položek (tvrdý strop {WEEK_HARD})")
+        elif not WEEK_MIN <= len(week) <= WEEK_MAX:
+            warn(f"weekInReview má {len(week)} položek (cíl {WEEK_MIN}–{WEEK_MAX})")
+        seen_ids: set[str] = set()
+        for n, e in enumerate(week, 1):
+            name = f"weekInReview[{n}]"
+            if not isinstance(e, dict):
+                fail(f"{name}: musí být objekt")
+                continue
+            d = parse_iso(str(e.get("date", "")))
+            if d is None:
+                fail(f"{name}: date {e.get('date')!r} není platné ISO datum")
+            elif not (today - timedelta(days=7) <= d < today):
+                fail(f"{name}: date {d} není z posledních 7 dnů")
+            eid = str(e.get("id", ""))
+            if not eid:
+                fail(f"{name}: chybí id")
+            elif eid in seen_ids:
+                fail(f"{name}: duplicitní id {eid}")
+            elif "-tip-" in eid:
+                warn(f"{name}: tip do ohlédnutí za týdnem nepatří ({eid})")
+            seen_ids.add(eid)
+            for lang in ("cs", "en"):
+                title = loc(e, "title", lang)
+                note = loc(e, "note", lang)
+                check_text(f"{name}.title.{lang}", title, lang)
+                check_text(f"{name}.note.{lang}", note, lang)
+                if not title.strip():
+                    fail(f"{name}: chybí title.{lang}")
+                if not note.strip():
+                    fail(f"{name}: chybí note.{lang}")
+                elif words(note) > WEEK_NOTE_WORDS_HARD:
+                    fail(f"{name}.note.{lang}: {words(note)} slov (strop {WEEK_NOTE_WORDS_OK})")
+                elif words(note) > WEEK_NOTE_WORDS_OK:
+                    warn(f"{name}.note.{lang}: {words(note)} slov (cíl ≤ {WEEK_NOTE_WORDS_OK})")
+            if not file_mode and d is not None and eid:
+                src = load_brief_file(d)
+                if src is None:
+                    warn(f"{name}: {d}.json není k dispozici — id {eid} nejde ověřit")
+                else:
+                    match = next((i for i in src.get("items", []) if isinstance(i, dict) and i.get("id") == eid), None)
+                    if match is None:
+                        fail(f"{name}: id {eid} v briefu {d} neexistuje")
+                    else:
+                        for lang in ("cs", "en"):
+                            if loc(match, "title", lang).strip() != loc(e, "title", lang).strip():
+                                warn(f"{name}.title.{lang}: neodpovídá doslova titulku {eid}")
+
+    # --- slovníček (jen denní režim) ----------------------------------------------------
+    if not file_mode:
+        try:
+            glossary = json.load(open(GLOSSARY, encoding="utf-8"))
+        except FileNotFoundError:
+            fail(f"chybí {GLOSSARY}")
+            glossary = None
+        except json.JSONDecodeError as e:
+            fail(f"{GLOSSARY} není platný JSON: {e}")
+            glossary = None
+        if isinstance(glossary, dict):
+            if parse_iso(str(glossary.get("updated", ""))) is None:
+                warn("glossary.updated není platné ISO datum")
+            terms = glossary.get("terms")
+            if not isinstance(terms, list):
+                fail("glossary.terms musí být pole")
+                terms = []
+            ids: dict[str, int] = {}
+            alias_owner: dict[str, str] = {}
+            for n, t in enumerate(terms, 1):
+                name = f"glossary[{n}]"
+                if not isinstance(t, dict) or not isinstance(t.get("id"), str) or not t["id"]:
+                    fail(f"{name}: chybí id")
+                    continue
+                name = f"glossary[{t['id']}]"
+                ids[t["id"]] = ids.get(t["id"], 0) + 1
+                for lang in ("cs", "en"):
+                    if not loc(t, "term", lang).strip():
+                        fail(f"{name}: chybí term.{lang}")
+                    short = loc(t, "short", lang)
+                    if not short.strip():
+                        fail(f"{name}: chybí short.{lang}")
+                    elif words(short) > 45:
+                        fail(f"{name}.short.{lang}: {words(short)} slov (strop 35)")
+                    elif words(short) > 35:
+                        warn(f"{name}.short.{lang}: {words(short)} slov (cíl ≤ 35)")
+                    check_text(f"{name}.short.{lang}", short, lang)
+                aliases = t.get("aliases")
+                if not isinstance(aliases, list) or not aliases or not all(isinstance(a, str) and a.strip() for a in aliases):
+                    fail(f"{name}: aliases musí být neprázdné pole textů")
+                    continue
+                for a in aliases:
+                    key = a.strip().lower()
+                    if key in alias_owner and alias_owner[key] != t["id"]:
+                        warn(f"{name}: alias „{a}“ už patří pojmu {alias_owner[key]}")
+                    alias_owner.setdefault(key, t["id"])
+            for i_, c in ids.items():
+                if c > 1:
+                    fail(f"glossary: duplicitní id {i_}")
+            infos.append(f"slovníček: {len(terms)} pojmů, aktualizován {glossary.get('updated')}")
+
     # --- published-log --------------------------------------------------------
     if publog is not None:
         logged = {e.get("slug") for e in publog.get("published", []) if isinstance(e, dict)}
@@ -586,8 +817,10 @@ def main() -> int:
                 fail(f"chybí trvalý soubor {name} — NIKDY se nemaže")
 
     verified_n = sum(1 for i in items if i.get("verified") is True)
+    week_n = len(week) if isinstance(week, list) else 0
     infos.append(
-        f"{len(news)} zpráv · {len(tips)} tipů · {radar_count} na obzoru · ověřeno {verified_n}/{len(items)} · "
+        f"{len(news)} zpráv · {len(tips)} tipů · {radar_count} na obzoru · týden v AI {week_n} · "
+        f"ověřeno {verified_n}/{len(items)} · "
         f"zdroje T1 {tier_counts[1]} / T2 {tier_counts[2]} / ostatní {tier_counts[3]}"
     )
     return report()

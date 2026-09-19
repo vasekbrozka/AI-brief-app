@@ -1,4 +1,4 @@
-# AIspresso — recept pro denní generování briefu (v3)
+# AIspresso — recept pro denní generování briefu (v3.1)
 
 Tento soubor je **závazný recept**, podle kterého se každý den automaticky generuje nový
 brief. Naplánovaná (cron) Claude session dostane jednoduchý pokyn:
@@ -57,9 +57,11 @@ položka do briefu nepatří.
    - posledních 14 briefů `data/briefs/*.json` (co vyšlo, jaké `radar` termíny se nesou),
    - `data/briefs/published-log.json` — zveřejněné položky za 60 dní (dedup),
    - `data/briefs/tips-backlog.json` — fronta a historie tipů; spočítej, kolik tipů
-     čeká (`used: null`) pro každé téma.
+     čeká (`used: null`) pro každé téma,
+   - `data/glossary.json` — slovníček pojmů (viz krok 4b),
+   - `python3 docs/check-brief.py --stats` — čísla za posledních 14 dnů (do deníku).
 
-### 1 · Rešerše — pevný plán, 20–30 dotazů
+### 1 · Rešerše — pevný plán, 22–32 dotazů
 
 Jediný funkční nástroj je **WebSearch** (přímé stahování stránek je pro většinu domén
 blokované — výjimkou je RSS níže; neztrácej čas opakovanými pokusy). Rešerše se dělá podle
@@ -69,7 +71,7 @@ plánu, ne „dokud něco nenajdu":
 |---|---|---|
 | **A · Newsroomy** (T1, `allowed_domains`) | 5–6 | Po jednom dotazu: Anthropic (`anthropic.com`, `claude.com`) · OpenAI (`openai.com`, `help.openai.com`) · Google (`blog.google`, `deepmind.google`, `googleblog.com`, `google.dev`) · Microsoft (`microsoft.com`) · ostatní hráči najednou (`nvidia.com`, `meta.com`, `mistral.ai`, `x.ai`, `huggingface.co`, `perplexity.ai`, `aboutamazon.com`, `apple.com`) |
 | **B · Média** (T2, `allowed_domains`) | 3–4 | `reuters.com`, `apnews.com`, `theverge.com`, `arstechnica.com`, `techcrunch.com`, `axios.com`, `cnbc.com`, `theregister.com`, `wired.com`, `technologyreview.com`, `bloomberg.com`, `ft.com`: jeden dotaz na hlavní hráče, jeden na regulaci/soudy, jeden na byznys/čipy/infrastrukturu |
-| **C · Témata** (bez omezení) | 5–7 | modely a benchmarky · agenti a kódovací nástroje · regulace, EU, soudy · investice, akvizice, čipy · výzkum a bezpečnost · open-source/open-weight · spotřební AI (Apple, Samsung, auta, brýle, hodinky) |
+| **C · Témata** (bez omezení) | 6–8 | modely a benchmarky · agenti a kódovací nástroje · regulace, EU, soudy · investice, akvizice, čipy · výzkum a bezpečnost · open-source/open-weight · spotřební AI (Apple, Samsung, auta, brýle, hodinky) · **Česko a EU** (česká média, `europa.eu`, EU AI Act, tuzemské firmy, úřady a školy) |
 | **D · Tipy** (release notes) | 2–4 | pro každé jádrové téma s **< 2 čekajícími tipy**: release notes / help center / changelog dané firmy (`support.claude.com`, `help.openai.com`, `workspaceupdates.googleblog.com`, `techcommunity.microsoft.com`, `learn.microsoft.com`) |
 | **E · Radar** | 2–3 | nadcházející termíny: „next week / October 2026 / launch date / effective / deadline / hearing / trial / earnings / keynote" + jména hráčů |
 | **F · Ověření** | dle potřeby | k vybraným kandidátům dohledat T1/T2 URL a datum primární události |
@@ -176,6 +178,27 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   The Register · MIT Technology Review · CNBC · The Information · Financial Times ·
   Wall Street Journal · NPR · Fortune · VentureBeat. Jiný web = přesný název média.
 
+### 4b · Slovníček (`data/glossary.json`)
+
+Appka podtrhává pojmy ze slovníčku a po ťuknutí ukáže prosté vysvětlení. Když dnešní
+texty (shrnutí, `why`, radar) používají odborný pojem, který ve slovníčku chybí — nová
+architektura, technika, zkratka, regulační termín — **přidej ho**, nejvýš 3 denně:
+
+```jsonc
+{
+  "id": "distillation",
+  "term":    { "cs": "Destilace modelu", "en": "Model distillation" },
+  "aliases": ["destilace", "destilaci", "destilací", "distillation", "distilled"],
+  "short":   { "cs": "≤ 35 slov, prostě a bez žargonu, jako když to vysvětluješ kolegovi.", "en": "…" }
+}
+```
+
+- Aliasy = tvary, jak se v textech skutečně vyskytují (české pády, anglické množné
+  číslo); porovnávají se jako celá slova bez ohledu na velikost písmen. Nepřidávej
+  aliasy, které jsou běžná slova („model", „agentura").
+- `updated` nastav na dnešek, když něco přidáš. Existující záznamy nemaž ani
+  nepřepisuj (jen oprav zjevnou chybu). Skript slovníček kontroluje při každém běhu.
+
 ### 5 · Na obzoru (`radar`)
 
 Kalendář nadcházejících termínů — to, co v2 zahazovala. **0–6 položek** (strop 8),
@@ -191,8 +214,25 @@ seřazených podle data:
   říká „podle zpráv".
 - **Přenášení:** termín z včerejšího briefu, který je stále v budoucnu, zkopíruj doslova
   (aktualizuj jen změnu). Když datum uplynulo: stalo se → dnes je to zpráva; posunulo se
-  → nové datum, nebo ven. Radar se do `published-log.json` nezapisuje.
+  → nové datum, nebo ven. Radar se do `published-log.json` nezapisuje. Skript porovná
+  dnešní radar se včerejším a ohlásí termín, který zmizel, aniž uplynul.
 - Texty: `title` ≤ 12 slov, `note` ≤ 30 slov (co se má stát a proč to čtenáře zajímá).
+
+### 5b · Týden v AI (`weekInReview`, jen nedělní brief)
+
+Nedělní brief (`date -u -d <dnešek> +%u` dá `7`) nese navíc ohlédnutí za týdnem —
+**4–6 položek** z briefů posledních 7 dnů, seřazených podle důležitosti. Víkendové
+zprávy jsou tenké; ohlédnutí dělá z neděle nejbohatší čtení týdne a dožene, co čtenář
+přes týden minul.
+
+- Každá položka odkazuje na existující zprávu z archivu: `date`, `id` a **doslovně
+  zkopírovaný** `title` (cs + en), plus `note` (≤ 25 slov): proč to byla událost týdne
+  a co se od té doby stalo (když nic, jen proč to bylo důležité).
+- Vybírej napříč firmami a tématy; tipy do ohlédnutí nepatří. Hlavní zpráva soboty
+  může být v ohlédnutí taky — nevylučují se.
+- **Žádná nová rešerše**: zdrojem jsou vlastní briefy v `data/briefs/`. Skript ověří,
+  že `id` existují a titulky sedí.
+- V jiné dny pole vynech.
 
 ### 6 · Kontrola před publikací (povinná)
 
@@ -207,8 +247,12 @@ python3 docs/check-brief.py
 - Skript kontroluje: platnost JSON a schéma v3, právě 1 highlight (ne tip), kategorie,
   `kind`, meze slov (titulek, shrnutí, `why`, intro), **stáří `eventDate`** (zprávy 7 dní,
   tipy 60), názvy dnů, ASCII uvozovky, kalky, intro bez počítání, zakázané domény,
-  paywall párování, **tiery zdrojů a definici ověřeno**, tipy (počet, backlog, žádné
-  opakování), radar (data, meze, zdroje, řazení), `followsUp`, published-log, index.
+  paywall párování, **tiery zdrojů a definici ověřeno**, kanonická jména zdrojů, tipy
+  (počet, backlog, žádné opakování), radar (data, meze, zdroje, řazení, **přenos ze
+  včerejška**), **podobné titulky** proti posledním 14 dnům, `weekInReview`,
+  `followsUp`, slovníček, published-log, index.
+- `python3 docs/check-brief.py --stats` vypíše posledních 14 dnů (položky, zprávy, tipy,
+  radar, podíl ověřených a slabých zdrojů) — průměr patří do deníku.
 - Ladění mimo denní běh: `python3 docs/check-brief.py --file cesta.json` zkontroluje jen
   schéma a texty (bez indexu a ledgerů).
 
@@ -223,9 +267,10 @@ python3 docs/check-brief.py
    **60 dní** zahoď.
 4. `tips-backlog.json`: u zveřejněných tipů nastav `used`; nové kandidáty přidej;
    použité starší 90 dnů ven.
-5. Kontrola (krok 6) prošla bez FAIL → commit a push **jen obsahu**:
+5. Kontrola (krok 6) prošla bez FAIL → commit a push **jen obsahu** (briefy, ledgery
+   i slovníček; Netlify adresář `data/` nenasazuje):
    ```bash
-   git add data/briefs/
+   git add data/
    git commit -F <soubor s deníkem>
    git push origin claude/daily-ai-brief-app-b1qq0p
    ```
@@ -243,7 +288,8 @@ python3 docs/check-brief.py
    - …
 
    Bank tipů: <kolik čeká> (claude n · chatgpt n · gemini n · copilot n · other n); přidáno <n>
-   Radar: +<nové> / −<odstraněné a proč>
+   Radar: +<nové> / −<odstraněné a proč> · Slovníček: +<n> · Týden v AI: <n položek | ne>
+   Průměr za 14 dnů: <položek/den ze `--stats`>
    Poznámky: <odchylky od receptu a jejich zdůvodnění; WARN, které jsi pustil>
    ```
 7. Netlify tento push záměrně nenasadí — appka vidí data z GitHubu do minuty.
@@ -341,12 +387,30 @@ rumor, neohlášená funkce · nevyřešený rozpor · termín „podle zpráv".
       "sources": [ { "name": "OpenAI", "url": "https://openai.com/..." } ],   // 1–2
       "tentative": false                        // true = datum zatím jen podle médií
     }
+  ],
+  "weekInReview": [                             // jen nedělní brief, 4–6 položek podle důležitosti
+    {
+      "date": "YYYY-MM-DD", "id": "YYYY-MM-DD-slug",   // existující zpráva z posledních 7 dnů
+      "title": { "cs": "…", "en": "…" },        // doslovná kopie titulku
+      "note":  { "cs": "…", "en": "…" }         // ≤ 25 slov: proč to byla událost týdne / co následovalo
+    }
   ]
 }
 ```
 
 Kompletní ukázka: `docs/examples/brief-v3-example.json`
 (`python3 docs/check-brief.py --file docs/examples/brief-v3-example.json`).
+
+### `data/glossary.json` — slovníček pojmů (appka ČTE; jen přidávat)
+
+```jsonc
+{
+  "updated": "YYYY-MM-DD",                      // den poslední změny
+  "terms": [
+    { "id": "moe", "term": { "cs": "…", "en": "…" }, "aliases": ["…"], "short": { "cs": "…", "en": "…" } }
+  ]
+}
+```
 
 ### `data/briefs/index.json`
 
@@ -416,6 +480,15 @@ Kompletní ukázka: `docs/examples/brief-v3-example.json`
 - Víkendové a pondělní briefy jsou z podstaty tenčí na čerstvé oznámení; 7denní okno
   a radar je mají dorovnat. Když běh selže, brief chybí viditelně v appce — dogeneruje se
   na pokyn v session.
+
+## Změny v3.1 (20. 9. 2026)
+
+- **Týden v AI** (`weekInReview`) v nedělním briefu: 4–6 událostí týdne s odkazem do
+  archivu, bez nové rešerše.
+- **Slovníček** je součást receptu: nové pojmy z dnešních textů se přidávají do
+  `data/glossary.json` (max 3 denně), skript ho kontroluje, commit bere `data/`.
+- Rešerše má blok **Česko a EU**; skript nově hlídá podobné titulky proti 14 dnům,
+  přenos radaru ze včerejška a kanonická jména zdrojů; `--stats` dává čísla do deníku.
 
 ## Změny proti v2 (19. 9. 2026)
 
