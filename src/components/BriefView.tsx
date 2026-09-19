@@ -118,6 +118,17 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
             </>
           )}
 
+          {/* The streak card is the reward for finishing the reading, so it
+              follows the cards directly — its celebration must not fire off-screen. */}
+          {showCard && (
+            <>
+              <div className="streak-divider">
+                <span>{t.streakSectionLabel}</span>
+              </div>
+              <WeekStreak todayProgress={todayProgress} done={done} />
+            </>
+          )}
+
           {/* Reasons to come back after the reading: test yourself, try the
               recent features, learn a term. Today only — the archive is a browse. */}
           {brief.quiz && brief.quiz.length > 0 && (
@@ -127,15 +138,6 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
           <TermOfDay date={brief.date} />
 
           {extras}
-
-          {showCard && (
-            <>
-              <div className="streak-divider">
-                <span>{t.streakSectionLabel}</span>
-              </div>
-              <WeekStreak todayProgress={todayProgress} done={done} />
-            </>
-          )}
         </>
       )}
 
