@@ -5,9 +5,7 @@ import { useBriefIndex } from '../hooks/useBrief';
 import { useSettings } from '../providers/SettingsProvider';
 import { useSaved } from '../providers/SavedProvider';
 import { capitalizeFirst, formatShortDate, itemCountLabel } from '../lib/format';
-
-// Keep the archive lean and current — the most recent week is shown.
-const MAX_ARCHIVE_DAYS = 7;
+import { ARCHIVE_DAYS } from '../lib/archive';
 
 export function ArchiveScreen({
   onSelect,
@@ -20,7 +18,7 @@ export function ArchiveScreen({
   const { status, data, reload } = useBriefIndex();
   const { savedCount } = useSaved();
 
-  const briefs = data?.briefs.slice(0, MAX_ARCHIVE_DAYS) ?? [];
+  const briefs = data?.briefs.slice(0, ARCHIVE_DAYS) ?? [];
 
   return (
     <ScreenScaffold title={t.archiveTitle} subtitle={t.archiveSubtitle}>

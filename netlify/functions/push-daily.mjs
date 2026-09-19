@@ -1,9 +1,10 @@
 import { getStore } from '@netlify/blobs';
 import webpush from 'web-push';
 
-// Runs daily after the morning brief lands (03:04 UTC main, 05:05 UTC backup).
-// Checks GitHub for today's brief and sends one push per subscriber. The
-// VAPID private key lives in Netlify environment variables, never in the repo.
+// Runs daily at 05:15 UTC, after the 03:00 UTC generation has landed. Checks
+// GitHub for today's brief and sends one push per subscriber, carrying the
+// day's headline and story count in the subscriber's language. The VAPID
+// private key lives in Netlify environment variables, never in the repo.
 const RAW_INDEX =
   'https://raw.githubusercontent.com/vasekbrozka/AI-brief-app/refs/heads/claude/daily-ai-brief-app-b1qq0p/data/briefs/index.json';
 const VAPID_PUBLIC_KEY =
@@ -42,17 +43,19 @@ export default async () => {
   }
 
   webpush.setVapidDetails(VAPID_SUBJECT, VAPID_PUBLIC_KEY, privateKey);
-  const payload = JSON.stringify({
-    title: 'Tvůj ranní shot je připraven',
-    body: 'Lokni si ☕️',
-    badge: 1,
-  });
+  const payloadFor = (lang) =>
+    JSON.stringify({
+      title: lang === 'en' ? 'Your morning shot is ready' : 'Tvůj ranní shot je připraven',
+      body: `${latest.headline?.[lang] ?? latest.headline?.cs ?? ''} · ${countLabel(latest.itemCount, lang)}`,
+      badge: 1,
+    });
+  const payloads = { cs: payloadFor('cs'), en: payloadFor('en') };
 
   const alive = [];
   let sent = 0;
   for (const sub of subs) {
     try {
-      await webpush.sendNotification(sub, payload);
+      await webpush.sendNotification(sub, payloads[sub.lang === 'en' ? 'en' : 'cs']);
       alive.push(sub);
       sent++;
     } catch (err) {
@@ -70,5 +73,15 @@ export default async () => {
   console.log(`sent ${sent}/${subs.length}`);
   return new Response(`sent ${sent}`);
 };
+
+/** "7 novinek" / "7 stories" — mirrors itemCountLabel in src/lib/format.ts. */
+function countLabel(n, lang) {
+  if (lang === 'cs') {
+    if (n === 1) return '1 novinka';
+    if (n >= 2 && n <= 4) return `${n} novinky`;
+    return `${n} novinek`;
+  }
+  return n === 1 ? '1 story' : `${n} stories`;
+}
 
 export const config = { schedule: '15 5 * * *' };

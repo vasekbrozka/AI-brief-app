@@ -431,16 +431,6 @@ svg {
   animation: fade 0.35s ease both;
 }
 
-/* Lead paragraph — the day's gist kept light: a standfirst above the cards,
-   no card surface competing with the news itself. */
-.lede {
-  margin: 6px 2px 2px;
-  font-size: 16.5px;
-  line-height: 1.5;
-  letter-spacing: -0.006em;
-  color: var(--text-secondary);
-}
-
 /* Items */
 .items {
   display: flex;
@@ -2023,4 +2013,645 @@ button.thread:active .thread__title {
     opacity: 0;
     transform: scale(0.96);
   }
+}
+
+/* ---- v3 content: tip badge, event date, "why it matters", radar ------------
+   Added with the September 2026 recipe redesign (docs/brief-generation.md).
+   Every block is optional in the data, so older briefs render unchanged. */
+
+/* "Try it" badge next to the category chip on a tip card. */
+.item__kind {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--c-green);
+}
+
+/* Event date on the sources line — quiet, tabular, then a dot before "Sources". */
+.item__date {
+  flex: 0 0 auto;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
+}
+
+.item__date::after {
+  content: '·';
+  margin-left: 7px;
+}
+
+/* "Why it matters" — a short answer to "so what", set apart by a hairline rule
+   rather than a second surface, so a highlight card keeps its single tint. */
+.item__why {
+  margin-top: 11px;
+  padding: 1px 0 1px 12px;
+  border-left: 2.5px solid var(--accent-soft-border);
+}
+
+.item__why-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.item--tip .item__why {
+  border-left-color: var(--c-green-bg);
+}
+
+.item--tip .item__why-label {
+  color: var(--c-green);
+}
+
+.item__why-text {
+  margin-top: 3px;
+  font-size: 14.5px;
+  line-height: 1.48;
+  color: var(--text);
+}
+
+.item--read .item__why {
+  border-left-color: var(--hairline);
+}
+
+/* Section label shared by content sections below the stories (mirrors the
+   read/streak dividers so the feed stays one system). */
+.section-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 26px 2px 14px;
+  color: var(--text-tertiary);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.section-divider::before,
+.section-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--separator);
+}
+
+/* "On the radar" — one card, one row per upcoming date, calendar tile left. */
+.radar__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.radar__row {
+  display: flex;
+  gap: 14px;
+  padding: 14px 16px;
+}
+
+.radar__row + .radar__row {
+  border-top: 1px solid var(--hairline);
+}
+
+.radar__when {
+  flex: 0 0 46px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px 0 6px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft-bg);
+  color: var(--accent);
+}
+
+.radar__day {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.radar__month {
+  margin-top: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.radar__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.radar__title {
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.radar__tentative {
+  margin-left: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  vertical-align: 1px;
+}
+
+.radar__note {
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.radar__body .sources {
+  margin-top: 8px;
+}
+
+/* "The week in AI" — Sunday look-back; numbered rows that jump into the archive. */
+.week__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.week__row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  padding: 13px 14px 13px 16px;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+}
+
+button.week__row {
+  cursor: pointer;
+}
+
+button.week__row:active {
+  background: var(--fill);
+}
+
+.week__list li + li .week__row {
+  border-top: 1px solid var(--hairline);
+}
+
+.week__num {
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  margin-top: 1px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--accent-soft-bg);
+  color: var(--accent);
+  font-size: 12.5px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.week__body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.week__title {
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.week__note {
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.week__date {
+  font-size: 12.5px;
+  color: var(--text-tertiary);
+}
+
+.week__chevron {
+  flex: 0 0 auto;
+  align-self: center;
+  color: var(--text-tertiary);
+}
+
+/* Share the whole day — a quiet pill at the end of the brief. */
+.share-brief-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.share-brief {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--fill);
+  color: var(--accent);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.share-brief:active {
+  opacity: 0.7;
+}
+
+/* Today is showing an older brief — say so above the lede. */
+.stale-note {
+  margin: 6px 0 10px;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft-bg);
+  border: 1px solid var(--accent-soft-border);
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.stale-note strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* ---- After the reading: quiz, try-it checklist, term of the day ------------
+   Shared card surface for the sections that give the reader something to do
+   once the stories are read. */
+.panel {
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  padding: 16px 18px;
+}
+
+/* Daily quiz */
+.quiz__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+
+.quiz__verdict.is-correct {
+  color: var(--verified);
+}
+
+.quiz__verdict.is-wrong {
+  color: var(--c-pink);
+}
+
+.quiz__q {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+
+.quiz__opts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.quiz__opt {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+  font-size: 15px;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease, opacity 0.15s ease;
+}
+
+.quiz__opt:disabled {
+  cursor: default;
+}
+
+.quiz__opt:not(:disabled):active {
+  background: var(--fill);
+}
+
+.quiz__letter {
+  flex: 0 0 auto;
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--fill);
+  color: var(--text-secondary);
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.quiz__opt.is-correct {
+  border-color: var(--verified);
+  background: color-mix(in srgb, var(--verified) 12%, var(--surface));
+}
+
+.quiz__opt.is-correct .quiz__letter {
+  background: var(--verified);
+  color: #fff;
+}
+
+.quiz__opt.is-wrong {
+  border-color: var(--c-pink);
+  background: var(--c-pink-bg);
+}
+
+.quiz__opt.is-wrong .quiz__letter {
+  background: var(--c-pink);
+  color: #fff;
+}
+
+.quiz__opt.is-dim {
+  opacity: 0.55;
+}
+
+.quiz__explain {
+  margin-top: 12px;
+  font-size: 14.5px;
+  line-height: 1.48;
+  color: var(--text-secondary);
+}
+
+.quiz__next {
+  margin-top: 14px;
+}
+
+.quiz__panel--result {
+  text-align: center;
+  padding: 22px 18px;
+}
+
+.quiz__score {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.quiz__result-title {
+  margin-top: 8px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.quiz__result-sub {
+  margin-top: 3px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.quiz__panel--result .link-btn {
+  margin-top: 12px;
+}
+
+/* Try it yourself — checklist */
+.try__hint {
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.try__hint--screen {
+  margin: 4px 2px 14px;
+}
+
+.try__list {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+}
+
+.try__list--screen {
+  margin: 0;
+  padding: 4px 0;
+}
+
+.try__row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 0;
+}
+
+.try__list--screen .try__row {
+  padding: 12px 16px;
+}
+
+.try__row + .try__row {
+  border-top: 1px solid var(--hairline);
+}
+
+.try__check {
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  margin-top: 1px;
+  display: grid;
+  place-items: center;
+  border: 2px solid var(--text-tertiary);
+  border-radius: 999px;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.try__check.is-on {
+  background: var(--verified);
+  border-color: var(--verified);
+}
+
+.try__body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.try__title {
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.try__detail {
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.try__meta {
+  font-size: 12.5px;
+  color: var(--text-tertiary);
+}
+
+.try__row.is-tried .try__title,
+.try__row.is-tried .try__detail {
+  color: var(--text-tertiary);
+}
+
+.try__row.is-tried .try__title {
+  text-decoration: line-through;
+  text-decoration-color: color-mix(in srgb, var(--text-tertiary) 60%, transparent);
+}
+
+.try__alldone {
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.try__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--hairline);
+}
+
+.try__progress {
+  font-size: 13px;
+  color: var(--text-tertiary);
+}
+
+.try__all {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+/* Term of the day */
+.termday__term {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.termday__body {
+  margin-top: 6px;
+  font-size: 14.5px;
+  line-height: 1.48;
+  color: var(--text-secondary);
+}
+
+.termday__panel .link-btn {
+  margin-top: 10px;
+}
+
+/* ---- Reader feedback: thumbs under every story ----------------------------- */
+.item__vote {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--hairline);
+}
+
+.item__vote-label {
+  font-size: 12.5px;
+  color: var(--text-tertiary);
+}
+
+.item__vote-btns {
+  display: flex;
+  gap: 8px;
+}
+
+.vote-btn {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.vote-btn:active {
+  background: var(--fill);
+}
+
+.vote-btn--up.is-on {
+  background: var(--c-green-bg);
+  border-color: transparent;
+  color: var(--c-green);
+}
+
+.vote-btn--down.is-on {
+  background: var(--c-pink-bg);
+  border-color: transparent;
+  color: var(--c-pink);
+}
+
+/* Read cards dim everything else; keep the thumbs readable. */
+.item--read .item__vote {
+  opacity: 0.9;
 }

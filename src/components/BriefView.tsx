@@ -1,10 +1,16 @@
 import { useEffect, useMemo } from 'react';
 import type { Brief } from '../lib/types';
-import { hiddenCountLabel } from '../lib/format';
+import { capitalizeFirst, daysAgo, formatShortDate, hiddenCountLabel } from '../lib/format';
+import { shareBrief } from '../lib/share';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 import { useStreak } from '../providers/StreakProvider';
 import { BriefItemCard } from './BriefItemCard';
+import { DailyQuiz } from './DailyQuiz';
+import { TryList } from './TryList';
+import { TermOfDay } from './TermOfDay';
+import { RadarSection } from './RadarSection';
+import { WeekReviewSection } from './WeekReviewSection';
 import { WeekStreak } from './WeekStreak';
 import { Icon } from './Icon';
 
@@ -37,21 +43,51 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
     if (isToday && gamification && done) markFinished();
   }, [isToday, gamification, done, markFinished]);
 
+  // The week's look-back and the upcoming dates sit below the stories in both
+  // Today and the archive; they are not part of the read/unread flow, so they
+  // never affect the streak.
+  const extras = (
+    <>
+      {brief.weekInReview && brief.weekInReview.length > 0 && (
+        <WeekReviewSection entries={brief.weekInReview} />
+      )}
+      {brief.radar && brief.radar.length > 0 && <RadarSection radar={brief.radar} />}
+      <div className="share-brief-wrap">
+        <button type="button" className="share-brief" onClick={() => void shareBrief(brief, lang)}>
+          <Icon name="share" size={16} />
+          {isToday ? t.shareBriefLabel : t.shareBriefArchiveLabel}
+        </button>
+      </div>
+    </>
+  );
+
+  // Today shows the newest brief there is; when that is older than today the
+  // morning run is late (or failed), and the reader should know rather than
+  // mistake yesterday for today.
+  const stale = isToday && daysAgo(brief.date) > 0;
+
   return (
     <div className="brief">
-      {brief.intro?.[lang] && <p className="lede">{brief.intro[lang]}</p>}
+      {stale && (
+        <p className="stale-note" role="status">
+          <strong>{t.staleTitle}</strong> {t.staleBody} {capitalizeFirst(formatShortDate(brief.date, lang))}.
+        </p>
+      )}
 
       {!isToday ? (
         // Archive is a read-only browse: every story is shown, the read state
         // is ignored (never hide or dim), so a past day never collapses to
         // "all caught up". The streak is unaffected — it's driven by Today.
-        shown.length > 0 && (
-          <div className="items">
-            {shown.map((item) => (
-              <BriefItemCard key={item.id} item={item} plain />
-            ))}
-          </div>
-        )
+        <>
+          {shown.length > 0 && (
+            <div className="items">
+              {shown.map((item) => (
+                <BriefItemCard key={item.id} item={item} plain />
+              ))}
+            </div>
+          )}
+          {extras}
+        </>
       ) : (
         <>
           {unread.length > 0 && (
@@ -82,6 +118,8 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
             </>
           )}
 
+          {/* The streak card is the reward for finishing the reading, so it
+              follows the cards directly — its celebration must not fire off-screen. */}
           {showCard && (
             <>
               <div className="streak-divider">
@@ -90,6 +128,16 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
               <WeekStreak todayProgress={todayProgress} done={done} />
             </>
           )}
+
+          {/* Reasons to come back after the reading: test yourself, try the
+              recent features, learn a term. Today only — the archive is a browse. */}
+          {brief.quiz && brief.quiz.length > 0 && (
+            <DailyQuiz key={brief.date} date={brief.date} quiz={brief.quiz} />
+          )}
+          <TryList />
+          <TermOfDay date={brief.date} />
+
+          {extras}
         </>
       )}
 

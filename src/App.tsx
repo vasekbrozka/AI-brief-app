@@ -8,14 +8,18 @@ import { BriefDetailScreen } from './screens/BriefDetailScreen';
 import { SettingsScreen } from './screens/SettingsScreen';
 import { AboutScreen } from './screens/AboutScreen';
 import { SavedScreen } from './screens/SavedScreen';
+import { TipsScreen } from './screens/TipsScreen';
 
 export function App() {
   const [tab, setTab] = useState<Tab>('today');
   const [archiveDate, setArchiveDate] = useState<string | null>(null);
   const [aboutOpen, setAboutOpen] = useState(false);
   const [savedOpen, setSavedOpen] = useState(false);
+  const [tipsOpen, setTipsOpen] = useState(false);
 
   function handleTab(next: Tab) {
+    // Tapping "Today" again returns from the tips checklist to the brief.
+    if (next !== 'today' || tab === 'today') setTipsOpen(false);
     // Tapping "Archive" again returns to the list — from a brief or from Saved.
     if (next !== 'archive' || tab === 'archive') {
       setArchiveDate(null);
@@ -50,13 +54,23 @@ export function App() {
     window.scrollTo({ top: 0 });
   }, []);
 
-  const nav = useMemo(() => ({ openBriefDate }), [openBriefDate]);
+  const openTips = useCallback(() => {
+    setTipsOpen(true);
+    setTab('today');
+    window.scrollTo({ top: 0 });
+  }, []);
+  const closeTips = useCallback(() => {
+    setTipsOpen(false);
+    window.scrollTo({ top: 0 });
+  }, []);
+
+  const nav = useMemo(() => ({ openBriefDate, openTips }), [openBriefDate, openTips]);
 
   return (
     <NavProvider value={nav}>
       <div className="app">
         <main className="app__main">
-          {tab === 'today' && <TodayScreen />}
+          {tab === 'today' && (tipsOpen ? <TipsScreen onBack={closeTips} /> : <TodayScreen />)}
           {tab === 'archive' &&
             (savedOpen ? (
               <SavedScreen onBack={closeSaved} />

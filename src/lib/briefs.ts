@@ -1,4 +1,4 @@
-import type { Brief, BriefIndex } from './types';
+import type { Brief, BriefIndex, TipsBacklog } from './types';
 import type { Glossary } from './glossary';
 
 // Briefs are served straight from GitHub instead of Netlify, so the daily
@@ -44,6 +44,13 @@ export async function loadBriefIndex(): Promise<BriefIndex> {
 
 export async function loadBrief(date: string): Promise<Brief> {
   return fetchJson<Brief>(`data/briefs/${date}.json`);
+}
+
+// The tip ledger doubles as the "Try it yourself" checklist: tips published in
+// the last weeks, which the reader ticks off locally. ~100 KB, fetched lazily
+// below the fold and cached by the service worker like every brief.
+export async function loadTipsBacklog(): Promise<TipsBacklog> {
+  return fetchJson<TipsBacklog>('data/briefs/tips-backlog.json');
 }
 
 // The glossary of AI terms is served the same way as briefs, so growing the

@@ -29,6 +29,49 @@ export interface UIStrings {
   savedEmpty: string;
   savedEmptyBody: string;
   threadLabel: string;
+  /** Label above the "why it matters" block on a story card. */
+  whyLabel: string;
+  /** Same block on a tip card — there it reads as a how-to. */
+  howToTryLabel: string;
+  /** Badge marking a tip (try-it-yourself feature) in the brief. */
+  tipBadge: string;
+  /** Section title for the upcoming-dates list. */
+  radarTitle: string;
+  /** Tag on a radar row whose date is reported but not confirmed. */
+  radarTentative: string;
+  /** Section title for the Sunday week-in-review list. */
+  weekTitle: string;
+  /** Button under the brief that shares the whole day as text. */
+  shareBriefLabel: string;
+  shareBriefArchiveLabel: string;
+  /** Shown in Today when the newest brief is older than today (generation late or failed). */
+  staleTitle: string;
+  /** Followed by the brief's date, e.g. "… z 19. září". */
+  staleBody: string;
+
+  // After the reading: daily quiz, try-it checklist, term of the day
+  quizTitle: string;
+  quizNext: string;
+  quizShowResult: string;
+  quizRetry: string;
+  quizCorrect: string;
+  quizWrong: string;
+  /** Result titles for 0, 1, 2 and 3 correct answers. */
+  quizResultTitles: string[];
+  tryTitle: string;
+  tryHint: string;
+  tryAll: string;
+  tryDone: string;
+  tryAllDone: string;
+  tryEmpty: string;
+  tryTriedSection: string;
+  termTitle: string;
+  termNext: string;
+  /** Thumbs row under a story: "Useful?" → "Thanks". */
+  voteLabel: string;
+  voteThanks: string;
+  voteUp: string;
+  voteDown: string;
   sampleBadge: string;
   sampleNote: string;
 
@@ -137,12 +180,43 @@ export const STRINGS: Record<Lang, UIStrings> = {
     savedEmpty: 'Zatím nic uloženého',
     savedEmptyBody: 'Táhni novinku doprava a nech si ji na později.',
     threadLabel: 'Navazuje na',
+    whyLabel: 'Proč na tom záleží',
+    howToTryLabel: 'Jak to vyzkoušet',
+    tipBadge: 'Vyzkoušej',
+    radarTitle: 'Na obzoru',
+    radarTentative: 'podle zpráv',
+    weekTitle: 'Týden v AI',
+    shareBriefLabel: 'Sdílet dnešní přehled',
+    shareBriefArchiveLabel: 'Sdílet přehled',
+    staleTitle: 'Dnešní přehled se ještě připravuje.',
+    staleBody: 'Zobrazujeme poslední dostupný přehled z',
+
+    quizTitle: 'Kvíz dne',
+    quizNext: 'Další otázka',
+    quizShowResult: 'Vyhodnotit',
+    quizRetry: 'Zkusit znovu',
+    quizCorrect: 'Správně!',
+    quizWrong: 'Vedle.',
+    quizResultTitles: ['Zítra to půjde líp', 'Slabší odvar', 'Dobré espresso', 'Dokonalý shot'],
+    tryTitle: 'Vyzkoušej si',
+    tryHint: 'Funkce z posledních týdnů, které stojí za zkoušku. Odškrtni, co máš za sebou.',
+    tryAll: 'Všechny tipy',
+    tryDone: 'Vyzkoušeno',
+    tryAllDone: 'Všechno vyzkoušeno ☕️',
+    tryEmpty: 'Zatím žádné tipy z posledních týdnů.',
+    tryTriedSection: 'Máš za sebou',
+    termTitle: 'Pojem dne',
+    termNext: 'Další pojem',
+    voteLabel: 'Bylo to přínosné?',
+    voteThanks: 'Díky, počítá se.',
+    voteUp: 'Přínosné',
+    voteDown: 'Nepřínosné',
     sampleBadge: 'Ukázka',
     sampleNote:
       'Toto je ukázkový obsah pro fázi 1. Skutečný denní přehled bude automaticky sestavovat AI ve fázi 2.',
 
     archiveTitle: 'Archiv',
-    archiveSubtitle: 'Poslední týden',
+    archiveSubtitle: 'Poslední dva týdny',
     archiveEmpty: 'Archiv je zatím prázdný.',
 
     settingsTitle: 'Nastavení',
@@ -166,7 +240,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     ],
     installShareHint: 'Funguje pouze v Safari na iPhonu nebo iPadu.',
     howItWorksParagraphs: [
-      'Každé ráno, ještě než vstaneš, projde AIspresso dění ve světě AI za posledních 24 hodin. Čerpá přitom z pevného okruhu důvěryhodných zdrojů — oficiálních blogů AI firem a předních médií, přes jejich RSS kanály a cílené vyhledávání. Z desítek zpráv vybere jen těch pár, které opravdu stojí za tvůj čas. Každou porovná s více nezávislými zdroji. Co ověřit nejde, poctivě označí. Když se zrovna nic zajímavého neděje, uvidíš méně obsahu. Výsledek na tebe čeká u ranní kávy.',
+      'Každé ráno, ještě než vstaneš, projde AIspresso dění ve světě AI za poslední dny. Čerpá přitom z pevného okruhu důvěryhodných zdrojů — oficiálních blogů AI firem a předních médií. Z desítek zpráv vybere ty, které opravdu stojí za tvůj čas, u každé ověří datum i zdroj a napíše, proč se tě týká. Co ověřit nejde, poctivě označí. K tomu přidá funkce, které si můžeš hned vyzkoušet, a termíny, které se blíží. Palcem nahoru nebo dolů mu řekneš, co bylo přínosné — ukládá se jen počítadlo, nic o tobě. Výsledek na tebe čeká u ranní kávy.',
     ],
     sectionSources: 'Zdroje',
     sourcesOfficialLabel: 'Oficiální',
@@ -180,16 +254,26 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImprovedLabel: 'Vylepšeno',
     releaseFixedLabel: 'Opraveno',
     releaseAdded: [
-      'Ulož si novinku na později — táhni ji doprava; uložené pak najdeš v Archivu',
+      '„Proč na tom záleží“ — u každé novinky věta dvě o tom, co z ní plyne pro tebe',
+      '„Na obzoru“ — termíny, které se blíží: vydání, konference, lhůty a soudy',
+      'Tipy k vyzkoušení mají štítek Vyzkoušej a návod, kde funkci najdeš',
+      'Datum události u každé novinky, ať víš, jestli jde o včerejšek nebo minulý týden',
+      '„Týden v AI“ — nedělní ohlédnutí za událostmi týdne s odkazy do archivu',
+      '„Kvíz dne“ — tři otázky z dnešního přehledu, ať se čtení uloží',
+      '„Vyzkoušej si“ — checklist funkcí z posledních týdnů, odškrtávej, co jsi zkusil',
+      '„Pojem dne“ ze slovníčku',
+      'Sdílení celého přehledu jedním ťuknutím',
+      'Palec nahoru nebo dolů u každé novinky — anonymně, jen počítadlo; generátor podle toho ladí výběr',
     ],
     releaseImproved: [
-      'Přehlednější úvod dne — kratší a lehčí, bez rámečku navíc',
-      'Nastavení zeštíhlela — nápověda, zdroje i novinky se přesunuly do „O aplikaci“',
-      'Jednodušší kategorie — jedno místo na jejich skrývání',
+      'Archiv drží dva týdny místo jednoho a odkazy „Navazuje na“ tak fungují déle',
+      'Přísnější ověřování: Ověřeno znamená oficiální zdroj, nebo dvě nezávislá média',
+      'Úvodní odstavec pod nadpisem je pryč, přehled začíná rovnou kartami',
+      'Sdílení novinky přibalí i větu, proč na ní záleží',
+      'Ranní upozornění nese titulek dne a počet novinek',
+      'Když ranní přehled ještě není hotový, appka to řekne místo tichého zobrazení včerejška',
     ],
-    releaseFixed: [
-      'Archiv ukáže všechny články i po přečtení — stav přečtení se v něm neuplatňuje (série si dokončení pamatuje dál)',
-    ],
+    releaseFixed: [],
     aboutTagline: 'Novinky ze světa AI',
     versionLabel: 'Verze',
     modelLabel: 'Shrnutí připravuje',
@@ -261,12 +345,43 @@ export const STRINGS: Record<Lang, UIStrings> = {
     savedEmpty: 'Nothing saved yet',
     savedEmptyBody: 'Swipe a story right to keep it for later.',
     threadLabel: 'Follows up on',
+    whyLabel: 'Why it matters',
+    howToTryLabel: 'How to try it',
+    tipBadge: 'Try it',
+    radarTitle: 'On the radar',
+    radarTentative: 'reported',
+    weekTitle: 'The week in AI',
+    shareBriefLabel: "Share today's brief",
+    shareBriefArchiveLabel: 'Share this brief',
+    staleTitle: "Today's brief is still being prepared.",
+    staleBody: 'Showing the latest available brief from',
+
+    quizTitle: 'Daily quiz',
+    quizNext: 'Next question',
+    quizShowResult: 'See result',
+    quizRetry: 'Try again',
+    quizCorrect: 'Correct!',
+    quizWrong: 'Not quite.',
+    quizResultTitles: ['Better luck tomorrow', 'A weak brew', 'A solid espresso', 'A perfect shot'],
+    tryTitle: 'Try it yourself',
+    tryHint: 'Features from recent weeks worth a try. Tick off what you have done.',
+    tryAll: 'All tips',
+    tryDone: 'Tried',
+    tryAllDone: 'All tried ☕️',
+    tryEmpty: 'No tips from the last few weeks yet.',
+    tryTriedSection: 'Already tried',
+    termTitle: 'Term of the day',
+    termNext: 'Another term',
+    voteLabel: 'Was this useful?',
+    voteThanks: 'Thanks, noted.',
+    voteUp: 'Useful',
+    voteDown: 'Not useful',
     sampleBadge: 'Sample',
     sampleNote:
       'This is sample content for Phase 1. The real daily brief will be assembled automatically by AI in Phase 2.',
 
     archiveTitle: 'Archive',
-    archiveSubtitle: 'The past week',
+    archiveSubtitle: 'The past two weeks',
     archiveEmpty: 'The archive is still empty.',
 
     settingsTitle: 'Settings',
@@ -290,7 +405,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     ],
     installShareHint: 'Works only in Safari on iPhone or iPad.',
     howItWorksParagraphs: [
-      "Every morning, before you get up, AIspresso reviews the last 24 hours in the world of AI. It draws on a fixed circle of trusted sources — official AI company blogs and leading media outlets, via their RSS feeds and targeted search. Out of dozens of stories, it picks only the few that are truly worth your time. It cross-checks each one against multiple independent sources. Whatever can't be verified, it labels honestly. When nothing much is happening, you'll simply see less. The result is waiting for you with your morning coffee.",
+      "Every morning, before you get up, AIspresso reviews the past few days in the world of AI. It draws on a fixed circle of trusted sources — official AI company blogs and leading media outlets. Out of dozens of stories it picks the ones truly worth your time, checks the date and the source of each, and says why it matters to you. Whatever can't be verified, it labels honestly. On top it adds features you can try right away and the dates coming up. A thumbs up or down tells it what was useful — only a counter is stored, nothing about you. The result is waiting for you with your morning coffee.",
     ],
     sectionSources: 'Sources',
     sourcesOfficialLabel: 'Official',
@@ -304,16 +419,26 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImprovedLabel: 'Improved',
     releaseFixedLabel: 'Fixed',
     releaseAdded: [
-      'Save a story for later — swipe it right; find them later in the Archive',
+      '"Why it matters" — a sentence or two under every story on what it means for you',
+      '"On the radar" — dates coming up: launches, conferences, deadlines and hearings',
+      'Tips you can try carry a Try it badge and a note on where to find the feature',
+      'The event date on every story, so you know whether it happened yesterday or last week',
+      '"The week in AI" — a Sunday look back at the week\'s key stories, linked into the archive',
+      '"Daily quiz" — three questions on today\'s brief, so the reading sticks',
+      '"Try it yourself" — a checklist of recent features; tick off what you have tried',
+      '"Term of the day" from the glossary',
+      'Share the whole brief with one tap',
+      'Thumbs up or down on every story — anonymous, just a counter; the generator tunes its picks by it',
     ],
     releaseImproved: [
-      "A lighter, shorter lead-in to each day's brief",
-      'Slimmer Settings — help, sources and what\'s new now live under "About"',
-      "Simpler categories — one place to hide the ones you don't want",
+      'The archive keeps two weeks instead of one, so "Follows up on" links work longer',
+      'Stricter verification: Verified means an official source, or two independent outlets',
+      'The lead-in paragraph under the title is gone; the brief starts with the cards',
+      'Sharing a story now includes the why-it-matters line',
+      'The morning notification carries the headline of the day and the story count',
+      "When the morning brief isn't ready yet, the app says so instead of quietly showing yesterday",
     ],
-    releaseFixed: [
-      "The archive now shows every story even after you've read it — read state no longer hides archived articles (your streak still remembers)",
-    ],
+    releaseFixed: [],
     aboutTagline: 'The world of AI',
     versionLabel: 'Version',
     modelLabel: 'Summaries by',
