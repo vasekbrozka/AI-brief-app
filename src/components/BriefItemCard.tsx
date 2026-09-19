@@ -3,6 +3,7 @@ import { isTip, type BriefItem, type ThreadRef } from '../lib/types';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 import { useSaved } from '../providers/SavedProvider';
+import { useVotes } from '../providers/VotesProvider';
 import { useNav } from '../providers/NavProvider';
 import { shareItem } from '../lib/share';
 import { toast } from '../lib/toast';
@@ -47,6 +48,8 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
   const { lang, t } = useSettings();
   const { isRead, toggle } = useRead();
   const { isSaved, toggle: toggleSaved } = useSaved();
+  const { voteFor, vote } = useVotes();
+  const myVote = voteFor(item.id);
   // `plain` (archive browse) ignores the read state entirely — no dim, no
   // read-toggle — so past days always show every story.
   const read = plain ? false : isRead(item.id);
@@ -164,6 +167,30 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
           )}
           <SourceList sources={item.sources} />
           {item.verified && <VerifiedBadge />}
+        </div>
+        {/* Anonymous thumbs: the one signal the generator gets back from readers. */}
+        <div className="item__vote">
+          <span className="item__vote-label">{myVote ? t.voteThanks : t.voteLabel}</span>
+          <div className="item__vote-btns">
+            <button
+              type="button"
+              className={`vote-btn vote-btn--up${myVote === 'up' ? ' is-on' : ''}`}
+              aria-pressed={myVote === 'up'}
+              aria-label={t.voteUp}
+              onClick={() => vote(item.id, 'up')}
+            >
+              <Icon name="thumbUp" size={16} />
+            </button>
+            <button
+              type="button"
+              className={`vote-btn vote-btn--down${myVote === 'down' ? ' is-on' : ''}`}
+              aria-pressed={myVote === 'down'}
+              aria-label={t.voteDown}
+              onClick={() => vote(item.id, 'down')}
+            >
+              <Icon name="thumbDown" size={16} />
+            </button>
+          </div>
         </div>
       </article>
     </SwipeToReveal>

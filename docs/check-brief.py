@@ -44,6 +44,7 @@ WEEK_NOTE_WORDS_OK, WEEK_NOTE_WORDS_HARD = 25, 35
 DUP_TITLE_SIMILARITY = 0.5   # Jaccard přes slova titulků; víc = WARN „možná duplicita“
 GLOSSARY = Path("data/glossary.json")
 GLOSSARY_MAX_NEW_PER_DAY = 3
+FEEDBACK = BRIEFS / "feedback.json"   # palce čtenářů za 30 dní, zapisuje noční funkce na Netlify
 
 # Kanonická jména zdrojů (pole `name`) pro nejčastější domény — viz recept, sekce Psaní.
 CANONICAL_NAMES = {
@@ -203,6 +204,24 @@ def jaccard(a: set[str], b: set[str]) -> float:
     return len(a & b) / len(a | b) if a and b else 0.0
 
 
+def feedback_summary() -> str | None:
+    """Řádek do deníku: 👍/👎 celkem a extrémy; None, když soubor chybí nebo je prázdný."""
+    try:
+        fb = json.load(open(FEEDBACK, encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+    items = fb.get("items") if isinstance(fb, dict) else None
+    if not isinstance(items, dict) or not items:
+        return None
+    ups = sum(int(v.get("up", 0)) for v in items.values() if isinstance(v, dict))
+    downs = sum(int(v.get("down", 0)) for v in items.values() if isinstance(v, dict))
+    best = max(items.items(), key=lambda kv: (int(kv[1].get("up", 0)) - int(kv[1].get("down", 0)), int(kv[1].get("up", 0))))
+    worst = min(items.items(), key=lambda kv: (int(kv[1].get("up", 0)) - int(kv[1].get("down", 0)), -int(kv[1].get("down", 0))))
+    return (f"Zpětná vazba ({fb.get('days', '?')} dní): 👍 {ups} · 👎 {downs} · "
+            f"nejvíc 👍: {best[0]} ({best[1].get('up', 0)}/{best[1].get('down', 0)}) · "
+            f"nejvíc 👎: {worst[0]} ({worst[1].get('up', 0)}/{worst[1].get('down', 0)})")
+
+
 def stats(days: int) -> int:
     """Tabulka posledních N dnů pro redakční deník (jen existující soubory)."""
     today = date.fromisoformat(datetime.now(timezone.utc).strftime("%Y-%m-%d"))
@@ -233,6 +252,8 @@ def stats(days: int) -> int:
     print(f"\nprůměr za {n} dnů: {avg(1):.1f} položek · {avg(2):.1f} zpráv · {avg(3):.1f} tipů · "
           f"{avg(4):.1f} na obzoru · ověřeno {100 * sum(r[5] for r in rows) / max(1, tot_items):.0f} % · "
           f"slabé zdroje {100 * sum(r[7] for r in rows) / max(1, tot_src):.0f} %")
+    fb = feedback_summary()
+    print(fb if fb else "Zpětná vazba: zatím žádná (data/briefs/feedback.json chybí nebo je prázdný)")
     return 0
 
 
@@ -823,6 +844,24 @@ def main() -> int:
                 if c > 1:
                     fail(f"glossary: duplicitní id {i_}")
             infos.append(f"slovníček: {len(terms)} pojmů, aktualizován {glossary.get('updated')}")
+
+    # --- zpětná vazba čtenářů (jen denní režim, soubor je volitelný) -----------------
+    if not file_mode and FEEDBACK.exists():
+        try:
+            fb = json.load(open(FEEDBACK, encoding="utf-8"))
+            items_fb = fb.get("items") if isinstance(fb, dict) else None
+            if not isinstance(items_fb, dict):
+                warn("feedback.json nemá pole items — zkontroluj noční funkci feedback-sync")
+            else:
+                for k, v in items_fb.items():
+                    if not isinstance(v, dict) or not isinstance(v.get("up", 0), int) or not isinstance(v.get("down", 0), int):
+                        warn(f"feedback.json: neplatný záznam {k}")
+                        break
+                line = feedback_summary()
+                if line:
+                    infos.append(line)
+        except json.JSONDecodeError as e:
+            warn(f"feedback.json není platný JSON: {e}")
 
     # --- published-log --------------------------------------------------------
     if publog is not None:

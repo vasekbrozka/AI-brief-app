@@ -1,4 +1,4 @@
-# AIspresso — recept pro denní generování briefu (v3.2)
+# AIspresso — recept pro denní generování briefu (v3.3)
 
 Tento soubor je **závazný recept**, podle kterého se každý den automaticky generuje nový
 brief. Naplánovaná (cron) Claude session dostane jednoduchý pokyn:
@@ -59,7 +59,11 @@ položka do briefu nepatří.
    - `data/briefs/tips-backlog.json` — fronta a historie tipů; spočítej, kolik tipů
      čeká (`used: null`) pro každé téma,
    - `data/glossary.json` — slovníček pojmů (viz krok 4b),
-   - `python3 docs/check-brief.py --stats` — čísla za posledních 14 dnů (do deníku).
+   - `data/briefs/feedback.json` — palce nahoru/dolů od čtenářů za 30 dní, když soubor
+     existuje (viz sekce Zpětná vazba čtenářů); čerstvější stav dá
+     `curl -sS --max-time 10 "https://aispresso.app/api/feedback?days=30"`, pokud síť pustí,
+   - `python3 docs/check-brief.py --stats` — čísla za posledních 14 dnů včetně zpětné
+     vazby (do deníku).
 
 ### 1 · Rešerše — pevný plán, 22–32 dotazů
 
@@ -304,6 +308,7 @@ python3 docs/check-brief.py
    Bank tipů: <kolik čeká> (claude n · chatgpt n · gemini n · copilot n · other n); přidáno <n>
    Radar: +<nové> / −<odstraněné a proč> · Slovníček: +<n> · Týden v AI: <n položek | ne>
    Průměr za 14 dnů: <položek/den ze `--stats`>
+   Zpětná vazba (30 dní): 👍 n · 👎 n · nejvíc 👍: <id> · nejvíc 👎: <id>
    Poznámky: <odchylky od receptu a jejich zdůvodnění; WARN, které jsi pustil>
    ```
 7. Netlify tento push záměrně nenasadí — appka vidí data z GitHubu do minuty.
@@ -336,6 +341,32 @@ checklist, který si čtenář odškrtává. Proto u každého záznamu drž `ti
 - **Bank:** kandidáty přidávej při každé rešerši (`used: null`, s `why` a `eventDate`);
   téma s 0 čekajícími dostane v bloku D vlastní dotaz.
 - **Ověření tipu:** oficiální release notes / blog (T1) = `verified: true`. Jinak false.
+
+---
+
+## Zpětná vazba čtenářů (`data/briefs/feedback.json`)
+
+U každé novinky má čtenář palec nahoru/dolů. Ukládají se jen počítadla u id položky
+(žádný uživatel, zařízení ani IP). Funkce na Netlify je každou noc ve 2:30 UTC zapisuje
+do repa jako `data/briefs/feedback.json` (posledních 30 dní):
+
+```jsonc
+{
+  "updated": "ISO-8601", "days": 30,
+  "items": { "2026-09-18-claude-cowork-chat-merge-docs-slides-design": { "up": 4, "down": 0 } }
+}
+```
+
+Jak s tím pracovat — **měkký signál, ne pravidlo**:
+
+- Podívej se, **jaké druhy položek** sbírají palce nahoru (funkce k vyzkoušení, tipy,
+  konkrétní firma, kategorie) a jaké dolů (čistý byznys, personálie, vzdálená politika).
+  Při rovnosti kandidátů dej přednost druhu, který čtenáři oceňují.
+- Položka s **≥ 2 palci dolů a žádným nahoru** je varování pro svůj druh, ne důvod téma
+  zamlčet, když je důležité. Nikdy nehoň hlasy clickbaitem ani přeháněním.
+- Když soubor chybí nebo je prázdný, nic se nemění.
+- Do deníku napiš řádek `Zpětná vazba (30 dní): 👍 n · 👎 n · nejvíc 👍: <id> · nejvíc 👎: <id>`
+  (`--stats` to vypíše) a jednou větou, jestli jsi podle toho něco zvolil jinak.
 
 ---
 
@@ -504,6 +535,12 @@ Kompletní ukázka: `docs/examples/brief-v3-example.json`
 - Víkendové a pondělní briefy jsou z podstaty tenčí na čerstvé oznámení; 7denní okno
   a radar je mají dorovnat. Když běh selže, brief chybí viditelně v appce — dogeneruje se
   na pokyn v session.
+
+## Změny v3.3 (20. 9. 2026)
+
+- **Zpětná vazba čtenářů**: palce u novinek se sbírají anonymně a noční funkce je zapisuje
+  do `data/briefs/feedback.json`; recept je čte jako měkký signál pro výběr, `--stats` je
+  shrne do deníku.
 
 ## Změny v3.2 (20. 9. 2026)
 

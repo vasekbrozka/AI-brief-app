@@ -15,7 +15,9 @@ export type IconName =
   | 'cup'
   | 'thread'
   | 'bookmark'
-  | 'bookmarkFilled';
+  | 'bookmarkFilled'
+  | 'thumbUp'
+  | 'thumbDown';
 
 const S = { fill: 'none', stroke: 'currentColor', strokeWidth: 1.7, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const };
 
@@ -102,6 +104,18 @@ const PATHS: Record<IconName, JSX.Element> = {
       strokeWidth={1.3}
       strokeLinejoin="round"
     />
+  ),
+  thumbUp: (
+    <>
+      <path d="M7.5 10.3v9.2H5a1.4 1.4 0 0 1-1.4-1.4v-6.4A1.4 1.4 0 0 1 5 10.3h2.5z" {...S} />
+      <path d="M7.5 10.3l3.4-6.2a1.7 1.7 0 0 1 3.2.8v3.9h4.4a1.9 1.9 0 0 1 1.9 2.2l-1.1 6.4a1.9 1.9 0 0 1-1.9 1.6H7.5" {...S} />
+    </>
+  ),
+  thumbDown: (
+    <>
+      <path d="M16.5 13.7V4.5H19a1.4 1.4 0 0 1 1.4 1.4v6.4a1.4 1.4 0 0 1-1.4 1.4h-2.5z" {...S} />
+      <path d="M16.5 13.7l-3.4 6.2a1.7 1.7 0 0 1-3.2-.8v-3.9H5.5a1.9 1.9 0 0 1-1.9-2.2l1.1-6.4A1.9 1.9 0 0 1 6.6 5h9.9" {...S} />
+    </>
   ),
 };
 

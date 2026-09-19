@@ -23,6 +23,8 @@ z GitHubu.
 - 🗓️ **Týden v AI** — nedělní ohlédnutí za událostmi týdne s odkazy do archivu
 - 🧠 **Po dočtení je co dělat** — Kvíz dne (tři otázky z dnešního přehledu), checklist
   „Vyzkoušej si" s funkcemi z posledních týdnů a Pojem dne ze slovníčku
+- 👍 **Zpětná vazba** — palec nahoru/dolů u novinky; anonymní počítadla, která generátor
+  čte jako signál, co je přínosné
 - ✔️ **Přečteno**, uložení na později, sdílení novinky i celého přehledu, série čtení,
   vysvětlivky pojmů (slovníček roste s obsahem), ranní upozornění s titulkem dne
 
@@ -48,7 +50,8 @@ data/
     ├── index.json           # seznam dostupných briefů (nejnovější první, 14 dnů)
     ├── YYYY-MM-DD.json      # jeden brief na den (starší dny zůstávají, jen nejsou v indexu)
     ├── published-log.json   # ledger zveřejněných položek (dedup, 60 dní) — appka nečte
-    └── tips-backlog.json    # fronta a historie tipů — appka z ní staví checklist „Vyzkoušej si"
+    ├── tips-backlog.json    # fronta a historie tipů — appka z ní staví checklist „Vyzkoušej si"
+    └── feedback.json        # palce čtenářů za 30 dní — zapisuje noční funkce na Netlify
 ```
 
 Appka (`src/lib/briefs.ts`) je čte přímo z GitHubu (raw + Contents API jako záloha),
@@ -76,6 +79,16 @@ Repozitář obsahuje `netlify.toml`, takže stačí:
 3. Po nasazení připojit vlastní doménu (**Domain settings**).
 
 Případně jde nahrát ručně: `npm run build` a přetáhnout složku `dist/` do Netlify.
+
+### Proměnné prostředí na Netlify
+
+| Proměnná | K čemu | Bez ní |
+|---|---|---|
+| `VAPID_PRIVATE_KEY` | ranní push notifikace (`netlify/functions/push-daily.mjs`) | notifikace se neposílají |
+| `GITHUB_TOKEN` | noční zápis zpětné vazby čtenářů do `data/briefs/feedback.json` (`feedback-sync.mjs`); fine-grained token jen pro tento repozitář s právem **Contents: Read and write** | palce se sbírají v Netlify Blobs a jsou k dispozici přes `GET /api/feedback`, do repa se nezapisují |
+
+Serverless funkce: `push-subscribe` (odběr notifikací), `push-daily` (05:15 UTC), `feedback`
+(`POST`/`GET /api/feedback`, jen počítadla u id novinky), `feedback-sync` (02:30 UTC).
 
 ## Přidání na plochu iPhonu
 

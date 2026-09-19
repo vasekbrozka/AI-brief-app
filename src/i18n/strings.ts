@@ -67,6 +67,11 @@ export interface UIStrings {
   tryTriedSection: string;
   termTitle: string;
   termNext: string;
+  /** Thumbs row under a story: "Useful?" → "Thanks". */
+  voteLabel: string;
+  voteThanks: string;
+  voteUp: string;
+  voteDown: string;
   sampleBadge: string;
   sampleNote: string;
 
@@ -202,6 +207,10 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tryTriedSection: 'Máš za sebou',
     termTitle: 'Pojem dne',
     termNext: 'Další pojem',
+    voteLabel: 'Bylo to přínosné?',
+    voteThanks: 'Díky, počítá se.',
+    voteUp: 'Přínosné',
+    voteDown: 'Nepřínosné',
     sampleBadge: 'Ukázka',
     sampleNote:
       'Toto je ukázkový obsah pro fázi 1. Skutečný denní přehled bude automaticky sestavovat AI ve fázi 2.',
@@ -231,7 +240,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     ],
     installShareHint: 'Funguje pouze v Safari na iPhonu nebo iPadu.',
     howItWorksParagraphs: [
-      'Každé ráno, ještě než vstaneš, projde AIspresso dění ve světě AI za poslední dny. Čerpá přitom z pevného okruhu důvěryhodných zdrojů — oficiálních blogů AI firem a předních médií. Z desítek zpráv vybere ty, které opravdu stojí za tvůj čas, u každé ověří datum i zdroj a napíše, proč se tě týká. Co ověřit nejde, poctivě označí. K tomu přidá funkce, které si můžeš hned vyzkoušet, a termíny, které se blíží. Výsledek na tebe čeká u ranní kávy.',
+      'Každé ráno, ještě než vstaneš, projde AIspresso dění ve světě AI za poslední dny. Čerpá přitom z pevného okruhu důvěryhodných zdrojů — oficiálních blogů AI firem a předních médií. Z desítek zpráv vybere ty, které opravdu stojí za tvůj čas, u každé ověří datum i zdroj a napíše, proč se tě týká. Co ověřit nejde, poctivě označí. K tomu přidá funkce, které si můžeš hned vyzkoušet, a termíny, které se blíží. Palcem nahoru nebo dolů mu řekneš, co bylo přínosné — ukládá se jen počítadlo, nic o tobě. Výsledek na tebe čeká u ranní kávy.',
     ],
     sectionSources: 'Zdroje',
     sourcesOfficialLabel: 'Oficiální',
@@ -254,6 +263,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       '„Vyzkoušej si“ — checklist funkcí z posledních týdnů, odškrtávej, co jsi zkusil',
       '„Pojem dne“ ze slovníčku',
       'Sdílení celého přehledu jedním ťuknutím',
+      'Palec nahoru nebo dolů u každé novinky — anonymně, jen počítadlo; generátor podle toho ladí výběr',
     ],
     releaseImproved: [
       'Archiv drží dva týdny místo jednoho a odkazy „Navazuje na“ tak fungují déle',
@@ -362,6 +372,10 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tryTriedSection: 'Already tried',
     termTitle: 'Term of the day',
     termNext: 'Another term',
+    voteLabel: 'Was this useful?',
+    voteThanks: 'Thanks, noted.',
+    voteUp: 'Useful',
+    voteDown: 'Not useful',
     sampleBadge: 'Sample',
     sampleNote:
       'This is sample content for Phase 1. The real daily brief will be assembled automatically by AI in Phase 2.',
@@ -391,7 +405,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     ],
     installShareHint: 'Works only in Safari on iPhone or iPad.',
     howItWorksParagraphs: [
-      "Every morning, before you get up, AIspresso reviews the past few days in the world of AI. It draws on a fixed circle of trusted sources — official AI company blogs and leading media outlets. Out of dozens of stories it picks the ones truly worth your time, checks the date and the source of each, and says why it matters to you. Whatever can't be verified, it labels honestly. On top it adds features you can try right away and the dates coming up. The result is waiting for you with your morning coffee.",
+      "Every morning, before you get up, AIspresso reviews the past few days in the world of AI. It draws on a fixed circle of trusted sources — official AI company blogs and leading media outlets. Out of dozens of stories it picks the ones truly worth your time, checks the date and the source of each, and says why it matters to you. Whatever can't be verified, it labels honestly. On top it adds features you can try right away and the dates coming up. A thumbs up or down tells it what was useful — only a counter is stored, nothing about you. The result is waiting for you with your morning coffee.",
     ],
     sectionSources: 'Sources',
     sourcesOfficialLabel: 'Official',
@@ -414,6 +428,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       '"Try it yourself" — a checklist of recent features; tick off what you have tried',
       '"Term of the day" from the glossary',
       'Share the whole brief with one tap',
+      'Thumbs up or down on every story — anonymous, just a counter; the generator tunes its picks by it',
     ],
     releaseImproved: [
       'The archive keeps two weeks instead of one, so "Follows up on" links work longer',
