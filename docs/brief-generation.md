@@ -1,4 +1,4 @@
-# AIspresso — recept pro denní generování briefu (v3.1)
+# AIspresso — recept pro denní generování briefu (v3.2)
 
 Tento soubor je **závazný recept**, podle kterého se každý den automaticky generuje nový
 brief. Naplánovaná (cron) Claude session dostane jednoduchý pokyn:
@@ -138,7 +138,7 @@ s novým datem. Datum článku NENÍ datum události. Pro **každého** kandidá
   zkopírovaným `title` (cs + en). Odkazuj na nejbližší předchozí díl.
 - **Tichý den:** nejdřív zkontroluj, že jsi prošel všechny bloky rešerše (víkendové
   briefy mají vzít čtvrteční a páteční dění — 7denní okno je k tomu). Pak tipy z fronty.
-  Pak radar. Když je i tak ticho, dej méně a napiš to do deníku, ne do intra.
+  Pak radar. Když je i tak ticho, dej méně a napiš to do deníku, ne do textů.
 
 ### 4 · Psaní — stylový manuál
 
@@ -159,10 +159,10 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.
-- **Headline briefu:** ≤ 9 slov (strop 12), věcný, o hlavní zprávě.
-- **Intro:** **jedna věta, max 25 slov**, o tom, **čím den žije** (téma, ne seznam).
-  **Nikdy nepočítá položky** („Přinášíme tři zprávy a jeden tip" — skript to zamítne)
-  a nikdy se neomlouvá za tichý den. Bez řetězení přes pomlčky a dvojtečky.
+- **Headline briefu:** ≤ 9 slov (strop 12), věcný, o hlavní zprávě. Ukazuje se v archivu,
+  v ranní notifikaci a při sdílení.
+- **Intro brief nemá** (od v3.2): pod nadpisem jsou rovnou karty. Pole `intro` vynech —
+  skript ho ohlásí. Tichý den se nikde neomlouvá, jen se zdůvodní v deníku.
 - **Datace v textu:** konkrétní datum („15. července"), ne „dnes/včera". **Názvy dnů
   v týdnu nepiš vůbec** — když je den nutný, spočítej ho (`date -u -d 2026-09-17 +%A`)
   a stejně napiš datum.
@@ -234,6 +234,19 @@ přes týden minul.
   že `id` existují a titulky sedí.
 - V jiné dny pole vynech.
 
+### 5c · Kvíz dne (`quiz`)
+
+Po dočtení má mít čtenář v appce co dělat — **tři otázky z faktů dnešního briefu**:
+
+- Každá otázka se váže na jinou položku (`itemId`) a ptá se na **konkrétní fakt ze
+  shrnutí**: číslo, datum, jméno, funkci, podmínku. Správná odpověď musí být ve shrnutí
+  doslova dohledatelná; nic, co by čtenář nemohl vědět z briefu.
+- **Přesně 3 možnosti**, stejného druhu (tři čísla, tři firmy…), věrohodné distraktory,
+  žádné „všechno výše". `answer` = index správné (0–2); pořadí appka míchá sama.
+- `question` ≤ 20 slov, končí otazníkem; možnosti ≤ 8 slov; `explain` 1 věta ≤ 25 slov,
+  která fakt zopakuje (čtenář ji uvidí po odpovědi).
+- Tón jako zbytek appky: věcný, žádné chytáky na slovíčka.
+
 ### 6 · Kontrola před publikací (povinná)
 
 Po zapsání všech souborů spusť z kořene repa:
@@ -245,8 +258,9 @@ python3 docs/check-brief.py
 - **FAIL** → oprav a spusť znovu. **S FAILem se nikdy nepublikuje.**
 - **WARN** → posuď; když je odchylka záměrná a odůvodněná, smí projít — důvod do deníku.
 - Skript kontroluje: platnost JSON a schéma v3, právě 1 highlight (ne tip), kategorie,
-  `kind`, meze slov (titulek, shrnutí, `why`, intro), **stáří `eventDate`** (zprávy 7 dní,
-  tipy 60), názvy dnů, ASCII uvozovky, kalky, intro bez počítání, zakázané domény,
+  `kind`, meze slov (titulek, shrnutí, `why`), **stáří `eventDate`** (zprávy 7 dní,
+  tipy 60), názvy dnů, ASCII uvozovky, kalky, **kvíz** (vazba na položky, 3 možnosti,
+  meze), zakázané domény,
   paywall párování, **tiery zdrojů a definici ověřeno**, kanonická jména zdrojů, tipy
   (počet, backlog, žádné opakování), radar (data, meze, zdroje, řazení, **přenos ze
   včerejška**), **podobné titulky** proti posledním 14 dnům, `weekInReview`,
@@ -299,8 +313,10 @@ python3 docs/check-brief.py
 ## Tipy (vyzkoušej si)
 
 Tip = užitečná funkce nástroje, kterou si čtenář může vyzkoušet, z **posledních ~60 dní**.
-Není nutně horká; je nutně použitelná. Žijí ve frontě `data/briefs/tips-backlog.json`
-(appka ho nečte).
+Není nutně horká; je nutně použitelná. Žijí ve frontě `data/briefs/tips-backlog.json`.
+**Appka backlog čte**: sekce „Vyzkoušej si" ukazuje tipy s `used` z posledních 30 dnů jako
+checklist, který si čtenář odškrtává. Proto u každého záznamu drž `title`, `why`,
+`sources` a `used` přesné a nikdy záznamy nepřepisuj zpětně.
 
 - **Kolik:** **0–3 denně**, z toho, co fronta dá. Žádný vzorec, žádné doplňování na číslo.
   Tip nikdy nevytlačí zprávu (zpráv ≥ tipů).
@@ -361,7 +377,6 @@ rumor, neohlášená funkce · nevyřešený rozpor · termín „podle zpráv".
   "date": "YYYY-MM-DD",
   "sample": false,
   "headline": { "cs": "...", "en": "..." },   // ≤ 9 slov (strop 12), o hlavní zprávě
-  "intro":    { "cs": "...", "en": "..." },    // 1 věta ≤ 25 slov, čím den žije; nepočítá položky
   "items": [
     {
       "id": "YYYY-MM-DD-kratky-slug",          // tipy: YYYY-MM-DD-tip-<slug>; update: ...-update
@@ -393,6 +408,15 @@ rumor, neohlášená funkce · nevyřešený rozpor · termín „podle zpráv".
       "date": "YYYY-MM-DD", "id": "YYYY-MM-DD-slug",   // existující zpráva z posledních 7 dnů
       "title": { "cs": "…", "en": "…" },        // doslovná kopie titulku
       "note":  { "cs": "…", "en": "…" }         // ≤ 25 slov: proč to byla událost týdne / co následovalo
+    }
+  ],
+  "quiz": [                                     // vždy 3 otázky z faktů dnešních položek
+    {
+      "itemId": "YYYY-MM-DD-kratky-slug",       // položka, o které otázka je
+      "question": { "cs": "…?", "en": "…?" },   // ≤ 20 slov
+      "options":  [ { "cs": "…", "en": "…" }, { "cs": "…", "en": "…" }, { "cs": "…", "en": "…" } ],
+      "answer": 1,                              // index správné možnosti (0–2)
+      "explain":  { "cs": "…", "en": "…" }      // 1 věta ≤ 25 slov, zopakuje fakt
     }
   ]
 }
@@ -436,7 +460,7 @@ Kompletní ukázka: `docs/examples/brief-v3-example.json`
 }
 ```
 
-### `data/briefs/tips-backlog.json` — fronta + historie tipů (appka NEČTE, NEMAZAT)
+### `data/briefs/tips-backlog.json` — fronta + historie tipů (appka ČTE pro „Vyzkoušej si", NEMAZAT)
 
 ```jsonc
 {
@@ -480,6 +504,12 @@ Kompletní ukázka: `docs/examples/brief-v3-example.json`
 - Víkendové a pondělní briefy jsou z podstaty tenčí na čerstvé oznámení; 7denní okno
   a radar je mají dorovnat. Když běh selže, brief chybí viditelně v appce — dogeneruje se
   na pokyn v session.
+
+## Změny v3.2 (20. 9. 2026)
+
+- **Intro zrušeno**: appka ukazuje pod nadpisem rovnou karty; pole `intro` se nepíše.
+- **Kvíz dne** (`quiz`): 3 otázky z faktů dnešních položek, po dočtení má čtenář co dělat.
+- **Appka čte `tips-backlog.json`** jako checklist „Vyzkoušej si" (tipy za 30 dnů).
 
 ## Změny v3.1 (20. 9. 2026)
 

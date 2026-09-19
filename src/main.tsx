@@ -5,6 +5,7 @@ import { SettingsProvider } from './providers/SettingsProvider';
 import { ReadProvider } from './providers/ReadProvider';
 import { StreakProvider } from './providers/StreakProvider';
 import { SavedProvider } from './providers/SavedProvider';
+import { TriedProvider } from './providers/TriedProvider';
 import { GlossaryProvider } from './providers/GlossaryProvider';
 import { GlossaryPopover } from './components/GlossaryPopover';
 import { clearBadge, ensureSubscribed } from './lib/push';
@@ -44,10 +45,12 @@ createRoot(rootEl).render(
       <ReadProvider>
         <StreakProvider>
           <SavedProvider>
-            <GlossaryProvider>
-              <App />
-              <GlossaryPopover />
-            </GlossaryProvider>
+            <TriedProvider>
+              <GlossaryProvider>
+                <App />
+                <GlossaryPopover />
+              </GlossaryProvider>
+            </TriedProvider>
           </SavedProvider>
         </StreakProvider>
       </ReadProvider>

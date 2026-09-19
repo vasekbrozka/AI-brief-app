@@ -103,6 +103,21 @@ export function hiddenCountLabel(n: number, lang: Lang): string {
   return `${n} ${n === 1 ? 'story' : 'stories'} hidden by your filter`;
 }
 
+/** "Otázka 1 ze 3" / "Question 1 of 3". */
+export function quizProgressLabel(current: number, total: number, lang: Lang): string {
+  return lang === 'cs' ? `Otázka ${current} ze ${total}` : `Question ${current} of ${total}`;
+}
+
+/** Quiz result, e.g. "2 ze 3 správně" / "2 of 3 correct". */
+export function quizScoreLabel(correct: number, total: number, lang: Lang): string {
+  return lang === 'cs' ? `${correct} ze ${total} správně` : `${correct} of ${total} correct`;
+}
+
+/** Checklist progress, e.g. "3 z 8 vyzkoušeno" / "3 of 8 tried". */
+export function triedProgressLabel(tried: number, total: number, lang: Lang): string {
+  return lang === 'cs' ? `${tried} z ${total} vyzkoušeno` : `${tried} of ${total} tried`;
+}
+
 /** Reading-streak label, e.g. "5 dní v řadě" / "5-day streak". */
 export function streakLabel(n: number, lang: Lang): string {
   if (lang === 'cs') {

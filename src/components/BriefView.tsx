@@ -6,6 +6,9 @@ import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 import { useStreak } from '../providers/StreakProvider';
 import { BriefItemCard } from './BriefItemCard';
+import { DailyQuiz } from './DailyQuiz';
+import { TryList } from './TryList';
+import { TermOfDay } from './TermOfDay';
 import { RadarSection } from './RadarSection';
 import { WeekReviewSection } from './WeekReviewSection';
 import { WeekStreak } from './WeekStreak';
@@ -70,7 +73,6 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
           <strong>{t.staleTitle}</strong> {t.staleBody} {capitalizeFirst(formatShortDate(brief.date, lang))}.
         </p>
       )}
-      {brief.intro?.[lang] && <p className="lede">{brief.intro[lang]}</p>}
 
       {!isToday ? (
         // Archive is a read-only browse: every story is shown, the read state
@@ -115,6 +117,14 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
               </div>
             </>
           )}
+
+          {/* Reasons to come back after the reading: test yourself, try the
+              recent features, learn a term. Today only — the archive is a browse. */}
+          {brief.quiz && brief.quiz.length > 0 && (
+            <DailyQuiz key={brief.date} date={brief.date} quiz={brief.quiz} />
+          )}
+          <TryList />
+          <TermOfDay date={brief.date} />
 
           {extras}
 

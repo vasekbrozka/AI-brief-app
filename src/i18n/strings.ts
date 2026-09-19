@@ -48,6 +48,25 @@ export interface UIStrings {
   staleTitle: string;
   /** Followed by the brief's date, e.g. "… z 19. září". */
   staleBody: string;
+
+  // After the reading: daily quiz, try-it checklist, term of the day
+  quizTitle: string;
+  quizNext: string;
+  quizShowResult: string;
+  quizRetry: string;
+  quizCorrect: string;
+  quizWrong: string;
+  /** Result titles for 0, 1, 2 and 3 correct answers. */
+  quizResultTitles: string[];
+  tryTitle: string;
+  tryHint: string;
+  tryAll: string;
+  tryDone: string;
+  tryAllDone: string;
+  tryEmpty: string;
+  tryTriedSection: string;
+  termTitle: string;
+  termNext: string;
   sampleBadge: string;
   sampleNote: string;
 
@@ -166,6 +185,23 @@ export const STRINGS: Record<Lang, UIStrings> = {
     shareBriefArchiveLabel: 'Sdílet přehled',
     staleTitle: 'Dnešní přehled se ještě připravuje.',
     staleBody: 'Zobrazujeme poslední dostupný přehled z',
+
+    quizTitle: 'Kvíz dne',
+    quizNext: 'Další otázka',
+    quizShowResult: 'Vyhodnotit',
+    quizRetry: 'Zkusit znovu',
+    quizCorrect: 'Správně!',
+    quizWrong: 'Vedle.',
+    quizResultTitles: ['Zítra to půjde líp', 'Slabší odvar', 'Dobré espresso', 'Dokonalý shot'],
+    tryTitle: 'Vyzkoušej si',
+    tryHint: 'Funkce z posledních týdnů, které stojí za zkoušku. Odškrtni, co máš za sebou.',
+    tryAll: 'Všechny tipy',
+    tryDone: 'Vyzkoušeno',
+    tryAllDone: 'Všechno vyzkoušeno ☕️',
+    tryEmpty: 'Zatím žádné tipy z posledních týdnů.',
+    tryTriedSection: 'Máš za sebou',
+    termTitle: 'Pojem dne',
+    termNext: 'Další pojem',
     sampleBadge: 'Ukázka',
     sampleNote:
       'Toto je ukázkový obsah pro fázi 1. Skutečný denní přehled bude automaticky sestavovat AI ve fázi 2.',
@@ -214,11 +250,15 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Tipy k vyzkoušení mají štítek Vyzkoušej a návod, kde funkci najdeš',
       'Datum události u každé novinky, ať víš, jestli jde o včerejšek nebo minulý týden',
       '„Týden v AI“ — nedělní ohlédnutí za událostmi týdne s odkazy do archivu',
+      '„Kvíz dne“ — tři otázky z dnešního přehledu, ať se čtení uloží',
+      '„Vyzkoušej si“ — checklist funkcí z posledních týdnů, odškrtávej, co jsi zkusil',
+      '„Pojem dne“ ze slovníčku',
       'Sdílení celého přehledu jedním ťuknutím',
     ],
     releaseImproved: [
       'Archiv drží dva týdny místo jednoho a odkazy „Navazuje na“ tak fungují déle',
       'Přísnější ověřování: Ověřeno znamená oficiální zdroj, nebo dvě nezávislá média',
+      'Úvodní odstavec pod nadpisem je pryč, přehled začíná rovnou kartami',
       'Sdílení novinky přibalí i větu, proč na ní záleží',
       'Ranní upozornění nese titulek dne a počet novinek',
       'Když ranní přehled ještě není hotový, appka to řekne místo tichého zobrazení včerejška',
@@ -305,6 +345,23 @@ export const STRINGS: Record<Lang, UIStrings> = {
     shareBriefArchiveLabel: 'Share this brief',
     staleTitle: "Today's brief is still being prepared.",
     staleBody: 'Showing the latest available brief from',
+
+    quizTitle: 'Daily quiz',
+    quizNext: 'Next question',
+    quizShowResult: 'See result',
+    quizRetry: 'Try again',
+    quizCorrect: 'Correct!',
+    quizWrong: 'Not quite.',
+    quizResultTitles: ['Better luck tomorrow', 'A weak brew', 'A solid espresso', 'A perfect shot'],
+    tryTitle: 'Try it yourself',
+    tryHint: 'Features from recent weeks worth a try. Tick off what you have done.',
+    tryAll: 'All tips',
+    tryDone: 'Tried',
+    tryAllDone: 'All tried ☕️',
+    tryEmpty: 'No tips from the last few weeks yet.',
+    tryTriedSection: 'Already tried',
+    termTitle: 'Term of the day',
+    termNext: 'Another term',
     sampleBadge: 'Sample',
     sampleNote:
       'This is sample content for Phase 1. The real daily brief will be assembled automatically by AI in Phase 2.',
@@ -353,11 +410,15 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Tips you can try carry a Try it badge and a note on where to find the feature',
       'The event date on every story, so you know whether it happened yesterday or last week',
       '"The week in AI" — a Sunday look back at the week\'s key stories, linked into the archive',
+      '"Daily quiz" — three questions on today\'s brief, so the reading sticks',
+      '"Try it yourself" — a checklist of recent features; tick off what you have tried',
+      '"Term of the day" from the glossary',
       'Share the whole brief with one tap',
     ],
     releaseImproved: [
       'The archive keeps two weeks instead of one, so "Follows up on" links work longer',
       'Stricter verification: Verified means an official source, or two independent outlets',
+      'The lead-in paragraph under the title is gone; the brief starts with the cards',
       'Sharing a story now includes the why-it-matters line',
       'The morning notification carries the headline of the day and the story count',
       "When the morning brief isn't ready yet, the app says so instead of quietly showing yesterday",

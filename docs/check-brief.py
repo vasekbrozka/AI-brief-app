@@ -119,16 +119,7 @@ WEEKDAYS = [
 ]
 CALQUES = ["jádrové nástroje", "jádrových nástrojů", "jádrovým nástrojům", "jádrovými nástroji"]
 
-# Intro nesmí počítat položky („Přinášíme tři zprávy a jeden tip").
-INTRO_COUNT_PATTERNS = [
-    r"přináším\w*\s+(\w+\s+){0,2}(zpráv\w*|novin\w*|tip\w*|položk\w*)",
-    r"doplňujeme\s+(\w+\s+){0,2}tip\w*",
-    r"\bmáme\s+(\w+\s+){0,2}(zpráv\w*|novin\w*|tip\w*)",
-    r"\b(jedn\w+|dv[aě]|tři|čtyři|pět|šest|sedm|osm|devět|deset|\d+)\s+(zpráv\w*|novin\w*|tip\w*)\b",
-    r"\bwe bring\b", r"\bwe('re| are) bringing\b",
-    r"\bwe (add|include|have|offer)\s+(\w+\s+){0,2}(news|stories|tips|items)\b",
-    r"\b(one|two|three|four|five|six|seven|eight|nine|ten|\d+)\s+(news items|stories|tips)\b",
-]
+QUIZ_COUNT = 3   # otázek v kvízu dne; přesně 3 možnosti na otázku
 # Konkrétní datum ve shrnutí („16. září" / „September 16").
 CS_MONTHS = "ledna|února|března|dubna|května|června|července|srpna|září|října|listopadu|prosince"
 EN_MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December"
@@ -373,27 +364,16 @@ def main() -> int:
         fail(f"brief.date = {brief.get('date')}, čekáno {today_str}")
     if brief.get("sample") is not False:
         fail("sample musí být false")
-    for field in ("headline", "intro"):
-        for lang in ("cs", "en"):
-            if not loc(brief, field, lang).strip():
-                fail(f"{field}.{lang} je prázdný")
     for lang in ("cs", "en"):
+        if not loc(brief, "headline", lang).strip():
+            fail(f"headline.{lang} je prázdný")
         hl_words = words(loc(brief, "headline", lang))
         if hl_words > 12:
             fail(f"headline.{lang} má {hl_words} slov (tvrdý strop 12)")
         elif hl_words > 9:
             warn(f"headline.{lang} má {hl_words} slov (cíl ≤ 9)")
-        intro = loc(brief, "intro", lang)
-        intro_words = words(intro)
-        if intro_words > 30:
-            fail(f"intro.{lang} má {intro_words} slov (tvrdý strop 30, cíl ≤ 25)")
-        elif intro_words > 25:
-            warn(f"intro.{lang} má {intro_words} slov (cíl ≤ 25)")
-        low = intro.lower()
-        for pat in INTRO_COUNT_PATTERNS:
-            if v3 and re.search(pat, low):
-                fail(f"intro.{lang}: počítá položky („{intro}“) — intro říká, čím den žije, ne kolik toho je")
-                break
+    if v3 and brief.get("intro") is not None:
+        warn("brief má intro — appka ho od v3.2 nezobrazuje, pole vynech")
 
     if not items:
         fail("brief nemá žádné položky")
@@ -428,7 +408,6 @@ def main() -> int:
     # --- texty -------------------------------------------------------------
     for lang in ("cs", "en"):
         check_text(f"headline.{lang}", loc(brief, "headline", lang), lang)
-        check_text(f"intro.{lang}", loc(brief, "intro", lang), lang)
 
     for i in items:
         is_tip = "-tip-" in i["id"]
@@ -727,6 +706,73 @@ def main() -> int:
                             if loc(match, "title", lang).strip() != loc(e, "title", lang).strip():
                                 warn(f"{name}.title.{lang}: neodpovídá doslova titulku {eid}")
 
+    # --- kvíz dne --------------------------------------------------------------------------
+    quiz = brief.get("quiz")
+    quiz_count = 0
+    item_ids = {i["id"] for i in items}
+    if quiz is None:
+        if v3:
+            warn("brief nemá kvíz dne (quiz) — 3 otázky z faktů dnešních položek")
+    elif not isinstance(quiz, list):
+        fail("quiz musí být pole")
+    else:
+        quiz_count = len(quiz)
+        if quiz_count > 4:
+            fail(f"quiz má {quiz_count} otázek (má být {QUIZ_COUNT})")
+        elif quiz_count != QUIZ_COUNT:
+            warn(f"quiz má {quiz_count} otázek (má být {QUIZ_COUNT})")
+        asked: set[str] = set()
+        for n, q in enumerate(quiz, 1):
+            name = f"quiz[{n}]"
+            if not isinstance(q, dict):
+                fail(f"{name}: musí být objekt")
+                continue
+            iid = str(q.get("itemId", ""))
+            if iid not in item_ids:
+                fail(f"{name}: itemId {iid!r} není mezi dnešními položkami")
+            elif iid in asked:
+                warn(f"{name}: druhá otázka na stejnou položku {iid}")
+            asked.add(iid)
+            for lang in ("cs", "en"):
+                qtext = loc(q, "question", lang)
+                check_text(f"{name}.question.{lang}", qtext, lang)
+                if not qtext.strip():
+                    fail(f"{name}: chybí question.{lang}")
+                else:
+                    if words(qtext) > 30:
+                        fail(f"{name}.question.{lang}: {words(qtext)} slov (strop 20)")
+                    elif words(qtext) > 20:
+                        warn(f"{name}.question.{lang}: {words(qtext)} slov (cíl ≤ 20)")
+                    if not qtext.strip().endswith("?"):
+                        warn(f"{name}.question.{lang}: nekončí otazníkem")
+                ex = loc(q, "explain", lang)
+                check_text(f"{name}.explain.{lang}", ex, lang)
+                if not ex.strip():
+                    fail(f"{name}: chybí explain.{lang}")
+                elif words(ex) > 35:
+                    fail(f"{name}.explain.{lang}: {words(ex)} slov (strop 25)")
+                elif words(ex) > 25:
+                    warn(f"{name}.explain.{lang}: {words(ex)} slov (cíl ≤ 25)")
+            opts = q.get("options")
+            if not isinstance(opts, list) or len(opts) != 3:
+                fail(f"{name}: options musí mít přesně 3 možnosti")
+                opts = []
+            for lang in ("cs", "en"):
+                texts = [(o.get(lang, "") if isinstance(o, dict) else "") for o in opts]
+                for k, t in enumerate(texts):
+                    check_text(f"{name}.options[{k}].{lang}", t, lang)
+                    if not str(t).strip():
+                        fail(f"{name}: options[{k}].{lang} je prázdná")
+                    elif words(t) > 12:
+                        fail(f"{name}.options[{k}].{lang}: {words(t)} slov (strop 8)")
+                    elif words(t) > 8:
+                        warn(f"{name}.options[{k}].{lang}: {words(t)} slov (cíl ≤ 8)")
+                if texts and len({str(t).strip().lower() for t in texts}) != len(texts):
+                    fail(f"{name}: možnosti se opakují ({lang})")
+            ans = q.get("answer")
+            if not isinstance(ans, int) or isinstance(ans, bool) or not 0 <= ans < 3:
+                fail(f"{name}: answer musí být index 0–2 (je {ans!r})")
+
     # --- slovníček (jen denní režim) ----------------------------------------------------
     if not file_mode:
         try:
@@ -819,7 +865,7 @@ def main() -> int:
     verified_n = sum(1 for i in items if i.get("verified") is True)
     week_n = len(week) if isinstance(week, list) else 0
     infos.append(
-        f"{len(news)} zpráv · {len(tips)} tipů · {radar_count} na obzoru · týden v AI {week_n} · "
+        f"{len(news)} zpráv · {len(tips)} tipů · {radar_count} na obzoru · týden v AI {week_n} · kvíz {quiz_count} · "
         f"ověřeno {verified_n}/{len(items)} · "
         f"zdroje T1 {tier_counts[1]} / T2 {tier_counts[2]} / ostatní {tier_counts[3]}"
     )
