@@ -1,4 +1,4 @@
-# AIspresso — recept pro denní generování briefu (v2)
+# AIspresso — recept pro denní generování briefu (v3)
 
 Tento soubor je **závazný recept**, podle kterého se každý den automaticky generuje nový
 brief. Naplánovaná (cron) Claude session dostane jednoduchý pokyn:
@@ -8,20 +8,40 @@ brief. Naplánovaná (cron) Claude session dostane jednoduchý pokyn:
 
 Ladění obsahu = úprava tohoto souboru. Časovač se nepředělává. Recept je psaný tak, aby
 podle něj konzistentně pracoval i konzervativní model: **kde jde rozhodnutí nahradit
-kontrolou nebo příkazem, udělej to.**
+kontrolou nebo příkazem, udělej to. Co tu není zakázané, není zakázané — nevymýšlej si
+přísnější pravidla, než jsou tady.**
 
 **Architektura:** appka čte briefy přímo z GitHubu (`src/lib/briefs.ts`), ne z Netlify.
 Commit měnící jen `data/briefs/` a/nebo `docs/` Netlify **záměrně přeskočí** (`ignore`
 pravidlo) — přeskočený deploy je správné chování, ne chyba. Denní obsah je tedy zdarma.
 
+**Proč v3:** viz `docs/analyza-receptu-2026-09.md`. Ve zkratce: v2 chtěla 8–12 položek
+a dávala 4, protože 72h brána zahazovala nikdy nezveřejněné zprávy, bank tipů byl
+prázdný, „ověřeno" motivovalo k citování slabých webů a brief neříkal, co z toho plyne.
+
 ---
 
 ## Cíl
 
-Krátký, **ověřený**, **dvojjazyčný** (CZ + EN) přehled nejdůležitějších novinek ze světa
-AI za posledních ~72 hodin, doplněný v klidné dny užitečnými tipy. Věcný tón, žádný hype,
-žádné spekulace. **Relevance a spolehlivost obsahu je jediný smysl appky** — radši méně
-a pravdivě než více a přibližně.
+Čtenář má za pět minut u kávy vědět **co se stalo**, **proč se ho to týká**, **co si může
+vyzkoušet** a **co přijde**. Ověřené, dvojjazyčné (CZ + EN), věcné, bez hype.
+**Relevance a spolehlivost obsahu je jediný smysl appky** — radši méně a pravdivě než
+více a přibližně. Ale „méně" znamená 6, ne 2.
+
+### Co je „přínosné"
+
+Položka je přínosná, když platí aspoň jedno:
+
+1. **Může si to vyzkoušet** — nová funkce, model, produkt, dostupnost nebo cena
+   v nástroji, který používá (Claude, ChatGPT, Gemini, Copilot, ale i Perplexity, Cursor,
+   Grok, Apple/Samsung AI…).
+2. **Mění to, jak má o nástroji uvažovat** — bezpečnostní incident, výpadek s příčinou,
+   změna podmínek, dat, cen, regulace, která na něj dopadne.
+3. **Je to velká událost oboru**, kterou umí po přečtení převyprávět — financování
+   špičkových laboratoří, akvizice, zákony, přelomový výzkum, soudy.
+
+Každá položka to musí umět říct v poli `why` (viz Psaní). Když nevíš, co do `why` napsat,
+položka do briefu nepatří.
 
 ---
 
@@ -34,130 +54,147 @@ a pravdivě než více a přibližně.
 2. Dnešní datum (UTC): `date -u +%F`. Pokud `data/briefs/<dnešek>.json` už existuje a je
    platný JSON, brief je hotový — nic negeneruj a skonči.
 3. Přečti si redakční stav:
-   - poslední briefy `data/briefs/*.json` (okno 7 dnů),
-   - `data/briefs/published-log.json` — zveřejněné zprávy za ~30 dní (dedup),
-   - `data/briefs/tips-backlog.json` — fronta a historie tipů.
+   - posledních 14 briefů `data/briefs/*.json` (co vyšlo, jaké `radar` termíny se nesou),
+   - `data/briefs/published-log.json` — zveřejněné položky za 60 dní (dedup),
+   - `data/briefs/tips-backlog.json` — fronta a historie tipů; spočítej, kolik tipů
+     čeká (`used: null`) pro každé téma.
 
-### 1 · Sběr kandidátů
+### 1 · Rešerše — pevný plán, 20–30 dotazů
 
-Tři vrstvy, od nejdůvěryhodnější. **Rozpočet: 14–24 vyhledávání** — s cílem aspoň 8 zpráv
-denně (krok 3) je potřeba širší záběr napříč hráči (OpenAI/ChatGPT, Anthropic/Claude,
-Google/Gemini, Microsoft/Copilot, Meta, xAI, další) i typy zdrojů (firemní blogy, media,
-release notes), ne jen první nalezená hrstka. Skonči dřív, jen když **tři** dotazy po sobě
-nepřinesou nic nového.
+Jediný funkční nástroj je **WebSearch** (přímé stahování stránek je pro většinu domén
+blokované — výjimkou je RSS níže; neztrácej čas opakovanými pokusy). Rešerše se dělá podle
+plánu, ne „dokud něco nenajdu":
 
-**1a · Kánon zdrojů (primární).** 4–6 cílených WebSearch dotazů s `allowed_domains`:
-- oficiální (T1): `anthropic.com`, `openai.com`, `blog.google`, `deepmind.google`,
-  `microsoft.com`, `learn.microsoft.com`, `nvidia.com`, `ai.meta.com`,
-  `huggingface.co`, `mistral.ai`
-- média (T2): `theverge.com`, `arstechnica.com`, `techcrunch.com`, `reuters.com`,
-  `apnews.com`, `bloomberg.com`, `wired.com`, `theregister.com`,
-  `technologyreview.com`, `axios.com`, `cnbc.com`
+| Blok | Dotazů | Co a jak |
+|---|---|---|
+| **A · Newsroomy** (T1, `allowed_domains`) | 5–6 | Po jednom dotazu: Anthropic (`anthropic.com`, `claude.com`) · OpenAI (`openai.com`, `help.openai.com`) · Google (`blog.google`, `deepmind.google`, `googleblog.com`, `google.dev`) · Microsoft (`microsoft.com`) · ostatní hráči najednou (`nvidia.com`, `meta.com`, `mistral.ai`, `x.ai`, `huggingface.co`, `perplexity.ai`, `aboutamazon.com`, `apple.com`) |
+| **B · Média** (T2, `allowed_domains`) | 3–4 | `reuters.com`, `apnews.com`, `theverge.com`, `arstechnica.com`, `techcrunch.com`, `axios.com`, `cnbc.com`, `theregister.com`, `wired.com`, `technologyreview.com`, `bloomberg.com`, `ft.com`: jeden dotaz na hlavní hráče, jeden na regulaci/soudy, jeden na byznys/čipy/infrastrukturu |
+| **C · Témata** (bez omezení) | 5–7 | modely a benchmarky · agenti a kódovací nástroje · regulace, EU, soudy · investice, akvizice, čipy · výzkum a bezpečnost · open-source/open-weight · spotřební AI (Apple, Samsung, auta, brýle, hodinky) |
+| **D · Tipy** (release notes) | 2–4 | pro každé jádrové téma s **< 2 čekajícími tipy**: release notes / help center / changelog dané firmy (`support.claude.com`, `help.openai.com`, `workspaceupdates.googleblog.com`, `techcommunity.microsoft.com`, `learn.microsoft.com`) |
+| **E · Radar** | 2–3 | nadcházející termíny: „next week / October 2026 / launch date / effective / deadline / hearing / trial / earnings / keynote" + jména hráčů |
+| **F · Ověření** | dle potřeby | k vybraným kandidátům dohledat T1/T2 URL a datum primární události |
 
-Pokrývej jádrová témata **samostatným dotazem, každý den, i v klidný den**:
-**Anthropic / Claude**, **OpenAI / ChatGPT**, **Google / Gemini**,
-**Microsoft 365 Copilot** — a přidej aspoň jeden dotaz navíc na **další velké hráče**
-(Meta, xAI/Grok, Mistral, NVIDIA, Amazon), aby se nezůstávalo jen u čtyř jader.
+Pravidla rešerše:
 
-**1b · RSS feed M365 (bonus).** Jediný feed průchozí zdejší sítí:
-`curl -sS --max-time 12 "https://www.microsoft.com/en-us/microsoft-365/blog/feed/" | head -c 100000`
-Když selže, pokračuj bez něj.
+- **Do dotazu dávej měsíc a rok** („September 2026") a jména produktů, ne jen firem
+  („Claude", „ChatGPT", „Gemini", „Copilot"). Stejný dotaz nikdy neopakuj; obměň slova.
+- **Blok ukonči**, když tři dotazy po sobě nepřinesou nového kandidáta. Neukončuj celou
+  rešerši — další blok hledá jinde.
+- Když téma odhalí agregátor (T3), je to jen stopa: jeden dotaz z bloku F dohledá primární
+  zdroj a datum. Bez T1/T2 URL kandidát nepokračuje.
+- **RSS M365 (bonus):** `curl -sS --max-time 12 "https://www.microsoft.com/en-us/microsoft-365/blog/feed/" | head -c 100000` — když selže, pokračuj bez něj.
+- Průběžně veď **tabulku kandidátů**: kandidát · datum události · primární URL · tier ·
+  stav (nový / update / duplicita / starý / neověřitelný) · důvod. Z ní vzniká výběr
+  i redakční deník.
 
-**1c · Široký web search (doplněk).** 3–5 dotazů bez omezení na velké obecné zprávy
-(ostatní modely a firmy, coding agenti, regulace/EU, velký byznys, bezpečnost a výzkum,
-open-source) a na křížové ověřování.
+### 2 · Triáž — datum, dedup, ověření
 
-⚠️ **Síť:** přímé stahování stránek (curl/WebFetch) je pro většinu domén blokované
-(CONNECT 403) — výjimkou je microsoft.com výše. Neztrácej čas opakovanými pokusy.
+**Empirické varování:** většina „dnešních novinek" z agregátorů jsou týdny staré zprávy
+s novým datem. Datum článku NENÍ datum události. Pro **každého** kandidáta:
 
-💡 **Tipy hledej aktivně, ne jen mimochodem.** Když má některé jádrové téma
-(`claude`·`chatgpt`·`gemini`·`copilot`·`other`) ve frontě `tips-backlog.json` míň
-než 2 čekající (`used: null`) tipy, věnuj mu při dnešní rešerši aspoň jeden cílený
-dotaz navíc (release notes / help center / oficiální blog dané firmy) — vyšší denní
-počet tipů (viz sekce Tipy) potřebuje frontu, která se sama nedoplní.
-
-### 2 · Datace a ověření — brána čerstvosti
-
-**Empirické varování: většina „dnešních novinek" z agregátorů jsou týdny staré zprávy
-s novým datem.** Datum digestu/článku NENÍ datum události.
-
-Pro **každého** kandidáta, než ho pustíš dál:
-
-1. **Zjisti datum primární události** (oznámení, účinnost, podání žaloby…) z T1/T2 zdroje —
-   ne z agregátoru. Když se datum nedá spolehlivě určit, kandidát **jde ven**.
-2. **Okno čerstvosti:** událost starší než **~72 hodin** → ven. Výjimky:
-   - **update** — starší událost s novým vývojem: zařaď, formuluj jako update
-     (slug `...-update`), novým vývojem musí být to hlavní;
-   - **výhledová zpráva** („X vyjde 17. 7."): povolená jen s **konkrétním termínem do
-     7 dnů**, vždy `verified: false`, formulace „podle zpráv / očekává se".
-3. **URL disciplína:** do `sources` smí **jen URL, které doslova zaznělo ve výsledcích
-   rešerše** (WebSearch/feed). Nikdy neskládej URL z paměti. Není-li k dispozici T1/T2
-   URL, zprávu vynech.
-4. **Křížové ověření** pro `verified: true` — viz definice níže.
+1. **Datum primární události** (oznámení, účinnost, podání žaloby, vydání) z T1/T2
+   zdroje. Nedá-li se spolehlivě určit → ven. Zapiš ho do `eventDate`.
+2. **Okno čerstvosti: 7 dní.** `eventDate` ≥ dnešek − 7 → kandidát. Přednost má
+   čerstvější (≤ 48 h > ≤ 72 h > zbytek), ale zpráva stará 4–6 dní, která **v appce
+   nevyšla**, je pro čtenáře nová a do briefu patří. Starší událost jen jako **update**
+   (slug `...-update`) — novým vývojem musí být to hlavní a `eventDate` je datum nového
+   vývoje, ne původní kauzy.
+3. **Dedup** proti `published-log.json` (60 dní) a posledním 14 briefům. Stejná událost =
+   neopakovat. Nový vývoj = update se změněným slugem a `followsUp`. Stejná událost z více
+   zdrojů = jedna položka s více zdroji. **Zpráva, která v appce nikdy nevyšla, není
+   „recyklace"** — i když ji agregátory omílají týden.
+4. **URL disciplína:** do `sources` smí **jen URL, které doslova zaznělo ve výsledcích
+   rešerše**. Nikdy neskládej URL z paměti. Když k dispozici není T1/T2 URL, zprávu vynech
+   (výjimka: vlastní newsroom firmy, o které zpráva je — to je T1, i když není v seznamu;
+   skript ho jen ohlásí jako WARN).
 5. **Rozpory:** nikdy neprůměruj rozporná čísla. Přednost má primární/oficiální zdroj;
-   rozpor buď krátce zmiň („podle X…, Y ale uvádí…"), nebo dej `verified: false`;
-   nepodložené drby s rozpornými verzemi vynech.
+   rozpor krátce zmiň („podle X…, Y ale uvádí…"), nebo dej `verified: false`; drby
+   s rozpornými verzemi vynech.
+6. **Výpadky:** jsou zpráva, jen když jde o jádrový nástroj, trval ≥ 2 hodiny a firma
+   potvrdila příčinu. Jinak ven.
+7. **Neohlášené funkce, úniky, „testeři objevili":** nejvýš **1 na brief**, vždy
+   `verified: false`, titulek to říká („podle zpráv", „testeři objevili").
+8. **Co není zpráva:** marketingové „těšíme se", názorové články „AI změní X", pohyby
+   akcií z jednoho zdroje, personální změny pod úrovní vedení, preprinty bez T1/T2
+   pokrytí (blog laboratoře je T1), stejné oznámení podruhé s jiným titulkem.
 
 ### 3 · Výběr
 
-- **Cíl 8–12 položek, tvrdý strop 12.** Širší rešerše (krok 1) má dodat víc kandidátů —
-  vybírej štědřeji, ale přebytek nad strop se pořád zahazuje, kurátorský výběr zůstává
-  hodnotou briefu.
-- **Zprávy: cíl aspoň 8 denně.** Rešerše (krok 1) má tomu odpovídat — pokrývej víc úhlů
-  (víc hráčů, víc témat na hráče), ne jen první nalezenou hrstku. Na výjimečně tichý den,
-  kdy ani širší rešerše 8 skutečných, ověřitelných a neopakujících se zpráv nenajde, dej
-  méně a napiš proč do redakčního deníku — nikdy nedoplňuj počet starou/nejistou/
-  aggregator-trap zprávou jen kvůli číslu (stejná zásada jako u tipů níže).
-- **Priorita:** 1. přímý užitek pro uživatele (funkce, produkty, modely k vyzkoušení;
-  přednost jádrová témata) → 2. velikost události → 3. ověřené > neověřené →
-  4. čerstvost.
-- **Vyváženost:** funkce/produkty/modely ~⅔ briefu, čistý byznys (financování, akvizice,
-  žaloby, kvartály) max ~⅓. Mimořádná byznys událost se vejde i jako highlight, ale tři
-  fundraisingy v jednom briefu ne.
-- **Dedup:** proti poslednímu týdnu briefů **a** proti `published-log.json` (30 dní). Stejná
-  událost = neopakovat; nový vývoj = update se změněným slugem. Stejná událost z více
-  zdrojů = jedna položka s více zdroji.
-- **Příběhové linky (`followsUp`):** když dnešní zpráva navazuje na dřívější díl
-  z posledních 7 dní (stejná kauza, nový vývoj), přidej položce pole `followsUp`
-  s `date`, `id` a `title` (cs+en) toho dílu — titulek **zkopíruj doslova**, ať je
-  odkaz soběstačný. Odkazuj na nejbližší předchozí díl; když nic nenavazuje, pole vynech.
+- **Cíl 6–10 položek (zprávy + tipy), tvrdý strop 12.** Pod 5 položek je WARN — smí
+  projít jen se zdůvodněním v deníku (co jsi hledal, proč nic nebylo). Nikdy nedoplňuj
+  počet starou, nejistou nebo vymyšlenou položkou.
+- **Priorita:** 1. přímý užitek pro čtenáře (funkce, modely, dostupnost, ceny; přednost
+  jádrová témata) → 2. velikost události → 3. ověřené > neověřené → 4. čerstvost.
+- **Vyváženost:** čistý byznys (financování, akvizice, žaloby, kvartály) max ~⅓; víc než
+  3 položky o jedné firmě jen v den, kdy firma opravdu dominuje; když existuje kandidát
+  mimo Anthropic/OpenAI, aspoň jeden zařaď.
+- **Zpráv ≥ tipů.** Tipy doplňují, nenahrazují.
 - **Highlight:** právě jedna zpráva — největší událost dne; při rovnosti ta, která se
-  uživatele dotkne přímo. Highlight není nikdy tip.
-- **Tichý den:** nejdřív rozšiř záběr (obecné dění, pokračování), pak doplň **tipy**
-  (viz sekce Tipy), a když je i tak ticho, přiznej to v `intro` a dej méně položek.
-  **Nikdy nepřidávej vatu a nikdy si nevymýšlej.**
+  čtenáře dotkne přímo. Highlight není nikdy tip.
+- **Příběhové linky (`followsUp`):** když dnešní zpráva navazuje na díl z posledních
+  14 dnů (stejná kauza, nový vývoj), přidej `followsUp` s `date`, `id` a doslovně
+  zkopírovaným `title` (cs + en). Odkazuj na nejbližší předchozí díl.
+- **Tichý den:** nejdřív zkontroluj, že jsi prošel všechny bloky rešerše (víkendové
+  briefy mají vzít čtvrteční a páteční dění — 7denní okno je k tomu). Pak tipy z fronty.
+  Pak radar. Když je i tak ticho, dej méně a napiš to do deníku, ne do intra.
 
 ### 4 · Psaní — stylový manuál
 
-- **Headline:** cíl ≤ 8 slov (strop 12), věcný, žádný clickbait.
-- **Intro:** krátký úvod dne — **ideálně 1 věta, nejvýš 2**; **tvrdý strop ~25 slov
-  (≈160 znaků)**. Jedna myšlenka: vede pohled, neopakuje titulky. **Žádné řetězení
-  přes pomlčky/dvojtečky ani vnořené vedlejší věty** (to je přesně to, co úvod nafoukne).
-  Klidný den s tipy poctivě přiznej („Klidný den doplňujeme tipy z posledních týdnů.").
-- **Summary zpráv: 40–50 slov v obou jazycích** (tvrdé meze 30–60). Tipy ~35 slov
-  (meze 25–55). Žádný řádek „proč je to důležité" — jen fakta.
-- **EN není překlad slovo od slova** — piš přirozenou angličtinou, ale **fakta (čísla,
-  jména, data) musí být v obou jazycích identická**.
-- **Čísla přebírej doslova ze zdroje.** Číslo, které má jen agregátor, do briefu nepatří.
-- **Datace v textu:** u událostí piš **konkrétní datum** („15. července"), ne „dnes/včera".
-  Relativní výrazy jen pro okno rešerše („za posledních 72 hodin"). **Názvy dnů v týdnu
-  nepiš vůbec** — model si mapování datum→den plete; když je den nutný, spočítej ho
-  (`date -u -d 2026-07-17 +%A`).
-- **Typografie:** uvnitř textů **nikdy ASCII uvozovka `"`** (rozbíjí JSON a je ošklivá) —
-  česky „takto“, anglicky ‘takto’ nebo bez uvozovek.
-- **Tón:** věcný, jako když ti to shrne chytrý kolega. Shrnutí zpráv neutrálně; jen tipy
-  smí lehce tykat (hlas appky).
-- **Bez kalků:** v CS textu (headline/intro/summary) nikdy „jádrové nástroje" ani
-  podobné neohrabané spojení — když je potřeba shrnout Claude/ChatGPT/Gemini/Copilot
-  jako skupinu, buď je vyjmenuj přímo, nebo napiš „hlavní nástroje". (Toto je čistě
-  o CS znění — EN „core tools" je v pořádku.)
-- **Kanonická jména zdrojů** (pole `name`): Anthropic · OpenAI · Google · DeepMind ·
-  Microsoft · Microsoft Learn · NVIDIA · Meta AI · Hugging Face · Mistral · Reuters ·
-  AP · Bloomberg · The Verge · Ars Technica · TechCrunch · Axios · Wired ·
-  The Register · MIT Technology Review · CNBC · The Information · Quartz.
-  Jiný web = přesný název média bez „The Tech…" variací.
+Každá položka má **čtyři vrstvy**: titulek (co), shrnutí (fakta), `why` (proč se tě to
+týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
 
-### 5 · Kontrola před publikací (povinná)
+- **Titulek:** cíl ≤ 9 slov (strop 12), věcný, bez clickbaitu; „průlom", „revoluce" jen
+  v citaci.
+- **Shrnutí (`summary`): 35–55 slov v obou jazycích** (tvrdé meze 30–60), tipy 25–55.
+  Jen fakta: kdo, co, kdy (**konkrétní datum**: „16. září"), kde, za kolik, pro koho.
+  Čísla doslova ze zdroje; číslo, které má jen agregátor, do briefu nepatří.
+- **Proč na tom záleží (`why`): 12–35 slov** (tvrdé meze 8–40), 1–2 věty. Odpovídá na
+  „a co z toho" — jedna z možností: co si čtenář může hned vyzkoušet (kde, v jakém plánu,
+  za kolik) · co se mění pro uživatele nástroje X · na co si dát pozor / co sledovat dál ·
+  co to znamená v širším obrazu. Konkrétně, bez hype, **neopakuje shrnutí**. Smí oslovit
+  čtenáře („Když používáš Copilot…"). U tipu je `why` návod: kde to zapnout, v jakém
+  plánu, na jaké platformě.
+- **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
+- **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
+  data) identická** v obou jazycích.
+- **Headline briefu:** ≤ 9 slov (strop 12), věcný, o hlavní zprávě.
+- **Intro:** **jedna věta, max 25 slov**, o tom, **čím den žije** (téma, ne seznam).
+  **Nikdy nepočítá položky** („Přinášíme tři zprávy a jeden tip" — skript to zamítne)
+  a nikdy se neomlouvá za tichý den. Bez řetězení přes pomlčky a dvojtečky.
+- **Datace v textu:** konkrétní datum („15. července"), ne „dnes/včera". **Názvy dnů
+  v týdnu nepiš vůbec** — když je den nutný, spočítej ho (`date -u -d 2026-09-17 +%A`)
+  a stejně napiš datum.
+- **Typografie:** uvnitř textů **nikdy ASCII uvozovka `"`** — česky „takto“, anglicky
+  ‘takto’ nebo bez uvozovek.
+- **Tón:** věcný, jako když ti to shrne chytrý kolega. Shrnutí neutrálně; `why` a tipy
+  smí lehce tykat (hlas appky).
+- **Bez kalků:** v CS textu nikdy „jádrové nástroje" — vyjmenuj je, nebo „hlavní
+  nástroje". (EN „core tools" je v pořádku.)
+- **Kanonická jména zdrojů** (pole `name`): Anthropic · OpenAI · Google · DeepMind ·
+  Microsoft · Microsoft Learn · NVIDIA · Meta · Hugging Face · Mistral · xAI · Apple ·
+  Reuters · AP · Bloomberg · The Verge · Ars Technica · TechCrunch · Axios · Wired ·
+  The Register · MIT Technology Review · CNBC · The Information · Financial Times ·
+  Wall Street Journal · NPR · Fortune · VentureBeat. Jiný web = přesný název média.
+
+### 5 · Na obzoru (`radar`)
+
+Kalendář nadcházejících termínů — to, co v2 zahazovala. **0–6 položek** (strop 8),
+seřazených podle data:
+
+- Jen **konkrétní datum do 30 dnů** (delší jen výjimečně, WARN) z T1/T2 zdroje: oznámení
+  firmy, pořadatel akce, soud, regulátor, kalendář výsledků. Bez zdroje termín neexistuje.
+- Co patří na radar: vydání a rollouty s datem, konference a keynoty (DevDay, I/O, Build,
+  Ignite, GTC, Apple event), účinnost zákonů a lhůty (EU AI Act, podpisy guvernéra),
+  soudní jednání a rozsudky, kvartální výsledky velkých AI firem, konec podpory / vypnutí
+  funkce, deadline pro migraci API.
+- `tentative: true`, když datum uvádí jen médium a pořadatel ho nepotvrdil — titulek pak
+  říká „podle zpráv".
+- **Přenášení:** termín z včerejšího briefu, který je stále v budoucnu, zkopíruj doslova
+  (aktualizuj jen změnu). Když datum uplynulo: stalo se → dnes je to zpráva; posunulo se
+  → nové datum, nebo ven. Radar se do `published-log.json` nezapisuje.
+- Texty: `title` ≤ 12 slov, `note` ≤ 30 slov (co se má stát a proč to čtenáře zajímá).
+
+### 6 · Kontrola před publikací (povinná)
 
 Po zapsání všech souborů spusť z kořene repa:
 
@@ -166,105 +203,106 @@ python3 docs/check-brief.py
 ```
 
 - **FAIL** → oprav a spusť znovu. **S FAILem se nikdy nepublikuje.**
-- **WARN** → posuď; když je odchylka záměrná a odůvodněná, smí projít.
-- Skript kontroluje: platnost JSON, právě 1 highlight (ne na tipu), kategorie, meze slov,
-  názvy dnů, ASCII uvozovky, zakázané domény ve zdrojích, paywall párování, verified se
-  ≥2 zdroji, počty tipů, **brzké opakování tipů** (<14 dní od minula = FAIL), konzistenci
-  s backlogem a published-logem (zprávy i tipy), index a mazání souborů.
+- **WARN** → posuď; když je odchylka záměrná a odůvodněná, smí projít — důvod do deníku.
+- Skript kontroluje: platnost JSON a schéma v3, právě 1 highlight (ne tip), kategorie,
+  `kind`, meze slov (titulek, shrnutí, `why`, intro), **stáří `eventDate`** (zprávy 7 dní,
+  tipy 60), názvy dnů, ASCII uvozovky, kalky, intro bez počítání, zakázané domény,
+  paywall párování, **tiery zdrojů a definici ověřeno**, tipy (počet, backlog, žádné
+  opakování), radar (data, meze, zdroje, řazení), `followsUp`, published-log, index.
+- Ladění mimo denní běh: `python3 docs/check-brief.py --file cesta.json` zkontroluje jen
+  schéma a texty (bez indexu a ledgerů).
 
-### 6 · Publikace
+### 7 · Publikace
 
-1. `data/briefs/<datum>.json` podle schématu (`sample: false`).
-2. `data/briefs/index.json`: `updated` = aktuální čas (`date -u +%Y-%m-%dT%H:%M:%SZ`) —
-   appka ho ukazuje jako „Aktualizováno"; nový záznam navrch; jen **7 nejnovějších dnů**;
-   starší **denní** soubory `YYYY-MM-DD.json` smaž. **Nikdy nemaž** `tips-backlog.json`
-   a `published-log.json` — to jsou trvalé ledgery.
+1. `data/briefs/<datum>.json` podle schématu níže (`sample: false`).
+2. `data/briefs/index.json`: `updated` = aktuální čas (`date -u +%Y-%m-%dT%H:%M:%SZ`);
+   nový záznam navrch; drž **14 nejnovějších dnů**. **Denní soubory se nemažou** — git
+   ani appka je nepotřebují mazat, starší dny prostě nejsou v indexu.
 3. `published-log.json`: připiš **všechny dnešní položky — zprávy i tipy** (`slug`,
-   `date`, jednořádkové `topic` česky; u tipu začni topic „tip: “); záznamy starší
-   ~30 dní zahoď.
+   `date`, jednořádkové `topic` česky; u tipu topic začíná „tip: “); záznamy starší
+   **60 dní** zahoď.
 4. `tips-backlog.json`: u zveřejněných tipů nastav `used`; nové kandidáty přidej;
-   prune (použité >60 dní, nepoužité >90 dní ven).
-5. Kontrola (krok 5) prošla bez FAIL → commit a push **jen obsahu**:
+   použité starší 90 dnů ven.
+5. Kontrola (krok 6) prošla bez FAIL → commit a push **jen obsahu**:
    ```bash
    git add data/briefs/
-   git commit -m "brief: <datum>"
+   git commit -F <soubor s deníkem>
    git push origin claude/daily-ai-brief-app-b1qq0p
    ```
    Při non-fast-forward: `git pull --rebase origin claude/daily-ai-brief-app-b1qq0p`
    a push zopakuj.
-6. **Redakční deník:** do těla commit message napiš 2–5 odrážek — kolik zpráv/tipů,
-   a hlavně **co jsi vyřadil a proč** (stáří, slabé zdroje, rozpor). Slouží k auditu kvality.
+6. **Redakční deník** = tělo commit message, pevná osnova (slouží k auditu kvality):
+   ```
+   brief: YYYY-MM-DD
+
+   N zpráv + M tipů + K na obzoru · highlight: <titulek> · ověřeno X/N+M
+   Rešerše: <počet dotazů> (A n · B n · C n · D n · E n · F n)
+
+   Vyřazeno:
+   - <kandidát> — <důvod: starší než 7 dní (datum) / už vyšlo <datum> / jen T3 / rozpor / neověřitelné datum>
+   - …
+
+   Bank tipů: <kolik čeká> (claude n · chatgpt n · gemini n · copilot n · other n); přidáno <n>
+   Radar: +<nové> / −<odstraněné a proč>
+   Poznámky: <odchylky od receptu a jejich zdůvodnění; WARN, které jsi pustil>
+   ```
 7. Netlify tento push záměrně nenasadí — appka vidí data z GitHubu do minuty.
 
 ---
 
-## Tipy (evergreen novinky)
+## Tipy (vyzkoušej si)
 
-Tip = užitečná, ne nutně horká funkce jádrového nástroje z **posledních ~30 dní**, kterou
-si uživatel může vyzkoušet. Žijí ve frontě `data/briefs/tips-backlog.json` (appka ho nečte).
+Tip = užitečná funkce nástroje, kterou si čtenář může vyzkoušet, z **posledních ~60 dní**.
+Není nutně horká; je nutně použitelná. Žijí ve frontě `data/briefs/tips-backlog.json`
+(appka ho nečte).
 
-- **Kolik:** zprávy mají svůj vlastní cíl (aspoň 8, viz krok 3) — tipy na ně nedoplácí.
-  **Počet tipů = 12 − počet čerstvých zpráv, strop 4** (0–8 zpráv → 4 tipy · 9 → 3 ·
-  10 → 2 · 11 → 1 · 12 → 0; tvrdý strop 12 položek celkem platí furt). Když fronta tolik
-  nezveřejněných tipů nedá, **dej méně položek** — recyklace tipů není výplň. Vzorec je
-  ale jen tolik dobrý, kolik dobrý je bank — bez aktivního hledání tipů (viz krok 1)
-  na vyšší číslo nedosáhneš.
-- **Žádné opakování:** každý zveřejněný tip se zapisuje i do `published-log.json`;
-  stejný tip smí vyjít znovu **nejdřív po 14 dnech** od posledního zveřejnění
-  (`check-brief.py`: dřív = FAIL, ≥14 dní = WARN k vědomému posouzení). Prázdná
-  fronta se neřeší recyklací — dej méně položek, přiznej to v intro a v rešerši
-  prioritně doplň bank; stav banku (kolik tipů čeká) napiš do redakčního deníku.
-- **Identita:** id `<datum>-tip-<slug>`, **vždy `category: "tools"`** (domov = filtr
-  „Nástroje"). **V titulku nikdy slovo „tip"** — titulek je normální věta.
-- **Poctivost:** v summary uveď, že nejde o dnešní novinku („Microsoft to nasadil
-  v červnu…"). Tip nikdy není highlight.
-- **⚠️ Co je vlastně ta novinka:** tip musí stát na tom, co se změnilo za
-  **posledních ~30 dní** — ne na starší funkci, kterou zdroj jen znovu popisuje.
-  **Ověř stáří samotné funkce, ne jen datum článku:** release notes, dokumentace
-  i blogy rády připomínají roky staré věci. Když je nové jen rozšíření, musí to
-  nést **titulek i první věta** („X funguje nově i v Y“), ne základní funkce.
-  Nejde-li stáří ověřit, tip ven. (Kaz z 3. 8. 2026: Agent Skills v Claude jsou
-  z podzimu 2025, nové bylo jen jejich rozšíření do Excelu a PowerPointu —
-  titulek přesto vedl starou funkcí.)
-- **Rovnoměrnost napříč nástroji:** každý tip má `theme`
-  (`claude`·`chatgpt`·`gemini`·`copilot`·`other`). Rotace se řídí **tématy**: na řadě
-  je téma nejdéle bez tipu (nikdy nezveřejněné téma první, pak od nejstaršího
-  posledního `used`). Vybírá se ale **vždy jen z tipů s `used: null`** — už použitý
-  tip není kandidát (viz Žádné opakování). V jednom briefu téma neopakuj, pokud je
-  z čeho vybírat. Za měsíc má mít každý jádrový nástroj zhruba stejně tipů.
-- **Bank:** kandidáty přidávej průběžně při každé rešerši (`used: null`), přednostně
-  z podzastoupených témat; když má některý jádrový nástroj 0 čekajících, prioritně mu
-  jednoho najdi.
-- **Publish:** ber z fronty (jen `used: null`) podle rotace témat; po zveřejnění
-  nastav `used` na dnešek a **připiš tip do `published-log.json`** (stejně jako zprávy).
-- **Ověření:** tip z oficiálních release notes / first-party zdroje = `verified: true`
-  (cituj aspoň 2 zdroje, např. release notes + oficiální blog, jinak `verified: false`).
+- **Kolik:** **0–3 denně**, z toho, co fronta dá. Žádný vzorec, žádné doplňování na číslo.
+  Tip nikdy nevytlačí zprávu (zpráv ≥ tipů).
+- **Žádné opakování:** tip, který už vyšel (je v `published-log.json`), znovu nevychází —
+  skript to zamítne. Rozšíření funkce na novou platformu je nový tip s novým slugem
+  a titulkem, který vede tím, co je nové („X funguje nově i v Y").
+- **Identita:** `kind: "tip"`, id `<datum>-tip-<slug>`, **vždy `category: "tools"`**.
+  **V titulku nikdy slovo „tip"** — titulek je normální věta.
+- **Poctivost:** v `summary` uveď, kdy funkce vyšla („Microsoft to nasadil 3. září…").
+  `eventDate` = datum vydání funkce. **Ověř stáří funkce, ne jen článku** — release notes
+  rády připomínají roky staré věci. Nejde-li stáří ověřit, tip ven.
+- **`why` u tipu = návod:** kde to najdu (menu, aplikace, platforma), v jakém plánu, pro
+  koho, případně na co si dát pozor.
+- **Témata (`theme`):** `claude` · `chatgpt` · `gemini` · `copilot` · `other`. Rotace je
+  **preference, ne podmínka**: přednost má téma nejdéle bez tipu, ale když pro něj fronta
+  nic nemá a jiné téma má dobrý kandidát, vydej ten. Prázdný slot kvůli rotaci je chyba.
+- **Bank:** kandidáty přidávej při každé rešerši (`used: null`, s `why` a `eventDate`);
+  téma s 0 čekajícími dostane v bloku D vlastní dotaz.
+- **Ověření tipu:** oficiální release notes / blog (T1) = `verified: true`. Jinak false.
 
 ---
 
-## Zdroje — tiery důvěryhodnosti
+## Zdroje — tiery a definice ověřeno
 
 | Tier | Co to je | Role |
-|------|----------|------|
-| **1 — Primární / oficiální** | anthropic.com/news · openai.com/news · blog.google · deepmind.google · microsoft.com (blog) · learn.microsoft.com (release notes) · nvidianews.nvidia.com · ai.meta.com · huggingface.co (blog) · mistral.ai · oficiální changelogy a tiskové zprávy · SEC/soudní dokumenty | Primární pravda o tom, co firma oznámila |
-| **2 — Reputabilní média** | Reuters · AP · Bloomberg · The Verge · Ars Technica · TechCrunch · Axios · The Information · Wired · CNBC · FT · WSJ · The Register · MIT Technology Review | Ověření a kontext |
-| **3 — Doplňkové** | agregátory · Hacker News · Reddit · GitHub · specializované blogy · arXiv/preprinty | Jen k **objevení** tématu — nikdy nestačí na „ověřeno" a **nikdy se necitují** |
+|---|---|---|
+| **1 — Oficiální** | vlastní web firmy, o které zpráva je (newsroom, blog, release notes, help center, changelog), vládní a soudní weby (`*.gov`, `europa.eu`, `gov.uk`), regulátoři, osobní blog šéfa firmy pro jeho vlastní prohlášení | Primární pravda o tom, co firma oznámila |
+| **2 — Média** | Reuters · AP · Bloomberg · FT · WSJ · NYT · Washington Post · The Verge · Ars Technica · TechCrunch · Axios · Wired · The Register · MIT Technology Review · CNBC · The Information · Semafor · Politico · NPR · BBC · Guardian · Fortune · VentureBeat · ZDNet · Engadget · 9to5Google · 9to5Mac · MacRumors · The Hill · Business Insider · Forbes · Nature · Science · GeekWire · SiliconANGLE · Windows Central · Android Authority · Tom's Hardware · TechRadar · PCMag · CNET · 404 Media · IEEE Spectrum · Quartz · The Next Web · BleepingComputer · SecurityWeek · NBC/CBS/ABC News · LA Times · CalMatters · STAT · SCMP · Nikkei · česká média (Seznam Zprávy, iROZHLAS, ČT24, Lupa, HN, E15, Deník N) | Ověření a kontext |
+| **3 — Ostatní** | agregátory, Hacker News, Reddit, GitHub, YouTube, sociální sítě, tiskové wire, syndikace (Yahoo Finance, MSN), lokální a oborové weby mimo seznam, arXiv | Jen k **objevení** — nepočítají se do ověření; do `sources` jen když T1/T2 URL neexistuje (skript ohlásí WARN) |
 
-- **Do `sources` jen Tier 1/2 URL** (1–3 na zprávu). Tier 3 slouží jen k objevení —
-  skutečný zdroj dohledej na T1/T2.
-- **Paywall (Bloomberg, FT, WSJ, The Information):** cituj jen v páru s volně čitelným
-  zdrojem.
-- **Nepoužívej:** neznámé blogy, obsahové farmy, sociální sítě bez potvrzení, anonymní
-  „leak" účty. (Tvrdý seznam zakázaných domén vynucuje `docs/check-brief.py`.)
+Úplné seznamy domén nese `docs/check-brief.py` (`T1_DOMAINS`, `T2_DOMAINS`) — když
+přidáváš doménu, přidej ji tam.
+
+- **`sources`: 1–3 na položku.** Pořadí: primární zdroj první (ten se sdílí).
+- **Paywall (Bloomberg, FT, WSJ, NYT, The Information, Economist):** cituj jen v páru
+  s volně čitelným zdrojem.
+- **Nepoužívej:** neznámé blogy, obsahové farmy, sociální sítě, anonymní „leak" účty.
+  (Tvrdý seznam zakázaných domén vynucuje `docs/check-brief.py`.)
 
 ### Definice `verified: true`
 
-Zpráva je ověřená, **jen** když ji potvrzují **≥2 nezávislé zdroje**, z toho aspoň jeden
-T1/T2. Ideál: oficiální oznámení (T1) + médium (T2), nebo 2× nezávislé médium.
-„Nezávislé" = nejde o dva přepisy téže tiskové zprávy.
+Zpráva je ověřená, když ji potvrzuje **aspoň jeden oficiální zdroj (T1)**, nebo
+**aspoň dva různé mediální zdroje (T2)**. Oficiální oznámení je samo o sobě důkazem, že
+firma věc oznámila — druhý web k němu nic nepřidává, **nehledej ho jen kvůli počtu**.
+Ideál zůstává T1 + T2 (oznámení + kontext), ale není podmínkou.
 
-`verified: false` nastav při: jediný zdroj · pouze T3 · preprint · výhledová zpráva /
-únik / rumor · nevyřešený rozpor.
+`verified: false` vždy při: jen T3 zdroje · jediný T2 zdroj · preprint bez T1 · únik,
+rumor, neohlášená funkce · nevyřešený rozpor · termín „podle zpráv".
 
 ---
 
@@ -276,32 +314,47 @@ T1/T2. Ideál: oficiální oznámení (T1) + médium (T2), nebo 2× nezávislé 
 {
   "date": "YYYY-MM-DD",
   "sample": false,
-  "headline": { "cs": "...", "en": "..." },   // ≤ 8 slov, věcný
-  "intro":    { "cs": "...", "en": "..." },    // krátký úvod, ideálně 1 věta (max ~25 slov)
+  "headline": { "cs": "...", "en": "..." },   // ≤ 9 slov (strop 12), o hlavní zprávě
+  "intro":    { "cs": "...", "en": "..." },    // 1 věta ≤ 25 slov, čím den žije; nepočítá položky
   "items": [
     {
-      "id": "YYYY-MM-DD-kratky-slug",          // tipy: YYYY-MM-DD-tip-<slug>
+      "id": "YYYY-MM-DD-kratky-slug",          // tipy: YYYY-MM-DD-tip-<slug>; update: ...-update
+      "kind": "news",                          // news · tip
       "category": "models",                    // models·research·business·tools·policy·opensource
       "highlight": true,                        // právě u JEDNÉ zprávy, jinak vynech
-      "verified": true,
-      "title":   { "cs": "...", "en": "..." },
-      "summary": { "cs": "...", "en": "..." },  // zprávy 40–50 slov, tipy ~35
-      "sources": [ { "name": "The Verge", "url": "https://www.theverge.com/..." } ],
-      "followsUp": {                            // volitelné — odkaz na starší díl (posledních 7 dní)
+      "verified": true,                         // T1 ≥ 1 nebo T2 ≥ 2, viz definice
+      "eventDate": "YYYY-MM-DD",               // datum primární události (tip: vydání funkce)
+      "title":   { "cs": "...", "en": "..." },  // ≤ 9 slov
+      "summary": { "cs": "...", "en": "..." },  // zprávy 35–55 slov, tipy 25–55; jen fakta
+      "why":     { "cs": "...", "en": "..." },  // 12–35 slov: proč se to čtenáře týká / jak to vyzkoušet
+      "sources": [ { "name": "OpenAI", "url": "https://openai.com/..." } ],   // 1–3, primární první
+      "followsUp": {                            // volitelné — starší díl z posledních 14 dnů
         "date": "YYYY-MM-DD", "id": "…", "title": { "cs": "…", "en": "…" }
       }
+    }
+  ],
+  "radar": [                                    // volitelné, 0–6, seřazeno podle data
+    {
+      "date": "YYYY-MM-DD",                     // konkrétní datum do 30 dnů
+      "title": { "cs": "...", "en": "..." },    // ≤ 12 slov
+      "note":  { "cs": "...", "en": "..." },    // ≤ 30 slov: co se stane a proč to sledovat
+      "sources": [ { "name": "OpenAI", "url": "https://openai.com/..." } ],   // 1–2
+      "tentative": false                        // true = datum zatím jen podle médií
     }
   ]
 }
 ```
+
+Kompletní ukázka: `docs/examples/brief-v3-example.json`
+(`python3 docs/check-brief.py --file docs/examples/brief-v3-example.json`).
 
 ### `data/briefs/index.json`
 
 ```jsonc
 {
   "updated": "ISO-8601 timestamp",              // čas generování; appka: „Aktualizováno"
-  "briefs": [                                   // max 7, nejnovější první
-    { "date": "YYYY-MM-DD", "headline": { "cs": "...", "en": "..." }, "itemCount": 5 }
+  "briefs": [                                   // max 14, nejnovější první
+    { "date": "YYYY-MM-DD", "headline": { "cs": "...", "en": "..." }, "itemCount": 8 }
   ]
 }
 ```
@@ -311,11 +364,11 @@ T1/T2. Ideál: oficiální oznámení (T1) + médium (T2), nebo 2× nezávislé 
 ```jsonc
 {
   "published": [
-    { "slug": "2026-07-16-china-ai-companion-rules", "date": "2026-07-16",
-      "topic": "čínská pravidla pro polidštěné AI služby účinná" },
-    { "slug": "2026-07-16-tip-claude-cowork-web-mobile", "date": "2026-07-16",
-      "topic": "tip: Claude Cowork i na webu a mobilu" }
-  ]                                             // zprávy i tipy; drž ~30 dní, starší zahoď
+    { "slug": "2026-09-18-claude-cowork-chat-merge", "date": "2026-09-18",
+      "topic": "Anthropic sloučil Cowork s chatem, přidal Docs a Slides" },
+    { "slug": "2026-09-18-tip-chatgpt-word-integration", "date": "2026-09-18",
+      "topic": "tip: ChatGPT jako doplněk ve Wordu" }
+  ]                                             // zprávy i tipy; drž 60 dní, starší zahoď
 }
 ```
 
@@ -325,14 +378,16 @@ T1/T2. Ideál: oficiální oznámení (T1) + médium (T2), nebo 2× nezávislé 
 {
   "tips": [
     {
-      "slug": "tip-claude-cowork-web-mobile",   // stabilní klíč bez data
+      "slug": "tip-chatgpt-word-integration",   // stabilní klíč bez data
       "category": "tools",                       // tip má VŽDY tools
-      "theme": "claude",                         // claude·chatgpt·gemini·copilot·other
+      "theme": "chatgpt",                        // claude·chatgpt·gemini·copilot·other
       "verified": true,
+      "eventDate": "2026-09-17",                 // kdy funkce vyšla
       "title":   { "cs": "...", "en": "..." },
-      "summary": { "cs": "...", "en": "..." },   // ~35 slov, poctivé rámování
-      "sources": [ { "name": "Anthropic", "url": "https://..." } ],
-      "added": "2026-07-16",                     // kdy objeveno
+      "summary": { "cs": "...", "en": "..." },   // 25–55 slov, poctivé rámování
+      "why":     { "cs": "...", "en": "..." },   // návod: kde, v jakém plánu, pro koho
+      "sources": [ { "name": "OpenAI", "url": "https://help.openai.com/..." } ],
+      "added": "2026-09-18",                     // kdy objeveno
       "used":  null                              // null = fronta, "YYYY-MM-DD" = zveřejněno
     }
   ]
@@ -343,10 +398,14 @@ T1/T2. Ideál: oficiální oznámení (T1) + médium (T2), nebo 2× nezávislé 
 
 ## Guardrails (souhrn)
 
-- **Nikdy si nevymýšlej fakta, čísla ani URL.** Vše musí být dohledatelné ve výsledcích
-  dnešní rešerše.
-- Datum primární události ověřuj vždy (krok 2) — agregátory recyklují staré zprávy.
+- **Nikdy si nevymýšlej fakta, čísla, data ani URL.** Vše musí být dohledatelné ve
+  výsledcích dnešní rešerše.
+- Datum primární události ověřuj vždy (krok 2) — agregátory recyklují staré zprávy;
+  ale nezveřejněná zpráva z minulého týdne není recyklace.
 - Drž se schémat 1:1. Kontrola `docs/check-brief.py` musí projít bez FAIL.
+- Nepřidávej si pravidla, která tu nejsou (kratší okno, „výpadky se nepočítají",
+  zálohování mazaných souborů…). Když ti něco chybí, napiš to do deníku — recept se ladí
+  tady, ne v hlavě jedné session.
 - Když rešerše, kontrola nebo push selže, jasně ohlas co a proč — a **nikdy nezanechávej
   rozbitý JSON** v repu.
 
@@ -354,5 +413,17 @@ T1/T2. Ideál: oficiální oznámení (T1) + médium (T2), nebo 2× nezávislé 
 
 - Jediný běh **1× denně v 03:00 UTC** (05:00 CEST v létě / 04:00 CET v zimě) — po konci
   amerického pracovního dne, takže ranní brief nese i čerstvé US novinky.
-- Záložní kontrola byla 25. 7. 2026 zrušena (za 9 dní provozu ani jednou nezasáhla).
-  Když běh selže, brief chybí viditelně v appce — dogeneruje se na pokyn v session.
+- Víkendové a pondělní briefy jsou z podstaty tenčí na čerstvé oznámení; 7denní okno
+  a radar je mají dorovnat. Když běh selže, brief chybí viditelně v appce — dogeneruje se
+  na pokyn v session.
+
+## Změny proti v2 (19. 9. 2026)
+
+- Okno čerstvosti 72 h → **7 dní**; dedup 30 → **60 dní**; soubory se **nemažou**;
+  index 7 → **14 dnů**.
+- Nová pole **`why`**, **`eventDate`**, **`kind`** u položek a sekce **`radar`** u briefu.
+- Cíl 8–12 („aspoň 8 zpráv") → **6–10**, pod 5 WARN; tipy **0–3** bez vzorce, okno 60 dnů,
+  rotace jen preference, žádné opakování.
+- **Ověřeno = T1 ≥ 1 nebo T2 ≥ 2**; skript zná seznamy domén; neznámá doména = WARN.
+- Rešerše podle **plánu A–F, 20–30 dotazů**; intro bez počítání položek; deník s pevnou
+  osnovou; explicitní pravidla pro výpadky, úniky a co není zpráva.
