@@ -4,17 +4,29 @@ import {
   useContext,
   useEffect,
   useMemo,
+  useRef,
   useState,
   type ReactNode,
 } from 'react';
-import { flushVoteQueue, sendVote, type Vote } from '../lib/feedback';
+import {
+  fetchCounts,
+  flushVoteQueue,
+  sendVote,
+  type CountsMap,
+  type Vote,
+  type VoteCounts,
+} from '../lib/feedback';
 
 // The reader's own thumbs, kept on the device so the buttons show the choice
-// and a second tap retracts it; every change is also reported to the site.
+// and a second tap retracts it; every change is also reported to the site,
+// which answers with everyone's counts for that id.
 const STORAGE_KEY = 'aibrief.votes';
+const NONE: VoteCounts = { up: 0, down: 0 };
 
 interface VotesContextValue {
   voteFor: (id: string) => Vote | null;
+  /** Everyone's counts for an id (zeros until the site has answered). */
+  countFor: (id: string) => VoteCounts;
   /** Set a vote; the same vote again retracts it. */
   vote: (id: string, next: Vote) => void;
 }
@@ -46,33 +58,63 @@ function persist(map: Record<string, Vote>) {
   }
 }
 
+function adjust(counts: CountsMap, id: string, before: Vote | null, after: Vote | null): CountsMap {
+  const c = { ...(counts[id] ?? NONE) };
+  if (before) c[before] = Math.max(0, c[before] - 1);
+  if (after) c[after] += 1;
+  return { ...counts, [id]: c };
+}
+
 export function VotesProvider({ children }: { children: ReactNode }) {
   const [map, setMap] = useState<Record<string, Vote>>(loadInitial);
+  const [counts, setCounts] = useState<CountsMap>({});
+  // Latest map for the vote handler without making it depend on state.
+  const mapRef = useRef(map);
 
-  // Votes made offline go out once the network is back.
+  // Everyone's counts on launch and when the network returns; votes made
+  // offline go out at the same moments.
   useEffect(() => {
-    void flushVoteQueue();
-    const onOnline = () => void flushVoteQueue();
-    window.addEventListener('online', onOnline);
-    return () => window.removeEventListener('online', onOnline);
+    let alive = true;
+    const sync = () => {
+      void flushVoteQueue().then(() =>
+        fetchCounts()
+          .then((c) => {
+            if (alive) setCounts(c);
+          })
+          .catch(() => {}),
+      );
+    };
+    sync();
+    window.addEventListener('online', sync);
+    return () => {
+      alive = false;
+      window.removeEventListener('online', sync);
+    };
   }, []);
 
   const vote = useCallback((id: string, next: Vote) => {
-    setMap((prev) => {
-      const before = prev[id] ?? null;
-      const after: Vote | null = before === next ? null : next;
-      const map = { ...prev };
-      if (after) map[id] = after;
-      else delete map[id];
-      persist(map);
-      void sendVote({ id, vote: after, prev: before });
-      return map;
+    const before = mapRef.current[id] ?? null;
+    const after: Vote | null = before === next ? null : next;
+    const nextMap = { ...mapRef.current };
+    if (after) nextMap[id] = after;
+    else delete nextMap[id];
+    mapRef.current = nextMap;
+    persist(nextMap);
+    setMap(nextMap);
+    // Optimistic count, then the site's authoritative answer.
+    setCounts((prev) => adjust(prev, id, before, after));
+    void sendVote({ id, vote: after, prev: before }).then((server) => {
+      if (server) setCounts((prev) => ({ ...prev, [id]: server }));
     });
   }, []);
 
   const value = useMemo<VotesContextValue>(
-    () => ({ voteFor: (id: string) => map[id] ?? null, vote }),
-    [map, vote],
+    () => ({
+      voteFor: (id: string) => map[id] ?? null,
+      countFor: (id: string) => counts[id] ?? NONE,
+      vote,
+    }),
+    [map, counts, vote],
   );
 
   return <VotesContext.Provider value={value}>{children}</VotesContext.Provider>;

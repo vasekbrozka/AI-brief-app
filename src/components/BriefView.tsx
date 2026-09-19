@@ -5,6 +5,8 @@ import { shareBrief } from '../lib/share';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 import { useStreak } from '../providers/StreakProvider';
+import { useVotes } from '../providers/VotesProvider';
+import { VoteButtons } from './VoteButtons';
 import { BriefItemCard } from './BriefItemCard';
 import { DailyQuiz } from './DailyQuiz';
 import { TryList } from './TryList';
@@ -18,6 +20,9 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
   const { lang, t, hideRead, mutedCategories, gamification } = useSettings();
   const { isRead } = useRead();
   const { currentStreak, markFinished } = useStreak();
+  // One thumb for the whole day, counted under "<date>-brief".
+  const dayId = `${brief.date}-brief`;
+  const dayVote = useVotes().voteFor(dayId);
 
   // Muted categories drop out of the brief — but the day's top story always
   // stays, so muting never silently swallows the single highlight.
@@ -52,6 +57,12 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
         <WeekReviewSection entries={brief.weekInReview} />
       )}
       {brief.radar && brief.radar.length > 0 && <RadarSection radar={brief.radar} />}
+      <div className="panel rate">
+        <span className="rate__label">
+          {dayVote ? t.voteThanks : isToday ? t.rateTodayLabel : t.rateBriefLabel}
+        </span>
+        <VoteButtons id={dayId} />
+      </div>
       <div className="share-brief-wrap">
         <button type="button" className="share-brief" onClick={() => void shareBrief(brief, lang)}>
           <Icon name="share" size={16} />

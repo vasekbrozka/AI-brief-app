@@ -213,13 +213,23 @@ def feedback_summary() -> str | None:
     items = fb.get("items") if isinstance(fb, dict) else None
     if not isinstance(items, dict) or not items:
         return None
-    ups = sum(int(v.get("up", 0)) for v in items.values() if isinstance(v, dict))
-    downs = sum(int(v.get("down", 0)) for v in items.values() if isinstance(v, dict))
-    best = max(items.items(), key=lambda kv: (int(kv[1].get("up", 0)) - int(kv[1].get("down", 0)), int(kv[1].get("up", 0))))
-    worst = min(items.items(), key=lambda kv: (int(kv[1].get("up", 0)) - int(kv[1].get("down", 0)), -int(kv[1].get("down", 0))))
-    return (f"Zpětná vazba ({fb.get('days', '?')} dní): 👍 {ups} · 👎 {downs} · "
-            f"nejvíc 👍: {best[0]} ({best[1].get('up', 0)}/{best[1].get('down', 0)}) · "
-            f"nejvíc 👎: {worst[0]} ({worst[1].get('up', 0)}/{worst[1].get('down', 0)})")
+    clean = {k: v for k, v in items.items() if isinstance(v, dict)}
+    days_ = {k: v for k, v in clean.items() if k.endswith("-brief")}      # hodnocení celého dne
+    stories = {k: v for k, v in clean.items() if not k.endswith("-brief")}
+    ups = sum(int(v.get("up", 0)) for v in stories.values())
+    downs = sum(int(v.get("down", 0)) for v in stories.values())
+    line = f"Zpětná vazba ({fb.get('days', '?')} dní): 👍 {ups} · 👎 {downs}"
+    if stories:
+        score = lambda kv: int(kv[1].get("up", 0)) - int(kv[1].get("down", 0))
+        best = max(stories.items(), key=lambda kv: (score(kv), int(kv[1].get("up", 0))))
+        worst = min(stories.items(), key=lambda kv: (score(kv), -int(kv[1].get("down", 0))))
+        line += (f" · nejvíc 👍: {best[0]} ({best[1].get('up', 0)}/{best[1].get('down', 0)})"
+                 f" · nejvíc 👎: {worst[0]} ({worst[1].get('up', 0)}/{worst[1].get('down', 0)})")
+    if days_:
+        d_up = sum(int(v.get("up", 0)) for v in days_.values())
+        d_down = sum(int(v.get("down", 0)) for v in days_.values())
+        line += f" · dny: 👍 {d_up} · 👎 {d_down}"
+    return line
 
 
 def stats(days: int) -> int:

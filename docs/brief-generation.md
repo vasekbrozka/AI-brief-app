@@ -308,7 +308,7 @@ python3 docs/check-brief.py
    Bank tipů: <kolik čeká> (claude n · chatgpt n · gemini n · copilot n · other n); přidáno <n>
    Radar: +<nové> / −<odstraněné a proč> · Slovníček: +<n> · Týden v AI: <n položek | ne>
    Průměr za 14 dnů: <položek/den ze `--stats`>
-   Zpětná vazba (30 dní): 👍 n · 👎 n · nejvíc 👍: <id> · nejvíc 👎: <id>
+   Zpětná vazba (30 dní): 👍 n · 👎 n · nejvíc 👍: <id> · nejvíc 👎: <id> · dny: 👍 n · 👎 n
    Poznámky: <odchylky od receptu a jejich zdůvodnění; WARN, které jsi pustil>
    ```
 7. Netlify tento push záměrně nenasadí — appka vidí data z GitHubu do minuty.
@@ -346,14 +346,18 @@ checklist, který si čtenář odškrtává. Proto u každého záznamu drž `ti
 
 ## Zpětná vazba čtenářů (`data/briefs/feedback.json`)
 
-U každé novinky má čtenář palec nahoru/dolů. Ukládají se jen počítadla u id položky
-(žádný uživatel, zařízení ani IP). Funkce na Netlify je každou noc ve 2:30 UTC zapisuje
-do repa jako `data/briefs/feedback.json` (posledních 30 dní):
+U každé novinky má čtenář palec nahoru/dolů a na konci briefu jeden palec pro celý den
+(id `<datum>-brief`). Ukládají se jen počítadla u id (žádný uživatel, zařízení ani IP);
+appka je ukazuje všem čtenářům. Funkce na Netlify je každou noc ve 2:30 UTC zapisuje do
+repa jako `data/briefs/feedback.json` (posledních 30 dní):
 
 ```jsonc
 {
   "updated": "ISO-8601", "days": 30,
-  "items": { "2026-09-18-claude-cowork-chat-merge-docs-slides-design": { "up": 4, "down": 0 } }
+  "items": {
+    "2026-09-18-claude-cowork-chat-merge-docs-slides-design": { "up": 4, "down": 0 },
+    "2026-09-18-brief": { "up": 2, "down": 0 }             // hodnocení celého dne
+  }
 }
 ```
 
@@ -364,6 +368,9 @@ Jak s tím pracovat — **měkký signál, ne pravidlo**:
   Při rovnosti kandidátů dej přednost druhu, který čtenáři oceňují.
 - Položka s **≥ 2 palci dolů a žádným nahoru** je varování pro svůj druh, ne důvod téma
   zamlčet, když je důležité. Nikdy nehoň hlasy clickbaitem ani přeháněním.
+- **Hodnocení dnů** (`<datum>-brief`) sleduj jako trend: den s převahou 👎 porovnej v deníku
+  s tím, co bylo jinak (málo položek, samý byznys, žádný tip, žádný radar) — a v dalších
+  dnech to napravuj. Není to důvod měnit pravidla receptu z jednoho dne.
 - Když soubor chybí nebo je prázdný, nic se nemění.
 - Do deníku napiš řádek `Zpětná vazba (30 dní): 👍 n · 👎 n · nejvíc 👍: <id> · nejvíc 👎: <id>`
   (`--stats` to vypíše) a jednou větou, jestli jsi podle toho něco zvolil jinak.

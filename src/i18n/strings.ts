@@ -72,6 +72,9 @@ export interface UIStrings {
   voteThanks: string;
   voteUp: string;
   voteDown: string;
+  /** Thumbs for the whole day at the end of the brief. */
+  rateTodayLabel: string;
+  rateBriefLabel: string;
   sampleBadge: string;
   sampleNote: string;
 
@@ -211,6 +214,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
     voteThanks: 'Díky, počítá se.',
     voteUp: 'Přínosné',
     voteDown: 'Nepřínosné',
+    rateTodayLabel: 'Jak se ti dnešní přehled líbil?',
+    rateBriefLabel: 'Jak se ti tento přehled líbil?',
     sampleBadge: 'Ukázka',
     sampleNote:
       'Toto je ukázkový obsah pro fázi 1. Skutečný denní přehled bude automaticky sestavovat AI ve fázi 2.',
@@ -263,7 +268,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       '„Vyzkoušej si“ — checklist funkcí z posledních týdnů, odškrtávej, co jsi zkusil',
       '„Pojem dne“ ze slovníčku',
       'Sdílení celého přehledu jedním ťuknutím',
-      'Palec nahoru nebo dolů u každé novinky — anonymně, jen počítadlo; generátor podle toho ladí výběr',
+      'Palec nahoru nebo dolů u každé novinky i u celého dne — anonymně, jen počítadlo, a vidíš, jak hlasují ostatní; generátor podle toho ladí výběr',
     ],
     releaseImproved: [
       'Archiv drží dva týdny místo jednoho a odkazy „Navazuje na“ tak fungují déle',
@@ -376,6 +381,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
     voteThanks: 'Thanks, noted.',
     voteUp: 'Useful',
     voteDown: 'Not useful',
+    rateTodayLabel: "How was today's brief?",
+    rateBriefLabel: 'How was this brief?',
     sampleBadge: 'Sample',
     sampleNote:
       'This is sample content for Phase 1. The real daily brief will be assembled automatically by AI in Phase 2.',
@@ -428,7 +435,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       '"Try it yourself" — a checklist of recent features; tick off what you have tried',
       '"Term of the day" from the glossary',
       'Share the whole brief with one tap',
-      'Thumbs up or down on every story — anonymous, just a counter; the generator tunes its picks by it',
+      'Thumbs up or down on every story and on the whole day — anonymous, just a counter, and you see how others voted; the generator tunes its picks by it',
     ],
     releaseImproved: [
       'The archive keeps two weeks instead of one, so "Follows up on" links work longer',

@@ -23,8 +23,8 @@ z GitHubu.
 - 🗓️ **Týden v AI** — nedělní ohlédnutí za událostmi týdne s odkazy do archivu
 - 🧠 **Po dočtení je co dělat** — Kvíz dne (tři otázky z dnešního přehledu), checklist
   „Vyzkoušej si" s funkcemi z posledních týdnů a Pojem dne ze slovníčku
-- 👍 **Zpětná vazba** — palec nahoru/dolů u novinky; anonymní počítadla, která generátor
-  čte jako signál, co je přínosné
+- 👍 **Zpětná vazba** — palec nahoru/dolů u každé novinky i u celého dne, s počty hlasů
+  od všech čtenářů; anonymní počítadla, která generátor čte jako signál, co je přínosné
 - ✔️ **Přečteno**, uložení na později, sdílení novinky i celého přehledu, série čtení,
   vysvětlivky pojmů (slovníček roste s obsahem), ranní upozornění s titulkem dne
 
