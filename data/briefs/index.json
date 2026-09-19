@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-18T03:10:00Z",
+  "updated": "2026-09-19T03:10:00Z",
   "briefs": [
+    {
+      "date": "2026-09-19",
+      "headline": {
+        "cs": "OpenAI spustilo Astra for Law pro právníky",
+        "en": "OpenAI launches Astra for Law for lawyers"
+      },
+      "itemCount": 2
+    },
     {
       "date": "2026-09-18",
       "headline": {
@@ -48,14 +56,6 @@
         "en": "Amodei calls to slow AI, OpenAI joins in"
       },
       "itemCount": 2
-    },
-    {
-      "date": "2026-09-12",
-      "headline": {
-        "cs": "Anthropic chystá IPO, Nvidia zvažuje vstup",
-        "en": "Anthropic plans IPO, Nvidia weighs anchor investment"
-      },
-      "itemCount": 4
     }
   ]
 }

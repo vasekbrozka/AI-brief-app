@@ -1,6 +1,16 @@
 {
   "published": [
     {
+      "slug": "2026-09-19-openai-astra-for-law",
+      "date": "2026-09-19",
+      "topic": "OpenAI 17.9. spustilo Astra for Law — GPT-6 Astra + index 230M+ právních dokumentů (99,9% US judikatury), 26 partnerských pluginů (Thomson Reuters, Harvey, iManage), Vals AI 54/200"
+    },
+    {
+      "slug": "2026-09-19-claude-biomolecular-modeling-optimization",
+      "date": "2026-09-19",
+      "topic": "Anthropic 17.9.: Claude sám za <4 týdny optimalizoval 36 open-source biologických modelů (protein/genomika), 4x zrychlení, GPU jádra FlashPairformer, kód na GitHubu (Apache 2.0)"
+    },
+    {
       "slug": "2026-09-18-claude-cowork-chat-merge-docs-slides-design",
       "date": "2026-09-18",
       "topic": "Anthropic 16.9. sloučil Claude Cowork s běžným chatem do jedné appky, přidal Claude Docs a Claude Slides, Claude Design teď funguje přímo v konverzaci (beta, Pro/Max nejdřív)"
@@ -674,27 +684,7 @@
       "slug": "2026-08-20-tip-copilot-excel-autosave-off",
       "date": "2026-08-20",
       "topic": "tip: Copilot v Excelu funguje i s vypnutým automatickým ukládáním"
-    },
-    {
-      "slug": "2026-08-19-chatgpt-for-teens",
-      "date": "2026-08-19",
-      "topic": "OpenAI spustilo 18. 8. ChatGPT pro teenagery (13-17 let) — automatické přepnutí do bezpečnějšího režimu, blok romantického tónu, přísnější ochrana u sebepoškozování/násilí, Study Mode"
-    },
-    {
-      "slug": "2026-08-19-tip-gemini-rambler-voice",
-      "date": "2026-08-19",
-      "topic": "tip: hlasový vstup Rambler (Made by Google) zvládá souvětí bez konce, Live Transcribe umí ASL přes kameru Pixelu"
-    },
-    {
-      "slug": "2026-08-19-tip-chatgpt-effort-slider",
-      "date": "2026-08-19",
-      "topic": "tip: ChatGPT má posuvník úsilí pro GPT-5.6 Sol (Plus/Pro), nový výchozí model pro free/Go"
-    },
-    {
-      "slug": "2026-08-19-tip-meta-muse-glimmer",
-      "date": "2026-08-19",
-      "topic": "tip: Meta vydala Muse Glimmer, otevřený model odvozený z Muse Sparku běžící lokálně na notebooku"
     }
   ],
-  "updated": "2026-09-18T03:10:00Z"
+  "updated": "2026-09-19T03:10:00Z"
 }

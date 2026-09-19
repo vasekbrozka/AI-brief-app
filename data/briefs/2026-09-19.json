@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-19",
+  "sample": false,
+  "headline": {
+    "cs": "OpenAI spustilo Astra for Law pro právníky",
+    "en": "OpenAI launches Astra for Law for lawyers"
+  },
+  "intro": {
+    "cs": "OpenAI spustilo právnickou verzi GPT-6 s indexem přes 230 milionů dokumentů. Přinášíme dvě zprávy.",
+    "en": "OpenAI launched a legal edition of GPT-6 with an index of over 230 million documents. We bring two news items."
+  },
+  "items": [
+    {
+      "id": "2026-09-19-openai-astra-for-law",
+      "category": "business",
+      "highlight": true,
+      "verified": true,
+      "title": {
+        "cs": "OpenAI spustilo Astra for Law, právnickou verzi GPT-6 Astra",
+        "en": "OpenAI launches Astra for Law, a legal edition of GPT-6 Astra"
+      },
+      "summary": {
+        "cs": "OpenAI 17. září představilo Astra for Law — GPT-6 Astra doplněné o vyhledávací index přes 230 milionů právních dokumentů (přes 99,9 % publikované americké judikatury) a nástroje pro právní analýzu. Spouští se s 26 partnerskými pluginy od firem jako Thomson Reuters, Harvey nebo iManage. V testu Vals AI uspělo v 54 % ze 200 otázek.",
+        "en": "OpenAI introduced Astra for Law on September 17 — GPT-6 Astra paired with a search index covering more than 230 million legal documents, over 99.9% of published US case law. It launches with 26 partner plugins from firms like Thomson Reuters, Harvey, and iManage. On Vals AI's benchmark, it correctly answered 54% of 200 legal research questions."
+      },
+      "sources": [
+        { "name": "SiliconANGLE", "url": "https://siliconangle.com/2026/09/17/openai-launches-astra-for-law-a-gpt-6-configuration-for-legal-research/" },
+        { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-targets-legal-tech-market-with-astra-for-law/" }
+      ]
+    },
+    {
+      "id": "2026-09-19-claude-biomolecular-modeling-optimization",
+      "category": "research",
+      "verified": true,
+      "title": {
+        "cs": "Claude sám zrychlil desítky biologických AI modelů čtyřikrát",
+        "en": "Claude sped up dozens of biology AI models four-fold, on its own"
+      },
+      "summary": {
+        "cs": "Anthropic 17. září popsal, jak Claude za necelé čtyři týdny optimalizoval 36 otevřených biologických modelů pro predikci struktur bílkovin a genomiku — v průměru je zrychlil čtyřikrát díky vlastním GPU jádrům jako FlashPairformer. Úlohu, co dřív potřebovala 2500 hodin na H100, teď model zvládne za den na jedné kartě H200. Kód vydal na GitHubu pod licencí Apache 2.0.",
+        "en": "Anthropic described on September 17 how Claude spent under four weeks optimizing 36 open-source biology models for protein-structure prediction and genomics — speeding them up 4x on average using custom GPU kernels like FlashPairformer. A task that once needed 2,500 H100 hours now runs in a day on one H200 card. The code was released on GitHub under Apache 2.0."
+      },
+      "sources": [
+        { "name": "Anthropic", "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling" },
+        { "name": "Unite.AI", "url": "https://www.unite.ai/anthropic-reports-claude-optimized-30-plus-open-source-biomolecular-models/" }
+      ]
+    }
+  ]
+}
