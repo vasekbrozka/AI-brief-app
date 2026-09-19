@@ -29,6 +29,16 @@ export interface UIStrings {
   savedEmpty: string;
   savedEmptyBody: string;
   threadLabel: string;
+  /** Label above the "why it matters" block on a story card. */
+  whyLabel: string;
+  /** Same block on a tip card — there it reads as a how-to. */
+  howToTryLabel: string;
+  /** Badge marking a tip (try-it-yourself feature) in the brief. */
+  tipBadge: string;
+  /** Section title for the upcoming-dates list. */
+  radarTitle: string;
+  /** Tag on a radar row whose date is reported but not confirmed. */
+  radarTentative: string;
   sampleBadge: string;
   sampleNote: string;
 
@@ -137,12 +147,17 @@ export const STRINGS: Record<Lang, UIStrings> = {
     savedEmpty: 'Zatím nic uloženého',
     savedEmptyBody: 'Táhni novinku doprava a nech si ji na později.',
     threadLabel: 'Navazuje na',
+    whyLabel: 'Proč na tom záleží',
+    howToTryLabel: 'Jak to vyzkoušet',
+    tipBadge: 'Vyzkoušej',
+    radarTitle: 'Na obzoru',
+    radarTentative: 'podle zpráv',
     sampleBadge: 'Ukázka',
     sampleNote:
       'Toto je ukázkový obsah pro fázi 1. Skutečný denní přehled bude automaticky sestavovat AI ve fázi 2.',
 
     archiveTitle: 'Archiv',
-    archiveSubtitle: 'Poslední týden',
+    archiveSubtitle: 'Poslední dva týdny',
     archiveEmpty: 'Archiv je zatím prázdný.',
 
     settingsTitle: 'Nastavení',
@@ -166,7 +181,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     ],
     installShareHint: 'Funguje pouze v Safari na iPhonu nebo iPadu.',
     howItWorksParagraphs: [
-      'Každé ráno, ještě než vstaneš, projde AIspresso dění ve světě AI za posledních 24 hodin. Čerpá přitom z pevného okruhu důvěryhodných zdrojů — oficiálních blogů AI firem a předních médií, přes jejich RSS kanály a cílené vyhledávání. Z desítek zpráv vybere jen těch pár, které opravdu stojí za tvůj čas. Každou porovná s více nezávislými zdroji. Co ověřit nejde, poctivě označí. Když se zrovna nic zajímavého neděje, uvidíš méně obsahu. Výsledek na tebe čeká u ranní kávy.',
+      'Každé ráno, ještě než vstaneš, projde AIspresso dění ve světě AI za poslední dny. Čerpá přitom z pevného okruhu důvěryhodných zdrojů — oficiálních blogů AI firem a předních médií. Z desítek zpráv vybere ty, které opravdu stojí za tvůj čas, u každé ověří datum i zdroj a napíše, proč se tě týká. Co ověřit nejde, poctivě označí. K tomu přidá funkce, které si můžeš hned vyzkoušet, a termíny, které se blíží. Výsledek na tebe čeká u ranní kávy.',
     ],
     sectionSources: 'Zdroje',
     sourcesOfficialLabel: 'Oficiální',
@@ -180,16 +195,17 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImprovedLabel: 'Vylepšeno',
     releaseFixedLabel: 'Opraveno',
     releaseAdded: [
-      'Ulož si novinku na později — táhni ji doprava; uložené pak najdeš v Archivu',
+      '„Proč na tom záleží“ — u každé novinky věta dvě o tom, co z ní plyne pro tebe',
+      '„Na obzoru“ — termíny, které se blíží: vydání, konference, lhůty a soudy',
+      'Tipy k vyzkoušení mají štítek Vyzkoušej a návod, kde funkci najdeš',
+      'Datum události u každé novinky, ať víš, jestli jde o včerejšek nebo minulý týden',
     ],
     releaseImproved: [
-      'Přehlednější úvod dne — kratší a lehčí, bez rámečku navíc',
-      'Nastavení zeštíhlela — nápověda, zdroje i novinky se přesunuly do „O aplikaci“',
-      'Jednodušší kategorie — jedno místo na jejich skrývání',
+      'Archiv drží dva týdny místo jednoho a odkazy „Navazuje na“ tak fungují déle',
+      'Přísnější ověřování: Ověřeno znamená oficiální zdroj, nebo dvě nezávislá média',
+      'Sdílení novinky přibalí i větu, proč na ní záleží',
     ],
-    releaseFixed: [
-      'Archiv ukáže všechny články i po přečtení — stav přečtení se v něm neuplatňuje (série si dokončení pamatuje dál)',
-    ],
+    releaseFixed: [],
     aboutTagline: 'Novinky ze světa AI',
     versionLabel: 'Verze',
     modelLabel: 'Shrnutí připravuje',
@@ -261,12 +277,17 @@ export const STRINGS: Record<Lang, UIStrings> = {
     savedEmpty: 'Nothing saved yet',
     savedEmptyBody: 'Swipe a story right to keep it for later.',
     threadLabel: 'Follows up on',
+    whyLabel: 'Why it matters',
+    howToTryLabel: 'How to try it',
+    tipBadge: 'Try it',
+    radarTitle: 'On the radar',
+    radarTentative: 'reported',
     sampleBadge: 'Sample',
     sampleNote:
       'This is sample content for Phase 1. The real daily brief will be assembled automatically by AI in Phase 2.',
 
     archiveTitle: 'Archive',
-    archiveSubtitle: 'The past week',
+    archiveSubtitle: 'The past two weeks',
     archiveEmpty: 'The archive is still empty.',
 
     settingsTitle: 'Settings',
@@ -290,7 +311,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     ],
     installShareHint: 'Works only in Safari on iPhone or iPad.',
     howItWorksParagraphs: [
-      "Every morning, before you get up, AIspresso reviews the last 24 hours in the world of AI. It draws on a fixed circle of trusted sources — official AI company blogs and leading media outlets, via their RSS feeds and targeted search. Out of dozens of stories, it picks only the few that are truly worth your time. It cross-checks each one against multiple independent sources. Whatever can't be verified, it labels honestly. When nothing much is happening, you'll simply see less. The result is waiting for you with your morning coffee.",
+      "Every morning, before you get up, AIspresso reviews the past few days in the world of AI. It draws on a fixed circle of trusted sources — official AI company blogs and leading media outlets. Out of dozens of stories it picks the ones truly worth your time, checks the date and the source of each, and says why it matters to you. Whatever can't be verified, it labels honestly. On top it adds features you can try right away and the dates coming up. The result is waiting for you with your morning coffee.",
     ],
     sectionSources: 'Sources',
     sourcesOfficialLabel: 'Official',
@@ -304,16 +325,17 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImprovedLabel: 'Improved',
     releaseFixedLabel: 'Fixed',
     releaseAdded: [
-      'Save a story for later — swipe it right; find them later in the Archive',
+      '"Why it matters" — a sentence or two under every story on what it means for you',
+      '"On the radar" — dates coming up: launches, conferences, deadlines and hearings',
+      'Tips you can try carry a Try it badge and a note on where to find the feature',
+      'The event date on every story, so you know whether it happened yesterday or last week',
     ],
     releaseImproved: [
-      "A lighter, shorter lead-in to each day's brief",
-      'Slimmer Settings — help, sources and what\'s new now live under "About"',
-      "Simpler categories — one place to hide the ones you don't want",
+      'The archive keeps two weeks instead of one, so "Follows up on" links work longer',
+      'Stricter verification: Verified means an official source, or two independent outlets',
+      'Sharing a story now includes the why-it-matters line',
     ],
-    releaseFixed: [
-      "The archive now shows every story even after you've read it — read state no longer hides archived articles (your streak still remembers)",
-    ],
+    releaseFixed: [],
     aboutTagline: 'The world of AI',
     versionLabel: 'Version',
     modelLabel: 'Summaries by',

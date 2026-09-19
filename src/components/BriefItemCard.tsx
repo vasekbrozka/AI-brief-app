@@ -1,12 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
-import type { BriefItem, ThreadRef } from '../lib/types';
+import { isTip, type BriefItem, type ThreadRef } from '../lib/types';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 import { useSaved } from '../providers/SavedProvider';
 import { useNav } from '../providers/NavProvider';
 import { shareItem } from '../lib/share';
 import { toast } from '../lib/toast';
-import { capitalizeFirst, daysAgo, formatShortDate } from '../lib/format';
+import { capitalizeFirst, daysAgo, formatDayMonth, formatShortDate } from '../lib/format';
+import { ARCHIVE_DAYS } from '../lib/archive';
 import { CategoryChip } from './CategoryChip';
 import { SourceList } from './SourceList';
 import { VerifiedBadge } from './VerifiedBadge';
@@ -22,7 +23,7 @@ function ThreadLink({ thread }: { thread: ThreadRef }) {
   const { lang, t } = useSettings();
   const { openBriefDate } = useNav();
   const age = daysAgo(thread.date);
-  const reachable = age >= 0 && age < 7; // matches the 7-day archive window
+  const reachable = age >= 0 && age < ARCHIVE_DAYS;
   const date = capitalizeFirst(formatShortDate(thread.date, lang));
 
   const inner = (
@@ -50,6 +51,8 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
   // read-toggle — so past days always show every story.
   const read = plain ? false : isRead(item.id);
   const saved = isSaved(item.id);
+  const tip = isTip(item);
+  const why = item.why?.[lang];
 
   function handleSave() {
     const wasSaved = saved;
@@ -93,13 +96,19 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
       }}
     >
       <article
-        className={`item${showTop ? ' item--highlight' : ''}${read ? ' item--read' : ''}${
-          exiting ? ' item--exiting' : ''
-        }`}
+        className={`item${showTop ? ' item--highlight' : ''}${tip ? ' item--tip' : ''}${
+          read ? ' item--read' : ''
+        }${exiting ? ' item--exiting' : ''}`}
       >
         <div className="item__meta">
           <CategoryChip id={item.category} />
           {showTop && <span className="item__top">{t.topStory}</span>}
+          {tip && (
+            <span className="item__kind">
+              <Icon name="sparkle" size={12} />
+              {t.tipBadge}
+            </span>
+          )}
           <div className="item__meta-right">
             {read && <span className="item__readtag">{t.read}</span>}
             <button
@@ -138,8 +147,21 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
         <p className="item__summary">
           <GlossaryText text={item.summary[lang]} />
         </p>
+        {why && (
+          <div className="item__why">
+            <span className="item__why-label">{tip ? t.howToTryLabel : t.whyLabel}</span>
+            <p className="item__why-text">
+              <GlossaryText text={why} />
+            </p>
+          </div>
+        )}
         {item.followsUp && <ThreadLink thread={item.followsUp} />}
         <div className="item__footer">
+          {item.eventDate && (
+            <span className="item__date" title={capitalizeFirst(formatShortDate(item.eventDate, lang))}>
+              {formatDayMonth(item.eventDate, lang)}
+            </span>
+          )}
           <SourceList sources={item.sources} />
           {item.verified && <VerifiedBadge />}
         </div>

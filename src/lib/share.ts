@@ -5,15 +5,18 @@ const APP_URL = 'https://aispresso.app';
 
 /**
  * Plain-text share payload. Kept deliberately simple so it survives intact
- * across share targets (Messages, Notes, Mail, LinkedIn…): the headline, a
- * link to the primary source, and the AIspresso attribution + app link.
+ * across share targets (Messages, Notes, Mail, LinkedIn…): the headline, the
+ * "why it matters" line when the brief has one, a link to the primary source,
+ * and the AIspresso attribution + app link.
  */
 function buildShareText(item: BriefItem, lang: Lang): string {
   const title = item.title[lang];
+  const why = item.why?.[lang];
   const primary = item.sources[0];
   const sourceLabel = lang === 'cs' ? 'Zdroj' : 'Source';
   const attribution = lang === 'cs' ? 'přes AIspresso' : 'via AIspresso';
   const parts = [title];
+  if (why) parts.push('', why);
   if (primary) parts.push('', `${sourceLabel}: ${primary.name} — ${primary.url}`);
   parts.push('', `${attribution} ☕️ ${APP_URL}`);
   return parts.join('\n');

@@ -5,6 +5,7 @@ import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 import { useStreak } from '../providers/StreakProvider';
 import { BriefItemCard } from './BriefItemCard';
+import { RadarSection } from './RadarSection';
 import { WeekStreak } from './WeekStreak';
 import { Icon } from './Icon';
 
@@ -37,6 +38,10 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
     if (isToday && gamification && done) markFinished();
   }, [isToday, gamification, done, markFinished]);
 
+  // Upcoming dates sit below the stories in both Today and the archive; they
+  // are not part of the read/unread flow, so they never affect the streak.
+  const radar = brief.radar && brief.radar.length > 0 ? <RadarSection radar={brief.radar} /> : null;
+
   return (
     <div className="brief">
       {brief.intro?.[lang] && <p className="lede">{brief.intro[lang]}</p>}
@@ -45,13 +50,16 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
         // Archive is a read-only browse: every story is shown, the read state
         // is ignored (never hide or dim), so a past day never collapses to
         // "all caught up". The streak is unaffected — it's driven by Today.
-        shown.length > 0 && (
-          <div className="items">
-            {shown.map((item) => (
-              <BriefItemCard key={item.id} item={item} plain />
-            ))}
-          </div>
-        )
+        <>
+          {shown.length > 0 && (
+            <div className="items">
+              {shown.map((item) => (
+                <BriefItemCard key={item.id} item={item} plain />
+              ))}
+            </div>
+          )}
+          {radar}
+        </>
       ) : (
         <>
           {unread.length > 0 && (
@@ -81,6 +89,8 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
               </div>
             </>
           )}
+
+          {radar}
 
           {showCard && (
             <>

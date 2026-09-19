@@ -23,6 +23,22 @@ export function formatShortDate(dateStr: string, lang: Lang): string {
   }).format(parse(dateStr));
 }
 
+/** Compact numeric day and month for a card footer, e.g. "16. 9." (cs) / "Sep 16" (en). */
+export function formatDayMonth(dateStr: string, lang: Lang): string {
+  const d = parse(dateStr);
+  if (lang === 'cs') return `${d.getDate()}. ${d.getMonth() + 1}.`;
+  return new Intl.DateTimeFormat(LOCALE.en, { month: 'short', day: 'numeric' }).format(d);
+}
+
+/** Calendar-tile parts for the radar: the day number and a short month name. */
+export function calendarTile(dateStr: string, lang: Lang): { day: string; month: string } {
+  const d = parse(dateStr);
+  const month = new Intl.DateTimeFormat(LOCALE[lang], { month: 'short' })
+    .format(d)
+    .replace(/\.$/, '');
+  return { day: String(d.getDate()), month };
+}
+
 export function formatWeekday(dateStr: string, lang: Lang): string {
   return new Intl.DateTimeFormat(LOCALE[lang], { weekday: 'long' }).format(parse(dateStr));
 }

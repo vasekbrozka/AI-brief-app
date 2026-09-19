@@ -22,7 +22,7 @@ interface SavedContextValue {
 const SavedContext = createContext<SavedContextValue | null>(null);
 
 // Store the full item snapshot, not just its id: a saved story must keep
-// rendering even after its day scrolls out of the 7-day archive window.
+// rendering even after its day scrolls out of the archive window.
 function loadInitial(): BriefItem[] {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);

@@ -1,5 +1,6 @@
-// Core data model for the Daily AI Brief.
-// In Phase 2 the daily AI crawl will generate JSON files that match these types.
+// Core data model for the daily brief. The generator (docs/brief-generation.md)
+// writes JSON files that match these types; fields marked v3 arrived with the
+// September 2026 recipe redesign and are optional so older briefs still render.
 
 export type Lang = 'cs' | 'en';
 
@@ -36,13 +37,22 @@ export type CategoryId =
   | 'policy'
   | 'opensource';
 
+/** "news" is a story; "tip" is a try-it-yourself feature the reader can use. */
+export type ItemKind = 'news' | 'tip';
+
 export interface BriefItem {
   id: string;
+  /** v3 — defaults to "news"; tips also carry "-tip-" in their id. */
+  kind?: ItemKind;
   category: CategoryId;
   title: Localized;
   summary: Localized;
+  /** v3 — "why it matters": one or two sentences on what this means for the reader. */
+  why?: Localized;
+  /** v3 — ISO date of the underlying event (for a tip: when the feature shipped). */
+  eventDate?: string;
   sources: Source[];
-  /** True when the story has been cross-checked across multiple sources. */
+  /** True when the story is backed by an official source or two independent outlets. */
   verified: boolean;
   /** Marks the single most important story of the day. */
   highlight?: boolean;
@@ -50,13 +60,27 @@ export interface BriefItem {
   followsUp?: ThreadRef;
 }
 
+/** v3 — an upcoming dated event worth watching ("Na obzoru"). */
+export interface RadarItem {
+  /** ISO date of the event, today or in the future. */
+  date: string;
+  title: Localized;
+  /** What happens and why it is worth watching. */
+  note: Localized;
+  sources: Source[];
+  /** True when the date is reported by media but not confirmed by the organiser. */
+  tentative?: boolean;
+}
+
 export interface Brief {
   /** ISO date, e.g. "2026-07-14". */
   date: string;
   headline: Localized;
-  /** One-paragraph "gist of the day". */
+  /** One-sentence "what the day is about". */
   intro: Localized;
   items: BriefItem[];
+  /** v3 — upcoming dates, sorted ascending. */
+  radar?: RadarItem[];
   /** Phase 1 marker: the content is illustrative sample data, not a real crawl. */
   sample?: boolean;
 }
@@ -71,4 +95,9 @@ export interface BriefIndexEntry {
 export interface BriefIndex {
   updated: string;
   briefs: BriefIndexEntry[];
+}
+
+/** Tips are flagged explicitly since v3; older briefs only mark them in the id. */
+export function isTip(item: BriefItem): boolean {
+  return item.kind === 'tip' || item.id.includes('-tip-');
 }

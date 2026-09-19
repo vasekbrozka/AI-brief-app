@@ -2024,3 +2024,173 @@ button.thread:active .thread__title {
     transform: scale(0.96);
   }
 }
+
+/* ---- v3 content: tip badge, event date, "why it matters", radar ------------
+   Added with the September 2026 recipe redesign (docs/brief-generation.md).
+   Every block is optional in the data, so older briefs render unchanged. */
+
+/* "Try it" badge next to the category chip on a tip card. */
+.item__kind {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--c-green);
+}
+
+/* Event date on the sources line — quiet, tabular, then a dot before "Sources". */
+.item__date {
+  flex: 0 0 auto;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
+}
+
+.item__date::after {
+  content: '·';
+  margin-left: 7px;
+}
+
+/* "Why it matters" — a short answer to "so what", set apart by a hairline rule
+   rather than a second surface, so a highlight card keeps its single tint. */
+.item__why {
+  margin-top: 11px;
+  padding: 1px 0 1px 12px;
+  border-left: 2.5px solid var(--accent-soft-border);
+}
+
+.item__why-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.item--tip .item__why {
+  border-left-color: var(--c-green-bg);
+}
+
+.item--tip .item__why-label {
+  color: var(--c-green);
+}
+
+.item__why-text {
+  margin-top: 3px;
+  font-size: 14.5px;
+  line-height: 1.48;
+  color: var(--text);
+}
+
+.item--read .item__why {
+  border-left-color: var(--hairline);
+}
+
+/* Section label shared by content sections below the stories (mirrors the
+   read/streak dividers so the feed stays one system). */
+.section-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 26px 2px 14px;
+  color: var(--text-tertiary);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.section-divider::before,
+.section-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--separator);
+}
+
+/* "On the radar" — one card, one row per upcoming date, calendar tile left. */
+.radar__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.radar__row {
+  display: flex;
+  gap: 14px;
+  padding: 14px 16px;
+}
+
+.radar__row + .radar__row {
+  border-top: 1px solid var(--hairline);
+}
+
+.radar__when {
+  flex: 0 0 46px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px 0 6px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft-bg);
+  color: var(--accent);
+}
+
+.radar__day {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.radar__month {
+  margin-top: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.radar__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.radar__title {
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.radar__tentative {
+  margin-left: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  vertical-align: 1px;
+}
+
+.radar__note {
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.radar__body .sources {
+  margin-top: 8px;
+}
