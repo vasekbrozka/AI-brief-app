@@ -1,6 +1,6 @@
 import { useEffect, useMemo } from 'react';
 import type { Brief } from '../lib/types';
-import { capitalizeFirst, daysAgo, formatShortDate, hiddenCountLabel } from '../lib/format';
+import { hiddenCountLabel } from '../lib/format';
 import { shareBrief } from '../lib/share';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
@@ -73,19 +73,8 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
     </>
   );
 
-  // Today shows the newest brief there is; when that is older than today the
-  // morning run is late (or failed), and the reader should know rather than
-  // mistake yesterday for today.
-  const age = daysAgo(brief.date);
-  const stale = isToday && (age > 1 || (age === 1 && new Date().getHours() >= 6));
-
   return (
     <div className="brief">
-      {stale && (
-        <p className="stale-note" role="status">
-          <strong>{t.staleTitle}</strong> {t.staleBody} {capitalizeFirst(formatShortDate(brief.date, lang))}.
-        </p>
-      )}
 
       {!isToday ? (
         // Archive is a read-only browse: every story is shown, the read state

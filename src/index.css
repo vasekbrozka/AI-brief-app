@@ -2271,23 +2271,6 @@ button.week__row:active {
   opacity: 0.7;
 }
 
-/* Today is showing an older brief — say so above the lede. */
-.stale-note {
-  margin: 6px 0 10px;
-  padding: 10px 14px;
-  border-radius: var(--radius-sm);
-  background: var(--accent-soft-bg);
-  border: 1px solid var(--accent-soft-border);
-  font-size: 13.5px;
-  line-height: 1.45;
-  color: var(--text-secondary);
-}
-
-.stale-note strong {
-  color: var(--text);
-  font-weight: 600;
-}
-
 /* ---- After the reading: quiz, try-it checklist, term of the day ------------
    Shared card surface for the sections that give the reader something to do
    once the stories are read. */
