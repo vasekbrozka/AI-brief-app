@@ -31,7 +31,7 @@ export function TryRow({ tip, compact = false }: { tip: TipEntry; compact?: bool
         type="button"
         className={`try__check${tried ? ' is-on' : ''}`}
         aria-pressed={tried}
-        aria-label={t.tryDone}
+        aria-label={tried ? t.markNotTried : t.markTried}
         onClick={() => {
           haptic();
           toggle(tip.slug);

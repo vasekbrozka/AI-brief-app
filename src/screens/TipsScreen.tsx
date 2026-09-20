@@ -32,7 +32,9 @@ export function TipsScreen({ onBack }: { onBack: () => void }) {
       <p className="try__hint try__hint--screen">{t.tryHint}</p>
       {status === 'loading' && <ArchiveSkeleton />}
       {status === 'error' && <ErrorState onRetry={reload} />}
-      {status === 'ready' && tips.length === 0 && <EmptyState title={t.tryTitle} body={t.tryEmpty} />}
+      {status === 'ready' && tips.length === 0 && (
+        <EmptyState title={t.tryEmptyTitle} body={t.tryEmptyBody} />
+      )}
       {untried.length > 0 && (
         <ul className="panel try__list try__list--screen">
           {untried.map((tip) => (

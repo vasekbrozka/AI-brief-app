@@ -1,5 +1,9 @@
 import type { Lang } from '../lib/types';
 
+// UI copy, CS primary / EN secondary. Voice: the content is factual; the
+// coffee metaphor gives the product its character in a few chosen places
+// (the time-of-day title, the streak, a couple of endings) and stays out of
+// navigation, settings, system states and accessibility labels.
 export interface UIStrings {
   appName: string;
   tagline: string;
@@ -9,67 +13,71 @@ export interface UIStrings {
   tabArchive: string;
   tabSettings: string;
 
-  // Today — time-of-day "brew freshness" title
+  // Brief screen — time-of-day title (a deliberate running joke: the shot cools)
   brewMorning: string;
   brewAfternoon: string;
   brewEvening: string;
   todayEmptyTitle: string;
   todayEmptyBody: string;
+  /** Segmented switch on the Brief screen: today's brief / the week's top shots. */
+  viewToday: string;
+  viewWeek: string;
+  weekSubtitle: string;
+  weekEmpty: string;
 
-  // Brief / items
+  // Story card
   verified: string;
   topStory: string;
   sourcesLabel: string;
   shareLabel: string;
   saveLabel: string;
   removeLabel: string;
+  /** Accessibility labels for the icon buttons on a card. */
+  shareStoryLabel: string;
+  saveStoryLabel: string;
+  removeSavedLabel: string;
   savedToast: string;
   unsavedToast: string;
   savedTitle: string;
   savedEmpty: string;
   savedEmptyBody: string;
   threadLabel: string;
-  /** Label above the "why it matters" block on a story card. */
   whyLabel: string;
-  /** Same block on a tip card — there it reads as a how-to. */
   howToTryLabel: string;
-  /** Badge marking a tip (try-it-yourself feature) in the brief. */
   tipBadge: string;
-  /** Section title for the upcoming-dates list. */
   radarTitle: string;
-  /** Tag on a radar row whose date is reported but not confirmed. */
   radarTentative: string;
-  /** Section title for the Sunday week-in-review list. */
-  weekTitle: string;
-  /** Button under the brief that shares the whole day as text. */
   shareBriefLabel: string;
   shareBriefArchiveLabel: string;
-
-  // After the reading: try-it checklist, term of the day
-  tryTitle: string;
-  tryHint: string;
-  tryAll: string;
-  tryDone: string;
-  tryAllDone: string;
-  tryEmpty: string;
-  tryTriedSection: string;
-  termTitle: string;
-  termNext: string;
-  /** Thumbs row under a story: "Useful?" → "Thanks". */
   voteLabel: string;
   voteThanks: string;
   voteUp: string;
   voteDown: string;
-  /** Thumbs for the whole day at the end of the brief. */
   rateTodayLabel: string;
   rateBriefLabel: string;
   sampleBadge: string;
   sampleNote: string;
 
+  // Things to try (checklist) and the glossary term
+  tryTitle: string;
+  tryHint: string;
+  tryAll: string;
+  tryDone: string;
+  tryAllDone: string;
+  tryEmptyTitle: string;
+  tryEmptyBody: string;
+  tryTriedSection: string;
+  markTried: string;
+  markNotTried: string;
+  termTitle: string;
+  termNext: string;
+  showAnotherTerm: string;
+
   // Archive
   archiveTitle: string;
   archiveSubtitle: string;
   archiveEmpty: string;
+  archiveEmptyBody: string;
 
   // Settings
   settingsTitle: string;
@@ -120,15 +128,14 @@ export interface UIStrings {
   read: string;
   markRead: string;
   markUnread: string;
-  /** Read cards fold to their title; the title toggles the body. */
   unfoldLabel: string;
   foldLabel: string;
-  /** Section label shown above the reading-streak card in the brief. */
   streakSectionLabel: string;
-  /** Streak-tier titles for the finished-brief ritual, mildest first. */
+  /** Streak-tier titles, mildest first: 1–2 · 3–6 · 7–13 · 14–29 · 30+ days. */
   streakLevels: string[];
   streakStart: string;
   streakTodayLeft: string;
+  streakDoneToday: string;
   sectionReading: string;
   hideReadLabel: string;
   hideReadHint: string;
@@ -151,87 +158,101 @@ export interface UIStrings {
 export const STRINGS: Record<Lang, UIStrings> = {
   cs: {
     appName: 'AIspresso',
-    tagline: 'Novinky ze světa AI — stručně a ověřeně.',
+    tagline: 'Novinky ze světa AI, stručně a ověřeně.',
 
-    tabToday: 'Dnes',
+    tabToday: 'Brief',
     tabArchive: 'Archiv',
     tabSettings: 'Nastavení',
 
     brewMorning: 'Ranní shot',
     brewAfternoon: 'Odpolední sedlina',
     brewEvening: 'Večerní výplach',
-    todayEmptyTitle: 'Zatím žádný brief',
-    todayEmptyBody: 'Dnešní přehled se ještě připravuje. Zkus to prosím později.',
+    todayEmptyTitle: 'Dnešní brief se připravuje',
+    todayEmptyBody: 'Ještě není hotový. Zkus to za chvíli.',
+    viewToday: 'Dnes',
+    viewWeek: 'Top shots tento týden',
+    weekSubtitle: 'To nejdůležitější z uplynulého týdne',
+    weekEmpty: 'Zatím tu nic není. Top shots se objeví, jakmile bude z čeho vybírat.',
 
     verified: 'Ověřeno',
-    topStory: 'Shot dne',
+    topStory: 'Hlavní zpráva',
     sourcesLabel: 'Zdroje',
     shareLabel: 'Sdílet',
     saveLabel: 'Uložit',
     removeLabel: 'Odebrat',
-    savedToast: 'Uloženo ☕️',
-    unsavedToast: 'Odebráno',
+    shareStoryLabel: 'Sdílet novinku',
+    saveStoryLabel: 'Uložit novinku',
+    removeSavedLabel: 'Odebrat z uložených',
+    savedToast: 'Uloženo',
+    unsavedToast: 'Odebráno z uložených',
     savedTitle: 'Uložené',
     savedEmpty: 'Zatím nic uloženého',
-    savedEmptyBody: 'Táhni novinku doprava a nech si ji na později.',
+    savedEmptyBody: 'Ulož si novinky, ke kterým se chceš vrátit.',
     threadLabel: 'Navazuje na',
-    whyLabel: 'Kofein v tom',
-    howToTryLabel: 'Jak si to nalít',
-    tipBadge: 'Ochutnej',
-    radarTitle: 'Ještě se louhuje',
+    whyLabel: 'Proč zbystřit',
+    howToTryLabel: 'Jak na to',
+    tipBadge: 'Vyzkoušej',
+    radarTitle: 'Co se chystá',
     radarTentative: 'podle zpráv',
-    weekTitle: 'Týdenní lungo',
-    shareBriefLabel: 'Nalít kafe i ostatním',
-    shareBriefArchiveLabel: 'Nalít i ostatním',
-
-    tryTitle: 'Ochutnávka',
-    tryHint: 'Novinky z posledních týdnů, které stojí za doušek. Odškrtni, co už jsi ochutnal.',
-    tryAll: 'Celý lístek',
-    tryDone: 'Ochutnáno',
-    tryAllDone: 'Všechno ochutnáno ☕️',
-    tryEmpty: 'Lístek je zatím prázdný, barista teprve praží.',
-    tryTriedSection: 'Ochutnáno',
-    termTitle: 'Zrnko dne',
-    termNext: 'Další zrnko',
-    voteLabel: 'Chutnalo?',
-    voteThanks: 'Díky, barista si to zapíše.',
-    voteUp: 'Chutnalo',
-    voteDown: 'Nechutnalo',
-    rateTodayLabel: 'Jak ti dnes chutnalo?',
-    rateBriefLabel: 'Jak ti tenhle shot chutnal?',
+    shareBriefLabel: 'Poslat dnešní shot',
+    shareBriefArchiveLabel: 'Poslat dál',
+    voteLabel: 'Pomohlo ti to?',
+    voteThanks: 'Díky za hodnocení.',
+    voteUp: 'Označit jako užitečné',
+    voteDown: 'Označit jako neužitečné',
+    rateTodayLabel: 'Jak ti chutnal dnešní shot?',
+    rateBriefLabel: 'Jak ti chutnal tenhle shot?',
     sampleBadge: 'Ukázka',
-    sampleNote:
-      'Toto je ukázkový obsah pro fázi 1. Skutečný denní přehled bude automaticky sestavovat AI ve fázi 2.',
+    sampleNote: 'Toto je ukázkový obsah. Skutečný denní brief sestavuje AI každé ráno.',
+
+    tryTitle: 'Na vyzkoušení',
+    tryHint:
+      'Funkce a novinky z posledních 30 dnů, které stojí za vyzkoušení. Označ si, co už máš za sebou.',
+    tryAll: 'Všechny tipy',
+    tryDone: 'Vyzkoušeno',
+    tryAllDone: 'Všechno vyzkoušeno ☕️',
+    tryEmptyTitle: 'Zatím tu nic není',
+    tryEmptyBody: 'Nové tipy přidáme, jakmile budou stát za vyzkoušení.',
+    tryTriedSection: 'Vyzkoušeno',
+    markTried: 'Označit jako vyzkoušené',
+    markNotTried: 'Označit jako nevyzkoušené',
+    termTitle: 'Zrnko dne',
+    termNext: 'Další pojem',
+    showAnotherTerm: 'Zobrazit další pojem',
 
     archiveTitle: 'Archiv',
-    archiveSubtitle: 'Poslední dva týdny',
-    archiveEmpty: 'Archiv je zatím prázdný.',
+    archiveSubtitle: 'Posledních 14 dní',
+    archiveEmpty: 'Archiv je zatím prázdný',
+    archiveEmptyBody: 'Starší briefy se tu objeví postupně.',
 
     settingsTitle: 'Nastavení',
     sectionLanguage: 'Jazyk',
     sectionAppearance: 'Vzhled',
     sectionCategories: 'Kategorie',
-    categoriesShownHint: 'Vypnuté kategorie se v přehledu nezobrazí. Hlavní zpráva zůstává vždy.',
+    categoriesShownHint:
+      'Vypnuté kategorie se v přehledu nezobrazí. Hlavní zpráva zůstane viditelná vždy.',
     sectionInstall: 'Přidat na plochu',
     sectionHowItWorks: 'Jak to funguje',
     sectionAbout: 'O aplikaci',
-    aboutRowHint: 'Jak to funguje, zdroje, novinky a podpora',
+    aboutRowHint: 'Jak AIspresso funguje, odkud čerpá a co je nové',
     themeAuto: 'Automaticky',
     themeLight: 'Světlý',
     themeDark: 'Tmavý',
     installIntro:
-      'Přidej si appku na plochu iPhonu, ať se otevírá na celou obrazovku jako běžná aplikace.',
+      'Přidej si AIspresso na plochu iPhonu, ať se otevírá na celou obrazovku jako běžná aplikace.',
     installSteps: [
-      'V Safari klepni na ikonu Sdílet (čtvereček se šipkou nahoru).',
-      'Vyber „Přidat na plochu“.',
-      'Potvrď „Přidat“ — hotovo, ikona je na ploše.',
+      'Otevři AIspresso v Safari.',
+      'Klepni na Sdílet.',
+      'Vyber Přidat na plochu.',
+      'Potvrď tlačítkem Přidat.',
     ],
-    installShareHint: 'Funguje pouze v Safari na iPhonu nebo iPadu.',
+    installShareHint: 'Funguje v Safari na iPhonu nebo iPadu.',
     howItWorksParagraphs: [
-      'Každé ráno, ještě než vstaneš, projde AIspresso dění ve světě AI za poslední dny. Čerpá přitom z pevného okruhu důvěryhodných zdrojů — oficiálních blogů AI firem a předních médií. Z desítek zpráv vybere ty, které opravdu stojí za tvůj čas, u každé ověří datum i zdroj a napíše, proč se tě týká. Co ověřit nejde, poctivě označí. K tomu přidá funkce, které si můžeš hned vyzkoušet, a termíny, které se blíží. Palcem nahoru nebo dolů mu řekneš, co bylo přínosné — ukládá se jen počítadlo, nic o tobě. Výsledek na tebe čeká u ranní kávy.',
+      'AIspresso jednou denně vybírá podstatné novinky ze světa AI a shrnuje je do krátkého briefu. Každá novinka odkazuje na použité zdroje a uvádí datum události, pokud je známé. Shrnutí vznikají s pomocí AI a mohou obsahovat chyby. U informací, podle kterých se potřebuješ rozhodnout, vždy otevři původní zdroj.',
+      'Palcem nahoru nebo dolů dáváš vědět, co bylo užitečné. Ukládá se jen počítadlo hlasů, nic o tobě.',
     ],
     sectionSources: 'Zdroje',
-    sourcesOfficialLabel: 'Oficiální',
+    sourcesOfficialLabel: 'Oficiální zdroje',
     sourcesOfficialList:
       'Anthropic · OpenAI · Google & DeepMind · Microsoft · NVIDIA · Meta AI · Hugging Face · Mistral',
     sourcesMediaLabel: 'Média',
@@ -242,161 +263,168 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImprovedLabel: 'Vylepšeno',
     releaseFixedLabel: 'Opraveno',
     releaseAdded: [
-      '„Proč na tom záleží“ — u každé novinky věta dvě o tom, co z ní plyne pro tebe',
-      '„Na obzoru“ — termíny, které se blíží: vydání, konference, lhůty a soudy',
-      'Tipy k vyzkoušení mají štítek Vyzkoušej a návod, kde funkci najdeš',
-      'Datum události u každé novinky, ať víš, jestli jde o včerejšek nebo minulý týden',
-      '„Týden v AI“ — nedělní ohlédnutí za událostmi týdne s odkazy do archivu',
-      '„Vyzkoušej si“ — checklist funkcí z posledních týdnů, odškrtávej, co jsi zkusil',
-      '„Pojem dne“ ze slovníčku',
-      'Sdílení celého přehledu jedním ťuknutím',
-      'Palec nahoru nebo dolů u každé novinky i u celého dne — anonymně, jen počítadlo, a vidíš, jak hlasují ostatní; generátor podle toho ladí výběr',
+      'Proč zbystřit: u každé novinky věta dvě o tom, co z ní plyne pro tebe',
+      'Top shots tento týden: přepínač na obrazovce Brief s hlavními zprávami posledních sedmi dnů',
+      'Co se chystá: termíny, které se blíží, s datem a zdrojem',
+      'Na vyzkoušení: seznam funkcí z posledních týdnů s odškrtáváním, dá se vypnout v Nastavení',
+      'Zrnko dne ze slovníčku',
+      'Hodnocení novinek i celého dne palcem nahoru nebo dolů, s počty hlasů od všech čtenářů',
+      'Datum události u každé novinky a štítek Vyzkoušej u praktických tipů',
+      'Poslat dnešní shot jedním klepnutím',
     ],
     releaseImproved: [
-      'Den v sérii čtení se počítá po první přečtené novince, ne až po všech',
-      'Archiv drží dva týdny místo jednoho a odkazy „Navazuje na“ tak fungují déle',
-      'Přísnější ověřování: Ověřeno znamená oficiální zdroj, nebo dvě nezávislá média',
-      'Přečtená novinka se sbalí na titulek a zůstane na místě; ťuknutím ji zase rozbalíš',
-      'Tlačítka a odškrtávání reagují na ťuknutí (stisk, odskočení, zatřesení u špatné odpovědi)',
-      'Úvodní odstavec pod nadpisem je pryč, přehled začíná rovnou kartami',
-      'Sdílení novinky přibalí i větu, proč na ní záleží',
+      'Přečtená novinka se sbalí na titulek a zůstane na místě, klepnutím ji zase rozbalíš',
+      'Den v sérii čtení se počítá po první přečtené novince, série je pod novinkami bez karty',
+      'Archiv drží 14 dní a odkazy Navazuje na fungují déle',
+      'Ověřeno znamená oficiální zdroj nebo dvě nezávislá média',
+      'Tlačítka a odškrtávání reagují na klepnutí',
       'Ranní upozornění nese titulek dne a počet novinek',
     ],
     releaseFixed: [],
     aboutTagline: 'Novinky ze světa AI',
     versionLabel: 'Verze',
     modelLabel: 'Shrnutí připravuje',
-    modelName: 'Claude (Anthropic)',
+    modelName: 'Claude od Anthropic',
     signature: 'Autor: Václav Brožka',
     supportText:
-      'AIspresso je a zůstane zdarma, bez reklam. Jestli ti ranní shot dělá dny hezčí, můžeš mi symbolicky koupit kafe.',
-    supportCta: 'Buy me a coffee',
+      'AIspresso je zdarma a bez reklam a chci, aby takové zůstalo. Pokud se stalo součástí tvého rána, můžeš mi symbolicky koupit kávu.',
+    supportCta: 'Koupit mi kávu',
 
     loading: 'Načítám…',
-    errorTitle: 'Něco se nepovedlo',
-    errorBody: 'Brief se nepodařilo načíst. Zkontroluj připojení a zkus to znovu.',
+    errorTitle: 'Brief se nenačetl',
+    errorBody: 'Zkontroluj připojení a zkus to znovu.',
     retry: 'Zkusit znovu',
-    updatedLabel: 'Aktualizováno',
+    updatedLabel: 'Aktualizováno v',
     back: 'Zpět',
 
     read: 'Vypito',
     markRead: 'Označit jako přečtené',
     markUnread: 'Označit jako nepřečtené',
-    unfoldLabel: 'Rozbalit',
-    foldLabel: 'Sbalit',
+    unfoldLabel: 'Rozbalit novinku',
+    foldLabel: 'Sbalit novinku',
     streakSectionLabel: 'Série čtení',
-    streakLevels: [
-      'Jen na skok',
-      'Lehká závislost',
-      'Třese se, ale čte',
-      'Bez dávky nefunguje',
-      'Tlak 180. Přehled 100 %.',
-    ],
-    streakStart: 'Přečti první novinku a nastartuj sérii',
-    streakTodayLeft: 'Ještě dnešek, ať série žije',
+    streakLevels: ['Jen na skok', 'Pravidelný host', 'Barista tě zná', 'Vlastní hrnek', 'Stálé místo'],
+    streakStart: 'Přečti první novinku a založ sérii.',
+    streakTodayLeft: 'Přečti dnes aspoň jednu novinku, ať série pokračuje.',
+    streakDoneToday: 'Dnešek přečtený',
     sectionReading: 'Čtení',
     hideReadLabel: 'Skrýt přečtené',
-    hideReadHint: 'Přečtené novinky zmizí z přehledu. Jinak se jen sbalí na titulek a zůstanou na místě.',
+    hideReadHint:
+      'Přečtené novinky z přehledu zmizí. Když je necháš zobrazené, sbalí se na titulek.',
     clearReadLabel: 'Označit vše jako nepřečtené',
     gamifyLabel: 'Série čtení',
-    gamifyHint: 'Karta pod novinkami. Den se počítá po první přečtené novince, tečka se plní, jak čteš dál.',
+    gamifyHint: 'Série se prodlouží, jakmile přečteš první novinku dne.',
     gamifyCurrentLabel: 'Aktuální série',
-    glossaryLabel: 'Vysvětlivky pojmů',
-    glossaryHint: 'Odborné pojmy v přehledu podtrhneme — ťuknutím zobrazíš prosté vysvětlení.',
-    tryListLabel: 'Ochutnávka',
-    tryListHint: 'Checklist funkcí k vyzkoušení na konci přehledu.',
+    glossaryLabel: 'Vysvětlit pojmy',
+    glossaryHint: 'Odborné pojmy v přehledu podtrhneme. Klepnutím zobrazíš jednoduché vysvětlení.',
+    tryListLabel: 'Na vyzkoušení',
+    tryListHint: 'Seznam funkcí k vyzkoušení pod Top shots.',
 
     sectionNotifications: 'Upozornění',
     notifyLabel: 'Ranní upozornění',
-    notifyHint: 'Jedna notifikace denně, jakmile je čerstvý brief hotový.',
-    notifyUnsupported: 'Dostupné po přidání aplikace na plochu iPhonu.',
+    notifyHint: 'Jedno upozornění denně, jakmile je nový brief připravený.',
+    notifyUnsupported: 'Na iPhonu funguje po přidání AIspressa na plochu.',
   },
   en: {
     appName: 'AIspresso',
-    tagline: 'The world of AI — brief and verified.',
+    tagline: 'The world of AI, brief and verified.',
 
-    tabToday: 'Today',
+    tabToday: 'Brief',
     tabArchive: 'Archive',
     tabSettings: 'Settings',
 
     brewMorning: 'Morning Shot',
     brewAfternoon: 'Afternoon Grounds',
     brewEvening: 'Evening Rinse',
-    todayEmptyTitle: 'No brief yet',
-    todayEmptyBody: "Today's brief is still being prepared. Please check back later.",
+    todayEmptyTitle: 'Today’s brief is on the way',
+    todayEmptyBody: 'It’s not ready yet. Check back soon.',
+    viewToday: 'Today',
+    viewWeek: 'This week’s top shots',
+    weekSubtitle: 'The week’s essential stories',
+    weekEmpty: 'Nothing here yet. Top shots appear once there is a week to pick from.',
 
     verified: 'Verified',
-    topStory: 'Shot of the day',
+    topStory: 'Top story',
     sourcesLabel: 'Sources',
     shareLabel: 'Share',
     saveLabel: 'Save',
     removeLabel: 'Remove',
-    savedToast: 'Saved ☕️',
-    unsavedToast: 'Removed',
+    shareStoryLabel: 'Share story',
+    saveStoryLabel: 'Save story',
+    removeSavedLabel: 'Remove from Saved',
+    savedToast: 'Saved',
+    unsavedToast: 'Removed from Saved',
     savedTitle: 'Saved',
     savedEmpty: 'Nothing saved yet',
-    savedEmptyBody: 'Swipe a story right to keep it for later.',
-    threadLabel: 'Follows up on',
-    whyLabel: 'The kick',
-    howToTryLabel: 'How to pour it',
-    tipBadge: 'Taste it',
-    radarTitle: 'Still brewing',
+    savedEmptyBody: 'Save stories you want to come back to.',
+    threadLabel: 'Follow-up to',
+    whyLabel: 'Why it matters',
+    howToTryLabel: 'How to try it',
+    tipBadge: 'Try it',
+    radarTitle: 'Coming up',
     radarTentative: 'reported',
-    weekTitle: 'The weekly lungo',
-    shareBriefLabel: 'Pour one for a friend',
-    shareBriefArchiveLabel: 'Pour one for a friend',
-
-    tryTitle: 'The sampler',
-    tryHint: 'Fresh features worth a sip. Tick off what you have tasted.',
-    tryAll: 'The full menu',
-    tryDone: 'Tasted',
-    tryAllDone: 'All tasted ☕️',
-    tryEmpty: 'The menu is empty for now, the barista is still roasting.',
-    tryTriedSection: 'Tasted',
-    termTitle: 'Bean of the day',
-    termNext: 'Another bean',
-    voteLabel: 'Tasted good?',
-    voteThanks: 'Noted by the barista.',
-    voteUp: 'Tasted good',
-    voteDown: 'Not my cup',
-    rateTodayLabel: "How was today's cup?",
-    rateBriefLabel: 'How was this cup?',
+    shareBriefLabel: 'Share today’s shot',
+    shareBriefArchiveLabel: 'Share',
+    voteLabel: 'Was this useful?',
+    voteThanks: 'Thanks for the feedback.',
+    voteUp: 'Mark as useful',
+    voteDown: 'Mark as not useful',
+    rateTodayLabel: 'How was today’s shot?',
+    rateBriefLabel: 'How was this shot?',
     sampleBadge: 'Sample',
-    sampleNote:
-      'This is sample content for Phase 1. The real daily brief will be assembled automatically by AI in Phase 2.',
+    sampleNote: 'This is sample content. The real daily brief is assembled by AI every morning.',
+
+    tryTitle: 'Things to try',
+    tryHint:
+      'Features and updates from the past 30 days that are worth trying. Mark off what you’ve already tested.',
+    tryAll: 'All tips',
+    tryDone: 'Tried',
+    tryAllDone: 'You’ve tried them all ☕️',
+    tryEmptyTitle: 'Nothing here yet',
+    tryEmptyBody: 'New tips will appear as soon as they’re worth trying.',
+    tryTriedSection: 'Tried',
+    markTried: 'Mark as tried',
+    markNotTried: 'Mark as not tried',
+    termTitle: 'Bean of the day',
+    termNext: 'Another term',
+    showAnotherTerm: 'Show another term',
 
     archiveTitle: 'Archive',
-    archiveSubtitle: 'The past two weeks',
-    archiveEmpty: 'The archive is still empty.',
+    archiveSubtitle: 'Last 14 days',
+    archiveEmpty: 'The archive is empty for now',
+    archiveEmptyBody: 'Past briefs will appear here over time.',
 
     settingsTitle: 'Settings',
     sectionLanguage: 'Language',
     sectionAppearance: 'Appearance',
     sectionCategories: 'Categories',
-    categoriesShownHint: "Muted categories won't appear in the brief. The top story always stays.",
+    categoriesShownHint:
+      'Disabled categories won’t appear in the brief. The top story always stays visible.',
     sectionInstall: 'Add to Home Screen',
     sectionHowItWorks: 'How it works',
     sectionAbout: 'About',
-    aboutRowHint: 'How it works, sources, what\'s new and support',
-    themeAuto: 'Automatic',
+    aboutRowHint: 'How AIspresso works, where its information comes from, and what’s new',
+    themeAuto: 'System',
     themeLight: 'Light',
     themeDark: 'Dark',
     installIntro:
-      'Add the app to your iPhone Home Screen so it opens full-screen, just like a native app.',
+      'Add AIspresso to your iPhone Home Screen so it opens full-screen, just like a native app.',
     installSteps: [
-      'In Safari, tap the Share icon (the square with an up arrow).',
-      'Choose "Add to Home Screen".',
-      'Confirm "Add" — done, the icon is on your Home Screen.',
+      'Open AIspresso in Safari.',
+      'Tap Share.',
+      'Choose Add to Home Screen.',
+      'Tap Add to confirm.',
     ],
-    installShareHint: 'Works only in Safari on iPhone or iPad.',
+    installShareHint: 'Works in Safari on iPhone or iPad.',
     howItWorksParagraphs: [
-      "Every morning, before you get up, AIspresso reviews the past few days in the world of AI. It draws on a fixed circle of trusted sources — official AI company blogs and leading media outlets. Out of dozens of stories it picks the ones truly worth your time, checks the date and the source of each, and says why it matters to you. Whatever can't be verified, it labels honestly. On top it adds features you can try right away and the dates coming up. A thumbs up or down tells it what was useful — only a counter is stored, nothing about you. The result is waiting for you with your morning coffee.",
+      'AIspresso selects the day’s essential AI stories and turns them into a short daily brief. Every story links to its sources and includes the event date when known. The summaries are created with AI and may contain errors. Always check the original source before relying on information for an important decision.',
+      'A thumbs up or down tells us what was useful. Only a vote counter is stored, nothing about you.',
     ],
     sectionSources: 'Sources',
-    sourcesOfficialLabel: 'Official',
+    sourcesOfficialLabel: 'Official sources',
     sourcesOfficialList:
       'Anthropic · OpenAI · Google & DeepMind · Microsoft · NVIDIA · Meta AI · Hugging Face · Mistral',
-    sourcesMediaLabel: 'Media',
+    sourcesMediaLabel: 'Media outlets',
     sourcesMediaList:
       'Reuters · AP · Bloomberg · The Verge · Ars Technica · TechCrunch · Axios · Wired · The Register · MIT Technology Review · CNBC',
     sectionReleaseNotes: 'Release notes',
@@ -404,73 +432,66 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImprovedLabel: 'Improved',
     releaseFixedLabel: 'Fixed',
     releaseAdded: [
-      '"Why it matters" — a sentence or two under every story on what it means for you',
-      '"On the radar" — dates coming up: launches, conferences, deadlines and hearings',
-      'Tips you can try carry a Try it badge and a note on where to find the feature',
-      'The event date on every story, so you know whether it happened yesterday or last week',
-      '"The week in AI" — a Sunday look back at the week\'s key stories, linked into the archive',
-      '"Try it yourself" — a checklist of recent features; tick off what you have tried',
-      '"Term of the day" from the glossary',
-      'Share the whole brief with one tap',
-      'Thumbs up or down on every story and on the whole day — anonymous, just a counter, and you see how others voted; the generator tunes its picks by it',
+      'Why it matters: a sentence or two under every story on what it means for you',
+      'This week’s top shots: a switch on the Brief screen with the top stories of the last seven days',
+      'Coming up: the dates ahead, each with a date and a source',
+      'Things to try: a checklist of recent features, can be turned off in Settings',
+      'Bean of the day from the glossary',
+      'Thumbs up or down on stories and on the whole day, with everyone’s vote counts',
+      'The event date on every story and a Try it badge on practical tips',
+      'Share today’s shot with one tap',
     ],
     releaseImproved: [
-      'A day in the reading streak counts after the first story read, not all of them',
-      'The archive keeps two weeks instead of one, so "Follows up on" links work longer',
-      'Stricter verification: Verified means an official source, or two independent outlets',
       'A read story folds to its title and stays in place; tap it to unfold',
-      'Buttons and ticks respond to touch (press, pop, a shake on a wrong answer)',
-      'The lead-in paragraph under the title is gone; the brief starts with the cards',
-      'Sharing a story now includes the why-it-matters line',
+      'A day in the reading streak counts after the first story read; the streak sits under the stories without a card',
+      'The archive keeps 14 days and Follow-up links work longer',
+      'Verified means an official source or two independent outlets',
+      'Buttons and ticks respond to touch',
       'The morning notification carries the headline of the day and the story count',
     ],
     releaseFixed: [],
     aboutTagline: 'The world of AI',
     versionLabel: 'Version',
-    modelLabel: 'Summaries by',
-    modelName: 'Claude (Anthropic)',
+    modelLabel: 'Summaries are prepared by',
+    modelName: 'Claude from Anthropic',
     signature: 'By Václav Brožka',
     supportText:
-      'AIspresso is free and stays that way — no ads. If the morning shot makes your days a little better, you can buy me a coffee.',
+      'AIspresso is free and ad-free, and I plan to keep it that way. If it has earned a place in your routine, you can buy me a coffee.',
     supportCta: 'Buy me a coffee',
 
     loading: 'Loading…',
-    errorTitle: 'Something went wrong',
-    errorBody: "Couldn't load the brief. Check your connection and try again.",
+    errorTitle: 'Couldn’t load the brief',
+    errorBody: 'Check your connection and try again.',
     retry: 'Try again',
-    updatedLabel: 'Updated',
+    updatedLabel: 'Updated at',
     back: 'Back',
 
-    read: 'Downed',
+    read: 'Read',
     markRead: 'Mark as read',
     markUnread: 'Mark as unread',
-    unfoldLabel: 'Unfold',
-    foldLabel: 'Fold',
+    unfoldLabel: 'Expand story',
+    foldLabel: 'Collapse story',
     streakSectionLabel: 'Reading streak',
-    streakLevels: [
-      'Just One Quick Shot',
-      'Mildly Addicted',
-      'Shaking, Still Reading',
-      'Can’t Function Without a Shot',
-      'Blood Pressure: 180. Fully Briefed.',
-    ],
-    streakStart: 'Read one story to start a streak',
-    streakTodayLeft: 'Read one story today to keep the streak alive',
+    streakLevels: ['Just stopping by', 'A regular', 'The barista knows you', 'Your own mug', 'Your usual seat'],
+    streakStart: 'Read a story to start a streak.',
+    streakTodayLeft: 'Read a story today to keep your streak going.',
+    streakDoneToday: 'Fully briefed today',
     sectionReading: 'Reading',
-    hideReadLabel: 'Hide read items',
-    hideReadHint: 'Read stories leave the brief. Otherwise they fold to their title and stay in place.',
+    hideReadLabel: 'Hide read stories',
+    hideReadHint:
+      'Read stories will disappear from the brief. If left visible, they’ll collapse to the headline.',
     clearReadLabel: 'Mark all as unread',
     gamifyLabel: 'Reading streak',
-    gamifyHint: 'The card under the stories. A day counts after the first story read; the dot fills as you read on.',
+    gamifyHint: 'Your streak grows once you read the first story of the day.',
     gamifyCurrentLabel: 'Current streak',
-    glossaryLabel: 'Term explanations',
-    glossaryHint: 'We underline technical terms in the brief — tap one for a plain explanation.',
-    tryListLabel: 'The sampler',
-    tryListHint: 'The try-it checklist at the end of the brief.',
+    glossaryLabel: 'Explain terms',
+    glossaryHint: 'Technical terms in the brief will be underlined. Tap one for a plain-language explanation.',
+    tryListLabel: 'Things to try',
+    tryListHint: 'The checklist of features to try, under the top shots.',
 
     sectionNotifications: 'Notifications',
-    notifyLabel: 'Morning alert',
-    notifyHint: 'One notification a day, as soon as the fresh brief is ready.',
-    notifyUnsupported: 'Available once the app is added to your iPhone Home Screen.',
+    notifyLabel: 'Morning notification',
+    notifyHint: 'One notification a day, as soon as the new brief is ready.',
+    notifyUnsupported: 'On iPhone, this works after you add AIspresso to your Home Screen.',
   },
 };

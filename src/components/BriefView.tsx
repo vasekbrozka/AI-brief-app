@@ -8,15 +8,13 @@ import { useStreak } from '../providers/StreakProvider';
 import { useVotes } from '../providers/VotesProvider';
 import { VoteButtons } from './VoteButtons';
 import { BriefItemCard } from './BriefItemCard';
-import { TryList } from './TryList';
 import { TermOfDay } from './TermOfDay';
 import { RadarSection } from './RadarSection';
-import { WeekReviewSection } from './WeekReviewSection';
 import { WeekStreak } from './WeekStreak';
 import { Icon } from './Icon';
 
 export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: boolean }) {
-  const { lang, t, hideRead, mutedCategories, gamification, tryListEnabled } = useSettings();
+  const { lang, t, hideRead, mutedCategories, gamification } = useSettings();
   const { isRead } = useRead();
   const { currentStreak, markFinished } = useStreak();
   // One thumb for the whole day, counted under "<date>-brief".
@@ -48,15 +46,11 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
     if (isToday && gamification && started) markFinished(brief.date);
   }, [isToday, gamification, started, brief.date, markFinished]);
 
-  // The week's look-back and the upcoming dates sit below the stories in both
-  // Today and the archive; they are not part of the read/unread flow, so they
-  // never affect the streak.
+  // Below the stories: the day's dates ahead (in the archive only — on Today
+  // they live under "this week's top shots"), then the rating and sharing.
   const extras = (
     <>
-      {brief.weekInReview && brief.weekInReview.length > 0 && (
-        <WeekReviewSection entries={brief.weekInReview} />
-      )}
-      {brief.radar && brief.radar.length > 0 && <RadarSection radar={brief.radar} />}
+      {!isToday && brief.radar && brief.radar.length > 0 && <RadarSection radar={brief.radar} />}
       <div className="panel rate">
         <span className="rate__label">
           {dayVote ? t.voteThanks : isToday ? t.rateTodayLabel : t.rateBriefLabel}
@@ -115,13 +109,10 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
             </>
           )}
 
-          {/* After the stories: a term to learn, then the week and the dates
-              ahead, and the try-it checklist last (optional in Settings). */}
+          {/* After the stories: a term to learn, then the rating and sharing. */}
           <TermOfDay date={brief.date} />
 
           {extras}
-
-          {tryListEnabled && <TryList />}
         </>
       )}
 

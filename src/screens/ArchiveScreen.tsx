@@ -32,7 +32,7 @@ export function ArchiveScreen({
       {status === 'loading' && <ArchiveSkeleton />}
       {status === 'error' && <ErrorState onRetry={reload} />}
       {status === 'ready' && briefs.length === 0 && (
-        <EmptyState title={t.archiveTitle} body={t.archiveEmpty} />
+        <EmptyState title={t.archiveEmpty} body={t.archiveEmptyBody} />
       )}
       {status === 'ready' && briefs.length > 0 && (
         <ul className="archive-list">

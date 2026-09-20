@@ -14,15 +14,17 @@ z GitHubu.
 - 📱 **PWA** — přidání na plochu iPhonu, celoobrazovkový režim, funguje offline (service worker)
 - 🌗 **Světlý / tmavý / automatický** motiv ve stylu Apple
 - 🇨🇿 🇬🇧 **Dvojjazyčně** — přepínač CS / EN v Nastavení
-- 🗂️ **Tři obrazovky** — Dnes, Archiv (poslední dva týdny + Uložené), Nastavení
+- 🗂️ **Tři záložky** — Brief (přepínač Dnes / Top shots tento týden), Archiv (posledních
+  14 dní + Uložené), Nastavení
 - ✅ **Ověřování** — u každé zprávy zdroje, datum události a odznak „Ověřeno"
   (oficiální zdroj, nebo dvě nezávislá média)
-- 💡 **Proč na tom záleží** — u každé zprávy věta dvě, co z ní plyne pro čtenáře;
-  u tipů návod, kde funkci najít
-- 📅 **Na obzoru** — nadcházející termíny (vydání, konference, lhůty, soudy)
-- 🗓️ **Týden v AI** — nedělní ohlédnutí za událostmi týdne s odkazy do archivu
-- 🧠 **Po dočtení je co dělat** — checklist „Ochutnávka" s funkcemi z posledních týdnů
-  (vypínatelný v Nastavení) a „Zrnko dne" ze slovníčku; série čtení jako lišta pod nadpisem
+- 💡 **Proč zbystřit** — u každé zprávy věta dvě, co z ní plyne pro čtenáře; u tipů
+  „Jak na to"
+- 🏆 **Top shots tento týden** — hlavní zprávy posledních sedmi dnů jako karty (nedělní
+  brief může výběr kurátorovat přes `weekInReview`)
+- 📅 **Co se chystá** — nadcházející termíny (vydání, konference, lhůty, soudy)
+- 🧠 **Po dočtení je co dělat** — „Na vyzkoušení" s funkcemi z posledních týdnů
+  (vypínatelné v Nastavení), „Zrnko dne" ze slovníčku, série čtení pod novinkami
 - 👍 **Zpětná vazba** — palec nahoru/dolů u každé novinky i u celého dne, s počty hlasů
   od všech čtenářů; anonymní počítadla, která generátor čte jako signál, co je přínosné
 - ✔️ **Přečteno**, uložení na později, sdílení novinky i celého přehledu, série čtení,
@@ -50,7 +52,7 @@ data/
     ├── index.json           # seznam dostupných briefů (nejnovější první, 14 dnů)
     ├── YYYY-MM-DD.json      # jeden brief na den (starší dny zůstávají, jen nejsou v indexu)
     ├── published-log.json   # ledger zveřejněných položek (dedup, 60 dní) — appka nečte
-    ├── tips-backlog.json    # fronta a historie tipů — appka z ní staví checklist „Vyzkoušej si"
+    ├── tips-backlog.json    # fronta a historie tipů — appka z ní staví seznam „Na vyzkoušení"
     └── feedback.json        # palce čtenářů za 30 dní — zapisuje noční funkce na Netlify
 ```
 

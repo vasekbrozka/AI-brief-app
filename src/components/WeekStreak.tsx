@@ -89,7 +89,7 @@ export function WeekStreak({
           </span>
           {!starter && (
             <span className="sc__sub">
-              {started ? streakLabel(currentStreak, lang) : t.streakTodayLeft}
+              {done ? t.streakDoneToday : started ? streakLabel(currentStreak, lang) : t.streakTodayLeft}
             </span>
           )}
         </span>

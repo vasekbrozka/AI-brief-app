@@ -13,13 +13,14 @@ const APP_URL = 'https://aispresso.app';
 function buildShareText(item: BriefItem, lang: Lang): string {
   const title = item.title[lang];
   const why = item.why?.[lang];
-  const primary = item.sources[0];
-  const sourceLabel = lang === 'cs' ? 'Zdroj' : 'Source';
-  const attribution = lang === 'cs' ? 'přes AIspresso' : 'via AIspresso';
   const parts = [title];
   if (why) parts.push('', why);
-  if (primary) parts.push('', `${sourceLabel}: ${primary.name} — ${primary.url}`);
-  parts.push('', `${attribution} ☕️ ${APP_URL}`);
+  if (item.sources.length > 0) {
+    const label =
+      item.sources.length > 1 ? (lang === 'cs' ? 'Zdroje' : 'Sources') : lang === 'cs' ? 'Zdroj' : 'Source';
+    parts.push('', `${label}: ${item.sources.map((s) => `${s.name} ${s.url}`).join(' · ')}`);
+  }
+  parts.push('', 'AIspresso ☕️', APP_URL);
   return parts.join('\n');
 }
 
@@ -34,12 +35,12 @@ function buildBriefShareText(brief: Brief, lang: Lang): string {
     parts.push(`${isTip(item) ? '💡' : '•'} ${item.title[lang]}`);
   }
   if (brief.radar && brief.radar.length > 0) {
-    parts.push('', lang === 'cs' ? 'Na obzoru:' : 'On the radar:');
+    parts.push('', lang === 'cs' ? 'Co se chystá:' : 'Coming up:');
     for (const entry of brief.radar) {
-      parts.push(`${formatDayMonth(entry.date, lang)} ${entry.title[lang]}`);
+      parts.push(`• ${formatDayMonth(entry.date, lang)} — ${entry.title[lang]}`);
     }
   }
-  parts.push('', `☕️ ${APP_URL}`);
+  parts.push('', APP_URL);
   return parts.join('\n');
 }
 

@@ -12,7 +12,7 @@ export const CATEGORIES: Record<CategoryId, CategoryMeta> = {
   research: { id: 'research', label: { cs: 'Výzkum', en: 'Research' }, tint: 'teal' },
   business: { id: 'business', label: { cs: 'Byznys', en: 'Business' }, tint: 'blue' },
   tools: { id: 'tools', label: { cs: 'Nástroje', en: 'Tools' }, tint: 'orange' },
-  policy: { id: 'policy', label: { cs: 'Regulace', en: 'Policy' }, tint: 'pink' },
+  policy: { id: 'policy', label: { cs: 'Regulace', en: 'Regulation' }, tint: 'pink' },
   opensource: {
     id: 'opensource',
     label: { cs: 'Open source', en: 'Open Source' },

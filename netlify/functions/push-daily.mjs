@@ -45,7 +45,7 @@ export default async () => {
   webpush.setVapidDetails(VAPID_SUBJECT, VAPID_PUBLIC_KEY, privateKey);
   const payloadFor = (lang) =>
     JSON.stringify({
-      title: lang === 'en' ? 'Your morning shot is ready' : 'Tvůj ranní shot je připraven',
+      title: lang === 'en' ? 'Your morning shot is ready' : 'Tvůj ranní shot je připravený',
       body: `${latest.headline?.[lang] ?? latest.headline?.cs ?? ''} · ${countLabel(latest.itemCount, lang)}`,
       badge: 1,
     });

@@ -24,7 +24,12 @@ export function TermOfDay({ date }: { date: string }) {
       <div className="panel termday__panel">
         <div className="termday__term">{entry.term[lang]}</div>
         <p className="termday__body">{entry.short[lang]}</p>
-        <button type="button" className="link-btn" onClick={() => setOffset((o) => o + 1)}>
+        <button
+          type="button"
+          className="link-btn"
+          aria-label={t.showAnotherTerm}
+          onClick={() => setOffset((o) => o + 1)}
+        >
           {t.termNext}
         </button>
       </div>

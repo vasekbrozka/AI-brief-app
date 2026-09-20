@@ -225,9 +225,9 @@ seřazených podle data:
 ### 5b · Týden v AI (`weekInReview`, jen nedělní brief)
 
 Nedělní brief (`date -u -d <dnešek> +%u` dá `7`) nese navíc ohlédnutí za týdnem —
-**4–6 položek** z briefů posledních 7 dnů, seřazených podle důležitosti. Víkendové
-zprávy jsou tenké; ohlédnutí dělá z neděle nejbohatší čtení týdne a dožene, co čtenář
-přes týden minul.
+**4–6 položek** z briefů posledních 7 dnů, seřazených podle důležitosti. Appka má pohled
+„Top shots tento týden": ve všední dny ukazuje hlavní zprávy posledních sedmi briefů,
+v neděli místo nich tento kurátorovaný výběr (karty odkazovaných položek v tomto pořadí).
 
 - Každá položka odkazuje na existující zprávu z archivu: `date`, `id` a **doslovně
   zkopírovaný** `title` (cs + en), plus `note` (≤ 25 slov): proč to byla událost týdne
@@ -305,7 +305,7 @@ python3 docs/check-brief.py
 
 Tip = užitečná funkce nástroje, kterou si čtenář může vyzkoušet, z **posledních ~60 dní**.
 Není nutně horká; je nutně použitelná. Žijí ve frontě `data/briefs/tips-backlog.json`.
-**Appka backlog čte**: sekce „Vyzkoušej si" ukazuje tipy s `used` z posledních 30 dnů jako
+**Appka backlog čte**: sekce „Na vyzkoušení" ukazuje tipy s `used` z posledních 30 dnů jako
 checklist, který si čtenář odškrtává. Proto u každého záznamu drž `title`, `why`,
 `sources` a `used` přesné a nikdy záznamy nepřepisuj zpětně.
 
@@ -475,7 +475,7 @@ Kompletní ukázka: `docs/examples/brief-v3-example.json`
 }
 ```
 
-### `data/briefs/tips-backlog.json` — fronta + historie tipů (appka ČTE pro „Vyzkoušej si", NEMAZAT)
+### `data/briefs/tips-backlog.json` — fronta + historie tipů (appka ČTE pro „Na vyzkoušení", NEMAZAT)
 
 ```jsonc
 {

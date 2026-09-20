@@ -139,7 +139,7 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
             <button
               type="button"
               className={`card-save${saved ? ' is-saved' : ''}`}
-              aria-label={saved ? t.removeLabel : t.saveLabel}
+              aria-label={`${saved ? t.removeSavedLabel : t.saveStoryLabel} „${item.title[lang]}“`}
               aria-pressed={saved}
               onClick={handleSave}
             >
@@ -148,7 +148,7 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
             <button
               type="button"
               className="card-share"
-              aria-label={t.shareLabel}
+              aria-label={`${t.shareStoryLabel} „${item.title[lang]}“`}
               onClick={() => void shareItem(item, lang)}
             >
               <Icon name="share" size={17} />

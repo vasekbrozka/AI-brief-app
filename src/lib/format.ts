@@ -94,18 +94,19 @@ export function itemCountLabel(n: number, lang: Lang): string {
   return n === 1 ? '1 story' : `${n} stories`;
 }
 
-/** "N stories hidden by your filter", pluralized. */
+/** "N stories hidden by filters", with the Czech three-form plural. */
 export function hiddenCountLabel(n: number, lang: Lang): string {
   if (lang === 'cs') {
-    const noun = n === 1 ? 'novinka skryta' : n >= 2 && n <= 4 ? 'novinky skryté' : 'novinek skryto';
-    return `${n} ${noun} filtrem`;
+    if (n === 1) return '1 novinka je skrytá filtrem';
+    if (n >= 2 && n <= 4) return `${n} novinky jsou skryté filtrem`;
+    return `${n} novinek je skryto filtrem`;
   }
-  return `${n} ${n === 1 ? 'story' : 'stories'} hidden by your filter`;
+  return `${n} ${n === 1 ? 'story' : 'stories'} hidden by filters`;
 }
 
-/** Checklist progress, e.g. "3 z 8 ochutnáno" / "3 of 8 tasted". */
+/** Checklist progress, e.g. "Vyzkoušeno 3 z 28" / "3 of 28 tried". */
 export function triedProgressLabel(tried: number, total: number, lang: Lang): string {
-  return lang === 'cs' ? `${tried} z ${total} ochutnáno` : `${tried} of ${total} tasted`;
+  return lang === 'cs' ? `Vyzkoušeno ${tried} z ${total}` : `${tried} of ${total} tried`;
 }
 
 /** Reading-streak label, e.g. "5 dní v řadě" / "5-day streak". */
@@ -117,11 +118,11 @@ export function streakLabel(n: number, lang: Lang): string {
   return `${n}-day streak`;
 }
 
-/** Caffeine-addiction tier (0–4) for a streak: 1 · 2–3 · 4–6 · 7–13 · 14+ days. */
+/** Regular-guest tier (0–4) for a streak: 1–2 · 3–6 · 7–13 · 14–29 · 30+ days. */
 export function streakLevelIndex(days: number): number {
-  if (days <= 1) return 0;
-  if (days <= 3) return 1;
-  if (days <= 6) return 2;
-  if (days <= 13) return 3;
+  if (days <= 2) return 0;
+  if (days <= 6) return 1;
+  if (days <= 13) return 2;
+  if (days <= 29) return 3;
   return 4;
 }
