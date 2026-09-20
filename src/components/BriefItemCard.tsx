@@ -47,12 +47,12 @@ function ThreadLink({ thread }: { thread: ThreadRef }) {
 
 /**
  * One story, read top to bottom: category → title → summary → why it matters
- * → sources, closed by a single action row — thumbs (the one signal the
- * generator gets back), save, share, and "Vypito" to mark it read, at the end
- * of the reading where the thumb already is. Every action is a visible
- * button; swiping stays a shortcut. A read card keeps its place and folds to
- * its title (the body slides shut); the stamp in its header un-reads it, the
- * title unfolds it. With "hide read" on, the card fades out instead.
+ * → sources, closed by a single action row of icon buttons — thumbs (the one
+ * signal the generator gets back), save, share, and the ring that marks it
+ * read, at the end of the reading where the thumb already is. Every action is
+ * a visible button; swiping stays a shortcut. A read card keeps its place and
+ * folds to its title (the body slides shut); the check in its header un-reads
+ * it, the title unfolds it. With "hide read" on, the card fades out instead.
  */
 export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?: boolean }) {
   const { lang, t, hideRead } = useSettings();
@@ -143,10 +143,10 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
               className="item__stamp"
               aria-pressed="true"
               aria-label={t.markUnread}
+              title={t.read}
               onClick={handleToggle}
             >
-              <Icon name="check" size={11} />
-              {t.read}
+              <Icon name="check" size={14} />
             </button>
           )}
         </div>
@@ -220,15 +220,15 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
                 {!plain && (
                   <button
                     type="button"
-                    className={`read-cta${checked ? ' is-read' : ''}`}
+                    className={`iconbtn read-cta${checked ? ' is-read' : ''}`}
                     aria-pressed={checked}
                     aria-label={read ? t.markUnread : t.markRead}
+                    title={t.read}
                     onClick={handleToggle}
                   >
                     <span className="read-cta__circle">
                       {checked && <Icon name="check" size={12} />}
                     </span>
-                    {t.read}
                   </button>
                 )}
               </div>

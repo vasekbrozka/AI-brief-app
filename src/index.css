@@ -1525,23 +1525,23 @@ button.thread:active .thread__title {
   transition: opacity 0.2s ease;
 }
 
-/* "Vypito" stamp in the header of a read card — the status, and the undo. */
+/* Check in the header of a read card — the status, and the undo. Icon only;
+   the name ("Vypito") is its tooltip and accessible label. */
 .item__stamp {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  margin-left: auto;
-  padding: 4px 9px 4px 7px;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  margin: -2px 0 -2px auto;
   border: 0;
   border-radius: 999px;
-  background: var(--accent-soft-bg);
-  color: var(--accent);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  white-space: nowrap;
+  background: var(--accent);
+  color: #fff;
   transition: transform 0.12s ease, opacity 0.12s ease;
+}
+
+.item__stamp svg {
+  animation: pop-in 0.22s ease both;
 }
 
 .item__stamp:active {
@@ -1568,10 +1568,10 @@ button.thread:active .thread__title {
 }
 
 /* ---- Card action row ------------------------------------------------------
-   One row closes every story: thumbs (the signal the generator gets back),
-   then save and share, then "Vypito" to mark it read — at the end of the
-   reading, where the thumb already is. Visible on every device; swiping the
-   card stays a shortcut. */
+   One row of icon buttons closes every story: thumbs (the signal the
+   generator gets back), then save and share, then the ring that marks it read
+   — at the end of the reading, where the thumb already is. Visible on every
+   device; swiping the card stays a shortcut. */
 .item__bar {
   display: flex;
   align-items: center;
@@ -1617,32 +1617,13 @@ button.thread:active .thread__title {
   animation: pop 0.32s cubic-bezier(0.2, 0.8, 0.3, 1.2);
 }
 
-.read-cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  height: 36px;
-  padding: 0 12px 0 8px;
-  border: 1px solid var(--hairline);
-  border-radius: 999px;
-  background: none;
-  color: var(--text);
-  font-size: 13.5px;
-  font-weight: 600;
-  white-space: nowrap;
-  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease,
-    transform 0.12s ease;
-}
-
-.read-cta:active {
-  transform: scale(0.96);
-}
-
+/* Mark-as-read: an empty ring in the same round button as save and share;
+   it fills with a check once tapped. */
 .read-cta__circle {
   display: grid;
   place-items: center;
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   border-radius: 999px;
   border: 2px solid var(--text-tertiary);
   color: #fff;
