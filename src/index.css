@@ -1474,6 +1474,7 @@ button.thread:active .thread__title {
   :root {
     --content-max: 1520px;
     --topbar-h: 62px;
+    --sidebar-w: 208px;
     --side-w: 340px;
   }
 
@@ -1485,6 +1486,7 @@ button.thread:active .thread__title {
   .app {
     max-width: none;
     padding-top: var(--topbar-h);
+    padding-left: var(--sidebar-w);
     box-shadow: none;
   }
 
@@ -1493,13 +1495,16 @@ button.thread:active .thread__title {
     margin: 0;
   }
 
-  /* The page's own bar (back button, condensed title) sits under the app bar. */
+  /* The page's own bar (back button, condensed title) sits under the app bar,
+     right of the sidebar. */
   .navbar {
     top: var(--topbar-h);
+    left: var(--sidebar-w);
     max-width: none;
   }
 
   .toaster {
+    left: var(--sidebar-w);
     bottom: 40px;
   }
 
@@ -1538,8 +1543,10 @@ button.thread:active .thread__title {
     padding: 16px 18px;
   }
 
-  /* The bottom tab bar becomes the app's top bar: brand, the tabs as text
-     pills, and the day's reading progress on the right. */
+  /* The bottom tab bar splits in two: the bar itself becomes the top bar
+     (brand left, the day's progress right) and its row of tabs becomes the
+     left sidebar. The solid background matters — a backdrop-filter would make
+     the bar a containing block and pin the sidebar inside it. */
   .tabbar {
     top: 0;
     bottom: auto;
@@ -1552,7 +1559,10 @@ button.thread:active .thread__title {
     width: auto;
     max-width: none;
     height: var(--topbar-h);
-    padding: 0 28px;
+    padding: 0 24px;
+    background: var(--surface);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
     border-top: 0;
     border-bottom: 1px solid var(--hairline);
   }
@@ -1575,16 +1585,25 @@ button.thread:active .thread__title {
   }
 
   .tabbar__inner {
+    position: fixed;
+    top: var(--topbar-h);
+    left: 0;
+    bottom: 0;
+    width: var(--sidebar-w);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 3px;
     height: auto;
-    gap: 4px;
+    padding: 18px 12px;
+    border-right: 1px solid var(--hairline);
   }
 
   .tabbar__item {
     flex: 0 0 auto;
     flex-direction: row;
-    justify-content: center;
-    gap: 9px;
-    padding: 8px 14px;
+    justify-content: flex-start;
+    gap: 11px;
+    padding: 10px 12px;
     border-radius: 10px;
     color: var(--text-secondary);
   }
@@ -1669,6 +1688,7 @@ button.thread:active .thread__title {
   }
 
   .rateprompt {
+    left: calc(var(--sidebar-w) + 16px);
     bottom: 28px;
   }
 }
@@ -1682,18 +1702,25 @@ button.thread:active .thread__title {
     align-items: start;
   }
 
-  /* The desktop reader gives one card the whole column, so the column gets a
-     ceiling: a line of text stays readable instead of running the full
-     1500px. The pair then centres in what is left. */
-  .screen--wide .brief--focus {
-    grid-template-columns: minmax(0, 860px) var(--side-w);
-    justify-content: center;
+  /* The reader's two columns — the day and, beside it, the week — cap the
+     whole screen instead of the grid, so the card lines up with the title
+     above it. */
+  .screen--reader .screen__content {
+    max-width: calc(860px + 28px + var(--side-w));
   }
 
-  /* Stays in view while the columns scroll; clears the floating top bar. */
+  /* The week column carries a lot (top shots, tips, streak, rating), more
+     than a screen: pinning it would cut its foot off, so it scrolls. */
+  .brief--focus .brief__side {
+    position: static;
+    padding-top: 0;
+  }
+
+  /* Stays in view while the columns scroll; clears the app bar and the page
+     bar that fades in over it. */
   .brief__side {
     position: sticky;
-    top: calc(var(--nav-height) + 16px);
+    top: calc(var(--topbar-h) + var(--nav-height) + 8px);
     padding-top: 14px;
   }
 
@@ -1848,6 +1875,25 @@ button.thread:active .thread__title {
     font-size: 14px;
     font-weight: 600;
     line-height: 1.3;
+  }
+
+  /* The week's rows carry a date, so they stack instead of sitting in a line. */
+  .railrow--stacked {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .railrow__head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .railrow__date {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    font-variant-numeric: tabular-nums;
   }
 }
 

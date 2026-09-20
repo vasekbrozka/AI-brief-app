@@ -30,6 +30,8 @@ export function TodayScreen() {
   const { t, lang, mutedCategories } = useSettings();
   const { isRead } = useRead();
   const { status, data, reload, updated, dates } = useLatestBrief();
+  // A wide screen shows the day and the week side by side, so it needs no
+  // switch between them; the phone keeps it.
   const desktop = useMediaQuery(DESKTOP_QUERY);
   const { report } = useProgress();
   const [view, setView] = useState<View>('today');
@@ -101,6 +103,10 @@ export function TodayScreen() {
     return () => report(0, 0);
   }, [report, readCount, total]);
 
+  useEffect(() => {
+    if (desktop && view === 'week') setView('today');
+  }, [desktop, view]);
+
   const options: { value: View; label: string }[] = [
     { value: 'today', label: t.viewToday },
     { value: 'week', label: t.viewWeek },
@@ -122,10 +128,13 @@ export function TodayScreen() {
       barContent={bar}
       progress={progress}
       kicker={kicker}
+      className={desktop && view === 'today' ? 'screen--reader' : undefined}
       headerAside={
-        <div className="view-switch">
-          <Segmented value={view} onChange={setView} options={options} ariaLabel={t.tabToday} />
-        </div>
+        desktop ? undefined : (
+          <div className="view-switch">
+            <Segmented value={view} onChange={setView} options={options} ariaLabel={t.tabToday} />
+          </div>
+        )
       }
       wide
     >

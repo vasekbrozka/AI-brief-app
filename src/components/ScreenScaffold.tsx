@@ -15,6 +15,8 @@ interface ScreenScaffoldProps {
   headerAside?: ReactNode;
   /** Reading screens: on a desktop they may use the whole width (columns, a right rail). */
   wide?: boolean;
+  /** Extra class on the screen root (e.g. the desktop reader's narrower column). */
+  className?: string;
   left?: ReactNode;
   right?: ReactNode;
   children: ReactNode;
@@ -37,6 +39,7 @@ export function ScreenScaffold({
   kicker,
   headerAside,
   wide = false,
+  className,
   left,
   right,
   children,
@@ -72,7 +75,7 @@ export function ScreenScaffold({
   const clamped = progress == null ? null : Math.min(1, Math.max(0, progress));
 
   return (
-    <div className={`screen${wide ? ' screen--wide' : ''}`}>
+    <div className={`screen${wide ? ' screen--wide' : ''}${className ? ` ${className}` : ''}`}>
       <header ref={headerRef} className={navClass}>
         <div className="navbar__side navbar__side--left">{left}</div>
         <div className={`navbar__title${barContent != null ? ' navbar__title--info' : ''}`}>

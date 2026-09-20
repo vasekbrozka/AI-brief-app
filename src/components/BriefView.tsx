@@ -11,6 +11,7 @@ import { VoteButtons } from './VoteButtons';
 import { BriefItemCard } from './BriefItemCard';
 import { BriefFocus } from './BriefFocus';
 import { CategoryChip } from './CategoryChip';
+import { WeekRail } from './WeekRail';
 import { TermOfDay } from './TermOfDay';
 import { RatePrompt } from './RatePrompt';
 import { RadarSection } from './RadarSection';
@@ -117,6 +118,10 @@ export function BriefView({
       </div>
 
       <aside className="brief__side">
+        {/* The desktop's second column: the week beside the day, so a wide
+            screen needs no switch between them. */}
+        {focus && isToday && <WeekRail />}
+
         {/* Desktop only: the day's practical tips, as a way into them — the
             list version marks them with a badge in place. */}
         {tips.length > 0 && (
