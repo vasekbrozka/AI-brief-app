@@ -104,6 +104,23 @@ export function TodayScreen() {
       <div className="view-switch">
         <Segmented value={view} onChange={setView} options={options} ariaLabel={t.tabToday} />
       </div>
+      {/* The score sits right under the switch, in view without scrolling —
+          most readers finish the top story and never reach the floating bar. */}
+      {view === 'today' && status === 'ready' && data && shown.length > 0 && (
+        <div
+          className="readbar"
+          role="progressbar"
+          aria-valuemin={0}
+          aria-valuemax={shown.length}
+          aria-valuenow={readCount}
+          aria-label={readProgressLabel(readCount, shown.length, lang)}
+        >
+          <div className="readbar__track">
+            <span style={{ transform: `scaleX(${readCount / shown.length})` }} />
+          </div>
+          <span className="readbar__label">{readProgressLabel(readCount, shown.length, lang)}</span>
+        </div>
+      )}
       {view === 'week' ? (
         <WeekView />
       ) : (

@@ -10,6 +10,7 @@ import { useVotes } from '../providers/VotesProvider';
 import { VoteButtons } from './VoteButtons';
 import { BriefItemCard } from './BriefItemCard';
 import { TermOfDay } from './TermOfDay';
+import { RatePrompt } from './RatePrompt';
 import { RadarSection } from './RadarSection';
 import { WeekStreak } from './WeekStreak';
 import { Icon } from './Icon';
@@ -106,10 +107,14 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
             </>
           )}
 
-          {/* After the stories: a term to learn, then the rating and sharing. */}
-          <TermOfDay date={brief.date} />
+          {/* Once everything is read: a term to learn, then the rating and
+              sharing — and, the moment the last story is read, one gentle
+              ask for the day's rating. */}
+          {allRead && <TermOfDay date={brief.date} />}
 
           {extras}
+
+          <RatePrompt dayId={dayId} date={brief.date} allRead={allRead} />
         </>
       )}
 

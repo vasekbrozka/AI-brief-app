@@ -55,6 +55,10 @@ export interface UIStrings {
   voteDown: string;
   rateTodayLabel: string;
   rateBriefLabel: string;
+  /** The one-time rating sheet after the last story is read. */
+  ratePromptBody: string;
+  ratePromptLater: string;
+  closeLabel: string;
   sampleBadge: string;
   sampleNote: string;
 
@@ -205,6 +209,9 @@ export const STRINGS: Record<Lang, UIStrings> = {
     voteDown: 'Označit jako neužitečné',
     rateTodayLabel: 'Jak ti chutnal dnešní shot?',
     rateBriefLabel: 'Jak ti chutnal tenhle shot?',
+    ratePromptBody: 'Pomůže vybrat, co číst zítra.',
+    ratePromptLater: 'Teď ne',
+    closeLabel: 'Zavřít',
     sampleBadge: 'Ukázka',
     sampleNote: 'Toto je ukázkový obsah. Skutečný denní brief sestavuje AI každé ráno.',
 
@@ -278,6 +285,9 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Poslat dnešní shot jedním klepnutím',
     ],
     releaseImproved: [
+      'Přečtené novinky hned mizí z přehledu (dá se vypnout v Nastavení) a pod přepínačem je vidět postup čtení i bez rolování',
+      'Zrnko dne se objeví až po dočtení všech novinek',
+      'Po dočtení se jednou nabídne hodnocení dne; zavřít jde jedním klepnutím',
       'Karta novinky končí jedním řádkem akcí: palce, uložit, sdílet a Vypito. Nic není schované za gestem a nesahá se nahoru',
       'Při rolování vidíš v horní liště, kolik novinek máš vypito; pod datem je počet novinek a odhad času čtení',
       'Archiv je jeden seskupený seznam s Dnes a Včera místo karty pro každý den',
@@ -380,6 +390,9 @@ export const STRINGS: Record<Lang, UIStrings> = {
     voteDown: 'Mark as not useful',
     rateTodayLabel: 'How was today’s shot?',
     rateBriefLabel: 'How was this shot?',
+    ratePromptBody: 'It helps pick what to read tomorrow.',
+    ratePromptLater: 'Not now',
+    closeLabel: 'Close',
     sampleBadge: 'Sample',
     sampleNote: 'This is sample content. The real daily brief is assembled by AI every morning.',
 
@@ -453,6 +466,9 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Share today’s shot with one tap',
     ],
     releaseImproved: [
+      'Read stories leave the list right away (can be turned off in Settings) and the reading progress sits under the switch, no scrolling needed',
+      'Bean of the day appears once every story is read',
+      'After the last story, one gentle ask for the day’s rating; one tap closes it',
       'A story ends in one action row: thumbs, save, share and Read. Nothing hides behind a gesture, nothing sits out of reach',
       'While scrolling, the floating bar shows how many stories you have read; under the date, the story count and a reading-time estimate',
       'The archive is one grouped list with Today and Yesterday instead of a card per day',
