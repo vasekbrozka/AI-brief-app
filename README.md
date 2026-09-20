@@ -20,8 +20,8 @@ z GitHubu.
   na konci každé novinky; swipe doleva/doprava zůstává jako zkratka
 - 📊 **Postup čtení** — pod datem počet novinek a odhad času, v horní liště
   při rolování „Vypito 3 z 7“ a tenká linka postupu
-- ✅ **Ověřování** — u každé zprávy zdroje, datum události a odznak „Ověřeno"
-  (oficiální zdroj, nebo dvě nezávislá média)
+- ✅ **Ověřování** — u každé zprávy zdroje a datum události; do briefu jde jen
+  zpráva s oficiálním zdrojem nebo dvěma nezávislými médii (hlídá recept a checker)
 - 💡 **Proč zbystřit** — u každé zprávy věta dvě, co z ní plyne pro čtenáře; u tipů
   „Jak na to"
 - 🏆 **Top shots** — hlavní zprávy posledních sedmi dnů jako karty (nedělní

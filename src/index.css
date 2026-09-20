@@ -597,7 +597,6 @@ svg {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  /* Verified seal stays pinned right on the sources line — never wraps below. */
   flex-wrap: nowrap;
 }
 
@@ -702,26 +701,10 @@ button.thread:active .thread__title {
   color: var(--text-tertiary);
 }
 
-/* Verified badge — icon only, pinned to the right of the sources line */
-.verified {
-  flex: 0 0 auto;
-  display: inline-flex;
-  align-items: center;
-  color: var(--verified);
-}
-
-.verified__seal {
-  display: grid;
-  place-items: center;
-  width: 17px;
-  height: 17px;
-  border-radius: 999px;
-  background: var(--verified);
-  color: #fff;
-}
-
 /* Sources — always a single line; a long list never grows the card, it just
-   fades out under the verified seal at the right edge. */
+   fades out at the right edge. (No verified seal on the card: every story in
+   a brief is verified by the recipe, and a green check next to the read check
+   read as "done".) */
 .sources {
   flex: 1 1 auto;
   min-width: 0;

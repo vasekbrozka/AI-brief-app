@@ -11,7 +11,6 @@ import { capitalizeFirst, daysAgo, formatDayMonth, formatShortDate } from '../li
 import { ARCHIVE_DAYS } from '../lib/archive';
 import { CategoryChip } from './CategoryChip';
 import { SourceList } from './SourceList';
-import { VerifiedBadge } from './VerifiedBadge';
 import { SwipeToReveal } from './SwipeToReveal';
 import { GlossaryText } from './GlossaryText';
 import { VoteButtons } from './VoteButtons';
@@ -193,7 +192,6 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
                 </span>
               )}
               <SourceList sources={item.sources} />
-              {item.verified && <VerifiedBadge />}
             </div>
             <div className="item__bar">
               <div className="item__bar-votes" role="group" aria-label={t.voteLabel} title={t.voteLabel}>
