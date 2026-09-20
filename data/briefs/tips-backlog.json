@@ -1999,6 +1999,64 @@
       ],
       "added": "2026-09-18",
       "used": "2026-09-18"
+    },
+    {
+      "slug": "tip-gemini-notebook-voice-conversations",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-09-15",
+      "title": {
+        "cs": "Gemini Notebook teď s tebou umí mluvit o tvých zdrojích",
+        "en": "Gemini Notebook can now talk with you about your sources"
+      },
+      "summary": {
+        "cs": "Gemini Notebook od 15. září umí vést hlasový rozhovor přímo nad tvými nahranými zdroji, a to téměř ve 100 jazycích — zeptáš se, přerušíš, doptáš se dál. Appka na mobilu (Android i iOS) navíc přidala i nahrávání přednášek a poznámek, co se rovnou uloží vedle zdrojů k citaci.",
+        "en": "Gemini Notebook has offered real-time voice conversations about your uploaded sources since September 15, in nearly 100 languages — ask, interrupt, follow up. The mobile app (Android and iOS) also gained a built-in recorder for lectures and notes, saved right alongside your sources for citation."
+      },
+      "why": {
+        "cs": "Otevři appku Gemini Notebook na mobilu, vyber zdroje a ťukni na ikonu hlasového rozhovoru — funguje uživatelům od 18 let, zatím jen v appce, ne na webu.",
+        "en": "Open the Gemini Notebook mobile app, pick your sources, and tap the voice-chat icon — it's limited to users 18 and older, and only in the app, not on the web yet."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/new-back-to-school-features-and-learning-tools-available-in-Gemini-Notebook.html"
+        },
+        {
+          "name": "Android Authority",
+          "url": "https://www.androidauthority.com/gemini-notebook-new-features-september-2026-3711726/"
+        }
+      ],
+      "added": "2026-09-20",
+      "used": "2026-09-20"
+    },
+    {
+      "slug": "tip-github-copilot-auto-model-tiers",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-09-14",
+      "title": {
+        "cs": "GitHub Copilot si teď sám vybere model podle potřeby",
+        "en": "GitHub Copilot now picks its own model to fit the task"
+      },
+      "summary": {
+        "cs": "GitHub Copilot od 14. září nabízí v automatickém výběru modelu tři úrovně — efektivitu, vyváženost a inteligenci — podle toho, jestli chceš upřednostnit cenu, kvalitu nebo rychlost odpovědi. Copilot tak pro každý dotaz zvlášť vybere nejvhodnější model; platí se podle modelu, který si auto vybral, bez ohledu na zvolenou úroveň.",
+        "en": "Since September 14, GitHub Copilot's automatic model selection offers three tiers — efficiency, balance, and intelligence — letting you weigh cost, quality, or response speed. Copilot evaluates each prompt individually to pick the best-suited model; you're billed for whichever model auto selects, regardless of the tier."
+      },
+      "why": {
+        "cs": "V nastavení Copilotu zapni automatický výběr modelu a zvol úroveň podle toho, jestli řešíš rutinní úkol, nebo něco náročnějšího — ušetříš tokeny i čas ručním přepínáním modelů.",
+        "en": "Turn on automatic model selection in Copilot's settings and pick a tier based on whether you're doing routine work or something harder — it saves you tokens and time switching models by hand."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection/"
+        }
+      ],
+      "added": "2026-09-20",
+      "used": "2026-09-20"
     }
   ]
 }

@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-20",
+  "updated": "2026-09-20",
   "terms": [
+    {
+      "id": "misalignment",
+      "term": { "cs": "Nesouladnost modelu (misalignment)", "en": "Model misalignment" },
+      "aliases": ["misalignment", "nesouladnost", "nesouladnosti", "nesouladný", "nesouladné", "model misalignment"],
+      "short": {
+        "cs": "Když se AI model chová v rozporu se zadáním nebo záměrem tvůrců — třeba zakrývá chyby nebo obchází pravidla, aniž by to někdo naučil.",
+        "en": "When an AI model behaves against its instructions or its creators' intent — for example hiding mistakes or working around rules, without being taught to."
+      }
+    },
     {
       "id": "llm",
       "term": { "cs": "Velký jazykový model (LLM)", "en": "Large language model (LLM)" },

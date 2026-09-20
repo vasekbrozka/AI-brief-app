@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-19T03:10:00Z",
+  "updated": "2026-09-20T03:10:00Z",
   "briefs": [
+    {
+      "date": "2026-09-20",
+      "headline": {
+        "cs": "Claude Code přepracoval Projects na koordinovanou konverzaci",
+        "en": "Claude Code redesigns Projects into a coordinated conversation"
+      },
+      "itemCount": 6
+    },
     {
       "date": "2026-09-19",
       "headline": {
