@@ -170,7 +170,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     todayEmptyTitle: 'Dnešní brief se připravuje',
     todayEmptyBody: 'Ještě není hotový. Zkus to za chvíli.',
     viewToday: 'Dnes',
-    viewWeek: 'Top shots tento týden',
+    viewWeek: 'Top shots',
     weekSubtitle: 'To nejdůležitější z uplynulého týdne',
     weekEmpty: 'Zatím tu nic není. Top shots se objeví, jakmile bude z čeho vybírat.',
 
@@ -264,7 +264,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseFixedLabel: 'Opraveno',
     releaseAdded: [
       'Proč zbystřit: u každé novinky věta dvě o tom, co z ní plyne pro tebe',
-      'Top shots tento týden: přepínač na obrazovce Brief s hlavními zprávami posledních sedmi dnů',
+      'Top shots: přepínač na obrazovce Brief s hlavními zprávami posledních sedmi dnů',
       'Co se chystá: termíny, které se blíží, s datem a zdrojem',
       'Na vyzkoušení: seznam funkcí z posledních týdnů s odškrtáváním, dá se vypnout v Nastavení',
       'Zrnko dne ze slovníčku',
@@ -339,7 +339,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     todayEmptyTitle: 'Today’s brief is on the way',
     todayEmptyBody: 'It’s not ready yet. Check back soon.',
     viewToday: 'Today',
-    viewWeek: 'This week’s top shots',
+    viewWeek: 'Top shots',
     weekSubtitle: 'The week’s essential stories',
     weekEmpty: 'Nothing here yet. Top shots appear once there is a week to pick from.',
 

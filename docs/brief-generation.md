@@ -226,7 +226,7 @@ seřazených podle data:
 
 Nedělní brief (`date -u -d <dnešek> +%u` dá `7`) nese navíc ohlédnutí za týdnem —
 **4–6 položek** z briefů posledních 7 dnů, seřazených podle důležitosti. Appka má pohled
-„Top shots tento týden": ve všední dny ukazuje hlavní zprávy posledních sedmi briefů,
+„Top shots": ve všední dny ukazuje hlavní zprávy posledních sedmi briefů,
 v neděli místo nich tento kurátorovaný výběr (karty odkazovaných položek v tomto pořadí).
 
 - Každá položka odkazuje na existující zprávu z archivu: `date`, `id` a **doslovně

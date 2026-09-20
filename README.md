@@ -14,13 +14,13 @@ z GitHubu.
 - 📱 **PWA** — přidání na plochu iPhonu, celoobrazovkový režim, funguje offline (service worker)
 - 🌗 **Světlý / tmavý / automatický** motiv ve stylu Apple
 - 🇨🇿 🇬🇧 **Dvojjazyčně** — přepínač CS / EN v Nastavení
-- 🗂️ **Tři záložky** — Brief (přepínač Dnes / Top shots tento týden), Archiv (posledních
+- 🗂️ **Tři záložky** — Brief (přepínač Dnes / Top shots), Archiv (posledních
   14 dní + Uložené), Nastavení
 - ✅ **Ověřování** — u každé zprávy zdroje, datum události a odznak „Ověřeno"
   (oficiální zdroj, nebo dvě nezávislá média)
 - 💡 **Proč zbystřit** — u každé zprávy věta dvě, co z ní plyne pro čtenáře; u tipů
   „Jak na to"
-- 🏆 **Top shots tento týden** — hlavní zprávy posledních sedmi dnů jako karty (nedělní
+- 🏆 **Top shots** — hlavní zprávy posledních sedmi dnů jako karty (nedělní
   brief může výběr kurátorovat přes `weekInReview`)
 - 📅 **Co se chystá** — nadcházející termíny (vydání, konference, lhůty, soudy)
 - 🧠 **Po dočtení je co dělat** — „Na vyzkoušení" s funkcemi z posledních týdnů
