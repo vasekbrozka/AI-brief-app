@@ -2640,11 +2640,11 @@ button.thread:active .thread__title {
   grid-row: 1 / 3;
 }
 
-/* A folded title is a hint, not the headline: it stops around two thirds of
-   the card, well short of the check, and trails off over its last 56px. */
+/* A folded title is a hint, not the headline: it stops well short of the
+   check (about 40px of air before it) and trails off over its last 56px. */
 .item--folded .item__title {
   grid-column: 1;
-  max-width: min(66%, 270px);
+  max-width: min(90%, 300px);
   margin-top: 8px;
   font-size: 15.5px;
   color: var(--text-secondary);
