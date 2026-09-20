@@ -1617,218 +1617,6 @@ button.thread:active .thread__title {
   }
 }
 
-/* Reading-streak card — consecutive days + the week as a chain of dots.
-   Colour (--tier) escalates with the streak level. */
-/* Section label introducing the streak card, so the habit tracker never reads
-   as just another news card. Mirrors the "read" divider for a coherent feed. */
-.streak-divider {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin: 26px 2px 14px;
-  color: var(--text-tertiary);
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-.streak-divider::before,
-.streak-divider::after {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: var(--separator);
-}
-.streak-divider + .streakcard {
-  margin-top: 0;
-}
-
-.streakcard {
-  --tier: var(--accent);
-  --tier-soft: color-mix(in srgb, var(--tier) 13%, transparent);
-  position: relative;
-  margin-top: 22px;
-  padding: 18px 18px 16px;
-  border: 1px solid var(--hairline);
-  border-radius: var(--radius);
-  background: var(--surface);
-  box-shadow: var(--shadow-sm);
-}
-.streakcard[data-tier='0'] { --tier: #0071e3; }
-.streakcard[data-tier='1'] { --tier: #0e9e97; }
-.streakcard[data-tier='2'] { --tier: #b4620a; }
-.streakcard[data-tier='3'] { --tier: #e0592b; }
-.streakcard[data-tier='4'] { --tier: #d33a3a; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) .streakcard[data-tier='0'] { --tier: #0a84ff; }
-  :root:not([data-theme='light']) .streakcard[data-tier='1'] { --tier: #40d0c8; }
-  :root:not([data-theme='light']) .streakcard[data-tier='2'] { --tier: #ff9f45; }
-  :root:not([data-theme='light']) .streakcard[data-tier='3'] { --tier: #ff7a4d; }
-  :root:not([data-theme='light']) .streakcard[data-tier='4'] { --tier: #ff5c5c; }
-}
-:root[data-theme='dark'] .streakcard[data-tier='0'] { --tier: #0a84ff; }
-:root[data-theme='dark'] .streakcard[data-tier='1'] { --tier: #40d0c8; }
-:root[data-theme='dark'] .streakcard[data-tier='2'] { --tier: #ff9f45; }
-:root[data-theme='dark'] .streakcard[data-tier='3'] { --tier: #ff7a4d; }
-:root[data-theme='dark'] .streakcard[data-tier='4'] { --tier: #ff5c5c; }
-
-.streakcard.is-milestone {
-  border-color: var(--tier);
-  background: linear-gradient(var(--tier-soft), var(--tier-soft)), var(--surface);
-}
-
-.sc__head {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-
-.sc__num {
-  font-size: 38px;
-  font-weight: 750;
-  letter-spacing: -0.03em;
-  line-height: 1;
-  color: var(--tier);
-  font-variant-numeric: tabular-nums;
-  animation: sc-num 0.42s cubic-bezier(0.3, 1.3, 0.5, 1) both;
-}
-
-.sc__meta {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  min-width: 0;
-}
-
-.sc__title {
-  font-size: 16px;
-  font-weight: 650;
-  letter-spacing: -0.01em;
-  color: var(--text);
-  text-wrap: balance;
-}
-
-.streakcard.is-starter .sc__title {
-  font-weight: 600;
-  color: var(--text-secondary);
-}
-
-.sc__sub {
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--tier);
-  font-variant-numeric: tabular-nums;
-}
-
-/* Week row */
-.sc__week {
-  display: flex;
-  margin-top: 16px;
-}
-
-.sc__day {
-  position: relative;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 7px;
-}
-
-/* Chain link to the next day when both are done */
-.sc__day.has-chain::before {
-  content: '';
-  position: absolute;
-  top: 15px;
-  left: 50%;
-  width: 100%;
-  height: 3px;
-  background: var(--tier);
-  transform: translateY(-50%);
-  z-index: 0;
-}
-
-.sc__dot {
-  position: relative;
-  z-index: 1;
-  display: grid;
-  place-items: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 999px;
-  background: var(--fill);
-  color: #fff;
-}
-
-.sc__dot.is-done {
-  background: var(--tier);
-}
-
-.sc__dot.is-missed {
-  background: transparent;
-  box-shadow: inset 0 0 0 2px var(--hairline);
-}
-
-.sc__dot.is-future {
-  background: transparent;
-  box-shadow: inset 0 0 0 2px var(--hairline);
-  opacity: 0.45;
-}
-
-/* Today, still in progress: a ring that fills with today's reading */
-.sc__dot.is-progress {
-  background:
-    radial-gradient(circle 11px at center, var(--surface) 96%, transparent 100%),
-    conic-gradient(var(--tier) calc(var(--tp, 0) * 360deg), var(--fill) 0);
-  animation: sc-pulse 1.9s ease-in-out infinite;
-}
-
-.sc__dot.is-today.is-done {
-  box-shadow: 0 0 0 4px var(--tier-soft);
-}
-
-.streakcard.is-celebrate .sc__dot.is-today.is-done {
-  animation: sc-pop 0.5s cubic-bezier(0.3, 1.4, 0.5, 1) both;
-}
-
-.sc__day small {
-  font-size: 10.5px;
-  font-weight: 500;
-  color: var(--text-tertiary);
-}
-
-.sc__day small.is-today {
-  color: var(--tier);
-  font-weight: 700;
-}
-
-.sc__banner {
-  margin-top: 14px;
-  text-align: center;
-  font-size: 13.5px;
-  font-weight: 700;
-  color: var(--tier);
-}
-
-/* Celebration beans burst from near the streak number */
-.sc__beans {
-  position: absolute;
-  top: 32px;
-  left: 34px;
-  width: 0;
-  height: 0;
-  z-index: 5;
-  pointer-events: none;
-}
-.sc__beans span {
-  position: absolute;
-  width: 7px;
-  height: 9px;
-  border-radius: 60% 60% 55% 55%;
-  background: var(--tier);
-  animation: sc-bean 1s ease-out forwards;
-}
-
 .setting-hint--streak {
   margin-top: 10px;
   color: var(--accent);
@@ -1851,33 +1639,13 @@ button.thread:active .thread__title {
   color: var(--text-tertiary);
 }
 
-@keyframes sc-num {
-  from { transform: scale(0.6); opacity: 0; }
-}
-@keyframes sc-pop {
-  0% { transform: scale(0.5); }
-  60% { transform: scale(1.18); }
-  100% { transform: scale(1); }
-}
-@keyframes sc-pulse {
-  0% { box-shadow: 0 0 0 0 var(--tier-soft); }
-  70%, 100% { box-shadow: 0 0 0 7px transparent; }
-}
-@keyframes sc-bean {
-  0% { opacity: 0; transform: rotate(calc(var(--i) * 45deg)) translateY(0) scale(0.5); }
-  30% { opacity: 1; }
-  100% { opacity: 0; transform: rotate(calc(var(--i) * 45deg)) translateY(-46px) scale(1); }
-}
 
 @media (prefers-reduced-motion: reduce) {
   .swipe__fg,
   .swipe__action-btn {
     transition: none;
   }
-  .toast,
-  .sc__num,
-  .sc__dot,
-  .sc__beans span {
+  .toast {
     animation: none;
   }
 }
@@ -2255,7 +2023,7 @@ button.week__row:active {
   opacity: 0.7;
 }
 
-/* ---- After the reading: quiz, try-it checklist, term of the day ------------
+/* ---- After the reading: try-it checklist, term of the day ------------------
    Shared card surface for the sections that give the reader something to do
    once the stories are read. */
 .panel {
@@ -2264,145 +2032,6 @@ button.week__row:active {
   background: var(--surface);
   box-shadow: var(--shadow-sm);
   padding: 16px 18px;
-}
-
-/* Daily quiz */
-.quiz__meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 10px;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--text-tertiary);
-}
-
-.quiz__verdict.is-correct {
-  color: var(--verified);
-}
-
-.quiz__verdict.is-wrong {
-  color: var(--c-pink);
-}
-
-.quiz__q {
-  margin-top: 10px;
-  font-size: 17px;
-  font-weight: 600;
-  line-height: 1.35;
-  letter-spacing: -0.01em;
-}
-
-.quiz__opts {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-top: 14px;
-}
-
-.quiz__opt {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  width: 100%;
-  padding: 11px 12px;
-  border: 1px solid var(--hairline);
-  border-radius: var(--radius-sm);
-  background: var(--bg);
-  color: var(--text);
-  font: inherit;
-  font-size: 15px;
-  text-align: left;
-  cursor: pointer;
-  transition: background-color 0.15s ease, border-color 0.15s ease, opacity 0.15s ease;
-}
-
-.quiz__opt:disabled {
-  cursor: default;
-}
-
-.quiz__opt:not(:disabled):active {
-  background: var(--fill);
-}
-
-.quiz__letter {
-  flex: 0 0 auto;
-  width: 26px;
-  height: 26px;
-  display: grid;
-  place-items: center;
-  border-radius: 999px;
-  background: var(--fill);
-  color: var(--text-secondary);
-  font-size: 12.5px;
-  font-weight: 700;
-}
-
-.quiz__opt.is-correct {
-  border-color: var(--verified);
-  background: color-mix(in srgb, var(--verified) 12%, var(--surface));
-}
-
-.quiz__opt.is-correct .quiz__letter {
-  background: var(--verified);
-  color: #fff;
-}
-
-.quiz__opt.is-wrong {
-  border-color: var(--c-pink);
-  background: var(--c-pink-bg);
-}
-
-.quiz__opt.is-wrong .quiz__letter {
-  background: var(--c-pink);
-  color: #fff;
-}
-
-.quiz__opt.is-dim {
-  opacity: 0.55;
-}
-
-.quiz__explain {
-  margin-top: 12px;
-  font-size: 14.5px;
-  line-height: 1.48;
-  color: var(--text-secondary);
-}
-
-.quiz__next {
-  margin-top: 14px;
-}
-
-.quiz__panel--result {
-  text-align: center;
-  padding: 22px 18px;
-}
-
-.quiz__score {
-  font-size: 40px;
-  font-weight: 700;
-  letter-spacing: -0.03em;
-  line-height: 1;
-  color: var(--accent);
-  font-variant-numeric: tabular-nums;
-}
-
-.quiz__result-title {
-  margin-top: 8px;
-  font-size: 17px;
-  font-weight: 600;
-}
-
-.quiz__result-sub {
-  margin-top: 3px;
-  font-size: 14px;
-  color: var(--text-secondary);
-}
-
-.quiz__panel--result .link-btn {
-  margin-top: 12px;
 }
 
 /* Try it yourself — checklist */
@@ -2720,32 +2349,11 @@ button.week__row:active {
   }
 }
 
-@keyframes shake {
-  0%,
-  100% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(-4px);
-  }
-  75% {
-    transform: translateX(4px);
-  }
-}
 
-@keyframes ring-ok {
-  from {
-    box-shadow: 0 0 0 0 color-mix(in srgb, var(--verified) 45%, transparent);
-  }
-  to {
-    box-shadow: 0 0 0 12px transparent;
-  }
-}
 
 .vote-btn,
 .try__check,
 .read-toggle__circle,
-.quiz__opt,
 .share-brief,
 .btn,
 .cat-toggle,
@@ -2796,27 +2404,6 @@ button.week__row:active {
 
 .read-toggle.is-read .read-toggle__circle {
   animation: pop 0.3s cubic-bezier(0.2, 0.8, 0.3, 1.2);
-}
-
-.quiz__opt {
-  transition: background-color 0.15s ease, border-color 0.15s ease, opacity 0.15s ease,
-    transform 0.12s ease;
-}
-
-.quiz__opt:not(:disabled):active {
-  transform: scale(0.985);
-}
-
-.quiz__opt.is-correct {
-  animation: ring-ok 0.55s ease-out;
-}
-
-.quiz__opt.is-wrong {
-  animation: shake 0.35s ease;
-}
-
-.quiz__score {
-  animation: pop 0.45s cubic-bezier(0.2, 0.8, 0.3, 1.2);
 }
 
 .share-brief,
@@ -2873,4 +2460,123 @@ button.week__row:active,
 .try__row.is-folded {
   padding-top: 11px;
   padding-bottom: 11px;
+}
+
+/* ---- Reading streak strip ------------------------------------------------------
+   One quiet row under the title: days in a row and the tier on the left, the
+   week as seven dots on the right. The active dot fills with the day's
+   progress and pops once the day counts. Colour escalates with the tier. */
+.streakbar {
+  --tier: var(--accent);
+  --tier-soft: color-mix(in srgb, var(--tier) 14%, transparent);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 2px 0 14px;
+  padding: 9px 12px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  box-shadow: var(--shadow-xs);
+}
+.streakbar[data-tier='0'] { --tier: #0071e3; }
+.streakbar[data-tier='1'] { --tier: #0e9e97; }
+.streakbar[data-tier='2'] { --tier: #b4620a; }
+.streakbar[data-tier='3'] { --tier: #e0592b; }
+.streakbar[data-tier='4'] { --tier: #d33a3a; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .streakbar[data-tier='0'] { --tier: #0a84ff; }
+  :root:not([data-theme='light']) .streakbar[data-tier='1'] { --tier: #40d0c8; }
+  :root:not([data-theme='light']) .streakbar[data-tier='2'] { --tier: #ff9f45; }
+  :root:not([data-theme='light']) .streakbar[data-tier='3'] { --tier: #ff7a4d; }
+  :root:not([data-theme='light']) .streakbar[data-tier='4'] { --tier: #ff5c5c; }
+}
+:root[data-theme='dark'] .streakbar[data-tier='0'] { --tier: #0a84ff; }
+:root[data-theme='dark'] .streakbar[data-tier='1'] { --tier: #40d0c8; }
+:root[data-theme='dark'] .streakbar[data-tier='2'] { --tier: #ff9f45; }
+:root[data-theme='dark'] .streakbar[data-tier='3'] { --tier: #ff7a4d; }
+:root[data-theme='dark'] .streakbar[data-tier='4'] { --tier: #ff5c5c; }
+
+.streakbar__icon {
+  flex: 0 0 auto;
+  color: var(--tier);
+}
+
+.streakbar__text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  line-height: 1.2;
+}
+
+.streakbar__count {
+  font-size: 14px;
+  font-weight: 650;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.streakbar.is-starter .streakbar__count {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  white-space: normal;
+}
+
+.streakbar__tier {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--tier);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.streakbar__week {
+  flex: 0 0 auto;
+  display: flex;
+  gap: 6px;
+}
+
+.streakbar__dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--fill);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.streakbar__dot.is-done {
+  background: var(--tier);
+}
+
+.streakbar__dot.is-missed {
+  background: transparent;
+  box-shadow: inset 0 0 0 1.5px var(--separator);
+}
+
+.streakbar__dot.is-future {
+  background: transparent;
+  box-shadow: inset 0 0 0 1.5px var(--hairline);
+}
+
+/* The brief being read: a ring that fills with the day's progress. */
+.streakbar__dot.is-progress {
+  background:
+    radial-gradient(circle 3.5px at center, var(--surface) 96%, transparent 100%),
+    conic-gradient(var(--tier) calc(var(--tp, 0) * 360deg), var(--fill) 0);
+}
+
+.streakbar__dot.is-active.is-done {
+  box-shadow: 0 0 0 3px var(--tier-soft);
+}
+
+.streakbar.is-celebrate .streakbar__dot.is-active,
+.streakbar.is-celebrate .streakbar__icon {
+  animation: pop 0.5s cubic-bezier(0.3, 1.4, 0.5, 1) both;
 }

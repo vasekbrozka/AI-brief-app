@@ -45,15 +45,7 @@ export interface UIStrings {
   shareBriefLabel: string;
   shareBriefArchiveLabel: string;
 
-  // After the reading: daily quiz, try-it checklist, term of the day
-  quizTitle: string;
-  quizNext: string;
-  quizShowResult: string;
-  quizRetry: string;
-  quizCorrect: string;
-  quizWrong: string;
-  /** Result titles for 0, 1, 2 and 3 correct answers. */
-  quizResultTitles: string[];
+  // After the reading: try-it checklist, term of the day
   tryTitle: string;
   tryHint: string;
   tryAll: string;
@@ -131,12 +123,9 @@ export interface UIStrings {
   /** Read cards fold to their title; the title toggles the body. */
   unfoldLabel: string;
   foldLabel: string;
-  /** Section label shown above the reading-streak card in the brief. */
-  streakSectionLabel: string;
-  /** Streak-tier titles for the finished-brief ritual, mildest first. */
+  /** Streak-tier titles for the strip under the title, mildest first. */
   streakLevels: string[];
   streakStart: string;
-  streakTodayLeft: string;
   sectionReading: string;
   hideReadLabel: string;
   hideReadHint: string;
@@ -146,6 +135,8 @@ export interface UIStrings {
   gamifyCurrentLabel: string;
   glossaryLabel: string;
   glossaryHint: string;
+  tryListLabel: string;
+  tryListHint: string;
 
   // Notifications
   sectionNotifications: string;
@@ -190,13 +181,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     shareBriefLabel: 'Nalít kafe i ostatním',
     shareBriefArchiveLabel: 'Nalít i ostatním',
 
-    quizTitle: 'Degustace dne',
-    quizNext: 'Další lok',
-    quizShowResult: 'Dopít',
-    quizRetry: 'Ještě jednu rundu',
-    quizCorrect: 'Přesná dávka!',
-    quizWrong: 'Vylito.',
-    quizResultTitles: ['Kafe bez kofeinu', 'Slabší odvar', 'Solidní espresso', 'Barista roku'],
     tryTitle: 'Ochutnávka',
     tryHint: 'Novinky z posledních týdnů, které stojí za doušek. Odškrtni, co už jsi ochutnal.',
     tryAll: 'Celý lístek',
@@ -260,13 +244,13 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Tipy k vyzkoušení mají štítek Vyzkoušej a návod, kde funkci najdeš',
       'Datum události u každé novinky, ať víš, jestli jde o včerejšek nebo minulý týden',
       '„Týden v AI“ — nedělní ohlédnutí za událostmi týdne s odkazy do archivu',
-      '„Kvíz dne“ — tři otázky z dnešního přehledu, ať se čtení uloží',
       '„Vyzkoušej si“ — checklist funkcí z posledních týdnů, odškrtávej, co jsi zkusil',
       '„Pojem dne“ ze slovníčku',
       'Sdílení celého přehledu jedním ťuknutím',
       'Palec nahoru nebo dolů u každé novinky i u celého dne — anonymně, jen počítadlo, a vidíš, jak hlasují ostatní; generátor podle toho ladí výběr',
     ],
     releaseImproved: [
+      'Série čtení je lišta pod nadpisem a den se počítá po první přečtené novince, ne až po všech',
       'Archiv drží dva týdny místo jednoho a odkazy „Navazuje na“ tak fungují déle',
       'Přísnější ověřování: Ověřeno znamená oficiální zdroj, nebo dvě nezávislá média',
       'Přečtená novinka se sbalí na titulek a zůstane na místě; ťuknutím ji zase rozbalíš',
@@ -297,7 +281,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     markUnread: 'Označit jako nepřečtené',
     unfoldLabel: 'Rozbalit',
     foldLabel: 'Sbalit',
-    streakSectionLabel: 'Série čtení',
     streakLevels: [
       'Jen na skok',
       'Lehká závislost',
@@ -305,17 +288,18 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Bez dávky nefunguje',
       'Tlak 180. Přehled 100 %.',
     ],
-    streakStart: 'Dočti dnešní brief a nastartuj sérii',
-    streakTodayLeft: 'Ještě dnešek, ať série žije',
+    streakStart: 'Přečti první novinku a nastartuj sérii',
     sectionReading: 'Čtení',
     hideReadLabel: 'Skrýt přečtené',
     hideReadHint: 'Přečtené novinky zmizí z přehledu. Jinak se jen sbalí na titulek a zůstanou na místě.',
     clearReadLabel: 'Označit vše jako nepřečtené',
     gamifyLabel: 'Série čtení',
-    gamifyHint: 'Týdenní série — dnešek se plní, jak čteš, a dočtený den drží sérii.',
+    gamifyHint: 'Lišta pod nadpisem. Den se počítá po první přečtené novince, tečka se plní, jak čteš dál.',
     gamifyCurrentLabel: 'Aktuální série',
     glossaryLabel: 'Vysvětlivky pojmů',
     glossaryHint: 'Odborné pojmy v přehledu podtrhneme — ťuknutím zobrazíš prosté vysvětlení.',
+    tryListLabel: 'Ochutnávka',
+    tryListHint: 'Checklist funkcí k vyzkoušení na konci přehledu.',
 
     sectionNotifications: 'Upozornění',
     notifyLabel: 'Ranní upozornění',
@@ -357,13 +341,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     shareBriefLabel: 'Pour one for a friend',
     shareBriefArchiveLabel: 'Pour one for a friend',
 
-    quizTitle: "Today's tasting",
-    quizNext: 'Next sip',
-    quizShowResult: 'Drink up',
-    quizRetry: 'Another round',
-    quizCorrect: 'Perfect dose!',
-    quizWrong: 'Spilled.',
-    quizResultTitles: ['Decaf', 'A weak brew', 'A solid espresso', 'Barista of the year'],
     tryTitle: 'The sampler',
     tryHint: 'Fresh features worth a sip. Tick off what you have tasted.',
     tryAll: 'The full menu',
@@ -427,13 +404,13 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Tips you can try carry a Try it badge and a note on where to find the feature',
       'The event date on every story, so you know whether it happened yesterday or last week',
       '"The week in AI" — a Sunday look back at the week\'s key stories, linked into the archive',
-      '"Daily quiz" — three questions on today\'s brief, so the reading sticks',
       '"Try it yourself" — a checklist of recent features; tick off what you have tried',
       '"Term of the day" from the glossary',
       'Share the whole brief with one tap',
       'Thumbs up or down on every story and on the whole day — anonymous, just a counter, and you see how others voted; the generator tunes its picks by it',
     ],
     releaseImproved: [
+      'The reading streak is a strip under the title and a day counts after the first story read, not all of them',
       'The archive keeps two weeks instead of one, so "Follows up on" links work longer',
       'Stricter verification: Verified means an official source, or two independent outlets',
       'A read story folds to its title and stays in place; tap it to unfold',
@@ -464,7 +441,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     markUnread: 'Mark as unread',
     unfoldLabel: 'Unfold',
     foldLabel: 'Fold',
-    streakSectionLabel: 'Reading streak',
     streakLevels: [
       'Just One Quick Shot',
       'Mildly Addicted',
@@ -472,17 +448,18 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Can’t Function Without a Shot',
       'Blood Pressure: 180. Fully Briefed.',
     ],
-    streakStart: "Finish today's brief to start a streak",
-    streakTodayLeft: 'Finish today to keep the streak alive',
+    streakStart: 'Read one story to start a streak',
     sectionReading: 'Reading',
     hideReadLabel: 'Hide read items',
     hideReadHint: 'Read stories leave the brief. Otherwise they fold to their title and stay in place.',
     clearReadLabel: 'Mark all as unread',
     gamifyLabel: 'Reading streak',
-    gamifyHint: 'A weekly streak — today fills as you read, and finishing the day keeps it alive.',
+    gamifyHint: 'The strip under the title. A day counts after the first story read; the dot fills as you read on.',
     gamifyCurrentLabel: 'Current streak',
     glossaryLabel: 'Term explanations',
     glossaryHint: 'We underline technical terms in the brief — tap one for a plain explanation.',
+    tryListLabel: 'The sampler',
+    tryListHint: 'The try-it checklist at the end of the brief.',
 
     sectionNotifications: 'Notifications',
     notifyLabel: 'Morning alert',

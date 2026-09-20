@@ -8,18 +8,17 @@ import { useStreak } from '../providers/StreakProvider';
 import { useVotes } from '../providers/VotesProvider';
 import { VoteButtons } from './VoteButtons';
 import { BriefItemCard } from './BriefItemCard';
-import { DailyQuiz } from './DailyQuiz';
 import { TryList } from './TryList';
 import { TermOfDay } from './TermOfDay';
 import { RadarSection } from './RadarSection';
 import { WeekReviewSection } from './WeekReviewSection';
-import { WeekStreak } from './WeekStreak';
+import { StreakStrip } from './StreakStrip';
 import { Icon } from './Icon';
 
 export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: boolean }) {
-  const { lang, t, hideRead, mutedCategories, gamification } = useSettings();
+  const { lang, t, hideRead, mutedCategories, gamification, tryListEnabled } = useSettings();
   const { isRead } = useRead();
-  const { currentStreak, markFinished } = useStreak();
+  const { markFinished } = useStreak();
   // One thumb for the whole day, counted under "<date>-brief".
   const dayId = `${brief.date}-brief`;
   const dayVote = useVotes().voteFor(dayId);
@@ -37,16 +36,15 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
   // Read cards fold to their title and stay in place; "hide read" drops them.
   const listed = hideRead ? shown.filter((item) => !isRead(item.id)) : shown;
 
-  // Today's reading progress drives the streak card; all read = day finished.
-  const todayProgress = shown.length ? readShownCount / shown.length : 0;
-  const done = shown.length > 0 && readShownCount === shown.length;
-  // Show once there's something to track — never greet a fresh morning with 0.
-  const showCard =
-    isToday && gamification && shown.length > 0 && (readShownCount > 0 || currentStreak > 0);
+  // The streak: a day counts as soon as one story of that day's brief is read;
+  // the strip's dot keeps filling until every story is read.
+  const progress = shown.length ? readShownCount / shown.length : 0;
+  const started = readShownCount > 0;
+  const showStrip = isToday && gamification && shown.length > 0;
 
   useEffect(() => {
-    if (isToday && gamification && done) markFinished();
-  }, [isToday, gamification, done, markFinished]);
+    if (isToday && gamification && started) markFinished(brief.date);
+  }, [isToday, gamification, started, brief.date, markFinished]);
 
   // The week's look-back and the upcoming dates sit below the stories in both
   // Today and the archive; they are not part of the read/unread flow, so they
@@ -74,6 +72,7 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
 
   return (
     <div className="brief">
+      {showStrip && <StreakStrip progress={progress} done={started} activeIso={brief.date} />}
 
       {!isToday ? (
         // Archive is a read-only browse: every story is shown, the read state
@@ -99,26 +98,13 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
             </div>
           )}
 
-          {/* The streak card is the reward for finishing the reading, so it
-              follows the cards directly — its celebration must not fire off-screen. */}
-          {showCard && (
-            <>
-              <div className="streak-divider">
-                <span>{t.streakSectionLabel}</span>
-              </div>
-              <WeekStreak todayProgress={todayProgress} done={done} />
-            </>
-          )}
-
-          {/* Reasons to come back after the reading: test yourself, try the
-              recent features, learn a term. Today only — the archive is a browse. */}
-          {brief.quiz && brief.quiz.length > 0 && (
-            <DailyQuiz key={brief.date} date={brief.date} quiz={brief.quiz} />
-          )}
-          <TryList />
+          {/* After the stories: a term to learn, then the week and the dates
+              ahead, and the try-it checklist last (optional in Settings). */}
           <TermOfDay date={brief.date} />
 
           {extras}
+
+          {tryListEnabled && <TryList />}
         </>
       )}
 

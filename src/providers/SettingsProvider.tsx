@@ -29,6 +29,9 @@ interface SettingsContextValue {
   /** Tap-to-explain glossary for AI terms — on by default, fully optional. */
   glossaryEnabled: boolean;
   setGlossaryEnabled: (v: boolean) => void;
+  /** "Try it" checklist at the end of the brief — on by default, fully optional. */
+  tryListEnabled: boolean;
+  setTryListEnabled: (v: boolean) => void;
   /** Localized UI strings for the current language. */
   t: UIStrings;
 }
@@ -46,6 +49,7 @@ const HIDE_READ_DEFAULTED_KEY = 'aibrief.hideRead.default3';
 const MUTED_CATEGORIES_KEY = 'aibrief.mutedCategories';
 const GAMIFICATION_KEY = 'aibrief.gamification';
 const GLOSSARY_KEY = 'aibrief.glossary';
+const TRY_LIST_KEY = 'aibrief.tryList';
 
 function detectInitialLang(): Lang {
   try {
@@ -109,6 +113,15 @@ function detectInitialGlossary(): boolean {
   }
 }
 
+function detectInitialTryList(): boolean {
+  try {
+    // Default on — only an explicit "0" disables it.
+    return localStorage.getItem(TRY_LIST_KEY) !== '0';
+  } catch {
+    return true;
+  }
+}
+
 export function SettingsProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>(detectInitialLang);
   const [theme, setTheme] = useState<Theme>(detectInitialTheme);
@@ -116,6 +129,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   const [mutedCategories, setMutedCategories] = useState<CategoryId[]>(detectInitialMuted);
   const [gamification, setGamification] = useState<boolean>(detectInitialGamification);
   const [glossaryEnabled, setGlossaryEnabled] = useState<boolean>(detectInitialGlossary);
+  const [tryListEnabled, setTryListEnabled] = useState<boolean>(detectInitialTryList);
 
   useEffect(() => {
     try {
@@ -172,6 +186,14 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     }
   }, [glossaryEnabled]);
 
+  useEffect(() => {
+    try {
+      localStorage.setItem(TRY_LIST_KEY, tryListEnabled ? '1' : '0');
+    } catch {
+      /* ignore */
+    }
+  }, [tryListEnabled]);
+
   const value = useMemo<SettingsContextValue>(
     () => ({
       lang,
@@ -190,9 +212,11 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       setGamification,
       glossaryEnabled,
       setGlossaryEnabled,
+      tryListEnabled,
+      setTryListEnabled,
       t: STRINGS[lang],
     }),
-    [lang, theme, hideRead, mutedCategories, gamification, glossaryEnabled],
+    [lang, theme, hideRead, mutedCategories, gamification, glossaryEnabled, tryListEnabled],
   );
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;

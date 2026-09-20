@@ -8,6 +8,7 @@ import {
 } from 'react';
 
 const STORAGE_KEY = 'aibrief.streak';
+const READ_KEY = 'aibrief.read'; // ReadProvider's ids, "<date>-slug" — the reading history
 const KEEP_DAYS = 45; // prune finished-day history beyond this
 
 export interface WeekDay {
@@ -24,8 +25,8 @@ interface StreakContextValue {
   finishedToday: boolean;
   /** This calendar week, Monday → Sunday, for the dot row. */
   week: WeekDay[];
-  /** Record that today's brief was cleared. Idempotent within a calendar day. */
-  markFinished: () => void;
+  /** Record that the brief of `iso` (default today) counts. Idempotent per day. */
+  markFinished: (iso?: string) => void;
 }
 
 function pad(n: number): string {
@@ -46,30 +47,51 @@ function addDays(d: Date, n: number): Date {
   return c;
 }
 
+/**
+ * Days with at least one story read, taken from the read ids ("<date>-slug").
+ * A day counts as soon as one story is read, so the reading history is the
+ * truth; this also repairs streaks recorded under the old all-read rule.
+ */
+function daysFromReadIds(cutoff: string): Set<string> {
+  const out = new Set<string>();
+  try {
+    const raw = localStorage.getItem(READ_KEY);
+    const ids = raw ? (JSON.parse(raw) as unknown) : [];
+    if (Array.isArray(ids)) {
+      for (const id of ids) {
+        const m = typeof id === 'string' ? /^(\d{4}-\d{2}-\d{2})-/.exec(id) : null;
+        if (m && m[1] >= cutoff) out.add(m[1]);
+      }
+    }
+  } catch {
+    /* ignore */
+  }
+  return out;
+}
+
 /** Load the set of finished days, migrating the old {streak,lastFinished} shape. */
 function load(): Set<string> {
+  const cutoff = isoOf(addDays(new Date(), -KEEP_DAYS));
+  const set = daysFromReadIds(cutoff);
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return new Set();
-    const p = JSON.parse(raw) as { finished?: unknown; streak?: unknown; lastFinished?: unknown };
+    const p = raw
+      ? (JSON.parse(raw) as { finished?: unknown; streak?: unknown; lastFinished?: unknown })
+      : {};
     if (Array.isArray(p.finished)) {
-      return new Set(p.finished.filter((x): x is string => typeof x === 'string'));
-    }
-    // Migrate: reconstruct a consecutive run ending at lastFinished so the
-    // existing streak survives the upgrade.
-    if (typeof p.streak === 'number' && p.streak >= 1 && typeof p.lastFinished === 'string') {
-      const set = new Set<string>();
+      for (const x of p.finished) if (typeof x === 'string' && x >= cutoff) set.add(x);
+    } else if (typeof p.streak === 'number' && p.streak >= 1 && typeof p.lastFinished === 'string') {
+      // Oldest shape: reconstruct a consecutive run ending at lastFinished.
       let d = fromISO(p.lastFinished);
       for (let i = 0; i < p.streak; i++) {
         set.add(isoOf(d));
         d = addDays(d, -1);
       }
-      return set;
     }
   } catch {
     /* ignore */
   }
-  return new Set();
+  return set;
 }
 
 function persist(set: Set<string>): void {
@@ -95,12 +117,12 @@ const StreakContext = createContext<StreakContextValue | null>(null);
 export function StreakProvider({ children }: { children: ReactNode }) {
   const [finished, setFinished] = useState<Set<string>>(load);
 
-  const markFinished = useCallback(() => {
+  const markFinished = useCallback((iso?: string) => {
     setFinished((prev) => {
-      const today = isoOf(new Date());
-      if (prev.has(today)) return prev;
+      const day = iso ?? isoOf(new Date());
+      if (prev.has(day)) return prev;
       const next = new Set(prev);
-      next.add(today);
+      next.add(day);
       // Prune anything older than KEEP_DAYS.
       const cutoff = isoOf(addDays(new Date(), -KEEP_DAYS));
       for (const iso of next) if (iso < cutoff) next.delete(iso);

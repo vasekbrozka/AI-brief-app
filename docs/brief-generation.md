@@ -1,4 +1,4 @@
-# AIspresso — recept pro denní generování briefu (v3.3)
+# AIspresso — recept pro denní generování briefu (v3.4)
 
 Tento soubor je **závazný recept**, podle kterého se každý den automaticky generuje nový
 brief. Naplánovaná (cron) Claude session dostane jednoduchý pokyn:
@@ -238,19 +238,6 @@ přes týden minul.
   že `id` existují a titulky sedí.
 - V jiné dny pole vynech.
 
-### 5c · Kvíz dne (`quiz`)
-
-Po dočtení má mít čtenář v appce co dělat — **tři otázky z faktů dnešního briefu**:
-
-- Každá otázka se váže na jinou položku (`itemId`) a ptá se na **konkrétní fakt ze
-  shrnutí**: číslo, datum, jméno, funkci, podmínku. Správná odpověď musí být ve shrnutí
-  doslova dohledatelná; nic, co by čtenář nemohl vědět z briefu.
-- **Přesně 3 možnosti**, stejného druhu (tři čísla, tři firmy…), věrohodné distraktory,
-  žádné „všechno výše". `answer` = index správné (0–2); pořadí appka míchá sama.
-- `question` ≤ 20 slov, končí otazníkem; možnosti ≤ 8 slov; `explain` 1 věta ≤ 25 slov,
-  která fakt zopakuje (čtenář ji uvidí po odpovědi).
-- Tón jako zbytek appky: věcný, žádné chytáky na slovíčka.
-
 ### 6 · Kontrola před publikací (povinná)
 
 Po zapsání všech souborů spusť z kořene repa:
@@ -263,8 +250,7 @@ python3 docs/check-brief.py
 - **WARN** → posuď; když je odchylka záměrná a odůvodněná, smí projít — důvod do deníku.
 - Skript kontroluje: platnost JSON a schéma v3, právě 1 highlight (ne tip), kategorie,
   `kind`, meze slov (titulek, shrnutí, `why`), **stáří `eventDate`** (zprávy 7 dní,
-  tipy 60), názvy dnů, ASCII uvozovky, kalky, **kvíz** (vazba na položky, 3 možnosti,
-  meze), zakázané domény,
+  tipy 60), názvy dnů, ASCII uvozovky, kalky, zakázané domény,
   paywall párování, **tiery zdrojů a definici ověřeno**, kanonická jména zdrojů, tipy
   (počet, backlog, žádné opakování), radar (data, meze, zdroje, řazení, **přenos ze
   včerejška**), **podobné titulky** proti posledním 14 dnům, `weekInReview`,
@@ -447,15 +433,6 @@ rumor, neohlášená funkce · nevyřešený rozpor · termín „podle zpráv".
       "title": { "cs": "…", "en": "…" },        // doslovná kopie titulku
       "note":  { "cs": "…", "en": "…" }         // ≤ 25 slov: proč to byla událost týdne / co následovalo
     }
-  ],
-  "quiz": [                                     // vždy 3 otázky z faktů dnešních položek
-    {
-      "itemId": "YYYY-MM-DD-kratky-slug",       // položka, o které otázka je
-      "question": { "cs": "…?", "en": "…?" },   // ≤ 20 slov
-      "options":  [ { "cs": "…", "en": "…" }, { "cs": "…", "en": "…" }, { "cs": "…", "en": "…" } ],
-      "answer": 1,                              // index správné možnosti (0–2)
-      "explain":  { "cs": "…", "en": "…" }      // 1 věta ≤ 25 slov, zopakuje fakt
-    }
   ]
 }
 ```
@@ -543,6 +520,10 @@ Kompletní ukázka: `docs/examples/brief-v3-example.json`
   a radar je mají dorovnat. Když běh selže, brief chybí viditelně v appce — dogeneruje se
   na pokyn v session.
 
+## Změny v3.4 (20. 9. 2026)
+
+- **Kvíz dne zrušen**: pole `quiz` se nepíše (skript ho ignoruje), appka ho nezobrazuje.
+
 ## Změny v3.3 (20. 9. 2026)
 
 - **Zpětná vazba čtenářů**: palce u novinek se sbírají anonymně a noční funkce je zapisuje
@@ -552,7 +533,6 @@ Kompletní ukázka: `docs/examples/brief-v3-example.json`
 ## Změny v3.2 (20. 9. 2026)
 
 - **Intro zrušeno**: appka ukazuje pod nadpisem rovnou karty; pole `intro` se nepíše.
-- **Kvíz dne** (`quiz`): 3 otázky z faktů dnešních položek, po dočtení má čtenář co dělat.
 - **Appka čte `tips-backlog.json`** jako checklist „Vyzkoušej si" (tipy za 30 dnů).
 
 ## Změny v3.1 (20. 9. 2026)

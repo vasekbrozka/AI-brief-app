@@ -84,19 +84,6 @@ export interface WeekReviewEntry {
   note: Localized;
 }
 
-/** v3.2 — one quiz question grounded in a story of the day. */
-export interface QuizQuestion {
-  /** id of the item the question is about. */
-  itemId: string;
-  question: Localized;
-  /** Exactly three options; the app shuffles their order per day. */
-  options: Localized[];
-  /** Index of the correct option in `options`. */
-  answer: number;
-  /** One sentence restating the fact, shown after answering. */
-  explain: Localized;
-}
-
 /**
  * One entry of data/briefs/tips-backlog.json — the generator's tip ledger,
  * which the app also reads for the "Try it yourself" checklist.
@@ -128,8 +115,6 @@ export interface Brief {
   /** Pre-v3.2 lead-in; no longer written or shown. */
   intro?: Localized;
   items: BriefItem[];
-  /** v3.2 — the day's quiz, three questions. */
-  quiz?: QuizQuestion[];
   /** v3 — upcoming dates, sorted ascending. */
   radar?: RadarItem[];
   /** v3.1 — the week's key stories, most important first (Sunday briefs only). */

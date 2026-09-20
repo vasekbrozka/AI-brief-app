@@ -21,8 +21,8 @@ z GitHubu.
   u tipů návod, kde funkci najít
 - 📅 **Na obzoru** — nadcházející termíny (vydání, konference, lhůty, soudy)
 - 🗓️ **Týden v AI** — nedělní ohlédnutí za událostmi týdne s odkazy do archivu
-- 🧠 **Po dočtení je co dělat** — Kvíz dne (tři otázky z dnešního přehledu), checklist
-  „Vyzkoušej si" s funkcemi z posledních týdnů a Pojem dne ze slovníčku
+- 🧠 **Po dočtení je co dělat** — checklist „Ochutnávka" s funkcemi z posledních týdnů
+  (vypínatelný v Nastavení) a „Zrnko dne" ze slovníčku; série čtení jako lišta pod nadpisem
 - 👍 **Zpětná vazba** — palec nahoru/dolů u každé novinky i u celého dne, s počty hlasů
   od všech čtenářů; anonymní počítadla, která generátor čte jako signál, co je přínosné
 - ✔️ **Přečteno**, uložení na později, sdílení novinky i celého přehledu, série čtení,
@@ -60,9 +60,9 @@ v `netlify.toml`), aby denní obsah nestál nasazovací kredity.
 
 Datový model je v `src/lib/types.ts`. Každá položka má `kind` (zpráva / tip), kategorii,
 dvojjazyčný titulek, shrnutí a **`why`** (proč na tom záleží), **`eventDate`**, seznam
-zdrojů a příznak `verified`; brief má navíc **`radar`** s nadcházejícími termíny,
-**`quiz`** se třemi otázkami a v neděli **`weekInReview`** s událostmi týdne. Pole z v3
-jsou volitelná, starší briefy se vykreslí beze změny.
+zdrojů a příznak `verified`; brief má navíc **`radar`** s nadcházejícími termíny a
+v neděli **`weekInReview`** s událostmi týdne. Pole z v3 jsou volitelná, starší briefy
+se vykreslí beze změny.
 
 - Recept pro generování: `docs/brief-generation.md`
 - Kontrola před publikací: `python3 docs/check-brief.py` (schéma, meze, zdroje, ledgery,
