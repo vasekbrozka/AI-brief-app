@@ -9,7 +9,7 @@ Zjištění a to, co se s nimi udělalo.
 | # | Nález | Proč to vadí | Řešení |
 |---|-------|--------------|--------|
 | 1 | Uložit a Sdílet byly na mobilu jen za swipem (tlačítka se ukazovala jen myši). | HIG: gesto nikdy nesmí být jediná cesta k akci, není objevitelné. | Obě akce jsou viditelná tlačítka v akčním řádku dole na kartě; swipe zůstal jako zkratka. |
-| 2 | Přepínač „přečteno“ byl kolečko vpravo nahoře v kartě. | Čte se shora dolů; palec je po dočtení dole. Nahoře je mimo dosah i mimo tok čtení (Reminders-styl patří seznamům bez textu). | Tlačítko „Vypito“ je na konci karty v akčním řádku. U přečtené karty je v hlavičce razítko „✓ Vypito“, které zároveň slouží jako zpětvzetí. |
+| 2 | Přepínač „přečteno“ byl nenápadný prázdný kroužek vpravo nahoře; po přesunu na konec karty nebyl u delších novinek vidět. | Hlavní akce karty musí být vidět hned a být čitelná jako tlačítko. | Modrá tónovaná fajfka (36 px) vpravo nahoře v hlavičce, stejné místo pro oba stavy: nepřečtená tónovaná, přečtená vyplněná (slouží jako zpětvzetí). |
 | 3 | „Pomohlo ti to?“ + dva pilulkové palce pod každou kartou, sedmkrát za den. | Opakovaný popisek je šum; palec nahoru/dolů se čte i bez něj. | Palce (s počty) jsou vlevo v akčním řádku, popisek zůstal jen pro čtečky obrazovky. |
 | 4 | Jedna nepřečtená karta = víc než celá obrazovka; 7 novinek = 8 obrazovek. | Nízká hustota, dlouhé rolování. | Menší vnitřní okraje (15/16 px), těsnější mezery, jeden řádek akcí místo dvou bloků, přečtené karty nižší. |
 | 5 | Archiv: plovoucí karta se stínem pro každý den. | iOS pro seznamy stejnorodých řádků používá seskupený seznam (inset grouped). | Jeden kontejner s hairline oddělovači; „Dnes · 20. září“, „Včera · 19. září“, dál den v týdnu. Uložené jako vlastní skupina nad ním. |

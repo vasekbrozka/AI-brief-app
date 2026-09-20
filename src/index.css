@@ -1390,8 +1390,8 @@ button.thread:active .thread__title {
     color: var(--text);
   }
 
-  .item__stamp:hover {
-    opacity: 0.8;
+  .read-cta.is-read:hover {
+    opacity: 0.85;
   }
 
   .swipe:hover {
@@ -1581,32 +1581,40 @@ button.thread:active .thread__title {
   transition: opacity 0.2s ease;
 }
 
-/* Check in the header of a read card — the status, and the undo. Icon only;
-   the name ("Vypito") is its tooltip and accessible label. */
-.item__stamp {
+/* Mark-as-read: the card's one primary control, top right of the header —
+   in view as soon as the card is, whatever the story's length, and the same
+   spot in both states. Tinted with a check while unread ("tap to check this
+   off"); filled once read, where it also serves as the undo. Same 36px as
+   the icon buttons; the negative margins keep the header row its height. */
+.read-cta {
+  flex: 0 0 auto;
   display: grid;
   place-items: center;
-  width: 26px;
-  height: 26px;
-  margin: -2px 0 -2px auto;
-  border: 0;
+  width: 36px;
+  height: 36px;
+  margin: -6px 0 -6px auto;
+  border: 1.5px solid var(--accent);
   border-radius: 999px;
+  background: var(--accent-soft-bg);
+  color: var(--accent);
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.12s ease;
+}
+
+.read-cta:active {
+  transform: scale(0.92);
+}
+
+.read-cta.is-read {
   background: var(--accent);
   color: #fff;
-  transition: transform 0.12s ease, opacity 0.12s ease;
 }
 
-.item__stamp svg {
-  animation: pop-in 0.22s ease both;
-}
-
-.item__stamp:active {
-  transform: scale(0.94);
-  opacity: 0.8;
+.read-cta.is-read svg {
+  animation: pop 0.3s cubic-bezier(0.2, 0.8, 0.3, 1.2);
 }
 
 /* Dim the content, not the card — the surface stays opaque so the swipe
-   action behind can never show through a read card. The stamp stays crisp. */
+   action behind can never show through a read card. The check stays crisp. */
 .item--read > * {
   opacity: 0.6;
 }
@@ -1624,17 +1632,13 @@ button.thread:active .thread__title {
 }
 
 /* ---- Card action row ------------------------------------------------------
-   One row closes every story. Left, the small stuff: thumbs (the signal the
-   generator gets back), To do, save, share. Right, alone and unmistakable,
-   the primary action: the big tinted check that marks the story read — at
-   the end of the reading, where the thumb already is, with clear air between
-   it and the icon buttons so nothing gets hit by accident. Every action is a
-   visible button; swiping the card stays a shortcut. */
+   One row closes every story: thumbs (the signal the generator gets back),
+   To do, save, share — visible buttons on every device; swiping the card
+   stays a shortcut. */
 .item__bar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
+  gap: 8px;
   margin-top: 12px;
   padding-top: 10px;
   border-top: 1px solid var(--hairline);
@@ -1680,36 +1684,6 @@ button.thread:active .thread__title {
 
 .iconbtn.is-saved svg {
   animation: pop 0.32s cubic-bezier(0.2, 0.8, 0.3, 1.2);
-}
-
-/* Mark-as-read: the one primary control on the card. Bigger than the icon
-   buttons, tinted in the accent with a check inside, so it reads as "tap to
-   check this off"; once tapped it fills solid (and the card folds). */
-.read-cta {
-  flex: 0 0 auto;
-  display: grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
-  margin: -4px 0;
-  border: 1.5px solid var(--accent);
-  border-radius: 999px;
-  background: var(--accent-soft-bg);
-  color: var(--accent);
-  transition: background-color 0.15s ease, color 0.15s ease, transform 0.12s ease;
-}
-
-.read-cta:active {
-  transform: scale(0.92);
-}
-
-.read-cta.is-read {
-  background: var(--accent);
-  color: #fff;
-}
-
-.read-cta.is-read svg {
-  animation: pop 0.3s cubic-bezier(0.2, 0.8, 0.3, 1.2);
 }
 
 /* Transient toast — share fallback confirmation */

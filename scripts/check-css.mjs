@@ -8,7 +8,7 @@ import { join } from 'node:path';
 const REQUIRED = [
   '.navbar', '.large-title__heading', '.tabbar__item', '.segmented__option',
   '.swipe', '.item__meta', '.item__title', '.item__summary', '.item__why',
-  '.item__bar', '.iconbtn', '.read-cta', '.item__stamp', '.item--folded',
+  '.item__bar', '.iconbtn', '.read-cta', '.item--folded',
   '.vote-btn', '.rate', '.rateprompt', '.ring__fill',
   '.streakcard', '.sc__num', '.sc__dot', '.streak-divider',
   '.section-divider', '.radar__row', '.share-brief', '.panel', '.termday__term',
@@ -26,7 +26,9 @@ if (!css) {
   console.error('check-css: no stylesheet found in dist/assets');
   process.exit(1);
 }
-const missing = REQUIRED.filter((sel) => !css.includes(sel + '{') && !css.includes(sel + ',') && !css.includes(sel + ' ') && !css.includes(sel + ':') && !css.includes(sel + '.') && !css.includes(sel + '>'));
+// The selector must open its own rule (minified: "sel{" or "sel,"), not merely
+// appear inside a compound selector such as ".iconbtn.is-saved".
+const missing = REQUIRED.filter((sel) => !css.includes(sel + '{') && !css.includes(sel + ','));
 if (missing.length) {
   console.error(`check-css: ${missing.length} required selector(s) missing from the built CSS:\n  ${missing.join('\n  ')}`);
   process.exit(1);

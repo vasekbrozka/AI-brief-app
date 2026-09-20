@@ -47,12 +47,14 @@ function ThreadLink({ thread }: { thread: ThreadRef }) {
 
 /**
  * One story, read top to bottom: category → title → summary → why it matters
- * → sources, closed by a single action row of icon buttons — thumbs (the one
- * signal the generator gets back), save, share, and the ring that marks it
- * read, at the end of the reading where the thumb already is. Every action is
- * a visible button; swiping stays a shortcut. A read card keeps its place and
- * folds to its title (the body slides shut); the check in its header un-reads
- * it, which opens it again. With "hide read" on, the card fades out instead.
+ * → sources, closed by a row of icon buttons — thumbs (the one signal the
+ * generator gets back), To do, save, share. The one primary action, marking
+ * the story read, is the check at the top right of the card: in view the
+ * moment the card is, however long the story, and the same spot in both
+ * states — tinted while unread, filled once read. Every action is a visible
+ * button; swiping stays a shortcut. A read card keeps its place and folds to
+ * its title (the body slides shut); tapping its check un-reads it, which
+ * opens it again. With "hide read" on, the card fades out instead.
  */
 export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?: boolean }) {
   const { lang, t, hideRead, todoEnabled } = useSettings();
@@ -147,16 +149,16 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
               {t.tipBadge}
             </span>
           )}
-          {read && (
+          {!plain && (
             <button
               type="button"
-              className="item__stamp"
-              aria-pressed="true"
-              aria-label={t.markUnread}
+              className={`read-cta${checked ? ' is-read' : ''}`}
+              aria-pressed={checked}
+              aria-label={read ? t.markUnread : t.markRead}
               title={t.read}
               onClick={handleToggle}
             >
-              <Icon name="check" size={14} />
+              <Icon name="check" size={20} />
             </button>
           )}
         </div>
@@ -188,8 +190,7 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
               )}
               <SourceList sources={item.sources} />
             </div>
-            {/* Left: the small stuff (thumbs, To do, save, share). Right, on
-                its own: the one primary action, marking the story read. */}
+            {/* Thumbs, To do, save, share — the small stuff, in one row. */}
             <div className="item__bar">
               <div className="item__bar-left">
                 <div className="item__bar-votes" role="group" aria-label={t.voteLabel} title={t.voteLabel}>
@@ -225,18 +226,6 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
                   <Icon name="share" size={17} />
                 </button>
               </div>
-              {!plain && (
-                <button
-                  type="button"
-                  className={`read-cta${checked ? ' is-read' : ''}`}
-                  aria-pressed={checked}
-                  aria-label={read ? t.markUnread : t.markRead}
-                  title={t.read}
-                  onClick={handleToggle}
-                >
-                  <Icon name="check" size={22} />
-                </button>
-              )}
             </div>
           </div>
         </div>
