@@ -123,9 +123,12 @@ export interface UIStrings {
   /** Read cards fold to their title; the title toggles the body. */
   unfoldLabel: string;
   foldLabel: string;
-  /** Streak-tier titles for the strip under the title, mildest first. */
+  /** Section label shown above the reading-streak card in the brief. */
+  streakSectionLabel: string;
+  /** Streak-tier titles for the finished-brief ritual, mildest first. */
   streakLevels: string[];
   streakStart: string;
+  streakTodayLeft: string;
   sectionReading: string;
   hideReadLabel: string;
   hideReadHint: string;
@@ -250,7 +253,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Palec nahoru nebo dolů u každé novinky i u celého dne — anonymně, jen počítadlo, a vidíš, jak hlasují ostatní; generátor podle toho ladí výběr',
     ],
     releaseImproved: [
-      'Série čtení je lišta pod nadpisem a den se počítá po první přečtené novince, ne až po všech',
+      'Den v sérii čtení se počítá po první přečtené novince, ne až po všech',
       'Archiv drží dva týdny místo jednoho a odkazy „Navazuje na“ tak fungují déle',
       'Přísnější ověřování: Ověřeno znamená oficiální zdroj, nebo dvě nezávislá média',
       'Přečtená novinka se sbalí na titulek a zůstane na místě; ťuknutím ji zase rozbalíš',
@@ -281,6 +284,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     markUnread: 'Označit jako nepřečtené',
     unfoldLabel: 'Rozbalit',
     foldLabel: 'Sbalit',
+    streakSectionLabel: 'Série čtení',
     streakLevels: [
       'Jen na skok',
       'Lehká závislost',
@@ -289,12 +293,13 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Tlak 180. Přehled 100 %.',
     ],
     streakStart: 'Přečti první novinku a nastartuj sérii',
+    streakTodayLeft: 'Ještě dnešek, ať série žije',
     sectionReading: 'Čtení',
     hideReadLabel: 'Skrýt přečtené',
     hideReadHint: 'Přečtené novinky zmizí z přehledu. Jinak se jen sbalí na titulek a zůstanou na místě.',
     clearReadLabel: 'Označit vše jako nepřečtené',
     gamifyLabel: 'Série čtení',
-    gamifyHint: 'Lišta pod nadpisem. Den se počítá po první přečtené novince, tečka se plní, jak čteš dál.',
+    gamifyHint: 'Karta pod novinkami. Den se počítá po první přečtené novince, tečka se plní, jak čteš dál.',
     gamifyCurrentLabel: 'Aktuální série',
     glossaryLabel: 'Vysvětlivky pojmů',
     glossaryHint: 'Odborné pojmy v přehledu podtrhneme — ťuknutím zobrazíš prosté vysvětlení.',
@@ -410,7 +415,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Thumbs up or down on every story and on the whole day — anonymous, just a counter, and you see how others voted; the generator tunes its picks by it',
     ],
     releaseImproved: [
-      'The reading streak is a strip under the title and a day counts after the first story read, not all of them',
+      'A day in the reading streak counts after the first story read, not all of them',
       'The archive keeps two weeks instead of one, so "Follows up on" links work longer',
       'Stricter verification: Verified means an official source, or two independent outlets',
       'A read story folds to its title and stays in place; tap it to unfold',
@@ -441,6 +446,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     markUnread: 'Mark as unread',
     unfoldLabel: 'Unfold',
     foldLabel: 'Fold',
+    streakSectionLabel: 'Reading streak',
     streakLevels: [
       'Just One Quick Shot',
       'Mildly Addicted',
@@ -449,12 +455,13 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Blood Pressure: 180. Fully Briefed.',
     ],
     streakStart: 'Read one story to start a streak',
+    streakTodayLeft: 'Read one story today to keep the streak alive',
     sectionReading: 'Reading',
     hideReadLabel: 'Hide read items',
     hideReadHint: 'Read stories leave the brief. Otherwise they fold to their title and stay in place.',
     clearReadLabel: 'Mark all as unread',
     gamifyLabel: 'Reading streak',
-    gamifyHint: 'The strip under the title. A day counts after the first story read; the dot fills as you read on.',
+    gamifyHint: 'The card under the stories. A day counts after the first story read; the dot fills as you read on.',
     gamifyCurrentLabel: 'Current streak',
     glossaryLabel: 'Term explanations',
     glossaryHint: 'We underline technical terms in the brief — tap one for a plain explanation.',

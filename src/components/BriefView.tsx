@@ -12,13 +12,13 @@ import { TryList } from './TryList';
 import { TermOfDay } from './TermOfDay';
 import { RadarSection } from './RadarSection';
 import { WeekReviewSection } from './WeekReviewSection';
-import { StreakStrip } from './StreakStrip';
+import { WeekStreak } from './WeekStreak';
 import { Icon } from './Icon';
 
 export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: boolean }) {
   const { lang, t, hideRead, mutedCategories, gamification, tryListEnabled } = useSettings();
   const { isRead } = useRead();
-  const { markFinished } = useStreak();
+  const { currentStreak, markFinished } = useStreak();
   // One thumb for the whole day, counted under "<date>-brief".
   const dayId = `${brief.date}-brief`;
   const dayVote = useVotes().voteFor(dayId);
@@ -37,10 +37,12 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
   const listed = hideRead ? shown.filter((item) => !isRead(item.id)) : shown;
 
   // The streak: a day counts as soon as one story of that day's brief is read;
-  // the strip's dot keeps filling until every story is read.
+  // the card's dot keeps filling until every story is read. Shown once there
+  // is something to track — never greets a fresh morning with 0.
   const progress = shown.length ? readShownCount / shown.length : 0;
   const started = readShownCount > 0;
-  const showStrip = isToday && gamification && shown.length > 0;
+  const allRead = shown.length > 0 && readShownCount === shown.length;
+  const showCard = isToday && gamification && shown.length > 0 && (started || currentStreak > 0);
 
   useEffect(() => {
     if (isToday && gamification && started) markFinished(brief.date);
@@ -72,7 +74,6 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
 
   return (
     <div className="brief">
-      {showStrip && <StreakStrip progress={progress} done={started} activeIso={brief.date} />}
 
       {!isToday ? (
         // Archive is a read-only browse: every story is shown, the read state
@@ -96,6 +97,22 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
                 <BriefItemCard key={item.id} item={item} />
               ))}
             </div>
+          )}
+
+          {/* The streak card is the reward for the reading, so it follows the
+              cards directly — its celebration must not fire off-screen. */}
+          {showCard && (
+            <>
+              <div className="streak-divider">
+                <span>{t.streakSectionLabel}</span>
+              </div>
+              <WeekStreak
+                todayProgress={progress}
+                done={allRead}
+                started={started}
+                activeIso={brief.date}
+              />
+            </>
           )}
 
           {/* After the stories: a term to learn, then the week and the dates
