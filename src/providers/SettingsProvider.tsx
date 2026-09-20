@@ -152,6 +152,12 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     else root.setAttribute('data-theme', theme);
   }, [theme]);
 
+  // The document language: screen readers, hyphenation, and the title size
+  // (the English time-of-day titles run a little wider).
+  useEffect(() => {
+    document.documentElement.lang = lang;
+  }, [lang]);
+
   useEffect(() => {
     try {
       localStorage.setItem(HIDE_READ_KEY, hideRead ? '1' : '0');

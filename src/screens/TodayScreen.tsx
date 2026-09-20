@@ -67,13 +67,10 @@ export function TodayScreen() {
   } else if (status === 'ready' && data) {
     const date = capitalizeFirst(formatFullDate(data.date, lang));
     const time = updated ? formatTime(updated, lang) : '';
-    const meta = [
-      itemCountLabel(shown.length, lang),
-      readingTimeLabel(readingMinutes(shown, lang), lang),
-      time ? `${t.updatedLabel} ${time}` : '',
-    ]
-      .filter(Boolean)
-      .join(' · ');
+    // Under the date: how much there is and how long it takes. The update
+    // time lives in the floating bar (until the first story is read), so the
+    // line stays short enough to sit beside the ring.
+    const meta = `${itemCountLabel(shown.length, lang)} · ${readingTimeLabel(readingMinutes(shown, lang), lang)}`;
     subtitle = (
       <>
         {date}
@@ -84,7 +81,9 @@ export function TodayScreen() {
     bar = `${short} · ${
       readCount > 0
         ? readProgressLabel(readCount, shown.length, lang)
-        : itemCountLabel(shown.length, lang)
+        : time
+          ? `${t.updatedLabel} ${time}`
+          : itemCountLabel(shown.length, lang)
     }`;
     progress = shown.length ? readCount / shown.length : 0;
   }

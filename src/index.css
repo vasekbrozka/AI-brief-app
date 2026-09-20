@@ -326,45 +326,50 @@ svg {
 }
 
 /* ---- Large title -------------------------------------------------------- */
+/* Text block (title, subtitle) with an optional control beside it, centred
+   on the block's height. */
 .large-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
   padding: 8px 0 2px;
 }
 
-.large-title__row {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+.large-title__text {
+  flex: 1;
+  min-width: 0;
+}
+
+/* The title scales with the viewport just enough that the longest
+   time-of-day title stays on one line beside the 56px ring. Czech
+   ("Odpolední sedlina", 275px at 33px): 33px from 398px up, ~32px at 390,
+   ~30px at 375. English ("Afternoon Grounds") runs wider, so it scales a
+   touch harder. */
+:root {
+  --title-vw: 11.8;
+}
+
+:root[lang='en'] {
+  --title-vw: 11.3;
 }
 
 .large-title__heading {
-  flex: 1;
-  min-width: 0;
-  font-size: 33px;
+  font-size: clamp(26px, calc(var(--title-vw) * 1vw - 14px), 33px);
   line-height: 1.09;
   font-weight: 700;
   letter-spacing: -0.021em;
 }
 
-/* Narrow phones: the longest time-of-day title still fits on one line next
-   to the ring. */
-@media (max-width: 370px) {
-  .large-title__heading {
-    font-size: 29px;
-  }
-}
-
-/* Beside the title, vertically centred on its line without growing it. */
 .large-title__accessory {
   flex: 0 0 auto;
-  margin: -4px 0;
 }
 
 /* Reading-progress ring: track in the fill colour, accent arc, the
    percentage inside; a check once everything is read. */
 .ring {
   position: relative;
-  width: 44px;
-  height: 44px;
+  width: 56px;
+  height: 56px;
 }
 
 .ring svg {
@@ -374,13 +379,13 @@ svg {
 .ring__track {
   fill: none;
   stroke: var(--fill);
-  stroke-width: 4;
+  stroke-width: 4.5;
 }
 
 .ring__fill {
   fill: none;
   stroke: var(--accent);
-  stroke-width: 4;
+  stroke-width: 4.5;
   stroke-linecap: round;
   transition: stroke-dashoffset 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
@@ -390,7 +395,7 @@ svg {
   inset: 0;
   display: grid;
   place-items: center;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: -0.02em;
   color: var(--text);
