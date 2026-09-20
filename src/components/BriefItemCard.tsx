@@ -53,8 +53,9 @@ function ThreadLink({ thread }: { thread: ThreadRef }) {
  * moment the card is, however long the story, and the same spot in both
  * states — tinted while unread, filled once read. Every action is a visible
  * button; swiping stays a shortcut. A read card keeps its place and folds to
- * one line of its title, fading out where it runs long, with the check
- * centred beside it; tapping the check un-reads it, which opens it again.
+ * one line of its title, fading out where it runs long — same size, same
+ * spot, so only the body below it moves; the check glides to the middle of
+ * what is left. Tapping the check un-reads it, which opens the card again.
  * With "hide read" on, the card fades out instead.
  */
 export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?: boolean }) {
