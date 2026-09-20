@@ -335,16 +335,22 @@ svg {
   padding: 8px 0 2px;
 }
 
+/* With a block in the corner (the Brief screen's date stamp) the row is
+   top-aligned, so the stamp reads as a masthead date rather than something
+   floating beside the title. */
+.large-title--aside {
+  align-items: flex-start;
+}
+
 .large-title__text {
   flex: 1;
   min-width: 0;
 }
 
 /* The title scales with the viewport just enough that the longest
-   time-of-day title stays on one line beside the 56px ring. Czech
-   ("Odpolední sedlina", 275px at 33px): 33px from 398px up, ~32px at 390,
-   ~30px at 375. English ("Afternoon Grounds") runs wider, so it scales a
-   touch harder. */
+   time-of-day title stays on one line. Czech ("Odpolední sedlina"): 33px
+   from 398px up, ~32px at 390, ~30px at 375. English ("Afternoon Grounds")
+   runs wider, so it scales a touch harder. */
 :root {
   --title-vw: 11.8;
 }
@@ -360,54 +366,88 @@ svg {
   letter-spacing: -0.021em;
 }
 
+/* Beside a corner block the title gives up ~4px so the longest title and the
+   stamp (~62px set in caps) still share one line on a 375px screen. */
+.large-title--aside .large-title__heading {
+  font-size: clamp(24px, calc(var(--title-vw) * 1vw - 18px), 30px);
+}
+
 .large-title__accessory {
   flex: 0 0 auto;
 }
 
-/* Reading-progress ring: track in the fill colour, accent arc, the
-   percentage inside; a check once everything is read. */
-.ring {
-  position: relative;
-  width: 56px;
-  height: 56px;
-}
-
-.ring svg {
-  display: block;
-}
-
-.ring__track {
-  fill: none;
-  stroke: var(--fill);
-  stroke-width: 4.5;
-}
-
-.ring__fill {
-  fill: none;
-  stroke: var(--accent);
-  stroke-width: 4.5;
-  stroke-linecap: round;
-  transition: stroke-dashoffset 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
-}
-
-.ring__label {
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-items: center;
-  font-size: 13px;
+/* Date stamp in the title's corner: weekday over date, small caps, the way a
+   masthead dates a page. Two 11px lines come to the height of one title line,
+   so the row stays as tall as the title alone. */
+.stamp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  margin-top: 4px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: -0.02em;
-  color: var(--text);
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
   font-variant-numeric: tabular-nums;
 }
 
-.ring.is-done .ring__label {
-  color: var(--accent);
+.stamp__day {
+  color: var(--text-tertiary);
+}
+
+.stamp__date {
+  color: var(--text-secondary);
+}
+
+/* The header's one quiet line: the day's numbers on the left, the reading
+   bars filling the space on the right. Its height is reserved so the switch
+   below never moves while the text changes. */
+.headmeta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 18px;
+}
+
+.headmeta__text {
+  flex: 0 1 auto;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* One segment per story, read ones in the accent colour: it answers "how
+   many are left" at a glance, which a percentage never did. */
+.readbars {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 4px;
+  min-width: 72px;
+  max-width: 190px;
+  margin-left: auto;
+}
+
+.readbars__seg {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 5px;
+  border-radius: 999px;
+  background: var(--fill);
+  transition: background-color 0.35s ease;
+}
+
+.readbars__seg.is-on {
+  background: var(--accent);
 }
 
 .large-title__subtitle {
-  margin-top: 6px;
+  margin-top: 8px;
   font-size: 15px;
   font-weight: 400;
   color: var(--text-secondary);
@@ -1493,9 +1533,16 @@ button.thread:active .thread__title {
     max-width: var(--content-max);
   }
 
-  /* Header: date and meta on one line, the ring right next to the title. */
+  /* Header: the corner block sits right next to the title, not an arm's
+     length away across a 1520px row. */
   .large-title__text {
     flex: 0 1 auto;
+  }
+
+  /* ...but the row under it still needs room for the meta line and the bars,
+     which a short title like "Ranní shot" would otherwise squeeze. */
+  .large-title--aside .large-title__text {
+    min-width: min(100%, 430px);
   }
 
   .large-title__subtitle--two {

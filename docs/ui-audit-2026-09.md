@@ -14,6 +14,7 @@ Zjištění a to, co se s nimi udělalo.
 | 4 | Jedna nepřečtená karta = víc než celá obrazovka; 7 novinek = 8 obrazovek. | Nízká hustota, dlouhé rolování. | Menší vnitřní okraje (15/16 px), těsnější mezery, jeden řádek akcí místo dvou bloků, přečtené karty nižší. |
 | 5 | Archiv: plovoucí karta se stínem pro každý den. | iOS pro seznamy stejnorodých řádků používá seskupený seznam (inset grouped). | Jeden kontejner s hairline oddělovači; „Dnes · 20. září“, „Včera · 19. září“, dál den v týdnu. Uložené jako vlastní skupina nad ním. |
 | 6 | Hlavička neříkala, kolik toho je a jak daleko jsi. | Ranní čtečky (Morning Brew, Apple News Today) ukazují rozsah; postup je základní orientace. | Pod datem: „7 novinek · 6 min čtení · Aktualizováno v 3:10“. Při rolování plovoucí lišta ukazuje „20. září · Vypito 3 z 7“ a tenkou linku postupu. |
+| 6b | Hlavička měla tři textové řádky (titulek, datum, meta) a vedle nich kroužek s procenty, který působil přilepeně. | Čtyři prvky nad sebou stály přes 130 px, než čtenář viděl první novinku; procento navíc nic neříká o tom, kolik zbývá. | Dva řádky: titulek s datem vytištěným v rohu (den týdne nad datem, verzálky 11 px) a pod ním jeden řádek „Vypito 2 z 6 · 3 min čtení“ s pruhem dílků, jeden dílek = jedna novinka. |
 | 7 | Na desktopu se přepínač Dnes / Top shots roztahoval na 750 px. | Segmented control má šířku ovládacího prvku, ne sloupce. | Max. 400 px na širokém layoutu. |
 | 8 | „Aktuální série: 4 dny v řadě“ v Nastavení bylo modré jako odkaz. | Vypadá klikatelně, není. | Sekundární barva textu. |
 

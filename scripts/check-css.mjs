@@ -9,7 +9,7 @@ const REQUIRED = [
   '.navbar', '.large-title__heading', '.tabbar__item', '.segmented__option',
   '.swipe', '.item__meta', '.item__title', '.item__summary', '.item__why',
   '.item__bar', '.iconbtn', '.read-cta', '.item--folded',
-  '.vote-btn', '.rate', '.rateprompt', '.ring__fill',
+  '.vote-btn', '.rate', '.rateprompt', '.readbars__seg', '.stamp',
   '.streakcard', '.sc__num', '.sc__dot', '.streak-divider',
   '.section-divider', '.radar__row', '.share-brief', '.panel', '.termday__term',
   '.todo__row', '.todo__check', '.list__row', '.archive-row__headline',

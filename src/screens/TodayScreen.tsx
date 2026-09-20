@@ -4,7 +4,7 @@ import { Segmented } from '../components/Segmented';
 import { BriefView } from '../components/BriefView';
 import { WeekView } from '../components/WeekView';
 import { BriefSkeleton, EmptyState, ErrorState } from '../components/states';
-import { ReadRing } from '../components/ReadRing';
+import { ReadBars } from '../components/ReadBars';
 import { useLatestBrief } from '../hooks/useBrief';
 import { useClockTick } from '../hooks/useClockTick';
 import { useSettings } from '../providers/SettingsProvider';
@@ -13,11 +13,12 @@ import { readingMinutes, visibleItems } from '../lib/briefStats';
 import {
   brewTitleKey,
   capitalizeFirst,
+  dateStampLines,
   formatDateRange,
-  formatFullDate,
   formatShortDate,
   formatTime,
   itemCountLabel,
+  rangeStampLines,
   readProgressLabel,
   readingTimeLabel,
 } from '../lib/format';
@@ -44,39 +45,35 @@ export function TodayScreen() {
   );
   const readCount = shown.filter((item) => isRead(item.id)).length;
 
-  // Both views keep the same two-line header (and the scaffold reserves the
-  // height), so the switch below never moves when the text changes.
-  let subtitle: ReactNode = t.tagline;
+  // The header is two rows: the title with the date stamped top right, and
+  // one quiet line under it — the day's numbers on the left, the reading
+  // bars on the right. Both views fill the same two rows, so the switch
+  // below never moves.
+  let metaText: string = t.tagline;
+  let stamp: [string, string] | null = null;
+  let bars: ReactNode = null;
   let bar: ReactNode = t.tagline;
   let progress: number | null = null;
   if (view === 'week') {
     // The week view spans the newest seven briefs in the index.
     const span = dates.slice(0, 7);
-    const range = span.length
-      ? formatDateRange(span[span.length - 1], span[0], lang)
-      : '';
-    subtitle = (
-      <>
-        {t.weekSubtitle}
-        {range && <span className="large-title__meta">{range}</span>}
-      </>
-    );
-    bar = span.length
-      ? `${t.viewWeek} · ${formatDateRange(span[span.length - 1], span[0], lang, false)}`
-      : t.weekSubtitle;
+    metaText = t.weekSubtitle;
+    if (span.length) {
+      const from = span[span.length - 1];
+      const to = span[0];
+      stamp = rangeStampLines(from, to, lang);
+      bar = `${t.viewWeek} · ${formatDateRange(from, to, lang, false)}`;
+    } else {
+      bar = t.weekSubtitle;
+    }
   } else if (status === 'ready' && data) {
-    const date = capitalizeFirst(formatFullDate(data.date, lang));
     const time = updated ? formatTime(updated, lang) : '';
-    // Under the date: how much there is and how long it takes. The update
-    // time lives in the floating bar (until the first story is read), so the
-    // line stays short enough to sit beside the ring.
-    const meta = `${itemCountLabel(shown.length, lang)} · ${readingTimeLabel(readingMinutes(shown, lang), lang)}`;
-    subtitle = (
-      <>
-        {date}
-        <span className="large-title__meta">{meta}</span>
-      </>
-    );
+    stamp = dateStampLines(data.date, lang);
+    // Before the first story: how much there is. After it: how far in.
+    metaText = `${
+      readCount > 0 ? readProgressLabel(readCount, shown.length, lang) : itemCountLabel(shown.length, lang)
+    } · ${readingTimeLabel(readingMinutes(shown, lang), lang)}`;
+    bars = shown.length ? <ReadBars read={readCount} total={shown.length} lang={lang} /> : null;
     const short = capitalizeFirst(formatShortDate(data.date, lang));
     bar = `${short} · ${
       readCount > 0
@@ -88,18 +85,31 @@ export function TodayScreen() {
     progress = shown.length ? readCount / shown.length : 0;
   }
 
+  const subtitle = (
+    <div className="headmeta">
+      <span className="headmeta__text">{metaText}</span>
+      {bars}
+    </div>
+  );
+
+  // Date stamped in the corner beside the title, newspaper style: it frees
+  // the two lines the date and the meta used to take under the title. The
+  // element stays in place while loading so the title never resizes.
+  const stampBlock = (
+    <div className="stamp">
+      {stamp && (
+        <>
+          <span className="stamp__day">{stamp[0]}</span>
+          <span className="stamp__date">{stamp[1]}</span>
+        </>
+      )}
+    </div>
+  );
+
   const options: { value: View; label: string }[] = [
     { value: 'today', label: t.viewToday },
     { value: 'week', label: t.viewWeek },
   ];
-
-  // The score sits beside the title as a ring — in view without scrolling
-  // (most readers finish the top story and never reach the floating bar) and
-  // without adding a line to the header.
-  const ring =
-    view === 'today' && status === 'ready' && data && shown.length > 0 ? (
-      <ReadRing read={readCount} total={shown.length} lang={lang} />
-    ) : undefined;
 
   return (
     <ScreenScaffold
@@ -107,8 +117,7 @@ export function TodayScreen() {
       subtitle={subtitle}
       barContent={bar}
       progress={progress}
-      subtitleLines={2}
-      accessory={ring}
+      accessory={stampBlock}
       wide
     >
       <div className="view-switch">

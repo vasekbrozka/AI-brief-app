@@ -9,7 +9,7 @@ interface ScreenScaffoldProps {
   progress?: number | null;
   /** Reserve room for two subtitle lines, so controls below never move when the text changes. */
   subtitleLines?: 1 | 2;
-  /** Control beside the title block, centred on its height (e.g. the reading-progress ring). */
+  /** Block in the title's top-right corner (e.g. the date stamp); shrinks the title to fit. */
   accessory?: ReactNode;
   /** Reading screens: on a desktop they may use the whole width (columns, a right rail). */
   wide?: boolean;
@@ -84,7 +84,7 @@ export function ScreenScaffold({
       </header>
 
       <div className={`screen__content${hasChrome ? ' screen__content--chrome' : ''}`}>
-        <div className="large-title">
+        <div className={`large-title${accessory != null ? ' large-title--aside' : ''}`}>
           <div className="large-title__text">
             <h1 className="large-title__heading">{title}</h1>
             {subtitle != null && (
