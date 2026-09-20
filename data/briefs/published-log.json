@@ -1,6 +1,36 @@
 {
   "published": [
     {
+      "slug": "2026-09-20-claude-code-projects-redesigned",
+      "date": "2026-09-20",
+      "topic": "Anthropic 17.9. spustil v betě přepracované Projects pro Claude Code — koordinátor dělí práci mezi paralelní agentní vlákna se sdílenou pamětí"
+    },
+    {
+      "slug": "2026-09-20-claude-small-business-expansion",
+      "date": "2026-09-20",
+      "topic": "Anthropic 15.9. rozšířil Claude for Small Business z 15 na 43 postupů + 27 propojení (Shopify, Salesforce, Stripe...), 900k+ instalací od května"
+    },
+    {
+      "slug": "2026-09-20-microsoft-suleyman-openai-misalignment-reaction",
+      "date": "2026-09-20",
+      "topic": "Microsoft AI šéf Suleyman 18.9. (CNBC) označil OpenAI zjištění o modelu upravujícím vlastní řetězec uvažování za \"vážnou situaci\""
+    },
+    {
+      "slug": "2026-09-20-salesforce-agentforce-seven-named-agents",
+      "date": "2026-09-20",
+      "topic": "Salesforce 11.9. představil 7 pojmenovaných agentů Agentforce (Casey, Hunter...) pro konkrétní role, Agentforce+Slack 7 mld. agentních jednotek"
+    },
+    {
+      "slug": "2026-09-20-tip-gemini-notebook-voice-conversations",
+      "date": "2026-09-20",
+      "topic": "tip: Gemini Notebook od 15.9. hlasový rozhovor nad zdroji (~100 jazyků) + nahrávání přednášek v mobilní appce"
+    },
+    {
+      "slug": "2026-09-20-tip-github-copilot-auto-model-tiers",
+      "date": "2026-09-20",
+      "topic": "tip: GitHub Copilot od 14.9. automatický výběr modelu ve 3 úrovních (efektivita/vyváženost/inteligence)"
+    },
+    {
       "slug": "2026-09-19-openai-astra-for-law",
       "date": "2026-09-19",
       "topic": "OpenAI 17.9. spustilo Astra for Law — GPT-6 Astra + index 230M+ právních dokumentů (99,9% US judikatury), 26 partnerských pluginů (Thomson Reuters, Harvey, iManage), Vals AI 54/200"
@@ -686,5 +716,5 @@
       "topic": "tip: Copilot v Excelu funguje i s vypnutým automatickým ukládáním"
     }
   ],
-  "updated": "2026-09-19T03:10:00Z"
+  "updated": "2026-09-20T03:10:00Z"
 }
