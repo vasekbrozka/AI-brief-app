@@ -2,7 +2,7 @@ import { useState, type KeyboardEvent } from 'react';
 import type { TipEntry } from '../lib/types';
 import { ScreenScaffold } from '../components/ScreenScaffold';
 import { Icon } from '../components/Icon';
-import { ArchiveSkeleton, ErrorState } from '../components/states';
+import { ArchiveSkeleton, EmptyState, ErrorState } from '../components/states';
 import { useRecentTips } from '../hooks/useTipsBacklog';
 import { useSettings } from '../providers/SettingsProvider';
 import { todoFromTip, useTodo, type TodoItem } from '../providers/TodoProvider';
@@ -152,10 +152,7 @@ export function TodoScreen() {
   return (
     <ScreenScaffold title={t.todoTitle} subtitle={subtitle}>
       {items.length === 0 ? (
-        <div className="panel todo__empty">
-          <p className="todo__empty-title">{t.todoEmptyTitle}</p>
-          <p className="todo__empty-body">{t.todoEmptyBody}</p>
-        </div>
+        <EmptyState icon="listCheck" title={t.todoEmptyTitle} body={t.todoEmptyBody} />
       ) : (
         <>
           {open.length > 0 && (

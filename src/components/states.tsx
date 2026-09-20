@@ -1,5 +1,5 @@
 import { useSettings } from '../providers/SettingsProvider';
-import { Icon } from './Icon';
+import { Icon, type IconName } from './Icon';
 
 /** Shimmering placeholder shown while a brief loads. */
 export function BriefSkeleton() {
@@ -40,11 +40,20 @@ export function ArchiveSkeleton() {
   );
 }
 
-export function EmptyState({ title, body }: { title: string; body: string }) {
+/** The one empty state of the app: an icon in a rounded tile, a title, a line of body. */
+export function EmptyState({
+  title,
+  body,
+  icon = 'sparkles',
+}: {
+  title: string;
+  body: string;
+  icon?: IconName;
+}) {
   return (
     <div className="state">
       <div className="state__icon">
-        <Icon name="sparkles" size={30} />
+        <Icon name={icon} size={30} />
       </div>
       <h2 className="state__title">{title}</h2>
       <p className="state__body">{body}</p>

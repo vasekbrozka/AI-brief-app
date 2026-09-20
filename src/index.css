@@ -2405,23 +2405,6 @@ button.thread:active .thread__title {
   padding: 0 2px;
 }
 
-.todo__empty {
-  margin-top: 12px;
-}
-
-.todo__empty-title {
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-}
-
-.todo__empty-body {
-  margin-top: 4px;
-  font-size: 14px;
-  line-height: 1.45;
-  color: var(--text-secondary);
-}
-
 /* On the card: lit while the story is on the list. */
 .iconbtn.is-todo {
   color: var(--accent);

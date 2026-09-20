@@ -1,6 +1,7 @@
 import { ScreenScaffold } from '../components/ScreenScaffold';
 import { Icon } from '../components/Icon';
 import { BriefItemCard } from '../components/BriefItemCard';
+import { EmptyState } from '../components/states';
 import { useSaved } from '../providers/SavedProvider';
 import { useSettings } from '../providers/SettingsProvider';
 
@@ -20,13 +21,7 @@ export function SavedScreen({ onBack }: { onBack: () => void }) {
   return (
     <ScreenScaffold title={t.savedTitle} left={backButton}>
       {saved.length === 0 ? (
-        <div className="state">
-          <div className="state__icon">
-            <Icon name="bookmark" size={28} />
-          </div>
-          <h2 className="state__title">{t.savedEmpty}</h2>
-          <p className="state__body">{t.savedEmptyBody}</p>
-        </div>
+        <EmptyState icon="bookmark" title={t.savedEmpty} body={t.savedEmptyBody} />
       ) : (
         <div className="items">
           {saved.map((item) => (
