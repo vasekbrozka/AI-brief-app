@@ -1584,17 +1584,17 @@ button.thread:active .thread__title {
 /* Mark-as-read: the card's one primary control, top right of the header —
    in view as soon as the card is, whatever the story's length, and the same
    spot in both states. Tinted with a check while unread ("tap to check this
-   off"); filled once read, where it also serves as the undo. Same 36px and
-   1px border as the icon buttons; the negative margins set it 12px from the
-   card's top and right edges (in step with the 18px corner) without growing
-   the header row. */
+   off"); filled once read, where it also serves as the undo. Smaller than
+   the icon buttons (30px, 1px border); the negative margins set it 12px from
+   the card's top and right edges (in step with the 18px corner) without
+   growing the header row. */
 .read-cta {
   flex: 0 0 auto;
   display: grid;
   place-items: center;
-  width: 36px;
-  height: 36px;
-  margin: -3px -4px -3px auto;
+  width: 30px;
+  height: 30px;
+  margin: -3px -4px -4px auto;
   border: 1px solid var(--accent);
   border-radius: 999px;
   background: var(--accent-soft-bg);
@@ -2519,10 +2519,10 @@ button.thread:active .thread__title {
   pointer-events: none;
 }
 
-/* A little lower than on an open card, so the first line clears the check
+/* A touch lower than on an open card, so the first line clears the check
    in the corner without giving up width. */
 .item--folded .item__title {
-  margin-top: 12px;
+  margin-top: 10px;
   font-size: 15.5px;
   color: var(--text-secondary);
   transition: font-size 0.25s ease, margin 0.25s ease;

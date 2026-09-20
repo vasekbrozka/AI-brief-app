@@ -158,7 +158,7 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
               title={t.read}
               onClick={handleToggle}
             >
-              <Icon name="check" size={20} />
+              <Icon name="check" size={16} />
             </button>
           )}
         </div>
