@@ -141,8 +141,6 @@ export interface UIStrings {
   read: string;
   markRead: string;
   markUnread: string;
-  unfoldLabel: string;
-  foldLabel: string;
   streakSectionLabel: string;
   /** Streak-tier titles, mildest first: 1–2 · 3–6 · 7–13 · 14–29 · 30+ days. */
   streakLevels: string[];
@@ -304,7 +302,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Při rolování vidíš v horní liště, kolik novinek máš vypito; pod datem je počet novinek a odhad času čtení',
       'Archiv je jeden seskupený seznam s Dnes a Včera místo karty pro každý den',
       'Karty jsou hustší a přečtené karty nižší',
-      'Přečtená novinka se sbalí na titulek a zůstane na místě, klepnutím ji zase rozbalíš',
+      'Přečtená novinka se sbalí na titulek a zůstane na místě; fajfka ji vrátí mezi nepřečtené',
       'Den v sérii čtení se počítá po první přečtené novince, série je pod novinkami bez karty',
       'Archiv drží 14 dní a odkazy Navazuje na fungují déle',
       'Odznak Ověřeno z karet zmizel, pletl se s označením přečteno; do briefu jde jen zpráva s oficiálním zdrojem nebo dvěma nezávislými médii',
@@ -331,8 +329,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     read: 'Vypito',
     markRead: 'Označit jako přečtené',
     markUnread: 'Označit jako nepřečtené',
-    unfoldLabel: 'Rozbalit novinku',
-    foldLabel: 'Sbalit novinku',
     streakSectionLabel: 'Série čtení',
     streakLevels: ['Jen na skok', 'Pravidelný host', 'Barista tě zná', 'Vlastní hrnek', 'Stálé místo'],
     streakStart: 'Přečti první novinku a založ sérii.',
@@ -492,7 +488,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'While scrolling, the floating bar shows how many stories you have read; under the date, the story count and a reading-time estimate',
       'The archive is one grouped list with Today and Yesterday instead of a card per day',
       'Denser cards, lower read cards',
-      'A read story folds to its title and stays in place; tap it to unfold',
+      'A read story folds to its title and stays in place; the check un-reads it',
       'A day in the reading streak counts after the first story read; the streak sits under the stories without a card',
       'The archive keeps 14 days and Follow-up links work longer',
       'The Verified badge is gone from the cards, it read as “done”; a story only makes the brief with an official source or two independent outlets',
@@ -519,8 +515,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     read: 'Read',
     markRead: 'Mark as read',
     markUnread: 'Mark as unread',
-    unfoldLabel: 'Expand story',
-    foldLabel: 'Collapse story',
     streakSectionLabel: 'Reading streak',
     streakLevels: ['Just stopping by', 'A regular', 'The barista knows you', 'Your own mug', 'Your usual seat'],
     streakStart: 'Read a story to start a streak.',

@@ -2464,8 +2464,8 @@ button.thread:active .thread__title {
 
 /* ---- Folding read cards ------------------------------------------------------
    A read story stays where it is and folds to its title; the body slides shut
-   with a grid-rows transition (no measuring, no jump). Tapping the title
-   unfolds it again. */
+   with a grid-rows transition (no measuring, no jump). Un-reading it (the
+   check in the header) opens it again. */
 .item__body {
   display: grid;
   grid-template-rows: 1fr;
@@ -2486,45 +2486,16 @@ button.thread:active .thread__title {
   pointer-events: none;
 }
 
-.item__title--btn {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 10px;
-  width: 100%;
-  padding: 0;
-  border: 0;
-  background: none;
-  text-align: left;
-  font: inherit;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.3;
-  letter-spacing: -0.012em;
-  color: var(--text-secondary);
-  cursor: pointer;
-  transition: font-size 0.25s ease, margin 0.25s ease;
-}
-
-.item--folded .item__title--btn {
+.item--folded .item__title {
   margin-top: 8px;
   font-size: 15.5px;
+  color: var(--text-secondary);
+  transition: font-size 0.25s ease, margin 0.25s ease;
 }
 
 .item--folded {
   padding-top: 12px;
   padding-bottom: 12px;
-}
-
-.item__fold-chevron {
-  flex: 0 0 auto;
-  margin-top: 3px;
-  color: var(--text-tertiary);
-  transition: transform 0.25s ease;
-}
-
-.item--read:not(.item--folded) .item__fold-chevron {
-  transform: rotate(90deg);
 }
 
 /* ---- Touch feedback ------------------------------------------------------------

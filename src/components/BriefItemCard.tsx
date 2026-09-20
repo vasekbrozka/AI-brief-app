@@ -52,7 +52,7 @@ function ThreadLink({ thread }: { thread: ThreadRef }) {
  * read, at the end of the reading where the thumb already is. Every action is
  * a visible button; swiping stays a shortcut. A read card keeps its place and
  * folds to its title (the body slides shut); the check in its header un-reads
- * it, the title unfolds it. With "hide read" on, the card fades out instead.
+ * it, which opens it again. With "hide read" on, the card fades out instead.
  */
 export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?: boolean }) {
   const { lang, t, hideRead, todoEnabled } = useSettings();
@@ -66,13 +66,8 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
   const tip = isTip(item);
   const why = item.why?.[lang];
   const title = item.title[lang];
-
-  // A read card is folded unless the reader unfolds it; unreading resets that.
-  const [unfolded, setUnfolded] = useState(false);
-  useEffect(() => {
-    if (!read) setUnfolded(false);
-  }, [read]);
-  const folded = read && !unfolded;
+  // A read card is folded, full stop; un-reading it is what opens it.
+  const folded = read;
 
   function handleSave() {
     const wasSaved = saved;
@@ -165,23 +160,7 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
             </button>
           )}
         </div>
-        {read ? (
-          <button
-            type="button"
-            className="item__title item__title--btn"
-            aria-expanded={!folded}
-            aria-label={folded ? t.unfoldLabel : t.foldLabel}
-            onClick={() => {
-              haptic();
-              setUnfolded((v) => !v);
-            }}
-          >
-            <span>{title}</span>
-            <Icon name="chevronRight" className="item__fold-chevron" size={16} />
-          </button>
-        ) : (
-          <h3 className="item__title">{title}</h3>
-        )}
+        <h3 className="item__title">{title}</h3>
         {/* The body folds shut on a read card — a grid-rows transition, so
             no measuring and no jump. */}
         <div className="item__body" data-open={folded ? 'false' : 'true'} aria-hidden={folded}>
