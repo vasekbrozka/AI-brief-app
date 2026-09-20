@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo } from 'react';
 import { isTip, type Brief } from '../lib/types';
 import { hiddenCountLabel, tipCountLabel } from '../lib/format';
 import { visibleItems } from '../lib/briefStats';
@@ -9,9 +9,9 @@ import { useStreak } from '../providers/StreakProvider';
 import { useVotes } from '../providers/VotesProvider';
 import { VoteButtons } from './VoteButtons';
 import { BriefItemCard } from './BriefItemCard';
-import { BriefFocus } from './BriefFocus';
 import { CategoryChip } from './CategoryChip';
 import { WeekRail } from './WeekRail';
+import { ReadBars } from './ReadBars';
 import { TermOfDay } from './TermOfDay';
 import { RatePrompt } from './RatePrompt';
 import { RadarSection } from './RadarSection';
@@ -83,21 +83,6 @@ export function BriefView({
   // up". The streak is unaffected — it's driven by Today.
   const cards = isToday ? listed : shown;
 
-  // Which story the desktop reader has open. It starts on the first unread one
-  // and then only moves when the reader moves it — "hide read" is a list
-  // setting and has no say here, where the strip is the table of contents.
-  const [focusId, setFocusId] = useState<string | null>(null);
-  useEffect(() => {
-    setFocusId((current) => {
-      if (current && shown.some((item) => item.id === current)) return current;
-      const first = shown.find((item) => !isRead(item.id)) ?? shown[0];
-      return first ? first.id : null;
-    });
-    // Only when the day's stories change: picking up the read state here would
-    // move the story out from under the reader.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [shown]);
-
   const tips = focus ? shown.filter(isTip) : [];
 
   const streakBlock = isToday && showCard && (
@@ -120,30 +105,32 @@ export function BriefView({
   return (
     <div className={`brief${focus ? ' brief--focus' : ''}`}>
       <div className="brief__main">
-        {focus ? (
-          <BriefFocus items={shown} focusId={focusId} onFocus={setFocusId} />
-        ) : (
-          cards.length > 0 && (
-            <div className="items">
-              {cards.map((item) => (
-                <BriefItemCard key={item.id} item={item} plain={!isToday} />
-              ))}
-            </div>
-          )
+        {cards.length > 0 && (
+          <div className="items">
+            {cards.map((item) => (
+              <BriefItemCard key={item.id} item={item} plain={!isToday} />
+            ))}
+          </div>
         )}
       </div>
 
-      {/* The reader's left column: the day's streak, standing on end, and the
-          rating — the two things that answer "how am I doing", beside the
-          story rather than a screen below it. */}
+      {/* The desktop's left column answers "how am I doing": the day's progress
+          at the top, the week's streak standing in the middle, and the day's
+          rating at the foot. */}
       {focus && (
         <aside className="brief__lead">
-          {streakBlock}
-          {ratePanel}
+          <div className="lead__top">
+            {shown.length > 0 && (
+              <ReadBars read={readShownCount} total={shown.length} lang={lang} />
+            )}
+          </div>
+          <div className="lead__mid">{streakBlock}</div>
+          <div className="lead__foot">{ratePanel}</div>
         </aside>
       )}
 
       <aside className="brief__side">
+        <div className="side__scroll">
         {/* The desktop's second column: the week beside the day, so a wide
             screen needs no switch between them. */}
         {focus && isToday && <WeekRail />}
@@ -159,15 +146,10 @@ export function BriefView({
             </div>
             <div className="panel">
               {tips.map((tipItem) => (
-                <button
-                  key={tipItem.id}
-                  type="button"
-                  className="railrow"
-                  onClick={() => setFocusId(tipItem.id)}
-                >
+                <a key={tipItem.id} className="railrow" href={`#${tipItem.id}`}>
                   <CategoryChip id={tipItem.category} />
                   <span className="railrow__title">{tipItem.title[lang]}</span>
-                </button>
+                </a>
               ))}
             </div>
           </>
@@ -182,7 +164,8 @@ export function BriefView({
 
         {!isToday && brief.radar && brief.radar.length > 0 && <RadarSection radar={brief.radar} />}
         {!focus && ratePanel}
-        {shareBlock}
+        </div>
+        <div className="side__foot">{shareBlock}</div>
       </aside>
 
       {/* The moment the last story is read, one gentle ask for the day's rating. */}

@@ -1682,10 +1682,14 @@ button.thread:active .thread__title {
   }
 
   /* Until there is room for a column of its own, the day's standing sits
-     under the week. */
+     under the week: progress, streak, rating, one under another. */
   .brief--focus .brief__lead {
     grid-column: 2;
     grid-row: 2;
+  }
+
+  .brief--focus .lead__top {
+    margin-top: 22px;
   }
 
   /* The week column carries a lot (top shots, tips, streak, rating), more
@@ -1721,99 +1725,13 @@ button.thread:active .thread__title {
   }
 }
 
-/* ---- Desktop reader -------------------------------------------------------
-   A wide screen fits a whole story without scrolling, so the brief stops
-   being a list: the story in hand fills the page, its actions sit under it,
-   and the rest of the day waits in a numbered strip along the bottom. The
-   phone keeps the list — this whole block is a different tree, not a restyle
-   (see `useMediaQuery` in the Brief screen). */
+/* ---- Desktop columns ------------------------------------------------------
+   A wide screen shows the day as three columns: how the reading is going on
+   the left, the stories themselves in the middle (the same list the phone
+   scrolls), and the week on the right. The columns beside the list stand
+   still while it scrolls. */
 @media (min-width: 1100px) {
-  .focus {
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* The rest of the day, as a strip of numbered cards. */
-  /* One row, always: the cards share the width while they fit and the strip
-     scrolls once a long day outgrows it. */
-  .strip__row {
-    display: flex;
-    gap: 12px;
-    overflow-x: auto;
-    padding-bottom: 4px;
-    scrollbar-width: thin;
-  }
-
-  .stripcard {
-    flex: 1 1 150px;
-    /* Low enough that a normal day's stories share one row; a long day
-       overflows into the strip's own scroll. */
-    min-width: 116px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding: 13px 14px;
-    border: 1px solid var(--hairline);
-    border-radius: var(--radius);
-    background: var(--surface);
-    box-shadow: var(--shadow-sm);
-    text-align: left;
-    transition: border-color 0.15s ease, transform 0.12s ease;
-  }
-
-  .stripcard:active {
-    transform: scale(0.98);
-  }
-
-  .stripcard__head {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .stripcard__no {
-    display: grid;
-    place-items: center;
-    min-width: 22px;
-    height: 22px;
-    border-radius: 999px;
-    background: var(--fill);
-    color: var(--text-tertiary);
-    font-size: 11px;
-    font-weight: 700;
-    font-variant-numeric: tabular-nums;
-  }
-
-  .stripcard.is-read .stripcard__no {
-    background: var(--accent);
-    color: #fff;
-  }
-
-  .stripcard__title {
-    font-size: 15px;
-    line-height: 1.35;
-    font-weight: 600;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  .stripcard__date {
-    font-size: 12px;
-    color: var(--text-tertiary);
-    font-variant-numeric: tabular-nums;
-  }
-
-  .stripcard.is-read .stripcard__title {
-    color: var(--text-secondary);
-  }
-
-  .stripcard.is-read .chip {
-    opacity: 0.6;
-  }
-
-  /* The day's tips in the rail: the app's panel, one row per tip. */
+  /* The rail cards' rows (the week, the day's tips). */
   .railrow {
     display: flex;
     align-items: center;
@@ -1823,7 +1741,9 @@ button.thread:active .thread__title {
     border: 0;
     border-top: 1px solid var(--hairline);
     background: none;
+    color: inherit;
     text-align: left;
+    text-decoration: none;
   }
 
   .railrow:first-child {
@@ -1858,10 +1778,6 @@ button.thread:active .thread__title {
 }
 
 @media (min-width: 1100px) and (hover: hover) {
-  .stripcard:hover {
-    border-color: var(--accent);
-  }
-
   .railrow:hover .railrow__title {
     color: var(--accent);
   }
@@ -1869,16 +1785,15 @@ button.thread:active .thread__title {
 
 /* From 1440px the cards run in two newspaper columns, from 1780px in three:
    read down one column, then the next. */
-/* Wide enough for a third column: the day's standing (streak, rating)
-   stands on end to the left of the story, in the space the two-column reader
-   leaves empty. The story column keeps the width it had before. */
-@media (min-width: 1660px) {
+/* Wide enough for a third column: how the day is going moves to the left of
+   the stories, and both side columns stand still while the middle scrolls. */
+@media (min-width: 1400px) {
   .screen--reader .screen__content {
     max-width: calc(var(--lead-w) + 28px + 860px + 28px + var(--side-w));
   }
 
   /* The header moves over the first column, so the title still starts where
-     the story card does. */
+     the stories do. */
   .screen--reader .large-title {
     margin-left: calc(var(--lead-w) + 28px);
   }
@@ -1898,27 +1813,103 @@ button.thread:active .thread__title {
   .brief--focus .brief__lead {
     grid-column: 1;
     grid-row: 1;
+  }
+
+  /* Both side columns hold one screen and stay there; only the stories move.
+     The height is measured from where they start (under the page header), not
+     from the sticky offset, so nothing is cut off before the first scroll. */
+  .brief--focus .brief__lead,
+  .brief--focus .brief__side {
     position: sticky;
-    top: calc(var(--nav-height) + 16px);
+    top: calc(var(--nav-height) + 14px);
+    height: calc(100dvh - 168px);
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  /* Left column: progress at the top, the streak centred in what is left,
+     the day's rating at the foot. */
+  .brief--focus .lead__top {
+    margin-top: 0;
+    padding: 4px 2px 0;
+  }
+
+  .brief--focus .lead__top .readbars {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+  }
+
+  .brief--focus .lead__top .readbars__seg {
+    height: 7px;
+  }
+
+  .brief--focus .lead__mid {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 0;
+  }
+
+  .brief--focus .lead__foot {
+    flex: 0 0 auto;
+  }
+
+  .brief--focus .lead__foot .rate {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0;
+    text-align: center;
   }
 
   .brief__lead .streak-divider {
+    margin: 0 2px 10px;
+  }
+
+  /* The streak fills the column: a big count, then the week standing on end. */
+  .brief__lead .streakcard {
     margin-top: 0;
   }
 
-  /* Standing on end, the week reads as a column of days: dot, then the name. */
+  /* Centred on the column: the count, the tier, then the week under it. */
+  .brief__lead .streakcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brief__lead .sc__head {
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    text-align: center;
+  }
+
+  .brief__lead .sc__meta {
+    align-items: center;
+  }
+
+  .brief__lead .sc__num {
+    font-size: 38px;
+  }
+
   .brief__lead .sc__week {
     flex-direction: column;
-    align-items: stretch;
-    gap: 9px;
-    margin-top: 14px;
+    align-items: center;
+    gap: 10px;
+    margin-top: 18px;
   }
 
   .brief__lead .sc__day {
     flex: 0 0 auto;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
     gap: 10px;
+    width: 82px;
   }
 
   .brief__lead .sc__day.has-chain::before {
@@ -1930,13 +1921,38 @@ button.thread:active .thread__title {
   }
 
   .brief__lead .sc__day small {
-    font-size: 11px;
+    font-size: 11.5px;
   }
 
-  .brief__lead .rate {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+  /* Right column: the week and the tips scroll inside it, sharing stays put
+     at the foot. */
+  .brief--focus .side__scroll {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    padding-right: 4px;
+    scrollbar-width: thin;
+  }
+
+  .brief--focus .side__scroll > :first-child,
+  .brief--focus .side__scroll > :first-child > .section-divider:first-child {
+    margin-top: 0;
+  }
+
+  .brief--focus .side__foot {
+    flex: 0 0 auto;
+    padding-top: 12px;
+    border-top: 1px solid var(--hairline);
+  }
+
+  .brief--focus .side__foot .share-brief-wrap {
+    margin-top: 0;
+  }
+
+  /* One column of stories, however wide the window gets. */
+  .screen--wide .brief--focus .items {
+    display: flex;
+    column-count: initial;
   }
 }
 

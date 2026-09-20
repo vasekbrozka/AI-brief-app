@@ -119,11 +119,9 @@ export function TodayScreen() {
       kicker={kicker}
       className={desktop && view === 'today' ? 'screen--reader' : undefined}
       headerAside={
-        desktop ? (
-          // The reader has no switch, so the day's progress takes the corner —
-          // one dash per story, the way the phone draws it under the date.
-          bars && <div className="headprogress">{bars}</div>
-        ) : (
+        // On a desktop the day and the week stand side by side, so there is
+        // nothing to switch between and the progress lives in the left column.
+        desktop ? undefined : (
           <div className="view-switch">
             <Segmented value={view} onChange={setView} options={options} ariaLabel={t.tabToday} />
           </div>

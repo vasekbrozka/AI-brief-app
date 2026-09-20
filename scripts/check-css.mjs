@@ -15,7 +15,7 @@ const REQUIRED = [
   '.todo__row', '.todo__check', '.list__row', '.archive-row__headline',
   '.settings-group__body', '.setting-switch', '.switch__thumb',
   '.toaster', '.toast', '.gpop', '.state__title', '.skeleton-line',
-  '.brief__side', '.tabbar__brand', '.stripcard', '.headprogress', '.railrow', '.brief__lead',
+  '.brief__side', '.tabbar__brand', '.railrow', '.brief__lead', '.lead__mid', '.side__scroll',
 ];
 
 const dir = join(process.cwd(), 'dist', 'assets');

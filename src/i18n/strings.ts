@@ -46,8 +46,7 @@ export interface UIStrings {
   whyLabel: string;
   howToTryLabel: string;
   tipBadge: string;
-  /** Desktop reader: the strip of remaining stories and the tips rail. */
-  moreInBrief: string;
+  /** Desktop: the label over the day's tips in the right column. */
   tipsRailLabel: string;
   radarTitle: string;
   radarTentative: string;
@@ -207,7 +206,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     whyLabel: 'Proč zbystřit',
     howToTryLabel: 'Jak na to',
     tipBadge: 'Vyzkoušej',
-    moreInBrief: 'Další v briefu',
     tipsRailLabel: 'Na vyzkoušení',
     radarTitle: 'Co se chystá',
     radarTentative: 'podle zpráv',
@@ -300,7 +298,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Poslat dnešní shot jedním klepnutím',
     ],
     releaseImproved: [
-      'Na počítači čteš novinku po novince: vlevo panel se záložkami, uprostřed otevřená novinka a pod ní pruh se zbytkem dne, vpravo Top shots a tipy, na širokém okně ještě sloupec se sérií čtení; odškrtnutí otevře další novinku; telefon beze změny',
+      'Na počítači jsou tři sloupce: vlevo postup dne, série čtení a hodnocení, uprostřed novinky jako na telefonu, vpravo Top shots, tipy a Poslat dnešní shot; telefon beze změny',
       'Přečtené novinky hned mizí z přehledu (dá se vypnout v Nastavení) a vedle nadpisu je kruh s procenty přečteného',
       'Zrnko dne se objeví až po dočtení všech novinek',
       'Po dočtení se jednou nabídne hodnocení dne; zavřít jde jedním klepnutím',
@@ -396,7 +394,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     whyLabel: 'Why it matters',
     howToTryLabel: 'How to try it',
     tipBadge: 'Try it',
-    moreInBrief: 'More in the brief',
     tipsRailLabel: 'Worth trying',
     radarTitle: 'Coming up',
     radarTentative: 'reported',
@@ -489,7 +486,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Share today’s shot with one tap',
     ],
     releaseImproved: [
-      'On a computer you read one story at a time: tabs in a left sidebar, the open story in the middle with the rest of the day in a strip below it, top shots and tips on the right, and on a wide window a column for the reading streak; checking a story off opens the next one; the phone is unchanged',
+      'On a computer the brief is three columns: your progress, streak and rating on the left, the stories in the middle as on the phone, top shots, tips and sharing on the right; the phone is unchanged',
       'Read stories leave the list right away (can be turned off in Settings) and a ring beside the title shows how much is read',
       'Bean of the day appears once every story is read',
       'After the last story, one gentle ask for the day’s rating; one tap closes it',
