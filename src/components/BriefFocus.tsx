@@ -1,4 +1,4 @@
-import { useCallback, useEffect } from 'react';
+import { useCallback, useEffect, useRef } from 'react';
 import type { BriefItem } from '../lib/types';
 import { formatDayMonth } from '../lib/format';
 import { useSettings } from '../providers/SettingsProvider';
@@ -15,8 +15,9 @@ function storyNo(i: number): string {
 /**
  * The desktop brief: the same story card the phone shows, one at a time and
  * the full width of the column, with the rest of the day waiting in a
- * numbered strip below it. Only the arrangement is new — the card, its check
- * and its action row are the app's own components.
+ * numbered strip below it. Checking a story off opens the next unread one.
+ * Only the arrangement is new — the card, its check and its action row are
+ * the app's own components.
  */
 export function BriefFocus({
   items,
@@ -28,21 +29,26 @@ export function BriefFocus({
   onFocus: (id: string) => void;
 }) {
   const { lang, t } = useSettings();
-  const { isRead, toggle } = useRead();
+  const { isRead } = useRead();
 
   const found = items.findIndex((item) => item.id === focusId);
   const index = found < 0 ? 0 : found;
   const item = items[index];
 
-  const next = useCallback(() => {
-    if (!item) return;
-    if (!isRead(item.id)) toggle(item.id);
+  // Checking the story off is what moves the reader on: the next unread one
+  // opens by itself, which is the whole loop of the app. Only that flip
+  // advances — opening a story that is already read leaves it open.
+  const readNow = item ? isRead(item.id) : false;
+  const previous = useRef<{ id: string | null; read: boolean }>({ id: null, read: false });
+  useEffect(() => {
+    const was = previous.current;
+    previous.current = { id: item?.id ?? null, read: readNow };
+    if (!item || !readNow || was.id !== item.id || was.read) return;
     const after =
       items.slice(index + 1).find((i) => !isRead(i.id)) ??
-      items.slice(0, index).find((i) => !isRead(i.id)) ??
-      items[index + 1];
+      items.slice(0, index).find((i) => !isRead(i.id));
     if (after) onFocus(after.id);
-  }, [item, items, index, isRead, toggle, onFocus]);
+  }, [item, readNow, items, index, isRead, onFocus]);
 
   const step = useCallback(
     (by: number) => {
@@ -72,18 +78,9 @@ export function BriefFocus({
 
   if (!item) return null;
 
-  const lastOne = index === items.length - 1 && items.every((i) => isRead(i.id));
-
   return (
     <div className="focus">
       <BriefItemCard key={item.id} item={item} keepInPlace />
-
-      <div className="focus__next">
-        <button type="button" className="btn focus__nextbtn" onClick={next} disabled={lastOne}>
-          {t.nextStory}
-          <Icon name="chevronRight" size={17} />
-        </button>
-      </div>
 
       {items.length > 1 && (
         <section className="strip" aria-label={t.moreInBrief}>

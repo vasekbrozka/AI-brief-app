@@ -56,24 +56,26 @@ export function BriefView({
     if (isToday && gamification && started) markFinished(brief.date);
   }, [isToday, gamification, started, brief.date, markFinished]);
 
-  // Below the stories: the day's dates ahead (in the archive only — on Today
-  // they live under "this week's top shots"), then the rating and sharing.
-  const extras = (
-    <>
-      {!isToday && brief.radar && brief.radar.length > 0 && <RadarSection radar={brief.radar} />}
-      <div className="panel rate">
-        <span className="rate__label">
-          {dayVote ? t.voteThanks : isToday ? t.rateTodayLabel : t.rateBriefLabel}
-        </span>
-        <VoteButtons id={dayId} />
-      </div>
-      <div className="share-brief-wrap">
-        <button type="button" className="share-brief" onClick={() => void shareBrief(brief, lang)}>
-          <Icon name="share" size={16} />
-          {isToday ? t.shareBriefLabel : t.shareBriefArchiveLabel}
-        </button>
-      </div>
-    </>
+  // What follows the reading: the dates ahead (in the archive only — on Today
+  // they live under "this week's top shots"), the rating and sharing. On a
+  // desktop the streak and the rating move into their own column beside the
+  // story; on a phone they all stack under it, in this order.
+  const ratePanel = (
+    <div className="panel rate">
+      <span className="rate__label">
+        {dayVote ? t.voteThanks : isToday ? t.rateTodayLabel : t.rateBriefLabel}
+      </span>
+      <VoteButtons id={dayId} />
+    </div>
+  );
+
+  const shareBlock = (
+    <div className="share-brief-wrap">
+      <button type="button" className="share-brief" onClick={() => void shareBrief(brief, lang)}>
+        <Icon name="share" size={16} />
+        {isToday ? t.shareBriefLabel : t.shareBriefArchiveLabel}
+      </button>
+    </div>
   );
 
   // Archive is a read-only browse: every story is shown, the read state is
@@ -98,6 +100,20 @@ export function BriefView({
 
   const tips = focus ? shown.filter(isTip) : [];
 
+  const streakBlock = isToday && showCard && (
+    <>
+      <div className="streak-divider">
+        <span>{t.streakSectionLabel}</span>
+      </div>
+      <WeekStreak
+        todayProgress={progress}
+        done={allRead}
+        started={started}
+        activeIso={brief.date}
+      />
+    </>
+  );
+
   // Two blocks: the stories, and what follows the reading (streak, term of the
   // day, rating, sharing). On a phone they stack in this order; on a desktop
   // the second block becomes a right rail beside the columns of cards.
@@ -116,6 +132,16 @@ export function BriefView({
           )
         )}
       </div>
+
+      {/* The reader's left column: the day's streak, standing on end, and the
+          rating — the two things that answer "how am I doing", beside the
+          story rather than a screen below it. */}
+      {focus && (
+        <aside className="brief__lead">
+          {streakBlock}
+          {ratePanel}
+        </aside>
+      )}
 
       <aside className="brief__side">
         {/* The desktop's second column: the week beside the day, so a wide
@@ -149,24 +175,14 @@ export function BriefView({
 
         {/* The streak card is the reward for the reading, so it follows the
             cards directly — its celebration must not fire off-screen. */}
-        {isToday && showCard && (
-          <>
-            <div className="streak-divider">
-              <span>{t.streakSectionLabel}</span>
-            </div>
-            <WeekStreak
-              todayProgress={progress}
-              done={allRead}
-              started={started}
-              activeIso={brief.date}
-            />
-          </>
-        )}
+        {!focus && streakBlock}
 
         {/* Once everything is read: a term to learn, then the rating and sharing. */}
         {isToday && allRead && <TermOfDay date={brief.date} />}
 
-        {extras}
+        {!isToday && brief.radar && brief.radar.length > 0 && <RadarSection radar={brief.radar} />}
+        {!focus && ratePanel}
+        {shareBlock}
       </aside>
 
       {/* The moment the last story is read, one gentle ask for the day's rating. */}

@@ -1465,16 +1465,11 @@ button.thread:active .thread__title {
   display: none;
 }
 
-/* Both belong to the desktop top bar; the phone's bar is tabs only. */
-.topbar-progress {
-  display: none;
-}
-
 @media (min-width: 900px) {
   :root {
     --content-max: 1520px;
-    --topbar-h: 62px;
-    --sidebar-w: 208px;
+    --sidebar-w: 216px;
+    --lead-w: 196px;
     --side-w: 340px;
   }
 
@@ -1485,7 +1480,6 @@ button.thread:active .thread__title {
 
   .app {
     max-width: none;
-    padding-top: var(--topbar-h);
     padding-left: var(--sidebar-w);
     box-shadow: none;
   }
@@ -1495,10 +1489,8 @@ button.thread:active .thread__title {
     margin: 0;
   }
 
-  /* The page's own bar (back button, condensed title) sits under the app bar,
-     right of the sidebar. */
+  /* The floating page bar (back button, condensed title) clears the sidebar. */
   .navbar {
-    top: var(--topbar-h);
     left: var(--sidebar-w);
     max-width: none;
   }
@@ -1543,34 +1535,32 @@ button.thread:active .thread__title {
     padding: 16px 18px;
   }
 
-  /* The bottom tab bar splits in two: the bar itself becomes the top bar
-     (brand left, the day's progress right) and its row of tabs becomes the
-     left sidebar. The solid background matters — a backdrop-filter would make
-     the bar a containing block and pin the sidebar inside it. */
+  /* The bottom tab bar becomes the left sidebar: brand at the top, the tabs
+     under it. There is no bar across the top — the page's own header carries
+     the day, and the reading progress sits at its right edge. */
   .tabbar {
     top: 0;
-    bottom: auto;
+    bottom: 0;
     left: 0;
-    right: 0;
+    right: auto;
     transform: none;
     display: flex;
-    align-items: center;
-    gap: 22px;
-    width: auto;
+    flex-direction: column;
+    width: var(--sidebar-w);
     max-width: none;
-    height: var(--topbar-h);
-    padding: 0 24px;
-    background: var(--surface);
+    padding: 26px 14px 16px;
+    background: transparent;
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
     border-top: 0;
-    border-bottom: 1px solid var(--hairline);
+    border-right: 1px solid var(--hairline);
   }
 
   .tabbar__brand {
     display: flex;
     align-items: center;
     gap: 10px;
+    padding: 4px 10px 22px;
     font-size: 17px;
     font-weight: 700;
     letter-spacing: -0.02em;
@@ -1585,17 +1575,10 @@ button.thread:active .thread__title {
   }
 
   .tabbar__inner {
-    position: fixed;
-    top: var(--topbar-h);
-    left: 0;
-    bottom: 0;
-    width: var(--sidebar-w);
     flex-direction: column;
     align-items: stretch;
     gap: 3px;
     height: auto;
-    padding: 18px 12px;
-    border-right: 1px solid var(--hairline);
   }
 
   .tabbar__item {
@@ -1628,41 +1611,8 @@ button.thread:active .thread__title {
     transform: none;
   }
 
-  /* The day's progress, right-aligned in the bar. */
-  .topbar-progress {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-left: auto;
-  }
-
-  .topbar-progress__count {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--text-secondary);
-    font-variant-numeric: tabular-nums;
-  }
-
-  .topbar-progress__track {
-    display: block;
-    width: 120px;
-    height: 6px;
-    border-radius: 999px;
-    background: var(--fill);
-    overflow: hidden;
-  }
-
-  .topbar-progress__track span {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 999px;
-    background: var(--accent);
-    transform-origin: left;
-    transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
-  }
-
-  /* Header: the date above the title, the view switch beside it. */
+  /* Header: the date above the title, the switch (or, in the reader, the
+     day's progress) beside it. */
   .large-title {
     grid-template-columns: minmax(0, 1fr) auto;
     column-gap: 24px;
@@ -1682,9 +1632,21 @@ button.thread:active .thread__title {
     width: 260px;
   }
 
-  /* The top bar already carries the progress; one bar per screen is enough. */
-  .headmeta .readbars {
-    display: none;
+  /* In the reader the progress moves up beside the title, where it has room
+     to run longer; the meta line keeps the words. */
+  .headprogress {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .headprogress .readbars {
+    width: 280px;
+    max-width: none;
+    margin: 0;
+  }
+
+  .headprogress .readbars__seg {
+    height: 6px;
   }
 
   .rateprompt {
@@ -1702,11 +1664,28 @@ button.thread:active .thread__title {
     align-items: start;
   }
 
-  /* The reader's two columns — the day and, beside it, the week — cap the
-     whole screen instead of the grid, so the card lines up with the title
-     above it. */
+  /* The reader's columns: the story, and the week beside it. The cap sits on
+     the screen rather than the grid, so the title and the story card start on
+     the same line. */
   .screen--reader .screen__content {
     max-width: calc(860px + 28px + var(--side-w));
+  }
+
+  .brief--focus .brief__main {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .brief--focus .brief__side {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  /* Until there is room for a column of its own, the day's standing sits
+     under the week. */
+  .brief--focus .brief__lead {
+    grid-column: 2;
+    grid-row: 2;
   }
 
   /* The week column carries a lot (top shots, tips, streak, rating), more
@@ -1720,7 +1699,7 @@ button.thread:active .thread__title {
      bar that fades in over it. */
   .brief__side {
     position: sticky;
-    top: calc(var(--topbar-h) + var(--nav-height) + 8px);
+    top: calc(var(--nav-height) + 16px);
     padding-top: 14px;
   }
 
@@ -1752,25 +1731,6 @@ button.thread:active .thread__title {
   .focus {
     display: flex;
     flex-direction: column;
-  }
-
-  /* The story card is the app's own, just given the whole column. */
-  .focus__next {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 14px;
-  }
-
-  .focus__nextbtn {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    margin-top: 0;
-    padding-right: 14px;
-  }
-
-  .focus__nextbtn:disabled {
-    opacity: 0.4;
   }
 
   /* The rest of the day, as a strip of numbered cards. */
@@ -1909,6 +1869,77 @@ button.thread:active .thread__title {
 
 /* From 1440px the cards run in two newspaper columns, from 1780px in three:
    read down one column, then the next. */
+/* Wide enough for a third column: the day's standing (streak, rating)
+   stands on end to the left of the story, in the space the two-column reader
+   leaves empty. The story column keeps the width it had before. */
+@media (min-width: 1660px) {
+  .screen--reader .screen__content {
+    max-width: calc(var(--lead-w) + 28px + 860px + 28px + var(--side-w));
+  }
+
+  /* The header moves over the first column, so the title still starts where
+     the story card does. */
+  .screen--reader .large-title {
+    margin-left: calc(var(--lead-w) + 28px);
+  }
+
+  .screen--wide .brief--focus {
+    grid-template-columns: var(--lead-w) minmax(0, 1fr) var(--side-w);
+  }
+
+  .brief--focus .brief__main {
+    grid-column: 2;
+  }
+
+  .brief--focus .brief__side {
+    grid-column: 3;
+  }
+
+  .brief--focus .brief__lead {
+    grid-column: 1;
+    grid-row: 1;
+    position: sticky;
+    top: calc(var(--nav-height) + 16px);
+  }
+
+  .brief__lead .streak-divider {
+    margin-top: 0;
+  }
+
+  /* Standing on end, the week reads as a column of days: dot, then the name. */
+  .brief__lead .sc__week {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 9px;
+    margin-top: 14px;
+  }
+
+  .brief__lead .sc__day {
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .brief__lead .sc__day.has-chain::before {
+    top: 50%;
+    left: 12px;
+    width: 2.5px;
+    height: 100%;
+    transform: translateX(-50%);
+  }
+
+  .brief__lead .sc__day small {
+    font-size: 11px;
+  }
+
+  .brief__lead .rate {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
 @media (min-width: 1440px) {
   .screen--wide .items {
     display: block;

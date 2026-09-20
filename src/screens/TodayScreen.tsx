@@ -9,7 +9,6 @@ import { useLatestBrief } from '../hooks/useBrief';
 import { useClockTick } from '../hooks/useClockTick';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
-import { useProgress } from '../providers/ProgressProvider';
 import { DESKTOP_QUERY, useMediaQuery } from '../hooks/useMedia';
 import { readingMinutes, visibleItems } from '../lib/briefStats';
 import {
@@ -33,7 +32,6 @@ export function TodayScreen() {
   // A wide screen shows the day and the week side by side, so it needs no
   // switch between them; the phone keeps it.
   const desktop = useMediaQuery(DESKTOP_QUERY);
-  const { report } = useProgress();
   const [view, setView] = useState<View>('today');
   useClockTick();
 
@@ -90,18 +88,9 @@ export function TodayScreen() {
   const subtitle = (
     <div className="headmeta">
       <span className="headmeta__text">{metaText}</span>
-      {bars}
+      {!desktop && bars}
     </div>
   );
-
-  // The top bar shows the day's progress on a desktop; it is the brief screen
-  // that knows the counts, so it hands them over (and clears them on the way
-  // out, where no brief is on screen).
-  const total = view === 'today' && status === 'ready' && data ? shown.length : 0;
-  useEffect(() => {
-    report(total ? readCount : 0, total);
-    return () => report(0, 0);
-  }, [report, readCount, total]);
 
   useEffect(() => {
     if (desktop && view === 'week') setView('today');
@@ -130,7 +119,11 @@ export function TodayScreen() {
       kicker={kicker}
       className={desktop && view === 'today' ? 'screen--reader' : undefined}
       headerAside={
-        desktop ? undefined : (
+        desktop ? (
+          // The reader has no switch, so the day's progress takes the corner —
+          // one dash per story, the way the phone draws it under the date.
+          bars && <div className="headprogress">{bars}</div>
+        ) : (
           <div className="view-switch">
             <Segmented value={view} onChange={setView} options={options} ariaLabel={t.tabToday} />
           </div>
