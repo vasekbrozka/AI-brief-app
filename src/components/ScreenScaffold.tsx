@@ -11,6 +11,8 @@ interface ScreenScaffoldProps {
   subtitleLines?: 1 | 2;
   /** Control beside the title block, centred on its height (e.g. the reading-progress ring). */
   accessory?: ReactNode;
+  /** Reading screens: on a desktop they may use the whole width (columns, a right rail). */
+  wide?: boolean;
   left?: ReactNode;
   right?: ReactNode;
   children: ReactNode;
@@ -31,6 +33,7 @@ export function ScreenScaffold({
   progress,
   subtitleLines = 1,
   accessory,
+  wide = false,
   left,
   right,
   children,
@@ -66,7 +69,7 @@ export function ScreenScaffold({
   const clamped = progress == null ? null : Math.min(1, Math.max(0, progress));
 
   return (
-    <div className="screen">
+    <div className={`screen${wide ? ' screen--wide' : ''}`}>
       <header ref={headerRef} className={navClass}>
         <div className="navbar__side navbar__side--left">{left}</div>
         <div className={`navbar__title${barContent != null ? ' navbar__title--info' : ''}`}>

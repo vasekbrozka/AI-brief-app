@@ -295,6 +295,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Poslat dnešní shot jedním klepnutím',
     ],
     releaseImproved: [
+      'Na počítači nový layout: novinky v novinových sloupcích, vpravo série, Zrnko dne a hodnocení, To do ve dvou sloupcích; telefon beze změny',
       'Přečtené novinky hned mizí z přehledu (dá se vypnout v Nastavení) a vedle nadpisu je kruh s procenty přečteného',
       'Zrnko dne se objeví až po dočtení všech novinek',
       'Po dočtení se jednou nabídne hodnocení dne; zavřít jde jedním klepnutím',
@@ -481,6 +482,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Share today’s shot with one tap',
     ],
     releaseImproved: [
+      'A new desktop layout: stories in newspaper columns, the streak, bean of the day and rating in a right rail, To do in two columns; the phone is unchanged',
       'Read stories leave the list right away (can be turned off in Settings) and a ring beside the title shows how much is read',
       'Bean of the day appears once every story is read',
       'After the last story, one gentle ask for the day’s rating; one tap closes it',

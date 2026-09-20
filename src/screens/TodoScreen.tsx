@@ -150,7 +150,10 @@ export function TodoScreen() {
   const subtitle = items.length ? todoCountLabel(openCount, doneCount, lang) : t.todoSubtitle;
 
   return (
-    <ScreenScaffold title={t.todoTitle} subtitle={subtitle}>
+    <ScreenScaffold title={t.todoTitle} subtitle={subtitle} wide>
+      {/* One column on a phone; on a desktop the list and the tips sit side by side. */}
+      <div className="todo">
+      <div className="todo__main">
       {items.length === 0 ? (
         <EmptyState icon="listCheck" title={t.todoEmptyTitle} body={t.todoEmptyBody} />
       ) : (
@@ -182,7 +185,9 @@ export function TodoScreen() {
         </>
       )}
 
-      <section aria-label={t.todoSuggestTitle}>
+      </div>
+
+      <section className="todo__side" aria-label={t.todoSuggestTitle}>
         <div className="section-divider">
           <span>{t.todoSuggestTitle}</span>
         </div>
@@ -208,6 +213,7 @@ export function TodoScreen() {
           </ul>
         )}
       </section>
+      </div>
     </ScreenScaffold>
   );
 }

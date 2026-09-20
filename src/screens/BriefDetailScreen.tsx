@@ -42,6 +42,7 @@ export function BriefDetailScreen({ date, onBack }: { date: string; onBack: () =
       title={capitalizeFirst(formatShortDate(date, lang))}
       subtitle={subtitle}
       left={backButton}
+      wide
     >
       {status === 'loading' && <BriefSkeleton />}
       {status === 'error' && <ErrorState onRetry={reload} />}

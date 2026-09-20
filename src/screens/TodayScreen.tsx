@@ -109,6 +109,7 @@ export function TodayScreen() {
       progress={progress}
       subtitleLines={2}
       accessory={ring}
+      wide
     >
       <div className="view-switch">
         <Segmented value={view} onChange={setView} options={options} ariaLabel={t.tabToday} />

@@ -12,6 +12,9 @@ z GitHubu.
 ## Co appka umí
 
 - 📱 **PWA** — přidání na plochu iPhonu, celoobrazovkový režim, funguje offline (service worker)
+- 🖥️ **Vlastní layout pro počítač** — levý sidebar, novinky v novinových sloupcích
+  (2 od 1440 px, 3 od 1780 px), vpravo přilepená lišta se sérií, Zrnkem dne a hodnocením;
+  To do ve dvou sloupcích. Telefon má svůj jednosloupcový layout beze změny
 - 🌗 **Světlý / tmavý / automatický** motiv ve stylu Apple
 - 🇨🇿 🇬🇧 **Dvojjazyčně** — přepínač CS / EN v Nastavení
 - 🗂️ **Tři záložky** — Brief (přepínač Dnes / Top shots), Archiv (posledních

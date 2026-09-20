@@ -18,16 +18,22 @@ export function WeekView() {
 
   return (
     <div className="brief">
-      {data.items.length === 0 ? (
-        <EmptyState title={t.viewWeek} body={t.weekEmpty} />
-      ) : (
-        <div className="items">
-          {data.items.map((item) => (
-            <BriefItemCard key={item.id} item={item} plain />
-          ))}
-        </div>
+      <div className="brief__main">
+        {data.items.length === 0 ? (
+          <EmptyState title={t.viewWeek} body={t.weekEmpty} />
+        ) : (
+          <div className="items">
+            {data.items.map((item) => (
+              <BriefItemCard key={item.id} item={item} plain />
+            ))}
+          </div>
+        )}
+      </div>
+      {data.radar.length > 0 && (
+        <aside className="brief__side">
+          <RadarSection radar={data.radar} />
+        </aside>
       )}
-      {data.radar.length > 0 && <RadarSection radar={data.radar} />}
     </div>
   );
 }

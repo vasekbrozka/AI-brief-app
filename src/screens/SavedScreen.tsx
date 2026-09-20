@@ -19,7 +19,7 @@ export function SavedScreen({ onBack }: { onBack: () => void }) {
   );
 
   return (
-    <ScreenScaffold title={t.savedTitle} left={backButton}>
+    <ScreenScaffold title={t.savedTitle} left={backButton} wide>
       {saved.length === 0 ? (
         <EmptyState icon="bookmark" title={t.savedEmpty} body={t.savedEmptyBody} />
       ) : (

@@ -1423,15 +1423,23 @@ button.thread:active .thread__title {
   }
 }
 
-/* ---- Desktop layout (≥ 900px): sidebar + wider column -------------------- */
+/* ---- Desktop layout (≥ 900px): sidebar + content that uses the width ------
+   The phone layout stays as it is below 900px. From 900px the tab bar is a
+   left sidebar and the content sits left-aligned beside it. Reading screens
+   (`.screen--wide`: the brief, an archived day, saved, To do) may use the
+   whole width: story cards flow into newspaper columns as the width allows,
+   and from 1100px the widgets that follow the reading (streak, term of the
+   day, rating, sharing, dates ahead) form a right rail that stays in view.
+   Forms and lists (archive, settings) keep a comfortable measure. */
 .tabbar__brand {
   display: none;
 }
 
 @media (min-width: 900px) {
   :root {
-    --content-max: 748px;
+    --content-max: 1520px;
     --sidebar-w: 224px;
+    --side-w: 340px;
   }
 
   html,
@@ -1446,13 +1454,14 @@ button.thread:active .thread__title {
   }
 
   .app__main {
-    max-width: var(--content-max);
-    margin-inline: auto;
+    max-width: none;
+    margin: 0;
   }
 
   /* The top bar floats over the content area, right of the sidebar. */
   .navbar {
     left: var(--sidebar-w);
+    max-width: none;
   }
 
   .toaster {
@@ -1460,9 +1469,44 @@ button.thread:active .thread__title {
     bottom: 40px;
   }
 
-  /* No bottom tab bar to clear anymore. */
+  /* Left-aligned beside the sidebar; no bottom tab bar to clear. */
   .screen__content {
-    padding-bottom: 56px;
+    max-width: 800px;
+    padding: 28px 32px 56px;
+  }
+
+  .screen__content--chrome {
+    padding-top: calc(var(--nav-height) + 6px);
+  }
+
+  .screen--wide .screen__content {
+    max-width: var(--content-max);
+  }
+
+  /* Header: date and meta on one line, the ring right next to the title. */
+  .large-title__text {
+    flex: 0 1 auto;
+  }
+
+  .large-title__subtitle--two {
+    min-height: auto;
+  }
+
+  .large-title__meta {
+    display: inline;
+    margin: 0 0 0 6px;
+  }
+
+  .large-title__meta::before {
+    content: '· ';
+  }
+
+  .view-switch {
+    max-width: 400px;
+  }
+
+  .item {
+    padding: 16px 18px;
   }
 
   /* Bottom tab bar becomes the left sidebar. */
@@ -1535,14 +1579,60 @@ button.thread:active .thread__title {
   .tabbar__item:active {
     transform: none;
   }
+}
 
-  /* Roomier cards on the wide column; the view switch keeps a control's width. */
-  .item {
-    padding: 18px 20px;
+/* From 1100px: the right rail beside the stories; To do in two columns. */
+@media (min-width: 1100px) {
+  .screen--wide .brief {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) var(--side-w);
+    column-gap: 28px;
+    align-items: start;
   }
 
-  .view-switch {
-    max-width: 400px;
+  /* Stays in view while the columns scroll; clears the floating top bar. */
+  .brief__side {
+    position: sticky;
+    top: calc(var(--nav-height) + 16px);
+    padding-top: 14px;
+  }
+
+  .brief__side > :first-child,
+  .brief__side > :first-child > .section-divider:first-child {
+    margin-top: 0;
+  }
+
+  .brief > .filtered-note,
+  .brief > .sample-note {
+    grid-column: 1;
+  }
+
+  .screen--wide .todo {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 28px;
+    align-items: start;
+  }
+}
+
+/* From 1440px the cards run in two newspaper columns, from 1780px in three:
+   read down one column, then the next. */
+@media (min-width: 1440px) {
+  .screen--wide .items {
+    display: block;
+    column-count: 2;
+    column-gap: 20px;
+  }
+
+  .screen--wide .items > .swipe {
+    break-inside: avoid;
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 1780px) {
+  .screen--wide .items {
+    column-count: 3;
   }
 }
 

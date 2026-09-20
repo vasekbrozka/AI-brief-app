@@ -64,59 +64,51 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
     </>
   );
 
+  // Archive is a read-only browse: every story is shown, the read state is
+  // ignored (never hide or dim), so a past day never collapses to "all caught
+  // up". The streak is unaffected — it's driven by Today.
+  const cards = isToday ? listed : shown;
+
+  // Two blocks: the stories, and what follows the reading (streak, term of the
+  // day, rating, sharing). On a phone they stack in this order; on a desktop
+  // the second block becomes a right rail beside the columns of cards.
   return (
     <div className="brief">
+      <div className="brief__main">
+        {cards.length > 0 && (
+          <div className="items">
+            {cards.map((item) => (
+              <BriefItemCard key={item.id} item={item} plain={!isToday} />
+            ))}
+          </div>
+        )}
+      </div>
 
-      {!isToday ? (
-        // Archive is a read-only browse: every story is shown, the read state
-        // is ignored (never hide or dim), so a past day never collapses to
-        // "all caught up". The streak is unaffected — it's driven by Today.
-        <>
-          {shown.length > 0 && (
-            <div className="items">
-              {shown.map((item) => (
-                <BriefItemCard key={item.id} item={item} plain />
-              ))}
+      <aside className="brief__side">
+        {/* The streak card is the reward for the reading, so it follows the
+            cards directly — its celebration must not fire off-screen. */}
+        {isToday && showCard && (
+          <>
+            <div className="streak-divider">
+              <span>{t.streakSectionLabel}</span>
             </div>
-          )}
-          {extras}
-        </>
-      ) : (
-        <>
-          {listed.length > 0 && (
-            <div className="items">
-              {listed.map((item) => (
-                <BriefItemCard key={item.id} item={item} />
-              ))}
-            </div>
-          )}
+            <WeekStreak
+              todayProgress={progress}
+              done={allRead}
+              started={started}
+              activeIso={brief.date}
+            />
+          </>
+        )}
 
-          {/* The streak card is the reward for the reading, so it follows the
-              cards directly — its celebration must not fire off-screen. */}
-          {showCard && (
-            <>
-              <div className="streak-divider">
-                <span>{t.streakSectionLabel}</span>
-              </div>
-              <WeekStreak
-                todayProgress={progress}
-                done={allRead}
-                started={started}
-                activeIso={brief.date}
-              />
-            </>
-          )}
+        {/* Once everything is read: a term to learn, then the rating and sharing. */}
+        {isToday && allRead && <TermOfDay date={brief.date} />}
 
-          {/* Once everything is read: a term to learn, then the rating and
-              sharing — and, the moment the last story is read, one gentle
-              ask for the day's rating. */}
-          {allRead && <TermOfDay date={brief.date} />}
+        {extras}
+      </aside>
 
-          {extras}
-
-          <RatePrompt dayId={dayId} date={brief.date} allRead={allRead} />
-        </>
-      )}
+      {/* The moment the last story is read, one gentle ask for the day's rating. */}
+      {isToday && <RatePrompt dayId={dayId} date={brief.date} allRead={allRead} />}
 
       {hiddenCount > 0 && <p className="filtered-note">{hiddenCountLabel(hiddenCount, lang)}</p>}
 
