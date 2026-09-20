@@ -190,12 +190,12 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
               )}
               <SourceList sources={item.sources} />
             </div>
-            {/* Thumbs, To do, save, share — the small stuff, in one row. */}
+            {/* Thumbs on the left; To do, save and share on the right. */}
             <div className="item__bar">
-              <div className="item__bar-left">
-                <div className="item__bar-votes" role="group" aria-label={t.voteLabel} title={t.voteLabel}>
-                  <VoteButtons id={item.id} />
-                </div>
+              <div className="item__bar-votes" role="group" aria-label={t.voteLabel} title={t.voteLabel}>
+                <VoteButtons id={item.id} />
+              </div>
+              <div className="item__bar-right">
                 {todoEnabled && (
                   <button
                     type="button"
