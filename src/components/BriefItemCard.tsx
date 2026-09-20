@@ -53,9 +53,10 @@ function ThreadLink({ thread }: { thread: ThreadRef }) {
  * moment the card is, however long the story, and the same spot in both
  * states — tinted while unread, filled once read. Every action is a visible
  * button; swiping stays a shortcut. A read card keeps its place and folds to
- * one line of its title, fading out where it runs long — same size, same
- * spot, so only the body below it moves; the check glides to the middle of
- * what is left. Tapping the check un-reads it, which opens the card again.
+ * one line of its title, fading out where it runs long: the chip row and the
+ * body slide shut around it, so the title rises to meet the check and the
+ * two sit centred on what is left. Tapping the check un-reads the story,
+ * which opens the card again.
  * With "hide read" on, the card fades out instead.
  */
 export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?: boolean }) {
@@ -160,15 +161,20 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
       }}
     >
       <article className={cls}>
-        <div className="item__meta">
-          <CategoryChip id={item.category} />
-          {showTop && <span className="item__top">{t.topStory}</span>}
-          {tip && (
-            <span className="item__kind">
-              <Icon name="sparkle" size={12} />
-              {t.tipBadge}
-            </span>
-          )}
+        {/* The chip row collapses with the fold, the same grid-rows
+            transition the body uses, so a folded card is just its title and
+            the check. */}
+        <div className="item__chips" data-open={folded ? 'false' : 'true'} aria-hidden={folded}>
+          <div className="item__meta">
+            <CategoryChip id={item.category} />
+            {showTop && <span className="item__top">{t.topStory}</span>}
+            {tip && (
+              <span className="item__kind">
+                <Icon name="sparkle" size={12} />
+                {t.tipBadge}
+              </span>
+            )}
+          </div>
         </div>
         {!plain && (
           <button
