@@ -302,7 +302,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Poslat dnešní shot jedním klepnutím',
     ],
     releaseImproved: [
-      'Na počítači čteš novinku po novince: otevřená novinka zabírá stránku, pod ní je pruh se zbytkem dne, vpravo série a tipy a nahoře lišta s postupem; telefon beze změny',
+      'Na počítači čteš novinku po novince: otevřená novinka zabírá sloupec, pod ní je pruh se zbytkem dne, vpravo tipy a série a nahoře lišta s postupem; telefon beze změny',
       'Přečtené novinky hned mizí z přehledu (dá se vypnout v Nastavení) a vedle nadpisu je kruh s procenty přečteného',
       'Zrnko dne se objeví až po dočtení všech novinek',
       'Po dočtení se jednou nabídne hodnocení dne; zavřít jde jedním klepnutím',
@@ -492,7 +492,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Share today’s shot with one tap',
     ],
     releaseImproved: [
-      'On a computer you read one story at a time: the open story fills the page, the rest of the day waits in a strip below it, the streak and tips sit in a right rail, and the top bar carries your progress; the phone is unchanged',
+      'On a computer you read one story at a time: the open story fills the column, the rest of the day waits in a strip below it, tips and the streak sit in a right rail, and the top bar carries your progress; the phone is unchanged',
       'Read stories leave the list right away (can be turned off in Settings) and a ring beside the title shows how much is read',
       'Bean of the day appears once every story is read',
       'After the last story, one gentle ask for the day’s rating; one tap closes it',

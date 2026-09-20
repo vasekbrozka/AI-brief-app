@@ -101,7 +101,7 @@ export function BriefView({
   // day, rating, sharing). On a phone they stack in this order; on a desktop
   // the second block becomes a right rail beside the columns of cards.
   return (
-    <div className="brief">
+    <div className={`brief${focus ? ' brief--focus' : ''}`}>
       <div className="brief__main">
         {focus ? (
           <BriefFocus items={shown} focusId={focusId} onFocus={setFocusId} />
@@ -120,10 +120,13 @@ export function BriefView({
         {/* Desktop only: the day's practical tips, as a way into them — the
             list version marks them with a badge in place. */}
         {tips.length > 0 && (
-          <section className="railcard">
-            <div className="railcard__label">{t.tipsRailLabel}</div>
-            <div className="railcard__title">{tipCountLabel(tips.length, lang)}</div>
-            <div className="railcard__rows">
+          <>
+            <div className="section-divider">
+              <span>
+                {t.tipsRailLabel} · {tipCountLabel(tips.length, lang)}
+              </span>
+            </div>
+            <div className="panel">
               {tips.map((tipItem) => (
                 <button
                   key={tipItem.id}
@@ -136,7 +139,7 @@ export function BriefView({
                 </button>
               ))}
             </div>
-          </section>
+          </>
         )}
 
         {/* The streak card is the reward for the reading, so it follows the

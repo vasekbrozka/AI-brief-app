@@ -59,7 +59,20 @@ function ThreadLink({ thread }: { thread: ThreadRef }) {
  * which opens the card again.
  * With "hide read" on, the card fades out instead.
  */
-export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?: boolean }) {
+export function BriefItemCard({
+  item,
+  plain = false,
+  keepInPlace = false,
+}: {
+  item: BriefItem;
+  plain?: boolean;
+  /**
+   * The desktop reader holds a single card on screen: it never folds and
+   * never fades away, because there is no list around it to compress — the
+   * check alone says whether the story is done.
+   */
+  keepInPlace?: boolean;
+}) {
   const { lang, t, hideRead, todoEnabled } = useSettings();
   const { isRead, toggle } = useRead();
   const { isSaved, toggle: toggleSaved } = useSaved();
@@ -72,7 +85,7 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
   const why = item.why?.[lang];
   const title = item.title[lang];
   // A read card is folded, full stop; un-reading it is what opens it.
-  const folded = read;
+  const folded = read && !keepInPlace;
 
   function handleSave() {
     const wasSaved = saved;
@@ -132,7 +145,7 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
     // Unreading, folding in place, or reduced motion: apply immediately — the
     // fold itself is a CSS transition. Only a card that leaves the list
     // (hide-read on) gets the short fade-out first.
-    if (read || !hideRead || reduce) {
+    if (read || !hideRead || reduce || keepInPlace) {
       toggle(item.id);
       return;
     }

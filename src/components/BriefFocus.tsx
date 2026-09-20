@@ -1,30 +1,22 @@
 import { useCallback, useEffect } from 'react';
 import type { BriefItem } from '../lib/types';
-import { isTip } from '../lib/types';
-import { capitalizeFirst, formatDayMonth, formatShortDate } from '../lib/format';
-import { shareItem } from '../lib/share';
+import { formatDayMonth } from '../lib/format';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
-import { useSaved } from '../providers/SavedProvider';
-import { todoFromStory, useTodo } from '../providers/TodoProvider';
-import { toast } from '../lib/toast';
+import { BriefItemCard } from './BriefItemCard';
 import { CategoryChip } from './CategoryChip';
-import { GlossaryText } from './GlossaryText';
-import { SourceList } from './SourceList';
-import { VoteButtons } from './VoteButtons';
 import { Icon } from './Icon';
 
-/** Two-digit story number, the way the strip and the badge count them. */
-export function storyNo(i: number): string {
+/** Two-digit story number, the way the strip counts them. */
+function storyNo(i: number): string {
   return String(i + 1).padStart(2, '0');
 }
 
 /**
- * The desktop brief: one story at a time. The screen is wide enough to read a
- * whole story without scrolling, so it shows the current one in full, its
- * actions under it, and the rest of the day as a numbered strip along the
- * bottom. The primary button reads "done, next up" — it checks the story off
- * and moves to the next unread one, which is the whole loop of the app.
+ * The desktop brief: the same story card the phone shows, one at a time and
+ * the full width of the column, with the rest of the day waiting in a
+ * numbered strip below it. Only the arrangement is new — the card, its check
+ * and its action row are the app's own components.
  */
 export function BriefFocus({
   items,
@@ -35,10 +27,8 @@ export function BriefFocus({
   focusId: string | null;
   onFocus: (id: string) => void;
 }) {
-  const { lang, t, todoEnabled } = useSettings();
+  const { lang, t } = useSettings();
   const { isRead, toggle } = useRead();
-  const { isSaved, toggle: toggleSaved } = useSaved();
-  const todo = useTodo();
 
   const found = items.findIndex((item) => item.id === focusId);
   const index = found < 0 ? 0 : found;
@@ -62,7 +52,7 @@ export function BriefFocus({
     [items, index, onFocus],
   );
 
-  // Arrow keys walk the brief; the story stays unread until the button says so.
+  // Arrow keys walk the brief; a story stays unread until the button says so.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const el = e.target as HTMLElement | null;
@@ -82,116 +72,24 @@ export function BriefFocus({
 
   if (!item) return null;
 
-  const title = item.title[lang];
-  const why = item.why?.[lang];
-  const read = isRead(item.id);
-  const saved = isSaved(item.id);
-  const tip = isTip(item);
-  const todoKey = todoFromStory(item).key;
-  const inTodo = todo.has(todoKey);
-  const highlight = Boolean(item.highlight);
-  const rest = items.filter((_, i) => i !== index);
   const lastOne = index === items.length - 1 && items.every((i) => isRead(i.id));
-
-  function handleSave() {
-    const wasSaved = saved;
-    toggleSaved(item);
-    toast(wasSaved ? t.unsavedToast : t.savedToast);
-  }
-
-  function handleTodo() {
-    if (inTodo) {
-      todo.remove(todoKey);
-      toast(t.todoRemovedToast);
-    } else {
-      todo.add(todoFromStory(item));
-      toast(t.todoAddedToast);
-    }
-  }
 
   return (
     <div className="focus">
-      <article
-        className={`hero${read ? ' is-read' : ''}${tip ? ' hero--tip' : ''}${
-          highlight ? ' hero--highlight' : ''
-        }`}
-      >
-        <div className="hero__head">
-          <CategoryChip id={item.category} />
-          {highlight && <span className="item__top">{t.topStory}</span>}
-          {tip && (
-            <span className="item__kind">
-              <Icon name="sparkle" size={12} />
-              {t.tipBadge}
-            </span>
-          )}
-        </div>
-        <button
-          type="button"
-          className={`hero__no${read ? ' is-read' : ''}`}
-          aria-pressed={read}
-          aria-label={read ? t.markUnread : t.markRead}
-          title={read ? t.markUnread : t.markRead}
-          onClick={() => toggle(item.id)}
-        >
-          {read ? <Icon name="check" size={34} /> : storyNo(index)}
-        </button>
-        <h2 className="hero__title">{title}</h2>
-        <p className="hero__summary">
-          <GlossaryText text={item.summary[lang]} />
-        </p>
-        <div className="hero__grid">
-          {why && (
-            <div className="item__why hero__why">
-              <span className="item__why-label">{tip ? t.howToTryLabel : t.whyLabel}</span>
-              <p className="item__why-text">
-                <GlossaryText text={why} />
-              </p>
-            </div>
-          )}
-          <div className="hero__meta">
-            {item.eventDate && (
-              <span className="hero__date">
-                {capitalizeFirst(formatShortDate(item.eventDate, lang))}
-              </span>
-            )}
-            <SourceList sources={item.sources} />
-          </div>
-        </div>
-      </article>
+      <BriefItemCard key={item.id} item={item} keepInPlace />
 
-      <div className="heroactions">
-        <button type="button" className="heroaction" onClick={handleSave} aria-pressed={saved}>
-          <Icon name={saved ? 'bookmarkFilled' : 'bookmark'} size={17} />
-          {saved ? t.removeLabel : t.saveLabel}
-        </button>
-        {todoEnabled && (
-          <button type="button" className="heroaction" onClick={handleTodo} aria-pressed={inTodo}>
-            <Icon name={inTodo ? 'listCheck' : 'listPlus'} size={17} />
-            {inTodo ? t.todoRemoveLabel : t.todoAddLabel}
-          </button>
-        )}
-        <button
-          type="button"
-          className="heroaction"
-          onClick={() => void shareItem(item, lang)}
-        >
-          <Icon name="share" size={17} />
-          {t.shareLabel}
-        </button>
-        <div className="heroactions__vote">
-          <span className="heroactions__votelabel">{t.voteLabel}</span>
-          <VoteButtons id={item.id} />
-        </div>
-        <button type="button" className="heronext" onClick={next} disabled={lastOne}>
+      <div className="focus__next">
+        <button type="button" className="btn focus__nextbtn" onClick={next} disabled={lastOne}>
           {t.nextStory}
-          <Icon name="chevronRight" size={18} />
+          <Icon name="chevronRight" size={17} />
         </button>
       </div>
 
-      {rest.length > 0 && (
+      {items.length > 1 && (
         <section className="strip" aria-label={t.moreInBrief}>
-          <div className="strip__label">{t.moreInBrief}</div>
+          <div className="section-divider">
+            <span>{t.moreInBrief}</span>
+          </div>
           <div className="strip__row">
             {items.map((other, i) =>
               i === index ? null : (
