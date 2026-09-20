@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "node scripts/check-css.mjs",
     "preview": "vite preview --host",
     "typecheck": "tsc --noEmit",
     "icons": "node scripts/generate-icons.mjs"

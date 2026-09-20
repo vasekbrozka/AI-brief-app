@@ -1,0 +1,34 @@
+// Post-build guard: the built stylesheet must still contain the selectors
+// every screen depends on. A CSS edit that drops a block by accident (it
+// happened once: an index-based replace ate 770 lines) then fails the build
+// instead of reaching Netlify.
+import { readdirSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+const REQUIRED = [
+  '.navbar', '.large-title__heading', '.tabbar__item', '.segmented__option',
+  '.swipe', '.item__meta', '.item__title', '.item__summary', '.item__why',
+  '.item__bar', '.iconbtn', '.read-cta', '.item__stamp', '.item--folded',
+  '.vote-btn', '.rate', '.rateprompt', '.ring__fill',
+  '.streakcard', '.sc__num', '.sc__dot', '.streak-divider',
+  '.section-divider', '.radar__row', '.share-brief', '.panel', '.termday__term',
+  '.todo__row', '.todo__check', '.list__row', '.archive-row__headline',
+  '.settings-group__body', '.setting-switch', '.switch__thumb',
+  '.toaster', '.toast', '.gpop', '.state__title', '.skeleton-line',
+];
+
+const dir = join(process.cwd(), 'dist', 'assets');
+const css = readdirSync(dir)
+  .filter((f) => f.endsWith('.css'))
+  .map((f) => readFileSync(join(dir, f), 'utf8'))
+  .join('\n');
+if (!css) {
+  console.error('check-css: no stylesheet found in dist/assets');
+  process.exit(1);
+}
+const missing = REQUIRED.filter((sel) => !css.includes(sel + '{') && !css.includes(sel + ',') && !css.includes(sel + ' ') && !css.includes(sel + ':') && !css.includes(sel + '.') && !css.includes(sel + '>'));
+if (missing.length) {
+  console.error(`check-css: ${missing.length} required selector(s) missing from the built CSS:\n  ${missing.join('\n  ')}`);
+  process.exit(1);
+}
+console.log(`check-css: ${REQUIRED.length} required selectors present`);
