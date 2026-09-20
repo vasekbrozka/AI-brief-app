@@ -188,11 +188,13 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
               )}
               <SourceList sources={item.sources} />
             </div>
+            {/* Left: the small stuff (thumbs, To do, save, share). Right, on
+                its own: the one primary action, marking the story read. */}
             <div className="item__bar">
-              <div className="item__bar-votes" role="group" aria-label={t.voteLabel} title={t.voteLabel}>
-                <VoteButtons id={item.id} />
-              </div>
-              <div className="item__bar-right">
+              <div className="item__bar-left">
+                <div className="item__bar-votes" role="group" aria-label={t.voteLabel} title={t.voteLabel}>
+                  <VoteButtons id={item.id} />
+                </div>
                 {todoEnabled && (
                   <button
                     type="button"
@@ -222,21 +224,19 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
                 >
                   <Icon name="share" size={17} />
                 </button>
-                {!plain && (
-                  <button
-                    type="button"
-                    className={`iconbtn read-cta${checked ? ' is-read' : ''}`}
-                    aria-pressed={checked}
-                    aria-label={read ? t.markUnread : t.markRead}
-                    title={t.read}
-                    onClick={handleToggle}
-                  >
-                    <span className="read-cta__circle">
-                      {checked && <Icon name="check" size={12} />}
-                    </span>
-                  </button>
-                )}
               </div>
+              {!plain && (
+                <button
+                  type="button"
+                  className={`read-cta${checked ? ' is-read' : ''}`}
+                  aria-pressed={checked}
+                  aria-label={read ? t.markUnread : t.markRead}
+                  title={t.read}
+                  onClick={handleToggle}
+                >
+                  <Icon name="check" size={22} />
+                </button>
+              )}
             </div>
           </div>
         </div>
