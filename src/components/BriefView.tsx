@@ -1,6 +1,7 @@
 import { useEffect, useMemo } from 'react';
 import type { Brief } from '../lib/types';
 import { hiddenCountLabel } from '../lib/format';
+import { visibleItems } from '../lib/briefStats';
 import { shareBrief } from '../lib/share';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
@@ -23,11 +24,7 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
 
   // Muted categories drop out of the brief — but the day's top story always
   // stays, so muting never silently swallows the single highlight.
-  const muted = useMemo(() => new Set(mutedCategories), [mutedCategories]);
-  const shown = useMemo(
-    () => brief.items.filter((item) => item.highlight || !muted.has(item.category)),
-    [brief, muted],
-  );
+  const shown = useMemo(() => visibleItems(brief.items, mutedCategories), [brief, mutedCategories]);
   const hiddenCount = brief.items.length - shown.length;
 
   const readShownCount = shown.filter((item) => isRead(item.id)).length;

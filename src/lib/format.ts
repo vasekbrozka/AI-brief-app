@@ -39,6 +39,17 @@ export function calendarTile(dateStr: string, lang: Lang): { day: string; month:
   return { day: String(d.getDate()), month };
 }
 
+/** Weekday plus a short date for lists, e.g. "Pá 18. září" / "Fri, September 18". */
+export function formatWeekdayDate(dateStr: string, lang: Lang): string {
+  return capitalizeFirst(
+    new Intl.DateTimeFormat(LOCALE[lang], {
+      weekday: 'short',
+      day: 'numeric',
+      month: 'long',
+    }).format(parse(dateStr)),
+  );
+}
+
 export function formatWeekday(dateStr: string, lang: Lang): string {
   return new Intl.DateTimeFormat(LOCALE[lang], { weekday: 'long' }).format(parse(dateStr));
 }
@@ -102,6 +113,16 @@ export function hiddenCountLabel(n: number, lang: Lang): string {
     return `${n} novinek je skryto filtrem`;
   }
   return `${n} ${n === 1 ? 'story' : 'stories'} hidden by filters`;
+}
+
+/** Reading-time estimate, e.g. "6 min čtení" / "6 min read". */
+export function readingTimeLabel(minutes: number, lang: Lang): string {
+  return lang === 'cs' ? `${minutes} min čtení` : `${minutes} min read`;
+}
+
+/** How far through the day's stories the reader is, e.g. "Vypito 3 z 7" / "3 of 7 read". */
+export function readProgressLabel(read: number, total: number, lang: Lang): string {
+  return lang === 'cs' ? `Vypito ${read} z ${total}` : `${read} of ${total} read`;
 }
 
 /** Checklist progress, e.g. "Vyzkoušeno 3 z 28" / "3 of 28 tried". */

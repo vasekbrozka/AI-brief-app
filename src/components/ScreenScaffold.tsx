@@ -3,8 +3,10 @@ import { useEffect, useRef, useState, type ReactNode } from 'react';
 interface ScreenScaffoldProps {
   title: string;
   subtitle?: ReactNode;
-  /** Shown in the floating bar while scrolled instead of the title (e.g. date · updated). */
+  /** Shown in the floating bar while scrolled instead of the title (e.g. date · progress). */
   barContent?: ReactNode;
+  /** Reading progress 0–1, drawn as a thin line under the floating bar once scrolled. */
+  progress?: number | null;
   left?: ReactNode;
   right?: ReactNode;
   children: ReactNode;
@@ -18,7 +20,15 @@ interface ScreenScaffoldProps {
  * out of view. Screens with side controls (e.g. a back button) keep the
  * reserved top row so the control does not overlap the large title.
  */
-export function ScreenScaffold({ title, subtitle, barContent, left, right, children }: ScreenScaffoldProps) {
+export function ScreenScaffold({
+  title,
+  subtitle,
+  barContent,
+  progress,
+  left,
+  right,
+  children,
+}: ScreenScaffoldProps) {
   const headerRef = useRef<HTMLElement>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
   const [scrolled, setScrolled] = useState(false);
@@ -47,6 +57,7 @@ export function ScreenScaffold({ title, subtitle, barContent, left, right, child
 
   const hasChrome = left != null || right != null;
   const navClass = `navbar${scrolled ? ' navbar--scrolled' : ''}${condensed ? ' navbar--condensed' : ''}`;
+  const clamped = progress == null ? null : Math.min(1, Math.max(0, progress));
 
   return (
     <div className="screen">
@@ -56,6 +67,11 @@ export function ScreenScaffold({ title, subtitle, barContent, left, right, child
           {barContent ?? title}
         </div>
         <div className="navbar__side navbar__side--right">{right}</div>
+        {clamped != null && (
+          <div className="navbar__progress" aria-hidden="true">
+            <span style={{ transform: `scaleX(${clamped})` }} />
+          </div>
+        )}
       </header>
 
       <div className={`screen__content${hasChrome ? ' screen__content--chrome' : ''}`}>

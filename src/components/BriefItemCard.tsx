@@ -3,7 +3,6 @@ import { isTip, type BriefItem, type ThreadRef } from '../lib/types';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 import { useSaved } from '../providers/SavedProvider';
-import { useVotes } from '../providers/VotesProvider';
 import { useNav } from '../providers/NavProvider';
 import { shareItem } from '../lib/share';
 import { toast } from '../lib/toast';
@@ -47,21 +46,25 @@ function ThreadLink({ thread }: { thread: ThreadRef }) {
 }
 
 /**
- * One story. Marking it read keeps it in place but folds it to its title (the
- * body slides shut); tapping the title unfolds it again. With "hide read" on,
- * the card fades out and leaves the list instead.
+ * One story, read top to bottom: category → title → summary → why it matters
+ * → sources, closed by a single action row — thumbs (the one signal the
+ * generator gets back), save, share, and "Vypito" to mark it read, at the end
+ * of the reading where the thumb already is. Every action is a visible
+ * button; swiping stays a shortcut. A read card keeps its place and folds to
+ * its title (the body slides shut); the stamp in its header un-reads it, the
+ * title unfolds it. With "hide read" on, the card fades out instead.
  */
 export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?: boolean }) {
   const { lang, t, hideRead } = useSettings();
   const { isRead, toggle } = useRead();
   const { isSaved, toggle: toggleSaved } = useSaved();
-  const myVote = useVotes().voteFor(item.id);
   // `plain` (archive browse) ignores the read state entirely — no dim, no
   // fold, no read-toggle — so past days always show every story.
   const read = plain ? false : isRead(item.id);
   const saved = isSaved(item.id);
   const tip = isTip(item);
   const why = item.why?.[lang];
+  const title = item.title[lang];
 
   // A read card is folded unless the reader unfolds it; unreading resets that.
   const [unfolded, setUnfolded] = useState(false);
@@ -134,39 +137,18 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
               {t.tipBadge}
             </span>
           )}
-          <div className="item__meta-right">
-            {read && <span className="item__readtag">{t.read}</span>}
+          {read && (
             <button
               type="button"
-              className={`card-save${saved ? ' is-saved' : ''}`}
-              aria-label={`${saved ? t.removeSavedLabel : t.saveStoryLabel} „${item.title[lang]}“`}
-              aria-pressed={saved}
-              onClick={handleSave}
+              className="item__stamp"
+              aria-pressed="true"
+              aria-label={t.markUnread}
+              onClick={handleToggle}
             >
-              <Icon name={saved ? 'bookmarkFilled' : 'bookmark'} size={17} />
+              <Icon name="check" size={11} />
+              {t.read}
             </button>
-            <button
-              type="button"
-              className="card-share"
-              aria-label={`${t.shareStoryLabel} „${item.title[lang]}“`}
-              onClick={() => void shareItem(item, lang)}
-            >
-              <Icon name="share" size={17} />
-            </button>
-            {!plain && (
-              <button
-                type="button"
-                className={`read-toggle${checked ? ' is-read' : ''}`}
-                aria-pressed={checked}
-                aria-label={read ? t.markUnread : t.markRead}
-                onClick={handleToggle}
-              >
-                <span className="read-toggle__circle">
-                  {checked && <Icon name="check" size={13} />}
-                </span>
-              </button>
-            )}
-          </div>
+          )}
         </div>
         {read ? (
           <button
@@ -179,11 +161,11 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
               setUnfolded((v) => !v);
             }}
           >
-            <span>{item.title[lang]}</span>
+            <span>{title}</span>
             <Icon name="chevronRight" className="item__fold-chevron" size={16} />
           </button>
         ) : (
-          <h3 className="item__title">{item.title[lang]}</h3>
+          <h3 className="item__title">{title}</h3>
         )}
         {/* The body folds shut on a read card — a grid-rows transition, so
             no measuring and no jump. */}
@@ -213,10 +195,43 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
               <SourceList sources={item.sources} />
               {item.verified && <VerifiedBadge />}
             </div>
-            {/* Anonymous thumbs: the one signal the generator gets back from readers. */}
-            <div className="item__vote">
-              <span className="item__vote-label">{myVote ? t.voteThanks : t.voteLabel}</span>
-              <VoteButtons id={item.id} />
+            <div className="item__bar">
+              <div className="item__bar-votes" role="group" aria-label={t.voteLabel} title={t.voteLabel}>
+                <VoteButtons id={item.id} />
+              </div>
+              <div className="item__bar-right">
+                <button
+                  type="button"
+                  className={`iconbtn${saved ? ' is-saved' : ''}`}
+                  aria-label={`${saved ? t.removeSavedLabel : t.saveStoryLabel} „${title}“`}
+                  aria-pressed={saved}
+                  onClick={handleSave}
+                >
+                  <Icon name={saved ? 'bookmarkFilled' : 'bookmark'} size={17} />
+                </button>
+                <button
+                  type="button"
+                  className="iconbtn"
+                  aria-label={`${t.shareStoryLabel} „${title}“`}
+                  onClick={() => void shareItem(item, lang)}
+                >
+                  <Icon name="share" size={17} />
+                </button>
+                {!plain && (
+                  <button
+                    type="button"
+                    className={`read-cta${checked ? ' is-read' : ''}`}
+                    aria-pressed={checked}
+                    aria-label={read ? t.markUnread : t.markRead}
+                    onClick={handleToggle}
+                  >
+                    <span className="read-cta__circle">
+                      {checked && <Icon name="check" size={12} />}
+                    </span>
+                    {t.read}
+                  </button>
+                )}
+              </div>
             </div>
           </div>
         </div>

@@ -4,10 +4,17 @@ import { BriefView } from '../components/BriefView';
 import { BriefSkeleton, ErrorState } from '../components/states';
 import { useBrief } from '../hooks/useBrief';
 import { useSettings } from '../providers/SettingsProvider';
-import { capitalizeFirst, formatFullDate, formatShortDate } from '../lib/format';
+import { readingMinutes, visibleItems } from '../lib/briefStats';
+import {
+  capitalizeFirst,
+  formatFullDate,
+  formatShortDate,
+  itemCountLabel,
+  readingTimeLabel,
+} from '../lib/format';
 
 export function BriefDetailScreen({ date, onBack }: { date: string; onBack: () => void }) {
-  const { t, lang } = useSettings();
+  const { t, lang, mutedCategories } = useSettings();
   const { status, data, reload } = useBrief(date);
 
   const backButton = (
@@ -17,10 +24,23 @@ export function BriefDetailScreen({ date, onBack }: { date: string; onBack: () =
     </button>
   );
 
+  // Same header facts as Today: the date, how many stories, how long.
+  const shown = data ? visibleItems(data.items, mutedCategories) : [];
+  const subtitle = (
+    <>
+      {capitalizeFirst(formatFullDate(date, lang))}
+      {data && (
+        <span className="large-title__meta">
+          {itemCountLabel(shown.length, lang)} · {readingTimeLabel(readingMinutes(shown, lang), lang)}
+        </span>
+      )}
+    </>
+  );
+
   return (
     <ScreenScaffold
       title={capitalizeFirst(formatShortDate(date, lang))}
-      subtitle={capitalizeFirst(formatFullDate(date, lang))}
+      subtitle={subtitle}
       left={backButton}
     >
       {status === 'loading' && <BriefSkeleton />}

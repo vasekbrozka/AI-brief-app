@@ -76,6 +76,9 @@ export interface UIStrings {
   // Archive
   archiveTitle: string;
   archiveSubtitle: string;
+  /** Relative day labels in the archive list. */
+  dayToday: string;
+  dayYesterday: string;
   archiveEmpty: string;
   archiveEmptyBody: string;
 
@@ -222,6 +225,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
 
     archiveTitle: 'Archiv',
     archiveSubtitle: 'Posledních 14 dní',
+    dayToday: 'Dnes',
+    dayYesterday: 'Včera',
     archiveEmpty: 'Archiv je zatím prázdný',
     archiveEmptyBody: 'Starší briefy se tu objeví postupně.',
 
@@ -273,6 +278,10 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Poslat dnešní shot jedním klepnutím',
     ],
     releaseImproved: [
+      'Karta novinky končí jedním řádkem akcí: palce, uložit, sdílet a Vypito. Nic není schované za gestem a nesahá se nahoru',
+      'Při rolování vidíš v horní liště, kolik novinek máš vypito; pod datem je počet novinek a odhad času čtení',
+      'Archiv je jeden seskupený seznam s Dnes a Včera místo karty pro každý den',
+      'Karty jsou hustší a přečtené karty nižší',
       'Přečtená novinka se sbalí na titulek a zůstane na místě, klepnutím ji zase rozbalíš',
       'Den v sérii čtení se počítá po první přečtené novince, série je pod novinkami bez karty',
       'Archiv drží 14 dní a odkazy Navazuje na fungují déle',
@@ -391,6 +400,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
 
     archiveTitle: 'Archive',
     archiveSubtitle: 'Last 14 days',
+    dayToday: 'Today',
+    dayYesterday: 'Yesterday',
     archiveEmpty: 'The archive is empty for now',
     archiveEmptyBody: 'Past briefs will appear here over time.',
 
@@ -442,6 +453,10 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Share today’s shot with one tap',
     ],
     releaseImproved: [
+      'A story ends in one action row: thumbs, save, share and Read. Nothing hides behind a gesture, nothing sits out of reach',
+      'While scrolling, the floating bar shows how many stories you have read; under the date, the story count and a reading-time estimate',
+      'The archive is one grouped list with Today and Yesterday instead of a card per day',
+      'Denser cards, lower read cards',
       'A read story folds to its title and stays in place; tap it to unfold',
       'A day in the reading streak counts after the first story read; the streak sits under the stories without a card',
       'The archive keeps 14 days and Follow-up links work longer',

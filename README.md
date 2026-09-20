@@ -15,7 +15,11 @@ z GitHubu.
 - 🌗 **Světlý / tmavý / automatický** motiv ve stylu Apple
 - 🇨🇿 🇬🇧 **Dvojjazyčně** — přepínač CS / EN v Nastavení
 - 🗂️ **Tři záložky** — Brief (přepínač Dnes / Top shots), Archiv (posledních
-  14 dní + Uložené), Nastavení
+  14 dní jako seskupený seznam + Uložené), Nastavení
+- 🎛️ **Akční řádek na kartě** — palce s počty hlasů, Uložit, Sdílet a „Vypito“
+  na konci každé novinky; swipe doleva/doprava zůstává jako zkratka
+- 📊 **Postup čtení** — pod datem počet novinek a odhad času, v horní liště
+  při rolování „Vypito 3 z 7“ a tenká linka postupu
 - ✅ **Ověřování** — u každé zprávy zdroje, datum události a odznak „Ověřeno"
   (oficiální zdroj, nebo dvě nezávislá média)
 - 💡 **Proč zbystřit** — u každé zprávy věta dvě, co z ní plyne pro čtenáře; u tipů

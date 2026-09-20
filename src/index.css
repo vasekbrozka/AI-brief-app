@@ -252,6 +252,31 @@ svg {
   border-bottom-color: var(--separator);
 }
 
+/* Reading progress along the bottom edge of the floating bar (Today only):
+   fills as stories are marked read, shown once the page has scrolled. */
+.navbar__progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.navbar--scrolled .navbar__progress {
+  opacity: 1;
+}
+
+.navbar__progress span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  transform-origin: left center;
+  transition: transform 0.4s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
 .navbar__title {
   min-width: 0;
   text-align: center;
@@ -317,6 +342,15 @@ svg {
   font-size: 15px;
   font-weight: 400;
   color: var(--text-secondary);
+}
+
+/* Second, quieter line under the date: story count · reading time · updated. */
+.large-title__meta {
+  display: block;
+  margin-top: 3px;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
 }
 
 .scroll-sentinel {
@@ -435,8 +469,8 @@ svg {
 .items {
   display: flex;
   flex-direction: column;
-  gap: 13px;
-  margin-top: 16px;
+  gap: 12px;
+  margin-top: 14px;
 }
 
 /* Swipe-to-reveal — the shell IS the card: it owns the border, rounding and
@@ -513,7 +547,7 @@ svg {
 }
 
 .item {
-  padding: 16px 18px;
+  padding: 15px 16px;
   background: var(--surface);
 }
 
@@ -524,7 +558,7 @@ svg {
 .item__meta {
   display: flex;
   align-items: center;
-  gap: 9px;
+  gap: 8px;
 }
 
 .item__top {
@@ -536,7 +570,7 @@ svg {
 }
 
 .item__title {
-  margin-top: 10px;
+  margin-top: 9px;
   font-size: 18px;
   line-height: 1.3;
   font-weight: 600;
@@ -544,14 +578,14 @@ svg {
 }
 
 .item__summary {
-  margin-top: 7px;
+  margin-top: 6px;
   font-size: 15px;
   line-height: 1.5;
   color: var(--text-secondary);
 }
 
 .item__footer {
-  margin-top: 14px;
+  margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -841,26 +875,51 @@ button.thread:active .thread__title {
   color: var(--text-secondary);
 }
 
-/* ---- Archive ------------------------------------------------------------ */
-/* "Uložené" entry pinned above the day list — the saved section lives here,
-   not on the Today screen. */
-.saved-entry {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  width: 100%;
-  margin-top: 6px;
-  padding: 14px 16px;
+/* ---- Grouped lists (Archive, the Saved entry) ----------------------------
+   The iOS inset list: one surface, hairline separators between rows. Fourteen
+   days fit on a screen and a half instead of a floating card per day. */
+.list {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
   background: var(--surface);
   border: 1px solid var(--hairline);
   border-radius: var(--radius);
   box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  animation: fade 0.35s ease both;
+}
+
+.list > li + li {
+  border-top: 1px solid var(--hairline);
+}
+
+.list__row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 14px 13px 16px;
+  border: 0;
+  background: none;
   color: var(--text);
   text-align: left;
-  transition: background-color 0.15s ease;
+  transition: background-color 0.12s ease;
 }
-.saved-entry:active {
-  background: color-mix(in srgb, var(--surface) 92%, var(--text));
+
+.list__row:active {
+  background: var(--fill);
+}
+
+.list__chevron {
+  flex: 0 0 auto;
+  color: var(--text-tertiary);
+}
+
+/* "Uložené" — its own group above the day list. */
+.saved-entry {
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 .saved-entry__icon {
   flex: 0 0 auto;
@@ -886,44 +945,6 @@ button.thread:active .thread__title {
   font-size: 12px;
   font-weight: 600;
 }
-.saved-entry > svg:last-child {
-  flex: 0 0 auto;
-  color: var(--text-tertiary);
-}
-@media (hover: hover) and (pointer: fine) {
-  .saved-entry:hover {
-    background: color-mix(in srgb, var(--surface) 95%, var(--text));
-  }
-}
-
-.archive-list {
-  list-style: none;
-  margin: 12px 0 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  animation: fade 0.35s ease both;
-}
-
-.archive-row {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 14px 16px;
-  background: var(--surface);
-  border: 1px solid var(--hairline);
-  border-radius: var(--radius-sm);
-  text-align: left;
-  box-shadow: var(--shadow-sm);
-  transition: background 0.12s ease, transform 0.1s ease;
-}
-
-.archive-row:active {
-  background: var(--fill);
-  transform: scale(0.99);
-}
 
 .archive-row--skeleton {
   pointer-events: none;
@@ -933,7 +954,7 @@ button.thread:active .thread__title {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 2px;
   min-width: 0;
 }
 
@@ -955,10 +976,6 @@ button.thread:active .thread__title {
   color: var(--text-tertiary);
 }
 
-.archive-row__chevron {
-  flex: 0 0 auto;
-  color: var(--text-tertiary);
-}
 
 /* ---- Settings ----------------------------------------------------------- */
 .settings-group {
@@ -1299,59 +1316,26 @@ button.thread:active .thread__title {
 }
 
 /* ---- Pointer niceties (any screen with a mouse) -------------------------- */
-/* Card share button — swipe is a touch gesture; mice get an icon instead.
-   Hidden on touch devices, revealed on card hover / keyboard focus. */
-.card-share,
-.card-save {
-  display: none;
-}
-
 @media (hover: hover) and (pointer: fine) {
-  .card-share,
-  .card-save {
-    display: grid;
-    place-items: center;
-    width: 34px;
-    height: 34px;
-    border: 0;
-    background: none;
-    color: var(--text-tertiary);
-    opacity: 0;
-    transition: opacity 0.15s ease, color 0.15s ease;
-  }
-  .card-share {
-    margin: -6px -4px -6px 0;
-  }
-  .card-save {
-    margin: -6px 0;
+  .iconbtn:hover,
+  .read-cta:not(.is-read):hover,
+  .vote-btn:not(.is-on):hover {
+    background: var(--fill);
   }
 
-  .swipe:hover .card-share,
-  .swipe:hover .card-save,
-  .card-share:focus-visible,
-  .card-save:focus-visible {
-    opacity: 1;
+  .iconbtn:hover {
+    color: var(--text);
   }
 
-  /* A saved story keeps its filled bookmark lit even without hover. */
-  .card-save.is-saved {
-    opacity: 1;
-    color: var(--save);
-  }
-
-  .card-share:hover {
-    color: var(--accent);
-  }
-
-  .card-save:hover {
-    color: var(--save);
+  .item__stamp:hover {
+    opacity: 0.8;
   }
 
   .swipe:hover {
     border-color: var(--separator);
   }
 
-  .archive-row:hover {
+  .list__row:hover {
     background: var(--fill);
   }
 
@@ -1489,9 +1473,13 @@ button.thread:active .thread__title {
     transform: none;
   }
 
-  /* Roomier cards on the wide column. */
+  /* Roomier cards on the wide column; the view switch keeps a control's width. */
   .item {
-    padding: 18px 22px;
+    padding: 18px 20px;
+  }
+
+  .view-switch {
+    max-width: 400px;
   }
 }
 
@@ -1530,55 +1518,144 @@ button.thread:active .thread__title {
   transition: opacity 0.2s ease;
 }
 
-.item__meta-right {
-  display: flex;
+/* "Vypito" stamp in the header of a read card — the status, and the undo. */
+.item__stamp {
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 4px;
   margin-left: auto;
-}
-
-.item__readtag {
+  padding: 4px 9px 4px 7px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--accent-soft-bg);
+  color: var(--accent);
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: var(--text-tertiary);
+  white-space: nowrap;
+  transition: transform 0.12s ease, opacity 0.12s ease;
 }
 
-.read-toggle {
-  display: grid;
-  place-items: center;
-  width: 34px;
-  height: 34px;
-  margin: -6px -6px -6px 0;
-  border: 0;
-  background: none;
-  color: #fff;
-}
-
-.read-toggle__circle {
-  display: grid;
-  place-items: center;
-  width: 22px;
-  height: 22px;
-  border-radius: 999px;
-  border: 2px solid var(--text-tertiary);
-  transition: background 0.15s ease, border-color 0.15s ease;
-}
-
-.read-toggle.is-read .read-toggle__circle {
-  background: var(--accent);
-  border-color: var(--accent);
+.item__stamp:active {
+  transform: scale(0.94);
+  opacity: 0.8;
 }
 
 /* Dim the content, not the card — the surface stays opaque so the swipe
-   action behind can never show through a read card. */
+   action behind can never show through a read card. The stamp stays crisp. */
 .item--read > * {
+  opacity: 0.6;
+}
+
+.item--read .item__meta {
+  opacity: 1;
+}
+
+.item--read .chip {
   opacity: 0.6;
 }
 
 .item--read .item__title {
   color: var(--text-secondary);
+}
+
+/* ---- Card action row ------------------------------------------------------
+   One row closes every story: thumbs (the signal the generator gets back),
+   then save and share, then "Vypito" to mark it read — at the end of the
+   reading, where the thumb already is. Visible on every device; swiping the
+   card stays a shortcut. */
+.item__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--hairline);
+}
+
+.item__bar-votes,
+.item__bar-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.iconbtn {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  background: none;
+  color: var(--text-secondary);
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease,
+    transform 0.12s ease;
+}
+
+.iconbtn:active {
+  transform: scale(0.9);
+  background: var(--fill);
+}
+
+.iconbtn.is-saved {
+  color: var(--save);
+  border-color: transparent;
+  background: color-mix(in srgb, var(--save) 14%, transparent);
+}
+
+.iconbtn.is-saved svg {
+  animation: pop 0.32s cubic-bezier(0.2, 0.8, 0.3, 1.2);
+}
+
+.read-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  height: 36px;
+  padding: 0 12px 0 8px;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  background: none;
+  color: var(--text);
+  font-size: 13.5px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease,
+    transform 0.12s ease;
+}
+
+.read-cta:active {
+  transform: scale(0.96);
+}
+
+.read-cta__circle {
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  border: 2px solid var(--text-tertiary);
+  color: #fff;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.read-cta.is-read {
+  background: var(--accent-soft-bg);
+  border-color: transparent;
+  color: var(--accent);
+}
+
+.read-cta.is-read .read-cta__circle {
+  background: var(--accent);
+  border-color: var(--accent);
+  animation: pop 0.3s cubic-bezier(0.2, 0.8, 0.3, 1.2);
+}
+
+.read-cta.is-read .read-cta__circle svg {
+  animation: pop-in 0.22s ease both;
 }
 
 /* Transient toast — share fallback confirmation */
@@ -1830,7 +1907,7 @@ button.thread:active .thread__title {
 
 .setting-hint--streak {
   margin-top: 10px;
-  color: var(--accent);
+  color: var(--text-secondary);
   font-weight: 600;
 }
 
@@ -2321,38 +2398,23 @@ button.thread:active .thread__title {
   margin-top: 10px;
 }
 
-/* ---- Reader feedback: thumbs under every story ----------------------------- */
-.item__vote {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  margin-top: 12px;
-  padding-top: 10px;
-  border-top: 1px solid var(--hairline);
-}
-
-.item__vote-label {
-  font-size: 12.5px;
-  color: var(--text-tertiary);
-}
-
+/* ---- Reader feedback: thumbs in the card's action row and for the day ----- */
 .vote-btns {
   display: flex;
-  gap: 8px;
+  gap: 6px;
 }
 
 .vote-btn {
-  min-width: 32px;
-  height: 32px;
-  padding: 0 9px;
+  min-width: 38px;
+  height: 36px;
+  padding: 0 10px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
   border: 1px solid var(--hairline);
   border-radius: 999px;
-  background: var(--bg);
+  background: none;
   color: var(--text-secondary);
   font: inherit;
   cursor: pointer;
@@ -2399,11 +2461,6 @@ button.thread:active .thread__title {
 
 .rate + .share-brief-wrap {
   margin-top: 14px;
-}
-
-/* Read cards dim everything else; keep the thumbs readable. */
-.item--read .item__vote {
-  opacity: 0.9;
 }
 
 /* ---- Folding read cards ------------------------------------------------------
@@ -2456,8 +2513,8 @@ button.thread:active .thread__title {
 }
 
 .item--folded {
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .item__fold-chevron {
@@ -2501,14 +2558,12 @@ button.thread:active .thread__title {
 
 .vote-btn,
 .try__check,
-.read-toggle__circle,
+.read-cta__circle,
+.iconbtn,
 .share-brief,
 .btn,
 .cat-toggle,
-.week__row,
-.saved-entry,
-.settings-link,
-.archive-row {
+.settings-link {
   will-change: transform;
 }
 
@@ -2537,21 +2592,8 @@ button.thread:active .thread__title {
   animation: pop 0.3s cubic-bezier(0.2, 0.8, 0.3, 1.2);
 }
 
-.try__check.is-on svg,
-.read-toggle.is-read .read-toggle__circle svg {
+.try__check.is-on svg {
   animation: pop-in 0.22s ease both;
-}
-
-.read-toggle__circle {
-  transition: background 0.15s ease, border-color 0.15s ease, transform 0.12s ease;
-}
-
-.read-toggle:active .read-toggle__circle {
-  transform: scale(0.86);
-}
-
-.read-toggle.is-read .read-toggle__circle {
-  animation: pop 0.3s cubic-bezier(0.2, 0.8, 0.3, 1.2);
 }
 
 .share-brief,
@@ -2581,14 +2623,10 @@ button.thread:active .thread__title {
   transform: scale(0.94);
 }
 
-.week__row,
-.saved-entry,
 .settings-link {
   transition: transform 0.12s ease, background-color 0.15s ease;
 }
 
-button.week__row:active,
-.saved-entry:active,
 .settings-link:active {
   transform: scale(0.985);
 }

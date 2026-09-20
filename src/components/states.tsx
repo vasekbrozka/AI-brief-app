@@ -14,6 +14,7 @@ export function BriefSkeleton() {
               <div className="skeleton-line" style={{ width: '75%', height: 17, marginTop: 12 }} />
               <div className="skeleton-line" style={{ width: '100%', marginTop: 12 }} />
               <div className="skeleton-line" style={{ width: '88%' }} />
+              <div className="skeleton-line" style={{ width: '40%', height: 10, marginTop: 16 }} />
             </div>
           </div>
         ))}
@@ -24,16 +25,18 @@ export function BriefSkeleton() {
 
 export function ArchiveSkeleton() {
   return (
-    <div className="archive-list" aria-busy="true">
+    <ul className="list archive-list" aria-busy="true">
       {Array.from({ length: 5 }).map((_, i) => (
-        <div key={i} className="archive-row archive-row--skeleton">
-          <div style={{ flex: 1 }}>
-            <div className="skeleton-line" style={{ width: 90, height: 13 }} />
-            <div className="skeleton-line" style={{ width: '70%', height: 16, marginTop: 10 }} />
+        <li key={i}>
+          <div className="list__row archive-row archive-row--skeleton">
+            <div style={{ flex: 1 }}>
+              <div className="skeleton-line" style={{ width: 90, height: 13 }} />
+              <div className="skeleton-line" style={{ width: '70%', height: 16, marginTop: 10 }} />
+            </div>
           </div>
-        </div>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 }
 
