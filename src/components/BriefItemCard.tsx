@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { isTip, type BriefItem, type ThreadRef } from '../lib/types';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
@@ -53,8 +53,9 @@ function ThreadLink({ thread }: { thread: ThreadRef }) {
  * moment the card is, however long the story, and the same spot in both
  * states — tinted while unread, filled once read. Every action is a visible
  * button; swiping stays a shortcut. A read card keeps its place and folds to
- * its title (the body slides shut); tapping its check un-reads it, which
- * opens it again. With "hide read" on, the card fades out instead.
+ * one line of its title, fading out where it runs long, with the check
+ * centred beside it; tapping the check un-reads it, which opens it again.
+ * With "hide read" on, the card fades out instead.
  */
 export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?: boolean }) {
   const { lang, t, hideRead, todoEnabled } = useSettings();
@@ -105,6 +106,24 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
   const checked = read || exiting;
   const showTop = Boolean(item.highlight) && !read;
 
+  // Folded, the title sits on one line beside the check and fades out at the
+  // end — only when it really overflows, so a short title stays crisp.
+  const titleRef = useRef<HTMLHeadingElement>(null);
+  const [clipped, setClipped] = useState(false);
+  useLayoutEffect(() => {
+    const el = titleRef.current;
+    if (!folded || !el) {
+      setClipped(false);
+      return;
+    }
+    const measure = () => setClipped(el.scrollWidth > el.clientWidth + 1);
+    measure();
+    if (typeof ResizeObserver === 'undefined') return;
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [folded, title]);
+
   function handleToggle() {
     haptic();
     const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
@@ -149,20 +168,22 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
               {t.tipBadge}
             </span>
           )}
-          {!plain && (
-            <button
-              type="button"
-              className={`read-cta${checked ? ' is-read' : ''}`}
-              aria-pressed={checked}
-              aria-label={read ? t.markUnread : t.markRead}
-              title={t.read}
-              onClick={handleToggle}
-            >
-              <Icon name="check" size={12} />
-            </button>
-          )}
         </div>
-        <h3 className="item__title">{title}</h3>
+        {!plain && (
+          <button
+            type="button"
+            className={`read-cta${checked ? ' is-read' : ''}`}
+            aria-pressed={checked}
+            aria-label={read ? t.markUnread : t.markRead}
+            title={t.read}
+            onClick={handleToggle}
+          >
+            <Icon name="check" size={12} />
+          </button>
+        )}
+        <h3 ref={titleRef} className={`item__title${clipped ? ' is-clipped' : ''}`}>
+          {title}
+        </h3>
         {/* The body folds shut on a read card — a grid-rows transition, so
             no measuring and no jump. */}
         <div className="item__body" data-open={folded ? 'false' : 'true'} aria-hidden={folded}>

@@ -622,7 +622,13 @@ svg {
   transform: scale(1.12);
 }
 
+/* The card is a two-column grid: everything in the first column, the read
+   check in the second. Unread, the check shares the row with the chips and
+   the title runs under both columns; folded, the check spans the chip and
+   title rows and sits centred beside a one-line title. */
 .item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   padding: 15px 16px;
   background: var(--surface);
 }
@@ -632,6 +638,8 @@ svg {
 }
 
 .item__meta {
+  grid-column: 1;
+  grid-row: 1;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -646,6 +654,8 @@ svg {
 }
 
 .item__title {
+  grid-column: 1 / -1;
+  grid-row: 2;
   margin-top: 10px;
   font-size: 18px;
   line-height: 1.3;
@@ -1671,24 +1681,25 @@ button.thread:active .thread__title {
   transition: opacity 0.2s ease;
 }
 
-/* Read control: a small check circle at the top right of the card header,
-   where the eye lands first and where it stays put in both states. Tinted
-   with a check while unread ("tap to check this off"); filled once read,
-   where it also doubles as the undo. Sized like the original toggle: 22px on
-   the ~21px chip row, so it sits centred on the row instead of eating into
-   the gap above the title. `padding: 0` matters: the UA button padding is
-   asymmetric on WebKit (2px top, 3px bottom), which pushed the glyph half a
-   pixel high. The ::before widens the touch target to 44px without growing
+/* Read control: a small check circle at the top right of the card, where the
+   eye lands first. Tinted with a check while unread ("tap to check this
+   off"); filled once read, where it also doubles as the undo. Sized like the
+   original toggle: 22px, centred on the chip row while unread and on the
+   whole folded card once read. `padding: 0` matters: the UA button padding
+   is asymmetric on WebKit (2px top, 3px bottom), which pushed the glyph half
+   a pixel high. The ::before widens the touch target to 44px without growing
    the row. */
 .read-cta {
   position: relative;
-  flex: 0 0 auto;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: center;
   display: grid;
   place-items: center;
   width: 22px;
   height: 22px;
   padding: 0;
-  margin: 0 0 0 auto;
+  margin: 0 0 0 12px;
   border: 1px solid var(--accent);
   border-radius: 999px;
   background: var(--accent-soft-bg);
@@ -1722,7 +1733,8 @@ button.thread:active .thread__title {
   opacity: 0.6;
 }
 
-.item--read .item__meta {
+.item--read .item__meta,
+.item--read .read-cta {
   opacity: 1;
 }
 
@@ -2603,6 +2615,8 @@ button.thread:active .thread__title {
    with a grid-rows transition (no measuring, no jump). Un-reading it (the
    check in the header) opens it again. */
 .item__body {
+  grid-column: 1 / -1;
+  grid-row: 3;
   display: grid;
   grid-template-rows: 1fr;
   transition: grid-template-rows 0.32s cubic-bezier(0.2, 0.7, 0.2, 1), opacity 0.22s ease;
@@ -2622,11 +2636,24 @@ button.thread:active .thread__title {
   pointer-events: none;
 }
 
+.item--folded .read-cta {
+  grid-row: 1 / 3;
+}
+
 .item--folded .item__title {
+  grid-column: 1;
   margin-top: 8px;
   font-size: 15.5px;
   color: var(--text-secondary);
-  transition: font-size 0.25s ease, margin 0.25s ease;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Only a title that really overflows fades out; `.is-clipped` is set from a
+   measurement, so a short title keeps its last letters. */
+.item--folded .item__title.is-clipped {
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 48px), transparent);
+  mask-image: linear-gradient(to right, #000 calc(100% - 48px), transparent);
 }
 
 .item--folded {
