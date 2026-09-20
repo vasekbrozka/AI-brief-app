@@ -9,6 +9,8 @@ interface ScreenScaffoldProps {
   progress?: number | null;
   /** Reserve room for two subtitle lines, so controls below never move when the text changes. */
   subtitleLines?: 1 | 2;
+  /** Small control beside the large title (e.g. the reading-progress ring). */
+  accessory?: ReactNode;
   left?: ReactNode;
   right?: ReactNode;
   children: ReactNode;
@@ -28,6 +30,7 @@ export function ScreenScaffold({
   barContent,
   progress,
   subtitleLines = 1,
+  accessory,
   left,
   right,
   children,
@@ -79,7 +82,10 @@ export function ScreenScaffold({
 
       <div className={`screen__content${hasChrome ? ' screen__content--chrome' : ''}`}>
         <div className="large-title">
-          <h1 className="large-title__heading">{title}</h1>
+          <div className="large-title__row">
+            <h1 className="large-title__heading">{title}</h1>
+            {accessory != null && <div className="large-title__accessory">{accessory}</div>}
+          </div>
           {subtitle != null && (
             <div
               className={`large-title__subtitle${subtitleLines === 2 ? ' large-title__subtitle--two' : ''}`}

@@ -295,7 +295,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Poslat dnešní shot jedním klepnutím',
     ],
     releaseImproved: [
-      'Přečtené novinky hned mizí z přehledu (dá se vypnout v Nastavení) a pod přepínačem je vidět postup čtení i bez rolování',
+      'Přečtené novinky hned mizí z přehledu (dá se vypnout v Nastavení) a vedle nadpisu je kruh s procenty přečteného',
       'Zrnko dne se objeví až po dočtení všech novinek',
       'Po dočtení se jednou nabídne hodnocení dne; zavřít jde jedním klepnutím',
       'Karta novinky končí jedním řádkem akcí: palce, uložit, sdílet a Vypito. Nic není schované za gestem a nesahá se nahoru',
@@ -481,7 +481,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Share today’s shot with one tap',
     ],
     releaseImproved: [
-      'Read stories leave the list right away (can be turned off in Settings) and the reading progress sits under the switch, no scrolling needed',
+      'Read stories leave the list right away (can be turned off in Settings) and a ring beside the title shows how much is read',
       'Bean of the day appears once every story is read',
       'After the last story, one gentle ask for the day’s rating; one tap closes it',
       'A story ends in one action row: thumbs, save, share and Read. Nothing hides behind a gesture, nothing sits out of reach',

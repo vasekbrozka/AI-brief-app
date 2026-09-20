@@ -4,6 +4,7 @@ import { Segmented } from '../components/Segmented';
 import { BriefView } from '../components/BriefView';
 import { WeekView } from '../components/WeekView';
 import { BriefSkeleton, EmptyState, ErrorState } from '../components/states';
+import { ReadRing } from '../components/ReadRing';
 import { useLatestBrief } from '../hooks/useBrief';
 import { useClockTick } from '../hooks/useClockTick';
 import { useSettings } from '../providers/SettingsProvider';
@@ -93,6 +94,14 @@ export function TodayScreen() {
     { value: 'week', label: t.viewWeek },
   ];
 
+  // The score sits beside the title as a ring — in view without scrolling
+  // (most readers finish the top story and never reach the floating bar) and
+  // without adding a line to the header.
+  const ring =
+    view === 'today' && status === 'ready' && data && shown.length > 0 ? (
+      <ReadRing read={readCount} total={shown.length} lang={lang} />
+    ) : undefined;
+
   return (
     <ScreenScaffold
       title={title}
@@ -100,27 +109,11 @@ export function TodayScreen() {
       barContent={bar}
       progress={progress}
       subtitleLines={2}
+      accessory={ring}
     >
       <div className="view-switch">
         <Segmented value={view} onChange={setView} options={options} ariaLabel={t.tabToday} />
       </div>
-      {/* The score sits right under the switch, in view without scrolling —
-          most readers finish the top story and never reach the floating bar. */}
-      {view === 'today' && status === 'ready' && data && shown.length > 0 && (
-        <div
-          className="readbar"
-          role="progressbar"
-          aria-valuemin={0}
-          aria-valuemax={shown.length}
-          aria-valuenow={readCount}
-          aria-label={readProgressLabel(readCount, shown.length, lang)}
-        >
-          <div className="readbar__track">
-            <span style={{ transform: `scaleX(${readCount / shown.length})` }} />
-          </div>
-          <span className="readbar__label">{readProgressLabel(readCount, shown.length, lang)}</span>
-        </div>
-      )}
       {view === 'week' ? (
         <WeekView />
       ) : (

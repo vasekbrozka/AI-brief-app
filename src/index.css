@@ -330,11 +330,75 @@ svg {
   padding: 8px 0 2px;
 }
 
+.large-title__row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .large-title__heading {
+  flex: 1;
+  min-width: 0;
   font-size: 33px;
   line-height: 1.09;
   font-weight: 700;
   letter-spacing: -0.021em;
+}
+
+/* Narrow phones: the longest time-of-day title still fits on one line next
+   to the ring. */
+@media (max-width: 370px) {
+  .large-title__heading {
+    font-size: 29px;
+  }
+}
+
+/* Beside the title, vertically centred on its line without growing it. */
+.large-title__accessory {
+  flex: 0 0 auto;
+  margin: -4px 0;
+}
+
+/* Reading-progress ring: track in the fill colour, accent arc, the
+   percentage inside; a check once everything is read. */
+.ring {
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+
+.ring svg {
+  display: block;
+}
+
+.ring__track {
+  fill: none;
+  stroke: var(--fill);
+  stroke-width: 4;
+}
+
+.ring__fill {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 4;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.ring__label {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.ring.is-done .ring__label {
+  color: var(--accent);
 }
 
 .large-title__subtitle {
@@ -1643,6 +1707,774 @@ button.thread:active .thread__title {
   animation: pop 0.3s cubic-bezier(0.2, 0.8, 0.3, 1.2);
 }
 
+/* Transient toast — share fallback confirmation */
+.toaster {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: calc(96px + env(safe-area-inset-bottom, 0px));
+  display: flex;
+  justify-content: center;
+  padding: 0 24px;
+  pointer-events: none;
+  z-index: 70;
+}
+
+.toast {
+  max-width: 90%;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: rgba(28, 28, 30, 0.94);
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 500;
+  box-shadow: var(--shadow-sm);
+  animation: toast-in 0.18s ease;
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Reading-streak card — consecutive days + the week as a chain of dots.
+   Colour (--tier) escalates with the streak level. */
+/* Section label introducing the streak card, so the habit tracker never reads
+   as just another news card. Mirrors the "read" divider for a coherent feed. */
+.streak-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 22px 2px 8px;
+  color: var(--text-tertiary);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.streak-divider::before,
+.streak-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--separator);
+}
+.streak-divider + .streakcard {
+  margin-top: 0;
+}
+
+/* No surface of its own — the streak reads as a status line between the
+   stories and the rest, not as another content card. Kept low. */
+.streakcard {
+  --tier: var(--accent);
+  --tier-soft: color-mix(in srgb, var(--tier) 13%, transparent);
+  position: relative;
+  margin-top: 4px;
+  padding: 4px 6px 2px;
+}
+.streakcard[data-tier='0'] { --tier: #0071e3; }
+.streakcard[data-tier='1'] { --tier: #0e9e97; }
+.streakcard[data-tier='2'] { --tier: #b4620a; }
+.streakcard[data-tier='3'] { --tier: #e0592b; }
+.streakcard[data-tier='4'] { --tier: #d33a3a; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .streakcard[data-tier='0'] { --tier: #0a84ff; }
+  :root:not([data-theme='light']) .streakcard[data-tier='1'] { --tier: #40d0c8; }
+  :root:not([data-theme='light']) .streakcard[data-tier='2'] { --tier: #ff9f45; }
+  :root:not([data-theme='light']) .streakcard[data-tier='3'] { --tier: #ff7a4d; }
+  :root:not([data-theme='light']) .streakcard[data-tier='4'] { --tier: #ff5c5c; }
+}
+:root[data-theme='dark'] .streakcard[data-tier='0'] { --tier: #0a84ff; }
+:root[data-theme='dark'] .streakcard[data-tier='1'] { --tier: #40d0c8; }
+:root[data-theme='dark'] .streakcard[data-tier='2'] { --tier: #ff9f45; }
+:root[data-theme='dark'] .streakcard[data-tier='3'] { --tier: #ff7a4d; }
+:root[data-theme='dark'] .streakcard[data-tier='4'] { --tier: #ff5c5c; }
+
+.streakcard.is-milestone {
+  border-radius: var(--radius-sm);
+  background: var(--tier-soft);
+  padding: 10px 12px 8px;
+}
+
+.sc__head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sc__num {
+  font-size: 30px;
+  font-weight: 750;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--tier);
+  font-variant-numeric: tabular-nums;
+  animation: sc-num 0.42s cubic-bezier(0.3, 1.3, 0.5, 1) both;
+}
+
+.sc__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.sc__title {
+  font-size: 15px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  text-wrap: balance;
+}
+
+.streakcard.is-starter .sc__title {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.sc__sub {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--tier);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Week row */
+.sc__week {
+  display: flex;
+  margin-top: 10px;
+}
+
+.sc__day {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Chain link to the next day when both are done */
+.sc__day.has-chain::before {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  width: 100%;
+  height: 2.5px;
+  background: var(--tier);
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.sc__dot {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background: var(--fill);
+  color: #fff;
+}
+
+.sc__dot.is-done {
+  background: var(--tier);
+}
+
+.sc__dot.is-missed {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px var(--hairline);
+}
+
+.sc__dot.is-future {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px var(--hairline);
+  opacity: 0.45;
+}
+
+/* Today, still in progress: a ring that fills with today's reading */
+.sc__dot.is-progress {
+  background:
+    radial-gradient(circle 8.5px at center, var(--bg) 96%, transparent 100%),
+    conic-gradient(var(--tier) calc(var(--tp, 0) * 360deg), var(--fill) 0);
+  animation: sc-pulse 1.9s ease-in-out infinite;
+}
+
+.sc__dot.is-today.is-done {
+  box-shadow: 0 0 0 4px var(--tier-soft);
+}
+
+.streakcard.is-celebrate .sc__dot.is-today.is-done {
+  animation: sc-pop 0.5s cubic-bezier(0.3, 1.4, 0.5, 1) both;
+}
+
+.sc__day small {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--text-tertiary);
+}
+
+.sc__day small.is-today {
+  color: var(--tier);
+  font-weight: 700;
+}
+
+.sc__banner {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--tier);
+}
+
+/* Celebration beans burst from near the streak number */
+.sc__beans {
+  position: absolute;
+  top: 32px;
+  left: 34px;
+  width: 0;
+  height: 0;
+  z-index: 5;
+  pointer-events: none;
+}
+.sc__beans span {
+  position: absolute;
+  width: 7px;
+  height: 9px;
+  border-radius: 60% 60% 55% 55%;
+  background: var(--tier);
+  animation: sc-bean 1s ease-out forwards;
+}
+
+.setting-hint--streak {
+  margin-top: 10px;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+/* Quiet support link at the bottom of the About section */
+.support-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.support-link svg {
+  color: var(--text-tertiary);
+}
+
+
+@keyframes sc-num {
+  from { transform: scale(0.6); opacity: 0; }
+}
+@keyframes sc-pop {
+  0% { transform: scale(0.5); }
+  60% { transform: scale(1.18); }
+  100% { transform: scale(1); }
+}
+@keyframes sc-pulse {
+  0% { box-shadow: 0 0 0 0 var(--tier-soft); }
+  70%, 100% { box-shadow: 0 0 0 7px transparent; }
+}
+@keyframes sc-bean {
+  0% { opacity: 0; transform: rotate(calc(var(--i) * 45deg)) translateY(0) scale(0.5); }
+  30% { opacity: 1; }
+  100% { opacity: 0; transform: rotate(calc(var(--i) * 45deg)) translateY(-46px) scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .swipe__fg,
+  .swipe__action-btn {
+    transition: none;
+  }
+  .toast,
+  .sc__num,
+  .sc__dot,
+  .sc__beans span {
+    animation: none;
+  }
+}
+
+/* iOS-style switch */
+.switch {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  width: 51px;
+  height: 31px;
+  padding: 2px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--fill);
+  transition: background 0.2s ease;
+}
+
+.switch.is-on {
+  background: var(--switch-on);
+}
+
+.switch__thumb {
+  width: 27px;
+  height: 27px;
+  border-radius: 999px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.switch.is-on .switch__thumb {
+  transform: translateX(20px);
+}
+
+/* Reading settings rows */
+.setting-switch {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.setting-switch__text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.setting-switch__label {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.setting-switch__hint {
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--text-tertiary);
+}
+
+.setting-divider {
+  height: 1px;
+  margin: 14px -18px;
+  background: var(--separator);
+}
+
+.link-btn {
+  padding: 2px 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.link-btn:disabled {
+  color: var(--text-tertiary);
+  opacity: 0.6;
+}
+
+/* Short fade-out when a story is marked read, then it moves to the read pile. */
+.item--exiting {
+  pointer-events: none;
+}
+
+/* The whole card (shell incl. border) fades out, not just the content. */
+.swipe:has(.item--exiting) {
+  animation: item-exit 0.22s ease forwards;
+}
+
+@keyframes item-exit {
+  to {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+
+/* ---- v3 content: tip badge, event date, "why it matters", radar ------------
+   Added with the September 2026 recipe redesign (docs/brief-generation.md).
+   Every block is optional in the data, so older briefs render unchanged. */
+
+/* "Try it" badge next to the category chip on a tip card. */
+.item__kind {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--c-green);
+}
+
+/* Event date on the sources line — quiet, tabular, then a dot before "Sources". */
+.item__date {
+  flex: 0 0 auto;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
+}
+
+.item__date::after {
+  content: '·';
+  margin-left: 7px;
+}
+
+/* "Why it matters" — a short answer to "so what", set apart by a hairline rule
+   rather than a second surface, so a highlight card keeps its single tint. */
+.item__why {
+  margin-top: 11px;
+  padding: 1px 0 1px 12px;
+  border-left: 2.5px solid var(--accent-soft-border);
+}
+
+.item__why-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.item--tip .item__why {
+  border-left-color: var(--c-green-bg);
+}
+
+.item--tip .item__why-label {
+  color: var(--c-green);
+}
+
+.item__why-text {
+  margin-top: 3px;
+  font-size: 14.5px;
+  line-height: 1.48;
+  color: var(--text);
+}
+
+.item--read .item__why {
+  border-left-color: var(--hairline);
+}
+
+/* Section label shared by content sections below the stories (mirrors the
+   read/streak dividers so the feed stays one system). */
+.section-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 26px 2px 14px;
+  color: var(--text-tertiary);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.section-divider::before,
+.section-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--separator);
+}
+
+/* "On the radar" — one card, one row per upcoming date, calendar tile left. */
+.radar__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.radar__row {
+  display: flex;
+  gap: 14px;
+  padding: 14px 16px;
+}
+
+.radar__row + .radar__row {
+  border-top: 1px solid var(--hairline);
+}
+
+.radar__when {
+  flex: 0 0 46px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px 0 6px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft-bg);
+  color: var(--accent);
+}
+
+.radar__day {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.radar__month {
+  margin-top: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.radar__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.radar__title {
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.radar__tentative {
+  margin-left: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  vertical-align: 1px;
+}
+
+.radar__note {
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.radar__body .sources {
+  margin-top: 8px;
+}
+
+/* Share the whole day — a quiet pill at the end of the brief. */
+.share-brief-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.share-brief {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--fill);
+  color: var(--accent);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.share-brief:active {
+  opacity: 0.7;
+}
+
+/* ---- After the reading: try-it checklist, term of the day ------------------
+   Shared card surface for the sections that give the reader something to do
+   once the stories are read. */
+.panel {
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  padding: 16px 18px;
+}
+
+/* To do — the reader's list (open rows, then done) and tips to add. Rows live
+   in the grouped list container; the left column is the tick (or the plus). */
+.todo__list {
+  margin-top: 12px;
+}
+
+.todo__row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 12px 12px 16px;
+}
+
+.todo__check {
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  margin-top: 1px;
+  display: grid;
+  place-items: center;
+  border: 2px solid var(--text-tertiary);
+  border-radius: 999px;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.todo__check.is-on {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.todo__body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.todo__body[role='button'] {
+  cursor: pointer;
+}
+
+.todo__title {
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.todo__note {
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.todo__note--clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.todo__meta {
+  font-size: 12.5px;
+  color: var(--text-tertiary);
+}
+
+.todo__row.is-done .todo__title {
+  color: var(--text-tertiary);
+  text-decoration: line-through;
+  text-decoration-color: color-mix(in srgb, var(--text-tertiary) 60%, transparent);
+}
+
+.todo__remove,
+.todo__add {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  margin-top: -3px;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  background: none;
+  color: var(--text-secondary);
+  transition: transform 0.12s ease, background-color 0.15s ease;
+}
+
+.todo__remove {
+  border-color: transparent;
+  color: var(--text-tertiary);
+}
+
+.todo__add {
+  margin-top: -2px;
+  color: var(--accent);
+  border-color: var(--accent-soft-border);
+}
+
+.todo__remove:active,
+.todo__add:active {
+  transform: scale(0.9);
+  background: var(--fill);
+}
+
+.todo__hint {
+  margin: 0 2px 10px;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.todo__footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  padding: 0 2px;
+}
+
+.todo__empty {
+  margin-top: 12px;
+}
+
+.todo__empty-title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.todo__empty-body {
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+/* On the card: lit while the story is on the list. */
+.iconbtn.is-todo {
+  color: var(--accent);
+  border-color: transparent;
+  background: var(--accent-soft-bg);
+}
+
+.iconbtn.is-todo svg {
+  animation: pop 0.32s cubic-bezier(0.2, 0.8, 0.3, 1.2);
+}
+
+/* Term of the day */
+.termday__term {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.termday__body {
+  margin-top: 6px;
+  font-size: 14.5px;
+  line-height: 1.48;
+  color: var(--text-secondary);
+}
+
+.termday__panel .link-btn {
+  margin-top: 10px;
+}
+
 /* ---- Reader feedback: thumbs in the card's action row and for the day ----- */
 .vote-btns {
   display: flex;
@@ -1850,41 +2682,6 @@ button.thread:active .thread__title {
 /* ---- Brief screen: Today / this week's top shots switch ----------------------- */
 .view-switch {
   margin: 6px 0 14px;
-}
-
-/* Reading progress under the switch: a slim track that fills as stories are
-   marked read, with the score beside it. In view without scrolling. */
-.readbar {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: -4px 2px 2px;
-}
-
-.readbar__track {
-  flex: 1;
-  height: 4px;
-  border-radius: 999px;
-  background: var(--fill);
-  overflow: hidden;
-}
-
-.readbar__track span {
-  display: block;
-  height: 100%;
-  border-radius: 999px;
-  background: var(--accent);
-  transform-origin: left center;
-  transition: transform 0.4s cubic-bezier(0.2, 0.7, 0.2, 1);
-}
-
-.readbar__label {
-  flex: 0 0 auto;
-  font-size: 12.5px;
-  font-weight: 500;
-  color: var(--text-tertiary);
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
 }
 
 /* ---- Rating sheet after the last story --------------------------------------
