@@ -1674,30 +1674,22 @@ button.thread:active .thread__title {
 /* Mark-as-read: the card's one primary control, top right of the header —
    in view as soon as the card is, whatever the story's length, and the same
    spot in both states. Tinted with a check while unread ("tap to check this
-   off"); filled once read, where it also serves as the undo. Small (18px,
-   1px border) with an invisible 36px touch area around it; the negative
-   margins set it 12px from the card's top and right edges (in step with the
-   18px corner) without growing the header row. */
+   off"); filled once read, where it also serves as the undo. Smaller than
+   the icon buttons (25px, 1px border); the negative margins set it 12px from
+   the card's top and right edges (in step with the 18px corner) without
+   growing the header row. */
 .read-cta {
-  position: relative;
   flex: 0 0 auto;
   display: grid;
   place-items: center;
-  width: 18px;
-  height: 18px;
+  width: 25px;
+  height: 25px;
   margin: -3px -4px -3px auto;
   border: 1px solid var(--accent);
   border-radius: 999px;
   background: var(--accent-soft-bg);
   color: var(--accent);
   transition: background-color 0.15s ease, color 0.15s ease, transform 0.12s ease;
-}
-
-.read-cta::before {
-  content: '';
-  position: absolute;
-  inset: -9px;
-  border-radius: 999px;
 }
 
 .read-cta:active {
