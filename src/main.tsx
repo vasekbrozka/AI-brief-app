@@ -2,6 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { registerSW } from 'virtual:pwa-register';
 import { SettingsProvider } from './providers/SettingsProvider';
+import { ProgressProvider } from './providers/ProgressProvider';
 import { ReadProvider } from './providers/ReadProvider';
 import { StreakProvider } from './providers/StreakProvider';
 import { SavedProvider } from './providers/SavedProvider';
@@ -49,8 +50,10 @@ createRoot(rootEl).render(
             <TodoProvider>
               <VotesProvider>
                 <GlossaryProvider>
-                  <App />
-                  <GlossaryPopover />
+                  <ProgressProvider>
+                    <App />
+                    <GlossaryPopover />
+                  </ProgressProvider>
                 </GlossaryProvider>
               </VotesProvider>
             </TodoProvider>

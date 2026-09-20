@@ -1,4 +1,4 @@
-import { useMemo, useState, type ReactNode } from 'react';
+import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { ScreenScaffold } from '../components/ScreenScaffold';
 import { Segmented } from '../components/Segmented';
 import { BriefView } from '../components/BriefView';
@@ -9,6 +9,8 @@ import { useLatestBrief } from '../hooks/useBrief';
 import { useClockTick } from '../hooks/useClockTick';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
+import { useProgress } from '../providers/ProgressProvider';
+import { DESKTOP_QUERY, useMediaQuery } from '../hooks/useMedia';
 import { readingMinutes, visibleItems } from '../lib/briefStats';
 import {
   brewTitleKey,
@@ -28,6 +30,8 @@ export function TodayScreen() {
   const { t, lang, mutedCategories } = useSettings();
   const { isRead } = useRead();
   const { status, data, reload, updated, dates } = useLatestBrief();
+  const desktop = useMediaQuery(DESKTOP_QUERY);
+  const { report } = useProgress();
   const [view, setView] = useState<View>('today');
   useClockTick();
 
@@ -88,10 +92,28 @@ export function TodayScreen() {
     </div>
   );
 
+  // The top bar shows the day's progress on a desktop; it is the brief screen
+  // that knows the counts, so it hands them over (and clears them on the way
+  // out, where no brief is on screen).
+  const total = view === 'today' && status === 'ready' && data ? shown.length : 0;
+  useEffect(() => {
+    report(total ? readCount : 0, total);
+    return () => report(0, 0);
+  }, [report, readCount, total]);
+
   const options: { value: View; label: string }[] = [
     { value: 'today', label: t.viewToday },
     { value: 'week', label: t.viewWeek },
   ];
+
+  // Desktop: the date rides above the title, where the mobile header has no
+  // room for it (there it appears in the floating bar while scrolling).
+  const kicker =
+    view === 'today' && status === 'ready' && data
+      ? `${capitalizeFirst(formatShortDate(data.date, lang))}${
+          updated ? ` · ${t.updatedLabel} ${formatTime(updated, lang)}` : ''
+        }`
+      : undefined;
 
   return (
     <ScreenScaffold
@@ -99,11 +121,14 @@ export function TodayScreen() {
       subtitle={subtitle}
       barContent={bar}
       progress={progress}
+      kicker={kicker}
+      headerAside={
+        <div className="view-switch">
+          <Segmented value={view} onChange={setView} options={options} ariaLabel={t.tabToday} />
+        </div>
+      }
       wide
     >
-      <div className="view-switch">
-        <Segmented value={view} onChange={setView} options={options} ariaLabel={t.tabToday} />
-      </div>
       {view === 'week' ? (
         <WeekView />
       ) : (
@@ -113,7 +138,7 @@ export function TodayScreen() {
           {status === 'ready' && !data && (
             <EmptyState title={t.todayEmptyTitle} body={t.todayEmptyBody} />
           )}
-          {status === 'ready' && data && <BriefView brief={data} isToday />}
+          {status === 'ready' && data && <BriefView brief={data} isToday focus={desktop} />}
         </>
       )}
     </ScreenScaffold>

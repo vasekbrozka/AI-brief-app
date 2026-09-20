@@ -1,6 +1,6 @@
-import { useEffect, useMemo } from 'react';
-import type { Brief } from '../lib/types';
-import { hiddenCountLabel } from '../lib/format';
+import { useEffect, useMemo, useState } from 'react';
+import { isTip, type Brief } from '../lib/types';
+import { hiddenCountLabel, tipCountLabel } from '../lib/format';
 import { visibleItems } from '../lib/briefStats';
 import { shareBrief } from '../lib/share';
 import { useSettings } from '../providers/SettingsProvider';
@@ -9,13 +9,24 @@ import { useStreak } from '../providers/StreakProvider';
 import { useVotes } from '../providers/VotesProvider';
 import { VoteButtons } from './VoteButtons';
 import { BriefItemCard } from './BriefItemCard';
+import { BriefFocus } from './BriefFocus';
+import { CategoryChip } from './CategoryChip';
 import { TermOfDay } from './TermOfDay';
 import { RatePrompt } from './RatePrompt';
 import { RadarSection } from './RadarSection';
 import { WeekStreak } from './WeekStreak';
 import { Icon } from './Icon';
 
-export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: boolean }) {
+export function BriefView({
+  brief,
+  isToday = false,
+  focus = false,
+}: {
+  brief: Brief;
+  isToday?: boolean;
+  /** Desktop: one story at a time instead of a list of cards. */
+  focus?: boolean;
+}) {
   const { lang, t, hideRead, mutedCategories, gamification } = useSettings();
   const { isRead } = useRead();
   const { currentStreak, markFinished } = useStreak();
@@ -69,22 +80,65 @@ export function BriefView({ brief, isToday = false }: { brief: Brief; isToday?: 
   // up". The streak is unaffected — it's driven by Today.
   const cards = isToday ? listed : shown;
 
+  // Which story the desktop reader has open. It starts on the first unread one
+  // and then only moves when the reader moves it — "hide read" is a list
+  // setting and has no say here, where the strip is the table of contents.
+  const [focusId, setFocusId] = useState<string | null>(null);
+  useEffect(() => {
+    setFocusId((current) => {
+      if (current && shown.some((item) => item.id === current)) return current;
+      const first = shown.find((item) => !isRead(item.id)) ?? shown[0];
+      return first ? first.id : null;
+    });
+    // Only when the day's stories change: picking up the read state here would
+    // move the story out from under the reader.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [shown]);
+
+  const tips = focus ? shown.filter(isTip) : [];
+
   // Two blocks: the stories, and what follows the reading (streak, term of the
   // day, rating, sharing). On a phone they stack in this order; on a desktop
   // the second block becomes a right rail beside the columns of cards.
   return (
     <div className="brief">
       <div className="brief__main">
-        {cards.length > 0 && (
-          <div className="items">
-            {cards.map((item) => (
-              <BriefItemCard key={item.id} item={item} plain={!isToday} />
-            ))}
-          </div>
+        {focus ? (
+          <BriefFocus items={shown} focusId={focusId} onFocus={setFocusId} />
+        ) : (
+          cards.length > 0 && (
+            <div className="items">
+              {cards.map((item) => (
+                <BriefItemCard key={item.id} item={item} plain={!isToday} />
+              ))}
+            </div>
+          )
         )}
       </div>
 
       <aside className="brief__side">
+        {/* Desktop only: the day's practical tips, as a way into them — the
+            list version marks them with a badge in place. */}
+        {tips.length > 0 && (
+          <section className="railcard">
+            <div className="railcard__label">{t.tipsRailLabel}</div>
+            <div className="railcard__title">{tipCountLabel(tips.length, lang)}</div>
+            <div className="railcard__rows">
+              {tips.map((tipItem) => (
+                <button
+                  key={tipItem.id}
+                  type="button"
+                  className="railrow"
+                  onClick={() => setFocusId(tipItem.id)}
+                >
+                  <CategoryChip id={tipItem.category} />
+                  <span className="railrow__title">{tipItem.title[lang]}</span>
+                </button>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* The streak card is the reward for the reading, so it follows the
             cards directly — its celebration must not fire off-screen. */}
         {isToday && showCard && (

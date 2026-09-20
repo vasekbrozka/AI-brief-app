@@ -9,6 +9,10 @@ interface ScreenScaffoldProps {
   progress?: number | null;
   /** Reserve room for two subtitle lines, so controls below never move when the text changes. */
   subtitleLines?: 1 | 2;
+  /** Small line above the title (the brief's date); desktop only. */
+  kicker?: ReactNode;
+  /** Controls that belong to the header: under the title on a phone, beside it on a desktop. */
+  headerAside?: ReactNode;
   /** Reading screens: on a desktop they may use the whole width (columns, a right rail). */
   wide?: boolean;
   left?: ReactNode;
@@ -30,6 +34,8 @@ export function ScreenScaffold({
   barContent,
   progress,
   subtitleLines = 1,
+  kicker,
+  headerAside,
   wide = false,
   left,
   right,
@@ -83,6 +89,7 @@ export function ScreenScaffold({
       <div className={`screen__content${hasChrome ? ' screen__content--chrome' : ''}`}>
         <div className="large-title">
           <div className="large-title__text">
+            {kicker != null && <div className="large-title__kicker">{kicker}</div>}
             <h1 className="large-title__heading">{title}</h1>
             {subtitle != null && (
               <div
@@ -92,6 +99,7 @@ export function ScreenScaffold({
               </div>
             )}
           </div>
+          {headerAside != null && <div className="large-title__aside">{headerAside}</div>}
         </div>
         <div ref={sentinelRef} className="scroll-sentinel" aria-hidden="true" />
         {children}

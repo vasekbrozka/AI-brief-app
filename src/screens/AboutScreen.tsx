@@ -3,7 +3,7 @@ import { ScreenScaffold } from '../components/ScreenScaffold';
 import { Icon } from '../components/Icon';
 import { useSettings } from '../providers/SettingsProvider';
 
-export const APP_VERSION = '1.9';
+export const APP_VERSION = '2.0';
 
 function Group({ title, children }: { title: string; children: ReactNode }) {
   return (

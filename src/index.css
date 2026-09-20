@@ -329,15 +329,26 @@ svg {
 /* Text block (title, subtitle) with an optional control beside it, centred
    on the block's height. */
 .large-title {
-  display: flex;
-  align-items: center;
-  gap: 14px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
   padding: 8px 0 2px;
 }
 
 .large-title__text {
-  flex: 1;
   min-width: 0;
+}
+
+/* The brief's date, printed above the title. A phone has no room for it (its
+   floating bar carries the date while scrolling), so it appears on wider
+   screens only. */
+.large-title__kicker {
+  display: none;
+  margin-bottom: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
 }
 
 /* The title scales with the viewport just enough that the longest
@@ -1454,10 +1465,15 @@ button.thread:active .thread__title {
   display: none;
 }
 
+/* Both belong to the desktop top bar; the phone's bar is tabs only. */
+.topbar-progress {
+  display: none;
+}
+
 @media (min-width: 900px) {
   :root {
     --content-max: 1520px;
-    --sidebar-w: 224px;
+    --topbar-h: 62px;
     --side-w: 340px;
   }
 
@@ -1468,7 +1484,7 @@ button.thread:active .thread__title {
 
   .app {
     max-width: none;
-    padding-left: var(--sidebar-w);
+    padding-top: var(--topbar-h);
     box-shadow: none;
   }
 
@@ -1477,21 +1493,24 @@ button.thread:active .thread__title {
     margin: 0;
   }
 
-  /* The top bar floats over the content area, right of the sidebar. */
+  /* The page's own bar (back button, condensed title) sits under the app bar. */
   .navbar {
-    left: var(--sidebar-w);
+    top: var(--topbar-h);
     max-width: none;
   }
 
   .toaster {
-    left: var(--sidebar-w);
     bottom: 40px;
   }
 
-  /* Left-aligned beside the sidebar; no bottom tab bar to clear. */
+  /* Centred under the top bar; no bottom tab bar to clear. `width: 100%`
+     matters: in a column flex container, auto side margins stop the item
+     from stretching, so without it the screen shrinks to its text. */
   .screen__content {
-    max-width: 800px;
-    padding: 28px 32px 56px;
+    width: 100%;
+    max-width: 880px;
+    margin-inline: auto;
+    padding: 26px 32px 56px;
   }
 
   .screen__content--chrome {
@@ -1500,14 +1519,6 @@ button.thread:active .thread__title {
 
   .screen--wide .screen__content {
     max-width: var(--content-max);
-  }
-
-  /* Header: the title block takes its own width, but keeps room for the meta
-     line and the reading bars under it, which a short title like "Ranní
-     shot" would otherwise squeeze. */
-  .large-title__text {
-    flex: 0 1 auto;
-    min-width: min(100%, 430px);
   }
 
   .large-title__subtitle--two {
@@ -1523,36 +1534,33 @@ button.thread:active .thread__title {
     content: '· ';
   }
 
-  .view-switch {
-    max-width: 400px;
-  }
-
   .item {
     padding: 16px 18px;
   }
 
-  /* Bottom tab bar becomes the left sidebar. */
+  /* The bottom tab bar becomes the app's top bar: brand, the tabs as text
+     pills, and the day's reading progress on the right. */
   .tabbar {
     top: 0;
-    bottom: 0;
+    bottom: auto;
     left: 0;
-    right: auto;
+    right: 0;
     transform: none;
-    width: var(--sidebar-w);
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    width: auto;
     max-width: none;
-    padding: 26px 14px 16px;
-    background: transparent;
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
+    height: var(--topbar-h);
+    padding: 0 28px;
     border-top: 0;
-    border-right: 1px solid var(--hairline);
+    border-bottom: 1px solid var(--hairline);
   }
 
   .tabbar__brand {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 4px 10px 22px;
     font-size: 17px;
     font-weight: 700;
     letter-spacing: -0.02em;
@@ -1567,24 +1575,23 @@ button.thread:active .thread__title {
   }
 
   .tabbar__inner {
-    flex-direction: column;
     height: auto;
-    gap: 3px;
+    gap: 4px;
   }
 
   .tabbar__item {
     flex: 0 0 auto;
     flex-direction: row;
-    justify-content: flex-start;
-    gap: 11px;
-    padding: 10px 12px;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 16px;
     border-radius: 10px;
     color: var(--text-secondary);
   }
 
+  /* Labels carry the nav here; the icons would only add noise at this size. */
   .tabbar__item .tabbar__icon {
-    width: 21px;
-    height: 21px;
+    display: none;
   }
 
   .tabbar__label {
@@ -1600,6 +1607,69 @@ button.thread:active .thread__title {
 
   .tabbar__item:active {
     transform: none;
+  }
+
+  /* The day's progress, right-aligned in the bar. */
+  .topbar-progress {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: auto;
+  }
+
+  .topbar-progress__count {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .topbar-progress__track {
+    display: block;
+    width: 120px;
+    height: 6px;
+    border-radius: 999px;
+    background: var(--fill);
+    overflow: hidden;
+  }
+
+  .topbar-progress__track span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 999px;
+    background: var(--accent);
+    transform-origin: left;
+    transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+
+  /* Header: the date above the title, the view switch beside it. */
+  .large-title {
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 24px;
+    align-items: center;
+  }
+
+  .large-title__kicker {
+    display: block;
+  }
+
+  .large-title__aside {
+    justify-self: end;
+  }
+
+  .large-title__aside .view-switch {
+    margin: 0;
+    width: 260px;
+  }
+
+  /* The top bar already carries the progress; one bar per screen is enough. */
+  .headmeta .readbars {
+    display: none;
+  }
+
+  .rateprompt {
+    bottom: 28px;
   }
 }
 
@@ -1634,6 +1704,357 @@ button.thread:active .thread__title {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     column-gap: 28px;
     align-items: start;
+  }
+}
+
+/* ---- Desktop reader -------------------------------------------------------
+   A wide screen fits a whole story without scrolling, so the brief stops
+   being a list: the story in hand fills the page, its actions sit under it,
+   and the rest of the day waits in a numbered strip along the bottom. The
+   phone keeps the list — this whole block is a different tree, not a restyle
+   (see `useMediaQuery` in the Brief screen). */
+@media (min-width: 1100px) {
+  .focus {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .hero {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 200px;
+    column-gap: 32px;
+    padding: 26px 28px 24px;
+    background: var(--surface);
+    border-radius: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .hero--tip,
+  .hero--highlight {
+    background: linear-gradient(var(--accent-soft-bg), var(--accent-soft-bg)), var(--surface);
+  }
+
+  .hero__head,
+  .hero__title,
+  .hero__summary {
+    grid-column: 1 / -1;
+  }
+
+  .hero__head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 120px;
+  }
+
+  /* The story's number, and the read control: it fills with a check once the
+     story is done, the same gesture as the check on a phone card. */
+  .hero__no {
+    position: absolute;
+    top: 22px;
+    right: 26px;
+    display: grid;
+    place-items: center;
+    width: 86px;
+    height: 86px;
+    padding: 0;
+    border: 2px solid var(--accent-soft-bg);
+    border-radius: 999px;
+    background: var(--accent-soft-bg);
+    color: var(--accent);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+    transition: background-color 0.18s ease, color 0.18s ease, transform 0.12s ease;
+  }
+
+  .hero__no:active {
+    transform: scale(0.94);
+  }
+
+  .hero__no.is-read {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+
+  .hero__title {
+    margin-top: 12px;
+    padding-right: 120px;
+    font-size: 31px;
+    line-height: 1.16;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .hero__summary {
+    margin-top: 12px;
+    font-size: 16.5px;
+    line-height: 1.55;
+    color: var(--text-secondary);
+    max-width: 68ch;
+  }
+
+  .hero__grid {
+    display: contents;
+  }
+
+  .hero__why {
+    grid-column: 1;
+    margin-top: 18px;
+  }
+
+  .hero__meta {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 18px;
+    font-size: 13px;
+    color: var(--text-tertiary);
+  }
+
+  .hero__meta .sources {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .hero__date {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .hero.is-read .hero__title,
+  .hero.is-read .hero__summary {
+    color: var(--text-secondary);
+  }
+
+  /* One bar closes the story: keep it, share it, rate it — and the button
+     that checks it off and brings the next one. */
+  .heroactions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px 10px 16px;
+    background: var(--surface);
+    border-radius: 16px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .heroaction {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 10px;
+    background: none;
+    color: var(--text-secondary);
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+
+  .heroaction[aria-pressed='true'] {
+    color: var(--accent);
+  }
+
+  .heroactions__vote {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    padding-right: 4px;
+  }
+
+  .heroactions__votelabel {
+    font-size: 13px;
+    color: var(--text-tertiary);
+  }
+
+  .heronext {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 14px 10px 18px;
+    border: 0;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    transition: opacity 0.15s ease, transform 0.12s ease;
+  }
+
+  .heronext:active {
+    transform: scale(0.97);
+  }
+
+  .heronext:disabled {
+    opacity: 0.4;
+  }
+
+  /* The rest of the day, as a strip of numbered cards. */
+  .strip {
+    margin-top: 10px;
+  }
+
+  .strip__label {
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+
+  /* One row, always: the cards share the width while they fit and the strip
+     scrolls once a long day outgrows it. */
+  .strip__row {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scrollbar-width: thin;
+  }
+
+  .stripcard {
+    flex: 1 1 150px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px 14px 13px;
+    border: 1px solid transparent;
+    border-radius: 14px;
+    background: var(--surface);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    transition: border-color 0.15s ease, transform 0.12s ease;
+  }
+
+  .stripcard:active {
+    transform: scale(0.98);
+  }
+
+  .stripcard__head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .stripcard__no {
+    display: grid;
+    place-items: center;
+    min-width: 22px;
+    height: 22px;
+    border-radius: 999px;
+    background: var(--fill);
+    color: var(--text-tertiary);
+    font-size: 11px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .stripcard.is-read .stripcard__no {
+    background: var(--accent);
+    color: #fff;
+  }
+
+  .stripcard__title {
+    font-size: 14.5px;
+    line-height: 1.35;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .stripcard__date {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .stripcard.is-read .stripcard__title {
+    color: var(--text-secondary);
+  }
+
+  .stripcard.is-read .chip {
+    opacity: 0.6;
+  }
+
+  /* Rail cards (the day's tips) match the strip's card language. */
+  .railcard {
+    padding: 16px 16px 12px;
+    background: var(--surface);
+    border-radius: 18px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .railcard__label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+
+  .railcard__title {
+    margin-top: 6px;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+  }
+
+  .railcard__rows {
+    margin-top: 10px;
+  }
+
+  .railrow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 9px 0;
+    border: 0;
+    border-top: 1px solid var(--hairline);
+    background: none;
+    text-align: left;
+  }
+
+  .railrow__title {
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+}
+
+@media (min-width: 1100px) and (hover: hover) {
+  .heroaction:hover {
+    background: var(--fill);
+    color: var(--text);
+  }
+
+  .hero__no:not(.is-read):hover {
+    background: var(--accent);
+    color: #fff;
+  }
+
+  .heronext:hover {
+    opacity: 0.9;
+  }
+
+  .stripcard:hover {
+    border-color: var(--accent);
+  }
+
+  .railrow:hover .railrow__title {
+    color: var(--accent);
   }
 }
 

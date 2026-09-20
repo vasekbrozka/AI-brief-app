@@ -161,6 +161,21 @@ export function readProgressLabel(read: number, total: number, lang: Lang): stri
   return lang === 'cs' ? `Vypito ${read} z ${total}` : `${read} of ${total} read`;
 }
 
+/** The top bar's compact count, e.g. "2 z 6" / "2 of 6". */
+export function readCountShort(read: number, total: number, lang: Lang): string {
+  return lang === 'cs' ? `${read} z ${total}` : `${read} of ${total}`;
+}
+
+/** How many practical tips the day holds, e.g. "2 nové tipy" / "2 new tips". */
+export function tipCountLabel(n: number, lang: Lang): string {
+  if (lang === 'cs') {
+    if (n === 1) return '1 nový tip';
+    if (n >= 2 && n <= 4) return `${n} nové tipy`;
+    return `${n} nových tipů`;
+  }
+  return n === 1 ? '1 new tip' : `${n} new tips`;
+}
+
 /** Checklist progress, e.g. "Vyzkoušeno 3 z 28" / "3 of 28 tried". */
 export function triedProgressLabel(tried: number, total: number, lang: Lang): string {
   return lang === 'cs' ? `Vyzkoušeno ${tried} z ${total}` : `${tried} of ${total} tried`;

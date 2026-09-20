@@ -1,10 +1,13 @@
 import { useSettings } from '../providers/SettingsProvider';
+import { useProgress } from '../providers/ProgressProvider';
+import { readCountShort } from '../lib/format';
 import { Icon, type IconName } from './Icon';
 
 export type Tab = 'today' | 'todo' | 'archive' | 'settings';
 
 export function TabBar({ active, onChange }: { active: Tab; onChange: (t: Tab) => void }) {
-  const { t, todoEnabled } = useSettings();
+  const { t, lang, todoEnabled } = useSettings();
+  const { read, total } = useProgress();
 
   // The To do tab is opt-in from Settings; off, the bar keeps its three tabs.
   const tabs: { id: Tab; icon: IconName; label: string }[] = [
@@ -44,6 +47,17 @@ export function TabBar({ active, onChange }: { active: Tab; onChange: (t: Tab) =
           );
         })}
       </div>
+      {/* Desktop only: the day's progress rides in the top bar, where it is in
+          view on every screen. The phone's bar has no room and its header
+          carries the same numbers. */}
+      {total > 0 && (
+        <div className="topbar-progress" aria-hidden="true">
+          <span className="topbar-progress__count">{readCountShort(read, total, lang)}</span>
+          <span className="topbar-progress__track">
+            <span style={{ transform: `scaleX(${total ? read / total : 0})` }} />
+          </span>
+        </div>
+      )}
     </nav>
   );
 }
