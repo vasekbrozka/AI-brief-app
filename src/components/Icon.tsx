@@ -17,7 +17,10 @@ export type IconName =
   | 'bookmark'
   | 'bookmarkFilled'
   | 'thumbUp'
-  | 'thumbDown';
+  | 'thumbDown'
+  | 'plus'
+  | 'listPlus'
+  | 'listCheck';
 
 const S = { fill: 'none', stroke: 'currentColor', strokeWidth: 1.7, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const };
 
@@ -104,6 +107,25 @@ const PATHS: Record<IconName, JSX.Element> = {
       strokeWidth={1.3}
       strokeLinejoin="round"
     />
+  ),
+  plus: <path d="M12 5.5v13M5.5 12h13" {...S} strokeWidth={2} />,
+  // To do: a short list with a plus (add) or a check (on the list / the tab).
+  listPlus: (
+    <>
+      <path d="M4 7h10" {...S} />
+      <path d="M4 12h10" {...S} />
+      <path d="M4 17h6" {...S} />
+      <path d="M17.5 13.5v6" {...S} strokeWidth={2} />
+      <path d="M14.5 16.5h6" {...S} strokeWidth={2} />
+    </>
+  ),
+  listCheck: (
+    <>
+      <path d="M4 7h10" {...S} />
+      <path d="M4 12h10" {...S} />
+      <path d="M4 17h6" {...S} />
+      <path d="M13.6 16.3l2.4 2.4 4.5-4.9" {...S} strokeWidth={2} />
+    </>
   ),
   thumbUp: (
     <>

@@ -3,6 +3,7 @@ import { isTip, type BriefItem, type ThreadRef } from '../lib/types';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
 import { useSaved } from '../providers/SavedProvider';
+import { todoFromStory, useTodo } from '../providers/TodoProvider';
 import { useNav } from '../providers/NavProvider';
 import { shareItem } from '../lib/share';
 import { toast } from '../lib/toast';
@@ -54,9 +55,10 @@ function ThreadLink({ thread }: { thread: ThreadRef }) {
  * it, the title unfolds it. With "hide read" on, the card fades out instead.
  */
 export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?: boolean }) {
-  const { lang, t, hideRead } = useSettings();
+  const { lang, t, hideRead, todoEnabled } = useSettings();
   const { isRead, toggle } = useRead();
   const { isSaved, toggle: toggleSaved } = useSaved();
+  const todo = useTodo();
   // `plain` (archive browse) ignores the read state entirely — no dim, no
   // fold, no read-toggle — so past days always show every story.
   const read = plain ? false : isRead(item.id);
@@ -76,6 +78,20 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
     const wasSaved = saved;
     toggleSaved(item);
     toast(wasSaved ? t.unsavedToast : t.savedToast);
+  }
+
+  // To do (optional): keep the story for later, or drop it again.
+  const todoKey = todoFromStory(item).key;
+  const inTodo = todoEnabled && todo.has(todoKey);
+  function handleTodo() {
+    haptic();
+    if (todo.has(todoKey)) {
+      todo.remove(todoKey);
+      toast(t.todoRemovedToast);
+    } else {
+      todo.add(todoFromStory(item));
+      toast(t.todoAddedToast);
+    }
   }
 
   const [exiting, setExiting] = useState(false);
@@ -198,6 +214,18 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
                 <VoteButtons id={item.id} />
               </div>
               <div className="item__bar-right">
+                {todoEnabled && (
+                  <button
+                    type="button"
+                    className={`iconbtn${inTodo ? ' is-todo' : ''}`}
+                    aria-pressed={inTodo}
+                    aria-label={`${inTodo ? t.todoRemoveLabel : t.todoAddLabel} „${title}“`}
+                    title={inTodo ? t.todoRemoveLabel : t.todoAddLabel}
+                    onClick={handleTodo}
+                  >
+                    <Icon name={inTodo ? 'listCheck' : 'listPlus'} size={17} />
+                  </button>
+                )}
                 <button
                   type="button"
                   className={`iconbtn${saved ? ' is-saved' : ''}`}

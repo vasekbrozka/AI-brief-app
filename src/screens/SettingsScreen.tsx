@@ -36,8 +36,8 @@ export function SettingsScreen({ onOpenAbout }: { onOpenAbout: () => void }) {
     setGamification,
     glossaryEnabled,
     setGlossaryEnabled,
-    tryListEnabled,
-    setTryListEnabled,
+    todoEnabled,
+    setTodoEnabled,
   } = useSettings();
   const { clear, readCount } = useRead();
   const { currentStreak } = useStreak();
@@ -132,10 +132,10 @@ export function SettingsScreen({ onOpenAbout }: { onOpenAbout: () => void }) {
         <div className="setting-divider" />
         <div className="setting-switch">
           <div className="setting-switch__text">
-            <span className="setting-switch__label">{t.tryListLabel}</span>
-            <span className="setting-switch__hint">{t.tryListHint}</span>
+            <span className="setting-switch__label">{t.todoLabel}</span>
+            <span className="setting-switch__hint">{t.todoHint}</span>
           </div>
-          <Switch checked={tryListEnabled} onChange={setTryListEnabled} ariaLabel={t.tryListLabel} />
+          <Switch checked={todoEnabled} onChange={setTodoEnabled} ariaLabel={t.todoLabel} />
         </div>
         <div className="setting-divider" />
         <button

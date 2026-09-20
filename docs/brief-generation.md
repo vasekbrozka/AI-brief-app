@@ -305,9 +305,9 @@ python3 docs/check-brief.py
 
 Tip = užitečná funkce nástroje, kterou si čtenář může vyzkoušet, z **posledních ~60 dní**.
 Není nutně horká; je nutně použitelná. Žijí ve frontě `data/briefs/tips-backlog.json`.
-**Appka backlog čte**: sekce „Na vyzkoušení" ukazuje tipy s `used` z posledních 30 dnů jako
-checklist, který si čtenář odškrtává. Proto u každého záznamu drž `title`, `why`,
-`sources` a `used` přesné a nikdy záznamy nepřepisuj zpětně.
+**Appka backlog čte**: volitelná záložka To do nabízí tipy s `used` z posledních 30 dnů
+k přidání do čtenářova seznamu. Proto u každého záznamu drž `title`, `why`, `sources`
+a `used` přesné a nikdy záznamy nepřepisuj zpětně.
 
 - **Kolik:** **0–3 denně**, z toho, co fronta dá. Žádný vzorec, žádné doplňování na číslo.
   Tip nikdy nevytlačí zprávu (zpráv ≥ tipů).
@@ -475,7 +475,7 @@ Kompletní ukázka: `docs/examples/brief-v3-example.json`
 }
 ```
 
-### `data/briefs/tips-backlog.json` — fronta + historie tipů (appka ČTE pro „Na vyzkoušení", NEMAZAT)
+### `data/briefs/tips-backlog.json` — fronta + historie tipů (appka ČTE pro záložku To do, NEMAZAT)
 
 ```jsonc
 {

@@ -30,8 +30,8 @@ interface SettingsContextValue {
   glossaryEnabled: boolean;
   setGlossaryEnabled: (v: boolean) => void;
   /** "Try it" checklist at the end of the brief — on by default, fully optional. */
-  tryListEnabled: boolean;
-  setTryListEnabled: (v: boolean) => void;
+  todoEnabled: boolean;
+  setTodoEnabled: (v: boolean) => void;
   /** Localized UI strings for the current language. */
   t: UIStrings;
 }
@@ -50,7 +50,7 @@ const HIDE_READ_DEFAULTED_KEY = 'aibrief.hideRead.default4';
 const MUTED_CATEGORIES_KEY = 'aibrief.mutedCategories';
 const GAMIFICATION_KEY = 'aibrief.gamification';
 const GLOSSARY_KEY = 'aibrief.glossary';
-const TRY_LIST_KEY = 'aibrief.tryList';
+const TODO_KEY = 'aibrief.todo.enabled';
 
 function detectInitialLang(): Lang {
   try {
@@ -114,12 +114,12 @@ function detectInitialGlossary(): boolean {
   }
 }
 
-function detectInitialTryList(): boolean {
+function detectInitialTodo(): boolean {
   try {
-    // Default on — only an explicit "0" disables it.
-    return localStorage.getItem(TRY_LIST_KEY) !== '0';
+    // Default off — the To do tab is opt-in from Settings.
+    return localStorage.getItem(TODO_KEY) === '1';
   } catch {
-    return true;
+    return false;
   }
 }
 
@@ -130,7 +130,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   const [mutedCategories, setMutedCategories] = useState<CategoryId[]>(detectInitialMuted);
   const [gamification, setGamification] = useState<boolean>(detectInitialGamification);
   const [glossaryEnabled, setGlossaryEnabled] = useState<boolean>(detectInitialGlossary);
-  const [tryListEnabled, setTryListEnabled] = useState<boolean>(detectInitialTryList);
+  const [todoEnabled, setTodoEnabled] = useState<boolean>(detectInitialTodo);
 
   useEffect(() => {
     try {
@@ -189,11 +189,11 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     try {
-      localStorage.setItem(TRY_LIST_KEY, tryListEnabled ? '1' : '0');
+      localStorage.setItem(TODO_KEY, todoEnabled ? '1' : '0');
     } catch {
       /* ignore */
     }
-  }, [tryListEnabled]);
+  }, [todoEnabled]);
 
   const value = useMemo<SettingsContextValue>(
     () => ({
@@ -213,11 +213,11 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       setGamification,
       glossaryEnabled,
       setGlossaryEnabled,
-      tryListEnabled,
-      setTryListEnabled,
+      todoEnabled,
+      setTodoEnabled,
       t: STRINGS[lang],
     }),
-    [lang, theme, hideRead, mutedCategories, gamification, glossaryEnabled, tryListEnabled],
+    [lang, theme, hideRead, mutedCategories, gamification, glossaryEnabled, todoEnabled],
   );
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;

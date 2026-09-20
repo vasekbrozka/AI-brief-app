@@ -1,13 +1,15 @@
 import { useSettings } from '../providers/SettingsProvider';
 import { Icon, type IconName } from './Icon';
 
-export type Tab = 'today' | 'archive' | 'settings';
+export type Tab = 'today' | 'todo' | 'archive' | 'settings';
 
 export function TabBar({ active, onChange }: { active: Tab; onChange: (t: Tab) => void }) {
-  const { t } = useSettings();
+  const { t, todoEnabled } = useSettings();
 
+  // The To do tab is opt-in from Settings; off, the bar keeps its three tabs.
   const tabs: { id: Tab; icon: IconName; label: string }[] = [
     { id: 'today', icon: 'cup', label: t.tabToday },
+    ...(todoEnabled ? [{ id: 'todo' as Tab, icon: 'listCheck' as IconName, label: t.tabTodo }] : []),
     { id: 'archive', icon: 'stack', label: t.tabArchive },
     { id: 'settings', icon: 'sliders', label: t.tabSettings },
   ];

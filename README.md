@@ -27,8 +27,10 @@ z GitHubu.
 - 🏆 **Top shots** — hlavní zprávy posledních sedmi dnů jako karty (nedělní
   brief může výběr kurátorovat přes `weekInReview`)
 - 📅 **Co se chystá** — nadcházející termíny (vydání, konference, lhůty, soudy)
-- 🧠 **Po dočtení je co dělat** — „Na vyzkoušení" s funkcemi z posledních týdnů
-  (vypínatelné v Nastavení), „Zrnko dne" ze slovníčku, série čtení pod novinkami
+- ✅ **To do** — volitelná záložka (zapíná se v Nastavení) s novinkami a tipy na
+  později: na kartě tlačítko Přidat do To do, v záložce seznam k odškrtání a pod ním
+  tipy z posledních 30 dnů, které jde přidat plusem
+- 🧠 **Po dočtení je co dělat** — „Zrnko dne" ze slovníčku, série čtení pod novinkami
 - 👍 **Zpětná vazba** — palec nahoru/dolů u každé novinky i u celého dne, s počty hlasů
   od všech čtenářů; anonymní počítadla, která generátor čte jako signál, co je přínosné
 - ✔️ **Přečteno**, uložení na později, sdílení novinky i celého přehledu, série čtení,
@@ -56,7 +58,7 @@ data/
     ├── index.json           # seznam dostupných briefů (nejnovější první, 14 dnů)
     ├── YYYY-MM-DD.json      # jeden brief na den (starší dny zůstávají, jen nejsou v indexu)
     ├── published-log.json   # ledger zveřejněných položek (dedup, 60 dní) — appka nečte
-    ├── tips-backlog.json    # fronta a historie tipů — appka z ní staví seznam „Na vyzkoušení"
+    ├── tips-backlog.json    # fronta a historie tipů — appka z ní bere Tipy k vyzkoušení v záložce To do
     └── feedback.json        # palce čtenářů za 30 dní — zapisuje noční funkce na Netlify
 ```
 

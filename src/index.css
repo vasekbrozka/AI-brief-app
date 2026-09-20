@@ -2230,44 +2230,20 @@ button.thread:active .thread__title {
   padding: 16px 18px;
 }
 
-/* Try it yourself — checklist */
-.try__hint {
-  font-size: 14px;
-  line-height: 1.45;
-  color: var(--text-secondary);
+/* To do — the reader's list (open rows, then done) and tips to add. Rows live
+   in the grouped list container; the left column is the tick (or the plus). */
+.todo__list {
+  margin-top: 12px;
 }
 
-.try__hint--screen {
-  margin: 4px 2px 14px;
-}
-
-.try__list {
-  list-style: none;
-  margin: 12px 0 0;
-  padding: 0;
-}
-
-.try__list--screen {
-  margin: 0;
-  padding: 4px 0;
-}
-
-.try__row {
+.todo__row {
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  padding: 10px 0;
+  padding: 12px 12px 12px 16px;
 }
 
-.try__list--screen .try__row {
-  padding: 12px 16px;
-}
-
-.try__row + .try__row {
-  border-top: 1px solid var(--hairline);
-}
-
-.try__check {
+.todo__check {
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -2279,15 +2255,14 @@ button.thread:active .thread__title {
   background: none;
   color: #fff;
   cursor: pointer;
-  transition: background-color 0.15s ease, border-color 0.15s ease;
 }
 
-.try__check.is-on {
+.todo__check.is-on {
   background: var(--accent);
   border-color: var(--accent);
 }
 
-.try__body {
+.todo__body {
   flex: 1;
   min-width: 0;
   display: flex;
@@ -2295,60 +2270,113 @@ button.thread:active .thread__title {
   gap: 3px;
 }
 
-.try__title {
+.todo__body[role='button'] {
+  cursor: pointer;
+}
+
+.todo__title {
   font-size: 15.5px;
   font-weight: 600;
   line-height: 1.3;
   letter-spacing: -0.01em;
 }
 
-.try__detail {
+.todo__note {
   font-size: 14px;
   line-height: 1.45;
   color: var(--text-secondary);
 }
 
-.try__meta {
+.todo__note--clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.todo__meta {
   font-size: 12.5px;
   color: var(--text-tertiary);
 }
 
-.try__row.is-tried .try__title,
-.try__row.is-tried .try__detail {
+.todo__row.is-done .todo__title {
   color: var(--text-tertiary);
-}
-
-.try__row.is-tried .try__title {
   text-decoration: line-through;
   text-decoration-color: color-mix(in srgb, var(--text-tertiary) 60%, transparent);
 }
 
-.try__alldone {
-  margin-top: 12px;
-  font-size: 15px;
-  font-weight: 600;
+.todo__remove,
+.todo__add {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  margin-top: -3px;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  background: none;
   color: var(--text-secondary);
+  transition: transform 0.12s ease, background-color 0.15s ease;
 }
 
-.try__footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  margin-top: 12px;
-  padding-top: 12px;
-  border-top: 1px solid var(--hairline);
-}
-
-.try__progress {
-  font-size: 13px;
+.todo__remove {
+  border-color: transparent;
   color: var(--text-tertiary);
 }
 
-.try__all {
-  display: inline-flex;
-  align-items: center;
-  gap: 2px;
+.todo__add {
+  margin-top: -2px;
+  color: var(--accent);
+  border-color: var(--accent-soft-border);
+}
+
+.todo__remove:active,
+.todo__add:active {
+  transform: scale(0.9);
+  background: var(--fill);
+}
+
+.todo__hint {
+  margin: 0 2px 10px;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.todo__footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  padding: 0 2px;
+}
+
+.todo__empty {
+  margin-top: 12px;
+}
+
+.todo__empty-title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.todo__empty-body {
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+/* On the card: lit while the story is on the list. */
+.iconbtn.is-todo {
+  color: var(--accent);
+  border-color: transparent;
+  background: var(--accent-soft-bg);
+}
+
+.iconbtn.is-todo svg {
+  animation: pop 0.32s cubic-bezier(0.2, 0.8, 0.3, 1.2);
 }
 
 /* Term of the day */
@@ -2528,7 +2556,7 @@ button.thread:active .thread__title {
 
 
 .vote-btn,
-.try__check,
+.todo__check,
 .read-cta__circle,
 .iconbtn,
 .share-brief,
@@ -2551,19 +2579,19 @@ button.thread:active .thread__title {
   animation: pop 0.32s cubic-bezier(0.2, 0.8, 0.3, 1.2);
 }
 
-.try__check {
+.todo__check {
   transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.12s ease;
 }
 
-.try__check:active {
+.todo__check:active {
   transform: scale(0.86);
 }
 
-.try__check.is-on {
+.todo__check.is-on {
   animation: pop 0.3s cubic-bezier(0.2, 0.8, 0.3, 1.2);
 }
 
-.try__check.is-on svg {
+.todo__check.is-on svg {
   animation: pop-in 0.22s ease both;
 }
 
@@ -2600,23 +2628,6 @@ button.thread:active .thread__title {
 
 .settings-link:active {
   transform: scale(0.985);
-}
-
-/* ---- Tip rows: clamp until tapped, ticked ones fold to the title ---------- */
-.try__body[role='button'] {
-  cursor: pointer;
-}
-
-.try__detail--clamp {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.try__row.is-folded {
-  padding-top: 11px;
-  padding-bottom: 11px;
 }
 
 /* ---- Brief screen: Today / this week's top shots switch ----------------------- */

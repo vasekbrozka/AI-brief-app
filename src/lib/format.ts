@@ -166,6 +166,21 @@ export function triedProgressLabel(tried: number, total: number, lang: Lang): st
   return lang === 'cs' ? `Vyzkoušeno ${tried} z ${total}` : `${tried} of ${total} tried`;
 }
 
+/** To do subtitle, e.g. "3 otevřené · 5 hotových" / "3 open · 5 done". */
+export function todoCountLabel(open: number, done: number, lang: Lang): string {
+  const cs = (n: number, one: string, few: string, many: string) =>
+    `${n} ${n === 1 ? one : n >= 2 && n <= 4 ? few : many}`;
+  const parts: string[] = [];
+  if (lang === 'cs') {
+    if (open > 0) parts.push(cs(open, 'otevřená', 'otevřené', 'otevřených'));
+    if (done > 0) parts.push(cs(done, 'hotová', 'hotové', 'hotových'));
+  } else {
+    if (open > 0) parts.push(`${open} open`);
+    if (done > 0) parts.push(`${done} done`);
+  }
+  return parts.join(' · ');
+}
+
 /** Reading-streak label, e.g. "5 dní v řadě" / "5-day streak". */
 export function streakLabel(n: number, lang: Lang): string {
   if (lang === 'cs') {

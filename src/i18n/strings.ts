@@ -10,6 +10,7 @@ export interface UIStrings {
 
   // Tab bar
   tabToday: string;
+  tabTodo: string;
   tabArchive: string;
   tabSettings: string;
 
@@ -62,17 +63,22 @@ export interface UIStrings {
   sampleBadge: string;
   sampleNote: string;
 
-  // Things to try (checklist) and the glossary term
-  tryTitle: string;
-  tryHint: string;
-  tryAll: string;
-  tryDone: string;
-  tryAllDone: string;
-  tryEmptyTitle: string;
-  tryEmptyBody: string;
-  tryTriedSection: string;
-  markTried: string;
-  markNotTried: string;
+  // To do (optional tab): the reader's list, plus tips to add; and the glossary term
+  todoTitle: string;
+  todoSubtitle: string;
+  todoEmptyTitle: string;
+  todoEmptyBody: string;
+  todoDoneSection: string;
+  todoAddLabel: string;
+  todoRemoveLabel: string;
+  todoAddedToast: string;
+  todoRemovedToast: string;
+  todoMarkDone: string;
+  todoMarkOpen: string;
+  todoClearDone: string;
+  todoSuggestTitle: string;
+  todoSuggestHint: string;
+  todoSuggestEmpty: string;
   termTitle: string;
   termNext: string;
   showAnotherTerm: string;
@@ -152,8 +158,8 @@ export interface UIStrings {
   gamifyCurrentLabel: string;
   glossaryLabel: string;
   glossaryHint: string;
-  tryListLabel: string;
-  tryListHint: string;
+  todoLabel: string;
+  todoHint: string;
 
   // Notifications
   sectionNotifications: string;
@@ -168,6 +174,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tagline: 'Novinky ze světa AI, stručně a ověřeně.',
 
     tabToday: 'Brief',
+    tabTodo: 'To do',
     tabArchive: 'Archiv',
     tabSettings: 'Nastavení',
 
@@ -215,17 +222,22 @@ export const STRINGS: Record<Lang, UIStrings> = {
     sampleBadge: 'Ukázka',
     sampleNote: 'Toto je ukázkový obsah. Skutečný denní brief sestavuje AI každé ráno.',
 
-    tryTitle: 'Na vyzkoušení',
-    tryHint:
-      'Funkce a novinky z posledních 30 dnů, které stojí za vyzkoušení. Označ si, co už máš za sebou.',
-    tryAll: 'Všechny tipy',
-    tryDone: 'Vyzkoušeno',
-    tryAllDone: 'Všechno vyzkoušeno ☕️',
-    tryEmptyTitle: 'Zatím tu nic není',
-    tryEmptyBody: 'Nové tipy přidáme, jakmile budou stát za vyzkoušení.',
-    tryTriedSection: 'Vyzkoušeno',
-    markTried: 'Označit jako vyzkoušené',
-    markNotTried: 'Označit jako nevyzkoušené',
+    todoTitle: 'To do',
+    todoSubtitle: 'Novinky a tipy na později',
+    todoEmptyTitle: 'Zatím prázdné',
+    todoEmptyBody:
+      'U novinky klepni na ikonu seznamu a vrátíš se k ní tady. Dole jsou tipy, které stojí za vyzkoušení.',
+    todoDoneSection: 'Hotové',
+    todoAddLabel: 'Přidat do To do',
+    todoRemoveLabel: 'Odebrat z To do',
+    todoAddedToast: 'Přidáno do To do.',
+    todoRemovedToast: 'Odebráno z To do.',
+    todoMarkDone: 'Označit jako hotové',
+    todoMarkOpen: 'Vrátit mezi otevřené',
+    todoClearDone: 'Vymazat hotové',
+    todoSuggestTitle: 'Tipy k vyzkoušení',
+    todoSuggestHint: 'Funkce z posledních 30 dnů, které stojí za vyzkoušení. Plusem je přidáš do seznamu.',
+    todoSuggestEmpty: 'Všechny tipy máš v seznamu nebo za sebou ☕️',
     termTitle: 'Zrnko dne',
     termNext: 'Další pojem',
     showAnotherTerm: 'Zobrazit další pojem',
@@ -278,7 +290,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Proč zbystřit: u každé novinky věta dvě o tom, co z ní plyne pro tebe',
       'Top shots: přepínač na obrazovce Brief s hlavními zprávami posledních sedmi dnů',
       'Co se chystá: termíny, které se blíží, s datem a zdrojem',
-      'Na vyzkoušení: seznam funkcí z posledních týdnů s odškrtáváním, dá se vypnout v Nastavení',
+      'To do: volitelná záložka (zapíná se v Nastavení) s novinkami a tipy na později; na kartě přibude tlačítko Přidat do To do',
       'Zrnko dne ze slovníčku',
       'Hodnocení novinek i celého dne palcem nahoru nebo dolů, s počty hlasů od všech čtenářů',
       'Datum události u každé novinky a štítek Vyzkoušej u praktických tipů',
@@ -336,8 +348,9 @@ export const STRINGS: Record<Lang, UIStrings> = {
     gamifyCurrentLabel: 'Aktuální série',
     glossaryLabel: 'Vysvětlit pojmy',
     glossaryHint: 'Odborné pojmy v přehledu podtrhneme. Klepnutím zobrazíš jednoduché vysvětlení.',
-    tryListLabel: 'Na vyzkoušení',
-    tryListHint: 'Seznam funkcí k vyzkoušení pod Top shots.',
+    todoLabel: 'To do',
+    todoHint:
+      'Záložka se seznamem novinek a tipů, ke kterým se chceš vrátit. Na kartě přibude tlačítko Přidat do To do.',
 
     sectionNotifications: 'Upozornění',
     notifyLabel: 'Ranní upozornění',
@@ -349,6 +362,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tagline: 'The world of AI, brief and verified.',
 
     tabToday: 'Brief',
+    tabTodo: 'To do',
     tabArchive: 'Archive',
     tabSettings: 'Settings',
 
@@ -396,17 +410,22 @@ export const STRINGS: Record<Lang, UIStrings> = {
     sampleBadge: 'Sample',
     sampleNote: 'This is sample content. The real daily brief is assembled by AI every morning.',
 
-    tryTitle: 'Things to try',
-    tryHint:
-      'Features and updates from the past 30 days that are worth trying. Mark off what you’ve already tested.',
-    tryAll: 'All tips',
-    tryDone: 'Tried',
-    tryAllDone: 'You’ve tried them all ☕️',
-    tryEmptyTitle: 'Nothing here yet',
-    tryEmptyBody: 'New tips will appear as soon as they’re worth trying.',
-    tryTriedSection: 'Tried',
-    markTried: 'Mark as tried',
-    markNotTried: 'Mark as not tried',
+    todoTitle: 'To do',
+    todoSubtitle: 'Stories and tips for later',
+    todoEmptyTitle: 'Nothing here yet',
+    todoEmptyBody:
+      'Tap the list icon on a story and it waits for you here. Below are tips worth trying.',
+    todoDoneSection: 'Done',
+    todoAddLabel: 'Add to To do',
+    todoRemoveLabel: 'Remove from To do',
+    todoAddedToast: 'Added to To do.',
+    todoRemovedToast: 'Removed from To do.',
+    todoMarkDone: 'Mark as done',
+    todoMarkOpen: 'Mark as not done',
+    todoClearDone: 'Clear done',
+    todoSuggestTitle: 'Tips to try',
+    todoSuggestHint: 'Features from the past 30 days worth trying. The plus adds one to your list.',
+    todoSuggestEmpty: 'Every tip is on your list or behind you ☕️',
     termTitle: 'Bean of the day',
     termNext: 'Another term',
     showAnotherTerm: 'Show another term',
@@ -459,7 +478,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Why it matters: a sentence or two under every story on what it means for you',
       'This week’s top shots: a switch on the Brief screen with the top stories of the last seven days',
       'Coming up: the dates ahead, each with a date and a source',
-      'Things to try: a checklist of recent features, can be turned off in Settings',
+      'To do: an optional tab (turn it on in Settings) with stories and tips for later; every card gains an Add to To do button',
       'Bean of the day from the glossary',
       'Thumbs up or down on stories and on the whole day, with everyone’s vote counts',
       'The event date on every story and a Try it badge on practical tips',
@@ -517,8 +536,9 @@ export const STRINGS: Record<Lang, UIStrings> = {
     gamifyCurrentLabel: 'Current streak',
     glossaryLabel: 'Explain terms',
     glossaryHint: 'Technical terms in the brief will be underlined. Tap one for a plain-language explanation.',
-    tryListLabel: 'Things to try',
-    tryListHint: 'The checklist of features to try, under the top shots.',
+    todoLabel: 'To do',
+    todoHint:
+      'A tab with the stories and tips you want to come back to. Adds an Add to To do button to every card.',
 
     sectionNotifications: 'Notifications',
     notifyLabel: 'Morning notification',
