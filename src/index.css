@@ -1683,9 +1683,9 @@ button.thread:active .thread__title {
 
 /* Read control: a small check circle at the top right of the card, where the
    eye lands first. Tinted with a check while unread ("tap to check this
-   off"); filled once read, where it also doubles as the undo. Sized like the
-   original toggle: 22px, centred on the chip row while unread and on the
-   whole folded card once read. `padding: 0` matters: the UA button padding
+   off"); filled once read, where it also doubles as the undo. A shade larger
+   than the original 22px toggle (24px, 14px check on whole pixels), centred
+   on the chip row while unread and on the whole folded card once read. `padding: 0` matters: the UA button padding
    is asymmetric on WebKit (2px top, 3px bottom), which pushed the glyph half
    a pixel high. The ::before widens the touch target to 44px without growing
    the row. */
@@ -1696,8 +1696,8 @@ button.thread:active .thread__title {
   align-self: center;
   display: grid;
   place-items: center;
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   padding: 0;
   margin: 0 0 0 12px;
   border: 1px solid var(--accent);
@@ -1710,7 +1710,7 @@ button.thread:active .thread__title {
 .read-cta::before {
   content: '';
   position: absolute;
-  inset: -11px;
+  inset: -10px;
   border-radius: 999px;
 }
 

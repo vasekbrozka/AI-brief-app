@@ -178,7 +178,7 @@ export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?
             title={t.read}
             onClick={handleToggle}
           >
-            <Icon name="check" size={12} />
+            <Icon name="check" size={14} />
           </button>
         )}
         <h3 ref={titleRef} className={`item__title${clipped ? ' is-clipped' : ''}`}>
