@@ -7,6 +7,8 @@ interface ScreenScaffoldProps {
   barContent?: ReactNode;
   /** Reading progress 0–1, drawn as a thin line under the floating bar once scrolled. */
   progress?: number | null;
+  /** Reserve room for two subtitle lines, so controls below never move when the text changes. */
+  subtitleLines?: 1 | 2;
   left?: ReactNode;
   right?: ReactNode;
   children: ReactNode;
@@ -25,6 +27,7 @@ export function ScreenScaffold({
   subtitle,
   barContent,
   progress,
+  subtitleLines = 1,
   left,
   right,
   children,
@@ -77,7 +80,13 @@ export function ScreenScaffold({
       <div className={`screen__content${hasChrome ? ' screen__content--chrome' : ''}`}>
         <div className="large-title">
           <h1 className="large-title__heading">{title}</h1>
-          {subtitle != null && <div className="large-title__subtitle">{subtitle}</div>}
+          {subtitle != null && (
+            <div
+              className={`large-title__subtitle${subtitleLines === 2 ? ' large-title__subtitle--two' : ''}`}
+            >
+              {subtitle}
+            </div>
+          )}
         </div>
         <div ref={sentinelRef} className="scroll-sentinel" aria-hidden="true" />
         {children}

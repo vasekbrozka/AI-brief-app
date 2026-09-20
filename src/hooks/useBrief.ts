@@ -52,6 +52,8 @@ export function useBrief(date: string | null): AsyncResult<Brief> {
 interface LatestBriefResult extends AsyncResult<Brief> {
   /** ISO timestamp of the last successful brief generation (from index.json). */
   updated: string | null;
+  /** Dates of every brief in the index, newest first (the week view spans the first seven). */
+  dates: string[];
 }
 
 /** Loads the newest brief listed in the index. `ready` with `null` means the archive is empty. */
@@ -59,6 +61,7 @@ export function useLatestBrief(): LatestBriefResult {
   const [status, setStatus] = useState<AsyncStatus>('loading');
   const [data, setData] = useState<Brief | null>(null);
   const [updated, setUpdated] = useState<string | null>(null);
+  const [dates, setDates] = useState<string[]>([]);
 
   const reload = useCallback(() => {
     setStatus('loading');
@@ -67,6 +70,7 @@ export function useLatestBrief(): LatestBriefResult {
     loadBriefIndex()
       .then((idx) => {
         setUpdated(idx.updated ?? null);
+        setDates(idx.briefs.map((b) => b.date));
         const latest = idx.briefs[0];
         if (!latest) {
           setStatus('ready');
@@ -91,6 +95,7 @@ export function useLatestBrief(): LatestBriefResult {
       loadBriefIndex()
         .then((idx) => {
           setUpdated(idx.updated ?? null);
+          setDates(idx.briefs.map((b) => b.date));
           const latest = idx.briefs[0];
           if (!latest) return;
           return loadBrief(latest.date).then(setData);
@@ -101,5 +106,5 @@ export function useLatestBrief(): LatestBriefResult {
     return () => document.removeEventListener('visibilitychange', onVisible);
   }, []);
 
-  return { status, data, reload, updated };
+  return { status, data, reload, updated, dates };
 }

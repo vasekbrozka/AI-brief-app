@@ -54,6 +54,42 @@ export function formatWeekday(dateStr: string, lang: Lang): string {
   return new Intl.DateTimeFormat(LOCALE[lang], { weekday: 'long' }).format(parse(dateStr));
 }
 
+/** The ISO date `days` after (or, negative, before) an ISO date. */
+export function shiftDate(dateStr: string, days: number): string {
+  const d = parse(dateStr);
+  d.setDate(d.getDate() + days);
+  const mm = String(d.getMonth() + 1).padStart(2, '0');
+  const dd = String(d.getDate()).padStart(2, '0');
+  return `${d.getFullYear()}-${mm}-${dd}`;
+}
+
+/** A span of days, e.g. "14.–20. září 2026" / "September 14 – 20, 2026". */
+export function formatDateRange(fromStr: string, toStr: string, lang: Lang, withYear = true): string {
+  const from = parse(fromStr);
+  const to = parse(toStr);
+  if (lang === 'cs') {
+    // Intl gives Czech ranges with numeric months ("14.–20. 9."); spell the
+    // month out (in the genitive Intl uses after a day number) instead.
+    const monthOf = (d: Date) =>
+      new Intl.DateTimeFormat(LOCALE.cs, { day: 'numeric', month: 'long' })
+        .format(d)
+        .replace(/^\d+\.\s*/, '');
+    const year = withYear ? ` ${to.getFullYear()}` : '';
+    if (from.getMonth() === to.getMonth() && from.getFullYear() === to.getFullYear()) {
+      return `${from.getDate()}.–${to.getDate()}. ${monthOf(to)}${year}`;
+    }
+    return `${from.getDate()}. ${monthOf(from)} – ${to.getDate()}. ${monthOf(to)}${year}`;
+  }
+  // formatRange is ES2021 (Safari 14.1+); the project's TS lib is ES2020.
+  const fmt = new Intl.DateTimeFormat(
+    LOCALE.en,
+    withYear ? { day: 'numeric', month: 'long', year: 'numeric' } : { day: 'numeric', month: 'long' },
+  ) as Intl.DateTimeFormat & { formatRange?: (a: Date, b: Date) => string };
+  return typeof fmt.formatRange === 'function'
+    ? fmt.formatRange(from, to)
+    : `${fmt.format(from)} – ${fmt.format(to)}`;
+}
+
 /** Whole days between an ISO date and local today (0 = today, 1 = yesterday). */
 export function daysAgo(dateStr: string): number {
   const then = parse(dateStr);

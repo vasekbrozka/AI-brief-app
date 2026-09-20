@@ -344,6 +344,13 @@ svg {
   color: var(--text-secondary);
 }
 
+/* Two-line subtitle with its height reserved: the Brief screen swaps the text
+   between Today and Top shots (and shows a tagline while loading), and the
+   switch under it must not move. 15px + 13px lines at 1.4 plus the 3px gap. */
+.large-title__subtitle--two {
+  min-height: 43px;
+}
+
 /* Second, quieter line under the date: story count · reading time · updated. */
 .large-title__meta {
   display: block;

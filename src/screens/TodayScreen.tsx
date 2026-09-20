@@ -12,6 +12,7 @@ import { readingMinutes, visibleItems } from '../lib/briefStats';
 import {
   brewTitleKey,
   capitalizeFirst,
+  formatDateRange,
   formatFullDate,
   formatShortDate,
   formatTime,
@@ -26,7 +27,7 @@ type View = 'today' | 'week';
 export function TodayScreen() {
   const { t, lang, mutedCategories } = useSettings();
   const { isRead } = useRead();
-  const { status, data, reload, updated } = useLatestBrief();
+  const { status, data, reload, updated, dates } = useLatestBrief();
   const [view, setView] = useState<View>('today');
   useClockTick();
 
@@ -42,12 +43,26 @@ export function TodayScreen() {
   );
   const readCount = shown.filter((item) => isRead(item.id)).length;
 
+  // Both views keep the same two-line header (and the scaffold reserves the
+  // height), so the switch below never moves when the text changes.
   let subtitle: ReactNode = t.tagline;
   let bar: ReactNode = t.tagline;
   let progress: number | null = null;
   if (view === 'week') {
-    subtitle = t.weekSubtitle;
-    bar = t.weekSubtitle;
+    // The week view spans the newest seven briefs in the index.
+    const span = dates.slice(0, 7);
+    const range = span.length
+      ? formatDateRange(span[span.length - 1], span[0], lang)
+      : '';
+    subtitle = (
+      <>
+        {t.weekSubtitle}
+        {range && <span className="large-title__meta">{range}</span>}
+      </>
+    );
+    bar = span.length
+      ? `${t.viewWeek} · ${formatDateRange(span[span.length - 1], span[0], lang, false)}`
+      : t.weekSubtitle;
   } else if (status === 'ready' && data) {
     const date = capitalizeFirst(formatFullDate(data.date, lang));
     const time = updated ? formatTime(updated, lang) : '';
@@ -79,7 +94,13 @@ export function TodayScreen() {
   ];
 
   return (
-    <ScreenScaffold title={title} subtitle={subtitle} barContent={bar} progress={progress}>
+    <ScreenScaffold
+      title={title}
+      subtitle={subtitle}
+      barContent={bar}
+      progress={progress}
+      subtitleLines={2}
+    >
       <div className="view-switch">
         <Segmented value={view} onChange={setView} options={options} ariaLabel={t.tabToday} />
       </div>
