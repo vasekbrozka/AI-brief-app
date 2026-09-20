@@ -335,13 +335,6 @@ svg {
   padding: 8px 0 2px;
 }
 
-/* With a block in the corner (the Brief screen's date stamp) the row is
-   top-aligned, so the stamp reads as a masthead date rather than something
-   floating beside the title. */
-.large-title--aside {
-  align-items: flex-start;
-}
-
 .large-title__text {
   flex: 1;
   min-width: 0;
@@ -364,42 +357,6 @@ svg {
   line-height: 1.09;
   font-weight: 700;
   letter-spacing: -0.021em;
-}
-
-/* Beside a corner block the title gives up ~4px so the longest title and the
-   stamp (~62px set in caps) still share one line on a 375px screen. */
-.large-title--aside .large-title__heading {
-  font-size: clamp(24px, calc(var(--title-vw) * 1vw - 18px), 30px);
-}
-
-.large-title__accessory {
-  flex: 0 0 auto;
-}
-
-/* Date stamp in the title's corner: weekday over date, small caps, the way a
-   masthead dates a page. Two 11px lines come to the height of one title line,
-   so the row stays as tall as the title alone. */
-.stamp {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 2px;
-  margin-top: 4px;
-  font-size: 11px;
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  white-space: nowrap;
-  font-variant-numeric: tabular-nums;
-}
-
-.stamp__day {
-  color: var(--text-tertiary);
-}
-
-.stamp__date {
-  color: var(--text-secondary);
 }
 
 /* The header's one quiet line: the day's numbers on the left, the reading
@@ -1545,15 +1502,11 @@ button.thread:active .thread__title {
     max-width: var(--content-max);
   }
 
-  /* Header: the corner block sits right next to the title, not an arm's
-     length away across a 1520px row. */
+  /* Header: the title block takes its own width, but keeps room for the meta
+     line and the reading bars under it, which a short title like "Ranní
+     shot" would otherwise squeeze. */
   .large-title__text {
     flex: 0 1 auto;
-  }
-
-  /* ...but the row under it still needs room for the meta line and the bars,
-     which a short title like "Ranní shot" would otherwise squeeze. */
-  .large-title--aside .large-title__text {
     min-width: min(100%, 430px);
   }
 

@@ -50,25 +50,6 @@ export function formatWeekdayDate(dateStr: string, lang: Lang): string {
   );
 }
 
-/**
- * The two lines of the header's date stamp: weekday over date. Both lines are
- * kept narrow (~60px set in caps) so the stamp always fits beside the longest
- * title: the date is numeric in Czech ("20. 9.", since months like
- * "listopadu" run long) and the weekday is abbreviated in English (where
- * "Wednesday" would be half the title's width).
- */
-export function dateStampLines(dateStr: string, lang: Lang): [string, string] {
-  const weekday = new Intl.DateTimeFormat(LOCALE[lang], {
-    weekday: lang === 'cs' ? 'long' : 'short',
-  }).format(parse(dateStr));
-  return [weekday.replace(/,$/, ''), formatDayMonth(dateStr, lang)];
-}
-
-/** The same stamp for a span of days: "14. 9." over "– 20. 9.". */
-export function rangeStampLines(fromStr: string, toStr: string, lang: Lang): [string, string] {
-  return [formatDayMonth(fromStr, lang), `– ${formatDayMonth(toStr, lang)}`];
-}
-
 export function formatWeekday(dateStr: string, lang: Lang): string {
   return new Intl.DateTimeFormat(LOCALE[lang], { weekday: 'long' }).format(parse(dateStr));
 }

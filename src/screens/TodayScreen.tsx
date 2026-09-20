@@ -13,12 +13,10 @@ import { readingMinutes, visibleItems } from '../lib/briefStats';
 import {
   brewTitleKey,
   capitalizeFirst,
-  dateStampLines,
   formatDateRange,
   formatShortDate,
   formatTime,
   itemCountLabel,
-  rangeStampLines,
   readProgressLabel,
   readingTimeLabel,
 } from '../lib/format';
@@ -45,12 +43,12 @@ export function TodayScreen() {
   );
   const readCount = shown.filter((item) => isRead(item.id)).length;
 
-  // The header is two rows: the title with the date stamped top right, and
-  // one quiet line under it — the day's numbers on the left, the reading
-  // bars on the right. Both views fill the same two rows, so the switch
-  // below never moves.
+  // The header is two rows: the title, and one quiet line under it — the
+  // day's numbers on the left, the reading bars on the right. The date lives
+  // in the floating bar, where it is in view exactly while the large title
+  // is not. Both views fill the same two rows, so the switch below never
+  // moves.
   let metaText: string = t.tagline;
-  let stamp: [string, string] | null = null;
   let bars: ReactNode = null;
   let bar: ReactNode = t.tagline;
   let progress: number | null = null;
@@ -61,14 +59,12 @@ export function TodayScreen() {
     if (span.length) {
       const from = span[span.length - 1];
       const to = span[0];
-      stamp = rangeStampLines(from, to, lang);
       bar = `${t.viewWeek} · ${formatDateRange(from, to, lang, false)}`;
     } else {
       bar = t.weekSubtitle;
     }
   } else if (status === 'ready' && data) {
     const time = updated ? formatTime(updated, lang) : '';
-    stamp = dateStampLines(data.date, lang);
     // Before the first story: how much there is. After it: how far in.
     metaText = `${
       readCount > 0 ? readProgressLabel(readCount, shown.length, lang) : itemCountLabel(shown.length, lang)
@@ -92,20 +88,6 @@ export function TodayScreen() {
     </div>
   );
 
-  // Date stamped in the corner beside the title, newspaper style: it frees
-  // the two lines the date and the meta used to take under the title. The
-  // element stays in place while loading so the title never resizes.
-  const stampBlock = (
-    <div className="stamp">
-      {stamp && (
-        <>
-          <span className="stamp__day">{stamp[0]}</span>
-          <span className="stamp__date">{stamp[1]}</span>
-        </>
-      )}
-    </div>
-  );
-
   const options: { value: View; label: string }[] = [
     { value: 'today', label: t.viewToday },
     { value: 'week', label: t.viewWeek },
@@ -117,7 +99,6 @@ export function TodayScreen() {
       subtitle={subtitle}
       barContent={bar}
       progress={progress}
-      accessory={stampBlock}
       wide
     >
       <div className="view-switch">
