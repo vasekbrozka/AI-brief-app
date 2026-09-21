@@ -1,6 +1,26 @@
 {
   "published": [
     {
+      "slug": "2026-09-21-google-ai-chatbot-law-loopholes",
+      "date": "2026-09-21",
+      "topic": "NPR investigace (18.9.): Google pomáhá psát zákony o bezpečnosti AI chatbotů v 10+ státech USA s výjimkami pro nejrozšířenější chatboty; 75+ žalob proti tvůrcům chatbotů"
+    },
+    {
+      "slug": "2026-09-21-gemini-gmail-ai-overviews-global-rollout",
+      "date": "2026-09-21",
+      "topic": "Google 21.9. dokončil celosvětové nasazení AI přehledů ve vyhledávání Gmailu (funkce z dubna, teď plné nasazení)"
+    },
+    {
+      "slug": "2026-09-21-x-spacexai-drop-apple-antitrust-claims",
+      "date": "2026-09-21",
+      "topic": "X Corp a SpaceXAI 14.9. stáhly antimonopolní žalobu na Apple (spolčení s OpenAI na AI chatboty), žaloba na OpenAI pokračuje"
+    },
+    {
+      "slug": "2026-09-21-tip-claude-code-auto-mode-server-classifier",
+      "date": "2026-09-21",
+      "topic": "tip: Claude Code od 19.9. (v2.1.278) přesunul klasifikátor auto mode na server — bez poplatku za jeho režii (API/Enterprise/Bedrock/Vertex/Foundry)"
+    },
+    {
       "slug": "2026-09-20-claude-code-projects-redesigned",
       "date": "2026-09-20",
       "topic": "Anthropic 17.9. spustil v betě přepracované Projects pro Claude Code — koordinátor dělí práci mezi paralelní agentní vlákna se sdílenou pamětí"
@@ -716,5 +736,5 @@
       "topic": "tip: Copilot v Excelu funguje i s vypnutým automatickým ukládáním"
     }
   ],
-  "updated": "2026-09-20T03:10:00Z"
+  "updated": "2026-09-21T03:10:00Z"
 }
