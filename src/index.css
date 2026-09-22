@@ -1475,7 +1475,7 @@ button.thread:active .thread__title {
 @media (min-width: 900px) {
   :root {
     --content-max: 1520px;
-    --sidebar-w: 216px;
+    --sidebar-w: 234px;
     --side-w: 340px;
   }
 
@@ -1835,6 +1835,14 @@ button.thread:active .thread__title {
     overflow: hidden;
   }
 
+  /* The reader is exactly the window, so nothing on it may travel: without
+     this a gesture that finds nothing left to scroll bounces the document
+     itself, and every column that is not fixed rides along. */
+  html,
+  body {
+    overscroll-behavior: none;
+  }
+
   /* The screen itself is the grid: `display: contents` lifts the brief's three
      columns into it, so the side columns start at the very top, level with
      the date, while only the header sits above the stories. */
@@ -1926,6 +1934,7 @@ button.thread:active .thread__title {
     min-height: 0;
     overflow-y: auto;
     padding-right: 10px;
+    overscroll-behavior: contain;
   }
 
   /* With the section labels gone, the panels space themselves. */
