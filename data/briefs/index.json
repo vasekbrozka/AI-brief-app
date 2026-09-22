@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-21T03:10:00Z",
+  "updated": "2026-09-22T03:10:00Z",
   "briefs": [
+    {
+      "date": "2026-09-22",
+      "headline": {
+        "cs": "OpenAI navrhlo globální standardy pro bezpečnost AI a RSI",
+        "en": "OpenAI proposes global safety standards for AI and RSI"
+      },
+      "itemCount": 3
+    },
     {
       "date": "2026-09-21",
       "headline": {
