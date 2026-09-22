@@ -749,6 +749,41 @@
       "slug": "2026-08-20-tip-copilot-excel-autosave-off",
       "date": "2026-08-20",
       "topic": "tip: Copilot v Excelu funguje i s vypnutým automatickým ukládáním"
+    },
+    {
+      "slug": "2026-09-22-claude-for-financial-advisors",
+      "date": "2026-09-22",
+      "topic": "Anthropic spustilo Claude for Financial Advisors"
+    },
+    {
+      "slug": "2026-09-22-deepseek-v4-1-flash",
+      "date": "2026-09-22",
+      "topic": "DeepSeek spustil model V4.1 Flash"
+    },
+    {
+      "slug": "2026-09-22-tip-cursor-projects-coordinator",
+      "date": "2026-09-22",
+      "topic": "tip: Cursor Projects koordinuje víc agentů"
+    },
+    {
+      "slug": "2026-09-22-tip-copilot-code-review-experience",
+      "date": "2026-09-22",
+      "topic": "tip: vylepšené code review u GitHub Copilota"
+    },
+    {
+      "slug": "2026-09-22-tip-samsung-one-ui-9-rollout",
+      "date": "2026-09-22",
+      "topic": "tip: Samsung spouští One UI 9 pro víc telefonů"
+    },
+    {
+      "slug": "2026-09-22-tip-muse-glimmer-ollama-dflash",
+      "date": "2026-09-22",
+      "topic": "tip: Meta Muse Glimmer rychleji v Ollamě"
+    },
+    {
+      "slug": "2026-09-22-tip-copilot-excel-python-skill",
+      "date": "2026-09-22",
+      "topic": "tip: Copilot v Excelu analyzuje data v Pythonu"
     }
   ],
   "updated": "2026-09-22T03:10:00Z"

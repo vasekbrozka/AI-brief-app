@@ -1542,14 +1542,14 @@
       "slug": "tip-copilot-excel-python-skill",
       "category": "tools",
       "theme": "copilot",
-      "verified": false,
+      "verified": true,
       "title": {
         "cs": "Copilot v Excelu umí analyzovat data v Pythonu",
         "en": "Copilot in Excel can analyze data with Python"
       },
       "summary": {
-        "cs": "Copilot v Excelu nově umí na požádání analyzovat a vizualizovat data pomocí Pythonu přímo v sešitu — vznikne upravitelný, obnovitelný Python vzorec pro hlubší rozbor dat. Zatím jen v Insiders programu, ne pro všechny. Microsoft to přidal v srpnovém vydání novinek pro Excel.",
-        "en": "Copilot in Excel can now analyze and visualize data with Python directly in a workbook on request, producing an editable, refreshable Python formula for deeper analysis. Currently Insiders-only, not yet generally available. Microsoft added it in its August Excel update."
+        "cs": "Copilot v Excelu nově umí na požádání analyzovat a vizualizovat data pomocí Pythonu přímo v sešitu — vznikne upravitelný, obnovitelný Python vzorec pro hlubší rozbor dat. Zatím jen v Insiders programu, ne pro všechny. Microsoft to přidal ve svém přehledu novinek pro Excel z 25. srpna.",
+        "en": "Copilot in Excel can now analyze and visualize data with Python directly in a workbook on request, producing an editable, refreshable Python formula for deeper analysis. Currently Insiders-only, not yet generally available. Microsoft listed it in its Excel roundup for August 25."
       },
       "sources": [
         {
@@ -1558,7 +1558,12 @@
         }
       ],
       "added": "2026-08-27",
-      "used": null
+      "used": "2026-09-22",
+      "eventDate": "2026-08-25",
+      "why": {
+        "cs": "Zapni to v Excelu přes doplněk Copilot, pokud jsi v programu Microsoft 365 Insiders — napiš @python-in-excel a popiš, co chceš z dat zjistit.",
+        "en": "Turn it on in Excel through the Copilot pane if you are on the Microsoft 365 Insiders program — type @python-in-excel and describe what you want to learn from your data."
+      }
     },
     {
       "slug": "tip-gemini-student-hub",
@@ -2084,6 +2089,118 @@
       ],
       "added": "2026-09-21",
       "used": "2026-09-21"
+    },
+    {
+      "slug": "tip-cursor-projects-coordinator",
+      "category": "tools",
+      "theme": "cursor",
+      "verified": true,
+      "eventDate": "2026-09-10",
+      "title": {
+        "cs": "Cursor umí koordinovat víc agentů najednou přes Projects",
+        "en": "Cursor coordinates multiple agents at once with Projects"
+      },
+      "summary": {
+        "cs": "Cursor 10. září spustil Projects — koordinátora, kterému zadáš delší úkol (migraci, novou funkci) a on ho rozdělí mezi víc agentů. Agenti sdílí soubory s poznatky o kódu i tvých zvyklostech napříč cloudem i lokálním počítačem, takže se Projects postupně učí a funguje i bez dalšího promptování.",
+        "en": "Cursor launched Projects on September 10 — a coordinator agent you hand a larger task (a migration, a new feature), which then splits the work across multiple agents. The agents share files of what they learn about your code and preferences across cloud and local machines, so a Project gets smarter without extra prompting."
+      },
+      "why": {
+        "cs": "Vyzkoušej to v Cursoru u většího úkolu, co by jinak trval dny — v aplikaci založ nový Project, popiš zadání a nech koordinátora rozdělit práci mezi agenty, kteří pracují i souběžně na cloudu i lokálně.",
+        "en": "Try it in Cursor for a bigger task that would otherwise take days — open a Project, describe what you need, and let the coordinator split the work between agents in the cloud and locally."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/blog/projects"
+        }
+      ],
+      "added": "2026-09-22",
+      "used": "2026-09-22"
+    },
+    {
+      "slug": "tip-copilot-code-review-experience",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-09-18",
+      "title": {
+        "cs": "GitHub vylepšil code review u Copilota",
+        "en": "GitHub improves Copilot's code review experience"
+      },
+      "summary": {
+        "cs": "GitHub 18. září vylepšilo code review v Copilotovi — teď jasně ukazuje otevřené i už vyřešené připomínky, samo umí zavřít vlastní komentáře jako vyřešené nebo neplatné podle tvých dalších commitů a při přijetí dávky návrhů rovnou navrhne commit zprávu. Novinky jsou dostupné všem.",
+        "en": "GitHub improved Copilot code review on September 18 — it now clearly separates open and already-resolved comments, auto-resolves its own suggestions as fixed or incorrect based on your later commits, and drafts a commit message when you accept a batch of suggestions. The update is now generally available."
+      },
+      "why": {
+        "cs": "Funguje automaticky, jen si všímej dvou nových štítků u připomínek — nová od posledního commitu a vyřešeno od minulé revize; ušetří ti to čas při procházení delších pull requestů.",
+        "en": "It works automatically — just look for the two new labels on comments, new since the last commit and resolved since the last review; it saves time when working through longer pull requests."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience/"
+        }
+      ],
+      "added": "2026-09-22",
+      "used": "2026-09-22"
+    },
+    {
+      "slug": "tip-samsung-one-ui-9-rollout",
+      "category": "tools",
+      "theme": "other",
+      "verified": true,
+      "eventDate": "2026-09-16",
+      "title": {
+        "cs": "Samsung spustil One UI 9 pro víc Galaxy telefonů",
+        "en": "Samsung rolls out One UI 9 to more Galaxy phones"
+      },
+      "summary": {
+        "cs": "Samsung od 16. září šíří One UI 9 na Galaxy S26, S26+ a S26 Ultra, po dřívějším startu na skládačkách řady Fold8/Flip8. Přináší mimo jiné My FanCam, co automaticky sleduje vybranou osobu ve videu, chytřejší kontextové nabídky Now Nudge a bezpečnostní přehled Security Brief s upozorněním na malware a riziková oprávnění.",
+        "en": "Samsung began rolling out One UI 9 to the Galaxy S26, S26+ and S26 Ultra on September 16, after it first debuted on the Fold8 and Flip8 foldables. Highlights include My FanCam, which automatically tracks a person in video, smarter suggestions called Now Nudge, and a Security Brief flagging malware and risky app permissions."
+      },
+      "why": {
+        "cs": "Aktualizaci najdeš v Nastavení v sekci Aktualizace softwaru — nejdřív dorazila na S26 řadu, další modely řady S a Fold/Flip ji dostanou postupně v dalších týdnech.",
+        "en": "You will find the update under Settings, then Software update — it landed on the S26 series first, with other S-series and Fold/Flip models following gradually over the coming weeks."
+      },
+      "sources": [
+        {
+          "name": "Samsung",
+          "url": "https://news.samsung.com/global/samsung-begins-official-rollout-of-one-ui-9-bringing-the-latest-galaxy-experiences-to-more-devices"
+        }
+      ],
+      "added": "2026-09-22",
+      "used": "2026-09-22"
+    },
+    {
+      "slug": "tip-muse-glimmer-ollama-dflash",
+      "category": "tools",
+      "theme": "local",
+      "verified": true,
+      "eventDate": "2026-08-10",
+      "title": {
+        "cs": "Meta Muse Glimmer teď běží i v Ollamě",
+        "en": "Meta's Muse Glimmer now runs faster in Ollama"
+      },
+      "summary": {
+        "cs": "Muse Glimmer, otevřený 30miliardový model Meta Superintelligence Labs pod licencí Apache 2.0, běží v Ollamě rychleji díky podpoře DFlash a nově zvládá i obrázky na vstupu — Ollama to přidala 10. srpna. Na Apple Siliconu díky tomu model odpovídá až 1,5 až 1,8krát rychleji.",
+        "en": "Muse Glimmer, Meta Superintelligence Labs' open 30-billion-parameter model under an Apache 2.0 license, now runs faster in Ollama thanks to new DFlash support and can take image input too — Ollama added this on August 10. On Apple Silicon, that makes responses up to 1.5 to 1.8 times faster."
+      },
+      "why": {
+        "cs": "Vyzkoušej to na svém počítači přes Ollamu příkazem ollama run muse-glimmer — na Macu s Apple Silicon poběží nejrychleji díky DFlash, model navíc umí i obrázky, ne jen text.",
+        "en": "Try it on your own machine through Ollama with ollama run muse-glimmer — on a Mac with Apple Silicon it runs fastest thanks to DFlash, and the model now handles images too, not just text."
+      },
+      "sources": [
+        {
+          "name": "Meta",
+          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+        },
+        {
+          "name": "Ollama",
+          "url": "https://ollama.com/blog/muse-glimmer"
+        }
+      ],
+      "added": "2026-09-22",
+      "used": "2026-09-22"
     }
   ]
 }

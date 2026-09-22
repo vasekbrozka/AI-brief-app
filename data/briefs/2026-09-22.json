@@ -26,8 +26,14 @@
         "en": "It's a concrete rules proposal that regulators and rivals will point to — watch whether Anthropic and Google DeepMind sign on after weeks of joint talks on AI safety."
       },
       "sources": [
-        { "name": "OpenAI", "url": "https://openai.com/index/building-standards-next-phase-ai/" },
-        { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/21/open-ai-alignment-rsi.html" }
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/building-standards-next-phase-ai/"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/21/open-ai-alignment-rsi.html"
+        }
       ],
       "followsUp": {
         "date": "2026-09-15",
@@ -57,8 +63,14 @@
         "en": "If you bought one of the listed iPhones in the US during that window and expected the promised Siri features, file a claim by December 21 — payouts start only after the February 2027 hearing."
       },
       "sources": [
-        { "name": "Axios", "url": "https://www.axios.com/2026/09/21/apple-iphone-siri-ai-settlement-paid-eligibility" },
-        { "name": "9to5Mac", "url": "https://9to5mac.com/2026/09/21/you-can-now-claim-your-payout-from-apples-250-million-siri-settlement/" }
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/09/21/apple-iphone-siri-ai-settlement-paid-eligibility"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/09/21/you-can-now-claim-your-payout-from-apples-250-million-siri-settlement/"
+        }
       ]
     },
     {
@@ -80,11 +92,211 @@
         "en": "It's another Chinese model closing the price-performance gap with pricier Western rivals — open weights on October 15 will let anyone run it independently, outside StepFun's own API."
       },
       "sources": [
-        { "name": "StepFun", "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview" }
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-claude-for-financial-advisors",
+      "kind": "news",
+      "category": "tools",
+      "verified": false,
+      "eventDate": "2026-09-14",
+      "title": {
+        "cs": "Anthropic spustil Claude for Financial Advisors",
+        "en": "Anthropic launches Claude for Financial Advisors"
+      },
+      "summary": {
+        "cs": "Anthropic 14. září spustilo Claude for Financial Advisors, napojený na 11 platforem, které poradci už používají — mezi nimi Charles Schwab, BlackRock, Vanguard, Envestnet a Addepar. Claude pak pracuje s daty klientských účtů a portfolií a zvládne přípravu na schůzku, kontrolu rebalancování i daňové a compliance shrnutí.",
+        "en": "Anthropic launched Claude for Financial Advisors on September 14, connecting it to 11 platforms advisors already use — including Charles Schwab, BlackRock, Vanguard, Envestnet, and Addepar. Claude can then work with client account and portfolio data, handling meeting prep, portfolio-rebalancing reviews, and tax and compliance summaries."
+      },
+      "why": {
+        "cs": "Pokud jsi finanční poradce v USA a používáš některou z uvedených platforem, můžeš si Claude propojit rovnou s daty klientů — firmy s licencí do konce září navíc dostanou jednorázový kredit navíc.",
+        "en": "If you are a US financial advisor using one of these platforms, you can connect Claude to client data — firms that request a license before the end of September get a one-time usage credit."
+      },
+      "sources": [
+        {
+          "name": "Forbes",
+          "url": "https://www.forbes.com/sites/jonmarkman/2026/09/16/anthropic-launches-claude-for-advisors-with-schwab-and-blackrock/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-deepseek-v4-1-flash",
+      "kind": "news",
+      "category": "models",
+      "verified": true,
+      "eventDate": "2026-09-10",
+      "title": {
+        "cs": "DeepSeek spustil model V4.1 Flash s 552 miliardami parametrů",
+        "en": "DeepSeek launches V4.1 Flash with 552 billion parameters"
+      },
+      "summary": {
+        "cs": "DeepSeek 10. září spustil V4.1 Flash, nejmenší model nové architektury s 552 miliardami parametrů a novým enkodér-dekodér uspořádáním. Podle firmy i nezávislých testů předčí i vlastní vlajkový model V4-Pro v rychlosti i ceně, ke zrychlení pomáhá i menší paměťová cache. Ceny v API DeepSeek zároveň snížil.",
+        "en": "DeepSeek released V4.1 Flash on September 10, the smallest model in a new architecture family, with 552 billion parameters and a new encoder-decoder design. The company and independent tests say it beats DeepSeek's own flagship V4-Pro on speed and cost, helped by a smaller memory cache, while API prices dropped too."
+      },
+      "why": {
+        "cs": "Další důkaz, že se čínské modely cenou i výkonem přibližují dražším americkým — nižší cena a rychlost dělají V4.1 Flash zajímavou volbou pro agentní úlohy přes API, ne pro běžné chatování.",
+        "en": "Another sign Chinese models are closing the price-performance gap with pricier US rivals — the lower cost and speed make V4.1 Flash an appealing choice for agentic work through the API, not everyday chatting."
+      },
+      "sources": [
+        {
+          "name": "DeepSeek",
+          "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-tip-cursor-projects-coordinator",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-10",
+      "title": {
+        "cs": "Cursor umí koordinovat víc agentů najednou přes Projects",
+        "en": "Cursor coordinates multiple agents at once with Projects"
+      },
+      "summary": {
+        "cs": "Cursor 10. září spustil Projects — koordinátora, kterému zadáš delší úkol (migraci, novou funkci) a on ho rozdělí mezi víc agentů. Agenti sdílí soubory s poznatky o kódu i tvých zvyklostech napříč cloudem i lokálním počítačem, takže se Projects postupně učí a funguje i bez dalšího promptování.",
+        "en": "Cursor launched Projects on September 10 — a coordinator agent you hand a larger task (a migration, a new feature), which then splits the work across multiple agents. The agents share files of what they learn about your code and preferences across cloud and local machines, so a Project gets smarter without extra prompting."
+      },
+      "why": {
+        "cs": "Vyzkoušej to v Cursoru u většího úkolu, co by jinak trval dny — v aplikaci založ nový Project, popiš zadání a nech koordinátora rozdělit práci mezi agenty, kteří pracují i souběžně na cloudu i lokálně.",
+        "en": "Try it in Cursor for a bigger task that would otherwise take days — open a Project, describe what you need, and let the coordinator split the work between agents in the cloud and locally."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/blog/projects"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-tip-copilot-code-review-experience",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-18",
+      "title": {
+        "cs": "GitHub vylepšil code review u Copilota",
+        "en": "GitHub improves Copilot's code review experience"
+      },
+      "summary": {
+        "cs": "GitHub 18. září vylepšilo code review v Copilotovi — teď jasně ukazuje otevřené i už vyřešené připomínky, samo umí zavřít vlastní komentáře jako vyřešené nebo neplatné podle tvých dalších commitů a při přijetí dávky návrhů rovnou navrhne commit zprávu. Novinky jsou dostupné všem.",
+        "en": "GitHub improved Copilot code review on September 18 — it now clearly separates open and already-resolved comments, auto-resolves its own suggestions as fixed or incorrect based on your later commits, and drafts a commit message when you accept a batch of suggestions. The update is now generally available."
+      },
+      "why": {
+        "cs": "Funguje automaticky, jen si všímej dvou nových štítků u připomínek — nová od posledního commitu a vyřešeno od minulé revize; ušetří ti to čas při procházení delších pull requestů.",
+        "en": "It works automatically — just look for the two new labels on comments, new since the last commit and resolved since the last review; it saves time when working through longer pull requests."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-tip-samsung-one-ui-9-rollout",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-16",
+      "title": {
+        "cs": "Samsung spustil One UI 9 pro víc Galaxy telefonů",
+        "en": "Samsung rolls out One UI 9 to more Galaxy phones"
+      },
+      "summary": {
+        "cs": "Samsung od 16. září šíří One UI 9 na Galaxy S26, S26+ a S26 Ultra, po dřívějším startu na skládačkách řady Fold8/Flip8. Přináší mimo jiné My FanCam, co automaticky sleduje vybranou osobu ve videu, chytřejší kontextové nabídky Now Nudge a bezpečnostní přehled Security Brief s upozorněním na malware a riziková oprávnění.",
+        "en": "Samsung began rolling out One UI 9 to the Galaxy S26, S26+ and S26 Ultra on September 16, after it first debuted on the Fold8 and Flip8 foldables. Highlights include My FanCam, which automatically tracks a person in video, smarter suggestions called Now Nudge, and a Security Brief flagging malware and risky app permissions."
+      },
+      "why": {
+        "cs": "Aktualizaci najdeš v Nastavení v sekci Aktualizace softwaru — nejdřív dorazila na S26 řadu, další modely řady S a Fold/Flip ji dostanou postupně v dalších týdnech.",
+        "en": "You will find the update under Settings, then Software update — it landed on the S26 series first, with other S-series and Fold/Flip models following gradually over the coming weeks."
+      },
+      "sources": [
+        {
+          "name": "Samsung",
+          "url": "https://news.samsung.com/global/samsung-begins-official-rollout-of-one-ui-9-bringing-the-latest-galaxy-experiences-to-more-devices"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-tip-muse-glimmer-ollama-dflash",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-08-10",
+      "title": {
+        "cs": "Meta Muse Glimmer teď běží i v Ollamě",
+        "en": "Meta's Muse Glimmer now runs faster in Ollama"
+      },
+      "summary": {
+        "cs": "Muse Glimmer, otevřený 30miliardový model Meta Superintelligence Labs pod licencí Apache 2.0, běží v Ollamě rychleji díky podpoře DFlash a nově zvládá i obrázky na vstupu — Ollama to přidala 10. srpna. Na Apple Siliconu díky tomu model odpovídá až 1,5 až 1,8krát rychleji.",
+        "en": "Muse Glimmer, Meta Superintelligence Labs' open 30-billion-parameter model under an Apache 2.0 license, now runs faster in Ollama thanks to new DFlash support and can take image input too — Ollama added this on August 10. On Apple Silicon, that makes responses up to 1.5 to 1.8 times faster."
+      },
+      "why": {
+        "cs": "Vyzkoušej to na svém počítači přes Ollamu příkazem ollama run muse-glimmer — na Macu s Apple Silicon poběží nejrychleji díky DFlash, model navíc umí i obrázky, ne jen text.",
+        "en": "Try it on your own machine through Ollama with ollama run muse-glimmer — on a Mac with Apple Silicon it runs fastest thanks to DFlash, and the model now handles images too, not just text."
+      },
+      "sources": [
+        {
+          "name": "Meta",
+          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+        },
+        {
+          "name": "Ollama",
+          "url": "https://ollama.com/blog/muse-glimmer"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-tip-copilot-excel-python-skill",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-08-25",
+      "title": {
+        "cs": "Copilot v Excelu umí analyzovat data v Pythonu",
+        "en": "Copilot in Excel can analyze data with Python"
+      },
+      "summary": {
+        "cs": "Copilot v Excelu nově umí na požádání analyzovat a vizualizovat data pomocí Pythonu přímo v sešitu — vznikne upravitelný, obnovitelný Python vzorec pro hlubší rozbor dat. Zatím jen v Insiders programu, ne pro všechny. Microsoft to přidal ve svém přehledu novinek pro Excel z 25. srpna.",
+        "en": "Copilot in Excel can now analyze and visualize data with Python directly in a workbook on request, producing an editable, refreshable Python formula for deeper analysis. Currently Insiders-only, not yet generally available. Microsoft listed it in its Excel roundup for August 25."
+      },
+      "why": {
+        "cs": "Zapni to v Excelu přes doplněk Copilot, pokud jsi v programu Microsoft 365 Insiders — napiš @python-in-excel a popiš, co chceš z dat zjistit.",
+        "en": "Turn it on in Excel through the Copilot pane if you are on the Microsoft 365 Insiders program — type @python-in-excel and describe what you want to learn from your data."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://techcommunity.microsoft.com/blog/excelblog/whats-new-in-excel-august-2026/4527283"
+        }
       ]
     }
   ],
   "radar": [
+    {
+      "date": "2026-09-23",
+      "title": {
+        "cs": "Meta pořádá výroční konferenci Connect 2026",
+        "en": "Meta holds its annual Connect 2026 conference"
+      },
+      "note": {
+        "cs": "Meta 23. a 24. září pořádá výroční konferenci Connect, tradičně věnovanou novinkám kolem AI, brýlí s AI a virtuální a rozšířené reality.",
+        "en": "Meta holds its annual Connect conference on September 23 and 24, traditionally focused on AI news along with AI glasses and virtual and augmented reality."
+      },
+      "sources": [
+        {
+          "name": "Meta",
+          "url": "https://www.meta.com/connect/"
+        }
+      ],
+      "tentative": false
+    },
     {
       "date": "2026-09-25",
       "title": {
@@ -96,7 +308,28 @@
         "en": "Starting September 25, creating new custom GPTs stops — OpenAI is replacing them with plugins; full retirement of existing ones is planned for December 11."
       },
       "sources": [
-        { "name": "OpenAI", "url": "https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq" }
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-09-27",
+      "title": {
+        "cs": "Perplexity vyřazuje Sonar chat completions",
+        "en": "Perplexity retires Sonar chat completions"
+      },
+      "note": {
+        "cs": "Vývojáři musí do 27. září přejít ze staršího Sonar rozhraní na nové Agent API, jinak jim přestane fungovat integrace.",
+        "en": "Developers must migrate from the older Sonar interface to the new Agent API by September 27, or their integration stops working."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
       ],
       "tentative": false
     },
@@ -111,7 +344,10 @@
         "en": "OpenAI's annual developer conference — expect model and API news. For the first time, regional DevDay Exchange events follow in eight cities, including Berlin (October 26) and Paris (October 28)."
       },
       "sources": [
-        { "name": "OpenAI", "url": "https://openai.com/index/devday-2026/" }
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/devday-2026/"
+        }
       ],
       "tentative": false
     },
@@ -126,7 +362,10 @@
         "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
       },
       "sources": [
-        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/" }
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
       ],
       "tentative": false
     },
@@ -141,7 +380,10 @@
         "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
       },
       "sources": [
-        { "name": "StepFun", "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview" }
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
       ],
       "tentative": false
     }
