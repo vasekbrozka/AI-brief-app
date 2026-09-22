@@ -1950,9 +1950,12 @@ button.thread:active .thread__title {
     margin-top: 0;
   }
 
-  /* Pinned at the head of the column, with the week scrolling under it. */
+  /* Pinned at the head of the column, with the week scrolling under it. The
+     right inset matches the scroll area's scrollbar gutter, or what is pinned
+     would sit that much wider than what scrolls under it. */
   .brief--focus .side__head {
     flex: 0 0 auto;
+    padding-right: 10px;
     padding-bottom: 14px;
   }
 
@@ -1962,6 +1965,7 @@ button.thread:active .thread__title {
 
   .brief--focus .side__foot {
     flex: 0 0 auto;
+    padding-right: 10px;
     padding-top: 14px;
   }
 
