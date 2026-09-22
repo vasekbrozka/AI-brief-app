@@ -1,12 +1,13 @@
 import { useMemo, type ReactNode } from 'react';
 import type { RadarItem } from '../lib/types';
 import { useSettings } from '../providers/SettingsProvider';
-import { shiftDate, capitalizeFirst, formatDayMonth } from '../lib/format';
+import { useNav } from '../providers/NavProvider';
+import { useBriefIndex } from '../hooks/useBrief';
+import { shiftDate, capitalizeFirst, formatWeekdayDate } from '../lib/format';
+import { ARCHIVE_DAYS } from '../lib/archive';
 import { CATEGORIES, CATEGORY_ORDER } from '../lib/categories';
 import { useScrollFade } from '../hooks/useScrollFade';
 
-/** How far ahead the calendar looks. */
-const WINDOW_DAYS = 30;
 const LOCALE = { cs: 'cs-CZ', en: 'en-US' } as const;
 
 function parse(iso: string): Date {
@@ -31,21 +32,34 @@ function weekStart(iso: string): string {
 interface Cell {
   iso: string;
   day: number;
-  /** Inside the 30-day window — days before today and past it are dimmed. */
-  inWindow: boolean;
   isToday: boolean;
   /** First of a month, so the grid can label where the month turns over. */
   startsMonth: boolean;
+  /** The headline of the brief published that day — the cell opens it. */
+  headline?: string;
+  /** A dated entry still ahead of us, from the newest brief's "coming up". */
   events: RadarItem[];
 }
 
 /**
- * The month ahead as a grid. Whole weeks, Monday first, running from the week
- * today sits in until the 30-day window is covered; days carrying a "coming
- * up" entry are marked and name it on hover. The grid is decoration — the
- * list beside it is what a screen reader reads.
+ * The archive as a month. Whole weeks, Monday first, running from the oldest
+ * day the archive still keeps to the end of the week today sits in — so today
+ * is the newest day that opens anything, and the days after it are there only
+ * to carry what is already known to be coming.
+ *
+ * A day with a brief is a button that opens it; every other day is a mark.
  */
-function CalendarGrid({ today, radar }: { today: string; radar: RadarItem[] }) {
+function CalendarGrid({
+  today,
+  radar,
+  briefs,
+  onPick,
+}: {
+  today: string;
+  radar: RadarItem[];
+  briefs: Map<string, string>;
+  onPick: (date: string) => void;
+}) {
   const { lang } = useSettings();
 
   const { weeks, dayNames } = useMemo(() => {
@@ -56,9 +70,10 @@ function CalendarGrid({ today, radar }: { today: string; radar: RadarItem[] }) {
       else byDate.set(entry.date, [entry]);
     }
 
-    const first = weekStart(today);
-    const last = shiftDate(today, WINDOW_DAYS - 1);
-    // Whole weeks from the first Monday until the window's final day is in.
+    // From the week holding the oldest day the archive keeps to the end of this
+    // week. Whole weeks either end, so every column stays one weekday.
+    const first = weekStart(shiftDate(today, -(ARCHIVE_DAYS - 1)));
+    const last = shiftDate(weekStart(today), 6);
     const span = Math.round((parse(last).getTime() - parse(first).getTime()) / 86400000);
     const count = Math.ceil((span + 1) / 7);
 
@@ -71,9 +86,9 @@ function CalendarGrid({ today, radar }: { today: string; radar: RadarItem[] }) {
         row.push({
           iso,
           day: date.getDate(),
-          inWindow: iso >= today && iso <= last,
           isToday: iso === today,
           startsMonth: date.getDate() === 1,
+          headline: briefs.get(iso),
           events: byDate.get(iso) ?? [],
         });
       }
@@ -88,13 +103,13 @@ function CalendarGrid({ today, radar }: { today: string; radar: RadarItem[] }) {
     );
 
     return { weeks: rows, dayNames: names };
-  }, [today, radar, lang]);
+  }, [today, radar, briefs, lang]);
 
   const monthFmt = new Intl.DateTimeFormat(LOCALE[lang], { month: 'long' });
 
   return (
-    <div className="cal" aria-hidden="true">
-      <div className="cal__head">
+    <div className="cal">
+      <div className="cal__head" aria-hidden="true">
         {dayNames.map((name, i) => (
           <span key={i} className="cal__dayname">
             {name}
@@ -103,26 +118,51 @@ function CalendarGrid({ today, radar }: { today: string; radar: RadarItem[] }) {
       </div>
       {weeks.map((week, w) => (
         <div key={w} className="cal__week">
-          {week.map((cell) => (
-            <span
-              key={cell.iso}
-              className={`cal__cell${cell.inWindow ? '' : ' is-out'}${
-                cell.isToday ? ' is-today' : ''
-              }${cell.events.length > 0 ? ' has-event' : ''}`}
-              // The list is gone from the column, so the day itself has to say
-              // what is happening on it.
-              title={
-                cell.events.length > 0
-                  ? cell.events.map((e) => e.title[lang]).join(' · ')
-                  : undefined
-              }
-            >
-              <span className="cal__num">{cell.day}</span>
-              {cell.startsMonth && (
-                <span className="cal__month">{monthFmt.format(parse(cell.iso))}</span>
-              )}
-            </span>
-          ))}
+          {week.map((cell) => {
+            const className = `cal__cell${cell.headline ? ' has-brief' : ' is-out'}${
+              cell.isToday ? ' is-today' : ''
+            }${cell.events.length > 0 ? ' has-event' : ''}`;
+            const inside = (
+              <>
+                <span className="cal__num">{cell.day}</span>
+                {cell.startsMonth && (
+                  <span className="cal__month">{monthFmt.format(parse(cell.iso))}</span>
+                )}
+              </>
+            );
+
+            // Only a day the archive still keeps opens anything.
+            if (cell.headline) {
+              return (
+                <button
+                  key={cell.iso}
+                  type="button"
+                  className={className}
+                  title={cell.headline}
+                  aria-label={`${formatWeekdayDate(cell.iso, lang)} — ${cell.headline}`}
+                  aria-current={cell.isToday ? 'date' : undefined}
+                  onClick={() => onPick(cell.iso)}
+                >
+                  {inside}
+                </button>
+              );
+            }
+
+            // Nothing to open, so a day still ahead has to name itself.
+            const ahead = cell.events.map((e) => e.title[lang]).join(' · ');
+            return (
+              <span
+                key={cell.iso}
+                className={className}
+                title={ahead || undefined}
+                aria-label={ahead ? `${formatWeekdayDate(cell.iso, lang)} — ${ahead}` : undefined}
+                aria-hidden={ahead ? undefined : true}
+                role={ahead ? 'note' : undefined}
+              >
+                {inside}
+              </span>
+            );
+          })}
         </div>
       ))}
     </div>
@@ -130,10 +170,9 @@ function CalendarGrid({ today, radar }: { today: string; radar: RadarItem[] }) {
 }
 
 /**
- * The widest desktop's right-hand column: what is coming in the next month,
- * the category filters from the settings within reach of the stories they
- * hide, and — below them — the streak and the sharing this column carries
- * whenever it is the one at the right edge.
+ * The desktop's right-hand column: the archive as a calendar, the category
+ * filters from the settings within reach of the stories they hide, and — below
+ * them — the streak and the sharing.
  */
 export function PlanColumn({
   today,
@@ -146,32 +185,29 @@ export function PlanColumn({
   foot?: ReactNode;
 }) {
   const { lang, t, mutedCategories, toggleCategory } = useSettings();
+  const { openBriefDate } = useNav();
+  const { data: index } = useBriefIndex();
   // This column ends in pinned content too, so it fades the same way.
   const scroll = useScrollFade<HTMLDivElement>();
 
-  // Everything still ahead, nearest first — the grid marks only what falls
-  // inside the window, the hidden list names them all for a screen reader.
-  const upcoming = useMemo(
-    () => radar.filter((entry) => entry.date >= today).sort((a, b) => a.date.localeCompare(b.date)),
-    [radar, today],
-  );
+  // Which days the archive can still open, and what ran on them.
+  const briefs = useMemo(() => {
+    const map = new Map<string, string>();
+    for (const entry of index?.briefs.slice(0, ARCHIVE_DAYS) ?? []) {
+      map.set(entry.date, entry.headline[lang]);
+    }
+    return map;
+  }, [index, lang]);
+
+  // Only what is still ahead: the days behind us are the archive's now.
+  const upcoming = useMemo(() => radar.filter((entry) => entry.date > today), [radar, today]);
 
   return (
     <aside className="brief__plan" aria-label={t.planColumnLabel}>
       <div className={`side__scroll${scroll.more ? ' has-more' : ''}`} ref={scroll.ref}>
-        <div className="panel plan__cal" aria-label={t.radarTitle}>
-          <p className="plan__range">{t.planRangeLabel}</p>
-          <CalendarGrid today={today} radar={upcoming} />
-          {upcoming.length > 0 && (
-            <ul className="sr-only">
-              {upcoming.map((entry) => (
-                <li key={`${entry.date}-${entry.title.en}`}>
-                  {formatDayMonth(entry.date, lang)} — {entry.title[lang]}
-                  {entry.tentative ? ` (${t.radarTentative})` : ''}
-                </li>
-              ))}
-            </ul>
-          )}
+        <div className="panel plan__cal">
+          <p className="plan__range">{t.planArchiveLabel}</p>
+          <CalendarGrid today={today} radar={upcoming} briefs={briefs} onPick={openBriefDate} />
         </div>
 
         <div className="panel plan__filters">

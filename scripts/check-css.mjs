@@ -9,15 +9,15 @@ const REQUIRED = [
   '.navbar', '.large-title__heading', '.tabbar__item', '.segmented__option',
   '.swipe', '.item__meta', '.item__title', '.item__summary', '.item__why',
   '.item__bar', '.iconbtn', '.read-cta', '.item--folded .item__title',
-  '.vote-btn', '.rate', '.rateprompt', '.readbars__seg', '.headmeta',
+  '.vote-btn', '.rate', '.readbars__seg', '.headmeta',
   '.streakcard', '.sc__num', '.sc__dot', '.streak-divider',
   '.section-divider', '.radar__row', '.share-brief', '.panel', '.termday__term',
   '.todo__row', '.todo__check', '.list__row', '.archive-row__headline',
   '.settings-group__body', '.setting-switch', '.switch__thumb',
   '.toaster', '.toast', '.gpop', '.state__title', '.skeleton-line',
   '.brief__side', '.tabbar__brand', '.railrow', '.side__scroll', '.side__foot', '.footbar', '.headmeta',
-  '.brief__plan', '.cal__cell', '.cal__dayname', '.plan__range', '.plan__filters', '.cat-toggle',
-  '.shots', '.shotcard', '.shotcard__title',
+  '.brief__plan', '.cal__cell', '.cal__dayname', '.plan__range', '.plan__filters', '.cat-toggle', '.cal__cell.has-brief',
+  '.shots', '.shotcard', '.shotcard__title', '.morelink',
 ];
 
 const dir = join(process.cwd(), 'dist', 'assets');

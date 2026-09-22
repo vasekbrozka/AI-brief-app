@@ -14,7 +14,6 @@ import { BriefItemCard } from './BriefItemCard';
 import { CategoryChip } from './CategoryChip';
 import { WeekRail } from './WeekRail';
 import { TermOfDay } from './TermOfDay';
-import { RatePrompt } from './RatePrompt';
 import { RadarSection } from './RadarSection';
 import { PlanColumn } from './PlanColumn';
 import { WeekStreak } from './WeekStreak';
@@ -227,9 +226,6 @@ export function BriefView({
         {!focus && <div className="side__foot">{shareBlock}</div>}
       </aside>
       )}
-
-      {/* The moment the last story is read, one gentle ask for the day's rating. */}
-      {isToday && <RatePrompt dayId={dayId} date={brief.date} allRead={allRead} />}
 
       {hiddenCount > 0 && <p className="filtered-note">{hiddenCountLabel(hiddenCount, lang)}</p>}
 

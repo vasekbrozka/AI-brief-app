@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Icon } from './Icon';
 import { useSettings } from '../providers/SettingsProvider';
 import { useGlossary } from '../providers/GlossaryProvider';
 import { hashString } from '../lib/seed';
@@ -26,11 +27,12 @@ export function TermOfDay({ date }: { date: string }) {
         <p className="termday__body">{entry.short[lang]}</p>
         <button
           type="button"
-          className="link-btn"
+          className="morelink"
           aria-label={t.showAnotherTerm}
           onClick={() => setOffset((o) => o + 1)}
         >
           {t.termNext}
+          <Icon name="chevronRight" size={14} />
         </button>
       </div>
     </section>

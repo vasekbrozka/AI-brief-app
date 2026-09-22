@@ -42,7 +42,7 @@ export function WeekRail() {
               <span className="shotcard__title">{item.title[lang]}</span>
               {/* The whole card is the button — this is the affordance, not a
                   control of its own, so it must not be one. */}
-              <span className="shotcard__more">
+              <span className="shotcard__more morelink">
                 {t.readMoreLabel}
                 <Icon name="chevronRight" size={14} />
               </span>

@@ -54,8 +54,7 @@ export interface UIStrings {
   radarTentative: string;
   /** Desktop: the column holding the month ahead and the category filters. */
   planColumnLabel: string;
-  planRangeLabel: string;
-  planEmpty: string;
+  planArchiveLabel: string;
   planFiltersLabel: string;
   shareBriefLabel: string;
   shareBriefArchiveLabel: string;
@@ -66,9 +65,6 @@ export interface UIStrings {
   rateTodayLabel: string;
   rateBriefLabel: string;
   /** The one-time rating sheet after the last story is read. */
-  ratePromptBody: string;
-  ratePromptLater: string;
-  closeLabel: string;
   sampleBadge: string;
   sampleNote: string;
 
@@ -217,9 +213,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tipsRailLabel: 'Na vyzkoušení',
     radarTitle: 'Co se chystá',
     radarTentative: 'podle zpráv',
-    planColumnLabel: 'Co se chystá a filtry',
-    planRangeLabel: 'Příštích 30 dní',
-    planEmpty: 'Zatím nic v kalendáři.',
+    planColumnLabel: 'Archiv a filtry',
+    planArchiveLabel: 'Archiv',
     planFiltersLabel: 'Filtry',
     shareBriefLabel: 'Poslat dnešní shot',
     shareBriefArchiveLabel: 'Poslat dál',
@@ -229,9 +224,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     voteDown: 'Označit jako neužitečné',
     rateTodayLabel: 'Jak ti chutnal dnešní shot?',
     rateBriefLabel: 'Jak ti chutnal tenhle shot?',
-    ratePromptBody: 'Pomůže vybrat, co číst zítra.',
-    ratePromptLater: 'Teď ne',
-    closeLabel: 'Zavřít',
     sampleBadge: 'Ukázka',
     sampleNote: 'Toto je ukázkový obsah. Skutečný denní brief sestavuje AI každé ráno.',
 
@@ -313,7 +305,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'Na počítači se brief vejde na jednu obrazovku: vlevo novinky jako na telefonu (roluje jen tenhle sloupec), vpravo Top shots, tipy, série čtení a dole sdílení s palci; telefon beze změny',
       'Přečtené novinky hned mizí z přehledu (dá se vypnout v Nastavení) a vedle nadpisu je kruh s procenty přečteného',
       'Zrnko dne je v briefu pořád, ne až po dočtení všech novinek',
-      'Po dočtení se jednou nabídne hodnocení dne; zavřít jde jedním klepnutím',
       'Vypito je modrá fajfka vpravo nahoře na kartě, vidět hned; dole je řádek s palci, To do, Uložit a Sdílet. Nic není schované za gestem',
       'Při rolování vidíš v horní liště, kolik novinek máš vypito; pod datem je počet novinek a odhad času čtení',
       'Archiv je jeden seskupený seznam s Dnes a Včera místo karty pro každý den',
@@ -410,9 +401,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tipsRailLabel: 'Worth trying',
     radarTitle: 'Coming up',
     radarTentative: 'reported',
-    planColumnLabel: 'Coming up and filters',
-    planRangeLabel: 'Next 30 days',
-    planEmpty: 'Nothing on the calendar yet.',
+    planColumnLabel: 'Archive and filters',
+    planArchiveLabel: 'Archive',
     planFiltersLabel: 'Filters',
     shareBriefLabel: 'Share today’s shot',
     shareBriefArchiveLabel: 'Share',
@@ -422,9 +412,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
     voteDown: 'Mark as not useful',
     rateTodayLabel: 'How was today’s shot?',
     rateBriefLabel: 'How was this shot?',
-    ratePromptBody: 'It helps pick what to read tomorrow.',
-    ratePromptLater: 'Not now',
-    closeLabel: 'Close',
     sampleBadge: 'Sample',
     sampleNote: 'This is sample content. The real daily brief is assembled by AI every morning.',
 
@@ -506,7 +493,6 @@ export const STRINGS: Record<Lang, UIStrings> = {
       'On a computer the brief fits one screen: the stories on the left as on the phone (only that column scrolls), top shots, tips, the streak and sharing with the thumbs on the right; the phone is unchanged',
       'Read stories leave the list right away (can be turned off in Settings) and a ring beside the title shows how much is read',
       'Bean of the day is there from the start, not only once every story is read',
-      'After the last story, one gentle ask for the day’s rating; one tap closes it',
       'Read is the blue check at the top right of the card, in view right away; the row at the bottom has thumbs, To do, save and share. Nothing hides behind a gesture',
       'While scrolling, the floating bar shows how many stories you have read; under the date, the story count and a reading-time estimate',
       'The archive is one grouped list with Today and Yesterday instead of a card per day',
