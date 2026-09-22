@@ -1878,8 +1878,7 @@ button.thread:active .thread__title {
 
   .brief--focus .side__foot {
     flex: 0 0 auto;
-    padding-top: 12px;
-    border-top: 1px solid var(--hairline);
+    padding-top: 10px;
   }
 
   /* The streak sits at the foot with the sharing, not adrift in the scroll. */
@@ -1895,24 +1894,45 @@ button.thread:active .thread__title {
     margin-top: 0;
   }
 
-  /* Sharing and the day's thumbs on one line. */
-  .footbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-  }
-
-  .footbar__votes {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-
   /* One column of stories, however wide the window gets. */
   .screen--wide .brief--focus .items {
     display: flex;
     column-count: initial;
+  }
+}
+
+/* Wide enough for a fourth column: the month ahead and the category filters
+   move into the gap between the stories and the week. The threshold is set by
+   the stories, not by the new column — below it they would end up narrower
+   than they already are on a smaller screen, which is the wrong trade. */
+@media (min-width: 1720px) {
+  .screen--reader .screen__content {
+    --plan-w: 280px;
+    grid-template-columns: minmax(0, 980px) var(--plan-w) minmax(0, 1fr) var(--side-w);
+  }
+
+  /* The week keeps the right edge; the new column takes the slot next to the
+     stories, both running the full height beside the header. */
+  .screen--reader .brief--focus .brief__side {
+    grid-column: 4;
+  }
+
+  .screen--reader .brief--focus .brief__plan {
+    grid-column: 2;
+    grid-row: 1 / 4;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 0;
+    overflow-y: auto;
+    padding-right: 4px;
+    scrollbar-width: thin;
+    overscroll-behavior: contain;
+  }
+
+  /* The column opens with its own label, level with the week's. */
+  .screen--reader .brief--focus .brief__plan > .section-divider:first-child {
+    margin-top: 0;
   }
 }
 
@@ -2649,6 +2669,176 @@ button.thread:active .thread__title {
 
 .radar__body .sources {
   margin-top: 8px;
+}
+
+/* ---- The month ahead + filters (desktop's third column) ----------------- */
+
+/* Only ever a column beside the stories: there is no room for it until the
+   window is wide enough, and none at all on a phone. */
+.brief__plan {
+  display: none;
+}
+
+.plan__range {
+  margin: 0 0 10px;
+  color: var(--text-tertiary);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* The next 30 days as whole Monday-first weeks. Decoration beside the list —
+   the dot says "something happens", the list says what. */
+.cal {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cal__head,
+.cal__week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.cal__dayname {
+  padding-bottom: 4px;
+  color: var(--text-tertiary);
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.cal__cell {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Outside the 30-day window — kept in place so the weeks stay whole. */
+.cal__cell.is-out {
+  color: var(--text-tertiary);
+  opacity: 0.35;
+}
+
+.cal__cell.has-event {
+  background: var(--accent-soft-bg);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.cal__cell.is-today {
+  background: var(--accent);
+  color: var(--on-accent);
+  font-weight: 700;
+}
+
+/* The first of a month, so a grid spanning two months says where it turns. */
+.cal__month {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  color: var(--text-tertiary);
+  font-size: 8px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+}
+
+.cal__cell.is-today .cal__month,
+.cal__cell.has-event .cal__month {
+  color: inherit;
+  opacity: 0.8;
+}
+
+/* What the marked days actually are. */
+.plan__list {
+  margin: 14px 0 0;
+  padding: 12px 0 0;
+  border-top: 1px solid var(--hairline);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.plan__row {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 10px;
+  align-items: baseline;
+}
+
+.plan__when {
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.plan__title {
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.plan__tentative {
+  margin-left: 6px;
+  color: var(--text-tertiary);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.plan__empty {
+  margin: 14px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--hairline);
+  color: var(--text-tertiary);
+  font-size: 13px;
+}
+
+/* The settings' category filters, within reach of the stories they hide. */
+.plan__filters .cat-toggles {
+  margin-top: 0;
+}
+
+.plan__hint {
+  margin: 12px 0 0;
+  color: var(--text-tertiary);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+/* Sharing and the day's thumbs on one line at the foot of the desktop
+   column, cut off from the streak above by a rule so the two read as
+   separate things. Only ever rendered beside the stories. */
+.footbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 12px;
+  border-top: 1px solid var(--hairline);
+}
+
+.footbar__votes {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 /* Share the whole day — a quiet pill at the end of the brief. */

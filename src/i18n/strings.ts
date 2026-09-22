@@ -50,6 +50,12 @@ export interface UIStrings {
   tipsRailLabel: string;
   radarTitle: string;
   radarTentative: string;
+  /** Desktop: the column holding the month ahead and the category filters. */
+  planColumnLabel: string;
+  planRangeLabel: string;
+  planEmpty: string;
+  planFiltersLabel: string;
+  planFiltersHint: string;
   shareBriefLabel: string;
   shareBriefArchiveLabel: string;
   voteLabel: string;
@@ -209,6 +215,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tipsRailLabel: 'Na vyzkoušení',
     radarTitle: 'Co se chystá',
     radarTentative: 'podle zpráv',
+    planColumnLabel: 'Co se chystá a filtry',
+    planRangeLabel: 'Příštích 30 dní',
+    planEmpty: 'Zatím nic v kalendáři.',
+    planFiltersLabel: 'Filtr kategorií',
+    planFiltersHint: 'Vypnuté kategorie se v briefu nezobrazí. Platí i v Nastavení.',
     shareBriefLabel: 'Poslat dnešní shot',
     shareBriefArchiveLabel: 'Poslat dál',
     voteLabel: 'Pomohlo ti to?',
@@ -397,6 +408,11 @@ export const STRINGS: Record<Lang, UIStrings> = {
     tipsRailLabel: 'Worth trying',
     radarTitle: 'Coming up',
     radarTentative: 'reported',
+    planColumnLabel: 'Coming up and filters',
+    planRangeLabel: 'Next 30 days',
+    planEmpty: 'Nothing on the calendar yet.',
+    planFiltersLabel: 'Category filter',
+    planFiltersHint: 'Categories you switch off drop out of the brief. The choice carries over to Settings.',
     shareBriefLabel: 'Share today’s shot',
     shareBriefArchiveLabel: 'Share',
     voteLabel: 'Was this useful?',

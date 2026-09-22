@@ -14,6 +14,7 @@ import { WeekRail } from './WeekRail';
 import { TermOfDay } from './TermOfDay';
 import { RatePrompt } from './RatePrompt';
 import { RadarSection } from './RadarSection';
+import { PlanColumn } from './PlanColumn';
 import { WeekStreak } from './WeekStreak';
 import { Icon } from './Icon';
 
@@ -112,6 +113,10 @@ export function BriefView({
           </div>
         )}
       </div>
+
+      {/* Desktop's third column: the month ahead, and the category filters
+          beside the stories they hide. */}
+      {focus && <PlanColumn today={brief.date} radar={brief.radar} />}
 
       <aside className="brief__side">
         <div className="side__scroll">
