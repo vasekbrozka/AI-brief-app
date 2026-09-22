@@ -113,14 +113,6 @@ export function BriefView({
         )}
       </div>
 
-      {/* The desktop's left column holds the week's streak, standing in the
-          middle of it. */}
-      {focus && (
-        <aside className="brief__lead">
-          <div className="lead__mid">{streakBlock}</div>
-        </aside>
-      )}
-
       <aside className="brief__side">
         <div className="side__scroll">
         {/* The desktop's second column: the week beside the day, so a wide
@@ -148,8 +140,9 @@ export function BriefView({
         )}
 
         {/* The streak card is the reward for the reading, so it follows the
-            cards directly — its celebration must not fire off-screen. */}
-        {!focus && streakBlock}
+            cards directly — its celebration must not fire off-screen. On a
+            desktop that means the foot of the week's column. */}
+        {streakBlock}
 
         {/* Once everything is read: a term to learn, then the rating and sharing. */}
         {isToday && allRead && <TermOfDay date={brief.date} />}

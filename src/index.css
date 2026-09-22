@@ -1469,7 +1469,6 @@ button.thread:active .thread__title {
   :root {
     --content-max: 1520px;
     --sidebar-w: 216px;
-    --lead-w: 230px;
     --side-w: 340px;
   }
 
@@ -1674,13 +1673,6 @@ button.thread:active .thread__title {
     grid-row: 1;
   }
 
-  /* Until there is room for a column of its own, the day's standing sits
-     under the week: progress, streak, rating, one under another. */
-  .brief--focus .brief__lead {
-    grid-column: 2;
-    grid-row: 2;
-  }
-
 
   /* The week column carries a lot (top shots, tips, streak, rating), more
      than a screen: pinning it would cut its foot off, so it scrolls. */
@@ -1778,10 +1770,10 @@ button.thread:active .thread__title {
 /* Wide enough for a third column: how the day is going moves to the left of
    the stories, and both side columns stand still while the middle scrolls. */
 @media (min-width: 1400px) {
-  /* The stories take the width the window offers, up to a ceiling; the two
-     side columns keep theirs. */
+  /* The stories take the width the window offers, up to a ceiling; the week
+     keeps its own. */
   .screen--reader .screen__content {
-    max-width: calc(var(--lead-w) + 28px + 1000px + 28px + var(--side-w));
+    max-width: calc(1100px + 28px + var(--side-w));
   }
 
   /* The three columns fill one screen and only the middle one scrolls: the
@@ -1799,7 +1791,7 @@ button.thread:active .thread__title {
     flex: 1;
     min-height: 0;
     display: grid;
-    grid-template-columns: var(--lead-w) minmax(0, 1fr) var(--side-w);
+    grid-template-columns: minmax(0, 1fr) var(--side-w);
     grid-template-rows: auto minmax(0, 1fr) auto;
     column-gap: 28px;
     padding-bottom: 22px;
@@ -1811,7 +1803,7 @@ button.thread:active .thread__title {
 
   .screen--reader .large-title,
   .screen--reader .scroll-sentinel {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 1;
   }
 
@@ -1825,19 +1817,10 @@ button.thread:active .thread__title {
     margin-left: 0;
   }
 
-  /* Both side columns run the whole height, beside the header as well. */
-  .screen--reader .brief--focus .brief__lead {
-    grid-column: 1;
-    grid-row: 1 / 4;
-  }
-
+  /* The week runs the whole height, beside the header as well. */
   .screen--reader .brief--focus .brief__side {
-    grid-column: 3;
+    grid-column: 2;
     grid-row: 1 / 4;
-  }
-
-  .brief--focus .brief__lead,
-  .brief--focus .brief__side {
     height: 100%;
     min-height: 0;
     display: flex;
@@ -1855,7 +1838,7 @@ button.thread:active .thread__title {
 
   /* The stories carry the only scrollbar on the screen. */
   .screen--reader .brief--focus .brief__main {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 2;
   }
 
@@ -1874,33 +1857,8 @@ button.thread:active .thread__title {
 
   .screen--reader .brief--focus > .filtered-note,
   .screen--reader .brief--focus > .sample-note {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 3;
-  }
-
-  /* Left column: the streak centred, the day's rating at the foot. */
-  .brief--focus .lead__mid {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 0;
-  }
-
-  .brief__lead .streak-divider {
-    margin: 0 2px 10px;
-  }
-
-  /* The streak fills the column: a big count, then the week standing on end. */
-  .brief__lead .streakcard {
-    margin-top: 0;
-  }
-
-  /* The streak keeps the shape it has on a phone — a row of days — just
-     centred on the column it stands in. */
-  .brief__lead .streakcard {
-    margin-top: 0;
-    width: 100%;
   }
 
   /* Right column: the week and the tips scroll inside it, sharing stays put
