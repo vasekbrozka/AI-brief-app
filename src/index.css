@@ -1629,6 +1629,32 @@ button.thread:active .thread__title {
     display: block;
   }
 
+  /* The reader puts the date on the title's own line, at the right edge of the
+     stories — a line of its own above the title only cost a row. */
+  .screen--reader .large-title__text {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 16px;
+    align-items: baseline;
+  }
+
+  .screen--reader .large-title__heading {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .screen--reader .large-title__kicker {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+    margin-bottom: 0;
+  }
+
+  .screen--reader .large-title__subtitle {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
   .large-title__aside {
     justify-self: end;
   }
@@ -1819,28 +1845,26 @@ button.thread:active .thread__title {
     margin-left: 0;
   }
 
-  /* Every column's first card starts on the line the first story does. The
-     columns beside the stories carry a label the middle one does not, so they
-     begin that much higher: the header over the stories, less the label's own
-     block and the column's inset. */
+  /* How much higher than the stories a column of cards starts: it carries a
+     label the stories do not, so its first card lands on their line. Only a
+     bare column is lifted — a tinted one is a panel, and a panel runs the
+     full height with the same inset top and bottom. */
   .screen--reader .screen__content {
-    --col-lift: 55px;
+    --col-lift: 32px;
   }
 
   .screen--reader .brief--focus .brief__side {
     grid-column: 3;
     grid-row: 1 / 4;
-    margin-top: var(--col-lift);
     min-height: 0;
     display: flex;
     flex-direction: column;
-    padding-top: 0;
   }
 
   /* A quiet wash behind the week, so it reads as its own section rather than
-     more of the page. */
+     more of the page. Dropped once the month ahead takes the right edge. */
   .screen--reader .brief--focus .brief__side {
-    padding: 14px 14px 12px;
+    padding: 14px;
     border-radius: var(--radius);
     background: color-mix(in srgb, var(--fill) 45%, transparent);
   }
@@ -1892,6 +1916,7 @@ button.thread:active .thread__title {
 
   /* Set only while something is still below the fold, so a column scrolled to
      its end stops fading its last card. */
+  .brief--focus .brief__main.has-more,
   .brief--focus .side__scroll.has-more {
     -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 44px), transparent);
     mask-image: linear-gradient(to bottom, #000 calc(100% - 44px), transparent);
@@ -1957,24 +1982,27 @@ button.thread:active .thread__title {
      month ahead's. */
   .screen--reader .brief--focus .brief__side {
     grid-column: 2;
+    margin-top: var(--col-lift);
     padding: 14px 0 0;
     border-radius: 0;
     background: none;
   }
 
+  /* The tinted column is a panel, not a column of cards: it runs the full
+     height with the same inset top and bottom rather than starting level with
+     the first story. */
   .screen--reader .brief--focus .brief__plan {
     grid-column: 4;
     grid-row: 1 / 4;
-    margin-top: var(--col-lift);
     display: flex;
     flex-direction: column;
     min-height: 0;
-    padding: 14px 14px 12px;
+    padding: 14px;
     border-radius: var(--radius);
     background: color-mix(in srgb, var(--fill) 45%, transparent);
   }
 
-  /* Both columns open with their label on the same line. */
+  /* Each column opens with its label, with no margin left over from the flow. */
   .screen--reader .brief--focus .brief__side > .side__scroll > .section-divider:first-child,
   .screen--reader .brief--focus .brief__plan > .side__scroll > .section-divider:first-child {
     margin-top: 0;

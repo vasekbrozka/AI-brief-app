@@ -37,6 +37,9 @@ export function BriefView({
   // The week's column ends in the term of the day, so it fades its last
   // cards out while there are more of them above it than fit.
   const sideScroll = useScrollFade<HTMLDivElement>();
+  // The stories scroll behind the column's bottom edge, so they fade out
+  // there too rather than ending on a card sliced in half.
+  const mainScroll = useScrollFade<HTMLDivElement>();
   const { isRead } = useRead();
   const { currentStreak, markFinished } = useStreak();
   // One thumb for the whole day, counted under "<date>-brief".
@@ -147,7 +150,10 @@ export function BriefView({
   // the second block becomes a right rail beside the columns of cards.
   return (
     <div className={`brief${focus ? ' brief--focus' : ''}`}>
-      <div className="brief__main">
+      <div
+        className={`brief__main${mainScroll.more ? ' has-more' : ''}`}
+        ref={mainScroll.ref}
+      >
         {cards.length > 0 && (
           <div className="items">
             {cards.map((item) => (
