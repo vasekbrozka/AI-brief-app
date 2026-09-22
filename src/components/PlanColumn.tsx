@@ -138,11 +138,15 @@ function CalendarGrid({ today, radar }: { today: string; radar: RadarItem[] }) {
 export function PlanColumn({
   today,
   radar = [],
+  tail,
   foot,
 }: {
   today: string;
   radar?: RadarItem[];
-  /** The streak and the sharing row, when this is the rightmost column. */
+  /** Follows the filters inside the scroll — what the week's column would
+      otherwise have carried, when there is no week's column. */
+  tail?: ReactNode;
+  /** The streak and the sharing row, pinned to the column's foot. */
   foot?: ReactNode;
 }) {
   const { lang, t, mutedCategories, toggleCategory } = useSettings();
@@ -201,6 +205,8 @@ export function PlanColumn({
           </div>
           <p className="plan__hint">{t.planFiltersHint}</p>
         </div>
+
+        {tail}
       </div>
 
       {foot && <div className="side__foot">{foot}</div>}

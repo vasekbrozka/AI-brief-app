@@ -1,18 +1,24 @@
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 /**
  * Tracks whether a scroll container still has content below the fold. A column
  * that ends in something pinned — the term of the day under the week — can
  * then fade its last rows out instead of cutting one off mid-card, and stop
  * fading once there is nothing more to reach.
+ *
+ * The element is held in state rather than a ref so that a column which only
+ * exists at some widths starts and stops being watched as it mounts.
  */
 export function useScrollFade<T extends HTMLElement>() {
-  const ref = useRef<T>(null);
+  const [el, setEl] = useState<T | null>(null);
   const [more, setMore] = useState(false);
+  const ref = useCallback((node: T | null) => setEl(node), []);
 
   useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
+    if (!el) {
+      setMore(false);
+      return;
+    }
 
     // A sub-pixel slack: a container scrolled to the end can land a fraction
     // short of its own height and would otherwise keep fading for ever.
@@ -34,7 +40,7 @@ export function useScrollFade<T extends HTMLElement>() {
       ro.disconnect();
       mo.disconnect();
     };
-  }, []);
+  }, [el]);
 
   return { ref, more };
 }

@@ -135,15 +135,13 @@ export function BriefView({
     </>
   );
 
-  // What sits at the foot of the week's column: the term of the day, pinned
-  // there so it is reachable without scrolling the week, and — until the month
-  // ahead's column takes them over — the streak and the sharing.
-  const sideFoot = (
-    <>
-      {focus && isToday && <TermOfDay date={brief.date} />}
-      {!(wide && focus) && (focus ? footBlock : shareBlock)}
-    </>
-  );
+  // The week's column, when there is room for it, closes with the term of the
+  // day; off the reader this is where the phone's sharing sits.
+  const sideFoot = focus ? isToday && <TermOfDay date={brief.date} /> : shareBlock;
+
+  // The week is the first thing to go when the window narrows: the month ahead
+  // and the filters are what stay beside the stories.
+  const showSide = !focus || wide;
 
   // Two blocks: the stories, and what follows the reading (streak, term of the
   // day, rating, sharing). On a phone they stack in this order; on a desktop
@@ -163,16 +161,21 @@ export function BriefView({
         )}
       </div>
 
-      {/* Desktop's right-hand column: the month ahead, the category filters
-          beside the stories they hide, and the streak and sharing under them. */}
+      {/* Desktop's right-hand column, the one every desktop has room for: the
+          month ahead, the category filters beside the stories they hide, and
+          the streak and sharing pinned under them. The term of the day joins
+          it when the week's column is the one that had to go — above the foot,
+          not in it, or the filters would be pushed out of view. */}
       {focus && (
         <PlanColumn
           today={brief.date}
           radar={brief.radar}
-          foot={wide ? footBlock : undefined}
+          tail={!wide && isToday ? <TermOfDay date={brief.date} /> : undefined}
+          foot={footBlock}
         />
       )}
 
+      {showSide && (
       <aside className="brief__side">
         <div
           className={`side__scroll${sideScroll.more ? ' has-more' : ''}`}
@@ -219,6 +222,7 @@ export function BriefView({
             them over. */}
         <div className="side__foot">{sideFoot}</div>
       </aside>
+      )}
 
       {/* The moment the last story is read, one gentle ask for the day's rating. */}
       {isToday && <RatePrompt dayId={dayId} date={brief.date} allRead={allRead} />}
