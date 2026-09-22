@@ -1739,28 +1739,18 @@ button.thread:active .thread__title {
     line-height: 1.3;
   }
 
-  /* The week's rows carry a date, so they stack instead of sitting in a line. */
-  .railrow--stacked {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
-  }
-
-  .railrow__head {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .railrow__date {
-    font-size: 12px;
-    color: var(--text-tertiary);
-    font-variant-numeric: tabular-nums;
-  }
 }
 
 @media (min-width: 1100px) and (hover: hover) {
   .railrow:hover .railrow__title {
+    color: var(--accent);
+  }
+
+  .shotcard:not(:disabled):hover {
+    border-color: var(--accent-soft-border);
+  }
+
+  .shotcard:not(:disabled):hover .shotcard__title {
     color: var(--accent);
   }
 }
@@ -1908,24 +1898,25 @@ button.thread:active .thread__title {
 @media (min-width: 1720px) {
   .screen--reader .screen__content {
     --plan-w: 280px;
-    grid-template-columns: minmax(0, 980px) var(--plan-w) minmax(0, 1fr) var(--side-w);
+    grid-template-columns: minmax(0, 980px) var(--side-w) minmax(0, 1fr) var(--plan-w);
   }
 
-  /* The week keeps the right edge; the new column takes the slot next to the
-     stories, both running the full height beside the header. */
+  /* The week sits straight beside the stories it belongs to; the month ahead
+     and the filters take the right edge. Both run the full height. */
   .screen--reader .brief--focus .brief__side {
-    grid-column: 4;
+    grid-column: 2;
   }
 
   .screen--reader .brief--focus .brief__plan {
-    grid-column: 2;
+    grid-column: 4;
     grid-row: 1 / 4;
     display: flex;
     flex-direction: column;
     height: 100%;
     min-height: 0;
     overflow-y: auto;
-    padding-right: 4px;
+    /* Matches the week's own inset, so the two column labels sit on one line. */
+    padding: 14px 4px 0 0;
     scrollbar-width: thin;
     overscroll-behavior: contain;
   }
@@ -2669,6 +2660,58 @@ button.thread:active .thread__title {
 
 .radar__body .sources {
   margin-top: 8px;
+}
+
+/* The week's top shots: the same card the stories are told in — chip, date,
+   headline — one per day, opening that day's brief. */
+.shots {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shotcard {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 13px 14px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.15s ease, transform 0.12s ease;
+}
+
+.shotcard:disabled {
+  cursor: default;
+}
+
+.shotcard:not(:disabled):active {
+  transform: scale(0.99);
+}
+
+.shotcard__head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.shotcard__date {
+  color: var(--text-tertiary);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.shotcard__title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.3;
 }
 
 /* ---- The month ahead + filters (desktop's third column) ----------------- */
