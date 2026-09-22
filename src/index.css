@@ -1868,22 +1868,13 @@ button.thread:active .thread__title {
     scrollbar-width: thin;
   }
 
-  /* The week's cards share out whatever height the column has left over, so
-     the column reads as full rather than as four tiles and a gap. They only
-     ever grow: past that the column scrolls, as it always did. */
-  .brief--focus .brief__side .side__scroll {
-    display: flex;
-    flex-direction: column;
+  /* Set only while something is still below the fold, so a column scrolled to
+     its end stops fading its last card. */
+  .brief--focus .side__scroll.has-more {
+    -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 44px), transparent);
+    mask-image: linear-gradient(to bottom, #000 calc(100% - 44px), transparent);
   }
 
-  .brief--focus .shots {
-    flex: 1 0 auto;
-  }
-
-  .brief--focus .shotcard {
-    flex: 1 0 auto;
-    max-height: 190px;
-  }
 
   .brief--focus .side__scroll > :first-child,
   .brief--focus .side__scroll > :first-child > .section-divider:first-child {
@@ -1893,6 +1884,19 @@ button.thread:active .thread__title {
   .brief--focus .side__foot {
     flex: 0 0 auto;
     padding-top: 10px;
+  }
+
+  /* The term of the day closes the week's column, level with the panels above. */
+  .brief--focus .side__foot .termday .section-divider {
+    margin-top: 2px;
+  }
+
+  .brief--focus .side__foot .termday {
+    margin-bottom: 12px;
+  }
+
+  .brief--focus .side__foot .termday:last-child {
+    margin-bottom: 0;
   }
 
   /* The streak sits at the foot with the sharing, not adrift in the scroll. */
@@ -2742,13 +2746,12 @@ button.thread:active .thread__title {
   line-height: 1.32;
 }
 
-/* Sits at the card's foot however tall the card grows, so a short headline
-   and a long one still line their affordances up. */
+/* Directly under the headline: the card is only ever as tall as what is in
+   it, so there is no foot to push this to. */
 .shotcard__more {
   display: flex;
   align-items: center;
   gap: 2px;
-  margin-top: auto;
   padding-top: 2px;
   color: var(--accent);
   font-size: 13px;

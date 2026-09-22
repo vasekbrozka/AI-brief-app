@@ -314,7 +314,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImproved: [
       'Na počítači se brief vejde na jednu obrazovku: vlevo novinky jako na telefonu (roluje jen tenhle sloupec), vpravo Top shots, tipy, série čtení a dole sdílení s palci; telefon beze změny',
       'Přečtené novinky hned mizí z přehledu (dá se vypnout v Nastavení) a vedle nadpisu je kruh s procenty přečteného',
-      'Zrnko dne se objeví až po dočtení všech novinek',
+      'Zrnko dne je v briefu pořád, ne až po dočtení všech novinek',
       'Po dočtení se jednou nabídne hodnocení dne; zavřít jde jedním klepnutím',
       'Vypito je modrá fajfka vpravo nahoře na kartě, vidět hned; dole je řádek s palci, To do, Uložit a Sdílet. Nic není schované za gestem',
       'Při rolování vidíš v horní liště, kolik novinek máš vypito; pod datem je počet novinek a odhad času čtení',
@@ -508,7 +508,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     releaseImproved: [
       'On a computer the brief fits one screen: the stories on the left as on the phone (only that column scrolls), top shots, tips, the streak and sharing with the thumbs on the right; the phone is unchanged',
       'Read stories leave the list right away (can be turned off in Settings) and a ring beside the title shows how much is read',
-      'Bean of the day appears once every story is read',
+      'Bean of the day is there from the start, not only once every story is read',
       'After the last story, one gentle ask for the day’s rating; one tap closes it',
       'Read is the blue check at the top right of the card, in view right away; the row at the bottom has thumbs, To do, save and share. Nothing hides behind a gesture',
       'While scrolling, the floating bar shows how many stories you have read; under the date, the story count and a reading-time estimate',

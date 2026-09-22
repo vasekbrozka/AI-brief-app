@@ -3,6 +3,7 @@ import type { RadarItem } from '../lib/types';
 import { useSettings } from '../providers/SettingsProvider';
 import { shiftDate, capitalizeFirst, formatDayMonth } from '../lib/format';
 import { CATEGORIES, CATEGORY_ORDER } from '../lib/categories';
+import { useScrollFade } from '../hooks/useScrollFade';
 
 /** How far ahead the calendar looks. */
 const WINDOW_DAYS = 30;
@@ -145,6 +146,8 @@ export function PlanColumn({
   foot?: ReactNode;
 }) {
   const { lang, t, mutedCategories, toggleCategory } = useSettings();
+  // This column ends in pinned content too, so it fades the same way.
+  const scroll = useScrollFade<HTMLDivElement>();
 
   // Everything still ahead, nearest first — the grid marks only what falls
   // inside the window, the hidden list names them all for a screen reader.
@@ -155,7 +158,7 @@ export function PlanColumn({
 
   return (
     <aside className="brief__plan" aria-label={t.planColumnLabel}>
-      <div className="side__scroll">
+      <div className={`side__scroll${scroll.more ? ' has-more' : ''}`} ref={scroll.ref}>
         <div className="section-divider">
           <span>{t.radarTitle}</span>
         </div>

@@ -1,5 +1,6 @@
 import { useEffect, useMemo } from 'react';
 import { WIDE_QUERY, useMediaQuery } from '../hooks/useMedia';
+import { useScrollFade } from '../hooks/useScrollFade';
 import { isTip, type Brief } from '../lib/types';
 import { hiddenCountLabel, tipCountLabel } from '../lib/format';
 import { visibleItems } from '../lib/briefStats';
@@ -33,6 +34,9 @@ export function BriefView({
   // Wide enough for four columns: the month ahead becomes the right-hand one
   // and takes the streak and the sharing with it.
   const wide = useMediaQuery(WIDE_QUERY);
+  // The week's column ends in the term of the day, so it fades its last
+  // cards out while there are more of them above it than fit.
+  const sideScroll = useScrollFade<HTMLDivElement>();
   const { isRead } = useRead();
   const { currentStreak, markFinished } = useStreak();
   // One thumb for the whole day, counted under "<date>-brief".
@@ -128,6 +132,16 @@ export function BriefView({
     </>
   );
 
+  // What sits at the foot of the week's column: the term of the day, pinned
+  // there so it is reachable without scrolling the week, and — until the month
+  // ahead's column takes them over — the streak and the sharing.
+  const sideFoot = (
+    <>
+      {focus && isToday && <TermOfDay date={brief.date} />}
+      {!(wide && focus) && (focus ? footBlock : shareBlock)}
+    </>
+  );
+
   // Two blocks: the stories, and what follows the reading (streak, term of the
   // day, rating, sharing). On a phone they stack in this order; on a desktop
   // the second block becomes a right rail beside the columns of cards.
@@ -154,7 +168,10 @@ export function BriefView({
       )}
 
       <aside className="brief__side">
-        <div className="side__scroll">
+        <div
+          className={`side__scroll${sideScroll.more ? ' has-more' : ''}`}
+          ref={sideScroll.ref}
+        >
         {/* The desktop's second column: the week beside the day, so a wide
             screen needs no switch between them. */}
         {focus && isToday && <WeekRail />}
@@ -183,8 +200,9 @@ export function BriefView({
             cards directly — its celebration must not fire off-screen. */}
         {!focus && streakBlock}
 
-        {/* Once everything is read: a term to learn, then the rating and sharing. */}
-        {isToday && allRead && <TermOfDay date={brief.date} />}
+        {/* A term to learn, there from the start rather than as a reward for
+            finishing. On a desktop it is pinned to the foot of this column. */}
+        {!focus && isToday && <TermOfDay date={brief.date} />}
 
         {!isToday && brief.radar && brief.radar.length > 0 && <RadarSection radar={brief.radar} />}
         {!focus && ratePanel}
@@ -193,11 +211,7 @@ export function BriefView({
             column while the week scrolls above them — until the window is wide
             enough for the month ahead to become the right-hand column and take
             them over. */}
-        {/* Only the reader hands its foot over — the archive has no second
-            column to hand it to. */}
-        {!(wide && focus) && (
-          <div className="side__foot">{focus ? footBlock : shareBlock}</div>
-        )}
+        <div className="side__foot">{sideFoot}</div>
       </aside>
 
       {/* The moment the last story is read, one gentle ask for the day's rating. */}
