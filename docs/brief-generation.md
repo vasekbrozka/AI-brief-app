@@ -380,7 +380,9 @@ Jak s tím pracovat — **měkký signál, ne pravidlo**:
 - **Hodnocení dnů** (`<datum>-brief`) sleduj jako trend: den s převahou 👎 porovnej v deníku
   s tím, co bylo jinak (málo položek, samý byznys, žádný tip, žádný radar) — a v dalších
   dnech to napravuj. Není to důvod měnit pravidla receptu z jednoho dne.
-- Když soubor chybí nebo je prázdný, nic se nemění.
+- Když soubor chybí nebo je prázdný, nic se nemění — ale `check-brief.py` to ohlásí
+  jako WARN (stejně jako kopii starší než 2 dny), aby tiché vynechání kroku 0 nešlo
+  přehlédnout. Není to důvod nepublikovat; je to důvod stažení příště nezapomenout.
 - Do deníku napiš řádek `Zpětná vazba (30 dní): 👍 n · 👎 n · nejvíc 👍: <id> · nejvíc 👎: <id>`
   (`--stats` to vypíše) a jednou větou, jestli jsi podle toho něco zvolil jinak.
 

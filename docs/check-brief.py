@@ -47,7 +47,8 @@ WEEK_NOTE_WORDS_OK, WEEK_NOTE_WORDS_HARD = 25, 35
 DUP_TITLE_SIMILARITY = 0.5   # Jaccard přes slova titulků; víc = WARN „možná duplicita“
 GLOSSARY = Path("data/glossary.json")
 GLOSSARY_MAX_NEW_PER_DAY = 3
-FEEDBACK = BRIEFS / "feedback.json"   # palce čtenářů za 30 dní, zapisuje noční funkce na Netlify
+FEEDBACK = BRIEFS / "feedback.json"   # palce čtenářů za 30 dní, stahuje si je krok 0
+FEEDBACK_STALE_WARN_DAYS = 2   # krok 0 ji tahá každý běh; starší soubor = běh ji přeskočil
 
 # Kanonická jména zdrojů (pole `name`) pro nejčastější domény — viz recept, sekce Psaní.
 CANONICAL_NAMES = {
@@ -797,8 +798,16 @@ def main() -> int:
                     fail(f"glossary: duplicitní id {i_}")
             infos.append(f"slovníček: {len(terms)} pojmů, aktualizován {glossary.get('updated')}")
 
-    # --- zpětná vazba čtenářů (jen denní režim, soubor je volitelný) -----------------
-    if not file_mode and FEEDBACK.exists():
+    # --- zpětná vazba čtenářů (jen denní režim) -------------------------------------
+    # Krok 0 ji stahuje při každém běhu. Chybějící nebo starý soubor znamená, že ji běh
+    # přeskočil a výběr položek šel bez hlasů čtenářů — publikovat se kvůli tomu nemusí
+    # přestat, ale nesmí to projít tiše, jinak se smyčka nikdy neotočí a nikdo si
+    # nevšimne.
+    if not file_mode and not FEEDBACK.exists():
+        warn("feedback.json chybí — krok 0 nestáhl hlasy čtenářů "
+             '(curl -sS --max-time 10 "https://aispresso.app/api/feedback?days=30" '
+             "-o data/briefs/feedback.json); výběr položek šel bez nich")
+    elif not file_mode:
         try:
             fb = json.load(open(FEEDBACK, encoding="utf-8"))
             items_fb = fb.get("items") if isinstance(fb, dict) else None
@@ -814,6 +823,14 @@ def main() -> int:
                     infos.append(line)
         except json.JSONDecodeError as e:
             warn(f"feedback.json není platný JSON: {e}")
+            fb = None
+        # Stáhnout starou kopii znovu nestojí nic, tak ať je vidět, když se nestáhla.
+        stamp = parse_iso(str(fb.get("updated", ""))[:10]) if isinstance(fb, dict) else None
+        if isinstance(fb, dict) and stamp is None:
+            warn("feedback.json nemá použitelné updated — stáhni ho znovu z GET /api/feedback")
+        elif stamp is not None and (today - stamp).days > FEEDBACK_STALE_WARN_DAYS:
+            warn(f"feedback.json je {(today - stamp).days} dní starý "
+                 "— krok 0 ho dnes nestáhl znovu")
 
     # --- published-log --------------------------------------------------------
     if publog is not None:
