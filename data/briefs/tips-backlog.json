@@ -2057,6 +2057,33 @@
       ],
       "added": "2026-09-20",
       "used": "2026-09-20"
+    },
+    {
+      "slug": "tip-claude-code-auto-mode-server-classifier",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-09-19",
+      "title": {
+        "cs": "Claude Code už neúčtuje za výběr modelu v automatickém režimu",
+        "en": "Claude Code no longer bills you for auto mode's model picks"
+      },
+      "summary": {
+        "cs": "Claude Code od 19. září (verze 2.1.278) přesunul klasifikátor pro automatický výběr modelu na stranu serveru — u API, Enterprise, Bedrocku, Vertexu, Foundry i brán se tak dál neplatí za režii samotného rozhodování, který model pro úkol použít. Stav klasifikátoru teď navíc vidíš přímo v příkazu /status.",
+        "en": "Since September 19 (version 2.1.278), Claude Code's auto mode moved its model-picking classifier to the server side for API, Enterprise, Bedrock, Vertex, Foundry, and gateway users — so you no longer pay for the overhead of deciding which model handles a task. The classifier's status now shows directly in the /status command."
+      },
+      "why": {
+        "cs": "Nic si nastavovat nemusíš — pokud auto mode používáš na API, Enterprise nebo přes Bedrock/Vertex/Foundry, přechod je automatický a projeví se rovnou nižšími náklady.",
+        "en": "There's nothing to configure — if you use auto mode on the API, Enterprise, or through Bedrock/Vertex/Foundry, the switch is automatic and shows up directly as lower costs."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-09-21",
+      "used": "2026-09-21"
     }
   ]
 }

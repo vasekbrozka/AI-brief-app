@@ -1,0 +1,149 @@
+{
+  "date": "2026-09-22",
+  "sample": false,
+  "headline": {
+    "cs": "OpenAI navrhlo globální standardy pro bezpečnost AI a RSI",
+    "en": "OpenAI proposes global safety standards for AI and RSI"
+  },
+  "items": [
+    {
+      "id": "2026-09-22-openai-global-ai-safety-standards-proposal",
+      "kind": "news",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-09-21",
+      "title": {
+        "cs": "OpenAI navrhlo globální standardy pro bezpečnost AI a RSI",
+        "en": "OpenAI proposes global safety standards for AI and RSI"
+      },
+      "summary": {
+        "cs": "OpenAI 21. září zveřejnilo návrh globálních technických standardů pro špičkové AI modely, hlavně pro rekurzivní sebezdokonalování (RSI) — kdy AI vylepšuje samu sebe bez zásahu člověka. Firma varuje před plně autonomním RSI a navrhuje sdílené protokoly pro hodnocení, spouštěče lidského dohledu a hlášení incidentů. USA by podle OpenAI měly vést mezinárodní spolupráci.",
+        "en": "OpenAI published a proposal on September 21 for global technical standards covering frontier AI, focused mainly on recursive self-improvement (RSI) — AI upgrading itself without human involvement. The company warns against fully autonomous RSI and proposes shared evaluation protocols, human-oversight triggers, and incident reporting. OpenAI says the US should lead international cooperation on these standards."
+      },
+      "why": {
+        "cs": "Je to konkrétní návrh pravidel, na která se budou odvolávat regulátoři i konkurenti — sleduj, jestli se k němu Anthropic a Google DeepMind připojí po týdnech společných jednání o bezpečnosti AI.",
+        "en": "It's a concrete rules proposal that regulators and rivals will point to — watch whether Anthropic and Google DeepMind sign on after weeks of joint talks on AI safety."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/index/building-standards-next-phase-ai/" },
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/21/open-ai-alignment-rsi.html" }
+      ],
+      "followsUp": {
+        "date": "2026-09-15",
+        "id": "2026-09-15-anthropic-openai-google-ai-safety-standards-body",
+        "title": {
+          "cs": "Anthropic, OpenAI a Google jednají o společném úřadu pro bezpečnostní standardy AI",
+          "en": "Anthropic, OpenAI, and Google discuss a joint AI safety standards body"
+        }
+      }
+    },
+    {
+      "id": "2026-09-22-apple-siri-ai-delay-settlement-claims",
+      "kind": "news",
+      "category": "business",
+      "verified": true,
+      "eventDate": "2026-09-21",
+      "title": {
+        "cs": "Apple otevřelo nároky ve vyrovnání za zpožděné AI funkce Siri",
+        "en": "Apple opens claims in settlement over delayed Siri AI features"
+      },
+      "summary": {
+        "cs": "Apple 21. září spustilo web pro podání nároku v 250milionovém vyrovnání za zpožděné AI funkce Siri. Nárok mají majitelé iPhonu 15 Pro, 15 Pro Max nebo iPhonu 16, koupeného mezi 10. červnem 2024 a 29. březnem 2025, kteří čekali sliby Apple Intelligence. Výplata 25 až 95 dolarů, nároky jdou podat do 21. prosince.",
+        "en": "Apple opened its claims website on September 21 for a $250 million settlement over delayed Siri AI features. Eligible owners bought an iPhone 15 Pro, 15 Pro Max, or iPhone 16 between June 10, 2024 and March 29, 2025, and expected promised Apple Intelligence features. Payouts range $25-$95 per device; claims are due by December 21."
+      },
+      "why": {
+        "cs": "Pokud jsi v USA koupil některý z uvedených iPhonů v daném období a čekal sliby Siri s AI, vyplň formulář na webu vyrovnání do 21. prosince — výplata přijde až po schválení v únoru 2027.",
+        "en": "If you bought one of the listed iPhones in the US during that window and expected the promised Siri features, file a claim by December 21 — payouts start only after the February 2027 hearing."
+      },
+      "sources": [
+        { "name": "Axios", "url": "https://www.axios.com/2026/09/21/apple-iphone-siri-ai-settlement-paid-eligibility" },
+        { "name": "9to5Mac", "url": "https://9to5mac.com/2026/09/21/you-can-now-claim-your-payout-from-apples-250-million-siri-settlement/" }
+      ]
+    },
+    {
+      "id": "2026-09-22-stepfun-step-5-preview-model",
+      "kind": "news",
+      "category": "models",
+      "verified": true,
+      "eventDate": "2026-09-20",
+      "title": {
+        "cs": "Čínský StepFun spustil model Step 5 Preview se 600 miliardami parametrů",
+        "en": "China's StepFun launches Step 5 Preview, a 600-billion-parameter model"
+      },
+      "summary": {
+        "cs": "Čínská laboratoř StepFun 20. září spustila Step 5 Preview — řídkou směs expertů o 600 miliardách parametrů (27 miliard aktivních na token) s kontextem 1 milion tokenů, mířenou na agentní práci v programování a financích. Cena 1 dolar za milion vstupních a 2,70 dolaru za milion výstupních tokenů. Otevřené váhy plánuje StepFun zveřejnit 15. října.",
+        "en": "Chinese lab StepFun launched Step 5 Preview on September 20 — a sparse mixture-of-experts model with 600 billion parameters (27 billion active per token) and a 1-million-token context, aimed at agentic coding and finance work. It costs $1 per million input tokens and $2.70 per million output tokens. StepFun plans to release open weights on October 15."
+      },
+      "why": {
+        "cs": "Je to další čínský model, co se cenou i výkonem blíží dražším západním konkurentům — otevřené váhy 15. října umožní si ho každý spustit sám, i mimo StepFun API.",
+        "en": "It's another Chinese model closing the price-performance gap with pricier Western rivals — open weights on October 15 will let anyone run it independently, outside StepFun's own API."
+      },
+      "sources": [
+        { "name": "StepFun", "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-09-25",
+      "title": {
+        "cs": "OpenAI přestává vytvářet nová vlastní GPT",
+        "en": "OpenAI stops allowing new custom GPT creation"
+      },
+      "note": {
+        "cs": "Od 25. září už nepůjde vytvářet nová vlastní GPT — OpenAI je nahrazuje pluginy, plné zrušení stávajících je naplánované na 11. prosince.",
+        "en": "Starting September 25, creating new custom GPTs stops — OpenAI is replacing them with plugins; full retirement of existing ones is planned for December 11."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq" }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-09-29",
+      "title": {
+        "cs": "OpenAI pořádá DevDay 2026 v San Franciscu",
+        "en": "OpenAI holds DevDay 2026 in San Francisco"
+      },
+      "note": {
+        "cs": "Výroční vývojářská konference OpenAI — čekej novinky kolem modelů a API. Poprvé následují regionální akce DevDay Exchange v osmi městech, v Evropě Berlín 26. října a Paříž 28. října.",
+        "en": "OpenAI's annual developer conference — expect model and API news. For the first time, regional DevDay Exchange events follow in eight cities, including Berlin (October 26) and Paris (October 28)."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/index/devday-2026/" }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/" }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        { "name": "StepFun", "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview" }
+      ],
+      "tentative": false
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-21",
+  "sample": false,
+  "headline": {
+    "cs": "Google pomáhá psát zákony o AI chatbotech se skulinkami",
+    "en": "Google helps write AI chatbot laws with loopholes"
+  },
+  "items": [
+    {
+      "id": "2026-09-21-google-ai-chatbot-law-loopholes",
+      "kind": "news",
+      "category": "policy",
+      "highlight": true,
+      "verified": false,
+      "eventDate": "2026-09-18",
+      "title": {
+        "cs": "Google pomáhá psát zákony o AI chatbotech, a zároveň hledá skulinky",
+        "en": "Google helps write AI chatbot laws while pushing for loopholes"
+      },
+      "summary": {
+        "cs": "Podle investigace NPR z 18. září Google aktivně pomáhá psát návrhy zákonů o bezpečnosti AI chatbotů v nejmíň deseti amerických státech — s formulacemi, co by výjimkami zprostily odpovědnosti právě nejrozšířenější chatboty. Například Colorado vyjímá dvanáct kategorií produktů, včetně těch pro zákaznickou podporu nebo vyhledávání. Proti tvůrcům chatbotů už běží přes 75 žalob.",
+        "en": "An NPR investigation published September 18 found Google is actively helping draft AI chatbot safety bills in at least ten US states, with language that would exempt the most widely used chatbots. Colorado's bill, for example, excludes twelve product categories, including customer-service and search chatbots. Over 75 lawsuits are already pending against chatbot makers."
+      },
+      "why": {
+        "cs": "Pokud tvoje AI appka spadá pod některou z výjimek (zákaznická podpora, vyhledávání, produktivita), pravidla o transparentnosti a duty-of-care se jí nakonec nemusí týkat — sleduj, jak se návrhy zákonů ve tvém státě mění.",
+        "en": "If an AI product you use falls into one of the carve-outs (customer service, search, productivity), duty-of-care rules may end up not applying to it — watch how these bills evolve in your state."
+      },
+      "sources": [
+        { "name": "NPR", "url": "https://www.npr.org/2026/09/18/nx-s1-5968878/ai-chatbots-safety-regulation-google" }
+      ]
+    },
+    {
+      "id": "2026-09-21-gemini-gmail-ai-overviews-global-rollout",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-21",
+      "title": {
+        "cs": "AI přehledy v hledání Gmailu jsou teď dostupné celosvětově",
+        "en": "AI Overviews in Gmail search are now available worldwide"
+      },
+      "summary": {
+        "cs": "Google 21. září dokončil celosvětové nasazení AI přehledů ve vyhledávání Gmailu pro platící uživatele s angličtinou — do vyhledávacího pole stačí napsat běžnou otázku a místo prohledávání zpráv dostaneš rovnou shrnutí. Funkce v dubnu nejdřív běžela jen omezeně, plné nasazení pro poslední (Scheduled Release) domény začalo právě dnes a projeví se do tří dnů.",
+        "en": "Google completed the worldwide rollout of AI Overviews in Gmail search for paid English-language users on September 21 — type a plain-language question and get a summary instead of scanning messages. The feature first launched in limited form in April; rollout to the last domains began today and takes up to three days to appear."
+      },
+      "why": {
+        "cs": "Zapni si v Gmailu „Chytré funkce“, ať se ti objeví AI přehledy přímo ve vyhledávacím poli — stačí se zeptat vlastními slovy místo klikání přes jednotlivé e-maily.",
+        "en": "Turn on 'Smart features' in Gmail so AI Overviews show up right in the search box — just ask in your own words instead of clicking through individual emails."
+      },
+      "sources": [
+        { "name": "Google", "url": "https://workspaceupdates.googleblog.com/2026/09/gmail-searchs-ai-overviews-now-available-globally.html" }
+      ]
+    },
+    {
+      "id": "2026-09-21-x-spacexai-drop-apple-antitrust-claims",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-09-14",
+      "title": {
+        "cs": "Muskovy firmy stáhly žalobu na Apple, na OpenAI si dál stojí",
+        "en": "Musk's companies drop Apple from antitrust suit, keep OpenAI claims"
+      },
+      "summary": {
+        "cs": "X Corp a SpaceXAI 14. září u federálního soudu v Texasu stáhly antimonopolní žalobu na Apple, která tvrdila, že si Apple s OpenAI spolčil na ovládnutí trhu s chytrými telefony a AI chatboty přes zabudování ChatGPT do Apple Intelligence. Firmy ani soud důvod nevysvětlily, o možné dohodě nepadlo slovo. Žaloba proti OpenAI dál pokračuje.",
+        "en": "X Corp and SpaceXAI dismissed their antitrust claims against Apple in federal court in Texas on September 14, ending allegations that Apple conspired with OpenAI to monopolize the smartphone and AI-chatbot markets by embedding ChatGPT into Apple Intelligence. Neither side explained the dismissal or mentioned a settlement. The lawsuit against OpenAI continues."
+      },
+      "why": {
+        "cs": "Ukazuje to, že se aliance kolem AI mění — Muskovy firmy dál bojují s OpenAI o stejný nárok, jen se z konfliktu stáhl Apple. Sleduj, jestli podobně skončí i spor s OpenAI.",
+        "en": "It shows the AI-industry alliances shifting — Musk's companies keep fighting OpenAI over the same claim, just with Apple out of the fray. Watch whether the OpenAI dispute ends the same way."
+      },
+      "sources": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/14/musks-x-corp-spacexai-resolve-antitrust-lawsuit-against-apple.html" },
+        { "name": "9to5Mac", "url": "https://9to5mac.com/2026/09/14/x-and-spacexai-move-to-drop-apple-from-antitrust-lawsuit-keep-claims-against-openai/" }
+      ]
+    },
+    {
+      "id": "2026-09-21-tip-claude-code-auto-mode-server-classifier",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-19",
+      "title": {
+        "cs": "Claude Code už neúčtuje za výběr modelu v automatickém režimu",
+        "en": "Claude Code no longer bills you for auto mode's model picks"
+      },
+      "summary": {
+        "cs": "Claude Code od 19. září (verze 2.1.278) přesunul klasifikátor pro automatický výběr modelu na stranu serveru — u API, Enterprise, Bedrocku, Vertexu, Foundry i brán se tak dál neplatí za režii samotného rozhodování, který model pro úkol použít. Stav klasifikátoru teď navíc vidíš přímo v příkazu /status.",
+        "en": "Since September 19 (version 2.1.278), Claude Code's auto mode moved its model-picking classifier to the server side for API, Enterprise, Bedrock, Vertex, Foundry, and gateway users — so you no longer pay for the overhead of deciding which model handles a task. The classifier's status now shows directly in the /status command."
+      },
+      "why": {
+        "cs": "Nic si nastavovat nemusíš — pokud auto mode používáš na API, Enterprise nebo přes Bedrock/Vertex/Foundry, přechod je automatický a projeví se rovnou nižšími náklady.",
+        "en": "There's nothing to configure — if you use auto mode on the API, Enterprise, or through Bedrock/Vertex/Foundry, the switch is automatic and shows up directly as lower costs."
+      },
+      "sources": [
+        { "name": "Anthropic", "url": "https://code.claude.com/docs/en/changelog" }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-09-25",
+      "title": {
+        "cs": "OpenAI přestává vytvářet nová vlastní GPT",
+        "en": "OpenAI stops allowing new custom GPT creation"
+      },
+      "note": {
+        "cs": "Od 25. září už nepůjde vytvářet nová vlastní GPT — OpenAI je nahrazuje pluginy, plné zrušení stávajících je naplánované na 11. prosince.",
+        "en": "Starting September 25, creating new custom GPTs stops — OpenAI is replacing them with plugins; full retirement of existing ones is planned for December 11."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq" }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-09-29",
+      "title": {
+        "cs": "OpenAI pořádá DevDay 2026 v San Franciscu",
+        "en": "OpenAI holds DevDay 2026 in San Francisco"
+      },
+      "note": {
+        "cs": "Výroční vývojářská konference OpenAI — čekej novinky kolem modelů a API. Poprvé následují regionální akce DevDay Exchange v osmi městech, v Evropě Berlín 26. října a Paříž 28. října.",
+        "en": "OpenAI's annual developer conference — expect model and API news. For the first time, regional DevDay Exchange events follow in eight cities, including Berlin (October 26) and Paris (October 28)."
+      },
+      "sources": [
+        { "name": "OpenAI", "url": "https://openai.com/index/devday-2026/" }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        { "name": "TechCrunch", "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/" }
+      ],
+      "tentative": false
+    }
+  ]
+}
