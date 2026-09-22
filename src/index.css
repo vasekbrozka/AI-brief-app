@@ -1901,10 +1901,14 @@ button.thread:active .thread__title {
     grid-template-columns: minmax(0, 980px) var(--side-w) minmax(0, 1fr) var(--plan-w);
   }
 
-  /* The week sits straight beside the stories it belongs to; the month ahead
-     and the filters take the right edge. Both run the full height. */
+  /* The week sits straight beside the stories it belongs to, as a plain stack
+     of cards: the tint marks the column at the right edge, and that is now the
+     month ahead's. */
   .screen--reader .brief--focus .brief__side {
     grid-column: 2;
+    padding: 14px 0 0;
+    border-radius: 0;
+    background: none;
   }
 
   .screen--reader .brief--focus .brief__plan {
@@ -1914,15 +1918,14 @@ button.thread:active .thread__title {
     flex-direction: column;
     height: 100%;
     min-height: 0;
-    overflow-y: auto;
-    /* Matches the week's own inset, so the two column labels sit on one line. */
-    padding: 14px 4px 0 0;
-    scrollbar-width: thin;
-    overscroll-behavior: contain;
+    padding: 14px 14px 12px;
+    border-radius: var(--radius);
+    background: color-mix(in srgb, var(--fill) 45%, transparent);
   }
 
-  /* The column opens with its own label, level with the week's. */
-  .screen--reader .brief--focus .brief__plan > .section-divider:first-child {
+  /* Both columns open with their label on the same line. */
+  .screen--reader .brief--focus .brief__side > .side__scroll > .section-divider:first-child,
+  .screen--reader .brief--focus .brief__plan > .side__scroll > .section-divider:first-child {
     margin-top: 0;
   }
 }
@@ -2714,7 +2717,21 @@ button.thread:active .thread__title {
   line-height: 1.3;
 }
 
-/* ---- The month ahead + filters (desktop's third column) ----------------- */
+/* Carries what a decorative element shows but cannot say — the calendar's
+   marked days, read out as a list. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---- The month ahead + filters (the widest desktop's right column) ------ */
 
 /* Only ever a column beside the stories: there is no room for it until the
    window is wide enough, and none at all on a phone. */
@@ -2778,6 +2795,8 @@ button.thread:active .thread__title {
   background: var(--accent-soft-bg);
   color: var(--accent);
   font-weight: 600;
+  /* The list is gone from the column: the day names itself on hover. */
+  cursor: help;
 }
 
 .cal__cell.is-today {
@@ -2805,53 +2824,6 @@ button.thread:active .thread__title {
 .cal__cell.has-event .cal__month {
   color: inherit;
   opacity: 0.8;
-}
-
-/* What the marked days actually are. */
-.plan__list {
-  margin: 14px 0 0;
-  padding: 12px 0 0;
-  border-top: 1px solid var(--hairline);
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.plan__row {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: 10px;
-  align-items: baseline;
-}
-
-.plan__when {
-  color: var(--accent);
-  font-size: 12px;
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-}
-
-.plan__title {
-  color: var(--text);
-  font-size: 13px;
-  line-height: 1.35;
-}
-
-.plan__tentative {
-  margin-left: 6px;
-  color: var(--text-tertiary);
-  font-size: 11px;
-  font-weight: 600;
-}
-
-.plan__empty {
-  margin: 14px 0 0;
-  padding-top: 12px;
-  border-top: 1px solid var(--hairline);
-  color: var(--text-tertiary);
-  font-size: 13px;
 }
 
 /* The settings' category filters, within reach of the stories they hide. */

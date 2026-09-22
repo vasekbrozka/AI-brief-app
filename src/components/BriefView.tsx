@@ -1,4 +1,5 @@
 import { useEffect, useMemo } from 'react';
+import { WIDE_QUERY, useMediaQuery } from '../hooks/useMedia';
 import { isTip, type Brief } from '../lib/types';
 import { hiddenCountLabel, tipCountLabel } from '../lib/format';
 import { visibleItems } from '../lib/briefStats';
@@ -29,6 +30,9 @@ export function BriefView({
   focus?: boolean;
 }) {
   const { lang, t, hideRead, mutedCategories, gamification } = useSettings();
+  // Wide enough for four columns: the month ahead becomes the right-hand one
+  // and takes the streak and the sharing with it.
+  const wide = useMediaQuery(WIDE_QUERY);
   const { isRead } = useRead();
   const { currentStreak, markFinished } = useStreak();
   // One thumb for the whole day, counted under "<date>-brief".
@@ -99,6 +103,31 @@ export function BriefView({
     </>
   );
 
+  // Sharing and the day's thumbs on one line, under the streak. Whichever
+  // column is at the right edge carries them.
+  const footBlock = (
+    <>
+      {streakBlock}
+      <div className="footbar">
+        <button
+          type="button"
+          className="share-brief"
+          onClick={() => void shareBrief(brief, lang)}
+        >
+          <Icon name="share" size={16} />
+          {t.shareLabel}
+        </button>
+        <div
+          className="footbar__votes"
+          role="group"
+          aria-label={isToday ? t.rateTodayLabel : t.rateBriefLabel}
+        >
+          <VoteButtons id={dayId} />
+        </div>
+      </div>
+    </>
+  );
+
   // Two blocks: the stories, and what follows the reading (streak, term of the
   // day, rating, sharing). On a phone they stack in this order; on a desktop
   // the second block becomes a right rail beside the columns of cards.
@@ -114,9 +143,15 @@ export function BriefView({
         )}
       </div>
 
-      {/* Desktop's third column: the month ahead, and the category filters
-          beside the stories they hide. */}
-      {focus && <PlanColumn today={brief.date} radar={brief.radar} />}
+      {/* Desktop's right-hand column: the month ahead, the category filters
+          beside the stories they hide, and the streak and sharing under them. */}
+      {focus && (
+        <PlanColumn
+          today={brief.date}
+          radar={brief.radar}
+          foot={wide ? footBlock : undefined}
+        />
+      )}
 
       <aside className="brief__side">
         <div className="side__scroll">
@@ -155,32 +190,14 @@ export function BriefView({
         {!focus && ratePanel}
         </div>
         {/* The streak, sharing and the day's thumbs stay at the foot of the
-            column while the week scrolls above them. The question the phone spells out is
-            the group's label here — the two thumbs say it by themselves. */}
-        <div className="side__foot">
-          {focus && streakBlock}
-          {focus ? (
-            <div className="footbar">
-              <button
-                type="button"
-                className="share-brief"
-                onClick={() => void shareBrief(brief, lang)}
-              >
-                <Icon name="share" size={16} />
-                {t.shareLabel}
-              </button>
-              <div
-                className="footbar__votes"
-                role="group"
-                aria-label={isToday ? t.rateTodayLabel : t.rateBriefLabel}
-              >
-                <VoteButtons id={dayId} />
-              </div>
-            </div>
-          ) : (
-            shareBlock
-          )}
-        </div>
+            column while the week scrolls above them — until the window is wide
+            enough for the month ahead to become the right-hand column and take
+            them over. */}
+        {/* Only the reader hands its foot over — the archive has no second
+            column to hand it to. */}
+        {!(wide && focus) && (
+          <div className="side__foot">{focus ? footBlock : shareBlock}</div>
+        )}
       </aside>
 
       {/* The moment the last story is read, one gentle ask for the day's rating. */}

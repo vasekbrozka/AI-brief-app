@@ -24,3 +24,10 @@ export function useMediaQuery(query: string): boolean {
 
 /** The width at which the brief becomes the desktop reader (hero + rail). */
 export const DESKTOP_QUERY = '(min-width: 1100px)';
+
+/**
+ * The width at which the month ahead gets a column of its own. It then also
+ * takes over the right-hand column's job — the tint, the streak and the
+ * sharing — so the side column can be a plain stack of the week's cards.
+ */
+export const WIDE_QUERY = '(min-width: 1720px)';

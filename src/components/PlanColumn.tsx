@@ -1,7 +1,7 @@
-import { useMemo } from 'react';
+import { useMemo, type ReactNode } from 'react';
 import type { RadarItem } from '../lib/types';
 import { useSettings } from '../providers/SettingsProvider';
-import { shiftDate, capitalizeFirst } from '../lib/format';
+import { shiftDate, capitalizeFirst, formatDayMonth } from '../lib/format';
 import { CATEGORIES, CATEGORY_ORDER } from '../lib/categories';
 
 /** How far ahead the calendar looks. */
@@ -41,8 +41,8 @@ interface Cell {
 /**
  * The month ahead as a grid. Whole weeks, Monday first, running from the week
  * today sits in until the 30-day window is covered; days carrying a "coming
- * up" entry get a dot. The grid is decoration — the list under it is what a
- * screen reader reads.
+ * up" entry are marked and name it on hover. The grid is decoration — the
+ * list beside it is what a screen reader reads.
  */
 function CalendarGrid({ today, radar }: { today: string; radar: RadarItem[] }) {
   const { lang } = useSettings();
@@ -58,9 +58,7 @@ function CalendarGrid({ today, radar }: { today: string; radar: RadarItem[] }) {
     const first = weekStart(today);
     const last = shiftDate(today, WINDOW_DAYS - 1);
     // Whole weeks from the first Monday until the window's final day is in.
-    const span = Math.round(
-      (parse(last).getTime() - parse(first).getTime()) / 86400000,
-    );
+    const span = Math.round((parse(last).getTime() - parse(first).getTime()) / 86400000);
     const count = Math.ceil((span + 1) / 7);
 
     const rows: Cell[][] = [];
@@ -110,6 +108,13 @@ function CalendarGrid({ today, radar }: { today: string; radar: RadarItem[] }) {
               className={`cal__cell${cell.inWindow ? '' : ' is-out'}${
                 cell.isToday ? ' is-today' : ''
               }${cell.events.length > 0 ? ' has-event' : ''}`}
+              // The list is gone from the column, so the day itself has to say
+              // what is happening on it.
+              title={
+                cell.events.length > 0
+                  ? cell.events.map((e) => e.title[lang]).join(' · ')
+                  : undefined
+              }
             >
               <span className="cal__num">{cell.day}</span>
               {cell.startsMonth && (
@@ -124,74 +129,78 @@ function CalendarGrid({ today, radar }: { today: string; radar: RadarItem[] }) {
 }
 
 /**
- * The third desktop column: what is coming in the next month, and the category
- * filters from the settings within reach of the stories they hide.
+ * The widest desktop's right-hand column: what is coming in the next month,
+ * the category filters from the settings within reach of the stories they
+ * hide, and — below them — the streak and the sharing this column carries
+ * whenever it is the one at the right edge.
  */
-export function PlanColumn({ today, radar = [] }: { today: string; radar?: RadarItem[] }) {
+export function PlanColumn({
+  today,
+  radar = [],
+  foot,
+}: {
+  today: string;
+  radar?: RadarItem[];
+  /** The streak and the sharing row, when this is the rightmost column. */
+  foot?: ReactNode;
+}) {
   const { lang, t, mutedCategories, toggleCategory } = useSettings();
 
   // Everything still ahead, nearest first — the grid marks only what falls
-  // inside the window, the list carries the rest too.
+  // inside the window, the hidden list names them all for a screen reader.
   const upcoming = useMemo(
     () => radar.filter((entry) => entry.date >= today).sort((a, b) => a.date.localeCompare(b.date)),
     [radar, today],
   );
 
-  const dayMonth = (iso: string) =>
-    lang === 'cs'
-      ? `${parse(iso).getDate()}. ${parse(iso).getMonth() + 1}.`
-      : new Intl.DateTimeFormat(LOCALE.en, { month: 'short', day: 'numeric' }).format(parse(iso));
-
   return (
     <aside className="brief__plan" aria-label={t.planColumnLabel}>
-      <div className="section-divider">
-        <span>{t.radarTitle}</span>
-      </div>
-
-      <div className="panel plan__cal">
-        <p className="plan__range">{t.planRangeLabel}</p>
-        <CalendarGrid today={today} radar={upcoming} />
-
-        {upcoming.length > 0 ? (
-          <ol className="plan__list">
-            {upcoming.map((entry) => (
-              <li key={`${entry.date}-${entry.title.en}`} className="plan__row">
-                <span className="plan__when">{dayMonth(entry.date)}</span>
-                <span className="plan__title">
-                  {entry.title[lang]}
-                  {entry.tentative && <span className="plan__tentative">{t.radarTentative}</span>}
-                </span>
-              </li>
-            ))}
-          </ol>
-        ) : (
-          <p className="plan__empty">{t.planEmpty}</p>
-        )}
-      </div>
-
-      <div className="section-divider">
-        <span>{t.planFiltersLabel}</span>
-      </div>
-
-      <div className="panel plan__filters">
-        <div className="cat-toggles" role="group" aria-label={t.planFiltersLabel}>
-          {CATEGORY_ORDER.map((c) => {
-            const on = !mutedCategories.includes(c);
-            return (
-              <button
-                key={c}
-                type="button"
-                className={`cat-toggle chip--${CATEGORIES[c].tint}${on ? ' is-on' : ''}`}
-                aria-pressed={on}
-                onClick={() => toggleCategory(c)}
-              >
-                {CATEGORIES[c].label[lang]}
-              </button>
-            );
-          })}
+      <div className="side__scroll">
+        <div className="section-divider">
+          <span>{t.radarTitle}</span>
         </div>
-        <p className="plan__hint">{t.planFiltersHint}</p>
+
+        <div className="panel plan__cal">
+          <p className="plan__range">{t.planRangeLabel}</p>
+          <CalendarGrid today={today} radar={upcoming} />
+          {upcoming.length > 0 && (
+            <ul className="sr-only">
+              {upcoming.map((entry) => (
+                <li key={`${entry.date}-${entry.title.en}`}>
+                  {formatDayMonth(entry.date, lang)} — {entry.title[lang]}
+                  {entry.tentative ? ` (${t.radarTentative})` : ''}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+
+        <div className="section-divider">
+          <span>{t.planFiltersLabel}</span>
+        </div>
+
+        <div className="panel plan__filters">
+          <div className="cat-toggles" role="group" aria-label={t.planFiltersLabel}>
+            {CATEGORY_ORDER.map((c) => {
+              const on = !mutedCategories.includes(c);
+              return (
+                <button
+                  key={c}
+                  type="button"
+                  className={`cat-toggle chip--${CATEGORIES[c].tint}${on ? ' is-on' : ''}`}
+                  aria-pressed={on}
+                  onClick={() => toggleCategory(c)}
+                >
+                  {CATEGORIES[c].label[lang]}
+                </button>
+              );
+            })}
+          </div>
+          <p className="plan__hint">{t.planFiltersHint}</p>
+        </div>
       </div>
+
+      {foot && <div className="side__foot">{foot}</div>}
     </aside>
   );
 }
