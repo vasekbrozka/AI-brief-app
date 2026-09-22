@@ -17,6 +17,9 @@
   --fill: rgba(118, 118, 128, 0.1);
   --hairline: rgba(0, 0, 0, 0.07);
   --separator: rgba(0, 0, 0, 0.1);
+  /* The columns' own scrollbars — quiet enough not to read as a border. */
+  --scroll-thumb: rgba(60, 60, 67, 0.2);
+  --scroll-thumb-hover: rgba(60, 60, 67, 0.34);
 
   --text: #1d1d1f;
   --text-secondary: #55555b;
@@ -71,6 +74,8 @@
     --fill: rgba(120, 120, 128, 0.24);
     --hairline: rgba(255, 255, 255, 0.1);
     --separator: rgba(255, 255, 255, 0.14);
+    --scroll-thumb: rgba(235, 235, 245, 0.2);
+    --scroll-thumb-hover: rgba(235, 235, 245, 0.34);
     --text: #f5f5f7;
     --text-secondary: #aeaeb2;
     --text-tertiary: #8a8a8e;
@@ -111,6 +116,8 @@
   --fill: rgba(120, 120, 128, 0.24);
   --hairline: rgba(255, 255, 255, 0.1);
   --separator: rgba(255, 255, 255, 0.14);
+  --scroll-thumb: rgba(235, 235, 245, 0.2);
+  --scroll-thumb-hover: rgba(235, 235, 245, 0.34);
   --text: #f5f5f7;
   --text-secondary: #aeaeb2;
   --text-tertiary: #8a8a8e;
@@ -1742,6 +1749,11 @@ button.thread:active .thread__title {
 }
 
 @media (min-width: 1100px) and (hover: hover) {
+  .brief--focus .brief__main:hover,
+  .brief--focus .side__scroll:hover {
+    scrollbar-color: var(--scroll-thumb-hover) transparent;
+  }
+
   .railrow:hover .railrow__title {
     color: var(--accent);
   }
@@ -1842,9 +1854,9 @@ button.thread:active .thread__title {
   .brief--focus .brief__main {
     min-height: 0;
     overflow-y: auto;
-    padding-right: 6px;
+    /* Keeps the bar off the cards' edge — glued to them it reads as a border. */
+    padding-right: 14px;
     overscroll-behavior: contain;
-    scrollbar-width: thin;
   }
 
   .brief--focus .brief__main .items {
@@ -1864,8 +1876,18 @@ button.thread:active .thread__title {
     flex: 1 1 auto;
     min-height: 0;
     overflow-y: auto;
-    padding-right: 4px;
+    padding-right: 10px;
+  }
+
+  /* The columns' scrollbars in the app's own colours. Only the colour and the
+     width are set: styling ::-webkit-scrollbar would turn the platform's
+     overlay bar into a classic one that takes layout width and never hides,
+     which is a bigger change than making it quieter. The room beside the
+     cards comes from the columns' padding above. */
+  .brief--focus .brief__main,
+  .brief--focus .side__scroll {
     scrollbar-width: thin;
+    scrollbar-color: var(--scroll-thumb) transparent;
   }
 
   /* Set only while something is still below the fold, so a column scrolled to
