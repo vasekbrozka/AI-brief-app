@@ -1,7 +1,7 @@
 // Web Push client for the morning notification. The public VAPID key is
 // meant to be public; its private half lives only in Netlify env vars.
 const VAPID_PUBLIC_KEY =
-  'BDM3FG_HdmoXa_wlZPrbcvGW99d5OodcIdAjsZ3LtPBtuOtFpVQN41m2LltNbZfjCFuCGuA51mffSdusGTnRkA0';
+  'BIUlKwGQ5Bj4qDMgUvg93GJqU-Xgf-UJ7WCAJQLfnJ42pWQ79pxQo1bNwMz3k2nbxxJpbu5GcBASZ4XgBUNTptg';
 
 const SUBSCRIBE_ENDPOINT = '/api/push/subscribe';
 

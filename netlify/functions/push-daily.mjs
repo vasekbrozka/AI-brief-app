@@ -8,7 +8,7 @@ import webpush from 'web-push';
 const RAW_INDEX =
   'https://raw.githubusercontent.com/vasekbrozka/AI-brief-app/refs/heads/claude/daily-ai-brief-app-b1qq0p/data/briefs/index.json';
 const VAPID_PUBLIC_KEY =
-  'BDM3FG_HdmoXa_wlZPrbcvGW99d5OodcIdAjsZ3LtPBtuOtFpVQN41m2LltNbZfjCFuCGuA51mffSdusGTnRkA0';
+  'BIUlKwGQ5Bj4qDMgUvg93GJqU-Xgf-UJ7WCAJQLfnJ42pWQ79pxQo1bNwMz3k2nbxxJpbu5GcBASZ4XgBUNTptg';
 const VAPID_SUBJECT = 'https://aispresso.app';
 
 export default async () => {
