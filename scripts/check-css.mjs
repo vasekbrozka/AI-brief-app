@@ -16,7 +16,7 @@ const REQUIRED = [
   '.settings-group__body', '.setting-switch', '.switch__thumb',
   '.toaster', '.toast', '.gpop', '.state__title', '.skeleton-line',
   '.brief__side', '.tabbar__brand', '.railrow', '.side__scroll', '.side__foot', '.footbar', '.headmeta',
-  '.brief__plan', '.cal__cell', '.cal__dayname', '.plan__range', '.plan__hint', '.cat-toggle',
+  '.brief__plan', '.cal__cell', '.cal__dayname', '.plan__range', '.plan__filters', '.cat-toggle',
   '.shots', '.shotcard', '.shotcard__title',
 ];
 

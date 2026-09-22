@@ -175,6 +175,7 @@ export function PlanColumn({
         </div>
 
         <div className="panel plan__filters">
+          <p className="plan__range">{t.planFiltersLabel}</p>
           <div className="cat-toggles" role="group" aria-label={t.planFiltersLabel}>
             {CATEGORY_ORDER.map((c) => {
               const on = !mutedCategories.includes(c);
@@ -191,7 +192,6 @@ export function PlanColumn({
               );
             })}
           </div>
-          <p className="plan__hint">{t.planFiltersHint}</p>
         </div>
       </div>
 

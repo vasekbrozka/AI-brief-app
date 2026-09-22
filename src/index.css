@@ -1870,7 +1870,9 @@ button.thread:active .thread__title {
     display: flex;
     flex-direction: column;
     min-height: 0;
-    padding: 14px;
+    /* The scroll area inside adds the other 10px on the right for the
+       scrollbar's gutter, so the panel sits evenly inset in its column. */
+    padding: 14px 4px 14px 14px;
     border-radius: var(--radius);
     background: color-mix(in srgb, var(--fill) 45%, transparent);
   }
@@ -2848,17 +2850,19 @@ button.thread:active .thread__title {
 
 /* The next 30 days as whole Monday-first weeks. Decoration beside the list —
    the dot says "something happens", the list says what. */
+/* The gaps have to clear a marked day's own background, or two marked days
+   in a row read as one block. */
 .cal {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 5px;
 }
 
 .cal__head,
 .cal__week {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 2px;
+  gap: 5px;
 }
 
 .cal__dayname {
@@ -2925,15 +2929,12 @@ button.thread:active .thread__title {
 }
 
 /* The settings' category filters, within reach of the stories they hide. */
-.plan__filters .cat-toggles {
-  margin-top: 0;
+.plan__filters {
+  padding-bottom: 18px;
 }
 
-.plan__hint {
-  margin: 12px 0 0;
-  color: var(--text-tertiary);
-  font-size: 12px;
-  line-height: 1.4;
+.plan__filters .cat-toggles {
+  margin-top: 10px;
 }
 
 /* Sharing and the day's thumbs on one line at the foot of the desktop
