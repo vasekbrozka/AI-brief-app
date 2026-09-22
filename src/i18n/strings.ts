@@ -23,6 +23,8 @@ export interface UIStrings {
   /** Segmented switch on the Brief screen: today's brief / the week's top shots. */
   viewToday: string;
   viewWeek: string;
+  /** Desktop: the affordance on a top-shot card, opening that day's brief. */
+  readMoreLabel: string;
   weekSubtitle: string;
   weekEmpty: string;
 
@@ -191,6 +193,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     todayEmptyBody: 'Ještě není hotový. Zkus to za chvíli.',
     viewToday: 'Dnes',
     viewWeek: 'Top shots',
+    readMoreLabel: 'Přečíst více',
     weekSubtitle: 'To nejdůležitější z uplynulého týdne',
     weekEmpty: 'Zatím tu nic není. Top shots se objeví, jakmile bude z čeho vybírat.',
 
@@ -384,6 +387,7 @@ export const STRINGS: Record<Lang, UIStrings> = {
     todayEmptyBody: 'It’s not ready yet. Check back soon.',
     viewToday: 'Today',
     viewWeek: 'Top shots',
+    readMoreLabel: 'Read more',
     weekSubtitle: 'The week’s essential stories',
     weekEmpty: 'Nothing here yet. Top shots appear once there is a week to pick from.',
 

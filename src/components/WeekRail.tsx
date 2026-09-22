@@ -3,6 +3,7 @@ import { useNav } from '../providers/NavProvider';
 import { useWeekTopShots } from '../hooks/useWeekTopShots';
 import { formatDayMonth } from '../lib/format';
 import { CategoryChip } from './CategoryChip';
+import { Icon } from './Icon';
 
 const DATE_PREFIX = /^\d{4}-\d{2}-\d{2}/;
 const SHOWN = 4;
@@ -43,6 +44,12 @@ export function WeekRail() {
                 {date && <span className="shotcard__date">{formatDayMonth(date, lang)}</span>}
               </span>
               <span className="shotcard__title">{item.title[lang]}</span>
+              {/* The whole card is the button — this is the affordance, not a
+                  control of its own, so it must not be one. */}
+              <span className="shotcard__more">
+                {t.readMoreLabel}
+                <Icon name="chevronRight" size={14} />
+              </span>
             </button>
           );
         })}
