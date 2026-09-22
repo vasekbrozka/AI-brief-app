@@ -157,11 +157,31 @@ export function BriefView({
         {!isToday && brief.radar && brief.radar.length > 0 && <RadarSection radar={brief.radar} />}
         {!focus && ratePanel}
         </div>
-        {/* Sharing and the day's rating stay at the foot of the column while
-            the week scrolls above them. */}
+        {/* Sharing and the day's thumbs stay at the foot of the column while
+            the week scrolls above them. The question the phone spells out is
+            the group's label here — the two thumbs say it by themselves. */}
         <div className="side__foot">
-          {shareBlock}
-          {focus && ratePanel}
+          {focus ? (
+            <div className="footbar">
+              <button
+                type="button"
+                className="share-brief"
+                onClick={() => void shareBrief(brief, lang)}
+              >
+                <Icon name="share" size={16} />
+                {t.shareLabel}
+              </button>
+              <div
+                className="footbar__votes"
+                role="group"
+                aria-label={isToday ? t.rateTodayLabel : t.rateBriefLabel}
+              >
+                <VoteButtons id={dayId} />
+              </div>
+            </div>
+          ) : (
+            shareBlock
+          )}
         </div>
       </aside>
 

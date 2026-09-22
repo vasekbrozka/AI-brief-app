@@ -1469,7 +1469,7 @@ button.thread:active .thread__title {
   :root {
     --content-max: 1520px;
     --sidebar-w: 216px;
-    --lead-w: 196px;
+    --lead-w: 230px;
     --side-w: 340px;
   }
 
@@ -1778,8 +1778,10 @@ button.thread:active .thread__title {
 /* Wide enough for a third column: how the day is going moves to the left of
    the stories, and both side columns stand still while the middle scrolls. */
 @media (min-width: 1400px) {
+  /* The stories take the width the window offers, up to a ceiling; the two
+     side columns keep theirs. */
   .screen--reader .screen__content {
-    max-width: calc(var(--lead-w) + 28px + 860px + 28px + var(--side-w));
+    max-width: calc(var(--lead-w) + 28px + 1000px + 28px + var(--side-w));
   }
 
   /* The three columns fill one screen and only the middle one scrolls: the
@@ -1894,54 +1896,11 @@ button.thread:active .thread__title {
     margin-top: 0;
   }
 
-  /* Centred on the column: the count, the tier, then the week under it. */
+  /* The streak keeps the shape it has on a phone — a row of days — just
+     centred on the column it stands in. */
   .brief__lead .streakcard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .brief__lead .sc__head {
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
-    text-align: center;
-  }
-
-  .brief__lead .sc__meta {
-    align-items: center;
-  }
-
-  .brief__lead .sc__num {
-    font-size: 38px;
-  }
-
-  .brief__lead .sc__week {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-top: 18px;
-  }
-
-  .brief__lead .sc__day {
-    flex: 0 0 auto;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-    width: 82px;
-  }
-
-  .brief__lead .sc__day.has-chain::before {
-    top: 50%;
-    left: 12px;
-    width: 2.5px;
-    height: 100%;
-    transform: translateX(-50%);
-  }
-
-  .brief__lead .sc__day small {
-    font-size: 11.5px;
+    margin-top: 0;
+    width: 100%;
   }
 
   /* Right column: the week and the tips scroll inside it, sharing stays put
@@ -1969,8 +1928,18 @@ button.thread:active .thread__title {
     margin-top: 0;
   }
 
-  .brief--focus .side__foot .rate {
-    margin-top: 10px;
+  /* Sharing and the day's thumbs on one line. */
+  .footbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .footbar__votes {
+    display: flex;
+    align-items: center;
+    gap: 6px;
   }
 
   /* One column of stories, however wide the window gets. */
