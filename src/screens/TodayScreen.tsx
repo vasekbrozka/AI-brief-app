@@ -88,7 +88,7 @@ export function TodayScreen() {
   const subtitle = (
     <div className="headmeta">
       <span className="headmeta__text">{metaText}</span>
-      {!desktop && bars}
+      {bars}
     </div>
   );
 

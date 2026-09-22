@@ -11,7 +11,6 @@ import { VoteButtons } from './VoteButtons';
 import { BriefItemCard } from './BriefItemCard';
 import { CategoryChip } from './CategoryChip';
 import { WeekRail } from './WeekRail';
-import { ReadBars } from './ReadBars';
 import { TermOfDay } from './TermOfDay';
 import { RatePrompt } from './RatePrompt';
 import { RadarSection } from './RadarSection';
@@ -114,18 +113,11 @@ export function BriefView({
         )}
       </div>
 
-      {/* The desktop's left column answers "how am I doing": the day's progress
-          at the top, the week's streak standing in the middle, and the day's
-          rating at the foot. */}
+      {/* The desktop's left column holds the week's streak, standing in the
+          middle of it. */}
       {focus && (
         <aside className="brief__lead">
-          <div className="lead__top">
-            {shown.length > 0 && (
-              <ReadBars read={readShownCount} total={shown.length} lang={lang} />
-            )}
-          </div>
           <div className="lead__mid">{streakBlock}</div>
-          <div className="lead__foot">{ratePanel}</div>
         </aside>
       )}
 
@@ -165,7 +157,12 @@ export function BriefView({
         {!isToday && brief.radar && brief.radar.length > 0 && <RadarSection radar={brief.radar} />}
         {!focus && ratePanel}
         </div>
-        <div className="side__foot">{shareBlock}</div>
+        {/* Sharing and the day's rating stay at the foot of the column while
+            the week scrolls above them. */}
+        <div className="side__foot">
+          {shareBlock}
+          {focus && ratePanel}
+        </div>
       </aside>
 
       {/* The moment the last story is read, one gentle ask for the day's rating. */}

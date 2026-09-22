@@ -1632,20 +1632,13 @@ button.thread:active .thread__title {
     width: 260px;
   }
 
-  /* In the reader the progress moves up beside the title, where it has room
-     to run longer; the meta line keeps the words. */
-  .headprogress {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .headprogress .readbars {
-    width: 280px;
+  /* The day's progress runs from the end of the meta line to the right edge
+     of the story column. */
+  .headmeta .readbars {
     max-width: none;
-    margin: 0;
   }
 
-  .headprogress .readbars__seg {
+  .headmeta .readbars__seg {
     height: 6px;
   }
 
@@ -1688,9 +1681,6 @@ button.thread:active .thread__title {
     grid-row: 2;
   }
 
-  .brief--focus .lead__top {
-    margin-top: 22px;
-  }
 
   /* The week column carries a lot (top shots, tips, streak, rating), more
      than a screen: pinning it would cut its foot off, so it scrolls. */
@@ -1792,77 +1782,107 @@ button.thread:active .thread__title {
     max-width: calc(var(--lead-w) + 28px + 860px + 28px + var(--side-w));
   }
 
-  /* The header moves over the first column, so the title still starts where
-     the stories do. */
-  .screen--reader .large-title {
-    margin-left: calc(var(--lead-w) + 28px);
+  /* The three columns fill one screen and only the middle one scrolls: the
+     page itself does not move, so the header, the day's standing and the week
+     stay exactly where they are. */
+  .screen--reader {
+    height: 100dvh;
+    overflow: hidden;
   }
 
-  .screen--wide .brief--focus {
+  /* The screen itself is the grid: `display: contents` lifts the brief's three
+     columns into it, so the side columns start at the very top, level with
+     the date, while only the header sits above the stories. */
+  .screen--reader .screen__content {
+    flex: 1;
+    min-height: 0;
+    display: grid;
     grid-template-columns: var(--lead-w) minmax(0, 1fr) var(--side-w);
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    column-gap: 28px;
+    padding-bottom: 22px;
   }
 
-  .brief--focus .brief__main {
+  .screen--reader .brief--focus {
+    display: contents;
+  }
+
+  .screen--reader .large-title,
+  .screen--reader .scroll-sentinel {
     grid-column: 2;
-  }
-
-  .brief--focus .brief__side {
-    grid-column: 3;
-  }
-
-  .brief--focus .brief__lead {
-    grid-column: 1;
     grid-row: 1;
   }
 
-  /* Both side columns hold one screen and stay there; only the stories move.
-     The height is measured from where they start (under the page header), not
-     from the sticky offset, so nothing is cut off before the first scroll. */
+  /* Nothing scrolls the page here, so the floating page bar has no job: the
+     header never leaves the screen and the stories carry their own scroll. */
+  .screen--reader .navbar {
+    display: none;
+  }
+
+  .screen--reader .large-title {
+    margin-left: 0;
+  }
+
+  /* Both side columns run the whole height, beside the header as well. */
+  .screen--reader .brief--focus .brief__lead {
+    grid-column: 1;
+    grid-row: 1 / 4;
+  }
+
+  .screen--reader .brief--focus .brief__side {
+    grid-column: 3;
+    grid-row: 1 / 4;
+  }
+
   .brief--focus .brief__lead,
   .brief--focus .brief__side {
-    position: sticky;
-    top: calc(var(--nav-height) + 14px);
-    height: calc(100dvh - 168px);
+    height: 100%;
+    min-height: 0;
     display: flex;
     flex-direction: column;
     padding-top: 0;
   }
 
-  /* Left column: progress at the top, the streak centred in what is left,
-     the day's rating at the foot. */
-  .brief--focus .lead__top {
+  /* A quiet wash behind the week, so it reads as its own section rather than
+     more of the page. */
+  .screen--reader .brief--focus .brief__side {
+    padding: 14px 14px 12px;
+    border-radius: var(--radius);
+    background: color-mix(in srgb, var(--fill) 45%, transparent);
+  }
+
+  /* The stories carry the only scrollbar on the screen. */
+  .screen--reader .brief--focus .brief__main {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .brief--focus .brief__main {
+    min-height: 0;
+    overflow-y: auto;
+    padding-right: 6px;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+  }
+
+  .brief--focus .brief__main .items {
     margin-top: 0;
-    padding: 4px 2px 0;
+    padding: 4px 0 10px;
   }
 
-  .brief--focus .lead__top .readbars {
-    width: 100%;
-    max-width: none;
-    margin: 0;
+  .screen--reader .brief--focus > .filtered-note,
+  .screen--reader .brief--focus > .sample-note {
+    grid-column: 2;
+    grid-row: 3;
   }
 
-  .brief--focus .lead__top .readbars__seg {
-    height: 7px;
-  }
-
+  /* Left column: the streak centred, the day's rating at the foot. */
   .brief--focus .lead__mid {
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 0;
-  }
-
-  .brief--focus .lead__foot {
-    flex: 0 0 auto;
-  }
-
-  .brief--focus .lead__foot .rate {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-top: 0;
-    text-align: center;
   }
 
   .brief__lead .streak-divider {
@@ -1947,6 +1967,10 @@ button.thread:active .thread__title {
 
   .brief--focus .side__foot .share-brief-wrap {
     margin-top: 0;
+  }
+
+  .brief--focus .side__foot .rate {
+    margin-top: 10px;
   }
 
   /* One column of stories, however wide the window gets. */
