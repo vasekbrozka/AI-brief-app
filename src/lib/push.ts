@@ -35,6 +35,48 @@ function currentLang(): 'cs' | 'en' {
   }
 }
 
+/** Tell the server to forget an endpoint it can no longer deliver to. */
+async function forgetOnServer(endpoint: string): Promise<void> {
+  await fetch(SUBSCRIBE_ENDPOINT, {
+    method: 'DELETE',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ endpoint }),
+  }).catch(() => {});
+}
+
+/**
+ * Whether a subscription was made with the VAPID key this build ships. A
+ * subscription outlives a key rotation: the browser keeps handing back the old
+ * one, and the push service then rejects every message signed with the new key
+ * (403, which is not the 404/410 the sender prunes on). So the key has to be
+ * compared, not just the subscription's existence.
+ */
+function keyMatches(sub: PushSubscription): boolean {
+  const key = sub.options?.applicationServerKey;
+  // Some browsers do not expose it; assume it is fine rather than churn.
+  if (!key) return true;
+  const want = urlBase64ToUint8Array(VAPID_PUBLIC_KEY);
+  const have = new Uint8Array(key);
+  return have.length === want.length && have.every((b, i) => b === want[i]);
+}
+
+/**
+ * The subscription for the current key — re-subscribing, and retiring the old
+ * endpoint, when the key has moved on.
+ */
+async function currentSubscription(reg: ServiceWorkerRegistration): Promise<PushSubscription> {
+  const existing = await reg.pushManager.getSubscription();
+  if (existing) {
+    if (keyMatches(existing)) return existing;
+    await forgetOnServer(existing.endpoint);
+    await existing.unsubscribe().catch(() => {});
+  }
+  return reg.pushManager.subscribe({
+    userVisibleOnly: true,
+    applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
+  });
+}
+
 async function registerOnServer(sub: PushSubscription): Promise<boolean> {
   const res = await fetch(SUBSCRIBE_ENDPOINT, {
     method: 'POST',
@@ -50,12 +92,7 @@ export async function enablePush(): Promise<boolean> {
   const permission = await Notification.requestPermission();
   if (permission !== 'granted') return false;
   const reg = await navigator.serviceWorker.ready;
-  const sub =
-    (await reg.pushManager.getSubscription()) ??
-    (await reg.pushManager.subscribe({
-      userVisibleOnly: true,
-      applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
-    }));
+  const sub = await currentSubscription(reg);
   const ok = await registerOnServer(sub);
   if (!ok) await sub.unsubscribe().catch(() => {});
   return ok;
@@ -75,8 +112,9 @@ export async function disablePush(): Promise<void> {
 }
 
 /**
- * Self-heal on app start: iOS occasionally drops PWA push subscriptions.
- * If the user opted in and permission is still granted, quietly re-subscribe
+ * Self-heal on app start: iOS occasionally drops PWA push subscriptions, and a
+ * VAPID key rotation silently invalidates the ones it keeps. If the user opted
+ * in and permission is still granted, quietly (re)subscribe for the current key
  * and refresh the server copy.
  */
 export async function ensureSubscribed(): Promise<void> {
@@ -85,13 +123,7 @@ export async function ensureSubscribed(): Promise<void> {
   if (Notification.permission !== 'granted') return;
   try {
     const reg = await navigator.serviceWorker.ready;
-    const sub =
-      (await reg.pushManager.getSubscription()) ??
-      (await reg.pushManager.subscribe({
-        userVisibleOnly: true,
-        applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
-      }));
-    await registerOnServer(sub);
+    await registerOnServer(await currentSubscription(reg));
   } catch {
     /* offline or blocked — try again next launch */
   }

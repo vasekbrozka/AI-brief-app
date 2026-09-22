@@ -62,6 +62,12 @@ export default async () => {
       const code = err?.statusCode;
       if (code === 404 || code === 410) {
         console.log('dropping dead subscription');
+      } else if (code === 401 || code === 403) {
+        // Signed with a VAPID key this subscription was not made for. Keep it:
+        // the client retires it itself on next launch, and dropping here would
+        // wipe every subscriber the one time the key is misconfigured.
+        console.error('VAPID mismatch for a subscription — it will re-subscribe on next launch');
+        alive.push(sub);
       } else {
         console.error('send failed:', code ?? err);
         alive.push(sub);
