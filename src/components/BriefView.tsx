@@ -140,9 +140,8 @@ export function BriefView({
         )}
 
         {/* The streak card is the reward for the reading, so it follows the
-            cards directly — its celebration must not fire off-screen. On a
-            desktop that means the foot of the week's column. */}
-        {streakBlock}
+            cards directly — its celebration must not fire off-screen. */}
+        {!focus && streakBlock}
 
         {/* Once everything is read: a term to learn, then the rating and sharing. */}
         {isToday && allRead && <TermOfDay date={brief.date} />}
@@ -150,10 +149,11 @@ export function BriefView({
         {!isToday && brief.radar && brief.radar.length > 0 && <RadarSection radar={brief.radar} />}
         {!focus && ratePanel}
         </div>
-        {/* Sharing and the day's thumbs stay at the foot of the column while
-            the week scrolls above them. The question the phone spells out is
+        {/* The streak, sharing and the day's thumbs stay at the foot of the
+            column while the week scrolls above them. The question the phone spells out is
             the group's label here — the two thumbs say it by themselves. */}
         <div className="side__foot">
+          {focus && streakBlock}
           {focus ? (
             <div className="footbar">
               <button

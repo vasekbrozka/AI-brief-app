@@ -1770,10 +1770,10 @@ button.thread:active .thread__title {
 /* Wide enough for a third column: how the day is going moves to the left of
    the stories, and both side columns stand still while the middle scrolls. */
 @media (min-width: 1400px) {
-  /* The stories take the width the window offers, up to a ceiling; the week
-     keeps its own. */
+  /* The stories hug the sidebar and the week hugs the right edge; whatever
+     the window has over is the gap between them. */
   .screen--reader .screen__content {
-    max-width: calc(1100px + 28px + var(--side-w));
+    max-width: none;
   }
 
   /* The three columns fill one screen and only the middle one scrolls: the
@@ -1791,7 +1791,7 @@ button.thread:active .thread__title {
     flex: 1;
     min-height: 0;
     display: grid;
-    grid-template-columns: minmax(0, 1fr) var(--side-w);
+    grid-template-columns: minmax(0, 980px) minmax(0, 1fr) var(--side-w);
     grid-template-rows: auto minmax(0, 1fr) auto;
     column-gap: 28px;
     padding-bottom: 22px;
@@ -1819,7 +1819,7 @@ button.thread:active .thread__title {
 
   /* The week runs the whole height, beside the header as well. */
   .screen--reader .brief--focus .brief__side {
-    grid-column: 2;
+    grid-column: 3;
     grid-row: 1 / 4;
     height: 100%;
     min-height: 0;
@@ -1880,6 +1880,15 @@ button.thread:active .thread__title {
     flex: 0 0 auto;
     padding-top: 12px;
     border-top: 1px solid var(--hairline);
+  }
+
+  /* The streak sits at the foot with the sharing, not adrift in the scroll. */
+  .brief--focus .side__foot .streak-divider {
+    margin: 2px 2px 6px;
+  }
+
+  .brief--focus .side__foot .streakcard {
+    margin: 0 0 12px;
   }
 
   .brief--focus .side__foot .share-brief-wrap {
