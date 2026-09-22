@@ -62,9 +62,12 @@ položka do briefu nepatří.
    - `data/briefs/tips-backlog.json` — fronta a historie tipů; spočítej, kolik tipů
      čeká (`used: null`) pro každé téma,
    - `data/glossary.json` — slovníček pojmů (viz krok 4b),
-   - `data/briefs/feedback.json` — palce nahoru/dolů od čtenářů za 30 dní, když soubor
-     existuje (viz sekce Zpětná vazba čtenářů); čerstvější stav dá
-     `curl -sS --max-time 10 "https://aispresso.app/api/feedback?days=30"`, pokud síť pustí,
+   - **zpětná vazba čtenářů** (viz sekce níže): stáhni si čerstvý stav a rovnou ho ulož,
+     ať ho má i kontrola a archiv —
+     `curl -sS --max-time 10 "https://aispresso.app/api/feedback?days=30" -o data/briefs/feedback.json`.
+     Endpoint vrací přesně ten tvar, který soubor má. Když `curl` selže nebo vrátí
+     nevalidní JSON, **soubor nepřepisuj** (zůstane včerejší stav) a pokračuj bez něj —
+     zpětná vazba je měkký signál, ne podmínka běhu,
    - `python3 docs/check-brief.py --stats` — čísla za posledních 14 dnů včetně zpětné
      vazby (do deníku).
 
@@ -280,8 +283,10 @@ python3 docs/check-brief.py
    **60 dní** zahoď.
 4. `tips-backlog.json`: u zveřejněných tipů nastav `used`; nové kandidáty přidej;
    použité starší 90 dnů ven.
-5. Kontrola (krok 6) prošla bez FAIL → commit a push **jen obsahu** (briefy, ledgery
-   i slovníček; Netlify adresář `data/` nenasazuje):
+5. `data/briefs/feedback.json`: stažený stav z kroku 0 (když se stáhnout nepodařilo,
+   nech v repu ten starý — nikdy ho nemaž ani nepřepisuj prázdným).
+6. Kontrola (krok 6) prošla bez FAIL → commit a push **jen obsahu** (briefy, ledgery,
+   slovníček i zpětnou vazbu; Netlify adresář `data/` nenasazuje):
    ```bash
    git add data/
    git commit -F <soubor s deníkem>
@@ -348,8 +353,12 @@ a `used` přesné a nikdy záznamy nepřepisuj zpětně.
 
 U každé novinky má čtenář palec nahoru/dolů a na konci briefu jeden palec pro celý den
 (id `<datum>-brief`). Ukládají se jen počítadla u id (žádný uživatel, zařízení ani IP);
-appka je ukazuje všem čtenářům. Funkce na Netlify je každou noc ve 2:30 UTC zapisuje do
-repa jako `data/briefs/feedback.json` (posledních 30 dní):
+appka je ukazuje všem čtenářům a drží je v Netlify Blobs 60 dní.
+
+**Kde je vzít:** `GET https://aispresso.app/api/feedback?days=30` — veřejný endpoint bez
+klíče. V kroku 0 si ho stáhni rovnou do `data/briefs/feedback.json` a commitni ho
+s briefem (krok 7); soubor je tím zároveň archiv a vstup pro `check-brief.py --stats`.
+Tvar je v obou místech stejný (posledních 30 dní):
 
 ```jsonc
 {
@@ -537,6 +546,12 @@ Kompletní ukázka: `docs/examples/brief-v3-example.json`
   na pokyn v session.
 
 ## Změny v3.5 (22. 9. 2026)
+
+**Zpětná vazba bez tokenu:** hlasy čtenářů si stahuje samo generování z veřejného
+`GET /api/feedback?days=30` rovnou do `data/briefs/feedback.json` a commitne je s briefem.
+Noční funkce `feedback-sync` na Netlify, která na totéž potřebovala `GITHUB_TOKEN`
+a bez něj celou dobu jen logovala, je zrušená — nic v projektu už žádný PAT nepotřebuje.
+
 
 Brief dlouhodobě vycházel na **3,5 položky denně** (cíl byl 6–10) a **51 % položek byly
 byznys a regulace** (strop byl ~⅓), zatímco modely měly za deset dní jedinou položku.

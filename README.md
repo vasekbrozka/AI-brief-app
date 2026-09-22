@@ -96,10 +96,13 @@ Případně jde nahrát ručně: `npm run build` a přetáhnout složku `dist/` 
 | Proměnná | K čemu | Bez ní |
 |---|---|---|
 | `VAPID_PRIVATE_KEY` | ranní push notifikace (`netlify/functions/push-daily.mjs`) | notifikace se neposílají |
-| `GITHUB_TOKEN` | noční zápis zpětné vazby čtenářů do `data/briefs/feedback.json` (`feedback-sync.mjs`); fine-grained token jen pro tento repozitář s právem **Contents: Read and write** | palce se sbírají v Netlify Blobs a jsou k dispozici přes `GET /api/feedback`, do repa se nezapisují |
 
-Serverless funkce: `push-subscribe` (odběr notifikací), `push-daily` (05:15 UTC), `feedback`
-(`POST`/`GET /api/feedback`, jen počítadla u id novinky), `feedback-sync` (02:30 UTC).
+Jiná proměnná potřeba není. Zpětnou vazbu čtenářů si generování stahuje samo z veřejného
+`GET /api/feedback?days=30` do `data/briefs/feedback.json` (viz `docs/brief-generation.md`),
+takže projekt nepotřebuje žádný GitHub token.
+
+Serverless funkce: `push-subscribe` (odběr notifikací), `push-daily` (05:15 UTC) a `feedback`
+(`POST`/`GET /api/feedback`, jen počítadla u id novinky).
 
 ## Přidání na plochu iPhonu
 

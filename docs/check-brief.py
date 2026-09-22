@@ -803,7 +803,7 @@ def main() -> int:
             fb = json.load(open(FEEDBACK, encoding="utf-8"))
             items_fb = fb.get("items") if isinstance(fb, dict) else None
             if not isinstance(items_fb, dict):
-                warn("feedback.json nemá pole items — zkontroluj noční funkci feedback-sync")
+                warn("feedback.json nemá pole items — stáhni ho znovu z GET /api/feedback")
             else:
                 for k, v in items_fb.items():
                     if not isinstance(v, dict) or not isinstance(v.get("up", 0), int) or not isinstance(v.get("down", 0), int):
