@@ -24,11 +24,7 @@ export function WeekRail() {
   if (status !== 'ready' || !data || data.items.length === 0) return null;
 
   return (
-    <>
-      <div className="section-divider">
-        <span>{t.viewWeek}</span>
-      </div>
-      <div className="shots">
+    <div className="shots" aria-label={t.viewWeek}>
         {data.items.slice(0, SHOWN).map((item) => {
           const date = DATE_PREFIX.exec(item.id)?.[0];
           return (
@@ -52,8 +48,7 @@ export function WeekRail() {
               </span>
             </button>
           );
-        })}
-      </div>
-    </>
+      })}
+    </div>
   );
 }

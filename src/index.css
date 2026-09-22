@@ -1916,6 +1916,13 @@ button.thread:active .thread__title {
     padding-right: 10px;
   }
 
+  /* With the section labels gone, the panels space themselves. */
+  .brief--focus .brief__plan .side__scroll {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
   /* The columns' scrollbars in the app's own colours. Only the colour and the
      width are set: styling ::-webkit-scrollbar would turn the platform's
      overlay bar into a classic one that takes layout width and never hides,
@@ -1941,29 +1948,22 @@ button.thread:active .thread__title {
     margin-top: 0;
   }
 
+  /* Pinned at the head of the column, with the week scrolling under it. */
+  .brief--focus .side__head {
+    flex: 0 0 auto;
+    padding-bottom: 14px;
+  }
+
+  .brief--focus .side__head .termday .section-divider {
+    margin-top: 0;
+  }
+
   .brief--focus .side__foot {
     flex: 0 0 auto;
-    padding-top: 10px;
-  }
-
-  /* The term of the day closes the week's column, level with the panels above. */
-  .brief--focus .side__foot .termday .section-divider {
-    margin-top: 2px;
-  }
-
-  .brief--focus .side__foot .termday {
-    margin-bottom: 12px;
-  }
-
-  .brief--focus .side__foot .termday:last-child {
-    margin-bottom: 0;
+    padding-top: 14px;
   }
 
   /* The streak sits at the foot with the sharing, not adrift in the scroll. */
-  .brief--focus .side__foot .streak-divider {
-    margin: 2px 2px 6px;
-  }
-
   .brief--focus .side__foot .streakcard {
     margin: 0 0 12px;
   }

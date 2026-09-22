@@ -98,9 +98,12 @@ export function BriefView({
 
   const streakBlock = isToday && showCard && (
     <>
-      <div className="streak-divider">
-        <span>{t.streakSectionLabel}</span>
-      </div>
+      {/* The desktop's columns label nothing: a card says what it is. */}
+      {!focus && (
+        <div className="streak-divider">
+          <span>{t.streakSectionLabel}</span>
+        </div>
+      )}
       <WeekStreak
         todayProgress={progress}
         done={allRead}
@@ -135,9 +138,8 @@ export function BriefView({
     </>
   );
 
-  // The week's column, when there is room for it, closes with the term of the
-  // day; off the reader this is where the phone's sharing sits.
-  const sideFoot = focus ? isToday && <TermOfDay date={brief.date} /> : shareBlock;
+  // Off the reader, the foot of this column is where the phone's sharing sits.
+  // The reader has nothing to pin there.
 
   // The week is the first thing to go when the window narrows: the month ahead
   // and the filters are what stay beside the stories.
@@ -163,20 +165,21 @@ export function BriefView({
 
       {/* Desktop's right-hand column, the one every desktop has room for: the
           month ahead, the category filters beside the stories they hide, and
-          the streak and sharing pinned under them. The term of the day joins
-          it when the week's column is the one that had to go — above the foot,
-          not in it, or the filters would be pushed out of view. */}
-      {focus && (
-        <PlanColumn
-          today={brief.date}
-          radar={brief.radar}
-          tail={!wide && isToday ? <TermOfDay date={brief.date} /> : undefined}
-          foot={footBlock}
-        />
-      )}
+          the streak and sharing pinned under them. */}
+      {focus && <PlanColumn today={brief.date} radar={brief.radar} foot={footBlock} />}
 
       {showSide && (
       <aside className="brief__side">
+        {/* The term of the day heads this column and stays put: the week runs
+            on under it and off the bottom of the page, like the stories. It is
+            never moved into the tinted panel when this column has to go — it
+            would push the filters out of view — so on a narrower window it is
+            simply not on the desktop at all. */}
+        {focus && isToday && (
+          <div className="side__head">
+            <TermOfDay date={brief.date} />
+          </div>
+        )}
         <div
           className={`side__scroll${sideScroll.more ? ' has-more' : ''}`}
           ref={sideScroll.ref}
@@ -210,7 +213,8 @@ export function BriefView({
         {!focus && streakBlock}
 
         {/* A term to learn, there from the start rather than as a reward for
-            finishing. On a desktop it is pinned to the foot of this column. */}
+            finishing. The phone's only, for now — the desktop's columns have
+            no room to spare for it. */}
         {!focus && isToday && <TermOfDay date={brief.date} />}
 
         {!isToday && brief.radar && brief.radar.length > 0 && <RadarSection radar={brief.radar} />}
@@ -220,7 +224,7 @@ export function BriefView({
             column while the week scrolls above them — until the window is wide
             enough for the month ahead to become the right-hand column and take
             them over. */}
-        <div className="side__foot">{sideFoot}</div>
+        {!focus && <div className="side__foot">{shareBlock}</div>}
       </aside>
       )}
 

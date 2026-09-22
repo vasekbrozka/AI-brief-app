@@ -138,14 +138,10 @@ function CalendarGrid({ today, radar }: { today: string; radar: RadarItem[] }) {
 export function PlanColumn({
   today,
   radar = [],
-  tail,
   foot,
 }: {
   today: string;
   radar?: RadarItem[];
-  /** Follows the filters inside the scroll — what the week's column would
-      otherwise have carried, when there is no week's column. */
-  tail?: ReactNode;
   /** The streak and the sharing row, pinned to the column's foot. */
   foot?: ReactNode;
 }) {
@@ -163,11 +159,7 @@ export function PlanColumn({
   return (
     <aside className="brief__plan" aria-label={t.planColumnLabel}>
       <div className={`side__scroll${scroll.more ? ' has-more' : ''}`} ref={scroll.ref}>
-        <div className="section-divider">
-          <span>{t.radarTitle}</span>
-        </div>
-
-        <div className="panel plan__cal">
+        <div className="panel plan__cal" aria-label={t.radarTitle}>
           <p className="plan__range">{t.planRangeLabel}</p>
           <CalendarGrid today={today} radar={upcoming} />
           {upcoming.length > 0 && (
@@ -180,10 +172,6 @@ export function PlanColumn({
               ))}
             </ul>
           )}
-        </div>
-
-        <div className="section-divider">
-          <span>{t.planFiltersLabel}</span>
         </div>
 
         <div className="panel plan__filters">
@@ -205,8 +193,6 @@ export function PlanColumn({
           </div>
           <p className="plan__hint">{t.planFiltersHint}</p>
         </div>
-
-        {tail}
       </div>
 
       {foot && <div className="side__foot">{foot}</div>}
