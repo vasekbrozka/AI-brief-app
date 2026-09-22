@@ -102,6 +102,9 @@ export interface UIStrings {
   sectionLanguage: string;
   sectionAppearance: string;
   sectionCategories: string;
+  /** Filters beside the categories. */
+  filterHighlight: string;
+  filterTip: string;
   categoriesShownHint: string;
   sectionInstall: string;
   sectionHowItWorks: string;
@@ -258,6 +261,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
     sectionLanguage: 'Jazyk',
     sectionAppearance: 'Vzhled',
     sectionCategories: 'Kategorie',
+    filterHighlight: 'Hlavní zpráva',
+    filterTip: 'Tipy a triky',
     categoriesShownHint:
       'Vypnuté kategorie se v přehledu nezobrazí. Hlavní zpráva zůstane viditelná vždy.',
     sectionInstall: 'Přidat na plochu',
@@ -446,6 +451,8 @@ export const STRINGS: Record<Lang, UIStrings> = {
     sectionLanguage: 'Language',
     sectionAppearance: 'Appearance',
     sectionCategories: 'Categories',
+    filterHighlight: 'Top story',
+    filterTip: 'Tips and tricks',
     categoriesShownHint:
       'Disabled categories won’t appear in the brief. The top story always stays visible.',
     sectionInstall: 'Add to Home Screen',

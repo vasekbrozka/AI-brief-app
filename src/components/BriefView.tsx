@@ -29,7 +29,7 @@ export function BriefView({
   /** Desktop: one story at a time instead of a list of cards. */
   focus?: boolean;
 }) {
-  const { lang, t, hideRead, mutedCategories, gamification } = useSettings();
+  const { lang, t, hideRead, mutedCategories, mutedKinds, gamification } = useSettings();
   // Wide enough for four columns: the month ahead becomes the right-hand one
   // and takes the streak and the sharing with it.
   const wide = useMediaQuery(WIDE_QUERY);
@@ -47,7 +47,10 @@ export function BriefView({
 
   // Muted categories drop out of the brief — but the day's top story always
   // stays, so muting never silently swallows the single highlight.
-  const shown = useMemo(() => visibleItems(brief.items, mutedCategories), [brief, mutedCategories]);
+  const shown = useMemo(
+    () => visibleItems(brief.items, mutedCategories, mutedKinds),
+    [brief, mutedCategories, mutedKinds],
+  );
   const hiddenCount = brief.items.length - shown.length;
 
   const readShownCount = shown.filter((item) => isRead(item.id)).length;

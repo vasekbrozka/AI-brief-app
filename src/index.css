@@ -791,6 +791,13 @@ button.thread:active .thread__title {
   cursor: pointer;
 }
 
+/* Not a category but a kind — neutral, so the six tinted chips stay a set. */
+.cat-toggle--kind.is-on {
+  background: var(--fill);
+  color: var(--text);
+  border-color: transparent;
+}
+
 .cat-toggle:not(.is-on) {
   background: var(--fill);
   color: var(--text-tertiary);

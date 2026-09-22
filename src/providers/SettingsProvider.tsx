@@ -8,6 +8,7 @@ import {
 } from 'react';
 import type { CategoryId, Lang } from '../lib/types';
 import { CATEGORY_ORDER } from '../lib/categories';
+import { ITEM_KINDS, type ItemKind } from '../lib/briefStats';
 import { STRINGS, type UIStrings } from '../i18n/strings';
 
 export type Theme = 'auto' | 'light' | 'dark';
@@ -23,6 +24,9 @@ interface SettingsContextValue {
   /** Categories the reader has hidden from the brief. */
   mutedCategories: CategoryId[];
   toggleCategory: (id: CategoryId) => void;
+  /** Filters beside the categories: the day's top story, the tips. */
+  mutedKinds: ItemKind[];
+  toggleKind: (id: ItemKind) => void;
   /** Reading streak / closing ritual — on by default, fully optional. */
   gamification: boolean;
   setGamification: (v: boolean) => void;
@@ -48,6 +52,7 @@ const HIDE_READ_KEY = 'aibrief.hideRead';
 // (default2 was the earlier ON migration, default3 the 1.6 OFF one.)
 const HIDE_READ_DEFAULTED_KEY = 'aibrief.hideRead.default4';
 const MUTED_CATEGORIES_KEY = 'aibrief.mutedCategories';
+const MUTED_KINDS_KEY = 'aibrief.mutedKinds';
 const GAMIFICATION_KEY = 'aibrief.gamification';
 const GLOSSARY_KEY = 'aibrief.glossary';
 const TODO_KEY = 'aibrief.todo.enabled';
@@ -96,6 +101,18 @@ function detectInitialMuted(): CategoryId[] {
   }
 }
 
+function detectInitialMutedKinds(): ItemKind[] {
+  try {
+    const raw = localStorage.getItem(MUTED_KINDS_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw) as unknown;
+    if (!Array.isArray(parsed)) return [];
+    return ITEM_KINDS.filter((k) => parsed.includes(k));
+  } catch {
+    return [];
+  }
+}
+
 function detectInitialGamification(): boolean {
   try {
     // Default on — only an explicit "0" disables it.
@@ -128,6 +145,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>(detectInitialTheme);
   const [hideRead, setHideRead] = useState<boolean>(detectInitialHideRead);
   const [mutedCategories, setMutedCategories] = useState<CategoryId[]>(detectInitialMuted);
+  const [mutedKinds, setMutedKinds] = useState<ItemKind[]>(detectInitialMutedKinds);
   const [gamification, setGamification] = useState<boolean>(detectInitialGamification);
   const [glossaryEnabled, setGlossaryEnabled] = useState<boolean>(detectInitialGlossary);
   const [todoEnabled, setTodoEnabled] = useState<boolean>(detectInitialTodo);
@@ -179,6 +197,14 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     try {
+      localStorage.setItem(MUTED_KINDS_KEY, JSON.stringify(mutedKinds));
+    } catch {
+      /* ignore */
+    }
+  }, [mutedKinds]);
+
+  useEffect(() => {
+    try {
       localStorage.setItem(GAMIFICATION_KEY, gamification ? '1' : '0');
     } catch {
       /* ignore */
@@ -215,6 +241,11 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
         setMutedCategories((prev) =>
           prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id],
         ),
+      mutedKinds,
+      toggleKind: (id: ItemKind) =>
+        setMutedKinds((prev) =>
+          prev.includes(id) ? prev.filter((k) => k !== id) : [...prev, id],
+        ),
       gamification,
       setGamification,
       glossaryEnabled,
@@ -223,7 +254,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       setTodoEnabled,
       t: STRINGS[lang],
     }),
-    [lang, theme, hideRead, mutedCategories, gamification, glossaryEnabled, todoEnabled],
+    [lang, theme, hideRead, mutedCategories, mutedKinds, gamification, glossaryEnabled, todoEnabled],
   );
 
   return <SettingsContext.Provider value={value}>{children}</SettingsContext.Provider>;

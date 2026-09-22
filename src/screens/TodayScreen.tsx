@@ -26,7 +26,7 @@ type View = 'today' | 'week';
 
 /** The Brief tab: today's brief, or the week's top shots, behind one switch. */
 export function TodayScreen() {
-  const { t, lang, mutedCategories } = useSettings();
+  const { t, lang, mutedCategories, mutedKinds } = useSettings();
   const { isRead } = useRead();
   const { status, data, reload, updated, dates } = useLatestBrief();
   // A wide screen shows the day and the week side by side, so it needs no
@@ -42,8 +42,8 @@ export function TodayScreen() {
   // how long it takes — and, in the floating bar while scrolling, how far
   // the reader already is.
   const shown = useMemo(
-    () => (data ? visibleItems(data.items, mutedCategories) : []),
-    [data, mutedCategories],
+    () => (data ? visibleItems(data.items, mutedCategories, mutedKinds) : []),
+    [data, mutedCategories, mutedKinds],
   );
   const readCount = shown.filter((item) => isRead(item.id)).length;
 

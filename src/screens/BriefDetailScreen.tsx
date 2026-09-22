@@ -14,7 +14,7 @@ import {
 } from '../lib/format';
 
 export function BriefDetailScreen({ date, onBack }: { date: string; onBack: () => void }) {
-  const { t, lang, mutedCategories } = useSettings();
+  const { t, lang, mutedCategories, mutedKinds } = useSettings();
   const { status, data, reload } = useBrief(date);
 
   const backButton = (
@@ -25,7 +25,7 @@ export function BriefDetailScreen({ date, onBack }: { date: string; onBack: () =
   );
 
   // Same header facts as Today: the date, how many stories, how long.
-  const shown = data ? visibleItems(data.items, mutedCategories) : [];
+  const shown = data ? visibleItems(data.items, mutedCategories, mutedKinds) : [];
   const subtitle = (
     <>
       {capitalizeFirst(formatFullDate(date, lang))}

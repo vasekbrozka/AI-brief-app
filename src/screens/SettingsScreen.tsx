@@ -10,6 +10,7 @@ import { useRead } from '../providers/ReadProvider';
 import { useStreak } from '../providers/StreakProvider';
 import { useNotifications } from '../hooks/useNotifications';
 import { CATEGORIES, CATEGORY_ORDER } from '../lib/categories';
+import { ITEM_KINDS } from '../lib/briefStats';
 import { streakLabel } from '../lib/format';
 
 function SettingsGroup({ title, children }: { title: string; children: ReactNode }) {
@@ -32,6 +33,8 @@ export function SettingsScreen({ onOpenAbout }: { onOpenAbout: () => void }) {
     setHideRead,
     mutedCategories,
     toggleCategory,
+    mutedKinds,
+    toggleKind,
     gamification,
     setGamification,
     glossaryEnabled,
@@ -90,6 +93,21 @@ export function SettingsScreen({ onOpenAbout }: { onOpenAbout: () => void }) {
                 onClick={() => toggleCategory(c)}
               >
                 {CATEGORIES[c].label[lang]}
+              </button>
+            );
+          })}
+          {/* What a story is, beside what it is about. */}
+          {ITEM_KINDS.map((k) => {
+            const on = !mutedKinds.includes(k);
+            return (
+              <button
+                key={k}
+                type="button"
+                className={`cat-toggle cat-toggle--kind${on ? ' is-on' : ''}`}
+                aria-pressed={on}
+                onClick={() => toggleKind(k)}
+              >
+                {k === 'highlight' ? t.filterHighlight : t.filterTip}
               </button>
             );
           })}

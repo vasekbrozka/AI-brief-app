@@ -1,10 +1,29 @@
-import type { BriefItem, CategoryId, Lang } from './types';
+import { isTip, type BriefItem, type CategoryId, type Lang } from './types';
 
-/** The stories the reader sees: muted categories drop out, the day's top story always stays. */
-export function visibleItems(items: BriefItem[], muted: readonly CategoryId[]): BriefItem[] {
-  if (muted.length === 0) return items;
-  const set = new Set(muted);
-  return items.filter((item) => item.highlight || !set.has(item.category));
+/** What a story is, beside its category — each its own filter. */
+export type ItemKind = 'highlight' | 'tip';
+
+export const ITEM_KINDS: ItemKind[] = ['highlight', 'tip'];
+
+/**
+ * The stories the reader sees. A story is judged by the one filter that fits
+ * it: the day's top story by "top story", a tip by "tips" and its category,
+ * everything else by its category alone — so muting a category still never
+ * swallows the highlight, only the highlight filter does.
+ */
+export function visibleItems(
+  items: BriefItem[],
+  muted: readonly CategoryId[],
+  mutedKinds: readonly ItemKind[] = [],
+): BriefItem[] {
+  if (muted.length === 0 && mutedKinds.length === 0) return items;
+  const cats = new Set(muted);
+  const kinds = new Set(mutedKinds);
+  return items.filter((item) => {
+    if (item.highlight) return !kinds.has('highlight');
+    if (isTip(item)) return !kinds.has('tip') && !cats.has(item.category);
+    return !cats.has(item.category);
+  });
 }
 
 // Silent reading of plain Czech/English prose; the summaries are short, so the

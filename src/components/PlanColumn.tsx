@@ -6,6 +6,7 @@ import { useBriefIndex } from '../hooks/useBrief';
 import { shiftDate, capitalizeFirst, formatWeekdayDate } from '../lib/format';
 import { ARCHIVE_DAYS } from '../lib/archive';
 import { CATEGORIES, CATEGORY_ORDER } from '../lib/categories';
+import { ITEM_KINDS } from '../lib/briefStats';
 import { useScrollFade } from '../hooks/useScrollFade';
 
 const LOCALE = { cs: 'cs-CZ', en: 'en-US' } as const;
@@ -184,7 +185,7 @@ export function PlanColumn({
   /** The streak and the sharing row, pinned to the column's foot. */
   foot?: ReactNode;
 }) {
-  const { lang, t, mutedCategories, toggleCategory } = useSettings();
+  const { lang, t, mutedCategories, toggleCategory, mutedKinds, toggleKind } = useSettings();
   const { openBriefDate } = useNav();
   const { data: index } = useBriefIndex();
   // This column ends in pinned content too, so it fades the same way.
@@ -224,6 +225,21 @@ export function PlanColumn({
                   onClick={() => toggleCategory(c)}
                 >
                   {CATEGORIES[c].label[lang]}
+                </button>
+              );
+            })}
+            {/* What a story is, beside what it is about. */}
+            {ITEM_KINDS.map((k) => {
+              const on = !mutedKinds.includes(k);
+              return (
+                <button
+                  key={k}
+                  type="button"
+                  className={`cat-toggle cat-toggle--kind${on ? ' is-on' : ''}`}
+                  aria-pressed={on}
+                  onClick={() => toggleKind(k)}
+                >
+                  {k === 'highlight' ? t.filterHighlight : t.filterTip}
                 </button>
               );
             })}
