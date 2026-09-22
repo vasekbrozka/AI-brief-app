@@ -24,17 +24,20 @@ KINDS = {"news", "tip"}
 V3_FROM = "2026-09-20"
 
 # --- meze (zrcadlí docs/brief-generation.md) ---------------------------------
-NEWS_AGE_OK = 7        # dny: eventDate zprávy v okně
-NEWS_AGE_HARD = 9      # 8–9 = WARN, 10+ = FAIL
-TIP_AGE_OK = 60        # dny: stáří funkce u tipu
-TIP_AGE_HARD = 75
+NEWS_AGE_OK = 14       # dny: eventDate zprávy v okně
+NEWS_AGE_HARD = 17     # 15–17 = WARN, 18+ = FAIL
+TIP_AGE_OK = 90        # dny: stáří funkce u tipu
+TIP_AGE_HARD = 110
 RADAR_DAYS_OK = 30     # dny dopředu
 RADAR_DAYS_HARD = 90
 RADAR_MAX_OK = 6
 RADAR_MAX_HARD = 8
-ITEMS_MAX = 12
-ITEMS_MIN_WARN = 5
-TIPS_MAX = 3
+ITEMS_MAX = 16
+ITEMS_MIN_WARN = 10
+TIPS_MAX = 5
+TIPS_MIN_WARN = 3
+NEWS_MIN = 5           # zpráv musí zůstat aspoň tolik, zbytek smí být tipy
+BIZ_MAX = 2            # business + policy dohromady
 INDEX_MAX_DAYS = 14
 FOLLOWSUP_WINDOW = 14
 PUBLOG_KEEP_DAYS = 60
@@ -410,7 +413,7 @@ def main() -> int:
     if len(items) > ITEMS_MAX:
         fail(f"{len(items)} položek (tvrdý strop {ITEMS_MAX})")
     elif len(items) < ITEMS_MIN_WARN:
-        warn(f"{len(items)} položek (cíl 6–10) — zdůvodni v redakčním deníku, co jsi prošel")
+        warn(f"{len(items)} položek (cíl 10–14) — zdůvodni v redakčním deníku, co jsi prošel")
 
     highlights = [i["id"] for i in items if i.get("highlight")]
     if len(highlights) != 1:
@@ -520,8 +523,15 @@ def main() -> int:
     # --- tipy ----------------------------------------------------------------
     if len(tips) > TIPS_MAX:
         fail(f"{len(tips)} tipů (strop {TIPS_MAX})")
-    if tips and news and len(tips) > len(news):
-        warn(f"{len(tips)} tipů při {len(news)} zprávách — tipy doplňují, nenahrazují")
+    if len(tips) < TIPS_MIN_WARN:
+        warn(f"{len(tips)} tipů (cíl {TIPS_MIN_WARN}–{TIPS_MAX}) — doplň banku v bloku D")
+    if len(news) < NEWS_MIN:
+        warn(f"{len(news)} zpráv (minimum {NEWS_MIN}) — tipy zprávy doplňují, nenahrazují")
+    biz = [i["id"] for i in items if i.get("category") in ("business", "policy")]
+    if len(biz) > BIZ_MAX:
+        warn(f"{len(biz)} položek byznys+regulace (strop {BIZ_MAX}) — čtenář je koncový "
+             f"uživatel: {', '.join(biz)}")
+
     for t in tips:
         if t.get("category") != "tools":
             fail(f"{t['id']}: tip musí mít category tools")

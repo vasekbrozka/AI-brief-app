@@ -1,4 +1,4 @@
-# AIspresso — recept pro denní generování briefu (v3.4)
+# AIspresso — recept pro denní generování briefu (v3.5)
 
 Tento soubor je **závazný recept**, podle kterého se každý den automaticky generuje nový
 brief. Naplánovaná (cron) Claude session dostane jednoduchý pokyn:
@@ -26,7 +26,8 @@ prázdný, „ověřeno" motivovalo k citování slabých webů a brief neříka
 Čtenář má za pět minut u kávy vědět **co se stalo**, **proč se ho to týká**, **co si může
 vyzkoušet** a **co přijde**. Ověřené, dvojjazyčné (CZ + EN), věcné, bez hype.
 **Relevance a spolehlivost obsahu je jediný smysl appky** — radši méně a pravdivě než
-více a přibližně. Ale „méně" znamená 6, ne 2.
+více a přibližně. Ale „méně" znamená 10, ne 3. Čtenář je **koncový uživatel**, ne
+investor ani právník: zajímá ho, co si může zapnout, vyzkoušet a používat.
 
 ### Co je „přínosné"
 
@@ -38,7 +39,9 @@ Položka je přínosná, když platí aspoň jedno:
 2. **Mění to, jak má o nástroji uvažovat** — bezpečnostní incident, výpadek s příčinou,
    změna podmínek, dat, cen, regulace, která na něj dopadne.
 3. **Je to velká událost oboru**, kterou umí po přečtení převyprávět — financování
-   špičkových laboratoří, akvizice, zákony, přelomový výzkum, soudy.
+   špičkových laboratoří, akvizice, zákony, přelomový výzkum, soudy. **Nejvýš 2 položky
+   na brief.** Tahle kolonka je strop, ne kvóta: když je den chudý na praktické věci,
+   řešením je hledat dál v blocích C a D, ne dosypat brief z burzy a soudních síní.
 
 Každá položka to musí umět říct v poli `why` (viz Psaní). Když nevíš, co do `why` napsat,
 položka do briefu nepatří.
@@ -74,9 +77,9 @@ plánu, ne „dokud něco nenajdu":
 | Blok | Dotazů | Co a jak |
 |---|---|---|
 | **A · Newsroomy** (T1, `allowed_domains`) | 5–6 | Po jednom dotazu: Anthropic (`anthropic.com`, `claude.com`) · OpenAI (`openai.com`, `help.openai.com`) · Google (`blog.google`, `deepmind.google`, `googleblog.com`, `google.dev`) · Microsoft (`microsoft.com`) · ostatní hráči najednou (`nvidia.com`, `meta.com`, `mistral.ai`, `x.ai`, `huggingface.co`, `perplexity.ai`, `aboutamazon.com`, `apple.com`) |
-| **B · Média** (T2, `allowed_domains`) | 3–4 | `reuters.com`, `apnews.com`, `theverge.com`, `arstechnica.com`, `techcrunch.com`, `axios.com`, `cnbc.com`, `theregister.com`, `wired.com`, `technologyreview.com`, `bloomberg.com`, `ft.com`: jeden dotaz na hlavní hráče, jeden na regulaci/soudy, jeden na byznys/čipy/infrastrukturu |
-| **C · Témata** (bez omezení) | 6–8 | modely a benchmarky · agenti a kódovací nástroje · regulace, EU, soudy · investice, akvizice, čipy · výzkum a bezpečnost · open-source/open-weight · spotřební AI (Apple, Samsung, auta, brýle, hodinky) · **Česko a EU** (česká média, `europa.eu`, EU AI Act, tuzemské firmy, úřady a školy) |
-| **D · Tipy** (release notes) | 2–4 | pro každé jádrové téma s **< 2 čekajícími tipy**: release notes / help center / changelog dané firmy (`support.claude.com`, `help.openai.com`, `workspaceupdates.googleblog.com`, `techcommunity.microsoft.com`, `learn.microsoft.com`) |
+| **B · Média** (T2, `allowed_domains`) | 2–3 | `reuters.com`, `apnews.com`, `theverge.com`, `arstechnica.com`, `techcrunch.com`, `axios.com`, `cnbc.com`, `theregister.com`, `wired.com`, `technologyreview.com`, `bloomberg.com`, `ft.com`: jeden dotaz na hlavní hráče, jeden na **nové funkce a jak se používají**, jeden společný na regulaci + byznys |
+| **C · Témata** (bez omezení) | 8–10 | nové funkce a návody („how to use", „new feature", „now available") · agenti a kódovací nástroje · modely a **co mění pro uživatele** · promptování, workflow a postupy · spotřební AI (Apple, Samsung, auta, brýle, hodinky) · open-source a **lokální modely** (co si čtenář spustí sám) · výzkum a bezpečnost · **Česko a EU** (česká média, `europa.eu`, EU AI Act, tuzemské firmy, úřady a školy) · **jeden** společný dotaz na regulaci + investice/akvizice/čipy |
+| **D · Tipy** (release notes) | 6–8 | **každé téma vlastní dotaz, každý den** (ne jen když je fronta prázdná): release notes / help center / changelog / „what's new" dané firmy (`support.claude.com`, `help.openai.com`, `workspaceupdates.googleblog.com`, `techcommunity.microsoft.com`, `learn.microsoft.com`, `docs.cursor.com`, `perplexity.ai`, `github.blog`) |
 | **E · Radar** | 2–3 | nadcházející termíny: „next week / October 2026 / launch date / effective / deadline / hearing / trial / earnings / keynote" + jména hráčů |
 | **F · Ověření** | dle potřeby | k vybraným kandidátům dohledat T1/T2 URL a datum primární události |
 
@@ -100,9 +103,10 @@ s novým datem. Datum článku NENÍ datum události. Pro **každého** kandidá
 
 1. **Datum primární události** (oznámení, účinnost, podání žaloby, vydání) z T1/T2
    zdroje. Nedá-li se spolehlivě určit → ven. Zapiš ho do `eventDate`.
-2. **Okno čerstvosti: 7 dní.** `eventDate` ≥ dnešek − 7 → kandidát. Přednost má
-   čerstvější (≤ 48 h > ≤ 72 h > zbytek), ale zpráva stará 4–6 dní, která **v appce
-   nevyšla**, je pro čtenáře nová a do briefu patří. Starší událost jen jako **update**
+2. **Okno čerstvosti: 14 dní.** `eventDate` ≥ dnešek − 14 → kandidát. Přednost má
+   čerstvější (≤ 48 h > ≤ 72 h > ≤ 7 dní > zbytek), ale zpráva stará i dva týdny, která
+   **v appce nevyšla**, je pro čtenáře nová a do briefu patří — tohle okno je hlavní
+   zásobárna pro tiché dny, tak ho využívej dřív, než brief dopadne pod deset položek. Starší událost jen jako **update**
    (slug `...-update`) — novým vývojem musí být to hlavní a `eventDate` je datum nového
    vývoje, ne původní kauzy.
 3. **Dedup** proti `published-log.json` (60 dní) a posledním 14 briefům. Stejná událost =
@@ -126,15 +130,20 @@ s novým datem. Datum článku NENÍ datum události. Pro **každého** kandidá
 
 ### 3 · Výběr
 
-- **Cíl 6–10 položek (zprávy + tipy), tvrdý strop 12.** Pod 5 položek je WARN — smí
-  projít jen se zdůvodněním v deníku (co jsi hledal, proč nic nebylo). Nikdy nedoplňuj
-  počet starou, nejistou nebo vymyšlenou položkou.
+- **Cíl 10–14 položek (zprávy + tipy), tvrdý strop 16.** Pod 10 položek je WARN — smí
+  projít jen se zdůvodněním v deníku (co jsi hledal, proč nic nebylo). Než brief spadne
+  pod deset, sáhni v tomhle pořadí: **plné 14denní okno** → **fronta tipů** → další dotazy
+  v blocích C a D. Nikdy nedoplňuj počet starou, nejistou nebo vymyšlenou položkou —
+  a nikdy ne přisypáním byznysu a regulace, na ty platí strop níž.
 - **Priorita:** 1. přímý užitek pro čtenáře (funkce, modely, dostupnost, ceny; přednost
   jádrová témata) → 2. velikost události → 3. ověřené > neověřené → 4. čerstvost.
-- **Vyváženost:** čistý byznys (financování, akvizice, žaloby, kvartály) max ~⅓; víc než
+- **Vyváženost:** byznys a regulace dohromady (`business` + `policy`: financování,
+  akvizice, žaloby, kvartály, zákony, soudy) **nejvýš 2 položky na brief**; víc než
   3 položky o jedné firmě jen v den, kdy firma opravdu dominuje; když existuje kandidát
   mimo Anthropic/OpenAI, aspoň jeden zařaď.
-- **Zpráv ≥ tipů.** Tipy doplňují, nenahrazují.
+- **Zpráv aspoň 5.** Tipy smí být zbytek — dřív platilo „zpráv ≥ tipů", což v chudém dni
+  srazilo celý brief na dvojnásobek počtu zpráv. Tip je pro koncového uživatele plnocenná
+  položka, ne výplň.
 - **Highlight:** právě jedna zpráva — největší událost dne; při rovnosti ta, která se
   čtenáře dotkne přímo. Highlight není nikdy tip.
 - **Příběhové linky (`followsUp`):** když dnešní zpráva navazuje na díl z posledních
@@ -303,14 +312,15 @@ python3 docs/check-brief.py
 
 ## Tipy (vyzkoušej si)
 
-Tip = užitečná funkce nástroje, kterou si čtenář může vyzkoušet, z **posledních ~60 dní**.
+Tip = užitečná funkce nástroje, kterou si čtenář může vyzkoušet, z **posledních ~90 dní**.
 Není nutně horká; je nutně použitelná. Žijí ve frontě `data/briefs/tips-backlog.json`.
 **Appka backlog čte**: volitelná záložka To do nabízí tipy s `used` z posledních 30 dnů
 k přidání do čtenářova seznamu. Proto u každého záznamu drž `title`, `why`, `sources`
 a `used` přesné a nikdy záznamy nepřepisuj zpětně.
 
-- **Kolik:** **0–3 denně**, z toho, co fronta dá. Žádný vzorec, žádné doplňování na číslo.
-  Tip nikdy nevytlačí zprávu (zpráv ≥ tipů).
+- **Kolik:** **3–5 denně**. Pod 3 je WARN — fronta má být tak hluboká, aby to šlo každý
+  den; když nejde, je to nález pro deník a pro blok D, ne důvod brief zkrátit. Tip
+  nevytlačí zprávu jen potud, že zpráv musí zůstat aspoň 5.
 - **Žádné opakování:** tip, který už vyšel (je v `published-log.json`), znovu nevychází —
   skript to zamítne. Rozšíření funkce na novou platformu je nový tip s novým slugem
   a titulkem, který vede tím, co je nové („X funguje nově i v Y").
@@ -321,11 +331,15 @@ a `used` přesné a nikdy záznamy nepřepisuj zpětně.
   rády připomínají roky staré věci. Nejde-li stáří ověřit, tip ven.
 - **`why` u tipu = návod:** kde to najdu (menu, aplikace, platforma), v jakém plánu, pro
   koho, případně na co si dát pozor.
-- **Témata (`theme`):** `claude` · `chatgpt` · `gemini` · `copilot` · `other`. Rotace je
+- **Témata (`theme`):** `claude` · `chatgpt` · `gemini` · `copilot` · `cursor` ·
+  `perplexity` · `notebooklm` · `local` (lokální modely: Ollama, LM Studio, otevřené váhy) ·
+  `other`. Rotace je
   **preference, ne podmínka**: přednost má téma nejdéle bez tipu, ale když pro něj fronta
   nic nemá a jiné téma má dobrý kandidát, vydej ten. Prázdný slot kvůli rotaci je chyba.
-- **Bank:** kandidáty přidávej při každé rešerši (`used: null`, s `why` a `eventDate`);
-  téma s 0 čekajícími dostane v bloku D vlastní dotaz.
+- **Bank:** kandidáty přidávej při každé rešerši (`used: null`, s `why` a `eventDate`).
+  **Blok D se ptá na každé téma každý den**, ať je fronta jakkoli hluboká — cílový stav je
+  **aspoň 2 čekající tipy na téma**. Vyčerpaná banka je hlavní důvod, proč brief spadne
+  pod deset položek, takže doplňovat se má dřív, než dojde.
 - **Ověření tipu:** oficiální release notes / blog (T1) = `verified: true`. Jinak false.
 
 ---
@@ -504,7 +518,9 @@ Kompletní ukázka: `docs/examples/brief-v3-example.json`
 - **Nikdy si nevymýšlej fakta, čísla, data ani URL.** Vše musí být dohledatelné ve
   výsledcích dnešní rešerše.
 - Datum primární události ověřuj vždy (krok 2) — agregátory recyklují staré zprávy;
-  ale nezveřejněná zpráva z minulého týdne není recyklace.
+  ale nezveřejněná zpráva z posledních dvou týdnů není recyklace.
+- **Deset položek je podlaha, ne cíl k dosypání.** Objem se bere z tipů a praktických
+  témat; byznys a regulace mají strop 2 a ten se kvůli počtu neporušuje.
 - Drž se schémat 1:1. Kontrola `docs/check-brief.py` musí projít bez FAIL.
 - Nepřidávej si pravidla, která tu nejsou (kratší okno, „výpadky se nepočítají",
   zálohování mazaných souborů…). Když ti něco chybí, napiš to do deníku — recept se ladí
@@ -516,9 +532,28 @@ Kompletní ukázka: `docs/examples/brief-v3-example.json`
 
 - Jediný běh **1× denně v 03:00 UTC** (05:00 CEST v létě / 04:00 CET v zimě) — po konci
   amerického pracovního dne, takže ranní brief nese i čerstvé US novinky.
-- Víkendové a pondělní briefy jsou z podstaty tenčí na čerstvé oznámení; 7denní okno
-  a radar je mají dorovnat. Když běh selže, brief chybí viditelně v appce — dogeneruje se
+- Víkendové a pondělní briefy jsou z podstaty tenčí na čerstvé oznámení; 14denní okno,
+  fronta tipů a radar je mají dorovnat. Když běh selže, brief chybí viditelně v appce — dogeneruje se
   na pokyn v session.
+
+## Změny v3.5 (22. 9. 2026)
+
+Brief dlouhodobě vycházel na **3,5 položky denně** (cíl byl 6–10) a **51 % položek byly
+byznys a regulace** (strop byl ~⅓), zatímco modely měly za deset dní jedinou položku.
+Tahle revize obrací váhu k tomu, co koncový uživatel může použít:
+
+- **Cíl 10–14 položek**, tvrdý strop 16, WARN pod 10 (bylo 6–10 / 12 / pod 5).
+- **Zrušeno „zpráv ≥ tipů"** — to pravidlo v chudém dni srazilo celý brief na dvojnásobek
+  počtu zpráv. Nově jen **zpráv aspoň 5**, zbytek smí být tipy.
+- **Tipů 3–5 denně** (bylo 0–3), okno tipu **90 dní** (bylo 60), témat devět (bylo pět).
+- **Blok D se ptá na každé téma každý den** (dřív jen na téma s < 2 čekajícími tipy)
+  a má **6–8 dotazů** (bylo 2–4). Vyčerpaná banka byla hlavní brzda objemu.
+- **Okno čerstvosti zpráv 14 dní** (bylo 7) — hlavní zásobárna pro tiché dny.
+- **Byznys + regulace nejvýš 2 položky na brief** (bylo „čistý byznys max ~⅓“), a velká
+  událost oboru má v „Co je přínosné" stejný strop.
+- **Blok C má 8–10 dotazů** (bylo 6–8) a témata jsou přepsaná na praktická: nové funkce
+  a návody, promptování a workflow, lokální modely; regulace a investice se slily do
+  jednoho dotazu. Blok B má 2–3 dotazy (bylo 3–4), z toho jeden na nové funkce.
 
 ## Změny v3.4 (20. 9. 2026)
 
