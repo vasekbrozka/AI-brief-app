@@ -1,0 +1,391 @@
+{
+  "date": "2026-09-23",
+  "sample": false,
+  "headline": {
+    "cs": "OpenAI spustilo levnější modely GPT-6 Sol a Luna",
+    "en": "OpenAI launches cheaper GPT-6 Sol and Luna models"
+  },
+  "items": [
+    {
+      "id": "2026-09-23-openai-gpt-6-sol-luna",
+      "kind": "news",
+      "category": "models",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-09-22",
+      "title": {
+        "cs": "OpenAI spustilo levnější modely GPT-6 Sol a Luna",
+        "en": "OpenAI launches cheaper GPT-6 Sol and Luna models"
+      },
+      "summary": {
+        "cs": "OpenAI 22. září rozšířilo rodinu GPT-6 o levnější modely Sol a Luna, postavené na stejném trénování jako vlajkový Astra. Ceny v API klesly o 50 % oproti akční nabídce GPT-5.6. Luna se stává výchozím modelem pro uživatele zdarma, Sol cílí na náročnější úlohy jako programování s vyššími limity použití.",
+        "en": "OpenAI expanded the GPT-6 family on September 22 with cheaper Sol and Luna models, trained the same way as flagship Astra. API prices dropped 50% compared with GPT-5.6 promotional pricing. Luna becomes the default model for free-tier users, while Sol targets harder work like coding with higher usage limits."
+      },
+      "why": {
+        "cs": "Když ChatGPT používáš zdarma, dostaneš automaticky Luna — rychlejší a spolehlivější než předchozí výchozí model. Placení uživatelé si Sol vyzkoušejí v Codexu i API za poloviční cenu než u GPT-5.6.",
+        "en": "If you use ChatGPT for free, you now get Luna automatically — faster and more reliable than the previous default. Paid users can try Sol in Codex and the API at half the price of GPT-5.6."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-claude-opus-5-5",
+      "kind": "news",
+      "category": "models",
+      "verified": true,
+      "eventDate": "2026-09-22",
+      "title": {
+        "cs": "Anthropic představil Claude Opus 5.5, nový nejsilnější model",
+        "en": "Anthropic unveils Claude Opus 5.5, its strongest model yet"
+      },
+      "summary": {
+        "cs": "Anthropic 22. září představilo Claude Opus 5.5, první model nové řady 5.5 a nejvýkonnější model firmy. Testeři zvládají výrazně složitější úlohy — jeden dokončil migraci 680 000 řádků kódu za den. Stojí 4 dolary za milion vstupních a 20 dolarů za milion výstupních tokenů, o 20 % méně, provoz vyjde celkem o 40 % levněji.",
+        "en": "Anthropic unveiled Claude Opus 5.5 on September 22, the first model in its new 5.5 family. Testers say it handles noticeably harder work than before — one completed a 680,000-line code migration in a day. It costs $4 per million input tokens and $20 per million output, 20% below Opus 5, with workloads running about 40% cheaper overall."
+      },
+      "why": {
+        "cs": "Pokud používáš Claude Pro, Max, Team nebo Enterprise, Opus 5.5 už běží místo Opus 5 — na složitější programátorské a pracovní úlohy zvládne víc s nižšími náklady na token.",
+        "en": "If you use Claude Pro, Max, Team, or Enterprise, Opus 5.5 already replaces Opus 5 — it handles more complex coding and work tasks at a lower cost per token."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/claude-opus-5-5"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-xai-grok-4-7",
+      "kind": "news",
+      "category": "models",
+      "verified": true,
+      "eventDate": "2026-09-21",
+      "title": {
+        "cs": "xAI spustilo model Grok 4.7 pro programování a agenty",
+        "en": "xAI launches Grok 4.7 for coding and agentic work"
+      },
+      "summary": {
+        "cs": "xAI 21. září spustilo Grok 4.7, svůj nejnovější model pro programování, agenty a znalostní práci. Model má kontext 500 tisíc tokenů a pracuje na těžších úlohách déle a důkladněji. Ceny v API jsou 2 dolary za milion vstupních a 6 dolarů za milion výstupních tokenů do 200 tisíc tokenů promptu, nad tím dvojnásobek. Dostupný je i v Cursoru.",
+        "en": "xAI launched Grok 4.7 on September 21, its newest model for coding, agentic tasks, and knowledge work. It has a 500,000-token context window and works longer and more carefully on harder problems. API pricing is $2 per million input tokens and $6 per million output tokens below 200,000 prompt tokens, doubling above that. It is also available in Cursor."
+      },
+      "why": {
+        "cs": "Vyzkoušet ho můžeš rovnou v Cursoru nebo přes Grok API — firma tvrdí, že má dosud nejlepší odolnost proti jailbreakům, takže je vhodný i na citlivější agentní úlohy.",
+        "en": "You can try it directly in Cursor or through the Grok API — xAI says it is its most jailbreak-resistant model yet, making it a safer pick for more sensitive agentic tasks too."
+      },
+      "sources": [
+        {
+          "name": "xAI",
+          "url": "https://x.ai/news/grok-4-7"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-un-security-council-ai-briefing",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Altman a Amodei 23. září vystoupí před Radou bezpečnosti OSN",
+        "en": "Altman and Amodei brief the UN Security Council on September 23"
+      },
+      "summary": {
+        "cs": "Šéfové OpenAI a Anthropicu Sam Altman a Dario Amodei vystoupí 23. září na zasedání Rady bezpečnosti OSN věnovaném rizikům umělé inteligence. Amodei se připojí na dálku, Altman osobně. Zasedání svolala Francie v rámci Valného shromáždění OSN v New Yorku, promluví na něm i šéf Hugging Face Clément Delangue a profesor Yoshua Bengio.",
+        "en": "OpenAI's Sam Altman and Anthropic's Dario Amodei are briefing a UN Security Council session on AI risks on September 23. Amodei is joining remotely, while Altman appears in person. France convened the session as part of the UN General Assembly in New York, with Hugging Face CEO Clément Delangue and professor Yoshua Bengio also speaking."
+      },
+      "why": {
+        "cs": "Sleduj, jestli šéfové firem podpoří konkrétní mezinárodní pravidla, nebo zůstanou jen u obecných varování — podobná jednání OSN o AI zatím žádný závazný krok nepřinesla.",
+        "en": "Watch whether the CEOs back concrete international rules or stick to general warnings — similar UN sessions on AI so far haven't produced any binding step."
+      },
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-22/anthropic-ceo-dario-amodei-to-brief-un-security-council-on-ai"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/22/altman-amodei-unga-ai-safety.html"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-09-22",
+        "id": "2026-09-22-openai-global-ai-safety-standards-proposal",
+        "title": {
+          "cs": "OpenAI navrhlo globální standardy pro bezpečnost AI a RSI",
+          "en": "OpenAI proposes global safety standards for AI and RSI"
+        }
+      }
+    },
+    {
+      "id": "2026-09-23-google-googlebook-ai-laptop",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-21",
+      "title": {
+        "cs": "Google spustil AI notebook Googlebook za 899 dolarů",
+        "en": "Google launches the $899 Googlebook AI laptop"
+      },
+      "summary": {
+        "cs": "Google 21. září otevřel předobjednávky na Googlebook, nový notebook za 899 dolarů s vestavěnou inteligencí Gemini. Nabízí AI kurzor pro ovládání systému, widgety vytvořené appkou přes popis (vibe coding) a funkci Rambler, co z nesouvislého mluveného textu udělá čitelný zápisek. Google tím sází na to, že si lidé kvůli Gemini pořídí nový notebook.",
+        "en": "Google opened preorders for Googlebook on September 21, a new $899 laptop with Gemini built into the system. It features an AI-powered cursor for controlling the system, vibe-coded widgets built from a description, and a Rambler feature that turns messy spoken dictation into readable text. Google is betting people will buy a new laptop specifically for Gemini."
+      },
+      "why": {
+        "cs": "Pokud řešíš nový notebook a chceš AI přímo v systému, ne jen v prohlížeči, Googlebook je teď k předobjednání — ukáže, jak moc jsou uživatelé ochotní kvůli AI kupovat nový hardware.",
+        "en": "If you are shopping for a new laptop and want AI built into the system, not just the browser, Googlebook is now up for preorder — a test of how far people go to buy new hardware for AI."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-anthropic-threat-intelligence-report",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-09-10",
+      "title": {
+        "cs": "Anthropic zveřejnil zprávu o zneužívání Claude ke kyberútokům",
+        "en": "Anthropic publishes report on Claude misuse for cyberattacks"
+      },
+      "summary": {
+        "cs": "Anthropic 10. září zveřejnilo zprávu o zneužívání Claude, která popisuje kybernetické operace, vlivové kampaně, podvody i pokusy o vývoj konvenčních zbraní zachycené mezi prosincem 2025 a srpnem 2026. Firma odhalila a přerušila i sérii kybernetických operací, včetně těch od podezřele státem sponzorovaných skupin. Podle zprávy AI smazala rozdíl mezi dobře vybavenými státními útočníky a jednotlivci.",
+        "en": "Anthropic published a report on Claude misuse on September 10, covering cyber operations, influence campaigns, fraud, and attempts at conventional weapons development detected between December 2025 and August 2026. The company identified and disrupted a series of cyber operations, including from suspected state-sponsored groups. The report says AI has erased the gap between well-resourced state attackers and individuals."
+      },
+      "why": {
+        "cs": "Ukazuje to, na co si dát pozor u AI nástrojů obecně — stejné schopnosti, co pomáhají programátorům, zneužívají i útočníci, a rozdíl mezi amatérem a profesionálem se díky AI stírá.",
+        "en": "It is a reminder of what to watch for with AI tools generally — the same capabilities that help programmers also help attackers, and AI is erasing the gap between amateurs and professionals."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-tip-gemini-live-voice-gmail-docs-keep",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-03",
+      "title": {
+        "cs": "Gmail, Docs a Keep teď umí mluvený AI asistent Live",
+        "en": "Gmail, Docs, and Keep get a spoken AI assistant, Live"
+      },
+      "summary": {
+        "cs": "Google 3. září spustil Gmail Live, Docs Live a Keep Live — místo psaní do vyhledávání se s Gemini asistentem bavíš nahlas, vidíš živý přepis a necháš ho třeba připravit první verzi textu. Gmail Live a Keep Live jsou pro předplatitele Google AI Plus, Pro a Ultra, Docs Live jen pro Pro a Ultra.",
+        "en": "Google launched Gmail Live, Docs Live, and Keep Live on September 3 — instead of typing into a search box, you talk to a Gemini-powered assistant out loud and see a live transcript. Gmail Live and Keep Live are for Google AI Plus, Pro, and Ultra subscribers; Docs Live is Pro and Ultra only."
+      },
+      "why": {
+        "cs": "Zkus to přímo v appce — stačí ťuknout na ikonu mikrofonu v Gmailu, Docs nebo Keep a nahlas popsat, co chceš najít nebo napsat.",
+        "en": "Try it right in the app — just tap the microphone icon in Gmail, Docs, or Keep and describe out loud what you want to find or write."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-tip-chatgpt-credit-score-tracking",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-21",
+      "title": {
+        "cs": "ChatGPT umí sledovat tvé kreditní skóre v USA",
+        "en": "ChatGPT can track your US credit score"
+      },
+      "summary": {
+        "cs": "OpenAI 21. září spustilo sledování kreditního skóre v ChatGPT — po propojení účtu Experian a skóre VantageScore 3.0 dostaneš přehled, co skóre ovlivňuje a jak souvisí s tvými financemi. Skóre a zpráva se aktualizují měsíčně. Funkce je zatím jen pro Plus a Pro uživatele v USA, v sekci Finance.",
+        "en": "OpenAI launched credit score tracking in ChatGPT on September 21 — after connecting your Experian account and VantageScore 3.0 score, you get insights into what is affecting your score. Your score and report update monthly. The feature is limited to Plus and Pro users in the US, under Finances."
+      },
+      "why": {
+        "cs": "Najdeš to v ChatGPT pod Finance, propojení přes Experian je bezpečné a nijak neovlivní tvé skóre — jde o měkký dotaz, který se do historie nezapočítává.",
+        "en": "You will find it in ChatGPT under Finances; connecting through Experian is secure and does not affect your score — it is a soft inquiry that is not counted against your credit history."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/20001222-finances-in-chatgpt"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-tip-perplexity-pdf-creation-labs-research",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-12",
+      "title": {
+        "cs": "Perplexity teď na požádání vytvoří rovnou PDF",
+        "en": "Perplexity can now generate a PDF on request"
+      },
+      "summary": {
+        "cs": "Perplexity 12. září přidalo do režimů Labs a Research možnost rovnou požádat o PDF — stačí to napsat do promptu a dostaneš hotový soubor místo jen textové odpovědi. Hotovou zprávu jde taky exportovat do PDF nebo dokumentu, nebo z ní udělat Perplexity Page a sdílet ji dál s kolegy či přáteli.",
+        "en": "Perplexity added the ability to request a PDF directly in Labs and Research modes on September 12 — just ask for one in your prompt and get a finished file instead of a text answer. A finished report can also become a Perplexity Page to share with colleagues or friends."
+      },
+      "why": {
+        "cs": "Až příště budeš v Perplexity dělat rešerši v Labs nebo Research, napiš rovnou do zadání, že chceš výstup jako PDF — ušetříš si kopírování a formátování.",
+        "en": "Next time you research something in Perplexity Labs or Research, just ask for a PDF output in your prompt — it saves you the copying and formatting."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog/what-we-shipped-september-12th"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-tip-copilot-sentry-crash-fixes",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-18",
+      "title": {
+        "cs": "Copilot app teď opravuje pády appky rovnou ze Sentry",
+        "en": "The Copilot app now fixes crashes straight from Sentry"
+      },
+      "summary": {
+        "cs": "GitHub v týdenním vydání z 18. září přidal do appky Copilot propojení se Sentry — z hlášení o pádu appky, chybové zprávy i kontextu necháš Copilota prozkoumat příčinu, ověřit opravu a rovnou připravit pull request. Dřív jsi musel mezi Sentry a kódem přepínat ručně.",
+        "en": "In its weekly release for September 18, GitHub added a Sentry integration to the Copilot app — from a crash report, error message, and context, you can have Copilot investigate the cause, validate a fix, and prepare a pull request directly. Previously you had to switch between Sentry and your code by hand."
+      },
+      "why": {
+        "cs": "Funguje v appce GitHub Copilot, ne přímo v editoru — propoj si účet Sentry a příští pád appky můžeš rovnou poslat Copilotovi k opravě.",
+        "en": "It works in the GitHub Copilot app, not directly in the editor — connect your Sentry account and send your next crash report straight to Copilot for a fix."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-09-23",
+      "title": {
+        "cs": "Meta pořádá výroční konferenci Connect 2026",
+        "en": "Meta holds its annual Connect 2026 conference"
+      },
+      "note": {
+        "cs": "Meta 23. a 24. září pořádá výroční konferenci Connect, tradičně věnovanou novinkám kolem AI, brýlí s AI a virtuální a rozšířené reality.",
+        "en": "Meta holds its annual Connect conference on September 23 and 24, traditionally focused on AI news along with AI glasses and virtual and augmented reality."
+      },
+      "sources": [
+        {
+          "name": "Meta",
+          "url": "https://www.meta.com/connect/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-09-25",
+      "title": {
+        "cs": "OpenAI přestává vytvářet nová vlastní GPT",
+        "en": "OpenAI stops allowing new custom GPT creation"
+      },
+      "note": {
+        "cs": "Od 25. září už nepůjde vytvářet nová vlastní GPT — OpenAI je nahrazuje pluginy, plné zrušení stávajících je naplánované na 11. prosince.",
+        "en": "Starting September 25, creating new custom GPTs stops — OpenAI is replacing them with plugins; full retirement of existing ones is planned for December 11."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-09-27",
+      "title": {
+        "cs": "Perplexity vyřazuje Sonar chat completions",
+        "en": "Perplexity retires Sonar chat completions"
+      },
+      "note": {
+        "cs": "Vývojáři musí do 27. září přejít ze staršího Sonar rozhraní na nové Agent API, jinak jim přestane fungovat integrace.",
+        "en": "Developers must migrate from the older Sonar interface to the new Agent API by September 27, or their integration stops working."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-09-29",
+      "title": {
+        "cs": "OpenAI pořádá DevDay 2026 v San Franciscu",
+        "en": "OpenAI holds DevDay 2026 in San Francisco"
+      },
+      "note": {
+        "cs": "Výroční vývojářská konference OpenAI — čekej novinky kolem modelů a API. Poprvé následují regionální akce DevDay Exchange v osmi městech, v Evropě Berlín 26. října a Paříž 28. října.",
+        "en": "OpenAI's annual developer conference — expect model and API news. For the first time, regional DevDay Exchange events follow in eight cities, including Berlin (October 26) and Paris (October 28)."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/devday-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

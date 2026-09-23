@@ -2201,6 +2201,114 @@
       ],
       "added": "2026-09-22",
       "used": "2026-09-22"
+    },
+    {
+      "slug": "tip-gemini-live-voice-gmail-docs-keep",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-09-03",
+      "title": {
+        "cs": "Gmail, Docs a Keep teď umí mluvený AI asistent Live",
+        "en": "Gmail, Docs, and Keep get a spoken AI assistant, Live"
+      },
+      "summary": {
+        "cs": "Google 3. září spustil Gmail Live, Docs Live a Keep Live — místo psaní do vyhledávání se s Gemini asistentem bavíš nahlas, vidíš živý přepis a necháš ho třeba připravit první verzi textu. Gmail Live a Keep Live jsou pro předplatitele Google AI Plus, Pro a Ultra, Docs Live jen pro Pro a Ultra.",
+        "en": "Google launched Gmail Live, Docs Live, and Keep Live on September 3 — instead of typing into a search box, you talk to a Gemini-powered assistant out loud and see a live transcript. Gmail Live and Keep Live are for Google AI Plus, Pro, and Ultra subscribers; Docs Live is Pro and Ultra only."
+      },
+      "why": {
+        "cs": "Zkus to přímo v appce — stačí ťuknout na ikonu mikrofonu v Gmailu, Docs nebo Keep a nahlas popsat, co chceš najít nebo napsat.",
+        "en": "Try it right in the app — just tap the microphone icon in Gmail, Docs, or Keep and describe out loud what you want to find or write."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/"
+        }
+      ],
+      "added": "2026-09-23",
+      "used": "2026-09-23"
+    },
+    {
+      "slug": "tip-chatgpt-credit-score-tracking",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-09-21",
+      "title": {
+        "cs": "ChatGPT umí sledovat tvé kreditní skóre v USA",
+        "en": "ChatGPT can track your US credit score"
+      },
+      "summary": {
+        "cs": "OpenAI 21. září spustilo sledování kreditního skóre v ChatGPT — po propojení účtu Experian a skóre VantageScore 3.0 dostaneš přehled, co skóre ovlivňuje a jak souvisí s tvými financemi. Skóre a zpráva se aktualizují měsíčně. Funkce je zatím jen pro Plus a Pro uživatele v USA, v sekci Finance.",
+        "en": "OpenAI launched credit score tracking in ChatGPT on September 21 — after connecting your Experian account and VantageScore 3.0 score, you get insights into what is affecting your score. Your score and report update monthly. The feature is limited to Plus and Pro users in the US, under Finances."
+      },
+      "why": {
+        "cs": "Najdeš to v ChatGPT pod Finance, propojení přes Experian je bezpečné a nijak neovlivní tvé skóre — jde o měkký dotaz, který se do historie nezapočítává.",
+        "en": "You will find it in ChatGPT under Finances; connecting through Experian is secure and does not affect your score — it is a soft inquiry that is not counted against your credit history."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/20001222-finances-in-chatgpt"
+        }
+      ],
+      "added": "2026-09-23",
+      "used": "2026-09-23"
+    },
+    {
+      "slug": "tip-perplexity-pdf-creation-labs-research",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": true,
+      "eventDate": "2026-09-12",
+      "title": {
+        "cs": "Perplexity teď na požádání vytvoří rovnou PDF",
+        "en": "Perplexity can now generate a PDF on request"
+      },
+      "summary": {
+        "cs": "Perplexity 12. září přidalo do režimů Labs a Research možnost rovnou požádat o PDF — stačí to napsat do promptu a dostaneš hotový soubor místo jen textové odpovědi. Hotovou zprávu jde taky exportovat do PDF nebo dokumentu, nebo z ní udělat Perplexity Page a sdílet ji dál s kolegy či přáteli.",
+        "en": "Perplexity added the ability to request a PDF directly in Labs and Research modes on September 12 — just ask for one in your prompt and get a finished file instead of a text answer. A finished report can also become a Perplexity Page to share with colleagues or friends."
+      },
+      "why": {
+        "cs": "Až příště budeš v Perplexity dělat rešerši v Labs nebo Research, napiš rovnou do zadání, že chceš výstup jako PDF — ušetříš si kopírování a formátování.",
+        "en": "Next time you research something in Perplexity Labs or Research, just ask for a PDF output in your prompt — it saves you the copying and formatting."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog/what-we-shipped-september-12th"
+        }
+      ],
+      "added": "2026-09-23",
+      "used": "2026-09-23"
+    },
+    {
+      "slug": "tip-copilot-sentry-crash-fixes",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-09-18",
+      "title": {
+        "cs": "Copilot app teď opravuje pády appky rovnou ze Sentry",
+        "en": "The Copilot app now fixes crashes straight from Sentry"
+      },
+      "summary": {
+        "cs": "GitHub v týdenním vydání z 18. září přidal do appky Copilot propojení se Sentry — z hlášení o pádu appky, chybové zprávy i kontextu necháš Copilota prozkoumat příčinu, ověřit opravu a rovnou připravit pull request. Dřív jsi musel mezi Sentry a kódem přepínat ručně.",
+        "en": "In its weekly release for September 18, GitHub added a Sentry integration to the Copilot app — from a crash report, error message, and context, you can have Copilot investigate the cause, validate a fix, and prepare a pull request directly. Previously you had to switch between Sentry and your code by hand."
+      },
+      "why": {
+        "cs": "Funguje v appce GitHub Copilot, ne přímo v editoru — propoj si účet Sentry a příští pád appky můžeš rovnou poslat Copilotovi k opravě.",
+        "en": "It works in the GitHub Copilot app, not directly in the editor — connect your Sentry account and send your next crash report straight to Copilot for a fix."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/"
+        }
+      ],
+      "added": "2026-09-23",
+      "used": "2026-09-23"
     }
   ]
 }

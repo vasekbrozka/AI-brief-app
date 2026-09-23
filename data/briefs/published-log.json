@@ -784,6 +784,56 @@
       "slug": "2026-09-22-tip-copilot-excel-python-skill",
       "date": "2026-09-22",
       "topic": "tip: Copilot v Excelu analyzuje data v Pythonu"
+    },
+    {
+      "slug": "2026-09-23-openai-gpt-6-sol-luna",
+      "date": "2026-09-23",
+      "topic": "OpenAI spustilo levnější modely GPT-6 Sol a Luna"
+    },
+    {
+      "slug": "2026-09-23-claude-opus-5-5",
+      "date": "2026-09-23",
+      "topic": "Anthropic představil Claude Opus 5.5"
+    },
+    {
+      "slug": "2026-09-23-xai-grok-4-7",
+      "date": "2026-09-23",
+      "topic": "xAI spustilo model Grok 4.7"
+    },
+    {
+      "slug": "2026-09-23-un-security-council-ai-briefing",
+      "date": "2026-09-23",
+      "topic": "Altman a Amodei vystoupili před Radou bezpečnosti OSN"
+    },
+    {
+      "slug": "2026-09-23-google-googlebook-ai-laptop",
+      "date": "2026-09-23",
+      "topic": "Google spustil AI notebook Googlebook za 899 dolarů"
+    },
+    {
+      "slug": "2026-09-23-anthropic-threat-intelligence-report",
+      "date": "2026-09-23",
+      "topic": "Anthropic zveřejnil zprávu o zneužívání Claude ke kyberútokům"
+    },
+    {
+      "slug": "2026-09-23-tip-gemini-live-voice-gmail-docs-keep",
+      "date": "2026-09-23",
+      "topic": "tip: mluvený AI asistent Live v Gmailu, Docs a Keep"
+    },
+    {
+      "slug": "2026-09-23-tip-chatgpt-credit-score-tracking",
+      "date": "2026-09-23",
+      "topic": "tip: ChatGPT sleduje kreditní skóre v USA"
+    },
+    {
+      "slug": "2026-09-23-tip-perplexity-pdf-creation-labs-research",
+      "date": "2026-09-23",
+      "topic": "tip: Perplexity vytvoří PDF v Labs a Research"
+    },
+    {
+      "slug": "2026-09-23-tip-copilot-sentry-crash-fixes",
+      "date": "2026-09-23",
+      "topic": "tip: Copilot app opravuje pády appky ze Sentry"
     }
   ],
   "updated": "2026-09-22T03:10:00Z"

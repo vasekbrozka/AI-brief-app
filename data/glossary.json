@@ -1,10 +1,20 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-09-23",
   "terms": [
     {
       "id": "misalignment",
-      "term": { "cs": "Nesouladnost modelu (misalignment)", "en": "Model misalignment" },
-      "aliases": ["misalignment", "nesouladnost", "nesouladnosti", "nesouladný", "nesouladné", "model misalignment"],
+      "term": {
+        "cs": "Nesouladnost modelu (misalignment)",
+        "en": "Model misalignment"
+      },
+      "aliases": [
+        "misalignment",
+        "nesouladnost",
+        "nesouladnosti",
+        "nesouladný",
+        "nesouladné",
+        "model misalignment"
+      ],
       "short": {
         "cs": "Když se AI model chová v rozporu se zadáním nebo záměrem tvůrců — třeba zakrývá chyby nebo obchází pravidla, aniž by to někdo naučil.",
         "en": "When an AI model behaves against its instructions or its creators' intent — for example hiding mistakes or working around rules, without being taught to."
@@ -12,8 +22,23 @@
     },
     {
       "id": "llm",
-      "term": { "cs": "Velký jazykový model (LLM)", "en": "Large language model (LLM)" },
-      "aliases": ["LLM", "LLMs", "velký jazykový model", "velkého jazykového modelu", "velké jazykové modely", "velkých jazykových modelů", "jazykový model", "jazykové modely", "jazykových modelů", "large language model", "large language models"],
+      "term": {
+        "cs": "Velký jazykový model (LLM)",
+        "en": "Large language model (LLM)"
+      },
+      "aliases": [
+        "LLM",
+        "LLMs",
+        "velký jazykový model",
+        "velkého jazykového modelu",
+        "velké jazykové modely",
+        "velkých jazykových modelů",
+        "jazykový model",
+        "jazykové modely",
+        "jazykových modelů",
+        "large language model",
+        "large language models"
+      ],
       "short": {
         "cs": "AI natrénovaná na obrovském množství textu, která umí odpovídat, psát a shrnovat. Základ nástrojů jako ChatGPT nebo Claude.",
         "en": "AI trained on huge amounts of text that can answer, write and summarise. The basis of tools like ChatGPT or Claude."
@@ -21,8 +46,19 @@
     },
     {
       "id": "token",
-      "term": { "cs": "Token", "en": "Token" },
-      "aliases": ["token", "tokeny", "tokenů", "tokenem", "tokenu", "tokens", "tokenizace"],
+      "term": {
+        "cs": "Token",
+        "en": "Token"
+      },
+      "aliases": [
+        "token",
+        "tokeny",
+        "tokenů",
+        "tokenem",
+        "tokenu",
+        "tokens",
+        "tokenizace"
+      ],
       "short": {
         "cs": "Kousek textu, se kterým model pracuje — zhruba slovo nebo jeho část. Délka vstupu i odpovědi se počítá v tokenech.",
         "en": "A chunk of text the model works with — roughly a word or part of one. Input and output length is counted in tokens."
@@ -30,8 +66,15 @@
     },
     {
       "id": "rag",
-      "term": { "cs": "RAG", "en": "RAG" },
-      "aliases": ["RAG", "retrieval-augmented generation", "retrieval augmented generation"],
+      "term": {
+        "cs": "RAG",
+        "en": "RAG"
+      },
+      "aliases": [
+        "RAG",
+        "retrieval-augmented generation",
+        "retrieval augmented generation"
+      ],
       "short": {
         "cs": "Postup, kdy si AI před odpovědí najde relevantní informace v databázi nebo na webu. Míň si pak vymýšlí a umí pracovat s aktuálními daty.",
         "en": "An approach where the AI looks up relevant information before answering. It makes things up less and can use up-to-date data."
@@ -39,8 +82,25 @@
     },
     {
       "id": "agent",
-      "term": { "cs": "AI agent", "en": "AI agent" },
-      "aliases": ["AI agent", "AI agenti", "agent", "agenti", "agentů", "agentem", "agenta", "agentní", "agentních", "agentního", "agentskou", "agentic", "agentic AI"],
+      "term": {
+        "cs": "AI agent",
+        "en": "AI agent"
+      },
+      "aliases": [
+        "AI agent",
+        "AI agenti",
+        "agent",
+        "agenti",
+        "agentů",
+        "agentem",
+        "agenta",
+        "agentní",
+        "agentních",
+        "agentního",
+        "agentskou",
+        "agentic",
+        "agentic AI"
+      ],
       "short": {
         "cs": "AI, která nejen odpovídá, ale sama plní úkoly — hledá, používá nástroje a dělá kroky za tebe, dokud není hotovo.",
         "en": "AI that doesn't just answer but carries out tasks on its own — searching, using tools and taking steps for you until the job is done."
@@ -48,8 +108,22 @@
     },
     {
       "id": "hallucination",
-      "term": { "cs": "Halucinace", "en": "Hallucination" },
-      "aliases": ["halucinace", "halucinaci", "halucinací", "halucinuje", "halucinují", "halucinovat", "hallucination", "hallucinations", "hallucinate", "hallucinates"],
+      "term": {
+        "cs": "Halucinace",
+        "en": "Hallucination"
+      },
+      "aliases": [
+        "halucinace",
+        "halucinaci",
+        "halucinací",
+        "halucinuje",
+        "halucinují",
+        "halucinovat",
+        "hallucination",
+        "hallucinations",
+        "hallucinate",
+        "hallucinates"
+      ],
       "short": {
         "cs": "Když si AI vymyslí informaci, která zní věrohodně, ale není pravdivá. Model totiž předpovídá pravděpodobná slova — ne ověřená fakta.",
         "en": "When an AI makes up information that sounds credible but isn't true. The model predicts likely words, not verified facts."
@@ -57,8 +131,18 @@
     },
     {
       "id": "context-window",
-      "term": { "cs": "Kontextové okno", "en": "Context window" },
-      "aliases": ["kontextové okno", "kontextového okna", "kontextovém okně", "kontextovým oknem", "context window", "context windows"],
+      "term": {
+        "cs": "Kontextové okno",
+        "en": "Context window"
+      },
+      "aliases": [
+        "kontextové okno",
+        "kontextového okna",
+        "kontextovém okně",
+        "kontextovým oknem",
+        "context window",
+        "context windows"
+      ],
       "short": {
         "cs": "Kolik textu model udrží „v hlavě“ najednou. Čím větší okno, tím delší dokument nebo konverzaci zvládne bez ztráty nitě.",
         "en": "How much text the model can hold 'in mind' at once. The bigger the window, the longer a document or conversation it handles."
@@ -66,8 +150,15 @@
     },
     {
       "id": "moe",
-      "term": { "cs": "MoE (směs expertů)", "en": "MoE (mixture of experts)" },
-      "aliases": ["MoE", "mixture of experts", "směs expertů"],
+      "term": {
+        "cs": "MoE (směs expertů)",
+        "en": "MoE (mixture of experts)"
+      },
+      "aliases": [
+        "MoE",
+        "mixture of experts",
+        "směs expertů"
+      ],
       "short": {
         "cs": "Architektura složená z mnoha „expertů“, kde se pro každý dotaz zapojí jen část. Model je pak výkonný, ale levnější na provoz.",
         "en": "An architecture of many 'experts' where only part activates per query. The model is powerful yet cheaper to run."
@@ -75,8 +166,16 @@
     },
     {
       "id": "inference",
-      "term": { "cs": "Inference", "en": "Inference" },
-      "aliases": ["inference", "inferenci", "inferencí", "inference"],
+      "term": {
+        "cs": "Inference",
+        "en": "Inference"
+      },
+      "aliases": [
+        "inference",
+        "inferenci",
+        "inferencí",
+        "inference"
+      ],
       "short": {
         "cs": "Samotný běh modelu, když generuje odpověď (na rozdíl od tréninku). Náklady na inferenci = kolik stojí model provozovat.",
         "en": "Running the model to generate an answer (as opposed to training it). Inference cost is what it takes to operate."
@@ -84,8 +183,18 @@
     },
     {
       "id": "fine-tuning",
-      "term": { "cs": "Doladění (fine-tuning)", "en": "Fine-tuning" },
-      "aliases": ["fine-tuning", "fine tuning", "finetuning", "doladění", "doladit", "doladěný"],
+      "term": {
+        "cs": "Doladění (fine-tuning)",
+        "en": "Fine-tuning"
+      },
+      "aliases": [
+        "fine-tuning",
+        "fine tuning",
+        "finetuning",
+        "doladění",
+        "doladit",
+        "doladěný"
+      ],
       "short": {
         "cs": "Doladění hotového modelu na konkrétní úkol nebo styl pomocí menší, cílené sady dat.",
         "en": "Adapting a finished model to a specific task or style using a smaller, targeted set of data."
@@ -93,8 +202,18 @@
     },
     {
       "id": "benchmark",
-      "term": { "cs": "Benchmark", "en": "Benchmark" },
-      "aliases": ["benchmark", "benchmarku", "benchmarky", "benchmarků", "benchmarcích", "srovnávací test"],
+      "term": {
+        "cs": "Benchmark",
+        "en": "Benchmark"
+      },
+      "aliases": [
+        "benchmark",
+        "benchmarku",
+        "benchmarky",
+        "benchmarků",
+        "benchmarcích",
+        "srovnávací test"
+      ],
       "short": {
         "cs": "Standardizovaný test, kterým se měří a porovnává schopnost modelů — třeba v matematice nebo programování.",
         "en": "A standardised test that measures and compares models' abilities — for example in maths or coding."
@@ -102,8 +221,17 @@
     },
     {
       "id": "multimodal",
-      "term": { "cs": "Multimodální", "en": "Multimodal" },
-      "aliases": ["multimodální", "multimodálních", "multimodalita", "multimodal", "multimodality"],
+      "term": {
+        "cs": "Multimodální",
+        "en": "Multimodal"
+      },
+      "aliases": [
+        "multimodální",
+        "multimodálních",
+        "multimodalita",
+        "multimodal",
+        "multimodality"
+      ],
       "short": {
         "cs": "Model, který rozumí víc druhům vstupu najednou — text, obrázky, zvuk i video.",
         "en": "A model that understands several kinds of input at once — text, images, audio and video."
@@ -111,8 +239,20 @@
     },
     {
       "id": "open-weight",
-      "term": { "cs": "Otevřené váhy (open-weight)", "en": "Open weights" },
-      "aliases": ["open-weight", "open weight", "open-weights", "otevřené váhy", "otevřenými váhami", "otevřených vah", "open-source model", "open source model"],
+      "term": {
+        "cs": "Otevřené váhy (open-weight)",
+        "en": "Open weights"
+      },
+      "aliases": [
+        "open-weight",
+        "open weight",
+        "open-weights",
+        "otevřené váhy",
+        "otevřenými váhami",
+        "otevřených vah",
+        "open-source model",
+        "open source model"
+      ],
       "short": {
         "cs": "Model, jehož „váhy“ (naučené parametry) jsou volně ke stažení, takže si ho lze provozovat i upravovat samostatně.",
         "en": "A model whose 'weights' (learned parameters) are freely downloadable, so anyone can run and modify it."
@@ -120,8 +260,14 @@
     },
     {
       "id": "gpu",
-      "term": { "cs": "GPU", "en": "GPU" },
-      "aliases": ["GPU", "GPUs"],
+      "term": {
+        "cs": "GPU",
+        "en": "GPU"
+      },
+      "aliases": [
+        "GPU",
+        "GPUs"
+      ],
       "short": {
         "cs": "Výkonný čip původně pro grafiku, dnes hlavní „motor“ pro trénink i běh AI modelů.",
         "en": "A powerful chip originally for graphics, now the main 'engine' for training and running AI models."
@@ -129,8 +275,14 @@
     },
     {
       "id": "tpu",
-      "term": { "cs": "TPU", "en": "TPU" },
-      "aliases": ["TPU", "TPUs"],
+      "term": {
+        "cs": "TPU",
+        "en": "TPU"
+      },
+      "aliases": [
+        "TPU",
+        "TPUs"
+      ],
       "short": {
         "cs": "Čip od Googlu navržený přímo pro AI výpočty — obdoba GPU, ale šitá na míru strojovému učení.",
         "en": "A Google chip designed specifically for AI computation — like a GPU but tailored to machine learning."
@@ -138,8 +290,15 @@
     },
     {
       "id": "api",
-      "term": { "cs": "API", "en": "API" },
-      "aliases": ["API", "APIs", "API rozhraní"],
+      "term": {
+        "cs": "API",
+        "en": "API"
+      },
+      "aliases": [
+        "API",
+        "APIs",
+        "API rozhraní"
+      ],
       "short": {
         "cs": "Rozhraní, přes které jedna aplikace volá druhou. Vývojáři přes API zapojí AI model do vlastního produktu.",
         "en": "An interface one app uses to call another. Developers plug an AI model into their product through an API."
@@ -147,8 +306,19 @@
     },
     {
       "id": "prompt",
-      "term": { "cs": "Prompt", "en": "Prompt" },
-      "aliases": ["prompt", "promptu", "prompty", "promptů", "promptem", "promptování", "prompting"],
+      "term": {
+        "cs": "Prompt",
+        "en": "Prompt"
+      },
+      "aliases": [
+        "prompt",
+        "promptu",
+        "prompty",
+        "promptů",
+        "promptem",
+        "promptování",
+        "prompting"
+      ],
       "short": {
         "cs": "Zadání, které modelu napíšeš — otázka nebo instrukce, podle níž vytvoří odpověď.",
         "en": "The instruction you give the model — the question or command it responds to."
@@ -156,8 +326,17 @@
     },
     {
       "id": "reasoning",
-      "term": { "cs": "Uvažování (reasoning)", "en": "Reasoning" },
-      "aliases": ["reasoning", "uvažování", "uvažovací", "reasoning model", "reasoning modely"],
+      "term": {
+        "cs": "Uvažování (reasoning)",
+        "en": "Reasoning"
+      },
+      "aliases": [
+        "reasoning",
+        "uvažování",
+        "uvažovací",
+        "reasoning model",
+        "reasoning modely"
+      ],
       "short": {
         "cs": "Schopnost modelu „přemýšlet“ krok za krokem před odpovědí. Uvažovací modely řeší složitější úlohy, ale trvá jim to déle.",
         "en": "The model's ability to 'think' step by step before answering. Reasoning models solve harder tasks but take longer."
@@ -165,8 +344,19 @@
     },
     {
       "id": "training",
-      "term": { "cs": "Trénink", "en": "Training" },
-      "aliases": ["trénink", "tréninku", "tréninkem", "natrénovat", "natrénovaný", "trénování", "training"],
+      "term": {
+        "cs": "Trénink",
+        "en": "Training"
+      },
+      "aliases": [
+        "trénink",
+        "tréninku",
+        "tréninkem",
+        "natrénovat",
+        "natrénovaný",
+        "trénování",
+        "training"
+      ],
       "short": {
         "cs": "Proces, při kterém se model učí ze surových dat. Spotřebuje obrovský výpočetní výkon a proběhne jednou, dopředu.",
         "en": "The process where a model learns from raw data. It uses enormous compute and happens once, up front."
@@ -174,8 +364,17 @@
     },
     {
       "id": "embedding",
-      "term": { "cs": "Embedding", "en": "Embedding" },
-      "aliases": ["embedding", "embeddingy", "embeddingů", "embeddings", "vektorové reprezentace"],
+      "term": {
+        "cs": "Embedding",
+        "en": "Embedding"
+      },
+      "aliases": [
+        "embedding",
+        "embeddingy",
+        "embeddingů",
+        "embeddings",
+        "vektorové reprezentace"
+      ],
       "short": {
         "cs": "Převod textu nebo obrázku na čísla, kterým počítač rozumí. Díky nim umí AI hledat podle významu, ne jen podle slov.",
         "en": "Turning text or images into numbers a computer understands. They let AI search by meaning, not just keywords."
@@ -183,8 +382,16 @@
     },
     {
       "id": "agi",
-      "term": { "cs": "AGI", "en": "AGI" },
-      "aliases": ["AGI", "obecná umělá inteligence", "obecné umělé inteligence", "artificial general intelligence"],
+      "term": {
+        "cs": "AGI",
+        "en": "AGI"
+      },
+      "aliases": [
+        "AGI",
+        "obecná umělá inteligence",
+        "obecné umělé inteligence",
+        "artificial general intelligence"
+      ],
       "short": {
         "cs": "Obecná umělá inteligence — hypotetická AI, která by zvládla jakýkoli intelektuální úkol jako člověk. Zatím neexistuje.",
         "en": "Artificial general intelligence — a hypothetical AI that could handle any intellectual task like a human. It doesn't exist yet."
@@ -192,8 +399,16 @@
     },
     {
       "id": "generative-ai",
-      "term": { "cs": "Generativní AI", "en": "Generative AI" },
-      "aliases": ["generativní AI", "generativní umělá inteligence", "generative AI", "genAI"],
+      "term": {
+        "cs": "Generativní AI",
+        "en": "Generative AI"
+      },
+      "aliases": [
+        "generativní AI",
+        "generativní umělá inteligence",
+        "generative AI",
+        "genAI"
+      ],
       "short": {
         "cs": "AI, která tvoří nový obsah — text, obrázky, kód, hudbu — místo aby jen třídila hotová data.",
         "en": "AI that creates new content — text, images, code, music — rather than just sorting existing data."
@@ -201,11 +416,35 @@
     },
     {
       "id": "jailbreak",
-      "term": { "cs": "Jailbreak", "en": "Jailbreak" },
-      "aliases": ["jailbreak", "jailbreaku", "jailbreaky"],
+      "term": {
+        "cs": "Jailbreak",
+        "en": "Jailbreak"
+      },
+      "aliases": [
+        "jailbreak",
+        "jailbreaku",
+        "jailbreaky"
+      ],
       "short": {
         "cs": "Trik, kterým uživatel obejde bezpečnostní pojistky modelu, aby udělal něco, co má zakázané.",
         "en": "A trick that bypasses a model's safety guardrails to make it do something it's meant to refuse."
+      }
+    },
+    {
+      "id": "vibe-coding",
+      "term": {
+        "cs": "Vibe coding",
+        "en": "Vibe coding"
+      },
+      "aliases": [
+        "vibe coding",
+        "vibe-coding",
+        "vibe codingu",
+        "vibe codingem"
+      ],
+      "short": {
+        "cs": "Tvorba softwaru popisem v běžném jazyce místo psaní kódu — AI kód generuje sama, člověk zadává a testuje výsledek.",
+        "en": "Building software by describing what you want in plain language instead of writing code — the AI generates the code, you steer and test the result."
       }
     }
   ]
