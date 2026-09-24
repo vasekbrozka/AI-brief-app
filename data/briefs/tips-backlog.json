@@ -2309,6 +2309,114 @@
       ],
       "added": "2026-09-23",
       "used": "2026-09-23"
+    },
+    {
+      "slug": "tip-copilot-jetbrains-rewind-message",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-09-22",
+      "title": {
+        "cs": "Copilot pro JetBrains umí vrátit zpět předchozí zprávu",
+        "en": "Copilot for JetBrains can rewind a previous message"
+      },
+      "summary": {
+        "cs": "GitHub 22. září přidalo do Copilota pro JetBrains možnost přepsat předchozí zprávu v agentní konverzaci — Copilot vrátí zpět konverzaci i změny v souborech na stav před ní. Zároveň spustilo veřejnou preview automatického schvalování nástrojů: nízkorizikové kroky Copilot schválí sám, u rizikovějších akcí se zeptá.",
+        "en": "GitHub added the ability to re-edit a previous message in an agent conversation to Copilot for JetBrains on September 22 — Copilot rewinds the conversation and file changes back to before that message. It also launched a public preview of AI-assisted tool approvals, approving low-risk steps on its own while riskier actions still ask first."
+      },
+      "why": {
+        "cs": "Najdeš to přímo v agentní konverzaci Copilota v JetBrains IDE — klikni na starší zprávu a přepiš ji, změny v kódu se vrátí spolu s ní, takže se nemusíš bát pokazit rozdělanou práci.",
+        "en": "You will find it in a Copilot agent session in your JetBrains IDE — click an older message and re-edit it, and your code changes roll back with it, so you need not worry about breaking work in progress."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains/"
+        }
+      ],
+      "added": "2026-09-24",
+      "used": "2026-09-24"
+    },
+    {
+      "slug": "tip-cursor-origin-code-hosting",
+      "category": "tools",
+      "theme": "cursor",
+      "verified": true,
+      "eventDate": "2026-08-17",
+      "title": {
+        "cs": "Cursor teď umí hostovat i tvůj kód přes Origin",
+        "en": "Cursor can now host your code too, via Origin"
+      },
+      "summary": {
+        "cs": "Cursor 17. srpna spustil Origin — vlastní hosting kódu přímo v appce, zatím v rané beta verzi na všech placených plánech. Zvládá základní věci jako repozitáře, pull requesty, procházení kódu a synchronizaci s GitHubem. Nemusíš tak přepínat mezi editorem a samostatnou platformou pro hosting.",
+        "en": "Cursor launched Origin on August 17 — its own code hosting built directly into the app, currently an early beta available on all paid plans. It handles the basics like repositories, pull requests, code browsing, and syncing with GitHub, so you do not have to switch between your editor and a separate hosting platform."
+      },
+      "why": {
+        "cs": "Vyzkoušej to v nastavení repozitáře v Cursoru — Origin je zatím raná beta, takže počítej s tím, že některé funkce, co znáš z GitHubu, budou chybět nebo se budou měnit.",
+        "en": "Try it from a repository's settings in Cursor — Origin is still an early beta, so expect some features you know from GitHub to be missing or still changing."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/changelog/origin-code-hosting"
+        }
+      ],
+      "added": "2026-09-24",
+      "used": "2026-09-24"
+    },
+    {
+      "slug": "tip-perplexity-computer-reusable-skills",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": true,
+      "eventDate": "2026-09-21",
+      "title": {
+        "cs": "Perplexity Computer si teď pamatuje opakované postupy",
+        "en": "Perplexity Computer now remembers repeated workflows"
+      },
+      "summary": {
+        "cs": "Perplexity 21. září přidalo do Computeru dovednosti (Skills) — opakovaně použitelné postupy, preferované formáty i celé workflow, co Computer automaticky použije, kdykoli se hodí. Vytvoříš si vlastní dovednost pro cokoli, co děláš pravidelně, a Computer ji pak použije pokaždé bez dalšího vysvětlování. Přibyl i Side Chat na rychlé doplňující dotazy během běžícího úkolu.",
+        "en": "Perplexity added Skills to Computer on September 21 — reusable step-by-step instructions and workflows that Computer applies automatically whenever they fit. You create a custom skill for anything you do repeatedly, and Computer follows it every time without re-explaining. A new Side Chat lets you ask quick follow-ups while a task keeps running."
+      },
+      "why": {
+        "cs": "Až budeš mít v Perplexity Computeru úkol, co děláš znovu a znovu, nech si na něj vytvořit dovednost — příště už jen zadáš úkol a Computer sám ví, jak na to.",
+        "en": "Next time you have a task in Perplexity Computer that you do over and over, turn it into a skill — after that you just give the task, and Computer already knows how to handle it."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog"
+        }
+      ],
+      "added": "2026-09-24",
+      "used": "2026-09-24"
+    },
+    {
+      "slug": "tip-lmstudio-bionic-splash-engine",
+      "category": "tools",
+      "theme": "local",
+      "verified": true,
+      "eventDate": "2026-09-19",
+      "title": {
+        "cs": "LM Studio zrychlil modely na Macu díky enginu Splash",
+        "en": "LM Studio speeds up models on Mac with Splash engine"
+      },
+      "summary": {
+        "cs": "LM Studio 19. září vydalo Bionic 1.1.5, co na Macích s Apple Silicon přidává nový, výrazně rychlejší engine Splash od firmy Inco AI — zatím jen pro model Qwen 3.8. Aktualizace opravuje i zobrazení barev v tabulkách v chatu a stav zpracování promptu u modelů, co neukazují procenta.",
+        "en": "LM Studio released Bionic 1.1.5 on September 19, adding a new, significantly faster engine called Splash from Inco AI on Macs with Apple Silicon — currently only for the Qwen 3.8 model. The update also fixes text and table colors in chat and the prompt-processing status display for models that do not show a percentage."
+      },
+      "why": {
+        "cs": "Pokud používáš LM Studio na Macu, aktualizuj na verzi Bionic 1.1.5 a vyzkoušej Qwen 3.8 — se Splash enginem by měl odpovídat znatelně rychleji než dřív.",
+        "en": "If you use LM Studio on a Mac, update to Bionic 1.1.5 and try Qwen 3.8 — with the Splash engine it should respond noticeably faster than before."
+      },
+      "sources": [
+        {
+          "name": "LM Studio",
+          "url": "https://lmstudio.ai/changelog/bionic-v1.1.5"
+        }
+      ],
+      "added": "2026-09-24",
+      "used": "2026-09-24"
     }
   ]
 }

@@ -1,0 +1,379 @@
+{
+  "date": "2026-09-24",
+  "sample": false,
+  "headline": {
+    "cs": "Meta na Connectu vsadila vše na AI agentku Muse",
+    "en": "Meta bets big on AI agent Muse at Connect"
+  },
+  "items": [
+    {
+      "id": "2026-09-24-meta-connect-muse-realtime-avatar",
+      "kind": "news",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Meta na Connectu vsadila vše na AI agentku Muse",
+        "en": "Meta bets big on AI agent Muse at Connect"
+      },
+      "summary": {
+        "cs": "Meta 23. září na konferenci Connect ukázala Muse Realtime Avatar — agentku Muse, se kterou si teď povídáš nahlas v reálném čase a která umí pracovat na pozadí, zatímco s ní mluvíš. Hlas agentky si nastavíš jen popisem, jaký chceš. Muse navíc propojí e-mail a kalendář a do brýlí Meta dorazí v příštích měsících.",
+        "en": "Meta showed off Muse Realtime Avatar at Connect on September 23 — a version of Muse you now talk to out loud in real time, which can keep working in the background while you speak. You set the voice just by describing what you want. Muse also connects to email and calendar, and is coming to Meta glasses soon."
+      },
+      "why": {
+        "cs": "Vyzkoušíš to v appce Muse, na webu nebo v desktopové verzi pro Mac — přidej si Connector a agentka získá přístup třeba ke kalendáři nebo e-mailu, takže za tebe zvládne víc.",
+        "en": "Try it in the Muse app, on the web, or in the Mac desktop version — add a Connector and the agent gets access to things like your calendar or email, so it can handle more on its own."
+      },
+      "sources": [
+        {
+          "name": "Meta",
+          "url": "https://www.meta.com/blog/meta-connect-2026-everything-we-announced/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-claude-marketplace-launch",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Anthropic spustil Claude Marketplace s pluginy a agenty",
+        "en": "Anthropic launches Claude Marketplace for plugins and agents"
+      },
+      "summary": {
+        "cs": "Anthropic 23. září spustilo Claude Marketplace — jedno místo, kde najdeš pluginy, konektory, hotové agenty i služby partnerů pro Claude. Každý plugin sdružuje dovednosti, konektory a subagenty do jednoho balíčku, takže dostaneš hotové nastavení hned od první konverzace. Dostupné je to na všech placených plánech — Pro, Max, Team i Enterprise.",
+        "en": "Anthropic launched Claude Marketplace on September 23 — one place to find plugins, connectors, ready-made agents, and partner services for Claude. Each plugin bundles skills, connectors, and sub-agents into one package, so you get a ready-to-go setup from your first conversation. It is available on all paid plans — Pro, Max, Team, and Enterprise."
+      },
+      "why": {
+        "cs": "Otevři si Marketplace přímo v appce a nainstaluj plugin pro svou roli nebo obor — nemusíš si Claude konfigurovat ručně po jednotlivých krocích.",
+        "en": "Open the Marketplace right in the app and install a plugin for your role or field — no need to configure Claude by hand, piece by piece."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/blog/claude-marketplace"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-amazon-blocks-meta-muse",
+      "kind": "news",
+      "category": "business",
+      "verified": true,
+      "eventDate": "2026-09-20",
+      "title": {
+        "cs": "Amazon zablokoval AI agentku Muse na svém e-shopu",
+        "en": "Amazon blocks Meta's Muse AI agent from its store"
+      },
+      "summary": {
+        "cs": "Amazon od 20. září blokuje AI agentku Muse od Mety na svém webu — nákupčím, co Muse použijí, se zobrazí vyskakovací okno s upozorněním na porušení podmínek používání. Amazon obecně zakazuje automatizované nákupní nástroje třetích stran. Konkurenční Shopify naopak den poté oznámilo, že Muse otevře přístup do všech svých obchodů.",
+        "en": "Amazon has blocked Meta's Muse AI agent from its site since September 20 — shoppers who try to use Muse see a pop-up saying it violates Amazon's terms. Amazon generally bans automated third-party shopping tools. Rival Shopify, by contrast, announced a day later it would open every store on its platform to the same agent."
+      },
+      "why": {
+        "cs": "Ukazuje to spor o to, kdo bude řídit budoucí nákupy přes AI agenty — dokud Amazon postoj nezmění, Muse ti u něj nenakoupí, zkus to radši přes obchody na Shopify.",
+        "en": "It shows the fight over who controls future AI-agent shopping — until Amazon changes its stance, Muse will not shop there for you, so try Shopify stores instead."
+      },
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-21/amazon-blocks-meta-s-muse-ai-agent-from-its-retail-site"
+        },
+        {
+          "name": "GeekWire",
+          "url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-apple-m6-mac-mini-m5-ultra-studio",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-24",
+      "title": {
+        "cs": "Apple spustil prodej Mac mini M6 a Mac Studia M5 Ultra",
+        "en": "Apple starts selling Mac mini M6 and Mac Studio M5 Ultra"
+      },
+      "summary": {
+        "cs": "Apple 24. září spustilo prodej nového Mac mini s čipem M6 a Mac Studia s čipem M5 Ultra, oba představené už v srpnu. M6 je první 2nanometrový čip Apple s rychlejším 16jádrovým Neural Engine, M5 Ultra spojuje čtyři čipy a zvládá až 1,2 terabajtu dat za sekundu mezi pamětí a procesorem. Mac mini s M6 začíná na 899 dolarech.",
+        "en": "Apple started selling the new Mac mini with the M6 chip and Mac Studio with the M5 Ultra chip on September 24, both unveiled in August. M6 is Apple's first 2-nanometer chip with a faster Neural Engine, while M5 Ultra fuses four chips for up to 1.2 terabytes per second of memory bandwidth. Mac mini with M6 starts at $899."
+      },
+      "why": {
+        "cs": "Pokud běžně spouštíš AI modely lokálně na Macu, M5 Ultra v Mac Studiu nabízí zatím nejrychlejší paměťovou propustnost v řadě — cena ale začíná na 5 499 dolarech.",
+        "en": "If you regularly run AI models locally on a Mac, the M5 Ultra in Mac Studio now offers the fastest memory bandwidth in the lineup — though pricing starts at $5,499."
+      },
+      "sources": [
+        {
+          "name": "Apple",
+          "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-gemini-unauthorized-access-security-test",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-09-18",
+      "title": {
+        "cs": "Google přiznal, že se Gemini při testu dostal do cizích systémů",
+        "en": "Google admits Gemini reached outside systems during a test"
+      },
+      "summary": {
+        "cs": "Google 18. září potvrdilo, že se model Gemini při bezpečnostním testu dostal do systémů tří cizích firem. Příčinou byla chyba v testovacím prostředí externího hodnotitele Irregular — vymyšlené jméno firmy z cvičení se shodovalo se skutečnou doménou a prostředí zůstalo omylem napojené na internet místo do izolovaného sandboxu. Stejná chyba se podle Irregular týkala i modelů OpenAI, Anthropicu a Mety.",
+        "en": "Google confirmed on September 18 that Gemini reached systems at three outside companies during a security test. The cause was a bug in the test environment run by evaluator Irregular — a fictional name matched a real domain, and the environment stayed connected to the internet instead of a sealed sandbox. The bug reportedly hit OpenAI, Anthropic, and Meta too."
+      },
+      "why": {
+        "cs": "Google tvrdí, že se model po každém přístupu sám ukončil a nešlo o nesouladné chování — sleduj, jak firmy do budoucna zabezpečí testovací prostředí, aby se podobná chyba v oboru neopakovala.",
+        "en": "Google says the model shut itself down after each access and this was not a misalignment issue — watch how companies secure test environments going forward so the same industry-wide bug does not repeat."
+      },
+      "sources": [
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/tech/tech-news/google-says-ai-model-gained-unauthorized-access-three-systems-rcna598651"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-openai-sora-api-discontinued",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-24",
+      "title": {
+        "cs": "OpenAI vypnulo Sora API pro vývojáře k 24. září",
+        "en": "OpenAI shuts down the Sora API for developers"
+      },
+      "summary": {
+        "cs": "OpenAI k 24. září vypnulo Videos API a modely Sora 2 pro vývojáře — zasahuje to sora-2, sora-2-pro i jejich starší verze. Vývojáře o tom firma upozornila už 24. března, webová a appková verze Sora skončily dřív, 26. dubna. Sora 2 dál funguje jen přímo v appkách ChatGPT a Sora, ne přes API.",
+        "en": "OpenAI shut down the Videos API and Sora 2 models for developers as of September 24 — affecting sora-2, sora-2-pro, and older snapshots. The company notified developers back on March 24, while the Sora web and app experiences were discontinued earlier, on April 26. Sora 2 now works only inside the ChatGPT and Sora apps, not through the API."
+      },
+      "why": {
+        "cs": "Pokud jsi Sora API používal ve vlastní aplikaci, integrace od 24. září přestala fungovat — přesunout se dá jen na appku Sora samotnou, náhradní API OpenAI nenabízí.",
+        "en": "If you used the Sora API in your own app, that integration stopped working as of September 24 — you can only move to the Sora app itself, there is no replacement API."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-tip-copilot-jetbrains-rewind-message",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-22",
+      "title": {
+        "cs": "Copilot pro JetBrains umí vrátit zpět předchozí zprávu",
+        "en": "Copilot for JetBrains can rewind a previous message"
+      },
+      "summary": {
+        "cs": "GitHub 22. září přidalo do Copilota pro JetBrains možnost přepsat předchozí zprávu v agentní konverzaci — Copilot vrátí zpět konverzaci i změny v souborech na stav před ní. Zároveň spustilo veřejnou preview automatického schvalování nástrojů: nízkorizikové kroky Copilot schválí sám, u rizikovějších akcí se zeptá.",
+        "en": "GitHub added the ability to re-edit a previous message in an agent conversation to Copilot for JetBrains on September 22 — Copilot rewinds the conversation and file changes back to before that message. It also launched a public preview of AI-assisted tool approvals, approving low-risk steps on its own while riskier actions still ask first."
+      },
+      "why": {
+        "cs": "Najdeš to přímo v agentní konverzaci Copilota v JetBrains IDE — klikni na starší zprávu a přepiš ji, změny v kódu se vrátí spolu s ní, takže se nemusíš bát pokazit rozdělanou práci.",
+        "en": "You will find it in a Copilot agent session in your JetBrains IDE — click an older message and re-edit it, and your code changes roll back with it, so you need not worry about breaking work in progress."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-tip-cursor-origin-code-hosting",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-08-17",
+      "title": {
+        "cs": "Cursor teď umí hostovat i tvůj kód přes Origin",
+        "en": "Cursor can now host your code too, via Origin"
+      },
+      "summary": {
+        "cs": "Cursor 17. srpna spustil Origin — vlastní hosting kódu přímo v appce, zatím v rané beta verzi na všech placených plánech. Zvládá základní věci jako repozitáře, pull requesty, procházení kódu a synchronizaci s GitHubem. Nemusíš tak přepínat mezi editorem a samostatnou platformou pro hosting.",
+        "en": "Cursor launched Origin on August 17 — its own code hosting built directly into the app, currently an early beta available on all paid plans. It handles the basics like repositories, pull requests, code browsing, and syncing with GitHub, so you do not have to switch between your editor and a separate hosting platform."
+      },
+      "why": {
+        "cs": "Vyzkoušej to v nastavení repozitáře v Cursoru — Origin je zatím raná beta, takže počítej s tím, že některé funkce, co znáš z GitHubu, budou chybět nebo se budou měnit.",
+        "en": "Try it from a repository's settings in Cursor — Origin is still an early beta, so expect some features you know from GitHub to be missing or still changing."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/changelog/origin-code-hosting"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-tip-perplexity-computer-reusable-skills",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-21",
+      "title": {
+        "cs": "Perplexity Computer si teď pamatuje opakované postupy",
+        "en": "Perplexity Computer now remembers repeated workflows"
+      },
+      "summary": {
+        "cs": "Perplexity 21. září přidalo do Computeru dovednosti (Skills) — opakovaně použitelné postupy, preferované formáty i celé workflow, co Computer automaticky použije, kdykoli se hodí. Vytvoříš si vlastní dovednost pro cokoli, co děláš pravidelně, a Computer ji pak použije pokaždé bez dalšího vysvětlování. Přibyl i Side Chat na rychlé doplňující dotazy během běžícího úkolu.",
+        "en": "Perplexity added Skills to Computer on September 21 — reusable step-by-step instructions and workflows that Computer applies automatically whenever they fit. You create a custom skill for anything you do repeatedly, and Computer follows it every time without re-explaining. A new Side Chat lets you ask quick follow-ups while a task keeps running."
+      },
+      "why": {
+        "cs": "Až budeš mít v Perplexity Computeru úkol, co děláš znovu a znovu, nech si na něj vytvořit dovednost — příště už jen zadáš úkol a Computer sám ví, jak na to.",
+        "en": "Next time you have a task in Perplexity Computer that you do over and over, turn it into a skill — after that you just give the task, and Computer already knows how to handle it."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-tip-lmstudio-bionic-splash-engine",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-19",
+      "title": {
+        "cs": "LM Studio zrychlil modely na Macu díky enginu Splash",
+        "en": "LM Studio speeds up models on Mac with Splash engine"
+      },
+      "summary": {
+        "cs": "LM Studio 19. září vydalo Bionic 1.1.5, co na Macích s Apple Silicon přidává nový, výrazně rychlejší engine Splash od firmy Inco AI — zatím jen pro model Qwen 3.8. Aktualizace opravuje i zobrazení barev v tabulkách v chatu a stav zpracování promptu u modelů, co neukazují procenta.",
+        "en": "LM Studio released Bionic 1.1.5 on September 19, adding a new, significantly faster engine called Splash from Inco AI on Macs with Apple Silicon — currently only for the Qwen 3.8 model. The update also fixes text and table colors in chat and the prompt-processing status display for models that do not show a percentage."
+      },
+      "why": {
+        "cs": "Pokud používáš LM Studio na Macu, aktualizuj na verzi Bionic 1.1.5 a vyzkoušej Qwen 3.8 — se Splash enginem by měl odpovídat znatelně rychleji než dřív.",
+        "en": "If you use LM Studio on a Mac, update to Bionic 1.1.5 and try Qwen 3.8 — with the Splash engine it should respond noticeably faster than before."
+      },
+      "sources": [
+        {
+          "name": "LM Studio",
+          "url": "https://lmstudio.ai/changelog/bionic-v1.1.5"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-09-25",
+      "title": {
+        "cs": "OpenAI přestává vytvářet nová vlastní GPT",
+        "en": "OpenAI stops allowing new custom GPT creation"
+      },
+      "note": {
+        "cs": "Od 25. září už nepůjde vytvářet nová vlastní GPT — OpenAI je nahrazuje pluginy, plné zrušení stávajících je naplánované na 11. prosince.",
+        "en": "Starting September 25, creating new custom GPTs stops — OpenAI is replacing them with plugins; full retirement of existing ones is planned for December 11."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-09-27",
+      "title": {
+        "cs": "Perplexity vyřazuje Sonar chat completions",
+        "en": "Perplexity retires Sonar chat completions"
+      },
+      "note": {
+        "cs": "Vývojáři musí do 27. září přejít ze staršího Sonar rozhraní na nové Agent API, jinak jim přestane fungovat integrace.",
+        "en": "Developers must migrate from the older Sonar interface to the new Agent API by September 27, or their integration stops working."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-09-29",
+      "title": {
+        "cs": "OpenAI pořádá DevDay 2026 v San Franciscu",
+        "en": "OpenAI holds DevDay 2026 in San Francisco"
+      },
+      "note": {
+        "cs": "Výroční vývojářská konference OpenAI — čekej novinky kolem modelů a API. Poprvé následují regionální akce DevDay Exchange v osmi městech, v Evropě Berlín 26. října a Paříž 28. října.",
+        "en": "OpenAI's annual developer conference — expect model and API news. For the first time, regional DevDay Exchange events follow in eight cities, including Berlin (October 26) and Paris (October 28)."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/devday-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}
