@@ -2417,6 +2417,87 @@
       ],
       "added": "2026-09-24",
       "used": "2026-09-24"
+    },
+    {
+      "slug": "tip-chatgpt-voice-work-mobile",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "ChatGPT Work na mobilu teď umí i mluvený režim",
+        "en": "ChatGPT Work on mobile now has a voice mode"
+      },
+      "summary": {
+        "cs": "OpenAI 23. září přidalo do Work na webu i mobilu živý hlasový režim — mluvíš nahlas, agenta můžeš přerušit uprostřed věty a on dál pracuje s appkami, tvoří dokumenty, prezentace i tabulky. Když hovor ukončíš dřív, než úkol doběhne, pokračuje dál jako text. Zatím pro placené plány kromě Free a Go.",
+        "en": "OpenAI added a live voice mode to Work on web and mobile on September 23 — you talk out loud, can interrupt mid-sentence, and the agent keeps working across apps, building documents, presentations, and spreadsheets. Ending the call early lets the task continue as text. Available on paid plans except Free and Go."
+      },
+      "why": {
+        "cs": "Otevři appku ChatGPT, přepni na Work a klikni na ikonu hlasu — hodí se, když chceš zadat delší úkol za jízdy nebo bez psaní.",
+        "en": "Open the ChatGPT app, switch to Work, and tap the voice icon — useful when you want to hand off a longer task on the go or without typing."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/20001274-chatgpt-voice"
+        }
+      ],
+      "added": "2026-09-25",
+      "used": "2026-09-25"
+    },
+    {
+      "slug": "tip-copilot-dev-containers-agents",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-09-18",
+      "title": {
+        "cs": "Copilot agenti teď běží i ve tvých Dev Containers",
+        "en": "Copilot agents now run in your Dev Containers"
+      },
+      "summary": {
+        "cs": "GitHub 18. září přidalo do okna agentů podporu pro lokální Dev Containers — agent Copilota běží přímo s nástroji a závislostmi tvého projektu, ne v obecném prostředí. Podpora se zatím postupně zapíná a vyžaduje Docker i funkční konfiguraci Dev Container v repozitáři.",
+        "en": "GitHub added local Dev Containers support to the Agents window on September 18 — a Copilot agent now runs directly with your project's own tools and dependencies, instead of a generic environment. Support is rolling out gradually and requires Docker plus a working Dev Container configuration in your repository."
+      },
+      "why": {
+        "cs": "Pokud projekt už má nastavený Dev Container, nic dalšího dělat nemusíš — Copilot ho v okně agentů použije sám, jen potřebuješ mít nainstalovaný Docker.",
+        "en": "If your project already has a Dev Container set up, there is nothing extra to do — Copilot picks it up automatically in the Agents window, you just need Docker installed."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/"
+        }
+      ],
+      "added": "2026-09-25",
+      "used": "2026-09-25"
+    },
+    {
+      "slug": "tip-gemini-connected-apps-mcp-partners",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Gemini propojíš s dalšími 14 appkami jako Adobe či Linear",
+        "en": "Gemini connects to 14 more apps, including Adobe, Linear"
+      },
+      "summary": {
+        "cs": "Google 23. září rozšířilo Connected Apps v Gemini o 14 nových partnerů — mezi nimi Airtable, Linear, Zoho, Adobe, Picsart, Squarespace, Webflow nebo Peloton a SeatGeek. Propojení funguje přes otevřený standard Model Context Protocol, stejný, co používají i konektory Claude a ChatGPT.",
+        "en": "Google expanded Connected Apps in Gemini with 14 new partners on September 23 — including Airtable, Linear, Zoho, Adobe, Picsart, Squarespace, Webflow, Peloton, and SeatGeek. The integrations run on Model Context Protocol, the same open standard behind Claude's and ChatGPT's connectors."
+      },
+      "why": {
+        "cs": "Zapneš to v nastavení appky Gemini pod Connected Apps — díky propojení zvládneš úkoly v appkách třetích stran rovnou z konverzace, bez přepínání.",
+        "en": "Turn it on in the Gemini app's settings under Connected Apps — once linked, you can handle tasks in third-party apps right from the conversation, without switching."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/"
+        }
+      ],
+      "added": "2026-09-25",
+      "used": "2026-09-25"
     }
   ]
 }

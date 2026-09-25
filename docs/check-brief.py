@@ -81,7 +81,7 @@ T1_DOMAINS = [
     "qwen.ai", "alibabacloud.com", "cohere.com", "stability.ai", "cursor.com",
     "cloudflare.com", "salesforce.com", "oracle.com", "ibm.com", "intel.com", "amd.com",
     "samsung.com", "metr.org", "darioamodei.com", "blog.samaltman.com",
-    "courtlistener.com", "stepfun.ai", "meta.ai", "lmstudio.ai",
+    "courtlistener.com", "stepfun.ai", "meta.ai", "lmstudio.ai", "ollama.com",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.

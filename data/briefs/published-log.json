@@ -884,6 +884,46 @@
       "slug": "2026-09-24-tip-lmstudio-bionic-splash-engine",
       "date": "2026-09-24",
       "topic": "tip: LM Studio zrychlil modely enginem Splash"
+    },
+    {
+      "slug": "2026-09-25-apple-siri-ai-launch",
+      "date": "2026-09-25",
+      "topic": "Apple spustilo Siri AI, přepracovanou Siri"
+    },
+    {
+      "slug": "2026-09-25-australia-demands-ai-safeguards-openai",
+      "date": "2026-09-25",
+      "topic": "Austrálie po incidentu žádá po OpenAI přísnější pravidla"
+    },
+    {
+      "slug": "2026-09-25-meta-ray-ban-audio-glasses",
+      "date": "2026-09-25",
+      "topic": "Meta představila brýle Ray-Ban Meta Audio bez kamery"
+    },
+    {
+      "slug": "2026-09-25-xiaomi-mimo-v2-6-open-models",
+      "date": "2026-09-25",
+      "topic": "Xiaomi otevřelo váhy modelů MiMo-V2.6 Pro a Flash"
+    },
+    {
+      "slug": "2026-09-25-ollama-chatgpt-desktop-integration",
+      "date": "2026-09-25",
+      "topic": "ChatGPT Desktop umí používat lokální modely z Ollamy"
+    },
+    {
+      "slug": "2026-09-25-tip-chatgpt-voice-work-mobile",
+      "date": "2026-09-25",
+      "topic": "tip: ChatGPT Work na mobilu má mluvený režim"
+    },
+    {
+      "slug": "2026-09-25-tip-copilot-dev-containers-agents",
+      "date": "2026-09-25",
+      "topic": "tip: Copilot agenti běží v Dev Containers"
+    },
+    {
+      "slug": "2026-09-25-tip-gemini-connected-apps-mcp-partners",
+      "date": "2026-09-25",
+      "topic": "tip: Gemini propojen s 14 novými appkami"
     }
   ],
   "updated": "2026-09-22T03:10:00Z"
