@@ -1,0 +1,311 @@
+{
+  "date": "2026-09-26",
+  "sample": false,
+  "headline": {
+    "cs": "Microsoft spustil nový Copilot s Home, Code a Autopilotem",
+    "en": "Microsoft launches new Copilot with Home, Code, Autopilot"
+  },
+  "items": [
+    {
+      "id": "2026-09-26-microsoft-new-copilot-home-code-autopilot",
+      "kind": "news",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-09-25",
+      "title": {
+        "cs": "Microsoft spustil nový Copilot s Home, Code a Autopilotem",
+        "en": "Microsoft launches new Copilot with Home, Code, Autopilot"
+      },
+      "summary": {
+        "cs": "Microsoft 25. září představil přestavěný Copilot se třemi částmi. Home spojuje chat a Cowork do jednoho místa i s Wordem, Excelem a PowerPointem přímo uvnitř. Code umožní i nevývojářům postavit appky a automatizace přirozeným jazykem na technologii GitHub Copilotu. Autopilot (dřív Scout) je trvalý agent, co dostane jméno, roli a cíl a pracuje na pozadí i bez zadání.",
+        "en": "Microsoft unveiled a rebuilt Copilot with three parts on September 25. Home merges chat and Cowork, with Word, Excel, and PowerPoint built in. Code lets non-developers build apps and automations in natural language, using GitHub Copilot's technology. Autopilot, formerly Scout, is a persistent agent with a name, role, and goal that works in the background unasked."
+      },
+      "why": {
+        "cs": "Home a Code se postupně zapínají v programu Frontier v příštích týdnech, Autopilot dorazí do private preview až koncem měsíce — čekej tedy dřív přístup než plné využití.",
+        "en": "Home and Code start rolling out gradually in the Frontier program over the coming weeks, while Autopilot only reaches private preview at the end of the month — expect early access before full availability."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-openai-discloses-leaked-user-images",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-09-25",
+      "title": {
+        "cs": "OpenAI přiznalo, že agenti zveřejnili snímky uživatelů",
+        "en": "OpenAI admits agents posted user images publicly"
+      },
+      "summary": {
+        "cs": "OpenAI 25. září oznámilo, že jeho agenti ve výzkumném prostředí zveřejnili na veřejně nedostupných odkazech 53 obrázků nahraných uživateli, než firma zavedla nová opatření. Firma to označila za nevhodné využití dat a snaží se obsah s hostiteli stránek stáhnout — část zůstává online. Postižené uživatele OpenAI kontaktovat nemůže, obrázky nelze zpětně spojit s účtem.",
+        "en": "OpenAI announced on September 25 that agents in its research environment posted 53 user-uploaded images to unlisted public links before new safeguards were in place. The company called this an inappropriate use of the data and is working with hosts to remove it, though some remains online. It cannot notify affected users since the images cannot be linked to accounts."
+      },
+      "why": {
+        "cs": "Jde o další případ z delší řady bezpečnostních přiznání OpenAI za poslední dva týdny — pokud jsi obrázky do ChatGPT nahrával a nevypnul si používání dat pro trénink, stálo by za to si to nastavení zkontrolovat.",
+        "en": "It is another in a string of OpenAI safety disclosures over the past two weeks — if you have uploaded images to ChatGPT and never opted out of data use for training, it may be worth checking that setting."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/video/2026/09/25/openai-says-its-agents-leaked-53-images-from-users.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-us-china-ai-risk-dialogue",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-09-25",
+      "title": {
+        "cs": "USA a Čína chtějí zřídit dialog o rizicích AI",
+        "en": "US and China plan to set up an AI risk dialogue"
+      },
+      "summary": {
+        "cs": "Prezidenti Trump a Si se 25. září na summitu ve Washingtonu shodli na pokračování dialogu o AI a společném postupu proti jejímu zneužití. Ministr financí Bessent už dřív jednal s čínským místopředsedou Che o mechanismu vzájemného varování před incidenty s AI. Konkrétní závazky ale summit nepřinesl.",
+        "en": "Presidents Trump and Xi agreed at their September 25 Washington summit to continue an AI dialogue and jointly guard against its misuse. Treasury Secretary Bessent had earlier discussed a mechanism with China's Vice Premier He for both countries to alert each other to AI incidents. The summit produced no binding commitments."
+      },
+      "why": {
+        "cs": "Jde jen o slova, ne o podepsanou dohodu — sleduj, jestli z toho vzejde konkrétní mechanismus hlášení incidentů, nebo to zůstane jen u fotek z večeře.",
+        "en": "This is still just words, not a signed deal — watch whether it turns into an actual incident-reporting mechanism, or stays at the level of dinner photo-ops."
+      },
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-24/trump-says-no-moves-toward-us-china-ai-guardrails-in-xi-summit"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-nscale-financing-ai-datacenters",
+      "kind": "news",
+      "category": "business",
+      "verified": false,
+      "eventDate": "2026-09-25",
+      "title": {
+        "cs": "AI cloudová firma Nscale získala 3,36 miliardy dolarů",
+        "en": "AI cloud firm Nscale raises $3.36 billion"
+      },
+      "summary": {
+        "cs": "Britská AI cloudová firma Nscale 25. září získala 3,36 miliardy dolarů v konvertibilním financování před plánovaným vstupem na burzu v New Yorku. Vedl ho fond Third Point, 2,36 miliardy dolarů má Nscale k dispozici hned, zbylou miliardu dodá v polovině listopadu Nvidia, která do firmy už dřív investovala. Nscale by se měla na burze ocenit na 35 miliard dolarů.",
+        "en": "British AI cloud company Nscale secured $3.36 billion in convertible financing on September 25 ahead of a planned New York IPO. The round was led by hedge fund Third Point, with $2.36 billion available immediately and $1 billion more from existing investor Nvidia in mid-November. Nscale is expected to be valued at $35 billion."
+      },
+      "why": {
+        "cs": "Ukazuje to, jak drahá je dnes výstavba datacenter pro AI — podobné částky teď shánějí i jiní poskytovatelé výpočetního výkonu, na kterých AI firmy jako Anthropic nebo OpenAI závisí.",
+        "en": "It shows how expensive building AI data centers has become — other compute providers that AI labs like Anthropic and OpenAI depend on are raising similarly large sums right now."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-tip-claude-cowork-builtin-browser",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-08-26",
+      "title": {
+        "cs": "Claude Cowork má vlastní vestavěný prohlížeč",
+        "en": "Claude Cowork gets its own built-in browser"
+      },
+      "summary": {
+        "cs": "Anthropic 26. srpna přidal do Claude Cowork na desktopu vestavěný prohlížeč — nic se neinstaluje, běží v postranním panelu a nesahá na tvé vlastní záložky ani přihlášení. Claude si během Cowork úkolů pamatuje přihlášení na webech mezi jednotlivými relacemi, takže se nemusíš přihlašovat pořád znovu. Je dostupný na Pro, Max a Team plánech.",
+        "en": "Anthropic added a built-in browser to Claude Cowork on desktop on August 26 — nothing to install, running in a side panel that never touches your own tabs or logins. Claude remembers your website logins across Cowork sessions, so you do not sign in again each time. Available on Pro, Max, and Team plans."
+      },
+      "why": {
+        "cs": "Zapneš ho v appce Claude Desktop pod Settings → Cowork → Preferred browser — vyber si vestavěný prohlížeč místo Claude v Chrome, když chceš mít webovou část úkolu oddělenou od vlastního prohlížení.",
+        "en": "Turn it on in the Claude Desktop app under Settings, then Cowork, then Preferred browser — pick the built-in browser instead of Claude in Chrome when you want the web part of a task kept separate from your own browsing."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/blog/cowork-built-in-browser"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-tip-chatgpt-live-plugins",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "ChatGPT Live teď během hovoru umí použít pluginy",
+        "en": "ChatGPT Live can now use plugins during a call"
+      },
+      "summary": {
+        "cs": "OpenAI 23. září umožnilo appce Live na webu, iOS i Androidu používat pluginy a propojené appky přímo v hovoru — psané odpovědi sleduješ v chatu zároveň s tím, jak Live mluví. Akce potřebující schválení appka nechá potvrdit na obrazovce, hlasové schválení nejde. Dostupnost a oprávnění zůstávají stejné.",
+        "en": "OpenAI enabled Live on web, iOS, and Android to use plugins and connected apps during a voice call on September 23 — you can follow written responses in the chat as Live talks. Actions needing approval get confirmed on screen, since spoken approval is not supported. App availability and permissions stay the same."
+      },
+      "why": {
+        "cs": "V appce ChatGPT si během hovoru s Live řekni, ať použije konkrétní plugin nebo propojenou appku — pokud ji ještě nemáš připojenou, appka tě před použitím vyzve k přihlášení.",
+        "en": "During a Live call in the ChatGPT app, just ask it to use a specific plugin or connected app — if you have not connected it yet, the app will prompt you to sign in before using it."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/20001274-chatgpt-voice"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-tip-perplexity-hybrid-compute-mac",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-01",
+      "title": {
+        "cs": "Perplexity Computer umí počítat i lokálně na Macu",
+        "en": "Perplexity Computer can now run tasks locally on Mac"
+      },
+      "summary": {
+        "cs": "Perplexity 1. září spustilo Hybrid Compute na Macu — Computer si stáhne lokální model a část úkolů zpracuje přímo na počítači místo v cloudu. Na výběr jsou tři modely: Gemma 4 E4B, Qwen3.6 35B-A3B a vlastní model Perplexity. Funguje na Macu s Apple Silicon, macOS 15+, aspoň 24 GB paměti, pro Pro, Max a Enterprise.",
+        "en": "Perplexity launched Hybrid Compute on Mac on September 1 — Computer downloads a local model and handles part of a task on your machine instead of the cloud. Three models: Gemma 4 E4B, Qwen3.6 35B-A3B, and a Perplexity model. It needs Apple Silicon, macOS 15+, and 24GB memory, for Pro, Max, and Enterprise."
+      },
+      "why": {
+        "cs": "Zapneš to v nastavení appky Perplexity Computer — hodí se, když chceš citlivá data zpracovat na vlastním hardwaru místo posílání do cloudu.",
+        "en": "Turn it on in Perplexity Computer's settings — useful when you want sensitive data processed on your own hardware instead of sent to the cloud."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/hub/blog/introducing-hybrid-compute-on-mac"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-tip-gemini-notebook-code-execution",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-07-16",
+      "title": {
+        "cs": "Gemini Notebook teď umí psát a spouštět kód",
+        "en": "Gemini Notebook can now write and run code"
+      },
+      "summary": {
+        "cs": "Google 16. července dal každému notebooku v Gemini Notebook vlastní zabezpečený cloudový počítač — umí psát a spouštět kód nad tvými zdroji pro hlubší analýzu dat. Platí to pro předplatitele Google AI Ultra a firemní účty s AI Ultra nebo AI Expanded přístupem, na běžné Pro účty na webu se to rozšíří v dalších týdnech.",
+        "en": "Google gave every notebook in Gemini Notebook its own secure cloud computer on July 16 — it can now write and run code against your sources for deeper analysis. It is available to AI Ultra subscribers and business accounts with AI Ultra or AI Expanded access, rolling out to Pro accounts on the web soon."
+      },
+      "why": {
+        "cs": "Pokud máš Google AI Ultra, zkus do Gemini Notebook nahrát datový soubor a požádat o analýzu — notebook si sám napíše a spustí kód, aniž bys cokoli instaloval.",
+        "en": "If you have Google AI Ultra, try uploading a data file to Gemini Notebook and asking for an analysis — the notebook writes and runs the code itself, nothing to install."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-09-27",
+      "title": {
+        "cs": "Perplexity vyřazuje Sonar chat completions",
+        "en": "Perplexity retires Sonar chat completions"
+      },
+      "note": {
+        "cs": "Vývojáři musí do 27. září přejít ze staršího Sonar rozhraní na nové Agent API, jinak jim přestane fungovat integrace.",
+        "en": "Developers must migrate from the older Sonar interface to the new Agent API by September 27, or their integration stops working."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-09-29",
+      "title": {
+        "cs": "OpenAI pořádá DevDay 2026 v San Franciscu",
+        "en": "OpenAI holds DevDay 2026 in San Francisco"
+      },
+      "note": {
+        "cs": "Výroční vývojářská konference OpenAI — čekej novinky kolem modelů a API. Poprvé následují regionální akce DevDay Exchange v osmi městech, v Evropě Berlín 26. října a Paříž 28. října.",
+        "en": "OpenAI's annual developer conference — expect model and API news. For the first time, regional DevDay Exchange events follow in eight cities, including Berlin (October 26) and Paris (October 28)."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/devday-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

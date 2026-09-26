@@ -2498,6 +2498,114 @@
       ],
       "added": "2026-09-25",
       "used": "2026-09-25"
+    },
+    {
+      "slug": "tip-claude-cowork-builtin-browser",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-08-26",
+      "title": {
+        "cs": "Claude Cowork má vlastní vestavěný prohlížeč",
+        "en": "Claude Cowork gets its own built-in browser"
+      },
+      "summary": {
+        "cs": "Anthropic 26. srpna přidal do Claude Cowork na desktopu vestavěný prohlížeč — nic se neinstaluje, běží v postranním panelu a nesahá na tvé vlastní záložky ani přihlášení. Claude si během Cowork úkolů pamatuje přihlášení na webech mezi jednotlivými relacemi, takže se nemusíš přihlašovat pořád znovu. Je dostupný na Pro, Max a Team plánech.",
+        "en": "Anthropic added a built-in browser to Claude Cowork on desktop on August 26 — nothing to install, running in a side panel that never touches your own tabs or logins. Claude remembers your website logins across Cowork sessions, so you do not sign in again each time. Available on Pro, Max, and Team plans."
+      },
+      "why": {
+        "cs": "Zapneš ho v appce Claude Desktop pod Settings → Cowork → Preferred browser — vyber si vestavěný prohlížeč místo Claude v Chrome, když chceš mít webovou část úkolu oddělenou od vlastního prohlížení.",
+        "en": "Turn it on in the Claude Desktop app under Settings, then Cowork, then Preferred browser — pick the built-in browser instead of Claude in Chrome when you want the web part of a task kept separate from your own browsing."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/blog/cowork-built-in-browser"
+        }
+      ],
+      "added": "2026-09-26",
+      "used": "2026-09-26"
+    },
+    {
+      "slug": "tip-chatgpt-live-plugins",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "ChatGPT Live teď během hovoru umí použít pluginy",
+        "en": "ChatGPT Live can now use plugins during a call"
+      },
+      "summary": {
+        "cs": "OpenAI 23. září umožnilo appce Live na webu, iOS i Androidu používat pluginy a propojené appky přímo v hovoru — psané odpovědi sleduješ v chatu zároveň s tím, jak Live mluví. Akce potřebující schválení appka nechá potvrdit na obrazovce, hlasové schválení nejde. Dostupnost a oprávnění zůstávají stejné.",
+        "en": "OpenAI enabled Live on web, iOS, and Android to use plugins and connected apps during a voice call on September 23 — you can follow written responses in the chat as Live talks. Actions needing approval get confirmed on screen, since spoken approval is not supported. App availability and permissions stay the same."
+      },
+      "why": {
+        "cs": "V appce ChatGPT si během hovoru s Live řekni, ať použije konkrétní plugin nebo propojenou appku — pokud ji ještě nemáš připojenou, appka tě před použitím vyzve k přihlášení.",
+        "en": "During a Live call in the ChatGPT app, just ask it to use a specific plugin or connected app — if you have not connected it yet, the app will prompt you to sign in before using it."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/20001274-chatgpt-voice"
+        }
+      ],
+      "added": "2026-09-26",
+      "used": "2026-09-26"
+    },
+    {
+      "slug": "tip-perplexity-hybrid-compute-mac",
+      "category": "tools",
+      "theme": "local",
+      "verified": true,
+      "eventDate": "2026-09-01",
+      "title": {
+        "cs": "Perplexity Computer umí počítat i lokálně na Macu",
+        "en": "Perplexity Computer can now run tasks locally on Mac"
+      },
+      "summary": {
+        "cs": "Perplexity 1. září spustilo Hybrid Compute na Macu — Computer si stáhne lokální model a část úkolů zpracuje přímo na počítači místo v cloudu. Na výběr jsou tři modely: Gemma 4 E4B, Qwen3.6 35B-A3B a vlastní model Perplexity. Funguje na Macu s Apple Silicon, macOS 15+, aspoň 24 GB paměti, pro Pro, Max a Enterprise.",
+        "en": "Perplexity launched Hybrid Compute on Mac on September 1 — Computer downloads a local model and handles part of a task on your machine instead of the cloud. Three models: Gemma 4 E4B, Qwen3.6 35B-A3B, and a Perplexity model. It needs Apple Silicon, macOS 15+, and 24GB memory, for Pro, Max, and Enterprise."
+      },
+      "why": {
+        "cs": "Zapneš to v nastavení appky Perplexity Computer — hodí se, když chceš citlivá data zpracovat na vlastním hardwaru místo posílání do cloudu.",
+        "en": "Turn it on in Perplexity Computer's settings — useful when you want sensitive data processed on your own hardware instead of sent to the cloud."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/hub/blog/introducing-hybrid-compute-on-mac"
+        }
+      ],
+      "added": "2026-09-26",
+      "used": "2026-09-26"
+    },
+    {
+      "slug": "tip-gemini-notebook-code-execution",
+      "category": "tools",
+      "theme": "notebooklm",
+      "verified": true,
+      "eventDate": "2026-07-16",
+      "title": {
+        "cs": "Gemini Notebook teď umí psát a spouštět kód",
+        "en": "Gemini Notebook can now write and run code"
+      },
+      "summary": {
+        "cs": "Google 16. července dal každému notebooku v Gemini Notebook vlastní zabezpečený cloudový počítač — umí psát a spouštět kód nad tvými zdroji pro hlubší analýzu dat. Platí to pro předplatitele Google AI Ultra a firemní účty s AI Ultra nebo AI Expanded přístupem, na běžné Pro účty na webu se to rozšíří v dalších týdnech.",
+        "en": "Google gave every notebook in Gemini Notebook its own secure cloud computer on July 16 — it can now write and run code against your sources for deeper analysis. It is available to AI Ultra subscribers and business accounts with AI Ultra or AI Expanded access, rolling out to Pro accounts on the web soon."
+      },
+      "why": {
+        "cs": "Pokud máš Google AI Ultra, zkus do Gemini Notebook nahrát datový soubor a požádat o analýzu — notebook si sám napíše a spustí kód, aniž bys cokoli instaloval.",
+        "en": "If you have Google AI Ultra, try uploading a data file to Gemini Notebook and asking for an analysis — the notebook writes and runs the code itself, nothing to install."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"
+        }
+      ],
+      "added": "2026-09-26",
+      "used": "2026-09-26"
     }
   ]
 }
