@@ -964,7 +964,57 @@
       "slug": "2026-09-26-tip-gemini-notebook-code-execution",
       "date": "2026-09-26",
       "topic": "tip: Gemini Notebook píše a spouští kód"
+    },
+    {
+      "slug": "2026-09-27-claude-crispr-like-enzyme-discovery",
+      "date": "2026-09-27",
+      "topic": "Claude objevil nový enzym podobný CRISPR"
+    },
+    {
+      "slug": "2026-09-27-openai-agents-government-websites-disclosure",
+      "date": "2026-09-27",
+      "topic": "OpenAI přiznalo, že se agenti dostali na vládní weby USA"
+    },
+    {
+      "slug": "2026-09-27-anthropic-ipo-november-2-trillion",
+      "date": "2026-09-27",
+      "topic": "IPO Anthropicu se posouvá na listopad, cílí na 2 biliony dolarů"
+    },
+    {
+      "slug": "2026-09-27-newsom-ai-kill-switch-executive-order",
+      "date": "2026-09-27",
+      "topic": "Newsom nařídil prověřit záchranné vypínání nejsilnějších AI modelů"
+    },
+    {
+      "slug": "2026-09-27-qwen-image-2-1-open-weights",
+      "date": "2026-09-27",
+      "topic": "Alibaba otevřel model Qwen-Image-2.1 pro úpravu obrázků"
+    },
+    {
+      "slug": "2026-09-27-tip-claude-code-doctor-prompt-audit",
+      "date": "2026-09-27",
+      "topic": "tip: Claude Code umí zkontrolovat, jestli tvůj CLAUDE.md nezastaral"
+    },
+    {
+      "slug": "2026-09-27-tip-cursor-rollouts-security-review",
+      "date": "2026-09-27",
+      "topic": "tip: Cursor teď sleduje nasazení kódu a hledá bezpečnostní chyby"
+    },
+    {
+      "slug": "2026-09-27-tip-perplexity-effort-mode",
+      "date": "2026-09-27",
+      "topic": "tip: Perplexity Computer si teď necháš zvolit úroveň nasazení"
+    },
+    {
+      "slug": "2026-09-27-tip-gemini-notebook-docs-context-source",
+      "date": "2026-09-27",
+      "topic": "tip: Google Docs teď umí čerpat rovnou ze zdrojů v Gemini Notebooku"
+    },
+    {
+      "slug": "2026-09-27-tip-meta-muse-connectors-calendar-email",
+      "date": "2026-09-27",
+      "topic": "tip: Meta Muse si propojíš s kalendářem i e-mailem přes Connectors"
     }
   ],
-  "updated": "2026-09-22T03:10:00Z"
+  "updated": "2026-09-27T05:10:00Z"
 }

@@ -2606,6 +2606,141 @@
       ],
       "added": "2026-09-26",
       "used": "2026-09-26"
+    },
+    {
+      "slug": "tip-claude-code-doctor-prompt-audit",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-09-25",
+      "title": {
+        "cs": "Claude Code umí zkontrolovat, jestli tvůj CLAUDE.md nezastaral",
+        "en": "Claude Code can check if your CLAUDE.md is outdated"
+      },
+      "summary": {
+        "cs": "Claude Code od 25. září (verze 2.1.283) umí příkazem /doctor prompt-audit projít tvé soubory CLAUDE.md, skilly, agenty i příkazy a najít formulace psané ještě pro starší modely. Stejná kontrola běží i pod aliasem /checkup prompt-audit. Pomáhá to najít zastaralé instrukce, které novému modelu už nemusí sedět.",
+        "en": "Since September 25 (version 2.1.283), Claude Code's /doctor prompt-audit command scans your CLAUDE.md files, skills, agents, and commands for phrasing written for older models. The same check also runs under the /checkup prompt-audit alias. It helps surface stale instructions that no longer fit your current model."
+      },
+      "why": {
+        "cs": "Spusť to v terminálu v projektu, kde máš CLAUDE.md déle nezměněný — audit ti ukáže řádky, které stojí za přepsání po přechodu na Opus 5.5 nebo jiný novější model.",
+        "en": "Run it in the terminal on a project whose CLAUDE.md hasn't been touched in a while — the audit flags lines worth rewriting after switching to Opus 5.5 or another newer model."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-09-27",
+      "used": "2026-09-27"
+    },
+    {
+      "slug": "tip-cursor-rollouts-security-review",
+      "category": "tools",
+      "theme": "cursor",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Cursor teď sleduje nasazení kódu a hledá bezpečnostní chyby",
+        "en": "Cursor now watches deploys and flags security bugs"
+      },
+      "summary": {
+        "cs": "Cursor 23. září spustil dva nové boty pro poslední fázi vývoje — Rollouts sleduje každou změnu při nasazení a hlásí, jestli prostředí zůstalo zdravé nebo nastala regrese, Security Review projde každý pull request a upozorní na zneužitelné chyby. Oba běží na plánech Teams a Enterprise, prvních deset dní zdarma.",
+        "en": "Cursor launched two new bots on September 23 for the last mile of shipping code — Rollouts watches every change as it deploys and flags whether an environment stayed healthy or regressed, while Security Review checks every pull request for exploitable bugs. Both run on Teams and Enterprise plans, free for ten days."
+      },
+      "why": {
+        "cs": "Zapneš je v Cursoru na kartě Automations u projektu na Teams nebo Enterprise plánu — hodí se, když chceš mít jistotu, že se po nasazení nic nerozbilo a v pull requestu nezůstala děravá bezpečnostní chyba.",
+        "en": "Turn them on from the Automations tab on a Teams or Enterprise project — useful when you want reassurance that nothing broke after a deploy and no exploitable bug slipped into a pull request."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/changelog/rollouts-and-security-reviewer"
+        }
+      ],
+      "added": "2026-09-27",
+      "used": "2026-09-27"
+    },
+    {
+      "slug": "tip-perplexity-effort-mode",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": true,
+      "eventDate": "2026-09-17",
+      "title": {
+        "cs": "Perplexity Computer si teď necháš zvolit úroveň nasazení",
+        "en": "Perplexity Computer lets you pick how hard it tries"
+      },
+      "summary": {
+        "cs": "Perplexity 17. září přidalo do Computeru Effort Mode se čtyřmi úrovněmi — Light, Standard, High a Ultra. Podle zvolené úrovně appka sama vybere model i hloubku uvažování: Light je nejrychlejší a nejlevnější pro běžné dotazy, Ultra jde nejvíc do hloubky u složitých úkolů. Zatím běží jen na webu pro osobní účty.",
+        "en": "Perplexity added Effort Mode to Computer on September 17, with four presets — Light, Standard, High, and Ultra. Each preset picks both the model and how deeply it reasons: Light is fastest and cheapest for routine questions, Ultra goes deepest on hard tasks. It currently works only on the web, for personal accounts."
+      },
+      "why": {
+        "cs": "Najdeš to v Perplexity Computeru u zadání úkolu — zvol Light pro rychlé rutinní věci a Ultra, když řešíš něco složitého a nevadí ti počkat o něco déle.",
+        "en": "You'll find it in Perplexity Computer when you set up a task — pick Light for quick routine stuff, and Ultra when you're tackling something hard and don't mind waiting a bit longer."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/help-center/en/articles/20260917-effort-mode-in-perplexity-computer"
+        }
+      ],
+      "added": "2026-09-27",
+      "used": "2026-09-27"
+    },
+    {
+      "slug": "tip-gemini-notebook-docs-context-source",
+      "category": "tools",
+      "theme": "notebooklm",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Google Docs teď umí čerpat rovnou ze zdrojů v Gemini Notebooku",
+        "en": "Google Docs can now pull straight from Gemini Notebook sources"
+      },
+      "summary": {
+        "cs": "Google 23. září umožnil v Docs napsat @ v postranním panelu a připojit k dokumentu existující Gemini Notebook jako zdroj. Návrh textu i odpovědi se pak opírají o tvůj vlastní výzkum a appka rovnou přidá odkazy na citace, aniž bys musel přepínat mezi kartami nebo kopírovat text.",
+        "en": "Since September 23, Google Docs lets you type @ in the side panel to pull in an existing Gemini Notebook as a source. Drafts and answers then draw on your own research, with inline citations added automatically, so you don't have to switch tabs or copy and paste text."
+      },
+      "why": {
+        "cs": "Funguje to jen s notebooky, které sis už dřív založil v Gemini Notebooku — hodí se na delší text jako návrh smlouvy nebo článek, kde chceš mít fakta podložená vlastními zdroji.",
+        "en": "It only works with notebooks you've already set up in Gemini Notebook — handy for longer writing like a contract draft or an article where you want facts backed by your own sources."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/ground-ai-prompts-in-google-docs-on-existing-sources-from-Gemini-Notebook.html"
+        }
+      ],
+      "added": "2026-09-27",
+      "used": "2026-09-27"
+    },
+    {
+      "slug": "tip-meta-muse-connectors-calendar-email",
+      "category": "tools",
+      "theme": "other",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Meta Muse si propojíš s kalendářem i e-mailem přes Connectors",
+        "en": "Connect Meta Muse to your calendar and email via Connectors"
+      },
+      "summary": {
+        "cs": "Meta agentce Muse na Connectu 23. září ukázala širší propojení Connectors — v appce v Nastavení pod Connectors si zapneš třeba Gmail nebo kalendář. Muse pak umí sama hlídat změny v rozvrhu, navrhnout odpověď na e-mail nebo připravit přehled týdne, aniž bys jí musel psát dlouhé zadání pokaždé znovu.",
+        "en": "At Connect on September 23, Meta showcased wider Connectors for its Muse agent — in the app under Settings, then Connectors, you can turn on Gmail or your calendar. Muse can then watch for schedule changes, draft an email reply, or prepare a weekly briefing, without you retyping the same instructions every time."
+      },
+      "why": {
+        "cs": "Připoj si to v appce Muse na mobilu nebo webu — Muse ale bez tvého schválení nic důležitého jako odeslání e-mailu neudělá, propojení kdykoli zase vypneš v Nastavení.",
+        "en": "Connect it in the Muse app on mobile or the web — Muse won't take an important action like sending an email without your approval, and you can disconnect it anytime in Settings."
+      },
+      "sources": [
+        {
+          "name": "Meta",
+          "url": "https://www.meta.com/help/artificial-intelligence/1687253048996149/"
+        }
+      ],
+      "added": "2026-09-27",
+      "used": "2026-09-27"
     }
   ]
 }
