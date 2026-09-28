@@ -2741,6 +2741,141 @@
       ],
       "added": "2026-09-27",
       "used": "2026-09-27"
+    },
+    {
+      "slug": "tip-copilot-local-sandboxing-preview",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-09-25",
+      "title": {
+        "cs": "Copilot agenti teď běží v izolované sandboxu",
+        "en": "Copilot agents now run in a local sandbox"
+      },
+      "summary": {
+        "cs": "GitHub 25. září spustilo veřejnou preview lokálního sandboxu pro agenty Copilota — omezí agentovi přístup k souborům, síti i přihlašovacím údajům jen na to, co si k úkolu sám povolíš. Cílem je zmenšit riziko, že agent při delším úkolu sáhne někam, kam neměl. Zapíná se jako doplňková volba k běžnému běhu agenta.",
+        "en": "GitHub launched a public preview of local sandboxing for Copilot agents on September 25 — it limits an agent's access to files, networks, and credentials to only what you allow. This cuts the risk of an agent reaching somewhere it shouldn't during a longer task. Turn it on alongside a normal run."
+      },
+      "why": {
+        "cs": "Zapneš to v nastavení agenta Copilota jako volbu navíc — hodí se, když necháš agenta běžet dlouho bez dozoru a chceš mít jistotu, že se nedostane mimo povolený prostor.",
+        "en": "Turn it on in Copilot's agent settings as an extra option — useful when you let an agent run for a while unsupervised and want reassurance it can't wander outside the space you allowed."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/"
+        }
+      ],
+      "added": "2026-09-28",
+      "used": "2026-09-28"
+    },
+    {
+      "slug": "tip-chatgpt-pets-quick-chat",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-09-11",
+      "title": {
+        "cs": "Domácímu mazlíčkovi v ChatGPT teď napíšeš i bez otevření appky",
+        "en": "You can now message your ChatGPT desktop pet without opening the app"
+      },
+      "summary": {
+        "cs": "OpenAI 11. září přidalo appce ChatGPT Desktop pro Mac i Windows funkci Quick Chat — do malého okénka pod virtuálním mazlíčkem napíšeš nebo nahlas řekneš krátký úkol, třeba „potřebuju se soustředit“ nebo „zruš dnešní schůzky“, a mazlíček hned zareaguje. Otevřeš to zkratkou Option+mezerník na Macu nebo Windows+Alt+P na Windows.",
+        "en": "OpenAI added Quick Chat to ChatGPT Desktop for Mac and Windows on September 11 — you type or speak a short task into a small box under your virtual pet, like 'I need to focus,' and it responds right away. Open it with Option+Space on Mac or Windows+Alt+P on Windows."
+      },
+      "why": {
+        "cs": "Vyzkoušej to na desktopové appce ChatGPT — stačí zmáčknout zkratku, napsat krátký příkaz a nemusíš se zdržovat otevíráním celého okna appky.",
+        "en": "Try it in the ChatGPT desktop app — just hit the shortcut, type a short command, and you won't have to bother opening the app's full window."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/docs/pets"
+        }
+      ],
+      "added": "2026-09-28",
+      "used": "2026-09-28"
+    },
+    {
+      "slug": "tip-claude-microsoft-365-write-tools",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-07-07",
+      "title": {
+        "cs": "Claude ti přes Microsoft 365 rovnou odešle e-mail",
+        "en": "Claude can send your email straight through Microsoft 365"
+      },
+      "summary": {
+        "cs": "Anthropic 7. července přidal konektoru Microsoft 365 zapisovací nástroje — Claude s ním po zapnutí umí napsat i odeslat e-mail, upravit pravidla schránky, vytvořit nebo upravit události v kalendáři a založit či upravit soubory v OneDrivu a SharePointu. Přílohy zatím nejde přes tyto nástroje odeslat ani přeposlat, Teams zůstává jen ke čtení.",
+        "en": "Anthropic added write tools to the Microsoft 365 connector on July 7 — once turned on, Claude can draft and send email, change mailbox rules, create or edit calendar events, and create or edit files in OneDrive and SharePoint. Attachments still can't be sent or forwarded through these tools, and Teams stays read-only."
+      },
+      "why": {
+        "cs": "Zapneš to v nastavení konektoru Microsoft 365 v appce Claude — pošta bez přílohy jde odeslat přímo, u citlivější korespondence si ale odpověď před odesláním raději přečti.",
+        "en": "Turn it on in the Microsoft 365 connector settings inside Claude — attachment-free mail can go out directly, but for anything sensitive, it's worth reading Claude's draft before it sends."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide"
+        }
+      ],
+      "added": "2026-09-28",
+      "used": "2026-09-28"
+    },
+    {
+      "slug": "tip-gemini-find-hub-remembered-items",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-09-01",
+      "title": {
+        "cs": "Gemini si teď pro tebe zapamatuje, kam jsi co dal",
+        "en": "Gemini can now remember where you put things"
+      },
+      "summary": {
+        "cs": "Google 1. září rozšířil appku Find Hub o funkci Remembered — řekneš nahlas „Hej Google, zapamatuj si ve Find Hubu, že mám pas v šuplíku v ložnici“, klidně i s fotkou, a Gemini si místo uloží do nové záložky. Funguje na telefonech s Androidem 16 a novějším, kde appka Find Hub i Gemini běží.",
+        "en": "Google added a Remembered feature to Find Hub on September 1 — say 'Hey Google, remember in Find Hub that I put my passport in my bedroom drawer,' optionally with a photo, and Gemini saves the location to a new tab. It works on Android 16 or newer, wherever Find Hub and Gemini are supported."
+      },
+      "why": {
+        "cs": "Vyzkoušej to hlasem u Gemini nebo Google Asistenta na telefonu s Androidem 16+ — hodí se na věci, co nemají vlastní lokalizační štítek, třeba doklady nebo klíče od chaty.",
+        "en": "Try it by voice with Gemini or Google Assistant on an Android 16+ phone — handy for things without their own tracker tag, like documents or a spare set of keys."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/"
+        }
+      ],
+      "added": "2026-09-28",
+      "used": "2026-09-28"
+    },
+    {
+      "slug": "tip-meta-muse-voice-transcribe",
+      "category": "tools",
+      "theme": "other",
+      "verified": true,
+      "eventDate": "2026-09-01",
+      "title": {
+        "cs": "Meta AI na Macu teď přepisuje mluvenou řeč v reálném čase",
+        "en": "Meta AI on Mac now transcribes speech in real time"
+      },
+      "summary": {
+        "cs": "Meta Superintelligence Labs 1. září spustila Muse Voice Transcribe, svůj první model jen na zvuk — zvládá živý přepis řeči, rozliší přes 20 mluvčích a pozná konec věty ve víc než 70 jazycích. Model teď pohání diktování v appce Meta AI pro Mac a v Muse Code.",
+        "en": "Meta Superintelligence Labs launched Muse Voice Transcribe on September 1, its first model focused purely on audio — it handles live speech transcription, tells apart more than 20 speakers, and detects sentence endings across more than 70 languages. The model now powers dictation in the Meta AI app for Mac and in Muse Code."
+      },
+      "why": {
+        "cs": "Vyzkoušej diktování v appce Meta AI na Macu nebo v Muse Code — model zvládne i rozpoznat, kdo z víc mluvčích právě mluví, takže se hodí i na přepis schůzek.",
+        "en": "Try dictation in the Meta AI app on Mac or in Muse Code — the model can also tell which of several speakers is talking, so it works well for transcribing meetings too."
+      },
+      "sources": [
+        {
+          "name": "Meta",
+          "url": "https://research.meta.ai/blog/introducing-muse-voice-transcribe"
+        }
+      ],
+      "added": "2026-09-28",
+      "used": "2026-09-28"
     }
   ]
 }

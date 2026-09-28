@@ -1,0 +1,391 @@
+{
+  "date": "2026-09-28",
+  "sample": false,
+  "headline": {
+    "cs": "Gemini na Pixelu 11 umí telefonovat do podniků za tebe",
+    "en": "Gemini on Pixel 11 can call businesses on your behalf"
+  },
+  "items": [
+    {
+      "id": "2026-09-28-gemini-call-for-me-pixel-11",
+      "kind": "news",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-09-24",
+      "title": {
+        "cs": "Gemini na Pixelu 11 umí telefonovat do podniků za tebe",
+        "en": "Gemini on Pixel 11 can call businesses on your behalf"
+      },
+      "summary": {
+        "cs": "Google 24. září spustil pro Pixel 11 v USA funkci Call for me — Gemini za tebe zavolá do podniku, zjistí třeba skladem zboží, zamluví stůl v restauraci nebo přeloží schůzku a i počká v lince. Funkce běží ve veřejné betě appky Phone by Google a vyžaduje předplatné Google AI, angličtinu a věk 18+.",
+        "en": "Google launched Call for me for Pixel 11 in the US on September 24 — Gemini calls a business for you, checking stock, booking a table, rescheduling an appointment, or waiting on hold. It runs in the Phone by Google public beta and needs a Google AI subscription, English, and age 18+."
+      },
+      "why": {
+        "cs": "Zapneš to v appce Phone by Google ve veřejné betě, pokud máš Pixel 11 a předplatné Google AI — hodí se na věci, co nesnášíš telefonovat sám, třeba čekání v lince.",
+        "en": "Turn it on in the Phone by Google public beta if you have a Pixel 11 and a Google AI subscription — handy for calls you'd rather skip making yourself, like sitting on hold."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://support.google.com/gemini/answer/18336420?hl=en"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-amazon-seller-assistant-claude-quick-plugin",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Amazon prodejci teď řídí obchod přímo z Claude nebo Quick",
+        "en": "Amazon sellers can now run their store from Claude or Quick"
+      },
+      "summary": {
+        "cs": "Amazon 23. září na konferenci Accelerate představil nový plugin Seller Assistant, co propojí prodejcova data — nabídky, sklad, výkon i tržby — přímo s AI agentem podle výběru. Plugin běží plně ve vlastní appce Amazon Quick, u Claude zatím v betě. Určeno je to pro prodejce s profesionálním plánem v obchodech Amazon v USA.",
+        "en": "Amazon unveiled a new Seller Assistant plugin at its Accelerate conference on September 23, connecting a seller's data — listings, inventory, performance, sales — directly to an AI agent of their choice. It's fully live in Amazon's own Quick app, and in beta with Anthropic's Claude, for Professional-plan sellers in Amazon's US stores."
+      },
+      "why": {
+        "cs": "Pokud v USA prodáváš na Amazonu na profesionálním plánu, zapneš si plugin v appce Amazon Quick hned, u Claude si o přístup do bety musíš zatím zažádat.",
+        "en": "If you sell on Amazon in the US on a Professional plan, the plugin works right away in the Quick app — for Claude, you'll still need to request beta access."
+      },
+      "sources": [
+        {
+          "name": "aboutamazon.com",
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-plugin-amazon-quick-claude"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-claude-plugins-directory-submission-portal",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-25",
+      "title": {
+        "cs": "Anthropic otevřel vývojářům portál pro nahrávání pluginů Claude",
+        "en": "Anthropic opens a developer portal for submitting Claude plugins"
+      },
+      "summary": {
+        "cs": "Anthropic 25. září spustil portál, kam vývojáři na placených plánech mohou nahrát vlastní plugin nebo MCP konektor pro adresář Claude. Appka podání automaticky prověří a bezpečnostně proskenuje, vývojář pak sleduje stav revize i doporučené úpravy a po zveřejnění vidí statistiky používání. Navazuje to na Claude Marketplace z 23. září.",
+        "en": "Anthropic launched a portal on September 25 where developers on paid plans can submit their own plugin or MCP connector to the Claude directory. Submissions are automatically checked and safety-scanned, developers can track review status and suggested fixes, and usage stats appear once a plugin goes live. It follows Claude Marketplace's launch on September 23."
+      },
+      "why": {
+        "cs": "Pokud vyvíjíš vlastní nástroj pro Claude, přihlásíš ho přes portál v blogu Anthropicu o pluginech — potřebuješ platný plán a repozitář na GitHubu, zbytek recenze appka vede sama.",
+        "en": "If you're building your own Claude tool, submit it through Anthropic's plugin-building blog post — you'll need a paid plan and a GitHub repository, the rest of the review runs on its own."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/blog/build-plugins-for-claude"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-09-24",
+        "id": "2026-09-24-claude-marketplace-launch",
+        "title": {
+          "cs": "Anthropic spustil Claude Marketplace s pluginy a agenty",
+          "en": "Anthropic launches Claude Marketplace for plugins and agents"
+        }
+      }
+    },
+    {
+      "id": "2026-09-28-deepmind-institute-agi-debate",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-09-16",
+      "title": {
+        "cs": "DeepMind založil institut pro debatu o obecné AI",
+        "en": "DeepMind launches an institute for the AGI debate"
+      },
+      "summary": {
+        "cs": "Google DeepMind 16. září založil DeepMind Institute — think tank, co má rozšířit debatu o umělé obecné inteligenci (AGI) napříč firmou i nezávislými vědci. V čele stojí Demis Hassabis, spoluzakladatel Shane Legg jako výkonný redaktor a James Manyika. Institut zahájil činnost čtyřmi esejemi o ekonomice AGI, transparentnosti uvažování modelů a lidském blahobytu.",
+        "en": "Google DeepMind launched the DeepMind Institute on September 16, a think tank meant to widen the AGI debate between the company and independent researchers. It's led by Demis Hassabis, co-founder Shane Legg as managing editor, and James Manyika. The institute opened with four essays on AGI economics, model reasoning transparency, and human flourishing."
+      },
+      "why": {
+        "cs": "Ukazuje to, že i uvnitř Googlu a DeepMindu existují různé názory na rizika a přínosy AGI — sleduj, jaké další eseje a autory institut v dalších měsících přidá.",
+        "en": "It shows that even inside Google and DeepMind there's a range of views on AGI's risks and benefits — watch what essays and authors the institute adds in the months ahead."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/09/16/google-deepmind-institute-agi"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-enveda-ai-drug-discovery-311-million",
+      "kind": "news",
+      "category": "business",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "AI firma na vývoj léků Enveda získala 311 milionů dolarů",
+        "en": "AI drug discovery firm Enveda raises $311 million"
+      },
+      "summary": {
+        "cs": "Enveda 23. září uzavřela investiční kolo Series E za 311 milionů dolarů vedené fondem Catalio Capital Management — ocenění firmy se tím zdvojnásobilo na 2 miliardy dolarů. Enveda pomocí AI hledá léčivé molekuly v rostlinách a mikrobech; peníze použije na posun klinicky testovaných léků do dalších fází a na nové látky proti zánětům.",
+        "en": "Enveda closed a $311 million Series E round led by Catalio Capital Management on September 23, doubling the company's valuation to $2 billion. Enveda uses AI to find drug candidates in plants and microbes; the money will push its clinical-stage medicines into later trial phases and fund new candidates for inflammatory disease."
+      },
+      "why": {
+        "cs": "Ukazuje to, že investoři do AI teď sázejí i na biotechnologie, ne jen na jazykové modely — sleduj, jak se povedou klinické testy dvou už testovaných léků ENV-294 a ENV-308.",
+        "en": "It shows AI investors are now betting on biotech too, not just language models — watch how clinical trials go for its two medicines already in testing, ENV-294 and ENV-308."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/"
+        },
+        {
+          "name": "Quartz",
+          "url": "https://qz.com/enveda-ai-biotech-raises-311-million-valuation-2-billion-092326"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-tip-copilot-local-sandboxing-preview",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-25",
+      "title": {
+        "cs": "Copilot agenti teď běží v izolované sandboxu",
+        "en": "Copilot agents now run in a local sandbox"
+      },
+      "summary": {
+        "cs": "GitHub 25. září spustilo veřejnou preview lokálního sandboxu pro agenty Copilota — omezí agentovi přístup k souborům, síti i přihlašovacím údajům jen na to, co si k úkolu sám povolíš. Cílem je zmenšit riziko, že agent při delším úkolu sáhne někam, kam neměl. Zapíná se jako doplňková volba k běžnému běhu agenta.",
+        "en": "GitHub launched a public preview of local sandboxing for Copilot agents on September 25 — it limits an agent's access to files, networks, and credentials to only what you allow. This cuts the risk of an agent reaching somewhere it shouldn't during a longer task. Turn it on alongside a normal run."
+      },
+      "why": {
+        "cs": "Zapneš to v nastavení agenta Copilota jako volbu navíc — hodí se, když necháš agenta běžet dlouho bez dozoru a chceš mít jistotu, že se nedostane mimo povolený prostor.",
+        "en": "Turn it on in Copilot's agent settings as an extra option — useful when you let an agent run for a while unsupervised and want reassurance it can't wander outside the space you allowed."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-tip-chatgpt-pets-quick-chat",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-11",
+      "title": {
+        "cs": "Domácímu mazlíčkovi v ChatGPT teď napíšeš i bez otevření appky",
+        "en": "You can now message your ChatGPT desktop pet without opening the app"
+      },
+      "summary": {
+        "cs": "OpenAI 11. září přidalo appce ChatGPT Desktop pro Mac i Windows funkci Quick Chat — do malého okénka pod virtuálním mazlíčkem napíšeš nebo nahlas řekneš krátký úkol, třeba „potřebuju se soustředit“ nebo „zruš dnešní schůzky“, a mazlíček hned zareaguje. Otevřeš to zkratkou Option+mezerník na Macu nebo Windows+Alt+P na Windows.",
+        "en": "OpenAI added Quick Chat to ChatGPT Desktop for Mac and Windows on September 11 — you type or speak a short task into a small box under your virtual pet, like 'I need to focus,' and it responds right away. Open it with Option+Space on Mac or Windows+Alt+P on Windows."
+      },
+      "why": {
+        "cs": "Vyzkoušej to na desktopové appce ChatGPT — stačí zmáčknout zkratku, napsat krátký příkaz a nemusíš se zdržovat otevíráním celého okna appky.",
+        "en": "Try it in the ChatGPT desktop app — just hit the shortcut, type a short command, and you won't have to bother opening the app's full window."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/docs/pets"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-tip-claude-microsoft-365-write-tools",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-07-07",
+      "title": {
+        "cs": "Claude ti přes Microsoft 365 rovnou odešle e-mail",
+        "en": "Claude can send your email straight through Microsoft 365"
+      },
+      "summary": {
+        "cs": "Anthropic 7. července přidal konektoru Microsoft 365 zapisovací nástroje — Claude s ním po zapnutí umí napsat i odeslat e-mail, upravit pravidla schránky, vytvořit nebo upravit události v kalendáři a založit či upravit soubory v OneDrivu a SharePointu. Přílohy zatím nejde přes tyto nástroje odeslat ani přeposlat, Teams zůstává jen ke čtení.",
+        "en": "Anthropic added write tools to the Microsoft 365 connector on July 7 — once turned on, Claude can draft and send email, change mailbox rules, create or edit calendar events, and create or edit files in OneDrive and SharePoint. Attachments still can't be sent or forwarded through these tools, and Teams stays read-only."
+      },
+      "why": {
+        "cs": "Zapneš to v nastavení konektoru Microsoft 365 v appce Claude — pošta bez přílohy jde odeslat přímo, u citlivější korespondence si ale odpověď před odesláním raději přečti.",
+        "en": "Turn it on in the Microsoft 365 connector settings inside Claude — attachment-free mail can go out directly, but for anything sensitive, it's worth reading Claude's draft before it sends."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-tip-gemini-find-hub-remembered-items",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-01",
+      "title": {
+        "cs": "Gemini si teď pro tebe zapamatuje, kam jsi co dal",
+        "en": "Gemini can now remember where you put things"
+      },
+      "summary": {
+        "cs": "Google 1. září rozšířil appku Find Hub o funkci Remembered — řekneš nahlas „Hej Google, zapamatuj si ve Find Hubu, že mám pas v šuplíku v ložnici“, klidně i s fotkou, a Gemini si místo uloží do nové záložky. Funguje na telefonech s Androidem 16 a novějším, kde appka Find Hub i Gemini běží.",
+        "en": "Google added a Remembered feature to Find Hub on September 1 — say 'Hey Google, remember in Find Hub that I put my passport in my bedroom drawer,' optionally with a photo, and Gemini saves the location to a new tab. It works on Android 16 or newer, wherever Find Hub and Gemini are supported."
+      },
+      "why": {
+        "cs": "Vyzkoušej to hlasem u Gemini nebo Google Asistenta na telefonu s Androidem 16+ — hodí se na věci, co nemají vlastní lokalizační štítek, třeba doklady nebo klíče od chaty.",
+        "en": "Try it by voice with Gemini or Google Assistant on an Android 16+ phone — handy for things without their own tracker tag, like documents or a spare set of keys."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-tip-meta-muse-voice-transcribe",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-01",
+      "title": {
+        "cs": "Meta AI na Macu teď přepisuje mluvenou řeč v reálném čase",
+        "en": "Meta AI on Mac now transcribes speech in real time"
+      },
+      "summary": {
+        "cs": "Meta Superintelligence Labs 1. září spustila Muse Voice Transcribe, svůj první model jen na zvuk — zvládá živý přepis řeči, rozliší přes 20 mluvčích a pozná konec věty ve víc než 70 jazycích. Model teď pohání diktování v appce Meta AI pro Mac a v Muse Code.",
+        "en": "Meta Superintelligence Labs launched Muse Voice Transcribe on September 1, its first model focused purely on audio — it handles live speech transcription, tells apart more than 20 speakers, and detects sentence endings across more than 70 languages. The model now powers dictation in the Meta AI app for Mac and in Muse Code."
+      },
+      "why": {
+        "cs": "Vyzkoušej diktování v appce Meta AI na Macu nebo v Muse Code — model zvládne i rozpoznat, kdo z víc mluvčích právě mluví, takže se hodí i na přepis schůzek.",
+        "en": "Try dictation in the Meta AI app on Mac or in Muse Code — the model can also tell which of several speakers is talking, so it works well for transcribing meetings too."
+      },
+      "sources": [
+        {
+          "name": "Meta",
+          "url": "https://research.meta.ai/blog/introducing-muse-voice-transcribe"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-09-29",
+      "title": {
+        "cs": "OpenAI pořádá DevDay 2026 v San Franciscu",
+        "en": "OpenAI holds DevDay 2026 in San Francisco"
+      },
+      "note": {
+        "cs": "Výroční vývojářská konference OpenAI — čekej novinky kolem modelů a API. Poprvé následují regionální akce DevDay Exchange v osmi městech, v Evropě Berlín 26. října a Paříž 28. října.",
+        "en": "OpenAI's annual developer conference — expect model and API news. For the first time, regional DevDay Exchange events follow in eight cities, including Berlin (October 26) and Paris (October 28)."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/devday-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-01",
+      "title": {
+        "cs": "Google testuje AI čip ve vesmíru přes Project Suncatcher",
+        "en": "Google tests an AI chip in orbit with Project Suncatcher"
+      },
+      "note": {
+        "cs": "Google plánuje 1. října vypustit raketou Falcon 9 satelit s vlastním čipem TPU a zjistit, jak snáší start, radiaci a teploty na oběžné dráze — jde jen o testovací misi s Planet Labs.",
+        "en": "Google plans to launch its first TPU-carrying satellite on a Falcon 9 rocket on October 1, to see how the hardware handles launch, radiation, and heat in orbit — it's just a test mission with Planet Labs."
+      },
+      "sources": [
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2267975/google-is-sending-a-teensy-tiny-ai-data-center-to-space/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

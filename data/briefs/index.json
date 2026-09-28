@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-27T05:10:00Z",
+  "updated": "2026-09-28T04:10:00Z",
   "briefs": [
+    {
+      "date": "2026-09-28",
+      "headline": {
+        "cs": "Gemini na Pixelu 11 umí telefonovat do podniků za tebe",
+        "en": "Gemini on Pixel 11 can call businesses on your behalf"
+      },
+      "itemCount": 10
+    },
     {
       "date": "2026-09-27",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Anthropic, OpenAI, Google discuss joint AI standards body"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-09-14",
-      "headline": {
-        "cs": "Si navrhl otevřenou AI komunitu zemí BRICS",
-        "en": "Xi proposes an open-source AI community for BRICS"
-      },
-      "itemCount": 3
     }
   ]
 }

@@ -1014,7 +1014,57 @@
       "slug": "2026-09-27-tip-meta-muse-connectors-calendar-email",
       "date": "2026-09-27",
       "topic": "tip: Meta Muse si propojíš s kalendářem i e-mailem přes Connectors"
+    },
+    {
+      "slug": "2026-09-28-gemini-call-for-me-pixel-11",
+      "date": "2026-09-28",
+      "topic": "Gemini na Pixelu 11 umí telefonovat do podniků za tebe"
+    },
+    {
+      "slug": "2026-09-28-amazon-seller-assistant-claude-quick-plugin",
+      "date": "2026-09-28",
+      "topic": "Amazon prodejci teď řídí obchod přímo z Claude nebo Quick"
+    },
+    {
+      "slug": "2026-09-28-claude-plugins-directory-submission-portal",
+      "date": "2026-09-28",
+      "topic": "Anthropic otevřel vývojářům portál pro nahrávání pluginů Claude"
+    },
+    {
+      "slug": "2026-09-28-deepmind-institute-agi-debate",
+      "date": "2026-09-28",
+      "topic": "DeepMind založil institut pro debatu o obecné AI"
+    },
+    {
+      "slug": "2026-09-28-enveda-ai-drug-discovery-311-million",
+      "date": "2026-09-28",
+      "topic": "AI firma na vývoj léků Enveda získala 311 milionů dolarů"
+    },
+    {
+      "slug": "2026-09-28-tip-copilot-local-sandboxing-preview",
+      "date": "2026-09-28",
+      "topic": "tip: Copilot agenti teď běží v izolované sandboxu"
+    },
+    {
+      "slug": "2026-09-28-tip-chatgpt-pets-quick-chat",
+      "date": "2026-09-28",
+      "topic": "tip: Domácímu mazlíčkovi v ChatGPT teď napíšeš i bez otevření appky"
+    },
+    {
+      "slug": "2026-09-28-tip-claude-microsoft-365-write-tools",
+      "date": "2026-09-28",
+      "topic": "tip: Claude ti přes Microsoft 365 rovnou odešle e-mail"
+    },
+    {
+      "slug": "2026-09-28-tip-gemini-find-hub-remembered-items",
+      "date": "2026-09-28",
+      "topic": "tip: Gemini si teď pro tebe zapamatuje, kam jsi co dal"
+    },
+    {
+      "slug": "2026-09-28-tip-meta-muse-voice-transcribe",
+      "date": "2026-09-28",
+      "topic": "tip: Meta AI na Macu teď přepisuje mluvenou řeč v reálném čase"
     }
   ],
-  "updated": "2026-09-27T05:10:00Z"
+  "updated": "2026-09-28T04:10:00Z"
 }
