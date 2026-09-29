@@ -2876,6 +2876,114 @@
       ],
       "added": "2026-09-28",
       "used": "2026-09-28"
+    },
+    {
+      "slug": "tip-chatgpt-for-word",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-09-17",
+      "title": {
+        "cs": "ChatGPT teď píše a upravuje text přímo ve Wordu",
+        "en": "ChatGPT now drafts and edits text right inside Word"
+      },
+      "summary": {
+        "cs": "OpenAI 17. září spustilo doplněk ChatGPT for Word — z postranního panelu necháš appku napsat první verzi textu z poznámek, upravit vybraný úsek, shrnout dokument nebo doladit formátování, aniž bys opustil Word. Funguje na všech plánech ChatGPT včetně zdarma, od 1. října se navíc zapne automaticky každému.",
+        "en": "OpenAI launched the ChatGPT for Word add-in on September 17 — from a sidebar, it can draft a first version from notes, revise a passage, summarize the document, or fix formatting, without leaving Word. It works on every ChatGPT plan, including Free, and turns on by default for everyone starting October 1."
+      },
+      "why": {
+        "cs": "Otevři si Word, najdi ChatGPT v postranním panelu a přihlas se svým účtem — hodí se na rychlý první koncept memoranda, nabídky nebo zprávy z podkladů, co už máš rozepsané.",
+        "en": "Open Word, find ChatGPT in the sidebar, and sign in with your account — handy for a quick first draft of a memo, proposal, or report from notes you've already jotted down."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/20001526-chatgpt-for-word"
+        }
+      ],
+      "added": "2026-09-29",
+      "used": "2026-09-29"
+    },
+    {
+      "slug": "tip-copilot-unified-chat-retention",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-09-28",
+      "title": {
+        "cs": "Copilot Chat na GitHubu si teď pamatuje historii natrvalo",
+        "en": "Copilot Chat on GitHub now keeps your history for good"
+      },
+      "summary": {
+        "cs": "GitHub od 28. září spojuje Copilot Chat na github.com, v mobilní appce a cloudového agenta do jedné agentní zkušenosti — chat na webu teď běží na stejném základu jako cloudoví agenti a historii appka drží po celou dobu účtu místo dosavadních 28 dní.",
+        "en": "Starting September 28, GitHub is merging Copilot Chat on github.com, the mobile app, and the cloud agent into one unified experience — web chat now runs on the same base as cloud agents, and history is kept for the life of your account, not just 28 days."
+      },
+      "why": {
+        "cs": "Nic nastavovat nemusíš, změna se zapíná sama — hodí se, když se chceš ke starší konverzaci s Copilotem na GitHubu vrátit i po víc než měsíci.",
+        "en": "There's nothing to set up, the change applies automatically — handy if you want to return to an older Copilot conversation on GitHub even after more than a month has passed."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/"
+        }
+      ],
+      "added": "2026-09-29",
+      "used": "2026-09-29"
+    },
+    {
+      "slug": "tip-cursor-agent-harness-cost-cut",
+      "category": "tools",
+      "theme": "cursor",
+      "verified": true,
+      "eventDate": "2026-09-25",
+      "title": {
+        "cs": "Cursor teď za stejnou práci spotřebuje míň tokenů",
+        "en": "Cursor now uses fewer tokens for the same work"
+      },
+      "summary": {
+        "cs": "Cursor 25. září vylepšil agentní režim tak, aby na stejný výsledek spotřeboval o 7 % míň tokenů — zkrátil systémové prompty, nástroje načítá jen podle potřeby, líp znovu využívá keš a čtení souborů komprimuje. Platí to automaticky pro všechny agentní úlohy, bez ztráty kvality výsledku.",
+        "en": "Cursor improved its agent harness on September 25 to use 7% fewer tokens for the same result — trimming system prompts, loading tools only when needed, reusing the cache better, and compressing file reads. It applies automatically to every agent task, with no drop in result quality."
+      },
+      "why": {
+        "cs": "Nemusíš nic přepínat ani nastavovat — úspora nastane sama u dalších agentních úloh, takže za stejnou práci v Cursoru zaplatíš o něco méně tokenů.",
+        "en": "There's nothing to switch on or configure — the savings kick in automatically on your next agent tasks, so you'll pay for somewhat fewer tokens for the same work in Cursor."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/blog/improved-token-efficiency"
+        }
+      ],
+      "added": "2026-09-29",
+      "used": "2026-09-29"
+    },
+    {
+      "slug": "tip-claude-enterprise-smart-reports",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-09-10",
+      "title": {
+        "cs": "Claude Enterprise umí vytvořit report o používání ve firmě",
+        "en": "Claude Enterprise can now generate a usage report for your team"
+      },
+      "summary": {
+        "cs": "Anthropic 10. září spustil v betě pro Claude Enterprise smart reports — appka sama sepíše, jak tým Claude používá, co ho to stojí, kde uživatelé naráží na potíže a jaké opakující se postupy by stálo za to zabalit jako sdílenou dovednost. Zdarma je to až 10 reportů měsíčně.",
+        "en": "Anthropic launched smart reports in beta for Claude Enterprise on September 10 — the app writes up how your team uses Claude, what it costs, where people run into friction, and which repeated patterns are worth packaging as a shared skill. Up to 10 reports a month are free."
+      },
+      "why": {
+        "cs": "Najdeš to v administraci Claude Enterprise — hodí se, když chceš vedení ukázat konkrétní čísla o využití Claude ve firmě, ne jen odhad.",
+        "en": "You'll find it in Claude Enterprise admin settings — handy when you want to show leadership concrete numbers on how Claude gets used at your company, not just a guess."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/16893491-get-started-with-smart-reports"
+        }
+      ],
+      "added": "2026-09-29",
+      "used": "2026-09-29"
     }
   ]
 }

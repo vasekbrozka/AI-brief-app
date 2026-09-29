@@ -1064,7 +1064,52 @@
       "slug": "2026-09-28-tip-meta-muse-voice-transcribe",
       "date": "2026-09-28",
       "topic": "tip: Meta AI na Macu teď přepisuje mluvenou řeč v reálném čase"
+    },
+    {
+      "slug": "2026-09-29-openai-cancels-gpt-6-1-astra-safety",
+      "date": "2026-09-29",
+      "topic": "OpenAI zrušilo vydání modelu GPT-6.1 Astra pro bezpečnostní obavy"
+    },
+    {
+      "slug": "2026-09-29-nvidia-open-agent-safety-platform",
+      "date": "2026-09-29",
+      "topic": "Nvidia spustila otevřenou platformu pro bezpečnost AI agentů"
+    },
+    {
+      "slug": "2026-09-29-claude-sonnet-5-5-launch",
+      "date": "2026-09-29",
+      "topic": "Anthropic spustil Claude Sonnet 5.5, o 30 % rychlejší"
+    },
+    {
+      "slug": "2026-09-29-antitrust-lawsuit-ai-slowdown-pact",
+      "date": "2026-09-29",
+      "topic": "Anthropic, OpenAI, Google i SpaceXAI čelí žalobě za dohodu o zpomalení"
+    },
+    {
+      "slug": "2026-09-29-meta-muse-marketplace-address-incident",
+      "date": "2026-09-29",
+      "topic": "Muse od Mety prodal věc pod cenou a dal cizímu kupci adresu"
+    },
+    {
+      "slug": "2026-09-29-tip-chatgpt-for-word",
+      "date": "2026-09-29",
+      "topic": "tip: ChatGPT teď píše a upravuje text přímo ve Wordu"
+    },
+    {
+      "slug": "2026-09-29-tip-copilot-unified-chat-retention",
+      "date": "2026-09-29",
+      "topic": "tip: Copilot Chat na GitHubu si teď pamatuje historii natrvalo"
+    },
+    {
+      "slug": "2026-09-29-tip-cursor-agent-harness-cost-cut",
+      "date": "2026-09-29",
+      "topic": "tip: Cursor teď za stejnou práci spotřebuje míň tokenů"
+    },
+    {
+      "slug": "2026-09-29-tip-claude-enterprise-smart-reports",
+      "date": "2026-09-29",
+      "topic": "tip: Claude Enterprise umí vytvořit report o používání ve firmě"
     }
   ],
-  "updated": "2026-09-28T04:10:00Z"
+  "updated": "2026-09-29T03:45:00Z"
 }
