@@ -2984,6 +2984,60 @@
       ],
       "added": "2026-09-29",
       "used": "2026-09-29"
+    },
+    {
+      "slug": "tip-copilot-gpt-6-1-sol",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-09-29",
+      "title": {
+        "cs": "Model GPT-6.1 Sol dorazil i do GitHub Copilota",
+        "en": "GPT-6.1 Sol has arrived in GitHub Copilot too"
+      },
+      "summary": {
+        "cs": "GitHub 29. září zpřístupnilo model GPT-6.1 Sol v Copilotovi pro agentní programování i práci v terminálu. V raných testech spolehlivě dokončuje úkoly s výrazně méně tokeny a kroky než modely z rodiny GPT-6 a GPT-5.6. Dostupný je pro plány Copilot Pro+, Max, Business a Enterprise.",
+        "en": "GitHub made GPT-6.1 Sol available in Copilot on September 29 for agentic coding and terminal work. In early testing, it reliably completes tasks using noticeably fewer tokens and steps than models from the GPT-6 and GPT-5.6 families. It's available on Copilot Pro+, Max, Business, and Enterprise plans."
+      },
+      "why": {
+        "cs": "Vyber si ho v nabídce modelů Copilota, když řešíš delší agentní úkol nebo práci v terminálu — má šanci ho zvládnout na méně kroků a levněji než starší modely.",
+        "en": "Pick it from Copilot's model picker when you're tackling a longer agentic task or terminal work — it has a good shot at finishing it in fewer steps and more cheaply than older models."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot/"
+        }
+      ],
+      "added": "2026-09-30",
+      "used": "2026-09-30"
+    },
+    {
+      "slug": "tip-codex-cli-voice-control",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-09-29",
+      "title": {
+        "cs": "Codex CLI teď umí ovládat úkoly i hlasem",
+        "en": "Codex CLI can now steer tasks by voice"
+      },
+      "summary": {
+        "cs": "OpenAI 29. září na DevDay přidalo do Codex CLI hlasové ovládání — úkol nahlas zadáš i za běhu upřesníš, aniž bys musel psát. Doplňuje to placený rychlostní tarif Ultrafast, co v Codexu zrychlí generování textu až 8krát, na 300 tokenů za sekundu.",
+        "en": "OpenAI added voice control to Codex CLI at DevDay on September 29 — start a task by speaking and steer it further mid-run without typing. It's paired with the paid Ultrafast speed tier, which speeds up Codex's text generation up to 8x, to 300 tokens per second."
+      },
+      "why": {
+        "cs": "Vyzkoušej to přímo v terminálu s Codex CLI — hodí se, když chceš zadat nebo doladit úkol za jízdy, bez rukou na klávesnici.",
+        "en": "Try it directly in the terminal with Codex CLI — handy when you want to set up or adjust a task on the go, hands off the keyboard."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/devday-2026-recap/"
+        }
+      ],
+      "added": "2026-09-30",
+      "used": "2026-09-30"
     }
   ]
 }

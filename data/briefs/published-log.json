@@ -1109,7 +1109,37 @@
       "slug": "2026-09-29-tip-claude-enterprise-smart-reports",
       "date": "2026-09-29",
       "topic": "tip: Claude Enterprise umí vytvořit report o používání ve firmě"
+    },
+    {
+      "slug": "2026-09-30-trump-ai-executives-self-policing-accord",
+      "date": "2026-09-30",
+      "topic": "Trump a šéfové AI firem podepsali dohodu o sebekontrole"
+    },
+    {
+      "slug": "2026-09-30-openai-gpt-6-1-sol-devday",
+      "date": "2026-09-30",
+      "topic": "OpenAI na DevDay ukázal GPT-6.1 Sol místo zrušené Astry"
+    },
+    {
+      "slug": "2026-09-30-anthropic-ipo-518-billion-infrastructure",
+      "date": "2026-09-30",
+      "topic": "Prospekt IPO odhalil, že Anthropic slíbil 518 miliard dolarů"
+    },
+    {
+      "slug": "2026-09-30-chatgpt-space-dots-devday",
+      "date": "2026-09-30",
+      "topic": "ChatGPT dostal sdílený prostor Space a AI kolegy zvané Dots"
+    },
+    {
+      "slug": "2026-09-30-tip-copilot-gpt-6-1-sol",
+      "date": "2026-09-30",
+      "topic": "tip: Model GPT-6.1 Sol dorazil i do GitHub Copilota"
+    },
+    {
+      "slug": "2026-09-30-tip-codex-cli-voice-control",
+      "date": "2026-09-30",
+      "topic": "tip: Codex CLI teď umí ovládat úkoly i hlasem"
     }
   ],
-  "updated": "2026-09-29T03:45:00Z"
+  "updated": "2026-09-30T03:50:00Z"
 }

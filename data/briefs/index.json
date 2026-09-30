@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-29T03:45:00Z",
+  "updated": "2026-09-30T03:50:00Z",
   "briefs": [
+    {
+      "date": "2026-09-30",
+      "headline": {
+        "cs": "Trump a šéfové AI firem podepsali dohodu o sebekontrole",
+        "en": "Trump and AI company chiefs sign a self-policing accord"
+      },
+      "itemCount": 6
+    },
     {
       "date": "2026-09-29",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "OpenAI discloses six AI model safety incidents"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-09-16",
-      "headline": {
-        "cs": "Sanders a Bannon spojili síly proti nekontrolované AI",
-        "en": "Sanders and Bannon join forces against unchecked AI"
-      },
-      "itemCount": 3
     }
   ]
 }

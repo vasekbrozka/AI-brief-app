@@ -1,0 +1,299 @@
+{
+  "date": "2026-09-30",
+  "sample": false,
+  "headline": {
+    "cs": "Trump a šéfové AI firem podepsali dohodu o sebekontrole",
+    "en": "Trump and AI company chiefs sign a self-policing accord"
+  },
+  "items": [
+    {
+      "id": "2026-09-30-trump-ai-executives-self-policing-accord",
+      "kind": "news",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-09-29",
+      "title": {
+        "cs": "Trump a šéfové AI firem podepsali dohodu o sebekontrole",
+        "en": "Trump and AI company chiefs sign a self-policing accord"
+      },
+      "summary": {
+        "cs": "Prezident Trump 29. září na obědě v Bílém domě s šéfy velkých AI firem oznámil podpis dohody „White House Accord on Superintelligence“ — Amodei, Pichai, Zuckerberg, Musk, Huang a prezident OpenAI Brockman se zavázali k vnitřní kontrole, externímu auditu a dohledu na úrovni představenstva. Trump dohodu označil za „morálně závaznou“, s výhledem na budoucí zákon.",
+        "en": "President Trump announced on September 29, at a White House lunch with major AI chiefs, the signing of the 'White House Accord on Superintelligence' — Amodei, Pichai, Zuckerberg, Musk, Huang, and OpenAI president Brockman committed to internal controls, external audits, and board-level oversight. Trump called the accord 'morally binding,' with an eye toward future law."
+      },
+      "why": {
+        "cs": "Je to první společný, byť dobrovolný závazek napříč celým oborem po týdnech úniků agentů a bezpečnostních přiznání — sleduj, jestli se z „morální“ dohody stanou konkrétní vymahatelná pravidla.",
+        "en": "It's the first joint, if voluntary, industry-wide commitment after weeks of agent breakouts and safety disclosures — watch whether this 'moral' agreement turns into concrete, enforceable rules."
+      },
+      "sources": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/trump-ai-constitution-tech-execs-openai-anthropic-voluntary-controls/"
+        },
+        {
+          "name": "The Hill",
+          "url": "https://thehill.com/homenews/administration/6118906-tech-ceos-sign-white-house-ai-accord/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-30-openai-gpt-6-1-sol-devday",
+      "kind": "news",
+      "category": "models",
+      "verified": true,
+      "eventDate": "2026-09-29",
+      "title": {
+        "cs": "OpenAI na DevDay ukázal GPT-6.1 Sol místo zrušené Astry",
+        "en": "OpenAI unveils GPT-6.1 Sol at DevDay in place of Astra"
+      },
+      "summary": {
+        "cs": "OpenAI 29. září na DevDay představilo GPT-6.1 Sol — na testu programování DeepSWE dosahuje skoro stejného výsledku jako zrušený model GPT-6.1 Astra, ale za pětinu ceny. Oproti staršímu GPT-6 Sol snížil i míru věcných chyb z 11,4 % na 7,7 %. Doplňuje ho nový rychlostní tandem Ultrafast a Pro 500.",
+        "en": "OpenAI unveiled GPT-6.1 Sol at DevDay on September 29 — on the DeepSWE coding benchmark, it nearly matches the canceled GPT-6.1 Astra model, at one-fifth the price. Versus the older GPT-6 Sol, it also cut factual-error rates from 11.4% to 7.7%. A new Ultrafast and Pro 500 speed tier accompanies it."
+      },
+      "why": {
+        "cs": "Vyzkoušíš ho v ChatGPT Work i Codexu hned — je to nejlepší dostupná volba na náročné programování, když nechceš platit za nikdy nevydanou Astru.",
+        "en": "You can try it in ChatGPT Work and Codex right away — it's the best available option for demanding coding work, now that Astra itself never actually shipped."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/"
+        },
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/technology/openais-gpt-6-1-sol-offers-astra-like-performance-at-1-5th-price-a-new-ultrafast-tier-clocks-at-300-tokens-per-second"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-09-29",
+        "id": "2026-09-29-openai-cancels-gpt-6-1-astra-safety",
+        "title": {
+          "cs": "OpenAI zrušilo vydání modelu GPT-6.1 Astra pro bezpečnostní obavy",
+          "en": "OpenAI cancels GPT-6.1 Astra release over safety concerns"
+        }
+      }
+    },
+    {
+      "id": "2026-09-30-anthropic-ipo-518-billion-infrastructure",
+      "kind": "news",
+      "category": "business",
+      "verified": false,
+      "eventDate": "2026-09-28",
+      "title": {
+        "cs": "Prospekt IPO odhalil, že Anthropic slíbil 518 miliard dolarů",
+        "en": "Anthropic's IPO filing reveals $518 billion in commitments"
+      },
+      "summary": {
+        "cs": "Důvěrný prospekt k IPO Anthropicu, o kterém 28. září informoval Reuters, odhalil závazky za 518 miliard dolarů na cloud a výpočetní výkon na 7 až 10 let dopředu — 111,1 miliardy Googlu, 110 miliard Amazonu, 31,4 miliardy Microsoftu a 161,2 miliardy Broadcomu. Asi 80 % závazků je nevypověditelných bez ohledu na skutečné využití.",
+        "en": "Anthropic's confidential IPO prospectus, reported by Reuters on September 28, revealed $518 billion in planned cloud and compute commitments over the next 7 to 10 years — $111.1 billion to Google, $110 billion to Amazon, $31.4 billion to Microsoft, and $161.2 billion to Broadcom. About 80% of that is non-cancelable, payable regardless of actual usage."
+      },
+      "why": {
+        "cs": "Ukazuje to, jak obrovské a dlouhodobě zavazující jsou sázky na infrastrukturu AI — firma loni prodělala provozně 8 miliard dolarů, takže sleduj, jak přesvědčí investory, že tohle unese.",
+        "en": "It shows just how massive and long-binding AI infrastructure bets have become — the company posted an $8 billion operating loss last year, so watch how it convinces investors it can carry this."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-09-27",
+        "id": "2026-09-27-anthropic-ipo-november-2-trillion",
+        "title": {
+          "cs": "IPO Anthropicu se posouvá na listopad, cílí na 2 biliony dolarů",
+          "en": "Anthropic's IPO slips to November, targets a $2 trillion valuation"
+        }
+      }
+    },
+    {
+      "id": "2026-09-30-chatgpt-space-dots-devday",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-29",
+      "title": {
+        "cs": "ChatGPT dostal sdílený prostor Space a AI kolegy zvané Dots",
+        "en": "ChatGPT gets a shared Space and AI coworkers called Dots"
+      },
+      "summary": {
+        "cs": "OpenAI 29. září na DevDay představilo ChatGPT Space — sdílený prostor pro týmy, co nahrazuje dosavadní Library a shromažďuje dokumenty, tabulky i prezentace, na kterých spolu editují lidé i AI. Doprovázejí ho Dots, trvale běžící AI agenti s vlastním cílem a přístupem k propojeným appkám. Space běží pro plány Pro, Business a Enterprise.",
+        "en": "OpenAI introduced ChatGPT Space at DevDay on September 29 — a shared team workspace replacing the existing Library, holding documents, spreadsheets, and presentations that people and AI edit together. It's paired with Dots, always-on AI agents with their own goals and access to connected apps. Space is rolling out on Pro, Business, and Enterprise plans."
+      },
+      "why": {
+        "cs": "Najdeš to v appce ChatGPT na webu i desktopu, na mobilu zatím jen ke čtení a sdílení — hodí se, když chceš mít týmové podklady a AI agenty na jednom místě místo rozházených chatů.",
+        "en": "You'll find it in the ChatGPT web and desktop apps, mobile is read-and-share only for now — handy if you want team materials and AI agents in one place instead of scattered across chats."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2272248/chatgpt-space-for-work/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-30-tip-copilot-gpt-6-1-sol",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-29",
+      "title": {
+        "cs": "Model GPT-6.1 Sol dorazil i do GitHub Copilota",
+        "en": "GPT-6.1 Sol has arrived in GitHub Copilot too"
+      },
+      "summary": {
+        "cs": "GitHub 29. září zpřístupnilo model GPT-6.1 Sol v Copilotovi pro agentní programování i práci v terminálu. V raných testech spolehlivě dokončuje úkoly s výrazně méně tokeny a kroky než modely z rodiny GPT-6 a GPT-5.6. Dostupný je pro plány Copilot Pro+, Max, Business a Enterprise.",
+        "en": "GitHub made GPT-6.1 Sol available in Copilot on September 29 for agentic coding and terminal work. In early testing, it reliably completes tasks using noticeably fewer tokens and steps than models from the GPT-6 and GPT-5.6 families. It's available on Copilot Pro+, Max, Business, and Enterprise plans."
+      },
+      "why": {
+        "cs": "Vyber si ho v nabídce modelů Copilota, když řešíš delší agentní úkol nebo práci v terminálu — má šanci ho zvládnout na méně kroků a levněji než starší modely.",
+        "en": "Pick it from Copilot's model picker when you're tackling a longer agentic task or terminal work — it has a good shot at finishing it in fewer steps and more cheaply than older models."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-30-tip-codex-cli-voice-control",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-29",
+      "title": {
+        "cs": "Codex CLI teď umí ovládat úkoly i hlasem",
+        "en": "Codex CLI can now steer tasks by voice"
+      },
+      "summary": {
+        "cs": "OpenAI 29. září na DevDay přidalo do Codex CLI hlasové ovládání — úkol nahlas zadáš i za běhu upřesníš, aniž bys musel psát. Doplňuje to placený rychlostní tarif Ultrafast, co v Codexu zrychlí generování textu až 8krát, na 300 tokenů za sekundu.",
+        "en": "OpenAI added voice control to Codex CLI at DevDay on September 29 — start a task by speaking and steer it further mid-run without typing. It's paired with the paid Ultrafast speed tier, which speeds up Codex's text generation up to 8x, to 300 tokens per second."
+      },
+      "why": {
+        "cs": "Vyzkoušej to přímo v terminálu s Codex CLI — hodí se, když chceš zadat nebo doladit úkol za jízdy, bez rukou na klávesnici.",
+        "en": "Try it directly in the terminal with Codex CLI — handy when you want to set up or adjust a task on the go, hands off the keyboard."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/devday-2026-recap/"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-01",
+      "title": {
+        "cs": "Google testuje AI čip ve vesmíru přes Project Suncatcher",
+        "en": "Google tests an AI chip in orbit with Project Suncatcher"
+      },
+      "note": {
+        "cs": "Google plánuje 1. října vypustit raketou Falcon 9 satelit s vlastním čipem TPU a zjistit, jak snáší start, radiaci a teploty na oběžné dráze — jde jen o testovací misi s Planet Labs.",
+        "en": "Google plans to launch its first TPU-carrying satellite on a Falcon 9 rocket on October 1, to see how the hardware handles launch, radiation, and heat in orbit — it's just a test mission with Planet Labs."
+      },
+      "sources": [
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2267975/google-is-sending-a-teensy-tiny-ai-data-center-to-space/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-05",
+      "title": {
+        "cs": "Šéfové OpenAI, Anthropicu, Googlu a Mety svědčí v newyorské radnici",
+        "en": "OpenAI, Anthropic, Google, Meta testify before NYC Council"
+      },
+      "note": {
+        "cs": "Newyorská městská rada 5. října vyslechne pod přísahou zástupce čtyř firem o rizicích AI — SpaceXAI na výzvu nereagovala, a tak dostala předvolání.",
+        "en": "New York's City Council hears sworn testimony from four companies on AI risks on October 5 — SpaceXAI didn't respond to the request and was subpoenaed instead."
+      },
+      "sources": [
+        {
+          "name": "council.nyc.gov",
+          "url": "https://council.nyc.gov/press/2026/09/28/3266/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}
