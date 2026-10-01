@@ -26,6 +26,20 @@ export function visibleItems(
   });
 }
 
+/**
+ * Today's list keeps what's unread on top and sinks what's already read to
+ * the end, each half keeping its own order — so checking a story off clears
+ * the way to what's next instead of just folding it in place.
+ */
+export function orderWithReadLast(
+  items: BriefItem[],
+  isRead: (id: string) => boolean,
+): BriefItem[] {
+  const unread = items.filter((item) => !isRead(item.id));
+  const read = items.filter((item) => isRead(item.id));
+  return [...unread, ...read];
+}
+
 // Silent reading of plain Czech/English prose; the summaries are short, so the
 // estimate is rounded to whole minutes and never says zero.
 const WORDS_PER_MINUTE = 190;

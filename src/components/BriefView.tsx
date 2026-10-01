@@ -3,7 +3,7 @@ import { WIDE_QUERY, useMediaQuery } from '../hooks/useMedia';
 import { useScrollFade } from '../hooks/useScrollFade';
 import { isTip, type Brief } from '../lib/types';
 import { hiddenCountLabel, tipCountLabel } from '../lib/format';
-import { visibleItems } from '../lib/briefStats';
+import { orderWithReadLast, visibleItems } from '../lib/briefStats';
 import { shareBrief } from '../lib/share';
 import { useSettings } from '../providers/SettingsProvider';
 import { useRead } from '../providers/ReadProvider';
@@ -54,7 +54,8 @@ export function BriefView({
   const hiddenCount = brief.items.length - shown.length;
 
   const readShownCount = shown.filter((item) => isRead(item.id)).length;
-  // Read cards fold to their title and stay in place; "hide read" drops them.
+  // Read cards fold to their title and sink to the end of the list; "hide
+  // read" drops them instead of just sinking them.
   const listed = hideRead ? shown.filter((item) => !isRead(item.id)) : shown;
 
   // The streak: a day counts as soon as one story of that day's brief is read;
@@ -94,7 +95,7 @@ export function BriefView({
   // Archive is a read-only browse: every story is shown, the read state is
   // ignored (never hide or dim), so a past day never collapses to "all caught
   // up". The streak is unaffected — it's driven by Today.
-  const cards = isToday ? listed : shown;
+  const cards = isToday ? orderWithReadLast(listed, isRead) : shown;
 
   const tips = focus ? shown.filter(isTip) : [];
 

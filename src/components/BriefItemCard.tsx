@@ -52,11 +52,12 @@ function ThreadLink({ thread }: { thread: ThreadRef }) {
  * the story read, is the check at the top right of the card: in view the
  * moment the card is, however long the story, and the same spot in both
  * states — tinted while unread, filled once read. Every action is a visible
- * button; swiping stays a shortcut. A read card keeps its place and folds to
- * one line of its title, fading out where it runs long: the chip row and the
- * body slide shut around it, so the title rises to meet the check and the
- * two sit centred on what is left. Tapping the check un-reads the story,
- * which opens the card again.
+ * button; swiping stays a shortcut. A read card folds to one line of its
+ * title, fading out where it runs long: the chip row and the body slide shut
+ * around it, so the title rises to meet the check and the two sit centred on
+ * what is left. Today's list also sinks it to the end, clearing the way to
+ * what's still unread. Tapping the check un-reads the story, which opens the
+ * card again (and lifts it back out of the read group).
  * With "hide read" on, the card fades out instead.
  */
 export function BriefItemCard({ item, plain = false }: { item: BriefItem; plain?: boolean }) {
