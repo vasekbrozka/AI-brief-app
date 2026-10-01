@@ -3038,6 +3038,72 @@
       ],
       "added": "2026-09-30",
       "used": "2026-09-30"
+    },
+    {
+      "slug": "tip-gemini-skills-replace-gems",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "Gemini nahrazuje Gems novými Skills",
+        "en": "Gemini replaces Gems with new Skills"
+      },
+      "summary": {
+        "cs": "Google 30. září spustilo v Gemini aplikaci po celém světě Skills — uložené instrukce, co napíšeš jednou a pak je spouštíš opakovaně, místo psaní stejného zadání znovu a znovu. Na rozdíl od Gems umí Skills pracovat i s referenčními soubory jako PDF nebo obrázky. Postupně nahradí Gems, co u osobních účtů skončí v listopadu.",
+        "en": "Google launched Skills globally in the Gemini app on September 30 — saved instructions you write once and then run repeatedly, instead of retyping the same prompt. Unlike Gems, Skills can also work with reference files like PDFs or images. They'll gradually replace Gems, which retire for personal accounts in November."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
+        }
+      ],
+      "added": "2026-10-01",
+      "used": "2026-10-01"
+    },
+    {
+      "slug": "tip-grok-4-7-cursor",
+      "category": "tools",
+      "theme": "cursor",
+      "verified": true,
+      "title": {
+        "cs": "Grok 4.7 dorazil do Cursoru na dlouhé programování",
+        "en": "Grok 4.7 arrives in Cursor for long coding tasks"
+      },
+      "summary": {
+        "cs": "xAI a Cursor 21. září zpřístupnili v Cursoru model Grok 4.7 — cílí na dlouhé, hodiny trvající programátorské a znalostní úkoly, kde si práci sám ověřuje a opravuje. Cena zůstala stejná jako u Grok 4.6: 2 dolary za milion vstupních a 6 dolarů za milion výstupních tokenů.",
+        "en": "xAI and Cursor made Grok 4.7 available in Cursor on September 21 — aimed at long, hours-long coding and knowledge tasks, where it checks and fixes its own work. Pricing stayed the same as Grok 4.6: $2 per million input tokens and $6 per million output tokens."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/blog/grok-4-7"
+        }
+      ],
+      "added": "2026-10-01",
+      "used": "2026-10-01"
+    },
+    {
+      "slug": "tip-ollama-decision-models",
+      "category": "tools",
+      "theme": "local",
+      "verified": true,
+      "title": {
+        "cs": "Ollama teď umí rychlá rozhodnutí přes /v1/systemone",
+        "en": "Ollama adds fast decisions via /v1/systemone"
+      },
+      "summary": {
+        "cs": "Ollama 29. září ve verzi 0.35 přidala endpoint /v1/systemone pro rychlá typovaná rozhodnutí — pošleš text a sadu otázek, model lokálně vrátí volby i pravděpodobnosti najednou, bez generování textu. Dostupné jsou tři modely: devítimiliardový nimble od Bespoke Labs a dva modely tev1 od Together AI.",
+        "en": "Ollama added a /v1/systemone endpoint in version 0.35 on September 29, for fast, typed decisions — you send text plus a set of questions, and a local model returns choices and probabilities, with no text generation. Three models are available: the 9B nimble from Bespoke Labs and two tev1 models from Together AI."
+      },
+      "sources": [
+        {
+          "name": "Ollama",
+          "url": "https://ollama.com/blog/ollama-now-supports-jev-style-decision-models"
+        }
+      ],
+      "added": "2026-10-01",
+      "used": "2026-10-01"
     }
   ]
 }

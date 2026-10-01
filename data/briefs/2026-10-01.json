@@ -1,0 +1,290 @@
+{
+  "date": "2026-10-01",
+  "sample": false,
+  "headline": {
+    "cs": "Google vydal Gemini 4 Argon, svůj nejsilnější model",
+    "en": "Google releases Gemini 4 Argon, its most powerful model"
+  },
+  "items": [
+    {
+      "id": "2026-10-01-google-gemini-4-argon",
+      "kind": "news",
+      "category": "models",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-09-30",
+      "title": {
+        "cs": "Google vydal Gemini 4 Argon, svůj nejsilnější model",
+        "en": "Google releases Gemini 4 Argon, its most powerful model"
+      },
+      "summary": {
+        "cs": "Google 30. září vydalo Gemini 4 Argon — model pro programování, odborné obory jako právo a finance a kybernetickou obranu. Výstup zvládne až 1 milion tokenů místo dřívějších 64 tisíc a v klíčových testech programování i znalostní práce překonává i OpenAI GPT-6 Astra. Nejdřív jde prověřeným bezpečnostním týmům za 2 dolary za milion vstupních tokenů.",
+        "en": "Google released Gemini 4 Argon on September 30 — a model for coding, professional fields like law and finance, and cyber defense. Output handles up to 1 million tokens, up from 64,000, and it beats GPT-6 Astra on coding and knowledge-work benchmarks. It's rolling out to vetted security teams at $2 per million input tokens."
+      },
+      "why": {
+        "cs": "Je to první vlajkový model Googlu po dlouhé pauze a poráží aktuální špičku OpenAI — během týdnů čekej širší přístup i do Gemini app a AI Studia.",
+        "en": "It's Google's first flagship model after a long gap, and it beats OpenAI's current top model — expect wider access in the Gemini app and AI Studio within weeks."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/09/30/google-gemini-4"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-openai-moonshot-reasoning-extraction",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-09-30",
+      "title": {
+        "cs": "OpenAI odhalilo pokus Moonshotu vytěžit jeho skryté uvažování",
+        "en": "OpenAI exposes Moonshot's attempt to extract its hidden reasoning"
+      },
+      "summary": {
+        "cs": "OpenAI 30. září oznámilo, že odhalilo a zastavilo kampaň na vytěžování skrytého uvažování — mezi 24. a 25. červencem zachytilo 16 000 žádostí od přes 4 000 účtů. Útočníci kopírovali šifrované uvažování z jedné konverzace a v jiné model přinutili rozšifrovat a přepsat; podle OpenAI klíčovou skupinu spojuje s lidmi kolem čínské firmy Moonshot AI.",
+        "en": "OpenAI said on September 30 it detected and disrupted a campaign to extract its protected reasoning — between July 24-25 it logged 16,000 requests from over 4,000 accounts. Attackers copied encrypted reasoning from one conversation and had a model elsewhere decrypt and transcribe it; OpenAI links the cluster to people associated with China's Moonshot AI."
+      },
+      "why": {
+        "cs": "Jde o první veřejně popsaný pokus takhle vytáhnout chráněné uvažování velkého modelu — ukazuje, jak citlivá je nová hranice bezpečnosti mezi firmami i státy.",
+        "en": "It's the first publicly detailed attempt to pull a large model's protected reasoning this way — it shows how sensitive this new safety frontier has become between companies and states."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/01/openai-chinas-moonshot-ai-kimi.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-claude-for-government-ga",
+      "kind": "news",
+      "category": "business",
+      "verified": true,
+      "eventDate": "2026-09-30",
+      "title": {
+        "cs": "Anthropic zpřístupnil Claude for Government naplno",
+        "en": "Anthropic takes Claude for Government fully live"
+      },
+      "summary": {
+        "cs": "Anthropic 30. září oznámil, že Claude for Government už neběží jako pilot, ale je plně dostupný federálním i státním úřadům v USA s certifikací FedRAMP High. Platí se podle spotřeby bez poplatků za uživatele a nasazení zahrnuje auditní log i lokální historii konverzací. V rané fázi přibývá i Claude Code a Claude pro Microsoft 365.",
+        "en": "Anthropic announced September 30 that Claude for Government is no longer a pilot, but fully available to US federal and state agencies, certified to FedRAMP High. It's priced by usage with no per-seat fees, and deployment includes audit log and on-device conversation history. Claude Code and Claude for Microsoft 365 are joining in early access."
+      },
+      "why": {
+        "cs": "Vláda je po letech pilotů a slev obrovský zákazník — sleduj, jak rychle agentury v praxi nahradí starší systémy a jestli zabezpečení obstojí v ostrém provozu.",
+        "en": "Government is now a huge customer after years of pilots and discounts — watch how fast agencies actually replace legacy systems and whether security holds up under real use."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/blog/claude-for-government-is-now-generally-available"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-reddit-ends-rss-api-ai-scraping",
+      "kind": "news",
+      "category": "business",
+      "verified": true,
+      "eventDate": "2026-09-30",
+      "title": {
+        "cs": "Reddit kvůli AI robotům zabíjí RSS a veřejné API",
+        "en": "Reddit kills RSS feeds and public API over AI bots"
+      },
+      "summary": {
+        "cs": "Reddit 30. září oznámil, že k 13. listopadu zruší podporu RSS kanálů a do března 2027 i veřejné API — označil je za běžný prostor pro masivní scraping a automatizované zneužívání. Omezení se dotkne nástrojů pro sledování sociálních sítí, výzkumníků i AI asistentů. Firma zároveň přitvrzuje přístup ke staré verzi Old Reddit.",
+        "en": "Reddit announced on September 30 that it will end RSS feed support on November 13 and shut down its public API by March 2027 — it called them a common surface for large-scale scraping and automated abuse. The move will hit social-listening tools, researchers, and AI assistants. Reddit is also tightening access to old Reddit."
+      },
+      "why": {
+        "cs": "Ukazuje to, jak se obsah diskusí stal cennou komoditou pro trénování AI — pokud používáš RSS čtečku nebo nástroj napojený na Reddit přes API, během týdnů přijdeš o přístup.",
+        "en": "It shows how discussion content has become a valuable commodity for AI training — if you use an RSS reader or any tool connected to Reddit through its API, you'll lose access within weeks."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2273661/reddit-imposes-new-restrictions-on-old-reddit/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-tip-gemini-skills-replace-gems",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-30",
+      "title": {
+        "cs": "Gemini nahrazuje Gems novými Skills",
+        "en": "Gemini replaces Gems with new Skills"
+      },
+      "summary": {
+        "cs": "Google 30. září spustilo v Gemini aplikaci po celém světě Skills — uložené instrukce, co napíšeš jednou a pak je spouštíš opakovaně, místo psaní stejného zadání znovu a znovu. Na rozdíl od Gems umí Skills pracovat i s referenčními soubory jako PDF nebo obrázky. Postupně nahradí Gems, co u osobních účtů skončí v listopadu.",
+        "en": "Google launched Skills globally in the Gemini app on September 30 — saved instructions you write once and then run repeatedly, instead of retyping the same prompt. Unlike Gems, Skills can also work with reference files like PDFs or images. They'll gradually replace Gems, which retire for personal accounts in November."
+      },
+      "why": {
+        "cs": "Založ si skill pro úkol, co děláš opakovaně — napiš lomeno a jeho jméno, a Gemini ho sám nabídne, i když na něj přímo nezavoláš.",
+        "en": "Set up a skill for a task you repeat often — type a slash and its name, and Gemini will offer it on its own, even when you don't call it directly."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-tip-grok-4-7-cursor",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-21",
+      "title": {
+        "cs": "Grok 4.7 dorazil do Cursoru na dlouhé programování",
+        "en": "Grok 4.7 arrives in Cursor for long coding tasks"
+      },
+      "summary": {
+        "cs": "xAI a Cursor 21. září zpřístupnili v Cursoru model Grok 4.7 — cílí na dlouhé, hodiny trvající programátorské a znalostní úkoly, kde si práci sám ověřuje a opravuje. Cena zůstala stejná jako u Grok 4.6: 2 dolary za milion vstupních a 6 dolarů za milion výstupních tokenů.",
+        "en": "xAI and Cursor made Grok 4.7 available in Cursor on September 21 — aimed at long, hours-long coding and knowledge tasks, where it checks and fixes its own work. Pricing stayed the same as Grok 4.6: $2 per million input tokens and $6 per million output tokens."
+      },
+      "why": {
+        "cs": "Vyber si ho v nabídce modelů Cursoru na úkol, co se táhne hodiny a vyžaduje hodně kroků — stojí stejně jako předchozí verze, jen je teď o kus spolehlivější.",
+        "en": "Pick it from Cursor's model picker for a task that runs for hours and needs many steps — it costs the same as the previous version, just noticeably more reliable."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/blog/grok-4-7"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-tip-ollama-decision-models",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-29",
+      "title": {
+        "cs": "Ollama teď umí rychlá rozhodnutí přes /v1/systemone",
+        "en": "Ollama adds fast decisions via /v1/systemone"
+      },
+      "summary": {
+        "cs": "Ollama 29. září ve verzi 0.35 přidala endpoint /v1/systemone pro rychlá typovaná rozhodnutí — pošleš text a sadu otázek, model lokálně vrátí volby i pravděpodobnosti najednou, bez generování textu. Dostupné jsou tři modely: devítimiliardový nimble od Bespoke Labs a dva modely tev1 od Together AI.",
+        "en": "Ollama added a /v1/systemone endpoint in version 0.35 on September 29, for fast, typed decisions — you send text plus a set of questions, and a local model returns choices and probabilities, with no text generation. Three models are available: the 9B nimble from Bespoke Labs and two tev1 models from Together AI."
+      },
+      "why": {
+        "cs": "Vyzkoušej to přes místní API, když stavíš triáž ticketů, routování modelů nebo moderaci obsahu — běží to lokálně, bez poplatků a s nízkou odezvou.",
+        "en": "Try it over the local API when you're building ticket triage, model routing, or content moderation — it runs locally, with no fees and low latency."
+      },
+      "sources": [
+        {
+          "name": "Ollama",
+          "url": "https://ollama.com/blog/ollama-now-supports-jev-style-decision-models"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-05",
+      "title": {
+        "cs": "Šéfové OpenAI, Anthropicu, Googlu a Mety svědčí v newyorské radnici",
+        "en": "OpenAI, Anthropic, Google, Meta testify before NYC Council"
+      },
+      "note": {
+        "cs": "Newyorská městská rada 5. října vyslechne pod přísahou zástupce čtyř firem o rizicích AI — SpaceXAI na výzvu nereagovala, a tak dostala předvolání.",
+        "en": "New York's City Council hears sworn testimony from four companies on AI risks on October 5 — SpaceXAI didn't respond to the request and was subpoenaed instead."
+      },
+      "sources": [
+        {
+          "name": "council.nyc.gov",
+          "url": "https://council.nyc.gov/press/2026/09/28/3266/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

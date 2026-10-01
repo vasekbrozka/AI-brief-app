@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-30T03:50:00Z",
+  "updated": "2026-10-01T03:50:00Z",
   "briefs": [
+    {
+      "date": "2026-10-01",
+      "headline": {
+        "cs": "Google vydal Gemini 4 Argon, svůj nejsilnější model",
+        "en": "Google releases Gemini 4 Argon, its most powerful model"
+      },
+      "itemCount": 7
+    },
     {
       "date": "2026-09-30",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Claude spojil chat s Coworkem, přidal Docs",
         "en": "Claude merges chat with Cowork, adds Docs"
-      },
-      "itemCount": 4
-    },
-    {
-      "date": "2026-09-17",
-      "headline": {
-        "cs": "OpenAI přiznalo šest bezpečnostních incidentů modelů",
-        "en": "OpenAI discloses six AI model safety incidents"
       },
       "itemCount": 4
     }

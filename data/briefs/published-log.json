@@ -1139,7 +1139,42 @@
       "slug": "2026-09-30-tip-codex-cli-voice-control",
       "date": "2026-09-30",
       "topic": "tip: Codex CLI teď umí ovládat úkoly i hlasem"
+    },
+    {
+      "slug": "2026-10-01-google-gemini-4-argon",
+      "date": "2026-10-01",
+      "topic": "Google vydal Gemini 4 Argon, svůj nejsilnější model"
+    },
+    {
+      "slug": "2026-10-01-openai-moonshot-reasoning-extraction",
+      "date": "2026-10-01",
+      "topic": "OpenAI odhalilo pokus Moonshotu vytěžit jeho skryté uvažování"
+    },
+    {
+      "slug": "2026-10-01-claude-for-government-ga",
+      "date": "2026-10-01",
+      "topic": "Anthropic zpřístupnil Claude for Government naplno"
+    },
+    {
+      "slug": "2026-10-01-reddit-ends-rss-api-ai-scraping",
+      "date": "2026-10-01",
+      "topic": "Reddit kvůli AI robotům zabíjí RSS a veřejné API"
+    },
+    {
+      "slug": "2026-10-01-tip-gemini-skills-replace-gems",
+      "date": "2026-10-01",
+      "topic": "tip: Gemini nahrazuje Gems novými Skills"
+    },
+    {
+      "slug": "2026-10-01-tip-grok-4-7-cursor",
+      "date": "2026-10-01",
+      "topic": "tip: Grok 4.7 dorazil do Cursoru na dlouhé programování"
+    },
+    {
+      "slug": "2026-10-01-tip-ollama-decision-models",
+      "date": "2026-10-01",
+      "topic": "tip: Ollama teď umí rychlá rozhodnutí přes /v1/systemone"
     }
   ],
-  "updated": "2026-09-30T03:50:00Z"
+  "updated": "2026-10-01T03:50:00Z"
 }

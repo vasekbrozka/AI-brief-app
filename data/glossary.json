@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-10-01",
   "terms": [
     {
       "id": "misalignment",
@@ -445,6 +445,25 @@
       "short": {
         "cs": "Tvorba softwaru popisem v běžném jazyce místo psaní kódu — AI kód generuje sama, člověk zadává a testuje výsledek.",
         "en": "Building software by describing what you want in plain language instead of writing code — the AI generates the code, you steer and test the result."
+      }
+    },
+    {
+      "id": "distillation",
+      "term": {
+        "cs": "Destilace modelu (distillation)",
+        "en": "Model distillation"
+      },
+      "aliases": [
+        "distillation",
+        "destilace",
+        "destilace modelu",
+        "model distillation",
+        "adversarial distillation",
+        "destilaci"
+      ],
+      "short": {
+        "cs": "Když se výstupy nebo uvažování jednoho AI modelu použijí k natrénování jiného, levnějšího modelu — ten tak zkopíruje schopnosti originálu bez nutnosti investovat do vlastního výzkumu.",
+        "en": "Using one AI model's outputs or reasoning to train another, cheaper model — copying the original's capabilities without the cost of researching them from scratch."
       }
     }
   ]
