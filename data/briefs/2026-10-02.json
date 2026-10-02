@@ -1,0 +1,349 @@
+{
+  "date": "2026-10-02",
+  "sample": false,
+  "headline": {
+    "cs": "ChatGPT teď umí navléknout oblečení na tvou fotku",
+    "en": "ChatGPT can now virtually try clothes on for you"
+  },
+  "items": [
+    {
+      "id": "2026-10-02-chatgpt-virtual-try-on-shopping",
+      "kind": "news",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-01",
+      "title": {
+        "cs": "ChatGPT teď umí navléknout oblečení na tvou fotku",
+        "en": "ChatGPT can now virtually try clothes on for you"
+      },
+      "summary": {
+        "cs": "OpenAI 1. října spustilo v ChatGPT Nákupech virtuální zkoušení — nahraješ selfie nebo fotku celé postavy a tlačítko Vyzkoušet vygeneruje, jak by na tobě oblečení nebo doplněk vypadaly, pomocí nového modelu ChatGPT Images 2.5. Zároveň přibylo ukládání produktů do oblíbených a složek v knihovně ChatGPT.",
+        "en": "OpenAI launched virtual try-on in ChatGPT Shopping on October 1 — upload a selfie or full-body photo and the Try On button generates how an item of clothing or an accessory would look on you, using the new ChatGPT Images 2.5 model. It also added saving products to favorites and folders in your ChatGPT library."
+      },
+      "why": {
+        "cs": "Vyzkoušej to v nákupních výsledcích ChatGPT na webu i mobilu — hodí se, než si objednáš oblečení online a nechceš hádat, jak bude sedět.",
+        "en": "Try it in ChatGPT's shopping results on web and mobile — handy before you order clothes online and don't want to guess how they'll fit."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-aws-dogwood-local-engine-agent-governance",
+      "kind": "news",
+      "category": "opensource",
+      "verified": true,
+      "eventDate": "2026-09-30",
+      "title": {
+        "cs": "AWS uvolnil Dogwood Local Engine na hlídání AI agentů",
+        "en": "AWS open-sources Dogwood Local Engine to police AI agents"
+      },
+      "summary": {
+        "cs": "AWS 30. září otevřelo kód Dogwood Local Engine — knihovny v Rustu, co agentovi před každým voláním nástroje povolí nebo zakáže akci podle pravidel s pamětí na předchozí kroky. Umí třeba dovolit odeslání kódu (git push) jen když testy proběhly úspěšně za posledních patnáct minut. Běží lokálně, zdarma pod licencí Apache 2.0.",
+        "en": "AWS open-sourced the Dogwood Local Engine on September 30 — a Rust library that approves or blocks an agent's next tool call against rules aware of its earlier steps. It can, for example, allow a code push only if tests passed within the last fifteen minutes. It runs locally, free, under the Apache 2.0 license."
+      },
+      "why": {
+        "cs": "Hodí se, když si agentům necháváš sahat na produkční systémy — stáhneš si ho z GitHubu a napojíš na vlastní harness, aby nedělal rizikové kroky bez dozoru.",
+        "en": "Useful if you let agents touch production systems — download it from GitHub and wire it into your own harness so it can't take risky steps unsupervised."
+      },
+      "sources": [
+        {
+          "name": "AWS",
+          "url": "https://aws.amazon.com/blogs/opensource/introducing-the-dogwood-local-engine-temporal-governance-for-agent-actions/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/01/aws-offers-local-open-source-leash-for-agent-harnesses/5300578"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-aws-strands-decider-2b-open-decision-model",
+      "kind": "news",
+      "category": "opensource",
+      "verified": true,
+      "eventDate": "2026-10-01",
+      "title": {
+        "cs": "AWS vydal otevřený rozhodovací model Strands Decider 2B",
+        "en": "AWS releases open decision model Strands Decider 2B"
+      },
+      "summary": {
+        "cs": "AWS 1. října vydalo Strands Decider 2B — dvoumiliardový otevřený model na bázi Qwenu, co místo generování textu jen ohodnotí nabízené možnosti a vrátí volbu s pravděpodobnostmi. Na RTX 3090 odpoví typicky za 106 milisekund. Zdarma ke stažení na Hugging Face pod licencí Apache 2.0, včetně trénovacích dat a skriptů.",
+        "en": "AWS released Strands Decider 2B on October 1 — a 2-billion-parameter open model based on Qwen that, instead of generating text, just scores the offered options and returns a choice with probabilities. On an RTX 3090 it typically answers in 106 milliseconds. It's free on Hugging Face under Apache 2.0, including training data and scripts."
+      },
+      "why": {
+        "cs": "Zapoj ho lokálně do vlastního agenta nebo pipeline, když potřebuješ bleskové rozhodnutí typu ano/ne nebo výběr z možností — bez poplatků za API.",
+        "en": "Plug it locally into your own agent or pipeline when you need a split-second yes/no or multiple-choice decision — with no API fees."
+      },
+      "sources": [
+        {
+          "name": "Strands Agents",
+          "url": "https://strandsagents.com/blog/introducing-strands-decider/"
+        },
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/technology/amazon-unveils-a-free-fast-open-source-jev-killer-strands-decider-2b-makes-decisions-in-fractions-of-a-second"
+        },
+        {
+          "name": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/10/01/aws-debuts-strands-decider-2b-a-first-lightweight-decision-model-for-accelerate-agentic-workflows/"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-10-01",
+        "id": "2026-10-01-tip-ollama-decision-models",
+        "title": {
+          "cs": "Ollama teď umí rychlá rozhodnutí přes /v1/systemone",
+          "en": "Ollama adds fast decisions via /v1/systemone"
+        }
+      }
+    },
+    {
+      "id": "2026-10-02-amd-acquires-world-labs-fei-fei-li",
+      "kind": "news",
+      "category": "business",
+      "verified": true,
+      "eventDate": "2026-09-28",
+      "title": {
+        "cs": "AMD koupilo laboratoř Fei-Fei Li za 8,2 miliardy dolarů",
+        "en": "AMD buys Fei-Fei Li's World Labs for $8.2 billion"
+      },
+      "summary": {
+        "cs": "AMD 28. září oznámilo dohodu o koupi World Labs, laboratoře průkopnice AI Fei-Fei Li, za 8,2 miliardy dolarů v akciích — druhou největší akvizici po Xilinxu. World Labs vyvíjí prostorové modely, co z textu, obrázku nebo videa vytvoří interaktivní 3D scény, i technologie pro učení robotů. Li se po uzavření stane hlavní vědkyní AMD.",
+        "en": "AMD announced a deal to acquire World Labs, AI pioneer Fei-Fei Li's lab, for $8.2 billion on September 28 — its second-biggest acquisition after Xilinx. World Labs builds spatial-intelligence models that turn text, images or video into interactive 3D scenes, plus technology for robot learning. Li will become AMD's chief scientist once it closes."
+      },
+      "why": {
+        "cs": "Ukazuje to, jak moc chipmakeři sázejí na vlastní AI výzkum, ne jen hardware — sleduj, co z toho vznikne pro AMD čipy a software kolem robotiky.",
+        "en": "It shows how far chipmakers now go to own AI research, not just hardware — watch what this means for AMD's chips and software around robotics."
+      },
+      "sources": [
+        {
+          "name": "AMD",
+          "url": "https://newsroom.amd.com/news/amd-acquire-world-labs/"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-acquires-ai-legend-fei-fei-lis-world-labs-for-usd8-2-billion-imagenet-pioneer-will-become-amd-chief-scientist-as-the-chipmaker-brings-her-lab-in-house"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-barclays-expands-claude-code-enterprise",
+      "kind": "news",
+      "category": "business",
+      "verified": true,
+      "eventDate": "2026-10-01",
+      "title": {
+        "cs": "Barclays rozšiřuje Claude Code na polovinu vývojářů",
+        "en": "Barclays expands Claude Code to half its developers"
+      },
+      "summary": {
+        "cs": "Barclays 1. října oznámil rozšíření Claude napříč celou bankou — cílí, aby Claude Code do konce roku 2026 používala polovina vývojářů a v roce 2027 většina z nich. Asistent Colleague Knowledge Assistant pomáhá 16 000 zaměstnancům obsluhovat přes 20 milionů retailových klientů ve Velké Británii a Claude denně roztřídí 120 000 e-mailů na finančních trzích.",
+        "en": "Barclays announced on October 1 that it's expanding Claude across the whole bank — targeting Claude Code adoption by half its developers by the end of 2026 and most of them in 2027. Colleague Knowledge Assistant helps 16,000 staff serve over 20 million UK retail customers, and Claude sorts 120,000 emails a day in markets."
+      },
+      "why": {
+        "cs": "Je to další velká banka, co vsadila na Claude Code naplno — ukazuje, jak rychle se agentní programování dostává do běžného enterprise provozu bank.",
+        "en": "It's another major bank betting big on Claude Code — it shows how fast agentic coding is moving into everyday enterprise operations at banks."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/barclays-scales-claude"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-tip-claude-artifact-usage-promotion",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-01",
+      "title": {
+        "cs": "Tvorba artefaktů v Claude teď šetří limit session",
+        "en": "Making artifacts in Claude now saves session limit"
+      },
+      "summary": {
+        "cs": "Anthropic od 1. do 15. října spustil akci: část práce po vytvoření nebo úpravě artefaktu v Claude i Claude Cowork spotřebuje o 50 % méně z pětihodinového limitu session. Platí pro plány Pro, Max i Team, nic se nemusí zapínat ručně.",
+        "en": "Anthropic is running a promotion from October 1 through 15: some of the work that follows creating or editing an artifact in Claude or Claude Cowork uses 50% less of your five-hour session limit. It applies to Pro, Max, and Team plans, nothing to turn on manually."
+      },
+      "why": {
+        "cs": "Vytvářej a uprav artefakty aktivně do 15. října, hlavně u delších úkolů — ušetřený limit session pak využiješ na víc zpráv ve stejném pětihodinovém okně.",
+        "en": "Create and edit artifacts actively through October 15, especially for longer tasks — the session limit you save buys you more messages in the same five-hour window."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/17274727-artifact-usage-promotion"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-tip-gemini-student-hub-workspace-education",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-01",
+      "title": {
+        "cs": "Studentský rozcestník Gemini dorazil i do škol",
+        "en": "Gemini's student hub now reaches school accounts too"
+      },
+      "summary": {
+        "cs": "Google 1. října rozšířil studentský rozcestník v Gemini, dřív jen pro osobní účty, na uživatele Google Workspace for Education libovolného věku. Na jednom místě najdeš studijní poznámkový blok, kartičky na učení, procvičovací kvíz i sledování termínů podle rozvrhu. Dostupné hned, na gemini.google.com/students nebo v nabídce appky.",
+        "en": "Google expanded Gemini's student hub on October 1, previously personal-accounts only, to Google Workspace for Education users of any age. In one place you get a study notebook, flashcards, practice quizzes, and deadline tracking from your class schedule. Available now, at gemini.google.com/students or in the app's menu."
+      },
+      "why": {
+        "cs": "Najdeš to v menu appky Gemini pod Students nebo přímo na gemini.google.com/students — škola musí mít Workspace for Education se zapnutým Gemini.",
+        "en": "Find it in the Gemini app's menu under Students, or go straight to gemini.google.com/students — your school needs Workspace for Education with Gemini turned on."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/find-your-learning-tools-all-in-one-place-with-the-student-hub-in-Gemini.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-tip-copilot-hydrafusion-multi-model",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-30",
+      "title": {
+        "cs": "Copilot teď sám skládá úkol z víc AI modelů",
+        "en": "Copilot now builds tasks from multiple AI models"
+      },
+      "summary": {
+        "cs": "GitHub 30. září rozšířil náhled funkce HydraFusion z Copilot CLI i do VS Code a appky Copilot — sama vybere a poskládá modely různých firem podle náročnosti úkolu: buď jediný model, eskalaci na silnější, nebo kontrolu druhým modelem. Podle GitHubu je tak na testu TerminalBench 2.1 přesnější i levnější než Claude Opus 5.",
+        "en": "GitHub expanded the HydraFusion research preview from Copilot CLI into VS Code and the Copilot app on September 30 — it automatically builds a workflow per task: one model, escalation to a stronger one, or a second model checking the work. GitHub says it beats Claude Opus 5 on cost and accuracy in testing."
+      },
+      "why": {
+        "cs": "Vyzkoušej v nastavení modelů VS Code nebo appky Copilot — hodí se na těžší úkoly, kde chceš automatickou rovnováhu mezi cenou a kvalitou bez výběru modelu ručně.",
+        "en": "Try it from the model picker in VS Code or the Copilot app — good for harder tasks where you want cost and quality balanced automatically, no manual model choice."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-05",
+      "title": {
+        "cs": "Šéfové OpenAI, Anthropicu, Googlu a Mety svědčí v newyorské radnici",
+        "en": "OpenAI, Anthropic, Google, Meta testify before NYC Council"
+      },
+      "note": {
+        "cs": "Newyorská městská rada 5. října vyslechne pod přísahou zástupce čtyř firem o rizicích AI — SpaceXAI na výzvu nereagovala, a tak dostala předvolání.",
+        "en": "New York's City Council hears sworn testimony from four companies on AI risks on October 5 — SpaceXAI didn't respond to the request and was subpoenaed instead."
+      },
+      "sources": [
+        {
+          "name": "council.nyc.gov",
+          "url": "https://council.nyc.gov/press/2026/09/28/3266/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-06",
+      "title": {
+        "cs": "Nové úkoly Claude Cowork poběží jen v cloudu",
+        "en": "New Claude Cowork tasks will run only in the cloud"
+      },
+      "note": {
+        "cs": "Od 6. října nové úkoly Cowork na plánech Pro a Max poběží v cloudu — možnost „jen v počítači“ v nastavení zmizí, rozjeté úkoly na počítači doběhnou.",
+        "en": "Starting October 6, new Cowork tasks on Pro and Max plans run in the cloud — the 'only on your computer' setting disappears, and tasks already running there keep going."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

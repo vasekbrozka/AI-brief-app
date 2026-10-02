@@ -1174,7 +1174,47 @@
       "slug": "2026-10-01-tip-ollama-decision-models",
       "date": "2026-10-01",
       "topic": "tip: Ollama teď umí rychlá rozhodnutí přes /v1/systemone"
+    },
+    {
+      "slug": "2026-10-02-chatgpt-virtual-try-on-shopping",
+      "date": "2026-10-02",
+      "topic": "ChatGPT teď umí navléknout oblečení na tvou fotku"
+    },
+    {
+      "slug": "2026-10-02-aws-dogwood-local-engine-agent-governance",
+      "date": "2026-10-02",
+      "topic": "AWS uvolnil Dogwood Local Engine na hlídání AI agentů"
+    },
+    {
+      "slug": "2026-10-02-aws-strands-decider-2b-open-decision-model",
+      "date": "2026-10-02",
+      "topic": "AWS vydal otevřený rozhodovací model Strands Decider 2B"
+    },
+    {
+      "slug": "2026-10-02-amd-acquires-world-labs-fei-fei-li",
+      "date": "2026-10-02",
+      "topic": "AMD koupilo laboratoř Fei-Fei Li za 8,2 miliardy dolarů"
+    },
+    {
+      "slug": "2026-10-02-barclays-expands-claude-code-enterprise",
+      "date": "2026-10-02",
+      "topic": "Barclays rozšiřuje Claude Code na polovinu vývojářů"
+    },
+    {
+      "slug": "2026-10-02-tip-claude-artifact-usage-promotion",
+      "date": "2026-10-02",
+      "topic": "tip: Tvorba artefaktů v Claude teď šetří limit session"
+    },
+    {
+      "slug": "2026-10-02-tip-gemini-student-hub-workspace-education",
+      "date": "2026-10-02",
+      "topic": "tip: Studentský rozcestník Gemini dorazil i do škol"
+    },
+    {
+      "slug": "2026-10-02-tip-copilot-hydrafusion-multi-model",
+      "date": "2026-10-02",
+      "topic": "tip: Copilot teď sám skládá úkol z víc AI modelů"
     }
   ],
-  "updated": "2026-10-01T03:50:00Z"
+  "updated": "2026-10-02T03:50:00Z"
 }

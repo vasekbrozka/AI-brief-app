@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-01T03:50:00Z",
+  "updated": "2026-10-02T03:50:00Z",
   "briefs": [
+    {
+      "date": "2026-10-02",
+      "headline": {
+        "cs": "ChatGPT teď umí navléknout oblečení na tvou fotku",
+        "en": "ChatGPT can now virtually try clothes on for you"
+      },
+      "itemCount": 8
+    },
     {
       "date": "2026-10-01",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "OpenAI launches Astra for Law for lawyers"
       },
       "itemCount": 2
-    },
-    {
-      "date": "2026-09-18",
-      "headline": {
-        "cs": "Claude spojil chat s Coworkem, přidal Docs",
-        "en": "Claude merges chat with Cowork, adds Docs"
-      },
-      "itemCount": 4
     }
   ]
 }
