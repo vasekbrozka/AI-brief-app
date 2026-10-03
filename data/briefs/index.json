@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-02T03:50:00Z",
+  "updated": "2026-10-03T03:50:00Z",
   "briefs": [
+    {
+      "date": "2026-10-03",
+      "headline": {
+        "cs": "Gemini Live teď slovně provede nevidomé okolím",
+        "en": "Gemini Live now guides blind users through surroundings"
+      },
+      "itemCount": 8
+    },
     {
       "date": "2026-10-02",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Claude Code redesigns Projects into a coordinated conversation"
       },
       "itemCount": 6
-    },
-    {
-      "date": "2026-09-19",
-      "headline": {
-        "cs": "OpenAI spustilo Astra for Law pro právníky",
-        "en": "OpenAI launches Astra for Law for lawyers"
-      },
-      "itemCount": 2
     }
   ]
 }

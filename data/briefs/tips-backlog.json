@@ -3170,6 +3170,72 @@
       ],
       "added": "2026-10-02",
       "used": "2026-10-02"
+    },
+    {
+      "slug": "tip-claude-code-mods",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "title": {
+        "cs": "Claude Code jde teď přizpůsobit vlastními mody",
+        "en": "Claude Code can now be customized with mods"
+      },
+      "summary": {
+        "cs": "Anthropic 1. října spustilo v Claude Code mody — krátké funkce v TypeScriptu nebo JavaScriptu, co zachytí událost, třeba volání nástroje, a dovolí ji upravit nebo nahradit. Mody se instalují a sdílí jako pluginy a fungují v CLI i desktopové appce. I zabudovaná funkce /diff teď běží jako mod, takže ji lze vypnout nebo přepsat.",
+        "en": "Anthropic launched mods in Claude Code on October 1 — small TypeScript or JavaScript functions that intercept an event, like a tool call, and let you change or replace it. Mods install and share like plugins, in both the CLI and desktop app. Even /diff now ships as a mod you can disable or rewrite."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/blog/claude-code-mods"
+        }
+      ],
+      "added": "2026-10-03",
+      "used": "2026-10-03"
+    },
+    {
+      "slug": "tip-perplexity-business-skills-american-express",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": true,
+      "title": {
+        "cs": "Perplexity přidal firemní dovednosti pro držitele Amexu",
+        "en": "Perplexity adds business skills for Amex cardholders"
+      },
+      "summary": {
+        "cs": "Perplexity 1. října spustilo v Computeru sadu hotových dovedností pro držitele podnikatelských karet American Express — pokrývají daně, prognózu cash flow, marketingové kampaně i nábor. Místo psaní promptu od nuly stačí vybrat úkol a vyplnit pár údajů ve formuláři. Funguje jen na placeném plánu Enterprise Pro nebo Enterprise Max.",
+        "en": "Perplexity launched a set of ready-made Skills in Computer for American Express business cardholders on October 1 — covering taxes, cash-flow forecasting, marketing campaigns, and hiring. Instead of writing a prompt from scratch, you pick a task and fill in a few details in a form. It requires paid Enterprise Pro or Enterprise Max."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog"
+        }
+      ],
+      "added": "2026-10-03",
+      "used": "2026-10-03"
+    },
+    {
+      "slug": "tip-grok-voice-transcribe-2-default",
+      "category": "tools",
+      "theme": "other",
+      "verified": true,
+      "title": {
+        "cs": "Grok Voice Transcribe 2.0 je teď výchozí přepis",
+        "en": "Grok Voice Transcribe 2.0 is now the default"
+      },
+      "summary": {
+        "cs": "xAI 18. září vydalo Grok Voice Transcribe 2.0 — dvakrát přesnější přepis řeči než předchozí verze při stejné ceně, nejvíc to pomohlo u víc jazyků najednou. Stará verze 1.0 skončila 2. října, všechny požadavky teď automaticky jedou na dvojku za stejnou cenu: 0,10 dolaru za hodinu dávkově, 0,20 dolaru za hodinu v reálném čase.",
+        "en": "xAI released Grok Voice Transcribe 2.0 on September 18 — twice as accurate at speech transcription as the previous version, at the same price, with the biggest gains in multilingual audio. Version 1.0 reached end of life on October 2, so all requests now auto-route to 2.0 automatically, at no extra cost."
+      },
+      "sources": [
+        {
+          "name": "xAI",
+          "url": "https://x.ai/news/grok-voice-transcribe-2"
+        }
+      ],
+      "added": "2026-10-03",
+      "used": "2026-10-03"
     }
   ]
 }

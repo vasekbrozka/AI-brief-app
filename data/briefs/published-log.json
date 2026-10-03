@@ -1214,7 +1214,47 @@
       "slug": "2026-10-02-tip-copilot-hydrafusion-multi-model",
       "date": "2026-10-02",
       "topic": "tip: Copilot teď sám skládá úkol z víc AI modelů"
+    },
+    {
+      "slug": "2026-10-03-gemini-live-guided-vision-accessibility",
+      "date": "2026-10-03",
+      "topic": "Gemini Live teď slovně provede nevidomé okolím"
+    },
+    {
+      "slug": "2026-10-03-apple-macos-full-disk-access-ai-agents",
+      "date": "2026-10-03",
+      "topic": "Apple kvůli AI agentům zpřísní přístup k celému disku"
+    },
+    {
+      "slug": "2026-10-03-meta-muse-gadgets-open-source-hardware",
+      "date": "2026-10-03",
+      "topic": "Meta otevřela stavebnici hardwaru pro asistenta Muse"
+    },
+    {
+      "slug": "2026-10-03-anthropic-claude-frontier-academy-100-million",
+      "date": "2026-10-03",
+      "topic": "Anthropic dá 100 milionů na výcvik 10 000 inženýrů"
+    },
+    {
+      "slug": "2026-10-03-nvidia-dgx-spark-64gb-local-ai",
+      "date": "2026-10-03",
+      "topic": "NVIDIA nabídne levnější lokální AI počítač DGX Spark"
+    },
+    {
+      "slug": "2026-10-03-tip-claude-code-mods",
+      "date": "2026-10-03",
+      "topic": "tip: Claude Code jde teď přizpůsobit vlastními mody"
+    },
+    {
+      "slug": "2026-10-03-tip-perplexity-business-skills-american-express",
+      "date": "2026-10-03",
+      "topic": "tip: Perplexity přidal firemní dovednosti pro držitele Amexu"
+    },
+    {
+      "slug": "2026-10-03-tip-grok-voice-transcribe-2-default",
+      "date": "2026-10-03",
+      "topic": "tip: Grok Voice Transcribe 2.0 je teď výchozí přepis"
     }
   ],
-  "updated": "2026-10-02T03:50:00Z"
+  "updated": "2026-10-03T03:50:00Z"
 }
