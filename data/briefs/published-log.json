@@ -1254,7 +1254,37 @@
       "slug": "2026-10-03-tip-grok-voice-transcribe-2-default",
       "date": "2026-10-03",
       "topic": "tip: Grok Voice Transcribe 2.0 je teď výchozí přepis"
+    },
+    {
+      "slug": "2026-10-04-california-no-robo-bosses-ai-employment-law",
+      "date": "2026-10-04",
+      "topic": "Kalifornie zakázala propouštět lidi jen podle rozhodnutí AI"
+    },
+    {
+      "slug": "2026-10-04-google-project-suncatcher-orbit-success",
+      "date": "2026-10-04",
+      "topic": "Testovací satelit Googlu s AI čipem je na oběžné dráze"
+    },
+    {
+      "slug": "2026-10-04-openai-30-billion-funding-1-4-trillion-valuation",
+      "date": "2026-10-04",
+      "topic": "OpenAI prý jedná o kole za 30 miliard při 1,4 bilionu"
+    },
+    {
+      "slug": "2026-10-04-deepseek-harness-desktop-app",
+      "date": "2026-10-04",
+      "topic": "DeepSeek Harness běží i jako aplikace pro počítač"
+    },
+    {
+      "slug": "2026-10-04-tip-chatgpt-for-word-default-enabled",
+      "date": "2026-10-04",
+      "topic": "tip: ChatGPT ve Wordu je teď zapnutý automaticky"
+    },
+    {
+      "slug": "2026-10-04-tip-excel-canvas-copilot-reports",
+      "date": "2026-10-04",
+      "topic": "tip: Excel umí přes Copilota sám sepsat report"
     }
   ],
-  "updated": "2026-10-03T03:50:00Z"
+  "updated": "2026-10-04T03:50:00Z"
 }

@@ -3236,6 +3236,50 @@
       ],
       "added": "2026-10-03",
       "used": "2026-10-03"
+    },
+    {
+      "slug": "tip-chatgpt-for-word-default-enabled",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT ve Wordu je teď zapnutý automaticky",
+        "en": "ChatGPT for Word now turns on by default"
+      },
+      "summary": {
+        "cs": "OpenAI od 1. října zapíná doplněk ChatGPT pro Word jako výchozí ve všech plánech včetně bezplatného — samotná funkce vyšla už 17. září. Píšeš a upravuješ dokumenty přímo ve Wordu s pomocí ChatGPT, bez přepínání oken. Správci firemních účtů i organizace v Microsoftu 365 ho v administraci můžou kdykoli vypnout.",
+        "en": "OpenAI is turning on the ChatGPT for Word add-in by default across all plans, including Free, starting October 1 — the feature itself launched September 17. You write and edit documents right inside Word with ChatGPT's help, no window-switching. Workspace admins and Microsoft 365 organizations can still turn it off in the admin console."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "added": "2026-10-04",
+      "used": "2026-10-04"
+    },
+    {
+      "slug": "tip-excel-canvas-copilot-reports",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": false,
+      "title": {
+        "cs": "Excel umí přes Copilota sám sepsat report",
+        "en": "Excel can now draft a report with Copilot"
+      },
+      "summary": {
+        "cs": "Microsoft od 2. října postupně nasazuje Excel Canvas — Copilot z dat sešitu sám poskládá hotový report s grafy, metrikami a shrnutím, co se automaticky překreslí, kdykoli se podkladová data změní. Nasazení poběží celý říjen, přesné podmínky a plány zatím Microsoft oficiálně neupřesnil.",
+        "en": "Microsoft is gradually rolling out Excel Canvas starting October 2 — Copilot assembles a finished report from your workbook's data, complete with charts, metrics, and a summary, which redraws automatically whenever the underlying data changes. The rollout runs through October; Microsoft hasn't yet officially specified exact eligibility or plan details."
+      },
+      "sources": [
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/software/2026/10/02/excel-canvas-offers-to-turn-your-workbook-into-the-bosss-next-report/5300812"
+        }
+      ],
+      "added": "2026-10-04",
+      "used": "2026-10-04"
     }
   ]
 }

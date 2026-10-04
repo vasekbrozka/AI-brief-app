@@ -1,0 +1,349 @@
+{
+  "date": "2026-10-04",
+  "sample": false,
+  "headline": {
+    "cs": "Kalifornie zakázala propouštět lidi jen podle rozhodnutí AI",
+    "en": "California bans firing workers on AI decisions alone"
+  },
+  "items": [
+    {
+      "id": "2026-10-04-california-no-robo-bosses-ai-employment-law",
+      "kind": "news",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-09-30",
+      "title": {
+        "cs": "Kalifornie zakázala propouštět lidi jen podle rozhodnutí AI",
+        "en": "California bans firing workers on AI decisions alone"
+      },
+      "summary": {
+        "cs": "Guvernér Newsom 30. září podepsal zákony SB 947 a SB 951 — zaměstnavatelé už nesmí o výpovědi nebo kázeňském trestu rozhodnout jen pomocí AI, vždy to musí potvrdit člověk. Firmy navíc musí zaměstnance informovat, když na hromadném propouštění nebo přesunu práce měla podíl AI. Jde o první zákon svého druhu v USA.",
+        "en": "Governor Newsom signed SB 947 and SB 951 on September 30 — employers can no longer decide a firing or disciplinary action using AI alone; a human must confirm it. Companies must tell workers when AI played a role in a mass layoff or job relocation. It's the first such law in the US."
+      },
+      "why": {
+        "cs": "Pokud pracuješ v Kalifornii, firma tě teď nesmí vyhodit jen na základě rozhodnutí algoritmu — a musí ti říct, když za hromadným propouštěním stojí AI.",
+        "en": "If you work in California, your employer can no longer fire you based on an algorithm's decision alone — and must tell you if AI drove a mass layoff."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/30/californias-nation-leading-ai-framework-just-got-stronger-governor-newsom-signs-more-first-in-the-nation-worker-protections-and-more/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-04-google-project-suncatcher-orbit-success",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-10-01",
+      "title": {
+        "cs": "Testovací satelit Googlu s AI čipem je na oběžné dráze",
+        "en": "Google's AI-chip test satellite has reached orbit"
+      },
+      "summary": {
+        "cs": "Google 1. října potvrdilo, že testovací satelit projektu Suncatcher s čipem TPU úspěšně vynesla raketa Falcon 9 a navázal spojení ze stabilní oběžné dráhy. Týmy teď několik týdnů sledují, jak čip snáší start, radiaci a teplotní výkyvy ve vesmíru, než podle výsledků doladí návrh. Výzkum k tomu vyšel i v recenzovaném časopise Joule.",
+        "en": "Google confirmed on October 1 that its Project Suncatcher test satellite, carrying a TPU chip, launched on a Falcon 9 rocket and made contact from orbit. Teams will spend the coming weeks tracking how the chip handles launch stress, radiation, and heat swings before refining it. The research appeared in the peer-reviewed journal Joule."
+      },
+      "why": {
+        "cs": "Zatím jde jen o testovací misi, ne reálnou AI infrastrukturu ve vesmíru — zajímavé jako první ověření, že čip takovou zátěž vůbec přežije.",
+        "en": "It's still just a test mission, not real AI infrastructure in space — interesting as a first check that the chip can even survive the stress."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-04-openai-30-billion-funding-1-4-trillion-valuation",
+      "kind": "news",
+      "category": "business",
+      "verified": false,
+      "eventDate": "2026-09-29",
+      "title": {
+        "cs": "OpenAI prý jedná o kole za 30 miliard při 1,4 bilionu",
+        "en": "OpenAI reportedly in talks for $30B round at $1.4T"
+      },
+      "summary": {
+        "cs": "OpenAI podle zpráv z 29. září jedná s investory o novém kole aspoň za 30 miliard dolarů, tentokrát při ocenění kolem 1,4 bilionu dolarů — naposledy v březnu firma získala 122 miliard při 852 miliardách. Jít má o poslední kolo před plánovaným vstupem na burzu, teď odloženým na rok 2027.",
+        "en": "OpenAI is reportedly in talks with investors for a new round of at least $30 billion as of September 29, this time at a valuation around $1.4 trillion — it last raised $122 billion in March at $852 billion. It would be the final round before the company's planned IPO, now delayed to 2027."
+      },
+      "why": {
+        "cs": "Ukazuje to, jak moc investoři sázejí na pokračující růst OpenAI i přes obří provozní ztráty — sleduj, jestli se kolo doopravdy uzavře za tuhle cenu.",
+        "en": "It shows how much investors are betting on OpenAI's continued growth despite huge operating losses — watch whether the round actually closes at this price."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/pro/all-deals/2026/09/29/pro-rata-premium-first-look"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-04-deepseek-harness-desktop-app",
+      "kind": "news",
+      "category": "opensource",
+      "verified": true,
+      "eventDate": "2026-09-30",
+      "title": {
+        "cs": "DeepSeek Harness běží i jako aplikace pro počítač",
+        "en": "DeepSeek Harness now runs as a desktop app"
+      },
+      "summary": {
+        "cs": "DeepSeek 30. září zpřístupnilo Harness, svůj otevřený rámec pro AI agenty, jako instalovatelnou aplikaci pro macOS (Apple Silicon) a Windows — dřív šel spustit jen z příkazové řádky. Appka v sobě nese celé webové rozhraní i běhové prostředí Node.js a Pythonu, takže funguje na pozadí, upravuje lokální soubory a zvládá dlouhé úkoly bez terminálu.",
+        "en": "DeepSeek released a desktop version of Harness, its open agent framework, for macOS (Apple silicon) and Windows on September 30 — previously it only ran from the command line. The app bundles a web interface with Node.js and Python runtimes, so it works in the background, edits local files, and handles tasks without a terminal."
+      },
+      "why": {
+        "cs": "Stáhneš si ho zdarma z deepseek.com a nainstaluješ jako běžnou appku — hodí se, když chceš agenta pro delší úkoly bez otevřeného terminálu.",
+        "en": "Download it free from deepseek.com and install it like any other app — handy when you want an agent for longer tasks without an open terminal."
+      },
+      "sources": [
+        {
+          "name": "DeepSeek",
+          "url": "https://www.deepseek.com/en/harness/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-04-tip-chatgpt-for-word-default-enabled",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-01",
+      "title": {
+        "cs": "ChatGPT ve Wordu je teď zapnutý automaticky",
+        "en": "ChatGPT for Word now turns on by default"
+      },
+      "summary": {
+        "cs": "OpenAI od 1. října zapíná doplněk ChatGPT pro Word jako výchozí ve všech plánech včetně bezplatného — samotná funkce vyšla už 17. září. Píšeš a upravuješ dokumenty přímo ve Wordu s pomocí ChatGPT, bez přepínání oken. Správci firemních účtů i organizace v Microsoftu 365 ho v administraci můžou kdykoli vypnout.",
+        "en": "OpenAI is turning on the ChatGPT for Word add-in by default across all plans, including Free, starting October 1 — the feature itself launched September 17. You write and edit documents right inside Word with ChatGPT's help, no window-switching. Workspace admins and Microsoft 365 organizations can still turn it off in the admin console."
+      },
+      "why": {
+        "cs": "Hledej ho na postranním panelu Wordu, pokud ti tam sám nenaskočí — funguje na všech plánech ChatGPT, i zdarma, klidně to vyzkoušej na starším dokumentu.",
+        "en": "Look for it in Word's side panel if it doesn't appear on its own — it works on every ChatGPT plan, even free, so try it on an old document."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-04-tip-excel-canvas-copilot-reports",
+      "kind": "tip",
+      "category": "tools",
+      "verified": false,
+      "eventDate": "2026-10-02",
+      "title": {
+        "cs": "Excel umí přes Copilota sám sepsat report",
+        "en": "Excel can now draft a report with Copilot"
+      },
+      "summary": {
+        "cs": "Microsoft od 2. října postupně nasazuje Excel Canvas — Copilot z dat sešitu sám poskládá hotový report s grafy, metrikami a shrnutím, co se automaticky překreslí, kdykoli se podkladová data změní. Nasazení poběží celý říjen, přesné podmínky a plány zatím Microsoft oficiálně neupřesnil.",
+        "en": "Microsoft is gradually rolling out Excel Canvas starting October 2 — Copilot assembles a finished report from your workbook's data, complete with charts, metrics, and a summary, which redraws automatically whenever the underlying data changes. The rollout runs through October; Microsoft hasn't yet officially specified exact eligibility or plan details."
+      },
+      "why": {
+        "cs": "Vyzkoušej to v Excelu přes Copilota, pokud se ti funkce už objevila — hodí se na rychlé zprávy pro vedení bez ručního skládání grafů.",
+        "en": "Try it in Excel through Copilot if the feature has already reached you — handy for quick reports to management without assembling charts by hand."
+      },
+      "sources": [
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/software/2026/10/02/excel-canvas-offers-to-turn-your-workbook-into-the-bosss-next-report/5300812"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-05",
+      "title": {
+        "cs": "Šéfové OpenAI, Anthropicu, Googlu a Mety svědčí v newyorské radnici",
+        "en": "OpenAI, Anthropic, Google, Meta testify before NYC Council"
+      },
+      "note": {
+        "cs": "Newyorská městská rada 5. října vyslechne pod přísahou zástupce čtyř firem o rizicích AI — SpaceXAI na výzvu nereagovala, a tak dostala předvolání.",
+        "en": "New York's City Council hears sworn testimony from four companies on AI risks on October 5 — SpaceXAI didn't respond to the request and was subpoenaed instead."
+      },
+      "sources": [
+        {
+          "name": "council.nyc.gov",
+          "url": "https://council.nyc.gov/press/2026/09/28/3266/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-06",
+      "title": {
+        "cs": "Nové úkoly Claude Cowork poběží jen v cloudu",
+        "en": "New Claude Cowork tasks will run only in the cloud"
+      },
+      "note": {
+        "cs": "Od 6. října nové úkoly Cowork na plánech Pro a Max poběží v cloudu — možnost „jen v počítači“ v nastavení zmizí, rozjeté úkoly na počítači doběhnou.",
+        "en": "Starting October 6, new Cowork tasks on Pro and Max plans run in the cloud — the 'only on your computer' setting disappears, and tasks already running there keep going."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ],
+  "weekInReview": [
+    {
+      "date": "2026-09-30",
+      "id": "2026-09-30-trump-ai-executives-self-policing-accord",
+      "title": {
+        "cs": "Trump a šéfové AI firem podepsali dohodu o sebekontrole",
+        "en": "Trump and AI company chiefs sign a self-policing accord"
+      },
+      "note": {
+        "cs": "První společný, i když dobrovolný, závazek celého oboru k sebekontrole po týdnech bezpečnostních úniků a rezignací — zatím bez konkrétního zákona.",
+        "en": "The industry's first joint, if voluntary, self-policing pledge after weeks of safety breakouts and resignations — still no concrete law to show for it."
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "id": "2026-09-29-openai-cancels-gpt-6-1-astra-safety",
+      "title": {
+        "cs": "OpenAI zrušilo vydání modelu GPT-6.1 Astra pro bezpečnostní obavy",
+        "en": "OpenAI cancels GPT-6.1 Astra release over safety concerns"
+      },
+      "note": {
+        "cs": "OpenAI samo zastavilo hotový model kvůli bezpečnosti — vzácný krok; nahradilo ho o den později levnějším GPT-6.1 Sol na DevDay.",
+        "en": "OpenAI itself halted a finished model over safety — a rare move; a day later it replaced it with the cheaper GPT-6.1 Sol at DevDay."
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "id": "2026-10-01-google-gemini-4-argon",
+      "title": {
+        "cs": "Google vydal Gemini 4 Argon, svůj nejsilnější model",
+        "en": "Google releases Gemini 4 Argon, its most powerful model"
+      },
+      "note": {
+        "cs": "Googlu první vlajkový model po dlouhé pauze, co trumfuje aktuální špičku OpenAI v programování i znalostní práci.",
+        "en": "Google's first flagship model after a long gap, beating OpenAI's current top model on coding and knowledge-work benchmarks."
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "id": "2026-09-27-claude-crispr-like-enzyme-discovery",
+      "title": {
+        "cs": "Claude objevil nový enzym podobný CRISPR",
+        "en": "Claude discovers a new CRISPR-like enzyme system"
+      },
+      "note": {
+        "cs": "Claude pomohl objevit nový typ enzymu pro úpravu genomu — ukázka, že AI umí přispět k opravdu základnímu vědeckému výzkumu.",
+        "en": "Claude helped discover a new genome-editing enzyme type — a sign AI can contribute to genuinely fundamental scientific research."
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "id": "2026-10-02-amd-acquires-world-labs-fei-fei-li",
+      "title": {
+        "cs": "AMD koupilo laboratoř Fei-Fei Li za 8,2 miliardy dolarů",
+        "en": "AMD buys Fei-Fei Li's World Labs for $8.2 billion"
+      },
+      "note": {
+        "cs": "Druhá největší akvizice v historii AMD — firma si koupila výzkumnou laboratoř legendární Fei-Fei Li včetně jí samotné jako hlavní vědkyně.",
+        "en": "AMD's second-biggest acquisition ever — it bought legendary researcher Fei-Fei Li's lab, and Li herself joins as chief scientist."
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "id": "2026-10-03-gemini-live-guided-vision-accessibility",
+      "title": {
+        "cs": "Gemini Live teď slovně provede nevidomé okolím",
+        "en": "Gemini Live now guides blind users through surroundings"
+      },
+      "note": {
+        "cs": "Nová funkce vznikla přímo s nevidomou komunitou a nahlas popisuje okolí přes kameru — malá položka v dolarech, velký lidský dopad.",
+        "en": "Built directly with the blind community, it describes surroundings aloud through your camera — small in dollar terms, big in human impact."
+      }
+    }
+  ]
+}

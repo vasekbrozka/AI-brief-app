@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-03T03:50:00Z",
+  "updated": "2026-10-04T03:50:00Z",
   "briefs": [
+    {
+      "date": "2026-10-04",
+      "headline": {
+        "cs": "Kalifornie zakázala propouštět lidi jen podle rozhodnutí AI",
+        "en": "California bans firing workers on AI decisions alone"
+      },
+      "itemCount": 6
+    },
     {
       "date": "2026-10-03",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Google helps write AI chatbot laws with loopholes"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-09-20",
-      "headline": {
-        "cs": "Claude Code přepracoval Projects na koordinovanou konverzaci",
-        "en": "Claude Code redesigns Projects into a coordinated conversation"
-      },
-      "itemCount": 6
     }
   ]
 }
