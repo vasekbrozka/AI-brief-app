@@ -3280,6 +3280,72 @@
       ],
       "added": "2026-10-04",
       "used": "2026-10-04"
+    },
+    {
+      "slug": "tip-ollama-clef-decision-models",
+      "category": "tools",
+      "theme": "local",
+      "verified": true,
+      "title": {
+        "cs": "Ollama přidal Cloudflare rozhodovací modely Clef",
+        "en": "Ollama adds Cloudflare's Clef decision models"
+      },
+      "summary": {
+        "cs": "Ollama 2. října ve verzi 0.35.1 přidala podporu pro Clef a Clef Flash, nové rozhodovací modely od Cloudflare dostupné přes /v1/systemone — na rozdíl od dřívějších modelů umí rozhodovat i podle obrázků, ne jen textu. Větší Clef (27B) vede žebříček Cloudflare Decision Index, menší Clef Flash (9B) je asi pětkrát rychlejší.",
+        "en": "Ollama 0.35.1, released October 2, adds support for Clef and Clef Flash, new decision models from Cloudflare available through /v1/systemone — unlike earlier models, they can decide based on images, not just text. The larger Clef (27B) tops Cloudflare's Decision Index leaderboard; the smaller Clef Flash (9B) is roughly five times faster."
+      },
+      "sources": [
+        {
+          "name": "Ollama",
+          "url": "https://ollama.com/library/clef"
+        }
+      ],
+      "added": "2026-10-05",
+      "used": "2026-10-05"
+    },
+    {
+      "slug": "tip-perplexity-automations-scheduled-tasks",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": true,
+      "title": {
+        "cs": "Perplexity Computer umí teď úkoly podle rozvrhu",
+        "en": "Perplexity Computer can now run tasks on schedule"
+      },
+      "summary": {
+        "cs": "Perplexity 29. září spustilo v Computeru Automations — úkoly teď můžeš naplánovat na pravidelný čas nebo spustit podle události ve Slacku, Gmailu, Outlooku, Linearu nebo GitHubu, a každý další běh staví na výsledcích toho předchozího. Hodí se na opakující se práci, co dřív musel člověk pokaždé zadávat ručně.",
+        "en": "Perplexity launched Automations in Computer on September 29 — you can now schedule a task for a regular time or trigger it from an event in Slack, Gmail, Outlook, Linear, or GitHub, with each run building on the previous one's results. Handy for recurring work you used to kick off by hand each time."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/en-GB/hub/blog/computer-adds-automations-for-ongoing-work"
+        }
+      ],
+      "added": "2026-10-05",
+      "used": "2026-10-05"
+    },
+    {
+      "slug": "tip-google-vids-gemini-3-8-tts-voiceover",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "Google Vids dostal přirozenější AI namluvení Gemini 3.8",
+        "en": "Google Vids gets more natural Gemini 3.8 voiceovers"
+      },
+      "summary": {
+        "cs": "Google 29. září vylepšilo namluvení ve Vids na model Gemini 3.8 Flash Lite TTS — zní přirozeněji, s plynulejším tempem a menším robotickým nádechem, generování je navíc rychlejší, takže skript můžeš rovnou zkoušet nahlas. Funguje ve víc než 100 jazycích a dorazilo rovnou na firemní, školní i osobní plány Google AI Pro a Ultra.",
+        "en": "Google upgraded Vids' voiceover engine to the Gemini 3.8 Flash Lite TTS model on September 29 — it sounds more natural with smoother pacing, and generation is faster, so you can preview a script read aloud quickly. It works in 100+ languages, on business, education, and personal Google AI Pro and Ultra plans."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/create-more-natural-expressive-ai-voiceovers-in-Google-Vids-with-upgraded-Gemini-3.8-Flash-Lite-TTS.html"
+        }
+      ],
+      "added": "2026-10-05",
+      "used": "2026-10-05"
     }
   ]
 }

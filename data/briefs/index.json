@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-04T03:50:00Z",
+  "updated": "2026-10-05T03:50:00Z",
   "briefs": [
+    {
+      "date": "2026-10-05",
+      "headline": {
+        "cs": "Finance v ChatGPT jsou teď i ve zdarma plánu",
+        "en": "ChatGPT Finances now reaches Free plan users too"
+      },
+      "itemCount": 6
+    },
     {
       "date": "2026-10-04",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "OpenAI proposes global safety standards for AI and RSI"
       },
       "itemCount": 10
-    },
-    {
-      "date": "2026-09-21",
-      "headline": {
-        "cs": "Google pomáhá psát zákony o AI chatbotech se skulinkami",
-        "en": "Google helps write AI chatbot laws with loopholes"
-      },
-      "itemCount": 4
     }
   ]
 }

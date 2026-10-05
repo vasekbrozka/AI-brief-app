@@ -1,0 +1,291 @@
+{
+  "date": "2026-10-05",
+  "sample": false,
+  "headline": {
+    "cs": "Finance v ChatGPT jsou teď i ve zdarma plánu",
+    "en": "ChatGPT Finances now reaches Free plan users too"
+  },
+  "items": [
+    {
+      "id": "2026-10-05-chatgpt-finances-free-go-expansion",
+      "kind": "news",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-02",
+      "title": {
+        "cs": "Finance v ChatGPT jsou teď i ve zdarma plánu",
+        "en": "ChatGPT Finances now reaches Free plan users too"
+      },
+      "summary": {
+        "cs": "OpenAI 2. října rozšířilo Finance v ChatGPT i na bezplatný plán a plán Go v USA — po bezpečném propojení účtu přes Plaid a kreditní historie přes Experian appka odpovídá na otázky podle výdajů, úspor a investic. Nabízí i přehledový panel s pravidelnými platbami, předplatnými a čistým jměním. Zatím jen v USA.",
+        "en": "OpenAI expanded Finances in ChatGPT to Free and Go plan users in the US on October 2 — after securely linking accounts through Plaid and credit history through Experian, it answers questions grounded in your spending, savings, and investments. It also offers a dashboard covering recurring bills, subscriptions, and net worth. US only for now."
+      },
+      "why": {
+        "cs": "Hodí se, když chceš rychlý přehled o výdajích nebo investicích bez tabulek — jen pamatuj, že propojuješ bankovní účty, takže zváž, co sdílíš.",
+        "en": "Handy when you want a quick picture of your spending or investments without spreadsheets — just remember you're linking bank accounts, so weigh what you share."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://chatgpt.com/finances"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-05-trump-super-intelligence-force-executive-order",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-10-03",
+      "title": {
+        "cs": "Trump podepsal příkaz a zřídil Super Intelligence Force",
+        "en": "Trump signs order creating a Super Intelligence Force"
+      },
+      "summary": {
+        "cs": "Trump 3. října podepsal příkaz, co zřizuje Super Intelligence Force v čele s ředitelem Národní zpravodajské služby Jayem Claytonem — pracovní skupina má do 120 dnů připravit zprávu o rizicích a příležitostech umělé inteligence. Náměstky vedou šéf FTC Andrew Ferguson, náměstek ministerstva obrany pro výzkum Emil Michael a ředitel OPM Scott Kupor.",
+        "en": "Trump signed an order on October 3 creating the Super Intelligence Force, chaired by National Intelligence Director Jay Clayton — the task force has 120 days to deliver a report on AI's risks and opportunities. Its vice chairs are FTC Chair Andrew Ferguson, Undersecretary of War for Research Emil Michael, and OPM Director Scott Kupor."
+      },
+      "why": {
+        "cs": "Navazuje to na zářijovou dohodu o sebekontrole AI firem — Trump zároveň přejmenoval AI na „super inteligenci“ napříč federálními dokumenty, sleduj, co skupina za 120 dní doopravdy navrhne.",
+        "en": "It follows September's industry self-policing accord — Trump also renamed AI to ‘super intelligence’ across federal documents, so watch what the group actually proposes in 120 days."
+      },
+      "sources": [
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/10/04/nx-s1-5990781/jay-clayton-ai-czar-trump"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-09-30",
+        "id": "2026-09-30-trump-ai-executives-self-policing-accord",
+        "title": {
+          "cs": "Trump a šéfové AI firem podepsali dohodu o sebekontrole",
+          "en": "Trump and AI company chiefs sign a self-policing accord"
+        }
+      }
+    },
+    {
+      "id": "2026-10-05-google-pauses-open-source-bug-bounty-ai-spam",
+      "kind": "news",
+      "category": "tools",
+      "verified": false,
+      "eventDate": "2026-10-01",
+      "title": {
+        "cs": "Google kvůli AI spamu pozastavil bug bounty program",
+        "en": "Google pauses bug bounty program over AI spam"
+      },
+      "summary": {
+        "cs": "Google od 1. října pozastavilo příjem hlášení o chybách produktů ve svém programu pro open-source software — důvodem je prudký nárůst automatizovaných hlášení, z nichž drtivá většina je neplatná. Umělá inteligence dnes dokáže z libovolného repozitáře během minut vygenerovat přesvědčivě vyhlížející, ale nefunkční hlášení o zranitelnosti. Aktualizaci slibuje na první čtvrtletí 2027.",
+        "en": "Google paused accepting product vulnerability reports in its open-source bug bounty program starting October 1 — citing a sharp rise in automated submissions, the vast majority invalid. AI can now point at any repository and generate a convincing-looking but non-functional vulnerability report within minutes. Google promises an update by the first quarter of 2027."
+      },
+      "why": {
+        "cs": "Ukazuje to, jak AI vygenerovaný „slop“ zahlcuje i dobře zavedené bezpečnostní procesy — pokud chceš hlásit chybu v open-source projektu Googlu, mezitím zkus jiný bug bounty program.",
+        "en": "It shows how AI-generated 'slop' is overwhelming even well-established security processes — if you want to report a bug in a Google open-source project, try a different bounty program meanwhile."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-05-tip-ollama-clef-decision-models",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-02",
+      "title": {
+        "cs": "Ollama přidal Cloudflare rozhodovací modely Clef",
+        "en": "Ollama adds Cloudflare's Clef decision models"
+      },
+      "summary": {
+        "cs": "Ollama 2. října ve verzi 0.35.1 přidala podporu pro Clef a Clef Flash, nové rozhodovací modely od Cloudflare dostupné přes /v1/systemone — na rozdíl od dřívějších modelů umí rozhodovat i podle obrázků, ne jen textu. Větší Clef (27B) vede žebříček Cloudflare Decision Index, menší Clef Flash (9B) je asi pětkrát rychlejší.",
+        "en": "Ollama 0.35.1, released October 2, adds support for Clef and Clef Flash, new decision models from Cloudflare available through /v1/systemone — unlike earlier models, they can decide based on images, not just text. The larger Clef (27B) tops Cloudflare's Decision Index leaderboard; the smaller Clef Flash (9B) is roughly five times faster."
+      },
+      "why": {
+        "cs": "Hodí se, když tvůj lokální agent potřebuje rozhodovat i podle obrázků, ne jen textu — zapoj ho stejně jako předchozí rozhodovací modely přes /v1/systemone.",
+        "en": "Useful when your local agent needs to decide based on images, not just text — plug it in the same way as earlier decision models, through /v1/systemone."
+      },
+      "sources": [
+        {
+          "name": "Ollama",
+          "url": "https://ollama.com/library/clef"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-10-02",
+        "id": "2026-10-02-aws-strands-decider-2b-open-decision-model",
+        "title": {
+          "cs": "AWS vydal otevřený rozhodovací model Strands Decider 2B",
+          "en": "AWS releases open decision model Strands Decider 2B"
+        }
+      }
+    },
+    {
+      "id": "2026-10-05-tip-perplexity-automations-scheduled-tasks",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-29",
+      "title": {
+        "cs": "Perplexity Computer umí teď úkoly podle rozvrhu",
+        "en": "Perplexity Computer can now run tasks on schedule"
+      },
+      "summary": {
+        "cs": "Perplexity 29. září spustilo v Computeru Automations — úkoly teď můžeš naplánovat na pravidelný čas nebo spustit podle události ve Slacku, Gmailu, Outlooku, Linearu nebo GitHubu, a každý další běh staví na výsledcích toho předchozího. Hodí se na opakující se práci, co dřív musel člověk pokaždé zadávat ručně.",
+        "en": "Perplexity launched Automations in Computer on September 29 — you can now schedule a task for a regular time or trigger it from an event in Slack, Gmail, Outlook, Linear, or GitHub, with each run building on the previous one's results. Handy for recurring work you used to kick off by hand each time."
+      },
+      "why": {
+        "cs": "Nastav si opakovaný úkol v nabídce Computeru, třeba na sledování Slack kanálu nebo GitHub repozitáře — dřív jsi musel psát stejný prompt pokaždé znovu.",
+        "en": "Set up a recurring task in Computer's menu, like watching a Slack channel or GitHub repo — you used to have to type the same prompt every time."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/en-GB/hub/blog/computer-adds-automations-for-ongoing-work"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-05-tip-google-vids-gemini-3-8-tts-voiceover",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-29",
+      "title": {
+        "cs": "Google Vids dostal přirozenější AI namluvení Gemini 3.8",
+        "en": "Google Vids gets more natural Gemini 3.8 voiceovers"
+      },
+      "summary": {
+        "cs": "Google 29. září vylepšilo namluvení ve Vids na model Gemini 3.8 Flash Lite TTS — zní přirozeněji, s plynulejším tempem a menším robotickým nádechem, generování je navíc rychlejší, takže skript můžeš rovnou zkoušet nahlas. Funguje ve víc než 100 jazycích a dorazilo rovnou na firemní, školní i osobní plány Google AI Pro a Ultra.",
+        "en": "Google upgraded Vids' voiceover engine to the Gemini 3.8 Flash Lite TTS model on September 29 — it sounds more natural with smoother pacing, and generation is faster, so you can preview a script read aloud quickly. It works in 100+ languages, on business, education, and personal Google AI Pro and Ultra plans."
+      },
+      "why": {
+        "cs": "Vyzkoušej to přímo v Google Vids při psaní skriptu — hodí se na firemní videa i školní prezentace, kde chceš namluvení, co nezní jako robot.",
+        "en": "Try it right in Google Vids while writing your script — handy for company videos or class presentations where you want narration that doesn't sound robotic."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/create-more-natural-expressive-ai-voiceovers-in-Google-Vids-with-upgraded-Gemini-3.8-Flash-Lite-TTS.html"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-05",
+      "title": {
+        "cs": "Šéfové OpenAI, Anthropicu, Googlu a Mety svědčí v newyorské radnici",
+        "en": "OpenAI, Anthropic, Google, Meta testify before NYC Council"
+      },
+      "note": {
+        "cs": "Newyorská městská rada 5. října vyslechne pod přísahou zástupce čtyř firem o rizicích AI — SpaceXAI na výzvu nereagovala, a tak dostala předvolání.",
+        "en": "New York's City Council hears sworn testimony from four companies on AI risks on October 5 — SpaceXAI didn't respond to the request and was subpoenaed instead."
+      },
+      "sources": [
+        {
+          "name": "council.nyc.gov",
+          "url": "https://council.nyc.gov/press/2026/09/28/3266/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-06",
+      "title": {
+        "cs": "Nové úkoly Claude Cowork poběží jen v cloudu",
+        "en": "New Claude Cowork tasks will run only in the cloud"
+      },
+      "note": {
+        "cs": "Od 6. října nové úkoly Cowork na plánech Pro a Max poběží v cloudu — možnost „jen v počítači“ v nastavení zmizí, rozjeté úkoly na počítači doběhnou.",
+        "en": "Starting October 6, new Cowork tasks on Pro and Max plans run in the cloud — the 'only on your computer' setting disappears, and tasks already running there keep going."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}
