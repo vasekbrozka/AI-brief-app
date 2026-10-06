@@ -3346,6 +3346,94 @@
       ],
       "added": "2026-10-05",
       "used": "2026-10-05"
+    },
+    {
+      "slug": "tip-gemini-skills-workspace-rollout",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "Skills z Gemini appky dorazily i do Workspace",
+        "en": "Gemini's Skills now reach Workspace apps too"
+      },
+      "summary": {
+        "cs": "Google od 5. října postupně spouští Skills i ve Workspace (Gmail, Dokumenty, Tabulky) pro firemní a školní účty — dřív fungovaly jen v appce Gemini pro osobní účty. Skills nahradí Gems, co se přesune do Nastavení v listopadu a úplně skončí v roce 2027.",
+        "en": "Google began rolling out Skills to Workspace (Gmail, Docs, Sheets) for business and education accounts on October 5 — until now they only worked in the personal Gemini app. Skills replace Gems, which move to Settings in November and retire fully in 2027."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html"
+        }
+      ],
+      "added": "2026-10-06",
+      "used": "2026-10-06"
+    },
+    {
+      "slug": "tip-github-copilot-computer-use-desktop",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "title": {
+        "cs": "GitHub Copilot teď umí ovládat desktopové aplikace",
+        "en": "GitHub Copilot can now control desktop apps"
+      },
+      "summary": {
+        "cs": "GitHub od 1. října přidal do Copilota počítačové ovládání (computer use) — agent si sám otevře desktopové aplikace, klikne, napíše text a dělá snímky obrazovky, aby dokončil úkol i mimo editor a terminál.",
+        "en": "GitHub added computer use to Copilot on October 1 — the agent can open desktop apps on its own, click, type text, and take screenshots to finish a task beyond just the editor and terminal."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases/"
+        }
+      ],
+      "added": "2026-10-06",
+      "used": "2026-10-06"
+    },
+    {
+      "slug": "tip-perplexity-computer-video-generation",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": true,
+      "title": {
+        "cs": "Perplexity Computer teď vytvoří hotové video",
+        "en": "Perplexity Computer can now generate finished video"
+      },
+      "summary": {
+        "cs": "Perplexity Computer od 22. září pro Pro a Max umí přímo ve vlákně vygenerovat hotový videoklip se zvukem — Seedance 2.5 zvládne až 30 vteřin na jeden zátah, MiniMax H3 kratší klipy v 2K s prostorovým zvukem.",
+        "en": "Perplexity Computer has let Pro and Max subscribers generate a finished video clip with sound right in the thread since September 22 — Seedance 2.5 handles up to 30 seconds in one pass, MiniMax H3 shorter clips in 2K with stereo sound."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog"
+        }
+      ],
+      "added": "2026-10-06",
+      "used": "2026-10-06"
+    },
+    {
+      "slug": "tip-android-studio-quail-4-gemma-local",
+      "category": "tools",
+      "theme": "local",
+      "verified": true,
+      "title": {
+        "cs": "Android Studio umí psát kód i s lokální Gemmou",
+        "en": "Android Studio can now code with local Gemma"
+      },
+      "summary": {
+        "cs": "Google 1. září vydalo Android Studio Quail 4 ve stabilní verzi — IDE teď umí využívat model Gemma 4 lokálně, sleduje únik paměti pětkrát rychleji díky LeakCanary Profiling s AI opravami a nabízí zjednodušený plánovací režim i tržiště MCP serverů přímo v appce.",
+        "en": "Google released Android Studio Quail 4 to stable on September 1 — the IDE can now run the Gemma 4 model locally, traces memory leaks five times faster with AI-powered LeakCanary Profiling fixes, and adds a simplified planning mode plus an in-IDE MCP server marketplace."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://android-developers.googleblog.com/2026/09/leverage-gemma-4-android-studio-quail.html"
+        }
+      ],
+      "added": "2026-10-06",
+      "used": "2026-10-06"
     }
   ]
 }

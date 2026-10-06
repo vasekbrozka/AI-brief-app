@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-06",
   "terms": [
     {
       "id": "misalignment",
@@ -464,6 +464,22 @@
       "short": {
         "cs": "Když se výstupy nebo uvažování jednoho AI modelu použijí k natrénování jiného, levnějšího modelu — ten tak zkopíruje schopnosti originálu bez nutnosti investovat do vlastního výzkumu.",
         "en": "Using one AI model's outputs or reasoning to train another, cheaper model — copying the original's capabilities without the cost of researching them from scratch."
+      }
+    },
+    {
+      "id": "computer-use",
+      "term": {
+        "cs": "Ovládání počítače (computer use)",
+        "en": "Computer use"
+      },
+      "aliases": [
+        "computer use",
+        "ovládání počítače",
+        "počítačové ovládání"
+      ],
+      "short": {
+        "cs": "Schopnost AI agenta ovládat aplikace jako člověk — klikat, psát, číst obrazovku a dělat snímky — místo volání přesně definovaných funkcí. Umí to například Claude, GitHub Copilot nebo Cursor.",
+        "en": "An AI agent's ability to operate apps the way a person would — clicking, typing, reading the screen, taking screenshots — instead of calling predefined functions. Claude, GitHub Copilot and Cursor can all do it."
       }
     }
   ]

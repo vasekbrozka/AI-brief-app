@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-06",
+  "sample": false,
+  "headline": {
+    "cs": "Šéfové AI firem svědčili v New Yorku o rizicích",
+    "en": "AI company leaders testified in New York on risks"
+  },
+  "items": [
+    {
+      "id": "2026-10-06-nyc-council-ai-hearing-testimony",
+      "kind": "news",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-05",
+      "title": {
+        "cs": "Šéfové AI firem svědčili před radou New Yorku",
+        "en": "AI leaders testify before New York City Council"
+      },
+      "summary": {
+        "cs": "Newyorská městská rada 5. října poprvé vyslechla pod přísahou zástupce Anthropicu, OpenAI, Googlu a Mety k rizikům AI. Za firmy mluvili Logan Graham, Morgan Dwyer, Alice Friend a Shane Cahill. Předsedkyně Menin jim vytkla, že nedokážou ani odhadnout míru rizika. Elon Muskova SpaceXAI na předvolání nedorazila, radní ji chtějí žalovat.",
+        "en": "New York's City Council heard sworn testimony from Anthropic, OpenAI, Google and Meta on AI risks on October 5. Logan Graham, Morgan Dwyer, Alice Friend and Shane Cahill spoke for their companies. Speaker Menin called it troubling that none could quantify the risk. Elon Musk's SpaceXAI skipped its subpoenaed appearance; the Council plans to sue."
+      },
+      "why": {
+        "cs": "Jde o firmy za Claude, ChatGPT, Gemini i Muse — poprvé musely pod přísahou veřejně odpovídat, jak velké riziko jejich AI ve skutečnosti představuje.",
+        "en": "These are the companies behind Claude, ChatGPT, Gemini and Muse — for the first time, sworn to answer publicly just how risky their AI really is."
+      },
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/newyork/news/new-york-city-council-ai-oversight-hearing/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-claude-cowork-cloud-only-tasks",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-06",
+      "title": {
+        "cs": "Claude Cowork nově běží jen v cloudu",
+        "en": "Claude Cowork now runs only in the cloud"
+      },
+      "summary": {
+        "cs": "Anthropic od 6. října ruší v Coworku možnost „jen v počítači“ v Nastavení > Obecné — nové úkoly na plánech Pro a Max tak poběží vždy v cloudu. Úkoly, co uživatel spustil na svém počítači dřív, běží dál beze změny; cloud zůstává ve fázi beta.",
+        "en": "Anthropic is removing Cowork's 'Only on your computer' option from Settings > General on October 6 — new tasks on Pro and Max plans will now always run in the cloud. Tasks already started on your computer keep running there unchanged; cloud execution remains in beta."
+      },
+      "why": {
+        "cs": "Pokud spoléháš na „jen v počítači“ kvůli citlivým souborům, dnes zkontroluj Nastavení > Obecné — nové úkoly už tuhle volbu nenabídnou.",
+        "en": "If you rely on 'only on your computer' for sensitive files, check Settings > General today — new tasks won't offer that choice anymore."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-tip-gemini-skills-workspace-rollout",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-05",
+      "title": {
+        "cs": "Skills z Gemini appky dorazily i do Workspace",
+        "en": "Gemini's Skills now reach Workspace apps too"
+      },
+      "summary": {
+        "cs": "Google od 5. října postupně spouští Skills i ve Workspace (Gmail, Dokumenty, Tabulky) pro firemní a školní účty — dřív fungovaly jen v appce Gemini pro osobní účty. Skills nahradí Gems, co se přesune do Nastavení v listopadu a úplně skončí v roce 2027.",
+        "en": "Google began rolling out Skills to Workspace (Gmail, Docs, Sheets) for business and education accounts on October 5 — until now they only worked in the personal Gemini app. Skills replace Gems, which move to Settings in November and retire fully in 2027."
+      },
+      "why": {
+        "cs": "Pokud píšeš v Gmailu nebo Dokumentech pořád stejný typ textu, založ si Skill ve Workspace — nahradí starší Gems, co postupně mizí.",
+        "en": "If you keep writing the same kind of text in Gmail or Docs, set up a Skill in Workspace — it replaces the older Gems, which are on their way out."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-tip-github-copilot-computer-use-desktop",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-01",
+      "title": {
+        "cs": "GitHub Copilot teď umí ovládat desktopové aplikace",
+        "en": "GitHub Copilot can now control desktop apps"
+      },
+      "summary": {
+        "cs": "GitHub od 1. října přidal do Copilota počítačové ovládání (computer use) — agent si sám otevře desktopové aplikace, klikne, napíše text a dělá snímky obrazovky, aby dokončil úkol i mimo editor a terminál.",
+        "en": "GitHub added computer use to Copilot on October 1 — the agent can open desktop apps on its own, click, type text, and take screenshots to finish a task beyond just the editor and terminal."
+      },
+      "why": {
+        "cs": "Hodí se na úkoly, co potřebují i appku mimo editor — Copilot agent ji sám otevře a proklikne, bez tvého zásahu u každého kroku.",
+        "en": "Handy for tasks that need an app outside your editor — the Copilot agent opens and clicks through it on its own, without you stepping in at each move."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-tip-perplexity-computer-video-generation",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-22",
+      "title": {
+        "cs": "Perplexity Computer teď vytvoří hotové video",
+        "en": "Perplexity Computer can now generate finished video"
+      },
+      "summary": {
+        "cs": "Perplexity Computer od 22. září pro Pro a Max umí přímo ve vlákně vygenerovat hotový videoklip se zvukem — Seedance 2.5 zvládne až 30 vteřin na jeden zátah, MiniMax H3 kratší klipy v 2K s prostorovým zvukem.",
+        "en": "Perplexity Computer has let Pro and Max subscribers generate a finished video clip with sound right in the thread since September 22 — Seedance 2.5 handles up to 30 seconds in one pass, MiniMax H3 shorter clips in 2K with stereo sound."
+      },
+      "why": {
+        "cs": "Chceš krátké video s hudbou nebo mluveným slovem k výzkumu nebo prezentaci? Popiš ho v Computeru, nemusíš přepínat do jiné appky.",
+        "en": "Need a short video with sound for a research task or presentation? Describe it right inside Computer — no need to switch to another app."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-tip-android-studio-quail-4-gemma-local",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-01",
+      "title": {
+        "cs": "Android Studio umí psát kód i s lokální Gemmou",
+        "en": "Android Studio can now code with local Gemma"
+      },
+      "summary": {
+        "cs": "Google 1. září vydalo Android Studio Quail 4 ve stabilní verzi — IDE teď umí využívat model Gemma 4 lokálně, sleduje únik paměti pětkrát rychleji díky LeakCanary Profiling s AI opravami a nabízí zjednodušený plánovací režim i tržiště MCP serverů přímo v appce.",
+        "en": "Google released Android Studio Quail 4 to stable on September 1 — the IDE can now run the Gemma 4 model locally, traces memory leaks five times faster with AI-powered LeakCanary Profiling fixes, and adds a simplified planning mode plus an in-IDE MCP server marketplace."
+      },
+      "why": {
+        "cs": "Vyvíjíš pro Android a nechceš kód odesílat mimo počítač? Zkus Gemmu 4 lokálně v Android Studiu, nebo si z tržiště přidej hotový MCP server.",
+        "en": "Building for Android and don't want your code leaving the machine? Try Gemma 4 locally in Android Studio, or grab a ready-made MCP server from the marketplace."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://android-developers.googleblog.com/2026/09/leverage-gemma-4-android-studio-quail.html"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "Skills dorazí i do osobní appky Gemini",
+        "en": "Skills arrive in the personal Gemini app"
+      },
+      "note": {
+        "cs": "Google 13. října spustí Skills i v appce Gemini pro osobní účty — zatím jsou jen ve Workspace; nahradí Gems, co se do nastavení přesunou v listopadu.",
+        "en": "Google brings Skills to the personal Gemini app on October 13 — so far it's Workspace-only; Skills replace Gems, which move into Settings in November."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

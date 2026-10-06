@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-05T03:50:00Z",
+  "updated": "2026-10-06T03:55:00Z",
   "briefs": [
+    {
+      "date": "2026-10-06",
+      "headline": {
+        "cs": "Šéfové AI firem svědčili v New Yorku o rizicích",
+        "en": "AI company leaders testified in New York on risks"
+      },
+      "itemCount": 6
+    },
     {
       "date": "2026-10-05",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "OpenAI spustilo levnější modely GPT-6 Sol a Luna",
         "en": "OpenAI launches cheaper GPT-6 Sol and Luna models"
-      },
-      "itemCount": 10
-    },
-    {
-      "date": "2026-09-22",
-      "headline": {
-        "cs": "OpenAI navrhlo globální standardy pro bezpečnost AI a RSI",
-        "en": "OpenAI proposes global safety standards for AI and RSI"
       },
       "itemCount": 10
     }

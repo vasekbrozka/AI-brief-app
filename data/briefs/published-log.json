@@ -1314,7 +1314,37 @@
       "slug": "2026-10-05-tip-google-vids-gemini-3-8-tts-voiceover",
       "date": "2026-10-05",
       "topic": "tip: Google Vids dostal přirozenější AI namluvení Gemini 3.8"
+    },
+    {
+      "slug": "2026-10-06-nyc-council-ai-hearing-testimony",
+      "date": "2026-10-06",
+      "topic": "Šéfové AI firem svědčili před radou New Yorku"
+    },
+    {
+      "slug": "2026-10-06-claude-cowork-cloud-only-tasks",
+      "date": "2026-10-06",
+      "topic": "Claude Cowork nově běží jen v cloudu"
+    },
+    {
+      "slug": "2026-10-06-tip-gemini-skills-workspace-rollout",
+      "date": "2026-10-06",
+      "topic": "tip: Skills z Gemini appky dorazily i do Workspace"
+    },
+    {
+      "slug": "2026-10-06-tip-github-copilot-computer-use-desktop",
+      "date": "2026-10-06",
+      "topic": "tip: GitHub Copilot teď umí ovládat desktopové aplikace"
+    },
+    {
+      "slug": "2026-10-06-tip-perplexity-computer-video-generation",
+      "date": "2026-10-06",
+      "topic": "tip: Perplexity Computer teď vytvoří hotové video"
+    },
+    {
+      "slug": "2026-10-06-tip-android-studio-quail-4-gemma-local",
+      "date": "2026-10-06",
+      "topic": "tip: Android Studio umí psát kód i s lokální Gemmou"
     }
   ],
-  "updated": "2026-10-05T03:50:00Z"
+  "updated": "2026-10-06T03:55:00Z"
 }
