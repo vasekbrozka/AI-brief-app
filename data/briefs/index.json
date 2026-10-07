@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-06T03:55:00Z",
+  "updated": "2026-10-07T03:55:00Z",
   "briefs": [
+    {
+      "date": "2026-10-07",
+      "headline": {
+        "cs": "Mistral vydal bilionový model Le Chonk, míří na Čínu",
+        "en": "Mistral's trillion-parameter Le Chonk targets Chinese rivals"
+      },
+      "itemCount": 8
+    },
     {
       "date": "2026-10-06",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Meta na Connectu vsadila vše na AI agentku Muse",
         "en": "Meta bets big on AI agent Muse at Connect"
-      },
-      "itemCount": 10
-    },
-    {
-      "date": "2026-09-23",
-      "headline": {
-        "cs": "OpenAI spustilo levnější modely GPT-6 Sol a Luna",
-        "en": "OpenAI launches cheaper GPT-6 Sol and Luna models"
       },
       "itemCount": 10
     }

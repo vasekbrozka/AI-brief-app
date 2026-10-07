@@ -3434,6 +3434,72 @@
       ],
       "added": "2026-10-06",
       "used": "2026-10-06"
+    },
+    {
+      "slug": "tip-chatgpt-multi-page-scan-pdf",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT spojí víc vyfocených stránek do jednoho PDF",
+        "en": "ChatGPT now merges scanned pages into one PDF"
+      },
+      "summary": {
+        "cs": "OpenAI od 1. října na iOS usnadnilo vkládání poznámek a dokumentů do ChatGPT — appka teď umí vyfotit víc stránek po sobě a sama je spojí do jednoho PDF, hned připraveného nahrát do konverzace. Dřív jsi musel skenovat a nahrávat každou stránku zvlášť.",
+        "en": "OpenAI made it easier to bring notes and documents into ChatGPT on iOS starting October 1 — the app can now capture several pages in a row and automatically combines them into one PDF, ready to upload to your chat. Before, you had to scan and upload each page separately."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "added": "2026-10-07",
+      "used": "2026-10-07"
+    },
+    {
+      "slug": "tip-legato-ai-hearing-glasses",
+      "category": "tools",
+      "theme": "other",
+      "verified": false,
+      "title": {
+        "cs": "AI brýle Legato pomáhají slyšet řeč v hluku",
+        "en": "Legato's AI glasses help you hear speech in noise"
+      },
+      "summary": {
+        "cs": "Startup Legato od 1. října v USA prodává brýle s AI systémem SpeechSense, co oddělí řeč od hluku v okolí a párem reproduktorů ji namíří jen k tvému uchu — o 99 % tišeji už pár centimetrů dál. Cena od 999 dolarů, hodí se na mírnou až střední nedoslýchavost.",
+        "en": "Startup Legato has been selling AI-powered hearing glasses in the US since October 1 — its SpeechSense system separates speech from background noise and aims a speaker pair straight at your ear, cutting sound 99% just inches away. Priced from $999, for mild to moderate hearing loss."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/"
+        }
+      ],
+      "added": "2026-10-07",
+      "used": "2026-10-07"
+    },
+    {
+      "slug": "tip-chatgpt-pro-500-ultrafast",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT Pro 500 dává přístup k nejrychlejšímu modelu",
+        "en": "ChatGPT Pro 500 unlocks the fastest model access"
+      },
+      "summary": {
+        "cs": "OpenAI 29. září na DevDay spustilo Pro 500 — nový plán ChatGPT za 500 dolarů měsíčně s 25násobným limitem oproti Plus a jako jediný s přístupem k Astra Ultrafast, nejrychlejší verzi GPT-6 Astra (až 8× rychlejší generování v Codexu). Pro 200 se zároveň vrátil mezi nové předplatné.",
+        "en": "OpenAI launched Pro 500 at DevDay on September 29 — a new $500-a-month ChatGPT plan with 25 times the Plus usage allowance, and the only plan with access to Astra Ultrafast, the fastest version of GPT-6 Astra (up to 8x faster generation in Codex). Pro 200 also returned for new sign-ups."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers"
+        }
+      ],
+      "added": "2026-10-07",
+      "used": "2026-10-07"
     }
   ]
 }

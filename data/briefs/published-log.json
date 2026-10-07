@@ -1344,7 +1344,47 @@
       "slug": "2026-10-06-tip-android-studio-quail-4-gemma-local",
       "date": "2026-10-06",
       "topic": "tip: Android Studio umí psát kód i s lokální Gemmou"
+    },
+    {
+      "slug": "2026-10-07-mistral-large-4-le-chonk-trillion-model",
+      "date": "2026-10-07",
+      "topic": "Mistral vydal bilionový model s přezdívkou Le Chonk"
+    },
+    {
+      "slug": "2026-10-07-reflection-ai-beam-open-weight-model",
+      "date": "2026-10-07",
+      "topic": "Reflection AI odhalila otevřený model Beam"
+    },
+    {
+      "slug": "2026-10-07-openai-chatgpt-visual-ads-image-generation",
+      "date": "2026-10-07",
+      "topic": "ChatGPT začal testovat reklamy při generování obrázků"
+    },
+    {
+      "slug": "2026-10-07-openai-eu-text-watermarking",
+      "date": "2026-10-07",
+      "topic": "OpenAI začne v EU značkovat text z ChatGPT"
+    },
+    {
+      "slug": "2026-10-07-gemini-omni-1-1-flash-vids-video-extension",
+      "date": "2026-10-07",
+      "topic": "Google Vids prodlouží AI video až na 40 vteřin"
+    },
+    {
+      "slug": "2026-10-07-tip-chatgpt-multi-page-scan-pdf",
+      "date": "2026-10-07",
+      "topic": "tip: ChatGPT spojí víc vyfocených stránek do jednoho PDF"
+    },
+    {
+      "slug": "2026-10-07-tip-legato-ai-hearing-glasses",
+      "date": "2026-10-07",
+      "topic": "tip: AI brýle Legato pomáhají slyšet řeč v hluku"
+    },
+    {
+      "slug": "2026-10-07-tip-chatgpt-pro-500-ultrafast",
+      "date": "2026-10-07",
+      "topic": "tip: ChatGPT Pro 500 dává přístup k nejrychlejšímu modelu"
     }
   ],
-  "updated": "2026-10-06T03:55:00Z"
+  "updated": "2026-10-07T03:55:00Z"
 }

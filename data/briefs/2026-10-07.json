@@ -1,0 +1,315 @@
+{
+  "date": "2026-10-07",
+  "sample": false,
+  "headline": {
+    "cs": "Mistral vydal bilionový model Le Chonk, míří na Čínu",
+    "en": "Mistral's trillion-parameter Le Chonk targets Chinese rivals"
+  },
+  "items": [
+    {
+      "id": "2026-10-07-mistral-large-4-le-chonk-trillion-model",
+      "kind": "news",
+      "category": "models",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-06",
+      "title": {
+        "cs": "Mistral vydal bilionový model s přezdívkou Le Chonk",
+        "en": "Mistral unveils trillion-parameter model nicknamed Le Chonk"
+      },
+      "summary": {
+        "cs": "Mistral 6. října představil Mistral Large 4 (přezdívaný Le Chonk) — multimodální model s 1 bilionem parametrů, z toho 49 miliard aktivních. Mezi otevřenými modely vede v kybernetické bezpečnosti, financích i výrobě a v kódování předčí DeepSeek V4 Pro i Qwen3.8 Max. Váhy má Mistral zveřejnit za tři týdny po dokončení bezpečnostních testů.",
+        "en": "Mistral unveiled Mistral Large 4, nicknamed Le Chonk, on October 6 — a multimodal model with 1 trillion parameters, 49 billion active. Among open models it leads on cybersecurity, finance and manufacturing, and beats DeepSeek V4 Pro and Qwen3.8 Max on coding. Weights arrive in three weeks, once safety testing wraps up."
+      },
+      "why": {
+        "cs": "Zatím běží jen přes omezené API, ale za tři týdny budou váhy volně ke stažení — bude to nejsilnější otevřený model, co si spustíš sám.",
+        "en": "It only runs through a limited API for now, but the weights go fully open in three weeks — the strongest open model you'll be able to run yourself."
+      },
+      "sources": [
+        {
+          "name": "Mistral",
+          "url": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-reflection-ai-beam-open-weight-model",
+      "kind": "news",
+      "category": "opensource",
+      "verified": false,
+      "eventDate": "2026-10-05",
+      "title": {
+        "cs": "Reflection AI odhalila otevřený model Beam",
+        "en": "Reflection AI unveils open-weight model Beam"
+      },
+      "summary": {
+        "cs": "Reflection AI 5. října odhalila Beam — otevřený model s 501 miliardami parametrů (23 miliard aktivních), trénovaný na 23,8 bilionu tokenů s milionovým kontextovým oknem. Firma tvrdí, že se vyrovná čínskému GLM-5.2 při 3-4× menší výpočetní zátěži; váhy a technické detaily slibuje zveřejnit ještě v říjnu.",
+        "en": "Reflection AI unveiled Beam on October 5 — an open-weight model with 501 billion parameters (23 billion active), trained on 23.8 trillion tokens with a 1-million-token context window. The company claims it matches China's GLM-5.2 while using 3-4x less inference compute; weights and technical details are promised later this month."
+      },
+      "why": {
+        "cs": "Čínské modely teď ve výkonu dotahuje i menší otevřený hráč — zatím ale jde jen o neověřená tvrzení firmy, čekej na vlastní test po zveřejnění vah.",
+        "en": "A smaller open player now claims to rival Chinese models on performance — though that's the company's own unverified claim, so wait for independent tests once the weights ship."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-openai-chatgpt-visual-ads-image-generation",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-05",
+      "title": {
+        "cs": "ChatGPT začal testovat reklamy při generování obrázků",
+        "en": "ChatGPT starts testing ads during image generation"
+      },
+      "summary": {
+        "cs": "OpenAI od 5. října v USA testuje v ChatGPT nový formát reklam — objeví se při generování obrázků u uživatelů na plánech Free a Go, jasně označené a oddělené od samotného obrázku. Reklama podle OpenAI neovlivňuje odpovědi ani výsledný obrázek; placení uživatelé Plus a vyšší reklamy nevidí.",
+        "en": "OpenAI began testing a new ad format in ChatGPT in the US on October 5 — it appears during image generation for users on the Free and Go plans, clearly labeled and kept separate from the image itself. OpenAI says ads don't influence answers or the resulting image; paying Plus-and-up users don't see them."
+      },
+      "why": {
+        "cs": "Používáš ChatGPT zadarmo na generování obrázků? Čekej reklamu přímo v appce — nechceš ji vidět, řeší to přechod na Plus za 20 dolarů měsíčně.",
+        "en": "Using ChatGPT's free image generation? Expect an ad right in the app — if you'd rather not see it, upgrading to the $20/month Plus plan skips it."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/05/openai-to-flood-your-eyeballs-with-visual-ads/5301152"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-openai-eu-text-watermarking",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-10-05",
+      "title": {
+        "cs": "OpenAI začne v EU značkovat text z ChatGPT",
+        "en": "OpenAI to watermark ChatGPT text in the EU"
+      },
+      "summary": {
+        "cs": "OpenAI v příštích týdnech nasadí u ChatGPT a Codexu v EU neviditelné vodoznaky textu (technologie textGrain) — reakce na pravidla EU AI Aktu o průhlednosti platná od 2. srpna. Značka jemně upravuje výběr slov a jde zjistit i po menších úpravách textu; krátké texty pod 200 tokeny ani kód se značit nemusí.",
+        "en": "OpenAI will roll out invisible text watermarking (its textGrain method) for ChatGPT and Codex in the EU over the coming weeks — a response to EU AI Act transparency rules in force since August 2. The mark subtly shapes word choices and survives light editing; texts under 200 tokens and code snippets are exempt."
+      },
+      "why": {
+        "cs": "Používáš ChatGPT nebo Codex v Evropě? Delší texty od appky teď půjde rozpoznat detektorem, i když je trochu upravíš — krátké odpovědi a kód ne.",
+        "en": "In Europe and using ChatGPT or Codex? Longer outputs will now be detectable as AI-written, even after light edits — short replies and code are left out."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/eu-text-provenance/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-gemini-omni-1-1-flash-vids-video-extension",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Google Vids prodlouží AI video až na 40 vteřin",
+        "en": "Google Vids extends AI video up to 40 seconds"
+      },
+      "summary": {
+        "cs": "Google 23. září nasadilo do Vids model Gemini Omni 1.1 Flash — prodlužuje scénu v krocích po 10 vteřinách až na 40 vteřin celkem a udrží konzistentní postavy, světlo i prostředí. Nově lze generovat i rovnou v plném 1080p nebo takto upscalovat starší klip.",
+        "en": "Google added the Gemini Omni 1.1 Flash model to Vids on September 23 — it extends a scene in 10-second increments up to 40 seconds total while keeping characters, lighting and setting consistent. You can now also generate video straight in full 1080p, or upscale an older clip to it."
+      },
+      "why": {
+        "cs": "Vyzkoušej to přímo v Google Vids při střihu AI videa — hodí se, když chceš delší scénu beze švu nebo starý klip rovnou v lepším rozlišení.",
+        "en": "Try it right in Google Vids while editing AI video — handy when you want a longer, seamless scene or an old clip bumped straight up to better resolution."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/gemini-omni-11-flash-now-in-vids-with-improved-extension-quality-1080p-and-duration-control.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-tip-chatgpt-multi-page-scan-pdf",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-01",
+      "title": {
+        "cs": "ChatGPT spojí víc vyfocených stránek do jednoho PDF",
+        "en": "ChatGPT now merges scanned pages into one PDF"
+      },
+      "summary": {
+        "cs": "OpenAI od 1. října na iOS usnadnilo vkládání poznámek a dokumentů do ChatGPT — appka teď umí vyfotit víc stránek po sobě a sama je spojí do jednoho PDF, hned připraveného nahrát do konverzace. Dřív jsi musel skenovat a nahrávat každou stránku zvlášť.",
+        "en": "OpenAI made it easier to bring notes and documents into ChatGPT on iOS starting October 1 — the app can now capture several pages in a row and automatically combines them into one PDF, ready to upload to your chat. Before, you had to scan and upload each page separately."
+      },
+      "why": {
+        "cs": "Hodí se na vícestránkové poznámky nebo dokumenty — na iPhonu appku otevři, vyfoť stránky popořadě a ChatGPT z nich rovnou udělá jedno PDF.",
+        "en": "Handy for multi-page notes or documents — open the app on your iPhone, photograph the pages in order, and ChatGPT turns them straight into one PDF."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-tip-legato-ai-hearing-glasses",
+      "kind": "tip",
+      "category": "tools",
+      "verified": false,
+      "eventDate": "2026-10-01",
+      "title": {
+        "cs": "AI brýle Legato pomáhají slyšet řeč v hluku",
+        "en": "Legato's AI glasses help you hear speech in noise"
+      },
+      "summary": {
+        "cs": "Startup Legato od 1. října v USA prodává brýle s AI systémem SpeechSense, co oddělí řeč od hluku v okolí a párem reproduktorů ji namíří jen k tvému uchu — o 99 % tišeji už pár centimetrů dál. Cena od 999 dolarů, hodí se na mírnou až střední nedoslýchavost.",
+        "en": "Startup Legato has been selling AI-powered hearing glasses in the US since October 1 — its SpeechSense system separates speech from background noise and aims a speaker pair straight at your ear, cutting sound 99% just inches away. Priced from $999, for mild to moderate hearing loss."
+      },
+      "why": {
+        "cs": "Na rozdíl od klasických naslouchátek nejde o lékařský předpis — objednáš online nebo u vybraného očního specialisty, cenu může krýt i zrakové pojištění.",
+        "en": "Unlike traditional hearing aids, no prescription is needed — order online or through a participating eye-care provider, and vision insurance may even cover the cost."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-tip-chatgpt-pro-500-ultrafast",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-29",
+      "title": {
+        "cs": "ChatGPT Pro 500 dává přístup k nejrychlejšímu modelu",
+        "en": "ChatGPT Pro 500 unlocks the fastest model access"
+      },
+      "summary": {
+        "cs": "OpenAI 29. září na DevDay spustilo Pro 500 — nový plán ChatGPT za 500 dolarů měsíčně s 25násobným limitem oproti Plus a jako jediný s přístupem k Astra Ultrafast, nejrychlejší verzi GPT-6 Astra (až 8× rychlejší generování v Codexu). Pro 200 se zároveň vrátil mezi nové předplatné.",
+        "en": "OpenAI launched Pro 500 at DevDay on September 29 — a new $500-a-month ChatGPT plan with 25 times the Plus usage allowance, and the only plan with access to Astra Ultrafast, the fastest version of GPT-6 Astra (up to 8x faster generation in Codex). Pro 200 also returned for new sign-ups."
+      },
+      "why": {
+        "cs": "Pro běžné použití je to přehnané, ale pro náročné programování s Codexem jde o jediný způsob, jak dostat Astru v nejrychlejším režimu Ultrafast.",
+        "en": "Overkill for everyday use, but for heavy Codex work it's the only way to get Astra running in its fastest Ultrafast mode."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "Skills dorazí i do osobní appky Gemini",
+        "en": "Skills arrive in the personal Gemini app"
+      },
+      "note": {
+        "cs": "Google 13. října spustí Skills i v appce Gemini pro osobní účty — zatím jsou jen ve Workspace; nahradí Gems, co se do nastavení přesunou v listopadu.",
+        "en": "Google brings Skills to the personal Gemini app on October 13 — so far it's Workspace-only; Skills replace Gems, which move into Settings in November."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}
