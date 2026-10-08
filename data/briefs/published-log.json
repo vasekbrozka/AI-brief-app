@@ -1384,7 +1384,47 @@
       "slug": "2026-10-07-tip-chatgpt-pro-500-ultrafast",
       "date": "2026-10-07",
       "topic": "tip: ChatGPT Pro 500 dává přístup k nejrychlejšímu modelu"
+    },
+    {
+      "slug": "2026-10-08-nvidia-microsoft-rtx-spark-surface-laptop-ultra",
+      "date": "2026-10-08",
+      "topic": "NVIDIA a Microsoft ukázaly notebook s čipem RTX Spark"
+    },
+    {
+      "slug": "2026-10-08-openai-chatgpt-intelligent-ui",
+      "date": "2026-10-08",
+      "topic": "ChatGPT teď odpovídá i interaktivní grafikou"
+    },
+    {
+      "slug": "2026-10-08-google-synthid-detector-public-launch",
+      "date": "2026-10-08",
+      "topic": "Google otevřel všem detektor AI obsahu SynthID"
+    },
+    {
+      "slug": "2026-10-08-gemini-nano-banana-2-1-ga",
+      "date": "2026-10-08",
+      "topic": "Google vydal novou verzi obrázkového modelu Nano Banana"
+    },
+    {
+      "slug": "2026-10-08-claude-haiku-5-5-launch",
+      "date": "2026-10-08",
+      "topic": "Anthropic vydal nejlevnější model Claude Haiku 5.5"
+    },
+    {
+      "slug": "2026-10-08-tip-claude-max-team-monthly-api-credits",
+      "date": "2026-10-08",
+      "topic": "tip: Max a Team teď mají měsíční kredity na API"
+    },
+    {
+      "slug": "2026-10-08-tip-github-copilot-secret-detection",
+      "date": "2026-10-08",
+      "topic": "tip: Copilot teď hledá uniklá hesla i bez klasického formátu"
+    },
+    {
+      "slug": "2026-10-08-tip-perplexity-multimodal-embeddings",
+      "date": "2026-10-08",
+      "topic": "tip: Perplexity vydalo embeddingy, co hledají i v obrázcích"
     }
   ],
-  "updated": "2026-10-07T03:55:00Z"
+  "updated": "2026-10-08T03:55:00Z"
 }

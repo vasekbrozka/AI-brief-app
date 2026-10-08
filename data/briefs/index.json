@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-07T03:55:00Z",
+  "updated": "2026-10-08T03:55:00Z",
   "briefs": [
+    {
+      "date": "2026-10-08",
+      "headline": {
+        "cs": "NVIDIA a Microsoft ukázaly notebook s čipem RTX Spark",
+        "en": "NVIDIA and Microsoft unveil laptop with RTX Spark chip"
+      },
+      "itemCount": 8
+    },
     {
       "date": "2026-10-07",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Siri AI launches as a far smarter assistant"
       },
       "itemCount": 8
-    },
-    {
-      "date": "2026-09-24",
-      "headline": {
-        "cs": "Meta na Connectu vsadila vše na AI agentku Muse",
-        "en": "Meta bets big on AI agent Muse at Connect"
-      },
-      "itemCount": 10
     }
   ]
 }

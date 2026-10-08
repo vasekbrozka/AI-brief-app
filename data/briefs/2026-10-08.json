@@ -1,0 +1,325 @@
+{
+  "date": "2026-10-08",
+  "sample": false,
+  "headline": {
+    "cs": "NVIDIA a Microsoft ukázaly notebook s čipem RTX Spark",
+    "en": "NVIDIA and Microsoft unveil laptop with RTX Spark chip"
+  },
+  "items": [
+    {
+      "id": "2026-10-08-nvidia-microsoft-rtx-spark-surface-laptop-ultra",
+      "kind": "news",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-07",
+      "title": {
+        "cs": "NVIDIA a Microsoft ukázaly notebook s čipem RTX Spark",
+        "en": "NVIDIA and Microsoft unveil laptop with RTX Spark chip"
+      },
+      "summary": {
+        "cs": "NVIDIA a Microsoft 7. října představily Surface Laptop Ultra s novým čipem RTX Spark — Blackwell grafika a až 20jádrový CPU Grace dají 1 petaflop AI výkonu a až 128 GB sdílené paměti pro AI agenty přímo v počítači. Vlastní stroje chystají i Asus, Dell, HP, Lenovo a MSI; notebooky jsou dostupné od 16. října.",
+        "en": "NVIDIA and Microsoft unveiled the Surface Laptop Ultra on October 7, built around the RTX Spark chip — a Blackwell GPU and 20-core Grace CPU deliver 1 petaflop of AI compute and 128GB of memory for running AI agents on-device. Asus, Dell, HP, Lenovo and MSI are building laptops too, shipping October 16."
+      },
+      "why": {
+        "cs": "Poprvé budeš moct spustit skutečně výkonného AI agenta přímo v notebooku, bez cloudu a bez měsíčního předplatného — stačí koupit stroj s RTX Spark.",
+        "en": "For the first time you'll be able to run a genuinely capable AI agent right on your laptop, no cloud and no monthly subscription — just buy a machine with RTX Spark inside."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/"
+        },
+        {
+          "name": "Microsoft",
+          "url": "https://news.microsoft.com/source/emea/2026/10/building-windows-for-hybrid-intelligence/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08-openai-chatgpt-intelligent-ui",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-07",
+      "title": {
+        "cs": "ChatGPT teď odpovídá i interaktivní grafikou",
+        "en": "ChatGPT now answers with interactive visuals"
+      },
+      "summary": {
+        "cs": "OpenAI od 7. října s modelem GPT-6 spustilo Intelligent UI — ChatGPT teď do odpovědi sám vloží interaktivní grafiku: klikací tlačítka, upravitelné grafy nebo malou kalkulačku. Nejdřív dostaly přístup placené plány Plus, Pro, Business a Enterprise, od 8. října i zdarma plán a levnější Go.",
+        "en": "OpenAI rolled out Intelligent UI alongside GPT-6 on October 7 — ChatGPT now adds interactive visuals to its own replies, like tappable buttons, editable charts, or a small calculator. Plus, Pro, Business and Enterprise plans got access first; the free plan and cheaper Go followed on October 8."
+      },
+      "why": {
+        "cs": "Zkus to při psaní něčeho technického nebo při plánování — poprosíš o vysvětlení a ChatGPT místo textu rovnou nakreslí graf, mapu nebo kalkulátor.",
+        "en": "Try it next time you're planning something or need something technical explained — ask, and ChatGPT draws a chart, map or calculator instead of just writing it out."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/gpt-6-for-everyone/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08-google-synthid-detector-public-launch",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-06",
+      "title": {
+        "cs": "Google otevřel všem detektor AI obsahu SynthID",
+        "en": "Google opens its SynthID AI detector to everyone"
+      },
+      "summary": {
+        "cs": "Google 6. října otevřel nástroj SynthID Detector úplně všem — dřív ho směli zkoušet jen vybraní novináři a výzkumníci. Nahraješ obrázek, video nebo zvuk a zjistíš, jestli ho vytvořila AI od Googlu nebo partnerů jako OpenAI a NVIDIA. Stejná kontrola teď běží i v appce Gemini a v Chromu.",
+        "en": "Google opened SynthID Detector to everyone on October 6 — until now only select journalists and researchers could use it. Upload an image, video or audio file to check whether it was made by Google's AI or by partners like OpenAI and NVIDIA. The same check now also runs inside the Gemini app and Chrome."
+      },
+      "why": {
+        "cs": "Dostal jsi podezřelou fotku nebo video? Nahraj ho na synthid.com a zjisti, jestli za ním stojí AI — zdarma, bez registrace.",
+        "en": "Got a suspicious photo or video? Upload it at synthid.com and find out whether AI made it — free, no account needed."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08-gemini-nano-banana-2-1-ga",
+      "kind": "news",
+      "category": "models",
+      "verified": true,
+      "eventDate": "2026-10-06",
+      "title": {
+        "cs": "Google vydal novou verzi obrázkového modelu Nano Banana",
+        "en": "Google releases new Nano Banana image model version"
+      },
+      "summary": {
+        "cs": "Google 6. října zpřístupnilo Nano Banana 2.1 — vylepšenou verzi oblíbeného obrázkového modelu Nano Banana 2, se stejně rychlou a levnou úrovní Flash, ale lepší kvalitou, přesnějším dodržením zadání a čistším textem v obrázku. Starší model gemini-3.1-flash-image Google označil za zastaralý, zatím ale bez data vypnutí.",
+        "en": "Google made Nano Banana 2.1 available on October 6 — an upgraded version of its popular Nano Banana 2 image model, keeping the same fast, cheap Flash tier but improving quality, instruction-following, and cleaner text rendering inside images. Google has marked the older gemini-3.1-flash-image model deprecated, though with no shutdown date yet."
+      },
+      "why": {
+        "cs": "Používáš Nano Banana na úpravu nebo generování obrázků? Nová verze 2.1 dává přesnější výsledky i čistší text v obrázku za stejnou cenu.",
+        "en": "Using Nano Banana to edit or generate images? Version 2.1 gives sharper results and cleaner in-image text for the same price."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08-claude-haiku-5-5-launch",
+      "kind": "news",
+      "category": "models",
+      "verified": true,
+      "eventDate": "2026-10-07",
+      "title": {
+        "cs": "Anthropic vydal nejlevnější model Claude Haiku 5.5",
+        "en": "Anthropic releases its cheapest model, Claude Haiku 5.5"
+      },
+      "summary": {
+        "cs": "Anthropic 7. října vydal Claude Haiku 5.5 — nejlevnější a nejrychlejší model z rodiny 5.5, určený pro velké objemy jednoduchých úkolů. Doplňuje tak Opus 5.5 (22. září) a Sonnet 5.5 (28. září) na nejmenší pozici v nabídce. Model je dostupný přes API i cloudové platformy Bedrock, Google Cloud a Microsoft Foundry.",
+        "en": "Anthropic released Claude Haiku 5.5 on October 7 — the cheapest, fastest model in its 5.5 lineup, built for high-volume, simple tasks. It completes the family alongside Opus 5.5 (September 22) and Sonnet 5.5 (September 28). The model is available via the API and cloud platforms Bedrock, Google Cloud and Microsoft Foundry."
+      },
+      "why": {
+        "cs": "Hodí se, když potřebuješ rychlé a levné odpovědi ve velkém množství — přes API nebo aplikace, co Haiku používají jako výchozí levný model.",
+        "en": "Handy when you need fast, cheap answers at scale — through the API, or in apps that use Haiku as their default low-cost model."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08-tip-claude-max-team-monthly-api-credits",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-07",
+      "title": {
+        "cs": "Max a Team teď mají měsíční kredity na API",
+        "en": "Max and Team now get monthly API credits"
+      },
+      "summary": {
+        "cs": "Anthropic od 7. října dává předplatitelům Max a Team měsíční balík kreditů na API — využiješ je v Agent SDK, přes claude -p, v Claude API nebo v Managed Agents. Kredity se aktivují připojením Console organizace v nastavení fakturace; projeví se do pár dní.",
+        "en": "Starting October 7, Anthropic gives Max and Team subscribers a monthly batch of API credits — usable through the Agent SDK, claude -p, the Claude API, or Managed Agents. Activate them by linking a Console organization in your billing settings; the credits land within a few days."
+      },
+      "why": {
+        "cs": "Platíš Max nebo Team a zkoušíš i vlastní agenty nebo appky přes API? Zkontroluj nastavení fakturace — kredity navíc nemusíš platit zvlášť.",
+        "en": "Paying for Max or Team and experimenting with your own agents or apps via the API? Check your billing settings — these extra credits come at no added cost."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08-tip-github-copilot-secret-detection",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-07",
+      "title": {
+        "cs": "Copilot teď hledá uniklá hesla i bez klasického formátu",
+        "en": "Copilot now catches leaked secrets without a known format"
+      },
+      "summary": {
+        "cs": "GitHub od 7. října nasadilo do Copilota model specializovaný na odhalování uniklých přihlašovacích údajů — pozná podezřelé heslo i podle okolního kódu, i když nemá rozpoznatelný formát tokenu. Zatím pohání jen automatická upozornění; stejný model se chystá i do příkazu /security-review a do kontroly před odesláním kódu.",
+        "en": "GitHub rolled a purpose-built model into Copilot on October 7 to catch leaked credentials — it flags a suspicious password from the surrounding code even without a recognizable token format. For now it only powers automatic alerts; the same model is headed for the /security-review command and push-time checks."
+      },
+      "why": {
+        "cs": "Pokud ti v kódu někdy omylem skončí heslo nebo klíč, Copilot ho teď odhalí i bez typického formátu — kontrola běží automaticky na pozadí.",
+        "en": "If a password or key ever slips into your code by accident, Copilot now catches it even without the usual format — the check runs automatically in the background."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08-tip-perplexity-multimodal-embeddings",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-07",
+      "title": {
+        "cs": "Perplexity vydalo embeddingy, co hledají i v obrázcích",
+        "en": "Perplexity ships embeddings that search images too"
+      },
+      "summary": {
+        "cs": "Perplexity Research 7. října vydal novou řadu embeddingových modelů pplx-embed — umí hledat napříč textem i obrázky v jednom společném prostoru místo zvlášť pro každý typ obsahu. Modely jsou volně ke stažení na Hugging Face, hodí se pro vývojáře, co si staví vlastní vyhledávání nebo RAG systém.",
+        "en": "Perplexity Research released a new pplx-embed model family on October 7 — it searches across text and images in one shared space instead of handling each content type separately. The models are freely downloadable on Hugging Face, aimed at developers building their own search or RAG systems."
+      },
+      "why": {
+        "cs": "Stavíš si vlastní vyhledávání nebo RAG a chceš zahrnout i obrázky? Model je zdarma na Hugging Face, nemusíš platit za API.",
+        "en": "Building your own search or RAG and want images included too? The model is free on Hugging Face, so there's no API bill to run it."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/hub/blog/multimodal-embeddings-beyond-a-single-vector"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "Skills dorazí i do osobní appky Gemini",
+        "en": "Skills arrive in the personal Gemini app"
+      },
+      "note": {
+        "cs": "Google 13. října spustí Skills i v appce Gemini pro osobní účty — zatím jsou jen ve Workspace; nahradí Gems, co se do nastavení přesunou v listopadu.",
+        "en": "Google brings Skills to the personal Gemini app on October 13 — so far it's Workspace-only; Skills replace Gems, which move into Settings in November."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-20",
+      "title": {
+        "cs": "NVIDIA pořádá GTC Berlín, hlavní řeč má Jensen Huang",
+        "en": "NVIDIA hosts GTC Berlin, keynote by Jensen Huang"
+      },
+      "note": {
+        "cs": "Evropská konference NVIDIA o AI probíhá 20. až 22. října v Berlíně — hlavní řeč 21. října přednese Jensen Huang, čerstvě po spuštění RTX Spark s Microsoftem.",
+        "en": "NVIDIA's European AI conference runs October 20-22 in Berlin — Jensen Huang delivers the October 21 keynote, fresh off launching RTX Spark with Microsoft."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/en-eu/gtc/faq/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

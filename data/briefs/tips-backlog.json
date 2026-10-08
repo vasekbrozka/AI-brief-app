@@ -3500,6 +3500,72 @@
       ],
       "added": "2026-10-07",
       "used": "2026-10-07"
+    },
+    {
+      "slug": "tip-claude-max-team-monthly-api-credits",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "title": {
+        "cs": "Max a Team teď mají měsíční kredity na API",
+        "en": "Max and Team now get monthly API credits"
+      },
+      "summary": {
+        "cs": "Anthropic od 7. října dává předplatitelům Max a Team měsíční balík kreditů na API — využiješ je v Agent SDK, přes claude -p, v Claude API nebo v Managed Agents. Kredity se aktivují připojením Console organizace v nastavení fakturace; projeví se do pár dní.",
+        "en": "Starting October 7, Anthropic gives Max and Team subscribers a monthly batch of API credits — usable through the Agent SDK, claude -p, the Claude API, or Managed Agents. Activate them by linking a Console organization in your billing settings; the credits land within a few days."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
+      ],
+      "added": "2026-10-08",
+      "used": "2026-10-08"
+    },
+    {
+      "slug": "tip-github-copilot-secret-detection",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "title": {
+        "cs": "Copilot teď hledá uniklá hesla i bez klasického formátu",
+        "en": "Copilot now catches leaked secrets without a known format"
+      },
+      "summary": {
+        "cs": "GitHub od 7. října nasadilo do Copilota model specializovaný na odhalování uniklých přihlašovacích údajů — pozná podezřelé heslo i podle okolního kódu, i když nemá rozpoznatelný formát tokenu. Zatím pohání jen automatická upozornění; stejný model se chystá i do příkazu /security-review a do kontroly před odesláním kódu.",
+        "en": "GitHub rolled a purpose-built model into Copilot on October 7 to catch leaked credentials — it flags a suspicious password from the surrounding code even without a recognizable token format. For now it only powers automatic alerts; the same model is headed for the /security-review command and push-time checks."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/"
+        }
+      ],
+      "added": "2026-10-08",
+      "used": "2026-10-08"
+    },
+    {
+      "slug": "tip-perplexity-multimodal-embeddings",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": true,
+      "title": {
+        "cs": "Perplexity vydalo embeddingy, co hledají i v obrázcích",
+        "en": "Perplexity ships embeddings that search images too"
+      },
+      "summary": {
+        "cs": "Perplexity Research 7. října vydal novou řadu embeddingových modelů pplx-embed — umí hledat napříč textem i obrázky v jednom společném prostoru místo zvlášť pro každý typ obsahu. Modely jsou volně ke stažení na Hugging Face, hodí se pro vývojáře, co si staví vlastní vyhledávání nebo RAG systém.",
+        "en": "Perplexity Research released a new pplx-embed model family on October 7 — it searches across text and images in one shared space instead of handling each content type separately. The models are freely downloadable on Hugging Face, aimed at developers building their own search or RAG systems."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/hub/blog/multimodal-embeddings-beyond-a-single-vector"
+        }
+      ],
+      "added": "2026-10-08",
+      "used": "2026-10-08"
     }
   ]
 }
