@@ -3566,6 +3566,28 @@
       ],
       "added": "2026-10-08",
       "used": "2026-10-08"
+    },
+    {
+      "slug": "tip-claude-code-agent-effort-parameter",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "title": {
+        "cs": "Claude Code teď necháš zvolit úroveň nasazení agenta",
+        "en": "Claude Code now lets you set agent effort level"
+      },
+      "summary": {
+        "cs": "Claude Code od 6. října umí u nástroje Agent nastavit parametr effort — určíš tak, na jak velké nasazení má subagent běžet. Hodí se, když chceš u jednoduchého dílčího úkolu ušetřit čas a tokeny, nebo naopak u složitého kroku nechat subagenta pracovat o to důkladněji.",
+        "en": "Since October 6, Claude Code's Agent tool has had an effort parameter — it sets how much effort a subagent puts into a run. Useful for saving time and tokens on a simple sub-task, or pushing a subagent to work more thoroughly through a genuinely hard step."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-10-09",
+      "used": "2026-10-09"
     }
   ]
 }

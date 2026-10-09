@@ -1424,7 +1424,37 @@
       "slug": "2026-10-08-tip-perplexity-multimodal-embeddings",
       "date": "2026-10-08",
       "topic": "tip: Perplexity vydalo embeddingy, co hledají i v obrázcích"
+    },
+    {
+      "slug": "2026-10-09-anthropic-cyber-mission-critical-infrastructure",
+      "date": "2026-10-09",
+      "topic": "Anthropic spustil misi na ochranu kritické infrastruktury"
+    },
+    {
+      "slug": "2026-10-09-anthropic-genesis-mission-federal-science",
+      "date": "2026-10-09",
+      "topic": "Anthropic dá 150 milionů na vědu pro vládní agentury"
+    },
+    {
+      "slug": "2026-10-09-anthropic-oss-scanner-vulnerability",
+      "date": "2026-10-09",
+      "topic": "Anthropic nabízí open-source projektům skenování zdarma"
+    },
+    {
+      "slug": "2026-10-09-google-synthid-bio-protein-watermarking",
+      "date": "2026-10-09",
+      "topic": "Google umí vodoznakem označit i uměle navržené bílkoviny"
+    },
+    {
+      "slug": "2026-10-09-openai-codex-faster-steering",
+      "date": "2026-10-09",
+      "topic": "Codex teď rychleji reaguje na doplňující pokyny"
+    },
+    {
+      "slug": "2026-10-09-tip-claude-code-agent-effort-parameter",
+      "date": "2026-10-09",
+      "topic": "tip: Claude Code teď necháš zvolit úroveň nasazení agenta"
     }
   ],
-  "updated": "2026-10-08T03:55:00Z"
+  "updated": "2026-10-09T03:55:00Z"
 }

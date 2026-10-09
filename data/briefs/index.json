@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-08T03:55:00Z",
+  "updated": "2026-10-09T03:55:00Z",
   "briefs": [
+    {
+      "date": "2026-10-09",
+      "headline": {
+        "cs": "Anthropic spustil dlouhodobou misi na obranu kritické infrastruktury",
+        "en": "Anthropic launches long-term mission to defend critical infrastructure"
+      },
+      "itemCount": 6
+    },
     {
       "date": "2026-10-08",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Microsoft spustil nový Copilot s Home, Code a Autopilotem",
         "en": "Microsoft launches new Copilot with Home, Code, Autopilot"
-      },
-      "itemCount": 8
-    },
-    {
-      "date": "2026-09-25",
-      "headline": {
-        "cs": "Siri AI se spouští jako výrazně chytřejší asistent",
-        "en": "Siri AI launches as a far smarter assistant"
       },
       "itemCount": 8
     }

@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-09",
+  "sample": false,
+  "headline": {
+    "cs": "Anthropic spustil dlouhodobou misi na obranu kritické infrastruktury",
+    "en": "Anthropic launches long-term mission to defend critical infrastructure"
+  },
+  "items": [
+    {
+      "id": "2026-10-09-anthropic-cyber-mission-critical-infrastructure",
+      "kind": "news",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-08",
+      "title": {
+        "cs": "Anthropic spustil misi na ochranu kritické infrastruktury",
+        "en": "Anthropic launches mission to protect critical infrastructure"
+      },
+      "summary": {
+        "cs": "Anthropic 8. října spustil Cyber Mission — dlouhodobý program na ochranu klíčových systémů. První část, Critical Infrastructure Defense Program, dává provozovatelům energetických sítí, vodárenství a dopravy přístup k nejsilnějším modelům Claude, vlastním inženýrům na místě a výzkumu hrozeb. Mezi jedenácti zakládajícími partnery jsou Accenture, CrowdStrike, Deloitte, Palo Alto Networks a Rockwell Automation.",
+        "en": "Anthropic launched Cyber Mission on October 8 — a long-term program to secure critical systems. Its first piece, the Critical Infrastructure Defense Program, gives operators of power grids, water systems and transportation access to Claude's frontier models, on-site engineers and threat research. Eleven founding partners include Accenture, CrowdStrike, Deloitte, Palo Alto Networks and Rockwell Automation."
+      },
+      "why": {
+        "cs": "Dopadá to na systémy, na kterých závisíš, i když si to neuvědomuješ — elektřinu, vodu i dopravu teď budou chránit týmy s přístupem k nejsilnější AI.",
+        "en": "This touches systems you depend on without realizing it — power, water and transport are now defended by teams with access to the strongest AI available."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-anthropic-genesis-mission-federal-science",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-10-08",
+      "title": {
+        "cs": "Anthropic dá 150 milionů na vědu pro vládní agentury",
+        "en": "Anthropic commits $150M to science for federal agencies"
+      },
+      "summary": {
+        "cs": "Anthropic se 8. října na summitu Bílého domu zavázal investovat 150 milionů dolarů během tří let do federální iniciativy Genesis Mission na podporu vědy. Claude, Claude Code a kredity na API tak dostane přes 15 agentur včetně NASA, NIH a NSF — pro stovky výzkumných projektů, třeba v oblasti fúzní energie nebo kvantových počítačů.",
+        "en": "At a White House summit on October 8, Anthropic committed $150 million over three years to the federal Genesis Mission science initiative. Claude, Claude Code and API credits will reach more than 15 agencies, including NASA, NIH and NSF, for hundreds of research projects — in areas like fusion energy and quantum computing."
+      },
+      "why": {
+        "cs": "Pokud pracuješ ve výzkumu nebo na univerzitě spojené s federální agenturou, můžeš se dostat k Claude zdarma přes vlastní projekt — podpora zahrnuje i zaškolení.",
+        "en": "If you work in research tied to a federal agency, this could mean free access to Claude for your own project — support even includes onboarding and training."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/genesis-mission-commitment"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-anthropic-oss-scanner-vulnerability",
+      "kind": "news",
+      "category": "opensource",
+      "verified": true,
+      "eventDate": "2026-10-08",
+      "title": {
+        "cs": "Anthropic nabízí open-source projektům skenování zdarma",
+        "en": "Anthropic offers free vulnerability scans for open source"
+      },
+      "summary": {
+        "cs": "Anthropic 8. října spustil OSS Scanner — nepovinnou bezpečnostní službu pro open-source projekty, volně inspirovanou Google OSS-Fuzz, ale místo fuzzerů používá nejsilnější modely Claude. Správci kritických projektů se přihlásí žádostí na GitHubu; hlášení běží bez lidské kontroly, ale v testu splnilo Anthropicu práh pro zveřejnění 88 % nalezených závažných chyb.",
+        "en": "Anthropic launched OSS Scanner on October 8 — a free, opt-in security service for open-source projects, loosely modeled on Google's OSS-Fuzz but using Claude's strongest models instead of fuzzers. Maintainers of critical projects apply via a GitHub pull request; in testing, 88% of flagged findings met Anthropic's disclosure bar."
+      },
+      "why": {
+        "cs": "Udržuješ open-source projekt s dopadem na bezpečnost? Přihlas ho přes pull request na GitHubu a dostaneš pravidelné zdarma skenování od nejsilnějších modelů Claude.",
+        "en": "Maintaining an open-source project with real security impact? Apply through a pull request on GitHub and get regular, free scans powered by Claude's strongest models."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-google-synthid-bio-protein-watermarking",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-09-30",
+      "title": {
+        "cs": "Google umí vodoznakem označit i uměle navržené bílkoviny",
+        "en": "Google can now watermark AI-designed proteins too"
+      },
+      "summary": {
+        "cs": "Google DeepMind 30. září představil SynthID Bio — rozšíření vodoznakové technologie SynthID na uměle navržené bílkoviny, které si zachovává jejich biologickou funkci. Cílem je dát vědcům i regulátorům způsob, jak poznat syntetické sekvence DNA. Google plánuje zveřejnit metodický článek a uvolnit kód i váhy modelu výzkumné komunitě.",
+        "en": "Google DeepMind introduced SynthID Bio on September 30 — extending its SynthID watermarking technology to AI-designed proteins while preserving their biological function. The goal is to help scientists and regulators recognize synthetic DNA sequences. Google plans to publish a methods paper and release the code and model weights to the research community."
+      },
+      "why": {
+        "cs": "Ukazuje to, že boj proti deepfakes se netýká jen obrázků a videí — stejný princip teď chrání i podvržené biologické sekvence.",
+        "en": "It's a reminder the fight against deepfakes isn't just about images and video — the same idea now protects against faked biological sequences too."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-openai-codex-faster-steering",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-08",
+      "title": {
+        "cs": "Codex teď rychleji reaguje na doplňující pokyny",
+        "en": "Codex now responds faster to follow-up steering"
+      },
+      "summary": {
+        "cs": "OpenAI od 8. října v desktopové appce ChatGPT zrychlilo, jak Codex reaguje na doplňující zprávy během běžícího úkolu — odpověď teď přijde rychleji, než úkol doběhne. V Nastavení pod Obecné si navíc vybereš, jestli má doplňující zpráva hned usměrnit běžící úkol, nebo počkat na další.",
+        "en": "Starting October 8, OpenAI sped up how Codex responds to follow-up messages in the ChatGPT desktop app while a task is still running — replies now arrive faster than before. A new setting under General lets you choose whether a follow-up steers the current run immediately or waits for the next one."
+      },
+      "why": {
+        "cs": "Používáš Codex na delší úkoly v desktopové appce? Teď můžeš běžící práci doladit zprávou bez čekání — nebo si v Nastavení zvol staré chování.",
+        "en": "Running longer Codex tasks in the desktop app? You can now steer the work mid-run without the wait — or pick the old behavior back in Settings."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-tip-claude-code-agent-effort-parameter",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-06",
+      "title": {
+        "cs": "Claude Code teď necháš zvolit úroveň nasazení agenta",
+        "en": "Claude Code now lets you set agent effort level"
+      },
+      "summary": {
+        "cs": "Claude Code od 6. října umí u nástroje Agent nastavit parametr effort — určíš tak, na jak velké nasazení má subagent běžet. Hodí se, když chceš u jednoduchého dílčího úkolu ušetřit čas a tokeny, nebo naopak u složitého kroku nechat subagenta pracovat o to důkladněji.",
+        "en": "Since October 6, Claude Code's Agent tool has had an effort parameter — it sets how much effort a subagent puts into a run. Useful for saving time and tokens on a simple sub-task, or pushing a subagent to work more thoroughly through a genuinely hard step."
+      },
+      "why": {
+        "cs": "Pracuješ s subagenty v Claude Code? Zkus v konfiguraci nastavit effort podle náročnosti úkolu — ušetříš limit na snadných krocích.",
+        "en": "Working with subagents in Claude Code? Try setting effort to match how hard the task actually is — it saves your usage limit on the easy steps."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "Skills dorazí i do osobní appky Gemini",
+        "en": "Skills arrive in the personal Gemini app"
+      },
+      "note": {
+        "cs": "Google 13. října spustí Skills i v appce Gemini pro osobní účty — zatím jsou jen ve Workspace; nahradí Gems, co se do nastavení přesunou v listopadu.",
+        "en": "Google brings Skills to the personal Gemini app on October 13 — so far it's Workspace-only; Skills replace Gems, which move into Settings in November."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "Apple podle zpráv chystá na 13. října nový domácí hub",
+        "en": "Apple reportedly plans a new home hub on October 13"
+      },
+      "note": {
+        "cs": "Podle zpráv agentury Bloomberg Apple 13. října představí chytrý domácí hub se Siri AI, nový HomePod mini a Apple TV — firma to zatím nepotvrdila.",
+        "en": "According to Bloomberg reporting, Apple will unveil a smart home hub with Siri AI, a new HomePod mini and Apple TV on October 13 — unconfirmed by Apple itself."
+      },
+      "sources": [
+        {
+          "name": "MacRumors",
+          "url": "https://www.macrumors.com/2026/09/30/apple-next-launch-is-october-13/"
+        }
+      ],
+      "tentative": true
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-20",
+      "title": {
+        "cs": "NVIDIA pořádá GTC Berlín, hlavní řeč má Jensen Huang",
+        "en": "NVIDIA hosts GTC Berlin, keynote by Jensen Huang"
+      },
+      "note": {
+        "cs": "Evropská konference NVIDIA o AI probíhá 20. až 22. října v Berlíně — hlavní řeč 21. října přednese Jensen Huang, čerstvě po spuštění RTX Spark s Microsoftem.",
+        "en": "NVIDIA's European AI conference runs October 20-22 in Berlin — Jensen Huang delivers the October 21 keynote, fresh off launching RTX Spark with Microsoft."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/en-eu/gtc/faq/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-24",
+      "title": {
+        "cs": "Perplexity vyřadí staré modely z Agent a Router API",
+        "en": "Perplexity retires old models from Agent and Router API"
+      },
+      "note": {
+        "cs": "Od 24. října o půlnoci UTC Perplexity vyřadí z Agent API a Router API starší modely OpenAI řady GPT-5 — vývojáři musí přejít na náhradu předem.",
+        "en": "On October 24 at midnight UTC, Perplexity retires older OpenAI GPT-5 models from its Agent and Router API — developers need to switch to a replacement beforehand."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}
