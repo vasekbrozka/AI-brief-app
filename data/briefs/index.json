@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-09T03:55:00Z",
+  "updated": "2026-10-10T03:55:00Z",
   "briefs": [
+    {
+      "date": "2026-10-10",
+      "headline": {
+        "cs": "Google omezil zdarma přístup k modelům Gemini",
+        "en": "Google cuts free access to Gemini models"
+      },
+      "itemCount": 6
+    },
     {
       "date": "2026-10-09",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Claude discovers a new CRISPR-like enzyme system"
       },
       "itemCount": 10
-    },
-    {
-      "date": "2026-09-26",
-      "headline": {
-        "cs": "Microsoft spustil nový Copilot s Home, Code a Autopilotem",
-        "en": "Microsoft launches new Copilot with Home, Code, Autopilot"
-      },
-      "itemCount": 8
     }
   ]
 }

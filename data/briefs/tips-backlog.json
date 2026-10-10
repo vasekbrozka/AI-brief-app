@@ -3588,6 +3588,50 @@
       ],
       "added": "2026-10-09",
       "used": "2026-10-09"
+    },
+    {
+      "slug": "tip-nvidia-pair-personal-ai-router",
+      "category": "tools",
+      "theme": "local",
+      "verified": true,
+      "title": {
+        "cs": "NVIDIA propojí domácí počítače do jedné AI sítě",
+        "en": "NVIDIA links home PCs into one AI network"
+      },
+      "summary": {
+        "cs": "NVIDIA vydala Personal AI Router (PAIR), beta nástroj, co najde volné počítače ve tvé domácí síti a rozděluje mezi ně dotazy na lokální modely. Podporuje Windows s RTX grafikou, macOS i DGX Spark a spolupracuje s Ollamou a LM Studiem. Zařízení ale nespojuje do jedné virtuální karty, jen rozhoduje, které z nich dotaz vyřídí.",
+        "en": "NVIDIA released Personal AI Router (PAIR), a beta tool that finds spare machines on your home network and spreads local-model requests across them. It supports Windows with RTX graphics, macOS, and DGX Spark, working with Ollama and LM Studio. The devices aren't merged into one virtual GPU — PAIR picks which one handles each request."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/en-us/ai-on-rtx/personal-ai-router/"
+        }
+      ],
+      "added": "2026-10-10",
+      "used": "2026-10-10"
+    },
+    {
+      "slug": "tip-cursor-remote-control-ios",
+      "category": "tools",
+      "theme": "cursor",
+      "verified": true,
+      "title": {
+        "cs": "Cursor teď hlídáš agenty i z telefonu",
+        "en": "Cursor now lets you watch agents remotely"
+      },
+      "summary": {
+        "cs": "Cursor od 6. října umí v iOS appce zobrazit agenty běžící na tvém počítači a na dálku jim odpovídat. Funkce je zapnutá automaticky, u Enterprise organizací ji musí povolit administrátor. Počítač musí zůstat zapnutý a online — v nastavení desktopové appky ho můžeš nechat nespat.",
+        "en": "Since October 6, Cursor's iOS app can show you agents running on your computer and let you reply to them remotely. It's on by default, though Enterprise admins must enable it. Your computer has to stay on and online — the desktop app's settings let you keep it from sleeping."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/changelog"
+        }
+      ],
+      "added": "2026-10-10",
+      "used": "2026-10-10"
     }
   ]
 }

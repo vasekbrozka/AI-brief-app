@@ -1,0 +1,311 @@
+{
+  "date": "2026-10-10",
+  "sample": false,
+  "headline": {
+    "cs": "Google omezil zdarma přístup k modelům Gemini",
+    "en": "Google cuts free access to Gemini models"
+  },
+  "items": [
+    {
+      "id": "2026-10-10-google-gemini-free-tier-model-limits",
+      "kind": "news",
+      "category": "business",
+      "verified": true,
+      "highlight": true,
+      "eventDate": "2026-10-09",
+      "title": {
+        "cs": "Google omezil zdarma přístup k modelům Gemini",
+        "en": "Google cuts free access to Gemini models"
+      },
+      "summary": {
+        "cs": "Google od 9. října omezuje, které modely Gemini smí používat neplatící uživatelé — zdarma zůstává jen Flash-Lite, Flash i Pro mizí. Předplatitelé AI Plus přijdou o Pro, ale Flash si udrží. Tarify AI Pro a Ultra zůstávají beze změny.",
+        "en": "Google began restricting which Gemini models free personal accounts can use on October 9 — only Flash-Lite stays free, while Flash and Pro disappear. AI Plus subscribers lose Pro but keep Flash. AI Pro and Ultra tiers are unaffected."
+      },
+      "why": {
+        "cs": "Používáš Gemini zdarma a spoléháš na silnější model? Od 9. října máš k dispozici jen Flash-Lite — zvaž, jestli nestačí přejít na placený tarif.",
+        "en": "Relying on the free Gemini app for a stronger model? Since October 9 you're down to Flash-Lite only — worth weighing whether a paid tier makes more sense now."
+      },
+      "sources": [
+        {
+          "name": "Engadget",
+          "url": "https://engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9"
+        },
+        {
+          "name": "TechRadar",
+          "url": "https://www.techradar.com/ai-platforms-assistants/gemini/if-youre-on-the-free-or-plus-tiers-for-google-ai-youre-about-to-lose-access-to-some-gemini-models-heres-whats-changing"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-anthropic-2026-usage-policy-update",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-10-08",
+      "title": {
+        "cs": "Anthropic aktualizoval pravidla používání Claude pro 2026",
+        "en": "Anthropic updates its 2026 usage policy"
+      },
+      "summary": {
+        "cs": "Anthropic 8. října vydal roční aktualizaci pravidel používání Claude — nově má samostatnou sekci pro klamavou činnost, jasnější pravidla pro zbraně a dronové systémy i pro sledování a vymáhání práva. Zúžil ale zákaz cíleného politického přesvědčování. Změny platí od 12. listopadu.",
+        "en": "Anthropic published its yearly usage-policy update on October 8 — adding a dedicated section on deceptive activity, clearer rules on weapons and drone systems, and tighter surveillance and law-enforcement limits. It also narrowed the ban on targeted political persuasion. Changes take effect November 12."
+      },
+      "why": {
+        "cs": "Stavíš na Claude produkt pro politickou kampaň, hardware s fyzickým dopadem nebo sledování? Prostuduj nová pravidla, než 12. listopadu vstoupí v platnost.",
+        "en": "Building on Claude for political campaigns, physically-connected hardware, or surveillance use cases? Review the updated rules before they take effect on November 12."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-openai-decisions-api-public-beta",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-06",
+      "title": {
+        "cs": "OpenAI otevřelo Decisions API všem vývojářům",
+        "en": "OpenAI opens Decisions API to developers"
+      },
+      "summary": {
+        "cs": "OpenAI 6. října zpřístupnilo Decisions API všem vývojářům ve veřejné beta verzi. Místo volného textu vrací jen přesně typovanou odpověď — pravděpodobnost, výběr z možností nebo známku na stupnici — poháněnou modelem GPT-6 Luna. OpenAI uvádí až desetinásobné zrychlení oproti Responses API za 0,10 dolaru za milion vstupních tokenů.",
+        "en": "OpenAI opened its Decisions API to developers in public beta on October 6. Instead of free-form text, it returns a typed answer — a probability, a choice from fixed options, or a score — powered by GPT-6 Luna, up to 10x faster than the Responses API, at $0.10 per million input tokens."
+      },
+      "why": {
+        "cs": "Potřebuješ v kódu rychle klasifikovat obsah nebo rozhodnout, co agent udělá dál? Decisions API nahradí parsování volné odpovědi přesně typovaným výstupem.",
+        "en": "Need to classify content or pick an agent's next action in code? The Decisions API swaps free-text parsing for a precisely typed output."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://developers.openai.com/api/docs/changelog"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-github-copilot-model-deprecation-october",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-02",
+      "title": {
+        "cs": "GitHub vyřadil z Copilota čtyři starší modely",
+        "en": "GitHub retires four older Copilot models"
+      },
+      "summary": {
+        "cs": "GitHub 2. října vyřadilo ze všech režimů Copilota čtyři modely — Gemini 3.5 a 3.6 Flash, Kimi K2.7 Code a Claude Opus 4.7 — a doporučuje přejít na Gemini 3.8 Flash, Kimi K3 nebo Claude Opus 5.5. Další vlna (mimo jiné GPT-5.5 a Grok 4.5) následuje 19. října.",
+        "en": "On October 2, GitHub retired four models across all Copilot modes — Gemini 3.5 and 3.6 Flash, Kimi K2.7 Code, and Claude Opus 4.7 — recommending a move to Gemini 3.8 Flash, Kimi K3, or Claude Opus 5.5. A second wave, including GPT-5.5 and Grok 4.5, follows on October 19."
+      },
+      "why": {
+        "cs": "Máš v Copilotu pevně nastavený některý z vyřazených modelů? Přepni na doporučenou náhradu, než 19. října zmizí i druhá vlna modelů.",
+        "en": "Pinned one of the retired models in your Copilot settings? Switch to the recommended replacement before the second wave disappears on October 19."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-tip-nvidia-pair-personal-ai-router",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-03",
+      "title": {
+        "cs": "NVIDIA propojí domácí počítače do jedné AI sítě",
+        "en": "NVIDIA links home PCs into one AI network"
+      },
+      "summary": {
+        "cs": "NVIDIA vydala Personal AI Router (PAIR), beta nástroj, co najde volné počítače ve tvé domácí síti a rozděluje mezi ně dotazy na lokální modely. Podporuje Windows s RTX grafikou, macOS i DGX Spark a spolupracuje s Ollamou a LM Studiem. Zařízení ale nespojuje do jedné virtuální karty, jen rozhoduje, které z nich dotaz vyřídí.",
+        "en": "NVIDIA released Personal AI Router (PAIR), a beta tool that finds spare machines on your home network and spreads local-model requests across them. It supports Windows with RTX graphics, macOS, and DGX Spark, working with Ollama and LM Studio. The devices aren't merged into one virtual GPU — PAIR picks which one handles each request."
+      },
+      "why": {
+        "cs": "Máš doma víc strojů s GPU a chceš je využít na lokální multi-agent úlohy? PAIR rozloží požadavky mezi ně bez složitého nastavování.",
+        "en": "Got several GPU machines at home and want to put them to work on local multi-agent tasks? PAIR spreads requests across them with little setup."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/en-us/ai-on-rtx/personal-ai-router/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-tip-cursor-remote-control-ios",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-06",
+      "title": {
+        "cs": "Cursor teď hlídáš agenty i z telefonu",
+        "en": "Cursor now lets you watch agents remotely"
+      },
+      "summary": {
+        "cs": "Cursor od 6. října umí v iOS appce zobrazit agenty běžící na tvém počítači a na dálku jim odpovídat. Funkce je zapnutá automaticky, u Enterprise organizací ji musí povolit administrátor. Počítač musí zůstat zapnutý a online — v nastavení desktopové appky ho můžeš nechat nespat.",
+        "en": "Since October 6, Cursor's iOS app can show you agents running on your computer and let you reply to them remotely. It's on by default, though Enterprise admins must enable it. Your computer has to stay on and online — the desktop app's settings let you keep it from sleeping."
+      },
+      "why": {
+        "cs": "Spustíš dlouhý úkol pro agenta a odcházíš od stolu? Zkontroluj průběh a odpověz na dotaz přímo z mobilu, bez nutnosti sedět u notebooku.",
+        "en": "Kicking off a long agent run before you leave your desk? Check its progress and answer a prompt straight from your phone instead."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/changelog"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "TechCrunch Disrupt 2026 s Anthropic i OpenAI na pódiu",
+        "en": "TechCrunch Disrupt 2026 features Anthropic and OpenAI on stage"
+      },
+      "note": {
+        "cs": "Trojdenní technologická konference v San Franciscu (13.–15. října) — na AI pódiu, které pořádá Google for Startups, vystoupí zástupci Anthropicu i OpenAI.",
+        "en": "A three-day tech conference in San Francisco (October 13-15) — Anthropic and OpenAI both appear on the AI Stage, presented by Google for Startups."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "Skills dorazí i do osobní appky Gemini",
+        "en": "Skills arrive in the personal Gemini app"
+      },
+      "note": {
+        "cs": "Google 13. října spustí Skills i v appce Gemini pro osobní účty — zatím jsou jen ve Workspace; nahradí Gems, co se do nastavení přesunou v listopadu.",
+        "en": "Google brings Skills to the personal Gemini app on October 13 — so far it's Workspace-only; Skills replace Gems, which move into Settings in November."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "Apple podle zpráv chystá na 13. října nový domácí hub",
+        "en": "Apple reportedly plans a new home hub on October 13"
+      },
+      "note": {
+        "cs": "Podle zpráv agentury Bloomberg Apple 13. října představí chytrý domácí hub se Siri AI, nový HomePod mini a Apple TV — firma to zatím nepotvrdila.",
+        "en": "According to Bloomberg reporting, Apple will unveil a smart home hub with Siri AI, a new HomePod mini and Apple TV on October 13 — unconfirmed by Apple itself."
+      },
+      "sources": [
+        {
+          "name": "MacRumors",
+          "url": "https://www.macrumors.com/2026/09/30/apple-next-launch-is-october-13/"
+        }
+      ],
+      "tentative": true
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-20",
+      "title": {
+        "cs": "NVIDIA pořádá GTC Berlín, hlavní řeč má Jensen Huang",
+        "en": "NVIDIA hosts GTC Berlin, keynote by Jensen Huang"
+      },
+      "note": {
+        "cs": "Evropská konference NVIDIA o AI probíhá 20. až 22. října v Berlíně — hlavní řeč 21. října přednese Jensen Huang, čerstvě po spuštění RTX Spark s Microsoftem.",
+        "en": "NVIDIA's European AI conference runs October 20-22 in Berlin — Jensen Huang delivers the October 21 keynote, fresh off launching RTX Spark with Microsoft."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/en-eu/gtc/faq/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-24",
+      "title": {
+        "cs": "Perplexity vyřadí staré modely z Agent a Router API",
+        "en": "Perplexity retires old models from Agent and Router API"
+      },
+      "note": {
+        "cs": "Od 24. října o půlnoci UTC Perplexity vyřadí z Agent API a Router API starší modely OpenAI řady GPT-5 — vývojáři musí přejít na náhradu předem.",
+        "en": "On October 24 at midnight UTC, Perplexity retires older OpenAI GPT-5 models from its Agent and Router API — developers need to switch to a replacement beforehand."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

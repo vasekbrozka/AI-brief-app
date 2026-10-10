@@ -1454,7 +1454,37 @@
       "slug": "2026-10-09-tip-claude-code-agent-effort-parameter",
       "date": "2026-10-09",
       "topic": "tip: Claude Code teď necháš zvolit úroveň nasazení agenta"
+    },
+    {
+      "slug": "2026-10-10-google-gemini-free-tier-model-limits",
+      "date": "2026-10-10",
+      "topic": "Google omezil zdarma přístup k modelům Gemini"
+    },
+    {
+      "slug": "2026-10-10-anthropic-2026-usage-policy-update",
+      "date": "2026-10-10",
+      "topic": "Anthropic aktualizoval pravidla používání Claude pro 2026"
+    },
+    {
+      "slug": "2026-10-10-openai-decisions-api-public-beta",
+      "date": "2026-10-10",
+      "topic": "OpenAI otevřelo Decisions API všem vývojářům"
+    },
+    {
+      "slug": "2026-10-10-github-copilot-model-deprecation-october",
+      "date": "2026-10-10",
+      "topic": "GitHub vyřadil z Copilota čtyři starší modely"
+    },
+    {
+      "slug": "2026-10-10-tip-nvidia-pair-personal-ai-router",
+      "date": "2026-10-10",
+      "topic": "tip: NVIDIA propojí domácí počítače do jedné AI sítě"
+    },
+    {
+      "slug": "2026-10-10-tip-cursor-remote-control-ios",
+      "date": "2026-10-10",
+      "topic": "tip: Cursor teď hlídáš agenty i z telefonu"
     }
   ],
-  "updated": "2026-10-09T03:55:00Z"
+  "updated": "2026-10-10T03:55:00Z"
 }
