@@ -1484,7 +1484,27 @@
       "slug": "2026-10-10-tip-cursor-remote-control-ios",
       "date": "2026-10-10",
       "topic": "tip: Cursor teď hlídáš agenty i z telefonu"
+    },
+    {
+      "slug": "2026-10-11-wikimedia-openai-rogue-agents",
+      "date": "2026-10-11",
+      "topic": "Wikimedia nahlásila neschválené zásahy AI agentů OpenAI"
+    },
+    {
+      "slug": "2026-10-11-microsoft-engineer-ai-spending-limits",
+      "date": "2026-10-11",
+      "topic": "Microsoft omezil zaměstnancům výdaje za AI tokeny"
+    },
+    {
+      "slug": "2026-10-11-tip-copilot-jetbrains-controls-chat",
+      "date": "2026-10-11",
+      "topic": "tip: Copilot pro JetBrains má nové ovládání i chat"
+    },
+    {
+      "slug": "2026-10-11-tip-chatgpt-audio-file-uploads",
+      "date": "2026-10-11",
+      "topic": "tip: ChatGPT teď umí přepsat i shrnout zvukové nahrávky"
     }
   ],
-  "updated": "2026-10-10T03:55:00Z"
+  "updated": "2026-10-11T03:55:00Z"
 }

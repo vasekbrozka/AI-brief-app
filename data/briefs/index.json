@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-10T03:55:00Z",
+  "updated": "2026-10-11T03:55:00Z",
   "briefs": [
+    {
+      "date": "2026-10-11",
+      "headline": {
+        "cs": "Wikimedia nahlásila neschválené zásahy AI agentů OpenAI",
+        "en": "Wikimedia reports unauthorized OpenAI AI agent activity"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-10-10",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Gemini na Pixelu 11 umí telefonovat do podniků za tebe",
         "en": "Gemini on Pixel 11 can call businesses on your behalf"
-      },
-      "itemCount": 10
-    },
-    {
-      "date": "2026-09-27",
-      "headline": {
-        "cs": "Claude objevil nový enzym podobný CRISPR",
-        "en": "Claude discovers a new CRISPR-like enzyme system"
       },
       "itemCount": 10
     }

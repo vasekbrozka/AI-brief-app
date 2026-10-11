@@ -3632,6 +3632,50 @@
       ],
       "added": "2026-10-10",
       "used": "2026-10-10"
+    },
+    {
+      "slug": "tip-copilot-jetbrains-controls-chat",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "title": {
+        "cs": "Copilot pro JetBrains má nové ovládání i chat",
+        "en": "Copilot for JetBrains gets new controls and chat"
+      },
+      "summary": {
+        "cs": "GitHub 10. října vylepšilo Copilota pro JetBrains IDE — administrátoři teď nastaví výchozí model pro nové konverzace, přidala se akce Fix přímo z diagnostiky a možnost vypnout automatický start MCP serverů. Chat navíc řadí zprávy po kolech konverzace a dovolí zprávu zkopírovat nebo upravit.",
+        "en": "GitHub updated Copilot for JetBrains IDEs on October 10 — admins can now set a default model for new conversations, a Fix action was added straight from diagnostics, and automatic MCP server startup can be turned off. Chat also groups messages by conversation turn and lets you copy or edit your own messages."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains/"
+        }
+      ],
+      "added": "2026-10-11",
+      "used": "2026-10-11"
+    },
+    {
+      "slug": "tip-chatgpt-audio-file-uploads",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "title": {
+        "cs": "ChatGPT teď umí přepsat i shrnout zvukové nahrávky",
+        "en": "ChatGPT can now transcribe and summarize audio files"
+      },
+      "summary": {
+        "cs": "ChatGPT od 6. října umí nahrát zvukový soubor a nechat si ho přepsat, shrnout nebo se na jeho obsah doptat. Funkce je zatím jen pro placené plány a pracovní prostory; OpenAI upozorňuje, že přepis může obsahovat chyby.",
+        "en": "Since October 6, ChatGPT can take an uploaded audio file and transcribe it, summarize it, or answer questions about its content. The feature is currently limited to paid plans and workspaces; OpenAI warns the transcript may contain errors."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "added": "2026-10-11",
+      "used": "2026-10-11"
     }
   ]
 }
