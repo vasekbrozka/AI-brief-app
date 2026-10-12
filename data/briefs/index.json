@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-11T03:55:00Z",
+  "updated": "2026-10-12T03:55:00Z",
   "briefs": [
+    {
+      "date": "2026-10-12",
+      "headline": {
+        "cs": "Claude Haiku 5.5 je teď v Copilotu všude",
+        "en": "Claude Haiku 5.5 is now everywhere in Copilot"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-10-11",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "OpenAI cancels GPT-6.1 Astra release over safety concerns"
       },
       "itemCount": 9
-    },
-    {
-      "date": "2026-09-28",
-      "headline": {
-        "cs": "Gemini na Pixelu 11 umí telefonovat do podniků za tebe",
-        "en": "Gemini on Pixel 11 can call businesses on your behalf"
-      },
-      "itemCount": 10
     }
   ]
 }

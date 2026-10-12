@@ -3676,6 +3676,50 @@
       ],
       "added": "2026-10-11",
       "used": "2026-10-11"
+    },
+    {
+      "slug": "tip-copilot-cli-local-ollama-discovery",
+      "category": "tools",
+      "theme": "local",
+      "verified": true,
+      "title": {
+        "cs": "Copilot CLI teď najde i tvé lokální modely",
+        "en": "Copilot CLI now discovers your local models"
+      },
+      "summary": {
+        "cs": "GitHub Copilot CLI od verze 1.0.94-0 umí příkazem /model najít modely z běžící instance Ollamy a nabídnout je vedle nastavených a GitHubem hostovaných modelů. Nenainstaluje Ollamu ani model za tebe — jen ho objeví, ukáže poskytovatele a endpoint a po potvrzení ho použije v aktuální relaci.",
+        "en": "Since CLI version 1.0.94-0, GitHub Copilot CLI's /model command can discover models from a running Ollama instance and list them alongside your configured and GitHub-hosted models. It won't install Ollama or a model for you — it just finds it, shows the provider and endpoint, and uses it for the current session once confirmed."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli"
+        }
+      ],
+      "added": "2026-10-12",
+      "used": "2026-10-12"
+    },
+    {
+      "slug": "tip-copilot-code-review-api-effort",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "title": {
+        "cs": "Copilot code review teď spustíš i přes API",
+        "en": "Copilot code review can now run via API"
+      },
+      "summary": {
+        "cs": "GitHub 2. října umožnilo vyžádat Copilot code review přes REST i GraphQL API, s volitelnou úrovní důkladnosti (effort) pro každý požadavek. Výchozí úroveň se od 28. září změnila na Balanced místo Lite — důkladnější kontrola, ale spotřebuje víc AI kreditů. Dostupné od plánu Pro.",
+        "en": "On October 2, GitHub enabled requesting Copilot code review through the REST and GraphQL APIs, with an optional effort level per request. The default switched from Lite to Balanced on September 28 — a more thorough review that also uses more AI credits. Available from the Pro plan up."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level"
+        }
+      ],
+      "added": "2026-10-12",
+      "used": "2026-10-12"
     }
   ]
 }

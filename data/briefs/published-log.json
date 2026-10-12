@@ -1504,7 +1504,27 @@
       "slug": "2026-10-11-tip-chatgpt-audio-file-uploads",
       "date": "2026-10-11",
       "topic": "tip: ChatGPT teď umí přepsat i shrnout zvukové nahrávky"
+    },
+    {
+      "slug": "2026-10-12-claude-haiku-5-5-github-copilot-ga",
+      "date": "2026-10-12",
+      "topic": "Claude Haiku 5.5 je teď v Copilotu všude"
+    },
+    {
+      "slug": "2026-10-12-tii-falcon-emirati-arabic-models",
+      "date": "2026-10-12",
+      "topic": "TII vydal tři nové modely pro arabštinu"
+    },
+    {
+      "slug": "2026-10-12-tip-copilot-cli-local-ollama-discovery",
+      "date": "2026-10-12",
+      "topic": "tip: Copilot CLI teď najde i tvé lokální modely"
+    },
+    {
+      "slug": "2026-10-12-tip-copilot-code-review-api-effort",
+      "date": "2026-10-12",
+      "topic": "tip: Copilot code review teď spustíš i přes API"
     }
   ],
-  "updated": "2026-10-11T03:55:00Z"
+  "updated": "2026-10-12T03:55:00Z"
 }
