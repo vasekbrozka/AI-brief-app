@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-13",
+  "sample": false,
+  "headline": {
+    "cs": "Google zpřístupnil Skills i v osobní appce Gemini",
+    "en": "Google brings Skills to the personal Gemini app"
+  },
+  "items": [
+    {
+      "id": "2026-10-13-google-gemini-skills-personal-rollout",
+      "kind": "news",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-13",
+      "title": {
+        "cs": "Google zpřístupnil Skills i v osobní appce Gemini",
+        "en": "Google brings Skills to the personal Gemini app"
+      },
+      "summary": {
+        "cs": "Google 13. října spustil postupné zavádění Skills (opakovaně použitelné vlastní instrukce) v appce Gemini pro osobní i firemní účty — dokončení čeká do poloviny listopadu. Skills nahradí Gems: ty zůstanou funkční, 17. listopadu se přesunou do nastavení a později se automaticky převedou na návrhy Skills.",
+        "en": "On October 13, Google began gradually rolling out Skills — reusable custom instructions — in the Gemini app for both personal and Workspace accounts, with completion expected by mid-November. Skills replace Gems: those keep working, move into Settings on November 17, and later get auto-converted into draft Skills."
+      },
+      "why": {
+        "cs": "Používáš Gemini a měl jsi oblíbené Gems? Nic se neztratí, ale zkus si teď nastavit Skills — jde kombinovat víc najednou v jednom promptu.",
+        "en": "Using Gemini and had favorite Gems? Nothing's lost, but try setting up Skills now — you can combine several of them in a single prompt."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-nvidia-vera-rubin-ocp-open-designs",
+      "kind": "news",
+      "category": "opensource",
+      "verified": true,
+      "eventDate": "2026-10-12",
+      "title": {
+        "cs": "NVIDIA otevřela konstrukci racků Vera Rubin",
+        "en": "NVIDIA opens its Vera Rubin rack designs"
+      },
+      "summary": {
+        "cs": "NVIDIA 12. října na OCP Global Summit předala konstrukci racků a výpočetních modulů Vera Rubin do otevřené architektury MGX — sdílený základ pro stavbu AI serverů. Aktualizace MGX 1.2 přidává kapalinové chlazení, 5000A sběrnici, standardní 19palcové racky až po 250 kW a novou specifikaci racku pro CPU Vera na orchestraci AI agentů.",
+        "en": "At the OCP Global Summit on October 12, NVIDIA contributed its Vera Rubin rack and compute-tray designs to the open MGX architecture — a shared starting point for building AI servers. The MGX 1.2 update adds liquid cooling, a 5,000A busbar, standard 19-inch racks up to 250kW, and a new Vera CPU rack spec for AI-agent orchestration."
+      },
+      "why": {
+        "cs": "Stavíš nebo vybíráš AI infrastrukturu? Otevřené specifikace MGX znamenají, že víc výrobců racků bude nabízet kompatibilní, vzájemně zaměnitelné servery.",
+        "en": "Building or shopping for AI infrastructure? Open MGX specs mean more rack makers will offer compatible, interchangeable servers instead of locked-in designs."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-tip-copilot-local-sandboxing-ga",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-07",
+      "title": {
+        "cs": "Lokální sandbox pro Copilota je teď naplno dostupný",
+        "en": "Local sandboxing for Copilot is now fully available"
+      },
+      "summary": {
+        "cs": "GitHub 7. října uvolnilo lokální sandboxing pro Copilota (CLI, appku i VS Code s Agent Host) z preview do plné dostupnosti, zdarma. Příkazy a nástroje, co Copilot spouští, běží s omezeným přístupem k souborům, síti a přihlašovacím údajům podle politiky, kterou nastaví vývojář nebo organizace — nezávisle na tom, jaký model Copilot používá.",
+        "en": "On October 7, GitHub moved local sandboxing for Copilot (CLI, the app, and VS Code with Agent Host) from preview to full availability. Commands and tools it runs get restricted file, network, and credential access based on a policy the developer or organization sets, regardless of the model in use."
+      },
+      "why": {
+        "cs": "Dáváš Copilotovi volnou ruku spouštět příkazy? Zapni sandbox příkazem /sandbox enable v CLI — omezí mu přístup k souborům a síti, než mu plně důvěřuješ.",
+        "en": "Letting Copilot run commands on its own? Turn on the sandbox with /sandbox enable in the CLI — it limits file and network access until you fully trust it."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-gitHub-copilot-now-generally-available"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-13",
+      "title": {
+        "cs": "Apple na akci Welcome Home odhalí domácí hub",
+        "en": "Apple unveils home hub at Welcome Home event"
+      },
+      "note": {
+        "cs": "Apple 13. října od 9:00 ET pořádá v New Yorku akci Welcome Home — očekává se chytrý domácí hub se Siri AI, nový HomePod mini a Apple TV.",
+        "en": "Apple holds Welcome Home in New York on October 13 at 9am ET — expected to unveil a smart home hub with Siri AI, a HomePod mini and Apple TV."
+      },
+      "sources": [
+        {
+          "name": "MacRumors",
+          "url": "https://www.macrumors.com/2026/09/30/apple-next-launch-is-october-13/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-20",
+      "title": {
+        "cs": "NVIDIA pořádá GTC Berlín, hlavní řeč má Jensen Huang",
+        "en": "NVIDIA hosts GTC Berlin, keynote by Jensen Huang"
+      },
+      "note": {
+        "cs": "Evropská konference NVIDIA o AI probíhá 20. až 22. října v Berlíně — hlavní řeč 21. října přednese Jensen Huang, čerstvě po otevření konstrukce Vera Rubin.",
+        "en": "NVIDIA's European AI conference runs October 20-22 in Berlin — Jensen Huang delivers the October 21 keynote, fresh off opening the Vera Rubin rack designs."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/en-eu/gtc/faq/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-24",
+      "title": {
+        "cs": "Perplexity vyřadí staré modely z Agent a Router API",
+        "en": "Perplexity retires old models from Agent and Router API"
+      },
+      "note": {
+        "cs": "Od 24. října o půlnoci UTC Perplexity vyřadí z Agent API a Router API starší modely OpenAI řady GPT-5 — vývojáři musí přejít na náhradu předem.",
+        "en": "On October 24 at midnight UTC, Perplexity retires older OpenAI GPT-5 models from its Agent and Router API — developers need to switch to a replacement beforehand."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

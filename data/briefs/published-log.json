@@ -1524,7 +1524,22 @@
       "slug": "2026-10-12-tip-copilot-code-review-api-effort",
       "date": "2026-10-12",
       "topic": "tip: Copilot code review teď spustíš i přes API"
+    },
+    {
+      "slug": "2026-10-13-google-gemini-skills-personal-rollout",
+      "date": "2026-10-13",
+      "topic": "Google zpřístupnil Skills i v osobní appce Gemini"
+    },
+    {
+      "slug": "2026-10-13-nvidia-vera-rubin-ocp-open-designs",
+      "date": "2026-10-13",
+      "topic": "NVIDIA otevřela konstrukci racků Vera Rubin"
+    },
+    {
+      "slug": "2026-10-13-tip-copilot-local-sandboxing-ga",
+      "date": "2026-10-13",
+      "topic": "tip: Lokální sandbox pro Copilota je teď naplno dostupný"
     }
   ],
-  "updated": "2026-10-12T03:55:00Z"
+  "updated": "2026-10-13T03:55:00Z"
 }

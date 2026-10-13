@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-12T03:55:00Z",
+  "updated": "2026-10-13T03:55:00Z",
   "briefs": [
+    {
+      "date": "2026-10-13",
+      "headline": {
+        "cs": "Google zpřístupnil Skills i v osobní appce Gemini",
+        "en": "Google brings Skills to the personal Gemini app"
+      },
+      "itemCount": 3
+    },
     {
       "date": "2026-10-12",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Trump and AI company chiefs sign a self-policing accord"
       },
       "itemCount": 6
-    },
-    {
-      "date": "2026-09-29",
-      "headline": {
-        "cs": "OpenAI zrušilo vydání modelu GPT-6.1 Astra pro bezpečnostní obavy",
-        "en": "OpenAI cancels GPT-6.1 Astra release over safety concerns"
-      },
-      "itemCount": 9
     }
   ]
 }

@@ -3720,6 +3720,28 @@
       ],
       "added": "2026-10-12",
       "used": "2026-10-12"
+    },
+    {
+      "slug": "tip-copilot-local-sandboxing-ga",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "title": {
+        "cs": "Lokální sandbox pro Copilota je teď naplno dostupný",
+        "en": "Local sandboxing for Copilot is now fully available"
+      },
+      "summary": {
+        "cs": "GitHub 7. října uvolnilo lokální sandboxing pro Copilota (CLI, appku i VS Code s Agent Host) z preview do plné dostupnosti, zdarma. Příkazy a nástroje, co Copilot spouští, běží s omezeným přístupem k souborům, síti a přihlašovacím údajům podle politiky, kterou nastaví vývojář nebo organizace — nezávisle na tom, jaký model Copilot používá.",
+        "en": "On October 7, GitHub moved local sandboxing for Copilot (CLI, the app, and VS Code with Agent Host) from preview to full availability. Commands and tools it runs get restricted file, network, and credential access based on a policy the developer or organization sets, regardless of the model in use."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-gitHub-copilot-now-generally-available"
+        }
+      ],
+      "added": "2026-10-13",
+      "used": "2026-10-13"
     }
   ]
 }
