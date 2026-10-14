@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-13T03:55:00Z",
+  "updated": "2026-10-14T03:55:00Z",
   "briefs": [
+    {
+      "date": "2026-10-14",
+      "headline": {
+        "cs": "Gemini 4 Argon je teď dostupný v Copilotu",
+        "en": "Gemini 4 Argon is now available in Copilot"
+      },
+      "itemCount": 3
+    },
     {
       "date": "2026-10-13",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Google releases Gemini 4 Argon, its most powerful model"
       },
       "itemCount": 7
-    },
-    {
-      "date": "2026-09-30",
-      "headline": {
-        "cs": "Trump a šéfové AI firem podepsali dohodu o sebekontrole",
-        "en": "Trump and AI company chiefs sign a self-policing accord"
-      },
-      "itemCount": 6
     }
   ]
 }

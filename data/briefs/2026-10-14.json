@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-14",
+  "sample": false,
+  "headline": {
+    "cs": "Gemini 4 Argon je teď dostupný v Copilotu",
+    "en": "Gemini 4 Argon is now available in Copilot"
+  },
+  "items": [
+    {
+      "id": "2026-10-14-gemini-4-argon-github-copilot-ga",
+      "kind": "news",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-13",
+      "title": {
+        "cs": "Gemini 4 Argon je teď dostupný v Copilotu",
+        "en": "Gemini 4 Argon is now available in Copilot"
+      },
+      "summary": {
+        "cs": "GitHub 13. října zpřístupnilo Google model Gemini 4 Argon naplno v Copilotu — ve VS Code, Visual Studiu, CLI, agentovi, JetBrains IDE, Xcode i Eclipse. Model cílí na složité kódovací a agentní úlohy; GitHub uvádí zlepšení oproti starším modelům Gemini, nejvíc v Copilot CLI. Zavádění je postupné, dostupné od plánu Pro+.",
+        "en": "On October 13, GitHub made Google's Gemini 4 Argon fully available in Copilot — in VS Code, Visual Studio, the CLI, the coding agent, JetBrains IDEs, Xcode, and Eclipse. The model targets complex coding and agentic tasks; GitHub reports gains over older Gemini models, largest in Copilot CLI. Rollout is gradual, from the Pro+ plan."
+      },
+      "why": {
+        "cs": "Používáš Copilota na těžší úkoly? Zkus v model pickeru Gemini 4 Argon — GitHub hlásí znatelné zlepšení hlavně v příkazové řádce Copilot CLI.",
+        "en": "Tackling harder tasks in Copilot? Try Gemini 4 Argon from the model picker — GitHub reports the clearest gains in the Copilot CLI specifically."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-apple-homeview-smart-home-hub",
+      "kind": "news",
+      "category": "tools",
+      "verified": false,
+      "eventDate": "2026-10-13",
+      "title": {
+        "cs": "Apple spustil chytrý domácí hub HomeView",
+        "en": "Apple launches HomeView smart home hub"
+      },
+      "summary": {
+        "cs": "Apple 13. října na akci Welcome Home v New Yorku představil HomeView — dotykový hub se 7palcovým displejem a kamerou, za 299 dolarů. Běží hlavně na hlasové ovládání přes Siri AI, pozná uživatele podle hlasu nebo iPhonu nablízku a nemá App Store. Předobjednávky běží od 13. října, dodávky od 13. listopadu.",
+        "en": "At its Welcome Home event in New York on October 13, Apple unveiled HomeView — a touchscreen hub with a 7-inch display and a camera, priced at $299. It runs mainly on voice through Siri AI, recognizes users by voice or a nearby iPhone, and has no App Store. Pre-orders opened October 13, shipping November 13."
+      },
+      "why": {
+        "cs": "Zajímá tě chytrá domácnost ovládaná hlasem? HomeView stojí 299 dolarů, předobjednáš ho teď — ale fakta zatím potvrzuje jediný zdroj, počkej na další potvrzení.",
+        "en": "Into voice-controlled smart homes? HomeView costs $299 and pre-orders are open now — though only one source has confirmed the details so far, worth a second look."
+      },
+      "sources": [
+        {
+          "name": "BGR",
+          "url": "https://www.bgr.com/2285087/apple-tv-4k-a19-pro-reveal-siri/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-tip-github-secret-scanning-anthropic-keys",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-13",
+      "title": {
+        "cs": "GitHub teď blokuje únik klíčů Anthropic automaticky",
+        "en": "GitHub now blocks leaked Anthropic keys by default"
+      },
+      "summary": {
+        "cs": "GitHub 13. října zapnul push protection jako výchozí ochranu proti úniku dvou typů klíčů Anthropic API — platí i pro bezplatné veřejné repozitáře se zapnutým secret scanning. Přidal se taky Salesforce jako partner (nahlásí únik přímo firmě) a detekce klíčů Cloudsmith.",
+        "en": "On October 13, GitHub turned on push protection by default against leaks of two Anthropic API key types — covering free public repositories with secret scanning enabled. Salesforce also joined as a partner (leaks get reported straight to the company), plus new detection for Cloudsmith keys."
+      },
+      "why": {
+        "cs": "Máš veřejný repozitář s API klíči Anthropic? Push protection teď zasáhne automaticky i bez zapnutí — zkontroluj nastavení secret scanning ve svém repozitáři.",
+        "en": "Have a public repo with Anthropic API keys in it? Push protection now kicks in automatically — check your repository's secret scanning settings either way."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevírá váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "note": {
+        "cs": "Model, co teď běží jen přes placené API, bude 15. října ke stažení jako otevřené váhy — kdokoli si ho pak spustí na vlastním hardwaru.",
+        "en": "The model, currently available only through paid API, becomes downloadable as open weights on October 15 — anyone will be able to run it on their own hardware."
+      },
+      "sources": [
+        {
+          "name": "StepFun",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-20",
+      "title": {
+        "cs": "NVIDIA pořádá GTC Berlín, hlavní řeč má Jensen Huang",
+        "en": "NVIDIA hosts GTC Berlin, keynote by Jensen Huang"
+      },
+      "note": {
+        "cs": "Evropská konference NVIDIA o AI probíhá 20. až 22. října v Berlíně — hlavní řeč 21. října přednese Jensen Huang, čerstvě po otevření konstrukce Vera Rubin.",
+        "en": "NVIDIA's European AI conference runs October 20-22 in Berlin — Jensen Huang delivers the October 21 keynote, fresh off opening the Vera Rubin rack designs."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/en-eu/gtc/faq/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-24",
+      "title": {
+        "cs": "Perplexity vyřadí staré modely z Agent a Router API",
+        "en": "Perplexity retires old models from Agent and Router API"
+      },
+      "note": {
+        "cs": "Od 24. října o půlnoci UTC Perplexity vyřadí z Agent API a Router API starší modely OpenAI řady GPT-5 — vývojáři musí přejít na náhradu předem.",
+        "en": "On October 24 at midnight UTC, Perplexity retires older OpenAI GPT-5 models from its Agent and Router API — developers need to switch to a replacement beforehand."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-28",
+      "title": {
+        "cs": "GitHub Universe se vrací do San Francisca",
+        "en": "GitHub Universe returns to San Francisco"
+      },
+      "note": {
+        "cs": "Vlajková konference GitHubu pro vývojáře probíhá 28.–29. října ve Fort Mason Center — zaměří se na agentickou éru vývoje softwaru.",
+        "en": "GitHub's flagship developer conference runs October 28-29 at Fort Mason Center — the theme this year is the agentic era of software development."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

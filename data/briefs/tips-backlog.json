@@ -3742,6 +3742,28 @@
       ],
       "added": "2026-10-13",
       "used": "2026-10-13"
+    },
+    {
+      "slug": "tip-github-secret-scanning-anthropic-keys",
+      "category": "tools",
+      "theme": "other",
+      "verified": true,
+      "title": {
+        "cs": "GitHub teď blokuje únik klíčů Anthropic automaticky",
+        "en": "GitHub now blocks leaked Anthropic keys by default"
+      },
+      "summary": {
+        "cs": "GitHub 13. října zapnul push protection jako výchozí ochranu proti úniku dvou typů klíčů Anthropic API — platí i pro bezplatné veřejné repozitáře se zapnutým secret scanning. Přidal se taky Salesforce jako partner (nahlásí únik přímo firmě) a detekce klíčů Cloudsmith.",
+        "en": "On October 13, GitHub turned on push protection by default against leaks of two Anthropic API key types — covering free public repositories with secret scanning enabled. Salesforce also joined as a partner (leaks get reported straight to the company), plus new detection for Cloudsmith keys."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce"
+        }
+      ],
+      "added": "2026-10-14",
+      "used": "2026-10-14"
     }
   ]
 }

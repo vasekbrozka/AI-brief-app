@@ -1539,7 +1539,22 @@
       "slug": "2026-10-13-tip-copilot-local-sandboxing-ga",
       "date": "2026-10-13",
       "topic": "tip: Lokální sandbox pro Copilota je teď naplno dostupný"
+    },
+    {
+      "slug": "2026-10-14-gemini-4-argon-github-copilot-ga",
+      "date": "2026-10-14",
+      "topic": "Gemini 4 Argon je teď dostupný v Copilotu"
+    },
+    {
+      "slug": "2026-10-14-apple-homeview-smart-home-hub",
+      "date": "2026-10-14",
+      "topic": "Apple spustil chytrý domácí hub HomeView"
+    },
+    {
+      "slug": "2026-10-14-tip-github-secret-scanning-anthropic-keys",
+      "date": "2026-10-14",
+      "topic": "tip: GitHub teď blokuje únik klíčů Anthropic automaticky"
     }
   ],
-  "updated": "2026-10-13T03:55:00Z"
+  "updated": "2026-10-14T03:55:00Z"
 }
