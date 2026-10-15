@@ -3764,6 +3764,28 @@
       ],
       "added": "2026-10-14",
       "used": "2026-10-14"
+    },
+    {
+      "slug": "tip-github-hydrafusion-max",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "title": {
+        "cs": "Copilot nabízí HydraFusion Max pro těžší úkoly",
+        "en": "Copilot adds HydraFusion Max for harder tasks"
+      },
+      "summary": {
+        "cs": "GitHub 14. října vylepšil výzkumný preview HydraFusion (kombinuje víc modelů do jedné odpovědi bez výběru) a přidal variantu Max, co víc uvažování nasadí tam, kde to má smysl. Fond modelů teď zahrnuje Claude Opus 5.5, GPT-6 Astra, GPT-6.1 Sol a GPT-6 Luna; dostupné ve VS Code, appce i CLI.",
+        "en": "On October 14, GitHub upgraded its HydraFusion preview (combines several models into one response, no picking needed) and added a Max variant that applies more reasoning where it matters most. The model pool now includes Claude Opus 5.5, GPT-6 Astra, GPT-6.1 Sol, and GPT-6 Luna; available in VS Code, the app, and the CLI."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option"
+        }
+      ],
+      "added": "2026-10-15",
+      "used": "2026-10-15"
     }
   ]
 }

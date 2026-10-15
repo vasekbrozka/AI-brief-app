@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-14T03:55:00Z",
+  "updated": "2026-10-15T03:55:00Z",
   "briefs": [
+    {
+      "date": "2026-10-15",
+      "headline": {
+        "cs": "Anthropic zpřísnil ochranu Claude před volbami v USA",
+        "en": "Anthropic tightens Claude's safeguards for US midterms"
+      },
+      "itemCount": 3
+    },
     {
       "date": "2026-10-14",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "ChatGPT can now virtually try clothes on for you"
       },
       "itemCount": 8
-    },
-    {
-      "date": "2026-10-01",
-      "headline": {
-        "cs": "Google vydal Gemini 4 Argon, svůj nejsilnější model",
-        "en": "Google releases Gemini 4 Argon, its most powerful model"
-      },
-      "itemCount": 7
     }
   ]
 }

@@ -1554,7 +1554,22 @@
       "slug": "2026-10-14-tip-github-secret-scanning-anthropic-keys",
       "date": "2026-10-14",
       "topic": "tip: GitHub teď blokuje únik klíčů Anthropic automaticky"
+    },
+    {
+      "slug": "2026-10-15-anthropic-2026-us-midterms-safeguards",
+      "date": "2026-10-15",
+      "topic": "Anthropic zpřísnil ochranu Claude před volbami v USA"
+    },
+    {
+      "slug": "2026-10-15-anthropic-singapore-office-mou",
+      "date": "2026-10-15",
+      "topic": "Anthropic otevřel kancelář v Singapuru"
+    },
+    {
+      "slug": "2026-10-15-tip-github-hydrafusion-max",
+      "date": "2026-10-15",
+      "topic": "tip: Copilot nabízí HydraFusion Max pro těžší úkoly"
     }
   ],
-  "updated": "2026-10-14T03:55:00Z"
+  "updated": "2026-10-15T03:55:00Z"
 }
