@@ -3786,6 +3786,50 @@
       ],
       "added": "2026-10-15",
       "used": "2026-10-15"
+    },
+    {
+      "slug": "tip-copilot-slack-teams-multi-repo",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "title": {
+        "cs": "Copilot ve Slacku a Teams zvládne víc repozitářů",
+        "en": "Copilot in Slack and Teams now spans repos"
+      },
+      "summary": {
+        "cs": "GitHub 15. října vylepšilo Copilota ve Slacku a Microsoft Teams — teď zvládne jednu konverzaci přes víc repozitářů najednou, například vypsat otevřené pull requesty ze dvou projektů. Zmínka @GitHub funguje kdekoli v zprávě, přepínání repozitářů je jednodušší a Copilot umí číst i sdílené zprávy jako podklad.",
+        "en": "On October 15, GitHub upgraded Copilot in Slack and Microsoft Teams — it can now handle one conversation across multiple repositories, like listing open pull requests from two projects at once. You can @mention GitHub anywhere in a message, switching repos is easier, and Copilot can read shared messages as context."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates"
+        }
+      ],
+      "added": "2026-10-16",
+      "used": "2026-10-16"
+    },
+    {
+      "slug": "tip-cursor-origin-app-marketplace",
+      "category": "tools",
+      "theme": "cursor",
+      "verified": true,
+      "title": {
+        "cs": "Cursor otevřel Origin pro víc než 20 aplikací",
+        "en": "Cursor opens Origin marketplace with 20+ apps"
+      },
+      "summary": {
+        "cs": "Cursor 13. října otevřel tržiště aplikací pro Origin — svůj nástroj na hostování a správu kódu. Napojit lze přes 20 nástrojů na nasazení, CI, code review, bezpečnost a monitoring, včetně Cloudflare, Linear nebo Sentry. Od stejného dne může aplikaci pro tržiště zveřejnit kdokoli, kdo vyvíjí nástroje pro vývojáře.",
+        "en": "On October 13, Cursor opened an app marketplace for Origin, its code hosting and management tool. Over 20 apps now connect for deployments, CI, code review, security, and monitoring, including Cloudflare, Linear, and Sentry. As of the same day, anyone building developer tools can submit an app to the marketplace."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/changelog/origin-app-marketplace"
+        }
+      ],
+      "added": "2026-10-16",
+      "used": "2026-10-16"
     }
   ]
 }

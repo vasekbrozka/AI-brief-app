@@ -1,0 +1,296 @@
+{
+  "date": "2026-10-16",
+  "sample": false,
+  "headline": {
+    "cs": "NVIDIA otevřela nové modely Nemotron pro lokální běh",
+    "en": "NVIDIA opens new Nemotron models for local use"
+  },
+  "items": [
+    {
+      "id": "2026-10-16-nvidia-nemotron-3-5-super-vl-bolt",
+      "kind": "news",
+      "category": "opensource",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-15",
+      "title": {
+        "cs": "NVIDIA otevřela nové modely Nemotron pro lokální běh",
+        "en": "NVIDIA opens new Nemotron models for local use"
+      },
+      "summary": {
+        "cs": "NVIDIA 15. října rozšířila rodinu Nemotron o dva nové otevřené modely: Super VL (120 miliard parametrů) pro datacentra i stolní počítače, a menší Bolt pro běžný hardware — vejde se do 24 GB paměti díky 2bitové kvantizaci. Třetí, ještě menší model dorazí 23. října. Váhy jsou na Hugging Face, podporují Ollama, LM Studio i llama.cpp.",
+        "en": "On October 15, NVIDIA expanded Nemotron with two open models: Super VL (120 billion parameters) for data centers and desktops, plus a smaller Bolt model for everyday hardware that fits in 24GB of memory via 2-bit quantization. A third, smaller model arrives October 23. Weights are on Hugging Face, supporting Ollama, LM Studio, and llama.cpp."
+      },
+      "why": {
+        "cs": "Chceš model spouštět doma nebo offline? Bolt se vejde do 24 GB VRAM a funguje přímo v Ollamě nebo LM Studiu — stáhni váhy z Hugging Face.",
+        "en": "Want to run a model at home or offline? Bolt fits in 24GB of VRAM and works directly in Ollama or LM Studio — download the weights from Hugging Face."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16-anthropic-independent-evaluators-metr",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-10-15",
+      "title": {
+        "cs": "Anthropic dal nezávislým hodnotitelům přístup jako zaměstnancům",
+        "en": "Anthropic grants independent evaluators employee-level access"
+      },
+      "summary": {
+        "cs": "Anthropic 15. října oznámil, že týmu nezávislé organizace METR dal přístup na úrovni zaměstnanců — k firemnímu hardwaru, kancelářím i interním nástrojům. METR teď smí zveřejnit svoje hodnocení rizik Anthropicu bez schválení, firma může žádat jen o začernění citlivých detailů. Podobně budou pokračovat SecureBio a Accenture.",
+        "en": "On October 15, Anthropic announced it gave a team from nonprofit METR employee-level access — to company hardware, office space, and internal tools. METR can now publish its risk assessments of Anthropic without approval; the company can only request redaction of sensitive details. SecureBio and Accenture may follow a similar path."
+      },
+      "why": {
+        "cs": "Tohle není jen PR krok — METR teď může o Anthropicu publikovat nezávisle, i kriticky. Sleduj, jestli se podobně otevřou i OpenAI nebo Google.",
+        "en": "This isn't just PR — METR can now publish independent, even critical findings about Anthropic. Worth watching whether OpenAI or Google open up similarly."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16-stepfun-step-5-preview-open-weights",
+      "kind": "news",
+      "category": "opensource",
+      "verified": true,
+      "eventDate": "2026-10-15",
+      "title": {
+        "cs": "StepFun otevřel váhy modelu Step 5 Preview",
+        "en": "StepFun opens weights for Step 5 Preview"
+      },
+      "summary": {
+        "cs": "StepFun 15. října otevřel váhy modelu Step 5 Preview — má přes 600 miliard parametrů (aktivních jen 27 miliard najednou), milion tokenů kontextu a umí i obrázky. Váhy ve formátech BF16 a FP8 jsou na Hugging Face a ModelScope; dřív šel model použít jen přes placené API.",
+        "en": "On October 15, StepFun open-sourced the weights for Step 5 Preview — a model with over 600 billion parameters (only 27 billion active at once), a million-token context window, and image understanding. BF16 and FP8 weights are on Hugging Face and ModelScope; previously the model was only available through a paid API."
+      },
+      "why": {
+        "cs": "Vyvíjíš vlastní agenty nebo nástroje? Step 5 Preview si teď můžeš stáhnout a provozovat sám, i upravit pro svoje potřeby — ale počítej s velkým hardwarem.",
+        "en": "Building your own agents or tools? You can now download Step 5 Preview and run or fine-tune it yourself — just expect to need serious hardware."
+      },
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/stepfun-ai/Step-5-Preview-BF16"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16-github-agentic-autofix-ga",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-15",
+      "title": {
+        "cs": "GitHub spustil automatické opravy bezpečnostních chyb",
+        "en": "GitHub launches agentic autofix for security alerts"
+      },
+      "summary": {
+        "cs": "GitHub 15. října zpřístupnil agentic autofix — Copilot teď na vyžádání sám prozkoumá kód, navrhne opravu bezpečnostní chyby z CodeQL, ověří ji a otevře pull request ke kontrole. Funkce běží na GitHub Enterprise Cloud s Advanced Security, naráz jde opravit až 25 nálezů.",
+        "en": "On October 15, GitHub made agentic autofix generally available — on request, Copilot now explores the code itself, proposes a fix for a CodeQL security alert, verifies it, and opens a pull request for review. It runs on GitHub Enterprise Cloud with Advanced Security, fixing up to 25 alerts at once."
+      },
+      "why": {
+        "cs": "Máš repozitář s Advanced Security a otevřenými CodeQL nálezy? Přiřaď je Copilotovi a nech ho připravit opravu — ty jen zkontroluješ pull request.",
+        "en": "Have a repo with Advanced Security and open CodeQL alerts? Assign them to Copilot and let it prepare the fix — you just review the pull request."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16-github-ai-scan-pull-requests-ga",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-15",
+      "title": {
+        "cs": "GitHub zpřístupnil AI Scan pro pull requesty",
+        "en": "GitHub makes AI Scan for pull requests GA"
+      },
+      "summary": {
+        "cs": "GitHub 15. října zpřístupnil AI Scan naplno — doplňuje CodeQL o jazyky, co dřív nepokrýval: PHP, Shell, Terraform, Dockerfile i JSP. Nálezy se objeví přímo u pull requestu s vysvětlením rizika a návrhem opravy, ale nikdy nezablokují merge. Funguje i ve veřejných repozitářích bez licence na Copilot.",
+        "en": "On October 15, GitHub made AI Scan generally available — it complements CodeQL by covering languages CodeQL doesn't, like PHP, Shell, Terraform, Dockerfiles, and JSP. Findings show up right on the pull request with a risk explanation and suggested fix, but never block a merge. It works on public repos without a Copilot license."
+      },
+      "why": {
+        "cs": "Máš veřejný repozitář v PHP, Shellu nebo Terraformu? Zapni AI Scan v nastavení code scanning — nepotřebuješ k tomu licenci Copilota ani nic neriskuješ, nálezy merge nezastaví.",
+        "en": "Have a public PHP, Shell, or Terraform repo? Turn on AI Scan in your code scanning settings — no Copilot license needed, and findings never block your merge."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16-tip-copilot-slack-teams-multi-repo",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-15",
+      "title": {
+        "cs": "Copilot ve Slacku a Teams zvládne víc repozitářů",
+        "en": "Copilot in Slack and Teams now spans repos"
+      },
+      "summary": {
+        "cs": "GitHub 15. října vylepšilo Copilota ve Slacku a Microsoft Teams — teď zvládne jednu konverzaci přes víc repozitářů najednou, například vypsat otevřené pull requesty ze dvou projektů. Zmínka @GitHub funguje kdekoli v zprávě, přepínání repozitářů je jednodušší a Copilot umí číst i sdílené zprávy jako podklad.",
+        "en": "On October 15, GitHub upgraded Copilot in Slack and Microsoft Teams — it can now handle one conversation across multiple repositories, like listing open pull requests from two projects at once. You can @mention GitHub anywhere in a message, switching repos is easier, and Copilot can read shared messages as context."
+      },
+      "why": {
+        "cs": "Používáš Copilota ve Slacku nebo Teams na víc projektů? Teď se nemusíš přepínat mezi konverzacemi — stačí zmínit oba repozitáře v jedné zprávě.",
+        "en": "Using Copilot in Slack or Teams across several projects? You no longer need separate conversations — just mention both repositories in the same message."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16-tip-cursor-origin-app-marketplace",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-13",
+      "title": {
+        "cs": "Cursor otevřel Origin pro víc než 20 aplikací",
+        "en": "Cursor opens Origin marketplace with 20+ apps"
+      },
+      "summary": {
+        "cs": "Cursor 13. října otevřel tržiště aplikací pro Origin — svůj nástroj na hostování a správu kódu. Napojit lze přes 20 nástrojů na nasazení, CI, code review, bezpečnost a monitoring, včetně Cloudflare, Linear nebo Sentry. Od stejného dne může aplikaci pro tržiště zveřejnit kdokoli, kdo vyvíjí nástroje pro vývojáře.",
+        "en": "On October 13, Cursor opened an app marketplace for Origin, its code hosting and management tool. Over 20 apps now connect for deployments, CI, code review, security, and monitoring, including Cloudflare, Linear, and Sentry. As of the same day, anyone building developer tools can submit an app to the marketplace."
+      },
+      "why": {
+        "cs": "Používáš Cursor s Origin na hostování kódu? Zkus přidat Cloudflare, Linear nebo Sentry přímo z tržiště aplikací — ušetříš ruční propojování.",
+        "en": "Using Cursor with Origin for code hosting? Try adding Cloudflare, Linear, or Sentry straight from the app marketplace — it saves you manual setup."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/changelog/origin-app-marketplace"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-20",
+      "title": {
+        "cs": "NVIDIA pořádá GTC Berlín, hlavní řeč má Jensen Huang",
+        "en": "NVIDIA hosts GTC Berlin, keynote by Jensen Huang"
+      },
+      "note": {
+        "cs": "Evropská konference NVIDIA o AI probíhá 20. až 22. října v Berlíně — hlavní řeč 21. října přednese Jensen Huang, čerstvě po otevření konstrukce Vera Rubin.",
+        "en": "NVIDIA's European AI conference runs October 20-22 in Berlin — Jensen Huang delivers the October 21 keynote, fresh off opening the Vera Rubin rack designs."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/en-eu/gtc/faq/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-24",
+      "title": {
+        "cs": "Perplexity vyřadí staré modely z Agent a Router API",
+        "en": "Perplexity retires old models from Agent and Router API"
+      },
+      "note": {
+        "cs": "Od 24. října o půlnoci UTC Perplexity vyřadí z Agent API a Router API starší modely OpenAI řady GPT-5 — vývojáři musí přejít na náhradu předem.",
+        "en": "On October 24 at midnight UTC, Perplexity retires older OpenAI GPT-5 models from its Agent and Router API — developers need to switch to a replacement beforehand."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-28",
+      "title": {
+        "cs": "GitHub Universe se vrací do San Francisca",
+        "en": "GitHub Universe returns to San Francisco"
+      },
+      "note": {
+        "cs": "Vlajková konference GitHubu pro vývojáře probíhá 28.–29. října ve Fort Mason Center — zaměří se na agentickou éru vývoje softwaru.",
+        "en": "GitHub's flagship developer conference runs October 28-29 at Fort Mason Center — the theme this year is the agentic era of software development."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "GitHub vyřadí z Copilota tři modely",
+        "en": "GitHub retires three models from Copilot"
+      },
+      "note": {
+        "cs": "16. listopadu GitHub vyřadí z Copilota Claude Opus 4.8, Opus 5 a GPT-5.6 Terra — náhradou jsou Opus 5.5 a GPT-6.1 Sol nebo Luna. Roční předplatitelé si Opus 4.8 udrží.",
+        "en": "On November 16, GitHub retires Claude Opus 4.8, Opus 5, and GPT-5.6 Terra from Copilot — replacements are Opus 5.5 and GPT-6.1 Sol or Luna. Annual subscribers keep Opus 4.8."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

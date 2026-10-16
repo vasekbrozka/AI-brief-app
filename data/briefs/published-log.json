@@ -1569,7 +1569,42 @@
       "slug": "2026-10-15-tip-github-hydrafusion-max",
       "date": "2026-10-15",
       "topic": "tip: Copilot nabízí HydraFusion Max pro těžší úkoly"
+    },
+    {
+      "slug": "2026-10-16-nvidia-nemotron-3-5-super-vl-bolt",
+      "date": "2026-10-16",
+      "topic": "NVIDIA otevřela nové modely Nemotron pro lokální běh"
+    },
+    {
+      "slug": "2026-10-16-anthropic-independent-evaluators-metr",
+      "date": "2026-10-16",
+      "topic": "Anthropic dal nezávislým hodnotitelům přístup jako zaměstnancům"
+    },
+    {
+      "slug": "2026-10-16-stepfun-step-5-preview-open-weights",
+      "date": "2026-10-16",
+      "topic": "StepFun otevřel váhy modelu Step 5 Preview"
+    },
+    {
+      "slug": "2026-10-16-github-agentic-autofix-ga",
+      "date": "2026-10-16",
+      "topic": "GitHub spustil automatické opravy bezpečnostních chyb"
+    },
+    {
+      "slug": "2026-10-16-github-ai-scan-pull-requests-ga",
+      "date": "2026-10-16",
+      "topic": "GitHub zpřístupnil AI Scan pro pull requesty"
+    },
+    {
+      "slug": "2026-10-16-tip-copilot-slack-teams-multi-repo",
+      "date": "2026-10-16",
+      "topic": "tip: Copilot ve Slacku a Teams zvládne víc repozitářů"
+    },
+    {
+      "slug": "2026-10-16-tip-cursor-origin-app-marketplace",
+      "date": "2026-10-16",
+      "topic": "tip: Cursor otevřel Origin pro víc než 20 aplikací"
     }
   ],
-  "updated": "2026-10-15T03:55:00Z"
+  "updated": "2026-10-16T03:55:00Z"
 }

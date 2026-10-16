@@ -1,6 +1,26 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-16",
   "terms": [
+    {
+      "id": "quantization",
+      "term": {
+        "cs": "Kvantizace",
+        "en": "Quantization"
+      },
+      "aliases": [
+        "kvantizace",
+        "kvantizaci",
+        "kvantizací",
+        "quantization",
+        "quantized",
+        "2bitová",
+        "2bitové"
+      ],
+      "short": {
+        "cs": "Zmenšení modelu zaokrouhlením jeho čísel na nižší přesnost — ušetří paměť a výkon, za cenu malé ztráty kvality.",
+        "en": "Shrinking a model by rounding its numbers to lower precision — saves memory and compute, at a small cost in quality."
+      }
+    },
     {
       "id": "misalignment",
       "term": {
