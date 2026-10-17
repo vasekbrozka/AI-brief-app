@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-16T03:55:00Z",
+  "updated": "2026-10-17T03:55:00Z",
   "briefs": [
+    {
+      "date": "2026-10-17",
+      "headline": {
+        "cs": "Meta vydala svůj první špičkový model Muse Wonder",
+        "en": "Meta launches its first frontier model, Muse Wonder"
+      },
+      "itemCount": 4
+    },
     {
       "date": "2026-10-16",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "California bans firing workers on AI decisions alone"
       },
       "itemCount": 6
-    },
-    {
-      "date": "2026-10-03",
-      "headline": {
-        "cs": "Gemini Live teď slovně provede nevidomé okolím",
-        "en": "Gemini Live now guides blind users through surroundings"
-      },
-      "itemCount": 8
     }
   ]
 }

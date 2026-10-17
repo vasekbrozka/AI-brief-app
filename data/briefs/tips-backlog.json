@@ -3830,6 +3830,50 @@
       ],
       "added": "2026-10-16",
       "used": "2026-10-16"
+    },
+    {
+      "slug": "tip-gmail-live-workspace",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "Gmail Live čte a říká odpovědi z e-mailu nahlas",
+        "en": "Gmail Live answers questions about your inbox aloud"
+      },
+      "summary": {
+        "cs": "Google 15. října rozšířil Gmail Live (hlasové vyhledávání v e-mailu) i na firemní a školní účty Workspace — zatím jen mobil, angličtina a USA. Zeptáš se nahlas na stav objednávky nebo let a appka odpoví mluveným hlasem, s kartou zdroje u každé odpovědi. Náběh trvá až 15 dní.",
+        "en": "On October 15, Google extended Gmail Live (voice search for email) to business and education Workspace accounts — mobile only, US English for now. Ask a question, like an order status or a flight gate, and the app answers by voice, with a source card for each answer. Rollout takes up to 15 days."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "http://workspaceupdates.googleblog.com/2026/10/gmail-live-is-rolling-out-to-paid-Workspace-users.html"
+        }
+      ],
+      "added": "2026-10-17",
+      "used": "2026-10-17"
+    },
+    {
+      "slug": "tip-gmail-ai-inbox-workspace",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "title": {
+        "cs": "Gmail AI Inbox teď i pro firemní Workspace",
+        "en": "Gmail's AI Inbox expands to Workspace accounts"
+      },
+      "summary": {
+        "cs": "Google od 12. října rozšiřuje AI Inbox z Gmailu (letos dřív jen pro osobní účty) i na firemní Workspace — Business, Enterprise, Frontline Plus. Funkce vytáhne z e-mailů úkoly a termíny do sekce Návrhy úkolů a shrne rozsáhlá vlákna v sekci Co sis měl/a přečíst. Zatím jen angličtina v USA, bez možnosti vypnutí správcem.",
+        "en": "Since October 12, Google has been expanding Gmail's AI Inbox (earlier this year limited to personal accounts) to business Workspace accounts — Business, Enterprise, Frontline Plus. It pulls action items and deadlines into a Suggested to-dos section, and summarizes long threads under Topics to catch up on. US English only, with no admin opt-out."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "http://workspaceupdates.googleblog.com/2026/10/gmails-ai-inbox-is-rolling-out-to-paid-Workspace-users.html"
+        }
+      ],
+      "added": "2026-10-17",
+      "used": "2026-10-17"
     }
   ]
 }
