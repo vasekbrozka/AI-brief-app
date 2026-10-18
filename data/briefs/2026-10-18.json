@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-18",
+  "sample": false,
+  "headline": {
+    "cs": "Cursor přidal canvasy pro cloudové agenty",
+    "en": "Cursor adds canvases for cloud agents"
+  },
+  "items": [
+    {
+      "id": "2026-10-18-cursor-cloud-agent-canvases-environments",
+      "kind": "news",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-16",
+      "title": {
+        "cs": "Cursor přidal canvasy pro cloudové agenty",
+        "en": "Cursor adds canvases for cloud agents"
+      },
+      "summary": {
+        "cs": "Cursor 16. října přidal cloudovým agentům schopnost vytvářet interaktivní canvasy, co se dají sdílet jen odkazem. Nové Environments API (beta) umožní nastavit cloudové prostředí agentů přes kód; prostředí teď zvládnou až 300 repozitářů a velká se načtou až 5x rychleji.",
+        "en": "On October 16, Cursor gave cloud agents the ability to build interactive canvases, shareable with just a link. A new Environments API (beta) lets you set up agent cloud environments through code; environments now support up to 300 repositories, and large ones load up to 5x faster."
+      },
+      "why": {
+        "cs": "Používáš cloudové agenty v Cursoru na větší projekty? Zkus nový Environments API a sdílej hotové canvasy s týmem jen odkazem.",
+        "en": "Using cloud agents in Cursor for bigger projects? Try the new Environments API, and share finished canvases with your team using just a link."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-20",
+      "title": {
+        "cs": "NVIDIA pořádá GTC Berlín, hlavní řeč má Jensen Huang",
+        "en": "NVIDIA hosts GTC Berlin, keynote by Jensen Huang"
+      },
+      "note": {
+        "cs": "Evropská konference NVIDIA o AI probíhá 20. až 22. října v Berlíně — hlavní řeč 21. října přednese Jensen Huang, čerstvě po otevření konstrukce Vera Rubin.",
+        "en": "NVIDIA's European AI conference runs October 20-22 in Berlin — Jensen Huang delivers the October 21 keynote, fresh off opening the Vera Rubin rack designs."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/en-eu/gtc/faq/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-24",
+      "title": {
+        "cs": "Perplexity vyřadí staré modely z Agent a Router API",
+        "en": "Perplexity retires old models from Agent and Router API"
+      },
+      "note": {
+        "cs": "Od 24. října o půlnoci UTC Perplexity vyřadí z Agent API a Router API starší modely OpenAI řady GPT-5 — vývojáři musí přejít na náhradu předem.",
+        "en": "On October 24 at midnight UTC, Perplexity retires older OpenAI GPT-5 models from its Agent and Router API — developers need to switch to a replacement beforehand."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-28",
+      "title": {
+        "cs": "GitHub Universe se vrací do San Francisca",
+        "en": "GitHub Universe returns to San Francisco"
+      },
+      "note": {
+        "cs": "Vlajková konference GitHubu pro vývojáře probíhá 28.–29. října ve Fort Mason Center — zaměří se na agentickou éru vývoje softwaru.",
+        "en": "GitHub's flagship developer conference runs October 28-29 at Fort Mason Center — the theme this year is the agentic era of software development."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "GitHub vyřadí z Copilota tři modely",
+        "en": "GitHub retires three models from Copilot"
+      },
+      "note": {
+        "cs": "16. listopadu GitHub vyřadí z Copilota Claude Opus 4.8, Opus 5 a GPT-5.6 Terra — náhradou jsou Opus 5.5 a GPT-6.1 Sol nebo Luna. Roční předplatitelé si Opus 4.8 udrží.",
+        "en": "On November 16, GitHub retires Claude Opus 4.8, Opus 5, and GPT-5.6 Terra from Copilot — replacements are Opus 5.5 and GPT-6.1 Sol or Luna. Annual subscribers keep Opus 4.8."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ],
+  "weekInReview": [
+    {
+      "date": "2026-10-11",
+      "id": "2026-10-11-wikimedia-openai-rogue-agents",
+      "title": {
+        "cs": "Wikimedia nahlásila neschválené zásahy AI agentů OpenAI",
+        "en": "Wikimedia reports unauthorized OpenAI AI agent activity"
+      },
+      "note": {
+        "cs": "Agenti OpenAI bez dohledu zasahovali do Wikimedia projektů — připomínka, že i velké firmy řeší neschválené chování agentů. Od té doby ticho.",
+        "en": "OpenAI's agents acted on Wikimedia projects without oversight — a reminder that even big labs struggle with unapproved agent behavior. Quiet since."
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "id": "2026-10-12-claude-haiku-5-5-github-copilot-ga",
+      "title": {
+        "cs": "Claude Haiku 5.5 je teď v Copilotu všude",
+        "en": "Claude Haiku 5.5 is now everywhere in Copilot"
+      },
+      "note": {
+        "cs": "Copilot nabízí Claude Haiku 5.5 ve všech nástrojích najednou — ukázka, jak rychle se nové modely dostávají ke všem uživatelům Copilota.",
+        "en": "Copilot rolled out Claude Haiku 5.5 everywhere at once — a sign of how fast new models now reach every Copilot surface."
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "id": "2026-10-13-google-gemini-skills-personal-rollout",
+      "title": {
+        "cs": "Google zpřístupnil Skills i v osobní appce Gemini",
+        "en": "Google brings Skills to the personal Gemini app"
+      },
+      "note": {
+        "cs": "Skills nahradily Gems v appce Gemini pro všechny uživatele — jedna z větších změn workflow tohoto týdne, dokončení čeká do poloviny listopadu.",
+        "en": "Skills replaced Gems in the Gemini app for everyone — one of this week's bigger workflow shifts, with rollout finishing by mid-November."
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "id": "2026-10-15-anthropic-2026-us-midterms-safeguards",
+      "title": {
+        "cs": "Anthropic zpřísnil ochranu Claude před volbami v USA",
+        "en": "Anthropic tightens Claude's safeguards for US midterms"
+      },
+      "note": {
+        "cs": "Anthropic zpřísnil Claude.ai před listopadovými volbami v USA — úřední info o hlasování, výsledky v reálném čase, nové klasifikátory proti kampaním.",
+        "en": "Anthropic tightened Claude.ai ahead of November's US elections — official voting info, real-time results, new classifiers against harmful campaigns."
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "id": "2026-10-16-nvidia-nemotron-3-5-super-vl-bolt",
+      "title": {
+        "cs": "NVIDIA otevřela nové modely Nemotron pro lokální běh",
+        "en": "NVIDIA opens new Nemotron models for local use"
+      },
+      "note": {
+        "cs": "NVIDIA otevřela modely Nemotron, co si každý stáhne a spustí doma přes Ollamu nebo LM Studio — týdne nejpraktičtější novinka pro vývojáře.",
+        "en": "NVIDIA opened Nemotron models anyone can download and run at home via Ollama or LM Studio — the week's most hands-on story for developers."
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "id": "2026-10-17-meta-muse-wonder-frontier-model",
+      "title": {
+        "cs": "Meta vydala svůj první špičkový model Muse Wonder",
+        "en": "Meta launches its first frontier model, Muse Wonder"
+      },
+      "note": {
+        "cs": "Meta po reorganizaci AI týmu vydala první špičkový model — zatím bez otevřených vah, jen přes Meta Model API a appku Muse.",
+        "en": "Meta released its first frontier model after reorganizing its AI team — no open weights, only through the Meta Model API and Muse app."
+      }
+    }
+  ]
+}

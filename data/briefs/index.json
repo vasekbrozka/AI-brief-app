@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-17T03:55:00Z",
+  "updated": "2026-10-18T03:55:00Z",
   "briefs": [
+    {
+      "date": "2026-10-18",
+      "headline": {
+        "cs": "Cursor přidal canvasy pro cloudové agenty",
+        "en": "Cursor adds canvases for cloud agents"
+      },
+      "itemCount": 1
+    },
     {
       "date": "2026-10-17",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Finance v ChatGPT jsou teď i ve zdarma plánu",
         "en": "ChatGPT Finances now reaches Free plan users too"
-      },
-      "itemCount": 6
-    },
-    {
-      "date": "2026-10-04",
-      "headline": {
-        "cs": "Kalifornie zakázala propouštět lidi jen podle rozhodnutí AI",
-        "en": "California bans firing workers on AI decisions alone"
       },
       "itemCount": 6
     }
