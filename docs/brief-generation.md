@@ -1,4 +1,4 @@
-# AIspresso — recept pro denní generování briefu (v3.6)
+# AIspresso — recept pro denní generování briefu (v3.7)
 
 Tento soubor je **závazný recept**, podle kterého se každý den automaticky generuje nový
 brief. Naplánovaná (cron) Claude session dostane jednoduchý pokyn:
@@ -153,8 +153,13 @@ s novým datem. Datum článku NENÍ datum události. Pro **každého** kandidá
   14 dnů (stejná kauza, nový vývoj), přidej `followsUp` s `date`, `id` a doslovně
   zkopírovaným `title` (cs + en). Odkazuj na nejbližší předchozí díl.
 - **Tichý den:** nejdřív zkontroluj, že jsi prošel všechny bloky rešerše (víkendové
-  briefy mají vzít čtvrteční a páteční dění — 7denní okno je k tomu). Pak tipy z fronty.
-  Pak radar. Když je i tak ticho, dej méně a napiš to do deníku, ne do textů.
+  briefy mají vzít čtvrteční a páteční dění — 7denní okno je k tomu, a blok B má
+  povinný obecný dotaz, viz tabulka v kroku 1). Pak tipy z fronty. Pak radar.
+  **Když má brief po tomhle všem pořád málo zpráv, nedoplňuj ho vymyšlenou nebo
+  starou zprávou — doplň ho tipy.** Rozšiř blok D na celé **~60denní okno** (ne jen
+  aktuální měsíc — „co se v tomhle nástroji zlepšilo za poslední dva měsíce") a najdi
+  reálné, dosud nepublikované funkce/tipy, dokud brief nemá aspoň 10 položek. Teprve
+  když ani tohle nestačí, dej míň a napiš proč do deníku.
 
 ### 4 · Psaní — stylový manuál
 
@@ -250,6 +255,37 @@ v neděli místo nich tento kurátorovaný výběr (karty odkazovaných položek
   že `id` existují a titulky sedí.
 - V jiné dny pole vynech.
 
+### 5c · Nezávislá kontrola čtenáři (povinná)
+
+Než spustíš technickou kontrolu (krok 6), dej **celý rozepsaný brief** (všechny `items`,
+`radar`, případně `weekInReview`) přečíst **třem nezávislým čtenářům** přes nástroj
+**Agent** — každého spusť samostatně (nevidí odpovědi ostatních) a dej mu jinou roli:
+
+1. **Běžný čtenář** — občas použije ChatGPT nebo Claude, AI novinky nesleduje profesně.
+   Zeptej se ho: Je každá položka jasná i bez žargonu? Je `why` skutečně užitečné, nebo
+   jen opakuje shrnutí? Je highlight opravdu nejzajímavější věc dne?
+2. **Pokročilý uživatel** — denně používá víc AI nástrojů (Claude, Copilot, Cursor…).
+   Zeptej se ho: Sedí fakta a čísla, nechybí důležitý kontext? Dá se tip podle `why`
+   skutečně hned vyzkoušet?
+3. **Skeptický redaktor** — hledá hype, přehánění a nepodložená tvrzení. Zeptej se ho:
+   Působí něco jako clickbait? Je `verified: false` z textu samotného zřetelné, ne jen
+   z pole v JSONu? Nepůsobí některá položka jako výplň?
+
+Každému čtenáři dej celý draft a jeho roli, a požádej o stručný seznam konkrétních
+připomínek (ne jen dojem).
+
+- **Zpracování:** přečti všechny tři odpovědi a uprav **jen text** (titulek, shrnutí,
+  `why`, poznámka u radaru) tak, aby odpovídal oprávněné připomínce. Nikdy tím nepřidávej
+  fakta, čísla ani celé položky navíc — platí stejná pravidla jako v krocích 2 a 4.
+  Když se čtenáři rozcházejí, řeš to, co zazní aspoň od dvou ze tří. Když si čtenář
+  přeje víc obsahu nebo jiné téma, to není důvod dosypat nepodloženou položku.
+- Když žádný čtenář nic nenamítá, nic neměň — do deníku napiš, že kontrola proběhla
+  beze změn.
+- **Záznam:** do deníku (krok 7) napiš řádek `Nezávislá kontrola: <co tři čtenáři
+  zjistili a co se kvůli tomu změnilo, nebo "beze změn">`.
+- Když nástroj Agent není dostupný, přečti brief sám za všechny tři role popořadě a
+  výsledek zapiš do deníku stejně — kontrola se nikdy úplně nevynechává.
+
 ### 6 · Kontrola před publikací (povinná)
 
 Po zapsání všech souborů spusť z kořene repa:
@@ -307,6 +343,7 @@ python3 docs/check-brief.py
 
    Bank tipů: <kolik čeká> (claude n · chatgpt n · gemini n · copilot n · other n); přidáno <n>
    Radar: +<nové> / −<odstraněné a proč> · Slovníček: +<n> · Týden v AI: <n položek | ne>
+   Nezávislá kontrola: <co tři čtenáři (krok 5c) zjistili a co se změnilo, nebo "beze změn">
    Průměr za 14 dnů: <položek/den ze `--stats`>
    Zpětná vazba (30 dní): 👍 n · 👎 n · nejvíc 👍: <id> · nejvíc 👎: <id> · dny: 👍 n · 👎 n
    Poznámky: <odchylky od receptu a jejich zdůvodnění; WARN, které jsi pustil>
@@ -345,6 +382,11 @@ a `used` přesné a nikdy záznamy nepřepisuj zpětně.
   **Blok D se ptá na každé téma každý den**, ať je fronta jakkoli hluboká — cílový stav je
   **aspoň 2 čekající tipy na téma**. Vyčerpaná banka je hlavní důvod, proč brief spadne
   pod deset položek, takže doplňovat se má dřív, než dojde.
+  **Zkušenost:** dotaz vázaný jen na aktuální měsíc („changelog October 2026")
+  opakovaně vrátil nic, i když release notes nástroje měly za posledních ~60 dní víc
+  použitelných funkcí — **když dotaz na aktuální měsíc nic nenajde, zopakuj ho bez
+  měsíce/data** („<nástroj> release notes" / „what's new in <nástroj>") a projdi celé
+  okno ~90 dní, než o tématu napíšeš „bez kandidáta".
 - **Ověření tipu:** oficiální release notes / blog (T1) = `verified: true`. Jinak false.
 
 ---
@@ -546,6 +588,21 @@ Kompletní ukázka: `docs/examples/brief-v3-example.json`
 - Víkendové a pondělní briefy jsou z podstaty tenčí na čerstvé oznámení; 14denní okno,
   fronta tipů a radar je mají dorovnat. Když běh selže, brief chybí viditelně v appce — dogeneruje se
   na pokyn v session.
+
+## Změny v3.7 (19. 10. 2026)
+
+**Nezávislá kontrola čtenáři (nový krok 5c):** na žádost uživatele každý brief před
+technickou kontrolou projde přes tři nezávislé čtenáře (přes nástroj Agent) — běžný
+čtenář, pokročilý uživatel, skeptický redaktor. Jejich připomínky se zpracují a
+promítnou do textu (ne do faktů ani nových položek); výsledek se zapisuje do deníku.
+
+**Tipy jako výslovná záloha za chybějící zprávy:** když brief po 14denním okně, frontě
+tipů a bloku B (vč. povinného obecného dotazu z v3.6) pořád nemá aspoň 10 položek,
+recept teď výslovně říká rozšířit blok D na celé ~60–90denní okno („release notes za
+poslední 2 měsíce", ne jen aktuální měsíc) a dorovnat tipy o reálné, dosud
+nepublikované funkce — až teprve pak dát méně a zapsat proč. Stejná zkušenost platí
+pro frontu tipů: dotaz vázaný na aktuální měsíc samotný opakovaně vracel nic, i když
+širší dotaz bez data našel kandidáty.
 
 ## Změny v3.6 (19. 10. 2026)
 
