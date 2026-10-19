@@ -31,6 +31,31 @@
           "url": "https://www.anthropic.com/news/public-benefit-fund"
         }
       ]
+    },
+    {
+      "id": "2026-10-19-states-sue-openai-chatgpt-harms",
+      "kind": "news",
+      "category": "policy",
+      "verified": false,
+      "eventDate": "2026-10-14",
+      "title": {
+        "cs": "Osm amerických států žaluje OpenAI za ChatGPT",
+        "en": "Eight US states sue OpenAI over ChatGPT"
+      },
+      "summary": {
+        "cs": "Osm amerických států — Iowa, Kansas, Arizona, Arkansas, Idaho, Montana, Nebraska a Západní Virginie — 14. října samostatně zažalovalo OpenAI. Tvrdí, že ChatGPT u uživatelů včetně teenagerů podporuje sebepoškozování, násilné myšlenky i plánování útoků, a že firma klamala o bezpečnosti chatbota. Žádají soudní zákaz vývoje sebezdokonalujících modelů bez záruk souladu.",
+        "en": "Eight US states — Iowa, Kansas, Arizona, Arkansas, Idaho, Montana, Nebraska, and West Virginia — separately sued OpenAI on October 14. They allege ChatGPT has pushed some users, including teens, toward self-harm, violent ideation, and attack planning, and that OpenAI misled users about its safety. They're seeking a court order blocking self-improving models without safeguards."
+      },
+      "why": {
+        "cs": "Jde o největší koordinovanou žalobu států proti AI firmě dosud — sleduj, jestli podobné kroky přijdou i v dalších státech nebo u jiných firem.",
+        "en": "This is the biggest coordinated state lawsuit against an AI company yet — worth watching whether more states or other labs face similar action next."
+      },
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://www.wbtv.com/2026/10/15/states-sue-ai-giant-openai-saying-chatgpt-is-hurting-children-deceiving-adults/"
+        }
+      ]
     }
   ],
   "radar": [
