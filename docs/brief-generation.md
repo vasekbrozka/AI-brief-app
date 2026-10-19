@@ -1,4 +1,4 @@
-# AIspresso — recept pro denní generování briefu (v3.5)
+# AIspresso — recept pro denní generování briefu (v3.6)
 
 Tento soubor je **závazný recept**, podle kterého se každý den automaticky generuje nový
 brief. Naplánovaná (cron) Claude session dostane jednoduchý pokyn:
@@ -80,7 +80,7 @@ plánu, ne „dokud něco nenajdu":
 | Blok | Dotazů | Co a jak |
 |---|---|---|
 | **A · Newsroomy** (T1, `allowed_domains`) | 5–6 | Po jednom dotazu: Anthropic (`anthropic.com`, `claude.com`) · OpenAI (`openai.com`, `help.openai.com`) · Google (`blog.google`, `deepmind.google`, `googleblog.com`, `google.dev`) · Microsoft (`microsoft.com`) · ostatní hráči najednou (`nvidia.com`, `meta.com`, `mistral.ai`, `x.ai`, `huggingface.co`, `perplexity.ai`, `aboutamazon.com`, `apple.com`) |
-| **B · Média** (T2, `allowed_domains`) | 2–3 | `reuters.com`, `apnews.com`, `theverge.com`, `arstechnica.com`, `techcrunch.com`, `axios.com`, `cnbc.com`, `theregister.com`, `wired.com`, `technologyreview.com`, `bloomberg.com`, `ft.com`: jeden dotaz na hlavní hráče, jeden na **nové funkce a jak se používají**, jeden společný na regulaci + byznys |
+| **B · Média** (T2, `allowed_domains`) | 3–4 | `reuters.com`, `apnews.com`, `theverge.com`, `arstechnica.com`, `techcrunch.com`, `axios.com`, `cnbc.com`, `theregister.com`, `wired.com`, `technologyreview.com`, `bloomberg.com`, `ft.com`: jeden dotaz na hlavní hráče, jeden na **nové funkce a jak se používají**, jeden společný na regulaci + byznys, a **povinně jeden úplně obecný, bez jména firmy** („AI news October 2026", „artificial intelligence news today") — zachytí žaloby, výpadky, trhy a hráče mimo obvyklý seznam (zkušenost: čistě firemně vázané dotazy samy o sobě přehlédly žalobu osmi států na OpenAI, protože nikdo nehledal „co se v AI děje" bez vázání na konkrétní firmu) |
 | **C · Témata** (bez omezení) | 8–10 | nové funkce a návody („how to use", „new feature", „now available") · agenti a kódovací nástroje · modely a **co mění pro uživatele** · promptování, workflow a postupy · spotřební AI (Apple, Samsung, auta, brýle, hodinky) · open-source a **lokální modely** (co si čtenář spustí sám) · výzkum a bezpečnost · **Česko a EU** (česká média, `europa.eu`, EU AI Act, tuzemské firmy, úřady a školy) · **jeden** společný dotaz na regulaci + investice/akvizice/čipy |
 | **D · Tipy** (release notes) | 6–8 | **každé téma vlastní dotaz, každý den** (ne jen když je fronta prázdná): release notes / help center / changelog / „what's new" dané firmy (`support.claude.com`, `help.openai.com`, `workspaceupdates.googleblog.com`, `techcommunity.microsoft.com`, `learn.microsoft.com`, `docs.cursor.com`, `perplexity.ai`, `github.blog`) |
 | **E · Radar** | 2–3 | nadcházející termíny: „next week / October 2026 / launch date / effective / deadline / hearing / trial / earnings / keynote" + jména hráčů |
@@ -546,6 +546,16 @@ Kompletní ukázka: `docs/examples/brief-v3-example.json`
 - Víkendové a pondělní briefy jsou z podstaty tenčí na čerstvé oznámení; 14denní okno,
   fronta tipů a radar je mají dorovnat. Když běh selže, brief chybí viditelně v appce — dogeneruje se
   na pokyn v session.
+
+## Změny v3.6 (19. 10. 2026)
+
+**Povinný obecný dotaz v bloku B:** uživatel upozornil na dva dny v řadě s jedinou
+položkou v briefu a požádal o dohledání chyby. Ukázalo se, že rešerše byla celou tu
+dobu vázaná jen na konkrétní firmy/domény (A i D stylem „udělala firma X něco
+nového") a nikdy nezahrnula široký dotaz typu „AI news today" — ten při zpětné
+kontrole během minuty našel žalobu osmi amerických států na OpenAI (14. 10.), o které
+rešerše předtím vůbec nevěděla. Blok B má teď **3–4 dotazy** (bylo 2–3) a jeden z nich
+je **povinně úplně obecný, bez vázání na konkrétní firmu**.
 
 ## Změny v3.5 (22. 9. 2026)
 
