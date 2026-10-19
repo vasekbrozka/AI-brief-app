@@ -56,6 +56,56 @@
           "url": "https://www.wbtv.com/2026/10/15/states-sue-ai-giant-openai-saying-chatgpt-is-hurting-children-deceiving-adults/"
         }
       ]
+    },
+    {
+      "id": "2026-10-19-anthropic-employment-study-junior-hiring",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-10-16",
+      "title": {
+        "cs": "Anthropic: AI mění juniorní nábor v technických týmech",
+        "en": "Anthropic: AI is reshaping junior technical hiring"
+      },
+      "summary": {
+        "cs": "Anthropic 16. října zveřejnil vlastní ekonomickou studii o dopadu AI na nábor — podíl juniorních pozic v technických odděleních klesl od začátku roku 2025 z 21 % na 14 %, podíl juniorních nových nájmů z 27 % na 9 %. Výkon na člověka roste, hlavně po zavedení kódovacích agentů; studie ale nedělá závěry o příčině.",
+        "en": "On October 16, Anthropic published an economics study on AI's effect on hiring — the share of junior roles in technical departments fell from 21% to 14% since early 2025, and junior new hires fell from 27% to 9%. Output per person is rising after adopting coding agents, but the study draws no causal conclusions."
+      },
+      "why": {
+        "cs": "Používáš AI agenty v práci? Tahle studie ukazuje, jak firmy kvůli nim mění nábor — hlavně kdo dostane první šanci v technických oborech.",
+        "en": "Using AI agents at work? This study shows how companies are changing hiring because of them — especially who gets a first shot in technical fields."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://anthropic.com/research/employment-at-anthropic"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-19-schwab-jpmorgan-block-ai-agents",
+      "kind": "news",
+      "category": "tools",
+      "verified": false,
+      "eventDate": "2026-10-16",
+      "title": {
+        "cs": "Schwab a JPMorgan blokují AI agenty u peněz klientů",
+        "en": "Schwab and JPMorgan block AI agents from client money"
+      },
+      "summary": {
+        "cs": "Šéf Schwabu Rick Wurster 16. října řekl televizi Bloomberg, že firma blokuje neschválené AI agenty (včetně Muse od Mety), co se snaží hýbat penězi klientů — týdně jde o desítky pokusů. JPMorgan přes šéfa Jamieho Dimona potvrdil totéž. Důvod je odpovědnost: když agent s cizím heslem něco zkazí, kdo za to ručí, zatím nikdo neví.",
+        "en": "Schwab CEO Rick Wurster told Bloomberg Television on October 16 that the firm blocks unauthorized AI agents, including Meta's Muse, that try to move client money — tens of attempts weekly. JPMorgan's Jamie Dimon confirmed the same. The reason is liability: nobody yet knows who's responsible when an agent using someone's password breaks something."
+      },
+      "why": {
+        "cs": "Používáš AI agenta na finanční úkoly? U těchto bank narazíš na blok — očekávej zatím jen nástroje na čtení dat (MCP), ne převody peněz.",
+        "en": "Using an AI agent for financial tasks? At these banks you'll hit a wall — expect read-only tools (MCP) for now, not money transfers."
+      },
+      "sources": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/schwab-blocks-ai-agents-meta-muse"
+        }
+      ]
     }
   ],
   "radar": [
