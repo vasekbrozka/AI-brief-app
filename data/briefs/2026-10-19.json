@@ -2,7 +2,7 @@
   "date": "2026-10-19",
   "sample": false,
   "headline": {
-    "cs": "Anthropic vyčlenil podíl ve firmě pro veřejný prospěch",
+    "cs": "Anthropic vyčlenil podíl ve fondu pro veřejný prospěch",
     "en": "Anthropic commits equity to a public benefit fund"
   },
   "items": [
@@ -14,16 +14,16 @@
       "verified": true,
       "eventDate": "2026-10-18",
       "title": {
-        "cs": "Anthropic vyčlenil podíl ve firmě pro veřejný prospěch",
+        "cs": "Anthropic vyčlenil podíl ve fondu pro veřejný prospěch",
         "en": "Anthropic commits equity to a public benefit fund"
       },
       "summary": {
-        "cs": "Anthropic 18. října oznámil nový fond pro veřejný prospěch — vyčlenil mu 5 % svých akcií, s možností přidat až 2 % za každé zvýšení hodnoty firmy o 50 %. Se staršími závazky zakladatelů a zaměstnanců tak jde na veřejně prospěšné účely zhruba 20 % akcií. Fond nesmí peníze použít na lobbing ani politiku.",
-        "en": "On October 18, Anthropic announced a new public benefit fund, committing 5% of its shares, with the board able to add up to 2% per 50% rise in company value. Combined with earlier founder and employee pledges, roughly 20% of shares are now dedicated to public good — none for lobbying or politics."
+        "cs": "Anthropic 18. října oznámil nový fond pro veřejný prospěch — navrhl mu vyčlenit 5 % svých akcií (čeká na schválení akcionářů), s možností přidat až 2 % za každé zvýšení hodnoty firmy o 50 %. Se staršími závazky zakladatelů a zaměstnanců by na veřejně prospěšné účely šlo zhruba 20 % akcií. Fond nesmí peníze použít na lobbing ani politiku.",
+        "en": "On October 18, Anthropic announced a new public benefit fund — it has proposed committing 5% of its shares, pending shareholder approval, with the board able to add up to 2% per 50% rise in company value. Combined with earlier founder and employee pledges, roughly 20% of shares would go to public good — none for lobbying or politics."
       },
       "why": {
-        "cs": "Jde o další signál, že špičkové AI firmy čím dál víc řeší dopad AI na pracovní trh — sleduj, jak fond skutečně rozdělí peníze, až zveřejní podrobnosti.",
-        "en": "It's another sign that frontier AI labs are increasingly grappling with AI's impact on jobs — watch for how the fund actually distributes money once details are public."
+        "cs": "Firma zatím neřekla, komu peníze reálně půjdou — velkým nadacím, nebo přímo konkrétním lidem. A schválení akcionářů ještě nemá v kapse.",
+        "en": "Anthropic hasn't said yet whether the money goes to big nonprofits or directly to specific people — and shareholder approval isn't locked in yet either."
       },
       "sources": [
         {
@@ -43,12 +43,12 @@
         "en": "Eight US states sue OpenAI over ChatGPT"
       },
       "summary": {
-        "cs": "Osm amerických států — Iowa, Kansas, Arizona, Arkansas, Idaho, Montana, Nebraska a Západní Virginie — 14. října samostatně zažalovalo OpenAI. Tvrdí, že ChatGPT u uživatelů včetně teenagerů podporuje sebepoškozování, násilné myšlenky i plánování útoků, a že firma klamala o bezpečnosti chatbota. Žádají soudní zákaz vývoje sebezdokonalujících modelů bez záruk souladu.",
-        "en": "Eight US states — Iowa, Kansas, Arizona, Arkansas, Idaho, Montana, Nebraska, and West Virginia — separately sued OpenAI on October 14. They allege ChatGPT has pushed some users, including teens, toward self-harm, violent ideation, and attack planning, and that OpenAI misled users about its safety. They're seeking a court order blocking self-improving models without safeguards."
+        "cs": "Osm amerických států — Iowa, Kansas, Arizona, Arkansas, Idaho, Montana, Nebraska a Západní Virginie — 14. října samostatně zažalovalo OpenAI (žaloby, zatím ne rozsudek). Tvrdí, že ChatGPT u uživatelů včetně teenagerů podporuje sebepoškozování a násilné myšlenky. OpenAI odmítá, že by klamala o bezpečnosti, a odkazuje na nové rodičovské kontroly a limity pro mladé uživatele.",
+        "en": "Eight US states — Iowa, Kansas, Arizona, Arkansas, Idaho, Montana, Nebraska, and West Virginia — separately sued OpenAI on October 14 (lawsuits, not a ruling yet). They allege ChatGPT has pushed some users, including teens, toward self-harm and violent ideation. OpenAI denies misleading users about safety and points to new parental controls and limits for younger users."
       },
       "why": {
-        "cs": "Jde o největší koordinovanou žalobu států proti AI firmě dosud — sleduj, jestli podobné kroky přijdou i v dalších státech nebo u jiných firem.",
-        "en": "This is the biggest coordinated state lawsuit against an AI company yet — worth watching whether more states or other labs face similar action next."
+        "cs": "Sedí to přes desítky nezávislých zpravodajských přepisů, ale přímý zdroj agentury se nepodařilo dohledat — sleduj, jak na žalobu zareagují další státy.",
+        "en": "The facts hold up across dozens of independent reprints, but I couldn't pin down a direct wire-service link — worth watching how other states respond."
       },
       "sources": [
         {
@@ -64,16 +64,16 @@
       "verified": true,
       "eventDate": "2026-10-16",
       "title": {
-        "cs": "Anthropic: AI mění juniorní nábor v technických týmech",
-        "en": "Anthropic: AI is reshaping junior technical hiring"
+        "cs": "Anthropic: nábor se měnil souběžně s AI agenty",
+        "en": "Anthropic: hiring shifted alongside AI agent adoption"
       },
       "summary": {
-        "cs": "Anthropic 16. října zveřejnil vlastní ekonomickou studii o dopadu AI na nábor — podíl juniorních pozic v technických odděleních klesl od začátku roku 2025 z 21 % na 14 %, podíl juniorních nových nájmů z 27 % na 9 %. Výkon na člověka roste, hlavně po zavedení kódovacích agentů; studie ale nedělá závěry o příčině.",
-        "en": "On October 16, Anthropic published an economics study on AI's effect on hiring — the share of junior roles in technical departments fell from 21% to 14% since early 2025, and junior new hires fell from 27% to 9%. Output per person is rising after adopting coding agents, but the study draws no causal conclusions."
+        "cs": "Anthropic 16. října zveřejnil vlastní studii o dopadu svých AI agentů na nábor — podíl juniorních pozic v technických odděleních klesl od začátku roku 2025 z 21 % na 14 %, podíl juniorních nových nájmů z 27 % na 9 %. Výkon na člověka roste; studie je ale o vlastních nástrojích firmy a nedělá závěry o příčině.",
+        "en": "On October 16, Anthropic published a study on how its own AI agents affect hiring — the share of junior roles in technical departments fell from 21% to 14% since early 2025, and junior new hires fell from 27% to 9%. Output per person is rising, but this is Anthropic studying its own tools, with no causal claims."
       },
       "why": {
-        "cs": "Používáš AI agenty v práci? Tahle studie ukazuje, jak firmy kvůli nim mění nábor — hlavně kdo dostane první šanci v technických oborech.",
-        "en": "Using AI agents at work? This study shows how companies are changing hiring because of them — especially who gets a first shot in technical fields."
+        "cs": "Používáš AI agenty v práci? Tahle studie ukazuje, jak se za poslední rok proměnil nábor v technických oborech — bez tvrzení, že je to jen kvůli AI.",
+        "en": "Using AI agents at work? This study shows how hiring in technical fields has shifted over the past year — without claiming AI is the sole cause."
       },
       "sources": [
         {
@@ -89,16 +89,16 @@
       "verified": false,
       "eventDate": "2026-10-16",
       "title": {
-        "cs": "Schwab a JPMorgan blokují AI agenty u peněz klientů",
-        "en": "Schwab and JPMorgan block AI agents from client money"
+        "cs": "Schwab a JPMorgan blokují neschválené AI agenty u peněz",
+        "en": "Schwab and JPMorgan block unauthorized AI agents"
       },
       "summary": {
         "cs": "Šéf Schwabu Rick Wurster 16. října řekl televizi Bloomberg, že firma blokuje neschválené AI agenty (včetně Muse od Mety), co se snaží hýbat penězi klientů — týdně jde o desítky pokusů. JPMorgan přes šéfa Jamieho Dimona potvrdil totéž. Důvod je odpovědnost: když agent s cizím heslem něco zkazí, kdo za to ručí, zatím nikdo neví.",
         "en": "Schwab CEO Rick Wurster told Bloomberg Television on October 16 that the firm blocks unauthorized AI agents, including Meta's Muse, that try to move client money — tens of attempts weekly. JPMorgan's Jamie Dimon confirmed the same. The reason is liability: nobody yet knows who's responsible when an agent using someone's password breaks something."
       },
       "why": {
-        "cs": "Používáš AI agenta na finanční úkoly? U těchto bank narazíš na blok — očekávej zatím jen nástroje na čtení dat (MCP), ne převody peněz.",
-        "en": "Using an AI agent for financial tasks? At these banks you'll hit a wall — expect read-only tools (MCP) for now, not money transfers."
+        "cs": "Používáš AI agenta na finanční úkoly? U Schwabu a JPMorgan narazíš na blok — Schwab tě místo toho tlačí na svého vlastního asistenta Charley. Zdroj je zatím jen jeden, byť výroky obou šéfů zazněly veřejně.",
+        "en": "Using an AI agent for financial tasks? At Schwab and JPMorgan you'll hit a wall — Schwab is steering you toward its own assistant, Charley, instead. The source is still just one, though both CEOs spoke on record."
       },
       "sources": [
         {
