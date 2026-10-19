@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-18T03:55:00Z",
+  "updated": "2026-10-19T03:55:00Z",
   "briefs": [
+    {
+      "date": "2026-10-19",
+      "headline": {
+        "cs": "Anthropic vyčlenil podíl ve firmě pro veřejný prospěch",
+        "en": "Anthropic commits equity to a public benefit fund"
+      },
+      "itemCount": 1
+    },
     {
       "date": "2026-10-18",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Šéfové AI firem svědčili v New Yorku o rizicích",
         "en": "AI company leaders testified in New York on risks"
-      },
-      "itemCount": 6
-    },
-    {
-      "date": "2026-10-05",
-      "headline": {
-        "cs": "Finance v ChatGPT jsou teď i ve zdarma plánu",
-        "en": "ChatGPT Finances now reaches Free plan users too"
       },
       "itemCount": 6
     }
