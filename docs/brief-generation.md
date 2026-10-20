@@ -112,7 +112,7 @@ python3 docs/feed-sweep.py > <scratch>/sweep.txt   # 14 dní; --days 3 = jen če
 | Blok | Dotazů | Co a jak |
 |---|---|---|
 | **A · Zdroje bez feedu** | 3–4 | release notes ChatGPT a help center OpenAI (`help.openai.com` — stahování je blokované), release notes Claude (`support.claude.com`), xAI/Grok (`x.ai`), Meta AI (`about.fb.com`, `meta.com`) |
-| **B · Agentury a obecný dotaz** | 2–3 | `reuters.com`, `apnews.com`, `bloomberg.com` (sweep je nemá) a **povinně jeden úplně obecný dotaz bez jména firmy** („AI news October 2026") — zachytí žaloby, výpadky a hráče mimo seznam zdrojů |
+| **B · Agentury a obecný dotaz** | 2–3 | Reuters, AP a Bloomberg (sweep je nemá) — **bez `allowed_domains`**, jméno agentury dej do dotazu („Reuters AI October 2026") — a **povinně jeden úplně obecný dotaz bez jména firmy** („AI news October 2026"), který zachytí žaloby, výpadky a hráče mimo seznam zdrojů |
 | **C · Česko a EU** | 2 | česká média nad rámec sweepu (Seznam Zprávy, ČT24, HN, E15, Deník N), `europa.eu`, EU AI Act, tuzemské firmy, úřady a školy |
 | **D · Tipy** | 2–4 | jen témata, pro která sweep nic nedal: „what's new" / release notes (ChatGPT, Claude, NotebookLM, Copilot v Microsoft 365) — **bez měsíce v dotazu**, okno ~90 dní |
 | **E · Radar** | 2–3 | nadcházející termíny: „next week / launch date / effective / deadline / hearing / trial / earnings / keynote" + jména hráčů |
@@ -120,6 +120,14 @@ python3 docs/feed-sweep.py > <scratch>/sweep.txt   # 14 dní; --days 3 = jen če
 
 Pravidla rešerše:
 
+- **Tyhle domény nikdy nedávej do `allowed_domains`** — WebSearch pak selže celý dotaz
+  (chyba 400 „not accessible to our user agent"), ne jen ta doména: `reuters.com`,
+  `apnews.com`, `theverge.com`, `arstechnica.com`, `wired.com`, `ft.com`, `nytimes.com`,
+  `wsj.com`, `bbc.com`, `theguardian.com`, `politico.com`, `businessinsider.com`,
+  `cnet.com`, `zdnet.com`. The Verge, Ars a Wired pokrývá sweep; ostatní hledej bez filtru.
+- **Chyba nástroje není „nic nenalezeno".** Když dotaz vrátí chybu, oprav ho (filtr,
+  formulaci) a zopakuj; do deníku nikdy nepiš „blok bez kandidáta" za blok, jehož dotazy
+  selhaly.
 - Do dotazu dávej jména produktů, ne jen firem („Claude", „ChatGPT", „Gemini",
   „Copilot"). Stejný dotaz nikdy neopakuj; obměň slova.
 - Když téma odhalí agregátor (T3), je to jen stopa: blok F dohledá primární zdroj a datum.
@@ -634,6 +642,11 @@ zpráva od 11. 10.", zatímco jeho feed měl za tu dobu 26 příspěvků.
   z `check-brief.py`.
 - **WebSearch jen na to, co sweep nevidí** (A–F, 12–18 dotazů): zdroje bez feedu,
   agentury, povinný obecný dotaz, Česko a EU, tipy bez feedu, radar, ověření.
+- **Druhá skrytá příčina:** WebSearch s `allowed_domains` selže celý (chyba 400), když
+  seznam obsahuje některou ze 14 domén, které nástroj nesmí číst (Reuters, AP, The Verge,
+  Ars Technica, Wired, FT…). Starý blok B jich měl šest z dvanácti, takže jeho dotazy
+  nejspíš denně končily chybou. Recept teď tyto domény ve filtru zakazuje a chybu
+  nástroje nedovoluje vykázat jako „nic nenalezeno".
 - **Titulek z feedu není fakt** — fakta a datum se berou z otevřeného článku či
   primárního zdroje; URL ze sweepu a stažených stránek splňují URL disciplínu.
 - **Banka tipů se plní ze sweepu** (changelogy a Workspace Updates) — nevydané funkce

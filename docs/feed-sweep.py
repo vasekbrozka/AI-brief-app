@@ -29,6 +29,7 @@ SOURCES = [
     ("openai", "OpenAI", "rss", "https://openai.com/news/rss.xml", None, None),
     ("anthropic", "Anthropic", "html", "https://www.anthropic.com/news", None, "/news/"),
     ("claude-blog", "Anthropic", "html", "https://claude.com/blog", None, "/blog/"),
+    ("claude-articles", "Anthropic", "html", "https://claude.com/resources/articles", None, "/resources/articles/"),
     ("google-ai", "Google", "rss", "https://blog.google/technology/ai/rss/", None, None),
     ("gemini", "Google", "rss", "https://blog.google/products/gemini/rss/", None, None),
     ("google", "Google", "rss", "https://blog.google/rss/", "ai", None),
