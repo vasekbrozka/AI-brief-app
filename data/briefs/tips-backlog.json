@@ -3895,7 +3895,205 @@
         }
       ],
       "added": "2026-10-20",
+      "used": "2026-10-20",
+      "why": {
+        "cs": "Správuješ Copilota pro firmu nebo tým? Nové GET/PATCH endpointy na model-policies jsou přesně to, čím admini povolují náhrady za šest modelů, které GitHub právě vyřadil. Ušetříš klikání, hodí se i pro automatizaci.",
+        "en": "Managing Copilot for a company or team? The new GET/PATCH model-policies endpoints are exactly how admins enable replacements for the six models GitHub just retired. Skip the admin UI, or script it."
+      },
+      "eventDate": "2026-10-19"
+    },
+    {
+      "slug": "tip-claude-docs-slides-design-free",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-10-08",
+      "title": {
+        "cs": "Claude teď nabízí Docs, Slides a Design i zdarma",
+        "en": "Claude’s Docs, Slides, and Design now on the Free plan"
+      },
+      "summary": {
+        "cs": "Anthropic 8. října vyvedl funkce Docs, Slides a Design z bety a zpřístupnil je ve všech plánech Claude včetně bezplatného — dokumenty, prezentace a návrhy tak Claude vytvoří i uživatelům zdarma. Placené plány navíc dostaly do bety živé dashboardy z dat, Team a Enterprise animace Claude Motion.",
+        "en": "On October 8, Anthropic took Docs, Slides, and Design out of beta and put them on every Claude plan, including Free — so Claude now creates documents, presentations, and designs for free users too. Paid plans also got live data dashboards in beta, and Team and Enterprise got Claude Motion animations."
+      },
+      "why": {
+        "cs": "Máš Claude zdarma? Stačí v chatu napsat, co potřebuješ — třeba prezentaci z poznámek. Animace Motion vyvoláš v plánech Team a Enterprise příkazem /motion.",
+        "en": "On the free plan? Just ask Claude in chat for what you need — say, slides from your notes. On Team and Enterprise, type /motion to bring up Motion."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/dashboards-and-motion"
+        }
+      ],
+      "added": "2026-10-20",
       "used": "2026-10-20"
+    },
+    {
+      "slug": "tip-gemini-notebook-cocreate-slides-video",
+      "category": "tools",
+      "theme": "notebooklm",
+      "verified": true,
+      "eventDate": "2026-10-19",
+      "title": {
+        "cs": "Gemini Notebook teď s tebou ladí prezentace i videa",
+        "en": "Gemini Notebook now lets you shape slides and videos"
+      },
+      "summary": {
+        "cs": "Google 19. října přidal do Gemini Notebooku společnou tvorbu prezentací a videopřehledů. Notebook podle tvých zdrojů navrhne témata, ty pak řídíš obsah, vizuální styl i formát a s novým přepínačem Review projdeš plán ještě před vytvořením. Celosvětově se nasazuje všem uživatelům během týdne.",
+        "en": "On October 19, Google added co-creation for Slide Decks and Video Overviews in Gemini Notebook. The notebook suggests topics from your sources, you steer content, style, and format, and a new Review toggle lets you check the plan before anything renders. Rolling out globally to all users within a week."
+      },
+      "why": {
+        "cs": "Platí pro všechny: v chatu notebooku požádej o prezentaci nebo videopřehled. Se zapnutým přepínačem Review pak plán projdeš v panelu Studio (Review outline notes, u videa Review producer notes).",
+        "en": "Available to everyone: in the notebook chat, ask for slides or a video overview. With the Review toggle on, check the plan in the Studio panel (Review outline notes; for video, Review producer notes)."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/"
+        }
+      ],
+      "added": "2026-10-20",
+      "used": "2026-10-20"
+    },
+    {
+      "slug": "tip-perplexity-projects-local-mac-folder",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": true,
+      "eventDate": "2026-10-19",
+      "title": {
+        "cs": "Perplexity Computer teď pracuje se složkou na Macu",
+        "en": "Perplexity Computer can now work in a Mac folder"
+      },
+      "summary": {
+        "cs": "Perplexity 19. října umožnil v Mac appce (od verze 26.38) připojit k projektu místní složku. Computer z ní čte soubory a ukládá do ní hotovou práci, nové úkoly projektu ji používají automaticky. Složka zůstává jen tvoje, i když je projekt sdílený.",
+        "en": "On October 19, Perplexity let you attach a local folder to a Project in its Mac app (version 26.38 or later). Computer reads files from it and saves finished work back, and new Project tasks use it by default. Only you can use the folder, even in a shared Project."
+      },
+      "why": {
+        "cs": "Stačí Mac appka Perplexity od verze 26.38: připoj k projektu složku, třeba s reporty. Změnit nebo odebrat ji jde na stránce projektu. Potřebný tarif Perplexity neuvádí.",
+        "en": "You need the Perplexity Mac app 26.38 or later: attach a folder, say one with your reports, to a Project. Change or remove it from the Project page. Perplexity doesn’t name a required plan."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog/ultrafast-computer-models-decisions-api-and-connector-controls"
+        }
+      ],
+      "added": "2026-10-20",
+      "used": "2026-10-20"
+    },
+    {
+      "slug": "tip-brave-leo-encrypted-glm-chats",
+      "category": "tools",
+      "theme": "other",
+      "verified": true,
+      "eventDate": "2026-10-15",
+      "title": {
+        "cs": "Brave Leo nově šifruje chaty s modelem GLM",
+        "en": "Brave Leo now encrypts GLM chats end to end"
+      },
+      "summary": {
+        "cs": "Brave 15. října zapnul v asistentu Leo šifrování konverzací s otevřeným modelem GLM 5.3 Flash. Dotaz se zašifruje už v prohlížeči a rozšifruje se jen v hardwarově izolovaném prostředí firmy NEAR AI, takže ho nepřečte ani Brave. Další kroky ověřování firma teprve chystá.",
+        "en": "On October 15, Brave turned on encryption for Leo chats with the open-weight GLM 5.3 Flash model. Prompts are encrypted in the browser and decrypted only inside a hardware-isolated enclave run by NEAR AI, so even Brave can’t read them. More verification steps are still planned."
+      },
+      "why": {
+        "cs": "Používáš prohlížeč Brave? V asistentu Leo vyber model GLM 5.3 Flash — šifrování platí jen pro něj. Funguje ve verzích Release, Beta i Nightly; jestli je potřeba placené Leo Premium, Brave neuvádí.",
+        "en": "Use the Brave browser? Pick GLM 5.3 Flash in Leo — the encryption only covers that model. It’s in the Release, Beta, and Nightly channels; Brave doesn’t say whether Leo Premium is required."
+      },
+      "sources": [
+        {
+          "name": "Brave",
+          "url": "https://brave.com/blog/browser-ai-e2ee/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462"
+        }
+      ],
+      "added": "2026-10-20",
+      "used": "2026-10-20"
+    },
+    {
+      "slug": "tip-claude-code-review-ga",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-10-15",
+      "title": {
+        "cs": "Code Review v Claude Code je teď dostupný naplno",
+        "en": "Claude Code Review is now generally available"
+      },
+      "summary": {
+        "cs": "Anthropic 15. října uvolnil Code Review z výzkumné verze pro tarify Team a Enterprise. Po zapnutí Claude sám recenzuje každý nový pull request na GitHubu a u chyby v pár větách popíše problém, co ho spouští, a opravu. Většina recenzí trvá 6–10 minut místo zhruba 20.",
+        "en": "On October 15, Anthropic took Code Review out of research preview for Team and Enterprise plans. Once enabled, Claude reviews every new GitHub pull request and explains each bug — the problem, what triggers it, and the fix — in a few sentences. Most reviews now take 6–10 minutes instead of about 20."
+      },
+      "why": {
+        "cs": "Admin ho zapne v nastavení Claude Code, nainstaluje GitHub App a vybere repozitáře; pro každý zvolí hloubku Quick, Standard nebo Deep. Způsobilé firmy na Enterprise si do 15. ledna vyzvednou kredity aspoň za 10 000 dolarů.",
+        "en": "Admins enable it in Claude Code settings, install the GitHub App, pick repositories, and set Quick, Standard, or Deep for each. Eligible Enterprise organizations can claim at least $10,000 in credits by January 15."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/code-review-is-now-generally-available"
+        }
+      ],
+      "added": "2026-10-20",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-sheets-ios",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-10-19",
+      "title": {
+        "cs": "Gemini v Google Sheets teď funguje i na iOS",
+        "en": "Gemini in Google Sheets now works on iOS"
+      },
+      "summary": {
+        "cs": "Google 19. října oznámil, že Gemini v Google Sheets jde používat i v appce pro iOS. Klepnutím na ikonu Gemini se ptáš na data, necháš si shrnout tabulku nebo vytvořit graf. Zapíná se postupně od 15. října a nasazení trvá až 15 dní.",
+        "en": "On October 19, Google said Gemini in Google Sheets now works in the iOS app. Tap the Gemini icon to ask about your data, summarize a table, or build a chart. The gradual rollout started October 15 and takes up to 15 days."
+      },
+      "why": {
+        "cs": "Otevři tabulku v appce Google Sheets pro iOS a klepni na ikonu Gemini. Funguje s předplatným Google AI Plus, Pro či Ultra a ve firemních tarifech Workspace Business a Enterprise.",
+        "en": "Open a spreadsheet in the Google Sheets iOS app and tap the Gemini icon. It works with Google AI Plus, Pro, or Ultra, and on Workspace Business and Enterprise plans."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/gemini-in-google-sheets-is-now-available-on-iOS-devices.html"
+        }
+      ],
+      "added": "2026-10-20",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-apps-export-google-sites",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-10-19",
+      "title": {
+        "cs": "Interaktivní appku z Gemini teď přeneseš do Google Sites",
+        "en": "Export interactive apps from Gemini to Google Sites"
+      },
+      "summary": {
+        "cs": "Google 19. října přidal do appky Gemini export interaktivních aplikací rovnou do Google Sites. Jedním klikem vznikne soukromý koncept webu s funkční appkou, který doplníš obsahem, zveřejníš a nasdílíš jako jiný web — bez kopírování kódu. Funguje na webu, Androidu i iOS.",
+        "en": "On October 19, Google added an export from the Gemini app that sends interactive apps straight to Google Sites. One click creates a private site draft with the app working; add content, publish, and share it like any other site — no code to copy. Live on web, Android, and iOS."
+      },
+      "why": {
+        "cs": "U interaktivní appky v Gemini zvol Export > Google Sites. Jde to s osobním účtem Google i ve Workspace; ve firmě jen tehdy, když smíš zakládat weby v Google Sites.",
+        "en": "On an interactive app in Gemini, choose Export > Google Sites. It works with personal Google accounts and Workspace — at work, only if you’re allowed to create sites in Google Sites."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/publish-interactive-apps-from-gemini-app-to-Google-Sites.html"
+        }
+      ],
+      "added": "2026-10-20",
+      "used": null
     }
   ]
 }

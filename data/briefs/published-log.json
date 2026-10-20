@@ -1659,7 +1659,67 @@
       "slug": "2026-10-20-tip-copilot-model-policy-api",
       "date": "2026-10-20",
       "topic": "tip: Copilot nabízí API pro správu modelových politik"
+    },
+    {
+      "slug": "2026-10-20-dhs-bans-deepseek-federal-agencies",
+      "date": "2026-10-20",
+      "topic": "USA zakázaly DeepSeek na všech civilních federálních úřadech"
+    },
+    {
+      "slug": "2026-10-20-opencode-console-api-keys-breach",
+      "date": "2026-10-20",
+      "topic": "Hackeři ukradli z konzole OpenCode API klíče uživatelů"
+    },
+    {
+      "slug": "2026-10-20-character-ai-bankruptcy-disney-staff",
+      "date": "2026-10-20",
+      "topic": "Character.AI v insolvenci, většinu lidí najal Disney"
+    },
+    {
+      "slug": "2026-10-20-meta-muse-spark-open-weights",
+      "date": "2026-10-20",
+      "topic": "Meta uvolnila otevřené váhy modelu Muse Spark Open"
+    },
+    {
+      "slug": "2026-10-20-inception-mercury-3-diffusion-llm",
+      "date": "2026-10-20",
+      "topic": "Inception vydal difuzní jazykový model Mercury 3"
+    },
+    {
+      "slug": "2026-10-20-whatsapp-hidden-support-chatbot-instructions",
+      "date": "2026-10-20",
+      "topic": "WhatsApp podle Wiredu skrýval v nápovědě pokyny pro chatbota"
+    },
+    {
+      "slug": "2026-10-20-hacker-ai-agents-100-websites",
+      "date": "2026-10-20",
+      "topic": "Hacker s AI agenty pronikl na víc než 100 webů"
+    },
+    {
+      "slug": "2026-10-20-anthropic-small-models-iot-replication",
+      "date": "2026-10-20",
+      "topic": "Anthropic varuje před AI červy v levných chytrých zařízeních"
+    },
+    {
+      "slug": "2026-10-20-tip-claude-docs-slides-design-free",
+      "date": "2026-10-20",
+      "topic": "tip: Docs, Slides a Design v Claude i v plánu zdarma"
+    },
+    {
+      "slug": "2026-10-20-tip-gemini-notebook-cocreate-slides-video",
+      "date": "2026-10-20",
+      "topic": "tip: Gemini Notebook s tebou ladí prezentace a videa"
+    },
+    {
+      "slug": "2026-10-20-tip-perplexity-projects-local-mac-folder",
+      "date": "2026-10-20",
+      "topic": "tip: Perplexity Computer pracuje s místní složkou na Macu"
+    },
+    {
+      "slug": "2026-10-20-tip-brave-leo-encrypted-glm-chats",
+      "date": "2026-10-20",
+      "topic": "tip: Brave Leo šifruje chaty s modelem GLM 5.3 Flash"
     }
   ],
-  "updated": "2026-10-20T03:50:00Z"
+  "updated": "2026-10-20T06:29:04Z"
 }

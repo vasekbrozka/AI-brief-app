@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-20",
   "terms": [
     {
       "id": "quantization",
@@ -500,6 +500,40 @@
       "short": {
         "cs": "Schopnost AI agenta ovládat aplikace jako člověk — klikat, psát, číst obrazovku a dělat snímky — místo volání přesně definovaných funkcí. Umí to například Claude, GitHub Copilot nebo Cursor.",
         "en": "An AI agent's ability to operate apps the way a person would — clicking, typing, reading the screen, taking screenshots — instead of calling predefined functions. Claude, GitHub Copilot and Cursor can all do it."
+      }
+    },
+    {
+      "id": "diffusion-llm",
+      "term": {
+        "cs": "Difuzní jazykový model",
+        "en": "Diffusion language model"
+      },
+      "aliases": [
+        "difuzní jazykový model",
+        "difuzního jazykového modelu",
+        "difuzní model",
+        "diffusion language model",
+        "diffusion LLM"
+      ],
+      "short": {
+        "cs": "Model, který text nepíše slovo po slovu, ale nejdřív načrtne celou odpověď a pak ji v několika krocích naráz zpřesňuje. Díky tomu bývá výrazně rychlejší.",
+        "en": "A model that doesn’t write word by word; it sketches the whole answer and refines it in a few parallel passes, which usually makes it much faster."
+      }
+    },
+    {
+      "id": "prompt-injection",
+      "term": {
+        "cs": "Prompt injection",
+        "en": "Prompt injection"
+      },
+      "aliases": [
+        "prompt injection",
+        "prompt injectionu",
+        "prompt injectionem"
+      ],
+      "short": {
+        "cs": "Útok, kdy do textu, který AI čte (web, e-mail, dokument), někdo schová vlastní pokyny. Model je pak může poslechnout místo uživatele — třeba prozradit data nebo udělat nechtěnou akci.",
+        "en": "An attack where someone hides their own instructions in text an AI reads (a web page, email, document). The model may follow them instead of the user — leaking data or taking unwanted actions."
       }
     }
   ]
