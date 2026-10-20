@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-19T06:15:00Z",
+  "updated": "2026-10-20T03:50:00Z",
   "briefs": [
+    {
+      "date": "2026-10-20",
+      "headline": {
+        "cs": "GitHub vyřadil z Copilota šest starších modelů",
+        "en": "GitHub retires six older models from Copilot"
+      },
+      "itemCount": 2
+    },
     {
       "date": "2026-10-19",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Mistral's trillion-parameter Le Chonk targets Chinese rivals"
       },
       "itemCount": 8
-    },
-    {
-      "date": "2026-10-06",
-      "headline": {
-        "cs": "Šéfové AI firem svědčili v New Yorku o rizicích",
-        "en": "AI company leaders testified in New York on risks"
-      },
-      "itemCount": 6
     }
   ]
 }

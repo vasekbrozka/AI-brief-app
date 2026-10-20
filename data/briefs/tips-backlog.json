@@ -3874,6 +3874,28 @@
       ],
       "added": "2026-10-17",
       "used": "2026-10-17"
+    },
+    {
+      "slug": "tip-copilot-model-policy-api",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "title": {
+        "cs": "Copilot nabízí API pro správu modelových politik",
+        "en": "Copilot adds an API for model policies"
+      },
+      "summary": {
+        "cs": "GitHub 19. října zpřístupnilo REST API pro čtení a úpravu politik modelů Copilota — na úrovni firmy, firemních týmů, firemních aplikací i organizace. Admin tak může programově řídit, které modely jsou komu dostupné, včetně delegování správy na organizace nebo týmy.",
+        "en": "On October 19, GitHub opened a REST API for reading and updating Copilot model policies — at the enterprise, enterprise-team, enterprise-app, and organization level. Admins can now manage programmatically which models are available to whom, including delegating control to organizations or teams."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams"
+        }
+      ],
+      "added": "2026-10-20",
+      "used": "2026-10-20"
     }
   ]
 }

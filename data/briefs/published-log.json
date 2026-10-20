@@ -1649,7 +1649,17 @@
       "slug": "2026-10-19-schwab-jpmorgan-block-ai-agents",
       "date": "2026-10-19",
       "topic": "Schwab a JPMorgan blokují neschválené AI agenty u peněz"
+    },
+    {
+      "slug": "2026-10-20-github-copilot-six-models-retired",
+      "date": "2026-10-20",
+      "topic": "GitHub vyřadil z Copilota šest starších modelů"
+    },
+    {
+      "slug": "2026-10-20-tip-copilot-model-policy-api",
+      "date": "2026-10-20",
+      "topic": "tip: Copilot nabízí API pro správu modelových politik"
     }
   ],
-  "updated": "2026-10-19T06:15:00Z"
+  "updated": "2026-10-20T03:50:00Z"
 }

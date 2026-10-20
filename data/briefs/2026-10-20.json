@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-20",
+  "sample": false,
+  "headline": {
+    "cs": "GitHub vyřadil z Copilota šest starších modelů",
+    "en": "GitHub retires six older models from Copilot"
+  },
+  "items": [
+    {
+      "id": "2026-10-20-github-copilot-six-models-retired",
+      "kind": "news",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-19",
+      "title": {
+        "cs": "GitHub vyřadil z Copilota šest starších modelů",
+        "en": "GitHub retires six older models from Copilot"
+      },
+      "summary": {
+        "cs": "GitHub 19. října vyřadilo z Copilota šest modelů — Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini a Grok 4.5. Náhradou jsou Gemini 3.8 Flash, GPT-6.1 Sol, GPT-6 Luna a Grok 4.7. Vyřazení oznámili už 18. září, týká se chatu, úprav i generování kódu.",
+        "en": "On October 19, GitHub retired six models from Copilot — Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, and Grok 4.5. Replacements are Gemini 3.8 Flash, GPT-6.1 Sol, GPT-6 Luna, and Grok 4.7. The retirement was first announced September 18, covering chat, edits, and code completion."
+      },
+      "why": {
+        "cs": "Používáš v Copilotu některý z těchto šesti modelů? Přepni na náhradu v model pickeru, než ti začne hlásit chybu — admini možná musí povolit nové modely v politice.",
+        "en": "Using one of these six models in Copilot? Switch to the replacement in the model picker before it starts erroring — admins may need to enable the new models in policy."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-20-tip-copilot-model-policy-api",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-19",
+      "title": {
+        "cs": "Copilot nabízí API pro správu modelových politik",
+        "en": "Copilot adds an API for model policies"
+      },
+      "summary": {
+        "cs": "GitHub 19. října zpřístupnilo REST API pro čtení a úpravu politik modelů Copilota — na úrovni firmy, firemních týmů, firemních aplikací i organizace. Admin tak může programově řídit, které modely jsou komu dostupné, včetně delegování správy na organizace nebo týmy.",
+        "en": "On October 19, GitHub opened a REST API for reading and updating Copilot model policies — at the enterprise, enterprise-team, enterprise-app, and organization level. Admins can now manage programmatically which models are available to whom, including delegating control to organizations or teams."
+      },
+      "why": {
+        "cs": "Správuješ Copilota pro firmu nebo tým? Zkus nové GET/PATCH endpointy na model-policies — ušetříš klikání v administraci, hodí se i pro automatizaci přes skript.",
+        "en": "Managing Copilot for a company or team? Try the new GET/PATCH model-policies endpoints — skip the admin UI clicking, and script it for automation."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-20",
+      "title": {
+        "cs": "NVIDIA pořádá GTC Berlín, hlavní řeč má Jensen Huang",
+        "en": "NVIDIA hosts GTC Berlin, keynote by Jensen Huang"
+      },
+      "note": {
+        "cs": "Evropská konference NVIDIA o AI probíhá 20. až 22. října v Berlíně — hlavní řeč 21. října přednese Jensen Huang, čerstvě po otevření konstrukce Vera Rubin.",
+        "en": "NVIDIA's European AI conference runs October 20-22 in Berlin — Jensen Huang delivers the October 21 keynote, fresh off opening the Vera Rubin rack designs."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/en-eu/gtc/faq/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-24",
+      "title": {
+        "cs": "Perplexity vyřadí staré modely z Agent a Router API",
+        "en": "Perplexity retires old models from Agent and Router API"
+      },
+      "note": {
+        "cs": "Od 24. října o půlnoci UTC Perplexity vyřadí z Agent API a Router API starší modely OpenAI řady GPT-5 — vývojáři musí přejít na náhradu předem.",
+        "en": "On October 24 at midnight UTC, Perplexity retires older OpenAI GPT-5 models from its Agent and Router API — developers need to switch to a replacement beforehand."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-28",
+      "title": {
+        "cs": "GitHub Universe se vrací do San Francisca",
+        "en": "GitHub Universe returns to San Francisco"
+      },
+      "note": {
+        "cs": "Vlajková konference GitHubu pro vývojáře probíhá 28.–29. října ve Fort Mason Center — zaměří se na agentickou éru vývoje softwaru.",
+        "en": "GitHub's flagship developer conference runs October 28-29 at Fort Mason Center — the theme this year is the agentic era of software development."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "GitHub vyřadí z Copilota tři modely",
+        "en": "GitHub retires three models from Copilot"
+      },
+      "note": {
+        "cs": "16. listopadu GitHub vyřadí z Copilota Claude Opus 4.8, Opus 5 a GPT-5.6 Terra — náhradou jsou Opus 5.5 a GPT-6.1 Sol nebo Luna. Roční předplatitelé si Opus 4.8 udrží.",
+        "en": "On November 16, GitHub retires Claude Opus 4.8, Opus 5, and GPT-5.6 Terra from Copilot — replacements are Opus 5.5 and GPT-6.1 Sol or Luna. Annual subscribers keep Opus 4.8."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
+        "en": "California's expert group must deliver its AI kill-switch proposal"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}
