@@ -2,8 +2,8 @@
   "date": "2026-10-20",
   "sample": false,
   "headline": {
-    "cs": "GitHub vyřadil z Copilota šest starších modelů",
-    "en": "GitHub retires six older models from Copilot"
+    "cs": "GitHub vyřazuje modely Copilota, přidává API pro správu",
+    "en": "GitHub retires Copilot models, adds a management API"
   },
   "items": [
     {
@@ -18,19 +18,27 @@
         "en": "GitHub retires six older models from Copilot"
       },
       "summary": {
-        "cs": "GitHub 19. října vyřadilo z Copilota šest modelů — Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini a Grok 4.5. Náhradou jsou Gemini 3.8 Flash, GPT-6.1 Sol, GPT-6 Luna a Grok 4.7. Vyřazení oznámili už 18. září, týká se chatu, úprav i generování kódu.",
-        "en": "On October 19, GitHub retired six models from Copilot — Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, and Grok 4.5. Replacements are Gemini 3.8 Flash, GPT-6.1 Sol, GPT-6 Luna, and Grok 4.7. The retirement was first announced September 18, covering chat, edits, and code completion."
+        "cs": "GitHub 19. října vyřadilo z Copilota šest modelů — Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini a Grok 4.5. Náhradou jsou Gemini 3.8 Flash, GPT-6.1 Sol, GPT-6 Luna a Grok 4.7. Jde o druhou vlnu avizovanou 10. října, týká se chatu, úprav, agentního režimu i generování kódu.",
+        "en": "On October 19, GitHub retired six models from Copilot — Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, and Grok 4.5. Replacements are Gemini 3.8 Flash, GPT-6.1 Sol, GPT-6 Luna, and Grok 4.7. This is the second wave flagged on October 10, covering chat, inline edits, agent mode, and code completion."
       },
       "why": {
-        "cs": "Používáš v Copilotu některý z těchto šesti modelů? Přepni na náhradu v model pickeru, než ti začne hlásit chybu — admini možná musí povolit nové modely v politice.",
-        "en": "Using one of these six models in Copilot? Switch to the replacement in the model picker before it starts erroring — admins may need to enable the new models in policy."
+        "cs": "Používáš v Copilotu některý z těchto šesti modelů? Přepni na náhradu v menu pro výběr modelu, než se přestane nabízet — čtyři náhrady za šest modelů nejsou 1:1, zkontroluj si v Copilotu, co přesně dostaneš.",
+        "en": "Using one of these six models in Copilot? Switch to a replacement in the model picker before it stops being offered — four replacements for six models isn't 1:1, so check what you actually get."
       },
       "sources": [
         {
           "name": "GitHub",
           "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026"
         }
-      ]
+      ],
+      "followsUp": {
+        "date": "2026-10-10",
+        "id": "2026-10-10-github-copilot-model-deprecation-october",
+        "title": {
+          "cs": "GitHub vyřadil z Copilota čtyři starší modely",
+          "en": "GitHub retires four older Copilot models"
+        }
+      }
     },
     {
       "id": "2026-10-20-tip-copilot-model-policy-api",
@@ -43,12 +51,12 @@
         "en": "Copilot adds an API for model policies"
       },
       "summary": {
-        "cs": "GitHub 19. října zpřístupnilo REST API pro čtení a úpravu politik modelů Copilota — na úrovni firmy, firemních týmů, firemních aplikací i organizace. Admin tak může programově řídit, které modely jsou komu dostupné, včetně delegování správy na organizace nebo týmy.",
-        "en": "On October 19, GitHub opened a REST API for reading and updating Copilot model policies — at the enterprise, enterprise-team, enterprise-app, and organization level. Admins can now manage programmatically which models are available to whom, including delegating control to organizations or teams."
+        "cs": "GitHub 19. října zpřístupnilo obecně dostupné REST API pro čtení a úpravu politik modelů Copilota (nastavení, kdo může který model používat) — na úrovni firmy, firemních týmů, firemních aplikací i organizace. Admin tak může řídit dostupnost modelů programově, bez klikání v administraci.",
+        "en": "On October 19, GitHub made generally available a REST API for reading and updating Copilot model policies (settings for who can use which model) — at the enterprise, enterprise-team, enterprise-app, and organization level. Admins can now control model availability programmatically, without clicking through the admin UI."
       },
       "why": {
-        "cs": "Správuješ Copilota pro firmu nebo tým? Zkus nové GET/PATCH endpointy na model-policies — ušetříš klikání v administraci, hodí se i pro automatizaci přes skript.",
-        "en": "Managing Copilot for a company or team? Try the new GET/PATCH model-policies endpoints — skip the admin UI clicking, and script it for automation."
+        "cs": "Správuješ Copilota pro firmu nebo tým? Nové GET/PATCH endpointy na model-policies jsou přesně to, čím admini povolují náhrady za šestici z vedlejší zprávy. Ušetříš klikání, hodí se i pro automatizaci.",
+        "en": "Managing Copilot for a company or team? The new GET/PATCH model-policies endpoints are exactly how admins enable the replacement models from the item above. Skip the admin UI, or script it for automation."
       },
       "sources": [
         {
@@ -120,8 +128,8 @@
         "en": "Deadline closes for EU AI gigafactory bids"
       },
       "note": {
-        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se i Česko jako jedna z 18 zemí společné dohody.",
-        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth more than €30 billion — Czechia is one of 18 countries in the joint agreement bidding for one."
+        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se Česko, jedna z 18 zemí dohody.",
+        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth over €30 billion — Czechia is one of 18 countries in the agreement."
       },
       "sources": [
         {
