@@ -1,4 +1,4 @@
-# AIspresso — recept pro denní generování briefu (v3.7)
+# AIspresso — recept pro denní generování briefu (v4.0)
 
 Tento soubor je **závazný recept**, podle kterého se každý den automaticky generuje nový
 brief. Naplánovaná (cron) Claude session dostane jednoduchý pokyn:
@@ -18,6 +18,12 @@ pravidlo) — přeskočený deploy je správné chování, ne chyba. Denní obsa
 **Proč v3:** viz `docs/analyza-receptu-2026-09.md`. Ve zkratce: v2 chtěla 8–12 položek
 a dávala 4, protože 72h brána zahazovala nikdy nezveřejněné zprávy, bank tipů byl
 prázdný, „ověřeno" motivovalo k citování slabých webů a brief neříkal, co z toho plyne.
+
+**Proč v4:** v3 stála na mylném předpokladu, že stahovat stránky nejde a jediný nástroj je
+WebSearch. Vyhledávač ale neřadí podle čerstvosti, takže 22–32 dotazů denně našlo 3–5
+použitelných zpráv a brief za 38 dní dosáhl deseti položek jen pětkrát (zpráv nikdy víc
+než 6). Feedy a newsroomy přitom jdou stáhnout přímo: první sweep našel za 14 dní **209
+položek, které v appce nikdy nevyšly**. Rešerše proto začíná sweepem (krok 1, blok 0).
 
 ---
 
@@ -41,7 +47,7 @@ Položka je přínosná, když platí aspoň jedno:
 3. **Je to velká událost oboru**, kterou umí po přečtení převyprávět — financování
    špičkových laboratoří, akvizice, zákony, přelomový výzkum, soudy. **Nejvýš 2 položky
    na brief.** Tahle kolonka je strop, ne kvóta: když je den chudý na praktické věci,
-   řešením je hledat dál v blocích C a D, ne dosypat brief z burzy a soudních síní.
+   řešením je projít celý sweep a bloky A–D, ne dosypat brief z burzy a soudních síní.
 
 Každá položka to musí umět říct v poli `why` (viz Psaní). Když nevíš, co do `why` napsat,
 položka do briefu nepatří.
@@ -71,30 +77,53 @@ položka do briefu nepatří.
    - `python3 docs/check-brief.py --stats` — čísla za posledních 14 dnů včetně zpětné
      vazby (do deníku).
 
-### 1 · Rešerše — pevný plán, 22–32 dotazů
+### 1 · Rešerše — nejdřív sweep, pak cílené dotazy
 
-Jediný funkční nástroj je **WebSearch** (přímé stahování stránek je pro většinu domén
-blokované — výjimkou je RSS níže; neztrácej čas opakovanými pokusy). Rešerše se dělá podle
-plánu, ne „dokud něco nenajdu":
+**Zdroje se stahují přímo.** RSS feedy i stránky newsroomů jdou stáhnout (`curl`,
+WebFetch); blokované jsou jen některé domény (`help.openai.com`, `x.ai`, `cnbc.com` —
+na ty WebSearch). Rešerše proto nestojí na vyhledávači, který neřadí podle čerstvosti,
+ale na **sweepu**: pevný seznam zdrojů (newsroomy a changelogy firem, AI rubriky médií,
+česká média), ze kterých skript vytáhne všechno za posledních 14 dní a rovnou vyřadí, co
+už v appce vyšlo.
+
+**Blok 0 · Sweep (povinný, vždy první):**
+
+```bash
+python3 docs/feed-sweep.py > <scratch>/sweep.txt   # 14 dní; --days 3 = jen čerstvé; --all = i zveřejněné
+```
+
+- Výstup má tři části: **NOVÉ** (URL v appce nikdy nebyla — hlavní zásobárna kandidátů),
+  **MOŽNÁ DUPLICITA** (titulek se podobá zveřejněné položce — porovnej, ne zahazuj
+  naslepo) a **BEZ DATA** (HTML stránka, kde skript nenašel datum — ověř ručně).
+- **Projdi celý seznam NOVÉ** — nejdřív posledních 72 h, pak zbytek okna. Rychlá triáž
+  podle titulku: hned ven zákaznické příběhy a marketing („How X uses ChatGPT"), názorové
+  texty, recenze, podcasty a investorské zprávy bez dopadu na uživatele. Zbytek do
+  tabulky kandidátů. Stejná událost bývá v seznamu víckrát (firma + média) — je to jeden
+  kandidát s více zdroji.
+- **Titulek z feedu není fakt.** U každého kandidáta, který jde dál, otevři článek nebo
+  primární zdroj (`curl -sSL` / WebFetch) a fakta, čísla i datum události ber odtud
+  (krok 2). Zdroje T3 ve sweepu (Techmeme, Hacker News, Simon Willison, Živě, CzechCrunch)
+  jsou jen stopy — k nim dohledej T1/T2.
+- Řádek „Selhalo" nevadí — pokračuj. Když stejný zdroj selhává tři dny po sobě, zapiš to do
+  deníku; zdroje se ladí v `SOURCES` ve skriptu (nový zdroj = nový řádek).
+
+**Bloky A–F · cílené dotazy přes WebSearch (12–18)** doplňují, co sweep nevidí:
 
 | Blok | Dotazů | Co a jak |
 |---|---|---|
-| **A · Newsroomy** (T1, `allowed_domains`) | 5–6 | Po jednom dotazu: Anthropic (`anthropic.com`, `claude.com`) · OpenAI (`openai.com`, `help.openai.com`) · Google (`blog.google`, `deepmind.google`, `googleblog.com`, `google.dev`) · Microsoft (`microsoft.com`) · ostatní hráči najednou (`nvidia.com`, `meta.com`, `mistral.ai`, `x.ai`, `huggingface.co`, `perplexity.ai`, `aboutamazon.com`, `apple.com`) |
-| **B · Média** (T2, `allowed_domains`) | 3–4 | `reuters.com`, `apnews.com`, `theverge.com`, `arstechnica.com`, `techcrunch.com`, `axios.com`, `cnbc.com`, `theregister.com`, `wired.com`, `technologyreview.com`, `bloomberg.com`, `ft.com`: jeden dotaz na hlavní hráče, jeden na **nové funkce a jak se používají**, jeden společný na regulaci + byznys, a **povinně jeden úplně obecný, bez jména firmy** („AI news October 2026", „artificial intelligence news today") — zachytí žaloby, výpadky, trhy a hráče mimo obvyklý seznam (zkušenost: čistě firemně vázané dotazy samy o sobě přehlédly žalobu osmi států na OpenAI, protože nikdo nehledal „co se v AI děje" bez vázání na konkrétní firmu) |
-| **C · Témata** (bez omezení) | 8–10 | nové funkce a návody („how to use", „new feature", „now available") · agenti a kódovací nástroje · modely a **co mění pro uživatele** · promptování, workflow a postupy · spotřební AI (Apple, Samsung, auta, brýle, hodinky) · open-source a **lokální modely** (co si čtenář spustí sám) · výzkum a bezpečnost · **Česko a EU** (česká média, `europa.eu`, EU AI Act, tuzemské firmy, úřady a školy) · **jeden** společný dotaz na regulaci + investice/akvizice/čipy |
-| **D · Tipy** (release notes) | 6–8 | **každé téma vlastní dotaz, každý den** (ne jen když je fronta prázdná): release notes / help center / changelog / „what's new" dané firmy (`support.claude.com`, `help.openai.com`, `workspaceupdates.googleblog.com`, `techcommunity.microsoft.com`, `learn.microsoft.com`, `docs.cursor.com`, `perplexity.ai`, `github.blog`) |
-| **E · Radar** | 2–3 | nadcházející termíny: „next week / October 2026 / launch date / effective / deadline / hearing / trial / earnings / keynote" + jména hráčů |
+| **A · Zdroje bez feedu** | 3–4 | release notes ChatGPT a help center OpenAI (`help.openai.com` — stahování je blokované), release notes Claude (`support.claude.com`), xAI/Grok (`x.ai`), Meta AI (`about.fb.com`, `meta.com`) |
+| **B · Agentury a obecný dotaz** | 2–3 | `reuters.com`, `apnews.com`, `bloomberg.com` (sweep je nemá) a **povinně jeden úplně obecný dotaz bez jména firmy** („AI news October 2026") — zachytí žaloby, výpadky a hráče mimo seznam zdrojů |
+| **C · Česko a EU** | 2 | česká média nad rámec sweepu (Seznam Zprávy, ČT24, HN, E15, Deník N), `europa.eu`, EU AI Act, tuzemské firmy, úřady a školy |
+| **D · Tipy** | 2–4 | jen témata, pro která sweep nic nedal: „what's new" / release notes (ChatGPT, Claude, NotebookLM, Copilot v Microsoft 365) — **bez měsíce v dotazu**, okno ~90 dní |
+| **E · Radar** | 2–3 | nadcházející termíny: „next week / launch date / effective / deadline / hearing / trial / earnings / keynote" + jména hráčů |
 | **F · Ověření** | dle potřeby | k vybraným kandidátům dohledat T1/T2 URL a datum primární události |
 
 Pravidla rešerše:
 
-- **Do dotazu dávej měsíc a rok** („September 2026") a jména produktů, ne jen firem
-  („Claude", „ChatGPT", „Gemini", „Copilot"). Stejný dotaz nikdy neopakuj; obměň slova.
-- **Blok ukonči**, když tři dotazy po sobě nepřinesou nového kandidáta. Neukončuj celou
-  rešerši — další blok hledá jinde.
-- Když téma odhalí agregátor (T3), je to jen stopa: jeden dotaz z bloku F dohledá primární
-  zdroj a datum. Bez T1/T2 URL kandidát nepokračuje.
-- **RSS M365 (bonus):** `curl -sS --max-time 12 "https://www.microsoft.com/en-us/microsoft-365/blog/feed/" | head -c 100000` — když selže, pokračuj bez něj.
+- Do dotazu dávej jména produktů, ne jen firem („Claude", „ChatGPT", „Gemini",
+  „Copilot"). Stejný dotaz nikdy neopakuj; obměň slova.
+- Když téma odhalí agregátor (T3), je to jen stopa: blok F dohledá primární zdroj a datum.
+  Bez T1/T2 URL kandidát nepokračuje.
 - Průběžně veď **tabulku kandidátů**: kandidát · datum události · primární URL · tier ·
   stav (nový / update / duplicita / starý / neověřitelný) · důvod. Z ní vzniká výběr
   i redakční deník.
@@ -117,7 +146,8 @@ s novým datem. Datum článku NENÍ datum události. Pro **každého** kandidá
    zdrojů = jedna položka s více zdroji. **Zpráva, která v appce nikdy nevyšla, není
    „recyklace"** — i když ji agregátory omílají týden.
 4. **URL disciplína:** do `sources` smí **jen URL, které doslova zaznělo ve výsledcích
-   rešerše**. Nikdy neskládej URL z paměti. Když k dispozici není T1/T2 URL, zprávu vynech
+   rešerše** (výstup sweepu, stažená stránka, výsledek vyhledávání). Nikdy neskládej URL
+   z paměti. Když k dispozici není T1/T2 URL, zprávu vynech
    (výjimka: vlastní newsroom firmy, o které zpráva je — to je T1, i když není v seznamu;
    skript ho jen ohlásí jako WARN).
 5. **Rozpory:** nikdy neprůměruj rozporná čísla. Přednost má primární/oficiální zdroj;
@@ -135,8 +165,8 @@ s novým datem. Datum článku NENÍ datum události. Pro **každého** kandidá
 
 - **Cíl 10–14 položek (zprávy + tipy), tvrdý strop 16.** Pod 10 položek je WARN — smí
   projít jen se zdůvodněním v deníku (co jsi hledal, proč nic nebylo). Než brief spadne
-  pod deset, sáhni v tomhle pořadí: **plné 14denní okno** → **fronta tipů** → další dotazy
-  v blocích C a D. Nikdy nedoplňuj počet starou, nejistou nebo vymyšlenou položkou —
+  pod deset, sáhni v tomhle pořadí: **celý seznam NOVÉ ze sweepu** (plné 14denní okno) →
+  **fronta tipů** → další dotazy v blocích A–D. Nikdy nedoplňuj počet starou, nejistou nebo vymyšlenou položkou —
   a nikdy ne přisypáním byznysu a regulace, na ty platí strop níž.
 - **Priorita:** 1. přímý užitek pro čtenáře (funkce, modely, dostupnost, ceny; přednost
   jádrová témata) → 2. velikost události → 3. ověřené > neověřené → 4. čerstvost.
@@ -152,14 +182,12 @@ s novým datem. Datum článku NENÍ datum události. Pro **každého** kandidá
 - **Příběhové linky (`followsUp`):** když dnešní zpráva navazuje na díl z posledních
   14 dnů (stejná kauza, nový vývoj), přidej `followsUp` s `date`, `id` a doslovně
   zkopírovaným `title` (cs + en). Odkazuj na nejbližší předchozí díl.
-- **Tichý den:** nejdřív zkontroluj, že jsi prošel všechny bloky rešerše (víkendové
-  briefy mají vzít čtvrteční a páteční dění — 7denní okno je k tomu, a blok B má
-  povinný obecný dotaz, viz tabulka v kroku 1). Pak tipy z fronty. Pak radar.
-  **Když má brief po tomhle všem pořád málo zpráv, nedoplňuj ho vymyšlenou nebo
-  starou zprávou — doplň ho tipy.** Rozšiř blok D na celé **~60denní okno** (ne jen
-  aktuální měsíc — „co se v tomhle nástroji zlepšilo za poslední dva měsíce") a najdi
-  reálné, dosud nepublikované funkce/tipy, dokud brief nemá aspoň 10 položek. Teprve
-  když ani tohle nestačí, dej míň a napiš proč do deníku.
+- **Tichý den:** se sweepem by neměl nastat — první sweep měl za 14 dní přes 200
+  nezveřejněných položek. Když přesto brief nedosáhne deseti, zkontroluj, že jsi prošel
+  **celý** seznam NOVÉ (ne jen poslední dny) a všechny bloky A–F. Pak tipy z fronty
+  a ze sweepu s delším oknem (`python3 docs/feed-sweep.py --days 90` ukáže i starší
+  funkce z changelogů). **Nedoplňuj vymyšlenou ani starou zprávou** — doplň tipy.
+  Teprve když ani tohle nestačí, dej míň a napiš do deníku, co přesně jsi prošel.
 
 ### 4 · Psaní — stylový manuál
 
@@ -297,8 +325,8 @@ python3 docs/check-brief.py
 - **FAIL** → oprav a spusť znovu. **S FAILem se nikdy nepublikuje.**
 - **WARN** → posuď; když je odchylka záměrná a odůvodněná, smí projít — důvod do deníku.
 - Skript kontroluje: platnost JSON a schéma v3, právě 1 highlight (ne tip), kategorie,
-  `kind`, meze slov (titulek, shrnutí, `why`), **stáří `eventDate`** (zprávy 7 dní,
-  tipy 60), názvy dnů, ASCII uvozovky, kalky, zakázané domény,
+  `kind`, meze slov (titulek, shrnutí, `why`), **stáří `eventDate`** (zprávy 14 dní,
+  tipy 90), názvy dnů, ASCII uvozovky, kalky, zakázané domény,
   paywall párování, **tiery zdrojů a definici ověřeno**, kanonická jména zdrojů, tipy
   (počet, backlog, žádné opakování), radar (data, meze, zdroje, řazení, **přenos ze
   včerejška**), **podobné titulky** proti posledním 14 dnům, `weekInReview`,
@@ -335,7 +363,7 @@ python3 docs/check-brief.py
    brief: YYYY-MM-DD
 
    N zpráv + M tipů + K na obzoru · highlight: <titulek> · ověřeno X/N+M
-   Rešerše: <počet dotazů> (A n · B n · C n · D n · E n · F n)
+   Rešerše: sweep <OK>/<zdrojů> zdrojů, NOVÉ <n> → kandidátů <m> · dotazy <n> (A n · B n · C n · D n · E n · F n)
 
    Vyřazeno:
    - <kandidát> — <důvod: starší než 7 dní (datum) / už vyšlo <datum> / jen T3 / rozpor / neověřitelné datum>
@@ -378,15 +406,14 @@ a `used` přesné a nikdy záznamy nepřepisuj zpětně.
   `other`. Rotace je
   **preference, ne podmínka**: přednost má téma nejdéle bez tipu, ale když pro něj fronta
   nic nemá a jiné téma má dobrý kandidát, vydej ten. Prázdný slot kvůli rotaci je chyba.
-- **Bank:** kandidáty přidávej při každé rešerši (`used: null`, s `why` a `eventDate`).
-  **Blok D se ptá na každé téma každý den**, ať je fronta jakkoli hluboká — cílový stav je
-  **aspoň 2 čekající tipy na téma**. Vyčerpaná banka je hlavní důvod, proč brief spadne
-  pod deset položek, takže doplňovat se má dřív, než dojde.
-  **Zkušenost:** dotaz vázaný jen na aktuální měsíc („changelog October 2026")
-  opakovaně vrátil nic, i když release notes nástroje měly za posledních ~60 dní víc
-  použitelných funkcí — **když dotaz na aktuální měsíc nic nenajde, zopakuj ho bez
-  měsíce/data** („<nástroj> release notes" / „what's new in <nástroj>") a projdi celé
-  okno ~90 dní, než o tématu napíšeš „bez kandidáta".
+- **Bank:** hlavní zdroj tipů je sweep — Workspace Updates, blog Gemini, changelogy
+  GitHubu, Cursoru a Perplexity, blog Claude, Windows a Microsoft 365. **Každou
+  použitelnou funkci, kterou dnes nevydáš, zapiš do banky** (`used: null`, s `why`
+  a `eventDate`), ať zítřejší brief nezačíná od nuly. Témata bez feedu (ChatGPT, Claude
+  release notes, NotebookLM) pokryje blok D. Cílový stav je **aspoň 2 čekající tipy na
+  téma**; vyčerpaná banka byla hlavní důvod, proč brief padal pod deset položek.
+  Dotazy na tipy piš **bez měsíce/data** („<nástroj> release notes" / „what's new in
+  <nástroj>") — dotaz vázaný na aktuální měsíc opakovaně vracel nic.
 - **Ověření tipu:** oficiální release notes / blog (T1) = `verified: true`. Jinak false.
 
 ---
@@ -588,6 +615,31 @@ Kompletní ukázka: `docs/examples/brief-v3-example.json`
 - Víkendové a pondělní briefy jsou z podstaty tenčí na čerstvé oznámení; 14denní okno,
   fronta tipů a radar je mají dorovnat. Když běh selže, brief chybí viditelně v appce — dogeneruje se
   na pokyn v session.
+
+## Změny v4.0 (20. 10. 2026)
+
+**Rešerše začíná sweepem zdrojů.** Uživatel upozornil, že brief má opět jen dvě
+položky. Diagnóza z dat: za 38 dní průměr 5,7 položky, deset a víc jen pětkrát (vždy
+z plné banky tipů hned po v3.5), zpráv nikdy víc než 6 denně. Příčina nebyla v tichu ve
+zprávách, ale v receptu: tvrdil, že stahování stránek je blokované a funguje jen
+WebSearch. Test ukázal opak — 35 z 36 zdrojů (RSS i HTML newsroomy) se stáhlo za 3,5 s
+a za 14 dní nesly **209 položek, jejichž URL v appce nikdy nebyla**, včetně velkých
+zpráv, které rešerše vůbec neviděla (zákaz DeepSeeku na federálních úřadech USA, útok
+na OpenCode, Disney a Character.AI, šetření FTC u Anthropicu a OpenAI, ChatGPT v Chromu,
+Muse Spark Open, Gemini v Sheets na iOS). Deník přitom o OpenAI psal „žádná vlastní
+zpráva od 11. 10.", zatímco jeho feed měl za tu dobu 26 příspěvků.
+
+- **Blok 0 · Sweep** (`docs/feed-sweep.py`): povinný první krok; stáhne ~36 zdrojů,
+  vyřadí zveřejněné podle URL, označí možné duplicity podle titulku a tiery převezme
+  z `check-brief.py`.
+- **WebSearch jen na to, co sweep nevidí** (A–F, 12–18 dotazů): zdroje bez feedu,
+  agentury, povinný obecný dotaz, Česko a EU, tipy bez feedu, radar, ověření.
+- **Titulek z feedu není fakt** — fakta a datum se berou z otevřeného článku či
+  primárního zdroje; URL ze sweepu a stažených stránek splňují URL disciplínu.
+- **Banka tipů se plní ze sweepu** (changelogy a Workspace Updates) — nevydané funkce
+  do banky, ať další den nezačíná od nuly.
+- Opraven zastaralý text kroku 6 (stáří zpráv 14 dní, tipů 90); `claude.dev`
+  a `windows.com` jsou T1.
 
 ## Změny v3.7 (19. 10. 2026)
 
