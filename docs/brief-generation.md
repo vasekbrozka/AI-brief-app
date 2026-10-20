@@ -104,6 +104,9 @@ python3 docs/feed-sweep.py > <scratch>/sweep.txt   # 14 dní; --days 3 = jen če
   primární zdroj (`curl -sSL` / WebFetch) a fakta, čísla i datum události ber odtud
   (krok 2). Zdroje T3 ve sweepu (Techmeme, Hacker News, Simon Willison, Živě, CzechCrunch)
   jsou jen stopy — k nim dohledej T1/T2.
+- Ověřování 20–30 kandidátů smíš rozdělit mezi paralelní agenty (nástroj Agent, třeba
+  po tématech). Každé číslo a tvrzení, které jde do textu, ale pak **sám dohledej
+  doslova u zdroje** — agent se může splést v datu i v tom, co zdroj opravdu říká.
 - Řádek „Selhalo" nevadí — pokračuj. Když stejný zdroj selhává tři dny po sobě, zapiš to do
   deníku; zdroje se ladí v `SOURCES` ve skriptu (nový zdroj = nový řádek).
 
