@@ -82,7 +82,7 @@ T1_DOMAINS = [
     "cloudflare.com", "salesforce.com", "oracle.com", "ibm.com", "intel.com", "amd.com",
     "samsung.com", "metr.org", "darioamodei.com", "blog.samaltman.com",
     "courtlistener.com", "stepfun.ai", "meta.ai", "lmstudio.ai", "ollama.com",
-    "inceptionlabs.ai", "brave.com", "character.ai",
+    "inceptionlabs.ai", "brave.com", "character.ai", "norforge.com",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.

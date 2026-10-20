@@ -636,9 +636,12 @@ zprávách, ale v receptu: tvrdil, že stahování stránek je blokované a fung
 WebSearch. Test ukázal opak — 35 z 36 zdrojů (RSS i HTML newsroomy) se stáhlo za 3,5 s
 a za 14 dní nesly **209 položek, jejichž URL v appce nikdy nebyla**, včetně velkých
 zpráv, které rešerše vůbec neviděla (zákaz DeepSeeku na federálních úřadech USA, útok
-na OpenCode, Disney a Character.AI, šetření FTC u Anthropicu a OpenAI, ChatGPT v Chromu,
-Muse Spark Open, Gemini v Sheets na iOS). Deník přitom o OpenAI psal „žádná vlastní
-zpráva od 11. 10.", zatímco jeho feed měl za tu dobu 26 příspěvků.
+na OpenCode, útok s AI agenty na víc než 100 webů, Disney a Character.AI, šetření FTC
+u Anthropicu a OpenAI, Muse Spark Open, Gemini v Sheets na iOS). Deník přitom o OpenAI psal
+„žádná vlastní zpráva od 11. 10.", zatímco jeho feed měl za tu dobu 26 příspěvků.
+Sweep ale jen nachází, neověřuje: první den se ukázalo, že „ChatGPT v Chromu“ (9to5Google)
+bylo znovuohlášení funkcí z léta a příkaz proti DeepSeeku je podepsaný už 24. 7. — média
+psala o 19. 10. Krok 2 a nezávislá kontrola (5c) proto platí beze změny.
 
 - **Blok 0 · Sweep** (`docs/feed-sweep.py`): povinný první krok; stáhne ~36 zdrojů,
   vyřadí zveřejněné podle URL, označí možné duplicity podle titulku a tiery převezme
