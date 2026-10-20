@@ -3876,33 +3876,6 @@
       "used": "2026-10-17"
     },
     {
-      "slug": "tip-copilot-model-policy-api",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": true,
-      "title": {
-        "cs": "Copilot nabízí API pro správu modelových politik",
-        "en": "Copilot adds an API for model policies"
-      },
-      "summary": {
-        "cs": "GitHub 19. října zpřístupnilo REST API pro čtení a úpravu politik modelů Copilota — na úrovni firmy, firemních týmů, firemních aplikací i organizace. Admin tak může programově řídit, které modely jsou komu dostupné, včetně delegování správy na organizace nebo týmy.",
-        "en": "On October 19, GitHub opened a REST API for reading and updating Copilot model policies — at the enterprise, enterprise-team, enterprise-app, and organization level. Admins can now manage programmatically which models are available to whom, including delegating control to organizations or teams."
-      },
-      "sources": [
-        {
-          "name": "GitHub",
-          "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams"
-        }
-      ],
-      "added": "2026-10-20",
-      "used": "2026-10-20",
-      "why": {
-        "cs": "Správuješ Copilota pro firmu nebo tým? Nové GET/PATCH endpointy na model-policies jsou přesně to, čím admini povolují náhrady za šest modelů, které GitHub právě vyřadil. Ušetříš klikání, hodí se i pro automatizaci.",
-        "en": "Managing Copilot for a company or team? The new GET/PATCH model-policies endpoints are exactly how admins enable replacements for the six models GitHub just retired. Skip the admin UI, or script it."
-      },
-      "eventDate": "2026-10-19"
-    },
-    {
       "slug": "tip-claude-docs-slides-design-free",
       "category": "tools",
       "theme": "claude",
@@ -3913,12 +3886,12 @@
         "en": "Claude’s Docs, Slides, and Design now on the Free plan"
       },
       "summary": {
-        "cs": "Anthropic 8. října vyvedl funkce Docs, Slides a Design z bety a zpřístupnil je ve všech plánech Claude včetně bezplatného — dokumenty, prezentace a návrhy tak Claude vytvoří i uživatelům zdarma. Placené plány navíc dostaly do bety živé dashboardy z dat, Team a Enterprise animace Claude Motion.",
-        "en": "On October 8, Anthropic took Docs, Slides, and Design out of beta and put them on every Claude plan, including Free — so Claude now creates documents, presentations, and designs for free users too. Paid plans also got live data dashboards in beta, and Team and Enterprise got Claude Motion animations."
+        "cs": "Anthropic 8. října vyvedl funkce Docs, Slides a Design z bety a zpřístupnil je ve všech plánech Claude včetně bezplatného — dokumenty, prezentace a návrhy tak Claude vytvoří i uživatelům zdarma. Placené plány navíc dostaly do bety živé dashboardy z dat a plány Team a Enterprise animace Claude Motion.",
+        "en": "On October 8, Anthropic took Docs, Slides, and Design out of beta and put them on every Claude plan, including Free — so Claude now creates documents, presentations, and designs for free users too. Paid plans also got live data dashboards in beta, and Team and Enterprise plans got Claude Motion animations."
       },
       "why": {
-        "cs": "Máš Claude zdarma? Stačí v chatu napsat, co potřebuješ — třeba prezentaci z poznámek. Animace Motion vyvoláš v plánech Team a Enterprise příkazem /motion.",
-        "en": "On the free plan? Just ask Claude in chat for what you need — say, slides from your notes. On Team and Enterprise, type /motion to bring up Motion."
+        "cs": "Máš Claude zdarma? Stačí v chatu napsat, co potřebuješ — třeba prezentaci z poznámek. Kdo používal samostatný claude.ai/design, má do 14. prosince čas převést si design systémy.",
+        "en": "On the free plan? Just ask Claude in chat for what you need — say, slides from your notes. Used the standalone claude.ai/design? You have until December 14 to move your design systems."
       },
       "sources": [
         {
@@ -3944,8 +3917,8 @@
         "en": "On October 19, Google added co-creation for Slide Decks and Video Overviews in Gemini Notebook. The notebook suggests topics from your sources, you steer content, style, and format, and a new Review toggle lets you check the plan before anything renders. Rolling out globally to all users within a week."
       },
       "why": {
-        "cs": "Platí pro všechny: v chatu notebooku požádej o prezentaci nebo videopřehled. Se zapnutým přepínačem Review pak plán projdeš v panelu Studio (Review outline notes, u videa Review producer notes).",
-        "en": "Available to everyone: in the notebook chat, ask for slides or a video overview. With the Review toggle on, check the plan in the Studio panel (Review outline notes; for video, Review producer notes)."
+        "cs": "Dostanou to všichni uživatelé, nasazuje se do týdne. V chatu notebooku požádej o prezentaci nebo videopřehled; se zapnutým přepínačem Review si plán nejdřív projdeš v panelu Studio.",
+        "en": "Coming to all users within a week. Ask the notebook chat for slides or a video overview; with the Review toggle on, check the plan in the Studio panel first."
       },
       "sources": [
         {
@@ -3971,8 +3944,8 @@
         "en": "On October 19, Perplexity let you attach a local folder to a Project in its Mac app (version 26.38 or later). Computer reads files from it and saves finished work back, and new Project tasks use it by default. Only you can use the folder, even in a shared Project."
       },
       "why": {
-        "cs": "Stačí Mac appka Perplexity od verze 26.38: připoj k projektu složku, třeba s reporty. Změnit nebo odebrat ji jde na stránce projektu. Potřebný tarif Perplexity neuvádí.",
-        "en": "You need the Perplexity Mac app 26.38 or later: attach a folder, say one with your reports, to a Project. Change or remove it from the Project page. Perplexity doesn’t name a required plan."
+        "cs": "Hodí se, když má Computer pracovat přímo s tvými soubory — počítej s tím, že do složky i zapisuje. Potřebuješ Mac appku od verze 26.38; složku připojíš a změníš na stránce projektu.",
+        "en": "Useful when Computer should work directly with your files — note that it also writes to the folder. You need the Mac app 26.38 or later; attach or change the folder on the Project page."
       },
       "sources": [
         {
@@ -3994,12 +3967,12 @@
         "en": "Brave Leo now encrypts GLM chats end to end"
       },
       "summary": {
-        "cs": "Brave 15. října zapnul v asistentu Leo šifrování konverzací s otevřeným modelem GLM 5.3 Flash. Dotaz se zašifruje už v prohlížeči a rozšifruje se jen v hardwarově izolovaném prostředí firmy NEAR AI, takže ho nepřečte ani Brave. Další kroky ověřování firma teprve chystá.",
-        "en": "On October 15, Brave turned on encryption for Leo chats with the open-weight GLM 5.3 Flash model. Prompts are encrypted in the browser and decrypted only inside a hardware-isolated enclave run by NEAR AI, so even Brave can’t read them. More verification steps are still planned."
+        "cs": "Brave 15. října zapnul v asistentu Leo šifrování konverzací s otevřeným modelem GLM 5.3 Flash. Dotaz se zašifruje už v prohlížeči a rozšifruje se až v uzavřené části serveru firmy NEAR AI, takže ho nepřečte ani Brave. Další kroky ověřování firma teprve chystá.",
+        "en": "On October 15, Brave turned on encryption for Leo chats with the open-weight GLM 5.3 Flash model. Prompts are encrypted in the browser and decrypted only inside a sealed part of NEAR AI’s server hardware, so even Brave can’t read them. More verification steps are still planned."
       },
       "why": {
-        "cs": "Používáš prohlížeč Brave? V asistentu Leo vyber model GLM 5.3 Flash — šifrování platí jen pro něj. Funguje ve verzích Release, Beta i Nightly; jestli je potřeba placené Leo Premium, Brave neuvádí.",
-        "en": "Use the Brave browser? Pick GLM 5.3 Flash in Leo — the encryption only covers that model. It’s in the Release, Beta, and Nightly channels; Brave doesn’t say whether Leo Premium is required."
+        "cs": "Používáš prohlížeč Brave? V asistentu Leo vyber model GLM 5.3 Flash — šifrování platí jen pro něj. Funguje ve verzích Release, Beta i Nightly a podle Brave je jeho AI dostupná každému uživateli.",
+        "en": "Use the Brave browser? Pick GLM 5.3 Flash in Leo — the encryption only covers that model. It’s in the Release, Beta, and Nightly channels, and Brave says its AI is available to every user."
       },
       "sources": [
         {

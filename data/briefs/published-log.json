@@ -1653,22 +1653,17 @@
     {
       "slug": "2026-10-20-github-copilot-six-models-retired",
       "date": "2026-10-20",
-      "topic": "GitHub vyřadil z Copilota šest starších modelů"
-    },
-    {
-      "slug": "2026-10-20-tip-copilot-model-policy-api",
-      "date": "2026-10-20",
-      "topic": "tip: Copilot nabízí API pro správu modelových politik"
+      "topic": "Druhá vlna: GitHub vyřadil z Copilota šest modelů"
     },
     {
       "slug": "2026-10-20-dhs-bans-deepseek-federal-agencies",
       "date": "2026-10-20",
-      "topic": "USA zakázaly DeepSeek na všech civilních federálních úřadech"
+      "topic": "DHS zveřejnilo příkaz z 24. 7.: civilní úřady USA musí odstranit DeepSeek"
     },
     {
       "slug": "2026-10-20-opencode-console-api-keys-breach",
       "date": "2026-10-20",
-      "topic": "Hackeři ukradli z konzole OpenCode API klíče uživatelů"
+      "topic": "Hackeři ukradli z konzole OpenCode API klíče části uživatelů"
     },
     {
       "slug": "2026-10-20-character-ai-bankruptcy-disney-staff",
@@ -1688,17 +1683,17 @@
     {
       "slug": "2026-10-20-whatsapp-hidden-support-chatbot-instructions",
       "date": "2026-10-20",
-      "topic": "WhatsApp podle Wiredu skrýval v nápovědě pokyny pro chatbota"
+      "topic": "Nápověda WhatsAppu podle Wiredu odhalila pokyny pro chatbota"
     },
     {
       "slug": "2026-10-20-hacker-ai-agents-100-websites",
       "date": "2026-10-20",
-      "topic": "Hacker s AI agenty pronikl na víc než 100 webů"
+      "topic": "Hacker s AI agenty prolomil přes 100 webů (Norforge, Reuters)"
     },
     {
       "slug": "2026-10-20-anthropic-small-models-iot-replication",
       "date": "2026-10-20",
-      "topic": "Anthropic varuje před AI červy v levných chytrých zařízeních"
+      "topic": "Anthropic varuje před možnými AI červy v levných zařízeních"
     },
     {
       "slug": "2026-10-20-tip-claude-docs-slides-design-free",
@@ -1721,5 +1716,5 @@
       "topic": "tip: Brave Leo šifruje chaty s modelem GLM 5.3 Flash"
     }
   ],
-  "updated": "2026-10-20T06:29:04Z"
+  "updated": "2026-10-20T06:52:43Z"
 }

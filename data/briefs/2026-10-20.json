@@ -2,43 +2,43 @@
   "date": "2026-10-20",
   "sample": false,
   "headline": {
-    "cs": "USA zakázaly DeepSeek na všech civilních federálních úřadech",
-    "en": "US bans DeepSeek across federal civilian agencies"
+    "cs": "Hacker s AI agenty prolomil přes 100 webů",
+    "en": "Hacker used AI agents to break into 100-plus websites"
   },
   "items": [
     {
-      "id": "2026-10-20-dhs-bans-deepseek-federal-agencies",
+      "id": "2026-10-20-hacker-ai-agents-100-websites",
       "kind": "news",
-      "category": "policy",
-      "highlight": true,
+      "category": "research",
       "verified": true,
       "eventDate": "2026-10-19",
       "title": {
-        "cs": "USA zakázaly DeepSeek na všech civilních federálních úřadech",
-        "en": "US bans DeepSeek across federal civilian agencies"
+        "cs": "Hacker s AI agenty prolomil přes 100 webů",
+        "en": "Hacker used AI agents to break into 100-plus websites"
       },
       "summary": {
-        "cs": "Ministerstvo vnitřní bezpečnosti USA (DHS) 19. října nařídilo všem civilním federálním úřadům odstranit produkty čínské laboratoře DeepSeek a dál je nekupovat. Zákaz se týká i produktů třetích stran vyvinutých „s využitím DeepSeeku“, což příkaz blíž nevymezuje. DHS varuje, že by citlivá data mohla putovat k čínské vládě a modely mohou obsahovat malware.",
-        "en": "On October 19, the US Department of Homeland Security ordered all federal civilian agencies to remove and stop buying products from Chinese AI lab DeepSeek. The ban also covers third-party products ‘developed using DeepSeek implementations’, which the order doesn’t define. DHS warns sensitive data could reach the Chinese government and the models may contain malware."
+        "cs": "Bezpečnostní firma Norforge 19. října popsala útoky, při kterých hacker s převážně samostatnými AI agenty pronikl na víc než 100 webů v USA, Kanadě, Austrálii a Japonsku. Podle Reuters šlo i o weby firem John Deere, SharkNinja a Cummins. John Deere nevidí známky úniku citlivých dat, SharkNinja mluví o samostatném webu podpory.",
+        "en": "On October 19, security firm Norforge described a hacker using mostly autonomous AI agents to break into 100-plus websites in the US, Canada, Australia, and Japan. Per Reuters, victims included John Deere, SharkNinja, and Cummins; John Deere sees no sign of data access, and SharkNinja says only a standalone support site was hit."
       },
       "why": {
-        "cs": "Zákaz platí jen pro americké úřady. Používáš-li DeepSeek s agenty, vezmi v potaz, že ho americký úřad NIST shledal náchylnějším k útokům typu prompt injection než americké modely.",
-        "en": "The ban covers only US agencies. If you run DeepSeek with agents, keep in mind that NIST found it more vulnerable to prompt injection than US models."
+        "cs": "Ukazuje, jak AI agenti usnadňují útoky ve velkém. Provozuješ web nebo e-shop? Pravidelné aktualizace a dobře zabezpečená administrace mají teď ještě větší váhu.",
+        "en": "It shows how AI agents make mass attacks easier. Run a website or online store? Regular updates and a well-secured admin panel matter even more now."
       },
       "sources": [
         {
-          "name": "Federal Register",
-          "url": "https://public-inspection.federalregister.gov/2026-21447.pdf"
+          "name": "Norforge",
+          "url": "https://norforge.com/blog/inside_cairn"
         },
         {
-          "name": "The Register",
-          "url": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010"
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
         },
         {
-          "name": "Engadget",
-          "url": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/"
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/"
         }
-      ]
+      ],
+      "highlight": true
     },
     {
       "id": "2026-10-20-opencode-console-api-keys-breach",
@@ -47,16 +47,16 @@
       "verified": true,
       "eventDate": "2026-10-17",
       "title": {
-        "cs": "Hackeři ukradli z OpenCode API klíče uživatelů",
-        "en": "Hackers steal users’ API keys from OpenCode"
+        "cs": "Hackeři ukradli z konzole OpenCode API klíče části uživatelů",
+        "en": "Hackers steal some users’ API keys from OpenCode Console"
       },
       "summary": {
-        "cs": "Otevřený kódovací agent OpenCode 17. října oznámil průnik do starého systému své webové konzole. Zasáhl 1,4 % jejích uživatelů, kteří tam měli uložené API klíče k poskytovatelům jako OpenAI, Anthropic a Google. Někteří od té doby hlásí neoprávněné útraty od několika stovek až po 1 700 dolarů.",
-        "en": "On October 17, open-source coding agent OpenCode disclosed a breach of an older system behind its web Console. It hit 1.4% of Console users, who had stored API keys there for providers such as OpenAI, Anthropic, and Google. Some have since reported unauthorized charges from several hundred dollars up to $1,700."
+        "cs": "OpenCode, otevřený AI nástroj pro programování a alternativa ke Claude Code či Cursoru, 17. října oznámil průnik do starého systému své webové konzole. Zasáhl 1,4 % jejích uživatelů, kteří tam měli uložené API klíče k poskytovatelům jako OpenAI, Anthropic a Google. Někteří hlásí neoprávněné útraty až do 1 700 dolarů.",
+        "en": "OpenCode, an open-source AI coding tool and an alternative to Claude Code and Cursor, disclosed on October 17 a breach of an older system behind its web Console. It hit 1.4% of Console users, who had stored API keys there for providers such as OpenAI, Anthropic, and Google. Some report unauthorized charges up to $1,700."
       },
       "why": {
-        "cs": "Ukládal sis API klíče v konzoli OpenCode? Zruš je a vytvoř nové přímo u každého poskytovatele, jak firma radí. Samotná appka a příkazová řádka OpenCode zasažené nebyly.",
-        "en": "Stored API keys in the OpenCode Console? Revoke them and create new ones directly with each provider, as the company advises. The OpenCode app and command-line tool weren’t affected."
+        "cs": "Nedostal jsi od OpenCode e-mail? Pak se tě únik netýká. Pokud ano, zruš uložené klíče a vytvoř nové přímo u každého poskytovatele. Appka a příkazová řádka OpenCode zasažené nebyly.",
+        "en": "No email from OpenCode? Then you weren’t affected. If you got one, revoke the stored keys and create new ones directly with each provider. The OpenCode app and command-line tool weren’t hit."
       },
       "sources": [
         {
@@ -66,6 +66,35 @@
         {
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-20-anthropic-small-models-iot-replication",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-10-12",
+      "title": {
+        "cs": "Anthropic varuje před možnými AI červy v levných zařízeních",
+        "en": "Anthropic warns of possible AI worms in cheap devices"
+      },
+      "summary": {
+        "cs": "Anthropic 12. října zveřejnil výzkum, podle kterého jsou malé AI modely možná jen měsíce od schopnosti samy se šířit po levných chytrých zařízeních. Model Gemma4-26B už rozběhl na 15 TV boxech po zhruba 55 dolarech. Celý cyklus šíření ale ve zjednodušeném testu zvládl jen silnější model GLM-5.2.",
+        "en": "On October 12, Anthropic published research suggesting small AI models may be months away from self-replicating across cheap smart devices. It already ran Gemma4-26B on 15 TV boxes costing about $55 each, but in a simplified test only the stronger GLM-5.2 completed the full replication cycle."
+      },
+      "why": {
+        "cs": "Máš doma levný neznačkový TV box? Test se šířil přes nezabezpečené ladicí rozhraní ADB — pokud ho nepoužíváš, vypni ho a box aktualizuj. Zatím jde o laboratorní test, ne o útok v divočině.",
+        "en": "Own a cheap no-name TV box? The test spread via an unsecured ADB debug port — turn it off if unused and update the box. It’s a lab test, not a real attack."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/research/self-replicating-ai"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
         }
       ]
     },
@@ -80,12 +109,12 @@
         "en": "Character.AI files for bankruptcy, Disney hires most staff"
       },
       "summary": {
-        "cs": "Provozovatel chatbotů Character.AI 12. října požádal o ochranu před věřiteli (Chapter 11), aby se mohl prodat. Disney už najal většinu jeho zaměstnanců včetně šéfa a za licenci na technologii nabízí 20 milionů dolarů — v aukci ho ale může někdo přebít. Žaloby kvůli dopadům chatbotů na děti mají zůstat u Character.AI.",
-        "en": "Chatbot maker Character.AI filed for Chapter 11 bankruptcy on October 12 so it can sell itself. Disney has already hired most of its staff, including the CEO, and offers $20 million for a license to its technology — though another bidder could top that at auction. Lawsuits over harm to minors stay with Character.AI."
+        "cs": "Provozovatel chatbotů Character.AI 12. října požádal o ochranu před věřiteli (Chapter 11) — podle soudního podání na požadavek Disneyho, který už najal většinu jeho lidí. Za nevýhradní licenci na technologii, bez webu a dat uživatelů, nabízí 20 milionů dolarů. Žaloby kvůli dopadům na děti zůstávají u Character.AI.",
+        "en": "Chatbot maker Character.AI filed for Chapter 11 on October 12 — at Disney’s insistence, per a court filing — after Disney hired most of its staff. Disney offers $20 million for a nonexclusive license to its technology, excluding the website and user data. Lawsuits over harm to minors stay with Character.AI."
       },
       "why": {
-        "cs": "Používáš Character.AI? Appka zatím běží a předplatné platí, prodej má skončit koncem listopadu nebo začátkem prosince — bez kupce službu ukončí. Data si můžeš stáhnout v aplikaci nebo na webu.",
-        "en": "Using Character.AI? The app still works and subscriptions stay active, but if the sale due by early December finds no buyer, it shuts down. Export your data in the app or on the web."
+        "cs": "Používáš Character.AI? Appka zatím běží a předplatné platí. Disney chce jen technologii — když se do přelomu listopadu a prosince nenajde nikdo, kdo převezme provoz, služba skončí. Data si můžeš stáhnout.",
+        "en": "Using Character.AI? The app still runs and subscriptions stay active. Disney wants only the technology — if no one takes over the service by early December, it shuts down. You can export your data."
       },
       "sources": [
         {
@@ -103,6 +132,39 @@
       ]
     },
     {
+      "id": "2026-10-20-dhs-bans-deepseek-federal-agencies",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-10-19",
+      "title": {
+        "cs": "Americké civilní úřady musí podle příkazu DHS odstranit DeepSeek",
+        "en": "DHS order makes US civilian agencies drop DeepSeek"
+      },
+      "summary": {
+        "cs": "Ministerstvo vnitřní bezpečnosti USA (DHS) 19. října zveřejnilo příkaz, podle kterého civilní federální úřady musí odstranit produkty čínské laboratoře DeepSeek i produkty třetích stran na ní postavené a dál je nekupovat. Příkaz sám je datovaný 24. července. Výjimku mají systémy národní bezpečnosti.",
+        "en": "On October 19, the US Department of Homeland Security published an order requiring federal civilian agencies to remove and stop buying products from Chinese AI lab DeepSeek, including third-party products built on it. The order itself is dated July 24. National security systems are exempt."
+      },
+      "why": {
+        "cs": "Pro české uživatele se nic nemění. DHS ale zákaz zdůvodňuje tím, že data zadaná do DeepSeeku mohou skončit u čínské vlády — citlivé údaje do něj proto nevkládej.",
+        "en": "Nothing changes for users outside US agencies. But DHS justifies the ban by the risk that data typed into DeepSeek can reach the Chinese government — so keep sensitive information out of it."
+      },
+      "sources": [
+        {
+          "name": "Federal Register",
+          "url": "https://public-inspection.federalregister.gov/2026-21447.pdf"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/"
+        }
+      ]
+    },
+    {
       "id": "2026-10-20-meta-muse-spark-open-weights",
       "kind": "news",
       "category": "opensource",
@@ -113,17 +175,21 @@
         "en": "Meta releases open weights for Muse Spark Open"
       },
       "summary": {
-        "cs": "Meta 15. října zveřejnila váhy modelu Muse Spark Open, podle ní nejschopnějšího otevřeného modelu z USA. Jde o jiný model než Muse Wonder z 12. října: má 816 miliard parametrů (aktivních 42 miliard), kontext milion tokenů a rozumí textu, obrázkům, zvuku i videu. Cílí na programování a agenty.",
-        "en": "On October 15, Meta released the weights for Muse Spark Open, which it calls the most capable US open-weight model to date. It is separate from the October 12 Muse Wonder: 816 billion parameters (42 billion active), a 1-million-token context, and input across text, images, audio, and video. It targets coding and agents."
+        "cs": "Meta 15. října zveřejnila otevřené váhy modelu Muse Spark Open, podle ní nejschopnějšího otevřeného modelu z USA. Jde o jiný model než Muse Wonder z 12. října: má 816 miliard parametrů (aktivních 42 miliard), kontextové okno milion tokenů a rozumí textu, obrázkům, zvuku i videu. Cílí na programování a agenty.",
+        "en": "On October 15, Meta released open weights for Muse Spark Open, which it calls the most capable US open-weight model to date. It is separate from the October 12 Muse Wonder: 816 billion parameters (42 billion active), a 1-million-token context window, and input across text, images, audio, and video. It targets coding and agents."
       },
       "why": {
-        "cs": "Na běžném notebooku ho nespustíš — doma potřebuje dva počítače Mac Studio s čipem M5 Ultra. Vyzkoušíš ho přes OpenRouter nebo Together AI; váhy jsou na Hugging Face pod licencí s omezenými komerčními podmínkami.",
-        "en": "It won’t run on a laptop — locally it needs two M5 Ultra Mac Studios. Try it via OpenRouter or Together AI; the weights are on Hugging Face under a license with limited commercial terms."
+        "cs": "Otevřené váhy si může kdokoli stáhnout a provozovat sám — ne ale na notebooku: i zmenšené verze chtějí Mac s 512 GB paměti. Snáz ho zkusíš přes OpenRouter či Together AI.",
+        "en": "Open weights mean anyone can download and run it — but not on a laptop: even compressed versions need a Mac with 512 GB of memory. Easier: try it via OpenRouter or Together AI."
       },
       "sources": [
         {
           "name": "Meta",
           "url": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/meta-muse-spark-open"
         },
         {
           "name": "9to5Mac",
@@ -142,8 +208,8 @@
         "en": "Inception launches Mercury 3, a fast diffusion language model"
       },
       "summary": {
-        "cs": "Inception 19. října vydal Mercury 3 — difuzní jazykový model, který text nepíše slovo po slovu, ale zpřesňuje ho celý najednou. Podle firmy zvládne přes tisíc tokenů za sekundu, má kontext milion tokenů a ve vlastních testech předčí GPT-6 Luna i Claude Haiku 5.5. Vstup stojí 0,20 USD za milion tokenů.",
-        "en": "On October 19, Inception released Mercury 3, a diffusion language model that refines whole passages in parallel rather than writing word by word. Inception claims over 1,000 tokens per second, a 1-million-token context, and a lead over GPT-6 Luna and Claude Haiku 5.5 on its own tests. Input costs $0.20 per million tokens."
+        "cs": "Firma Inception 19. října vydala Mercury 3 — difuzní jazykový model, který text nepíše slovo po slovu, ale zpřesňuje ho celý najednou. Podle firmy zvládne přes tisíc tokenů za sekundu, má kontextové okno milion tokenů a ve vlastních testech předčí GPT-6 Luna i Claude Haiku 5.5. Milion tokenů vstupu stojí 0,20 USD, výstupu 0,70 USD.",
+        "en": "On October 19, Inception released Mercury 3, a diffusion language model that refines passages in parallel rather than writing word by word. Inception claims over 1,000 tokens per second, a 1-million-token context window, and a lead over GPT-6 Luna and Claude Haiku 5.5 on its own tests. A million input tokens cost $0.20, output $0.70."
       },
       "why": {
         "cs": "Stavíš hlasového asistenta nebo agenta, kde rozhoduje rychlost odpovědi? Mercury 3 vyzkoušíš v chatu Inception nebo přes API se 100 miliony tokenů zdarma — srovnání s konkurencí jsou zatím jen firemní.",
@@ -163,21 +229,25 @@
       "verified": true,
       "eventDate": "2026-10-19",
       "title": {
-        "cs": "GitHub vyřadil z Copilota šest starších modelů",
-        "en": "GitHub retires six older models from Copilot"
+        "cs": "Druhá vlna: GitHub vyřadil z Copilota šest modelů",
+        "en": "Second wave: GitHub retires six models from Copilot"
       },
       "summary": {
-        "cs": "GitHub 19. října vyřadilo z Copilota šest modelů — Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini a Grok 4.5. Náhradou jsou Gemini 3.8 Flash, GPT-6.1 Sol, GPT-6 Luna a Grok 4.7. Jde o druhou vlnu avizovanou 10. října, týká se chatu, úprav, agentního režimu i generování kódu.",
-        "en": "On October 19, GitHub retired six models from Copilot — Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, and Grok 4.5. Replacements are Gemini 3.8 Flash, GPT-6.1 Sol, GPT-6 Luna, and Grok 4.7. This is the second wave flagged on October 10, covering chat, inline edits, agent mode, and code completion."
+        "cs": "GitHub 19. října vyřadil z Copilota šest modelů, jak ohlásil už 18. září. Za Gemini 3.7 Flash nabízí Gemini 3.8 Flash, za GPT-5.5 a GPT-5.4 model GPT-6.1 Sol, za GPT-5.4 mini a GPT-5 mini GPT-6 Luna a za Grok 4.5 Grok 4.7. Týká se chatu, úprav, agentního režimu i doplňování kódu.",
+        "en": "On October 19, GitHub retired six models from Copilot, as announced on September 18. Replacements: Gemini 3.8 Flash for Gemini 3.7 Flash, GPT-6.1 Sol for GPT-5.5 and GPT-5.4, GPT-6 Luna for GPT-5.4 mini and GPT-5 mini, and Grok 4.7 for Grok 4.5. It covers chat, edits, agent mode, and code completion."
       },
       "why": {
-        "cs": "Používáš v Copilotu některý z těchto šesti modelů? Přepni na náhradu v menu pro výběr modelu, než se přestane nabízet — čtyři náhrady za šest modelů nejsou 1:1, zkontroluj si v Copilotu, co přesně dostaneš.",
-        "en": "Using one of these six models in Copilot? Switch to a replacement in the model picker before it stops being offered — four replacements for six models isn't 1:1, so check what you actually get."
+        "cs": "Pokud jsi některý z modelů používal, v Copilotu už není — vyber náhradu v nabídce modelů. Firemní admini můžou nově spravovat, které modely jsou komu dostupné, i přes REST API.",
+        "en": "If you used one of these models, it’s gone from Copilot — pick a replacement in the model menu. Company admins can now also manage which models are available to whom via a REST API."
       },
       "sources": [
         {
           "name": "GitHub",
           "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams"
         }
       ],
       "followsUp": {
@@ -196,79 +266,21 @@
       "verified": false,
       "eventDate": "2026-10-19",
       "title": {
-        "cs": "WhatsApp podle Wiredu skrýval v nápovědě pokyny pro chatbota",
-        "en": "Wired: WhatsApp help pages hid support-bot instructions"
+        "cs": "Nápověda WhatsAppu podle Wiredu odhalila pokyny pro chatbota",
+        "en": "Wired: WhatsApp help pages exposed support-bot instructions"
       },
       "summary": {
-        "cs": "Podle firmy Redact, jejíž zjištění 19. října zveřejnil Wired, skrývalo zhruba 80 stránek nápovědy WhatsAppu v kódu pokyny pro AI chatbota podpory. Ten například neměl doporučovat stížnost u úřadu pro ochranu osobních údajů ani citovat GDPR. Meta to připisuje chybě a texty už zmizely.",
-        "en": "According to privacy firm Redact, whose findings Wired published on October 19, about 80 WhatsApp help pages hid instructions for its AI support chatbot in their code — including not to recommend a data protection authority or cite GDPR. Meta blames a bug, and the text is gone."
+        "cs": "Podle firmy Redact, jejíž zjištění 19. října zveřejnil Wired, obsahovalo zhruba 80 stránek nápovědy WhatsAppu pokyny pro AI chatbota podpory — například nedoporučovat stížnost u úřadu pro ochranu osobních údajů ani necitovat GDPR. WhatsApp potvrdil, že jde o pokyny pro jeho chatbota; jejich zobrazení označil za chybu.",
+        "en": "According to privacy firm Redact, whose findings Wired published on October 19, about 80 WhatsApp help pages contained instructions for its AI support chatbot — including not to recommend a data protection authority or cite GDPR. WhatsApp confirmed they are instructions for its chatbot and called their display a bug."
       },
       "why": {
-        "cs": "Řešíš s podporou WhatsAppu smazání účtu nebo osobní údaje? Rady AI chatbota ber s rezervou — podle uniklých pokynů měl témata GDPR a stížností u úřadů obcházet.",
-        "en": "Contacting WhatsApp support about deleting your account or your data? Take the AI bot’s advice with a grain of salt — the leaked instructions told it to steer around GDPR and regulator complaints."
+        "cs": "Řešíš s podporou WhatsAppu smazání účtu nebo osobní údaje? Rady AI chatbota ber s rezervou — stížnost u úřadu pro ochranu osobních údajů podat můžeš vždy. Zprávu zatím přinesl jen Wired.",
+        "en": "Contacting WhatsApp support about deleting your account or your data? Take the bot’s advice with caution — you can always complain to a data protection authority. So far only Wired has reported this."
       },
       "sources": [
         {
           "name": "Wired",
           "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-20-hacker-ai-agents-100-websites",
-      "kind": "news",
-      "category": "research",
-      "verified": true,
-      "eventDate": "2026-10-19",
-      "title": {
-        "cs": "Hacker s AI agenty pronikl na víc než 100 webů",
-        "en": "Hacker used AI agents to break into 100-plus websites"
-      },
-      "summary": {
-        "cs": "Bezpečnostní firma Norforge 19. října popsala útočníka, který s převážně samostatnými AI agenty pronikl na víc než 100 webů v USA, Kanadě, Austrálii a Japonsku. Podle Reuters šlo i o weby firem John Deere, SharkNinja a Cummins; John Deere uvádí, že citlivá data podle všeho neunikla.",
-        "en": "On October 19, security firm Norforge described an attacker who used mostly autonomous AI agents to break into more than 100 websites in the US, Canada, Australia, and Japan. Reuters reports the victims included sites of John Deere, SharkNinja, and Cummins; John Deere says there’s no indication sensitive data was accessed."
-      },
-      "why": {
-        "cs": "Ukazuje, jak AI agenti zlevňují útoky ve velkém. Provozuješ web nebo e-shop? Pravidelné aktualizace a dobře zabezpečená administrace teď mají ještě větší váhu než dřív.",
-        "en": "It shows how AI agents make mass attacks cheaper. Run a website or online store? Regular updates and a well-secured admin panel matter even more now."
-      },
-      "sources": [
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
-        },
-        {
-          "name": "Reuters",
-          "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-20-anthropic-small-models-iot-replication",
-      "kind": "news",
-      "category": "research",
-      "verified": true,
-      "eventDate": "2026-10-12",
-      "title": {
-        "cs": "Anthropic varuje před AI červy v levných chytrých zařízeních",
-        "en": "Anthropic warns of AI worms in cheap smart devices"
-      },
-      "summary": {
-        "cs": "Anthropic 12. října zveřejnil výzkum, podle kterého jsou malé AI modely možná jen měsíce od schopnosti samy se šířit po levných chytrých zařízeních. Na 15 TV boxech po zhruba 55 dolarech rozběhl model Gemma4-26B; celý cyklus šíření ale ve zjednodušeném testu zvládl z otevřených modelů jen GLM-5.2.",
-        "en": "On October 12, Anthropic published research suggesting small AI models may be months away from being able to self-replicate across cheap smart devices. It ran Gemma4-26B on 15 TV boxes costing about $55 each, but among the open models tested, only GLM-5.2 completed the full cycle, in a simplified test."
-      },
-      "why": {
-        "cs": "Máš doma levný neznačkový TV box nebo jiné chytré zařízení? Právě taková by mohla být prvním cílem — měň výchozí hesla a hlídej aktualizace. Zatím jde o laboratorní test, samostatného červa Anthropic nesestavil.",
-        "en": "Own a cheap no-name TV box or smart gadget? Those could be first targets — change default passwords and keep them updated. It’s a lab test so far; Anthropic hasn’t built a working worm."
-      },
-      "sources": [
-        {
-          "name": "Anthropic",
-          "url": "https://www.anthropic.com/research/self-replicating-ai"
-        },
-        {
-          "name": "Ars Technica",
-          "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
         }
       ]
     },
@@ -283,12 +295,12 @@
         "en": "Claude’s Docs, Slides, and Design now on the Free plan"
       },
       "summary": {
-        "cs": "Anthropic 8. října vyvedl funkce Docs, Slides a Design z bety a zpřístupnil je ve všech plánech Claude včetně bezplatného — dokumenty, prezentace a návrhy tak Claude vytvoří i uživatelům zdarma. Placené plány navíc dostaly do bety živé dashboardy z dat, Team a Enterprise animace Claude Motion.",
-        "en": "On October 8, Anthropic took Docs, Slides, and Design out of beta and put them on every Claude plan, including Free — so Claude now creates documents, presentations, and designs for free users too. Paid plans also got live data dashboards in beta, and Team and Enterprise got Claude Motion animations."
+        "cs": "Anthropic 8. října vyvedl funkce Docs, Slides a Design z bety a zpřístupnil je ve všech plánech Claude včetně bezplatného — dokumenty, prezentace a návrhy tak Claude vytvoří i uživatelům zdarma. Placené plány navíc dostaly do bety živé dashboardy z dat a plány Team a Enterprise animace Claude Motion.",
+        "en": "On October 8, Anthropic took Docs, Slides, and Design out of beta and put them on every Claude plan, including Free — so Claude now creates documents, presentations, and designs for free users too. Paid plans also got live data dashboards in beta, and Team and Enterprise plans got Claude Motion animations."
       },
       "why": {
-        "cs": "Máš Claude zdarma? Stačí v chatu napsat, co potřebuješ — třeba prezentaci z poznámek. Animace Motion vyvoláš v plánech Team a Enterprise příkazem /motion.",
-        "en": "On the free plan? Just ask Claude in chat for what you need — say, slides from your notes. On Team and Enterprise, type /motion to bring up Motion."
+        "cs": "Máš Claude zdarma? Stačí v chatu napsat, co potřebuješ — třeba prezentaci z poznámek. Kdo používal samostatný claude.ai/design, má do 14. prosince čas převést si design systémy.",
+        "en": "On the free plan? Just ask Claude in chat for what you need — say, slides from your notes. Used the standalone claude.ai/design? You have until December 14 to move your design systems."
       },
       "sources": [
         {
@@ -312,8 +324,8 @@
         "en": "On October 19, Google added co-creation for Slide Decks and Video Overviews in Gemini Notebook. The notebook suggests topics from your sources, you steer content, style, and format, and a new Review toggle lets you check the plan before anything renders. Rolling out globally to all users within a week."
       },
       "why": {
-        "cs": "Platí pro všechny: v chatu notebooku požádej o prezentaci nebo videopřehled. Se zapnutým přepínačem Review pak plán projdeš v panelu Studio (Review outline notes, u videa Review producer notes).",
-        "en": "Available to everyone: in the notebook chat, ask for slides or a video overview. With the Review toggle on, check the plan in the Studio panel (Review outline notes; for video, Review producer notes)."
+        "cs": "Dostanou to všichni uživatelé, nasazuje se do týdne. V chatu notebooku požádej o prezentaci nebo videopřehled; se zapnutým přepínačem Review si plán nejdřív projdeš v panelu Studio.",
+        "en": "Coming to all users within a week. Ask the notebook chat for slides or a video overview; with the Review toggle on, check the plan in the Studio panel first."
       },
       "sources": [
         {
@@ -337,8 +349,8 @@
         "en": "On October 19, Perplexity let you attach a local folder to a Project in its Mac app (version 26.38 or later). Computer reads files from it and saves finished work back, and new Project tasks use it by default. Only you can use the folder, even in a shared Project."
       },
       "why": {
-        "cs": "Stačí Mac appka Perplexity od verze 26.38: připoj k projektu složku, třeba s reporty. Změnit nebo odebrat ji jde na stránce projektu. Potřebný tarif Perplexity neuvádí.",
-        "en": "You need the Perplexity Mac app 26.38 or later: attach a folder, say one with your reports, to a Project. Change or remove it from the Project page. Perplexity doesn’t name a required plan."
+        "cs": "Hodí se, když má Computer pracovat přímo s tvými soubory — počítej s tím, že do složky i zapisuje. Potřebuješ Mac appku od verze 26.38; složku připojíš a změníš na stránce projektu.",
+        "en": "Useful when Computer should work directly with your files — note that it also writes to the folder. You need the Mac app 26.38 or later; attach or change the folder on the Project page."
       },
       "sources": [
         {
@@ -358,12 +370,12 @@
         "en": "Brave Leo now encrypts GLM chats end to end"
       },
       "summary": {
-        "cs": "Brave 15. října zapnul v asistentu Leo šifrování konverzací s otevřeným modelem GLM 5.3 Flash. Dotaz se zašifruje už v prohlížeči a rozšifruje se jen v hardwarově izolovaném prostředí firmy NEAR AI, takže ho nepřečte ani Brave. Další kroky ověřování firma teprve chystá.",
-        "en": "On October 15, Brave turned on encryption for Leo chats with the open-weight GLM 5.3 Flash model. Prompts are encrypted in the browser and decrypted only inside a hardware-isolated enclave run by NEAR AI, so even Brave can’t read them. More verification steps are still planned."
+        "cs": "Brave 15. října zapnul v asistentu Leo šifrování konverzací s otevřeným modelem GLM 5.3 Flash. Dotaz se zašifruje už v prohlížeči a rozšifruje se až v uzavřené části serveru firmy NEAR AI, takže ho nepřečte ani Brave. Další kroky ověřování firma teprve chystá.",
+        "en": "On October 15, Brave turned on encryption for Leo chats with the open-weight GLM 5.3 Flash model. Prompts are encrypted in the browser and decrypted only inside a sealed part of NEAR AI’s server hardware, so even Brave can’t read them. More verification steps are still planned."
       },
       "why": {
-        "cs": "Používáš prohlížeč Brave? V asistentu Leo vyber model GLM 5.3 Flash — šifrování platí jen pro něj. Funguje ve verzích Release, Beta i Nightly; jestli je potřeba placené Leo Premium, Brave neuvádí.",
-        "en": "Use the Brave browser? Pick GLM 5.3 Flash in Leo — the encryption only covers that model. It’s in the Release, Beta, and Nightly channels; Brave doesn’t say whether Leo Premium is required."
+        "cs": "Používáš prohlížeč Brave? V asistentu Leo vyber model GLM 5.3 Flash — šifrování platí jen pro něj. Funguje ve verzích Release, Beta i Nightly a podle Brave je jeho AI dostupná každému uživateli.",
+        "en": "Use the Brave browser? Pick GLM 5.3 Flash in Leo — the encryption only covers that model. It’s in the Release, Beta, and Nightly channels, and Brave says its AI is available to every user."
       },
       "sources": [
         {
@@ -373,31 +385,6 @@
         {
           "name": "The Register",
           "url": "https://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-20-tip-copilot-model-policy-api",
-      "kind": "tip",
-      "category": "tools",
-      "verified": true,
-      "eventDate": "2026-10-19",
-      "title": {
-        "cs": "Copilot nabízí API pro správu modelových politik",
-        "en": "Copilot adds an API for model policies"
-      },
-      "summary": {
-        "cs": "GitHub 19. října zpřístupnilo obecně dostupné REST API pro čtení a úpravu politik modelů Copilota (nastavení, kdo může který model používat) — na úrovni firmy, firemních týmů, firemních aplikací i organizace. Admin tak může řídit dostupnost modelů programově, bez klikání v administraci.",
-        "en": "On October 19, GitHub made generally available a REST API for reading and updating Copilot model policies (settings for who can use which model) — at the enterprise, enterprise-team, enterprise-app, and organization level. Admins can now control model availability programmatically, without clicking through the admin UI."
-      },
-      "why": {
-        "cs": "Správuješ Copilota pro firmu nebo tým? Nové GET/PATCH endpointy na model-policies jsou přesně to, čím admini povolují náhrady za šest modelů, které GitHub právě vyřadil. Ušetříš klikání, hodí se i pro automatizaci.",
-        "en": "Managing Copilot for a company or team? The new GET/PATCH model-policies endpoints are exactly how admins enable replacements for the six models GitHub just retired. Skip the admin UI, or script it."
-      },
-      "sources": [
-        {
-          "name": "GitHub",
-          "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams"
         }
       ]
     }
@@ -410,8 +397,8 @@
         "en": "NVIDIA hosts GTC Berlin, keynote by Jensen Huang"
       },
       "note": {
-        "cs": "Evropská konference NVIDIA o AI probíhá 20. až 22. října v Berlíně — hlavní řeč 21. října přednese Jensen Huang, čerstvě po otevření konstrukce Vera Rubin.",
-        "en": "NVIDIA's European AI conference runs October 20-22 in Berlin — Jensen Huang delivers the October 21 keynote, fresh off opening the Vera Rubin rack designs."
+        "cs": "Evropská konference NVIDIA o AI probíhá 20. až 22. října v Berlíně. Hlavní řeč Jensena Huanga 21. října půjde sledovat online, bez registrace.",
+        "en": "NVIDIA’s European AI conference runs October 20-22 in Berlin. Jensen Huang’s October 21 keynote streams online, no registration needed."
       },
       "sources": [
         {
@@ -424,12 +411,12 @@
     {
       "date": "2026-10-24",
       "title": {
-        "cs": "Perplexity vyřadí staré modely z Agent a Router API",
-        "en": "Perplexity retires old models from Agent and Router API"
+        "cs": "Perplexity vyřadí staré modely z Agent a Orchestrator API",
+        "en": "Perplexity retires old models from Agent and Orchestrator API"
       },
       "note": {
-        "cs": "Od 24. října o půlnoci UTC Perplexity vyřadí z Agent API a Router API starší modely OpenAI řady GPT-5 — vývojáři musí přejít na náhradu předem.",
-        "en": "On October 24 at midnight UTC, Perplexity retires older OpenAI GPT-5 models from its Agent and Router API — developers need to switch to a replacement beforehand."
+        "cs": "Od 24. října o půlnoci UTC Perplexity vyřadí z Agent API a Orchestrator API starší modely OpenAI řady GPT-5 — vývojáři musí přejít na náhradu předem.",
+        "en": "On October 24 at midnight UTC, Perplexity retires older OpenAI GPT-5 models from its Agent and Orchestrator API — developers need to switch to a replacement beforehand."
       },
       "sources": [
         {
@@ -446,8 +433,8 @@
         "en": "GitHub Universe returns to San Francisco"
       },
       "note": {
-        "cs": "Vlajková konference GitHubu pro vývojáře probíhá 28.–29. října ve Fort Mason Center — zaměří se na agentickou éru vývoje softwaru.",
-        "en": "GitHub's flagship developer conference runs October 28-29 at Fort Mason Center — the theme this year is the agentic era of software development."
+        "cs": "Vlajková konference GitHubu pro vývojáře probíhá 28.–29. října ve Fort Mason Center — zaměří se na vývoj softwaru s pomocí AI agentů.",
+        "en": "GitHub’s flagship developer conference runs October 28-29 at Fort Mason Center — the theme this year is building software with AI agents."
       },
       "sources": [
         {
@@ -464,8 +451,8 @@
         "en": "Deadline closes for EU AI gigafactory bids"
       },
       "note": {
-        "cs": "Do 12. listopadu musí zájemci podat žádost o jednu ze sedmi plánovaných AI gigatováren EU za víc než 30 miliard eur — přihlásilo se Česko, jedna z 18 zemí dohody.",
-        "en": "Applicants have until November 12 to bid for one of the EU's seven planned AI gigafactories, worth over €30 billion — Czechia is one of 18 countries in the agreement."
+        "cs": "Do 12. listopadu se podávají nabídky na až sedm AI gigatováren EU (investice přes 30 miliard eur). Česko je mezi 18 státy, které od nich budou společně nakupovat výpočetní čas.",
+        "en": "Bids for up to seven EU AI gigafactories (over €30 billion in investment) close November 12. Czechia is among 18 states that will jointly buy compute time from them."
       },
       "sources": [
         {
@@ -482,8 +469,8 @@
         "en": "GitHub retires three models from Copilot"
       },
       "note": {
-        "cs": "16. listopadu GitHub vyřadí z Copilota Claude Opus 4.8, Opus 5 a GPT-5.6 Terra — náhradou jsou Opus 5.5 a GPT-6.1 Sol nebo Luna. Roční předplatitelé si Opus 4.8 udrží.",
-        "en": "On November 16, GitHub retires Claude Opus 4.8, Opus 5, and GPT-5.6 Terra from Copilot — replacements are Opus 5.5 and GPT-6.1 Sol or Luna. Annual subscribers keep Opus 4.8."
+        "cs": "16. listopadu GitHub vyřadí z Copilota Claude Opus 4.8, Opus 5 a GPT-5.6 Terra — náhradou jsou Opus 5.5 a GPT-6.1 Sol nebo GPT-6 Luna. Roční předplatitelé Opus 4.8 neztratí.",
+        "en": "On November 16, Copilot drops Claude Opus 4.8, Opus 5, and GPT-5.6 Terra — replacements are Opus 5.5 and GPT-6.1 Sol or GPT-6 Luna. Annual subscribers keep Opus 4.8."
       },
       "sources": [
         {
@@ -496,8 +483,8 @@
     {
       "date": "2026-11-16",
       "title": {
-        "cs": "Kalifornská expertní skupina má odevzdat návrh AI kill switche",
-        "en": "California's expert group must deliver its AI kill-switch proposal"
+        "cs": "Kalifornská expertní skupina má odevzdat doporučení k AI kill switchi",
+        "en": "California’s expert group must deliver AI kill-switch recommendations"
       },
       "note": {
         "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
