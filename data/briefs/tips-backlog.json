@@ -3998,12 +3998,12 @@
         "en": "Claude Code Review is now generally available"
       },
       "summary": {
-        "cs": "Anthropic 15. října uvolnil Code Review z výzkumné verze pro tarify Team a Enterprise. Po zapnutí Claude sám recenzuje každý nový pull request na GitHubu a u chyby v pár větách popíše problém, co ho spouští, a opravu. Většina recenzí trvá 6–10 minut místo zhruba 20.",
-        "en": "On October 15, Anthropic took Code Review out of research preview for Team and Enterprise plans. Once enabled, Claude reviews every new GitHub pull request and explains each bug — the problem, what triggers it, and the fix — in a few sentences. Most reviews now take 6–10 minutes instead of about 20."
+        "cs": "Anthropic 15. října uvolnil Code Review z výzkumné verze pro tarify Team a Enterprise. Po zapnutí Claude sám kontroluje každou novou navrženou změnu kódu (pull request) na GitHubu a u chyby v pár větách popíše problém i opravu. Většina kontrol teď trvá 6–10 minut, ve výzkumné verzi zhruba 20.",
+        "en": "On October 15, Anthropic took Code Review out of research preview for Team and Enterprise plans. Once enabled, Claude reviews every new GitHub pull request and explains each bug and its fix in a few sentences. Most reviews now take 6–10 minutes, down from about 20 in the preview."
       },
       "why": {
-        "cs": "Admin ho zapne v nastavení Claude Code, nainstaluje GitHub App a vybere repozitáře i hloubku (Quick, Standard, Deep). Způsobilé firmy na Enterprise si do 15. ledna vyzvednou kredity aspoň za 10 000 dolarů.",
-        "en": "Admins enable it in Claude Code settings, install the GitHub App, pick repositories, and set Quick, Standard, or Deep for each. Eligible Enterprise organizations can claim at least $10,000 in credits by January 15."
+        "cs": "Admin ho zapne v nastavení Claude Code, nainstaluje GitHub App a vybere repozitáře. Způsobilé firmy na Enterprise si do 15. ledna vyzvednou kredity aspoň za 10 000 dolarů — propadnou ale 30 dní po vyzvednutí.",
+        "en": "Admins enable it in Claude Code settings, install the GitHub App, and pick repositories. Eligible Enterprise organizations can claim at least $10,000 in credits by January 15 — they expire 30 days after claiming."
       },
       "sources": [
         {
@@ -4025,12 +4025,12 @@
         "en": "Gemini in Google Sheets now works on iOS"
       },
       "summary": {
-        "cs": "Google 19. října oznámil, že Gemini v Google Sheets jde používat i v appce pro iOS. Klepnutím na ikonu Gemini se ptáš na data, necháš si shrnout tabulku nebo vytvořit graf. Zapíná se postupně od 15. října a nasazení trvá až 15 dní.",
-        "en": "On October 19, Google said Gemini in Google Sheets now works in the iOS app. Tap the Gemini icon to ask about your data, summarize a table, or build a chart. The gradual rollout started October 15 and takes up to 15 days."
+        "cs": "Google 19. října oznámil, že Gemini v Google Sheets jde používat i v appce pro iOS. Ptáš se na data v tabulce, necháš si ji shrnout nebo vytvořit graf. Funguje s předplatným Google AI a ve firemních tarifech, postupně se zapíná do konce října.",
+        "en": "On October 19, Google said Gemini in Google Sheets now works in the iOS app. Ask about the data in a sheet, have it summarized, or build a chart. It comes with Google AI subscriptions and business plans, rolling out through the end of October."
       },
       "why": {
-        "cs": "Otevři tabulku v appce Google Sheets pro iOS a klepni na ikonu Gemini. Funguje s předplatným Google AI Plus, Pro či Ultra a ve firemních tarifech Workspace Business a Enterprise.",
-        "en": "Open a spreadsheet in the Google Sheets iOS app and tap the Gemini icon. It works with Google AI Plus, Pro, or Ultra, and on Workspace Business and Enterprise plans."
+        "cs": "Otevři tabulku v appce Google Sheets pro iOS a klepni na ikonu Gemini. Potřebuješ Google AI Plus, Pro či Ultra, nebo firemní Workspace Business či Enterprise.",
+        "en": "Open a spreadsheet in the Google Sheets iOS app and tap the Gemini icon. You need Google AI Plus, Pro, or Ultra, or a Workspace Business or Enterprise plan."
       },
       "sources": [
         {
@@ -4080,12 +4080,12 @@
         "en": "ChatGPT can now lock sensitive chats behind a PIN"
       },
       "summary": {
-        "cs": "OpenAI 20. října začalo zavádět zamčené chaty v ChatGPT. Zamčená konverzace zmizí z běžné historie, připnutých chatů i vyhledávání a otevře ji jen čtyřmístný PIN, na podporovaných zařízeních i Face ID nebo Touch ID. Nejde o šifrování a nemění to, jak dlouho OpenAI chaty uchovává.",
-        "en": "On October 20, OpenAI began rolling out locked chats in ChatGPT. A locked conversation leaves your regular history, pinned chats, and search, and opens only with a four-digit PIN — or Face ID or Touch ID on supported devices. It isn’t encryption and doesn’t change how long OpenAI keeps chats."
+        "cs": "OpenAI 20. října začalo zavádět zamčené chaty v ChatGPT. Zamčená konverzace zmizí z běžné historie, připnutých chatů i vyhledávání a otevře ji jen čtyřmístný PIN, na podporovaných zařízeních i Face ID nebo Touch ID. Nejde o koncové šifrování a nemění to, jak dlouho OpenAI chaty uchovává.",
+        "en": "On October 20, OpenAI began rolling out locked chats in ChatGPT. A locked conversation leaves your regular history, pinned chats, and search, and opens only with a four-digit PIN — or Face ID or Touch ID on supported devices. It isn’t end-to-end encryption and doesn’t change how long OpenAI keeps chats."
       },
       "why": {
-        "cs": "Funguje v plánech Free, Go, Plus, Pro, Business, Enterprise i Edu a nasazuje se postupně. Zamčené chaty najdeš v sekci Locked chats. Pozor: reset PINu je všechny smaže.",
-        "en": "Available on Free, Go, Plus, Pro, Business, Enterprise, and Edu, rolling out gradually. Locked conversations live in a Locked chats section. Careful: resetting your PIN deletes them all."
+        "cs": "Chrání před lidmi, kteří se dostanou k tvému telefonu či počítači. Funguje ve všech běžných tarifech včetně Free a nasazuje se postupně; zamčené chaty najdeš v sekci Locked chats. Pozor: reset PINu je všechny smaže.",
+        "en": "It guards against anyone who picks up your phone or computer. Available on all regular plans, Free included, rolling out gradually; find them under Locked chats. Careful: resetting your PIN deletes them all."
       },
       "sources": [
         {
@@ -4111,48 +4111,29 @@
       "verified": true,
       "eventDate": "2026-10-13",
       "title": {
-        "cs": "Model LFM2.5 rozjede AI agenta přímo na tvém počítači",
-        "en": "LFM2.5 runs AI agents locally on your own computer"
+        "cs": "LFM2.5: otevřený model pro AI agenty na vlastním počítači",
+        "en": "LFM2.5, an open model for local AI agents"
       },
       "summary": {
-        "cs": "Liquid AI 13. října uvolnil otevřené váhy modelu LFM2.5-24B-A2B: má 24 miliard parametrů, ale na každý token zapojí jen 2 miliardy, takže běží rychle i na výkonném notebooku — podle firmy 184 tokenů za sekundu na Macu s M5 Max. Umí volat nástroje a pracovat s kontextovým oknem 131 tisíc tokenů.",
-        "en": "On October 13, Liquid AI released open weights for LFM2.5-24B-A2B: 24 billion parameters, but only 2 billion active per token, so it runs fast even on a powerful laptop — 184 tokens per second on an M5 Max Mac, per the company. It calls tools and handles a 131,000-token context window."
+        "cs": "Liquid AI 13. října zveřejnil otevřený model LFM2.5-24B-A2B, který si stáhneš a spustíš sám. Má 24 miliard parametrů, na každý token ale zapojí jen zhruba 2 miliardy, takže je rychlý: na špičkovém Macu s M5 Max podle firmy 184 tokenů za sekundu. Umí volat nástroje, což AI agenti potřebují.",
+        "en": "On October 13, Liquid AI released LFM2.5-24B-A2B, an open model you can download and run yourself. It has 24 billion parameters but uses only about 2 billion per token, so it’s fast: 184 tokens per second on a top-end M5 Max Mac, per the company. It can call tools, which AI agents need."
       },
       "why": {
-        "cs": "Chceš AI agenta, který data nepouští z počítače? Model stáhneš z Hugging Face a spustíš třeba přes llama.cpp, MLX nebo LM Studio. Na znalostní otázky ho podle firmy doplň vyhledáváním.",
-        "en": "Want an AI agent that keeps your data on your machine? Download the model from Hugging Face and run it with llama.cpp, MLX, or LM Studio. For knowledge questions, Liquid AI advises adding search."
+        "cs": "Model stáhneš z Hugging Face (4bitová verze má kolem 14,5 GB), spustíš v LM Studiu či llama.cpp a napojíš na agentní nástroj jako OpenClaw nebo Hermes Agent. Pozor: češtinu mezi 16 podporovanými jazyky nemá.",
+        "en": "Download it from Hugging Face (4-bit build: 14.5 GB), run it in LM Studio or llama.cpp, and connect an agent tool like OpenClaw or Hermes Agent. Note: Czech isn’t among its 16 languages."
       },
       "sources": [
         {
           "name": "Hugging Face",
           "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
-        }
-      ],
-      "used": "2026-10-21"
-    },
-    {
-      "slug": "tip-m365-copilot-search-chat",
-      "category": "tools",
-      "theme": "copilot",
-      "added": "2026-10-21",
-      "verified": true,
-      "eventDate": "2026-10-06",
-      "title": {
-        "cs": "Copilot Search v Microsoft 365 teď umí rovnou chatovat",
-        "en": "Microsoft 365 Copilot Search now has chat built in"
-      },
-      "summary": {
-        "cs": "Microsoft v poznámkách k vydání ze 6. října uvádí, že vyhledávání Microsoft 365 Copilot Search má teď chat přímo ve výsledcích: na nalezené výsledky se můžeš doptat, nechat si je shrnout nebo z nich vytvořit obsah. Na webu přibylo i tlačítko pro novou odpověď nebo přepnutí modelu.",
-        "en": "In its October 6 release notes, Microsoft says Microsoft 365 Copilot Search now has chat built into the results: ask follow-up questions, synthesize what it found, or generate content from it. On the web, a Regenerate button also offers a fresh answer or a different model."
-      },
-      "why": {
-        "cs": "Máš ve firmě licenci Microsoft 365 Copilot? Otevři Copilot Search, zadej dotaz a v panelu chatu se doptávej — na Windows i na webu. Funkce se zapíná postupně, nemusíš ji vidět hned.",
-        "en": "Have a Microsoft 365 Copilot license at work? Open Copilot Search, enter a query and ask follow-ups in the chat pane — on Windows and the web. It rolls out gradually."
-      },
-      "sources": [
+        },
         {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF"
         }
       ],
       "used": "2026-10-21"

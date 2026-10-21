@@ -1718,32 +1718,32 @@
     {
       "slug": "2026-10-21-meta-muse-share-links-exposed",
       "date": "2026-10-21",
-      "topic": "Sdílené chaty z Muse od Mety šly hromadně dohledat, Meta sdílení pozastavila"
+      "topic": "Sdílené AI chaty z Muse od Mety šly hromadně dohledat, Meta sdílení pozastavila"
     },
     {
       "slug": "2026-10-21-mistral-voxtral-3-voice-agents",
       "date": "2026-10-21",
-      "topic": "Mistral vydal Voxtral 3 (přepis a syntéza řeči, i česky)"
+      "topic": "Mistral vydal Voxtral 3 (přepis řeči i česky, syntéza řeči, nástroje pro hlasové asistenty)"
     },
     {
       "slug": "2026-10-21-perplexity-computer-fully-local-mac",
       "date": "2026-10-21",
-      "topic": "Perplexity Computer běží celý lokálně na Macu"
+      "topic": "Perplexity Computer umí běžet celý lokálně na Macu (navazuje na zářijový Hybrid Compute)"
     },
     {
       "slug": "2026-10-21-spotify-ai-slop-recommendations",
       "date": "2026-10-21",
-      "topic": "Spotify vyřadil z doporučení přes 50 mil. AI skladeb, štítky AI Persona"
+      "topic": "Spotify letos vyřadil z doporučení přes 50 mil. AI a spamových skladeb, štítky AI Persona"
     },
     {
       "slug": "2026-10-21-meta-business-terms-train-removed",
       "date": "2026-10-21",
-      "topic": "Meta škrtla z firemních podmínek trénování AI, platí od 30. 10."
+      "topic": "Meta po kritice škrtla z firemních podmínek slovo „trénovat“, platí od 30. 10."
     },
     {
       "slug": "2026-10-21-anthropic-draft-ai-safety-bill",
       "date": "2026-10-21",
-      "topic": "Anthropic nabízí Kongresu návrh zákona o bezpečnosti AI (podle Politico)"
+      "topic": "Anthropic nabízí Kongresu návrh zákona o zastavení nebezpečných AI modelů (podle Politica)"
     },
     {
       "slug": "2026-10-21-tip-chatgpt-locked-chats",
@@ -1758,12 +1758,7 @@
     {
       "slug": "2026-10-21-tip-lfm25-local-agent-model",
       "date": "2026-10-21",
-      "topic": "tip: lokální model LFM2.5 pro AI agenty"
-    },
-    {
-      "slug": "2026-10-21-tip-m365-copilot-search-chat",
-      "date": "2026-10-21",
-      "topic": "tip: chat přímo ve výsledcích Microsoft 365 Copilot Search"
+      "topic": "tip: LFM2.5, otevřený model pro lokální AI agenty"
     },
     {
       "slug": "2026-10-21-tip-claude-code-review-ga",
@@ -1771,5 +1766,5 @@
       "topic": "tip: Code Review v Claude Code je dostupný naplno"
     }
   ],
-  "updated": "2026-10-21T03:19:54Z"
+  "updated": "2026-10-21T03:47:55Z"
 }
