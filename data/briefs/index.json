@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-20T06:52:43Z",
+  "updated": "2026-10-21T03:19:54Z",
   "briefs": [
+    {
+      "date": "2026-10-21",
+      "headline": {
+        "cs": "Sdílené chaty z Muse od Mety šly hromadně dohledat",
+        "en": "Meta’s shared Muse chats could be found in bulk"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-10-20",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "NVIDIA a Microsoft ukázaly notebook s čipem RTX Spark",
         "en": "NVIDIA and Microsoft unveil laptop with RTX Spark chip"
-      },
-      "itemCount": 8
-    },
-    {
-      "date": "2026-10-07",
-      "headline": {
-        "cs": "Mistral vydal bilionový model Le Chonk, míří na Čínu",
-        "en": "Mistral's trillion-parameter Le Chonk targets Chinese rivals"
       },
       "itemCount": 8
     }

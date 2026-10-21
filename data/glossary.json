@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "terms": [
     {
       "id": "quantization",
@@ -537,6 +537,20 @@
       "short": {
         "cs": "Útok, kdy do textu, který AI čte (web, e-mail, dokument), někdo schová vlastní pokyny. Model je pak může poslechnout místo uživatele — třeba prozradit data nebo udělat nechtěnou akci.",
         "en": "An attack where someone hides their own instructions in text an AI reads (a web page, email, document). The model may follow them instead of the user — leaking data or taking unwanted actions."
+      }
+    },
+    {
+      "id": "robots-txt",
+      "term": {
+        "cs": "Soubor robots.txt",
+        "en": "robots.txt"
+      },
+      "aliases": [
+        "robots.txt"
+      ],
+      "short": {
+        "cs": "Textový soubor na webu, kterým provozovatel říká robotům vyhledávačů a AI firem, které stránky smějí procházet. Je to jen žádost — jeho dodržování závisí na dobré vůli robota.",
+        "en": "A text file on a website telling search and AI crawlers which pages they may visit. It’s only a request — following it is up to the crawler."
       }
     }
   ]

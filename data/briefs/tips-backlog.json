@@ -4002,7 +4002,7 @@
         "en": "On October 15, Anthropic took Code Review out of research preview for Team and Enterprise plans. Once enabled, Claude reviews every new GitHub pull request and explains each bug — the problem, what triggers it, and the fix — in a few sentences. Most reviews now take 6–10 minutes instead of about 20."
       },
       "why": {
-        "cs": "Admin ho zapne v nastavení Claude Code, nainstaluje GitHub App a vybere repozitáře; pro každý zvolí hloubku Quick, Standard nebo Deep. Způsobilé firmy na Enterprise si do 15. ledna vyzvednou kredity aspoň za 10 000 dolarů.",
+        "cs": "Admin ho zapne v nastavení Claude Code, nainstaluje GitHub App a vybere repozitáře i hloubku (Quick, Standard, Deep). Způsobilé firmy na Enterprise si do 15. ledna vyzvednou kredity aspoň za 10 000 dolarů.",
         "en": "Admins enable it in Claude Code settings, install the GitHub App, pick repositories, and set Quick, Standard, or Deep for each. Eligible Enterprise organizations can claim at least $10,000 in credits by January 15."
       },
       "sources": [
@@ -4012,7 +4012,7 @@
         }
       ],
       "added": "2026-10-20",
-      "used": null
+      "used": "2026-10-21"
     },
     {
       "slug": "tip-gemini-sheets-ios",
@@ -4039,7 +4039,7 @@
         }
       ],
       "added": "2026-10-20",
-      "used": null
+      "used": "2026-10-21"
     },
     {
       "slug": "tip-gemini-apps-export-google-sites",
@@ -4066,6 +4066,157 @@
         }
       ],
       "added": "2026-10-20",
+      "used": null
+    },
+    {
+      "slug": "tip-chatgpt-locked-chats",
+      "category": "tools",
+      "theme": "chatgpt",
+      "added": "2026-10-21",
+      "verified": true,
+      "eventDate": "2026-10-20",
+      "title": {
+        "cs": "ChatGPT teď umí zamknout citlivé chaty PINem",
+        "en": "ChatGPT can now lock sensitive chats behind a PIN"
+      },
+      "summary": {
+        "cs": "OpenAI 20. října začalo zavádět zamčené chaty v ChatGPT. Zamčená konverzace zmizí z běžné historie, připnutých chatů i vyhledávání a otevře ji jen čtyřmístný PIN, na podporovaných zařízeních i Face ID nebo Touch ID. Nejde o šifrování a nemění to, jak dlouho OpenAI chaty uchovává.",
+        "en": "On October 20, OpenAI began rolling out locked chats in ChatGPT. A locked conversation leaves your regular history, pinned chats, and search, and opens only with a four-digit PIN — or Face ID or Touch ID on supported devices. It isn’t encryption and doesn’t change how long OpenAI keeps chats."
+      },
+      "why": {
+        "cs": "Funguje v plánech Free, Go, Plus, Pro, Business, Enterprise i Edu a nasazuje se postupně. Zamčené chaty najdeš v sekci Locked chats. Pozor: reset PINu je všechny smaže.",
+        "en": "Available on Free, Go, Plus, Pro, Business, Enterprise, and Edu, rolling out gradually. Locked conversations live in a Locked chats section. Careful: resetting your PIN deletes them all."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/20001411-using-locked-chats-in-chatgpt"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2292365/chatgpt-now-lets-you-lock-sensitive-chats-behind-a-pin/"
+        }
+      ],
+      "used": "2026-10-21"
+    },
+    {
+      "slug": "tip-lfm25-local-agent-model",
+      "category": "tools",
+      "theme": "local",
+      "added": "2026-10-21",
+      "verified": true,
+      "eventDate": "2026-10-13",
+      "title": {
+        "cs": "Model LFM2.5 rozjede AI agenta přímo na tvém počítači",
+        "en": "LFM2.5 runs AI agents locally on your own computer"
+      },
+      "summary": {
+        "cs": "Liquid AI 13. října uvolnil otevřené váhy modelu LFM2.5-24B-A2B: má 24 miliard parametrů, ale na každý token zapojí jen 2 miliardy, takže běží rychle i na výkonném notebooku — podle firmy 184 tokenů za sekundu na Macu s M5 Max. Umí volat nástroje a pracovat s kontextovým oknem 131 tisíc tokenů.",
+        "en": "On October 13, Liquid AI released open weights for LFM2.5-24B-A2B: 24 billion parameters, but only 2 billion active per token, so it runs fast even on a powerful laptop — 184 tokens per second on an M5 Max Mac, per the company. It calls tools and handles a 131,000-token context window."
+      },
+      "why": {
+        "cs": "Chceš AI agenta, který data nepouští z počítače? Model stáhneš z Hugging Face a spustíš třeba přes llama.cpp, MLX nebo LM Studio. Na znalostní otázky ho podle firmy doplň vyhledáváním.",
+        "en": "Want an AI agent that keeps your data on your machine? Download the model from Hugging Face and run it with llama.cpp, MLX, or LM Studio. For knowledge questions, Liquid AI advises adding search."
+      },
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
+        }
+      ],
+      "used": "2026-10-21"
+    },
+    {
+      "slug": "tip-m365-copilot-search-chat",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-10-21",
+      "verified": true,
+      "eventDate": "2026-10-06",
+      "title": {
+        "cs": "Copilot Search v Microsoft 365 teď umí rovnou chatovat",
+        "en": "Microsoft 365 Copilot Search now has chat built in"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání ze 6. října uvádí, že vyhledávání Microsoft 365 Copilot Search má teď chat přímo ve výsledcích: na nalezené výsledky se můžeš doptat, nechat si je shrnout nebo z nich vytvořit obsah. Na webu přibylo i tlačítko pro novou odpověď nebo přepnutí modelu.",
+        "en": "In its October 6 release notes, Microsoft says Microsoft 365 Copilot Search now has chat built into the results: ask follow-up questions, synthesize what it found, or generate content from it. On the web, a Regenerate button also offers a fresh answer or a different model."
+      },
+      "why": {
+        "cs": "Máš ve firmě licenci Microsoft 365 Copilot? Otevři Copilot Search, zadej dotaz a v panelu chatu se doptávej — na Windows i na webu. Funkce se zapíná postupně, nemusíš ji vidět hned.",
+        "en": "Have a Microsoft 365 Copilot license at work? Open Copilot Search, enter a query and ask follow-ups in the chat pane — on Windows and the web. It rolls out gradually."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "used": "2026-10-21"
+    },
+    {
+      "slug": "tip-gemini-mac-antigravity",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-10-13",
+      "title": {
+        "cs": "Gemini pro Mac má vestavěné programovací prostředí Antigravity",
+        "en": "Gemini’s Mac app now has Antigravity built in"
+      },
+      "summary": {
+        "cs": "Google 13. října zabudoval do appky Gemini pro macOS své agentní programovací prostředí Antigravity — mezi chatováním a psaním kódu přepneš jedním tlačítkem vpravo nahoře. Spolu s tím přibyl přepínač mezi chatem a úkoly, které Gemini zvládne samo.",
+        "en": "On October 13, Google built its agentic coding environment Antigravity into the Gemini app for macOS — one button at the top right switches between chatting and coding. A new toggle also switches between chat and tasks that Gemini handles on its own."
+      },
+      "why": {
+        "cs": "Používáš Gemini na Macu s předplatným Google AI Ultra? Klepni na tlačítko Antigravity vpravo nahoře. Samotný model Gemini 4 Argon stačí s AI Pro, Antigravity ale chce Ultra.",
+        "en": "Use Gemini on a Mac with Google AI Ultra? Tap the Antigravity button at the top right. Gemini 4 Argon itself works with AI Pro, but Antigravity needs Ultra."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/"
+        }
+      ],
+      "added": "2026-10-21",
+      "used": null
+    },
+    {
+      "slug": "tip-chatgpt-dot-iphone-widget",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-10-12",
+      "title": {
+        "cs": "Dot z ChatGPT teď otevřeš z widgetu na iPhonu",
+        "en": "Open your ChatGPT dot from an iPhone widget"
+      },
+      "summary": {
+        "cs": "OpenAI v týdnu 12.–16. října přidal do ChatGPT pro iOS (verze 1.2026.279) widget Your dot a akci Open your dot pro Zkratky. Svého dota tak otevřeš z plochy nebo tlačítkem Action a rovnou píšeš, diktuješ či voláš. Funguje jen s přístupem k dotům.",
+        "en": "In the week of October 12–16, OpenAI added a Your dot widget and an Open your dot Shortcuts action to ChatGPT for iOS (version 1.2026.279). Open your dot from the Home Screen or the Action button to type, dictate, or call. It requires dot access."
+      },
+      "why": {
+        "cs": "Pozor na dostupnost: v Česku dots mají jen firemní tarify Business Premium a Enterprise po zapnutí adminem, osobní Pro v EHP ne. Widget přidáš přes Upravit › Přidat widget › ChatGPT.",
+        "en": "Check availability: in the EEA, including Czechia, dots come only with Business Premium and Enterprise once an admin enables them — not personal Pro. Add the widget via Edit › Add Widget › ChatGPT."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/docs/whats-new"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/codex/dots"
+        }
+      ],
+      "added": "2026-10-21",
       "used": null
     }
   ]

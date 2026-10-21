@@ -1,0 +1,440 @@
+{
+  "date": "2026-10-21",
+  "sample": false,
+  "headline": {
+    "cs": "Sdílené chaty z Muse od Mety šly hromadně dohledat",
+    "en": "Meta’s shared Muse chats could be found in bulk"
+  },
+  "items": [
+    {
+      "id": "2026-10-21-meta-muse-share-links-exposed",
+      "kind": "news",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-20",
+      "title": {
+        "cs": "Sdílené chaty z Muse od Mety šly hromadně dohledat",
+        "en": "Meta’s shared Muse chats could be found in bulk"
+      },
+      "summary": {
+        "cs": "Meta 20. října pozastavila sdílení konverzací odkazem ve svém asistentu Muse. Bezpečnostní firma Claroc zjistila, že adresy sdílených chatů obsahují jejich název a dají se hromadně dohledat ve veřejných databázích — jediným dotazem našla přes 6 800 odkazů. Mezi otevřenými byly žádost o úvěr, firemní tržby i kalendář dovolených.",
+        "en": "On October 20, Meta paused link sharing in its Muse assistant. Security firm Claroc found that shared chats’ addresses include their titles and can be found in bulk in public databases — one query turned up over 6,800 links. Opened ones included a loan application, a revenue review, and a staff vacation calendar."
+      },
+      "why": {
+        "cs": "Sdílíš chaty s AI odkazem? Ber odkaz jako veřejný a citlivé údaje do sdílených chatů nedávej. Podobně už dopadly sdílené chaty z ChatGPT, Clauda i Groku, které se objevily ve vyhledávání Google.",
+        "en": "Share AI chats by link? Treat the link as public and keep sensitive details out. Shared ChatGPT, Claude, and Grok chats have surfaced in Google Search before."
+      },
+      "sources": [
+        {
+          "name": "Claroc",
+          "url": "https://blog.claroc.io/ghostshares-muse-passive-dns/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21-mistral-voxtral-3-voice-agents",
+      "kind": "news",
+      "category": "models",
+      "verified": true,
+      "eventDate": "2026-10-20",
+      "title": {
+        "cs": "Mistral vydal Voxtral 3 pro hlasové AI agenty",
+        "en": "Mistral launches Voxtral 3 for voice AI agents"
+      },
+      "summary": {
+        "cs": "Mistral 20. října vydal Voxtral 3 — rodinu modelů pro převod řeči na text a zpět spolu se sadou nástrojů pro hlasové agenty. Přepis zvládá 50 jazyků včetně všech 24 úředních jazyků EU, tedy i češtiny, a podle firmy překonává Whisper i Gemini 3.5 Transcribe. Menší model přepisu stojí 0,0035 USD za minutu.",
+        "en": "On October 20, Mistral released Voxtral 3, a family of speech-to-text and text-to-speech models plus a toolkit for voice agents. Transcription covers 50 languages, including all 24 official EU languages such as Czech, and Mistral says it beats Whisper and Gemini 3.5 Transcribe. The smaller transcription model costs $0.0035 per minute."
+      },
+      "why": {
+        "cs": "Přepisuješ česky nahrávky schůzek nebo rozhovorů? Voxtral vyzkoušíš ve webovém Studiu Mistralu (přepis, hlas i klonování hlasu), firmy ho můžou provozovat přes evropské API nebo na vlastních serverech.",
+        "en": "Transcribing meetings or interviews in Czech? Try Voxtral in Mistral’s web Studio (transcription, speech, and voice cloning); companies can run it through the EU-hosted API or on their own servers."
+      },
+      "sources": [
+        {
+          "name": "Mistral",
+          "url": "https://mistral.ai/news/voxtral-3/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21-perplexity-computer-fully-local-mac",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-20",
+      "title": {
+        "cs": "Perplexity Computer nově běží celý lokálně na Macu",
+        "en": "Perplexity Computer can now run fully local on Mac"
+      },
+      "summary": {
+        "cs": "Perplexity 20. října spustil režim, ve kterém jeho agent Computer běží celý na Macu — model, řízení úkolu i práce se soubory, podle 9to5Mac i bez internetu. Se svolením pracuje s místními soubory a appkami jako Poznámky či Mail a data do cloudu posílá jen se souhlasem. Pohání ho Qwen 3.6 nebo PPLX Pro.",
+        "en": "On October 20, Perplexity launched a mode where its Computer agent runs entirely on a Mac — model, task control, and file work, even offline per 9to5Mac. With permission it uses local files and apps like Notes and Mail, sending data to the cloud only when you approve. It runs Qwen 3.6 or PPLX Pro."
+      },
+      "why": {
+        "cs": "Máš Perplexity Pro, Max nebo Enterprise a Mac s Apple silicon? Režim zapneš v aktuální Mac appce, kde si stáhneš model. Firma doporučuje aspoň 36 GB paměti.",
+        "en": "Have Perplexity Pro, Max, or Enterprise and an Apple silicon Mac? Turn it on in the latest Mac app, which walks you through downloading a model. Perplexity recommends 36 GB of memory or more."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/10/20/perplexitys-computer-can-now-run-entirely-on-your-mac-even-offline/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21-spotify-ai-slop-recommendations",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-20",
+      "title": {
+        "cs": "Spotify upřednostní lidské umělce, AI balast mizí z doporučení",
+        "en": "Spotify cuts AI slop from recommendations, favors human artists"
+      },
+      "summary": {
+        "cs": "Spotify 20. října oznámil, že letos vyřadil z doporučení přes 50 milionů skladeb označených jako AI balast nebo spam, navíc k více než 75 milionům spamových skladeb smazaných úplně. Tisíce umělců s AI identitou nesou štítek AI Persona a do doporučení se ve výchozím stavu nedostanou.",
+        "en": "On October 20, Spotify said it has taken more than 50 million AI slop and spam tracks out of recommendations this year, on top of more than 75 million spam tracks removed outright. Thousands of AI-generated artists now carry an AI Persona badge and stay out of recommendations by default."
+      },
+      "why": {
+        "cs": "Posloucháš na Spotify? Přímý filtr na AI hudbu zatím nenabízí — u skladby ale v mobilu uvidíš v Song Credits (obrazovka Now Playing), jestli autor přiznal použití AI.",
+        "en": "Listen on Spotify? There’s no filter for AI music yet — but on mobile, Song Credits in the Now Playing view show whether an artist disclosed AI use."
+      },
+      "sources": [
+        {
+          "name": "Spotify",
+          "url": "https://newsroom.spotify.com/2026-10-20/prioritizing-human-artistry/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2291954/spotify-is-dancing-around-its-ai-slop-and-spam-problem/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21-meta-business-terms-train-removed",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-10-17",
+      "title": {
+        "cs": "Meta po kritice škrtla z firemních podmínek trénování AI",
+        "en": "Meta drops ‘train’ from business terms after backlash"
+      },
+      "summary": {
+        "cs": "Meta 17. října po kritice upravila nové obchodní podmínky pro firemní účty, které platí od 30. října. Původně jí dovolovaly použít „jakýkoli obsah“ z webů firem k trénování svých produktů; teď smí weby jen „pravidelně stahovat“ pro reklamní a firemní produkty. Právníci i vydavatelé tvrdí, že je to pořád příliš široké.",
+        "en": "On October 17, after a backlash, Meta revised new commercial terms for business accounts that take effect October 30. They first let Meta use ‘any content’ from businesses’ websites to train its products; now Meta may only ‘periodically pull updates’ for ads and business products. Lawyers and publishers say that’s still too broad."
+      },
+      "why": {
+        "cs": "Máš firemní účet u Mety s odkazem na svůj web? Od 30. října z něj Meta může stahovat obsah. Tvrdí, že to jde omezit souborem robots.txt, do podmínek to ale nedala.",
+        "en": "Have a Meta business page linking to your website? From October 30, Meta may pull content from it. Meta says robots.txt still works, but the terms don’t promise that."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21-anthropic-draft-ai-safety-bill",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-10-16",
+      "title": {
+        "cs": "Anthropic navrhuje zákon, který by mohl zastavit nebezpečný model",
+        "en": "Anthropic drafts bill to halt dangerous AI models"
+      },
+      "summary": {
+        "cs": "Anthropic podle Politico z 16. října nabízí americkému Kongresu návrh zákona o bezpečnosti AI. Vydání modelu by šlo zastavit při „předvídatelném, bezprostředním“ riziku smrti víc než 50 lidí nebo škod přes miliardu dolarů. Riziko by posuzovali nezávislí hodnotitelé a zastavení by musel nařídit soud, ne úřad.",
+        "en": "According to Politico on October 16, Anthropic is shopping a draft AI safety bill to the US Congress. A model’s release could be halted over a ‘foreseeable, imminent risk’ of more than 50 deaths or over $1 billion in damage. Independent evaluators would assess the risk, and only a court could order a halt."
+      },
+      "why": {
+        "cs": "Pro uživatele Claude se zatím nic nemění — jde o návrh, ne zákon. Ukazuje ale, jak by si Anthropic přál regulaci nejsilnějších modelů: s pojistkou proti katastrofám, ale bez pravomoci úřadů model rovnou stopnout.",
+        "en": "Nothing changes for Claude users yet — it’s a proposal, not a law. But it shows how Anthropic wants frontier models regulated: a catastrophe brake, without letting agencies halt a model on their own."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
+        },
+        {
+          "name": "Politico",
+          "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/0a58d567024a8b448ff15158ebc3625328dfcc1f.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21-tip-chatgpt-locked-chats",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-20",
+      "title": {
+        "cs": "ChatGPT teď umí zamknout citlivé chaty PINem",
+        "en": "ChatGPT can now lock sensitive chats behind a PIN"
+      },
+      "summary": {
+        "cs": "OpenAI 20. října začalo zavádět zamčené chaty v ChatGPT. Zamčená konverzace zmizí z běžné historie, připnutých chatů i vyhledávání a otevře ji jen čtyřmístný PIN, na podporovaných zařízeních i Face ID nebo Touch ID. Nejde o šifrování a nemění to, jak dlouho OpenAI chaty uchovává.",
+        "en": "On October 20, OpenAI began rolling out locked chats in ChatGPT. A locked conversation leaves your regular history, pinned chats, and search, and opens only with a four-digit PIN — or Face ID or Touch ID on supported devices. It isn’t encryption and doesn’t change how long OpenAI keeps chats."
+      },
+      "why": {
+        "cs": "Funguje v plánech Free, Go, Plus, Pro, Business, Enterprise i Edu a nasazuje se postupně. Zamčené chaty najdeš v sekci Locked chats. Pozor: reset PINu je všechny smaže.",
+        "en": "Available on Free, Go, Plus, Pro, Business, Enterprise, and Edu, rolling out gradually. Locked conversations live in a Locked chats section. Careful: resetting your PIN deletes them all."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/20001411-using-locked-chats-in-chatgpt"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2292365/chatgpt-now-lets-you-lock-sensitive-chats-behind-a-pin/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21-tip-gemini-sheets-ios",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-19",
+      "title": {
+        "cs": "Gemini v Google Sheets teď funguje i na iOS",
+        "en": "Gemini in Google Sheets now works on iOS"
+      },
+      "summary": {
+        "cs": "Google 19. října oznámil, že Gemini v Google Sheets jde používat i v appce pro iOS. Klepnutím na ikonu Gemini se ptáš na data, necháš si shrnout tabulku nebo vytvořit graf. Zapíná se postupně od 15. října a nasazení trvá až 15 dní.",
+        "en": "On October 19, Google said Gemini in Google Sheets now works in the iOS app. Tap the Gemini icon to ask about your data, summarize a table, or build a chart. The gradual rollout started October 15 and takes up to 15 days."
+      },
+      "why": {
+        "cs": "Otevři tabulku v appce Google Sheets pro iOS a klepni na ikonu Gemini. Funguje s předplatným Google AI Plus, Pro či Ultra a ve firemních tarifech Workspace Business a Enterprise.",
+        "en": "Open a spreadsheet in the Google Sheets iOS app and tap the Gemini icon. It works with Google AI Plus, Pro, or Ultra, and on Workspace Business and Enterprise plans."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/gemini-in-google-sheets-is-now-available-on-iOS-devices.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21-tip-lfm25-local-agent-model",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-13",
+      "title": {
+        "cs": "Model LFM2.5 rozjede AI agenta přímo na tvém počítači",
+        "en": "LFM2.5 runs AI agents locally on your own computer"
+      },
+      "summary": {
+        "cs": "Liquid AI 13. října uvolnil otevřené váhy modelu LFM2.5-24B-A2B: má 24 miliard parametrů, ale na každý token zapojí jen 2 miliardy, takže běží rychle i na výkonném notebooku — podle firmy 184 tokenů za sekundu na Macu s M5 Max. Umí volat nástroje a pracovat s kontextovým oknem 131 tisíc tokenů.",
+        "en": "On October 13, Liquid AI released open weights for LFM2.5-24B-A2B: 24 billion parameters, but only 2 billion active per token, so it runs fast even on a powerful laptop — 184 tokens per second on an M5 Max Mac, per the company. It calls tools and handles a 131,000-token context window."
+      },
+      "why": {
+        "cs": "Chceš AI agenta, který data nepouští z počítače? Model stáhneš z Hugging Face a spustíš třeba přes llama.cpp, MLX nebo LM Studio. Na znalostní otázky ho podle firmy doplň vyhledáváním.",
+        "en": "Want an AI agent that keeps your data on your machine? Download the model from Hugging Face and run it with llama.cpp, MLX, or LM Studio. For knowledge questions, Liquid AI advises adding search."
+      },
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21-tip-m365-copilot-search-chat",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-06",
+      "title": {
+        "cs": "Copilot Search v Microsoft 365 teď umí rovnou chatovat",
+        "en": "Microsoft 365 Copilot Search now has chat built in"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání ze 6. října uvádí, že vyhledávání Microsoft 365 Copilot Search má teď chat přímo ve výsledcích: na nalezené výsledky se můžeš doptat, nechat si je shrnout nebo z nich vytvořit obsah. Na webu přibylo i tlačítko pro novou odpověď nebo přepnutí modelu.",
+        "en": "In its October 6 release notes, Microsoft says Microsoft 365 Copilot Search now has chat built into the results: ask follow-up questions, synthesize what it found, or generate content from it. On the web, a Regenerate button also offers a fresh answer or a different model."
+      },
+      "why": {
+        "cs": "Máš ve firmě licenci Microsoft 365 Copilot? Otevři Copilot Search, zadej dotaz a v panelu chatu se doptávej — na Windows i na webu. Funkce se zapíná postupně, nemusíš ji vidět hned.",
+        "en": "Have a Microsoft 365 Copilot license at work? Open Copilot Search, enter a query and ask follow-ups in the chat pane — on Windows and the web. It rolls out gradually."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21-tip-claude-code-review-ga",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-15",
+      "title": {
+        "cs": "Code Review v Claude Code je teď dostupný naplno",
+        "en": "Claude Code Review is now generally available"
+      },
+      "summary": {
+        "cs": "Anthropic 15. října uvolnil Code Review z výzkumné verze pro tarify Team a Enterprise. Po zapnutí Claude sám recenzuje každý nový pull request na GitHubu a u chyby v pár větách popíše problém, co ho spouští, a opravu. Většina recenzí trvá 6–10 minut místo zhruba 20.",
+        "en": "On October 15, Anthropic took Code Review out of research preview for Team and Enterprise plans. Once enabled, Claude reviews every new GitHub pull request and explains each bug — the problem, what triggers it, and the fix — in a few sentences. Most reviews now take 6–10 minutes instead of about 20."
+      },
+      "why": {
+        "cs": "Admin ho zapne v nastavení Claude Code, nainstaluje GitHub App a vybere repozitáře i hloubku (Quick, Standard, Deep). Způsobilé firmy na Enterprise si do 15. ledna vyzvednou kredity aspoň za 10 000 dolarů.",
+        "en": "Admins enable it in Claude Code settings, install the GitHub App, pick repositories, and set Quick, Standard, or Deep for each. Eligible Enterprise organizations can claim at least $10,000 in credits by January 15."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/code-review-is-now-generally-available"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-21",
+      "title": {
+        "cs": "NVIDIA pořádá GTC Berlín, hlavní řeč má Jensen Huang",
+        "en": "NVIDIA hosts GTC Berlin, keynote by Jensen Huang"
+      },
+      "note": {
+        "cs": "Evropská konference NVIDIA o AI probíhá 20. až 22. října v Berlíně. Hlavní řeč Jensena Huanga 21. října půjde sledovat online, bez registrace.",
+        "en": "NVIDIA’s European AI conference runs October 20-22 in Berlin. Jensen Huang’s October 21 keynote streams online, no registration needed."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/en-eu/gtc/faq/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-24",
+      "title": {
+        "cs": "Perplexity vyřadí staré modely z Agent a Orchestrator API",
+        "en": "Perplexity retires old models from Agent and Orchestrator API"
+      },
+      "note": {
+        "cs": "Od 24. října o půlnoci UTC Perplexity vyřadí z Agent API a Orchestrator API starší modely OpenAI řady GPT-5 — vývojáři musí přejít na náhradu předem.",
+        "en": "On October 24 at midnight UTC, Perplexity retires older OpenAI GPT-5 models from its Agent and Orchestrator API — developers need to switch to a replacement beforehand."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-28",
+      "title": {
+        "cs": "GitHub Universe se vrací do San Francisca",
+        "en": "GitHub Universe returns to San Francisco"
+      },
+      "note": {
+        "cs": "Vlajková konference GitHubu pro vývojáře probíhá 28.–29. října ve Fort Mason Center — zaměří se na vývoj softwaru s pomocí AI agentů.",
+        "en": "GitHub’s flagship developer conference runs October 28-29 at Fort Mason Center — the theme this year is building software with AI agents."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu se podávají nabídky na až sedm AI gigatováren EU (investice přes 30 miliard eur). Česko je mezi 18 státy, které od nich budou společně nakupovat výpočetní čas.",
+        "en": "Bids for up to seven EU AI gigafactories (over €30 billion in investment) close November 12. Czechia is among 18 states that will jointly buy compute time from them."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "GitHub vyřadí z Copilota tři modely",
+        "en": "GitHub retires three models from Copilot"
+      },
+      "note": {
+        "cs": "16. listopadu GitHub vyřadí z Copilota Claude Opus 4.8, Opus 5 a GPT-5.6 Terra — náhradou jsou Opus 5.5 a GPT-6.1 Sol nebo GPT-6 Luna. Roční předplatitelé Opus 4.8 neztratí.",
+        "en": "On November 16, Copilot drops Claude Opus 4.8, Opus 5, and GPT-5.6 Terra — replacements are Opus 5.5 and GPT-6.1 Sol or GPT-6 Luna. Annual subscribers keep Opus 4.8."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská expertní skupina má odevzdat doporučení k AI kill switchi",
+        "en": "California’s expert group must deliver AI kill-switch recommendations"
+      },
+      "note": {
+        "cs": "Do 16. listopadu musí pracovní skupina jmenovaná guvernérem Newsomem předat doporučení k povinnému záchrannému vypínání špičkových AI modelů.",
+        "en": "By November 16, the working group named by Governor Newsom must deliver recommendations on a mandatory emergency kill switch for frontier AI models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}
