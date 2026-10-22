@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "terms": [
     {
       "id": "quantization",
@@ -280,7 +280,11 @@
         "otevřenými váhami",
         "otevřených vah",
         "open-source model",
-        "open source model"
+        "open source model",
+        "otevřený model",
+        "otevřené modely",
+        "otevřených modelů",
+        "otevřeným modelem"
       ],
       "short": {
         "cs": "Model, jehož „váhy“ (naučené parametry) jsou volně ke stažení, takže si ho lze provozovat i upravovat samostatně.",
@@ -557,6 +561,20 @@
       "short": {
         "cs": "Textový soubor na webu, kterým provozovatel říká robotům vyhledávačů a AI firem, které stránky smějí procházet. Je to jen žádost — jeho dodržování závisí na dobré vůli robota.",
         "en": "A text file on a website telling search and AI crawlers which pages they may visit. It’s only a request — following it is up to the crawler."
+      }
+    },
+    {
+      "id": "php",
+      "term": {
+        "cs": "PHP",
+        "en": "PHP"
+      },
+      "aliases": [
+        "PHP"
+      ],
+      "short": {
+        "cs": "Programovací jazyk, ve kterém běží velká část webů včetně WordPressu. Server v něm sestaví stránku dřív, než ji pošle do prohlížeče.",
+        "en": "A programming language that powers much of the web, including WordPress. The server uses it to build a page before sending it to your browser."
       }
     }
   ]

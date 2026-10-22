@@ -1,94 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-gemini-business-profile",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": false,
-      "title": {
-        "cs": "Gemini se propojí s tvým firemním profilem",
-        "en": "Gemini can connect to your Business Profile"
-      },
-      "summary": {
-        "cs": "Svůj Google Business Profile teď propojíš s Gemini a dostaneš asistenta, který zná tvoje recenze, dotazy zákazníků i výkonnostní data. Umí naformulovat odpovědi na recenze ve stylu značky, upravit otevírací dobu nebo najít mezery v profilu. Google to spustil v červenci.",
-        "en": "Connect your Google Business Profile to Gemini and you get an assistant that knows your reviews, customer questions, and performance data. It can draft review replies in your brand voice, update opening hours, or spot gaps in your profile. Google rolled this out in July."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/"
-        }
-      ],
-      "added": "2026-07-21",
-      "used": "2026-07-21"
-    },
-    {
-      "slug": "tip-chatgpt-search-everything",
-      "category": "tools",
-      "theme": "chatgpt",
-      "verified": false,
-      "title": {
-        "cs": "ChatGPT prohledá všechny tvoje chaty i soubory",
-        "en": "ChatGPT can search across all your chats and files"
-      },
-      "summary": {
-        "cs": "V ChatGPT teď z jednoho místa najdeš svoje starší chaty, projekty, obrázky i dokumenty. Hledání spustíš z bočního panelu a filtrem si výsledky zúžíš podle typu obsahu. Kliknutím otevřeš rovnou daný chat nebo soubor. OpenAI to zpřístupnilo napříč všemi plány.",
-        "en": "In ChatGPT you can now find your older chats, projects, images, and documents from one place. Start searching from the sidebar and use filters to narrow results by content type. Select a result to open the chat or file directly. OpenAI made it available across all plans."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/products/release-notes/"
-        }
-      ],
-      "added": "2026-07-21",
-      "used": "2026-07-21"
-    },
-    {
-      "slug": "tip-chatgpt-dictation",
-      "category": "tools",
-      "theme": "chatgpt",
-      "verified": false,
-      "title": {
-        "cs": "ChatGPT líp přepíše diktování i míchané jazyky",
-        "en": "ChatGPT dictation now handles mixed languages better"
-      },
-      "summary": {
-        "cs": "ChatGPT dostal nový model pro převod řeči na text — diktování je přesnější napříč jazyky a přízvuky, včetně situací, kdy ve větě přepínáš mezi jazyky. Funguje napříč plány.",
-        "en": "ChatGPT added a new speech-to-text model — dictation is more accurate across languages and accents, including when you switch between languages mid-sentence. It works across plans."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/products/release-notes/"
-        }
-      ],
-      "added": "2026-07-21",
-      "used": "2026-07-22"
-    },
-    {
-      "slug": "tip-copilot-agent-store",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": false,
-      "title": {
-        "cs": "Firemní agenty z Copilotu jde zveřejnit v Agent Store",
-        "en": "Org-built Copilot agents can go to the Agent Store"
-      },
-      "summary": {
-        "cs": "Agenty postavené v Agent Builderu teď firma může po schválení administrátorem zveřejnit v Agent Store v sekci vytvořeno vaší organizací, aby je našli a používali i ostatní kolegové. Microsoft to nasadil v červenci.",
-        "en": "Agents built in Agent Builder can now, after admin approval, be published to the Agent Store under 'Built by your org', so colleagues can discover and use them. Microsoft rolled it out in July."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        }
-      ],
-      "added": "2026-07-21",
-      "used": "2026-07-22"
-    },
-    {
       "slug": "tip-claude-cowork-web-mobile",
       "category": "tools",
       "theme": "claude",
@@ -113,210 +25,6 @@
       ],
       "added": "2026-07-16",
       "used": "2026-07-24"
-    },
-    {
-      "slug": "tip-claude-reflect",
-      "category": "tools",
-      "theme": "claude",
-      "verified": true,
-      "title": {
-        "cs": "Claude umí ohlédnutí za tím, jak ho používáš",
-        "en": "Claude can now reflect on how you use it"
-      },
-      "summary": {
-        "cs": "Nová beta funkce Reflect ukáže souhrn toho, jak Claude používáš — hlavní témata, vzorce a typy úloh za poslední 1 až 12 měsíců. Dostupné pro Free, Pro i Max, když máš zapnutou paměť.",
-        "en": "The new Reflect beta shows a summary of how you use Claude — key topics, patterns, and the kinds of tasks you work through over the past 1 to 12 months. Available to Free, Pro, and Max users with memory turned on."
-      },
-      "sources": [
-        {
-          "name": "Anthropic",
-          "url": "https://www.anthropic.com/news/reflect-with-claude"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/"
-        }
-      ],
-      "added": "2026-07-16",
-      "used": "2026-07-18"
-    },
-    {
-      "slug": "tip-claude-tag",
-      "category": "tools",
-      "theme": "claude",
-      "verified": true,
-      "title": {
-        "cs": "Claude Tag se připojí jako člen týmu na Slacku",
-        "en": "Claude Tag joins your team on Slack"
-      },
-      "summary": {
-        "cs": "Claude Tag umí naskočit přímo do slackového vlákna — stačí ho označit @Claude a převezme práci s kontextem celého kanálu. V kanálu funguje jeden sdílený Claude, na konverzaci může navázat kdokoli z týmu. Beta pro Enterprise a Team, zveřejněno 23. června.",
-        "en": "Claude Tag can jump straight into a Slack thread — tag @Claude and it takes on the work with full channel context. One shared Claude works per channel, and anyone on the team can pick up the conversation. Beta for Enterprise and Team, announced June 23."
-      },
-      "sources": [
-        {
-          "name": "Anthropic",
-          "url": "https://www.anthropic.com/news/introducing-claude-tag"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/"
-        }
-      ],
-      "added": "2026-07-19",
-      "used": "2026-07-19"
-    },
-    {
-      "slug": "tip-gpt-live-voice",
-      "category": "tools",
-      "theme": "chatgpt",
-      "verified": true,
-      "title": {
-        "cs": "ChatGPT má nové hlasové modely GPT-Live",
-        "en": "ChatGPT's new GPT-Live voice models"
-      },
-      "summary": {
-        "cs": "GPT-Live je nová generace hlasových modelů ChatGPT s plně obousměrnou architekturou — poslouchá a mluví zároveň, takže ho můžeš přirozeně přerušit. Rolluje se globálně ve verzích GPT-Live-1 a GPT-Live-1 mini.",
-        "en": "GPT-Live is a new generation of ChatGPT voice models with a full-duplex architecture — it listens and speaks at once, so you can interrupt naturally. Rolling out globally as GPT-Live-1 and GPT-Live-1 mini."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/introducing-gpt-live/"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/"
-        }
-      ],
-      "added": "2026-07-16",
-      "used": "2026-07-17"
-    },
-    {
-      "slug": "tip-chatgpt-work",
-      "category": "tools",
-      "theme": "chatgpt",
-      "verified": false,
-      "title": {
-        "cs": "ChatGPT Work: agent, co odevzdá hotovou práci",
-        "en": "ChatGPT Work: an agent that ships finished work"
-      },
-      "summary": {
-        "cs": "ChatGPT Work je agent uvnitř ChatGPT: vezme zadání, posbírá informace napříč aplikacemi a rozdělí úkol na kroky. Výstupem nejsou odpovědi v chatu, ale hotové materiály — tabulky, prezentace, dokumenty i weby.",
-        "en": "ChatGPT Work is an agent inside ChatGPT: it takes an outcome, gathers information across apps, and breaks the task into steps. The output isn't chat but finished materials — sheets, slides, docs, and web apps."
-      },
-      "sources": [
-        {
-          "name": "Axios",
-          "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release"
-        }
-      ],
-      "added": "2026-07-16",
-      "used": "2026-07-18"
-    },
-    {
-      "slug": "tip-chatgpt-codex-remote",
-      "category": "tools",
-      "theme": "chatgpt",
-      "verified": true,
-      "title": {
-        "cs": "Codex teď zvládneš řídit na dálku z mobilu",
-        "en": "Codex now works remotely from your phone"
-      },
-      "summary": {
-        "cs": "Kódovacího agenta Codex teď v ChatGPT aplikaci ovládneš i z mobilu — zkontroluješ rozdělanou práci, schválíš příkazy, přepneš model nebo zadáš nový úkol, aniž bys seděl u počítače. OpenAI to spustilo přes aplikaci pro iOS a Android.",
-        "en": "You can now control your Codex coding agent remotely from the ChatGPT mobile app — check on work in progress, approve commands, switch models, or start a new task without sitting at your computer. OpenAI rolled it out on iOS and Android."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/work-with-codex-from-anywhere/"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/"
-        }
-      ],
-      "added": "2026-07-20",
-      "used": "2026-07-20"
-    },
-    {
-      "slug": "tip-gemini-spark-macos",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": true,
-      "title": {
-        "cs": "Gemini Spark umí na macOS ovládat plochu i soubory",
-        "en": "Gemini Spark can now automate your Mac"
-      },
-      "summary": {
-        "cs": "Gemini Spark běží nově na macOS — umí automatizovat úkoly napříč soubory na ploše, zadat Macu složitější práci na dálku a propojit se s aplikacemi jako Canva nebo Dropbox. Google to spustil v červnu.",
-        "en": "Gemini Spark now runs on macOS — it can automate tasks across your desktop files, hand your Mac complex work remotely, and connect to apps like Canva and Dropbox. Google launched it in June."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/"
-        }
-      ],
-      "added": "2026-07-16",
-      "used": "2026-07-18"
-    },
-    {
-      "slug": "tip-gemini-vids-avatar",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": true,
-      "title": {
-        "cs": "Google Vids vytvoří tvého AI dvojníka pro videa",
-        "en": "Google Vids can create your AI video avatar"
-      },
-      "summary": {
-        "cs": "Google Vids umí z jedné selfie a nahrávky hlasu vytvořit tvého digitálního dvojníka, který pak mluví ve vygenerovaných videích za tebe. Videa nesou neviditelný vodoznak SynthID proti zneužití. Zatím jen pro dospělé uživatele ve vybraných zemích, Google to spustil v polovině července.",
-        "en": "Google Vids can turn a selfie and a voice recording into your digital avatar, which then speaks for you in generated videos. Videos carry an invisible SynthID watermark against misuse. For now it's limited to adult users in select regions; Google rolled it out in mid-July."
-      },
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/"
-        },
-        {
-          "name": "Google",
-          "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/"
-        }
-      ],
-      "added": "2026-07-19",
-      "used": "2026-07-19"
-    },
-    {
-      "slug": "tip-gemini-notebook-rebrand",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": true,
-      "title": {
-        "cs": "NotebookLM se přejmenoval na Gemini Notebook",
-        "en": "NotebookLM is now called Gemini Notebook"
-      },
-      "summary": {
-        "cs": "Google přejmenoval NotebookLM na Gemini Notebook — stejný nástroj na výzkum a poznámky teď jasněji patří do rodiny Gemini a propojuje se s Gemini aplikací i Vyhledáváním. Uživatelé Pro navíc brzy dostanou možnost spouštět kód přímo v poznámkovém bloku pro hlubší analýzu dat.",
-        "en": "Google renamed NotebookLM to Gemini Notebook — the same research and note-taking tool now sits more clearly inside the Gemini family and syncs with the Gemini app and Search. Pro users will also soon get the option to run code directly inside a notebook for deeper data analysis."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/"
-        }
-      ],
-      "added": "2026-07-20",
-      "used": "2026-07-20"
     },
     {
       "slug": "tip-gemini-live-translate",
@@ -395,132 +103,6 @@
       ],
       "added": "2026-07-16",
       "used": "2026-07-24"
-    },
-    {
-      "slug": "tip-copilot-excel-skills",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": true,
-      "title": {
-        "cs": "Excel Copilot má Skills pro opakované postupy",
-        "en": "Copilot in Excel now has reusable Skills"
-      },
-      "summary": {
-        "cs": "V Copilotu pro Excel jsou nově Skills — opakované postupy (analýzy, modelování, reporty) si zabalíš jako znovupoužitelné instrukce a vyvoláš je, místo abys psal stejný prompt dokola. Microsoft to nasadil v červnu.",
-        "en": "Copilot in Excel now has Skills — package repeatable workflows (analysis, modeling, reporting) as reusable instructions and invoke them instead of rewriting the same prompt each time. Microsoft rolled it out in June."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        },
-        {
-          "name": "Microsoft 365 Copilot Blog",
-          "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572"
-        }
-      ],
-      "added": "2026-07-16",
-      "used": "2026-07-19"
-    },
-    {
-      "slug": "tip-copilot-notebooks-outlook",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": true,
-      "title": {
-        "cs": "Copilot Notebooks umí čerpat i z e-mailů v Outlooku",
-        "en": "Copilot Notebooks can now pull in Outlook emails"
-      },
-      "summary": {
-        "cs": "Do Copilot Notebooks teď přidáš jako zdroj i e-maily z Outlooku, vedle Wordu, Excelu nebo PowerPointu — Copilot pak čerpá přímo z konverzací a rozhodnutí, na kterých projekt stojí. Microsoft to zpřístupnil v červnu i uživatelům Copilot Chat, dřív jen s plnou licencí.",
-        "en": "Copilot Notebooks can now pull in Outlook emails as a source too, alongside Word, Excel, or PowerPoint files — so Copilot draws straight from the conversations and decisions behind a project. Microsoft opened this to Copilot Chat users in June, previously reserved for full license holders."
-      },
-      "sources": [
-        {
-          "name": "Microsoft 365 Copilot Blog",
-          "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-notebooks--june-2026/4525625"
-        },
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        }
-      ],
-      "added": "2026-07-20",
-      "used": "2026-07-20"
-    },
-    {
-      "slug": "tip-claude-memory-all",
-      "category": "tools",
-      "theme": "claude",
-      "verified": false,
-      "title": {
-        "cs": "Claude si tě pamatuje napříč chaty, i zdarma",
-        "en": "Claude remembers you across chats, even free"
-      },
-      "summary": {
-        "cs": "Claude umí čerpat z historie tvých konverzací, takže nemusíš pokaždé znovu vysvětlovat kontext, a paměť je teď dostupná všem včetně bezplatného plánu. U Projektů si navíc drží pro každý projekt zvlášť oddělenou paměť.",
-        "en": "Claude can draw on your chat history so you do not have to re-explain context each time, and memory is now available to everyone, including the free plan. With Projects it also keeps a separate memory per project."
-      },
-      "sources": [
-        {
-          "name": "Claude Blog",
-          "url": "https://claude.com/blog/memory"
-        },
-        {
-          "name": "Claude Help Center",
-          "url": "https://support.claude.com/en/articles/12138966-release-notes"
-        }
-      ],
-      "added": "2026-07-22",
-      "used": "2026-07-23"
-    },
-    {
-      "slug": "tip-gemini-notebook-code",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": false,
-      "title": {
-        "cs": "Gemini Notebook umí sám spustit kód nad tvými zdroji",
-        "en": "Gemini Notebook can run code over your sources"
-      },
-      "summary": {
-        "cs": "Gemini Notebook (dřív NotebookLM) dostal zabudovaný cloudový počítač, takže umí sám napsat a spustit kód přímo nad tvými nahranými zdroji a zvládne i složitější analýzu dat. Google to zpřístupnil vyšším plánům, k ostatním se to teprve rozšíří.",
-        "en": "Gemini Notebook (formerly NotebookLM) gained a built-in cloud computer, so it can write and run code directly over your uploaded sources for deeper data analysis. Google enabled it for higher tiers first, with a wider rollout to come."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"
-        }
-      ],
-      "added": "2026-07-22",
-      "used": "2026-07-23"
-    },
-    {
-      "slug": "tip-copilot-sharepoint-report",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": true,
-      "title": {
-        "cs": "Copilot vytvoří interaktivní report z dat v SharePointu",
-        "en": "Copilot builds an interactive report from SharePoint"
-      },
-      "summary": {
-        "cs": "Copilot teď z obsahu uloženého v SharePointu poskládá interaktivní HTML report, tedy hezký sdílitelný přehled dat bez ručního formátování, ideální na readouty a dashboardy. Microsoft to nasadil v červenci.",
-        "en": "Copilot can now assemble an interactive HTML report from content stored in SharePoint, a polished shareable view of your data with no manual formatting, handy for readouts and dashboards. Microsoft rolled it out in July."
-      },
-      "sources": [
-        {
-          "name": "Microsoft 365 Copilot Blog",
-          "url": "https://techcommunity.microsoft.com/blog/spblog/what%e2%80%99s-new-in-copilot-in-sharepoint-july-2026/4535420"
-        },
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        }
-      ],
-      "added": "2026-07-22",
-      "used": "2026-07-23"
     },
     {
       "slug": "tip-gemini-flash-36",
@@ -4066,7 +3648,7 @@
         }
       ],
       "added": "2026-10-20",
-      "used": null
+      "used": "2026-10-22"
     },
     {
       "slug": "tip-chatgpt-locked-chats",
@@ -4198,6 +3780,87 @@
         }
       ],
       "added": "2026-10-21",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-customize-hub",
+      "category": "tools",
+      "theme": "gemini",
+      "added": "2026-10-22",
+      "verified": true,
+      "eventDate": "2026-10-13",
+      "title": {
+        "cs": "Gemini má nové místo pro dovednosti a propojené aplikace",
+        "en": "Gemini gets one place for skills and connected apps"
+      },
+      "summary": {
+        "cs": "Google 21. října oznámil v appce Gemini novou sekci Customize. Na jednom místě v ní nastavíš vlastní dovednosti a preference odpovědí, třeba styl psaní nebo formát, a spravuješ propojení s víc než 40 službami i appkami Googlu. Postupně se zavádí od 13. října na webu, v mobilu i v desktopové appce.",
+        "en": "On October 21, Google announced a new Customize section in the Gemini app. In one place you set custom skills and response preferences, like writing style or format, and manage connections to more than 40 services plus Google apps. It has been rolling out since October 13 on web, mobile, and desktop."
+      },
+      "why": {
+        "cs": "V Gemini otevři levé menu a vyber Customize. Funguje ve všech tarifech včetně bezplatného, většina propojených aplikací je ale zatím jen v angličtině v USA, takže v Česku využiješ hlavně dovednosti.",
+        "en": "In Gemini, open the left menu and choose Customize. It works on every plan, including free, but most connected apps are US English–only for now, so in Czechia it’s mostly about skills."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/an-easier-way-to-customize-how-gemini-works-for-you.html"
+        }
+      ],
+      "used": "2026-10-22"
+    },
+    {
+      "slug": "tip-claude-security-continuous-scanning",
+      "category": "tools",
+      "theme": "claude",
+      "added": "2026-10-22",
+      "verified": true,
+      "eventDate": "2026-10-21",
+      "title": {
+        "cs": "Claude Security teď hlídá repozitáře průběžně",
+        "en": "Claude Security now watches your repos continuously"
+      },
+      "summary": {
+        "cs": "Anthropic 21. října vydal novou verzi Claude Security pro firemní tarif Enterprise ve veřejné betě. Místo jednorázového skenu teď Claude průběžně kontroluje změny v kódu podle jejich rizika, sleduje, které nalezené chyby už tým opravil, a učí se z popisu prostředí, který mu tým zadá.",
+        "en": "On October 21, Anthropic released a new version of Claude Security in public beta for Claude Enterprise. Instead of one-off scans, Claude now keeps checking code changes based on their risk, tracks which findings the team has fixed, and learns from the environment details the team provides."
+      },
+      "why": {
+        "cs": "Pro firmy na Claude Enterprise: v Claude Security založ projekt a připoj repozitáře přes GitHub app nebo token z GitLabu. Firmy dostanou dva měsíce po 25 000 dolarech kreditů měsíčně, nejdéle do konce roku.",
+        "en": "On Claude Enterprise? Create a project in Claude Security and connect repos via the GitHub app or a GitLab token. You get $25,000 in credits monthly for two months, through year-end."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes"
+        }
+      ],
+      "used": "2026-10-22"
+    },
+    {
+      "slug": "tip-gemini-small-business-tools",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-10-20",
+      "title": {
+        "cs": "Gemini má novou stránku a nástroje pro malé firmy",
+        "en": "Gemini adds a hub and tools for small businesses"
+      },
+      "summary": {
+        "cs": "Google 20. října spustil v Gemini stránku pro malé podnikatele: na jednom místě s ní vytvoříš značkové vizuály podle vlastního stylu, převedeš účtenky a tabulky do přehledných grafů a propojíš Gemini s Google Business Profile, Ads, Canvou, Shopify či Xero. Nasazuje se celosvětově všem uživatelům.",
+        "en": "On October 20, Google launched a Gemini page for small business owners: one place to create on-brand visuals in your own style, turn receipts and spreadsheets into clear charts, and connect Gemini to Google Business Profile, Ads, Canva, Shopify, or Xero. It’s rolling out globally to all users."
+      },
+      "why": {
+        "cs": "Podnikáš? Až se ti stránka v Gemini objeví, nahraj web, brand kit nebo barvy a Gemini podle nich udrží jednotný styl vizuálů. Funguje pro všechny uživatele appky.",
+        "en": "Run a business? Once the page shows up in Gemini, upload your website, brand kit, or colors and Gemini keeps your visuals consistent. It’s for all Gemini app users."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/"
+        }
+      ],
+      "added": "2026-10-22",
       "used": null
     }
   ]

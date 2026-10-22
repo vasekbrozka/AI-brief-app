@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-21T03:47:55Z",
+  "updated": "2026-10-22T03:26:34Z",
   "briefs": [
+    {
+      "date": "2026-10-22",
+      "headline": {
+        "cs": "AI našla kritické chyby v PHP, útočníci je zneužívají",
+        "en": "AI found critical PHP flaws, now under active attack"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-10-21",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Anthropic launches long-term mission to defend critical infrastructure"
       },
       "itemCount": 6
-    },
-    {
-      "date": "2026-10-08",
-      "headline": {
-        "cs": "NVIDIA a Microsoft ukázaly notebook s čipem RTX Spark",
-        "en": "NVIDIA and Microsoft unveil laptop with RTX Spark chip"
-      },
-      "itemCount": 8
     }
   ]
 }

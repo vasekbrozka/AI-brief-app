@@ -83,6 +83,7 @@ T1_DOMAINS = [
     "samsung.com", "metr.org", "darioamodei.com", "blog.samaltman.com",
     "courtlistener.com", "stepfun.ai", "meta.ai", "lmstudio.ai", "ollama.com",
     "inceptionlabs.ai", "brave.com", "character.ai", "norforge.com", "claroc.io", "spotify.com",
+    "php.net", "recursive.com", "blog.youtube",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.

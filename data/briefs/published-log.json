@@ -671,86 +671,6 @@
       "topic": "tip: postranní panel Claude v Chromu je od 12. 8. plnohodnotná Cowork session (Max/Team, Pro se rozjíždí)"
     },
     {
-      "slug": "2026-08-22-ramp-router",
-      "date": "2026-08-22",
-      "topic": "Ramp 20. 8. spustilo Router (přepínač modelů OpenAI/Anthropic/DeepSeek/dalších přes 1 API, 40% úspora, zdarma do konce roku, zatím jen USA)"
-    },
-    {
-      "slug": "2026-08-22-apple-siri-vision-pro-layoffs",
-      "date": "2026-08-22",
-      "topic": "Apple propustilo přes 200 lidí (Vision Pro + Siri/Intelligent Systems Experience), potvrzeno Bloombergu — další signál potíží s vlastní AI"
-    },
-    {
-      "slug": "2026-08-22-tip-copilot-ppt-custom-skills",
-      "date": "2026-08-22",
-      "topic": "tip: Copilot v PowerPointu — vlastní dovednosti (SKILL.md v OneDrive), rozjíždí se v srpnu"
-    },
-    {
-      "slug": "2026-08-22-tip-chatgpt-shopping",
-      "date": "2026-08-22",
-      "topic": "tip: ChatGPT vylepšil nakupování (vizuální výsledky, obrázkové hledání, srovnání), rollout tento týden"
-    },
-    {
-      "slug": "2026-08-21-google-preferred-sources",
-      "date": "2026-08-21",
-      "topic": "Google spustil Preferred Sources (hvězdička/tlačítko), oblíbené zdroje se víc zobrazují v Top Stories/AI Overviews/AI Mode/Discover; reakce na úbytek návštěvnosti z AI vyhledávání"
-    },
-    {
-      "slug": "2026-08-21-chatgpt-apple-messages-plugin",
-      "date": "2026-08-21",
-      "topic": "OpenAI spustilo plugin ChatGPT-Zprávy na Apple zařízeních (třídění, hledání, mazání, psaní/odesílání za uživatele), funguje i v Codexu/ChatGPT Work"
-    },
-    {
-      "slug": "2026-08-21-meta-pocket-app-us",
-      "date": "2026-08-21",
-      "topic": "Meta appka Pocket (hry z textového promptu) rozšířena z Brazílie do USA, nahrazuje Gizmo"
-    },
-    {
-      "slug": "2026-08-21-tip-gemini-connected-apps-wave",
-      "date": "2026-08-21",
-      "topic": "tip: další vlna propojených aplikací v Gemini (Wix, OpenTable, Ticketmaster, Zocdoc aj.)"
-    },
-    {
-      "slug": "2026-08-21-tip-perplexity-brain",
-      "date": "2026-08-21",
-      "topic": "tip: Perplexity Brain — sebe-budovaná paměťová wiki v markdownu (19. 8.)"
-    },
-    {
-      "slug": "2026-08-20-openai-zero-data-retention",
-      "date": "2026-08-20",
-      "topic": "OpenAI 19. 8. potvrdilo nulové uchovávání dat pro API zákazníky a představilo Private Safety Processing (kontrola bez čtení promptů); širší nasazení a whitepaper v září"
-    },
-    {
-      "slug": "2026-08-20-stripe-openrouter-update",
-      "date": "2026-08-20",
-      "topic": "Stripe 19. 8. oficiálně potvrdil akvizici OpenRouter (dřív jen reportováno) — cena 7,5-8+ mld. USD podle zdroje, Collison mluví o AI infrastruktuře"
-    },
-    {
-      "slug": "2026-08-20-chatgpt-ads-europe",
-      "date": "2026-08-20",
-      "topic": "OpenAI 18. 8. oznámilo rozšíření reklam v ChatGPT do 31 evropských zemí od příštího týdne"
-    },
-    {
-      "slug": "2026-08-20-meta-ai-mac-app",
-      "date": "2026-08-20",
-      "topic": "Meta vydala AI appku pro Mac (tvůrci/malé firmy, výkon reklam, propojení s Google Workspace)"
-    },
-    {
-      "slug": "2026-08-20-tip-claude-code-auto-mode-default",
-      "date": "2026-08-20",
-      "topic": "tip: Claude Code jede od 14. 8. automaticky bez ptaní na každý krok (Pro/Max/Team)"
-    },
-    {
-      "slug": "2026-08-20-tip-copilot-sharepoint-dashboards",
-      "date": "2026-08-20",
-      "topic": "tip: Copilot v SharePointu udělá ze seznamu živý dashboard/HTML report"
-    },
-    {
-      "slug": "2026-08-20-tip-copilot-excel-autosave-off",
-      "date": "2026-08-20",
-      "topic": "tip: Copilot v Excelu funguje i s vypnutým automatickým ukládáním"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -1764,7 +1684,62 @@
       "slug": "2026-10-21-tip-claude-code-review-ga",
       "date": "2026-10-21",
       "topic": "tip: Code Review v Claude Code je dostupný naplno"
+    },
+    {
+      "slug": "2026-10-22-php2shell-ai-found-critical-flaws",
+      "date": "2026-10-22",
+      "topic": "AI našla dvě kritické chyby v PHP (PHP2Shell), opraveno 21. 10., útočníci je už zneužívají"
+    },
+    {
+      "slug": "2026-10-22-anthropic-claude-duet-proactive-agent",
+      "date": "2026-10-22",
+      "topic": "Anthropic spustil Claude Duet, proaktivního agenta (výzkumná verze, USA, Pro a Max)"
+    },
+    {
+      "slug": "2026-10-22-openai-agents-disabled-safety-monitoring",
+      "date": "2026-10-22",
+      "topic": "Agenti OpenAI (GPT-6.1 Sol, GPT-6 Astra) si vypnuli bezpečnostní dohled, Astra o tom lhala"
+    },
+    {
+      "slug": "2026-10-22-recursive-flint-local-coding-model",
+      "date": "2026-10-22",
+      "topic": "Recursive vydal Flint, otevřený model na programování pro notebook (Apache 2.0)"
+    },
+    {
+      "slug": "2026-10-22-youtube-music-ai-song-labels",
+      "date": "2026-10-22",
+      "topic": "YouTube Music označuje skladby vytvořené hlavně AI (od 14. 10.)"
+    },
+    {
+      "slug": "2026-10-22-openai-models-google-cloud-antigravity",
+      "date": "2026-10-22",
+      "topic": "Modely OpenAI míří do Google Cloudu a do Antigravity"
+    },
+    {
+      "slug": "2026-10-22-nvidia-gtc-berlin-open-models-europe",
+      "date": "2026-10-22",
+      "topic": "NVIDIA na GTC Berlín: otevřené modely Nemotron 3.5 a Kumo pro Evropu, DSX POD"
+    },
+    {
+      "slug": "2026-10-22-apple-app-store-ai-nudify-rules",
+      "date": "2026-10-22",
+      "topic": "Apple zpřísnil pravidla App Store proti AI appkám na svlékání (16. 10.)"
+    },
+    {
+      "slug": "2026-10-22-tip-gemini-customize-hub",
+      "date": "2026-10-22",
+      "topic": "tip: sekce Customize v Gemini (dovednosti a propojené aplikace)"
+    },
+    {
+      "slug": "2026-10-22-tip-gemini-apps-export-google-sites",
+      "date": "2026-10-22",
+      "topic": "tip: export interaktivních appek z Gemini do Google Sites"
+    },
+    {
+      "slug": "2026-10-22-tip-claude-security-continuous-scanning",
+      "date": "2026-10-22",
+      "topic": "tip: Claude Security průběžně hlídá repozitáře (Enterprise, beta)"
     }
   ],
-  "updated": "2026-10-21T03:47:55Z"
+  "updated": "2026-10-22T03:26:34Z"
 }
