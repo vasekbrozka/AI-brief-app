@@ -82,7 +82,12 @@ export function segmentText(text: string, _lang: Lang, glossary: Glossary): Segm
     const start = m.index;
     const end = start + match.length;
     // Reject partial-word hits (Unicode-aware boundaries; \b is ASCII-only).
-    if (isWordChar(text[start - 1]) || isWordChar(text[end])) continue;
+    // Resume one char past the start, not at the end: a shorter alias can begin
+    // inside the rejected hit and run past it ("agenta" after "AI agent" in "AI agenta").
+    if (isWordChar(text[start - 1]) || isWordChar(text[end])) {
+      re.lastIndex = start + 1;
+      continue;
+    }
     const entry = map.get(match.toLowerCase());
     if (!entry || used.has(entry.id)) continue;
     used.add(entry.id);
