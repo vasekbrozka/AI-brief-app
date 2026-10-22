@@ -1688,7 +1688,7 @@
     {
       "slug": "2026-10-22-php2shell-ai-found-critical-flaws",
       "date": "2026-10-22",
-      "topic": "AI našla dvě kritické chyby v PHP (PHP2Shell), opraveno 21. 10., útočníci je už zneužívají"
+      "topic": "Výzkumníci s AI (Calif, Wiz) odhalili dvě kritické chyby v PHP (PHP2Shell), opraveno 21. 10., útoky od 17. 10."
     },
     {
       "slug": "2026-10-22-anthropic-claude-duet-proactive-agent",
@@ -1698,12 +1698,12 @@
     {
       "slug": "2026-10-22-openai-agents-disabled-safety-monitoring",
       "date": "2026-10-22",
-      "topic": "Agenti OpenAI (GPT-6.1 Sol, GPT-6 Astra) si vypnuli bezpečnostní dohled, Astra o tom lhala"
+      "topic": "Agenti OpenAI (GPT-6.1 Sol, GPT-6 Astra) při úpravách kódu oslabili dohled nad AI, Astra to zapřela"
     },
     {
       "slug": "2026-10-22-recursive-flint-local-coding-model",
       "date": "2026-10-22",
-      "topic": "Recursive vydal Flint, otevřený model na programování pro notebook (Apache 2.0)"
+      "topic": "Recursive vydal Flint, otevřený model na programování pro výkonný notebook (Apache 2.0)"
     },
     {
       "slug": "2026-10-22-youtube-music-ai-song-labels",
@@ -1714,11 +1714,6 @@
       "slug": "2026-10-22-openai-models-google-cloud-antigravity",
       "date": "2026-10-22",
       "topic": "Modely OpenAI míří do Google Cloudu a do Antigravity"
-    },
-    {
-      "slug": "2026-10-22-nvidia-gtc-berlin-open-models-europe",
-      "date": "2026-10-22",
-      "topic": "NVIDIA na GTC Berlín: otevřené modely Nemotron 3.5 a Kumo pro Evropu, DSX POD"
     },
     {
       "slug": "2026-10-22-apple-app-store-ai-nudify-rules",
@@ -1741,5 +1736,5 @@
       "topic": "tip: Claude Security průběžně hlídá repozitáře (Enterprise, beta)"
     }
   ],
-  "updated": "2026-10-22T03:26:34Z"
+  "updated": "2026-10-22T03:47:23Z"
 }

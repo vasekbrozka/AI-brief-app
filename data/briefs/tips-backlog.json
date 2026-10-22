@@ -3634,8 +3634,8 @@
         "en": "Export interactive apps from Gemini to Google Sites"
       },
       "summary": {
-        "cs": "Google 19. října přidal do appky Gemini export interaktivních aplikací rovnou do Google Sites. Jedním klikem vznikne soukromý koncept webu s funkční appkou, který doplníš obsahem, zveřejníš a nasdílíš jako jiný web — bez kopírování kódu. Funguje na webu, Androidu i iOS.",
-        "en": "On October 19, Google added an export from the Gemini app that sends interactive apps straight to Google Sites. One click creates a private site draft with the app working; add content, publish, and share it like any other site — no code to copy. Live on web, Android, and iOS."
+        "cs": "Google 19. října přidal do appky Gemini export interaktivních aplikací, které ti Gemini vytvoří, rovnou do Google Sites, Googlu nástroje na jednoduché weby. Jedním klikem vznikne soukromý koncept webu s funkční appkou, který doplníš, zveřejníš a nasdílíš — bez kopírování kódu. Funguje na webu, Androidu i iOS.",
+        "en": "On October 19, Google added an option to export interactive apps that Gemini builds for you straight to Google Sites, Google’s simple website builder. One click creates a private site draft with a working app that you can expand, publish, and share — no code to copy. It works on web, Android, and iOS."
       },
       "why": {
         "cs": "U interaktivní appky v Gemini zvol Export > Google Sites. Jde to s osobním účtem Google i ve Workspace; ve firmě jen tehdy, když smíš zakládat weby v Google Sites.",
@@ -3794,17 +3794,21 @@
         "en": "Gemini gets one place for skills and connected apps"
       },
       "summary": {
-        "cs": "Google 21. října oznámil v appce Gemini novou sekci Customize. Na jednom místě v ní nastavíš vlastní dovednosti a preference odpovědí, třeba styl psaní nebo formát, a spravuješ propojení s víc než 40 službami i appkami Googlu. Postupně se zavádí od 13. října na webu, v mobilu i v desktopové appce.",
-        "en": "On October 21, Google announced a new Customize section in the Gemini app. In one place you set custom skills and response preferences, like writing style or format, and manage connections to more than 40 services plus Google apps. It has been rolling out since October 13 on web, mobile, and desktop."
+        "cs": "Google postupně od 13. října zavádí v appce Gemini sekci Přizpůsobit, 21. října ji oznámil. Na jednom místě v ní přidáš dovednosti, tedy uložené pokyny, třeba ať Gemini píše tvým stylem, a spravuješ propojení s víc než 40 službami i appkami Googlu. Do konce října by ji měli mít všichni.",
+        "en": "Google has been rolling out a Customize section in the Gemini app since October 13 and announced it October 21. In one place you add skills, saved instructions such as writing in your style, and manage connections to more than 40 services plus Google apps. Everyone should have it by the end of October."
       },
       "why": {
-        "cs": "V Gemini otevři levé menu a vyber Customize. Funguje ve všech tarifech včetně bezplatného, většina propojených aplikací je ale zatím jen v angličtině v USA, takže v Česku využiješ hlavně dovednosti.",
-        "en": "In Gemini, open the left menu and choose Customize. It works on every plan, including free, but most connected apps are US English–only for now, so in Czechia it’s mostly about skills."
+        "cs": "V Gemini otevři boční panel a vyber Přizpůsobit. Je pro uživatele od 18 let ve všech tarifech, u pracovního účtu musí Gemini povolit správce. Většina propojených aplikací je zatím jen v angličtině v USA.",
+        "en": "In Gemini, open the side panel and choose Customize. It’s for users 18 and older on every plan; on a work account, an admin must enable Gemini. Most connected apps are US English–only for now."
       },
       "sources": [
         {
           "name": "Google",
           "url": "https://workspaceupdates.googleblog.com/2026/10/an-easier-way-to-customize-how-gemini-works-for-you.html"
+        },
+        {
+          "name": "Google",
+          "url": "https://support.google.com/gemini/answer/18736938?hl=cs"
         }
       ],
       "used": "2026-10-22"
@@ -3821,17 +3825,21 @@
         "en": "Claude Security now watches your repos continuously"
       },
       "summary": {
-        "cs": "Anthropic 21. října vydal novou verzi Claude Security pro firemní tarif Enterprise ve veřejné betě. Místo jednorázového skenu teď Claude průběžně kontroluje změny v kódu podle jejich rizika, sleduje, které nalezené chyby už tým opravil, a učí se z popisu prostředí, který mu tým zadá.",
-        "en": "On October 21, Anthropic released a new version of Claude Security in public beta for Claude Enterprise. Instead of one-off scans, Claude now keeps checking code changes based on their risk, tracks which findings the team has fixed, and learns from the environment details the team provides."
+        "cs": "Anthropic 21. října vydal novou verzi Claude Security pro firemní tarif Enterprise, zatím jako veřejnou betu. Místo jednorázového skenu teď Claude průběžně kontroluje změny v úložištích kódu podle jejich rizika, sleduje, které nalezené chyby už tým opravil, a učí se z popisu prostředí, který mu tým zadá.",
+        "en": "On October 21, Anthropic released a new version of Claude Security for Claude Enterprise, still in public beta. Instead of one-off scans, Claude now keeps checking code changes based on their risk, tracks which findings the team has fixed, and learns from the environment details the team provides."
       },
       "why": {
-        "cs": "Pro firmy na Claude Enterprise: v Claude Security založ projekt a připoj repozitáře přes GitHub app nebo token z GitLabu. Firmy dostanou dva měsíce po 25 000 dolarech kreditů měsíčně, nejdéle do konce roku.",
-        "en": "On Claude Enterprise? Create a project in Claude Security and connect repos via the GitHub app or a GitLab token. You get $25,000 in credits monthly for two months, through year-end."
+        "cs": "Jen pro Claude Enterprise: vlastník organizace ho zapne v Organization settings › Claude Security a každý uživatel potřebuje prémiové místo. Do projektu pak připojíš až osm úložišť kódu z GitHubu, GitLabu a dalších.",
+        "en": "Claude Enterprise only: an owner enables it in Organization settings › Claude Security, and each user needs a premium seat. Then connect up to eight repositories from GitHub, GitLab, and others to a project."
       },
       "sources": [
         {
           "name": "Anthropic",
           "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/14661296-use-claude-security"
         }
       ],
       "used": "2026-10-22"

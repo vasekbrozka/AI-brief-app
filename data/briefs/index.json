@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-22T03:26:34Z",
+  "updated": "2026-10-22T03:47:23Z",
   "briefs": [
     {
       "date": "2026-10-22",
       "headline": {
-        "cs": "AI našla kritické chyby v PHP, útočníci je zneužívají",
-        "en": "AI found critical PHP flaws, now under active attack"
+        "cs": "AI pomohla odhalit chyby v PHP, útočníci je zkoušejí",
+        "en": "AI helped expose PHP flaws now under attack"
       },
-      "itemCount": 11
+      "itemCount": 10
     },
     {
       "date": "2026-10-21",
