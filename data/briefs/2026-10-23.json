@@ -1,0 +1,415 @@
+{
+  "date": "2026-10-23",
+  "sample": false,
+  "headline": {
+    "cs": "Canva spustila Craft, vlastní model pro tvorbu obrázků",
+    "en": "Canva launches Craft, its first image generation model"
+  },
+  "items": [
+    {
+      "id": "2026-10-23-canva-craft-image-model",
+      "kind": "news",
+      "category": "models",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-22",
+      "title": {
+        "cs": "Canva spustila Craft, vlastní model pro tvorbu obrázků",
+        "en": "Canva launches Craft, its first image generation model"
+      },
+      "summary": {
+        "cs": "Canva 22. října spustila Canva Craft, svůj první model pro tvorbu obrázků. Z textového zadání nejdřív naplánuje rozvržení, měřítko a texty a teprve pak obrázek vykreslí, až ve 2K a ve více než 30 poměrech stran. Natrénovala ho na šablonách z vlastní knihovny a nabízí ho všem uživatelům.",
+        "en": "On October 22, Canva launched Canva Craft, its first image generation model. It first plans the layout, scale, and text from your prompt, then renders the image at up to 2K in more than 30 aspect ratios. Canva trained it on templates from its own library and offers it to all users."
+      },
+      "why": {
+        "cs": "Canvu používáš? Craft najdeš v nabídce pod třemi tečkami vlevo, v části Dream Lab. Podle žebříčku Design Arena je zatím čtvrtý, za třemi modely OpenAI; Canva chystá i rychlejší verze Craftfast a Craft-ultrafast.",
+        "en": "Use Canva? Find Craft under the left-hand three-dot menu, in Dream Lab. It ranks fourth on the Design Arena leaderboard for now, behind three OpenAI models; faster Craftfast and Craft-ultrafast versions are coming."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-1password-for-agents",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-22",
+      "title": {
+        "cs": "1Password přihlásí AI agenta, aniž by viděl heslo",
+        "en": "1Password signs AI agents in without exposing passwords"
+      },
+      "summary": {
+        "cs": "1Password 22. října spustil 1Password for Agents. Když AI agent narazí na přihlášení, požádá o údaje; ty potvrdíš na svém zařízení a 1Password je vyplní do formuláře sám, takže je agent nikdy nevidí. Zatím se zapíná v Muse a Grok Botu, Claude Duet a ChatGPT Work s dots mají brzy přibýt.",
+        "en": "On October 22, 1Password launched 1Password for Agents. When an AI agent reaches a sign-in, it requests a credential; you approve on your own device and 1Password fills the form itself, so the agent never sees it. Muse and Grok Bot are first, with Claude Duet and ChatGPT Work and dots coming soon."
+      },
+      "why": {
+        "cs": "Bez příplatku pro účty 1Password Individual a Family na 1Password.com; účty na 1Password.eu a .ca zatím nejsou podporované. Schválené přihlášení neřeší, co agent na webu udělá dál, to dál kontroluj.",
+        "en": "No extra cost for 1Password Individual and Family accounts on 1Password.com; accounts on 1Password.eu and .ca aren’t supported yet. An approved sign-in doesn’t govern what the agent does next, so keep checking its work."
+      },
+      "sources": [
+        {
+          "name": "1Password",
+          "url": "https://1password.com/blog/1password-for-ai-agents"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/22/1password-will-let-ai-agents-use-your-passwords-without-seeing-them/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-microsoft-diagnostic-orchestrator-science",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-10-22",
+      "title": {
+        "cs": "Microsoftova AI ve studii předčila praktické lékaře v diagnóze",
+        "en": "Microsoft’s diagnostic AI beat generalist doctors in a study"
+      },
+      "summary": {
+        "cs": "Microsoft 22. října zveřejnil v časopise Science studii svého systému Diagnostic Orchestrator, ve kterém tým AI agentů postupuje jako panel lékařů. Na složitých případech z New England Journal of Medicine uspěl v 83 %, praktičtí lékaři s odbornou literaturou ve 36 %. Testovaly se jen dřívější případy, ne skuteční pacienti.",
+        "en": "On October 22, Microsoft published a study in Science on its Diagnostic Orchestrator, where a team of AI agents works like a panel of doctors. On complex New England Journal of Medicine cases it got 83% right, versus 36% for generalist doctors with reference materials. It was tested only on past cases, not real patients."
+      },
+      "why": {
+        "cs": "Je to výzkum, ne produkt: Microsoft chce systém v nejbližších měsících vyzkoušet v nemocnici. Podle TechCrunch pochází velká část zlepšení ze silnějších modelů, orchestrace agentů přidává jen něco navíc.",
+        "en": "It’s research, not a product: Microsoft plans hospital testing in the coming months. TechCrunch says much of the gain comes from the stronger models underneath; agent orchestration adds only some on top."
+      },
+      "sources": [
+        {
+          "name": "Microsoft AI",
+          "url": "https://microsoft.ai/news/building-medical-superintelligence/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-radical-numerics-ai-designed-phages",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-10-20",
+      "title": {
+        "cs": "Pacient poprvé dostal viry navržené AI, tvrdí firma",
+        "en": "First patient treated with AI-designed viruses, firm says"
+      },
+      "summary": {
+        "cs": "Americká firma Radical Numerics 20. října oznámila, že její model Omnii-1 navrhl bakteriofágy, tedy viry napadající jen bakterie, a že je ve výjimečném léčebném režimu dostal pacient s infekcí odolnou vůči antibiotikům. V laboratoři směs bakterie pacienta zničila. Jak léčba dopadla, firma kvůli soukromí neuvádí.",
+        "en": "On October 20, US firm Radical Numerics said its Omnii-1 model designed bacteriophages, viruses that attack only bacteria, and that a patient with an antibiotic-resistant infection received them under compassionate use. In the lab the mix wiped out the patient’s bacteria. The firm won’t disclose how the treatment went."
+      },
+      "why": {
+        "cs": "Zatím je to tvrzení samotné firmy a bez výsledků léčby nejde posoudit, zda to funguje. Fágy míří na bakterie, na které antibiotika přestávají zabírat.",
+        "en": "For now it’s the firm’s own claim, and without treatment results there’s no telling whether it works. Phages target bacteria that antibiotics no longer stop."
+      },
+      "sources": [
+        {
+          "name": "Radical Numerics",
+          "url": "https://www.radicalnumerics.ai/blog/omnii-phage"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/science/2026/10/22/human-receives-ai-designed-virus-for-the-first-time/5304874"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-anthropic-agent-skills-donated",
+      "kind": "news",
+      "category": "opensource",
+      "verified": true,
+      "eventDate": "2026-10-22",
+      "title": {
+        "cs": "Anthropic předal standard Agent Skills neutrální nadaci",
+        "en": "Anthropic donates Agent Skills to a neutral foundation"
+      },
+      "summary": {
+        "cs": "Anthropic 22. října předal otevřený standard Agent Skills nadaci Agentic AI Foundation při Linux Foundation. Skill je složka s pokyny a skripty, která učí AI agenta konkrétní úkol. Podle firmy standard používá přes 70 platforem včetně ChatGPT, Cursoru a GitHub Copilota a vzniklo už okolo milionu skillů.",
+        "en": "On October 22, Anthropic donated the open Agent Skills standard to the Agentic AI Foundation under the Linux Foundation. A skill is a folder of instructions and scripts that teaches an AI agent a specific task. Anthropic says over 70 platforms, including ChatGPT, Cursor, and GitHub Copilot, use it, and about a million skills exist."
+      },
+      "why": {
+        "cs": "Skill napsaný pro jednoho agenta má fungovat i u dalších a standard už nepatří jedné firmě: spravovat ho budou jednotlivci z Anthropicu, Googlu, OpenAI a dalších firem.",
+        "en": "A skill written for one agent should work in others, and the standard no longer belongs to one company: individuals from Anthropic, Google, OpenAI, and others will maintain it."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-bottlecap-thinkingcap-nemotron",
+      "kind": "news",
+      "category": "opensource",
+      "verified": true,
+      "eventDate": "2026-10-22",
+      "title": {
+        "cs": "Český BottleCap AI upravil Nemotron, myslí stručněji",
+        "en": "Czech BottleCap AI tunes Nemotron to think more briefly"
+      },
+      "summary": {
+        "cs": "Podle Lupy z 22. října upravil startup BottleCap AI Tomáše Mikolova a Jaroslava Becka model NVIDIA Nemotron-3.5-Lightning-30B-A3B. Verze ThinkingCap spotřebuje při přemýšlení průměrně o 23 % méně tokenů (12–31 % podle testu), přesnost klesla z 72,2 na 71,4 %. Čísla uvádí sám startup; model je zdarma na Hugging Face.",
+        "en": "Per Lupa on October 22, startup BottleCap AI, run by Tomáš Mikolov and Jaroslav Beck, tuned NVIDIA’s Nemotron-3.5-Lightning-30B-A3B. Its ThinkingCap version uses 23% fewer reasoning tokens on average (12–31% depending on the test), while accuracy slips from 72.2% to 71.4%. The numbers come from the startup; the model is free on Hugging Face."
+      },
+      "why": {
+        "cs": "Kratší úvahy znamenají rychlejší odpovědi a víc úloh najednou na stejném serveru. Model je velký: 4bitová verze má asi 25 GB, na běžný notebook tedy nestačí.",
+        "en": "Shorter reasoning means faster answers and more tasks at once on the same server. The model is big: the 4-bit build is about 25 GB, so an ordinary laptop won’t cope."
+      },
+      "sources": [
+        {
+          "name": "Lupa",
+          "url": "https://www.lupa.cz/aktuality/cesi-vylepsili-umelou-inteligenci-od-nvidie-je-mene-zrava-a-zdarma-pro-vsechny/"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/bottlecapai/ThinkingCap-NVIDIA-Nemotron-3.5-Lightning-30B-A3B"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-tip-gemini-notebook-study-tools",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-16",
+      "title": {
+        "cs": "Gemini Notebook z tvých poznámek udělá video i kvíz",
+        "en": "Gemini Notebook turns your notes into videos and quizzes"
+      },
+      "summary": {
+        "cs": "Google 16. října upozornil na tři studijní novinky v Gemini Notebooku: 60sekundové krátké video k těžkému pojmu, interaktivní přehled učiva v sekci Reports, který spojí shrnutí, kvízy a kartičky, a nové typy otázek — krátkou odpověď, výběr více možností a doplňování.",
+        "en": "On October 16, Google highlighted three study features in Gemini Notebook: a 60-second short video for a tricky concept, an interactive learning overview under Reports that ties together summaries, quizzes, and flashcards, and new question types — short answer, multi-select, and fill in the blank."
+      },
+      "why": {
+        "cs": "Nahraj skripta nebo poznámky, v Reports vytvoř interaktivní přehled učiva a nech se vyzkoušet. Chatu pak řekni, kde jsi chyboval, a poradí, co procvičit. Notebook podporuje přes 80 jazyků.",
+        "en": "Upload your course material or notes, create an interactive learning overview under Reports, and get quizzed. Then tell the chat where you slipped and it will suggest what to practice. The notebook supports 80+ languages."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/"
+        },
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-tip-gemini-small-business-tools",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-20",
+      "title": {
+        "cs": "Gemini má novou stránku a nástroje pro malé firmy",
+        "en": "Gemini adds a hub and tools for small businesses"
+      },
+      "summary": {
+        "cs": "Google 20. října spustil v Gemini stránku pro malé podnikatele: na jednom místě s ní vytvoříš značkové vizuály podle vlastního stylu, převedeš účtenky a tabulky do přehledných grafů a propojíš Gemini s Google Business Profile, Ads, Canvou, Shopify či Xero. Nasazuje se celosvětově všem uživatelům.",
+        "en": "On October 20, Google launched a Gemini page for small business owners: one place to create on-brand visuals in your own style, turn receipts and spreadsheets into clear charts, and connect Gemini to Google Business Profile, Ads, Canva, Shopify, or Xero. It’s rolling out globally to all users."
+      },
+      "why": {
+        "cs": "Podnikáš? Až se stránka v Gemini objeví, nahraj web, brand kit nebo barvy a Gemini podle nich udrží jednotný styl vizuálů. Většina propojených aplikací je zatím jen v angličtině v USA.",
+        "en": "Run a business? Once the page shows up in Gemini, upload your website, brand kit, or colors and Gemini keeps your visuals consistent. Most connected apps are US English–only for now."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/"
+        },
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/an-easier-way-to-customize-how-gemini-works-for-you.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-tip-microsoft-copilot-carplay",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Microsoft Copilot se v autě ovládá hlasem přes CarPlay",
+        "en": "Microsoft Copilot now works hands-free in Apple CarPlay"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že appka Microsoft Copilot pro iPhone podporuje Apple CarPlay. V autě s Copilotem hlasem získáš rychlé odpovědi, připravíš se na schůzky, probereš e-maily a zprávy nebo vymýšlíš nápady. Novinka vyšla mezi 26. srpnem a 22. zářím.",
+        "en": "In its September 23 release notes, Microsoft says the Microsoft Copilot app for iPhone supports Apple CarPlay. In the car you can use voice to get quick answers, prepare for meetings, catch up on emails and messages, or brainstorm. The feature shipped between August 26 and September 22."
+      },
+      "why": {
+        "cs": "Potřebuješ iPhone s iOS 26.4 či novějším, nejnovější appku Copilot, auto s CarPlay a hlas v Copilotu. Na displeji vyber Microsoft Copilot, nebo řekni „Hey Siri, ask Copilot“.",
+        "en": "You need an iPhone on iOS 26.4 or later, the latest Copilot app, a CarPlay car, and voice in Copilot. Pick Microsoft Copilot on the display, or say ‘Hey Siri, ask Copilot’."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        },
+        {
+          "name": "Microsoft",
+          "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/voice-apple-carplay"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-tip-copilot-visual-studio-nuget-fix",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-22",
+      "title": {
+        "cs": "Copilot ve Visual Studiu opraví zranitelné balíčky NuGet",
+        "en": "Copilot in Visual Studio can fix vulnerable NuGet packages"
+      },
+      "summary": {
+        "cs": "GitHub 22. října shrnul zářijové novinky Copilota ve Visual Studiu 2026. Upozornění NuGet Audit v seznamu chyb teď nabízí akci, která otevře Copilot Chat v režimu agenta a nechá ho opravit zranitelné balíčky. Přibyl i Git agent, který shrne pull request s odkazy na komentáře a soubory.",
+        "en": "On October 22, GitHub rounded up September’s Copilot news for Visual Studio 2026. NuGet Audit warnings in the Error List now offer an action that opens Copilot Chat in agent mode to fix the vulnerable packages. A new Git agent also summarizes a pull request with links to its comments and files."
+      },
+      "why": {
+        "cs": "Přihlas se v aplikaci ke Copilotu a v nabídce nástrojů Copilot Chatu zapni NuGet MCP server. Funguje ve všech tarifech Copilota včetně Free.",
+        "en": "Sign in to Copilot in the app and enable the NuGet MCP server from the Copilot Chat tools menu. It works on every Copilot plan, Free included."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-24",
+      "title": {
+        "cs": "Perplexity vyřadí staré modely z Agent a Orchestrator API",
+        "en": "Perplexity retires old models from Agent and Orchestrator API"
+      },
+      "note": {
+        "cs": "Od 24. října o půlnoci UTC (u nás ve 2:00) Perplexity vyřadí z Agent API a Orchestrator API starší modely OpenAI řady GPT-5 — vývojáři musí přejít na náhradu předem.",
+        "en": "On October 24 at midnight UTC (2 a.m. CEST), Perplexity retires older OpenAI GPT-5 models from its Agent and Orchestrator API — developers need to switch to a replacement beforehand."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://docs.perplexity.ai/docs/resources/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-10-28",
+      "title": {
+        "cs": "GitHub Universe se vrací do San Francisca",
+        "en": "GitHub Universe returns to San Francisco"
+      },
+      "note": {
+        "cs": "Vlajková konference GitHubu pro vývojáře probíhá 28.–29. října ve Fort Mason Center a jde ji sledovat i online — zaměří se na vývoj softwaru s pomocí AI agentů.",
+        "en": "GitHub’s flagship developer conference runs October 28-29 at Fort Mason Center and online — the theme this year is building software with AI agents."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro žádosti o AI gigatovárny EU",
+        "en": "Deadline closes for EU AI gigafactory bids"
+      },
+      "note": {
+        "cs": "Do 12. listopadu běží soutěž o až sedm AI gigatováren EU, jež mají přilákat přes 30 miliard eur. Česko s dalšími 17 státy od nich bude společně nakupovat výpočetní čas.",
+        "en": "Bids for up to seven EU AI gigafactories, expected to draw over €30 billion, close November 12. Czechia is among 18 states that will jointly buy compute time from them."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "GitHub vyřadí z Copilota tři modely",
+        "en": "GitHub retires three models from Copilot"
+      },
+      "note": {
+        "cs": "16. listopadu GitHub vyřadí z Copilota Claude Opus 4.8, Opus 5 a GPT-5.6 Terra (náhrady: Opus 5.5, GPT-6.1 Sol či GPT-6 Luna). Jednotlivcům s ročním předplatným Opus 4.8 zůstane.",
+        "en": "On November 16, Copilot drops Claude Opus 4.8, Opus 5, and GPT-5.6 Terra (replacements: Opus 5.5, GPT-6.1 Sol or GPT-6 Luna). Individual annual subscribers keep Opus 4.8."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská vládní agentura má odevzdat doporučení k bezpečnosti AI",
+        "en": "California agency due to deliver AI safety recommendations"
+      },
+      "note": {
+        "cs": "Do 16. listopadu má agentura Government Operations s experty poslat guvernérovi doporučení, zda a jak změnit zákony o AI — mimo jiné kvůli auditorům v laboratořích a záchrannému vypínání modelů.",
+        "en": "By November 16, California’s Government Operations Agency, with experts, must send the governor recommendations on changing AI laws — including on-site lab auditors and a kill switch for frontier models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf"
+        },
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "Microsoft Ignite se koná 17. až 20. listopadu",
+        "en": "Microsoft Ignite runs November 17–20"
+      },
+      "note": {
+        "cs": "Konference Microsoftu přinese keynoty, technická sezení a workshopy o Copilotu, AI agentech, zabezpečení a Windows.",
+        "en": "Microsoft’s conference brings keynotes, technical sessions, and hands-on labs on Copilot, AI agents, security, and Windows."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://ignite.microsoft.com/"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

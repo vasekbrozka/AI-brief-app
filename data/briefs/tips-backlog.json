@@ -1,32 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-claude-cowork-web-mobile",
-      "category": "tools",
-      "theme": "claude",
-      "verified": true,
-      "title": {
-        "cs": "Claude Cowork běží nově i na webu a mobilu",
-        "en": "Claude Cowork now runs on web and mobile"
-      },
-      "summary": {
-        "cs": "Claude Cowork — režim pro delší samostatnou práci — běží nově i na webu a mobilu, nejen na desktopu. Sezení a soubory se ukládají do účtu, takže práce pokračuje i po zavření notebooku a naplánované úlohy běží bez zapnutého zařízení.",
-        "en": "Claude Cowork — the mode for longer autonomous work — now runs on web and mobile, not just desktop. Sessions and files are saved to your account, so work continues after you close your laptop and scheduled tasks run with no device online."
-      },
-      "sources": [
-        {
-          "name": "Claude Blog",
-          "url": "https://claude.com/blog/cowork-web-mobile"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/"
-        }
-      ],
-      "added": "2026-07-16",
-      "used": "2026-07-24"
-    },
-    {
       "slug": "tip-gemini-live-translate",
       "category": "tools",
       "theme": "gemini",
@@ -77,58 +51,6 @@
       ],
       "added": "2026-07-16",
       "used": "2026-07-25"
-    },
-    {
-      "slug": "tip-copilot-ppt-brand-kit",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": true,
-      "title": {
-        "cs": "PowerPoint Copilot umí firemní Brand Kit",
-        "en": "PowerPoint Copilot gets a Brand Kit Picker"
-      },
-      "summary": {
-        "cs": "Copilot v PowerPointu dostal Brand Kit Picker — při tvorbě prezentace vybereš schválený firemní brand kit a deck rovnou vznikne se správnými barvami, fonty a stylem. Microsoft to nasadil v červnu.",
-        "en": "Copilot in PowerPoint added a Brand Kit Picker — pick your organization's approved brand kit and the deck starts with the right colors, fonts, and style. Microsoft rolled it out in June."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        },
-        {
-          "name": "Microsoft 365 Copilot Blog",
-          "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572"
-        }
-      ],
-      "added": "2026-07-16",
-      "used": "2026-07-24"
-    },
-    {
-      "slug": "tip-gemini-flash-36",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": true,
-      "title": {
-        "cs": "Gemini 3.6 Flash je levnější a spotřebuje míň tokenů",
-        "en": "Gemini 3.6 Flash is cheaper and uses fewer tokens"
-      },
-      "summary": {
-        "cs": "Google vydal Gemini 3.6 Flash, svůj model na běžnou práci — je lepší v kódu, znalostech i práci s obrázky a spotřebuje až o 17 % míň tokenů než předchůdce, takže je levnější. Vyšel 21. července spolu s levnějšími variantami Flash-Lite a Flash Cyber.",
-        "en": "Google released Gemini 3.6 Flash, its workhorse model — better at coding, knowledge, and images while using up to 17% fewer tokens than its predecessor, so it costs less. It launched on July 21 alongside cheaper Flash-Lite and Flash Cyber variants."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/"
-        }
-      ],
-      "added": "2026-07-23",
-      "used": "2026-07-24"
     },
     {
       "slug": "tip-chatgpt-shared-projects",
@@ -3859,16 +3781,163 @@
         "en": "On October 20, Google launched a Gemini page for small business owners: one place to create on-brand visuals in your own style, turn receipts and spreadsheets into clear charts, and connect Gemini to Google Business Profile, Ads, Canva, Shopify, or Xero. It’s rolling out globally to all users."
       },
       "why": {
-        "cs": "Podnikáš? Až se ti stránka v Gemini objeví, nahraj web, brand kit nebo barvy a Gemini podle nich udrží jednotný styl vizuálů. Funguje pro všechny uživatele appky.",
-        "en": "Run a business? Once the page shows up in Gemini, upload your website, brand kit, or colors and Gemini keeps your visuals consistent. It’s for all Gemini app users."
+        "cs": "Podnikáš? Až se stránka v Gemini objeví, nahraj web, brand kit nebo barvy a Gemini podle nich udrží jednotný styl vizuálů. Většina propojených aplikací je zatím jen v angličtině v USA.",
+        "en": "Run a business? Once the page shows up in Gemini, upload your website, brand kit, or colors and Gemini keeps your visuals consistent. Most connected apps are US English–only for now."
       },
       "sources": [
         {
           "name": "Google",
           "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/"
+        },
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/an-easier-way-to-customize-how-gemini-works-for-you.html"
         }
       ],
       "added": "2026-10-22",
+      "used": "2026-10-23"
+    },
+    {
+      "slug": "tip-gemini-notebook-study-tools",
+      "category": "tools",
+      "theme": "notebooklm",
+      "added": "2026-10-23",
+      "verified": true,
+      "eventDate": "2026-10-16",
+      "title": {
+        "cs": "Gemini Notebook z tvých poznámek udělá video i kvíz",
+        "en": "Gemini Notebook turns your notes into videos and quizzes"
+      },
+      "summary": {
+        "cs": "Google 16. října upozornil na tři studijní novinky v Gemini Notebooku: 60sekundové krátké video k těžkému pojmu, interaktivní přehled učiva v sekci Reports, který spojí shrnutí, kvízy a kartičky, a nové typy otázek — krátkou odpověď, výběr více možností a doplňování.",
+        "en": "On October 16, Google highlighted three study features in Gemini Notebook: a 60-second short video for a tricky concept, an interactive learning overview under Reports that ties together summaries, quizzes, and flashcards, and new question types — short answer, multi-select, and fill in the blank."
+      },
+      "why": {
+        "cs": "Nahraj skripta nebo poznámky, v Reports vytvoř interaktivní přehled učiva a nech se vyzkoušet. Chatu pak řekni, kde jsi chyboval, a poradí, co procvičit. Notebook podporuje přes 80 jazyků.",
+        "en": "Upload your course material or notes, create an interactive learning overview under Reports, and get quizzed. Then tell the chat where you slipped and it will suggest what to practice. The notebook supports 80+ languages."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/"
+        },
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/"
+        }
+      ],
+      "used": "2026-10-23"
+    },
+    {
+      "slug": "tip-microsoft-copilot-carplay",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-10-23",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Microsoft Copilot se v autě ovládá hlasem přes CarPlay",
+        "en": "Microsoft Copilot now works hands-free in Apple CarPlay"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že appka Microsoft Copilot pro iPhone podporuje Apple CarPlay. V autě s Copilotem hlasem získáš rychlé odpovědi, připravíš se na schůzky, probereš e-maily a zprávy nebo vymýšlíš nápady. Novinka vyšla mezi 26. srpnem a 22. zářím.",
+        "en": "In its September 23 release notes, Microsoft says the Microsoft Copilot app for iPhone supports Apple CarPlay. In the car you can use voice to get quick answers, prepare for meetings, catch up on emails and messages, or brainstorm. The feature shipped between August 26 and September 22."
+      },
+      "why": {
+        "cs": "Potřebuješ iPhone s iOS 26.4 či novějším, nejnovější appku Copilot, auto s CarPlay a hlas v Copilotu. Na displeji vyber Microsoft Copilot, nebo řekni „Hey Siri, ask Copilot“.",
+        "en": "You need an iPhone on iOS 26.4 or later, the latest Copilot app, a CarPlay car, and voice in Copilot. Pick Microsoft Copilot on the display, or say ‘Hey Siri, ask Copilot’."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        },
+        {
+          "name": "Microsoft",
+          "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/voice-apple-carplay"
+        }
+      ],
+      "used": "2026-10-23"
+    },
+    {
+      "slug": "tip-copilot-visual-studio-nuget-fix",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-10-23",
+      "verified": true,
+      "eventDate": "2026-10-22",
+      "title": {
+        "cs": "Copilot ve Visual Studiu opraví zranitelné balíčky NuGet",
+        "en": "Copilot in Visual Studio can fix vulnerable NuGet packages"
+      },
+      "summary": {
+        "cs": "GitHub 22. října shrnul zářijové novinky Copilota ve Visual Studiu 2026. Upozornění NuGet Audit v seznamu chyb teď nabízí akci, která otevře Copilot Chat v režimu agenta a nechá ho opravit zranitelné balíčky. Přibyl i Git agent, který shrne pull request s odkazy na komentáře a soubory.",
+        "en": "On October 22, GitHub rounded up September’s Copilot news for Visual Studio 2026. NuGet Audit warnings in the Error List now offer an action that opens Copilot Chat in agent mode to fix the vulnerable packages. A new Git agent also summarizes a pull request with links to its comments and files."
+      },
+      "why": {
+        "cs": "Přihlas se v aplikaci ke Copilotu a v nabídce nástrojů Copilot Chatu zapni NuGet MCP server. Funguje ve všech tarifech Copilota včetně Free.",
+        "en": "Sign in to Copilot in the app and enable the NuGet MCP server from the Copilot Chat tools menu. It works on every Copilot plan, Free included."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2"
+        }
+      ],
+      "used": "2026-10-23"
+    },
+    {
+      "slug": "tip-m365-copilot-vision",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Copilot v Microsoft 365 umí rozumět obrazovce i kameře",
+        "en": "Microsoft 365 Copilot can read your screen and camera"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že Vision v Microsoft 365 Copilotu umí analyzovat sdílenou plochu počítače i živý obraz z kamery telefonu. Na mobilu při hlasové relaci namíříš kameru na předmět nebo dokument a Copilot odpoví hlasem podle pracovních i webových dat. Novinka vyšla mezi 26. srpnem a 22. zářím.",
+        "en": "In its September 23 release notes, Microsoft says Vision in Microsoft 365 Copilot can analyze a shared computer screen and the live feed from your phone camera. On mobile during a voice session you point the camera at an object or document and Copilot answers aloud using work and web data. The feature shipped between August 26 and September 22."
+      },
+      "why": {
+        "cs": "Potřebuješ licenci Microsoft 365 Copilot. V Copilotu sdílej obrazovku počítače, nebo na mobilu zahaj hlasovou relaci, zapni kameru a ptej se na to, co vidíš. Platí pro Android, Windows, iOS a web.",
+        "en": "You need a Microsoft 365 Copilot license. In Copilot, share your computer screen, or start a voice session on mobile, turn on the camera, and ask about what you see. It covers Android, Windows, iOS, and the web."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "added": "2026-10-23",
+      "used": null
+    },
+    {
+      "slug": "tip-perplexity-ultrafast-computer",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": true,
+      "eventDate": "2026-10-19",
+      "title": {
+        "cs": "Perplexity Computer zrychlí odpovědi režimem Ultrafast",
+        "en": "Perplexity Computer answers faster in Ultrafast mode"
+      },
+      "summary": {
+        "cs": "Perplexity 19. října přidalo do Computeru na webu režim Ultrafast pro modely GPT-6 Astra a GPT-6.1 Sol. Dává přednost rychlosti odpovědí, spotřebuje ale víc kreditů než běžný nebo rychlý režim a je jen pro předplatitele Max.",
+        "en": "On October 19, Perplexity added an Ultrafast mode to Computer on the web for GPT-6 Astra and GPT-6.1 Sol. It prioritizes response speed but uses more credits than Normal or Fast, and it is for Max subscribers only."
+      },
+      "why": {
+        "cs": "Zapneš ho v Computeru pod Custom › Speed. Hodí se na porovnání možností, úpravu konceptu nebo hledání chyby v kódu, počítej ale s vyšší spotřebou kreditů.",
+        "en": "Turn it on in Computer under Custom › Speed. It suits comparing options, refining a draft, or hunting a bug in code, but expect higher credit use."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog/ultrafast-computer-models-decisions-api-and-connector-controls"
+        }
+      ],
+      "added": "2026-10-23",
       "used": null
     }
   ]

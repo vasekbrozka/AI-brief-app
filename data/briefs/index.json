@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-22T03:47:23Z",
+  "updated": "2026-10-23T03:23:36Z",
   "briefs": [
+    {
+      "date": "2026-10-23",
+      "headline": {
+        "cs": "Canva spustila Craft, vlastní model pro tvorbu obrázků",
+        "en": "Canva launches Craft, its first image generation model"
+      },
+      "itemCount": 10
+    },
     {
       "date": "2026-10-22",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Google omezil zdarma přístup k modelům Gemini",
         "en": "Google cuts free access to Gemini models"
-      },
-      "itemCount": 6
-    },
-    {
-      "date": "2026-10-09",
-      "headline": {
-        "cs": "Anthropic spustil dlouhodobou misi na obranu kritické infrastruktury",
-        "en": "Anthropic launches long-term mission to defend critical infrastructure"
       },
       "itemCount": 6
     }

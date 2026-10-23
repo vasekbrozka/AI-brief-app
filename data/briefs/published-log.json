@@ -656,21 +656,6 @@
       "topic": "tip: xAI spustilo Grok Bota — AI kolegy na sdíleném trvalém cloudovém počítači (11. 8.)"
     },
     {
-      "slug": "2026-08-23-openai-sb53-strengthen",
-      "date": "2026-08-23",
-      "topic": "OpenAI vyzvalo Kalifornii ke zpřísnění SB 53 (monitoring modelů při tréninku/testech, silnější kyberochrana) — dřív přitom Newsoma od podpisu odrazovalo"
-    },
-    {
-      "slug": "2026-08-23-frontier-labs-rogue-model-containment",
-      "date": "2026-08-23",
-      "topic": "studie Guidelight AI Standards: OpenAI nejlépe, Anthropic a Meta nejhůř zveřejňují plán pro nezvladatelný model (u Mety žádný nenalezen)"
-    },
-    {
-      "slug": "2026-08-23-tip-claude-cowork-chrome-panel",
-      "date": "2026-08-23",
-      "topic": "tip: postranní panel Claude v Chromu je od 12. 8. plnohodnotná Cowork session (Max/Team, Pro se rozjíždí)"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -1734,7 +1719,57 @@
       "slug": "2026-10-22-tip-claude-security-continuous-scanning",
       "date": "2026-10-22",
       "topic": "tip: Claude Security průběžně hlídá repozitáře (Enterprise, beta)"
+    },
+    {
+      "slug": "2026-10-23-canva-craft-image-model",
+      "date": "2026-10-23",
+      "topic": "Canva spustila Canva Craft, vlastní model pro tvorbu obrázků (Dream Lab, všem uživatelům)"
+    },
+    {
+      "slug": "2026-10-23-1password-for-agents",
+      "date": "2026-10-23",
+      "topic": "1Password for Agents: AI agent se přihlásí bez toho, aby viděl heslo (Muse a Grok Bot nejdřív)"
+    },
+    {
+      "slug": "2026-10-23-microsoft-diagnostic-orchestrator-science",
+      "date": "2026-10-23",
+      "topic": "Microsoft: Diagnostic Orchestrator ve studii v Science (83 % vs. 36 % u praktických lékařů, jen dřívější případy)"
+    },
+    {
+      "slug": "2026-10-23-radical-numerics-ai-designed-phages",
+      "date": "2026-10-23",
+      "topic": "Radical Numerics: pacient poprvé dostal bakteriofágy navržené AI (Omnii-1), výsledek neznámý"
+    },
+    {
+      "slug": "2026-10-23-anthropic-agent-skills-donated",
+      "date": "2026-10-23",
+      "topic": "Anthropic předal standard Agent Skills nadaci Agentic AI Foundation"
+    },
+    {
+      "slug": "2026-10-23-bottlecap-thinkingcap-nemotron",
+      "date": "2026-10-23",
+      "topic": "BottleCap AI (Mikolov, Beck) upravil Nemotron: ThinkingCap myslí stručněji, zdarma na Hugging Face"
+    },
+    {
+      "slug": "2026-10-23-tip-gemini-notebook-study-tools",
+      "date": "2026-10-23",
+      "topic": "tip: Gemini Notebook — krátká videa, interaktivní přehled učiva a nové typy kvízů"
+    },
+    {
+      "slug": "2026-10-23-tip-gemini-small-business-tools",
+      "date": "2026-10-23",
+      "topic": "tip: stránka a nástroje Gemini pro malé firmy"
+    },
+    {
+      "slug": "2026-10-23-tip-microsoft-copilot-carplay",
+      "date": "2026-10-23",
+      "topic": "tip: Microsoft Copilot hlasem v Apple CarPlay"
+    },
+    {
+      "slug": "2026-10-23-tip-copilot-visual-studio-nuget-fix",
+      "date": "2026-10-23",
+      "topic": "tip: Copilot ve Visual Studiu opraví zranitelné balíčky NuGet"
     }
   ],
-  "updated": "2026-10-22T03:47:23Z"
+  "updated": "2026-10-23T03:23:36Z"
 }

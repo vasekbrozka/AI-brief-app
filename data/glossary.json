@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "terms": [
     {
       "id": "quantization",
@@ -575,6 +575,63 @@
       "short": {
         "cs": "Programovací jazyk, ve kterém běží velká část webů včetně WordPressu. Server v něm sestaví stránku dřív, než ji pošle do prohlížeče.",
         "en": "A programming language that powers much of the web, including WordPress. The server uses it to build a page before sending it to your browser."
+      }
+    },
+    {
+      "id": "agent-skill",
+      "term": {
+        "cs": "Skill (dovednost agenta)",
+        "en": "Agent skill"
+      },
+      "aliases": [
+        "Agent Skills",
+        "skill",
+        "skills",
+        "skilly",
+        "skillů",
+        "skillu"
+      ],
+      "short": {
+        "cs": "Složka s pokyny a skripty, která AI agentovi vysvětlí konkrétní úkol nebo postup. Agent si ji načte, až ji potřebuje — třeba „piš v mém stylu“ nebo „sestav měsíční report“.",
+        "en": "A folder of instructions and scripts that teaches an AI agent a specific task or workflow. The agent loads it when needed — say, ‘write in my style’ or ‘build the monthly report’."
+      }
+    },
+    {
+      "id": "bacteriophage",
+      "term": {
+        "cs": "Bakteriofág (fág)",
+        "en": "Bacteriophage (phage)"
+      },
+      "aliases": [
+        "bakteriofág",
+        "bakteriofágy",
+        "bakteriofágů",
+        "fág",
+        "fágy",
+        "fágů",
+        "bacteriophage",
+        "bacteriophages",
+        "phage",
+        "phages"
+      ],
+      "short": {
+        "cs": "Virus, který napadá jen bakterie a ničí je, lidské buňky ne. Zkoumá se jako doplněk či náhrada antibiotik tam, kde na bakterie přestávají zabírat.",
+        "en": "A virus that infects and kills only bacteria, not human cells. Researchers study phages as a complement or substitute for antibiotics when bacteria resist them."
+      }
+    },
+    {
+      "id": "mcp",
+      "term": {
+        "cs": "MCP (Model Context Protocol)",
+        "en": "MCP (Model Context Protocol)"
+      },
+      "aliases": [
+        "MCP",
+        "Model Context Protocol"
+      ],
+      "short": {
+        "cs": "Otevřený standard, kterým se AI agenti jednotně připojují k nástrojům a datům — k e-mailu, kalendáři či databázi. Něco jako univerzální zásuvka pro AI.",
+        "en": "An open standard that lets AI agents connect to tools and data — email, calendars, databases — in one uniform way. A bit like a universal socket for AI."
       }
     }
   ]
