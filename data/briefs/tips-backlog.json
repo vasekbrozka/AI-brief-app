@@ -3773,25 +3773,21 @@
       "verified": true,
       "eventDate": "2026-10-20",
       "title": {
-        "cs": "Gemini má novou stránku a nástroje pro malé firmy",
-        "en": "Gemini adds a hub and tools for small businesses"
+        "cs": "Gemini zavádí stránku a nástroje pro malé firmy",
+        "en": "Gemini rolls out hub and tools for small businesses"
       },
       "summary": {
-        "cs": "Google 20. října spustil v Gemini stránku pro malé podnikatele: na jednom místě s ní vytvoříš značkové vizuály podle vlastního stylu, převedeš účtenky a tabulky do přehledných grafů a propojíš Gemini s Google Business Profile, Ads, Canvou, Shopify či Xero. Nasazuje se celosvětově všem uživatelům.",
-        "en": "On October 20, Google launched a Gemini page for small business owners: one place to create on-brand visuals in your own style, turn receipts and spreadsheets into clear charts, and connect Gemini to Google Business Profile, Ads, Canva, Shopify, or Xero. It’s rolling out globally to all users."
+        "cs": "Google 20. října oznámil pro Gemini novou stránku pro majitele malých firem. Nahraješ web, grafický manuál, písma či barvy a Gemini podle nich vytvoří jednotné vizuály; z účtenek a tabulek udělá přehledné grafy a propojí se s Google Business Profile, Ads, Canvou či Shopify. Zavádí se postupně v příštích dnech pro všechny uživatele aplikace.",
+        "en": "On October 20, Google announced a Gemini page for small business owners. Upload your website, brand guidelines, fonts, or colors and Gemini creates consistent visuals; it turns receipts and spreadsheets into charts and connects to Google Business Profile, Ads, Canva, or Shopify. It’s rolling out in the coming days to all Gemini app users."
       },
       "why": {
-        "cs": "Podnikáš? Až se stránka v Gemini objeví, nahraj web, brand kit nebo barvy a Gemini podle nich udrží jednotný styl vizuálů. Většina propojených aplikací je zatím jen v angličtině v USA.",
-        "en": "Run a business? Once the page shows up in Gemini, upload your website, brand kit, or colors and Gemini keeps your visuals consistent. Most connected apps are US English–only for now."
+        "cs": "Podnikáš? Stránka se v Gemini objeví postupně, kde přesně, Google neuvádí. Až ji uvidíš, nahraj web nebo barvy a Gemini udrží jednotný styl vizuálů, aniž bys podklady nahrával znovu.",
+        "en": "Run a business? The page will appear in Gemini gradually, and Google doesn’t say where. Once you see it, upload your website or colors and Gemini keeps your visuals consistent without re-uploading your brand materials."
       },
       "sources": [
         {
           "name": "Google",
           "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/"
-        },
-        {
-          "name": "Google",
-          "url": "https://workspaceupdates.googleblog.com/2026/10/an-easier-way-to-customize-how-gemini-works-for-you.html"
         }
       ],
       "added": "2026-10-22",
@@ -3809,12 +3805,12 @@
         "en": "Gemini Notebook turns your notes into videos and quizzes"
       },
       "summary": {
-        "cs": "Google 16. října upozornil na tři studijní novinky v Gemini Notebooku: 60sekundové krátké video k těžkému pojmu, interaktivní přehled učiva v sekci Reports, který spojí shrnutí, kvízy a kartičky, a nové typy otázek — krátkou odpověď, výběr více možností a doplňování.",
-        "en": "On October 16, Google highlighted three study features in Gemini Notebook: a 60-second short video for a tricky concept, an interactive learning overview under Reports that ties together summaries, quizzes, and flashcards, and new question types — short answer, multi-select, and fill in the blank."
+        "cs": "Google 16. října znovu upozornil na tři studijní novinky v Gemini Notebooku, které představil v září: 60sekundové krátké video k těžkému pojmu, interaktivní přehled učiva v sekci Reports, který spojí shrnutí, kvízy a kartičky, a nové typy otázek — krátkou odpověď, výběr více možností a doplňování.",
+        "en": "On October 16, Google highlighted again three study features in Gemini Notebook that it introduced in September: a 60-second short video for a tricky concept, an interactive learning overview under Reports that ties together summaries, quizzes, and flashcards, and new question types — short answer, multi-select, and fill in the blank."
       },
       "why": {
-        "cs": "Nahraj skripta nebo poznámky, v Reports vytvoř interaktivní přehled učiva a nech se vyzkoušet. Chatu pak řekni, kde jsi chyboval, a poradí, co procvičit. Notebook podporuje přes 80 jazyků.",
-        "en": "Upload your course material or notes, create an interactive learning overview under Reports, and get quizzed. Then tell the chat where you slipped and it will suggest what to practice. The notebook supports 80+ languages."
+        "cs": "Nahraj skripta nebo poznámky na notebook.google, v Reports vytvoř interaktivní přehled učiva a nech se vyzkoušet. Po kvízu nebo kartičkách požádej notebook o zpětnou vazbu, kam se zaměřit. Podle nápovědy podporuje přes 80 jazyků.",
+        "en": "Upload course notes at notebook.google, create an interactive learning overview under Reports, and get quizzed. Then ask your notebook for feedback on where to focus. Google’s help page says it supports 80+ languages."
       },
       "sources": [
         {
@@ -3824,6 +3820,10 @@
         {
           "name": "Google",
           "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/"
+        },
+        {
+          "name": "Google",
+          "url": "https://support.google.com/gemininotebook/answer/16164461?hl=en"
         }
       ],
       "used": "2026-10-23"
@@ -3834,18 +3834,18 @@
       "theme": "copilot",
       "added": "2026-10-23",
       "verified": true,
-      "eventDate": "2026-09-23",
+      "eventDate": "2026-09-01",
       "title": {
         "cs": "Microsoft Copilot se v autě ovládá hlasem přes CarPlay",
         "en": "Microsoft Copilot now works hands-free in Apple CarPlay"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že appka Microsoft Copilot pro iPhone podporuje Apple CarPlay. V autě s Copilotem hlasem získáš rychlé odpovědi, připravíš se na schůzky, probereš e-maily a zprávy nebo vymýšlíš nápady. Novinka vyšla mezi 26. srpnem a 22. zářím.",
-        "en": "In its September 23 release notes, Microsoft says the Microsoft Copilot app for iPhone supports Apple CarPlay. In the car you can use voice to get quick answers, prepare for meetings, catch up on emails and messages, or brainstorm. The feature shipped between August 26 and September 22."
+        "cs": "Microsoft v poznámkách k vydání z 23. září a v podpůrném článku aktualizovaném 1. září uvádí, že appka Microsoft Copilot pro iPhone podporuje Apple CarPlay. V autě s Copilotem hlasem získáš rychlé odpovědi, připravíš se na schůzky, probereš e-maily a zprávy nebo vymýšlíš nápady.",
+        "en": "In its September 23 release notes and a support article updated September 1, Microsoft says the Microsoft Copilot app for iPhone supports Apple CarPlay. In the car you can use voice to get quick answers, prepare for meetings, catch up on emails and messages, or brainstorm."
       },
       "why": {
-        "cs": "Potřebuješ iPhone s iOS 26.4 či novějším, nejnovější appku Copilot, auto s CarPlay a hlas v Copilotu. Na displeji vyber Microsoft Copilot, nebo řekni „Hey Siri, ask Copilot“.",
-        "en": "You need an iPhone on iOS 26.4 or later, the latest Copilot app, a CarPlay car, and voice in Copilot. Pick Microsoft Copilot on the display, or say ‘Hey Siri, ask Copilot’."
+        "cs": "Potřebuješ iPhone s iOS 26.4 či novějším, nejnovější appku Copilot, auto s CarPlay a hlas v Copilotu. Na displeji vyber Microsoft Copilot, nebo řekni anglicky „Hey Siri, ask Copilot“.",
+        "en": "You need an iPhone on iOS 26.4 or later, the latest Copilot app, a CarPlay car, and voice in Copilot. Pick Microsoft Copilot on the display, or say, in English, ‘Hey Siri, ask Copilot’."
       },
       "sources": [
         {
@@ -3865,23 +3865,27 @@
       "theme": "copilot",
       "added": "2026-10-23",
       "verified": true,
-      "eventDate": "2026-10-22",
+      "eventDate": "2026-09-29",
       "title": {
-        "cs": "Copilot ve Visual Studiu opraví zranitelné balíčky NuGet",
-        "en": "Copilot in Visual Studio can fix vulnerable NuGet packages"
+        "cs": "Visual Studio nechá GitHub Copilot opravit zranitelné balíčky NuGet",
+        "en": "Visual Studio asks GitHub Copilot to fix vulnerable NuGet packages"
       },
       "summary": {
-        "cs": "GitHub 22. října shrnul zářijové novinky Copilota ve Visual Studiu 2026. Upozornění NuGet Audit v seznamu chyb teď nabízí akci, která otevře Copilot Chat v režimu agenta a nechá ho opravit zranitelné balíčky. Přibyl i Git agent, který shrne pull request s odkazy na komentáře a soubory.",
-        "en": "On October 22, GitHub rounded up September’s Copilot news for Visual Studio 2026. NuGet Audit warnings in the Error List now offer an action that opens Copilot Chat in agent mode to fix the vulnerable packages. A new Git agent also summarizes a pull request with links to its comments and files."
+        "cs": "Zářijová aktualizace Visual Studia 2026 (blog z 29. září) přidala k varováním NuGet Audit NU1901–NU1904 v seznamu chyb akci, která otevře Copilot Chat v režimu agenta a nechá ho opravit zranitelné balíčky. GitHub to 22. října shrnul spolu s dalšími novinkami Copilota ve Visual Studiu.",
+        "en": "September’s Visual Studio 2026 update (blog post of September 29) added an action to NuGet Audit warnings NU1901–NU1904 in the Error List that opens Copilot Chat in agent mode and asks it to fix the vulnerable packages. GitHub rounded it up on October 22 with other Copilot news for Visual Studio."
       },
       "why": {
-        "cs": "Přihlas se v aplikaci ke Copilotu a v nabídce nástrojů Copilot Chatu zapni NuGet MCP server. Funguje ve všech tarifech Copilota včetně Free.",
-        "en": "Sign in to Copilot in the app and enable the NuGet MCP server from the Copilot Chat tools menu. It works on every Copilot plan, Free included."
+        "cs": "Po obnovení balíčků otevři View › Error List, u varování klikni na jiskru ve sloupci Fixer a změny zkontroluj. Potřebuješ přihlášený Copilot a zapnutý NuGet MCP server (nabídka nástrojů Copilot Chatu). Funguje ve všech tarifech.",
+        "en": "Open View › Error List, click the sparkle in a NuGet warning’s Fixer column, and review the changes. Sign in to Copilot and enable the NuGet MCP server in its tools menu. All plans work."
       },
       "sources": [
         {
           "name": "GitHub",
           "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2"
+        },
+        {
+          "name": "Microsoft",
+          "url": "https://devblogs.microsoft.com/visualstudio/visual-studio-september-update-power-your-workflow-with-your-model/"
         }
       ],
       "used": "2026-10-23"

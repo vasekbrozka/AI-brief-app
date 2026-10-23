@@ -1728,22 +1728,22 @@
     {
       "slug": "2026-10-23-1password-for-agents",
       "date": "2026-10-23",
-      "topic": "1Password for Agents: AI agent se přihlásí bez toho, aby viděl heslo (Muse a Grok Bot nejdřív)"
+      "topic": "1Password for Agents: AI agent se přihlásí bez toho, aby podle firmy viděl heslo (Muse a Grok Bot nejdřív, Muse jen USA a Kanada)"
     },
     {
       "slug": "2026-10-23-microsoft-diagnostic-orchestrator-science",
       "date": "2026-10-23",
-      "topic": "Microsoft: Diagnostic Orchestrator ve studii v Science (83 % vs. 36 % u praktických lékařů, jen dřívější případy)"
+      "topic": "Microsoft: Diagnostic Orchestrator ve vlastním testu SDBench zvládl 83 % složitých případů NEJM vs. 36 % u praktických lékařů, jen dřívější případy (Science)"
     },
     {
       "slug": "2026-10-23-radical-numerics-ai-designed-phages",
       "date": "2026-10-23",
-      "topic": "Radical Numerics: pacient poprvé dostal bakteriofágy navržené AI (Omnii-1), výsledek neznámý"
+      "topic": "Radical Numerics: pacient poprvé dostal bakteriofágy upravené AI (Omnii-1), výsledek léčby firma nezveřejnila"
     },
     {
       "slug": "2026-10-23-anthropic-agent-skills-donated",
       "date": "2026-10-23",
-      "topic": "Anthropic předal standard Agent Skills nadaci Agentic AI Foundation"
+      "topic": "Anthropic předal standard Agent Skills nadaci Agentic AI Foundation (Linux Foundation), kterou spoluzaložil"
     },
     {
       "slug": "2026-10-23-bottlecap-thinkingcap-nemotron",
@@ -1758,18 +1758,18 @@
     {
       "slug": "2026-10-23-tip-gemini-small-business-tools",
       "date": "2026-10-23",
-      "topic": "tip: stránka a nástroje Gemini pro malé firmy"
+      "topic": "tip: stránka a nástroje Gemini pro malé firmy (zavádí se postupně)"
     },
     {
       "slug": "2026-10-23-tip-microsoft-copilot-carplay",
       "date": "2026-10-23",
-      "topic": "tip: Microsoft Copilot hlasem v Apple CarPlay"
+      "topic": "tip: Microsoft Copilot hlasem v Apple CarPlay (od září)"
     },
     {
       "slug": "2026-10-23-tip-copilot-visual-studio-nuget-fix",
       "date": "2026-10-23",
-      "topic": "tip: Copilot ve Visual Studiu opraví zranitelné balíčky NuGet"
+      "topic": "tip: Visual Studio nechá GitHub Copilot opravit zranitelné balíčky NuGet (aktualizace z 29. 9.)"
     }
   ],
-  "updated": "2026-10-23T03:23:36Z"
+  "updated": "2026-10-23T03:57:19Z"
 }

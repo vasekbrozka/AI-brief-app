@@ -14,7 +14,12 @@
         "quantization",
         "quantized",
         "2bitová",
-        "2bitové"
+        "2bitové",
+        "4bitová",
+        "4bitové",
+        "4bitový",
+        "4bitovou",
+        "4-bit"
       ],
       "short": {
         "cs": "Zmenšení modelu zaokrouhlením jeho čísel na nižší přesnost — ušetří paměť a výkon, za cenu malé ztráty kvality.",
@@ -597,29 +602,6 @@
       }
     },
     {
-      "id": "bacteriophage",
-      "term": {
-        "cs": "Bakteriofág (fág)",
-        "en": "Bacteriophage (phage)"
-      },
-      "aliases": [
-        "bakteriofág",
-        "bakteriofágy",
-        "bakteriofágů",
-        "fág",
-        "fágy",
-        "fágů",
-        "bacteriophage",
-        "bacteriophages",
-        "phage",
-        "phages"
-      ],
-      "short": {
-        "cs": "Virus, který napadá jen bakterie a ničí je, lidské buňky ne. Zkoumá se jako doplněk či náhrada antibiotik tam, kde na bakterie přestávají zabírat.",
-        "en": "A virus that infects and kills only bacteria, not human cells. Researchers study phages as a complement or substitute for antibiotics when bacteria resist them."
-      }
-    },
-    {
       "id": "mcp",
       "term": {
         "cs": "MCP (Model Context Protocol)",
@@ -632,6 +614,21 @@
       "short": {
         "cs": "Otevřený standard, kterým se AI agenti jednotně připojují k nástrojům a datům — k e-mailu, kalendáři či databázi. Něco jako univerzální zásuvka pro AI.",
         "en": "An open standard that lets AI agents connect to tools and data — email, calendars, databases — in one uniform way. A bit like a universal socket for AI."
+      }
+    },
+    {
+      "id": "aaif",
+      "term": {
+        "cs": "Agentic AI Foundation (AAIF)",
+        "en": "Agentic AI Foundation (AAIF)"
+      },
+      "aliases": [
+        "Agentic AI Foundation",
+        "AAIF"
+      ],
+      "short": {
+        "cs": "Nadace při Linux Foundation, která spravuje otevřené standardy a nástroje pro AI agenty. Spoluzaložili ji Anthropic, Block a OpenAI; patří pod ni například MCP, Agent Skills a AGENTS.md.",
+        "en": "A foundation under the Linux Foundation that hosts open standards and tools for AI agents. Co-founded by Anthropic, Block, and OpenAI; its projects include MCP, Agent Skills, and AGENTS.md."
       }
     }
   ]
