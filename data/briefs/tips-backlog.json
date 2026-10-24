@@ -3900,16 +3900,16 @@
       "verified": true,
       "eventDate": "2026-10-23",
       "title": {
-        "cs": "Gemini umí spravovat poznámkové bloky přímo v chatu",
-        "en": "Gemini can manage your notebooks right in chat"
+        "cs": "Gemini Notebook teď jde použít přímo v chatu Gemini",
+        "en": "Gemini Notebook now works right inside Gemini chat"
       },
       "summary": {
-        "cs": "Google 23. října přidal Gemini Notebook do aplikace Gemini jako propojenou aplikaci. V chatu napíšeš @Gemini Notebook a můžeš zakládat bloky, přidávat do nich zdroje, ukládat poznámky nebo se ptát na jejich obsah. Všem se zapíná automaticky, v EHP ale zůstává ve výchozím stavu vypnutá.",
-        "en": "On October 23, Google added Gemini Notebook to the Gemini app as a Connected App. In chat you type @Gemini Notebook to create notebooks, add sources, save notes, or ask about their contents. It turns on automatically for everyone, but stays off by default in the EEA."
+        "cs": "Google 23. října přidal Gemini Notebook, nástroj na notebooky z vlastních zdrojů, do aplikace Gemini jako propojenou aplikaci. V chatu napíšeš @Gemini Notebook a můžeš zakládat notebooky, přidávat do nich zdroje, ukládat poznámky nebo se ptát na jejich obsah. Zapíná se automaticky, v EHP ale zůstává ve výchozím stavu vypnutá.",
+        "en": "On October 23, Google added Gemini Notebook, a tool for notebooks built from your own sources, to the Gemini app as a Connected App. In chat, type @Gemini Notebook to create notebooks, add sources, save notes, or ask about their contents. It’s on automatically for everyone, but off by default in the EEA."
       },
       "why": {
-        "cs": "V EHP ji zapni v Gemini v Nastavení › Propojené aplikace, pak napiš třeba „@Gemini Notebook vytvoř blok o ...“. Zvukové a video přehledy se tvoří dál jen v samotném Gemini Notebooku.",
-        "en": "In the EEA, switch it on in Gemini under Settings › Connected Apps, then type ‘@Gemini Notebook create a notebook about …’. Audio and video overviews are still made only in Gemini Notebook itself."
+        "cs": "V EHP ji zapni v Gemini v Settings › Connected Apps, pak napiš třeba „@Gemini Notebook vytvoř notebook o ...“. V účtech Workspace ji řídí správce; zvukové a video přehledy vznikají jen v Gemini Notebooku.",
+        "en": "In the EEA, enable it in Gemini under Settings › Connected Apps, then type ‘@Gemini Notebook create a notebook about …’. Workspace admins control it; audio and video overviews exist only in Gemini Notebook."
       },
       "sources": [
         {
@@ -3943,8 +3943,8 @@
         "en": "In its October 6 release notes, Microsoft says Microsoft 365 Copilot Chat on the web can offer an alternative to the latest answer: Try Again generates a new response and Switch Model shows an answer from a different AI model. The feature shipped between September 22 and October 6."
       },
       "why": {
-        "cs": "Potřebuješ licenci Microsoft 365 Copilot. V Copilot Chatu na webu otevři pod odpovědí More options a vyber Try Again nebo Switch Model. Hodí se, když ti první odpověď nesedí.",
-        "en": "You need a Microsoft 365 Copilot license. In Copilot Chat on the web, open More options under an answer and pick Try Again or Switch Model. Handy when the first answer doesn’t fit."
+        "cs": "V Copilot Chatu na webu otevři pod odpovědí More options a vyber Try Again nebo Switch Model. Hodí se, když ti první odpověď nesedí. Microsoft funkce zavádí postupně, takže se ti nemusí zobrazit hned.",
+        "en": "In Copilot Chat on the web, open More options under an answer and pick Try Again or Switch Model. Handy if the first answer misses. Microsoft rolls out gradually, so it may not appear yet."
       },
       "sources": [
         {
@@ -3962,16 +3962,16 @@
       "verified": true,
       "eventDate": "2026-09-04",
       "title": {
-        "cs": "Gemini složí písničku z textu nebo obrázku",
-        "en": "Gemini composes a song from text or an image"
+        "cs": "Gemini složí vlastní písničku, stačí zvolit žánr",
+        "en": "Gemini composes your own song; just pick a genre"
       },
       "summary": {
-        "cs": "Google 4. září zpřístupnil v Gemini hudební model Lyria 3.5 s výraznějším zpěvem a bohatšími aranžemi. Z popisu nebo obrázku složí skladbu se zpěvem i instrumentální, nabídne šablony a dovolí zvolit kratší či delší stopu. Je dostupný všem uživatelům po celém světě na webu i v mobilní appce.",
-        "en": "On September 4, Google brought its Lyria 3.5 music model to Gemini, with more expressive vocals and richer arrangements. From a description or image it composes a vocal or instrumental track, offers templates, and lets you pick a shorter or longer one. It’s available to all users worldwide on web and mobile."
+        "cs": "Google 4. září zpřístupnil v aplikaci Gemini hudební model Lyria 3.5 s výraznějším zpěvem a bohatšími aranžemi. Žánr vybereš nebo popíšeš, zvolíš zpěv či instrumentál a krátkou nebo delší stopu; nové šablony pomáhají s podkresem i s písničkou k narozeninám. Je dostupný všem uživatelům po celém světě na webu i v mobilní appce.",
+        "en": "On September 4, Google brought its Lyria 3.5 music model to Gemini, with more expressive vocals and richer arrangements. You select or describe a genre, choose vocals or instrumental and a shorter or longer track; new templates cover backing music and birthday songs. It’s available to all users worldwide on web and mobile."
       },
       "why": {
-        "cs": "V Gemini popiš skladbu nebo nahraj obrázek, zvol žánr a zpěv či instrumentál. Hodí se na jingle, vyzvánění, podkres k videu nebo osobní písničku k narozeninám.",
-        "en": "In Gemini, describe a track or upload an image, then pick a genre and vocals or instrumental. Handy for a jingle, ringtone, video backing track, or a personal birthday song."
+        "cs": "V Gemini zvol nebo popiš žánr, vyber zpěv či instrumentál a délku stopy. Šablony se hodí na podkres k videu, znělku firmy, vyzvánění nebo písničku k narozeninám.",
+        "en": "In Gemini, select or describe a genre, then pick vocals or instrumental and the track length. Templates suit a video backing track, a brand jingle, a ringtone, or a birthday song."
       },
       "sources": [
         {
@@ -3989,16 +3989,16 @@
       "verified": true,
       "eventDate": "2026-10-06",
       "title": {
-        "cs": "Copilot v PowerPointu se naučí tvoje vlastní příkazy",
-        "en": "Copilot in PowerPoint can learn your own commands"
+        "cs": "Copilot v PowerPointu pro Windows umí vlastní skills",
+        "en": "Copilot in PowerPoint for Windows supports custom skills"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání z 6. října uvádí, že Copilot v PowerPointu pro Windows umí vlastní skills, tedy tvoje pojmenované příkazy pro opakované nebo specializované úkoly podle stylu tvých prezentací. Novinka vyšla mezi 22. zářím a 6. říjnem.",
-        "en": "In its October 6 release notes, Microsoft says Copilot in PowerPoint for Windows supports custom skills, your own named commands for repetitive or specialized tasks suited to your presentation style. The feature shipped between September 22 and October 6."
+        "cs": "Microsoft v poznámkách k vydání z 6. října uvádí, že Copilot v PowerPointu pro Windows podporuje vlastní skills: uživatelem definované příkazy a postupy pro opakované či specializované úkoly, zatímco dřív měl jen vestavěné. Funkce vyšla mezi 22. zářím a 6. říjnem; ve webové verzi už od září.",
+        "en": "In its October 6 release notes, Microsoft says Copilot in PowerPoint for Windows supports custom skills: user-defined commands and workflows for repetitive or specialized tasks, where it previously had only built-in ones. The feature shipped between September 22 and October 6; the web version has had it since September."
       },
       "why": {
-        "cs": "Potřebuješ licenci Microsoft 365 Copilot. V PowerPointu otevři panel Copilota, vyber Create custom skill, zadej příkaz a vyzkoušej ho přímo ve své prezentaci.",
-        "en": "You need a Microsoft 365 Copilot license. In PowerPoint, open the Copilot pane, choose Create custom skill, define the command, and test it right in your presentation."
+        "cs": "V PowerPointu otevři panel Copilota, vyber Create custom skill, zadej příkaz a vyzkoušej ho přímo ve své prezentaci. Funkce se podle Microsoftu zavádějí postupně, takže ji nemusíš mít hned.",
+        "en": "In PowerPoint, open the Copilot pane, choose Create custom skill, define the command, and test it in your presentation. Microsoft says features roll out gradually, so you may not have it right away."
       },
       "sources": [
         {
@@ -4023,8 +4023,8 @@
         "en": "In its October 6 release notes, Microsoft says Microsoft 365 Copilot Search now joins search with chat: from your search results you can go straight to follow-up questions or to creating content based on what was found. The feature shipped between September 22 and October 6, on Windows and the web."
       },
       "why": {
-        "cs": "Potřebuješ licenci Microsoft 365 Copilot. Otevři Microsoft 365 Copilot Search, zadej dotaz a v panelu chatu vedle výsledků se ptej dál nebo nech vytvořit text z nalezeného.",
-        "en": "You need a Microsoft 365 Copilot license. Open Microsoft 365 Copilot Search, enter a query, and use the chat pane beside the results to ask follow-ups or have text drafted from what was found."
+        "cs": "Otevři Microsoft 365 Copilot Search, zadej dotaz a v panelu chatu vedle výsledků se ptej dál nebo nech vytvořit text z nalezeného. Microsoft funkce zavádí postupně, takže ji nemusíš mít hned.",
+        "en": "Open Microsoft 365 Copilot Search, enter a query, and use the chat pane beside the results to ask follow-ups or have text drafted from what was found. Microsoft rolls features out gradually, so you may not have it right away."
       },
       "sources": [
         {

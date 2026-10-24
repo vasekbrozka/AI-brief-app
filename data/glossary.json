@@ -644,6 +644,36 @@
         "cs": "Funkce Googlu, která ti s tvým svolením propojí Gmail, Fotky, Kalendář či Disk s Gemini a AI vyhledáváním, aby odpovídaly podle tvých dat. Zapíná se dobrovolně.",
         "en": "A Google feature that, with your permission, connects Gmail, Photos, Calendar, or Drive to Gemini and AI search so answers draw on your own data. It is opt-in."
       }
+    },
+    {
+      "id": "cowork",
+      "term": {
+        "cs": "Cowork (Claude)",
+        "en": "Cowork (Claude)"
+      },
+      "aliases": [
+        "Claude Cowork",
+        "Cowork"
+      ],
+      "short": {
+        "cs": "Režim Claude pro delší samostatnou práci: když úkol vyžaduje spuštění kódu nebo práci se soubory, Claude ho dokončí v cloudu a vrátí hotový dokument, analýzu či prezentaci.",
+        "en": "A Claude mode for longer, hands-off work: when a task needs running code or working with files, Claude finishes it in the cloud and returns a finished document, analysis, or deck."
+      }
+    },
+    {
+      "id": "aisi",
+      "term": {
+        "cs": "AISI (britský AI Security Institute)",
+        "en": "AISI (UK AI Security Institute)"
+      },
+      "aliases": [
+        "AI Security Institute",
+        "AISI"
+      ],
+      "short": {
+        "cs": "Výzkumná organizace britské vlády (součást ministerstva pro vědu, inovace a technologie), která testuje bezpečnost nejnovějších AI modelů.",
+        "en": "A UK government research organisation (part of the Department for Science, Innovation and Technology) that tests the safety of frontier AI models."
+      }
     }
   ]
 }

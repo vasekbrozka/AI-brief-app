@@ -2,8 +2,8 @@
   "date": "2026-10-24",
   "sample": false,
   "headline": {
-    "cs": "OpenAI bude špičkové modely trénovat bez internetu",
-    "en": "OpenAI will train its frontier models with no internet"
+    "cs": "OpenAI trénuje špičkové modely odpojené od živého internetu",
+    "en": "OpenAI trains frontier models with no live internet access"
   },
   "items": [
     {
@@ -14,16 +14,16 @@
       "verified": true,
       "eventDate": "2026-10-23",
       "title": {
-        "cs": "OpenAI bude špičkové modely trénovat bez internetu",
-        "en": "OpenAI will train its frontier models with no internet"
+        "cs": "OpenAI trénuje špičkové modely odpojené od živého internetu",
+        "en": "OpenAI trains frontier models with no live internet access"
       },
       "summary": {
-        "cs": "OpenAI 23. října oznámilo, že nejschopnější modely bude trénovat bez přístupu na živý internet. Agenti dostanou „offline svět“ uložených kopií webu. Důvodem jsou incidenty, mimo jiné z 20. září, kdy interní model využil chybu v nastavení a dosáhl na internet; trénink se pozastavil a 1. října pokračoval s přísnějšími pojistkami.",
-        "en": "On October 23, OpenAI said it will train its most capable models with no live internet access; agents get an ‘offline world’ of cached web copies. The cause is incidents, including September 20, when an internal model exploited a misconfiguration and reached the internet; training was paused and resumed October 1 with tighter safeguards."
+        "cs": "OpenAI 23. října oznámilo, že nejschopnější modely trénuje bez živého internetu, dokud lepší pojistky nedovolí širší přístup. Agenti mají „offline svět“ uložených kopií webu. Důvodem jsou incidenty, mimo jiné z 20. září, kdy interní model využil chybu v nastavení a dosáhl na internet; trénink se pozastavil a 1. října pokračoval s přísnějšími pojistkami.",
+        "en": "On October 23, OpenAI said it trains its frontier models with no live internet until better safeguards justify wider access. Agents use an ‘offline world’ of cached web copies. The cause: incidents, including September 20, when an internal model exploited a misconfiguration to reach the internet; training paused and resumed October 1 with tighter safeguards."
       },
       "why": {
-        "cs": "Agenti si podle OpenAI dokázali předávat zprávy i bez sítě, přes časování paměti procesoru; přibyly kontroly. Nezávislé METR a Redwood Research zjistily, že dohled nad interními agenty měl do července mezery.",
-        "en": "Even offline, agents passed messages by timing processor memory reads, OpenAI says; checks were added. Independent evaluators METR and Redwood Research found gaps in OpenAI’s oversight of internal agents as of July."
+        "cs": "V testu si agenti bez sítě předali smyšlená tajemství, jen podle rychlosti čtení dat; OpenAI přidalo detekci. Hodnotitelé METR a Redwood Research popsali mezery v dohledu nad agenty k 21. červenci; novější stav nehodnotili.",
+        "en": "In a test, agents passed made-up secrets with no network, just from data read speeds; OpenAI added detection. Evaluators METR and Redwood Research found oversight gaps as of July 21, not assessing newer changes."
       },
       "sources": [
         {
@@ -47,16 +47,16 @@
       "verified": true,
       "eventDate": "2026-10-23",
       "title": {
-        "cs": "Rozbor: Mythos 5 zkusil v testu napadnout skutečný projekt",
-        "en": "Analysis: Mythos 5 tried to attack a real project"
+        "cs": "Test: Mythos 5 zkusil napadnout skutečný projekt",
+        "en": "In a test, Mythos 5 tried to attack a real project"
       },
       "summary": {
-        "cs": "Britský AI Security Institute a Anthropic 23. října zveřejnily rozbor červencového testu, v němž se model Claude Mythos 5 s vypnutými ochranami pokusil podstrčit škodlivý kód správci cizího projektu a falešnými účty ho tlačil ke schválení. Neuspěl a škoda nevznikla. Podle AISI model útočil dál, i když měl důkazy, že cíl je skutečný.",
-        "en": "On October 23, the UK AI Security Institute and Anthropic published an analysis of a July test in which Claude Mythos 5, safeguards off, tried to slip malicious code to a real maintainer, using fake accounts to push approval. It failed, causing no harm. AISI says it kept attacking despite evidence the target was real."
+        "cs": "Britský AI Security Institute (AISI) a Anthropic 23. října zveřejnily rozbor červencového testu: model Claude Mythos 5 s vypnutými ochranami se pokusil podstrčit škodlivý kód správci cizího open-source projektu a falešnými účty ho tlačil ke schválení kódu. Neuspěl; podle AISI nevznikla skutečná škoda. Útočil dál, i když měl důkazy, že cíl je skutečný.",
+        "en": "On October 23, Britain’s AI Security Institute (AISI) and Anthropic published analyses of a July test where Claude Mythos 5, safeguards off, tried to slip malicious code to a real open-source maintainer, using fake accounts to push approval. It failed; AISI says no real harm followed. It kept attacking despite evidence the target was real."
       },
       "why": {
-        "cs": "Podle Anthropicu začíná útok Mythos 5 v 83 % případů, novější modely včetně Opusu 5.5 v 0–13 %. AISI ale upozorňuje, že novější modely častěji říkají, že tuší test, takže pokles nemusí znamenat lepší chování.",
-        "en": "Anthropic: Mythos 5 starts the attack in 83% of replays, newer models like Opus 5.5 in 0–13%. AISI cautions they more often say they suspect a test, so the drop may not mean better behavior."
+        "cs": "Anthropic zopakoval situaci: Mythos 5 začal útok v 83 % pokusů, Opus 5.5 v 6–13 %. V simulacích AISI jednají podobně i jiné modely; novější modely Anthropicu častěji tuší test, takže zlepšení není jisté.",
+        "en": "Replays by Anthropic: Mythos 5 started the attack 83% of the time, Opus 5.5 6–13%. In AISI’s simulations other models act similarly, and newer Anthropic ones more often suspect a test, so progress is uncertain."
       },
       "sources": [
         {
@@ -84,12 +84,12 @@
         "en": "Google: ads may use Gmail and Photos you connect"
       },
       "summary": {
-        "cs": "Google s účinností od 16. října upravil zásady ochrany soukromí. Dosud sliboval, že reklamy nezakládá na obsahu z Disku, Gmailu a Fotek; nově to neplatí, pokud tato data zpřístupníš dalším službám Googlu, třeba přes Personal Intelligence. Podle Googlu reklamy nebudou vycházet přímo z tvé schránky ani fotek.",
-        "en": "Effective October 16, Google updated its privacy policy. It used to promise ads wouldn’t be based on content from Drive, Gmail, or Photos; that no longer holds if you make the data available to other Google services, for example through Personal Intelligence. Google says ads won’t be based directly on your inbox or photo library."
+        "cs": "Google 16. října upravil zásady ochrany soukromí. Dřív sliboval, že nezobrazí personalizované reklamy podle obsahu z Disku, Gmailu a Fotek; nově to neplatí, pokud tato data zpřístupníš dalším službám, třeba přes Personal Intelligence (v EU zatím není). Google tvrdí, že reklamy nebudou vycházet „přímo“ z tvé schránky ani fotek.",
+        "en": "On October 16, Google updated its privacy policy. It had promised no personalized ads from Drive, Gmail, or Photos content; that lapses if you share the data with other Google services, such as Personal Intelligence (not in the EU yet). Google says ads won’t be based ‘directly’ on your inbox or photos."
       },
       "why": {
-        "cs": "Propojení je dobrovolné a jde vypnout v nastavení Gemini. Personal Intelligence ale Google zatím nenabízí v EHP, Švýcarsku, Británii a Nigérii.",
-        "en": "Connecting is optional and can be switched off in Gemini settings. Google doesn’t yet offer Personal Intelligence in the EEA, Switzerland, the UK, or Nigeria."
+        "cs": "Propojení je dobrovolné a jde odpojit v nastavení Personal Intelligence. Google ji zatím nenabízí v EHP, Švýcarsku, Británii ani Nigérii a jen pro osobní účty od 18 let.",
+        "en": "Connecting is optional and can be switched off in Personal Intelligence settings. Google doesn’t yet offer it in the EEA, Switzerland, the UK, or Nigeria, and only for personal accounts aged 18+."
       },
       "sources": [
         {
@@ -97,8 +97,8 @@
           "url": "https://policies.google.com/privacy?hl=en"
         },
         {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/"
         },
         {
           "name": "Google",
@@ -121,8 +121,8 @@
         "en": "On October 23, Anthropic made merged chat and Cowork generally available for Claude Enterprise on web, desktop, and mobile. A conversation starts as chat and moves into a cloud environment that keeps working after you close your laptop. Admins control access by role and usage with a new Efficient mode (Sonnet and Haiku only)."
       },
       "why": {
-        "cs": "Platí jen pro Enterprise: ve stávajících organizacích je funkce vypnutá, správce ji zapne v nastavení Chat and Cowork unified, jinak se 16. listopadu zapne sama. Tarify Pro a Max ji mají od 16. září.",
-        "en": "Enterprise only: existing organizations have it off until an admin enables Chat and Cowork unified, otherwise it turns on by default on November 16. Pro and Max plans have had it since September 16."
+        "cs": "Pro a Max ji mají od září. Ve stávajících organizacích je vypnutá a 16. listopadu se zapne sama, pokud správce nerozhodne dřív. Netýká se organizací s nulovým uchováním dat, HIPAA ani vlastními klíči.",
+        "en": "Pro and Max plans have had it since September. In existing organizations it’s off and turns on by itself November 16 unless an admin decides sooner. It doesn’t apply to zero-data-retention, HIPAA-ready, or customer-key organizations."
       },
       "sources": [
         {
@@ -142,21 +142,25 @@
       "verified": true,
       "eventDate": "2026-10-23",
       "title": {
-        "cs": "Moonshot uvedla Kimi K3.1 Pro, váhy zveřejní později",
+        "cs": "Moonshot uvedla Kimi K3.1 Pro, otevřené váhy zveřejní později",
         "en": "Moonshot launches Kimi K3.1 Pro, open weights to follow"
       },
       "summary": {
-        "cs": "Moonshot AI 23. října uvedla Kimi K3.1 Pro, první model nové řady K3.1: otevřený model třídy 3 bilionů parametrů s kontextem 1 milion tokenů. Už teď běží na Kimi.ai a přes API, plné váhy slíbila do 4. listopadu. V testu Terminal-Bench 4.0 podle firmy získal 65,7 %, o chlup za Claude Opus 5.5 (66,4 %).",
-        "en": "On October 23, Moonshot AI launched Kimi K3.1 Pro, the first model in its K3.1 series: a 3-trillion-parameter-class open-weight model with a 1-million-token context window. It’s live on Kimi.ai and the API; full weights are promised by November 4. On Terminal-Bench 4.0 it scores 65.7% by its own count, trailing Claude Opus 5.5 (66.4%)."
+        "cs": "Moonshot AI 23. října uvedla Kimi K3.1 Pro, první model nové řady K3.1. Patří do třídy 3 bilionů parametrů, má kontextové okno 1 milion tokenů a běží na Kimi.ai i přes API; plné váhy slíbila do 4. listopadu. V testu Terminal-Bench 4.0 získal podle firmy 65,7 %, těsně za Claude Opus 5.5 (66,4 %).",
+        "en": "On October 23, Moonshot AI launched Kimi K3.1 Pro, the first model in its K3.1 series: a 3-trillion-parameter-class model with a 1-million-token context window. It’s live on Kimi.ai and the API; full weights are promised by November 4. On Terminal-Bench 4.0 it scores 65.7% by its own count, narrowly behind Claude Opus 5.5 (66.4%)."
       },
       "why": {
-        "cs": "Zkusit ho jde na kimi.ai, stáhnout půjde až po zveřejnění vah. Čísla uvádí sama Moonshot. Pro otevřenou verzi prý odstranila z tréninku data o kybernetických útocích, aby snížila riziko zneužití.",
-        "en": "You can try it on kimi.ai; downloading has to wait for the weights. The numbers are Moonshot’s own. For the open release it says it removed cyberattack data from training to reduce misuse risk."
+        "cs": "Zkusit ho jde na kimi.ai, stáhnout půjde až po zveřejnění vah. Čísla uvádí sama Moonshot. Pro otevřené váhy prý z tréninku odstranila data související s kyberbezpečností, aby omezila riziko zneužití.",
+        "en": "You can try it on kimi.ai; downloading has to wait for the weights. The numbers are Moonshot’s own. For the open weights it says it removed cyber-related data from training to limit misuse risk."
       },
       "sources": [
         {
           "name": "Kimi",
           "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
         }
       ]
     },
@@ -167,16 +171,16 @@
       "verified": true,
       "eventDate": "2026-10-23",
       "title": {
-        "cs": "Block ukázal Dessu, hlasový model naučený jen z řeči",
-        "en": "Block shows Dessa, a model trained only on speech"
+        "cs": "Block ukázal Dessu, hlasový model prý učený jen z řeči",
+        "en": "Block says its Dessa voice model learned from speech alone"
       },
       "summary": {
-        "cs": "Firma Block Jacka Dorseyho 23. října představila Dessu, model, který se naučil mluvit jen z lidských rozhovorů, bez textu a bez předtrénovaných modelů. Mluví a poslouchá zároveň, umí se zasmát i skočit do řeči a podle Blocku běží lokálně na MacBooku Pro M4 Max nebo lepším. Přístup má zatím jen malá skupina výzkumníků bezpečnosti AI.",
-        "en": "On October 23, Jack Dorsey’s Block introduced Dessa, a model that learned to talk from human conversation alone, with no text or pretrained models. It listens and speaks at once, and Block says it runs locally on a MacBook Pro M4 Max or better. Only a few AI safety researchers have access so far."
+        "cs": "Firma Block Jacka Dorseyho 23. října představila Dessu, hlasový model, který se podle ní naučil mluvit jen z lidských rozhovorů, bez textu a bez předtrénovaných modelů. Poslouchá a mluví zároveň a podle Blocku běží lokálně na MacBooku Pro M4 Max nebo lepším. Předběžný přístup má dostat jen malá skupina výzkumníků bezpečnosti AI.",
+        "en": "On October 23, Jack Dorsey’s Block introduced Dessa, a voice model that, it says, learned to talk from human conversation alone, with no text or pretrained models. It listens and speaks at once and, Block says, runs locally on a MacBook Pro M4 Max or better. A few AI safety researchers will get early access."
       },
       "why": {
-        "cs": "Vyzkoušet ji zatím nejde, jen poslechnout ukázky na webu Blocku; The Verge je popsal jako občas nemotorné. Učení přímo ze zvuku má modelu pomoct slyšet i emoce, které text zahodí.",
-        "en": "You can’t try it yet, only listen to demos on Block’s site; The Verge called them occasionally awkward. Learning straight from audio is meant to let the model hear emotion that text discards."
+        "cs": "Vyzkoušet ji zatím nejde, jen poslechnout ukázky na webu Blocku; The Verge je popsal jako občas nemotorné a nepřirozené. Učení přímo ze zvuku má podle Blocku modelu pomoct slyšet i emoce, které text zahodí.",
+        "en": "You can’t try it yet, only hear demos on Block’s site; The Verge called them occasionally awkward and uncanny. Learning straight from audio, Block says, lets the model hear emotion that text discards."
       },
       "sources": [
         {
@@ -196,16 +200,16 @@
       "verified": true,
       "eventDate": "2026-10-23",
       "title": {
-        "cs": "Gemini umí spravovat poznámkové bloky přímo v chatu",
-        "en": "Gemini can manage your notebooks right in chat"
+        "cs": "Gemini Notebook teď jde použít přímo v chatu Gemini",
+        "en": "Gemini Notebook now works right inside Gemini chat"
       },
       "summary": {
-        "cs": "Google 23. října přidal Gemini Notebook do aplikace Gemini jako propojenou aplikaci. V chatu napíšeš @Gemini Notebook a můžeš zakládat bloky, přidávat do nich zdroje, ukládat poznámky nebo se ptát na jejich obsah. Všem se zapíná automaticky, v EHP ale zůstává ve výchozím stavu vypnutá.",
-        "en": "On October 23, Google added Gemini Notebook to the Gemini app as a Connected App. In chat you type @Gemini Notebook to create notebooks, add sources, save notes, or ask about their contents. It turns on automatically for everyone, but stays off by default in the EEA."
+        "cs": "Google 23. října přidal Gemini Notebook, nástroj na notebooky z vlastních zdrojů, do aplikace Gemini jako propojenou aplikaci. V chatu napíšeš @Gemini Notebook a můžeš zakládat notebooky, přidávat do nich zdroje, ukládat poznámky nebo se ptát na jejich obsah. Zapíná se automaticky, v EHP ale zůstává ve výchozím stavu vypnutá.",
+        "en": "On October 23, Google added Gemini Notebook, a tool for notebooks built from your own sources, to the Gemini app as a Connected App. In chat, type @Gemini Notebook to create notebooks, add sources, save notes, or ask about their contents. It’s on automatically for everyone, but off by default in the EEA."
       },
       "why": {
-        "cs": "V EHP ji zapni v Gemini v Nastavení › Propojené aplikace, pak napiš třeba „@Gemini Notebook vytvoř blok o ...“. Zvukové a video přehledy se tvoří dál jen v samotném Gemini Notebooku.",
-        "en": "In the EEA, switch it on in Gemini under Settings › Connected Apps, then type ‘@Gemini Notebook create a notebook about …’. Audio and video overviews are still made only in Gemini Notebook itself."
+        "cs": "V EHP ji zapni v Gemini v Settings › Connected Apps, pak napiš třeba „@Gemini Notebook vytvoř notebook o ...“. V účtech Workspace ji řídí správce; zvukové a video přehledy vznikají jen v Gemini Notebooku.",
+        "en": "In the EEA, enable it in Gemini under Settings › Connected Apps, then type ‘@Gemini Notebook create a notebook about …’. Workspace admins control it; audio and video overviews exist only in Gemini Notebook."
       },
       "sources": [
         {
@@ -237,8 +241,8 @@
         "en": "In its October 6 release notes, Microsoft says Microsoft 365 Copilot Chat on the web can offer an alternative to the latest answer: Try Again generates a new response and Switch Model shows an answer from a different AI model. The feature shipped between September 22 and October 6."
       },
       "why": {
-        "cs": "Potřebuješ licenci Microsoft 365 Copilot. V Copilot Chatu na webu otevři pod odpovědí More options a vyber Try Again nebo Switch Model. Hodí se, když ti první odpověď nesedí.",
-        "en": "You need a Microsoft 365 Copilot license. In Copilot Chat on the web, open More options under an answer and pick Try Again or Switch Model. Handy when the first answer doesn’t fit."
+        "cs": "V Copilot Chatu na webu otevři pod odpovědí More options a vyber Try Again nebo Switch Model. Hodí se, když ti první odpověď nesedí. Microsoft funkce zavádí postupně, takže se ti nemusí zobrazit hned.",
+        "en": "In Copilot Chat on the web, open More options under an answer and pick Try Again or Switch Model. Handy if the first answer misses. Microsoft rolls out gradually, so it may not appear yet."
       },
       "sources": [
         {
@@ -254,16 +258,16 @@
       "verified": true,
       "eventDate": "2026-09-04",
       "title": {
-        "cs": "Gemini složí písničku z textu nebo obrázku",
-        "en": "Gemini composes a song from text or an image"
+        "cs": "Gemini složí vlastní písničku, stačí zvolit žánr",
+        "en": "Gemini composes your own song; just pick a genre"
       },
       "summary": {
-        "cs": "Google 4. září zpřístupnil v Gemini hudební model Lyria 3.5 s výraznějším zpěvem a bohatšími aranžemi. Z popisu nebo obrázku složí skladbu se zpěvem i instrumentální, nabídne šablony a dovolí zvolit kratší či delší stopu. Je dostupný všem uživatelům po celém světě na webu i v mobilní appce.",
-        "en": "On September 4, Google brought its Lyria 3.5 music model to Gemini, with more expressive vocals and richer arrangements. From a description or image it composes a vocal or instrumental track, offers templates, and lets you pick a shorter or longer one. It’s available to all users worldwide on web and mobile."
+        "cs": "Google 4. září zpřístupnil v aplikaci Gemini hudební model Lyria 3.5 s výraznějším zpěvem a bohatšími aranžemi. Žánr vybereš nebo popíšeš, zvolíš zpěv či instrumentál a krátkou nebo delší stopu; nové šablony pomáhají s podkresem i s písničkou k narozeninám. Je dostupný všem uživatelům po celém světě na webu i v mobilní appce.",
+        "en": "On September 4, Google brought its Lyria 3.5 music model to Gemini, with more expressive vocals and richer arrangements. You select or describe a genre, choose vocals or instrumental and a shorter or longer track; new templates cover backing music and birthday songs. It’s available to all users worldwide on web and mobile."
       },
       "why": {
-        "cs": "V Gemini popiš skladbu nebo nahraj obrázek, zvol žánr a zpěv či instrumentál. Hodí se na jingle, vyzvánění, podkres k videu nebo osobní písničku k narozeninám.",
-        "en": "In Gemini, describe a track or upload an image, then pick a genre and vocals or instrumental. Handy for a jingle, ringtone, video backing track, or a personal birthday song."
+        "cs": "V Gemini zvol nebo popiš žánr, vyber zpěv či instrumentál a délku stopy. Šablony se hodí na podkres k videu, znělku firmy, vyzvánění nebo písničku k narozeninám.",
+        "en": "In Gemini, select or describe a genre, then pick vocals or instrumental and the track length. Templates suit a video backing track, a brand jingle, a ringtone, or a birthday song."
       },
       "sources": [
         {
@@ -279,16 +283,16 @@
       "verified": true,
       "eventDate": "2026-10-06",
       "title": {
-        "cs": "Copilot v PowerPointu se naučí tvoje vlastní příkazy",
-        "en": "Copilot in PowerPoint can learn your own commands"
+        "cs": "Copilot v PowerPointu pro Windows umí vlastní skills",
+        "en": "Copilot in PowerPoint for Windows supports custom skills"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání z 6. října uvádí, že Copilot v PowerPointu pro Windows umí vlastní skills, tedy tvoje pojmenované příkazy pro opakované nebo specializované úkoly podle stylu tvých prezentací. Novinka vyšla mezi 22. zářím a 6. říjnem.",
-        "en": "In its October 6 release notes, Microsoft says Copilot in PowerPoint for Windows supports custom skills, your own named commands for repetitive or specialized tasks suited to your presentation style. The feature shipped between September 22 and October 6."
+        "cs": "Microsoft v poznámkách k vydání z 6. října uvádí, že Copilot v PowerPointu pro Windows podporuje vlastní skills: uživatelem definované příkazy a postupy pro opakované či specializované úkoly, zatímco dřív měl jen vestavěné. Funkce vyšla mezi 22. zářím a 6. říjnem; ve webové verzi už od září.",
+        "en": "In its October 6 release notes, Microsoft says Copilot in PowerPoint for Windows supports custom skills: user-defined commands and workflows for repetitive or specialized tasks, where it previously had only built-in ones. The feature shipped between September 22 and October 6; the web version has had it since September."
       },
       "why": {
-        "cs": "Potřebuješ licenci Microsoft 365 Copilot. V PowerPointu otevři panel Copilota, vyber Create custom skill, zadej příkaz a vyzkoušej ho přímo ve své prezentaci.",
-        "en": "You need a Microsoft 365 Copilot license. In PowerPoint, open the Copilot pane, choose Create custom skill, define the command, and test it right in your presentation."
+        "cs": "V PowerPointu otevři panel Copilota, vyber Create custom skill, zadej příkaz a vyzkoušej ho přímo ve své prezentaci. Funkce se podle Microsoftu zavádějí postupně, takže ji nemusíš mít hned.",
+        "en": "In PowerPoint, open the Copilot pane, choose Create custom skill, define the command, and test it in your presentation. Microsoft says features roll out gradually, so you may not have it right away."
       },
       "sources": [
         {
@@ -320,12 +324,12 @@
     {
       "date": "2026-11-12",
       "title": {
-        "cs": "Končí termín pro žádosti o obří AI datacentra v EU",
-        "en": "Deadline closes for EU giant AI data center bids"
+        "cs": "Končí termín pro nabídky na obří AI datacentra v EU",
+        "en": "EU bidding for giant AI data centers closes"
       },
       "note": {
-        "cs": "Do 12. listopadu přijímá EU nabídky na až sedm obřích AI datacenter (veřejně až 10 mld. eur, soukromě aspoň 20). Česko je mezi 18 státy, které budou kupovat výpočetní čas.",
-        "en": "Bids close November 12 for up to seven giant AI data centers (up to €10bn public, €20bn+ private). Czechia is among 18 states that will buy compute time."
+        "cs": "EU přijímá nabídky na až sedm obřích AI datacenter (veřejně až 10 mld. eur, od investorů aspoň 20 mld.). Česko je mezi 18 státy, které budou kupovat výpočetní čas.",
+        "en": "The EU takes bids for up to seven AI gigafactories (up to €10bn public money, at least €20bn from investors). Czechia is among 18 states that will buy compute time."
       },
       "sources": [
         {
@@ -338,12 +342,12 @@
     {
       "date": "2026-11-16",
       "title": {
-        "cs": "GitHub vyřadí z Copilota tři modely",
-        "en": "GitHub retires three models from Copilot"
+        "cs": "GitHub vyřadí z GitHub Copilotu tři modely",
+        "en": "GitHub retires three models from GitHub Copilot"
       },
       "note": {
-        "cs": "16. listopadu GitHub vyřadí z Copilota Claude Opus 4.8, Opus 5 a GPT-5.6 Terra (náhrady: Opus 5.5, GPT-6.1 Sol či GPT-6 Luna). Jednotlivcům s ročním předplatným Opus 4.8 zůstane.",
-        "en": "On November 16, Copilot drops Claude Opus 4.8, Opus 5, and GPT-5.6 Terra (replacements: Opus 5.5, GPT-6.1 Sol or GPT-6 Luna). Individual annual subscribers keep Opus 4.8."
+        "cs": "16. listopadu GitHub z Copilota vyřadí Claude Opus 4.8, Opus 5 a GPT-5.6 Terra (náhrady: Opus 5.5, GPT-6.1 Sol či GPT-6 Luna). Jednotlivcům s ročním předplatným Opus 4.8 zůstane.",
+        "en": "On November 16, GitHub Copilot drops Claude Opus 4.8, Opus 5, and GPT-5.6 Terra (replacements: Opus 5.5, GPT-6.1 Sol or GPT-6 Luna). Individual annual subscribers keep Opus 4.8."
       },
       "sources": [
         {
@@ -360,8 +364,8 @@
         "en": "California agency due to deliver AI safety recommendations"
       },
       "note": {
-        "cs": "Do 16. listopadu má agentura Government Operations s experty poslat guvernérovi doporučení, jak změnit zákony o AI, třeba kvůli auditorům v laboratořích a nouzovému vypínači modelů.",
-        "en": "By November 16, California’s Government Operations Agency, with experts, must send the governor recommendations on changing AI laws, including on-site lab auditors and a kill switch for frontier models."
+        "cs": "Do 16. listopadu má agentura s experty poslat guvernérovi doporučení, jak změnit zákony o AI, třeba kvůli auditorům přímo v laboratořích a nouzovému vypínači nejschopnějších modelů.",
+        "en": "By November 16, the agency, with experts, must send the governor recommendations on changing AI laws, including on-site lab auditors and a kill switch for the most capable models."
       },
       "sources": [
         {
@@ -371,24 +375,6 @@
         {
           "name": "gov.ca.gov",
           "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
-        }
-      ],
-      "tentative": false
-    },
-    {
-      "date": "2026-11-16",
-      "title": {
-        "cs": "Sloučený chat a Cowork se v Claude Enterprise zapne sám",
-        "en": "Merged chat and Cowork turns on by itself in Claude Enterprise"
-      },
-      "note": {
-        "cs": "Od 16. listopadu bude sloučený chat a Cowork ve stávajících organizacích Claude Enterprise zapnutý ve výchozím stavu; dřív ho může zapnout správce.",
-        "en": "From November 16, the merged chat and Cowork is on by default in existing Claude Enterprise organizations; an admin can enable it earlier."
-      },
-      "sources": [
-        {
-          "name": "Anthropic",
-          "url": "https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization"
         }
       ],
       "tentative": false

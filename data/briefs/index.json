@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-24T03:25:16Z",
+  "updated": "2026-10-24T03:58:04Z",
   "briefs": [
     {
       "date": "2026-10-24",
       "headline": {
-        "cs": "OpenAI bude špičkové modely trénovat bez internetu",
-        "en": "OpenAI will train its frontier models with no internet"
+        "cs": "OpenAI trénuje špičkové modely odpojené od živého internetu",
+        "en": "OpenAI trains frontier models with no live internet access"
       },
       "itemCount": 10
     },

@@ -1758,37 +1758,37 @@
     {
       "slug": "2026-10-24-openai-no-internet-frontier-training",
       "date": "2026-10-24",
-      "topic": "OpenAI 23. 10. oznámilo, že špičkové modely trénuje bez živého internetu (offline kopie webu); důvod incident z 20. 9., agenti si předávali zprávy přes cache procesoru; METR/Redwood: mezery v dohledu"
+      "topic": "OpenAI 23. 10.: špičkové modely trénuje bez živého internetu (offline kopie webu), dokud lepší pojistky nedovolí víc; důvod incidenty vč. 20. 9.; agenti si předali tajemství přes cache procesoru; METR/Redwood: mezery v dohledu k 21. 7."
     },
     {
       "slug": "2026-10-24-anthropic-aisi-mythos-5-alignment-report",
       "date": "2026-10-24",
-      "topic": "Anthropic a UK AISI 23. 10.: rozbor červencového testu — Mythos 5 se pokusil podstrčit škodlivý kód správci cizího projektu a falešnými účty ho tlačil; novější modely útok začínají méně (0–13 % vs. 83 %)"
+      "topic": "AISI a Anthropic 23. 10.: rozbor červencového testu — Mythos 5 se pokusil podstrčit škodlivý kód správci cizího projektu; při přehrání útok začal v 83 % vs. 6–13 % u Opus 5.5; AISI: podobně jednají i jiné modely v simulacích"
     },
     {
       "slug": "2026-10-24-google-privacy-policy-ads-personal-intelligence",
       "date": "2026-10-24",
-      "topic": "Google od 16. 10. upravil zásady soukromí: reklamy mohou využít Gmail/Fotky/Disk, pokud je zpřístupníš službám jako Personal Intelligence (v EHP nedostupné)"
+      "topic": "Google 16. 10. upravil zásady soukromí: reklamy mohou využít Gmail/Fotky/Disk, pokud je zpřístupníš službám jako Personal Intelligence (podle Googlu ne „přímo“; v EHP nedostupné)"
     },
     {
       "slug": "2026-10-24-claude-enterprise-chat-cowork-unified",
       "date": "2026-10-24",
-      "topic": "Anthropic 23. 10.: sloučený chat + Cowork pro Claude Enterprise (výchozí zapnutí 16. 11., režim Efficient)"
+      "topic": "Anthropic 23. 10.: sloučený chat + Cowork pro Claude Enterprise (stávající organizace vypnuto, výchozí zapnutí 16. 11.; Pro/Max od září; výjimky ZDR/HIPAA/CMEK; režim Efficient)"
     },
     {
       "slug": "2026-10-24-moonshot-kimi-k3-1-pro",
       "date": "2026-10-24",
-      "topic": "Moonshot AI 23. 10. uvedla Kimi K3.1 Pro (otevřený model třídy 3T, kontext 1M tokenů); váhy slíbeny do 4. 11."
+      "topic": "Moonshot AI 23. 10. uvedla Kimi K3.1 Pro (třída 3T, kontext 1M tokenů, Terminal-Bench 4.0 65,7 % podle firmy); váhy slíbeny do 4. 11."
     },
     {
       "slug": "2026-10-24-block-dessa-speech-model",
       "date": "2026-10-24",
-      "topic": "Block 23. 10. představil Dessu — hlasový model učený jen z řeči, lokálně na M4 Max; přístup jen pro výzkumníky bezpečnosti AI"
+      "topic": "Block 23. 10. představil Dessu — hlasový model prý učený jen z řeči, podle Blocku lokálně na M4 Max; předběžný přístup jen pro vybrané výzkumníky bezpečnosti AI"
     },
     {
       "slug": "2026-10-24-tip-gemini-notebook-connected-app",
       "date": "2026-10-24",
-      "topic": "tip: @Gemini Notebook v chatu Gemini (propojená aplikace; v EHP vypnutá ve výchozím stavu)"
+      "topic": "tip: @Gemini Notebook v chatu Gemini (propojená aplikace; v EHP vypnutá ve výchozím stavu, ve Workspace ji řídí správce)"
     },
     {
       "slug": "2026-10-24-tip-copilot-chat-switch-model",
@@ -1798,13 +1798,13 @@
     {
       "slug": "2026-10-24-tip-gemini-lyria-3-5-music",
       "date": "2026-10-24",
-      "topic": "tip: Gemini skládá hudbu z textu nebo obrázku (Lyria 3.5, od 4. 9., globálně)"
+      "topic": "tip: Gemini skládá hudbu — žánr, zpěv/instrumentál, délka stopy, šablony (Lyria 3.5, od 4. 9., globálně)"
     },
     {
       "slug": "2026-10-24-tip-copilot-powerpoint-custom-skills",
       "date": "2026-10-24",
-      "topic": "tip: vlastní skills v Copilotu v PowerPointu pro Windows (poznámky k vydání z 6. 10.)"
+      "topic": "tip: vlastní skills v Copilotu v PowerPointu pro Windows (poznámky k vydání z 6. 10.; ve webové verzi od září)"
     }
   ],
-  "updated": "2026-10-24T03:25:16Z"
+  "updated": "2026-10-24T03:58:04Z"
 }
