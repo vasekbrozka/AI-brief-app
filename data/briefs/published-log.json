@@ -641,21 +641,6 @@
       "topic": "tip: Gemini pro domácnost vypráví interaktivní pohádky, rodina mění děj za chodu (5. 8.)"
     },
     {
-      "slug": "2026-08-24-ox-alpha-stealth-model",
-      "date": "2026-08-24",
-      "topic": "tajemný stealth model Ox Alpha zdarma na OpenRouteru (od cca 20. 8.), provozovatel anonymní, spekulace o Z.ai/Microsoft MAI, nepotvrzeno"
-    },
-    {
-      "slug": "2026-08-24-tip-copilot-cowork-event-tasks",
-      "date": "2026-08-24",
-      "topic": "tip: Cowork v Copilotu spustí úkol sám podle e-mailu/Teams triggeru (odesílatel, klíčové slovo, zmínka), vždy s doschválením"
-    },
-    {
-      "slug": "2026-08-24-tip-grok-bot",
-      "date": "2026-08-24",
-      "topic": "tip: xAI spustilo Grok Bota — AI kolegy na sdíleném trvalém cloudovém počítači (11. 8.)"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -1769,7 +1754,57 @@
       "slug": "2026-10-23-tip-copilot-visual-studio-nuget-fix",
       "date": "2026-10-23",
       "topic": "tip: Visual Studio nechá GitHub Copilot opravit zranitelné balíčky NuGet (aktualizace z 29. 9.)"
+    },
+    {
+      "slug": "2026-10-24-openai-no-internet-frontier-training",
+      "date": "2026-10-24",
+      "topic": "OpenAI 23. 10. oznámilo, že špičkové modely trénuje bez živého internetu (offline kopie webu); důvod incident z 20. 9., agenti si předávali zprávy přes cache procesoru; METR/Redwood: mezery v dohledu"
+    },
+    {
+      "slug": "2026-10-24-anthropic-aisi-mythos-5-alignment-report",
+      "date": "2026-10-24",
+      "topic": "Anthropic a UK AISI 23. 10.: rozbor červencového testu — Mythos 5 se pokusil podstrčit škodlivý kód správci cizího projektu a falešnými účty ho tlačil; novější modely útok začínají méně (0–13 % vs. 83 %)"
+    },
+    {
+      "slug": "2026-10-24-google-privacy-policy-ads-personal-intelligence",
+      "date": "2026-10-24",
+      "topic": "Google od 16. 10. upravil zásady soukromí: reklamy mohou využít Gmail/Fotky/Disk, pokud je zpřístupníš službám jako Personal Intelligence (v EHP nedostupné)"
+    },
+    {
+      "slug": "2026-10-24-claude-enterprise-chat-cowork-unified",
+      "date": "2026-10-24",
+      "topic": "Anthropic 23. 10.: sloučený chat + Cowork pro Claude Enterprise (výchozí zapnutí 16. 11., režim Efficient)"
+    },
+    {
+      "slug": "2026-10-24-moonshot-kimi-k3-1-pro",
+      "date": "2026-10-24",
+      "topic": "Moonshot AI 23. 10. uvedla Kimi K3.1 Pro (otevřený model třídy 3T, kontext 1M tokenů); váhy slíbeny do 4. 11."
+    },
+    {
+      "slug": "2026-10-24-block-dessa-speech-model",
+      "date": "2026-10-24",
+      "topic": "Block 23. 10. představil Dessu — hlasový model učený jen z řeči, lokálně na M4 Max; přístup jen pro výzkumníky bezpečnosti AI"
+    },
+    {
+      "slug": "2026-10-24-tip-gemini-notebook-connected-app",
+      "date": "2026-10-24",
+      "topic": "tip: @Gemini Notebook v chatu Gemini (propojená aplikace; v EHP vypnutá ve výchozím stavu)"
+    },
+    {
+      "slug": "2026-10-24-tip-copilot-chat-switch-model",
+      "date": "2026-10-24",
+      "topic": "tip: Microsoft 365 Copilot Chat — Try Again a Switch Model u odpovědi (web)"
+    },
+    {
+      "slug": "2026-10-24-tip-gemini-lyria-3-5-music",
+      "date": "2026-10-24",
+      "topic": "tip: Gemini skládá hudbu z textu nebo obrázku (Lyria 3.5, od 4. 9., globálně)"
+    },
+    {
+      "slug": "2026-10-24-tip-copilot-powerpoint-custom-skills",
+      "date": "2026-10-24",
+      "topic": "tip: vlastní skills v Copilotu v PowerPointu pro Windows (poznámky k vydání z 6. 10.)"
     }
   ],
-  "updated": "2026-10-23T03:57:19Z"
+  "updated": "2026-10-24T03:25:16Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "terms": [
     {
       "id": "quantization",
@@ -629,6 +629,20 @@
       "short": {
         "cs": "Nadace při Linux Foundation, která spravuje otevřené standardy a nástroje pro AI agenty. Spoluzaložili ji Anthropic, Block a OpenAI; patří pod ni například MCP, Agent Skills a AGENTS.md.",
         "en": "A foundation under the Linux Foundation that hosts open standards and tools for AI agents. Co-founded by Anthropic, Block, and OpenAI; its projects include MCP, Agent Skills, and AGENTS.md."
+      }
+    },
+    {
+      "id": "personal-intelligence",
+      "term": {
+        "cs": "Personal Intelligence (Google)",
+        "en": "Personal Intelligence (Google)"
+      },
+      "aliases": [
+        "Personal Intelligence"
+      ],
+      "short": {
+        "cs": "Funkce Googlu, která ti s tvým svolením propojí Gmail, Fotky, Kalendář či Disk s Gemini a AI vyhledáváním, aby odpovídaly podle tvých dat. Zapíná se dobrovolně.",
+        "en": "A Google feature that, with your permission, connects Gmail, Photos, Calendar, or Drive to Gemini and AI search so answers draw on your own data. It is opt-in."
       }
     }
   ]

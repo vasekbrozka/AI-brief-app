@@ -1,58 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-gemini-live-translate",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": true,
-      "title": {
-        "cs": "Gemini 3.5 překládá řeč naživo přes 70 jazyků",
-        "en": "Gemini 3.5 Live Translate covers 70+ languages"
-      },
-      "summary": {
-        "cs": "Nový audio model Gemini 3.5 Live Translate převádí řeč na řeč téměř v reálném čase, sám rozpozná přes 70 jazyků a zachová přirozenou intonaci mluvčího — hodí se na vícejazyčné hovory, schůzky i cesty. Google to představil v červnu.",
-        "en": "The new Gemini 3.5 Live Translate audio model does near-real-time speech-to-speech translation, auto-detects 70+ languages, and preserves the speaker's natural intonation — handy for multilingual calls, meetings, and travel. Google unveiled it in June."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"
-        },
-        {
-          "name": "9to5Google",
-          "url": "https://9to5google.com/2026/06/09/gemini-3-5-live-translate-meet/"
-        }
-      ],
-      "added": "2026-07-16",
-      "used": "2026-07-25"
-    },
-    {
-      "slug": "tip-copilot-word-chat-history",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": true,
-      "title": {
-        "cs": "Copilot ve Wordu si pamatuje historii konverzace",
-        "en": "Copilot in Word now remembers your chat history"
-      },
-      "summary": {
-        "cs": "Copilot Chat ve Wordu si nově drží historii konverzace i při přechodu mezi aplikacemi — na složitou vícekrokovou práci s dokumentem se dá navázat bez ztráty kontextu. Microsoft to zpřístupnil v červnu.",
-        "en": "Copilot Chat in Word now keeps your conversation history across apps — you can pick up complex, multi-step document work without losing the thread. Microsoft rolled this out in June."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        },
-        {
-          "name": "Microsoft 365 Copilot Blog",
-          "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--june-2026/4529572"
-        }
-      ],
-      "added": "2026-07-16",
-      "used": "2026-07-25"
-    },
-    {
       "slug": "tip-chatgpt-shared-projects",
       "category": "tools",
       "theme": "chatgpt",
@@ -3942,6 +3890,176 @@
         }
       ],
       "added": "2026-10-23",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-notebook-connected-app",
+      "category": "tools",
+      "theme": "notebooklm",
+      "added": "2026-10-24",
+      "verified": true,
+      "eventDate": "2026-10-23",
+      "title": {
+        "cs": "Gemini umí spravovat poznámkové bloky přímo v chatu",
+        "en": "Gemini can manage your notebooks right in chat"
+      },
+      "summary": {
+        "cs": "Google 23. října přidal Gemini Notebook do aplikace Gemini jako propojenou aplikaci. V chatu napíšeš @Gemini Notebook a můžeš zakládat bloky, přidávat do nich zdroje, ukládat poznámky nebo se ptát na jejich obsah. Všem se zapíná automaticky, v EHP ale zůstává ve výchozím stavu vypnutá.",
+        "en": "On October 23, Google added Gemini Notebook to the Gemini app as a Connected App. In chat you type @Gemini Notebook to create notebooks, add sources, save notes, or ask about their contents. It turns on automatically for everyone, but stays off by default in the EEA."
+      },
+      "why": {
+        "cs": "V EHP ji zapni v Gemini v Nastavení › Propojené aplikace, pak napiš třeba „@Gemini Notebook vytvoř blok o ...“. Zvukové a video přehledy se tvoří dál jen v samotném Gemini Notebooku.",
+        "en": "In the EEA, switch it on in Gemini under Settings › Connected Apps, then type ‘@Gemini Notebook create a notebook about …’. Audio and video overviews are still made only in Gemini Notebook itself."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/take-actions-on-your-notebooks-from-Gemini-Notebook-directly-in-the-Gemini-app.html"
+        },
+        {
+          "name": "Google",
+          "url": "https://support.google.com/gemininotebook/answer/17003757?hl=en"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/23/gemini-notebook-connected-app/"
+        }
+      ],
+      "used": "2026-10-24"
+    },
+    {
+      "slug": "tip-copilot-chat-switch-model",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-10-24",
+      "verified": true,
+      "eventDate": "2026-10-06",
+      "title": {
+        "cs": "Copilot Chat nabídne jinou odpověď i jiný model",
+        "en": "Copilot Chat can give another answer or switch models"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 6. října uvádí, že Microsoft 365 Copilot Chat na webu umí k poslední odpovědi nabídnout alternativu: Try Again vygeneruje novou odpověď a Switch Model ukáže odpověď od jiného AI modelu. Novinka vyšla mezi 22. zářím a 6. říjnem.",
+        "en": "In its October 6 release notes, Microsoft says Microsoft 365 Copilot Chat on the web can offer an alternative to the latest answer: Try Again generates a new response and Switch Model shows an answer from a different AI model. The feature shipped between September 22 and October 6."
+      },
+      "why": {
+        "cs": "Potřebuješ licenci Microsoft 365 Copilot. V Copilot Chatu na webu otevři pod odpovědí More options a vyber Try Again nebo Switch Model. Hodí se, když ti první odpověď nesedí.",
+        "en": "You need a Microsoft 365 Copilot license. In Copilot Chat on the web, open More options under an answer and pick Try Again or Switch Model. Handy when the first answer doesn’t fit."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "used": "2026-10-24"
+    },
+    {
+      "slug": "tip-gemini-lyria-3-5-music",
+      "category": "tools",
+      "theme": "gemini",
+      "added": "2026-10-24",
+      "verified": true,
+      "eventDate": "2026-09-04",
+      "title": {
+        "cs": "Gemini složí písničku z textu nebo obrázku",
+        "en": "Gemini composes a song from text or an image"
+      },
+      "summary": {
+        "cs": "Google 4. září zpřístupnil v Gemini hudební model Lyria 3.5 s výraznějším zpěvem a bohatšími aranžemi. Z popisu nebo obrázku složí skladbu se zpěvem i instrumentální, nabídne šablony a dovolí zvolit kratší či delší stopu. Je dostupný všem uživatelům po celém světě na webu i v mobilní appce.",
+        "en": "On September 4, Google brought its Lyria 3.5 music model to Gemini, with more expressive vocals and richer arrangements. From a description or image it composes a vocal or instrumental track, offers templates, and lets you pick a shorter or longer one. It’s available to all users worldwide on web and mobile."
+      },
+      "why": {
+        "cs": "V Gemini popiš skladbu nebo nahraj obrázek, zvol žánr a zpěv či instrumentál. Hodí se na jingle, vyzvánění, podkres k videu nebo osobní písničku k narozeninám.",
+        "en": "In Gemini, describe a track or upload an image, then pick a genre and vocals or instrumental. Handy for a jingle, ringtone, video backing track, or a personal birthday song."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/"
+        }
+      ],
+      "used": "2026-10-24"
+    },
+    {
+      "slug": "tip-copilot-powerpoint-custom-skills",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-10-24",
+      "verified": true,
+      "eventDate": "2026-10-06",
+      "title": {
+        "cs": "Copilot v PowerPointu se naučí tvoje vlastní příkazy",
+        "en": "Copilot in PowerPoint can learn your own commands"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 6. října uvádí, že Copilot v PowerPointu pro Windows umí vlastní skills, tedy tvoje pojmenované příkazy pro opakované nebo specializované úkoly podle stylu tvých prezentací. Novinka vyšla mezi 22. zářím a 6. říjnem.",
+        "en": "In its October 6 release notes, Microsoft says Copilot in PowerPoint for Windows supports custom skills, your own named commands for repetitive or specialized tasks suited to your presentation style. The feature shipped between September 22 and October 6."
+      },
+      "why": {
+        "cs": "Potřebuješ licenci Microsoft 365 Copilot. V PowerPointu otevři panel Copilota, vyber Create custom skill, zadej příkaz a vyzkoušej ho přímo ve své prezentaci.",
+        "en": "You need a Microsoft 365 Copilot license. In PowerPoint, open the Copilot pane, choose Create custom skill, define the command, and test it right in your presentation."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "used": "2026-10-24"
+    },
+    {
+      "slug": "tip-m365-copilot-search-chat",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-10-06",
+      "title": {
+        "cs": "Copilot Search teď plynule přejde do chatu",
+        "en": "Copilot Search now flows straight into chat"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 6. října uvádí, že Microsoft 365 Copilot Search spojil vyhledávání s chatem: z výsledků hledání můžeš rovnou přejít k doplňujícím otázkám nebo k tvorbě obsahu podle nalezených zdrojů. Novinka vyšla mezi 22. zářím a 6. říjnem a platí pro Windows i web.",
+        "en": "In its October 6 release notes, Microsoft says Microsoft 365 Copilot Search now joins search with chat: from your search results you can go straight to follow-up questions or to creating content based on what was found. The feature shipped between September 22 and October 6, on Windows and the web."
+      },
+      "why": {
+        "cs": "Potřebuješ licenci Microsoft 365 Copilot. Otevři Microsoft 365 Copilot Search, zadej dotaz a v panelu chatu vedle výsledků se ptej dál nebo nech vytvořit text z nalezeného.",
+        "en": "You need a Microsoft 365 Copilot license. Open Microsoft 365 Copilot Search, enter a query, and use the chat pane beside the results to ask follow-ups or have text drafted from what was found."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "added": "2026-10-24",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-maps-carplay",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": false,
+      "eventDate": "2026-10-21",
+      "title": {
+        "cs": "Gemini v Mapách Google na CarPlay odpovídá při navigaci hlasem",
+        "en": "Gemini in Google Maps on CarPlay answers by voice while you navigate"
+      },
+      "summary": {
+        "cs": "Podle 9to5Google z 21. října nabízí Mapy Google na Apple CarPlay při navigaci ikonu Gemini: ptáš se vícekrokově, třeba na místa s výhledem, vhodnou dobu k cestě nebo trasu bez mýtného, a hlasem můžeš hlásit dopravní komplikace. V USA už funguje, globální nasazení podle zprávy probíhá.",
+        "en": "Per 9to5Google on October 21, Google Maps on Apple CarPlay now offers a Gemini icon while navigating: you can ask multi-step questions, such as scenic spots, a good time to go, or a toll-free route, and report traffic disruptions by voice. It works in the US now, with a global rollout underway."
+      },
+      "why": {
+        "cs": "Při navigaci na CarPlay klepni na ikonu Gemini na pravém okraji obrazovky. Zatím funguje v USA, jinde se zavádí; datum pro Česko zdroj neuvádí.",
+        "en": "While navigating on CarPlay, tap the Gemini icon on the right edge of the screen. It works in the US for now and is rolling out elsewhere; the source gives no date for Czechia."
+      },
+      "sources": [
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/21/google-maps-carplay-gemini/"
+        }
+      ],
+      "added": "2026-10-24",
       "used": null
     }
   ]

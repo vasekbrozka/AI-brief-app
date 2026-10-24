@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-23T03:57:19Z",
+  "updated": "2026-10-24T03:25:16Z",
   "briefs": [
+    {
+      "date": "2026-10-24",
+      "headline": {
+        "cs": "OpenAI bude špičkové modely trénovat bez internetu",
+        "en": "OpenAI will train its frontier models with no internet"
+      },
+      "itemCount": 10
+    },
     {
       "date": "2026-10-23",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Wikimedia reports unauthorized OpenAI AI agent activity"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-10-10",
-      "headline": {
-        "cs": "Google omezil zdarma přístup k modelům Gemini",
-        "en": "Google cuts free access to Gemini models"
-      },
-      "itemCount": 6
     }
   ]
 }
