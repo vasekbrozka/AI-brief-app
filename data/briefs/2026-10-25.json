@@ -109,7 +109,7 @@
         "en": "DeepMind maps the world’s forest types at 10 meters"
       },
       "summary": {
-        "cs": "Google DeepMind s partnery z WRI a IIASA 22. října zveřejnil mapu ForTy, která řadí každý čtverec 10×10 metrů do jednoho ze šesti typů lesa a půdy, třeba původní les, dřevařská plantáž či farma s palmami. Přidaly časovou řadu 2017–2025. Podle ověření na 9 000 místech trefuje typ lesa v 90 % případů.",
+        "cs": "Google DeepMind s partnery z WRI a IIASA 22. října zveřejnil mapu ForTy, která řadí každý čtverec 10×10 metrů do jednoho ze šesti typů lesa a půdy, třeba původní les, dřevařská plantáž či farma s palmami. Přidal časovou řadu 2017–2025. Podle ověření na 9 000 místech trefuje typ lesa v 90 % případů.",
         "en": "On October 22, Google DeepMind, with WRI and IIASA, released ForTy, a map that sorts every 10-by-10-meter patch of land into six forest and land types, such as primary forest, timber plantation, or oil palm farm. Includes a 2017–2025 time series. Checked at 9,000 sites, it picks the right forest type 90% of the time."
       },
       "why": {
