@@ -1,84 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-chatgpt-shared-projects",
-      "category": "tools",
-      "theme": "chatgpt",
-      "verified": true,
-      "title": {
-        "cs": "Projekty v ChatGPT jde sdílet s týmem",
-        "en": "ChatGPT Projects can now be shared with your team"
-      },
-      "summary": {
-        "cs": "Projekty v ChatGPT teď nasdílíš týmu i dalším lidem — projekt funguje jako živé centrum kontextu se soubory a instrukcemi, na kterém se pracuje společně. Projekty se nově objevují i v desktopové aplikaci. OpenAI to spustilo v červenci.",
-        "en": "You can now share a ChatGPT Project with your team and others — a project becomes a live context hub with shared files and instructions to work in together. Projects also now appear in the desktop app. OpenAI rolled it out in July."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/more-ways-to-work-with-your-team/"
-        },
-        {
-          "name": "OpenAI",
-          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-        }
-      ],
-      "added": "2026-07-26",
-      "used": "2026-07-26"
-    },
-    {
-      "slug": "tip-claude-voice-models",
-      "category": "tools",
-      "theme": "claude",
-      "verified": true,
-      "title": {
-        "cs": "V hlasovém režimu Claude si vybereš model",
-        "en": "Claude voice mode now lets you pick the model"
-      },
-      "summary": {
-        "cs": "Hlasový režim Claude dostal výkonnější modely — nově si v něm vybereš mezi Opusem, Sonnetem a Haiku. Zvládá delší konverzace a umí sáhnout do propojených aplikací jako Gmail, Kalendář, Slack, Canva nebo Notion. Anthropic to vydal 23. července.",
-        "en": "Claude's voice mode got more capable models — you can now pick between Opus, Sonnet, and Haiku. It handles longer conversations and can reach into connected apps like Gmail, Calendar, Slack, Canva, or Notion. Anthropic shipped it on July 23."
-      },
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/"
-        },
-        {
-          "name": "Claude Help Center",
-          "url": "https://support.claude.com/en/articles/12138966-release-notes"
-        }
-      ],
-      "added": "2026-07-26",
-      "used": "2026-07-26"
-    },
-    {
-      "slug": "tip-copilot-gpt56",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": true,
-      "title": {
-        "cs": "Copilot v Microsoft 365 jede na GPT-5.6",
-        "en": "Microsoft 365 Copilot now runs on GPT-5.6"
-      },
-      "summary": {
-        "cs": "Microsoft 365 Copilot přepnul na GPT-5.6 jako preferovaný model — ve Wordu, Excelu, PowerPointu, Chatu i Coworku teď odpovídá novější a schopnější model. Není třeba nic nastavovat, změna se propsala sama. OpenAI to oznámilo začátkem července.",
-        "en": "Microsoft 365 Copilot switched to GPT-5.6 as its preferred model — Word, Excel, PowerPoint, Chat, and Cowork now answer with the newer, more capable model. There is nothing to set up; the change applied itself. OpenAI announced it in early July."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot/"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/"
-        }
-      ],
-      "added": "2026-07-26",
-      "used": "2026-07-26"
-    },
-    {
       "slug": "tip-gemini-waze",
       "category": "tools",
       "theme": "gemini",
@@ -3619,7 +3541,7 @@
         }
       ],
       "added": "2026-10-21",
-      "used": null
+      "used": "2026-10-25"
     },
     {
       "slug": "tip-chatgpt-dot-iphone-widget",
@@ -3850,11 +3772,11 @@
       },
       "summary": {
         "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že Vision v Microsoft 365 Copilotu umí analyzovat sdílenou plochu počítače i živý obraz z kamery telefonu. Na mobilu při hlasové relaci namíříš kameru na předmět nebo dokument a Copilot odpoví hlasem podle pracovních i webových dat. Novinka vyšla mezi 26. srpnem a 22. zářím.",
-        "en": "In its September 23 release notes, Microsoft says Vision in Microsoft 365 Copilot can analyze a shared computer screen and the live feed from your phone camera. On mobile during a voice session you point the camera at an object or document and Copilot answers aloud using work and web data. The feature shipped between August 26 and September 22."
+        "en": "Microsoft’s September 23 release notes say Vision in Microsoft 365 Copilot can analyze a shared computer screen and a live phone-camera feed. During a mobile voice session you point the camera at an object or document and Copilot answers aloud using work and web data. It shipped between August 26 and September 22."
       },
       "why": {
-        "cs": "Potřebuješ licenci Microsoft 365 Copilot. V Copilotu sdílej obrazovku počítače, nebo na mobilu zahaj hlasovou relaci, zapni kameru a ptej se na to, co vidíš. Platí pro Android, Windows, iOS a web.",
-        "en": "You need a Microsoft 365 Copilot license. In Copilot, share your computer screen, or start a voice session on mobile, turn on the camera, and ask about what you see. It covers Android, Windows, iOS, and the web."
+        "cs": "V Copilotu sdílej obrazovku počítače, nebo na mobilu zahaj hlasovou relaci, zapni kameru a ptej se na to, co vidíš. Funguje na Androidu, Windows, iOS i webu; zavádí se postupně, takže ji nemusíš mít hned.",
+        "en": "Share your computer screen in Copilot, or on mobile start a voice session, turn on the camera, and ask about what you see. Works on Android, Windows, iOS, and web; rollout is gradual."
       },
       "sources": [
         {
@@ -3863,7 +3785,7 @@
         }
       ],
       "added": "2026-10-23",
-      "used": null
+      "used": "2026-10-25"
     },
     {
       "slug": "tip-perplexity-ultrafast-computer",
@@ -3890,7 +3812,7 @@
         }
       ],
       "added": "2026-10-23",
-      "used": null
+      "used": "2026-10-25"
     },
     {
       "slug": "tip-gemini-notebook-connected-app",
@@ -4060,6 +3982,60 @@
         }
       ],
       "added": "2026-10-24",
+      "used": null
+    },
+    {
+      "slug": "tip-chatgpt-appshots-windows",
+      "category": "tools",
+      "theme": "chatgpt",
+      "added": "2026-10-25",
+      "verified": true,
+      "eventDate": "2026-09-11",
+      "title": {
+        "cs": "Obě klávesy Alt pošlou okno do ChatGPT na Windows",
+        "en": "Both Alt keys send a window to ChatGPT on Windows"
+      },
+      "summary": {
+        "cs": "OpenAI v týdnu 7.–11. září přidal do desktopové appky ChatGPT pro Windows funkci Appshots: po stisku obou kláves Alt se do chatu vloží snímek a dostupný text okna, které máš v popředí, a ptáš se na jeho obsah. Na macOS umí Appshots otevřít nový chat i z plovoucích ovládacích prvků Pets.",
+        "en": "In the week of September 7–11, OpenAI added Appshots to the ChatGPT desktop app for Windows: pressing both Alt keys drops a screenshot and the available text of your frontmost window into chat, so you can ask about it. On macOS, Appshots can also start a new chat from the floating Pets controls."
+      },
+      "why": {
+        "cs": "Aktualizuj desktopovou appku ChatGPT, stiskni obě klávesy Alt a zeptej se na to, co vidíš v okně, nebo napiš, co s ním chceš udělat. Dostupnost závisí na postupném zavádění a nastavení pracovního prostoru.",
+        "en": "Update the ChatGPT desktop app, press both Alt keys, then ask about what’s in the window or say what you want done with it. Availability depends on rollout and workspace settings."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/docs/whats-new"
+        }
+      ],
+      "used": "2026-10-25"
+    },
+    {
+      "slug": "tip-gemini-sheets-bigquery",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-10-19",
+      "title": {
+        "cs": "Gemini ve Sheets odpoví na dotazy nad daty z BigQuery",
+        "en": "Gemini in Sheets answers questions over BigQuery data"
+      },
+      "summary": {
+        "cs": "Google 19. října začal zavádět v Google Sheets konverzační analýzu dat z BigQuery: po připojení přes Connected Sheets se Gemini ptáš přirozeným jazykem a dotazy běží nad celou datovou sadou, ne jen nad viditelnou částí tabulky. Gemini umí navrhnout plán a postavit záložku s grafy a kontingenčními tabulkami.",
+        "en": "On October 19, Google began rolling out conversational analysis of BigQuery data in Google Sheets: once connected through Connected Sheets, you ask Gemini in plain language and queries run over the full dataset, not just the visible part of the sheet. Gemini can propose a plan and build a tab with charts and pivot tables."
+      },
+      "why": {
+        "cs": "V tabulce připojené k BigQuery otevři boční panel Gemini a ptej se; potřebuješ oprávnění dotazovat připojená data. Funkce je zapnutá ve výchozím stavu, správce ji nevypne a zavádí se postupně do 15 dnů.",
+        "en": "In a spreadsheet connected to BigQuery, open the Gemini side panel and ask; you need permission to query the connected data. It is on by default, admins can’t turn it off, and it rolls out over up to 15 days."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "http://workspaceupdates.googleblog.com/2026/10/analyze-bigquery-data-using-natural-language-with-Gemini-in-Google-Sheets.html"
+        }
+      ],
+      "added": "2026-10-25",
       "used": null
     }
   ]

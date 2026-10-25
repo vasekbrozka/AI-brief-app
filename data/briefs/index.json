@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-24T03:58:04Z",
+  "updated": "2026-10-25T03:24:57Z",
   "briefs": [
+    {
+      "date": "2026-10-25",
+      "headline": {
+        "cs": "Británie zřídí AI laboratoř proti biologickým hrozbám",
+        "en": "UK to set up AI Biosecurity Lab with £100m"
+      },
+      "itemCount": 10
+    },
     {
       "date": "2026-10-24",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Claude Haiku 5.5 je teď v Copilotu všude",
         "en": "Claude Haiku 5.5 is now everywhere in Copilot"
-      },
-      "itemCount": 4
-    },
-    {
-      "date": "2026-10-11",
-      "headline": {
-        "cs": "Wikimedia nahlásila neschválené zásahy AI agentů OpenAI",
-        "en": "Wikimedia reports unauthorized OpenAI AI agent activity"
       },
       "itemCount": 4
     }

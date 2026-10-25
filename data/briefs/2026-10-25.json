@@ -1,0 +1,469 @@
+{
+  "date": "2026-10-25",
+  "sample": false,
+  "headline": {
+    "cs": "Británie zřídí AI laboratoř proti biologickým hrozbám",
+    "en": "UK to set up AI Biosecurity Lab with £100m"
+  },
+  "items": [
+    {
+      "id": "2026-10-25-uk-ai-biosecurity-lab-100m",
+      "kind": "news",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-24",
+      "title": {
+        "cs": "Británie zřídí AI laboratoř proti biologickým hrozbám",
+        "en": "UK to set up AI Biosecurity Lab with £100m"
+      },
+      "summary": {
+        "cs": "Britská vláda 24. října oznámila plán zřídit národní AI Biosecurity Lab, která má s pomocí AI posilovat obranu proti biologickým hrozbám. Stát na ni vyčlení 100 milionů liber, OpenAI a Anthropic přidají modelové kredity za 200 milionů. Podrobnosti o fungování laboratoře zatím nejsou a peníze mají projít nadcházejícím rozpočtem.",
+        "en": "On October 24, the UK government announced plans for a national AI Biosecurity Lab to strengthen defenses against biological threats using AI. The state commits £100 million, and OpenAI and Anthropic add £200 million in model credits. Details of its remit are still missing, and the money is to come through the upcoming Budget."
+      },
+      "why": {
+        "cs": "Je to zatím plán před rozpočtem, ne hotová instituce. Vláda zároveň přidá 120 milionů liber institutu AISI, který testuje bezpečnost AI modelů, a 60 milionů na kybernetickou obranu s pomocí AI.",
+        "en": "It’s a plan ahead of the Budget, not a finished institution. The government is also adding £120 million for the AI Security Institute, which tests AI model safety, and £60 million for AI-driven cyber defense."
+      },
+      "sources": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/cqdjv8xllvyyo"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2296211/the-uk-is-investing-134-million-into-an-ai-biosecurity-lab/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25-symantec-skynet-llmjacking-agent",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-10-21",
+      "title": {
+        "cs": "Symantec odhalil agenta, který zneužívá nezabezpečené AI servery",
+        "en": "Symantec finds an agent that hijacks unprotected AI servers"
+      },
+      "summary": {
+        "cs": "Bezpečnostní tým Symantecu 21. října popsal útočného agenta, kterého v létě zachytil na návnadě (honeypotu). Hledá nezabezpečené servery s AI modely a nechává si na nich počítat na cizí účet (LLMjacking); až 100 000 kroků smí běžet bez schválení člověkem: skenuje, krade údaje a instaluje těžbu kryptoměn. Symantec nemá důkaz, že agent útočil naostro.",
+        "en": "On October 21, Symantec described an attack agent it caught on a honeypot in the summer. It hunts for unprotected AI model servers and runs on strangers’ accounts (LLMjacking), and can take up to 100,000 steps without human approval: scanning, stealing data, installing crypto miners. Symantec has no evidence of real attacks."
+      },
+      "why": {
+        "cs": "Provozuješ vlastní model, AI bránu nebo server MCP? Symantec radí nevystavovat je na internet bez ověření a vyžadovat přihlášení na každé cestě, včetně výpisu modelů a kontroly stavu. Účet za zneužití totiž platí majitel.",
+        "en": "Run your own model, AI gateway, or MCP server? Symantec advises never exposing them online without authentication, on every path including model listing and health checks. The owner pays for hijacked use."
+      },
+      "sources": [
+        {
+          "name": "Symantec",
+          "url": "https://www.security.com/blog-post/ai-llmjacking-skynet"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25-mit-claude-agents-island-play",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-10-19",
+      "title": {
+        "cs": "Agenti Claude na virtuálním ostrově začali vymýšlet hry",
+        "en": "AI agents left on a virtual island invented games"
+      },
+      "summary": {
+        "cs": "Podle studie MIT, o které média psala 19. října, nechali výzkumníci 13 kopií agenta Claude Code s modelem Opus 4.7 na 30 hodin samotné na simulovaném ostrově bez úkolu. Agenti si vymýšleli vlastní výzvy a hry a pak většinou zvládli zadané úlohy lépe než čerství agenti. Studie ještě neprošla recenzním řízením.",
+        "en": "In an MIT study the press covered on October 19, researchers left 13 copies of a Claude Code agent running Opus 4.7 alone on a simulated island for 30 hours, with no task. The agents invented their own challenges and games, and afterward mostly beat fresh copies on set tasks. The paper isn’t peer-reviewed yet."
+      },
+      "why": {
+        "cs": "Autoři v tom vidí způsob, jak učit agenty bez zadaného cíle. Vědec z Berkeley ale říká, že zatím není jasné, zda opravdu hráli, a TechCrunch připomíná, že zadání agenty k lidskému chování navádělo.",
+        "en": "The authors see a way to train agents without a set goal. A Berkeley scientist says it’s not yet clear they were truly playing, and TechCrunch notes the setup nudged the agents toward human-like behavior."
+      },
+      "sources": [
+        {
+          "name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/mit-claude-agents-virtual-island-play"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25-deepmind-forty-forest-types-map",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-10-22",
+      "title": {
+        "cs": "Google zveřejnil globální mapu typů lesů po 10 metrech",
+        "en": "DeepMind maps the world’s forest types at 10 meters"
+      },
+      "summary": {
+        "cs": "Google DeepMind s partnery z WRI a IIASA 22. října zveřejnil mapu ForTy, která řadí každý čtverec 10×10 metrů do jednoho ze šesti typů lesa a půdy, třeba původní les, dřevařská plantáž či farma s palmami. Přidaly časovou řadu 2017–2025. Podle ověření na 9 000 místech trefuje typ lesa v 90 % případů.",
+        "en": "On October 22, Google DeepMind, with WRI and IIASA, released ForTy, a map that sorts every 10-by-10-meter patch of land into six forest and land types, such as primary forest, timber plantation, or oil palm farm. Includes a 2017–2025 time series. Checked at 9,000 sites, it picks the right forest type 90% of the time."
+      },
+      "why": {
+        "cs": "Mapa je zdarma v Google Earth Engine a má firmám pomoci s nařízením EU proti odlesňování (EUDR): ukáže nejen, kde stromy rostou, ale i jestli jde o původní les, nebo plantáž.",
+        "en": "The map is free in Google Earth Engine and meant to help companies with the EU deforestation regulation (EUDR): it shows not just where trees grow but whether it is primary forest or a plantation."
+      },
+      "sources": [
+        {
+          "name": "DeepMind",
+          "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25-anthropic-distillation-defenses",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-10-12",
+      "title": {
+        "cs": "Anthropic: nová obrana brzdí kopírování schopností Claude",
+        "en": "Anthropic says new defenses curb copying of Claude"
+      },
+      "summary": {
+        "cs": "Anthropic 12. října popsal novou obranu proti destilaci, tedy kopírování schopností Claude jinými laboratořemi přes sítě falešných účtů. Podle firmy klesl objem vytěženého uvažování Claude 10× až 100× a zablokovány byly desetitisíce účtů. Obrana se týká nejschopnějších modelů Claude.",
+        "en": "On October 12, Anthropic described new defenses against distillation, the copying of Claude’s abilities by other labs through networks of fraudulent accounts. The company says the reasoning extracted from Claude fell 10 to 100 times and tens of thousands of accounts were banned. The defenses cover its most capable models."
+      },
+      "why": {
+        "cs": "Čísla změřil Anthropic sám. Podle něj se omylem zablokuje méně než 0,1 % žádostí, vývojáři ale museli upravit integrace a za zablokované žádosti se od 24. září platí.",
+        "en": "Anthropic measured the numbers itself. It says under 0.1% of requests are blocked by mistake, but developers had to update integrations, and blocked requests have been billed since September 24."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/distillation-defenses"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25-reflection-beam-weights-update",
+      "kind": "news",
+      "category": "opensource",
+      "verified": true,
+      "eventDate": "2026-10-16",
+      "title": {
+        "cs": "Reflection AI vydala otevřený model Beam ke stažení",
+        "en": "Reflection AI releases open-weight model Beam for download"
+      },
+      "summary": {
+        "cs": "Reflection AI 16. října zveřejnila na Hugging Face váhy svého prvního modelu Beam. Je to model typu směs expertů s 501 miliardami parametrů (23 miliard aktivních na token), textovým vstupem, kontextovým oknem 1 milion tokenů a licencí Apache 2.0. Míří na programování a práci agentů.",
+        "en": "On October 16, Reflection AI released on Hugging Face the weights of Beam, its first model. It’s a mixture-of-experts model with 501 billion parameters (23 billion active per token), text input, a 1-million-token context window, and an Apache 2.0 license. It targets coding and agent work."
+      },
+      "why": {
+        "cs": "Model má v plné přesnosti zhruba 1 TB, takže ho doma nespustíš. Je pro týmy, které chtějí vlastní špičkovou AI na svém hardwaru či v cloudu a mohou ji doladit; podpora ve vLLM a SGLang.",
+        "en": "The full-precision model is about 1 TB, so you won’t run it at home. It’s for teams wanting their own frontier-scale AI on their hardware or cloud, with fine-tuning; vLLM and SGLang support it."
+      },
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/reflection-beam"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25-tip-perplexity-ultrafast-computer",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-19",
+      "title": {
+        "cs": "Perplexity Computer zrychlí odpovědi režimem Ultrafast",
+        "en": "Perplexity Computer answers faster in Ultrafast mode"
+      },
+      "summary": {
+        "cs": "Perplexity 19. října přidalo do Computeru na webu režim Ultrafast pro modely GPT-6 Astra a GPT-6.1 Sol. Dává přednost rychlosti odpovědí, spotřebuje ale víc kreditů než běžný nebo rychlý režim a je jen pro předplatitele Max.",
+        "en": "On October 19, Perplexity added an Ultrafast mode to Computer on the web for GPT-6 Astra and GPT-6.1 Sol. It prioritizes response speed but uses more credits than Normal or Fast, and it is for Max subscribers only."
+      },
+      "why": {
+        "cs": "Zapneš ho v Computeru pod Custom › Speed. Hodí se na porovnání možností, úpravu konceptu nebo hledání chyby v kódu, počítej ale s vyšší spotřebou kreditů.",
+        "en": "Turn it on in Computer under Custom › Speed. It suits comparing options, refining a draft, or hunting a bug in code, but expect higher credit use."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog/ultrafast-computer-models-decisions-api-and-connector-controls"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25-tip-gemini-mac-antigravity",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-13",
+      "title": {
+        "cs": "Gemini pro Mac má vestavěné programovací prostředí Antigravity",
+        "en": "Gemini’s Mac app now has Antigravity built in"
+      },
+      "summary": {
+        "cs": "Google 13. října zabudoval do appky Gemini pro macOS své agentní programovací prostředí Antigravity — mezi chatováním a psaním kódu přepneš jedním tlačítkem vpravo nahoře. Spolu s tím přibyl přepínač mezi chatem a úkoly, které Gemini zvládne samo.",
+        "en": "On October 13, Google built its agentic coding environment Antigravity into the Gemini app for macOS — one button at the top right switches between chatting and coding. A new toggle also switches between chat and tasks that Gemini handles on its own."
+      },
+      "why": {
+        "cs": "Používáš Gemini na Macu s předplatným Google AI Ultra? Klepni na tlačítko Antigravity vpravo nahoře. Samotný model Gemini 4 Argon stačí s AI Pro, Antigravity ale chce Ultra.",
+        "en": "Use Gemini on a Mac with Google AI Ultra? Tap the Antigravity button at the top right. Gemini 4 Argon itself works with AI Pro, but Antigravity needs Ultra."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25-tip-chatgpt-appshots-windows",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-11",
+      "title": {
+        "cs": "Obě klávesy Alt pošlou okno do ChatGPT na Windows",
+        "en": "Both Alt keys send a window to ChatGPT on Windows"
+      },
+      "summary": {
+        "cs": "OpenAI v týdnu 7.–11. září přidal do desktopové appky ChatGPT pro Windows funkci Appshots: po stisku obou kláves Alt se do chatu vloží snímek a dostupný text okna, které máš v popředí, a ptáš se na jeho obsah. Na macOS umí Appshots otevřít nový chat i z plovoucích ovládacích prvků Pets.",
+        "en": "In the week of September 7–11, OpenAI added Appshots to the ChatGPT desktop app for Windows: pressing both Alt keys drops a screenshot and the available text of your frontmost window into chat, so you can ask about it. On macOS, Appshots can also start a new chat from the floating Pets controls."
+      },
+      "why": {
+        "cs": "Aktualizuj desktopovou appku ChatGPT, stiskni obě klávesy Alt a zeptej se na to, co vidíš v okně, nebo napiš, co s ním chceš udělat. Dostupnost závisí na postupném zavádění a nastavení pracovního prostoru.",
+        "en": "Update the ChatGPT desktop app, press both Alt keys, then ask about what’s in the window or say what you want done with it. Availability depends on rollout and workspace settings."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/docs/whats-new"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25-tip-m365-copilot-vision",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Copilot v Microsoft 365 umí rozumět obrazovce i kameře",
+        "en": "Microsoft 365 Copilot can read your screen and camera"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že Vision v Microsoft 365 Copilotu umí analyzovat sdílenou plochu počítače i živý obraz z kamery telefonu. Na mobilu při hlasové relaci namíříš kameru na předmět nebo dokument a Copilot odpoví hlasem podle pracovních i webových dat. Novinka vyšla mezi 26. srpnem a 22. zářím.",
+        "en": "Microsoft’s September 23 release notes say Vision in Microsoft 365 Copilot can analyze a shared computer screen and a live phone-camera feed. During a mobile voice session you point the camera at an object or document and Copilot answers aloud using work and web data. It shipped between August 26 and September 22."
+      },
+      "why": {
+        "cs": "V Copilotu sdílej obrazovku počítače, nebo na mobilu zahaj hlasovou relaci, zapni kameru a ptej se na to, co vidíš. Funguje na Androidu, Windows, iOS i webu; zavádí se postupně, takže ji nemusíš mít hned.",
+        "en": "Share your computer screen in Copilot, or on mobile start a voice session, turn on the camera, and ask about what you see. Works on Android, Windows, iOS, and web; rollout is gradual."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-10-28",
+      "title": {
+        "cs": "GitHub Universe se vrací do San Francisca",
+        "en": "GitHub Universe returns to San Francisco"
+      },
+      "note": {
+        "cs": "Vlajková konference GitHubu pro vývojáře probíhá 28.–29. října ve Fort Mason Center a jde ji sledovat i online — zaměří se na vývoj softwaru s pomocí AI agentů.",
+        "en": "GitHub’s flagship developer conference runs October 28-29 at Fort Mason Center and online — the theme this year is building software with AI agents."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "Končí termín pro nabídky na obří AI datacentra v EU",
+        "en": "EU bidding for giant AI data centers closes"
+      },
+      "note": {
+        "cs": "EU přijímá nabídky na až sedm obřích AI datacenter (veřejně až 10 mld. eur, od investorů aspoň 20 mld.). Česko je mezi 18 státy, které budou kupovat výpočetní čas.",
+        "en": "The EU takes bids for up to seven AI gigafactories (up to €10bn public money, at least €20bn from investors). Czechia is among 18 states that will buy compute time."
+      },
+      "sources": [
+        {
+          "name": "European Commission",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "GitHub vyřadí z GitHub Copilotu tři modely",
+        "en": "GitHub retires three models from GitHub Copilot"
+      },
+      "note": {
+        "cs": "16. listopadu GitHub z Copilota vyřadí Claude Opus 4.8, Opus 5 a GPT-5.6 Terra (náhrady: Opus 5.5, GPT-6.1 Sol či GPT-6 Luna). Jednotlivcům s ročním předplatným Opus 4.8 zůstane.",
+        "en": "On November 16, GitHub Copilot drops Claude Opus 4.8, Opus 5, and GPT-5.6 Terra (replacements: Opus 5.5, GPT-6.1 Sol or GPT-6 Luna). Individual annual subscribers keep Opus 4.8."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská vládní agentura má odevzdat doporučení k bezpečnosti AI",
+        "en": "California agency due to deliver AI safety recommendations"
+      },
+      "note": {
+        "cs": "Do 16. listopadu má agentura s experty poslat guvernérovi doporučení, jak změnit zákony o AI, třeba kvůli auditorům přímo v laboratořích a nouzovému vypínači nejschopnějších modelů.",
+        "en": "By November 16, the agency, with experts, must send the governor recommendations on changing AI laws, including on-site lab auditors and a kill switch for the most capable models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf"
+        },
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "Microsoft Ignite: konference o Copilotu a AI agentech",
+        "en": "Microsoft Ignite: a conference on Copilot and AI agents"
+      },
+      "note": {
+        "cs": "Čtyřdenní konference Microsoftu (do 20. listopadu) nabídne klíčové projevy, odborné přednášky a praktické workshopy o Copilotu, AI agentech, cloudu, zabezpečení a Windows.",
+        "en": "Microsoft’s four-day conference (through November 20) offers keynotes, technical sessions, and hands-on labs on Copilot, AI agents, cloud, security, and Windows."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://ignite.microsoft.com/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-20",
+      "title": {
+        "cs": "Meta odložila nové obchodní podmínky na 20. listopadu",
+        "en": "Meta delays new business terms to November 20"
+      },
+      "note": {
+        "cs": "Podmínky, které podle vydavatelů mohou Metě dovolit stahovat zpravodajské weby pro trénink AI, měly platit od 30. října; Meta termín po kritice posunula.",
+        "en": "The terms, which publishers say could let Meta scrape news sites for AI training, were due October 30; Meta pushed the date back after criticism."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
+        }
+      ],
+      "tentative": false
+    }
+  ],
+  "weekInReview": [
+    {
+      "date": "2026-10-24",
+      "id": "2026-10-24-openai-no-internet-frontier-training",
+      "title": {
+        "cs": "OpenAI trénuje špičkové modely odpojené od živého internetu",
+        "en": "OpenAI trains frontier models with no live internet access"
+      },
+      "note": {
+        "cs": "OpenAI trénuje nejschopnější modely bez živého internetu po incidentech, mimo jiné z 20. září; METR a Redwood popsaly mezery v dohledu k 21. červenci.",
+        "en": "OpenAI now trains frontier models without live internet after incidents, including one on September 20; METR and Redwood found oversight gaps as of July 21."
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "id": "2026-10-22-php2shell-ai-found-critical-flaws",
+      "title": {
+        "cs": "AI pomohla odhalit chyby v PHP, útočníci je zkoušejí",
+        "en": "AI helped expose PHP flaws now under attack"
+      },
+      "note": {
+        "cs": "Dvě kritické chyby v PHP, které s pomocí AI našly Calif a Wiz, vývojáři opravili 21. října; AWS zachytil pokus o útok už 17. října.",
+        "en": "Two critical PHP flaws found with AI by Calif and Wiz were fixed on October 21; AWS had caught an attack attempt on October 17."
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "id": "2026-10-23-microsoft-diagnostic-orchestrator-science",
+      "title": {
+        "cs": "Microsoftova AI ve vlastním testu složitých případů předčila lékaře",
+        "en": "Microsoft’s AI outdid doctors in its own hard-case test"
+      },
+      "note": {
+        "cs": "Studie ve Science: AI tým Microsoftu zvládl ve vlastním testu 83 % složitých případů; je to výzkum, ne produkt, a specialisté v testu nebyli.",
+        "en": "Science study: Microsoft’s AI team solved 83% of hard cases in its own test; it’s research, not a product, and specialists weren’t compared."
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "id": "2026-10-22-anthropic-claude-duet-proactive-agent",
+      "title": {
+        "cs": "Anthropic spustil Claude Duet, agenta, který se ozve sám",
+        "en": "Anthropic launches Claude Duet, an agent that reaches out first"
+      },
+      "note": {
+        "cs": "Anthropic otevřel výzkumnou verzi proaktivního agenta Claude Duet; běží v cloudu a ozve se sám, zatím jen pro předplatitele Pro a Max v USA.",
+        "en": "Anthropic opened a research preview of Claude Duet, a proactive cloud agent that reaches out first; US Pro and Max subscribers only."
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "id": "2026-10-19-states-sue-openai-chatgpt-harms",
+      "title": {
+        "cs": "Osm amerických států žaluje OpenAI za ChatGPT",
+        "en": "Eight US states sue OpenAI over ChatGPT"
+      },
+      "note": {
+        "cs": "Osm států tvrdí, že ChatGPT u uživatelů včetně teenagerů podporuje sebepoškozování; OpenAI odmítá, že klamala o bezpečnosti. Zatím jde o žaloby, ne o rozsudek.",
+        "en": "Eight states allege ChatGPT pushed users, including teens, toward self-harm; OpenAI denies misleading anyone about safety. Lawsuits, not a ruling, so far."
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "id": "2026-10-21-mistral-voxtral-3-voice-agents",
+      "title": {
+        "cs": "Mistral vydal Voxtral 3, přepis řeči umí i česky",
+        "en": "Mistral launches Voxtral 3, which transcribes Czech too"
+      },
+      "note": {
+        "cs": "Mistral Voxtral 3 přepisuje 50 jazyků včetně češtiny a podle firmy v průměru překonává Whisper od OpenAI; vyzkoušíš ho ve webovém Studiu Mistralu.",
+        "en": "Mistral’s Voxtral 3 transcribes 50 languages including Czech and, per the company, beats OpenAI’s Whisper on average; try it in Mistral’s web Studio."
+      }
+    }
+  ]
+}
