@@ -191,7 +191,8 @@
       "aliases": [
         "MoE",
         "mixture of experts",
-        "směs expertů"
+        "směs expertů",
+        "mixture-of-experts"
       ],
       "short": {
         "cs": "Architektura složená z mnoha „expertů“, kde se pro každý dotaz zapojí jen část. Model je pak výkonný, ale levnější na provoz.",

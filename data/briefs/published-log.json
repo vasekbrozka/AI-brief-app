@@ -1793,53 +1793,53 @@
     {
       "slug": "2026-10-25-uk-ai-biosecurity-lab-100m",
       "date": "2026-10-25",
-      "topic": "Británie 24. 10. oznámila AI Biosecurity Lab (100 mil. liber; OpenAI a Anthropic modelové kredity za 200 mil.); navíc 120 mil. pro AISI a 60 mil. na kybernetický štít — plán před rozpočtem, podrobnosti chybí"
+      "topic": "Británie 24. 10. (GOV.UK) zřizuje AI Biosecurity Lab — nezávislá nezisková organizace; 100 mil. liber od státu, OpenAI a Anthropic kredity a podpora až za 200 mil.; podle BBC součást rozpočtu, navíc 120 mil. pro AISI a 60 mil. na kybernetický štít"
     },
     {
       "slug": "2026-10-25-symantec-skynet-llmjacking-agent",
       "date": "2026-10-25",
-      "topic": "Symantec 21. 10.: útočný agent hijackuje nezabezpečené AI servery (LLMjacking), až 100 000 kroků bez člověka; zachycen na honeypotu, reálné útoky nepotvrzeny; rada: žádné AI API/MCP bez ověření"
+      "topic": "Symantec 21. 10.: pokyny útočného agenta zachycené na honeypotu (léto 2026) — hijackuje nezabezpečené AI servery (LLMjacking), až 100 000 kroků bez člověka; skutečné útoky nedoloženy; rada: žádné AI API/MCP bez ověření"
     },
     {
       "slug": "2026-10-25-mit-claude-agents-island-play",
       "date": "2026-10-25",
-      "topic": "MIT (zprávy 19. 10.): 13 agentů Claude Code (Opus 4.7) na 30 h samotných na simulovaném ostrově vymýšlelo hry a pak většinou zvládlo úlohy lépe; preprint, Berkeley pochybuje, že šlo o hru"
+      "topic": "MIT (zprávy 19. 10.): 13 agentů Eko (Claude Opus 4.7) na 30 h samotných na simulovaném ostrově bez cíle vymýšlelo hry a pak většinou zvládlo úlohy lépe než nové kopie; preprint, vědkyně z Berkeley pochybuje, že šlo o hru"
     },
     {
       "slug": "2026-10-25-deepmind-forty-forest-types-map",
       "date": "2026-10-25",
-      "topic": "DeepMind+WRI+IIASA 22. 10.: mapa typů lesů ForTy 2020 (10 m, šest typů, 90 % správně) a časová řada 2017–2025, zdarma v Earth Engine; podklad pro EUDR"
+      "topic": "DeepMind+WRI+IIASA 22. 10.: mapa typů lesů ForTy 2020 (10 m, šest typů, 90 % správně na 9 000 místech) a předběžná časová řada 2017–2025, zdarma v Earth Engine; podklad pro EUDR"
     },
     {
       "slug": "2026-10-25-anthropic-distillation-defenses",
       "date": "2026-10-25",
-      "topic": "Anthropic 12. 10.: nová obrana proti destilaci Claude (klasifikátor, preserved thinking) — vytěžené uvažování 10–100× méně, desetitisíce účtů zablokováno, blokované žádosti se od 24. 9. účtují"
+      "topic": "Anthropic 12. 10.: nová obrana proti destilaci Claude (klasifikátor, preserved thinking) — odhadem 10–100× méně vytěženého uvažování, desetitisíce účtů zablokováno, falešné poplachy <0,1 %, blokované žádosti se od 24. 9. účtují"
     },
     {
       "slug": "2026-10-25-reflection-beam-weights-update",
       "date": "2026-10-25",
-      "topic": "Reflection AI 16. 10. zveřejnila na Hugging Face váhy modelu Beam (501B MoE, 23B aktivních, 1M kontext, Apache 2.0); navazuje na ohlášení z 5. 10."
+      "topic": "Reflection AI 16. 10. zveřejnila na Hugging Face otevřené váhy modelu Beam (501B MoE, 23B aktivních, 1M kontext, Apache 2.0, ~1 TB; poskytovatelé Baseten, Fireworks, Together); navazuje na díl z 7. 10."
     },
     {
       "slug": "2026-10-25-tip-perplexity-ultrafast-computer",
       "date": "2026-10-25",
-      "topic": "tip: Perplexity Computer — režim Ultrafast pro GPT-6 Astra a 6.1 Sol (předplatitelé Max, 19. 10.)"
+      "topic": "tip: Perplexity Computer — režim Ultrafast pro GPT-6 Astra a 6.1 Sol (jen web, předplatitelé Max, 19. 10.)"
     },
     {
       "slug": "2026-10-25-tip-gemini-mac-antigravity",
       "date": "2026-10-25",
-      "topic": "tip: Gemini pro macOS — Antigravity jedním tlačítkem (od 13. 10., chce Ultra), přepínač chat/úkoly"
+      "topic": "tip: Gemini pro macOS s modelem Gemini 4 Argon — Antigravity jedním tlačítkem (od 13. 10., chce Ultra), přepínač chat/úkoly"
     },
     {
       "slug": "2026-10-25-tip-chatgpt-appshots-windows",
       "date": "2026-10-25",
-      "topic": "tip: ChatGPT pro Windows — Appshots (obě klávesy Alt) pošle snímek a text okna do chatu (týden 7.–11. 9.)"
+      "topic": "tip: ChatGPT pro Windows — Appshots (obě klávesy Alt) pošle snímek a text okna do chatu (týden 7.–11. 9.; pozor na citlivý obsah)"
     },
     {
       "slug": "2026-10-25-tip-m365-copilot-vision",
       "date": "2026-10-25",
-      "topic": "tip: Vision v Microsoft 365 Copilotu — sdílená obrazovka a kamera telefonu (poznámky k vydání z 23. 9.)"
+      "topic": "tip: Vision v Microsoft 365 Copilotu — sdílená obrazovka a kamera telefonu (poznámky k vydání z 23. 9.; licenci zdroj neuvádí)"
     }
   ],
-  "updated": "2026-10-25T03:24:57Z"
+  "updated": "2026-10-25T04:00:45Z"
 }

@@ -85,7 +85,7 @@ T1_DOMAINS = [
     "inceptionlabs.ai", "brave.com", "character.ai", "norforge.com", "claroc.io", "spotify.com",
     "php.net", "recursive.com", "blog.youtube",
     "1password.com", "radicalnumerics.ai", "microsoft.ai", "linuxfoundation.org",
-    "kimi.ai", "block.xyz", "security.com",
+    "kimi.ai", "block.xyz", "security.com", "gov.uk",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.

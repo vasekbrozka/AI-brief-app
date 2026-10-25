@@ -3523,12 +3523,12 @@
         "en": "Gemini’s Mac app now has Antigravity built in"
       },
       "summary": {
-        "cs": "Google 13. října zabudoval do appky Gemini pro macOS své agentní programovací prostředí Antigravity — mezi chatováním a psaním kódu přepneš jedním tlačítkem vpravo nahoře. Spolu s tím přibyl přepínač mezi chatem a úkoly, které Gemini zvládne samo.",
-        "en": "On October 13, Google built its agentic coding environment Antigravity into the Gemini app for macOS — one button at the top right switches between chatting and coding. A new toggle also switches between chat and tasks that Gemini handles on its own."
+        "cs": "Google 13. října spolu s modelem Gemini 4 Argon zabudoval do appky Gemini pro macOS své agentní programovací prostředí Antigravity — mezi chatováním a psaním kódu přepneš jedním tlačítkem vpravo nahoře. Přibyl i přepínač mezi chatem a úkoly, které Gemini zvládne samo.",
+        "en": "On October 13, together with the Gemini 4 Argon model, Google built its agentic coding environment Antigravity into the Gemini app for macOS — one button at the top right switches between chatting and coding. A new toggle also switches between chat and tasks that Gemini handles on its own."
       },
       "why": {
-        "cs": "Používáš Gemini na Macu s předplatným Google AI Ultra? Klepni na tlačítko Antigravity vpravo nahoře. Samotný model Gemini 4 Argon stačí s AI Pro, Antigravity ale chce Ultra.",
-        "en": "Use Gemini on a Mac with Google AI Ultra? Tap the Antigravity button at the top right. Gemini 4 Argon itself works with AI Pro, but Antigravity needs Ultra."
+        "cs": "Používáš Gemini na Macu? Aktualizuj appku a klikni na tlačítko Antigravity vpravo nahoře. Podle 9to5Google Antigravity vyžaduje předplatné Google AI Ultra; samotný model Gemini 4 Argon podle Googlu stačí s AI Pro.",
+        "en": "Use Gemini on a Mac? Update the app and click the Antigravity button at the top right. Per 9to5Google, Antigravity requires Google AI Ultra; Gemini 4 Argon itself, Google says, works with AI Pro."
       },
       "sources": [
         {
@@ -3767,16 +3767,16 @@
       "verified": true,
       "eventDate": "2026-09-23",
       "title": {
-        "cs": "Copilot v Microsoft 365 umí rozumět obrazovce i kameře",
-        "en": "Microsoft 365 Copilot can read your screen and camera"
+        "cs": "Copilot v Microsoft 365 umí analyzovat obrazovku i kameru",
+        "en": "Microsoft 365 Copilot can analyze your screen and camera"
       },
       "summary": {
         "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že Vision v Microsoft 365 Copilotu umí analyzovat sdílenou plochu počítače i živý obraz z kamery telefonu. Na mobilu při hlasové relaci namíříš kameru na předmět nebo dokument a Copilot odpoví hlasem podle pracovních i webových dat. Novinka vyšla mezi 26. srpnem a 22. zářím.",
         "en": "Microsoft’s September 23 release notes say Vision in Microsoft 365 Copilot can analyze a shared computer screen and a live phone-camera feed. During a mobile voice session you point the camera at an object or document and Copilot answers aloud using work and web data. It shipped between August 26 and September 22."
       },
       "why": {
-        "cs": "V Copilotu sdílej obrazovku počítače, nebo na mobilu zahaj hlasovou relaci, zapni kameru a ptej se na to, co vidíš. Funguje na Androidu, Windows, iOS i webu; zavádí se postupně, takže ji nemusíš mít hned.",
-        "en": "Share your computer screen in Copilot, or on mobile start a voice session, turn on the camera, and ask about what you see. Works on Android, Windows, iOS, and web; rollout is gradual."
+        "cs": "Jde o Microsoft 365 Copilot; licenci poznámky k vydání neuvádějí. Sdílej obrazovku počítače, nebo na mobilu zahaj hlasovou relaci, zapni kameru a ptej se. Platí pro Android, Windows, iOS i web; zavádí se postupně.",
+        "en": "It’s Microsoft 365 Copilot; release notes name no license. Share your screen, or on mobile start a voice session, turn on the camera, and ask. Rolling out gradually on Android, Windows, iOS, and web."
       },
       "sources": [
         {
@@ -3794,16 +3794,16 @@
       "verified": true,
       "eventDate": "2026-10-19",
       "title": {
-        "cs": "Perplexity Computer zrychlí odpovědi režimem Ultrafast",
-        "en": "Perplexity Computer answers faster in Ultrafast mode"
+        "cs": "Perplexity Computer dostal režim Ultrafast",
+        "en": "Perplexity Computer gets an Ultrafast mode"
       },
       "summary": {
-        "cs": "Perplexity 19. října přidalo do Computeru na webu režim Ultrafast pro modely GPT-6 Astra a GPT-6.1 Sol. Dává přednost rychlosti odpovědí, spotřebuje ale víc kreditů než běžný nebo rychlý režim a je jen pro předplatitele Max.",
-        "en": "On October 19, Perplexity added an Ultrafast mode to Computer on the web for GPT-6 Astra and GPT-6.1 Sol. It prioritizes response speed but uses more credits than Normal or Fast, and it is for Max subscribers only."
+        "cs": "Předplatitelé Max mohou od 19. října v Perplexity Computeru na webu zapnout režim Ultrafast pro modely GPT-6 Astra a GPT-6.1 Sol. Dává přednost rychlosti odpovědí, spotřebuje ale víc kreditů než běžný nebo rychlý režim.",
+        "en": "Since October 19, Max subscribers can turn on Ultrafast mode in Perplexity Computer on the web for GPT-6 Astra and GPT-6.1 Sol. It prioritizes response speed but uses more credits than Normal or Fast."
       },
       "why": {
-        "cs": "Zapneš ho v Computeru pod Custom › Speed. Hodí se na porovnání možností, úpravu konceptu nebo hledání chyby v kódu, počítej ale s vyšší spotřebou kreditů.",
-        "en": "Turn it on in Computer under Custom › Speed. It suits comparing options, refining a draft, or hunting a bug in code, but expect higher credit use."
+        "cs": "Funguje jen na webu: vyber GPT-6 Astra nebo 6.1 Sol a pod Custom › Speed zvol Ultrafast. Perplexity navrhuje vyzkoušet třeba porovnání možností, úpravu konceptu nebo hledání chyby v kódu; počítej s vyšší spotřebou kreditů.",
+        "en": "Web only: pick GPT-6 Astra or 6.1 Sol, then choose Ultrafast under Custom › Speed. Perplexity suggests comparing options, refining a draft, or debugging code; expect higher credit use."
       },
       "sources": [
         {
@@ -3996,12 +3996,12 @@
         "en": "Both Alt keys send a window to ChatGPT on Windows"
       },
       "summary": {
-        "cs": "OpenAI v týdnu 7.–11. září přidal do desktopové appky ChatGPT pro Windows funkci Appshots: po stisku obou kláves Alt se do chatu vloží snímek a dostupný text okna, které máš v popředí, a ptáš se na jeho obsah. Na macOS umí Appshots otevřít nový chat i z plovoucích ovládacích prvků Pets.",
-        "en": "In the week of September 7–11, OpenAI added Appshots to the ChatGPT desktop app for Windows: pressing both Alt keys drops a screenshot and the available text of your frontmost window into chat, so you can ask about it. On macOS, Appshots can also start a new chat from the floating Pets controls."
+        "cs": "OpenAI v týdnu 7.–11. září přidal do desktopové appky ChatGPT pro Windows funkci Appshots: po stisku obou kláves Alt najednou se do chatu vloží snímek a dostupný text okna, které máš v popředí, a ptáš se na jeho obsah.",
+        "en": "In the week of September 7–11, OpenAI added Appshots to the ChatGPT desktop app for Windows: pressing both Alt keys at once drops a screenshot and the available text of your frontmost window into chat, so you can ask about it."
       },
       "why": {
-        "cs": "Aktualizuj desktopovou appku ChatGPT, stiskni obě klávesy Alt a zeptej se na to, co vidíš v okně, nebo napiš, co s ním chceš udělat. Dostupnost závisí na postupném zavádění a nastavení pracovního prostoru.",
-        "en": "Update the ChatGPT desktop app, press both Alt keys, then ask about what’s in the window or say what you want done with it. Availability depends on rollout and workspace settings."
+        "cs": "Aktualizuj ChatGPT, stiskni obě klávesy Alt a ptej se na okno. OpenAI radí nesdílet citlivý obsah; u Google Docs či Gmailu může dorazit jen viditelný snímek. Dostupnost závisí na zavádění a nastavení; předplatné zdroj neuvádí.",
+        "en": "Update ChatGPT, press both Alt keys, ask about the window. OpenAI warns against sharing sensitive content; Google Docs or Gmail may send only the visible screenshot. Rollout and settings decide availability; no plan is named."
       },
       "sources": [
         {
