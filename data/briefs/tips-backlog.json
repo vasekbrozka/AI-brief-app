@@ -1,80 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-gemini-waze",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": false,
-      "title": {
-        "cs": "Waze si s Gemini rozumí běžnou řečí",
-        "en": "Waze gets conversational with Gemini"
-      },
-      "summary": {
-        "cs": "Waze dostal nové funkce s Gemini — dopravní situace nahlásíš běžnou řečí, konverzačně navrhneš i úpravy mapy, a motorkáři mají vlastní režim s trasami šitými na míru. Google to vydal 13. července.",
-        "en": "Waze picked up new Gemini features — report traffic incidents in plain speech, suggest map updates conversationally, and motorcyclists get their own mode with routes tailored to them. Google shipped it on July 13."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/waze/waze-updates-gemini-motorcycle-mode/"
-        }
-      ],
-      "added": "2026-07-26",
-      "used": "2026-07-27"
-    },
-    {
-      "slug": "tip-chatgpt-connectors",
-      "category": "tools",
-      "theme": "chatgpt",
-      "verified": false,
-      "title": {
-        "cs": "ChatGPT si konektory řídí sám",
-        "en": "ChatGPT now manages its connectors itself"
-      },
-      "summary": {
-        "cs": "ChatGPT teď sám pozná, kdy a který konektor použít — nemusíš je zapínat v každém novém chatu. Data z GitHubu, SharePointu, Dropboxu a Boxu si navíc umí předem synchronizovat, takže odpovídá rychleji a přesněji. OpenAI to vylepšilo v červenci.",
-        "en": "ChatGPT now decides on its own when and which connector to use — no more turning them on in every new chat. It can also sync data from GitHub, SharePoint, Dropbox, and Box ahead of time, so answers come faster and more accurately. OpenAI improved this in July."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-        },
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/products/release-notes/"
-        }
-      ],
-      "added": "2026-07-27",
-      "used": "2026-07-27"
-    },
-    {
-      "slug": "tip-copilot-sonnet5",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": true,
-      "title": {
-        "cs": "V Copilotu se objevuje Claude Sonnet 5",
-        "en": "Claude Sonnet 5 arrives in Microsoft 365 Copilot"
-      },
-      "summary": {
-        "cs": "Do Microsoft 365 Copilotu se postupně dostává Claude Sonnet 5 — vedle modelů OpenAI si tak pro svou práci vybereš i model od Anthropicu. Microsoft to rolluje v červenci.",
-        "en": "Claude Sonnet 5 is rolling out in Microsoft 365 Copilot — alongside OpenAI's models you can now pick an Anthropic model for your work too. The rollout runs through July."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        },
-        {
-          "name": "Microsoft",
-          "url": "https://techcommunity.microsoft.com/blog/microsoftmechanicsblog/claude--gpt--multi-model-intelligence-in-copilot/4509773"
-        }
-      ],
-      "added": "2026-07-27",
-      "used": "2026-07-27"
-    },
-    {
       "slug": "tip-claude-mobile-apps",
       "category": "tools",
       "theme": "claude",
@@ -4026,8 +3952,8 @@
         "en": "On October 19, Google began rolling out conversational analysis of BigQuery data in Google Sheets: once connected through Connected Sheets, you ask Gemini in plain language and queries run over the full dataset, not just the visible part of the sheet. Gemini can propose a plan and build a tab with charts and pivot tables."
       },
       "why": {
-        "cs": "V tabulce připojené k BigQuery otevři boční panel Gemini a ptej se; potřebuješ oprávnění dotazovat připojená data. Funkce je zapnutá ve výchozím stavu, správce ji nevypne a zavádí se postupně do 15 dnů.",
-        "en": "In a spreadsheet connected to BigQuery, open the Gemini side panel and ask; you need permission to query the connected data. It is on by default, admins can’t turn it off, and it rolls out over up to 15 days."
+        "cs": "V tabulce připojené k BigQuery otevři boční panel Gemini a ptej se (potřebuješ oprávnění k datům). Platí pro Business a Enterprise Standard a Plus a pro Google AI Pro a Ultra; zavádí se postupně.",
+        "en": "Open the Gemini side panel in a spreadsheet connected to BigQuery and ask (data permission needed). Available with Business and Enterprise Standard and Plus, Google AI Pro and Ultra; rolling out gradually."
       },
       "sources": [
         {
@@ -4036,6 +3962,118 @@
         }
       ],
       "added": "2026-10-25",
+      "used": "2026-10-26"
+    },
+    {
+      "slug": "tip-ollama-phonon-speech",
+      "category": "tools",
+      "theme": "local",
+      "added": "2026-10-26",
+      "verified": true,
+      "eventDate": "2026-10-24",
+      "title": {
+        "cs": "Ollama na Macu čte text nahlas modelem Phonon",
+        "en": "Ollama on Mac can read text aloud with Phonon"
+      },
+      "summary": {
+        "cs": "Ollama 24. října přidala syntézu řeči: první model Phonon od firmy Gradium čte text nahlas lokálně na Macu s Apple Silicon. Odpověď jiného modelu mu předáš rourou a mluvit začne po první větě; funguje i přes API kompatibilní s OpenAI. Windows a Linux mají přijít později.",
+        "en": "On October 24, Ollama added speech synthesis: the first model, Phonon from Gradium, reads text aloud locally on a Mac with Apple Silicon. You can pipe another model’s reply into it and it starts speaking after the first sentence; it also works through an OpenAI-compatible API. Windows and Linux are to follow."
+      },
+      "why": {
+        "cs": "Na Macu s Apple Silicon nainstaluj Ollamu 0.40.11 nebo novější, spusť ollama pull phonon a pak ollama run phonon s textem. Česky model nemluví (umí angličtinu, francouzštinu, němčinu, španělštinu a portugalštinu).",
+        "en": "On a Mac with Apple Silicon, install Ollama 0.40.11 or newer, run ollama pull phonon, then ollama run phonon with your text. It doesn’t speak Czech (English, French, German, Spanish, and Portuguese only)."
+      },
+      "sources": [
+        {
+          "name": "Ollama",
+          "url": "https://ollama.com/blog/speech-models"
+        }
+      ],
+      "used": "2026-10-26"
+    },
+    {
+      "slug": "tip-chatgpt-voice-files-projects",
+      "category": "tools",
+      "theme": "chatgpt",
+      "added": "2026-10-26",
+      "verified": true,
+      "eventDate": "2026-08-07",
+      "title": {
+        "cs": "Hlasový ChatGPT teď umí probírat soubory a projekty",
+        "en": "ChatGPT Voice can now talk through files and projects"
+      },
+      "summary": {
+        "cs": "OpenAI v týdnu 3.–7. srpna rozšířil ChatGPT Voice o nahrané soubory a Projekty: během hlasového rozhovoru se ptáš na dokument, nebo navážeš na projekt s jeho posledními chaty, zdroji a pokyny. Příklad z oznámení: vysvětli nahlas hlavní kompromisy z nahraného podkladu a porovnej je se zdroji v projektu.",
+        "en": "In the week of August 3–7, OpenAI extended ChatGPT Voice to uploaded files and Projects: in a voice conversation you ask about a document, or continue a project using its recent chats, sources, and instructions. The announcement’s example: explain an uploaded brief’s main tradeoffs out loud and compare them with the project’s sources."
+      },
+      "why": {
+        "cs": "Hlasový chat spustíš v desktopové appce ChatGPT (Start voice chat); Voice je v plánech Plus, Pro, Business, Edu a Enterprise. Dostupnost závisí na zavádění a nastavení pracovního prostoru.",
+        "en": "Start a voice chat in the ChatGPT desktop app (Start voice chat); Voice is in the Plus, Pro, Business, Edu, and Enterprise plans. Availability depends on rollout and workspace settings."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/docs/whats-new"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/codex/features/voice"
+        }
+      ],
+      "used": "2026-10-26"
+    },
+    {
+      "slug": "tip-github-copilot-teams",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-10-26",
+      "verified": true,
+      "eventDate": "2026-10-23",
+      "title": {
+        "cs": "GitHub v Teams z hlášení chyby udělá pull request",
+        "en": "GitHub in Teams turns bug reports into pull requests"
+      },
+      "summary": {
+        "cs": "GitHub 23. října představil v Microsoft Teams sloučenou aplikaci GitHub (dřív GitHub notifications) s Copilotem: v kanálu nebo chatu dostaneš upozornění a po zmínce @github prošetří problém, opraví chybu a vytvoří pull request. Tým ho pak zkontroluje, otestuje a sloučí.",
+        "en": "On October 23, GitHub introduced a consolidated GitHub app in Microsoft Teams (formerly GitHub notifications) with Copilot: you get notifications in a channel or chat, and when you @mention @github it investigates the issue, fixes the bug, and opens a pull request. Your team then reviews, tests, and merges it."
+      },
+      "why": {
+        "cs": "Aktualizuj aplikaci GitHub v Teams, napiš @github, připoj účet a vyber repozitář. Starší aplikace GitHub se přejmenuje na GitHub (deprecated) a 16. listopadu končí. Plán Copilotu zdroj neuvádí.",
+        "en": "Update the GitHub app in Teams, mention @github, connect your account, and pick a repository. The legacy GitHub app is renamed GitHub (deprecated) and retires on November 16. The source names no Copilot plan."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams"
+        }
+      ],
+      "used": "2026-10-26"
+    },
+    {
+      "slug": "tip-m365-copilot-find-meetings",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Copilot najde schůzky podle tématu nebo klíčového slova",
+        "en": "Copilot finds meetings by topic or keyword"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že Copilot umí hledat schůzky podle tématu či klíčových slov, a to i v těle pozvánky, v chatu a v přepisu. Přepisy prohledává u schůzek z posledních dvou měsíců. Funkce míří na Android, Windows, iOS a Mac.",
+        "en": "Microsoft’s September 23 release notes say Copilot can find meetings by topic or keyword, including in the invitation body, chat, and transcript. Transcripts are searched for meetings from the last two months. The feature is aimed at Android, Windows, iOS, and Mac."
+      },
+      "why": {
+        "cs": "Otevři Copilota, zadej téma nebo klíčové slovo a z nabídnutých schůzek vyber tu, kterou hledáš, včetně souvisejícího obsahu. Zavádí se postupně; potřebnou licenci zdroj neuvádí.",
+        "en": "Open Copilot, enter a topic or keyword, and pick the meeting you want from the results, with its related content. It rolls out gradually; the source names no license."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "added": "2026-10-26",
       "used": null
     }
   ]

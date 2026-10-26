@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "terms": [
     {
       "id": "quantization",
@@ -721,6 +721,60 @@
       "short": {
         "cs": "Nařízení EU o produktech bez odlesňování: káva, kakao, palmový olej či dřevo nesmějí pocházet z půdy, která byla v roce 2020 lesem a od té doby se z ní stala farma nebo plantáž.",
         "en": "The EU regulation on deforestation-free products: coffee, cocoa, palm oil, or wood must not come from land that was forest in 2020 and has since become a farm or plantation."
+      }
+    },
+    {
+      "id": "qubit",
+      "term": {
+        "cs": "Qubit",
+        "en": "Qubit"
+      },
+      "aliases": [
+        "qubit",
+        "qubity",
+        "qubitů",
+        "qubitech",
+        "qubitem",
+        "qubits"
+      ],
+      "short": {
+        "cs": "Základní jednotka kvantového počítače. Na rozdíl od bitu (0 nebo 1) může být qubit v kombinaci obou stavů najednou; čím víc kvalitních qubitů stroj má, tím složitější úlohy zvládne.",
+        "en": "The basic unit of a quantum computer. Unlike a bit (0 or 1), a qubit can be in a combination of both states at once; more good qubits let a machine handle harder tasks."
+      }
+    },
+    {
+      "id": "quantum-circuit",
+      "term": {
+        "cs": "Kvantový obvod",
+        "en": "Quantum circuit"
+      },
+      "aliases": [
+        "kvantový obvod",
+        "kvantové obvody",
+        "kvantových obvodů",
+        "kvantovým obvodům",
+        "kvantových obvodech",
+        "kvantovými obvody",
+        "quantum circuit",
+        "quantum circuits"
+      ],
+      "short": {
+        "cs": "Předpis pro kvantový počítač: posloupnost jednoduchých operací (hradel) nad qubity, ze které se skládají kvantové algoritmy. Čím méně hradel a qubitů obvod potřebuje, tím spíš ho reálný stroj zvládne.",
+        "en": "A recipe for a quantum computer: a sequence of simple operations (gates) on qubits that quantum algorithms are built from. The fewer gates and qubits needed, the likelier a real machine can run it."
+      }
+    },
+    {
+      "id": "gemini-tiers",
+      "term": {
+        "cs": "Modely Gemini: Flash-Lite, Flash, Pro",
+        "en": "Gemini models: Flash-Lite, Flash, Pro"
+      },
+      "aliases": [
+        "Flash-Lite"
+      ],
+      "short": {
+        "cs": "Gemini má modely různé síly: Flash-Lite je nejrychlejší a nejlevnější, Flash o stupeň silnější a Pro je určený pro složitější uvažování a práci s dokumenty.",
+        "en": "Gemini comes in models of different strength: Flash-Lite is the fastest and cheapest, Flash a step up, and Pro is built for harder reasoning and work with documents."
       }
     }
   ]

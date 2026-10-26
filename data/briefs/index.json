@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-25T04:00:45Z",
+  "updated": "2026-10-26T03:54:45Z",
   "briefs": [
+    {
+      "date": "2026-10-26",
+      "headline": {
+        "cs": "Google AI Plus od 13. listopadu bez modelů Pro",
+        "en": "Google AI Plus loses Pro models on November 13"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-10-25",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Google brings Skills to the personal Gemini app"
       },
       "itemCount": 3
-    },
-    {
-      "date": "2026-10-12",
-      "headline": {
-        "cs": "Claude Haiku 5.5 je teď v Copilotu všude",
-        "en": "Claude Haiku 5.5 is now everywhere in Copilot"
-      },
-      "itemCount": 4
     }
   ]
 }

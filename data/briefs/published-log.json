@@ -606,26 +606,6 @@
       "topic": "Gemini Live 26.8. propojen se Sparkem — víceúkolové hlasové zadání, denní přehled, hands-free Gmail; Spark=AI Pro+, denní přehled=Plus+"
     },
     {
-      "slug": "2026-08-26-apple-m6-m5-ultra-mac",
-      "date": "2026-08-26",
-      "topic": "Apple 25. 8. představil čip M6 (Mac mini, první 2nm, AI výkon 4×) a M5 Ultra (Mac Studio, 4,3× AI výkon M3 Ultra); Mac mini od 899 USD"
-    },
-    {
-      "slug": "2026-08-26-openai-chris-malone-exit",
-      "date": "2026-08-26",
-      "topic": "OpenAI přišlo o šéfa datových center Chrise Malonea — 13. výraznější odchod z vedení letos (po Dresser, Lightcap, Simo)"
-    },
-    {
-      "slug": "2026-08-26-perplexity-portable-computer",
-      "date": "2026-08-26",
-      "topic": "Perplexity spustilo Portable Computer — agent běžící celý lokálně na NVIDIA DGX Spark, bez kreditů za lokální úlohy, Pro/Max"
-    },
-    {
-      "slug": "2026-08-26-tip-claude-remote-control",
-      "date": "2026-08-26",
-      "topic": "tip: Remote Control u Claude Code vyšlo z bety — session z počítače dokončíš na mobilu, kód zůstává lokálně"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -1839,7 +1819,62 @@
       "slug": "2026-10-25-tip-m365-copilot-vision",
       "date": "2026-10-25",
       "topic": "tip: Vision v Microsoft 365 Copilotu — sdílená obrazovka a kamera telefonu (poznámky k vydání z 23. 9.; licenci zdroj neuvádí)"
+    },
+    {
+      "slug": "2026-10-26-google-ai-plus-loses-pro-update",
+      "date": "2026-10-26",
+      "topic": "Google AI Plus: e-mail předplatitelům (9to5Google 14. 10.) — od 13. 11. jen Flash a Flash-Lite, výběr Pro od AI Pro výš; nápověda Google: účty zdarma od 9. 10. automatický výběr modelu (většinou Flash-Lite, těžší Flash/Pro) — upřesnění k 10. 10."
+    },
+    {
+      "slug": "2026-10-26-claude-designs-quantum-circuits",
+      "date": "2026-10-26",
+      "topic": "Anthropic+Harvard+QuEra 16. 10.: Claude Mythos 5 ve smyčce s ověřovacím programem navrhl kvantové obvody pro 8 úloh (chemie, optimalizace, fyzika, teorie čísel), většinou lepší než publikované, někdy o řád a víc; ověřeno na běžném počítači"
+    },
+    {
+      "slug": "2026-10-26-deepseek-v4-1-flash-1017-update",
+      "date": "2026-10-26",
+      "topic": "DeepSeek 17. 10. vydal V4.1-Flash-1017 (drobná aktualizace, váhy MIT na Hugging Face, rychlejší a stručnější); Search/Fetch přes API zdarma do 31. 10., pak placené"
+    },
+    {
+      "slug": "2026-10-26-flux-3-image-klein-open-weights",
+      "date": "2026-10-26",
+      "topic": "Black Forest Labs 15. 10.: FLUX.3 Image Klein (5,6B, otevřené váhy, tvorba i úpravy obrázků, až 10 referencí, rozložení rámečky; FLUX Kommunity License s výjimkou pro komerční výstupy); doporučen pomocný model na rozšíření promptu (9B)"
+    },
+    {
+      "slug": "2026-10-26-china-ai-export-rules-deepseek-minimax",
+      "date": "2026-10-26",
+      "topic": "Čína (polovina 10.) navrhla vývozní omezení 23 AI technologií (velké modely, agenti, clustery; open-source výjimka); státní média 22.–23. 10.: DeepSeek a MiniMax dokončily vývozní registraci (The Register 26. 10., SCMP 23. 10.)"
+    },
+    {
+      "slug": "2026-10-26-elvis-presley-rights-holders-sue-anthropic",
+      "date": "2026-10-26",
+      "topic": "Authentic Brands Group a další držitelé práv k Elvisovi žalují Anthropic (23. 10., federální soud v San Franciscu): 274 písní, 150 000 USD za skladbu; Anthropic se hodlá bránit"
+    },
+    {
+      "slug": "2026-10-26-anthropic-expectations-gap-survey",
+      "date": "2026-10-26",
+      "topic": "Anthropic 16. 10.: očekávání o AI — 91 % zaměstnanců vs 39 % dospělých Američanů čeká Nobelův objev do 2030, 75 % vs 28 % vlastní práce; obě skupiny spojují automatizaci s nezaměstnaností; druhá zpráva k studii o zaměstnání z 19. 10."
+    },
+    {
+      "slug": "2026-10-26-tip-ollama-phonon-speech",
+      "date": "2026-10-26",
+      "topic": "tip: Ollama Phonon — čtení textu nahlas lokálně na Macu s Apple Silicon (24. 10., ollama pull phonon; angličtina, francouzština, němčina, španělština, portugalština, česky ne)"
+    },
+    {
+      "slug": "2026-10-26-tip-gemini-sheets-bigquery",
+      "date": "2026-10-26",
+      "topic": "tip: Gemini v Google Sheets nad daty z BigQuery (od 19. 10.; Connected Sheets, boční panel Gemini; Business/Enterprise Standard+, AI Pro/Ultra)"
+    },
+    {
+      "slug": "2026-10-26-tip-chatgpt-voice-files-projects",
+      "date": "2026-10-26",
+      "topic": "tip: ChatGPT Voice s nahranými soubory a Projekty (týden 3.–7. 8.; desktopová appka, plány Plus a výš)"
+    },
+    {
+      "slug": "2026-10-26-tip-github-copilot-teams",
+      "date": "2026-10-26",
+      "topic": "tip: GitHub v Microsoft Teams — @github z hlášení chyby udělá pull request (23. 10.; starší appka GitHub končí 16. 11.; plán Copilotu zdroj neuvádí)"
     }
   ],
-  "updated": "2026-10-25T04:00:45Z"
+  "updated": "2026-10-26T03:54:45Z"
 }

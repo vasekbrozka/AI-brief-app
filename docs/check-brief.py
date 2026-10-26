@@ -105,6 +105,7 @@ T2_DOMAINS = [
     "vox.com", "scmp.com", "nikkei.com", "calmatters.org", "statnews.com",
     "seznamzpravy.cz", "irozhlas.cz", "ceskatelevize.cz", "lupa.cz", "ihned.cz", "hn.cz",
     "e15.cz", "denikn.cz",
+    "billboard.com", "rollingstone.com", "hollywoodreporter.com",
 ]
 # Paywall: smí být citován jen v páru s volně čitelným zdrojem.
 PAYWALLED_DOMAINS = ["bloomberg.com", "ft.com", "wsj.com", "theinformation.com",
