@@ -127,7 +127,7 @@ Pravidla rešerše:
   (chyba 400 „not accessible to our user agent"), ne jen ta doména: `reuters.com`,
   `apnews.com`, `theverge.com`, `arstechnica.com`, `wired.com`, `ft.com`, `nytimes.com`,
   `wsj.com`, `bbc.com`, `theguardian.com`, `politico.com`, `businessinsider.com`,
-  `cnet.com`, `zdnet.com`. The Verge, Ars a Wired pokrývá sweep; ostatní hledej bez filtru.
+  `cnet.com`, `zdnet.com`, `latimes.com`, `pitchfork.com`. The Verge, Ars a Wired pokrývá sweep; ostatní hledej bez filtru.
 - **Chyba nástroje není „nic nenalezeno".** Když dotaz vrátí chybu, oprav ho (filtr,
   formulaci) a zopakuj; do deníku nikdy nepiš „blok bez kandidáta" za blok, jehož dotazy
   selhaly.

@@ -4075,6 +4075,168 @@
       ],
       "added": "2026-10-26",
       "used": null
+    },
+    {
+      "slug": "tip-gemini-meet-speech-translation-63",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-10-22",
+      "title": {
+        "cs": "Google Meet překládá řeč mezi 63 jazyky",
+        "en": "Google Meet translates speech between 63 languages"
+      },
+      "summary": {
+        "cs": "Google 22. října rozšířil řečový překlad v Meetu na 63 jazyků na webu i na mobilu; využívá Gemini 3.5 Live Translate. Meet sám pozná, jakým jazykem se mluví, a každému posluchači překládá do jeho jazyka, titulky se synchronizují s přeloženým zvukem. Překlad si zapíná každý účastník sám.",
+        "en": "On October 22, Google expanded speech translation in Meet to 63 languages on web and mobile, powered by Gemini 3.5 Live Translate. Meet detects the spoken language itself and translates for each listener into their own, with captions synced to the translated audio. Each participant turns translation on for themselves."
+      },
+      "why": {
+        "cs": "Při hovoru zapni překlad na liště Meetu (ve výchozím stavu je vypnutý). Schůzku musí organizovat uživatel s vhodným plánem Workspace nebo Google AI; limit 90 minut, u Ultra a Expanded Access 8 hodin.",
+        "en": "Turn translation on in the Meet toolbar during a call (off by default). The organizer needs an eligible Workspace or Google AI plan; limit 90 minutes, or 8 hours on Ultra and Expanded Access."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "http://workspaceupdates.googleblog.com/2026/10/real-time-speech-translation-in-google-Meet-expands-to-63-languages-with-automatic-language-detection.html"
+        }
+      ],
+      "added": "2026-10-26",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-docs-live-mobile-workspace",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-10-21",
+      "title": {
+        "cs": "Docs Live na mobilu sestaví dokument z tvého hlasu",
+        "en": "Docs Live builds a document from your voice on mobile"
+      },
+      "summary": {
+        "cs": "Google 21. října začal v mobilní appce Dokumentů na Androidu a iOS zavádět Docs Live pro uživatele Workspace: hlasem popíšeš, co potřebuješ, a Gemini s tebou sestaví strukturovaný první návrh. Umí čerpat z tvých e-mailů, chatů, souborů na Disku i z webu.",
+        "en": "On October 21, Google began rolling out Docs Live to Workspace users in the Google Docs mobile app on Android and iOS: you describe by voice what you need and Gemini builds a structured first draft with you. It can draw on your email, chats, Drive files, and the web."
+      },
+      "why": {
+        "cs": "V mobilní appce Dokumentů mluv přirozeně a řekni jasně cíl dokumentu. Platí pro Business a Enterprise Standard a Plus a pro Google AI Pro a Ultra; zapnuto je tam, kde je v Dokumentech povolený Gemini.",
+        "en": "In the Docs mobile app, speak naturally and state the goal clearly. Covers Business and Enterprise Standard and Plus and Google AI Pro and Ultra; on wherever Gemini in Docs is enabled."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "http://workspaceupdates.googleblog.com/2026/10/create-structured-documents-using-just-your-voice-with-Docs-Live-in-Google-Docs-on-mobile.html"
+        }
+      ],
+      "added": "2026-10-26",
+      "used": null
+    },
+    {
+      "slug": "tip-claude-code-idle-compaction",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-10-14",
+      "title": {
+        "cs": "Claude Code sám zhustí dlouhý rozhovor, když ho necháš být",
+        "en": "Claude Code compacts a long chat while you are away"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.299 (14. října) v terminálu sám zhustí rozhovor delší než 200 000 tokenů, který zůstal asi 54 minut nečinný, ještě než vyprší hodinová paměť zadání (cache). Další zpráva pak nemusí zpracovat všechno znovu. V nastavení jde funkce vypnout.",
+        "en": "From version 2.1.299 (October 14), Claude Code in the terminal compacts a conversation over 200,000 tokens that has sat idle for about 54 minutes, before its one-hour prompt cache expires. Your next message then doesn’t reprocess everything. You can turn the feature off in settings."
+      },
+      "why": {
+        "cs": "Zapnuto je samo. Vypneš to v /config řádkem Idle compaction (od verze 2.1.302) nebo v settings.json přes idleCompaction: false; práh 200 000 tokenů změníš proměnnou CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS.",
+        "en": "It is on by default. Turn it off in /config (Idle compaction row, since version 2.1.302) or with idleCompaction: false in settings.json; change the 200,000-token threshold with CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-10-26",
+      "used": null
+    },
+    {
+      "slug": "tip-perplexity-wiley-sources",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": true,
+      "eventDate": "2026-10-05",
+      "title": {
+        "cs": "Perplexity cituje i knihy a časopisy Wiley",
+        "en": "Perplexity can cite Wiley books and journals"
+      },
+      "summary": {
+        "cs": "Perplexity v changelogu z 5. října uvádí, že v Perplexity i v Computeru jde prohledávat a citovat časopisy a knihy nakladatelství Wiley, aniž by sis platil samostatné předplatné Wiley. Příklady z oznámení: vysvětlit podle knih Wiley ocenění firmy, nebo porovnat jejich rady pro vedení týmů na dálku.",
+        "en": "Perplexity’s October 5 changelog says you can search and cite Wiley journals and books in Perplexity and in Computer without a separate Wiley subscription. The announcement’s examples: explain how to value a company using Wiley books, or compare their advice on leading remote teams."
+      },
+      "why": {
+        "cs": "Do dotazu napiš, že má vycházet z knih Wiley (příklad z oznámení: Use Wiley books to explain how to value a company). Platí na všech plánech Perplexity, rozsah prémiového obsahu se liší.",
+        "en": "Tell it in your query to draw on Wiley books (the announcement’s example: Use Wiley books to explain how to value a company). Available on all Perplexity plans; the premium allowance varies by plan."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog/automations-inline-visualizations-and-gpt-6-1-sol"
+        }
+      ],
+      "added": "2026-10-26",
+      "used": null
+    },
+    {
+      "slug": "tip-perplexity-inline-visualizations",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": true,
+      "eventDate": "2026-10-05",
+      "title": {
+        "cs": "Perplexity Computer kreslí interaktivní grafy přímo ve vlákně",
+        "en": "Perplexity Computer draws interactive charts in the thread"
+      },
+      "summary": {
+        "cs": "Perplexity v changelogu z 5. října uvádí, že Computer umí vytvářet interaktivní grafy a vizualizace rovnou ve vlákně: 3D vysvětlení třeba motoru, nebo burzovní graf se svíčkami, objemem a klouzavými průměry. Příklad z oznámení: z nahraného CSV udělat interaktivní graf a zvýraznit hlavní trendy.",
+        "en": "Perplexity’s October 5 changelog says Computer can create interactive charts and visualizations right in the thread: a 3D explanation of, say, an engine, or a stock chart with candlesticks, volume, and moving averages. The announcement’s example: turn an uploaded CSV into an interactive chart and highlight the main trends."
+      },
+      "why": {
+        "cs": "V Computeru napiš, co chceš vidět, třeba graf z nahraného CSV nebo 3D vysvětlení. Plán ani platformu zdroj neuvádí.",
+        "en": "In Computer, say what you want to see, such as a chart from an uploaded CSV or a 3D explanation. The source names no plan or platform."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog/automations-inline-visualizations-and-gpt-6-1-sol"
+        }
+      ],
+      "added": "2026-10-26",
+      "used": null
+    },
+    {
+      "slug": "tip-ollama-claude-desktop-gateway",
+      "category": "tools",
+      "theme": "local",
+      "verified": true,
+      "eventDate": "2026-08-25",
+      "title": {
+        "cs": "Claude Desktop jde přepnout na modely z Ollamy",
+        "en": "Claude Desktop can run on Ollama models"
+      },
+      "summary": {
+        "cs": "Ollama od 25. srpna umí nastavit Claude Desktop tak, aby jako bránu pro modely třetích stran používal Ollamu. V Ollamě stačí zapnout Claude a nastavení proběhne samo; pak si vybereš libovolný model z Ollamy, lokální i z její cloudové služby.",
+        "en": "Since August 25, Ollama can set up Claude Desktop to use Ollama as a gateway for third-party models. In Ollama you just turn Claude on and the setup happens by itself; then you pick any model from Ollama, local or from its cloud service."
+      },
+      "why": {
+        "cs": "V aplikaci Ollama zapni Claude a vyber model; vypnutím se vrátí předchozí nastavení a mezi Anthropicem a Ollamou jde přepínat. Telemetrie je ve výchozím stavu vypnutá; plán Claude Desktop zdroj neuvádí.",
+        "en": "In the Ollama app, turn Claude on and pick a model; turning it off restores your old setup; you can switch between Anthropic and Ollama. Telemetry is off by default. The source names no plan."
+      },
+      "sources": [
+        {
+          "name": "Ollama",
+          "url": "https://ollama.com/blog/claude-desktop"
+        }
+      ],
+      "added": "2026-10-26",
+      "used": null
     }
   ]
 }

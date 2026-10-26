@@ -75,7 +75,7 @@ T1_DOMAINS = [
     "anthropic.com", "claude.com", "claude.ai", "claude.dev",
     "openai.com", "chatgpt.com",
     "google.com", "blog.google", "deepmind.google", "ai.google", "googleblog.com", "google.dev",
-    "microsoft.com", "windows.com", "github.blog",
+    "microsoft.com", "windows.com", "github.blog", "docs.github.com",
     "nvidia.com", "meta.com", "fb.com", "huggingface.co", "mistral.ai", "x.ai",
     "perplexity.ai", "amazon.com", "aboutamazon.com", "apple.com", "deepseek.com",
     "qwen.ai", "alibabacloud.com", "cohere.com", "stability.ai", "cursor.com",
