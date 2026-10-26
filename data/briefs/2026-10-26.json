@@ -2,160 +2,15 @@
   "date": "2026-10-26",
   "sample": false,
   "headline": {
-    "cs": "Google AI Plus od 13. listopadu bez modelů Pro",
-    "en": "Google AI Plus loses Pro models on November 13"
+    "cs": "Držitelé práv k písním Elvise žalují Anthropic",
+    "en": "Elvis Presley rights holders sue Anthropic"
   },
   "items": [
-    {
-      "id": "2026-10-26-google-ai-plus-loses-pro-update",
-      "kind": "news",
-      "category": "tools",
-      "highlight": true,
-      "verified": true,
-      "eventDate": "2026-10-14",
-      "title": {
-        "cs": "Google AI Plus od 13. listopadu bez modelů Pro",
-        "en": "Google AI Plus loses Pro models on November 13"
-      },
-      "summary": {
-        "cs": "Google rozesílá předplatitelům AI Plus e-mail: od 13. listopadu 2026 půjde vybrat Pro modely v Gemini i v AI Mode ve Vyhledávání jen s tarifem AI Pro a vyšším (zůstane Flash). Upřesnění: účty zdarma mají podle nápovědy Google od 9. října automatický výběr modelu; většinu dotazů zpracuje Flash-Lite, těžší i Flash či Pro.",
-        "en": "Google is emailing AI Plus subscribers: from November 13, 2026, Pro models in the Gemini app and AI Mode in Search will need the AI Pro plan or higher (Flash stays). Clarification: Google’s help page says free accounts have had automatic model selection since October 9, mostly Flash-Lite, harder prompts Flash or Pro."
-      },
-      "why": {
-        "cs": "Používáš AI Plus (4,99 USD v USA) kvůli Pro modelům? Do 13. listopadu se rozhodni: zůstat u Flash, přejít na AI Pro (19,99 USD), nebo zrušit. Ceny pro Česko zdroje neuvádějí.",
-        "en": "Using AI Plus ($4.99 in the US) for the Pro models? Decide by November 13: stay with Flash, move to AI Pro ($19.99), or cancel. The sources give no Czech prices."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://support.google.com/gemini/answer/17004136?hl=en"
-        },
-        {
-          "name": "9to5Google",
-          "url": "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-26-claude-designs-quantum-circuits",
-      "kind": "news",
-      "category": "research",
-      "verified": true,
-      "eventDate": "2026-10-16",
-      "title": {
-        "cs": "Claude navrhl úspornější kvantové obvody",
-        "en": "Claude designs more efficient quantum circuits"
-      },
-      "summary": {
-        "cs": "Anthropic spolu s Harvardem a firmou QuEra 16. října popsal, jak Claude Mythos 5 v uzavřené smyčce s ověřovacím programem navrhoval kvantové obvody pro osm úloh z chemie, optimalizace, fyziky a teorie čísel. U většiny jsou návrhy menší i rychlejší než nejlepší dosud publikované, někdy o řád i víc; správnost kontroluje běžný počítač.",
-        "en": "On October 16, Anthropic, Harvard, and QuEra described how Claude Mythos 5, in a closed loop with a verifier, designed quantum circuits for eight tasks from chemistry to number theory. For most, the designs are smaller and faster than the best published, sometimes by an order of magnitude or more; an ordinary computer verifies them."
-      },
-      "why": {
-        "cs": "Dnešní kvantové počítače mají jen stovky až tisíce qubitů; menší obvody podle autorů přibližují užitečné kvantové počítače. Zatím jde o návrhy ověřené na běžném počítači, ne o běh na kvantovém stroji.",
-        "en": "Today’s quantum computers have only hundreds to thousands of qubits; smaller circuits, the authors say, bring useful machines closer. So far these are designs checked on an ordinary computer, not run on a quantum machine."
-      },
-      "sources": [
-        {
-          "name": "Anthropic",
-          "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
-        },
-        {
-          "name": "Lupa",
-          "url": "https://www.lupa.cz/clanky/anthropic-navrhuje-kvantove-obvody-rekordni-opravy-kvantovych-chyb-korekce-v-realnem-case/"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-26-deepseek-v4-1-flash-1017-update",
-      "kind": "news",
-      "category": "models",
-      "verified": true,
-      "eventDate": "2026-10-17",
-      "title": {
-        "cs": "DeepSeek vydal rychlejší a stručnější V4.1-Flash-1017",
-        "en": "DeepSeek releases faster, terser V4.1-Flash-1017"
-      },
-      "summary": {
-        "cs": "DeepSeek 17. října vydal V4.1-Flash-1017, drobnou aktualizaci modelu V4.1 Flash. Podle firmy je lepší v uvažování, programování i agentních úlohách, plní úkoly rychleji a odpovídá stručněji. Váhy jsou pod licencí MIT na Hugging Face; vyhledávání a stahování webu přes API je zatím zdarma, zpoplatní se od 31. října.",
-        "en": "On October 17, DeepSeek released V4.1-Flash-1017, a minor update to V4.1 Flash. The company says it is better at reasoning, coding, and agent tasks, finishes work faster, and answers more briefly. Weights are on Hugging Face under the MIT license; web search and fetch through the API are free for now, billing starts October 31."
-      },
-      "why": {
-        "cs": "Používáš DeepSeek přes API nebo v agentech typu Claude Code? Po 31. říjnu počítej s poplatky za vyhledávání a stahování webu. Výsledky testů zatím uvádí jen DeepSeek sám.",
-        "en": "Using DeepSeek through the API or in agents like Claude Code? Expect charges for search and fetch after October 31. The benchmark results so far come only from DeepSeek itself."
-      },
-      "sources": [
-        {
-          "name": "DeepSeek",
-          "url": "https://api-docs.deepseek.com/news/news261017"
-        },
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-26-flux-3-image-klein-open-weights",
-      "kind": "news",
-      "category": "opensource",
-      "verified": true,
-      "eventDate": "2026-10-15",
-      "title": {
-        "cs": "Black Forest Labs: otevřený obrazový model FLUX.3 Image Klein",
-        "en": "Black Forest Labs: open-weight image model FLUX.3 Image Klein"
-      },
-      "summary": {
-        "cs": "Black Forest Labs 15. října zveřejnilo FLUX.3 Image Klein, model s 5,6 miliardy parametrů a otevřenými váhami pro tvorbu i úpravy obrázků podle textu a až 10 referenčních snímků. Umí i rozložení obrazu pomocí rámečků zadaných v promptu. Licence povoluje hlavně nekomerční použití, komerční výstupy jen vybraným uživatelům.",
-        "en": "On October 15, Black Forest Labs released FLUX.3 Image Klein, an open-weight image model with 5.6 billion parameters for generating and editing images from text and up to 10 reference images. It also supports layout control with bounding boxes in the prompt. The license mainly allows non-commercial use, with a commercial-output exception for qualifying users."
-      },
-      "why": {
-        "cs": "Model jde spustit přes knihovnu Diffusers, krátká zadání ale dávají obecné výsledky, proto se doporučuje pomocný model na rozšíření promptu (další 9B). Před komerčním použitím si projdi licenci.",
-        "en": "It runs in the Diffusers library, but short prompts give generic results, so a helper model that expands the prompt (another 9B one) is recommended. Read the license before commercial use."
-      },
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/blog/flux-3"
-        },
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-26-china-ai-export-rules-deepseek-minimax",
-      "kind": "news",
-      "category": "policy",
-      "verified": true,
-      "eventDate": "2026-10-23",
-      "title": {
-        "cs": "Čína: DeepSeek a MiniMax prošly vývozní registrací AI",
-        "en": "China: DeepSeek and MiniMax clear AI export registration"
-      },
-      "summary": {
-        "cs": "Peking v polovině října navrhl vývozní omezení pro 23 AI technologií, mimo jiné velké modely, agenty a výpočetní clustery; open-source technologie jsou z omezení vyňaty. Podle čínských státních médií z 22.–23. října DeepSeek a MiniMax dokončily vývozní registraci a smějí dál vydávat open-source modely i licencovat v zahraničí.",
-        "en": "In mid-October, Beijing proposed export restrictions on 23 AI technologies, including large models, agents, and computing clusters; open-source technology is exempt. According to Chinese state media on October 22–23, DeepSeek and MiniMax completed export registration and may keep releasing open-source models and licensing abroad."
-      },
-      "why": {
-        "cs": "Pro uživatele čínských open-source modelů se zatím nic nemění: vydávání pokračuje. Seznam je ale jen návrh, takže jeho konečná podoba se ještě může změnit.",
-        "en": "For users of Chinese open-source models nothing changes for now: releases continue. But the list is only a proposal, so its final form may still change."
-      },
-      "sources": [
-        {
-          "name": "The Register",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/26/after-threatening-ai-export-bans-china-allows-deepseek-to-keep-selling/5305267"
-        },
-        {
-          "name": "South China Morning Post",
-          "url": "https://www.scmp.com/tech/policy/article/3371880/deepseek-minimax-secure-open-source-licenses-days-after-new-china-export-rules-state-media"
-        }
-      ]
-    },
     {
       "id": "2026-10-26-elvis-presley-rights-holders-sue-anthropic",
       "kind": "news",
       "category": "policy",
+      "highlight": true,
       "verified": true,
       "eventDate": "2026-10-23",
       "title": {
@@ -163,12 +18,12 @@
         "en": "Elvis Presley rights holders sue Anthropic"
       },
       "summary": {
-        "cs": "Authentic Brands Group a další držitelé práv k písním Elvise Presleyho podali 23. října u federálního soudu v San Franciscu žalobu na Anthropic. Tvrdí, že Claude trénoval na 274 skladbách bez povolení, a požadují 150 000 USD za každou. Mluvčí Anthropicu uvedl, že firma s obviněním nesouhlasí a hodlá se bránit.",
-        "en": "Authentic Brands Group and other holders of rights to Elvis Presley’s songs sued Anthropic in federal court in San Francisco on October 23. They allege Claude was trained on 274 songs without permission and seek $150,000 for each. An Anthropic spokesperson said the company disagrees and intends to defend the case."
+        "cs": "Authentic Brands Group a další držitelé práv k písním Elvise Presleyho podali 23. října u federálního soudu v San Franciscu žalobu na Anthropic. Tvrdí, že Claude při tréninku použil 274 skladeb bez povolení, a podle The Guardian požadují 150 000 USD za skladbu. Mluvčí Anthropicu uvedl, že firma s obviněním nesouhlasí a hodlá se bránit.",
+        "en": "Authentic Brands Group and other holders of rights to Elvis Presley’s songs sued Anthropic in federal court in San Francisco on October 23. They allege Claude used 274 songs in training without permission and, per The Guardian, seek $150,000 per song. An Anthropic spokesperson said the company disagrees and intends to defend the case."
       },
       "why": {
-        "cs": "Je to jedna z prvních velkých žalob, kterou nepodává vydavatel ani asociace, ale držitel katalogu jediného interpreta. Rozhodne soud; zatím jde o tvrzení žalobců.",
-        "en": "It is one of the first big suits filed not by a label or trade group but by the owner of one artist’s catalog. A court will decide; for now these are the plaintiffs’ claims."
+        "cs": "Podle The Guardian jde o jednu z prvních velkých žalob, kterou nepodává hudební vydavatel ani asociace, ale držitel práv k jednomu interpretovi. Dopad na používání Claude zdroje neuvádějí; zatím jde jen o tvrzení žalobců.",
+        "en": "Per The Guardian, one of the first major suits by an artist’s rights holder, not a label or trade group. The sources name no effect on using Claude; for now these are claims."
       },
       "sources": [
         {
@@ -186,6 +41,155 @@
       ]
     },
     {
+      "id": "2026-10-26-claude-designs-quantum-circuits",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-10-16",
+      "title": {
+        "cs": "Anthropic: Claude navrhl úspornější kvantové obvody",
+        "en": "Anthropic: Claude designs more efficient quantum circuits"
+      },
+      "summary": {
+        "cs": "Anthropic s Harvardem a QuEra 16. října popsal, jak Claude Mythos 5 navrhoval kvantové obvody pro osm úloh a nechával program ověřovat, že fungují. Podle Anthropicu jsou menší i rychlejší než nejlepší dosud publikované, někdy desetkrát a víc; studie přesněji uvádí sedm úloh a u osmé novou architekturu.",
+        "en": "On October 16, Anthropic, Harvard, and QuEra described how Claude Mythos 5 designed quantum circuits for eight tasks and had a program check that they work. Per Anthropic, they are smaller and faster than the best published, sometimes tenfold or more; the paper is more precise: seven tasks, and a new architecture for the eighth."
+      },
+      "why": {
+        "cs": "Dnešní kvantové počítače mají jen stovky až tisíce qubitů; menší obvody podle autorů přibližují užitečné stroje. Jde o vlastní výsledky Anthropicu ověřené na běžném počítači, ne na kvantovém stroji; nezávisle zatím nepotvrzené.",
+        "en": "Today’s quantum computers have hundreds to thousands of qubits; smaller circuits, the authors say, bring useful machines closer. These are Anthropic’s own results, checked on an ordinary computer and not yet independently confirmed."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
+        },
+        {
+          "name": "Lupa",
+          "url": "https://www.lupa.cz/clanky/anthropic-navrhuje-kvantove-obvody-rekordni-opravy-kvantovych-chyb-korekce-v-realnem-case/"
+        },
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2610.22367"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-26-google-ai-plus-loses-pro-update",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-14",
+      "title": {
+        "cs": "Google AI Plus ztratí 13. listopadu výběr modelů Pro",
+        "en": "Google AI Plus loses Pro model choice on November 13"
+      },
+      "summary": {
+        "cs": "Podle e-mailu, který cituje 9to5Google, půjde předplatitelům Google AI Plus od 13. listopadu 2026 vybírat v Gemini i v AI Mode ve Vyhledávání jen rychlejší modely Flash-Lite a Flash; výkonnější modely Pro zůstanou od tarifu AI Pro výš. Oprava zprávy z 10. října: účty zdarma mají podle nápovědy Google automatický výběr modelu, ne jen Flash-Lite.",
+        "en": "Per an email quoted by 9to5Google, from November 13, 2026 Google AI Plus subscribers can pick only the faster Flash-Lite and Flash in the Gemini app and AI Mode; more powerful Pro models need AI Pro or higher. Correction to October 10: Google’s help page says free accounts get automatic model selection, not just Flash-Lite."
+      },
+      "why": {
+        "cs": "Používáš AI Plus (4,99 USD v USA) kvůli modelům Pro? Zvaž zůstat u Flash, přejít na AI Pro (19,99 USD), nebo zrušit. Termín ti Google sdělí e-mailem; ceny pro Česko zdroje neuvádějí.",
+        "en": "Using AI Plus ($4.99 in the US) for the Pro models? Consider staying with Flash, moving to AI Pro ($19.99), or cancelling. Google tells you your date by email; the sources give no Czech prices."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://support.google.com/gemini/answer/17004136?hl=en"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-26-deepseek-v4-1-flash-1017-update",
+      "kind": "news",
+      "category": "models",
+      "verified": true,
+      "eventDate": "2026-10-17",
+      "title": {
+        "cs": "DeepSeek vydal aktualizaci modelu V4.1-Flash-1017",
+        "en": "DeepSeek releases V4.1-Flash-1017 model update"
+      },
+      "summary": {
+        "cs": "DeepSeek 17. října vydal V4.1-Flash-1017, drobnou aktualizaci modelu V4.1 Flash: podle firmy lepší v uvažování, programování i agentních úlohách, rychlejší a stručnější. Model je ke stažení na Hugging Face (licence MIT). Vyhledávání a načítání webu přes serverové nástroje v DeepSeek Harness, Claude Code a Codexu je zatím zdarma, od 31. října se účtuje.",
+        "en": "On October 17, DeepSeek released V4.1-Flash-1017, a minor update to V4.1 Flash: per the company, better at reasoning, coding, and agent tasks, faster and more concise. The model is on Hugging Face (MIT license). Search and fetch via server-side tools in DeepSeek Harness, Claude Code, and Codex are free for now; billing starts October 31."
+      },
+      "why": {
+        "cs": "Používáš DeepSeek přes API nebo v agentech typu Claude Code? Od 31. října (16:00 UTC) počítej s poplatky za vyhledávání a načítání webu. Výsledky testů zatím uvádí jen DeepSeek sám.",
+        "en": "Using DeepSeek through the API or in agents like Claude Code? Expect charges for search and fetch from October 31 (16:00 UTC). The benchmark results so far come only from DeepSeek itself."
+      },
+      "sources": [
+        {
+          "name": "DeepSeek",
+          "url": "https://api-docs.deepseek.com/news/news261017"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-26-china-ai-export-rules-deepseek-minimax",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-10-23",
+      "title": {
+        "cs": "Čína: DeepSeek a MiniMax podle médií smějí dál vyvážet AI",
+        "en": "China: DeepSeek and MiniMax may keep exporting AI, media say"
+      },
+      "summary": {
+        "cs": "Peking v polovině října navrhl vývozní omezení pro 23 AI technologií, mimo jiné velké modely, agenty a výpočetní clustery; open-source technologie jsou z nich vyňaty. Podle čínských státních médií, jak je cituje The Register a SCMP, DeepSeek a MiniMax 22.–23. října dokončily vývozní registraci a smějí dál vyvážet.",
+        "en": "In mid-October, Beijing proposed export restrictions on 23 AI technologies, including large models, agents, and computing clusters; open-source technology is exempt. According to Chinese state media, as cited by The Register and SCMP, DeepSeek and MiniMax completed export registration on October 22–23 and may keep exporting."
+      },
+      "why": {
+        "cs": "U těchto dvou firem se zatím nic nemění, proč byla registrace potřeba, zdroje nevysvětlují. Seznam je jen návrh a Peking podle The Register může zastavit vývoz AI, kterou pokládá za strategickou.",
+        "en": "For these two firms nothing changes for now; the sources don’t explain why registration was needed. The list is only a proposal, and per The Register Beijing can stop exports of AI it deems strategic."
+      },
+      "sources": [
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/26/after-threatening-ai-export-bans-china-allows-deepseek-to-keep-selling/5305267"
+        },
+        {
+          "name": "South China Morning Post",
+          "url": "https://www.scmp.com/tech/policy/article/3371880/deepseek-minimax-secure-open-source-licenses-days-after-new-china-export-rules-state-media"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-26-flux-3-image-klein-open-weights",
+      "kind": "news",
+      "category": "opensource",
+      "verified": true,
+      "eventDate": "2026-10-15",
+      "title": {
+        "cs": "FLUX.3 Image Klein: obrazový model s otevřenými váhami",
+        "en": "FLUX.3 Image Klein: an image model with open weights"
+      },
+      "summary": {
+        "cs": "Black Forest Labs 15. října zveřejnilo FLUX.3 Image Klein, model s 5,6 miliardy parametrů a otevřenými váhami pro tvorbu i úpravy obrázků podle textu a až 10 referenčních snímků. Rozložení lze přibližně řídit rámečky v promptu. Licence povoluje nekomerční použití; komerční výstupy bez další licence jen uživatelům s ročními tržbami pod 5 milionů USD.",
+        "en": "On October 15, Black Forest Labs released FLUX.3 Image Klein, a 5.6-billion-parameter open-weight model for generating and editing images from text and up to 10 reference images. Boxes in the prompt steer layout roughly. The license allows non-commercial use; commercial output without a further license only for users under US$5 million in annual revenue."
+      },
+      "why": {
+        "cs": "Model jde spustit přes knihovnu Diffusers pro vývojáře. Karta modelu nedoporučuje používat ho bez pomocného modelu, který krátké zadání rozepíše; před komerčním použitím si projdi licenci.",
+        "en": "It runs in the Diffusers library for developers. The model card advises against using it without a helper model that expands a short prompt; read the license before commercial use."
+      },
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/flux-3"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
+        }
+      ]
+    },
+    {
       "id": "2026-10-26-anthropic-expectations-gap-survey",
       "kind": "news",
       "category": "research",
@@ -196,12 +200,12 @@
         "en": "Anthropic staff expect more from AI than US adults"
       },
       "summary": {
-        "cs": "Anthropic 16. října zveřejnil srovnání očekávání o AI: 91 % jeho zaměstnanců a 39 % dospělých Američanů (srpnový průzkum asi 11 000 lidí) čeká do roku 2030 objev hodný Nobelovy ceny. Zaměstnanci čekají, že AI zvládne 75 % jejich práce, pracující Američané 28 %. Obě skupiny spojují víc automatizace s vyšší nezaměstnaností.",
-        "en": "On October 16, Anthropic published a comparison of AI expectations: 91% of its staff and 39% of US adults (an August survey of about 11,000 people) expect AI to make a Nobel-level discovery by 2030. Staff expect AI to do 75% of their work, US workers 28%. Both groups link more automation to higher unemployment."
+        "cs": "Anthropic 16. října zveřejnil srovnání očekávání: 91 % jeho zaměstnanců (odpovídali v interní anketě) a 39 % dospělých Američanů (srpnový průzkum asi 11 000 lidí) čeká, že AI do roku 2030 učiní objev hodný Nobelovy ceny. Vlastní práce by AI zvládla podle zaměstnanců ze 75 %, podle pracujících Američanů z 28 %.",
+        "en": "On October 16, Anthropic published a comparison of expectations: 91% of its staff (answering an internal survey) and 39% of US adults (an August survey of about 11,000 people) expect AI to make a Nobel-level discovery by 2030. Staff expect AI to do 75% of their own work, US workers 28%."
       },
       "why": {
-        "cs": "Rozdíl podle Anthropicu nevzniká z jiné teorie o práci, ale z jiné zkušenosti s AI. Zaměstnanci AI firmy ale nejsou typický vzorek a jejich odpovědi autoři nevážili podle populace.",
-        "en": "Anthropic says the gap comes from different experience with AI, not a different theory of work. But staff of an AI lab are not a typical sample, and their answers were not weighted."
+        "cs": "Podle Anthropicu se skupiny spíš neliší teorií o práci, ale zkušeností s AI. Odpovědi zaměstnanců AI firmy ale nejsou reprezentativní a nebyly přepočítané na populaci.",
+        "en": "Anthropic says the groups differ less in their theory of work than in their experience with AI. But answers from an AI lab’s staff aren’t representative and weren’t weighted to the population."
       },
       "sources": [
         {
@@ -233,12 +237,12 @@
         "en": "Ollama on Mac can read text aloud with Phonon"
       },
       "summary": {
-        "cs": "Ollama 24. října přidala syntézu řeči: první model Phonon od firmy Gradium čte text nahlas lokálně na Macu s Apple Silicon. Odpověď jiného modelu mu předáš rourou a mluvit začne po první větě; funguje i přes API kompatibilní s OpenAI. Windows a Linux mají přijít později.",
-        "en": "On October 24, Ollama added speech synthesis: the first model, Phonon from Gradium, reads text aloud locally on a Mac with Apple Silicon. You can pipe another model’s reply into it and it starts speaking after the first sentence; it also works through an OpenAI-compatible API. Windows and Linux are to follow."
+        "cs": "Ollama (program na spouštění AI modelů přímo v počítači) 24. října přidala syntézu řeči: první model Phonon od firmy Gradium čte text nahlas lokálně na Macu s Apple Silicon. Odpověď jiného modelu mu pošleš rovnou k přečtení a mluvit začne po první větě. Windows a Linux mají přijít později.",
+        "en": "On October 24, Ollama, a program for running AI models on your own computer, added speech synthesis: its first model, Phonon from Gradium, reads text aloud locally on a Mac with Apple Silicon. Another model’s reply can be piped into it, and it starts speaking after the first sentence. Windows and Linux are to follow."
       },
       "why": {
-        "cs": "Na Macu s Apple Silicon nainstaluj Ollamu 0.40.11 nebo novější, spusť ollama pull phonon a pak ollama run phonon s textem. Česky model nemluví (umí angličtinu, francouzštinu, němčinu, španělštinu a portugalštinu).",
-        "en": "On a Mac with Apple Silicon, install Ollama 0.40.11 or newer, run ollama pull phonon, then ollama run phonon with your text. It doesn’t speak Czech (English, French, German, Spanish, and Portuguese only)."
+        "cs": "V Terminálu na Macu s Apple Silicon (Ollama 0.40.11+) spusť ollama pull phonon, pak ollama run phonon s textem. Phonon mluví anglicky; francouzsky, německy, španělsky a portugalsky jen menší varianty phonon:40m-… (nekomerčně); česky ne.",
+        "en": "In Terminal on a Mac with Apple Silicon (Ollama 0.40.11+), run ollama pull phonon, then ollama run phonon with text. Phonon speaks English; French, German, Spanish, Portuguese come in smaller phonon:40m-… variants (non-commercial); no Czech."
       },
       "sources": [
         {
@@ -258,12 +262,12 @@
         "en": "Gemini in Sheets answers questions over BigQuery data"
       },
       "summary": {
-        "cs": "Google 19. října začal zavádět v Google Sheets konverzační analýzu dat z BigQuery: po připojení přes Connected Sheets se Gemini ptáš přirozeným jazykem a dotazy běží nad celou datovou sadou, ne jen nad viditelnou částí tabulky. Gemini umí navrhnout plán a postavit záložku s grafy a kontingenčními tabulkami.",
-        "en": "On October 19, Google began rolling out conversational analysis of BigQuery data in Google Sheets: once connected through Connected Sheets, you ask Gemini in plain language and queries run over the full dataset, not just the visible part of the sheet. Gemini can propose a plan and build a tab with charts and pivot tables."
+        "cs": "Google 19. října začal zavádět v Google Sheets konverzační analýzu dat z BigQuery (datového skladu Google): po připojení přes Connected Sheets se Gemini ptáš přirozeným jazykem a dotazy běží nad celou datovou sadou, ne jen nad viditelnou částí tabulky. Gemini umí postavit záložku s grafy a kontingenčními tabulkami.",
+        "en": "On October 19, Google began rolling out conversational analysis of BigQuery (Google’s data warehouse) data in Google Sheets: once connected through Connected Sheets, you ask Gemini in plain language and queries run over the full dataset, not just the visible part of the sheet. Gemini can build a tab with charts and pivot tables."
       },
       "why": {
-        "cs": "V tabulce připojené k BigQuery otevři boční panel Gemini a ptej se (potřebuješ oprávnění k datům). Platí pro Business a Enterprise Standard a Plus a pro Google AI Pro a Ultra; zavádí se postupně.",
-        "en": "Open the Gemini side panel in a spreadsheet connected to BigQuery and ask (data permission needed). Available with Business and Enterprise Standard and Plus, Google AI Pro and Ultra; rolling out gradually."
+        "cs": "V tabulce připojené k BigQuery otevři boční panel Gemini a ptej se (potřebuješ oprávnění k datům). Plány: Business Standard/Plus, Enterprise Standard/Plus, Google AI Pro/Ultra; zavádění trvá až 15 dnů.",
+        "en": "Open the Gemini side panel in a spreadsheet connected to BigQuery and ask (data permission needed). Plans: Business Standard/Plus, Enterprise Standard/Plus, Google AI Pro/Ultra; rollout takes up to 15 days."
       },
       "sources": [
         {
@@ -279,16 +283,16 @@
       "verified": true,
       "eventDate": "2026-08-07",
       "title": {
-        "cs": "Hlasový ChatGPT teď umí probírat soubory a projekty",
-        "en": "ChatGPT Voice can now talk through files and projects"
+        "cs": "Hlasový ChatGPT umí od srpna probírat soubory a projekty",
+        "en": "Since August, ChatGPT Voice can talk through files and projects"
       },
       "summary": {
         "cs": "OpenAI v týdnu 3.–7. srpna rozšířil ChatGPT Voice o nahrané soubory a Projekty: během hlasového rozhovoru se ptáš na dokument, nebo navážeš na projekt s jeho posledními chaty, zdroji a pokyny. Příklad z oznámení: vysvětli nahlas hlavní kompromisy z nahraného podkladu a porovnej je se zdroji v projektu.",
         "en": "In the week of August 3–7, OpenAI extended ChatGPT Voice to uploaded files and Projects: in a voice conversation you ask about a document, or continue a project using its recent chats, sources, and instructions. The announcement’s example: explain an uploaded brief’s main tradeoffs out loud and compare them with the project’s sources."
       },
       "why": {
-        "cs": "Hlasový chat spustíš v desktopové appce ChatGPT (Start voice chat); Voice je v plánech Plus, Pro, Business, Edu a Enterprise. Dostupnost závisí na zavádění a nastavení pracovního prostoru.",
-        "en": "Start a voice chat in the ChatGPT desktop app (Start voice chat); Voice is in the Plus, Pro, Business, Edu, and Enterprise plans. Availability depends on rollout and workspace settings."
+        "cs": "Hlasový chat spustíš v desktopové appce ChatGPT (Start voice chat); podle dokumentace je v plánech Plus, Pro, Business, Edu a Enterprise, o Free mlčí. Jak soubor nebo Projekt přidat, zdroj neříká.",
+        "en": "Start voice chat in the ChatGPT desktop app; per the docs it is in Plus, Pro, Business, Edu, and Enterprise plans, with no word on Free. How to add a file or Project isn’t stated."
       },
       "sources": [
         {
@@ -308,21 +312,25 @@
       "verified": true,
       "eventDate": "2026-10-23",
       "title": {
-        "cs": "GitHub v Teams z hlášení chyby udělá pull request",
-        "en": "GitHub in Teams turns bug reports into pull requests"
+        "cs": "GitHub v Teams: z hlášení chyby až pull request",
+        "en": "GitHub in Teams: from bug report to pull request"
       },
       "summary": {
-        "cs": "GitHub 23. října představil v Microsoft Teams sloučenou aplikaci GitHub (dřív GitHub notifications) s Copilotem: v kanálu nebo chatu dostaneš upozornění a po zmínce @github prošetří problém, opraví chybu a vytvoří pull request. Tým ho pak zkontroluje, otestuje a sloučí.",
-        "en": "On October 23, GitHub introduced a consolidated GitHub app in Microsoft Teams (formerly GitHub notifications) with Copilot: you get notifications in a channel or chat, and when you @mention @github it investigates the issue, fixes the bug, and opens a pull request. Your team then reviews, tests, and merges it."
+        "cs": "GitHub 23. října představil v Microsoft Teams sloučenou aplikaci GitHub s Copilotem: v kanálu nebo chatu dostaneš upozornění a po zmínce @github má agent podle GitHubu problém prošetřit, opravit chybu a otevřít pull request (návrh změny kódu ke schválení). Starší aplikace GitHub končí 16. listopadu.",
+        "en": "On October 23, GitHub introduced a consolidated GitHub app in Microsoft Teams with Copilot: you get notifications in a channel or chat, and per GitHub, @mentioning @github makes it investigate the issue, fix the bug, and open a pull request (a proposed code change for review). The legacy GitHub app retires on November 16."
       },
       "why": {
-        "cs": "Aktualizuj aplikaci GitHub v Teams, napiš @github, připoj účet a vyber repozitář. Starší aplikace GitHub se přejmenuje na GitHub (deprecated) a 16. listopadu končí. Plán Copilotu zdroj neuvádí.",
-        "en": "Update the GitHub app in Teams, mention @github, connect your account, and pick a repository. The legacy GitHub app is renamed GitHub (deprecated) and retires on November 16. The source names no Copilot plan."
+        "cs": "Máš GitHub notifications? Aktualizuj aplikaci; starší GitHub nahraď sloučenou. Pak připoj účet a napiš @GitHub a úkol. Chce placený plán Copilotu a zápis do repozitáře; ve firmě to může muset povolit správce.",
+        "en": "Have GitHub notifications? Update it; replace the legacy GitHub app with the consolidated one. Connect your account, then write @GitHub and the task. Needs a paid Copilot plan and write access to the repo."
       },
       "sources": [
         {
           "name": "GitHub",
           "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://docs.github.com/en/copilot/how-tos/copilot-integrations/integrate-cloud-agent-with-teams"
         }
       ]
     }
@@ -347,32 +355,14 @@
       "tentative": false
     },
     {
-      "date": "2026-10-28",
-      "title": {
-        "cs": "Microsoft hlásí výsledky za první čtvrtletí fiskálního roku 2027",
-        "en": "Microsoft reports fiscal 2027 first-quarter results"
-      },
-      "note": {
-        "cs": "Výsledky vyjdou po zavření burzy, webcast začíná ve 14:30 pacifického času (v Česku 22:30). Zajímat tě můžou čísla k cloudu Azure a investicím do AI.",
-        "en": "Results come after the market closes; the webcast starts at 2:30 p.m. Pacific (10:30 p.m. in Czechia). Cloud (Azure) and AI-investment figures may interest you."
-      },
-      "sources": [
-        {
-          "name": "Microsoft",
-          "url": "https://news.microsoft.com/source/2026/10/07/microsoft-announces-quarterly-earnings-release-date-69/"
-        }
-      ],
-      "tentative": false
-    },
-    {
       "date": "2026-11-12",
       "title": {
         "cs": "Končí termín pro nabídky na obří AI datacentra v EU",
         "en": "EU bidding for giant AI data centers closes"
       },
       "note": {
-        "cs": "EU přijímá nabídky na až sedm datacenter (veřejné peníze do 10 mld. eur, od investorů se čeká aspoň 20 mld.). Česko je mezi 18 státy, které budou kupovat výpočetní kapacitu.",
-        "en": "The EU takes bids for up to seven AI gigafactories (public funding up to €10bn, at least €20bn expected from investors). Czechia is among 18 states that will buy compute."
+        "cs": "EU přijímá do 12. listopadu nabídky konsorcií na až sedm obřích AI datacenter. Česko je mezi 18 státy, které budou kupovat jejich výpočetní kapacitu.",
+        "en": "The EU takes bids from consortia until November 12 for up to seven AI gigafactories. Czechia is among 18 states that will buy their compute."
       },
       "sources": [
         {
@@ -407,8 +397,8 @@
         "en": "California agency due to deliver AI safety recommendations"
       },
       "note": {
-        "cs": "Agentura má do 16. listopadu poslat guvernérovi doporučení k proveditelnosti a účinnosti možných změn zákonů o AI, například auditorů přímo v laboratořích či nouzového vypínače nejschopnějších modelů.",
-        "en": "By November 16, the agency must give the governor recommendations on feasibility and effectiveness of changing AI laws, such as on-site lab auditors or a kill switch for frontier models."
+        "cs": "Agentura má do 16. listopadu poslat guvernérovi doporučení k proveditelnosti a účinnosti možných změn zákonů o AI, například zavedení auditorů přímo v laboratořích či nouzového vypínače nejschopnějších modelů.",
+        "en": "The agency must give the governor, by November 16, recommendations on feasibility and effectiveness of AI-law changes, such as on-site lab auditors or a kill switch for leading models."
       },
       "sources": [
         {

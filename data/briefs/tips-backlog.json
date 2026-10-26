@@ -3948,12 +3948,12 @@
         "en": "Gemini in Sheets answers questions over BigQuery data"
       },
       "summary": {
-        "cs": "Google 19. října začal zavádět v Google Sheets konverzační analýzu dat z BigQuery: po připojení přes Connected Sheets se Gemini ptáš přirozeným jazykem a dotazy běží nad celou datovou sadou, ne jen nad viditelnou částí tabulky. Gemini umí navrhnout plán a postavit záložku s grafy a kontingenčními tabulkami.",
-        "en": "On October 19, Google began rolling out conversational analysis of BigQuery data in Google Sheets: once connected through Connected Sheets, you ask Gemini in plain language and queries run over the full dataset, not just the visible part of the sheet. Gemini can propose a plan and build a tab with charts and pivot tables."
+        "cs": "Google 19. října začal zavádět v Google Sheets konverzační analýzu dat z BigQuery (datového skladu Google): po připojení přes Connected Sheets se Gemini ptáš přirozeným jazykem a dotazy běží nad celou datovou sadou, ne jen nad viditelnou částí tabulky. Gemini umí postavit záložku s grafy a kontingenčními tabulkami.",
+        "en": "On October 19, Google began rolling out conversational analysis of BigQuery (Google’s data warehouse) data in Google Sheets: once connected through Connected Sheets, you ask Gemini in plain language and queries run over the full dataset, not just the visible part of the sheet. Gemini can build a tab with charts and pivot tables."
       },
       "why": {
-        "cs": "V tabulce připojené k BigQuery otevři boční panel Gemini a ptej se (potřebuješ oprávnění k datům). Platí pro Business a Enterprise Standard a Plus a pro Google AI Pro a Ultra; zavádí se postupně.",
-        "en": "Open the Gemini side panel in a spreadsheet connected to BigQuery and ask (data permission needed). Available with Business and Enterprise Standard and Plus, Google AI Pro and Ultra; rolling out gradually."
+        "cs": "V tabulce připojené k BigQuery otevři boční panel Gemini a ptej se (potřebuješ oprávnění k datům). Plány: Business Standard/Plus, Enterprise Standard/Plus, Google AI Pro/Ultra; zavádění trvá až 15 dnů.",
+        "en": "Open the Gemini side panel in a spreadsheet connected to BigQuery and ask (data permission needed). Plans: Business Standard/Plus, Enterprise Standard/Plus, Google AI Pro/Ultra; rollout takes up to 15 days."
       },
       "sources": [
         {
@@ -3976,12 +3976,12 @@
         "en": "Ollama on Mac can read text aloud with Phonon"
       },
       "summary": {
-        "cs": "Ollama 24. října přidala syntézu řeči: první model Phonon od firmy Gradium čte text nahlas lokálně na Macu s Apple Silicon. Odpověď jiného modelu mu předáš rourou a mluvit začne po první větě; funguje i přes API kompatibilní s OpenAI. Windows a Linux mají přijít později.",
-        "en": "On October 24, Ollama added speech synthesis: the first model, Phonon from Gradium, reads text aloud locally on a Mac with Apple Silicon. You can pipe another model’s reply into it and it starts speaking after the first sentence; it also works through an OpenAI-compatible API. Windows and Linux are to follow."
+        "cs": "Ollama (program na spouštění AI modelů přímo v počítači) 24. října přidala syntézu řeči: první model Phonon od firmy Gradium čte text nahlas lokálně na Macu s Apple Silicon. Odpověď jiného modelu mu pošleš rovnou k přečtení a mluvit začne po první větě. Windows a Linux mají přijít později.",
+        "en": "On October 24, Ollama, a program for running AI models on your own computer, added speech synthesis: its first model, Phonon from Gradium, reads text aloud locally on a Mac with Apple Silicon. Another model’s reply can be piped into it, and it starts speaking after the first sentence. Windows and Linux are to follow."
       },
       "why": {
-        "cs": "Na Macu s Apple Silicon nainstaluj Ollamu 0.40.11 nebo novější, spusť ollama pull phonon a pak ollama run phonon s textem. Česky model nemluví (umí angličtinu, francouzštinu, němčinu, španělštinu a portugalštinu).",
-        "en": "On a Mac with Apple Silicon, install Ollama 0.40.11 or newer, run ollama pull phonon, then ollama run phonon with your text. It doesn’t speak Czech (English, French, German, Spanish, and Portuguese only)."
+        "cs": "V Terminálu na Macu s Apple Silicon (Ollama 0.40.11+) spusť ollama pull phonon, pak ollama run phonon s textem. Phonon mluví anglicky; francouzsky, německy, španělsky a portugalsky jen menší varianty phonon:40m-… (nekomerčně); česky ne.",
+        "en": "In Terminal on a Mac with Apple Silicon (Ollama 0.40.11+), run ollama pull phonon, then ollama run phonon with text. Phonon speaks English; French, German, Spanish, Portuguese come in smaller phonon:40m-… variants (non-commercial); no Czech."
       },
       "sources": [
         {
@@ -3999,16 +3999,16 @@
       "verified": true,
       "eventDate": "2026-08-07",
       "title": {
-        "cs": "Hlasový ChatGPT teď umí probírat soubory a projekty",
-        "en": "ChatGPT Voice can now talk through files and projects"
+        "cs": "Hlasový ChatGPT umí od srpna probírat soubory a projekty",
+        "en": "Since August, ChatGPT Voice can talk through files and projects"
       },
       "summary": {
         "cs": "OpenAI v týdnu 3.–7. srpna rozšířil ChatGPT Voice o nahrané soubory a Projekty: během hlasového rozhovoru se ptáš na dokument, nebo navážeš na projekt s jeho posledními chaty, zdroji a pokyny. Příklad z oznámení: vysvětli nahlas hlavní kompromisy z nahraného podkladu a porovnej je se zdroji v projektu.",
         "en": "In the week of August 3–7, OpenAI extended ChatGPT Voice to uploaded files and Projects: in a voice conversation you ask about a document, or continue a project using its recent chats, sources, and instructions. The announcement’s example: explain an uploaded brief’s main tradeoffs out loud and compare them with the project’s sources."
       },
       "why": {
-        "cs": "Hlasový chat spustíš v desktopové appce ChatGPT (Start voice chat); Voice je v plánech Plus, Pro, Business, Edu a Enterprise. Dostupnost závisí na zavádění a nastavení pracovního prostoru.",
-        "en": "Start a voice chat in the ChatGPT desktop app (Start voice chat); Voice is in the Plus, Pro, Business, Edu, and Enterprise plans. Availability depends on rollout and workspace settings."
+        "cs": "Hlasový chat spustíš v desktopové appce ChatGPT (Start voice chat); podle dokumentace je v plánech Plus, Pro, Business, Edu a Enterprise, o Free mlčí. Jak soubor nebo Projekt přidat, zdroj neříká.",
+        "en": "Start voice chat in the ChatGPT desktop app; per the docs it is in Plus, Pro, Business, Edu, and Enterprise plans, with no word on Free. How to add a file or Project isn’t stated."
       },
       "sources": [
         {
@@ -4030,21 +4030,25 @@
       "verified": true,
       "eventDate": "2026-10-23",
       "title": {
-        "cs": "GitHub v Teams z hlášení chyby udělá pull request",
-        "en": "GitHub in Teams turns bug reports into pull requests"
+        "cs": "GitHub v Teams: z hlášení chyby až pull request",
+        "en": "GitHub in Teams: from bug report to pull request"
       },
       "summary": {
-        "cs": "GitHub 23. října představil v Microsoft Teams sloučenou aplikaci GitHub (dřív GitHub notifications) s Copilotem: v kanálu nebo chatu dostaneš upozornění a po zmínce @github prošetří problém, opraví chybu a vytvoří pull request. Tým ho pak zkontroluje, otestuje a sloučí.",
-        "en": "On October 23, GitHub introduced a consolidated GitHub app in Microsoft Teams (formerly GitHub notifications) with Copilot: you get notifications in a channel or chat, and when you @mention @github it investigates the issue, fixes the bug, and opens a pull request. Your team then reviews, tests, and merges it."
+        "cs": "GitHub 23. října představil v Microsoft Teams sloučenou aplikaci GitHub s Copilotem: v kanálu nebo chatu dostaneš upozornění a po zmínce @github má agent podle GitHubu problém prošetřit, opravit chybu a otevřít pull request (návrh změny kódu ke schválení). Starší aplikace GitHub končí 16. listopadu.",
+        "en": "On October 23, GitHub introduced a consolidated GitHub app in Microsoft Teams with Copilot: you get notifications in a channel or chat, and per GitHub, @mentioning @github makes it investigate the issue, fix the bug, and open a pull request (a proposed code change for review). The legacy GitHub app retires on November 16."
       },
       "why": {
-        "cs": "Aktualizuj aplikaci GitHub v Teams, napiš @github, připoj účet a vyber repozitář. Starší aplikace GitHub se přejmenuje na GitHub (deprecated) a 16. listopadu končí. Plán Copilotu zdroj neuvádí.",
-        "en": "Update the GitHub app in Teams, mention @github, connect your account, and pick a repository. The legacy GitHub app is renamed GitHub (deprecated) and retires on November 16. The source names no Copilot plan."
+        "cs": "Máš GitHub notifications? Aktualizuj aplikaci; starší GitHub nahraď sloučenou. Pak připoj účet a napiš @GitHub a úkol. Chce placený plán Copilotu a zápis do repozitáře; ve firmě to může muset povolit správce.",
+        "en": "Have GitHub notifications? Update it; replace the legacy GitHub app with the consolidated one. Connect your account, then write @GitHub and the task. Needs a paid Copilot plan and write access to the repo."
       },
       "sources": [
         {
           "name": "GitHub",
           "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://docs.github.com/en/copilot/how-tos/copilot-integrations/integrate-cloud-agent-with-teams"
         }
       ],
       "used": "2026-10-26"

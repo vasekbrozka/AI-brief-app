@@ -1823,42 +1823,42 @@
     {
       "slug": "2026-10-26-google-ai-plus-loses-pro-update",
       "date": "2026-10-26",
-      "topic": "Google AI Plus: e-mail předplatitelům (9to5Google 14. 10.) — od 13. 11. jen Flash a Flash-Lite, výběr Pro od AI Pro výš; nápověda Google: účty zdarma od 9. 10. automatický výběr modelu (většinou Flash-Lite, těžší Flash/Pro) — upřesnění k 10. 10."
+      "topic": "Google AI Plus: podle e-mailu citovaného 9to5Google (14. 10.) od 13. 11. jen Flash-Lite a Flash, výběr Pro od AI Pro výš; oprava k 10. 10.: účty zdarma mají podle nápovědy Google automatický výběr modelu (většina dotazů Flash-Lite, těžší Flash/Pro)"
     },
     {
       "slug": "2026-10-26-claude-designs-quantum-circuits",
       "date": "2026-10-26",
-      "topic": "Anthropic+Harvard+QuEra 16. 10.: Claude Mythos 5 ve smyčce s ověřovacím programem navrhl kvantové obvody pro 8 úloh (chemie, optimalizace, fyzika, teorie čísel), většinou lepší než publikované, někdy o řád a víc; ověřeno na běžném počítači"
+      "topic": "Anthropic+Harvard+QuEra 16. 10.: Claude Mythos 5 navrhl kvantové obvody pro 8 úloh a program ověřoval, že fungují; podle Anthropicu menší i rychlejší než publikované, někdy 10× a víc (studie: 7 úloh, u osmé nová architektura); vlastní výsledky, nezávisle nepotvrzeno"
     },
     {
       "slug": "2026-10-26-deepseek-v4-1-flash-1017-update",
       "date": "2026-10-26",
-      "topic": "DeepSeek 17. 10. vydal V4.1-Flash-1017 (drobná aktualizace, váhy MIT na Hugging Face, rychlejší a stručnější); Search/Fetch přes API zdarma do 31. 10., pak placené"
+      "topic": "DeepSeek 17. 10. vydal V4.1-Flash-1017 (drobná aktualizace, váhy MIT na Hugging Face; podle firmy lepší, rychlejší, stručnější); Search/Fetch přes serverové nástroje v DeepSeek Harness, Claude Code a Codexu zdarma do 31. 10. (16:00 UTC), pak placené"
     },
     {
       "slug": "2026-10-26-flux-3-image-klein-open-weights",
       "date": "2026-10-26",
-      "topic": "Black Forest Labs 15. 10.: FLUX.3 Image Klein (5,6B, otevřené váhy, tvorba i úpravy obrázků, až 10 referencí, rozložení rámečky; FLUX Kommunity License s výjimkou pro komerční výstupy); doporučen pomocný model na rozšíření promptu (9B)"
+      "topic": "Black Forest Labs 15. 10.: FLUX.3 Image Klein (5,6B, otevřené váhy, tvorba i úpravy obrázků, až 10 referencí, rozložení rámečky jen přibližně; FLUX Kommunity License — komerčně jen uživatelé s tržbami pod 5 mil. USD); bez pomocného modelu na rozšíření promptu (9B) se nedoporučuje"
     },
     {
       "slug": "2026-10-26-china-ai-export-rules-deepseek-minimax",
       "date": "2026-10-26",
-      "topic": "Čína (polovina 10.) navrhla vývozní omezení 23 AI technologií (velké modely, agenti, clustery; open-source výjimka); státní média 22.–23. 10.: DeepSeek a MiniMax dokončily vývozní registraci (The Register 26. 10., SCMP 23. 10.)"
+      "topic": "Čína (polovina 10.) navrhla vývozní omezení 23 AI technologií (modely, agenti, clustery; open-source výjimka); podle státních médií (The Register 26. 10., SCMP 23. 10.) DeepSeek a MiniMax 22.–23. 10. dokončily vývozní registraci a smějí dál vyvážet; Peking může zastavit vývoz strategické AI"
     },
     {
       "slug": "2026-10-26-elvis-presley-rights-holders-sue-anthropic",
       "date": "2026-10-26",
-      "topic": "Authentic Brands Group a další držitelé práv k Elvisovi žalují Anthropic (23. 10., federální soud v San Franciscu): 274 písní, 150 000 USD za skladbu; Anthropic se hodlá bránit"
+      "topic": "Authentic Brands Group a další držitelé práv k Elvisovi žalují Anthropic (23. 10., federální soud v San Franciscu): 274 písní, podle Guardianu 150 000 USD za skladbu; Anthropic se hodlá bránit — highlight"
     },
     {
       "slug": "2026-10-26-anthropic-expectations-gap-survey",
       "date": "2026-10-26",
-      "topic": "Anthropic 16. 10.: očekávání o AI — 91 % zaměstnanců vs 39 % dospělých Američanů čeká Nobelův objev do 2030, 75 % vs 28 % vlastní práce; obě skupiny spojují automatizaci s nezaměstnaností; druhá zpráva k studii o zaměstnání z 19. 10."
+      "topic": "Anthropic 16. 10.: očekávání o AI — 91 % zaměstnanců (interní anketa) vs 39 % dospělých Američanů čeká Nobelův objev AI do 2030, 75 % vs 28 % vlastní práce; zpráva ke studii o zaměstnání z 19. 10.; zaměstnanci nejsou reprezentativní vzorek"
     },
     {
       "slug": "2026-10-26-tip-ollama-phonon-speech",
       "date": "2026-10-26",
-      "topic": "tip: Ollama Phonon — čtení textu nahlas lokálně na Macu s Apple Silicon (24. 10., ollama pull phonon; angličtina, francouzština, němčina, španělština, portugalština, česky ne)"
+      "topic": "tip: Ollama Phonon — čtení textu nahlas lokálně na Macu s Apple Silicon (24. 10., ollama pull phonon; phonon anglicky, fr/de/es/pt jen varianty 40m nekomerčně, česky ne)"
     },
     {
       "slug": "2026-10-26-tip-gemini-sheets-bigquery",
@@ -1868,13 +1868,13 @@
     {
       "slug": "2026-10-26-tip-chatgpt-voice-files-projects",
       "date": "2026-10-26",
-      "topic": "tip: ChatGPT Voice s nahranými soubory a Projekty (týden 3.–7. 8.; desktopová appka, plány Plus a výš)"
+      "topic": "tip: ChatGPT Voice se soubory a Projekty (od srpna, týden 3.–7. 8.; desktopová appka, plány Plus a výš)"
     },
     {
       "slug": "2026-10-26-tip-github-copilot-teams",
       "date": "2026-10-26",
-      "topic": "tip: GitHub v Microsoft Teams — @github z hlášení chyby udělá pull request (23. 10.; starší appka GitHub končí 16. 11.; plán Copilotu zdroj neuvádí)"
+      "topic": "tip: GitHub v Microsoft Teams — @github z hlášení chyby udělá pull request (23. 10.; starší appka GitHub končí 16. 11.; chce placený plán Copilotu a zápis do repozitáře)"
     }
   ],
-  "updated": "2026-10-26T04:02:34Z"
+  "updated": "2026-10-26T04:23:43Z"
 }
