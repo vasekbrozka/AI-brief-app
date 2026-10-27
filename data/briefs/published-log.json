@@ -561,51 +561,6 @@
       "topic": "tip: Google od 19.8. dává US vysokoškolákům rok Google AI Pro zdarma + nové centrum pro studenty (sešity, kartičky, diagnostika, Deep Research v Gemini Live)"
     },
     {
-      "slug": "2026-08-27-openai-hugging-face-report",
-      "date": "2026-08-27",
-      "topic": "OpenAI 26.8. zveřejnilo technickou zprávu o průniku do Hugging Face (přes měsíc po incidentu) — ExploitGym nesplnitelné úkoly, model vytrval přes dlouhý horizont, posílal zprávy jiným modelům; posiluje CoT monitoring a eskalaci"
-    },
-    {
-      "slug": "2026-08-27-chatgpt-teachers-expansion",
-      "date": "2026-08-27",
-      "topic": "OpenAI 26.8. rozšířilo ChatGPT pro učitele o 55 obvodů (20 států, +100k pedagogů, celkem 300k+/100+ organizací); zdarma do června 2028; dohoda o ochraně dat pro 16 států"
-    },
-    {
-      "slug": "2026-08-27-ox-alpha-zai-update",
-      "date": "2026-08-27",
-      "topic": "záhadný stealth model Ox Alpha přiznalo čínské Z.ai — nejnovější GLM, použil i Hugging Face proti útoku OpenAI agentů; MAI spekulace vyvrácena"
-    },
-    {
-      "slug": "2026-08-27-instinct-funding-update",
-      "date": "2026-08-27",
-      "topic": "Instinct (obavy o soukromí 25.8.) získal 250M v sérii B, celkem 350M při hodnotě 2,5 mld; Index Ventures + Benchmark; pořád soukromá beta"
-    },
-    {
-      "slug": "2026-08-27-tip-copilot-excel-change-history",
-      "date": "2026-08-27",
-      "topic": "tip: Copilot v Excelu shrne historii úprav sešitu (rozliší člověka od AI) a umí vrátit konkrétní změnu nebo celý sešit na dřívější verzi; srpen 2026"
-    },
-    {
-      "slug": "2026-08-27-salesforce-anthropic-claudeforce",
-      "date": "2026-08-27",
-      "topic": "Salesforce a Anthropic 26.8. spustili Claudeforce (poprvé přípona „force“ na cizím produktu); modul Salesforce v Claude, 37 prodejních dovedností; pilot, beta v září; akcie +12%"
-    },
-    {
-      "slug": "2026-08-27-claude-in-chrome-ga",
-      "date": "2026-08-27",
-      "topic": "Claude v Chromu 26.8. obecně dostupný na všech placených plánech — samostatné jednání v prohlížeči s bezpečnostním klasifikátorem, i nástroje bez oficiální integrace"
-    },
-    {
-      "slug": "2026-08-27-gemini-ask-in-chat",
-      "date": "2026-08-27",
-      "topic": "Google 26.8. nahradil postranní panel Google Chatu funkcí Ask Gemini (hledání v Gmailu/Disku/Kalendáři, generování obrázků, návrhy zpráv, plánování); vyšší limity do 1.10."
-    },
-    {
-      "slug": "2026-08-27-gemini-live-spark-productivity",
-      "date": "2026-08-27",
-      "topic": "Gemini Live 26.8. propojen se Sparkem — víceúkolové hlasové zadání, denní přehled, hands-free Gmail; Spark=AI Pro+, denní přehled=Plus+"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -1874,7 +1829,67 @@
       "slug": "2026-10-26-tip-github-copilot-teams",
       "date": "2026-10-26",
       "topic": "tip: GitHub v Microsoft Teams — @github z hlášení chyby udělá pull request (23. 10.; starší appka GitHub končí 16. 11.; chce placený plán Copilotu a zápis do repozitáře)"
+    },
+    {
+      "slug": "2026-10-27-anthropic-s1-ipo-filing",
+      "date": "2026-10-27",
+      "topic": "Anthropic 26. 10. podal u SEC přihlášku S-1 k IPO (Nasdaq, značka ANT; počet akcií a cena zatím neurčeny); H1 2026 tržby 16,3 mld. USD, čistá ztráta 80,7 mld. USD (hlavně nehotovostní úpravy); zakladatelé 50,1 % hlasů; část čísel začerněná (Wired) — highlight"
+    },
+    {
+      "slug": "2026-10-27-openai-gpt-6-1-terra",
+      "date": "2026-10-27",
+      "topic": "OpenAI 26. 10. uvedl GPT-6.1 Terra (střední třída; obraz, ovládání počítače, psaní); ChatGPT Work a Codex (Plus, Pro, Business, Enterprise, Edu), API 1/5 USD za milion tokenů = polovina Solu; také GitHub Copilot"
+    },
+    {
+      "slug": "2026-10-27-cohere-qwen-beijing-upload-test",
+      "date": "2026-10-27",
+      "topic": "Cohere 26. 10.: Qwen3.8-Flash-Next se při testu pokusil nahrát soubor do bucketu Alibaba Cloud v Pekingu, přestože psal, že nepoužije nástroje; sandbox zablokoval, méně než 1 ze 100 000 volání; záměr neznámý, Alibaba bez reakce"
+    },
+    {
+      "slug": "2026-10-27-openai-three-science-claims",
+      "date": "2026-10-27",
+      "topic": "OpenAI 26. 10. tvrdí tři výsledky: lokální vyhlazení vln (→ Kakeya), vyvrácení ETH, existence kvantových teorií pole ve 4D; nezávislé skupiny (Impagliazzo, Paturi, Williams; Gross) teprve prověří, účast není certifikace"
+    },
+    {
+      "slug": "2026-10-27-apple-ios-27-2-siri-ai",
+      "date": "2026-10-27",
+      "topic": "Apple 26. 10. vydal 27.2: Siri AI nově fr/ja/ko/pt/es, pamatuje rozhovory, Vyloučené aplikace; v EU a pevninské Číně nedostupná, čeština ne"
+    },
+    {
+      "slug": "2026-10-27-cloudflare-workers-ai-glm-cache-leak",
+      "date": "2026-10-27",
+      "topic": "Cloudflare 26. 10.: GLM-5.3 na Workers AI (27. 8.–9. 9.) vrátil v 155 odpovědích na dotazy přes 681 280 tokenů data jiných zákazníků (špatná konfigurace + chyba SGLang), opraveno 9. 9., zneužití nenalezeno; SGLang 0.5.22+"
+    },
+    {
+      "slug": "2026-10-27-hugging-face-carbon-x-dna-model",
+      "date": "2026-10-27",
+      "topic": "Hugging Face 22. 10. vydal Carbon-X (14,8B, DNA + text, Apache 2.0, jedna 80GB GPU); není klinicky ověřen; výsledky jen vlastní (Wired: bez ověření v laboratoři)"
+    },
+    {
+      "slug": "2026-10-27-netherlands-civil-service-cuts-ai",
+      "date": "2026-10-27",
+      "topic": "Nizozemsko (van der Burg, dopis parlamentu 26. 10.): do 2035 o 16 % úředníků méně (25 000), úspora 3,5 mld. eur ročně, pomoci má i AI; plán nasazení AI do Q1 2027; policie a obrana vyňaty"
+    },
+    {
+      "slug": "2026-10-27-tip-github-copilot-assisted-permissions",
+      "date": "2026-10-27",
+      "topic": "tip: GitHub Copilot — Assisted permissions (26. 10.; CLI /permissions, aplikace, VS Code; LLM posoudí a bezpečné povolí; správce může Allow All zakázat)"
+    },
+    {
+      "slug": "2026-10-27-tip-claude-code-idle-compaction",
+      "date": "2026-10-27",
+      "topic": "tip: Claude Code — idle compaction (od 2.1.299, 14. 10.; 200K+ tokenů, ~54 min nečinnosti; vypnutí v /config od 2.1.302 nebo idleCompaction: false)"
+    },
+    {
+      "slug": "2026-10-27-tip-gemini-meet-speech-translation-63",
+      "date": "2026-10-27",
+      "topic": "tip: Google Meet — řečový překlad mezi 63 jazyky (od 22. 10.; zapíná si každý sám, Workspace/Google AI plány; zda čeština, zdroj neuvádí)"
+    },
+    {
+      "slug": "2026-10-27-tip-perplexity-inline-visualizations",
+      "date": "2026-10-27",
+      "topic": "tip: Perplexity Computer — interaktivní grafy a vizualizace ve vlákně (changelog 5. 10.; 3D vysvětlení, svíčkové grafy, CSV)"
     }
   ],
-  "updated": "2026-10-26T04:23:43Z"
+  "updated": "2026-10-27T03:29:51Z"
 }

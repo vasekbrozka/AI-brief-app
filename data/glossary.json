@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "terms": [
     {
       "id": "quantization",
@@ -775,6 +775,54 @@
       "short": {
         "cs": "Gemini má modely různé síly: Flash-Lite je nejrychlejší a nejlevnější, Flash o stupeň silnější a Pro je určený pro složitější uvažování a práci s dokumenty.",
         "en": "Gemini comes in models of different strength: Flash-Lite is the fastest and cheapest, Flash a step up, and Pro is built for harder reasoning and work with documents."
+      }
+    },
+    {
+      "id": "ipo",
+      "term": {
+        "cs": "IPO (vstup na burzu)",
+        "en": "IPO (initial public offering)"
+      },
+      "aliases": [
+        "IPO",
+        "S-1"
+      ],
+      "short": {
+        "cs": "Firma poprvé nabídne akcie veřejnosti a ty se začnou obchodovat na burze. Předtím podá u dohlížecího úřadu přihlášku; v USA se jmenuje S-1 a veřejně ukazuje čísla i rizika firmy.",
+        "en": "A company offers its shares to the public for the first time and they start trading on an exchange. In the US it first files an S-1, which publicly shows its figures and risks."
+      }
+    },
+    {
+      "id": "eth",
+      "term": {
+        "cs": "Hypotéza exponenciálního času (ETH)",
+        "en": "Exponential Time Hypothesis (ETH)"
+      },
+      "aliases": [
+        "ETH",
+        "hypotéza exponenciálního času",
+        "hypotézy exponenciálního času",
+        "Exponential Time Hypothesis"
+      ],
+      "short": {
+        "cs": "Široce uznávaná domněnka, že některé logické úlohy (třeba 3-SAT) nejdou řešit podstatně rychleji než zkoušením skoro všech možností. Opírají se o ni stovky výsledků o tom, které úlohy jsou těžké.",
+        "en": "A widely believed conjecture that some logic puzzles (such as 3-SAT) cannot be solved much faster than by trying almost all possibilities. Hundreds of results about which problems are hard rest on it."
+      }
+    },
+    {
+      "id": "openai-tiers",
+      "term": {
+        "cs": "Modely OpenAI: Luna, Terra, Sol, Astra",
+        "en": "OpenAI models: Luna, Terra, Sol, Astra"
+      },
+      "aliases": [
+        "Terra",
+        "Luna",
+        "Astra"
+      ],
+      "short": {
+        "cs": "OpenAI dělí modely do čtyř tříd: Luna je nejlevnější, Terra střední, Sol silnější pro složitou práci a Astra nejschopnější a nejdražší.",
+        "en": "OpenAI sorts its models into four tiers: Luna is the cheapest, Terra mid-range, Sol stronger for complex work, and Astra the most capable and most expensive."
       }
     }
   ]

@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-26T04:23:43Z",
+  "updated": "2026-10-27T03:29:51Z",
   "briefs": [
+    {
+      "date": "2026-10-27",
+      "headline": {
+        "cs": "Anthropic podal přihlášku ke vstupu na burzu",
+        "en": "Anthropic files to go public on Nasdaq"
+      },
+      "itemCount": 12
+    },
     {
       "date": "2026-10-26",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Gemini 4 Argon je teď dostupný v Copilotu",
         "en": "Gemini 4 Argon is now available in Copilot"
-      },
-      "itemCount": 3
-    },
-    {
-      "date": "2026-10-13",
-      "headline": {
-        "cs": "Google zpřístupnil Skills i v osobní appce Gemini",
-        "en": "Google brings Skills to the personal Gemini app"
       },
       "itemCount": 3
     }
