@@ -4047,17 +4047,21 @@
         "en": "Google Meet translates speech between 63 languages"
       },
       "summary": {
-        "cs": "Google 22. října rozšířil řečový překlad v Meetu na 63 jazyků na webu i na mobilu; využívá Gemini 3.5 Live Translate. Meet sám pozná, jakým jazykem se mluví, a každému posluchači překládá do jeho jazyka, titulky se synchronizují s přeloženým zvukem. Překlad si zapíná každý účastník sám.",
-        "en": "On October 22, Google expanded speech translation in Meet to 63 languages on web and mobile, powered by Gemini 3.5 Live Translate. Meet detects the spoken language itself and translates for each listener into their own, with captions synced to the translated audio. Each participant turns translation on for themselves."
+        "cs": "Google od 22. října postupně zavádí řečový překlad v Meetu pro 63 jazyků na webu i mobilu (Gemini 3.5 Live Translate). Meet sám pozná, jakým jazykem se mluví, a každému posluchači překládá do jeho jazyka, titulky se synchronizují s přeloženým zvukem. Překlad si zapíná každý účastník sám.",
+        "en": "From October 22, Google is rolling out speech translation in Meet for 63 languages on web and mobile (Gemini 3.5 Live Translate). Meet detects the spoken language itself and translates for each listener into their own, with captions synced to the translated audio. Each participant turns translation on for themselves."
       },
       "why": {
-        "cs": "Při hovoru zapni překlad na liště Meetu (ve výchozím stavu je vypnutý). Schůzku musí organizovat uživatel s vhodným plánem Workspace nebo Google AI. Zda je čeština mezi 63 jazyky, zdroj neuvádí.",
-        "en": "Turn translation on in the Meet toolbar during a call (off by default). The organizer needs an eligible Workspace or Google AI plan. The source does not say whether Czech is among the 63 languages."
+        "cs": "Zapneš ho v Meetu: tlačítko titulků a překladu › Translate speech. Čeština mezi jazyky je. Schůzku musí pořádat uživatel s plánem Business či Enterprise (Standard, Plus) nebo Google AI Pro či Ultra; limit 90 minut.",
+        "en": "Turn it on in Meet: captions and translation button › Translate speech. Czech is included. The organizer needs a Business or Enterprise (Standard, Plus) or Google AI Pro or Ultra plan; limit 90 minutes."
       },
       "sources": [
         {
           "name": "Google",
           "url": "http://workspaceupdates.googleblog.com/2026/10/real-time-speech-translation-in-google-Meet-expands-to-63-languages-with-automatic-language-detection.html"
+        },
+        {
+          "name": "Google",
+          "url": "https://support.google.com/meet/answer/16221730"
         }
       ],
       "added": "2026-10-26",
@@ -4101,12 +4105,12 @@
         "en": "Claude Code compacts a long chat while you are away"
       },
       "summary": {
-        "cs": "Claude Code od verze 2.1.299 (14. října) v terminálu sám zhustí rozhovor delší než 200 000 tokenů, který zůstal asi 54 minut nečinný, ještě než vyprší hodinová paměť zadání (cache). Další zpráva pak nemusí zpracovat všechno znovu. V nastavení jde funkce vypnout.",
-        "en": "From version 2.1.299 (October 14), Claude Code in the terminal compacts a conversation over 200,000 tokens that has sat idle for about 54 minutes, before its one-hour prompt cache expires. Your next message then doesn’t reprocess everything. You can turn the feature off in settings."
+        "cs": "Podle changelogu přibyla ve verzi 2.1.299 (14. října) v terminálu Claude Code funkce: rozhovor delší než 200 000 tokenů, který je asi 54 minut nečinný, se sám zhustí do shrnutí dřív, než vyprší hodinová paměť zadání (prompt cache). Další zpráva pak nemusí zpracovat všechno znovu.",
+        "en": "Per the Claude Code changelog, version 2.1.299 (October 14) added a terminal feature: a conversation over 200,000 tokens that has sat idle for about 54 minutes is compacted into a summary before its one-hour prompt cache expires. Your next message then doesn’t reprocess everything."
       },
       "why": {
-        "cs": "Zapnuto je samo. Vypneš to v /config řádkem Idle compaction (od verze 2.1.302) nebo v settings.json přes idleCompaction: false; práh 200 000 tokenů změníš proměnnou CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS.",
-        "en": "It is on by default. Turn it off in /config (Idle compaction row, since version 2.1.302) or with idleCompaction: false in settings.json; change the 200,000-token threshold with CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS."
+        "cs": "Vypnout ji můžeš v /config řádkem Idle compaction (od verze 2.1.302) nebo v settings.json přes idleCompaction: false; práh 200 000 tokenů změníš proměnnou CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS.",
+        "en": "Turn it off in /config (Idle compaction row, since version 2.1.302) or with idleCompaction: false in settings.json; change the 200,000-token threshold with CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS."
       },
       "sources": [
         {
@@ -4169,7 +4173,7 @@
         }
       ],
       "added": "2026-10-26",
-      "used": "2026-10-27"
+      "used": null
     },
     {
       "slug": "tip-ollama-claude-desktop-gateway",
@@ -4206,16 +4210,16 @@
       "verified": true,
       "eventDate": "2026-10-26",
       "title": {
-        "cs": "Copilot v režimu Assisted povolí bezpečné příkazy sám",
-        "en": "Copilot’s Assisted mode approves safe commands itself"
+        "cs": "Copilot v režimu Assisted sám schválí příkazy, které uzná za bezpečné",
+        "en": "Copilot’s Assisted mode approves commands it judges safe"
       },
       "summary": {
-        "cs": "GitHub 26. října zpřístupnil režim Assisted permissions v Copilot CLI, aplikaci GitHub Copilot a ve VS Code. Když Copilot chce spustit příkaz, sáhnout na soubory nebo otevřít adresu URL, posoudí žádost jazykový model: zjevně bezpečné projdou samy, o ostatních rozhoduješ ty.",
-        "en": "On October 26, GitHub made Assisted permissions generally available in Copilot CLI, the GitHub Copilot app, and VS Code. When Copilot wants to run a command, touch files, or open a URL, a language model evaluates the request: clearly safe ones go through, and you decide on the rest."
+        "cs": "GitHub 26. října uvedl režim Assisted permissions do všeobecné dostupnosti v Copilot CLI, aplikaci GitHub Copilot a ve VS Code. Když Copilot chce spustit příkaz, sáhnout na soubory nebo otevřít adresu URL, posoudí žádost jazykový model: co uzná za zjevně bezpečné, projde samo, o ostatním rozhoduješ ty.",
+        "en": "On October 26, GitHub made Assisted permissions generally available in Copilot CLI, the GitHub Copilot app, and VS Code. When Copilot wants to run a command, touch files, or open a URL, a language model evaluates the request: what it judges clearly safe goes through, and you decide on the rest."
       },
       "why": {
-        "cs": "V CLI zadej /permissions a vyber assisted; v aplikaci otevři výběr režimu › Tool permissions › Assisted; ve VS Code výběr oprávnění › Assisted permissions. Správce firmy může Allow All zakázat, Assisted nechat.",
-        "en": "CLI: /permissions › assisted. App: mode picker › Tool permissions › Assisted. VS Code: permissions picker › Assisted permissions. Admins can block Allow All and keep Assisted."
+        "cs": "V CLI: /permissions › assisted. V aplikaci: výběr režimu › Tool permissions › Assisted. Ve VS Code: výběr oprávnění › Assisted permissions. Plán zdroj neuvádí; správce firmy může zakázat režim Allow All (povolit vše).",
+        "en": "CLI: /permissions › assisted. App: mode picker › Tool permissions › Assisted. VS Code: permissions picker › Assisted permissions. The source names no plan; admins can block Allow All and keep Assisted."
       },
       "sources": [
         {
@@ -4290,12 +4294,12 @@
         "en": "Cursor Agent SDK: an agent as a folder of code"
       },
       "summary": {
-        "cs": "Cursor 20. října zpřístupnil Agent SDK: agenta definuješ jako složku s kódem (instrukce, typované akce, dovednosti, připojení k serverům MCP), otestuješ ho evaly a nasadíš do Cursoru nebo na vlastní infrastrukturu. Probouzí se na události z GitHubu, GitLabu, Bitbucketu, ve Slacku, přes webhooky i podle plánu.",
-        "en": "On October 20, Cursor made its Agent SDK available: you define an agent as a folder of code (instructions, typed actions, skills, MCP server connections), test it with evals, and deploy it to Cursor or your own infrastructure. It wakes on events from GitHub, GitLab, and Bitbucket, in Slack, through webhooks, and on a schedule."
+        "cs": "Cursor 20. října uvedl Agent SDK do všeobecné dostupnosti: agenta definuješ jako složku s kódem (instrukce, typované akce, dovednosti, připojení k serverům MCP), otestuješ ho evaly (automatickými testy chování) a nasadíš do Cursoru nebo na vlastní infrastrukturu. Probouzí se na události z GitHubu, GitLabu a Bitbucketu, ve Slacku, přes webhooky i podle plánu.",
+        "en": "On October 20, Cursor made its Agent SDK generally available: an agent is a folder of code (instructions, typed actions, skills, MCP connections) that you test with evals (behavior tests) and deploy to Cursor or your own infrastructure. It wakes on GitHub, GitLab, and Bitbucket events, in Slack, via webhooks, and on a schedule."
       },
       "why": {
-        "cs": "Začni příkazem npx @cursor/agent-sdk init ./my-bot, lokálně spusť agent-sdk dev a nasaď agent-sdk deploy. Šablony: bezpečnostní revizor, schvalovatel pull requestů, opravář pull requestů, třídění úkolů v Linearu nebo Jiře.",
-        "en": "Start with npx @cursor/agent-sdk init ./my-bot, run agent-sdk dev locally, and ship with agent-sdk deploy. Templates: security reviewer, pull request approver, pull request autofixer, Linear or Jira triager."
+        "cs": "Začni příkazem npx @cursor/agent-sdk init ./my-bot, lokálně spusť agent-sdk dev a nasaď agent-sdk deploy. Šablony: bezpečnostní revizor, schvalovatel podle pravidel vlastníků kódu, opravář pull requestů, třídění úkolů v Linearu nebo Jiře.",
+        "en": "Start with npx @cursor/agent-sdk init ./my-bot, run agent-sdk dev locally, and ship with agent-sdk deploy. Templates: security reviewer, code-owner-policy approver, pull request autofixer, Linear or Jira triager."
       },
       "sources": [
         {
@@ -4304,7 +4308,7 @@
         }
       ],
       "added": "2026-10-27",
-      "used": null
+      "used": "2026-10-27"
     },
     {
       "slug": "tip-gemini-chat-meeting-recaps",

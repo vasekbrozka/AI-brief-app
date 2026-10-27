@@ -216,6 +216,11 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   co to znamená v širším obrazu. Konkrétně, bez hype, **neopakuje shrnutí**. Smí oslovit
   čtenáře („Když používáš Copilot…"). U tipu je `why` návod: kde to zapnout, v jakém
   plánu, na jaké platformě.
+- **Dvě chyby, které čtenáři v kroku 5c opakovaně nacházejí:** (1) `why` odkazuje na něco,
+  co shrnutí neříká („údaje o výkonu", „výsledky v testech") — dej to do shrnutí, nebo to
+  z `why` vypusť; (2) atribuce „podle X" visí na konci věty se dvěma tvrzeními z různých
+  zdrojů — dej ji k tvrzení, ke kterému patří. U firemního tvrzení o více výsledcích
+  ověř, že „ověří to nezávislí experti" platí pro každý z nich, ne jen pro jeden.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

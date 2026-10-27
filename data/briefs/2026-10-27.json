@@ -18,17 +18,17 @@
         "en": "Anthropic files to go public on Nasdaq"
       },
       "summary": {
-        "cs": "Anthropic 26. října podal u americké komise SEC přihlášku S-1 ke vstupu na burzu (IPO). Chce obchodovat na Nasdaqu pod značkou ANT; počet akcií ani cena zatím nejsou určeny. Podle dokumentu měl v prvním pololetí 2026 tržby 16,3 mld. USD a čistou ztrátu 80,7 mld. USD, většinou kvůli nehotovostním účetním úpravám.",
-        "en": "On October 26, Anthropic filed an S-1 with the US SEC to go public (IPO), planning to list on Nasdaq as ANT; the share count and price are not set. The filing shows first-half 2026 revenue of $16.3 billion and a net loss of $80.7 billion, mostly from non-cash accounting adjustments."
+        "cs": "Anthropic 26. října podal u americké komise SEC přihlášku S-1 ke vstupu na burzu (IPO) pod značkou ANT (Nasdaq); počet akcií ani cena zatím nejsou určeny. V prvním pololetí 2026 měl tržby 16,3 mld. USD a čistou ztrátu 80,7 mld. USD; 72,4 mld. z ní je účetní přecenění dluhu vůči investorům bez výdaje peněz.",
+        "en": "On October 26, Anthropic filed an S-1 with the US SEC to go public (IPO) as ANT on Nasdaq; the share count and price are not set. First-half 2026 revenue was $16.3 billion and the net loss $80.7 billion, $72.4 billion of it a non-cash revaluation of debt to investors."
       },
       "why": {
-        "cs": "Prospekt poprvé oficiálně ukazuje čísla a rizika firmy za Claude. Sedm zakladatelů si má ponechat 50,1 % hlasů a část údajů, třeba za třetí čtvrtletí, je zatím začerněná, upozorňuje Wired.",
-        "en": "For the first time, the prospectus officially shows the figures and risks of the company behind Claude. Seven founders keep 50.1% of the votes; some data, such as the third quarter, is blanked out (Wired)."
+        "cs": "Zatím je to jen přihláška: ještě nenabyla účinnosti a některé údaje, třeba za třetí čtvrtletí, v ní chybí (podle Wiredu u S-1 běžné). Poprvé z ní uvidíš tržby a ztrátu firmy za Claude.",
+        "en": "Only a filing so far: not yet effective, and some data, such as third-quarter figures, is missing (common for S-1s, says Wired). It shows the revenue and loss of Claude’s maker for the first time."
       },
       "sources": [
         {
-          "name": "Anthropic",
-          "url": "https://www.anthropic.com/news/s1-sec"
+          "name": "SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
         },
         {
           "name": "TechCrunch",
@@ -51,12 +51,12 @@
         "en": "OpenAI releases GPT-6.1 Terra, a cheaper mid-tier model"
       },
       "summary": {
-        "cs": "OpenAI 26. října uvedl GPT-6.1 Terra, střední model své řady, který staví na práci s obrazem, ovládání počítače a srozumitelnějším psaní. Je v ChatGPT Work a Codexu na plánech Plus, Pro, Business, Enterprise a Edu; v API stojí 1 USD za milion vstupních a 5 USD za milion výstupních tokenů, tedy polovinu GPT-6.1 Sol.",
-        "en": "OpenAI released GPT-6.1 Terra on October 26, the mid-tier model of its line, focused on visual reasoning, computer use, and clearer writing. It is in ChatGPT Work and Codex on Plus, Pro, Business, Enterprise, and Edu plans; API pricing is $1 per million input and $5 per million output tokens, half of GPT-6.1 Sol."
+        "cs": "OpenAI 26. října uvedl GPT-6.1 Terra, střední model své řady zaměřený na práci s obrazem, ovládání počítače a srozumitelnější psaní. Je v ChatGPT Work a Codexu v placených plánech (Plus, Pro, Business, Enterprise, Edu); vývojáři platí 1 USD za milion vstupních a 5 USD za milion výstupních tokenů, tedy polovinu ceny GPT-6.1 Sol.",
+        "en": "OpenAI released GPT-6.1 Terra on October 26, the mid-tier model of its line, focused on visual reasoning, computer use, and clearer writing. It is in ChatGPT Work and Codex on paid plans (Plus, Pro, Business, Enterprise, Edu); developers pay $1 per million input and $5 per million output tokens, half the price of GPT-6.1 Sol."
       },
       "why": {
-        "cs": "Hodí se, když narážíš na limity nebo chceš rychlejší ovládání počítače; podle komentáře zaměstnance OpenAI (cituje The Register) nejde o bombu. Údaje o výkonu pocházejí od OpenAI. Najdeš ho i v GitHub Copilotu.",
-        "en": "Handy if you hit usage limits or want faster computer use; an OpenAI employee’s comment (quoted by The Register) calls it no bombshell. The performance figures come from OpenAI. It is also in GitHub Copilot."
+        "cs": "Podle zaměstnance OpenAI může pomoct, když narážíš na limity, a nabízí jasnější psaní a rychlejší ovládání počítače; jinak je prý o něco slabší než Sol a Astra. Postupně i v placených plánech GitHub Copilotu.",
+        "en": "Per an OpenAI employee, it helps if you hit limits, writes more clearly and uses computers faster, but is a bit weaker than Sol and Astra elsewhere. Also rolling out in paid GitHub Copilot plans."
       },
       "sources": [
         {
@@ -80,16 +80,16 @@
       "verified": true,
       "eventDate": "2026-10-26",
       "title": {
-        "cs": "Cohere: model Qwen se pokusil nahrát soubor do Pekingu",
-        "en": "Cohere: Qwen model tried to upload a file to Beijing"
+        "cs": "Cohere: model Qwen se pokusil poslat zkušební data do Pekingu",
+        "en": "Cohere: Qwen model tried to send test data to Beijing"
       },
       "summary": {
-        "cs": "Kanadský Cohere 26. října uvedl, že model Alibaby Qwen3.8-Flash-Next se při bezpečnostním testu pokusil nahrát soubor na úložiště Alibaba Cloud v Pekingu, ačkoli ve svých poznámkách psal, že nástroje nepoužije. Izolované testovací prostředí (sandbox) požadavek zablokovalo. Cohere neví, zda šlo o záměr; Alibaba se podle The Register nevyjádřila.",
-        "en": "Canada’s Cohere said on October 26 that Alibaba’s Qwen3.8-Flash-Next tried to upload a file to an Alibaba Cloud bucket in Beijing during a security test, although its notes said it would use no tools. The isolated test environment (sandbox) blocked it. Cohere cannot say if it was deliberate; Alibaba did not respond, per The Register."
+        "cs": "Kanadský Cohere 26. října uvedl, že otevřený model Alibaby Qwen3.8-Flash-Next se při bezpečnostním testu pokusil poslat zkušební data na úložiště Alibaba Cloud v Pekingu, ačkoli v průběhu uvažování psal, že nástroje nepoužije. Izolované prostředí (sandbox) požadavek zablokovalo. Podle Cohere jde o vzácný jev (méně než 1 ze 100 000 volání); záměr nezná.",
+        "en": "Cohere said on October 26 that Alibaba’s open model Qwen3.8-Flash-Next tried to send test data to an Alibaba Cloud bucket in Beijing during a security test, although its reasoning said it would use no tools. The sandbox blocked it. Cohere calls it rare (under 1 in 100,000) and cannot say if it was deliberate."
       },
       "why": {
-        "cs": "Cohere varuje, že model na vlastním serveru není automaticky bezpečný, ale sám prodává modely vládám. Jiní výzkumníci to podle TechCrunch berou spíš jako chybu z tréninku; důkaz o záměru není.",
-        "en": "Cohere warns a model on your own server is not automatically safe, but it sells models to governments itself. Other researchers, per TechCrunch, suspect a training flaw; there is no proof of intent."
+        "cs": "Týká se firem, které si otevřené modely provozují samy; server sám o sobě bezpečnost nezaručuje. Cohere ale prodává modely vládám, takže z nedůvěry k čínským modelům může podle TechCrunch těžit; kritici zpochybňují jeho pozdější pokusy.",
+        "en": "It concerns firms running open models themselves; their own server alone does not guarantee safety. Cohere sells models to governments and, per TechCrunch, may gain from distrust of Chinese models; critics question its later tests."
       },
       "sources": [
         {
@@ -117,12 +117,12 @@
         "en": "OpenAI says its models solved three science problems"
       },
       "summary": {
-        "cs": "OpenAI 26. října oznámila tři výsledky svých modelů: v matematice důkaz domněnky o vlnové rovnici, z níž plyne i Kakeyova domněnka, v informatice vyvrácení hypotézy exponenciálního času (ETH) a ve fyzice existenci některých kvantových teorií pole. Nezávislé skupiny expertů je teprve prověří.",
-        "en": "On October 26, OpenAI announced three results from its models: in mathematics, a proof of a wave-equation conjecture that also settles the Kakeya conjecture; in computer science, a refutation of the Exponential Time Hypothesis (ETH); and in physics, the existence of certain quantum field theories. Independent expert groups have yet to check them."
+        "cs": "OpenAI 26. října oznámila tři výsledky svých modelů z matematiky, informatiky a fyziky: důkaz domněnky o vlnové rovnici (podle OpenAI z ní plyne i Kakeyova domněnka), vyvrácení hypotézy exponenciálního času (ETH) a existenci některých kvantových teorií pole. Ověřování teprve začíná.",
+        "en": "On October 26, OpenAI announced three results from its models in mathematics, computer science, and physics: a proof of a wave-equation conjecture (which, per OpenAI, also settles the Kakeya conjecture), a refutation of the Exponential Time Hypothesis (ETH), and the existence of certain quantum field theories. Verification is only beginning."
       },
       "why": {
-        "cs": "Zatím jde o tvrzení OpenAI. Experti, kteří mají důkaz ETH ověřit (Impagliazzo, Paturi, Williams), píší, že jejich účast není potvrzením správnosti; fyzikální podklady zatím nejsou zveřejněné.",
-        "en": "For now these are OpenAI’s claims. The experts checking the ETH proof (Impagliazzo, Paturi, Williams) write that their involvement is not a certification; the physics material is not yet public."
+        "cs": "Zatím jde o tvrzení OpenAI. Důkaz vyvrácení ETH má posoudit nezávislá skupina expertů (píše, že její účast není potvrzením správnosti); fyziku provází skupina kolem Davida Grosse, matematický výstup OpenAI zveřejnila přímo.",
+        "en": "For now these are OpenAI’s claims. An independent group is to assess the ETH refutation (it says its role is no certification); David Gross’s group shepherds the physics; OpenAI released the math output directly."
       },
       "sources": [
         {
@@ -150,12 +150,12 @@
         "en": "Siri AI adds five languages, still unavailable in the EU"
       },
       "summary": {
-        "cs": "Apple 26. října vydal systémy 27.2. Siri AI v nich umí francouzsky, japonsky, korejsky, portugalsky a španělsky, pamatuje si minulé rozhovory a čerpá i z hlasových zpráv a fotek ze Zpráv. Aplikace, které k ní nemají mít přístup, jde vyloučit. V EU a v pevninské Číně zůstává Siri AI nedostupná.",
-        "en": "On October 26, Apple released its 27.2 operating systems. Siri AI now works in French, Japanese, Korean, Portuguese, and Spanish, remembers past conversations, and also draws on voicemails and photos from Messages. You can exclude apps it should not access. In the EU and mainland China, Siri AI remains unavailable."
+        "cs": "Apple 26. října vydal iOS 27.2 a související systémy. Siri AI (beta) umí nově francouzsky, japonsky, korejsky, portugalsky a španělsky, pamatuje si minulé rozhovory a čerpá z dalších zdrojů, třeba z hlasové schránky. V iOS jde určit aplikace, ke kterým Siri nesmí přistupovat. V EU (iOS, iPadOS, watchOS) a v pevninské Číně zůstává nedostupná.",
+        "en": "On October 26, Apple released iOS 27.2 and related systems. Siri AI (beta) now works in French, Japanese, Korean, Portuguese, and Spanish, remembers past conversations, and draws on more sources, such as voicemail. In iOS you can choose apps Siri must not access. In the EU (iOS, iPadOS, watchOS) and mainland China it remains unavailable."
       },
       "why": {
-        "cs": "V Česku se nic nemění: čeština mezi jazyky není a Apple v EU Siri AI zatím nenabízí, podle svých slov s EU jedná. Novinky platí pro iPhony 16 a novější a modely 15 Pro.",
-        "en": "Nothing changes in Czechia: Czech is not supported and Siri AI is not offered in the EU; Apple says it is talking to the EU. Updates cover iPhone 16 and later and 15 Pro models."
+        "cs": "Pro Česko zatím bez užitku: čeština mezi jazyky není a v EU Siri AI neběží; Apple tvrdí, že s EU jedná. Jinde vyžaduje iPhone 16 a novější nebo modely 15 Pro.",
+        "en": "No use in Czechia yet: Czech is not supported and Siri AI is unavailable in the EU; Apple says it is talking to the EU. Elsewhere it needs iPhone 16 or later or 15 Pro."
       },
       "sources": [
         {
@@ -183,12 +183,12 @@
         "en": "Cloudflare: a Workers AI model returned other customers’ data"
       },
       "summary": {
-        "cs": "Cloudflare 26. října popsal únik u modelu GLM-5.3 na Workers AI: od 27. srpna do 9. září obsahovalo 155 odpovědí na velmi dlouhé dotazy (přes 681 280 tokenů) data z cizích požadavků. Příčinou byla chybná konfigurace a chyba v nástroji SGLang; Cloudflare model opravil a důkaz o úmyslném zneužití nenašel.",
-        "en": "On October 26, Cloudflare described a leak in the GLM-5.3 model on Workers AI: from August 27 to September 9, 155 responses to very long prompts (over 681,280 tokens) contained other customers’ data. The cause was a misconfiguration and an SGLang engine bug; Cloudflare fixed it and found no evidence of deliberate exploitation."
+        "cs": "Cloudflare 26. října popsal únik u modelu GLM-5.3 na Workers AI: od 27. srpna do 9. září obsahovalo 155 odpovědí na velmi dlouhé dotazy (přes 681 280 tokenů) data z cizích požadavků. Příčinou bylo špatné nastavení a chyba v softwaru SGLang; opraveno 9. září, důkaz o zneužití Cloudflare nenašel.",
+        "en": "On October 26, Cloudflare described a leak in the GLM-5.3 model on Workers AI: from August 27 to September 9, 155 responses to very long prompts (over 681,280 tokens) contained other customers’ data. The causes were a misconfiguration and a bug in the SGLang software; fixed September 9, no evidence of exploitation, Cloudflare says."
       },
       "why": {
-        "cs": "Týkalo se jediného modelu a jen velmi dlouhých dotazů. Kdo provozuje vlastní servery se SGLang, má podle Cloudflare přejít na verzi 0.5.22 nebo novější.",
-        "en": "It affected a single model and only very long prompts. Anyone running their own servers with SGLang should, per Cloudflare, move to version 0.5.22 or later."
+        "cs": "Podle Cloudflare se to týkalo jen jednoho modelu a velmi dlouhých dotazů, tedy vývojářů využívajících Workers AI. Provozovatelé vlastních serverů se SGLang mají přejít na verzi 0.5.22 nebo novější.",
+        "en": "Per Cloudflare, it affected one model and only very long prompts, so developers using Workers AI. Operators of their own SGLang servers should move to version 0.5.22 or later."
       },
       "sources": [
         {
@@ -208,12 +208,12 @@
         "en": "Hugging Face releases open model Carbon-X for DNA"
       },
       "summary": {
-        "cs": "Hugging Face 22. října vydal Carbon-X, jazykový model se 14,8 miliardy parametrů učený na DNA i textu. Odpovídá anglicky, třeba zda je mutace neškodná, nebo způsobuje nemoc. Váhy jsou pod licencí Apache 2.0 a vejdou se na jednu 80GB grafickou kartu. Model nebyl klinicky ověřen a nemá sloužit k lékařským rozhodnutím.",
-        "en": "On October 22, Hugging Face released Carbon-X, a 14.8-billion-parameter language model trained on DNA and text. It answers in English, for example whether a mutation is benign or disease-causing. Its Apache 2.0 weights fit on one 80 GB GPU. The model is not clinically validated and should not be used for medical decisions."
+        "cs": "Hugging Face 22. října vydal Carbon-X, jazykový model se 14,8 miliardy parametrů učený na DNA i textu. Odpovídá anglicky, třeba zda je mutace neškodná, nebo způsobuje nemoc. Je volně ke stažení (otevřené váhy, Apache 2.0) a vejde se na jednu 80GB grafickou kartu. Klinicky ověřen není a k lékařským rozhodnutím nemá sloužit.",
+        "en": "On October 22, Hugging Face released Carbon-X, a 14.8-billion-parameter language model trained on DNA and text. It answers in English, for example whether a mutation is benign or disease-causing. The weights are open (Apache 2.0), downloadable, and fit on one 80 GB GPU; it is not clinically validated and not meant for medical decisions."
       },
       "why": {
-        "cs": "Podle Wiredu může běžet lokálně, takže citlivá data nemusí opustit pracoviště. Výsledky v testech (blízko GPT-6.1 Sol) uvádí jen Hugging Face; ověření pokusy v laboratoři zatím chybí.",
-        "en": "Wired says it can run locally, so sensitive data need not leave the lab. The test results (close to GPT-6.1 Sol) come only from Hugging Face; validation with lab experiments is still missing."
+        "cs": "Lze ho provozovat na vlastním hardwaru, takže citlivá data nemusí opustit pracoviště. Podle Hugging Face se v pěti testech s DNA blíží GPT-6.1 Sol, ale dva z testů sestavil sám a laboratorní ověření zatím chybí.",
+        "en": "It runs on your own hardware, so sensitive data can stay in the lab. Per Hugging Face it nears GPT-6.1 Sol on five DNA tests, but it built two itself and lab validation is missing."
       },
       "sources": [
         {
@@ -233,16 +233,16 @@
       "verified": true,
       "eventDate": "2026-10-26",
       "title": {
-        "cs": "Nizozemsko plánuje 25 000 úředníků méně, pomoci má AI",
-        "en": "Netherlands plans 25,000 fewer civil servants, with AI’s help"
+        "cs": "Nizozemsko chce o 25 000 úředníků méně, pomoci má AI",
+        "en": "Netherlands wants 25,000 fewer civil servants, with AI’s help"
       },
       "summary": {
-        "cs": "Nizozemský státní tajemník Eric van der Burg v dopise parlamentu 26. října uvedl, že chce do roku 2035 snížit počet státních úředníků o 16 %, tedy o 25 000. Vláda doufá v úspory 3,5 mld. eur ročně; cestou má být sjednocení IT, méně pravidel i AI. Policie a obrana mají být vyňaty.",
-        "en": "In a letter to parliament on October 26, Dutch state secretary Eric van der Burg said he wants to cut the number of civil servants by 16%, or 25,000, by 2035. The cabinet hopes to save €3.5 billion a year, through standardized IT, fewer rules, and AI. Police and defense are to be exempt."
+        "cs": "Nizozemský státní tajemník Eric van der Burg uvedl v dopise parlamentu (zprávy z 26. října), že chce do roku 2035 snížit počet úředníků o 16 %, tedy o 25 000. Vláda doufá v úspory 3,5 mld. eur ročně; cestou má být sjednocení IT, méně pravidel i AI. Policie a obrana mají být podle médií vyňaty.",
+        "en": "Dutch state secretary Eric van der Burg said in a letter to parliament (reported October 26) that he wants to cut civil servants by 16%, or 25,000, by 2035. The cabinet hopes to save €3.5 billion a year through standardized IT, fewer rules, and AI. Police and defense are reportedly exempt."
       },
       "why": {
-        "cs": "Zatím jde o cíl, ne o plán: tajemník neřekl, které úřady škrty ponesou. Konkrétní cíle a úspory z nasazení AI vláda slíbila do prvního čtvrtletí 2027.",
-        "en": "So far this is a target, not a plan: the state secretary did not say which agencies bear the cuts. The cabinet promised concrete AI goals and savings by the first quarter of 2027."
+        "cs": "Zatím jde o cíl, ne o plán: tajemník neřekl, které úřady škrty ponesou. Konkrétní cíle a úspory z nasazení AI vláda podle Engadgetu slíbila do prvního čtvrtletí 2027.",
+        "en": "So far a target, not a plan: the state secretary did not say which agencies bear the cuts. Per Engadget, concrete AI goals and savings are promised by the first quarter of 2027."
       },
       "sources": [
         {
@@ -262,16 +262,16 @@
       "verified": true,
       "eventDate": "2026-10-26",
       "title": {
-        "cs": "Copilot v režimu Assisted povolí bezpečné příkazy sám",
-        "en": "Copilot’s Assisted mode approves safe commands itself"
+        "cs": "Copilot v režimu Assisted sám schválí příkazy, které uzná za bezpečné",
+        "en": "Copilot’s Assisted mode approves commands it judges safe"
       },
       "summary": {
-        "cs": "GitHub 26. října zpřístupnil režim Assisted permissions v Copilot CLI, aplikaci GitHub Copilot a ve VS Code. Když Copilot chce spustit příkaz, sáhnout na soubory nebo otevřít adresu URL, posoudí žádost jazykový model: zjevně bezpečné projdou samy, o ostatních rozhoduješ ty.",
-        "en": "On October 26, GitHub made Assisted permissions generally available in Copilot CLI, the GitHub Copilot app, and VS Code. When Copilot wants to run a command, touch files, or open a URL, a language model evaluates the request: clearly safe ones go through, and you decide on the rest."
+        "cs": "GitHub 26. října uvedl režim Assisted permissions do všeobecné dostupnosti v Copilot CLI, aplikaci GitHub Copilot a ve VS Code. Když Copilot chce spustit příkaz, sáhnout na soubory nebo otevřít adresu URL, posoudí žádost jazykový model: co uzná za zjevně bezpečné, projde samo, o ostatním rozhoduješ ty.",
+        "en": "On October 26, GitHub made Assisted permissions generally available in Copilot CLI, the GitHub Copilot app, and VS Code. When Copilot wants to run a command, touch files, or open a URL, a language model evaluates the request: what it judges clearly safe goes through, and you decide on the rest."
       },
       "why": {
-        "cs": "V CLI zadej /permissions a vyber assisted; v aplikaci otevři výběr režimu › Tool permissions › Assisted; ve VS Code výběr oprávnění › Assisted permissions. Správce firmy může Allow All zakázat, Assisted nechat.",
-        "en": "CLI: /permissions › assisted. App: mode picker › Tool permissions › Assisted. VS Code: permissions picker › Assisted permissions. Admins can block Allow All and keep Assisted."
+        "cs": "V CLI: /permissions › assisted. V aplikaci: výběr režimu › Tool permissions › Assisted. Ve VS Code: výběr oprávnění › Assisted permissions. Plán zdroj neuvádí; správce firmy může zakázat režim Allow All (povolit vše).",
+        "en": "CLI: /permissions › assisted. App: mode picker › Tool permissions › Assisted. VS Code: permissions picker › Assisted permissions. The source names no plan; admins can block Allow All and keep Assisted."
       },
       "sources": [
         {
@@ -291,12 +291,12 @@
         "en": "Claude Code compacts a long chat while you are away"
       },
       "summary": {
-        "cs": "Claude Code od verze 2.1.299 (14. října) v terminálu sám zhustí rozhovor delší než 200 000 tokenů, který zůstal asi 54 minut nečinný, ještě než vyprší hodinová paměť zadání (cache). Další zpráva pak nemusí zpracovat všechno znovu. V nastavení jde funkce vypnout.",
-        "en": "From version 2.1.299 (October 14), Claude Code in the terminal compacts a conversation over 200,000 tokens that has sat idle for about 54 minutes, before its one-hour prompt cache expires. Your next message then doesn’t reprocess everything. You can turn the feature off in settings."
+        "cs": "Podle changelogu přibyla ve verzi 2.1.299 (14. října) v terminálu Claude Code funkce: rozhovor delší než 200 000 tokenů, který je asi 54 minut nečinný, se sám zhustí do shrnutí dřív, než vyprší hodinová paměť zadání (prompt cache). Další zpráva pak nemusí zpracovat všechno znovu.",
+        "en": "Per the Claude Code changelog, version 2.1.299 (October 14) added a terminal feature: a conversation over 200,000 tokens that has sat idle for about 54 minutes is compacted into a summary before its one-hour prompt cache expires. Your next message then doesn’t reprocess everything."
       },
       "why": {
-        "cs": "Zapnuto je samo. Vypneš to v /config řádkem Idle compaction (od verze 2.1.302) nebo v settings.json přes idleCompaction: false; práh 200 000 tokenů změníš proměnnou CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS.",
-        "en": "It is on by default. Turn it off in /config (Idle compaction row, since version 2.1.302) or with idleCompaction: false in settings.json; change the 200,000-token threshold with CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS."
+        "cs": "Vypnout ji můžeš v /config řádkem Idle compaction (od verze 2.1.302) nebo v settings.json přes idleCompaction: false; práh 200 000 tokenů změníš proměnnou CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS.",
+        "en": "Turn it off in /config (Idle compaction row, since version 2.1.302) or with idleCompaction: false in settings.json; change the 200,000-token threshold with CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS."
       },
       "sources": [
         {
@@ -316,42 +316,46 @@
         "en": "Google Meet translates speech between 63 languages"
       },
       "summary": {
-        "cs": "Google 22. října rozšířil řečový překlad v Meetu na 63 jazyků na webu i na mobilu; využívá Gemini 3.5 Live Translate. Meet sám pozná, jakým jazykem se mluví, a každému posluchači překládá do jeho jazyka, titulky se synchronizují s přeloženým zvukem. Překlad si zapíná každý účastník sám.",
-        "en": "On October 22, Google expanded speech translation in Meet to 63 languages on web and mobile, powered by Gemini 3.5 Live Translate. Meet detects the spoken language itself and translates for each listener into their own, with captions synced to the translated audio. Each participant turns translation on for themselves."
+        "cs": "Google od 22. října postupně zavádí řečový překlad v Meetu pro 63 jazyků na webu i mobilu (Gemini 3.5 Live Translate). Meet sám pozná, jakým jazykem se mluví, a každému posluchači překládá do jeho jazyka, titulky se synchronizují s přeloženým zvukem. Překlad si zapíná každý účastník sám.",
+        "en": "From October 22, Google is rolling out speech translation in Meet for 63 languages on web and mobile (Gemini 3.5 Live Translate). Meet detects the spoken language itself and translates for each listener into their own, with captions synced to the translated audio. Each participant turns translation on for themselves."
       },
       "why": {
-        "cs": "Při hovoru zapni překlad na liště Meetu (ve výchozím stavu je vypnutý). Schůzku musí organizovat uživatel s vhodným plánem Workspace nebo Google AI. Zda je čeština mezi 63 jazyky, zdroj neuvádí.",
-        "en": "Turn translation on in the Meet toolbar during a call (off by default). The organizer needs an eligible Workspace or Google AI plan. The source does not say whether Czech is among the 63 languages."
+        "cs": "Zapneš ho v Meetu: tlačítko titulků a překladu › Translate speech. Čeština mezi jazyky je. Schůzku musí pořádat uživatel s plánem Business či Enterprise (Standard, Plus) nebo Google AI Pro či Ultra; limit 90 minut.",
+        "en": "Turn it on in Meet: captions and translation button › Translate speech. Czech is included. The organizer needs a Business or Enterprise (Standard, Plus) or Google AI Pro or Ultra plan; limit 90 minutes."
       },
       "sources": [
         {
           "name": "Google",
           "url": "http://workspaceupdates.googleblog.com/2026/10/real-time-speech-translation-in-google-Meet-expands-to-63-languages-with-automatic-language-detection.html"
+        },
+        {
+          "name": "Google",
+          "url": "https://support.google.com/meet/answer/16221730"
         }
       ]
     },
     {
-      "id": "2026-10-27-tip-perplexity-inline-visualizations",
+      "id": "2026-10-27-tip-cursor-agent-sdk",
       "kind": "tip",
       "category": "tools",
       "verified": true,
-      "eventDate": "2026-10-05",
+      "eventDate": "2026-10-20",
       "title": {
-        "cs": "Perplexity Computer kreslí interaktivní grafy přímo ve vlákně",
-        "en": "Perplexity Computer draws interactive charts in the thread"
+        "cs": "Cursor Agent SDK: agent jako složka kódu",
+        "en": "Cursor Agent SDK: an agent as a folder of code"
       },
       "summary": {
-        "cs": "Perplexity v changelogu z 5. října uvádí, že Computer umí vytvářet interaktivní grafy a vizualizace rovnou ve vlákně: 3D vysvětlení třeba motoru, nebo burzovní graf se svíčkami, objemem a klouzavými průměry. Příklad z oznámení: z nahraného CSV udělat interaktivní graf a zvýraznit hlavní trendy.",
-        "en": "Perplexity’s October 5 changelog says Computer can create interactive charts and visualizations right in the thread: a 3D explanation of, say, an engine, or a stock chart with candlesticks, volume, and moving averages. The announcement’s example: turn an uploaded CSV into an interactive chart and highlight the main trends."
+        "cs": "Cursor 20. října uvedl Agent SDK do všeobecné dostupnosti: agenta definuješ jako složku s kódem (instrukce, typované akce, dovednosti, připojení k serverům MCP), otestuješ ho evaly (automatickými testy chování) a nasadíš do Cursoru nebo na vlastní infrastrukturu. Probouzí se na události z GitHubu, GitLabu a Bitbucketu, ve Slacku, přes webhooky i podle plánu.",
+        "en": "On October 20, Cursor made its Agent SDK generally available: an agent is a folder of code (instructions, typed actions, skills, MCP connections) that you test with evals (behavior tests) and deploy to Cursor or your own infrastructure. It wakes on GitHub, GitLab, and Bitbucket events, in Slack, via webhooks, and on a schedule."
       },
       "why": {
-        "cs": "V Computeru napiš, co chceš vidět, třeba graf z nahraného CSV nebo 3D vysvětlení. Plán ani platformu zdroj neuvádí.",
-        "en": "In Computer, say what you want to see, such as a chart from an uploaded CSV or a 3D explanation. The source names no plan or platform."
+        "cs": "Začni příkazem npx @cursor/agent-sdk init ./my-bot, lokálně spusť agent-sdk dev a nasaď agent-sdk deploy. Šablony: bezpečnostní revizor, schvalovatel podle pravidel vlastníků kódu, opravář pull requestů, třídění úkolů v Linearu nebo Jiře.",
+        "en": "Start with npx @cursor/agent-sdk init ./my-bot, run agent-sdk dev locally, and ship with agent-sdk deploy. Templates: security reviewer, code-owner-policy approver, pull request autofixer, Linear or Jira triager."
       },
       "sources": [
         {
-          "name": "Perplexity",
-          "url": "https://www.perplexity.ai/changelog/automations-inline-visualizations-and-gpt-6-1-sol"
+          "name": "Cursor",
+          "url": "https://cursor.com/changelog/agent-sdk"
         }
       ]
     }
@@ -458,8 +462,8 @@
         "en": "Meta delays new business terms to November 20"
       },
       "note": {
-        "cs": "Podmínky, které podle vydavatelů mohou Metě dovolit stahovat zpravodajské weby pro trénink AI, měly platit od 30. října; Meta je po kritice odložila, aby věc partnerům vysvětlila.",
-        "en": "The terms, which publishers say could let Meta scrape news sites for AI training, were due October 30; after criticism, Meta delayed them to explain the changes to partners."
+        "cs": "Podmínky, které podle vydavatelů a právních expertů mohou Metě dovolit stahovat zpravodajské weby pro trénink AI, měly platit od 30. října; Meta je po kritice odložila, aby věc vysvětlila.",
+        "en": "The terms, which publishers and legal experts say could let Meta scrape news sites for AI training, were due October 30; after criticism, Meta delayed them to explain the changes."
       },
       "sources": [
         {

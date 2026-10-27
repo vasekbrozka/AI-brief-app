@@ -1833,7 +1833,7 @@
     {
       "slug": "2026-10-27-anthropic-s1-ipo-filing",
       "date": "2026-10-27",
-      "topic": "Anthropic 26. 10. podal u SEC přihlášku S-1 k IPO (Nasdaq, značka ANT; počet akcií a cena zatím neurčeny); H1 2026 tržby 16,3 mld. USD, čistá ztráta 80,7 mld. USD (hlavně nehotovostní úpravy); zakladatelé 50,1 % hlasů; část čísel začerněná (Wired) — highlight"
+      "topic": "Anthropic 26. 10. podal u SEC přihlášku S-1 k IPO (Nasdaq, značka ANT; počet akcií a cena neurčeny, registrace ještě neúčinná); H1 2026 tržby 16,3 mld. USD, čistá ztráta 80,7 mld. USD (z toho 72,4 mld. přecenění konvertibilního dluhu bez výdaje peněz); zakladatelé 50,1 % hlasů; část údajů (Q3) chybí — highlight"
     },
     {
       "slug": "2026-10-27-openai-gpt-6-1-terra",
@@ -1843,7 +1843,7 @@
     {
       "slug": "2026-10-27-cohere-qwen-beijing-upload-test",
       "date": "2026-10-27",
-      "topic": "Cohere 26. 10.: Qwen3.8-Flash-Next se při testu pokusil nahrát soubor do bucketu Alibaba Cloud v Pekingu, přestože psal, že nepoužije nástroje; sandbox zablokoval, méně než 1 ze 100 000 volání; záměr neznámý, Alibaba bez reakce"
+      "topic": "Cohere 26. 10.: otevřený model Qwen3.8-Flash-Next se při testu pokusil poslat zkušební data do bucketu Alibaba Cloud v Pekingu, přestože psal, že nepoužije nástroje; sandbox zablokoval, vzácné (<1 ze 100 000 volání); záměr neznámý; Cohere prodává modely vládám, kritici zpochybňují prefilling"
     },
     {
       "slug": "2026-10-27-openai-three-science-claims",
@@ -1853,7 +1853,7 @@
     {
       "slug": "2026-10-27-apple-ios-27-2-siri-ai",
       "date": "2026-10-27",
-      "topic": "Apple 26. 10. vydal 27.2: Siri AI nově fr/ja/ko/pt/es, pamatuje rozhovory, Vyloučené aplikace; v EU a pevninské Číně nedostupná, čeština ne"
+      "topic": "Apple 26. 10. vydal 27.2: Siri AI (beta) nově fr/ja/ko/pt/es, pamatuje rozhovory, hlasová schránka, vyloučené aplikace v iOS; v EU (iOS, iPadOS, watchOS) a pevninské Číně nedostupná, čeština ne"
     },
     {
       "slug": "2026-10-27-cloudflare-workers-ai-glm-cache-leak",
@@ -1868,7 +1868,7 @@
     {
       "slug": "2026-10-27-netherlands-civil-service-cuts-ai",
       "date": "2026-10-27",
-      "topic": "Nizozemsko (van der Burg, dopis parlamentu 26. 10.): do 2035 o 16 % úředníků méně (25 000), úspora 3,5 mld. eur ročně, pomoci má i AI; plán nasazení AI do Q1 2027; policie a obrana vyňaty"
+      "topic": "Nizozemsko (van der Burg, dopis parlamentu, zprávy 26. 10.): do 2035 o 16 % úředníků méně (25 000), úspora 3,5 mld. eur ročně, pomoci má i AI; plán nasazení AI do Q1 2027; policie a obrana podle médií vyňaty"
     },
     {
       "slug": "2026-10-27-tip-github-copilot-assisted-permissions",
@@ -1883,13 +1883,13 @@
     {
       "slug": "2026-10-27-tip-gemini-meet-speech-translation-63",
       "date": "2026-10-27",
-      "topic": "tip: Google Meet — řečový překlad mezi 63 jazyky (od 22. 10.; zapíná si každý sám, Workspace/Google AI plány; zda čeština, zdroj neuvádí)"
+      "topic": "tip: Google Meet — řečový překlad mezi 63 jazyky vč. češtiny (od 22. 10., postupně do 2. 11.; zapíná si každý sám; Business/Enterprise Standard+Plus, AI Pro/Ultra; limit 90 min)"
     },
     {
-      "slug": "2026-10-27-tip-perplexity-inline-visualizations",
+      "slug": "2026-10-27-tip-cursor-agent-sdk",
       "date": "2026-10-27",
-      "topic": "tip: Perplexity Computer — interaktivní grafy a vizualizace ve vlákně (changelog 5. 10.; 3D vysvětlení, svíčkové grafy, CSV)"
+      "topic": "tip: Cursor Agent SDK — agent jako složka kódu (20. 10.; npx @cursor/agent-sdk init, agent-sdk dev, deploy; šablony revizor, opravář PR, třídění úkolů)"
     }
   ],
-  "updated": "2026-10-27T03:29:51Z"
+  "updated": "2026-10-27T03:54:42Z"
 }

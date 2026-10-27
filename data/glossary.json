@@ -805,8 +805,8 @@
         "Exponential Time Hypothesis"
       ],
       "short": {
-        "cs": "Široce uznávaná domněnka, že některé logické úlohy (třeba 3-SAT) nejdou řešit podstatně rychleji než zkoušením skoro všech možností. Opírají se o ni stovky výsledků o tom, které úlohy jsou těžké.",
-        "en": "A widely believed conjecture that some logic puzzles (such as 3-SAT) cannot be solved much faster than by trying almost all possibilities. Hundreds of results about which problems are hard rest on it."
+        "cs": "Široce uznávaná domněnka, že některé logické úlohy nejdou řešit podstatně rychleji než zkoušením skoro všech možností. Opírají se o ni stovky výsledků o tom, které úlohy jsou těžké.",
+        "en": "A widely believed conjecture that some logic problems cannot be solved much faster than by trying almost all possibilities. Hundreds of results about which problems are hard rest on it."
       }
     },
     {
