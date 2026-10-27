@@ -53,6 +53,7 @@ SOURCES = [
     ("techreview", "MIT Technology Review", "rss", "https://www.technologyreview.com/topic/artificial-intelligence/feed", None, None),
     ("venturebeat", "VentureBeat", "rss", "https://venturebeat.com/category/ai/feed/", None, None),
     ("register", "The Register", "rss", "https://www.theregister.com/headlines.atom", "ai", None),
+    ("tnw", "The Next Web", "rss", "https://thenextweb.com/feed", "ai", None),
     ("engadget", "Engadget", "rss", "https://www.engadget.com/rss.xml", "ai", None),
     ("9to5google", "9to5Google", "rss", "https://9to5google.com/feed/", "ai", None),
     ("9to5mac", "9to5Mac", "rss", "https://9to5mac.com/feed/", "ai", None),

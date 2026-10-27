@@ -643,7 +643,7 @@ Sweep ale jen nachází, neověřuje: první den se ukázalo, že „ChatGPT v C
 bylo znovuohlášení funkcí z léta a příkaz proti DeepSeeku je podepsaný už 24. 7. — média
 psala o 19. 10. Krok 2 a nezávislá kontrola (5c) proto platí beze změny.
 
-- **Blok 0 · Sweep** (`docs/feed-sweep.py`): povinný první krok; stáhne ~36 zdrojů,
+- **Blok 0 · Sweep** (`docs/feed-sweep.py`): povinný první krok; stáhne ~37 zdrojů,
   vyřadí zveřejněné podle URL, označí možné duplicity podle titulku a tiery převezme
   z `check-brief.py`.
 - **WebSearch jen na to, co sweep nevidí** (A–F, 12–18 dotazů): zdroje bez feedu,
