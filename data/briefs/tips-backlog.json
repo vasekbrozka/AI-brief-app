@@ -4325,23 +4325,23 @@
       "used": "2026-10-28"
     },
     {
-      "slug": "tip-m365-copilot-word-read-aloud-voice",
+      "slug": "tip-m365-copilot-powerpoint-attach-deck-style",
       "category": "tools",
       "theme": "copilot",
       "added": "2026-10-28",
       "verified": true,
       "eventDate": "2026-10-27",
       "title": {
-        "cs": "Copilot ve Wordu odpovídá na hlasové dotazy při předčítání",
-        "en": "Copilot in Word answers spoken questions during Read Aloud"
+        "cs": "Copilot v PowerPointu převezme styl vaší prezentace",
+        "en": "Copilot in PowerPoint copies the style of your deck"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání z 27. října uvádí, že předčítání dokumentu ve Wordu (Read Aloud) umí odpovídat na hlasové dotazy přes Copilota. Během čtení se zeptáš třeba „Co to znamená?“ nebo „Shrň tuto část“ a odpověď dostaneš, aniž bys čtení zastavoval. Funkce je zatím pro Word ve Windows.",
-        "en": "Microsoft’s October 27 release notes say Read Aloud in Word can now answer spoken questions through Copilot. While the document is read out, you ask something like “What does this mean?” or “Summarize this section” and get an answer without stopping the reading. For now the feature is for Word on Windows."
+        "cs": "Microsoft v poznámkách k vydání z 27. října uvádí, že Copilot v PowerPointu pro Windows a web při tvorbě nové prezentace umí převzít motiv a styly z přiloženého souboru, takže nová prezentace nemá výchozí vzhled. Do zadání jde přiložit i obrázek, který Copilot do slajdů zapracuje.",
+        "en": "Microsoft’s October 27 release notes say Copilot in PowerPoint for Windows and the web can take the theme and styles from an attached file when creating a new presentation, so the new deck does not get the default look. You can also attach an image, which Copilot works into the slides."
       },
       "why": {
-        "cs": "Na kartě Review spusť Read Aloud a během čtení se ptej hlasem. Je v poznámkách k Microsoft 365 Copilot, které licenci neuvádějí; funkce se zavádí postupně.",
-        "en": "On the Review tab, start Read Aloud and ask by voice while it reads. It is in the Microsoft 365 Copilot notes, which name no license; features roll out gradually."
+        "cs": "Při tvorbě nové prezentace s Copilotem zvol Attach file, přilož existující prezentaci a popiš, co má vzniknout. Je to v poznámkách k Microsoft 365 Copilot; licenci neuvádějí a funkce se zavádí postupně.",
+        "en": "When creating a new presentation with Copilot, choose Attach file, attach an existing deck, and describe what you want. It is in the Microsoft 365 Copilot notes, which name no license; features roll out gradually."
       },
       "sources": [
         {
@@ -4356,14 +4356,14 @@
       "category": "tools",
       "theme": "copilot",
       "verified": true,
-      "eventDate": "2026-10-27",
+      "eventDate": "2026-09-23",
       "title": {
         "cs": "Copilot na iPhonu otevřeš tlačítkem Action nebo hlasem",
         "en": "Open Copilot on iPhone with the Action button or Siri"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání z 27. října uvádí, že aplikaci Microsoft 365 Copilot na iOS jde spustit dlouhým stisknutím tlačítka Action nebo hlasem přes Siri. Dřív bylo nutné ji otevřít ručně z plochy. Funkce má zrychlit start a pomoct při přístupnosti.",
-        "en": "Microsoft’s October 27 release notes say the Microsoft 365 Copilot app on iOS can be launched by long-pressing the Action button or by asking Siri. Before, you had to open it by hand from the home screen. The feature should speed up launch and help with accessibility."
+        "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že aplikaci Microsoft 365 Copilot na iOS jde spustit dlouhým stisknutím tlačítka Action nebo hlasem přes Siri. Dřív bylo nutné ji otevřít ručně z plochy. Funkce má zrychlit start a pomoct při přístupnosti.",
+        "en": "Microsoft’s September 23 release notes say the Microsoft 365 Copilot app on iOS can be launched by long-pressing the Action button or by asking Siri. Before, you had to open it by hand from the home screen. The feature should speed up launch and help with accessibility."
       },
       "why": {
         "cs": "Dlouze stiskni tlačítko Action nebo řekni Siri, ať otevře Copilot. Tlačítko Action mají jen některé iPhony; licenci a dostupnost v Česku zdroj neuvádí.",
@@ -4427,6 +4427,33 @@
         {
           "name": "9to5Google",
           "url": "https://9to5google.com/2026/10/27/gemini-notebook-recorder/"
+        }
+      ],
+      "added": "2026-10-28",
+      "used": null
+    },
+    {
+      "slug": "tip-m365-copilot-word-read-aloud-voice",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Copilot ve Wordu odpovídá na hlasové dotazy při předčítání",
+        "en": "Copilot in Word answers spoken questions during Read Aloud"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že předčítání dokumentu ve Wordu (Read Aloud) umí odpovídat na hlasové dotazy přes Copilota. Během čtení se zeptáš třeba „Co to znamená?“ nebo „Shrň tuto část“ a odpověď dostaneš, aniž bys čtení zastavoval. Funkce je zatím pro Word ve Windows.",
+        "en": "Microsoft’s September 23 release notes say Read Aloud in Word can answer spoken questions through Copilot. While the document is read out, you ask something like “What does this mean?” or “Summarize this section” and get an answer without stopping the reading. For now the feature is for Word on Windows."
+      },
+      "why": {
+        "cs": "Na kartě Review spusť Read Aloud a během čtení se ptej hlasem. Je v poznámkách k Microsoft 365 Copilot, které licenci neuvádějí; funkce se zavádí postupně.",
+        "en": "On the Review tab, start Read Aloud and ask by voice while it reads. It is in the Microsoft 365 Copilot notes, which name no license; features roll out gradually."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
         }
       ],
       "added": "2026-10-28",
