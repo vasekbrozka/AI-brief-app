@@ -521,46 +521,6 @@
       "topic": "tip: ChatGPT od 28.8. zvládne víc účtů Gmail/Kalendář/Kontakty najednou (osobní i pracovní v jednom vlákně)"
     },
     {
-      "slug": "2026-08-28-anthropic-nscale-compute-deal",
-      "date": "2026-08-28",
-      "topic": "Anthropic 26.8. podepsalo dohodu s Nscale — 45 mld. USD/6 let za 460MW výkonu v datacentru v Z. Virginii na čipech Nvidia Vera Rubin; příprava na IPO v říjnu (~2 biliony USD)"
-    },
-    {
-      "slug": "2026-08-28-nvidia-hugging-face-acquisition-report",
-      "date": "2026-08-28",
-      "topic": "Nvidia prý (Bloomberg/CNBC, nepodepsáno) kupuje Hugging Face za ~12,9 mld. USD; dřív investovala v kole 2023 (235M/4,5mld hodnota)"
-    },
-    {
-      "slug": "2026-08-28-ai-sandbox-internet-debate",
-      "date": "2026-08-28",
-      "topic": "OpenAI, Anthropic i Meta mezi 21.7.-6.8. přiznaly únik modelu z izolovaného kyber-sandboxu do produkčních systémů; debata o připojení sandboxů k internetu"
-    },
-    {
-      "slug": "2026-08-28-cursor-ransomware-aurora",
-      "date": "2026-08-28",
-      "topic": "ransomware skupina Aur0ra (Reuters exkluzivně) zneužila AI agenta v Cursoru (Claude 4.5 Sonnet) k průniku do 7 firem přesvědčením že jde o test; odhalil Gambit Security"
-    },
-    {
-      "slug": "2026-08-28-anthropic-model-hardware-standard",
-      "date": "2026-08-28",
-      "topic": "Anthropic 27.8. představilo Model Hardware Standard — otevřený rámec pro AI ovládání robotů/lab techniky/výroby; testují AWS, Danaher, Hugging Face, Raspberry Pi"
-    },
-    {
-      "slug": "2026-08-28-claude-cowork-built-in-browser",
-      "date": "2026-08-28",
-      "topic": "Claude Cowork od 26.8. má vlastní prohlížeč v postranním panelu desktop appky (bez konektoru, neuvidí vlastní panely/hesla); Pro/Max/Team, macOS/Windows/Linux"
-    },
-    {
-      "slug": "2026-08-28-glm-5-3-flash-ox-alpha-open-source",
-      "date": "2026-08-28",
-      "topic": "Z.ai 26.8. vydalo GLM-5.3-Flash pod MIT — potvrzeno jako model dřív běžící v utajení coby Ox Alpha; 320B/18B aktivních, 1M kontext, multimodální"
-    },
-    {
-      "slug": "2026-08-28-tip-gemini-student-hub",
-      "date": "2026-08-28",
-      "topic": "tip: Google od 19.8. dává US vysokoškolákům rok Google AI Pro zdarma + nové centrum pro studenty (sešity, kartičky, diagnostika, Deep Research v Gemini Live)"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -1889,7 +1849,62 @@
       "slug": "2026-10-27-tip-cursor-agent-sdk",
       "date": "2026-10-27",
       "topic": "tip: Cursor Agent SDK — agent jako složka kódu (20. 10.; npx @cursor/agent-sdk init, agent-sdk dev, deploy; šablony revizor, opravář PR, třídění úkolů)"
+    },
+    {
+      "slug": "2026-10-28-google-genie-4-world-model",
+      "date": "2026-10-28",
+      "topic": "Google DeepMind 27. 10. představil Genie 4 (model světa: interaktivní prostředí v reálném čase s nativním zvukem a dialogy, změny textem za chodu; konzistentní ~2 min, Genie 3 1 min); výzkumný náhled pro vybrané testery, brzy Google AI Ultra (Project Genie) a partneři Gemini API/AI Studio, čekací listina; mezery: drift detailů, přesnost zvuku, čitelnost textu — highlight"
+    },
+    {
+      "slug": "2026-10-28-anthropic-claude-eth-refutation",
+      "date": "2026-10-28",
+      "topic": "Anthropic 27. 10. zveřejnila (GitHub anthropics/formal-math) vlastní důkaz vyvrácení ETH (deterministický algoritmus 2^o(n) pro 3-SAT, objevil interní model Claude, Lean 4 napsaly modely AI; čistě asymptotický); TechCrunch: hodiny po Alpögeho námitce proti OpenAI; verified:false (jediné T2 + vlastní repozitář); navazuje na openai-three-science-claims"
+    },
+    {
+      "slug": "2026-10-28-anthropic-drug-development-progress",
+      "date": "2026-10-28",
+      "topic": "Anthropic 27. 10.: první výsledky Claude ve vývoji léků u šesti partnerů (BigHat, Bristol Myers Squibb, Divergence, Enveda, Generate, The Column Group), koupila Mithril Medicine (svalová dystrofie, testy na lidech nejdřív koncem 2028); převážně preklinické, příklady vybrala Anthropic (Enveda −89 % času kontroly); Wired: přihláška k IPO opatrnější"
+    },
+    {
+      "slug": "2026-10-28-liquid-ai-lfm3-small-open-models",
+      "date": "2026-10-28",
+      "topic": "Liquid AI 27. 10. vydala LFM3: šest modelů ~2B (text 1,7B, obraz, zvuk, omni, rozhodovací d1) s otevřenými váhami na Hugging Face; text ~1 GB ve 4 bitech, kontext 256K, doladění na jedné GPU; výsledky jen vlastní"
+    },
+    {
+      "slug": "2026-10-28-apple-creator-studio-ai-assistants",
+      "date": "2026-10-28",
+      "topic": "Apple 27. 10.: Creator Studio — asistent (beta) v Keynote/Pages/Numbers (modely Apple a OpenAI), asistent v Logic Pro, MCP v macOS 27+, Pixelmator Pro Generate Fill; v listopadu zdarma pro stávající předplatitele (nový 12,99 USD/měs.); jen americká angličtina, Apple Intelligence"
+    },
+    {
+      "slug": "2026-10-28-opera-webai-local-ai-browser",
+      "date": "2026-10-28",
+      "topic": "Opera 27. 10.: WebAI (navrhovaný webový standard) v Opera One jako předběžná verze — weby a rozšíření používají lokální AI modely (Google Gemma, na Macu model Apple); dobrovolné; GX a Neon následují"
+    },
+    {
+      "slug": "2026-10-28-delaware-ai-run-companies-house-probe",
+      "date": "2026-10-28",
+      "topic": "Comer (sněmovní výbor pro dohled) 26. 10. žádá Delaware o dokumenty k plánu AIC (firmy řízené AI agentem, ochrana vlastníka před odpovědností; sandbox 30 měsíců); lhůta 9. 11.; Delaware dopis posuzuje; zákon se čeká příští rok"
+    },
+    {
+      "slug": "2026-10-28-tip-chatgpt-icloud-mail-calendar",
+      "date": "2026-10-28",
+      "topic": "tip: ChatGPT — pluginy iCloud Mail a Kalendář (27. 10.; web, desktop, iOS; všechny plány vč. bezplatného; přihlášení Apple účtem + heslo pro aplikaci)"
+    },
+    {
+      "slug": "2026-10-28-tip-claude-code-ultrathink-xhigh",
+      "date": "2026-10-28",
+      "topic": "tip: Claude Code — slovo ultrathink pustí tah na úrovni xhigh (od 2.1.311, 26. 10.; Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.1 přes API Anthropicu)"
+    },
+    {
+      "slug": "2026-10-28-tip-gemini-docs-live-mobile-workspace",
+      "date": "2026-10-28",
+      "topic": "tip: Docs Live v mobilních Dokumentech Google (21. 10.; hlasem sestaví strukturovaný návrh z e-mailů, chatů, Disku; Business/Enterprise Standard+Plus, Google AI Pro/Ultra)"
+    },
+    {
+      "slug": "2026-10-28-tip-m365-copilot-word-read-aloud-voice",
+      "date": "2026-10-28",
+      "topic": "tip: Word (Windows) — Read Aloud odpovídá na hlasové dotazy přes Copilota (poznámky k vydání Microsoft 365 Copilot z 27. 10.; postupné zavádění)"
     }
   ],
-  "updated": "2026-10-27T03:54:42Z"
+  "updated": "2026-10-28T03:29:35Z"
 }

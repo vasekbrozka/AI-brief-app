@@ -1,50 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-perplexity-model-council",
-      "category": "tools",
-      "theme": "other",
-      "verified": false,
-      "title": {
-        "cs": "Perplexity nechá odpovídat víc modelů najednou",
-        "en": "Perplexity lets several models answer at once"
-      },
-      "summary": {
-        "cs": "Perplexity přidalo funkci Model Council — na jeden dotaz se zeptáš víc špičkových modelů najednou a jejich odpovědi porovnáš vedle sebe. Hodí se, když chceš víc úhlů pohledu na spornou otázku. Vyšlo to 28. července.",
-        "en": "Perplexity added a Model Council feature — ask once and several frontier models answer at the same time, with their takes side by side to compare. Handy when you want multiple perspectives on a contested question. It shipped on July 28."
-      },
-      "sources": [
-        {
-          "name": "The Register",
-          "url": "https://www.theregister.com/ai-and-ml/2026/07/28/perplexitys-tokenmaxxing-model-council-gives-you-multiple-bot-perspectives/5279972"
-        }
-      ],
-      "added": "2026-07-29",
-      "used": "2026-07-29"
-    },
-    {
-      "slug": "tip-claude-files-mobile",
-      "category": "tools",
-      "theme": "claude",
-      "verified": false,
-      "title": {
-        "cs": "Claude tvoří a upravuje soubory i v mobilu",
-        "en": "Claude creates and edits files on mobile too"
-      },
-      "summary": {
-        "cs": "Vytváření a úpravy souborů v Claude — tabulek či dokumentů — jsou nově dostupné i na plánu Pro a všechny placené plány je mají také v mobilní appce na iOS a Androidu. Anthropic to zpřístupnil v červenci.",
-        "en": "Claude's file creation and editing — spreadsheets and documents — is now available on the Pro plan too, and every paid plan gets it in the mobile app on iOS and Android as well. Anthropic opened it up in July."
-      },
-      "sources": [
-        {
-          "name": "Claude Help Center",
-          "url": "https://support.claude.com/en/articles/12138966-release-notes"
-        }
-      ],
-      "added": "2026-07-29",
-      "used": "2026-07-29"
-    },
-    {
       "slug": "tip-chatgpt-desktop-work",
       "category": "tools",
       "theme": "chatgpt",
@@ -4075,7 +4031,7 @@
       "eventDate": "2026-10-21",
       "title": {
         "cs": "Docs Live na mobilu sestaví dokument z tvého hlasu",
-        "en": "Docs Live builds a document from your voice on mobile"
+        "en": "Mobile Docs Live builds a document from your voice"
       },
       "summary": {
         "cs": "Google 21. října začal v mobilní appce Dokumentů na Androidu a iOS zavádět Docs Live pro uživatele Workspace: hlasem popíšeš, co potřebuješ, a Gemini s tebou sestaví strukturovaný první návrh. Umí čerpat z tvých e-mailů, chatů, souborů na Disku i z webu.",
@@ -4088,11 +4044,11 @@
       "sources": [
         {
           "name": "Google",
-          "url": "http://workspaceupdates.googleblog.com/2026/10/create-structured-documents-using-just-your-voice-with-Docs-Live-in-Google-Docs-on-mobile.html"
+          "url": "https://workspaceupdates.googleblog.com/2026/10/create-structured-documents-using-just-your-voice-with-Docs-Live-in-Google-Docs-on-mobile.html"
         }
       ],
       "added": "2026-10-26",
-      "used": null
+      "used": "2026-10-28"
     },
     {
       "slug": "tip-claude-code-idle-compaction",
@@ -4281,7 +4237,7 @@
         }
       ],
       "added": "2026-10-27",
-      "used": null
+      "used": "2026-10-28"
     },
     {
       "slug": "tip-cursor-agent-sdk",
@@ -4335,6 +4291,145 @@
         }
       ],
       "added": "2026-10-27",
+      "used": null
+    },
+    {
+      "slug": "tip-chatgpt-icloud-mail-calendar",
+      "category": "tools",
+      "theme": "chatgpt",
+      "added": "2026-10-28",
+      "verified": true,
+      "eventDate": "2026-10-27",
+      "title": {
+        "cs": "ChatGPT teď zvládne iCloud Mail a Kalendář",
+        "en": "ChatGPT now works with iCloud Mail and Calendar"
+      },
+      "summary": {
+        "cs": "OpenAI 27. října přidal do ChatGPT pluginy pro iCloud Mail a iCloud Kalendář. ChatGPT díky nim najde e-mail, shrne schránku, ukáže, co tě čeká, nebo upraví událost v kalendáři. Funguje na webu, v desktopové aplikaci a v iOS, na všech plánech včetně bezplatného.",
+        "en": "On October 27, OpenAI added plugins for iCloud Mail and iCloud Calendar to ChatGPT. With them ChatGPT can find an email, catch you up on your inbox, show what is next, or update a calendar event. They work on the web, in the desktop app, and on iOS, on all plans including free."
+      },
+      "why": {
+        "cs": "Zapneš ho přihlášením Apple účtem a heslem pro konkrétní aplikaci, které si předem vytvoříš u Apple účtu. Dává přístup jen k iCloud poště a kalendáři; kdo iCloud nepoužívá, nic nezíská.",
+        "en": "Turn it on by signing in with your Apple account and an app-specific password you create beforehand. It only reaches iCloud mail and calendars, so it is useless without iCloud."
+      },
+      "sources": [
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2299026/chatgpt-can-work-with-your-icloud-mail-and-calendar-thanks-to-new-plugin-support/"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/10/27/icloud-mail-and-calendar-plugins-now-work-with-chatgpt/"
+        }
+      ],
+      "used": "2026-10-28"
+    },
+    {
+      "slug": "tip-m365-copilot-word-read-aloud-voice",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-10-28",
+      "verified": true,
+      "eventDate": "2026-10-27",
+      "title": {
+        "cs": "Copilot ve Wordu odpovídá na hlasové dotazy při předčítání",
+        "en": "Copilot in Word answers spoken questions during Read Aloud"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 27. října uvádí, že předčítání dokumentu ve Wordu (Read Aloud) umí odpovídat na hlasové dotazy přes Copilota. Během čtení se zeptáš třeba „Co to znamená?“ nebo „Shrň tuto část“ a odpověď dostaneš, aniž bys čtení zastavoval. Funkce je zatím pro Word ve Windows.",
+        "en": "Microsoft’s October 27 release notes say Read Aloud in Word can now answer spoken questions through Copilot. While the document is read out, you ask something like “What does this mean?” or “Summarize this section” and get an answer without stopping the reading. For now the feature is for Word on Windows."
+      },
+      "why": {
+        "cs": "Na kartě Review spusť Read Aloud a během čtení se ptej hlasem. Je v poznámkách k Microsoft 365 Copilot, které licenci neuvádějí; funkce se zavádí postupně.",
+        "en": "On the Review tab, start Read Aloud and ask by voice while it reads. It is in the Microsoft 365 Copilot notes, which name no license; features roll out gradually."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "used": "2026-10-28"
+    },
+    {
+      "slug": "tip-m365-copilot-ios-action-button",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-10-27",
+      "title": {
+        "cs": "Copilot na iPhonu otevřeš tlačítkem Action nebo hlasem",
+        "en": "Open Copilot on iPhone with the Action button or Siri"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 27. října uvádí, že aplikaci Microsoft 365 Copilot na iOS jde spustit dlouhým stisknutím tlačítka Action nebo hlasem přes Siri. Dřív bylo nutné ji otevřít ručně z plochy. Funkce má zrychlit start a pomoct při přístupnosti.",
+        "en": "Microsoft’s October 27 release notes say the Microsoft 365 Copilot app on iOS can be launched by long-pressing the Action button or by asking Siri. Before, you had to open it by hand from the home screen. The feature should speed up launch and help with accessibility."
+      },
+      "why": {
+        "cs": "Dlouze stiskni tlačítko Action nebo řekni Siri, ať otevře Copilot. Tlačítko Action mají jen některé iPhony; licenci a dostupnost v Česku zdroj neuvádí.",
+        "en": "Long-press the Action button or ask Siri to open Copilot. Only some iPhones have an Action button; the source names no license or availability for Czechia."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "added": "2026-10-28",
+      "used": null
+    },
+    {
+      "slug": "tip-cursor-cloud-agent-canvases",
+      "category": "tools",
+      "theme": "cursor",
+      "verified": true,
+      "eventDate": "2026-10-16",
+      "title": {
+        "cs": "Cloudoví agenti v Cursoru umějí vytvářet interaktivní plátna",
+        "en": "Cursor’s cloud agents can now build interactive canvases"
+      },
+      "summary": {
+        "cs": "Cursor 16. října uvedl, že cloudoví agenti teď v rámci práce umějí vytvářet interaktivní plátna (canvases) a hotové plátno jde sdílet s týmem odkazem. Zároveň vyšlo v betě API prostředí (Environments API) a prostředí pro agenty zvládají až 300 repozitářů a načítají se pětkrát rychleji.",
+        "en": "On October 16, Cursor said its cloud agents can now build interactive canvases as part of their work, and a finished canvas can be shared with your team by link. The Environments API also launched in beta, and agent environments now support up to 300 repositories and load five times faster."
+      },
+      "why": {
+        "cs": "Požádej cloudového agenta o výstup jako plátno a pošli odkaz kolegům. Plán, ceny ani postup zapnutí changelog neuvádí; čti ho u konkrétního zadání.",
+        "en": "Ask a cloud agent for its output as a canvas and send the link to colleagues. The changelog names no plan, pricing, or setup steps; check it per task."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments"
+        }
+      ],
+      "added": "2026-10-28",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-notebook-audio-recorder",
+      "category": "tools",
+      "theme": "notebooklm",
+      "verified": false,
+      "eventDate": "2026-10-27",
+      "title": {
+        "cs": "Gemini Notebook nahrává zvuk přímo v mobilní appce",
+        "en": "Gemini Notebook records audio right in the mobile app"
+      },
+      "summary": {
+        "cs": "Podle 9to5Google z 27. října Gemini Notebook na Androidu a iOS zavádí vestavěný záznamník zvuku: ikona mikrofonu spustí nahrávání přednášek a poznámek, které se uloží k zdrojům v notebooku. Nahrávání jde na pozadí a trvat může nejvýš hodinu.",
+        "en": "According to 9to5Google on October 27, Gemini Notebook on Android and iOS is rolling out a built-in audio recorder: a microphone icon starts recording lectures and notes, which are saved with the notebook’s sources. Recording continues in the background and can last up to one hour."
+      },
+      "why": {
+        "cs": "Klepni na ikonu mikrofonu mezi fotoaparátem a tlačítkem Vytvořit; z úvodní stránky vznikne nový notebook. Zdroj je jediný, dostupnost podle plánu a zemí neuvádí.",
+        "en": "Tap the microphone icon between the camera and the create button; from the home page it creates a new notebook. There is a single source and it names no plans or countries."
+      },
+      "sources": [
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/27/gemini-notebook-recorder/"
+        }
+      ],
+      "added": "2026-10-28",
       "used": null
     }
   ]

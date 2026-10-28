@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "terms": [
     {
       "id": "quantization",
@@ -823,6 +823,42 @@
       "short": {
         "cs": "OpenAI dělí modely do čtyř tříd: Luna je nejlevnější, Terra střední, Sol silnější pro složitou práci a Astra nejschopnější a nejdražší.",
         "en": "OpenAI sorts its models into four tiers: Luna is the cheapest, Terra mid-range, Sol stronger for complex work, and Astra the most capable and most expensive."
+      }
+    },
+    {
+      "id": "world-model",
+      "term": {
+        "cs": "Model světa (world model)",
+        "en": "World model"
+      },
+      "aliases": [
+        "model světa",
+        "modely světa",
+        "modelu světa",
+        "modelů světa",
+        "modelem světa",
+        "world model",
+        "world models"
+      ],
+      "short": {
+        "cs": "AI model, který nejen odpovídá, ale simuluje prostředí: vytvoří svět, v němž se dá pohybovat a který reaguje na zásahy. Využívá se pro hry, film a trénink robotů.",
+        "en": "An AI model that simulates an environment rather than just answering: it builds a world you can move through and change in real time. Used for games, film, and robot training."
+      }
+    },
+    {
+      "id": "lean",
+      "term": {
+        "cs": "Lean (ověřování důkazů)",
+        "en": "Lean (proof checker)"
+      },
+      "aliases": [
+        "Lean",
+        "Lean 4",
+        "Leanu"
+      ],
+      "short": {
+        "cs": "Nástroj, kterým počítač krok za krokem kontroluje, že matematický důkaz je správný. Ověří důkaz formálně zapsaného tvrzení; zda zápis opravdu říká totéž co původní tvrzení, musí posoudit lidé.",
+        "en": "A tool that checks, step by step, that a mathematical proof is correct. It verifies a formally written statement; humans must still judge whether that statement matches the original claim."
       }
     }
   ]
