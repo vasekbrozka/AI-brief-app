@@ -18,12 +18,12 @@
         "en": "Google unveils Genie 4, a world model with sound"
       },
       "summary": {
-        "cs": "Google DeepMind 27. října představil Genie 4, model světa, který v reálném čase vytváří interaktivní prostředí i s ambientním zvukem a mluvenými dialogy. Za chodu jde scénu měnit textem: počasí, kameru, postavy. Svět drží pohromadě asi dvě minuty, dvakrát déle než u Genie 3. Zatím je jen ve výzkumném náhledu pro vybrané testery.",
-        "en": "On October 27, Google DeepMind unveiled Genie 4, a world model that builds interactive environments in real time, with ambient sound and spoken dialogue. Text prompts change a running scene: weather, camera, characters. A world stays coherent for about two minutes, twice Genie 3. For now it is a research preview for selected testers."
+        "cs": "Google DeepMind 27. října představil Genie 4, model světa, který v reálném čase vytváří interaktivní prostředí se zvukem a mluvenými dialogy. Scénu jde za chodu měnit textem: počasí, kameru, postavy. Podle TechCrunch a The Verge drží svět pohromadě asi dvě minuty, dvakrát déle než Genie 3. Zatím ho mají jen vybraní testeři.",
+        "en": "On October 27, Google DeepMind unveiled Genie 4, a world model that builds interactive environments in real time, with ambient sound and spoken dialogue. Text prompts change a running scene: weather, camera, characters. Per TechCrunch and The Verge, scenes last about two minutes, twice Genie 3. For now only selected testers have it."
       },
       "why": {
-        "cs": "Google v něm vidí cestu k trénování robotů a předvizualizaci filmů. Přiznává mezery: s časem se mění detaily a předměty, zvuk nemusí být přesný a nápisy nečitelné. Pro předplatitele Google AI Ultra má přijít brzy.",
-        "en": "Google sees a path to training robots and previsualizing films. It admits gaps: details and objects drift, audio may be inaccurate, in-scene text illegible. Google AI Ultra subscribers should get it soon."
+        "cs": "Zatím si ho nevyzkoušíš: předplatitelé Google AI Ultra ho mají dostat brzy (čekací listina). Google ho vidí jako nácvik pro roboty a náčrty filmů, ale přiznává mezery: s časem se mění detaily a předměty.",
+        "en": "You cannot try it yet: Google AI Ultra subscribers should get it soon (a waitlist is open). Google sees it as practice for robots and film sketches, but admits gaps: details and objects drift."
       },
       "sources": [
         {
@@ -45,18 +45,18 @@
       "kind": "news",
       "category": "research",
       "verified": false,
-      "eventDate": "2026-10-27",
+      "eventDate": "2026-10-26",
       "title": {
-        "cs": "Anthropic tvrdí, že i její Claude vyvrátil hypotézu ETH",
-        "en": "Anthropic says its Claude also refuted the ETH"
+        "cs": "Anthropic tvrdí, že i Claude vyvrátil hypotézu exponenciálního času",
+        "en": "Anthropic says Claude also refuted the exponential time hypothesis"
       },
       "summary": {
-        "cs": "Anthropic 27. října zveřejnila vlastní důkaz vyvrácení ETH. Podle repozitáře ho objevil interní model Claude a zápis pro kontrolní nástroj Lean napsaly také modely AI; výsledek je čistě teoretický. Podle TechCrunch přišel hodiny poté, co Anthropic matematik Levent Alpöge naznačil, že OpenAI vychází z dřívější práce.",
-        "en": "On October 27, Anthropic published its own proof refuting the ETH. According to its repository, an internal Claude model found it and AI models also wrote the Lean proof-checking file; the result is purely theoretical. TechCrunch says it came hours after Anthropic mathematician Levent Alpöge suggested OpenAI builds on earlier work."
+        "cs": "Anthropic zveřejnila práci datovanou 26. října, která podle ní vyvrací hypotézu exponenciálního času (ETH). Podle Anthropicu výsledek objevil interní model Claude a zápis pro kontrolní nástroj Lean napsaly modely AI; je čistě teoretický. Podle TechCrunch přišla hodiny poté, co matematik Anthropicu Levent Alpöge naznačil, že OpenAI vychází z už existujících prací.",
+        "en": "Anthropic published a paper dated October 26 that, it says, refutes the exponential time hypothesis (ETH). Anthropic says an internal Claude model found the result, AI models wrote its file for the Lean checker, and it is purely theoretical. TechCrunch says it came hours after Anthropic mathematician Levent Alpöge suggested OpenAI builds on existing work."
       },
       "why": {
-        "cs": "Ověření teprve začíná. Experti podle The Verge berou výsledky OpenAI vážně, ale kritizují, že je nejdřív dostali jen vybraní; Anthropic sama uvádí, že počítač nekontroluje, zda zadání v Leanu říká totéž co článek.",
-        "en": "Verification is only starting. Experts tell The Verge they take OpenAI’s results seriously but object that handpicked experts got them first; Anthropic itself notes no machine checks that the Lean statement matches the paper."
+        "cs": "Nezávislé potvrzení zdroje neuvádějí. Podle Anthropicu prošel důkaz kontrolou v Leanu, ale počítač nehlídá, zda zadání v Leanu říká totéž co článek. Experti podle The Verge berou výsledky OpenAI vážně, ale kritizují výběr prvních posuzovatelů.",
+        "en": "No independent confirmation is reported. Anthropic says Lean checked the proof, but no machine checks that its statement matches the paper. Experts tell The Verge they take OpenAI’s results seriously but dislike handpicked first reviewers."
       },
       "sources": [
         {
@@ -92,12 +92,12 @@
         "en": "Anthropic details early drug-development results with Claude"
       },
       "summary": {
-        "cs": "Anthropic 27. října popsala, jak Claude pomáhal s vývojem léků u šesti partnerů, včetně Bristol Myers Squibb. Koupila i firmu Mithril Medicine, která vyvíjí léčbu dvou vzácných forem svalové dystrofie; první testy na lidech čeká nejdřív koncem roku 2028, pokud se kandidáti osvědčí. Práce je zatím převážně preklinická.",
-        "en": "On October 27, Anthropic described how Claude helped drug development at six partners, including Bristol Myers Squibb. It also bought Mithril Medicine, which develops treatments for two rare forms of muscular dystrophy; Anthropic expects human trials as soon as late 2028 if the candidates hold up. The work is so far mostly preclinical."
+        "cs": "Anthropic 27. října popsala, jak Claude pomáhal s vývojem léků u šesti partnerů, třeba u firmy Enveda. Koupila i jednočlennou firmu Mithril Medicine (vzácné svalové dystrofie); první testy na lidech čeká nejdřív koncem roku 2028, pokud její kandidátní léky obstojí. Zatím jde většinou o práci před testy na lidech.",
+        "en": "On October 27, Anthropic described how Claude helped drug development at six partners, such as Enveda. It also bought the one-person firm Mithril Medicine (rare muscular dystrophies); Anthropic expects human trials as soon as late 2028 if its candidates hold up. So far the work is mostly before human trials."
       },
       "why": {
-        "cs": "Příklady jsou výběr samotné Anthropic, třeba Enveda zkrátila kontrolu výrobní dokumentace o 89 %. Wired upozorňuje, že přihláška k IPO je opatrnější než dřívější sliby: chybí zkušenost s experimenty a léky nemusí vydělat nic.",
-        "en": "The examples are Anthropic’s own selection, e.g. Enveda cut manufacturing-document review time by 89%. Wired notes the IPO filing is more cautious than earlier promises: little lab experience, and drugs may earn nothing."
+        "cs": "Výsledky vybrala sama Anthropic, třeba Enveda v testu zkrátila kontrolu výrobní dokumentace o 89 %. Wired: přihláška Anthropicu k IPO je opatrnější než dřívější sliby (SEC přihlášky bývají opatrné vždy); léky nemusí vydělat nic.",
+        "en": "Anthropic picked the results itself, e.g. Enveda cut batch-record review by 89% in a test. Wired: its IPO filing is more cautious than earlier promises, though SEC filings usually are; drugs may earn nothing."
       },
       "sources": [
         {
@@ -121,12 +121,12 @@
         "en": "Liquid AI releases LFM3, small open models for devices"
       },
       "summary": {
-        "cs": "Liquid AI 27. října vydala LFM3, šest malých modelů pro text, obraz, zvuk i rozhodování s otevřenými váhami na Hugging Face. Textový model má 1,7 miliardy parametrů, po zmenšení na 4 bity zabere asi 1 GB a zvládne 256 000 tokenů kontextu. Každý model jde doladit na jedné grafické kartě.",
-        "en": "On October 27, Liquid AI released LFM3, six small open-weight models for text, vision, audio, and decision-making, available on Hugging Face. The text model has 1.7 billion parameters, takes about 1 GB at 4-bit precision, and handles 256,000 tokens of context. Each model can be fine-tuned on a single GPU."
+        "cs": "Liquid AI 27. října vydala LFM3, šest malých modelů pro text, obraz, zvuk i rozhodování s otevřenými váhami na Hugging Face. Textový model má 1,7 miliardy parametrů, po kvantizaci na 4 bity se vejde do asi 1 GB a zvládne 256 000 tokenů kontextu. Každý jde doladit na jedné grafické kartě.",
+        "en": "On October 27, Liquid AI released LFM3, six small open-weight models for text, vision, audio, and decision-making, available on Hugging Face. The text model has 1.7 billion parameters, fits in about 1 GB after quantization to 4 bits, and handles 256,000 tokens of context. Each model can be fine-tuned on a single GPU."
       },
       "why": {
-        "cs": "Takové modely běží přímo v telefonu nebo notebooku, bez cloudu. Výsledky v testech (např. lepší než předchozí LFM2.5-2.6B s méně parametry) uvádí jen Liquid AI; licenci si ověř na kartě modelu.",
-        "en": "Such models run on a phone or laptop without the cloud. Test results (e.g. beating the previous LFM2.5-2.6B with fewer parameters) come only from Liquid AI; check the license on the model card."
+        "cs": "Takové modely běží přímo v telefonu nebo notebooku, bez cloudu, ale návody v blogu jsou pro vývojáře (Python). Výsledky v testech (např. lepší než LFM2.5-2.6B) uvádí jen Liquid AI; licenci si ověř na kartě modelu.",
+        "en": "Such models run on a phone or laptop without the cloud, but the guides target developers (Python). Only Liquid AI reports the results (e.g. beating LFM2.5-2.6B); check the license on the model card."
       },
       "sources": [
         {
@@ -142,16 +142,16 @@
       "verified": true,
       "eventDate": "2026-10-27",
       "title": {
-        "cs": "Apple dává Pages, Keynote a Numbers asistenta s AI",
-        "en": "Apple adds an AI assistant to Pages, Keynote, Numbers"
+        "cs": "Apple chystá AI asistenta pro Pages, Keynote a Numbers",
+        "en": "Apple readies an AI assistant for Pages, Keynote, Numbers"
       },
       "summary": {
         "cs": "Apple 27. října oznámil pro předplatitele Apple Creator Studio asistenta s AI (beta) v Keynote, Pages a Numbers, postaveného na modelech Apple a OpenAI, a podobného asistenta v Logic Pro. Přibývá i podpora MCP pro externí agenty. Aktualizace vyjde v listopadu zdarma pro stávající předplatitele.",
         "en": "On October 27, Apple announced for Apple Creator Studio subscribers an AI assistant (beta) in Keynote, Pages, and Numbers, built on Apple and OpenAI models, plus a similar assistant in Logic Pro. MCP support for outside agents is also added. The update arrives in November, free for existing subscribers."
       },
       "why": {
-        "cs": "Češtinu zatím neumějí: asistenti rozumí jen americké angličtině a vyžadují iOS, iPadOS nebo macOS 27 s Apple Intelligence. AI funkce jsou pro předplatitele (nový platí 12,99 USD měsíčně), základní aplikace zůstávají zdarma.",
-        "en": "Czech is not supported: the assistants understand only US English and need iOS, iPadOS, or macOS 27 with Apple Intelligence. AI features are for subscribers ($12.99 a month for new ones); basic apps stay free."
+        "cs": "Češtinu neumějí: asistenti rozumí jen americké angličtině a chtějí systémy 27 s Apple Intelligence (Logic Pro jen macOS). AI funkce jsou pro předplatitele, nový platí v USA 12,99 USD měsíčně.",
+        "en": "Czech is not supported: assistants understand only US English and need version 27 systems with Apple Intelligence (Logic Pro: macOS only). AI features are for subscribers; new ones pay $12.99 a month in the US."
       },
       "sources": [
         {
@@ -175,16 +175,16 @@
       "verified": true,
       "eventDate": "2026-10-27",
       "title": {
-        "cs": "Opera One spouští WebAI: místní AI přímo v prohlížeči",
+        "cs": "Opera One: náhled WebAI, AI přímo v počítači",
         "en": "Opera One previews WebAI: local AI inside the browser"
       },
       "summary": {
-        "cs": "Opera 27. října spustila v prohlížeči Opera One předběžnou verzi WebAI, navrhovaného webového standardu, který webům a rozšířením dovolí používat AI modely běžící přímo v počítači uživatele. Na začátku umí modely Google Gemma a na Macu i vestavěný model Apple. Funkce je dobrovolná a verze pro GX a Neon mají následovat.",
-        "en": "On October 27, Opera launched an early preview of WebAI in Opera One, a proposed web standard that lets websites and extensions use AI models running on the user’s own computer. At launch it supports Google’s Gemma and, on Macs, Apple’s built-in model. The feature is opt-in; Opera GX and Neon are to follow."
+        "cs": "Opera 27. října spustila v prohlížeči Opera One předběžnou verzi WebAI, navrhovaného webového standardu, který webům a rozšířením dovolí používat AI modely běžící přímo v počítači uživatele. Na začátku umí modely Google Gemma a na Macu i vestavěný model Apple. Funkce je dobrovolná a další prohlížeče Opery mají následovat.",
+        "en": "On October 27, Opera launched an early preview of WebAI in Opera One, a proposed web standard that lets websites and extensions use AI models running on the user’s own computer. At launch it supports Google’s Gemma and, on Macs, Apple’s built-in model. The feature is opt-in; other Opera browsers are to follow."
       },
       "why": {
-        "cs": "Podle Opery data zůstanou v zařízení a nepotřebuješ předplatné AI, ale výkon závisí na tvém hardwaru. Weby podle 9to5Mac mají k lokální AI přístup jen s tvým svolením.",
-        "en": "Per Opera, data stays on the device and no AI subscription is needed, but performance depends on your hardware. According to 9to5Mac, you control which websites may use local AI."
+        "cs": "Podle Opery data zůstanou v zařízení, nepotřebuješ předplatné AI a určuješ, které weby smějí funkci použít; výkon závisí na hardwaru. Zapnout ji musíš sám (kde, zdroje neuvádějí).",
+        "en": "Opera says data stays on your device, no AI subscription is needed, and you choose which sites may use it; speed depends on your hardware. You switch it on yourself (sources do not say where)."
       },
       "sources": [
         {
@@ -204,16 +204,16 @@
       "verified": true,
       "eventDate": "2026-10-26",
       "title": {
-        "cs": "Kongresový výbor prověřuje plán Delawaru na firmy řízené AI",
-        "en": "US House panel questions Delaware plan for AI-run companies"
+        "cs": "Kongresman Comer prověřuje plán Delawaru na firmy řízené AI",
+        "en": "Rep. Comer questions Delaware plan for AI-run companies"
       },
       "summary": {
-        "cs": "Předseda sněmovního výboru pro dohled James Comer 26. října požádal guvernéra Delawaru o dokumenty k plánu na firmy, které by denně řídil AI agent a jejichž vlastníka by z velké části chránily před odpovědností za škody způsobené AI. Odpověď chce do 9. listopadu; zákonodárci Delawaru mají podle očekávání návrh projednat příští rok.",
-        "en": "On October 26, James Comer, chair of the US House Oversight Committee, asked Delaware’s governor for documents on a plan for companies run day to day by an AI agent, largely shielding owners from liability for its harms. He wants answers by November 9; lawmakers are expected to take the bill up next year."
+        "cs": "Předseda výboru pro dohled americké Sněmovny reprezentantů James Comer požádal 26. října guvernéra Delawaru o dokumenty k plánu na firmy, které by denně řídil AI agent a jejichž vlastníka by z velké části chránily před odpovědností za škody způsobené AI. Dokumenty chce do 9. listopadu; návrh zákona má být podle zpráv předložen příští rok.",
+        "en": "James Comer, chair of the US House Oversight Committee, asked Delaware’s governor on October 26 for documents on a plan for companies run day to day by an AI agent, largely shielding owners from liability for its harms. He wants them by November 9; the bill is reportedly to be introduced next year."
       },
       "why": {
-        "cs": "Vlastník by ručil v zásadě jen při podvodu, úmyslném porušení zákona nebo nedostatečném financování. Comer kritizuje nejasný vliv AI firem na návrh a zvažuje federální omezení státních AI pravidel; Delaware dopis posuzuje.",
-        "en": "An owner would answer essentially only for fraud, willful lawbreaking, or underfunding. Comer criticizes AI firms’ unclear influence on the draft and weighs federal limits on state AI rules; Delaware is reviewing the letter."
+        "cs": "Kdo odpoví za škodu od AI agenta? Vlastník by ručil jen při podvodu, úmyslném porušení zákona, nedostatečném financování nebo jednání mimo účel firmy. Comer zvažuje federální omezení státních AI pravidel.",
+        "en": "Who answers for harm from an AI agent? An owner would be liable only for fraud, willful lawbreaking, underfunding, or acting outside the firm’s purpose. Comer weighs federal limits on state AI rules."
       },
       "sources": [
         {
@@ -237,12 +237,12 @@
         "en": "ChatGPT now works with iCloud Mail and Calendar"
       },
       "summary": {
-        "cs": "OpenAI 27. října přidal do ChatGPT pluginy pro iCloud Mail a iCloud Kalendář. ChatGPT díky nim najde e-mail, shrne schránku, ukáže, co tě čeká, nebo upraví událost v kalendáři. Funguje na webu, v desktopové aplikaci a v iOS, na všech plánech včetně bezplatného.",
-        "en": "On October 27, OpenAI added plugins for iCloud Mail and iCloud Calendar to ChatGPT. With them ChatGPT can find an email, catch you up on your inbox, show what is next, or update a calendar event. They work on the web, in the desktop app, and on iOS, on all plans including free."
+        "cs": "OpenAI 27. října přidal do ChatGPT pluginy pro iCloud Mail a iCloud Kalendář. ChatGPT díky nim najde e-mail, shrne schránku, ukáže, co tě čeká, nebo upraví událost v kalendáři. Podle OpenAI fungují na webu, v desktopové aplikaci a v iOS na všech plánech včetně bezplatného.",
+        "en": "On October 27, OpenAI added plugins for iCloud Mail and iCloud Calendar to ChatGPT. With them ChatGPT can find an email, catch you up on your inbox, show what is next, or update a calendar event. Per OpenAI, they work on the web, in the desktop app, and on iOS on all plans including free."
       },
       "why": {
-        "cs": "Zapneš ho přihlášením Apple účtem a heslem pro konkrétní aplikaci, které si předem vytvoříš u Apple účtu. Dává přístup jen k iCloud poště a kalendáři; kdo iCloud nepoužívá, nic nezíská.",
-        "en": "Turn it on by signing in with your Apple account and an app-specific password you create beforehand. It only reaches iCloud mail and calendars, so it is useless without iCloud."
+        "cs": "Zapneš je jako ostatní pluginy: přihlásíš se Apple účtem a zvláštním heslem pro aplikace, které si předem vytvoříš u Apple. ChatGPT tak může e-maily číst a spravovat; bez iCloudu nic nezískáš. Země zdroje neuvádějí.",
+        "en": "Turn them on like other plugins: sign in with your Apple account and an app-specific password created beforehand. ChatGPT can then read and manage your email; useless without iCloud. The sources name no countries."
       },
       "sources": [
         {
@@ -262,16 +262,16 @@
       "verified": true,
       "eventDate": "2026-10-26",
       "title": {
-        "cs": "Slovo ultrathink pustí Claude Code na úroveň xhigh",
-        "en": "The word ultrathink runs Claude Code at xhigh effort"
+        "cs": "Claude Code: slovo ultrathink teď zapne úroveň xhigh",
+        "en": "Claude Code: the word ultrathink now sets xhigh effort"
       },
       "summary": {
-        "cs": "Claude Code od verze 2.1.311 (26. října) v interaktivním terminálu zpracuje tah se slovem ultrathink na úrovni úsilí xhigh, a to u modelů Opus 5.5, Sonnet 5.5, Haiku 5.5 a Fable 5.1 přes API Anthropicu. Napíšeš-li ho, zatímco Claude pracuje, zvýší úsilí zbytku tahu.",
-        "en": "From version 2.1.311 (October 26), Claude Code in the interactive terminal runs a turn containing the word ultrathink at xhigh effort on Opus 5.5, Sonnet 5.5, Haiku 5.5, and Fable 5.1 through Anthropic’s API. Typed while Claude is working, it raises the effort of the rest of that turn."
+        "cs": "Claude Code, nástroj Anthropicu pro programátory, od verze 2.1.311 (26. října) zpracuje zadání se slovem ultrathink v interaktivním terminálu na úrovni úsilí xhigh (dřív high); vyšší úsilí znamená důkladnější práci modelu. Platí pro Opus 5.5, Sonnet 5.5, Haiku 5.5 a Fable 5.1 přes API Anthropicu. Napsané za běhu zvýší úsilí zbytku odpovědi.",
+        "en": "From version 2.1.311 (October 26), Claude Code, Anthropic’s programming tool, runs a prompt with the word ultrathink at xhigh effort in the interactive terminal (before: high); higher effort means more thorough work. It covers Opus 5.5, Sonnet 5.5, Haiku 5.5, and Fable 5.1 via Anthropic’s API. Typed mid-task, it raises the rest of the reply."
       },
       "why": {
-        "cs": "Napiš ultrathink do zadání těžkého úkolu. Duhové zvýraznění slova se podle změn ukazuje jen tam, kde úsilí opravdu zvýší, ne v citaci nebo cestě k souboru.",
-        "en": "Put ultrathink in the prompt of a hard task. The rainbow highlight now shows only where the word can actually raise effort, not in a quotation or a file path."
+        "cs": "Napiš ultrathink do zadání obtížného úkolu. Duhové zvýraznění slova se ukáže jen tam, kde může úsilí zvýšit, ne v citaci ani v cestě k souboru. Verzi zjistíš příkazem claude --version.",
+        "en": "Put ultrathink in the prompt of a hard task. The rainbow highlight shows only where the word can raise effort, not in a quotation or a file path. Check your version with claude --version."
       },
       "sources": [
         {
@@ -291,17 +291,21 @@
         "en": "Mobile Docs Live builds a document from your voice"
       },
       "summary": {
-        "cs": "Google 21. října začal v mobilní appce Dokumentů na Androidu a iOS zavádět Docs Live pro uživatele Workspace: hlasem popíšeš, co potřebuješ, a Gemini s tebou sestaví strukturovaný první návrh. Umí čerpat z tvých e-mailů, chatů, souborů na Disku i z webu.",
-        "en": "On October 21, Google began rolling out Docs Live to Workspace users in the Google Docs mobile app on Android and iOS: you describe by voice what you need and Gemini builds a structured first draft with you. It can draw on your email, chats, Drive files, and the web."
+        "cs": "Google 21. října začal v mobilní appce Dokumentů na Androidu a iOS zavádět Docs Live pro uživatele Workspace, zatím jen v angličtině: hlasem popíšeš, co potřebuješ, a Gemini s tebou sestaví strukturovaný první návrh. Umí čerpat z tvých e-mailů, chatů, souborů na Disku i z webu.",
+        "en": "On October 21, Google began rolling out Docs Live to Workspace users in the Google Docs mobile app on Android and iOS, in English only for now: you describe what you need by voice and Gemini builds a structured first draft with you. It can draw on your emails, chats, Drive files, and the web."
       },
       "why": {
-        "cs": "V mobilní appce Dokumentů mluv přirozeně a řekni jasně cíl dokumentu. Platí pro Business a Enterprise Standard a Plus a pro Google AI Pro a Ultra; zapnuto je tam, kde je v Dokumentech povolený Gemini.",
-        "en": "In the Docs mobile app, speak naturally and state the goal clearly. Covers Business and Enterprise Standard and Plus and Google AI Pro and Ultra; on wherever Gemini in Docs is enabled."
+        "cs": "Potřebuješ Google Workspace (mj. Business či Enterprise, Standard či Plus) nebo předplatné Google AI Pro či Ultra. V Dokumentech na Androidu klepni na plus a Create with voice; zapnuto je tam, kde je povolený Gemini.",
+        "en": "You need Google Workspace (e.g. Business or Enterprise, Standard or Plus) or Google AI Pro or Ultra. In Docs on Android, tap the plus, then Create with voice; it is on where Gemini is enabled."
       },
       "sources": [
         {
           "name": "Google",
           "url": "https://workspaceupdates.googleblog.com/2026/10/create-structured-documents-using-just-your-voice-with-Docs-Live-in-Google-Docs-on-mobile.html"
+        },
+        {
+          "name": "Google",
+          "url": "https://support.google.com/docs/answer/17256297"
         }
       ]
     },
@@ -312,16 +316,16 @@
       "verified": true,
       "eventDate": "2026-10-27",
       "title": {
-        "cs": "Copilot v PowerPointu převezme styl vaší prezentace",
+        "cs": "Copilot v PowerPointu převezme styl tvé prezentace",
         "en": "Copilot in PowerPoint copies the style of your deck"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání z 27. října uvádí, že Copilot v PowerPointu pro Windows a web při tvorbě nové prezentace umí převzít motiv a styly z přiloženého souboru, takže nová prezentace nemá výchozí vzhled. Do zadání jde přiložit i obrázek, který Copilot do slajdů zapracuje.",
-        "en": "Microsoft’s October 27 release notes say Copilot in PowerPoint for Windows and the web can take the theme and styles from an attached file when creating a new presentation, so the new deck does not get the default look. You can also attach an image, which Copilot works into the slides."
+        "cs": "Microsoft v poznámkách k vydání z 27. října uvádí, že Copilot v PowerPointu pro Windows a web při tvorbě nové prezentace umí převzít motiv a styly z přiloženého souboru, takže nová prezentace nemá výchozí vzhled. Do zadání jde přiložit i obrázek, který Copilot do slajdů zapracuje. Novinky vyšly mezi 13. a 27. říjnem.",
+        "en": "Microsoft’s October 27 release notes say Copilot in PowerPoint (Windows, web) can take the theme and styles from an attached file when creating a presentation, instead of the default look. You can also attach an image, which Copilot works into the slides. The updates shipped October 13–27."
       },
       "why": {
-        "cs": "Při tvorbě nové prezentace s Copilotem zvol Attach file, přilož existující prezentaci a popiš, co má vzniknout. Je to v poznámkách k Microsoft 365 Copilot; licenci neuvádějí a funkce se zavádí postupně.",
-        "en": "When creating a new presentation with Copilot, choose Attach file, attach an existing deck, and describe what you want. It is in the Microsoft 365 Copilot notes, which name no license; features roll out gradually."
+        "cs": "Při tvorbě nové prezentace s Copilotem zvol Attach file, přilož existující prezentaci a popiš, co má vzniknout. Je to funkce Microsoft 365 Copilot; přesnou licenci poznámky neuvádějí a funkce se zavádí postupně.",
+        "en": "With Copilot, create a new presentation, choose Attach file, attach an existing deck, and describe what you want. It is a Microsoft 365 Copilot feature; the notes name no exact license; rollout is gradual."
       },
       "sources": [
         {
@@ -389,12 +393,12 @@
     {
       "date": "2026-11-16",
       "title": {
-        "cs": "Kalifornská vládní agentura má odevzdat doporučení k bezpečnosti AI",
-        "en": "California agency due to deliver AI safety recommendations"
+        "cs": "Kalifornská agentura pro vládní operace odevzdá doporučení k AI",
+        "en": "California’s Government Operations Agency due to deliver AI recommendations"
       },
       "note": {
-        "cs": "Agentura má do 16. listopadu poslat guvernérovi doporučení k proveditelnosti a účinnosti možných změn zákonů o AI, například zavedení auditorů přímo v laboratořích či nouzového vypínače nejschopnějších modelů.",
-        "en": "The agency must give the governor, by November 16, recommendations on feasibility and effectiveness of AI-law changes, such as on-site lab auditors or a kill switch for leading models."
+        "cs": "Agentura má do 16. listopadu poslat guvernérovi doporučení k proveditelnosti a účinnosti změn zákonů o bezpečnosti AI, například auditorů v laboratořích či nouzového vypínače nejschopnějších modelů; zveřejnění příkaz neurčuje.",
+        "en": "By November 16 the agency must send the governor recommendations on changing AI safety laws, e.g. lab auditors or a kill switch for leading models; the order sets no publication."
       },
       "sources": [
         {

@@ -152,9 +152,10 @@ s novým datem. Datum článku NENÍ datum události. Pro **každého** kandidá
 1. **Datum primární události** (oznámení, účinnost, podání žaloby, vydání) z T1/T2
    zdroje. Nedá-li se spolehlivě určit → ven. Zapiš ho do `eventDate`. U stránek složených
    z datovaných bloků (poznámky k vydání Microsoft 365 Copilot, changelogy) patří záznam
-   k **nejbližšímu datu nad ním**, ne k datu na vrcholu stránky: 28. 10. jsem tak málem dal
-   funkci z vydání 23. 9. mezi „poznámky z 27. 10.“ (chyba se našla při kontrole zdroje,
-   než brief vyšel).
+   k **nejbližšímu datu nad ním**, ne k datu na vrcholu stránky. Vypiš všechny hlavičky
+   bloků (ne jen ty z posledních týdnů): 28. 10. jsem tak funkci z vydání 25. 8. nejdřív
+   zařadil mezi „poznámky z 27. 10.“, po první opravě mezi poznámky z 23. 9. a chybu
+   našli až čtenáři v kroku 5c.
 2. **Okno čerstvosti: 14 dní.** `eventDate` ≥ dnešek − 14 → kandidát. Přednost má
    čerstvější (≤ 48 h > ≤ 72 h > ≤ 7 dní > zbytek), ale zpráva stará i dva týdny, která
    **v appce nevyšla**, je pro čtenáře nová a do briefu patří — tohle okno je hlavní
