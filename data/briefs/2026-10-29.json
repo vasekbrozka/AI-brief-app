@@ -1,0 +1,430 @@
+{
+  "date": "2026-10-29",
+  "sample": false,
+  "headline": {
+    "cs": "Google oznámil Gemini 4 Carbon, zatím jen pro kyberobránce",
+    "en": "Google unveils Gemini 4 Carbon, first to cyber defenders"
+  },
+  "items": [
+    {
+      "id": "2026-10-29-google-gemini-4-carbon",
+      "kind": "news",
+      "category": "models",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Google oznámil Gemini 4 Carbon, zatím jen pro kyberobránce",
+        "en": "Google unveils Gemini 4 Carbon, first to cyber defenders"
+      },
+      "summary": {
+        "cs": "Google 28. října oznámil Gemini 4 Carbon, špičkový model silný v kyberbezpečnosti a dlouhých úlohách; v indexu Artificial Analysis podle Googlu vede s 59 body. Zatím ho dostanou jen vybraní kyberobránci přes program Fairwind, pro vývojáře a firmy má přijít „co nejdřív“. Úvodní cena je 2 USD (vstup) a 10 USD (výstup) za milion tokenů.",
+        "en": "On October 28, Google announced Gemini 4 Carbon, a model strong in cybersecurity; Google says it tops the Artificial Analysis index at 59. Only selected cyber defenders get it for now, via the Fairwind Program; developers and businesses follow “as soon as possible”. Introductory price: $2 per million input and $10 per million output tokens."
+      },
+      "why": {
+        "cs": "Všechna čísla jsou Googlu; Ars Technica označuje Carbon za v podstatě trochu lepší Argon, dřívější model Gemini 4, s odstupem od konkurence jen pár bodů. Širší spuštění bez data; úvodní cena se zdvojnásobí.",
+        "en": "All figures are Google’s; Ars Technica calls Carbon essentially a slightly better Argon, the earlier Gemini 4 model, ahead of rivals by a few points. No wider-release date; the introductory price later doubles."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-microsoft-copilot-harness-foundry",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Microsoft nabízí ve Foundry vrstvu, na které běží Copilot",
+        "en": "Microsoft opens the layer that runs Copilot through Foundry"
+      },
+      "summary": {
+        "cs": "Microsoft 28. října zpřístupnil ve službě Foundry „harness“ Copilota, tedy vrstvu kolem modelu, která řídí pokyny, kontext, nástroje a běh agenta. Vyvinul ji GitHub a pohání Copilota ve VS Code, v CLI i v Copilot Studiu. Vývojáři ji mohou stáhnout jako SDK, nebo využít spravovaný cloud, s více než 20 modely či vlastním klíčem.",
+        "en": "On October 28, Microsoft made the Copilot harness available in Foundry: the layer around a model that manages instructions, context, tools and the agent’s run. GitHub built it; it powers Copilot in VS Code, the CLI and Copilot Studio. It comes as a downloadable SDK or managed cloud, with 20+ models or your own key."
+      },
+      "why": {
+        "cs": "Firmy tak nemusejí stavět vlastní vrstvu kolem modelů a hlídat, který model je zrovna nejlepší. GitHub navíc píše, že harness je ve VS Code výchozí pro nové relace. Cenu a stav dostupnosti Microsoft neuvádí.",
+        "en": "Companies need not build their own layer around models or track the best one. GitHub adds that the harness is now the VS Code default for new sessions. Microsoft names no price or availability status."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-openai-dot-texting-imessage-rcs",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Agent Dot v ChatGPT píše přes iMessage a RCS",
+        "en": "ChatGPT’s Dot agent now texts via iMessage and RCS"
+      },
+      "summary": {
+        "cs": "OpenAI 28. října začal zavádět psaní s agentem Dot: píšeš mu, posíláš fotky či hlasové zprávy přes iMessage na iPhonu nebo RCS na Androidu a Dot se ozve sám, když má novinky k zadaným úkolům. Funkce je zatím beta jen pro uživatele ChatGPT Pro v USA; paměť sdílí s ChatGPT.",
+        "en": "On October 28, OpenAI began rolling out texting with the Dot agent: you send it messages, photos or voice notes via iMessage on iPhone or RCS on Android, and Dot texts first with updates on assigned tasks. It is a beta for ChatGPT Pro users in the US only; memory is shared with ChatGPT."
+      },
+      "why": {
+        "cs": "Dot je agent, který pracuje na úkolech i mezi konverzacemi. V EHP, ve Spojeném království a ve Švýcarsku ho podle OpenAI zatím nemají osobní tarify Pro, jen firemní Business Premium a Enterprise.",
+        "en": "Dot is an agent that keeps working on tasks between conversations. In the EEA, UK and Switzerland, OpenAI says personal Pro plans do not get it yet, only Business Premium and Enterprise."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/docs/whats-new"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent/"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/10/28/openai-expanding-chatgpt-dot-access-to-imessage-and-rcs/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-nvidia-nemotron-3-5-transcribe",
+      "kind": "news",
+      "category": "opensource",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "NVIDIA vydala otevřený model přepisu řeči, umí česky",
+        "en": "NVIDIA releases an open speech-to-text model that handles Czech"
+      },
+      "summary": {
+        "cs": "NVIDIA 28. října vydala Nemotron 3.5 Transcribe, otevřený model, který přepisuje nahrávky až hodinu dlouhé ve 40 jazycích včetně češtiny a 31 jazyků překládá do angličtiny a zpět. Ve 13 jazycích rozliší až osm mluvčích. Podle NVIDIE je první mezi otevřenými modely v žebříčku Hugging Face Open ASR pro angličtinu. Živé přenosy neumí.",
+        "en": "On October 28, NVIDIA released Nemotron 3.5 Transcribe, an open model that transcribes recordings up to an hour long in 40 languages, Czech included, and translates 31 languages to and from English. NVIDIA says it ranks first among open models on the Hugging Face Open ASR leaderboard for English. Live streams are not supported."
+      },
+      "why": {
+        "cs": "Čeština patří podle karty modelu k jazykům s nejvyšší kvalitou přepisu a překladu, hodnocení jsou ale NVIDIE. Váhy jsou volné (licence OpenMDW), zmenšené verze pro lokální běh na RTX Spark teprve přijdou.",
+        "en": "Per the model card, Czech has the top quality rating for transcription and translation, by NVIDIA’s own scores. Weights are open (OpenMDW license); smaller versions for local RTX Spark use are still to come."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-chrome-autofill-gmail-gemini",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Chrome vyplní formuláře údaji z Gmailu, zatím v USA",
+        "en": "Chrome autofills forms from Gmail, US first"
+      },
+      "summary": {
+        "cs": "Google 28. října začal v USA zavádět rozšířené automatické vyplňování v Chromu, které s Gemini a funkcí Personal Intelligence navrhuje údaje z Gmailu: číslo objednávky, sledování zásilky nebo rezervaci letu či hotelu. Návrhy označí „Suggested by Gemini“. Funguje v počítači, na Androidu i iOS pro uživatele Gemini v Chromu se zapnutou Personal Intelligence.",
+        "en": "On October 28, Google began rolling out enhanced autofill in Chrome in the US that uses Gemini with Personal Intelligence to suggest details from Gmail, such as order numbers, tracking, or flight and hotel bookings. Suggestions are labeled “Suggested by Gemini”. It works on desktop, Android and iOS for users who turned on Personal Intelligence."
+      },
+      "why": {
+        "cs": "Podle Googlu jsou citlivé údaje šifrované a návrhy jde odebrat nebo celé vyplňování vypnout v nastavení Chromu. Zdroje o dostupnosti mimo USA mlčí.",
+        "en": "Google says sensitive data is encrypted, and you can remove suggestions or turn enhanced autofill off in Chrome settings. The sources say nothing about availability outside the US."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/28/chrome-autofill-gemini/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-eurohpc-ai-gigafactory-deadline",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "EU znovu odložila termín nabídek na střední AI gigatovárny",
+        "en": "EU again delays bids for medium-scale AI gigafactories"
+      },
+      "summary": {
+        "cs": "Podle Lupy z 28. října EuroHPC, společný podnik EU, posunul termín pro nabídky na střední AI gigatovárny (Lot 1) na 4. února 2027, aby státy stihly schválit rozpočty a finanční závazky. U velkých gigatováren (Lot 2) zůstává 3. prosinec 2026. O jednu z nich má zájem i Česko přes České Radiokomunikace.",
+        "en": "According to Lupa on October 28, EuroHPC, an EU joint undertaking, moved the deadline for bids on medium-scale AI gigafactories (Lot 1) to February 4, 2027, so states can finish budget approvals and financial commitments. For large ones (Lot 2) it stays December 3, 2026. Czechia is interested in one through České Radiokomunikace."
+      },
+      "why": {
+        "cs": "Termín byl původně 12. listopadu, pak 3. prosince. Až po něm jde nabídky vyhodnotit a rozdělit peníze; zástupce Českých Radiokomunikací říká, že další odklad nepůsobí příliš profesionálně.",
+        "en": "The deadline was first November 12, then December 3. Only after it can bids be assessed and money allocated; a representative of České Radiokomunikace says another delay looks unprofessional."
+      },
+      "sources": [
+        {
+          "name": "EuroHPC JU",
+          "url": "https://eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en"
+        },
+        {
+          "name": "Lupa",
+          "url": "https://www.lupa.cz/aktuality/sliby-vs-realita-evropa-chce-dohnat-usa-v-ai-ale-gigatovarnu-pro-cr-dal-brzdi-byrokracie/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-anthropic-claude-enterprise-smart-reports",
+      "kind": "news",
+      "category": "business",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Claude Enterprise dostal chytré reporty a sdílené rozpočty",
+        "en": "Claude Enterprise gets smart reports and pooled budgets"
+      },
+      "summary": {
+        "cs": "Anthropic 28. října uvedla pro Claude Enterprise tři funkce. Chytré reporty ukážou, co týmy s Claude dělají, kolik to stojí a kde práci brzdí chybějící konektor či selhání nástroje; dotazníky v aplikaci sbírají zpětnou vazbu a sdílený měsíční rozpočet skupiny brání tomu, aby někdo narazil na limit dřív než ostatní.",
+        "en": "On October 28, Anthropic introduced three features for Claude Enterprise. Smart reports show what teams do with Claude, what it costs, and where work stalls, such as a missing connector or a failed tool call; in-app surveys collect feedback, and a shared monthly group budget keeps some people from hitting a limit before others."
+      },
+      "why": {
+        "cs": "Podle TechCrunch má firmám doložit návratnost výdajů za tokeny. Reporty nejsou určeny k hodnocení jednotlivců a data se podle Anthropicu nepoužijí k trénování modelů. Dostupnost se liší podle konfigurace.",
+        "en": "TechCrunch says it should help firms show a return on token spending. Reports are not meant to evaluate individuals; Anthropic says the data is not used for model training by default. Availability varies by configuration."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-tip-github-copilot-fusion-ga",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Copilot Fusion po testování sám vybírá modely pro úkol",
+        "en": "Copilot Fusion leaves preview and picks models for you"
+      },
+      "summary": {
+        "cs": "GitHub 28. října uvedl Copilot Fusion jako obecně dostupný. V nabídce modelů ho vybereš místo konkrétního modelu a Copilot sám pro každý úkol zvolí a propojí modely; ty určuješ jen úroveň úsilí: Standard, High nebo Max. Je ve všech plánech Copilota ve VS Code, aplikaci Copilot, CLI a JetBrains.",
+        "en": "On October 28, GitHub made Copilot Fusion generally available. In the model picker you choose it instead of a model, and Copilot selects and combines models for each task; you set only the effort level: Standard, High, or Max. It is on all Copilot plans in VS Code, the Copilot app, the CLI and JetBrains."
+      },
+      "why": {
+        "cs": "V klientu otevři výběr modelu, zvol Copilot Fusion a úroveň. Účtuje se každý použitý model jeho sazbou; po omezenou dobu mají platící plány slevu 30 %. Správce určuje, které modely smí Fusion použít.",
+        "en": "Open the model picker, choose Copilot Fusion and a level. Each model used is billed at its own rate; for a limited time paid plans get 30% off. Admins decide which models Fusion may use."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-tip-gemini-sheets-fill-citations",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-20",
+      "title": {
+        "cs": "Gemini v Tabulkách cituje webové zdroje u každé buňky",
+        "en": "Gemini in Sheets now cites web sources per cell"
+      },
+      "summary": {
+        "cs": "Google ve funkci Fill with Gemini v Tabulkách Google, která doplňuje hodnoty buněk pomocí AI, od 20. října zavádí u každé buňky přesné webové zdroje, ze kterých Gemini čerpal, takže výsledky ověříš. Novinkou je i limit až 3 000 buněk na jednu žádost. Zdroje se zobrazují jen ve webové verzi Tabulek.",
+        "en": "In Fill with Gemini in Google Sheets, which fills cell values with AI, Google has been rolling out since October 20 the exact web sources Gemini used for each cell, so you can verify results. Requests can now cover up to 3,000 cells. Sources appear only in the web version of Sheets."
+      },
+      "why": {
+        "cs": "Gemini pro Tabulky otevřeš tlačítkem Ask Gemini (jiskra) vpravo nahoře. Mají ho plány Business a Enterprise Standard a Plus a předplatné Google AI Pro a Ultra; zavádění je postupné.",
+        "en": "Open Gemini in Sheets with the Ask Gemini (spark) button at the top right. It covers Business and Enterprise Standard and Plus plans and Google AI Pro and Ultra subscriptions; the rollout is gradual."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/fill-with-gemini-now-provides-cell-level-citations-for-web-sources-and-supports-larger-requests.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-tip-perplexity-inline-visualizations",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-05",
+      "title": {
+        "cs": "Perplexity Computer kreslí interaktivní grafy přímo ve vlákně",
+        "en": "Perplexity Computer draws interactive charts in the thread"
+      },
+      "summary": {
+        "cs": "Perplexity v changelogu z 5. října uvádí, že Computer umí vytvářet interaktivní grafy a vizualizace rovnou ve vlákně: 3D vysvětlení třeba motoru, nebo burzovní graf se svíčkami, objemem a klouzavými průměry. Příklad z oznámení: z nahraného CSV udělat interaktivní graf a zvýraznit hlavní trendy.",
+        "en": "Perplexity’s October 5 changelog says Computer can create interactive charts and visualizations right in the thread: a 3D explanation of, say, an engine, or a stock chart with candlesticks, volume, and moving averages. The announcement’s example: turn an uploaded CSV into an interactive chart and highlight the main trends."
+      },
+      "why": {
+        "cs": "V Computeru napiš, co chceš vidět, třeba graf z nahraného CSV nebo 3D vysvětlení. Plán ani platformu zdroj neuvádí.",
+        "en": "In Computer, say what you want to see, such as a chart from an uploaded CSV or a 3D explanation. The source names no plan or platform."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog/automations-inline-visualizations-and-gpt-6-1-sol"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-tip-claude-code-resume-usage-warning",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-19",
+      "title": {
+        "cs": "Claude Code varuje před drahým obnovením staré konverzace",
+        "en": "Claude Code warns before resuming a costly old chat"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.304 (19. října) na plánech Pro a Max varuje, když by obnovení neaktivní konverzace spotřebovalo znatelnou část pětihodinového limitu. Můžeš přesto pokračovat, nebo začít novou konverzaci; Claude pak může najít tu předchozí, když se na ni odkážeš.",
+        "en": "From version 2.1.304 (October 19), Claude Code on Pro and Max plans warns when resuming an inactive conversation would use a noticeable share of your 5-hour usage limit. You can resume anyway or start a new conversation, and Claude can look up the previous one if you refer to it."
+      },
+      "why": {
+        "cs": "Upozornění se ukáže při návratu k neaktivní konverzaci. Zvaž, jestli kvůli limitu nezačít znovu a na starou se jen odkázat. Platí na plánech Pro a Max.",
+        "en": "The warning appears when you return to an inactive conversation. Consider starting fresh and just referring to the old one to save your limit. It applies to Pro and Max plans."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-11-03",
+      "title": {
+        "cs": "Anthropic má do 3. listopadu odpovědět senátorce Warrenové",
+        "en": "Anthropic has until November 3 to answer Senator Warren"
+      },
+      "note": {
+        "cs": "Senátorka Elizabeth Warrenová požaduje odpovědi na čtyři strany otázek k přihlášce IPO, mimo jiné o rizicích AI a vazbách na Amazon; dopis poslala 27. října, píše TNW podle WSJ.",
+        "en": "Senator Elizabeth Warren wants answers to four pages of questions on the IPO filing, including AI risks and Amazon ties; she wrote on October 27, TNW reports, citing the WSJ."
+      },
+      "sources": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-ipo-retail-warren-s-1-details"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "GitHub vyřadí z Copilotu pro programátory tři modely",
+        "en": "GitHub retires three models from GitHub Copilot"
+      },
+      "note": {
+        "cs": "16. listopadu GitHub z Copilota vyřadí Claude Opus 4.8, Opus 5 a GPT-5.6 Terra (náhrady: Opus 5.5, GPT-6.1 Sol či GPT-6 Luna). Jednotlivcům s ročním předplatným Opus 4.8 zůstane.",
+        "en": "On November 16, GitHub Copilot drops Claude Opus 4.8, Opus 5, and GPT-5.6 Terra (replacements: Opus 5.5, GPT-6.1 Sol or GPT-6 Luna). Individual annual subscribers keep Opus 4.8."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská agentura pro vládní operace odevzdá doporučení k AI",
+        "en": "California’s Government Operations Agency due to deliver AI recommendations"
+      },
+      "note": {
+        "cs": "Agentura má do 16. listopadu poslat guvernérovi doporučení k proveditelnosti a účinnosti změn zákonů o bezpečnosti AI, například auditorů v laboratořích či nouzového vypínače nejschopnějších modelů; zveřejnění příkaz neurčuje.",
+        "en": "By November 16 the agency must send the governor recommendations on changing AI safety laws, e.g. lab auditors or a kill switch for leading models; the order sets no publication."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf"
+        },
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "Microsoft Ignite: konference o Copilotu a AI agentech",
+        "en": "Microsoft Ignite: a conference on Copilot and AI agents"
+      },
+      "note": {
+        "cs": "Microsoftova konference se koná 17.–20. listopadu v San Franciscu; online (zdarma) jen 17.–19. listopadu. Témata: Copilot, AI agenti, cloud, zabezpečení a Windows.",
+        "en": "Microsoft’s conference runs November 17–20 in San Francisco; the online event (free) is November 17–19 only. Topics: Copilot, AI agents, cloud, security, and Windows."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://ignite.microsoft.com/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-20",
+      "title": {
+        "cs": "Meta odložila nové obchodní podmínky na 20. listopadu, možná znovu",
+        "en": "Meta delays new business terms to November 20, maybe longer"
+      },
+      "note": {
+        "cs": "Meta odložila podmínky, které podle vydavatelů dovolují využít zpravodajské weby k tréninku AI, na 20. listopadu; podle The Verge z 28. října je odloží znovu, pokud konzultace potrvá déle.",
+        "en": "Meta delayed terms that publishers say let it use news sites for AI training to November 20; The Verge reported October 28 it will delay again if consultations run longer."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
+        }
+      ],
+      "tentative": true
+    }
+  ]
+}

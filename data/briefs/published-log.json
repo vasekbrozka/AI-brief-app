@@ -496,31 +496,6 @@
       "topic": "tip: Claude Code od 29.8. startuje rychleji (CLI před sandboxem), Linux instalace ~75MB, /cost /usage /tasks detailnější tokeny"
     },
     {
-      "slug": "2026-08-29-uk-voice-cloning-campaign",
-      "date": "2026-08-29",
-      "topic": "kampaň Save Our Voices Now (28.8., Coughlan/Bonneville/Lucas/Evans) — otevřený dopis premiérovi (80+ podpisů) + petice vlády za zákonnou ochranu hlasu"
-    },
-    {
-      "slug": "2026-08-29-meta-glasses-recording-fix",
-      "date": "2026-08-29",
-      "topic": "Meta 27.8. opravila chytré brýle — kamera se vypne při zakrytí LED během nahrávání (dřív šlo obejít); druhá oprava za 2 měsíce"
-    },
-    {
-      "slug": "2026-08-29-gemini-notebook-expert-intelligence",
-      "date": "2026-08-29",
-      "topic": "Google 27.8. spustil Expert Intelligence v Gemini Notebooku — koupené Google Play e-knihy jako zdroj, 100k+ titulů, kurátorované sešity (Pinker aj.)"
-    },
-    {
-      "slug": "2026-08-29-openai-thailand-accelerator",
-      "date": "2026-08-29",
-      "topic": "OpenAI 28.8. spustilo akcelerátor s thajským MHESI v Bangkoku (8 týdnů, 10 startupů zdraví/vzdělávání) — první partnerství s thajskou vládou"
-    },
-    {
-      "slug": "2026-08-29-tip-chatgpt-multi-google-accounts",
-      "date": "2026-08-29",
-      "topic": "tip: ChatGPT od 28.8. zvládne víc účtů Gmail/Kalendář/Kontakty najednou (osobní i pracovní v jednom vlákně)"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -1904,7 +1879,62 @@
       "slug": "2026-10-28-tip-m365-copilot-powerpoint-attach-deck-style",
       "date": "2026-10-28",
       "topic": "tip: PowerPoint (Windows, web) — Copilot při tvorbě nové prezentace převezme motiv a styly z přiložené prezentace, jde přiložit i obrázek (poznámky k vydání Microsoft 365 Copilot z 27. 10., vydání 13.–27. 10.; postupné zavádění)"
+    },
+    {
+      "slug": "2026-10-29-google-gemini-4-carbon",
+      "date": "2026-10-29",
+      "topic": "Google 28. 10. oznámil Gemini 4 Carbon (nástupce Argonu po ~2 týdnech): podle Googlu #1 v Artificial Analysis Intelligence Index v5.0 (59), SEC-bench Pro 88,2 %, ExploitGym 54,8 %, CWE-bench 71,0 % (bez ochran), WebDev Arena +89 Elo (#4); zatím jen vybraní kyberobránci přes Fairwind Program, pak vývojáři/firmy/spotřebitelé „co nejdřív“ (bez data); úvodní cena 2/10 USD za milion tokenů (pak 4/20); Ars: v podstatě trochu lepší Argon — highlight"
+    },
+    {
+      "slug": "2026-10-29-microsoft-copilot-harness-foundry",
+      "date": "2026-10-29",
+      "topic": "Microsoft 28. 10. zpřístupnil ve Foundry Copilot harness (vrstva kolem modelu od GitHubu; pohání Copilot Code/Studio, aplikaci Copilot, CLI, VS Code; SDK ke stažení nebo spravovaný cloud, 20+ modelů + vlastní klíč, runtime přepsaný do Rustu); GitHub: harness je ve VS Code výchozí pro nové relace; cena ani stav dostupnosti neuvedeny"
+    },
+    {
+      "slug": "2026-10-29-openai-dot-texting-imessage-rcs",
+      "date": "2026-10-29",
+      "topic": "OpenAI 28. 10. zavádí textování s agentem Dot (iMessage na iPhonu, RCS na Androidu; text, fotky, hlasovky; Dot píše i sám; paměť sdílená s ChatGPT; partner Linq) — beta jen pro ChatGPT Pro v USA; Dots nejsou pro Pro v EHP/UK/Švýcarsku, jen Business Premium a Enterprise (docs OpenAI)"
+    },
+    {
+      "slug": "2026-10-29-nvidia-nemotron-3-5-transcribe",
+      "date": "2026-10-29",
+      "topic": "NVIDIA 28. 10. vydala Nemotron 3.5 Transcribe (30B/≈4,3B aktivních, licence OpenMDW-1.1; 40 jazyků vč. češtiny — ASR, překlad do/z angličtiny, kód-switching, kvalita „Leading“ podle karty; 13 jazyků s mluvčími, až 8 mluvčích; nahrávky do hodiny, ne živě; #1 mezi otevřenými v HF Open ASR (angličtina) podle NVIDIE) + Granary v2; zmenšené verze pro RTX Spark/DGX Spark brzy"
+    },
+    {
+      "slug": "2026-10-29-chrome-autofill-gmail-gemini",
+      "date": "2026-10-29",
+      "topic": "Google 28. 10. zavádí v USA v Chromu rozšířené vyplňování formulářů z Gmailu (Gemini + Personal Intelligence; číslo objednávky, tracking, rezervace letu/hotelu; „Suggested by Gemini“; počítač, Android, iOS; šifrování, jde vypnout); mimo USA nic neuvedeno"
+    },
+    {
+      "slug": "2026-10-29-eurohpc-ai-gigafactory-deadline",
+      "date": "2026-10-29",
+      "topic": "EuroHPC (podle Lupy 28. 10.) posunul termín nabídek na střední AI gigatovárny (Lot 1) na 4. 2. 2027 17:00 (státy potřebují schválit rozpočty a závazky); Lot 2 (velké) zůstává 3. 12. 2026; původně 12. 11. → 3. 12. → 4. 2.; Česko: České Radiokomunikace; radar 12. 11. vyřazen"
+    },
+    {
+      "slug": "2026-10-29-anthropic-claude-enterprise-smart-reports",
+      "date": "2026-10-29",
+      "topic": "Anthropic 28. 10.: Claude Enterprise — chytré reporty (práce týmů, náklady, překážky), dotazníky v aplikaci a sdílené skupinové měsíční rozpočty, obecně dostupné (dostupnost podle konfigurace, např. HIPAA); nejsou pro hodnocení jednotlivců; TechCrunch: doložení návratnosti výdajů za tokeny"
+    },
+    {
+      "slug": "2026-10-29-tip-github-copilot-fusion-ga",
+      "date": "2026-10-29",
+      "topic": "tip: GitHub Copilot Fusion je obecně dostupný (28. 10.; nahrazuje auto/HydraFusion; úrovně Standard/High/Max; všechny plány, VS Code, aplikace Copilot, CLI, JetBrains; platí se každý použitý model, 30 % sleva po omezenou dobu; správce řídí modely; Fusion Max 60 bodů v Artificial Analysis Coding Agent Index podle GitHubu)"
+    },
+    {
+      "slug": "2026-10-29-tip-gemini-sheets-fill-citations",
+      "date": "2026-10-29",
+      "topic": "tip: Fill with Gemini v Tabulkách Google — zdroje z webu u každé buňky a až 3 000 buněk na žádost (zavádění od 20. 10., ohlášeno 28. 10.; jen web; Business/Enterprise Standard+Plus, Google AI Pro/Ultra, AI Pro for Education, AI Expanded Access; Ask Gemini jiskra)"
+    },
+    {
+      "slug": "2026-10-29-tip-perplexity-inline-visualizations",
+      "date": "2026-10-29",
+      "topic": "tip: Perplexity Computer — interaktivní grafy a vizualizace přímo ve vlákně (changelog 5. 10.; 3D vysvětlení, svíčkové grafy TradingView; CSV → graf)"
+    },
+    {
+      "slug": "2026-10-29-tip-claude-code-resume-usage-warning",
+      "date": "2026-10-29",
+      "topic": "tip: Claude Code od 2.1.304 (19. 10.) varuje na Pro/Max před obnovením neaktivní konverzace, která by spotřebovala znatelnou část 5hodinového limitu — pokračovat, nebo začít novou"
     }
   ],
-  "updated": "2026-10-28T03:55:17Z"
+  "updated": "2026-10-29T03:30:59Z"
 }

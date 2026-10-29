@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "terms": [
     {
       "id": "quantization",
@@ -859,6 +859,58 @@
       "short": {
         "cs": "Nástroj, kterým počítač krok za krokem kontroluje, že matematický důkaz je správný. Ověří důkaz formálně zapsaného tvrzení; zda zápis opravdu říká totéž co původní tvrzení, musí posoudit lidé.",
         "en": "A tool that checks, step by step, that a mathematical proof is correct. It verifies a formally written statement; humans must still judge whether that statement matches the original claim."
+      }
+    },
+    {
+      "id": "harness",
+      "term": {
+        "cs": "Harness (řídicí vrstva agenta)",
+        "en": "Harness (agent control layer)"
+      },
+      "aliases": [
+        "harness",
+        "harnessu",
+        "harnessem"
+      ],
+      "short": {
+        "cs": "Vrstva kolem jazykového modelu: dává mu pokyny, kontext a nástroje, spouští jeho kroky v izolovaném prostředí a hlídá pravidla. Stejný model se v různém harnessu může chovat různě dobře.",
+        "en": "The layer around a language model: it gives the model instructions, context and tools, runs its steps in a sandbox, and enforces rules. The same model can perform differently in different harnesses."
+      }
+    },
+    {
+      "id": "rcs",
+      "term": {
+        "cs": "RCS (zprávy nové generace)",
+        "en": "RCS (next-generation texting)"
+      },
+      "aliases": [
+        "RCS"
+      ],
+      "short": {
+        "cs": "Moderní standard textových zpráv jako nástupce SMS: umí fotky, hlasové zprávy a potvrzení o přečtení přes mobilní data nebo Wi-Fi. Na Androidu je běžný, na iPhonu vedle iMessage.",
+        "en": "A modern messaging standard that succeeds SMS: it carries photos, voice messages and read receipts over mobile data or Wi-Fi. Common on Android, and on iPhone alongside iMessage."
+      }
+    },
+    {
+      "id": "ai-gigafactory",
+      "term": {
+        "cs": "AI gigatovárna",
+        "en": "AI gigafactory"
+      },
+      "aliases": [
+        "AI gigatovárna",
+        "AI gigatovárny",
+        "AI gigatováren",
+        "AI gigatovárnu",
+        "AI gigatovárnám",
+        "gigatovárny",
+        "gigatováren",
+        "AI gigafactory",
+        "AI gigafactories"
+      ],
+      "short": {
+        "cs": "Velké evropské datacentrum pro trénink a provoz největších AI modelů, financované z veřejných i soukromých peněz. Má mít několikrát víc špičkových AI čipů než dnešní evropské AI továrny.",
+        "en": "A very large European data center for training and running the biggest AI models, funded with public and private money. It must hold several times the top AI chips of today’s European AI factories."
       }
     }
   ]

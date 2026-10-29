@@ -1,54 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-chatgpt-desktop-work",
-      "category": "tools",
-      "theme": "chatgpt",
-      "verified": false,
-      "title": {
-        "cs": "Desktopový ChatGPT líp přepíná mezi chatem a prací",
-        "en": "ChatGPT desktop gets smoother Chat-to-Work flow"
-      },
-      "summary": {
-        "cs": "Desktopová aplikace ChatGPT prošla úklidem — snáz přepneš mezi Chatem a agentem Work, rychleji najdeš konverzace i Projekty a rozdělanou práci Worku převezmeš na jiném zařízení. OpenAI to pustilo všem plánům na macOS i Windows.",
-        "en": "The ChatGPT desktop app got a cleanup — switching between Chat and the Work agent is easier, conversations and Projects are quicker to find, and Work in progress carries over across devices. OpenAI shipped it to all plans on macOS and Windows."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-        },
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/products/release-notes/"
-        }
-      ],
-      "added": "2026-07-30",
-      "used": "2026-07-30"
-    },
-    {
-      "slug": "tip-spotify-assistant",
-      "category": "tools",
-      "theme": "other",
-      "verified": false,
-      "title": {
-        "cs": "Spotify má hudebního asistenta, se kterým si píšeš",
-        "en": "Spotify's new music assistant chats with you"
-      },
-      "summary": {
-        "cs": "Spotify testuje hudebního asistenta ve stylu chatbota — v mobilní appce si s ním píšeš nebo mluvíš, poradí co pustit, přidá skladby do fronty nebo uloží a poví ti zajímavosti k oblíbené hudbě. Beta zatím běží v USA, Irsku a Švédsku.",
-        "en": "Spotify is testing a chatbot-style music assistant — type or talk to it in the mobile app and it helps pick what to play, queues or saves songs, and shares trivia about your favorite music. The beta runs in the US, Ireland, and Sweden for now."
-      },
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant/"
-        }
-      ],
-      "added": "2026-07-30",
-      "used": "2026-07-30"
-    },
-    {
       "slug": "tip-copilot-excel-personalization",
       "category": "tools",
       "theme": "copilot",
@@ -4133,7 +4085,7 @@
         }
       ],
       "added": "2026-10-26",
-      "used": null
+      "used": "2026-10-29"
     },
     {
       "slug": "tip-ollama-claude-desktop-gateway",
@@ -4214,7 +4166,7 @@
         }
       ],
       "added": "2026-10-27",
-      "used": null
+      "used": "2026-10-29"
     },
     {
       "slug": "tip-claude-code-ultrathink-xhigh",
@@ -4356,60 +4308,6 @@
       "used": "2026-10-28"
     },
     {
-      "slug": "tip-cursor-cloud-agent-canvases",
-      "category": "tools",
-      "theme": "cursor",
-      "verified": true,
-      "eventDate": "2026-10-16",
-      "title": {
-        "cs": "Cloudoví agenti v Cursoru umějí vytvářet interaktivní plátna",
-        "en": "Cursor’s cloud agents can now build interactive canvases"
-      },
-      "summary": {
-        "cs": "Cursor 16. října uvedl, že cloudoví agenti teď v rámci práce umějí vytvářet interaktivní plátna (canvases) a hotové plátno jde sdílet s týmem odkazem. Zároveň vyšlo v betě API prostředí (Environments API) a prostředí pro agenty zvládají až 300 repozitářů a načítají se pětkrát rychleji.",
-        "en": "On October 16, Cursor said its cloud agents can now build interactive canvases as part of their work, and a finished canvas can be shared with your team by link. The Environments API also launched in beta, and agent environments now support up to 300 repositories and load five times faster."
-      },
-      "why": {
-        "cs": "Požádej cloudového agenta o výstup jako plátno a pošli odkaz kolegům. Plán, ceny ani postup zapnutí changelog neuvádí; čti ho u konkrétního zadání.",
-        "en": "Ask a cloud agent for its output as a canvas and send the link to colleagues. The changelog names no plan, pricing, or setup steps; check it per task."
-      },
-      "sources": [
-        {
-          "name": "Cursor",
-          "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments"
-        }
-      ],
-      "added": "2026-10-28",
-      "used": null
-    },
-    {
-      "slug": "tip-gemini-notebook-audio-recorder",
-      "category": "tools",
-      "theme": "notebooklm",
-      "verified": false,
-      "eventDate": "2026-10-27",
-      "title": {
-        "cs": "Gemini Notebook nahrává zvuk přímo v mobilní appce",
-        "en": "Gemini Notebook records audio right in the mobile app"
-      },
-      "summary": {
-        "cs": "Podle 9to5Google z 27. října Gemini Notebook na Androidu a iOS zavádí vestavěný záznamník zvuku: ikona mikrofonu spustí nahrávání přednášek a poznámek, které se uloží k zdrojům v notebooku. Nahrávání jde na pozadí a trvat může nejvýš hodinu.",
-        "en": "According to 9to5Google on October 27, Gemini Notebook on Android and iOS is rolling out a built-in audio recorder: a microphone icon starts recording lectures and notes, which are saved with the notebook’s sources. Recording continues in the background and can last up to one hour."
-      },
-      "why": {
-        "cs": "Klepni na ikonu mikrofonu mezi fotoaparátem a tlačítkem Vytvořit; z úvodní stránky vznikne nový notebook. Zdroj je jediný, dostupnost podle plánu a zemí neuvádí.",
-        "en": "Tap the microphone icon between the camera and the create button; from the home page it creates a new notebook. There is a single source and it names no plans or countries."
-      },
-      "sources": [
-        {
-          "name": "9to5Google",
-          "url": "https://9to5google.com/2026/10/27/gemini-notebook-recorder/"
-        }
-      ],
-      "added": "2026-10-28",
-      "used": null
-    },
-    {
       "slug": "tip-m365-copilot-word-read-aloud-voice",
       "category": "tools",
       "theme": "copilot",
@@ -4434,6 +4332,230 @@
         }
       ],
       "added": "2026-10-28",
+      "used": null
+    },
+    {
+      "slug": "tip-github-copilot-fusion-ga",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-10-29",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Copilot Fusion po testování sám vybírá modely pro úkol",
+        "en": "Copilot Fusion leaves preview and picks models for you"
+      },
+      "summary": {
+        "cs": "GitHub 28. října uvedl Copilot Fusion jako obecně dostupný. V nabídce modelů ho vybereš místo konkrétního modelu a Copilot sám pro každý úkol zvolí a propojí modely; ty určuješ jen úroveň úsilí: Standard, High nebo Max. Je ve všech plánech Copilota ve VS Code, aplikaci Copilot, CLI a JetBrains.",
+        "en": "On October 28, GitHub made Copilot Fusion generally available. In the model picker you choose it instead of a model, and Copilot selects and combines models for each task; you set only the effort level: Standard, High, or Max. It is on all Copilot plans in VS Code, the Copilot app, the CLI and JetBrains."
+      },
+      "why": {
+        "cs": "V klientu otevři výběr modelu, zvol Copilot Fusion a úroveň. Účtuje se každý použitý model jeho sazbou; po omezenou dobu mají platící plány slevu 30 %. Správce určuje, které modely smí Fusion použít.",
+        "en": "Open the model picker, choose Copilot Fusion and a level. Each model used is billed at its own rate; for a limited time paid plans get 30% off. Admins decide which models Fusion may use."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion"
+        }
+      ],
+      "used": "2026-10-29"
+    },
+    {
+      "slug": "tip-gemini-sheets-fill-citations",
+      "category": "tools",
+      "theme": "gemini",
+      "added": "2026-10-29",
+      "verified": true,
+      "eventDate": "2026-10-20",
+      "title": {
+        "cs": "Gemini v Tabulkách cituje webové zdroje u každé buňky",
+        "en": "Gemini in Sheets now cites web sources per cell"
+      },
+      "summary": {
+        "cs": "Google ve funkci Fill with Gemini v Tabulkách Google, která doplňuje hodnoty buněk pomocí AI, od 20. října zavádí u každé buňky přesné webové zdroje, ze kterých Gemini čerpal, takže výsledky ověříš. Novinkou je i limit až 3 000 buněk na jednu žádost. Zdroje se zobrazují jen ve webové verzi Tabulek.",
+        "en": "In Fill with Gemini in Google Sheets, which fills cell values with AI, Google has been rolling out since October 20 the exact web sources Gemini used for each cell, so you can verify results. Requests can now cover up to 3,000 cells. Sources appear only in the web version of Sheets."
+      },
+      "why": {
+        "cs": "Gemini pro Tabulky otevřeš tlačítkem Ask Gemini (jiskra) vpravo nahoře. Mají ho plány Business a Enterprise Standard a Plus a předplatné Google AI Pro a Ultra; zavádění je postupné.",
+        "en": "Open Gemini in Sheets with the Ask Gemini (spark) button at the top right. It covers Business and Enterprise Standard and Plus plans and Google AI Pro and Ultra subscriptions; the rollout is gradual."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/fill-with-gemini-now-provides-cell-level-citations-for-web-sources-and-supports-larger-requests.html"
+        }
+      ],
+      "used": "2026-10-29"
+    },
+    {
+      "slug": "tip-github-copilot-app-computer-use",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Aplikace Copilot umí ovládat desktopové aplikace",
+        "en": "The Copilot app can operate desktop apps for you"
+      },
+      "summary": {
+        "cs": "GitHub 28. října uvedl ve veřejném náhledu ovládání počítače v aplikaci Copilot na macOS a Windows: Copilot čte obsah aplikací, klepe na ovládací prvky, zadává a upravuje text a přepíná mezi aplikacemi, i když nemají API, příkazový řádek ani MCP. Před ovládáním každé aplikace se zeptá na souhlas.",
+        "en": "On October 28, GitHub put computer use in the Copilot app into public preview on macOS and Windows: Copilot reads app content, clicks controls, enters and edits text, and moves across apps, even ones without an API, command line, or MCP. It asks for your approval before controlling each app."
+      },
+      "why": {
+        "cs": "V Nastavení otevři Computer Use a zapni Enable Computer Use; na macOS povol Zpřístupnění a Nahrávání obrazovky. Organizace může funkci vypnout ve spravovaných nastaveních.",
+        "en": "Open Settings > Computer Use and turn on Enable Computer Use; on macOS grant Accessibility and Screen Recording. An organization can disable it through managed settings."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases"
+        }
+      ],
+      "added": "2026-10-29",
+      "used": null
+    },
+    {
+      "slug": "tip-github-copilot-image-generation",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Copilot teď v chatu vytvoří a upraví obrázky",
+        "en": "Copilot can now generate and edit images in chat"
+      },
+      "summary": {
+        "cs": "GitHub 28. října uvedl ve veřejném náhledu tvorbu a úpravu obrázků v Copilotu: popíšeš obrázek v chatu a vybraný model zavolá nástroj s modelem GPT Image 2.5 Flare, výsledek ukáže a uloží do projektu. Funguje ve VS Code, aplikaci Copilot i CLI.",
+        "en": "On October 28, GitHub put image generation and editing in Copilot into public preview: you describe an image in chat, your selected model calls a tool powered by GPT Image 2.5 Flare, and the result is previewed and saved to your project. It works in VS Code, the Copilot app, and the CLI."
+      },
+      "why": {
+        "cs": "Je pro Copilot Pro, Pro+, Business a Enterprise a účtuje se zvlášť z kreditů AI. Viditelný štítek „Made with AI“ je volitelný; správci mohou generování vypnout.",
+        "en": "It is for Copilot Pro, Pro+, Business, and Enterprise and is billed separately from AI credits. A visible “Made with AI” watermark is opt-in; admins can turn generation off."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot"
+        }
+      ],
+      "added": "2026-10-29",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-immersive-explorations",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Gemini ukáže témata jako interaktivní vrstvy",
+        "en": "Gemini shows topics as interactive layers"
+      },
+      "summary": {
+        "cs": "Google 28. října zavedl v aplikaci Gemini knihovnu „immersive explorations“, interaktivních scén, ve kterých téma procházíš po vrstvách od planetárních měřítek po molekuly a atomy, třeba obchodní stezky Hedvábné cesty nebo trysky letadla. Najdeš je v Gemini pro studenty; do chatu mají přijít později.",
+        "en": "On October 28, Google added a library of immersive explorations to the Gemini app: interactive scenes where you move through a topic layer by layer, from planetary scales to molecules and atoms, such as Silk Road trade routes or a jet engine. They are in the Gemini student hub; chat access follows."
+      },
+      "why": {
+        "cs": "Otevři gemini.google.com/immersive-explorations nebo v nabídce zvol Studenti. Čeština zatím mezi jazyky není, uvidíš angličtinu; nastavení pro uživatele ani správce neexistuje.",
+        "en": "Open gemini.google.com/immersive-explorations or choose Students in the menu. Czech is not among the languages yet, so you get English; there is no user or admin setting."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/immersive-explorations-student-hub/"
+        },
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/immersive-explorations-now-available-in-the-Gemini-app.html"
+        }
+      ],
+      "added": "2026-10-29",
+      "used": null
+    },
+    {
+      "slug": "tip-perplexity-mac-voice-mode-gpt-live",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": false,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Hlasový režim Perplexity běží na modelu gpt-live-1",
+        "en": "Perplexity’s voice mode now runs on gpt-live-1"
+      },
+      "summary": {
+        "cs": "Podle 9to5Mac z 28. října Perplexity vylepšila hlasový režim v aplikaci pro Mac a na webu: běží na modelu OpenAI gpt-live-1, který umí poslouchat, i když mluví. V jedné hlasové relaci jde pracovat s více sezeními Computeru, zadávat nové úkoly a spravovat Projekty.",
+        "en": "According to 9to5Mac on October 28, Perplexity upgraded voice mode in its Mac app and on the web: it runs on OpenAI’s gpt-live-1, which can listen while it speaks. In one voice session you can work across several Computer sessions, start new tasks, and manage Projects."
+      },
+      "why": {
+        "cs": "Je pro předplatitele Pro a Max. Zdrojem je jediný článek 9to5Mac, changelog Perplexity záznam zatím nemá; ověř si funkci v aplikaci.",
+        "en": "It is for Pro and Max subscribers. The only source is one 9to5Mac article, and Perplexity’s changelog has no entry yet; check the feature in the app."
+      },
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/10/28/perplexity-upgrades-mac-app-with-chatgpt-powered-voice-mode/"
+        }
+      ],
+      "added": "2026-10-29",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-notebook-audio-recorder",
+      "category": "tools",
+      "theme": "notebooklm",
+      "verified": true,
+      "eventDate": "2026-10-27",
+      "title": {
+        "cs": "Gemini Notebook nahrává zvuk přímo v mobilní appce",
+        "en": "Gemini Notebook records audio right in the mobile app"
+      },
+      "summary": {
+        "cs": "Google zvukový záznamník v mobilní aplikaci Gemini Notebook ohlásil 18. září; podle 9to5Google z 27. října se teď široce zavádí na Androidu i iOS. Ikona mikrofonu spustí nahrávání přednášek a poznámek, které se uloží ke zdrojům v notebooku; nahrávání běží na pozadí nejvýš hodinu.",
+        "en": "Google announced the audio recorder in the Gemini Notebook mobile app on September 18; according to 9to5Google on October 27 it is now rolling out widely on Android and iOS. A microphone icon starts recording lectures and notes, saved with the notebook’s sources; recording continues in the background for up to an hour."
+      },
+      "why": {
+        "cs": "Ikona mikrofonu je mezi fotoaparátem a tlačítkem Vytvořit: z úvodní stránky vznikne nový notebook, ze záložky Zdroje se záznam uloží do stávajícího. Nevidíš-li ji, vynuť zastavení aplikace.",
+        "en": "The microphone icon sits between the camera and the create button: from the home page it creates a new notebook, from the Sources tab it adds to the current one. If missing, force-stop the app."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/new-back-to-school-features-and-learning-tools-available-in-Gemini-Notebook.html"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/27/gemini-notebook-recorder/"
+        }
+      ],
+      "added": "2026-10-29",
+      "used": null
+    },
+    {
+      "slug": "tip-claude-code-shell-timeout-output",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-10-26",
+      "title": {
+        "cs": "Claude Code ukáže výstup příkazu, který narazil na limit",
+        "en": "Claude Code shows output when a command times out"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.311 (26. října) u shellového příkazu, který dosáhne časového limitu, ukáže dosavadní výstup a uvede, že příkaz dál běží na pozadí. Nainstalovanou verzi zjistíš příkazem claude --version.",
+        "en": "From version 2.1.311 (October 26), when a shell command in Claude Code reaches its timeout, the result shows the output so far and says the command is still running in the background. Check your installed version with claude --version."
+      },
+      "why": {
+        "cs": "Nic se nenastavuje, stačí mít verzi 2.1.311 nebo novější. Týká se shellových příkazů, které Claude Code spouští při práci.",
+        "en": "Nothing to set up; you just need version 2.1.311 or newer. It applies to shell commands Claude Code runs while working."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-10-29",
       "used": null
     }
   ]
