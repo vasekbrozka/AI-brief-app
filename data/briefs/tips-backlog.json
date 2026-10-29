@@ -4067,16 +4067,16 @@
       "verified": true,
       "eventDate": "2026-10-05",
       "title": {
-        "cs": "Perplexity Computer kreslí interaktivní grafy přímo ve vlákně",
-        "en": "Perplexity Computer draws interactive charts in the thread"
+        "cs": "Perplexity Computer kreslí interaktivní grafy přímo v konverzaci",
+        "en": "Perplexity Computer draws interactive charts in the chat"
       },
       "summary": {
-        "cs": "Perplexity v changelogu z 5. října uvádí, že Computer umí vytvářet interaktivní grafy a vizualizace rovnou ve vlákně: 3D vysvětlení třeba motoru, nebo burzovní graf se svíčkami, objemem a klouzavými průměry. Příklad z oznámení: z nahraného CSV udělat interaktivní graf a zvýraznit hlavní trendy.",
-        "en": "Perplexity’s October 5 changelog says Computer can create interactive charts and visualizations right in the thread: a 3D explanation of, say, an engine, or a stock chart with candlesticks, volume, and moving averages. The announcement’s example: turn an uploaded CSV into an interactive chart and highlight the main trends."
+        "cs": "Perplexity v oznámení z 5. října uvádí, že Computer, jeho nástroj pro delší úkoly, umí vytvářet interaktivní grafy a vizualizace rovnou v konverzaci: například 3D řez tryskovým motorem nebo burzovní graf.",
+        "en": "Perplexity’s October 5 announcement says Computer, its tool for longer tasks, can create interactive charts and visualizations right in the chat, for example a 3D cutaway of a jet engine or a stock chart."
       },
       "why": {
-        "cs": "V Computeru napiš, co chceš vidět, třeba graf z nahraného CSV nebo 3D vysvětlení. Plán ani platformu zdroj neuvádí.",
-        "en": "In Computer, say what you want to see, such as a chart from an uploaded CSV or a 3D explanation. The source names no plan or platform."
+        "cs": "V Computeru nahraj tabulku (CSV) a napiš třeba „udělej z toho interaktivní graf a zvýrazni hlavní trendy“. Plán ani platformu zdroj neuvádí.",
+        "en": "In Computer, upload a table (CSV) and write something like “turn this into an interactive chart and highlight the main trends”. The source names no plan or platform."
       },
       "sources": [
         {
@@ -4148,16 +4148,16 @@
       "verified": true,
       "eventDate": "2026-10-19",
       "title": {
-        "cs": "Claude Code varuje před drahým obnovením staré konverzace",
-        "en": "Claude Code warns before resuming a costly old chat"
+        "cs": "Claude Code varuje před obnovením konverzace náročné na limit",
+        "en": "Claude Code warns before resuming a limit-heavy chat"
       },
       "summary": {
         "cs": "Claude Code od verze 2.1.304 (19. října) na plánech Pro a Max varuje, když by obnovení neaktivní konverzace spotřebovalo znatelnou část pětihodinového limitu. Můžeš přesto pokračovat, nebo začít novou konverzaci; Claude pak může najít tu předchozí, když se na ni odkážeš.",
         "en": "From version 2.1.304 (October 19), Claude Code on Pro and Max plans warns when resuming an inactive conversation would use a noticeable share of your 5-hour usage limit. You can resume anyway or start a new conversation, and Claude can look up the previous one if you refer to it."
       },
       "why": {
-        "cs": "Upozornění se ukáže při návratu k neaktivní konverzaci. Zvaž, jestli kvůli limitu nezačít znovu a na starou se jen odkázat. Platí na plánech Pro a Max.",
-        "en": "The warning appears when you return to an inactive conversation. Consider starting fresh and just referring to the old one to save your limit. It applies to Pro and Max plans."
+        "cs": "Aktualizuj Claude Code na verzi 2.1.304 nebo novější (verzi ukáže claude --version). Od jaké spotřeby varování vyskočí, zdroj neuvádí; platí jen na plánech Pro a Max.",
+        "en": "Update Claude Code to version 2.1.304 or newer (claude --version shows it). The source does not say at what usage the warning appears; it applies only to Pro and Max plans."
       },
       "sources": [
         {
@@ -4342,16 +4342,16 @@
       "verified": true,
       "eventDate": "2026-10-28",
       "title": {
-        "cs": "Copilot Fusion po testování sám vybírá modely pro úkol",
-        "en": "Copilot Fusion leaves preview and picks models for you"
+        "cs": "GitHub Copilot Fusion po testování sám vybírá modely",
+        "en": "GitHub Copilot Fusion leaves preview, picks models itself"
       },
       "summary": {
-        "cs": "GitHub 28. října uvedl Copilot Fusion jako obecně dostupný. V nabídce modelů ho vybereš místo konkrétního modelu a Copilot sám pro každý úkol zvolí a propojí modely; ty určuješ jen úroveň úsilí: Standard, High nebo Max. Je ve všech plánech Copilota ve VS Code, aplikaci Copilot, CLI a JetBrains.",
-        "en": "On October 28, GitHub made Copilot Fusion generally available. In the model picker you choose it instead of a model, and Copilot selects and combines models for each task; you set only the effort level: Standard, High, or Max. It is on all Copilot plans in VS Code, the Copilot app, the CLI and JetBrains."
+        "cs": "GitHub 28. října ukončil testování Copilot Fusion a zpřístupnil ho ve všech plánech Copilota. V nabídce modelů ho vybereš místo konkrétního modelu a Copilot sám pro každý úkol zvolí a propojí modely; ty určuješ jen úroveň úsilí: Standard, High nebo Max. Funguje ve VS Code, aplikaci Copilot, CLI a JetBrains.",
+        "en": "On October 28, GitHub ended Copilot Fusion’s preview, making it available on all Copilot plans. Choose it in the model picker instead of a model; Copilot selects and combines models for each task, and you set only the effort: Standard, High, or Max. It works in VS Code, the Copilot app, the CLI and JetBrains."
       },
       "why": {
-        "cs": "V klientu otevři výběr modelu, zvol Copilot Fusion a úroveň. Účtuje se každý použitý model jeho sazbou; po omezenou dobu mají platící plány slevu 30 %. Správce určuje, které modely smí Fusion použít.",
-        "en": "Open the model picker, choose Copilot Fusion and a level. Each model used is billed at its own rate; for a limited time paid plans get 30% off. Admins decide which models Fusion may use."
+        "cs": "Aktualizuj klienta, otevři výběr modelu, zvol Copilot Fusion a úroveň. Účtuje se každý použitý model jeho sazbou; po omezenou dobu mají platící plány slevu 30 %. Správce určuje, které modely smí Fusion použít.",
+        "en": "Update your client, then choose Fusion and a level in the model picker. Each model is billed at its standard rate; paid plans get 30% off for a limited time. Admins control the models."
       },
       "sources": [
         {
@@ -4373,12 +4373,12 @@
         "en": "Gemini in Sheets now cites web sources per cell"
       },
       "summary": {
-        "cs": "Google ve funkci Fill with Gemini v Tabulkách Google, která doplňuje hodnoty buněk pomocí AI, od 20. října zavádí u každé buňky přesné webové zdroje, ze kterých Gemini čerpal, takže výsledky ověříš. Novinkou je i limit až 3 000 buněk na jednu žádost. Zdroje se zobrazují jen ve webové verzi Tabulek.",
-        "en": "In Fill with Gemini in Google Sheets, which fills cell values with AI, Google has been rolling out since October 20 the exact web sources Gemini used for each cell, so you can verify results. Requests can now cover up to 3,000 cells. Sources appear only in the web version of Sheets."
+        "cs": "Funkce Fill with Gemini v Tabulkách Google, která pomocí AI doplňuje hodnoty buněk, od 20. října podle Googlu uvádí u každé buňky přesné webové zdroje, ze kterých Gemini čerpal, takže výsledky můžeš zkontrolovat. Jedna žádost teď zvládne až 3 000 buněk. Zdroje se zobrazují jen ve webové verzi Tabulek.",
+        "en": "Fill with Gemini in Google Sheets, which fills cell values with AI, has since October 20 shown, per Google, the exact web sources Gemini used for each cell, so you can check results. A single request now handles up to 3,000 cells. Sources appear only in the web version of Sheets."
       },
       "why": {
-        "cs": "Gemini pro Tabulky otevřeš tlačítkem Ask Gemini (jiskra) vpravo nahoře. Mají ho plány Business a Enterprise Standard a Plus a předplatné Google AI Pro a Ultra; zavádění je postupné.",
-        "en": "Open Gemini in Sheets with the Ask Gemini (spark) button at the top right. It covers Business and Enterprise Standard and Plus plans and Google AI Pro and Ultra subscriptions; the rollout is gradual."
+        "cs": "Citace uvidíš u hodnot z funkce AI v Tabulkách na webu; Ask Gemini (jiskra vpravo nahoře) otevře panel, spuštění zdroj nepopisuje. Platí pro Business a Enterprise Standard a Plus a Google AI Pro a Ultra.",
+        "en": "Citations appear for AI-function values in Sheets on the web. Ask Gemini (spark, top right) opens the panel; the source does not say how to start it. Business/Enterprise Standard and Plus, AI Pro and Ultra."
       },
       "sources": [
         {
@@ -4526,6 +4526,37 @@
         {
           "name": "9to5Google",
           "url": "https://9to5google.com/2026/10/27/gemini-notebook-recorder/"
+        }
+      ],
+      "added": "2026-10-29",
+      "used": null
+    },
+    {
+      "slug": "tip-codex-cloud-reusable-environments",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-09-28",
+      "title": {
+        "cs": "Codex Cloud si pamatuje připravené prostředí pro další úkoly",
+        "en": "Codex Cloud reuses a prepared environment for new tasks"
+      },
+      "summary": {
+        "cs": "OpenAI v týdnu 28. září až 2. října uvedl, že v Codex Cloud jde prostředí připravit jednou a znovu ho použít: Codex prozkoumá repozitáře, nainstaluje závislosti a vyzkouší nastavení s tebou; po zveřejnění dostane každý nový úkol vlastní izolovaný pracovní prostor z hotového prostředí. Funguje na webu, mobilu i v desktopové aplikaci.",
+        "en": "OpenAI said in the week of September 28 to October 2 that Codex Cloud lets you prepare an environment once and reuse it: Codex inspects the repositories, installs dependencies, and tests the setup with you; once published, each new task gets an isolated workspace from it. It works on web, mobile, and desktop."
+      },
+      "why": {
+        "cs": "Na webu nebo v desktopové aplikaci zvol Work in > Cloud a prostředí vytvoř; po zveřejnění ho vybíráš u nových úkolů. Plán zdroj neuvádí; správci firem mohou přístup ke sdíleným prostředím kontrolovat.",
+        "en": "On the web or desktop app, choose Work in > Cloud and create an environment; once published, pick it for new tasks. The source names no plan; enterprise admins can review access to shared environments."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/codex/environments/cloud-environments"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/docs/whats-new"
         }
       ],
       "added": "2026-10-29",

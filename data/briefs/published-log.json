@@ -1883,7 +1883,7 @@
     {
       "slug": "2026-10-29-google-gemini-4-carbon",
       "date": "2026-10-29",
-      "topic": "Google 28. 10. oznámil Gemini 4 Carbon (nástupce Argonu po ~2 týdnech): podle Googlu #1 v Artificial Analysis Intelligence Index v5.0 (59), SEC-bench Pro 88,2 %, ExploitGym 54,8 %, CWE-bench 71,0 % (bez ochran), WebDev Arena +89 Elo (#4); zatím jen vybraní kyberobránci přes Fairwind Program, pak vývojáři/firmy/spotřebitelé „co nejdřív“ (bez data); úvodní cena 2/10 USD za milion tokenů (pak 4/20); Ars: v podstatě trochu lepší Argon — highlight"
+      "topic": "Google 28. 10. oznámil Gemini 4 Carbon (nástupce Argonu po ~2 týdnech; v textu bez cen a bodů): podle Googlu (i Artificial Analysis) #1 v Artificial Analysis Intelligence Index v5.0 (59), SEC-bench Pro 88,2 %, ExploitGym 54,8 %, CWE-bench 71,0 % (bez ochran), WebDev Arena +89 Elo (#4); zatím jen vybraní kyberobránci přes Fairwind Program, pak vývojáři/firmy/spotřebitelé „co nejdřív“ (bez data); úvodní cena 2/10 USD za milion tokenů (pak 4/20); Ars: v podstatě trochu lepší Argon — highlight"
     },
     {
       "slug": "2026-10-29-microsoft-copilot-harness-foundry",
@@ -1898,7 +1898,7 @@
     {
       "slug": "2026-10-29-nvidia-nemotron-3-5-transcribe",
       "date": "2026-10-29",
-      "topic": "NVIDIA 28. 10. vydala Nemotron 3.5 Transcribe (30B/≈4,3B aktivních, licence OpenMDW-1.1; 40 jazyků vč. češtiny — ASR, překlad do/z angličtiny, kód-switching, kvalita „Leading“ podle karty; 13 jazyků s mluvčími, až 8 mluvčích; nahrávky do hodiny, ne živě; #1 mezi otevřenými v HF Open ASR (angličtina) podle NVIDIE) + Granary v2; zmenšené verze pro RTX Spark/DGX Spark brzy"
+      "topic": "NVIDIA 28. 10. vydala Nemotron 3.5 Transcribe (30B/≈4,3B aktivních, licence OpenMDW-1.1; 40 jazyků vč. češtiny — ASR, překlad do/z angličtiny, kód-switching, kvalita „Leading“ podle karty; 13 jazyků s rozlišením mluvčích (čeština ne), až 8 mluvčích podle NVIDIE; nahrávky do hodiny, ne živě; určen vývojářům a výzkumníkům) + Granary v2; zmenšené verze brzy"
     },
     {
       "slug": "2026-10-29-chrome-autofill-gmail-gemini",
@@ -1908,7 +1908,7 @@
     {
       "slug": "2026-10-29-eurohpc-ai-gigafactory-deadline",
       "date": "2026-10-29",
-      "topic": "EuroHPC (podle Lupy 28. 10.) posunul termín nabídek na střední AI gigatovárny (Lot 1) na 4. 2. 2027 17:00 (státy potřebují schválit rozpočty a závazky); Lot 2 (velké) zůstává 3. 12. 2026; původně 12. 11. → 3. 12. → 4. 2.; Česko: České Radiokomunikace; radar 12. 11. vyřazen"
+      "topic": "EuroHPC (podle Lupy 28. 10.) posunul termín nabídek na střední AI gigatovárny (Lot 1) na 4. 2. 2027 17:00 (státy potřebují schválit rozpočty a závazky); Lot 2 (velké) zůstává 3. 12. 2026; podle Lupy původně 12. 11. → 3. 12. → 4. 2.; Česko: České Radiokomunikace (Lupa neuvádí který lot); radar 12. 11. vyřazen"
     },
     {
       "slug": "2026-10-29-anthropic-claude-enterprise-smart-reports",
@@ -1936,5 +1936,5 @@
       "topic": "tip: Claude Code od 2.1.304 (19. 10.) varuje na Pro/Max před obnovením neaktivní konverzace, která by spotřebovala znatelnou část 5hodinového limitu — pokračovat, nebo začít novou"
     }
   ],
-  "updated": "2026-10-29T03:30:59Z"
+  "updated": "2026-10-29T03:55:25Z"
 }
