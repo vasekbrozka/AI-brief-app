@@ -295,6 +295,11 @@ seřazených podle data:
   (aktualizuj jen změnu). Když datum uplynulo: stalo se → dnes je to zpráva; posunulo se
   → nové datum, nebo ven. Radar se do `published-log.json` nezapisuje. Skript porovná
   dnešní radar se včerejším a ohlásí termín, který zmizel, aniž uplynul.
+  **Před přenosem termín znovu ověř u pořadatele** (stačí jedno stažení jeho stránky):
+  dnes se termín nabídek na AI gigatovárny z radaru (12. 11.) ukázal jako předběhnutý —
+  EuroHPC ho dvakrát posunul (Lot 1 na 4. 2. 2027, Lot 2 3. 12. 2026) a řekla to až
+  Lupa. Předběhnutý termín patří ven (a změna jako zpráva); odchylka od přenosu
+  se zapíše do deníku, skript ji ohlásí jako WARN.
 - Texty: `title` ≤ 12 slov, `note` ≤ 30 slov (co se má stát a proč to čtenáře zajímá).
 
 ### 5b · Týden v AI (`weekInReview`, jen nedělní brief)
@@ -470,6 +475,18 @@ a `used` přesné a nikdy záznamy nepřepisuj zpětně.
   téma**; vyčerpaná banka byla hlavní důvod, proč brief padal pod deset položek.
   Dotazy na tipy piš **bez měsíce/data** („<nástroj> release notes" / „what's new in
   <nástroj>") — dotaz vázaný na aktuální měsíc opakovaně vracel nic.
+- **Přímé zdroje, které sandbox vrací** (WebSearch na čerstvé funkce bývá slabý, tohle
+  ne): ChatGPT a Codex `learn.chatgpt.com/docs/whats-new` (T1, po týdnech; `openai.com`
+  je 403) a `learn.chatgpt.com/codex/dots`; Claude Code `code.claude.com/docs/en/changelog`
+  (datum pod číslem verze); Perplexity `perplexity.ai/changelog` (datum `MM/DD/YY` za
+  nadpisem záznamu); Ollama `ollama.com/blog` (datum u každého záznamu); Cursor
+  `cursor.com/changelog` (datum je v HTML značce `<time>`). Záznam bez data v textu
+  stránky = hledej datum v HTML, než ho vyřadíš jako „bez data".
+- **Duplicita s už vyšlou zprávou:** skript hlídá jen shodu slugu tipu. Před zápisem do
+  banky proto projdi `published-log.json` (grep klíčových slov události) — stejná událost,
+  která vyšla jako **zpráva** nebo jako jiný tip (např. plátna cloudových agentů Cursoru,
+  zpráva 18. 10.; záznamník Gemini Notebooku, součást tipu z 20. 9.), se jako tip
+  nevydává; vydej jen to, co je opravdu nové („teď široce dostupné" musí vést titulkem).
 - **Ověření tipu:** oficiální release notes / blog (T1) = `verified: true`. Jinak false.
 
 ---
