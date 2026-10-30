@@ -486,16 +486,6 @@
       "topic": "DeepSeek prý (29.8., nepotvrzeno) blízko kola 7,4 mld. USD / 74 mld. hodnota, investoři Tencent+CATL, míří na IPO Šanghaj 2027"
     },
     {
-      "slug": "2026-08-30-anthropic-pentagon-ruling",
-      "date": "2026-08-30",
-      "topic": "soudkyně Rita Lin 28.8. rozhodla, že Pentagon nezákonně (protiústavní odveta) označil Anthropic za bezpečnostní riziko po odmítnutí autonomních zbraní/masového sledování; vláda se odvolá"
-    },
-    {
-      "slug": "2026-08-30-tip-claude-code-startup-speedup",
-      "date": "2026-08-30",
-      "topic": "tip: Claude Code od 29.8. startuje rychleji (CLI před sandboxem), Linux instalace ~75MB, /cost /usage /tasks detailnější tokeny"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -1934,7 +1924,62 @@
       "slug": "2026-10-29-tip-claude-code-resume-usage-warning",
       "date": "2026-10-29",
       "topic": "tip: Claude Code od 2.1.304 (19. 10.) varuje na Pro/Max před obnovením neaktivní konverzace, která by spotřebovala znatelnou část 5hodinového limitu — pokračovat, nebo začít novou"
+    },
+    {
+      "slug": "2026-10-30-mistral-large-4-open-weights-update",
+      "date": "2026-10-30",
+      "topic": "Mistral 29. 10. zveřejnil otevřené váhy vylepšeného Mistral Large 4 (Le Chonk; preview 6. 10., viz 2026-10-07): ≈1 bilion parametrů/49 mld. aktivních (MoE), kontext 1M, vstup text + obrázky, na Hugging Face a v API; licence Mistral Ecosystem Open-Weight License (odvozená z MIT, omezuje model-as-a-service); podle Mistralu nejlepší otevřený model pro programování (FrontierCode 19,7 %, Terminal-Bench 4.0 41 %, AA Coding Agent Index 48 % ≈ GLM-5.3 s o 47 % méně tokenů) a pro obranu v kyberbezpečnosti (odmítnutí zlých kyberžádostí 96,6 %; čísla AA Cyber Index se rozcházejí — Mistral 51 %, HF 82 % — v textu bez nich) — highlight"
+    },
+    {
+      "slug": "2026-10-30-gemini-app-edit-files-in-chat",
+      "date": "2026-10-30",
+      "topic": "Google 29. 10.: v aplikaci Gemini jde soubory (dokumenty, PDF, prezentace, tabulky, kód, Markdown, TXT) vytvářet, prohlížet a upravovat přímo v chatu (celá obrazovka, označení textu k úpravě); PDF web + mobil, ostatní jen web; všichni uživatelé ve všech jazycích aplikace; export do Slides/Sheets/PPTX/PDF/Disku; správce to nemůže řídit"
+    },
+    {
+      "slug": "2026-10-30-embrace-browser-flaws-ai-tools",
+      "date": "2026-10-30",
+      "topic": "Forever Security 29. 10. (EMBRACE; The Register 29. 10.): chyby ve vestavěných prohlížečích 5 AI nástrojů — Cursor (spuštění kódu přes prompt injection; tiše opraveno 1. 10.), GitHub Copilot (podvržení adresy; opraveno 13. 10. ve verzi 1.1.29), Codex, VS Code, Claude Desktop (čtení souborů z disku přes web workery); Codex a VS Code zůstávají neopravené (OpenAI o chybě ví, Microsoft ji podle výzkumníků označil za neplatnou; Anthropic nejdřív odmítla, pak přijala hlášení Noma Security) — jediný T2 zdroj, verified:false"
+    },
+    {
+      "slug": "2026-10-30-claude-for-legal-artifacts",
+      "date": "2026-10-30",
+      "topic": "Anthropic 28. 10.: Claude for Legal — galerie hotových artefaktů (kontrola citací, srovnání právních úprav, přehled věcí, odchylky od vzorových smluv, horizont regulace, tabulkový přehled smluv); odkaz na zdroj u výstupu; financování skupin ve veřejném zájmu a program Legal Ambassadors"
+    },
+    {
+      "slug": "2026-10-30-google-connected-apps-platform",
+      "date": "2026-10-30",
+      "topic": "Google 28. 10.: náhled platformy Connected Apps (jedna integrace pro Gemini i Vyhledávání; cloudový MCP server nebo Android MCP/AppFunctions; Google Connected Console); přes 50 aplikací (Adobe, Experian, Localiza, Peloton v Gemini, Calm v obou za pár týdnů); přístup postupně, země neuvedeny"
+    },
+    {
+      "slug": "2026-10-30-microsoft-revenue-from-openai-10-billion",
+      "date": "2026-10-30",
+      "topic": "Microsoft 28. 10. ve výkazu: tržby z obchodních vztahů s OpenAI vč. podílu na výnosech 10,0 mld. USD za čtvrtletí do 30. 9. (≈11 % z 92,3 mld.; poprvé čtvrtletní číslo), 24,1 mld. za fiskální rok do června; pohledávky 7,2 mld. (z 6,0); podíl v OpenAI ≈24 % (z ≈25 % v červnu); OpenAI sdílí výnosy do 2030 s limitem (TechCrunch, TNW)"
+    },
+    {
+      "slug": "2026-10-30-mews-union-after-ai-layoffs",
+      "date": "2026-10-30",
+      "topic": "Lupa 29. 10.: zaměstnanci českého Mews (jednorožec, 2,5 mld. USD) založili odbory v rámci ICT Union po propouštění ≈15 % z 1 350 lidí, oficiálně kvůli AI; chtějí kolektivní smlouvu; zakladatel Valtr vítá — jediný T2 zdroj, verified:false"
+    },
+    {
+      "slug": "2026-10-30-tip-chatgpt-api-credits-subscribers",
+      "date": "2026-10-30",
+      "topic": "tip: ChatGPT Pro a Business — až 500 USD měsíčně v kreditech na API (OpenAI 28. 10.; propojení předplatného s vlastní organizací API, stejný e-mail, předplatné ≥ 7 dní, nevyužité kredity propadají na konci období, Codex přes klíče API se nekryje); obdoba kreditů Claude Max/Team z 8. 10."
+    },
+    {
+      "slug": "2026-10-30-tip-claude-code-block-writes-outside-dirs",
+      "date": "2026-10-30",
+      "topic": "tip: Claude Code 2.1.314 (30. 10.) — volba permissions.blockWritesOutsideWorkingDirectories: Write, Edit a NotebookEdit odmítnou cesty mimo pracovní složky v každém režimu oprávnění (hodnota a výchozí stav v dokumentaci zatím neuvedeny)"
+    },
+    {
+      "slug": "2026-10-30-tip-github-copilot-app-computer-use",
+      "date": "2026-10-30",
+      "topic": "tip: aplikace GitHub Copilot — ovládání počítače (veřejný náhled 28. 10., macOS a Windows; Settings > Computer Use > Enable; souhlas před ovládáním aplikace; správce může vypnout)"
+    },
+    {
+      "slug": "2026-10-30-tip-ollama-claude-desktop-gateway",
+      "date": "2026-10-30",
+      "topic": "tip: Ollama jako brána pro Claude Desktop (od 25. 8.; zapnout Claude v Ollamě, lokální i cloudové modely, vypnutím návrat; telemetrie vypnutá)"
     }
   ],
-  "updated": "2026-10-29T03:55:25Z"
+  "updated": "2026-10-30T03:29:10Z"
 }

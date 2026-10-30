@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-29T03:55:25Z",
+  "updated": "2026-10-30T03:29:10Z",
   "briefs": [
+    {
+      "date": "2026-10-30",
+      "headline": {
+        "cs": "Mistral zveřejnil otevřené váhy bilionového modelu Le Chonk",
+        "en": "Mistral releases open weights of its trillion-parameter Le Chonk"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-10-29",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Meta launches its first frontier model, Muse Wonder"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-10-16",
-      "headline": {
-        "cs": "NVIDIA otevřela nové modely Nemotron pro lokální běh",
-        "en": "NVIDIA opens new Nemotron models for local use"
-      },
-      "itemCount": 7
     }
   ]
 }

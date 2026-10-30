@@ -1,28 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-copilot-excel-personalization",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": false,
-      "title": {
-        "cs": "Excel Copilot si pamatuje tvoje preference",
-        "en": "Copilot in Excel remembers your preferences"
-      },
-      "summary": {
-        "cs": "Copilot v Excelu si nově zapamatuje tvoje preference — styl formátování, pojmenovávání, oblíbené vzorce, podobu kontingenčních tabulek i reportů — a drží se jich v další práci. Nastavíš jednou, platí dál. Microsoft to rolluje v červenci.",
-        "en": "Copilot in Excel now remembers your preferences — formatting style, naming conventions, favorite formulas, the shape of your PivotTables and reports — and sticks to them in later work. Set it once and it holds. Microsoft is rolling it out in July."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        }
-      ],
-      "added": "2026-07-31",
-      "used": "2026-07-31"
-    },
-    {
       "slug": "tip-gemini-macos-voice",
       "category": "tools",
       "theme": "gemini",
@@ -4112,7 +4090,7 @@
         }
       ],
       "added": "2026-10-26",
-      "used": null
+      "used": "2026-10-30"
     },
     {
       "slug": "tip-github-copilot-assisted-permissions",
@@ -4413,7 +4391,7 @@
         }
       ],
       "added": "2026-10-29",
-      "used": null
+      "used": "2026-10-30"
     },
     {
       "slug": "tip-github-copilot-image-generation",
@@ -4501,37 +4479,6 @@
       "used": null
     },
     {
-      "slug": "tip-gemini-notebook-audio-recorder",
-      "category": "tools",
-      "theme": "notebooklm",
-      "verified": true,
-      "eventDate": "2026-10-27",
-      "title": {
-        "cs": "Gemini Notebook nahrává zvuk přímo v mobilní appce",
-        "en": "Gemini Notebook records audio right in the mobile app"
-      },
-      "summary": {
-        "cs": "Google zvukový záznamník v mobilní aplikaci Gemini Notebook ohlásil 18. září; podle 9to5Google z 27. října se teď široce zavádí na Androidu i iOS. Ikona mikrofonu spustí nahrávání přednášek a poznámek, které se uloží ke zdrojům v notebooku; nahrávání běží na pozadí nejvýš hodinu.",
-        "en": "Google announced the audio recorder in the Gemini Notebook mobile app on September 18; according to 9to5Google on October 27 it is now rolling out widely on Android and iOS. A microphone icon starts recording lectures and notes, saved with the notebook’s sources; recording continues in the background for up to an hour."
-      },
-      "why": {
-        "cs": "Ikona mikrofonu je mezi fotoaparátem a tlačítkem Vytvořit: z úvodní stránky vznikne nový notebook, ze záložky Zdroje se záznam uloží do stávajícího. Nevidíš-li ji, vynuť zastavení aplikace.",
-        "en": "The microphone icon sits between the camera and the create button: from the home page it creates a new notebook, from the Sources tab it adds to the current one. If missing, force-stop the app."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://workspaceupdates.googleblog.com/2026/09/new-back-to-school-features-and-learning-tools-available-in-Gemini-Notebook.html"
-        },
-        {
-          "name": "9to5Google",
-          "url": "https://9to5google.com/2026/10/27/gemini-notebook-recorder/"
-        }
-      ],
-      "added": "2026-10-29",
-      "used": null
-    },
-    {
       "slug": "tip-codex-cloud-reusable-environments",
       "category": "tools",
       "theme": "chatgpt",
@@ -4587,6 +4534,199 @@
         }
       ],
       "added": "2026-10-29",
+      "used": null
+    },
+    {
+      "slug": "tip-chatgpt-api-credits-subscribers",
+      "category": "tools",
+      "theme": "chatgpt",
+      "added": "2026-10-30",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Předplatné ChatGPT Pro a Business dává kredity na API",
+        "en": "ChatGPT Pro and Business now include free API credits"
+      },
+      "summary": {
+        "cs": "OpenAI 28. října uvedla, že předplatitelé ChatGPT Pro a Business si mohou nárokovat až 500 USD měsíčně v bezplatných kreditech na API. Stačí propojit předplatné s organizací API, kterou vlastníš; platební metoda pro API není potřeba. Nevyužité kredity propadnou na konci fakturačního období, Codex přes klíče API se nekryje.",
+        "en": "On October 28, OpenAI said ChatGPT Pro and Business subscribers can claim up to $500 a month in free API credits by linking their subscription to an API organization they own; no API payment method is needed. Unused credits expire at cycle end, and Codex via API keys is not covered."
+      },
+      "why": {
+        "cs": "V ChatGPT otevři Nastavení a Fakturace (u Business fakturaci prostoru) nebo se přihlas do API Platform stejným e-mailem. Musíš vlastnit předplatné i organizaci API; předplatné musí být placené aspoň sedm dní.",
+        "en": "In ChatGPT open Settings and Billing (Business: workspace billing) or sign in to API Platform with the same email. You must own the subscription, at least seven days old, and the API organization."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/api/docs/guides/chatgpt-api-credits"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/api/docs/changelog"
+        }
+      ],
+      "used": "2026-10-30"
+    },
+    {
+      "slug": "tip-claude-code-block-writes-outside-dirs",
+      "category": "tools",
+      "theme": "claude",
+      "added": "2026-10-30",
+      "verified": true,
+      "eventDate": "2026-10-30",
+      "title": {
+        "cs": "Claude Code umí zakázat zápis mimo pracovní složky",
+        "en": "Claude Code can refuse writes outside its working folders"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.314 (30. října) má volbu permissions.blockWritesOutsideWorkingDirectories. Podle poznámek k vydání nástroje Write, Edit a NotebookEdit odmítnou cesty mimo pracovní složky v každém režimu oprávnění. Nainstalovanou verzi zjistíš příkazem claude --version.",
+        "en": "From version 2.1.314 (October 30), Claude Code has an option permissions.blockWritesOutsideWorkingDirectories. According to the release notes, the Write, Edit, and NotebookEdit tools refuse paths outside the working folders in every permission mode. Check your installed version with claude --version."
+      },
+      "why": {
+        "cs": "Volba patří do nastavení v bloku permissions. Poznámky k vydání ani dokumentace zatím neuvádějí hodnotu ani výchozí stav, proto si chování ověř na zkušebním projektu.",
+        "en": "The option belongs in the permissions block of the settings. Neither the release notes nor the documentation yet state a value or the default, so test the behavior on a throwaway project."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "used": "2026-10-30"
+    },
+    {
+      "slug": "tip-claude-code-idle-compaction-vscode-desktop",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-10-30",
+      "title": {
+        "cs": "Claude Code zhustí nečinný rozhovor i ve VS Code",
+        "en": "Claude Code compacts an idle chat in VS Code too"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.314 (30. října) zhušťuje nečinný rozhovor i ve VS Code a na záložce Code v Claude Desktopu; v terminálu to umí od verze 2.1.299. Rozhovor delší než 200 000 tokenů se po nečinnosti shrne a shrnutí se použije při další zprávě, pokud vypršela paměť zadání (prompt cache).",
+        "en": "From version 2.1.314 (October 30), Claude Code compacts an idle conversation in VS Code and on the Code tab of Claude Desktop too; the terminal has had it since version 2.1.299. A conversation over 200,000 tokens is summarized after it sits idle, and the summary is used on your next message if the prompt cache has expired."
+      },
+      "why": {
+        "cs": "Nic se nenastavuje, stačí verze 2.1.314 nebo novější. V terminálu jde funkci vypnout v /config; zda to platí i pro VS Code a Desktop, zdroj neuvádí.",
+        "en": "Nothing to set up; version 2.1.314 or newer is enough. In the terminal you can turn it off in /config; the source does not say whether that applies to VS Code and Desktop."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-10-30",
+      "used": null
+    },
+    {
+      "slug": "tip-github-copilot-security-extension",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Copilot v aplikaci GitHub projde varování z kontroly kódu",
+        "en": "Copilot in the GitHub app works through code scanning alerts"
+      },
+      "summary": {
+        "cs": "GitHub 28. října uvedl ve veřejném náhledu rozšíření pro zabezpečení v aplikaci Copilot: ukáže otevřená varování z kontroly kódu (code scanning) podle závažnosti a Copilot je na požádání vysvětlí nebo opraví v lokální kopii, nic sám neodešle. Příkaz /security-review zkontroluje i tvoje rozpracované změny.",
+        "en": "On October 28, GitHub put a security extension for the Copilot app into public preview: it lists open code scanning alerts by severity, and Copilot explains or fixes them in your local copy on request, pushing nothing itself. The /security-review command also checks your work in progress."
+      },
+      "why": {
+        "cs": "V terminálu spusť copilot plugin install github-security@awesome-copilot, nebo v aplikaci zvol Customize, vyhledej github-security a dej Install. U Business a Enterprise musí aplikaci povolit správce; soukromé repozitáře chtějí GitHub Code Security.",
+        "en": "In a terminal run copilot plugin install github-security@awesome-copilot, or in the app choose Customize, search github-security, and click Install. On Business and Enterprise an admin must enable the app; private repositories need GitHub Code Security."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-28-security-extension-for-the-github-copilot-app"
+        }
+      ],
+      "added": "2026-10-30",
+      "used": null
+    },
+    {
+      "slug": "tip-github-copilot-shared-automations",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Automatizace Copilota jde sdílet s celým týmem",
+        "en": "Copilot automations can now be shared with your team"
+      },
+      "summary": {
+        "cs": "GitHub 28. října začal zavádět sdílené automatizace Copilota: tým společně vytváří a upravuje pracovní postupy z promptů, spouštěčů a nástrojů, které Copilot spouští sám v cloudu. Vidí je všichni s právem čtení repozitáře, upravují ti s právem zápisu a kredity AI platí vlastník repozitáře.",
+        "en": "On October 28, GitHub began rolling out shared Copilot automations: a team builds and maintains workflows made of prompts, triggers, and tools that Copilot runs on its own in the cloud. Everyone with read access to the repository sees them, those with write access edit them, and the repository owner pays the AI credits."
+      },
+      "why": {
+        "cs": "Při vytváření automatizace na github.com, v aplikaci Copilot nebo ve VS Code zvol typ Shared; později se nedá změnit. V organizaci musí správce povolit politiku Allow use of Copilot cloud agent billed to the organization.",
+        "en": "When you create an automation on github.com, in the Copilot app, or in VS Code, choose the Shared type; it cannot be changed later. In an organization an admin must enable the Allow use of Copilot cloud agent billed to the organization policy."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations"
+        }
+      ],
+      "added": "2026-10-30",
+      "used": null
+    },
+    {
+      "slug": "tip-lmstudio-bionic-read-aloud-windows-linux",
+      "category": "tools",
+      "theme": "local",
+      "verified": true,
+      "eventDate": "2026-10-29",
+      "title": {
+        "cs": "LM Studio čte odpovědi nahlas lokálně i na Windows",
+        "en": "LM Studio reads answers aloud locally on Windows too"
+      },
+      "summary": {
+        "cs": "LM Studio ve verzi Bionic 1.1.10 (29. října) rozšířilo čtení odpovědí nahlas přímo v zařízení na Windows a Linux; dosud šlo jen na Macu. Přibylo sedm hlasů, které fungují offline. Na Macích s méně než 32 GB paměti se hlasový model sám nenačítá.",
+        "en": "LM Studio version Bionic 1.1.10 (October 29) extended on-device reading of answers aloud to Windows and Linux; until now it worked only on Mac. Seven voices that work offline were added. On Macs with less than 32 GB of memory the voice model does not load by itself."
+      },
+      "why": {
+        "cs": "Stačí aktualizovat LM Studio na Bionic 1.1.10; čtení se ovládá tlačítkem Read Aloud u zprávy. Funkce běží v zařízení, zdroj ale neuvádí požadavky na výkon počítače.",
+        "en": "Just update LM Studio to Bionic 1.1.10; reading is controlled by the Read Aloud button on a message. The feature runs on the device, but the source gives no hardware requirements."
+      },
+      "sources": [
+        {
+          "name": "LM Studio",
+          "url": "https://lmstudio.ai/changelog"
+        }
+      ],
+      "added": "2026-10-30",
+      "used": null
+    },
+    {
+      "slug": "tip-granola-dictation-mac",
+      "category": "tools",
+      "theme": "other",
+      "verified": false,
+      "eventDate": "2026-10-29",
+      "title": {
+        "cs": "Granola umí diktovat do jakékoli aplikace na Macu",
+        "en": "Granola can dictate into any Mac app"
+      },
+      "summary": {
+        "cs": "Podle TechCrunch z 29. října přidala Granola, známá zápisem schůzek, diktování: na Macu stiskneš klávesu Fn, mluvíš a text se vyčistí, naformátuje a vloží do libovolné aplikace. Podle Granoly je bez omezení počtu slov a zdarma; verze pro iOS a Windows mají přijít později.",
+        "en": "According to TechCrunch on October 29, Granola, known for meeting notes, added dictation: on a Mac you press the Fn key and speak, and the text is cleaned up, formatted, and pasted into any app. Granola says it has unlimited words and is free; iOS and Windows versions are to follow."
+      },
+      "why": {
+        "cs": "Zdrojem je TechCrunch a příspěvek Granoly na X; stránka změn Granoly funkci zatím neuvádí. Platí jen pro Mac, dostupnost v aplikaci si ověř.",
+        "en": "The source is TechCrunch and Granola’s post on X; Granola’s updates page does not list the feature yet. It is Mac only, so check availability in the app."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/"
+        }
+      ],
+      "added": "2026-10-30",
       "used": null
     }
   ]

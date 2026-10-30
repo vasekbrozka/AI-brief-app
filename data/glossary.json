@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "terms": [
     {
       "id": "quantization",
@@ -911,6 +911,61 @@
       "short": {
         "cs": "Velké evropské datacentrum pro trénink a provoz největších AI modelů, financované z veřejných i soukromých peněz. Má mít několikrát víc špičkových AI čipů než dnešní evropské AI továrny.",
         "en": "A very large European data center for training and running the biggest AI models, funded with public and private money. It must hold several times the top AI chips of today’s European AI factories."
+      }
+    },
+    {
+      "id": "parameters",
+      "term": {
+        "cs": "Parametry modelu",
+        "en": "Model parameters"
+      },
+      "aliases": [
+        "parametr",
+        "parametry",
+        "parametrů",
+        "parametrech",
+        "parametrům",
+        "parametrem",
+        "parameters",
+        "parameter"
+      ],
+      "short": {
+        "cs": "Čísla uvnitř modelu, která se nastavují při tréninku; čím víc jich je, tím větší a obvykle schopnější (a dražší) model bývá. U směsi expertů se v každém kroku použije jen jejich část (aktivní parametry).",
+        "en": "The numbers inside a model that training sets; the more there are, the larger and more capable (and costlier) the model is. In mixture-of-experts models only part of them is used per step (active parameters)."
+      }
+    },
+    {
+      "id": "artifacts",
+      "term": {
+        "cs": "Artefakty (Claude)",
+        "en": "Artifacts (Claude)"
+      },
+      "aliases": [
+        "artefakt",
+        "artefakty",
+        "artefaktů",
+        "artefaktech",
+        "artefaktům",
+        "artifact",
+        "artifacts"
+      ],
+      "short": {
+        "cs": "Interaktivní mini-aplikace, které Claude vytvoří přímo v konverzaci: tabulka, přehled nebo nástroj, který jde upravovat, vyzkoušet a sdílet s kolegy.",
+        "en": "Interactive mini-apps Claude builds right in a conversation: a table, dashboard, or tool you can edit, try out, and share with colleagues."
+      }
+    },
+    {
+      "id": "hugging-face",
+      "term": {
+        "cs": "Hugging Face",
+        "en": "Hugging Face"
+      },
+      "aliases": [
+        "Hugging Face"
+      ],
+      "short": {
+        "cs": "Největší veřejná platforma pro sdílení AI modelů a datových sad. Vývojáři si tam stahují otevřené modely a zkoušejí je přímo v prohlížeči.",
+        "en": "The largest public platform for sharing AI models and datasets. Developers download open models there and try them out right in the browser."
       }
     }
   ]
