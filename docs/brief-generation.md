@@ -480,8 +480,14 @@ a `used` přesné a nikdy záznamy nepřepisuj zpětně.
   je 403) a `learn.chatgpt.com/codex/dots`; Claude Code `code.claude.com/docs/en/changelog`
   (datum pod číslem verze); Perplexity `perplexity.ai/changelog` (datum `MM/DD/YY` za
   nadpisem záznamu); Ollama `ollama.com/blog` (datum u každého záznamu); Cursor
-  `cursor.com/changelog` (datum je v HTML značce `<time>`). Záznam bez data v textu
-  stránky = hledej datum v HTML, než ho vyřadíš jako „bez data".
+  `cursor.com/changelog` (datum je v HTML značce `<time>`); OpenAI API
+  `learn.chatgpt.com/api/docs/changelog` (odznak s datem stojí před záznamem);
+  LM Studio `lmstudio.ai/changelog` (T1; datum stojí **za** blokem verze, ne před ním).
+  Čistý text změn Claude Code je `raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md`
+  (HTML stránka je plná JSONu). Záznam bez data v textu stránky = hledej datum v HTML,
+  než ho vyřadíš jako „bez data". **Nová volba v nastavení, kterou dokumentace ještě
+  nepopisuje, je tip jen s poctivým `why`** („hodnota ani výchozí stav zatím nejsou
+  popsány"), nikdy s domyšlenou syntaxí.
 - **Duplicita s už vyšlou zprávou:** skript hlídá jen shodu slugu tipu. Před zápisem do
   banky proto projdi `published-log.json` (grep klíčových slov události) — stejná událost,
   která vyšla jako **zpráva** nebo jako jiný tip (např. plátna cloudových agentů Cursoru,
