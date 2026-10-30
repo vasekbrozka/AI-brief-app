@@ -4072,21 +4072,25 @@
       "verified": true,
       "eventDate": "2026-08-25",
       "title": {
-        "cs": "Claude Desktop jde přepnout na modely z Ollamy",
-        "en": "Claude Desktop can run on Ollama models"
+        "cs": "Claude Desktop na macOS umí používat modely z Ollamy",
+        "en": "Claude Desktop on macOS can run on Ollama models"
       },
       "summary": {
-        "cs": "Ollama od 25. srpna umí nastavit Claude Desktop tak, aby jako bránu pro modely třetích stran používal Ollamu. V Ollamě stačí zapnout Claude a nastavení proběhne samo; pak si vybereš libovolný model z Ollamy, lokální i z její cloudové služby.",
-        "en": "Since August 25, Ollama can set up Claude Desktop to use Ollama as a gateway for third-party models. In Ollama you just turn Claude on and the setup happens by itself; then you pick any model from Ollama, local or from its cloud service."
+        "cs": "Ollama, program na spouštění AI modelů na vlastním počítači, od 25. srpna umí nastavit Claude Desktop tak, aby mohl používat modely z Ollamy: lokální na tvém počítači nebo cloudové pro větší úlohy. Zatím jen na macOS, verze pro Windows má přijít; cloudové modely chtějí přihlášení a některé placený tarif.",
+        "en": "Ollama, a program for running AI models locally, has let you set up Claude Desktop to use Ollama models since August 25: local ones or cloud ones for bigger tasks. For now only on macOS, Windows to come; cloud models need a sign-in, some a paid plan."
       },
       "why": {
-        "cs": "V aplikaci Ollama zapni Claude a vyber model; vypnutím se vrátí předchozí nastavení a mezi Anthropicem a Ollamou jde přepínat. Telemetrie je ve výchozím stavu vypnutá; plán Claude Desktop zdroj neuvádí.",
-        "en": "In the Ollama app, turn Claude on and pick a model; turning it off restores your old setup; you can switch between Anthropic and Ollama. Telemetry is off by default. The source names no plan."
+        "cs": "V aplikaci Ollama otevři Apps a připoj Claude, pak vyber model; odpojením se vrátí původní nastavení. Podle Ollamy je telemetrie ve výchozím stavu vypnutá. Zdroj neuvádí, jaké předplatné Claude je potřeba.",
+        "en": "In the Ollama app open Apps and connect Claude, then pick a model; disconnecting restores your old setup. Ollama says telemetry is off by default. The source does not say which Claude plan you need."
       },
       "sources": [
         {
           "name": "Ollama",
           "url": "https://ollama.com/blog/claude-desktop"
+        },
+        {
+          "name": "Ollama",
+          "url": "https://docs.ollama.com/integrations/claude-desktop"
         }
       ],
       "added": "2026-10-26",
@@ -4373,21 +4377,25 @@
       "verified": true,
       "eventDate": "2026-10-28",
       "title": {
-        "cs": "Aplikace Copilot umí ovládat desktopové aplikace",
-        "en": "The Copilot app can operate desktop apps for you"
+        "cs": "Aplikace GitHub Copilot umí v náhledu ovládat desktopové aplikace",
+        "en": "GitHub Copilot app can operate desktop apps in preview"
       },
       "summary": {
-        "cs": "GitHub 28. října uvedl ve veřejném náhledu ovládání počítače v aplikaci Copilot na macOS a Windows: Copilot čte obsah aplikací, klepe na ovládací prvky, zadává a upravuje text a přepíná mezi aplikacemi, i když nemají API, příkazový řádek ani MCP. Před ovládáním každé aplikace se zeptá na souhlas.",
-        "en": "On October 28, GitHub put computer use in the Copilot app into public preview on macOS and Windows: Copilot reads app content, clicks controls, enters and edits text, and moves across apps, even ones without an API, command line, or MCP. It asks for your approval before controlling each app."
+        "cs": "GitHub 28. října uvedl jako zkušební verzi (veřejný náhled) ovládání počítače v aplikaci GitHub Copilot na macOS a Windows: Copilot čte obsah aplikací, klikne na ovládací prvky, zadává a upravuje text a přepíná mezi aplikacemi, i když nemají API, příkazový řádek ani MCP. Souhlas se řídí nastavením Tool Permissions.",
+        "en": "On October 28, GitHub put computer use in the GitHub Copilot app into public preview on macOS and Windows: Copilot reads app content, clicks controls, enters and edits text, and moves across apps, even ones without an API, command line, or MCP. Approval follows the Tool Permissions setting."
       },
       "why": {
-        "cs": "V Nastavení otevři Computer Use a zapni Enable Computer Use; na macOS povol Zpřístupnění a Nahrávání obrazovky. Organizace může funkci vypnout ve spravovaných nastaveních.",
-        "en": "Open Settings > Computer Use and turn on Enable Computer Use; on macOS grant Accessibility and Screen Recording. An organization can disable it through managed settings."
+        "cs": "V nastavení aplikace otevři Computer Use a zapni Enable Computer Use; na macOS povol Zpřístupnění a Nahrávání obrazovky. Volba Always allow uloží souhlas i pro další relace. Funkci může vypnout správce organizace.",
+        "en": "In app settings open Computer Use and turn on Enable Computer Use; on macOS grant Accessibility and Screen Recording. Always allow saves your approval for later sessions. An organization admin can turn the feature off."
       },
       "sources": [
         {
           "name": "GitHub",
           "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://docs.github.com/en/copilot/how-tos/github-copilot-app/computer-use"
         }
       ],
       "added": "2026-10-29",
@@ -4548,12 +4556,12 @@
         "en": "ChatGPT Pro and Business now include free API credits"
       },
       "summary": {
-        "cs": "OpenAI 28. října uvedla, že předplatitelé ChatGPT Pro a Business si mohou nárokovat až 500 USD měsíčně v bezplatných kreditech na API. Stačí propojit předplatné s organizací API, kterou vlastníš; platební metoda pro API není potřeba. Nevyužité kredity propadnou na konci fakturačního období, Codex přes klíče API se nekryje.",
-        "en": "On October 28, OpenAI said ChatGPT Pro and Business subscribers can claim up to $500 a month in free API credits by linking their subscription to an API organization they own; no API payment method is needed. Unused credits expire at cycle end, and Codex via API keys is not covered."
+        "cs": "OpenAI 28. října uvedla, že předplatitelé ChatGPT Pro a Business si mohou nárokovat bezplatné kredity na API pro vlastní aplikace a agenty: u Pro 100 až 500 USD měsíčně podle tarifu, u Business 20 nebo 100 USD za sedadlo, nejvýš 500 USD na prostor. Nevyužité propadnou na konci období; Codex přes klíče API se nekryje.",
+        "en": "On October 28, OpenAI said ChatGPT Pro and Business subscribers can claim free API credits for apps and agents: $100 to $500 a month on Pro depending on tier, $20 or $100 per seat on Business, capped at $500 per workspace. Unused credits expire at cycle end; Codex via API keys is not covered."
       },
       "why": {
-        "cs": "V ChatGPT otevři Nastavení a Fakturace (u Business fakturaci prostoru) nebo se přihlas do API Platform stejným e-mailem. Musíš vlastnit předplatné i organizaci API; předplatné musí být placené aspoň sedm dní.",
-        "en": "In ChatGPT open Settings and Billing (Business: workspace billing) or sign in to API Platform with the same email. You must own the subscription, at least seven days old, and the API organization."
+        "cs": "Propoj předplatné s organizací API, kterou vlastníš: v ChatGPT otevři Nastavení > Fakturace (Business: fakturace prostoru) nebo v API Platform, vždy stejným e-mailem. Předplatné musí být placené aspoň sedm dní; Plus a Go nárok nemají.",
+        "en": "Link it to an API organization you own: via Settings > Billing in ChatGPT (Business: workspace billing) or API Platform, with the same email. At least seven days old; Plus and Go do not qualify."
       },
       "sources": [
         {
@@ -4575,16 +4583,16 @@
       "verified": true,
       "eventDate": "2026-10-30",
       "title": {
-        "cs": "Claude Code umí zakázat zápis mimo pracovní složky",
-        "en": "Claude Code can refuse writes outside its working folders"
+        "cs": "Claude Code umí odmítnout úpravy souborů mimo pracovní složky",
+        "en": "Claude Code can refuse file edits outside working folders"
       },
       "summary": {
         "cs": "Claude Code od verze 2.1.314 (30. října) má volbu permissions.blockWritesOutsideWorkingDirectories. Podle poznámek k vydání nástroje Write, Edit a NotebookEdit odmítnou cesty mimo pracovní složky v každém režimu oprávnění. Nainstalovanou verzi zjistíš příkazem claude --version.",
         "en": "From version 2.1.314 (October 30), Claude Code has an option permissions.blockWritesOutsideWorkingDirectories. According to the release notes, the Write, Edit, and NotebookEdit tools refuse paths outside the working folders in every permission mode. Check your installed version with claude --version."
       },
       "why": {
-        "cs": "Volba patří do nastavení v bloku permissions. Poznámky k vydání ani dokumentace zatím neuvádějí hodnotu ani výchozí stav, proto si chování ověř na zkušebním projektu.",
-        "en": "The option belongs in the permissions block of the settings. Neither the release notes nor the documentation yet state a value or the default, so test the behavior on a throwaway project."
+        "cs": "Pro vývojáře. Poznámky k vydání ani dokumentace neuvádějí hodnotu, výchozí stav ani to, zda se volba týká příkazů v shellu (Bash); chování si ověř na zkušebním projektu.",
+        "en": "For developers. Neither the release notes nor the documentation state a value, the default, or whether the option covers shell (Bash) commands; test the behavior on a throwaway project."
       },
       "sources": [
         {

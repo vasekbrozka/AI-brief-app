@@ -1928,17 +1928,17 @@
     {
       "slug": "2026-10-30-mistral-large-4-open-weights-update",
       "date": "2026-10-30",
-      "topic": "Mistral 29. 10. zveřejnil otevřené váhy vylepšeného Mistral Large 4 (Le Chonk; preview 6. 10., viz 2026-10-07): ≈1 bilion parametrů/49 mld. aktivních (MoE), kontext 1M, vstup text + obrázky, na Hugging Face a v API; licence Mistral Ecosystem Open-Weight License (odvozená z MIT, omezuje model-as-a-service); podle Mistralu nejlepší otevřený model pro programování (FrontierCode 19,7 %, Terminal-Bench 4.0 41 %, AA Coding Agent Index 48 % ≈ GLM-5.3 s o 47 % méně tokenů) a pro obranu v kyberbezpečnosti (odmítnutí zlých kyberžádostí 96,6 %; čísla AA Cyber Index se rozcházejí — Mistral 51 %, HF 82 % — v textu bez nich) — highlight"
+      "topic": "Mistral 29. 10. zveřejnil otevřené váhy vylepšeného Mistral Large 4 (Le Chonk; preview 6. 10., viz 2026-10-07): ≈1 bilion parametrů/49 mld. aktivních (MoE), kontext 1M, vstup text + obrázky, na Hugging Face a v API; licence Mistral Ecosystem Open-Weight License (odvozená z MIT, omezuje model-as-a-service); podle Mistralu vede otevřené modely v některých testech programování (FrontierCode 19,7 %, Terminal-Bench 4.0 41 %; AA Coding Agent Index 48 % ≈ GLM-5.3 s o 47 % méně tokenů; HF: celkově pátý otevřený model v AA Intelligence Index) a je určen i pro obranu v kyberbezpečnosti (odmítnutí zlých kyberžádostí 96,6 %; čísla AA Cyber Index se rozcházejí — Mistral 51 %, HF 82 % — v textu bez nich) — highlight"
     },
     {
       "slug": "2026-10-30-gemini-app-edit-files-in-chat",
       "date": "2026-10-30",
-      "topic": "Google 29. 10.: v aplikaci Gemini jde soubory (dokumenty, PDF, prezentace, tabulky, kód, Markdown, TXT) vytvářet, prohlížet a upravovat přímo v chatu (celá obrazovka, označení textu k úpravě); PDF web + mobil, ostatní jen web; všichni uživatelé ve všech jazycích aplikace; export do Slides/Sheets/PPTX/PDF/Disku; správce to nemůže řídit"
+      "topic": "Google 29. 10.: v aplikaci Gemini nově náhled a úpravy souborů (dokumenty, PDF, prezentace, tabulky, kód, Markdown, TXT) přímo v chatu (celá obrazovka, označení textu k úpravě; vytvářet soubory Gemini uměl už dříve — The Verge); PDF web + mobil, ostatní jen web; všichni uživatelé ve všech jazycích aplikace; prezentace do Slides/PPTX/PDF, soubory na Disk; vypínač jen pro celou aplikaci Gemini"
     },
     {
       "slug": "2026-10-30-embrace-browser-flaws-ai-tools",
       "date": "2026-10-30",
-      "topic": "Forever Security 29. 10. (EMBRACE; The Register 29. 10.): chyby ve vestavěných prohlížečích 5 AI nástrojů — Cursor (spuštění kódu přes prompt injection; tiše opraveno 1. 10.), GitHub Copilot (podvržení adresy; opraveno 13. 10. ve verzi 1.1.29), Codex, VS Code, Claude Desktop (čtení souborů z disku přes web workery); Codex a VS Code zůstávají neopravené (OpenAI o chybě ví, Microsoft ji podle výzkumníků označil za neplatnou; Anthropic nejdřív odmítla, pak přijala hlášení Noma Security) — jediný T2 zdroj, verified:false"
+      "topic": "Forever Security 29. 10. (EMBRACE; The Register 29. 10.): chyby ve vestavěných prohlížečích 5 AI nástrojů — Cursor (spuštění kódu přes prompt injection; tiše opraveno 1. 10.), GitHub Copilot (podvržení adresy; opraveno 13. 10. ve verzi 1.1.29), Codex, VS Code, Claude Desktop (čtení souborů z disku přes web workery); Codex a VS Code zůstávají neopravené (OpenAI o chybě ví, Microsoft ji podle výzkumníků označil za neplatnou; Anthropic nejdřív odmítla, pak přijala hlášení Noma Security) — jediný T2 zdroj, verified:false; útok vyžaduje otevření škodlivé stránky/souboru, stav opravy Claude Desktopu zdroje neuvádějí"
     },
     {
       "slug": "2026-10-30-claude-for-legal-artifacts",
@@ -1963,7 +1963,7 @@
     {
       "slug": "2026-10-30-tip-chatgpt-api-credits-subscribers",
       "date": "2026-10-30",
-      "topic": "tip: ChatGPT Pro a Business — až 500 USD měsíčně v kreditech na API (OpenAI 28. 10.; propojení předplatného s vlastní organizací API, stejný e-mail, předplatné ≥ 7 dní, nevyužité kredity propadají na konci období, Codex přes klíče API se nekryje); obdoba kreditů Claude Max/Team z 8. 10."
+      "topic": "tip: ChatGPT Pro a Business — kredity na API (OpenAI 28. 10.; Pro 100/200/500 USD měsíčně podle tarifu, Business 20 USD za sedadlo Standard a 100 USD za Premium, strop 500 USD na prostor; propojení předplatného s vlastní organizací API, stejný e-mail, předplatné ≥ 7 dní, Plus/Go/Enterprise nárok nemají, nevyužité propadají na konci období, Codex přes klíče API se nekryje); obdoba kreditů Claude Max/Team z 8. 10."
     },
     {
       "slug": "2026-10-30-tip-claude-code-block-writes-outside-dirs",
@@ -1973,13 +1973,13 @@
     {
       "slug": "2026-10-30-tip-github-copilot-app-computer-use",
       "date": "2026-10-30",
-      "topic": "tip: aplikace GitHub Copilot — ovládání počítače (veřejný náhled 28. 10., macOS a Windows; Settings > Computer Use > Enable; souhlas před ovládáním aplikace; správce může vypnout)"
+      "topic": "tip: aplikace GitHub Copilot — ovládání počítače (veřejný náhled 28. 10., macOS a Windows, lokální relace; Settings > Computer Use > Enable; souhlas podle Tool Permissions, Always allow ho uloží; správce může vypnout)"
     },
     {
       "slug": "2026-10-30-tip-ollama-claude-desktop-gateway",
       "date": "2026-10-30",
-      "topic": "tip: Ollama jako brána pro Claude Desktop (od 25. 8.; zapnout Claude v Ollamě, lokální i cloudové modely, vypnutím návrat; telemetrie vypnutá)"
+      "topic": "tip: Ollama jako brána pro Claude Desktop (od 25. 8.; docs: jen macOS, Windows má přijít; Apps → připojit Claude, lokální i cloudové modely — cloud chce přihlášení a některé placený tarif; odpojením návrat; podle Ollamy telemetrie vypnutá)"
     }
   ],
-  "updated": "2026-10-30T03:29:10Z"
+  "updated": "2026-10-30T03:51:52Z"
 }

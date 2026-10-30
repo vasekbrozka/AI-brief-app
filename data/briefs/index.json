@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-30T03:29:10Z",
+  "updated": "2026-10-30T03:51:52Z",
   "briefs": [
     {
       "date": "2026-10-30",
       "headline": {
-        "cs": "Mistral zveřejnil otevřené váhy bilionového modelu Le Chonk",
-        "en": "Mistral releases open weights of its trillion-parameter Le Chonk"
+        "cs": "Mistral zveřejnil ke stažení model Mistral Large 4",
+        "en": "Mistral releases open weights of Mistral Large 4"
       },
       "itemCount": 11
     },

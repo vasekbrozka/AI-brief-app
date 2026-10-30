@@ -2,8 +2,8 @@
   "date": "2026-10-30",
   "sample": false,
   "headline": {
-    "cs": "Mistral zveřejnil otevřené váhy bilionového modelu Le Chonk",
-    "en": "Mistral releases open weights of its trillion-parameter Le Chonk"
+    "cs": "Mistral zveřejnil ke stažení model Mistral Large 4",
+    "en": "Mistral releases open weights of Mistral Large 4"
   },
   "items": [
     {
@@ -14,16 +14,16 @@
       "verified": true,
       "eventDate": "2026-10-29",
       "title": {
-        "cs": "Mistral zveřejnil otevřené váhy bilionového modelu Le Chonk",
-        "en": "Mistral releases open weights of its trillion-parameter Le Chonk"
+        "cs": "Mistral zveřejnil ke stažení model Mistral Large 4",
+        "en": "Mistral releases open weights of Mistral Large 4"
       },
       "summary": {
-        "cs": "Mistral 29. října zveřejnil na Hugging Face otevřené váhy vylepšeného modelu Mistral Large 4, přezdívaného Le Chonk, který poprvé ukázal 6. října. Má asi bilion parametrů, z toho 49 miliard aktivních, kontext 1 milion tokenů a čte i obrázky. Podle Mistralu je nejlepším otevřeným modelem pro programování; licence omezuje nabízení modelu jako služby.",
-        "en": "On October 29, Mistral released on Hugging Face the open weights of an improved Mistral Large 4 (Le Chonk), first shown October 6. It has about 1 trillion parameters (49 billion active), a 1 million-token context, and reads images. Mistral calls it the best open model for coding; the license restricts service offerings."
+        "cs": "Mistral 29. října zveřejnil na Hugging Face otevřené váhy vylepšeného modelu Mistral Large 4, přezdívaného Le Chonk, který začátkem října vyšel jako předběžná verze. Má bilion parametrů, z toho 49 miliard aktivních, kontext 1 milion tokenů a čte i obrázky. Podle Mistralu vede otevřené modely v některých testech programování; licence omezuje nabízení modelu jako služby.",
+        "en": "On October 29, Mistral released on Hugging Face the open weights of an improved Mistral Large 4 (Le Chonk), first previewed in early October. It has 1 trillion parameters (49 billion active), a 1 million-token context, and reads images. Mistral says it leads open models on some coding tests; the license restricts service offerings."
       },
       "why": {
-        "cs": "Výsledky v programování i kybernetické bezpečnosti jsou měření Mistralu; TechCrunch je uvádí jako jeho tvrzení. Firmy a úřady si model mohou stáhnout a provozovat u sebe, takže na cizím API nezávisí.",
-        "en": "The coding and cybersecurity results are Mistral’s own measurements, which TechCrunch presents as its claims. Companies and agencies can download and run the model themselves, so they do not depend on someone else’s API."
+        "cs": "Výsledky jsou údaje, které uvádí Mistral; TechCrunch je podává jako jeho tvrzení. Firmy a úřady si model mohou stáhnout a provozovat u sebe, takže na cizím API nezávisí.",
+        "en": "The results are figures Mistral reports; TechCrunch presents them as its claims. Companies and agencies can download and run the model themselves, so they do not depend on someone else’s API."
       },
       "sources": [
         {
@@ -47,16 +47,16 @@
       "verified": true,
       "eventDate": "2026-10-29",
       "title": {
-        "cs": "Gemini umí soubory vytvářet i upravovat přímo v chatu",
-        "en": "Gemini now creates and edits files right in chat"
+        "cs": "Gemini nově zobrazí a upraví soubory přímo v chatu",
+        "en": "Gemini now previews and edits files right in chat"
       },
       "summary": {
-        "cs": "Google 29. října zpřístupnil v aplikaci Gemini tvorbu, náhled a úpravy souborů přímo v chatu: dokumentů, PDF, prezentací, tabulek, kódu i souborů Markdown a TXT. Text upravíš na celé obrazovce, nebo ho označíš a necháš Gemini přepsat. Mají to všichni uživatelé; PDF jde na webu i v mobilu, zbytek jen na webu.",
-        "en": "On October 29, Google added file generation, preview, and editing to chats in the Gemini app: documents, PDFs, presentations, spreadsheets, code, Markdown, and TXT files. You can edit text in full screen, or highlight it and have Gemini rewrite it. Everyone has it; PDFs work on web and mobile, the rest on web only."
+        "cs": "Google 29. října doplnil do aplikace Gemini náhled a úpravy souborů přímo v chatu: dokumentů, PDF, prezentací, tabulek, kódu, Markdown a TXT. Vytvářet soubory Gemini uměl už dříve. Text upravíš na celé obrazovce, nebo ho označíš a necháš Gemini přepsat. Mají to všichni; PDF jde na webu i v mobilu, zbytek jen na webu.",
+        "en": "On October 29, Google added file preview and editing to Gemini chats: documents, PDFs, presentations, spreadsheets, code, Markdown, and TXT. Gemini could already create files. You can edit text in full screen, or highlight it and have Gemini rewrite it. Everyone has it; PDFs work on web and mobile, the rest on web only."
       },
       "why": {
-        "cs": "Stačí napsat, jaký soubor chceš. Hotový jde otevřít v Prezentacích či Tabulkách Google, stáhnout jako PPTX nebo PDF, nebo nahrát na Disk. Správce Workspace to nijak nevypne, ovládání pro něj neexistuje.",
-        "en": "Just ask for the file you want. The result can be opened in Google Slides or Sheets, downloaded as PPTX or PDF, or uploaded to Drive. Workspace admins have no control to turn it off."
+        "cs": "Stačí napsat, jaký soubor chceš. Prezentaci otevřeš v Prezentacích Google nebo stáhneš jako PPTX (PowerPoint) či PDF, soubory jde nahrát na Disk Google. Samostatný vypínač pro správce Workspace neexistuje, jde vypnout jen celou aplikaci Gemini.",
+        "en": "Just ask for the file you want. A presentation opens in Google Slides or downloads as PPTX or PDF; files go to Drive. Admins have no separate switch, only one for the whole Gemini app."
       },
       "sources": [
         {
@@ -80,16 +80,16 @@
       "verified": false,
       "eventDate": "2026-10-29",
       "title": {
-        "cs": "Výzkumníci našli chyby ve vestavěných prohlížečích pěti AI nástrojů",
-        "en": "Flaws found in embedded browsers of five AI tools"
+        "cs": "Bezpečnostní firma popsala chyby ve vestavěných prohlížečích AI nástrojů",
+        "en": "Security firm reports flaws in AI tools’ built-in browsers"
       },
       "summary": {
-        "cs": "Firma Forever Security 29. října popsala chyby ve vestavěných prohlížečích Cursoru, GitHub Copilotu, Codexu, VS Code a Claude Desktopu. Stránka podle ní mohla v Cursoru spustit kód, v Codexu, VS Code a Claude Desktopu číst soubory z disku a v Copilotu podvrhnout adresu. Chyby v Codexu a VS Code zůstávají podle The Register neopravené.",
-        "en": "On October 29, Forever Security reported flaws in embedded browsers of Cursor, GitHub Copilot, Codex, VS Code, and Claude Desktop. By its account, a page could run code in Cursor, read files in Codex, VS Code, and Claude Desktop, and spoof an address in Copilot. Codex and VS Code flaws remain unpatched, The Register says."
+        "cs": "Forever Security 29. října popsala chyby ve vestavěných prohlížečích Cursoru, GitHub Copilotu, Codexu, VS Code a Claude Desktopu. Podle ní mohla škodlivá stránka v Cursoru spustit kód, v Copilotu podvrhnout adresu a škodlivý místní soubor v Codexu, VS Code a Claude Desktopu číst soubory z disku. Codex a VS Code podle výzkumníků zůstávají neopravené.",
+        "en": "On October 29, Forever Security reported flaws in built-in browsers of Cursor, GitHub Copilot, Codex, VS Code, and Claude Desktop. It says a malicious page could run code in Cursor or spoof an address in Copilot; a local file could read disk files in the other three. Researchers say Codex and VS Code remain unpatched."
       },
       "why": {
-        "cs": "Zdrojem je jediné médium a zpráva samotných výzkumníků. Cursor chybu opravil 1. října a GitHub 13. října; OpenAI podle Registeru o chybě ví, Microsoft se nevyjádřil, výzkumníci tvrdí, že ji označil za neplatnou.",
-        "en": "Single outlet plus the researchers’ report. Cursor fixed its flaw on October 1, GitHub on October 13; OpenAI says it is aware; Microsoft did not comment, but the researchers say it called theirs invalid."
+        "cs": "Nezávisle nepotvrzeno (jedno médium). Vestavěný prohlížeč je prohlížeč uvnitř nástroje; útok vyžaduje otevření škodlivé stránky nebo souboru. Podle výzkumníků Cursor chybu tiše opravil 1. října, GitHub 13. října; u Claude Desktopu zdroje stav neuvádějí.",
+        "en": "Unconfirmed independently (one outlet). The attack needs a user to open a malicious page or file. Per the researchers, Cursor fixed its flaw October 1, GitHub October 13; Claude Desktop’s status is not given."
       },
       "sources": [
         {
@@ -113,12 +113,12 @@
         "en": "Claude for Legal adds ready-made artifacts for lawyers"
       },
       "summary": {
-        "cs": "Anthropic 28. října přidala do služby Claude for Legal galerii hotových artefaktů, tedy interaktivních nástrojů, které si tým přizpůsobí vlastními daty a sdílí s kolegy. Patří mezi ně kontrola citací, srovnání právní úpravy v různých zemích, přehled smluv v tabulce či mapa připravované regulace. U každého výstupu je odkaz na zdroj.",
-        "en": "On October 28, Anthropic added to Claude for Legal a gallery of ready-made artifacts: interactive tools a team can adapt with its own data and share with colleagues. They include a citation check, a comparison of laws across countries, a contract table, and a map of upcoming regulation. Every output links to its source."
+        "cs": "Anthropic 28. října přidala do služby Claude for Legal galerii hotových artefaktů, tedy interaktivních nástrojů, které si tým přizpůsobí vlastními daty a sdílí s kolegy. Patří mezi ně kontrola citací, srovnání právních úprav napříč státy či zeměmi, přehled smluv v tabulce či časová osa připravované regulace. Podle Anthropicu je u každého výstupu odkaz na zdroj.",
+        "en": "On October 28, Anthropic added to Claude for Legal a gallery of ready-made artifacts: interactive tools a team can adapt with its own data and share with colleagues. They include a citation check, a comparison of laws across jurisdictions, a contract table, and a regulation timeline. Anthropic says every output links to its source."
       },
       "why": {
-        "cs": "Právník dodá dokumenty a zdroje, Claude udělá první průchod a úsudek zůstává na člověku. Anthropic také financuje skupiny ve veřejném zájmu, které stavějí artefakty pro přístup k právu, a spouští program Legal Ambassadors.",
-        "en": "A lawyer brings documents and sources, Claude does the first pass, and the judgment stays with the person. Anthropic also funds public interest groups building access-to-justice artifacts and launches a Legal Ambassadors Program."
+        "cs": "Týká se hlavně právníků a firemních právních týmů. Právník dodá dokumenty a zdroje, Claude je projde jako první a úsudek zůstává na člověku.",
+        "en": "Mainly for lawyers and in-house legal teams. A lawyer brings documents and sources, Claude goes through them first, and the judgment stays with the person."
       },
       "sources": [
         {
@@ -138,12 +138,12 @@
         "en": "Google opens Gemini and Search to more third-party apps"
       },
       "summary": {
-        "cs": "Google 28. října spustil náhled platformy Connected Apps, kde vývojáři vytvoří aplikaci jednou a nabídnou ji v Gemini i ve Vyhledávání Google. Propojených aplikací je už přes 50, třeba Adobe, Experian nebo Peloton; v dalších týdnech přibude Calm. Přístup se otevírá postupně, existující aplikace dostane Vyhledávání později.",
-        "en": "On October 28, Google launched a preview of its Connected Apps Platform, where developers build an app once and offer it in both Gemini and Google Search. More than 50 connected apps already exist, such as Adobe, Experian, or Peloton; Calm follows in weeks. Access opens in phases; Search gets existing apps later."
+        "cs": "Google 28. října spustil náhled platformy Connected Apps, kde vývojáři vytvoří aplikaci jednou a nabídnou ji v Gemini i ve Vyhledávání Google. Propojených aplikací je už přes 50, třeba Adobe, Experian nebo Peloton; do Vyhledávání přijdou v příštích týdnech, stejně jako nová aplikace Calm. Přístup se otevírá postupně.",
+        "en": "On October 28, Google launched a preview of its Connected Apps Platform, where developers build an app once and offer it in both Gemini and Google Search. More than 50 connected apps already exist, such as Adobe, Experian, or Peloton; they reach Search in the coming weeks, along with Calm. Access opens in phases."
       },
       "why": {
-        "cs": "Uživatelům to dá víc služeb přímo v Gemini; vývojář potřebuje MCP server a registraci v nové konzoli Google Connected Console. Zdroje neuvádějí, ve kterých zemích bude platforma k dispozici.",
-        "en": "For users it means more services right inside Gemini; a developer needs an MCP server and registration in the new Google Connected Console. The sources do not say which countries get it."
+        "cs": "Google slibuje víc služeb přímo v Gemini a Vyhledávání; zatím je to náhled pro vývojáře, kteří se registrují v konzoli Google Connected Console. Zdroje neuvádějí, zda platforma poběží i v Česku.",
+        "en": "Google promises more services right inside Gemini and Search; for now it is a preview for developers, who register in the Google Connected Console. The sources do not say whether it will run in Czechia."
       },
       "sources": [
         {
@@ -167,12 +167,12 @@
         "en": "Microsoft’s OpenAI revenue hit $10 billion in one quarter"
       },
       "summary": {
-        "cs": "Microsoft ve výkazu za čtvrtletí do 30. září uvedl tržby z obchodních vztahů s OpenAI, včetně podílu na výnosech, ve výši 10 miliard dolarů, asi 11 % jeho tržeb. Poprvé uvedl čtvrtletní číslo; za celý fiskální rok do června šlo o 24,1 miliardy. Podíl Microsoftu v OpenAI klesl asi z 25 na 24 %.",
-        "en": "A filing for the quarter to September 30 shows Microsoft booked $10 billion in revenue from OpenAI deals, including revenue sharing, about 11% of its revenue. It was the first quarterly figure it gave; for the fiscal year to June it was $24.1 billion. Its stake in OpenAI fell from about 25% to 24%."
+        "cs": "Microsoft ve výkazu za čtvrtletí do 30. září uvedl tržby z obchodů s OpenAI, včetně sdílení výnosů, 10 miliard dolarů, asi 11 % všech tržeb. Poprvé zveřejnil čtvrtletní číslo, píše The Next Web; za fiskální rok do června to bylo 24,1 miliardy USD. Jeho podíl ve vlastnictví OpenAI klesl asi z 25 na 24 %.",
+        "en": "A filing for the quarter to September 30 shows Microsoft booked $10 billion in revenue from OpenAI deals, including revenue sharing, about 11% of its revenue. The Next Web says it is the first quarterly figure; the fiscal year to June brought $24.1 billion. Its stake in OpenAI fell from about 25% to 24%."
       },
       "why": {
-        "cs": "Výkaz nerozlišuje podíl na výnosech od nákupů výpočetního výkonu v Azure. Pohledávky Microsoftu za OpenAI vzrostly ze 6 na 7,2 miliardy dolarů; OpenAI má podíl na výnosech platit do roku 2030, s limitem.",
-        "en": "The filing does not separate revenue-sharing payments from OpenAI’s purchases of Azure computing. Microsoft’s receivables from OpenAI rose from $6 billion to $7.2 billion; OpenAI is to share revenue through 2030, subject to a cap."
+        "cs": "TechCrunch v tom vidí velké finanční vazby, které trvají, i když si firmy konkurují. Výkaz nerozlišuje sdílení výnosů od nákupů cloudu Azure; OpenAI má s Microsoftem výnosy sdílet do roku 2030, s limitem.",
+        "en": "TechCrunch sees large financial ties persisting despite competition. The filing does not separate revenue sharing from Azure cloud purchases; OpenAI is to share revenue through 2030, subject to a cap."
       },
       "sources": [
         {
@@ -192,16 +192,16 @@
       "verified": false,
       "eventDate": "2026-10-29",
       "title": {
-        "cs": "Zaměstnanci českého Mews založili odbory po propouštění kvůli AI",
-        "en": "Czech unicorn Mews staff form union after AI layoffs"
+        "cs": "Zaměstnanci českého Mews založili odbory po propouštění zdůvodněném AI",
+        "en": "Czech Mews staff form union after AI-justified layoffs"
       },
       "summary": {
-        "cs": "Podle Lupy z 29. října založili zaměstnanci českého softwarového jednorožce Mews odbory krátce poté, co firma oznámila propouštění asi 15 % z 1 350 lidí, oficiálně kvůli změnám způsobeným umělou inteligencí. Odbory chtějí vyjednat kolektivní smlouvu a být informovány o propouštění; zakladatel Richard Valtr to vítá.",
-        "en": "According to Lupa on October 29, employees of the Czech software unicorn Mews formed a union shortly after the company announced layoffs of about 15% of its 1,350 people, officially because of changes brought by artificial intelligence. The union wants to negotiate a collective agreement and be informed about layoffs; founder Richard Valtr welcomes it."
+        "cs": "Podle Lupy z 29. října založili zaměstnanci české softwarové firmy Mews odbory v Česku krátce poté, co firma oznámila propouštění asi 15 % z 1 350 lidí, oficiálně kvůli změnám způsobeným umělou inteligencí. Odbory chtějí vyjednat kolektivní smlouvu a být informovány o propouštění; zakladatel Richard Valtr to vítá.",
+        "en": "According to Lupa on October 29, employees of the Czech software company Mews formed a union in Czechia shortly after it announced layoffs of about 15% of its 1,350 people, officially because of changes brought by AI. The union wants a collective agreement and to be informed about layoffs; founder Richard Valtr welcomes it."
       },
       "why": {
-        "cs": "Zdrojem je jediné médium, Lupa. Odbory vznikly v rámci ICT Union, která je už má v devíti technologických firmách, a podle nich nezávisí na zaměstnavateli.",
-        "en": "The only source is one outlet, Lupa. The union was founded within ICT Union, which already has unions in nine tech companies, and says it operates independently of the employer."
+        "cs": "Odbory u technologických startupů bývají podle Lupy vzácné; Lupa je jediný zdroj. Vznikly v rámci ICT Union (už v devíti firmách) a podle svých slov jsou nezávislé na zaměstnavateli.",
+        "en": "Unions at tech startups are rare, Lupa says; Lupa is the only source. The union was founded within ICT Union (already in nine firms) and says it is independent of the employer."
       },
       "sources": [
         {
@@ -221,12 +221,12 @@
         "en": "ChatGPT Pro and Business now include free API credits"
       },
       "summary": {
-        "cs": "OpenAI 28. října uvedla, že předplatitelé ChatGPT Pro a Business si mohou nárokovat až 500 USD měsíčně v bezplatných kreditech na API. Stačí propojit předplatné s organizací API, kterou vlastníš; platební metoda pro API není potřeba. Nevyužité kredity propadnou na konci fakturačního období, Codex přes klíče API se nekryje.",
-        "en": "On October 28, OpenAI said ChatGPT Pro and Business subscribers can claim up to $500 a month in free API credits by linking their subscription to an API organization they own; no API payment method is needed. Unused credits expire at cycle end, and Codex via API keys is not covered."
+        "cs": "OpenAI 28. října uvedla, že předplatitelé ChatGPT Pro a Business si mohou nárokovat bezplatné kredity na API pro vlastní aplikace a agenty: u Pro 100 až 500 USD měsíčně podle tarifu, u Business 20 nebo 100 USD za sedadlo, nejvýš 500 USD na prostor. Nevyužité propadnou na konci období; Codex přes klíče API se nekryje.",
+        "en": "On October 28, OpenAI said ChatGPT Pro and Business subscribers can claim free API credits for apps and agents: $100 to $500 a month on Pro depending on tier, $20 or $100 per seat on Business, capped at $500 per workspace. Unused credits expire at cycle end; Codex via API keys is not covered."
       },
       "why": {
-        "cs": "V ChatGPT otevři Nastavení a Fakturace (u Business fakturaci prostoru) nebo se přihlas do API Platform stejným e-mailem. Musíš vlastnit předplatné i organizaci API; předplatné musí být placené aspoň sedm dní.",
-        "en": "In ChatGPT open Settings and Billing (Business: workspace billing) or sign in to API Platform with the same email. You must own the subscription, at least seven days old, and the API organization."
+        "cs": "Propoj předplatné s organizací API, kterou vlastníš: v ChatGPT otevři Nastavení > Fakturace (Business: fakturace prostoru) nebo v API Platform, vždy stejným e-mailem. Předplatné musí být placené aspoň sedm dní; Plus a Go nárok nemají.",
+        "en": "Link it to an API organization you own: via Settings > Billing in ChatGPT (Business: workspace billing) or API Platform, with the same email. At least seven days old; Plus and Go do not qualify."
       },
       "sources": [
         {
@@ -246,16 +246,16 @@
       "verified": true,
       "eventDate": "2026-10-30",
       "title": {
-        "cs": "Claude Code umí zakázat zápis mimo pracovní složky",
-        "en": "Claude Code can refuse writes outside its working folders"
+        "cs": "Claude Code umí odmítnout úpravy souborů mimo pracovní složky",
+        "en": "Claude Code can refuse file edits outside working folders"
       },
       "summary": {
         "cs": "Claude Code od verze 2.1.314 (30. října) má volbu permissions.blockWritesOutsideWorkingDirectories. Podle poznámek k vydání nástroje Write, Edit a NotebookEdit odmítnou cesty mimo pracovní složky v každém režimu oprávnění. Nainstalovanou verzi zjistíš příkazem claude --version.",
         "en": "From version 2.1.314 (October 30), Claude Code has an option permissions.blockWritesOutsideWorkingDirectories. According to the release notes, the Write, Edit, and NotebookEdit tools refuse paths outside the working folders in every permission mode. Check your installed version with claude --version."
       },
       "why": {
-        "cs": "Volba patří do nastavení v bloku permissions. Poznámky k vydání ani dokumentace zatím neuvádějí hodnotu ani výchozí stav, proto si chování ověř na zkušebním projektu.",
-        "en": "The option belongs in the permissions block of the settings. Neither the release notes nor the documentation yet state a value or the default, so test the behavior on a throwaway project."
+        "cs": "Pro vývojáře. Poznámky k vydání ani dokumentace neuvádějí hodnotu, výchozí stav ani to, zda se volba týká příkazů v shellu (Bash); chování si ověř na zkušebním projektu.",
+        "en": "For developers. Neither the release notes nor the documentation state a value, the default, or whether the option covers shell (Bash) commands; test the behavior on a throwaway project."
       },
       "sources": [
         {
@@ -271,21 +271,25 @@
       "verified": true,
       "eventDate": "2026-10-28",
       "title": {
-        "cs": "Aplikace Copilot umí ovládat desktopové aplikace",
-        "en": "The Copilot app can operate desktop apps for you"
+        "cs": "Aplikace GitHub Copilot umí v náhledu ovládat desktopové aplikace",
+        "en": "GitHub Copilot app can operate desktop apps in preview"
       },
       "summary": {
-        "cs": "GitHub 28. října uvedl ve veřejném náhledu ovládání počítače v aplikaci Copilot na macOS a Windows: Copilot čte obsah aplikací, klepe na ovládací prvky, zadává a upravuje text a přepíná mezi aplikacemi, i když nemají API, příkazový řádek ani MCP. Před ovládáním každé aplikace se zeptá na souhlas.",
-        "en": "On October 28, GitHub put computer use in the Copilot app into public preview on macOS and Windows: Copilot reads app content, clicks controls, enters and edits text, and moves across apps, even ones without an API, command line, or MCP. It asks for your approval before controlling each app."
+        "cs": "GitHub 28. října uvedl jako zkušební verzi (veřejný náhled) ovládání počítače v aplikaci GitHub Copilot na macOS a Windows: Copilot čte obsah aplikací, klikne na ovládací prvky, zadává a upravuje text a přepíná mezi aplikacemi, i když nemají API, příkazový řádek ani MCP. Souhlas se řídí nastavením Tool Permissions.",
+        "en": "On October 28, GitHub put computer use in the GitHub Copilot app into public preview on macOS and Windows: Copilot reads app content, clicks controls, enters and edits text, and moves across apps, even ones without an API, command line, or MCP. Approval follows the Tool Permissions setting."
       },
       "why": {
-        "cs": "V Nastavení otevři Computer Use a zapni Enable Computer Use; na macOS povol Zpřístupnění a Nahrávání obrazovky. Organizace může funkci vypnout ve spravovaných nastaveních.",
-        "en": "Open Settings > Computer Use and turn on Enable Computer Use; on macOS grant Accessibility and Screen Recording. An organization can disable it through managed settings."
+        "cs": "V nastavení aplikace otevři Computer Use a zapni Enable Computer Use; na macOS povol Zpřístupnění a Nahrávání obrazovky. Volba Always allow uloží souhlas i pro další relace. Funkci může vypnout správce organizace.",
+        "en": "In app settings open Computer Use and turn on Enable Computer Use; on macOS grant Accessibility and Screen Recording. Always allow saves your approval for later sessions. An organization admin can turn the feature off."
       },
       "sources": [
         {
           "name": "GitHub",
           "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://docs.github.com/en/copilot/how-tos/github-copilot-app/computer-use"
         }
       ]
     },
@@ -296,21 +300,25 @@
       "verified": true,
       "eventDate": "2026-08-25",
       "title": {
-        "cs": "Claude Desktop jde přepnout na modely z Ollamy",
-        "en": "Claude Desktop can run on Ollama models"
+        "cs": "Claude Desktop na macOS umí používat modely z Ollamy",
+        "en": "Claude Desktop on macOS can run on Ollama models"
       },
       "summary": {
-        "cs": "Ollama od 25. srpna umí nastavit Claude Desktop tak, aby jako bránu pro modely třetích stran používal Ollamu. V Ollamě stačí zapnout Claude a nastavení proběhne samo; pak si vybereš libovolný model z Ollamy, lokální i z její cloudové služby.",
-        "en": "Since August 25, Ollama can set up Claude Desktop to use Ollama as a gateway for third-party models. In Ollama you just turn Claude on and the setup happens by itself; then you pick any model from Ollama, local or from its cloud service."
+        "cs": "Ollama, program na spouštění AI modelů na vlastním počítači, od 25. srpna umí nastavit Claude Desktop tak, aby mohl používat modely z Ollamy: lokální na tvém počítači nebo cloudové pro větší úlohy. Zatím jen na macOS, verze pro Windows má přijít; cloudové modely chtějí přihlášení a některé placený tarif.",
+        "en": "Ollama, a program for running AI models locally, has let you set up Claude Desktop to use Ollama models since August 25: local ones or cloud ones for bigger tasks. For now only on macOS, Windows to come; cloud models need a sign-in, some a paid plan."
       },
       "why": {
-        "cs": "V aplikaci Ollama zapni Claude a vyber model; vypnutím se vrátí předchozí nastavení a mezi Anthropicem a Ollamou jde přepínat. Telemetrie je ve výchozím stavu vypnutá; plán Claude Desktop zdroj neuvádí.",
-        "en": "In the Ollama app, turn Claude on and pick a model; turning it off restores your old setup; you can switch between Anthropic and Ollama. Telemetry is off by default. The source names no plan."
+        "cs": "V aplikaci Ollama otevři Apps a připoj Claude, pak vyber model; odpojením se vrátí původní nastavení. Podle Ollamy je telemetrie ve výchozím stavu vypnutá. Zdroj neuvádí, jaké předplatné Claude je potřeba.",
+        "en": "In the Ollama app open Apps and connect Claude, then pick a model; disconnecting restores your old setup. Ollama says telemetry is off by default. The source does not say which Claude plan you need."
       },
       "sources": [
         {
           "name": "Ollama",
           "url": "https://ollama.com/blog/claude-desktop"
+        },
+        {
+          "name": "Ollama",
+          "url": "https://docs.ollama.com/integrations/claude-desktop"
         }
       ]
     }
@@ -319,12 +327,12 @@
     {
       "date": "2026-11-03",
       "title": {
-        "cs": "Warrenová chce podle WSJ odpovědi od Anthropicu do 3. listopadu",
-        "en": "Warren wants Anthropic’s answers by November 3, per the WSJ"
+        "cs": "Podle Wall Street Journal chce Warrenová odpovědi od Anthropicu do 3. listopadu",
+        "en": "Warren wants Anthropic’s answers by November 3, per the Wall Street Journal"
       },
       "note": {
-        "cs": "Senátorka Elizabeth Warrenová žádá odpovědi na čtyři strany otázek k přihlášce na burzu (IPO), třeba o rizicích AI; dopis z 27. října popisuje The Next Web podle Wall Street Journal.",
-        "en": "Senator Elizabeth Warren wants answers to four pages of questions on the IPO filing, including AI risks; The Next Web describes the October 27 letter, citing the Wall Street Journal."
+        "cs": "Americká senátorka Warrenová žádá odpovědi na čtyři strany otázek k přihlášce Anthropicu na burzu (IPO), včetně rizik AI; dopis z 27. října popisuje The Next Web podle Wall Street Journal.",
+        "en": "US Senator Warren wants answers to four pages of questions on Anthropic’s IPO filing, including AI risks; The Next Web describes the October 27 letter, citing the Wall Street Journal."
       },
       "sources": [
         {
@@ -341,7 +349,7 @@
         "en": "GitHub retires three models from GitHub Copilot"
       },
       "note": {
-        "cs": "16. listopadu GitHub z Copilota vyřadí Claude Opus 4.8, Opus 5 a GPT-5.6 Terra (náhrady: Opus 5.5, GPT-6.1 Sol či GPT-6 Luna). Jednotlivcům s ročním předplatným Opus 4.8 zůstane.",
+        "cs": "16. listopadu GitHub z Copilotu vyřadí Claude Opus 4.8, Opus 5 a GPT-5.6 Terra (náhrady: Opus 5.5, GPT-6.1 Sol či GPT-6 Luna). Jednotlivcům s ročním předplatným Opus 4.8 zůstane.",
         "en": "On November 16, GitHub Copilot drops Claude Opus 4.8, Opus 5, and GPT-5.6 Terra (replacements: Opus 5.5, GPT-6.1 Sol or GPT-6 Luna). Individual annual subscribers keep Opus 4.8."
       },
       "sources": [
@@ -359,8 +367,8 @@
         "en": "California’s Government Operations Agency due to deliver AI recommendations"
       },
       "note": {
-        "cs": "Agentura má do 16. listopadu poslat guvernérovi doporučení k proveditelnosti a účinnosti změn zákonů o bezpečnosti AI, například auditorů v laboratořích či nouzového vypínače nejschopnějších modelů; zveřejnění příkaz neurčuje.",
-        "en": "By November 16 the agency must send the governor recommendations on changing AI safety laws, e.g. lab auditors or a kill switch for leading models; the order sets no publication."
+        "cs": "Agentura má do 16. listopadu poslat guvernérovi doporučení, zda by změny zákonů o bezpečnosti AI fungovaly, třeba nezávislí auditoři přímo u vývojářů AI nebo nouzový vypínač nejschopnějších modelů.",
+        "en": "By November 16 the agency must send the governor recommendations on AI safety-law changes, e.g. independent auditors at AI developers or a kill switch for top models."
       },
       "sources": [
         {
@@ -399,8 +407,8 @@
         "en": "Meta delays new business terms to November 20, maybe longer"
       },
       "note": {
-        "cs": "Meta v nových obchodních podmínkách vypustila slovo „trénovat“, právníci ale pochybují; platit mají od 20. listopadu a Meta podle The Verge (28. října) počítá s dalším odkladem, pokud konzultace potrvá.",
-        "en": "Meta dropped “train” from its business terms, but lawyers doubt it; effective November 20, though The Verge (October 28) says Meta expects another delay if consultations run on."
+        "cs": "Meta z obchodních podmínek vypustila slovo „trénovat“ (AI na obsahu zpravodajských webů na Facebooku a Instagramu), právníci ale pochybují; platit mají od 20. listopadu, odklad Meta čeká, pokud potrvá konzultace.",
+        "en": "Meta dropped “train” from its business terms (AI training on news sites’ content), but lawyers doubt it; effective November 20, though Meta expects another delay if consultations run on."
       },
       "sources": [
         {
