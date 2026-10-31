@@ -226,11 +226,21 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   co to znamená v širším obrazu. Konkrétně, bez hype, **neopakuje shrnutí**. Smí oslovit
   čtenáře („Když používáš Copilot…"). U tipu je `why` návod: kde to zapnout, v jakém
   plánu, na jaké platformě.
-- **Dvě chyby, které čtenáři v kroku 5c opakovaně nacházejí:** (1) `why` odkazuje na něco,
+- **Chyby, které čtenáři v kroku 5c opakovaně nacházejí:** (1) `why` odkazuje na něco,
   co shrnutí neříká („údaje o výkonu", „výsledky v testech") — dej to do shrnutí, nebo to
   z `why` vypusť; (2) atribuce „podle X" visí na konci věty se dvěma tvrzeními z různých
   zdrojů — dej ji k tvrzení, ke kterému patří. U firemního tvrzení o více výsledcích
-  ověř, že „ověří to nezávislí experti" platí pro každý z nich, ne jen pro jeden.
+  ověř, že „ověří to nezávislí experti" platí pro každý z nich, ne jen pro jeden;
+  (3) **položky si odporují** — tip radí „stačí mít verzi X", zatímco jiná dnešní položka
+  o téže verzi varuje; před zápisem projdi položky proti sobě (verze, nástroje, nastavení)
+  a rozpor řeš ve `why`; (4) **CS a EN říkají opak** u peněz, limitů a negací („účtuje se
+  zvlášť od chatu, v kreditech AI" × „billed separately from AI credits") — u těchto vět
+  porovnej obě verze se zdrojem slovo od slova; (5) **titulek jmenuje jiný produkt, než
+  kterému změna patří** (LM Studio × Bionic, viz Přímé zdroje) a **incident tvrdí víc než
+  oznámení** („má zadní vrátka" × „pokusil se je nainstalovat", číslo obětí, které
+  v oznámení firmy není, patří médiu, které ho uvádí); (6) tvrzení, které stojí jen na
+  zakázaném zdroji (oficiální příspěvek na x.com), do `sources` nepatří, ale text to přizná
+  („podle oznámení na X") a vynechá, co nepotvrdí žádný citovaný zdroj.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.
@@ -483,6 +493,9 @@ a `used` přesné a nikdy záznamy nepřepisuj zpětně.
   `cursor.com/changelog` (datum je v HTML značce `<time>`); OpenAI API
   `learn.chatgpt.com/api/docs/changelog` (odznak s datem stojí před záznamem);
   LM Studio `lmstudio.ai/changelog` (T1; datum stojí **za** blokem verze, ne před ním).
+  **Jsou tam dvě záložky**: výchozí je **Bionic** (samostatný agent LM Studia, verze 1.1.x,
+  trvalý odkaz `lmstudio.ai/changelog/bionic-v1.1.10`), vlastní aplikace LM Studio je na
+  `lmstudio.ai/changelog/lmstudio` (0.4.x) — tip pojmenuj podle toho, komu změna patří.
   Čistý text změn Claude Code je `raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md`
   (HTML stránka je plná JSONu). Záznam bez data v textu stránky = hledej datum v HTML,
   než ho vyřadíš jako „bez data". **Nová volba v nastavení, kterou dokumentace ještě
