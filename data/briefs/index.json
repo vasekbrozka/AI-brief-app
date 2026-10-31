@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-30T03:51:52Z",
+  "updated": "2026-10-31T03:22:55Z",
   "briefs": [
+    {
+      "date": "2026-10-31",
+      "headline": {
+        "cs": "Tržiště Cursoru nabízelo upravený Claude Code se zadními vrátky",
+        "en": "Cursor’s marketplace served a backdoored Claude Code extension"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-10-30",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Cursor adds canvases for cloud agents"
       },
       "itemCount": 1
-    },
-    {
-      "date": "2026-10-17",
-      "headline": {
-        "cs": "Meta vydala svůj první špičkový model Muse Wonder",
-        "en": "Meta launches its first frontier model, Muse Wonder"
-      },
-      "itemCount": 4
     }
   ]
 }

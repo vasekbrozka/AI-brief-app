@@ -1,54 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-gemini-macos-voice",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": false,
-      "title": {
-        "cs": "Gemini na Macu píše podle toho, co mu řekneš",
-        "en": "Gemini on a Mac writes from what you say"
-      },
-      "summary": {
-        "cs": "Gemini na Macu teď nadiktuješ text do jakéhokoli okna — podržíš klávesu Fn, řekneš svoje a Gemini text napíše, přepíše označený úsek nebo rovnou vygeneruje obrázek přímo tam, kde máš kurzor. Google to přidal v červencové vlně novinek.",
-        "en": "On a Mac you can now dictate into any window with Gemini — hold the Fn key, say what you need, and it writes the text, rewrites your selection, or generates a visual right where your cursor is. Google added it in its July drop."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/"
-        }
-      ],
-      "added": "2026-08-01",
-      "used": "2026-08-01"
-    },
-    {
-      "slug": "tip-claude-connectors-directory",
-      "category": "tools",
-      "theme": "claude",
-      "verified": false,
-      "title": {
-        "cs": "Claude nabízí adresář s víc než 950 konektory",
-        "en": "Claude offers a directory of 950+ connectors"
-      },
-      "summary": {
-        "cs": "V Claude si nástroje připojíš z adresáře konektorů — je jich přes 950, od pošty po pracovní aplikace. Konektory nově umí vykreslit interaktivní okno přímo v konverzaci, takže vidíš, co dělají, bez přepínání panelů. Anthropic to rozšířil koncem července.",
-        "en": "In Claude you can hook up tools from the connectors directory — over 950 of them, from email to workplace apps. Connectors can now render an interactive window right in the conversation, so you see what they are doing without switching tabs. Anthropic expanded this in late July."
-      },
-      "sources": [
-        {
-          "name": "Claude Blog",
-          "url": "https://claude.com/blog/connectors-directory"
-        },
-        {
-          "name": "Claude Blog",
-          "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude"
-        }
-      ],
-      "added": "2026-08-01",
-      "used": "2026-08-01"
-    },
-    {
       "slug": "tip-gemini-avatar-images",
       "category": "tools",
       "theme": "gemini",
@@ -4408,8 +4360,8 @@
       "verified": true,
       "eventDate": "2026-10-28",
       "title": {
-        "cs": "Copilot teď v chatu vytvoří a upraví obrázky",
-        "en": "Copilot can now generate and edit images in chat"
+        "cs": "GitHub Copilot teď v chatu vytvoří a upraví obrázky",
+        "en": "GitHub Copilot now generates and edits images in chat"
       },
       "summary": {
         "cs": "GitHub 28. října uvedl ve veřejném náhledu tvorbu a úpravu obrázků v Copilotu: popíšeš obrázek v chatu a vybraný model zavolá nástroj s modelem GPT Image 2.5 Flare, výsledek ukáže a uloží do projektu. Funguje ve VS Code, aplikaci Copilot i CLI.",
@@ -4426,7 +4378,7 @@
         }
       ],
       "added": "2026-10-29",
-      "used": null
+      "used": "2026-10-31"
     },
     {
       "slug": "tip-gemini-immersive-explorations",
@@ -4497,8 +4449,8 @@
         "en": "Codex Cloud reuses a prepared environment for new tasks"
       },
       "summary": {
-        "cs": "OpenAI v týdnu 28. září až 2. října uvedl, že v Codex Cloud jde prostředí připravit jednou a znovu ho použít: Codex prozkoumá repozitáře, nainstaluje závislosti a vyzkouší nastavení s tebou; po zveřejnění dostane každý nový úkol vlastní izolovaný pracovní prostor z hotového prostředí. Funguje na webu, mobilu i v desktopové aplikaci.",
-        "en": "OpenAI said in the week of September 28 to October 2 that Codex Cloud lets you prepare an environment once and reuse it: Codex inspects the repositories, installs dependencies, and tests the setup with you; once published, each new task gets an isolated workspace from it. It works on web, mobile, and desktop."
+        "cs": "OpenAI v týdnu 28. září až 2. října uvedla, že v Codex Cloud, cloudové verzi programovacího agenta Codex, jde prostředí připravit jednou a znovu ho použít: Codex prozkoumá repozitáře, nainstaluje závislosti a vyzkouší nastavení s tebou; po zveřejnění dostane každý nový úkol vlastní izolovaný pracovní prostor z hotového prostředí.",
+        "en": "OpenAI said in the week of September 28 to October 2 that Codex Cloud, the cloud version of its Codex coding agent, lets you prepare an environment once and reuse it: Codex inspects the repositories, installs dependencies, and tests the setup with you; once published, each new task gets an isolated workspace from it."
       },
       "why": {
         "cs": "Na webu nebo v desktopové aplikaci zvol Work in > Cloud a prostředí vytvoř; po zveřejnění ho vybíráš u nových úkolů. Plán zdroj neuvádí; správci firem mohou přístup ke sdíleným prostředím kontrolovat.",
@@ -4515,7 +4467,7 @@
         }
       ],
       "added": "2026-10-29",
-      "used": null
+      "used": "2026-10-31"
     },
     {
       "slug": "tip-claude-code-shell-timeout-output",
@@ -4542,7 +4494,7 @@
         }
       ],
       "added": "2026-10-29",
-      "used": null
+      "used": "2026-10-31"
     },
     {
       "slug": "tip-chatgpt-api-credits-subscribers",
@@ -4708,7 +4660,7 @@
         }
       ],
       "added": "2026-10-30",
-      "used": null
+      "used": "2026-10-31"
     },
     {
       "slug": "tip-granola-dictation-mac",
@@ -4735,6 +4687,87 @@
         }
       ],
       "added": "2026-10-30",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-slides-edit-whole-deck",
+      "category": "tools",
+      "theme": "gemini",
+      "added": "2026-10-31",
+      "verified": true,
+      "eventDate": "2026-10-29",
+      "title": {
+        "cs": "Gemini v Prezentacích Google upraví celou prezentaci najednou",
+        "en": "Gemini in Slides edits a whole deck at once"
+      },
+      "summary": {
+        "cs": "Google od 29. října zavádí v Prezentacích Google úpravy více snímků nebo celé prezentace jedním příkazem v bočním panelu Gemini: obnoví vizuální styl, změní obsah podle souborů z Disku, spojí snímky či sjednotí písmo. Změny se použijí na běžné upravitelné snímky a jdou vrátit zpět. Zatím jen v angličtině.",
+        "en": "Since October 29, Google has been rolling out editing of several slides or a whole presentation with one prompt in the Gemini side panel in Slides: refresh the visual style, change content based on Drive files, merge slides, or unify fonts. Changes land on normal editable slides and can be undone. English only for now."
+      },
+      "why": {
+        "cs": "V Prezentacích Google otevři panel Gemini a zadej příkaz, třeba shrnutí snímků 5–7 do jednoho. Samostatný vypínač pro správce není; zákazníci Workspace mají aspoň do 1. prosince vyšší promo limity, pak platí limity na uživatele.",
+        "en": "In Slides open the Gemini panel and prompt, e.g. merge slides 5–7 into one. No separate admin switch; Workspace customers get higher promo limits until at least December 1, then per-user limits apply."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/edit-entire-presentations-with-gemini-in-Google-Slides.html"
+        }
+      ],
+      "used": "2026-10-31"
+    },
+    {
+      "slug": "tip-claude-code-subagent-effort-env",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-10-31",
+      "title": {
+        "cs": "Subagenti Claude Code mohou mít vlastní úroveň úsilí",
+        "en": "Claude Code subagents can run at their own effort level"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.316 (31. října) umí proměnnou prostředí CLAUDE_CODE_SUBAGENT_EFFORT: nastaví úroveň úsilí, na které běží subagenti, když ji nic jiného neurčuje; dosud ji dědili z hlavní relace. Nainstalovanou verzi zjistíš příkazem claude --version.",
+        "en": "From version 2.1.316 (October 31), Claude Code has the environment variable CLAUDE_CODE_SUBAGENT_EFFORT: it sets the effort level subagents run at when nothing else names one, instead of inheriting the session’s. Check your installed version with claude --version."
+      },
+      "why": {
+        "cs": "Pro vývojáře. Proměnnou nastavíš v prostředí před spuštěním Claude Code; poznámky k vydání ani dokumentace zatím neuvádějí povolené hodnoty, proto si je ověř na zkušebním projektu.",
+        "en": "For developers. Set the variable in the environment before starting Claude Code; neither the release notes nor the documentation list the allowed values yet, so test them on a throwaway project."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-10-31",
+      "used": null
+    },
+    {
+      "slug": "tip-claude-code-disable-ultrathink-env",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-10-31",
+      "title": {
+        "cs": "Claude Code umí vypnout klíčové slovo ultrathink",
+        "en": "Claude Code can switch off the ultrathink keyword"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.316 (31. října) má proměnnou prostředí CLAUDE_CODE_DISABLE_ULTRATHINK, která vypne klíčové slovo ultrathink; to jinak od verze 2.1.311 pustí zadání na vyšší úrovni úsilí. Nainstalovanou verzi zjistíš příkazem claude --version.",
+        "en": "From version 2.1.316 (October 31), Claude Code has the environment variable CLAUDE_CODE_DISABLE_ULTRATHINK, which turns off the ultrathink keyword; otherwise, since version 2.1.311, it runs a prompt at a higher effort level. Check your installed version with claude --version."
+      },
+      "why": {
+        "cs": "Pro vývojáře. Proměnnou nastavíš v prostředí před spuštěním Claude Code; hodnotu ani výchozí stav poznámky k vydání neuvádějí, proto si chování ověř na zkušebním projektu.",
+        "en": "For developers. Set the variable in the environment before starting Claude Code; the release notes give neither a value nor the default, so test the behavior on a throwaway project."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-10-31",
       "used": null
     }
   ]

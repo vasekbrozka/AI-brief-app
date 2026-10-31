@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "terms": [
     {
       "id": "quantization",
@@ -966,6 +966,54 @@
       "short": {
         "cs": "Největší veřejná platforma pro sdílení AI modelů a datových sad. Vývojáři si tam stahují otevřené modely a zkoušejí je přímo v prohlížeči.",
         "en": "The largest public platform for sharing AI models and datasets. Developers download open models there and try them out right in the browser."
+      }
+    },
+    {
+      "id": "backdoor",
+      "term": {
+        "cs": "Zadní vrátka (backdoor)",
+        "en": "Backdoor"
+      },
+      "aliases": [
+        "zadní vrátka",
+        "zadních vrátek",
+        "zadními vrátky",
+        "zadním vrátkům",
+        "backdoor",
+        "backdoored",
+        "backdoors"
+      ],
+      "short": {
+        "cs": "Skrytý přístup do počítače nebo programu, který útočníkovi umožní vstoupit i bez hesla a zůstat tam nepozorovaně. Obvykle ho do programu vloží někdo jiný než jeho autor.",
+        "en": "A hidden way into a computer or program that lets an attacker get in without a password and stay unnoticed. It is usually planted by someone other than the program’s author."
+      }
+    },
+    {
+      "id": "ssh",
+      "term": {
+        "cs": "SSH (vzdálený přístup)",
+        "en": "SSH (remote access)"
+      },
+      "aliases": [
+        "SSH"
+      ],
+      "short": {
+        "cs": "Zabezpečený způsob, jak se z jednoho počítače přihlásit na jiný a ovládat ho příkazy. Přihlašuje se obvykle klíčem; seznam povolených klíčů je v souboru authorized_keys.",
+        "en": "A secure way to log in to another computer and control it with commands. Login usually uses a key; the list of allowed keys is kept in the file authorized_keys."
+      }
+    },
+    {
+      "id": "ietf",
+      "term": {
+        "cs": "IETF (tvůrce internetových standardů)",
+        "en": "IETF (internet standards body)"
+      },
+      "aliases": [
+        "IETF"
+      ],
+      "short": {
+        "cs": "Otevřená organizace, v níž odborníci a firmy domlouvají technické standardy internetu, třeba jak si počítače vyměňují data. Její dokumenty vznikají diskusí a konsenzem.",
+        "en": "An open organization where experts and companies agree on technical internet standards, such as how computers exchange data. Its documents are produced through discussion and consensus."
       }
     }
   ]
