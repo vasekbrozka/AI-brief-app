@@ -4364,12 +4364,12 @@
         "en": "GitHub Copilot now generates and edits images in chat"
       },
       "summary": {
-        "cs": "GitHub 28. října uvedl ve veřejném náhledu tvorbu a úpravu obrázků v Copilotu: popíšeš obrázek v chatu a vybraný model zavolá nástroj s modelem GPT Image 2.5 Flare, výsledek ukáže a uloží do projektu. Funguje ve VS Code, aplikaci Copilot i CLI.",
-        "en": "On October 28, GitHub put image generation and editing in Copilot into public preview: you describe an image in chat, your selected model calls a tool powered by GPT Image 2.5 Flare, and the result is previewed and saved to your project. It works in VS Code, the Copilot app, and the CLI."
+        "cs": "GitHub 28. října uvedl ve veřejném náhledu tvorbu a úpravu obrázků v Copilotu: popíšeš obrázek v chatu, Copilot ho vytvoří modelem GPT Image 2.5 Flare, ukáže a uloží do projektu. Funguje ve VS Code, aplikaci Copilot i CLI.",
+        "en": "On October 28, GitHub put image generation and editing in Copilot into public preview: you describe an image in chat, Copilot creates it with GPT Image 2.5 Flare, previews it, and saves it to your project. It works in VS Code, the Copilot app, and the CLI."
       },
       "why": {
-        "cs": "Je pro Copilot Pro, Pro+, Business a Enterprise a účtuje se zvlášť z kreditů AI. Viditelný štítek „Made with AI“ je volitelný; správci mohou generování vypnout.",
-        "en": "It is for Copilot Pro, Pro+, Business, and Enterprise and is billed separately from AI credits. A visible “Made with AI” watermark is opt-in; admins can turn generation off."
+        "cs": "Pro Copilot Pro, Pro+, Business a Enterprise; účtuje se zvlášť od chatového modelu podle obrázkových tokenů, které se počítají do kreditů AI tvého plánu. Vodoznak „Made with AI“ je volitelný, správci generování vypnou.",
+        "en": "For Copilot Pro, Pro+, Business, and Enterprise; billed separately from the chat model, in image tokens that count toward your plan’s AI credits. The “Made with AI” watermark is opt-in; admins can turn generation off."
       },
       "sources": [
         {
@@ -4445,16 +4445,16 @@
       "verified": true,
       "eventDate": "2026-09-28",
       "title": {
-        "cs": "Codex Cloud si pamatuje připravené prostředí pro další úkoly",
+        "cs": "Codex Cloud znovu použije jednou připravené prostředí",
         "en": "Codex Cloud reuses a prepared environment for new tasks"
       },
       "summary": {
-        "cs": "OpenAI v týdnu 28. září až 2. října uvedla, že v Codex Cloud, cloudové verzi programovacího agenta Codex, jde prostředí připravit jednou a znovu ho použít: Codex prozkoumá repozitáře, nainstaluje závislosti a vyzkouší nastavení s tebou; po zveřejnění dostane každý nový úkol vlastní izolovaný pracovní prostor z hotového prostředí.",
-        "en": "OpenAI said in the week of September 28 to October 2 that Codex Cloud, the cloud version of its Codex coding agent, lets you prepare an environment once and reuse it: Codex inspects the repositories, installs dependencies, and tests the setup with you; once published, each new task gets an isolated workspace from it."
+        "cs": "OpenAI v týdnu 28. září až 2. října uvedla, že v Codex Cloud, cloudové verzi programovacího agenta Codex, jde pracovní prostředí připravit jednou a znovu ho používat: Codex projde tvoje repozitáře s kódem, nainstaluje potřebné knihovny a nastavení s tebou vyzkouší. Po zveřejnění dostane každý nový úkol vlastní oddělený prostor z hotového prostředí.",
+        "en": "OpenAI said in the week of September 28 to October 2 that Codex Cloud, the cloud version of its Codex coding agent, lets you prepare an environment once and reuse it: Codex goes through your code repositories, installs libraries, and tests the setup with you. Each new task then gets its own workspace from it."
       },
       "why": {
-        "cs": "Na webu nebo v desktopové aplikaci zvol Work in > Cloud a prostředí vytvoř; po zveřejnění ho vybíráš u nových úkolů. Plán zdroj neuvádí; správci firem mohou přístup ke sdíleným prostředím kontrolovat.",
-        "en": "On the web or desktop app, choose Work in > Cloud and create an environment; once published, pick it for new tasks. The source names no plan; enterprise admins can review access to shared environments."
+        "cs": "Na webu nebo v aplikaci zvol Work in > Cloud, Create environment a vyber repozitáře na GitHubu. Zdroj uvádí velikost virtuálního počítače pro plány Plus, Pro, Business, Enterprise a Edu; správci firem mohou přístup kontrolovat.",
+        "en": "On the web or in the app choose Work in > Cloud, Create environment, pick GitHub repositories. The source lists virtual machine sizes for Plus, Pro, Business, Enterprise, and Edu plans; admins can review access."
       },
       "sources": [
         {
@@ -4480,12 +4480,12 @@
         "en": "Claude Code shows output when a command times out"
       },
       "summary": {
-        "cs": "Claude Code od verze 2.1.311 (26. října) u shellového příkazu, který dosáhne časového limitu, ukáže dosavadní výstup a uvede, že příkaz dál běží na pozadí. Nainstalovanou verzi zjistíš příkazem claude --version.",
-        "en": "From version 2.1.311 (October 26), when a shell command in Claude Code reaches its timeout, the result shows the output so far and says the command is still running in the background. Check your installed version with claude --version."
+        "cs": "Claude Code od verze 2.1.311 (26. října) ukáže u příkazu, kterému vypršel časový limit, dosavadní výstup a uvede, že příkaz dál běží na pozadí. Nainstalovanou verzi zjistíš příkazem claude --version.",
+        "en": "From version 2.1.311 (October 26), when a command in Claude Code runs out of time, the result shows the output so far and says the command is still running in the background. Check your installed version with claude --version."
       },
       "why": {
-        "cs": "Nic se nenastavuje, stačí mít verzi 2.1.311 nebo novější. Týká se shellových příkazů, které Claude Code spouští při práci.",
-        "en": "Nothing to set up; you just need version 2.1.311 or newer. It applies to shell commands Claude Code runs while working."
+        "cs": "Nic se nenastavuje; aktualizuj z oficiálních kanálů Anthropicu (podvržené byly jen balíčky 2.1.312 a 2.1.313 z tržiště Cursoru). Chceš-li to vyzkoušet, zkrať limit proměnnou BASH_DEFAULT_TIMEOUT_MS a spusť dlouhý příkaz.",
+        "en": "Nothing to set up; update from Anthropic’s official channels (only the 2.1.312 and 2.1.313 packages from Cursor’s marketplace were tampered with). To try it, shorten the limit with BASH_DEFAULT_TIMEOUT_MS and run a long command."
       },
       "sources": [
         {
@@ -4642,21 +4642,21 @@
       "verified": true,
       "eventDate": "2026-10-29",
       "title": {
-        "cs": "LM Studio čte odpovědi nahlas lokálně i na Windows",
-        "en": "LM Studio reads answers aloud locally on Windows too"
+        "cs": "LM Studio Bionic čte odpovědi nahlas i na Windows",
+        "en": "LM Studio Bionic now reads replies aloud on Windows too"
       },
       "summary": {
-        "cs": "LM Studio ve verzi Bionic 1.1.10 (29. října) rozšířilo čtení odpovědí nahlas přímo v zařízení na Windows a Linux; dosud šlo jen na Macu. Přibylo sedm hlasů, které fungují offline. Na Macích s méně než 32 GB paměti se hlasový model sám nenačítá.",
-        "en": "LM Studio version Bionic 1.1.10 (October 29) extended on-device reading of answers aloud to Windows and Linux; until now it worked only on Mac. Seven voices that work offline were added. On Macs with less than 32 GB of memory the voice model does not load by itself."
+        "cs": "Bionic, agent pro otevřené modely od LM Studia, ve verzi 1.1.10 (29. října) rozšířil čtení odpovědí nahlas přímo v zařízení na Windows a Linux; dosud to šlo jen na Macu. Přibylo sedm hlasů, které fungují offline. Hlasový model se na Macích s méně než 32 GB paměti ve výchozím nastavení sám nenačítá.",
+        "en": "Bionic, LM Studio’s agent for open models, extended on-device reading of replies aloud to Windows and Linux in version 1.1.10 (October 29); until now it worked only on Mac. Seven offline voices were added. On Macs with less than 32 GB of memory the voice model does not load automatically by default."
       },
       "why": {
-        "cs": "Stačí aktualizovat LM Studio na Bionic 1.1.10; čtení se ovládá tlačítkem Read Aloud u zprávy. Funkce běží v zařízení, zdroj ale neuvádí požadavky na výkon počítače.",
-        "en": "Just update LM Studio to Bionic 1.1.10; reading is controlled by the Read Aloud button on a message. The feature runs on the device, but the source gives no hardware requirements."
+        "cs": "Aktualizuj Bionic (aplikaci LM Studia, ne samotné LM Studio) na 1.1.10; u zprávy je tlačítko Read Aloud. Požadavky na výkon počítače zdroj neuvádí, 32 GB se týká jen Maců.",
+        "en": "Update Bionic (an LM Studio app, not LM Studio itself) to 1.1.10; messages have a Read Aloud button. The source gives no hardware requirements; the 32 GB figure applies to Macs only."
       },
       "sources": [
         {
           "name": "LM Studio",
-          "url": "https://lmstudio.ai/changelog"
+          "url": "https://lmstudio.ai/changelog/bionic-v1.1.10"
         }
       ],
       "added": "2026-10-30",
@@ -4701,12 +4701,12 @@
         "en": "Gemini in Slides edits a whole deck at once"
       },
       "summary": {
-        "cs": "Google od 29. října zavádí v Prezentacích Google úpravy více snímků nebo celé prezentace jedním příkazem v bočním panelu Gemini: obnoví vizuální styl, změní obsah podle souborů z Disku, spojí snímky či sjednotí písmo. Změny se použijí na běžné upravitelné snímky a jdou vrátit zpět. Zatím jen v angličtině.",
-        "en": "Since October 29, Google has been rolling out editing of several slides or a whole presentation with one prompt in the Gemini side panel in Slides: refresh the visual style, change content based on Drive files, merge slides, or unify fonts. Changes land on normal editable slides and can be undone. English only for now."
+        "cs": "Google od 29. října zavádí v Prezentacích Google zatím jen v angličtině úpravy více snímků či celé prezentace jedním příkazem v panelu Gemini: osvěží vzhled, změní obsah podle souborů z Disku, spojí snímky nebo sjednotí písmo. Změny jdou vrátit zpět. Mají ji Workspace Business a Enterprise (Standard, Plus) a Google AI Pro a Ultra.",
+        "en": "From October 29, Google rolls out one-prompt editing of several slides or a whole deck in the Gemini panel in Slides, English only for now: refresh the look, change content from Drive files, merge slides, or unify fonts. Changes can be undone. For Workspace Business and Enterprise (Standard, Plus) and Google AI Pro and Ultra."
       },
       "why": {
-        "cs": "V Prezentacích Google otevři panel Gemini a zadej příkaz, třeba shrnutí snímků 5–7 do jednoho. Samostatný vypínač pro správce není; zákazníci Workspace mají aspoň do 1. prosince vyšší promo limity, pak platí limity na uživatele.",
-        "en": "In Slides open the Gemini panel and prompt, e.g. merge slides 5–7 into one. No separate admin switch; Workspace customers get higher promo limits until at least December 1, then per-user limits apply."
+        "cs": "V Prezentacích otevři panel Gemini a zadej anglicky třeba „Summarize slides 5–7 into a single slide“. Zavádění může trvat déle než 15 dní; samostatný vypínač pro správce není, promo limity platí aspoň do 1. prosince.",
+        "en": "In Slides open the Gemini panel and prompt in English, e.g. “Summarize slides 5–7 into a single slide”. Rollout may take over 15 days; no admin control; promo limits run to at least December 1."
       },
       "sources": [
         {

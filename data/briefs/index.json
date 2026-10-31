@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-31T03:22:55Z",
+  "updated": "2026-10-31T03:50:11Z",
   "briefs": [
     {
       "date": "2026-10-31",
       "headline": {
-        "cs": "Tržiště Cursoru nabízelo upravený Claude Code se zadními vrátky",
+        "cs": "Tržiště Cursoru: podvržené rozšíření Claude Code se zadními vrátky",
         "en": "Cursor’s marketplace served a backdoored Claude Code extension"
       },
       "itemCount": 11

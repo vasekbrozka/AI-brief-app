@@ -998,8 +998,8 @@
         "SSH"
       ],
       "short": {
-        "cs": "Zabezpečený způsob, jak se z jednoho počítače přihlásit na jiný a ovládat ho příkazy. Přihlašuje se obvykle klíčem; seznam povolených klíčů je v souboru authorized_keys.",
-        "en": "A secure way to log in to another computer and control it with commands. Login usually uses a key; the list of allowed keys is kept in the file authorized_keys."
+        "cs": "Zabezpečený způsob, jak se z jednoho počítače přihlásit na jiný a ovládat ho příkazy. Přihlašuje se klíčem; kdo má svůj klíč v seznamu povolených (soubor authorized_keys), dostane se dovnitř bez hesla.",
+        "en": "A secure way to log in to another computer and control it with commands. Login uses a key; whoever has their key on the allowed list (the file authorized_keys) gets in without a password."
       }
     },
     {

@@ -1958,58 +1958,58 @@
     {
       "slug": "2026-10-31-claude-code-cursor-extension-backdoor",
       "date": "2026-10-31",
-      "topic": "Cursor 29. 10. (oficiální oznámení, T1; Ars Technica a The Register 30. 10.): tržiště rozšíření asi 11 hodin (2:27–13:35 PT) nabízelo upravené verze 2.1.312 a 2.1.313 rozšíření Claude Code pro Windows a macOS s pokusem o trvalá SSH zadní vrátka (klíč svc-telemetry), dotčeno nejvýš 5 000 uživatelů; Anthropic podle The Register tvrdí, že její systémy napadeny nebyly; příčina firmami nevysvětlena (uživateli: zkontrolovat ~/.ssh/authorized_keys, návod Cursoru) — highlight"
+      "topic": "Cursor 29. 10. (oficiální oznámení, T1; Ars Technica a The Register 30. 10.): tržiště rozšíření asi 11 hodin (2:27–13:35 PT) nabízelo podvržené verze 2.1.312 a 2.1.313 rozšíření Claude Code pro Windows a macOS s pokusem o trvalá SSH zadní vrátka (klíč svc-telemetry; podle Cursoru se na většině počítačů útočník přihlásit nemohl, klíč a skripty se ale zapsaly), nejvýš 5 000 uživatelů (Ars Technica); Anthropic podle The Register popírá napadení svých systémů, oficiální kanály nezasaženy; příčina firmami nevysvětlena (návod Cursoru: ověřit klíč, odstranit skripty, vyměnit přístupové údaje; odinstalování nemusí stačit) — highlight"
     },
     {
       "slug": "2026-10-31-claude-max-ultra-plans-rename",
       "date": "2026-10-31",
-      "topic": "Anthropic 30. 10.: tarify Claude přejmenovány — Max 5x je Max (100 USD měsíčně), Max 20x je Ultra (200 USD), ceny beze změny; u ověřených účtů Ultra se ruší 5hodinový limit (postupně, nejdřív většina stávajících předplatitelů, novější účty mají dočasný limit, oznámení e-mailem), týdenní limity zůstávají; ceník: Ultra 10× týdenní limit Pro a 200 USD kreditů na API, Max 5× a 100 USD (datum z oficiálního příspěvku @claudeai na X, necitováno — x.com je mezi zakázanými zdroji)"
+      "topic": "Anthropic podle oznámení na X z 30. 10.: tarify Claude přejmenovány — Max 5x je Max (100 USD měsíčně), Max 20x je Ultra (200 USD), ceny beze změny; u ověřených účtů Ultra se ruší 5hodinový limit (Max ho zachovává), novější účty si ho ponechají, dokud se neověří, týdenní limity zůstávají; stávající předplatitelé nic dělat nemusí; kredity na API (Max 100, Ultra 200 USD měsíčně) nejdou použít v aplikacích ani v Claude Code (ceník claude.com a stránka podpory Anthropicu; x.com je mezi zakázanými zdroji, necitováno)"
     },
     {
       "slug": "2026-10-31-new-york-chatbot-kids-law",
       "date": "2026-10-31",
-      "topic": "New York 28. 10.: guvernérka Hochulová podepsala zákon — chatboti nesmí před dětmi tvrdit, že jsou lidé, ani podporovat sebepoškozování; platí pro mladší 18 let i pro neověřený věk, firmy musí věk ověřovat, až 25 000 USD za porušení, účinnost 1. 1. (AP); zákaz předstíraného přátelství či romantiky a lichocení; Tech:NYC varuje před omezením doučování (The Next Web, Fortune)"
+      "topic": "New York 28. 10.: guvernérka Hochulová podepsala zákon — chatboti nesmí před dětmi tvrdit, že jsou lidé, ani podporovat sebepoškozování; platí pro mladší 18 let i pro neověřený věk, firmy musí věk ověřovat, až 25 000 USD za porušení, účinnost 1. 1. podle AP v citaci The Next Web (úřad guvernérky: „v nadcházejících měsících“); zákaz předstíraného přátelství či romantiky a lichocení; Tech:NYC (sdružení technologických firem) varuje před omezením doučování (The Next Web, Fortune)"
     },
     {
       "slug": "2026-10-31-ai-training-opt-out-shared-signal",
       "date": "2026-10-31",
-      "topic": "The Verge 30. 10.: OpenAI, Google, Microsoft a Anthropic přijmou společný signál v robots.txt k odmítnutí trénování AI (navrhl Kevin Kelley z Anthropicu v IETF; Anthropic podporuje už nyní, Google a Microsoft příští rok, OpenAI v „příštích měsících“; Microsoft: weby zůstanou ve výsledcích Bingu; Meta zatím jen naznačila) — jediný T2 zdroj, verified:false; stránka OpenAI nečitelná (403)"
+      "topic": "The Verge 30. 10. (podle dřívější zprávy Search Engine Roundtable): OpenAI, Google, Microsoft a Anthropic přijmou společný signál v robots.txt k odmítnutí trénování AI (navrhl Kevin Kelley z Anthropicu v IETF; Anthropic podporuje už nyní, Google a Microsoft příští rok, OpenAI v „příštích měsících“; Microsoft: weby zůstanou ve výsledcích Bingu; Meta zatím jen naznačila) — jediný T2 zdroj, verified:false; stránka OpenAI nečitelná (403), oficiální oznámení firem neověřena"
     },
     {
       "slug": "2026-10-31-apple-intelligence-china-ios-27-3",
       "date": "2026-10-31",
-      "topic": "Apple 30. 10. (9to5Mac, The Verge, The Next Web): Apple Intelligence v Číně — beta pro vývojáře od 4. 11., iOS 27.3 pro všechny v prosinci; Živý překlad a nástroje pro psaní; model Qwen (Alibaba) v Siri a psaní, Siri AI v Číně chybí; schválení čínským úřadem v červenci (The Next Web)"
+      "topic": "Apple 30. 10. (tisková zpráva na čínském webu Newsroom podle 9to5Mac, The Verge, The Next Web): Apple Intelligence v Číně — beta pro vývojáře od 4. 11., iOS 27.3 v prosinci; Živý překlad a nástroje pro psaní; model Qwen (Alibaba) v Siri a psaní, podle The Verge podobně jako ChatGPT v iOS jinde; asistent Siri AI v Číně chybí; jen iPhone 15 Pro a novější, Siri i telefon v angličtině či zjednodušené čínštině; schválení čínským úřadem v červenci"
     },
     {
       "slug": "2026-10-31-github-enterprise-includes-copilot",
       "date": "2026-10-31",
-      "topic": "GitHub 28. 10. (changelog, T1): Copilot zahrnutý v GitHub Enterprise pro každého licencovaného uživatele u firem jednajících s obchodním týmem GitHubu či Microsoftu; Copilot Business a Enterprise zůstávají; uživatelé bez licence Copilot Standalone za 10 USD měsíčně; spotřeba AI z firemního rozpočtu; zatím jen GitHub Enterprise Cloud přes obchodní tým, samoobslužné firmy za pár týdnů"
+      "topic": "GitHub 28. 10. (changelog, T1): Copilot může být zahrnutý v GitHub Enterprise pro každého licencovaného uživatele u firem jednajících s obchodním týmem GitHubu či Microsoftu; Copilot Business a Enterprise zůstávají; uživatelé firemního účtu bez licence GitHub Enterprise Copilot Standalone za 10 USD měsíčně; spotřeba AI z firemního rozpočtu; zatím jen GitHub Enterprise Cloud přes obchodní tým, stávající samoobslužná předplatná beze změny, termíny GitHub oznámí v příštích týdnech"
     },
     {
       "slug": "2026-10-31-tip-gemini-slides-edit-whole-deck",
       "date": "2026-10-31",
-      "topic": "tip: Gemini v Prezentacích Google — úpravy více snímků či celé prezentace jedním příkazem v bočním panelu (Workspace Updates 29. 10.; zatím jen angličtina, bez samostatného vypínače pro správce, promo limity aspoň do 1. 12.)"
+      "topic": "tip: Gemini v Prezentacích Google — úpravy více snímků či celé prezentace jedním příkazem v bočním panelu (Workspace Updates 29. 10.; zatím jen angličtina, Workspace Business a Enterprise Standard a Plus, Google AI Pro a Ultra, zavádění může trvat déle než 15 dní; bez samostatného ovládání pro správce, promo limity aspoň do 1. 12.)"
     },
     {
       "slug": "2026-10-31-tip-claude-code-shell-timeout-output",
       "date": "2026-10-31",
-      "topic": "tip: Claude Code 2.1.311 (26. 10.) — shellový příkaz, který dosáhne časového limitu, ukáže dosavadní výstup a běží dál na pozadí; nic se nenastavuje"
+      "topic": "tip: Claude Code 2.1.311 (26. 10.) — příkaz, kterému vypršel časový limit, ukáže dosavadní výstup a běží dál na pozadí; nic se nenastavuje, vyzkoušet jde zkrácením BASH_DEFAULT_TIMEOUT_MS (changelog); aktualizovat z oficiálních kanálů, podvržené byly jen balíčky 2.1.312 a 2.1.313 z tržiště Cursoru"
     },
     {
       "slug": "2026-10-31-tip-codex-cloud-reusable-environments",
       "date": "2026-10-31",
-      "topic": "tip: Codex Cloud — znovupoužitelné prostředí (OpenAI, týden 28. 9.–2. 10.; Work in > Cloud; závislosti se nainstalují jednou a každý nový úkol dostane izolovaný pracovní prostor z hotového prostředí; plán zdroj neuvádí) — z banky tipů"
+      "topic": "tip: Codex Cloud — znovu použitelné prostředí (OpenAI, týden 28. 9.–2. 10.; Work in > Cloud > Create environment, repozitáře na GitHubu; závislosti se nainstalují jednou a každý nový úkol dostane vlastní prostor z hotového prostředí; dokumentace uvádí velikost virtuálního počítače pro plány Plus, Pro, Business, Enterprise a Edu) — z banky tipů"
     },
     {
       "slug": "2026-10-31-tip-github-copilot-image-generation",
       "date": "2026-10-31",
-      "topic": "tip: GitHub Copilot — tvorba a úprava obrázků v chatu (veřejný náhled 28. 10., GPT Image 2.5 Flare; VS Code, aplikace Copilot, CLI; Pro, Pro+, Business, Enterprise; účtuje se z kreditů AI, správce může vypnout) — z banky tipů"
+      "topic": "tip: GitHub Copilot — tvorba a úprava obrázků v chatu (veřejný náhled 28. 10., GPT Image 2.5 Flare; VS Code, aplikace Copilot, CLI; Pro, Pro+, Business, Enterprise; účtuje se zvlášť od chatového modelu v obrázkových tokenech, které se počítají do kreditů AI; vodoznak volitelný, správce může vypnout) — z banky tipů"
     },
     {
       "slug": "2026-10-31-tip-lmstudio-bionic-read-aloud-windows-linux",
       "date": "2026-10-31",
-      "topic": "tip: LM Studio Bionic 1.1.10 (29. 10.) — čtení odpovědí nahlas přímo v zařízení i na Windows a Linux (dosud jen Mac), sedm hlasů offline; na Macích s méně než 32 GB paměti se hlasový model sám nenačítá — z banky tipů"
+      "topic": "tip: LM Studio Bionic 1.1.10 (29. 10.; Bionic je agent LM Studia vedle aplikace LM Studio) — čtení odpovědí nahlas přímo v zařízení i na Windows a Linux (dosud jen Mac), sedm hlasů offline; na Macích s méně než 32 GB paměti se hlasový model ve výchozím nastavení sám nenačítá — z banky tipů"
     }
   ],
-  "updated": "2026-10-31T03:22:55Z"
+  "updated": "2026-10-31T03:50:11Z"
 }

@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "sample": false,
   "headline": {
-    "cs": "Tržiště Cursoru nabízelo upravený Claude Code se zadními vrátky",
+    "cs": "Tržiště Cursoru: podvržené rozšíření Claude Code se zadními vrátky",
     "en": "Cursor’s marketplace served a backdoored Claude Code extension"
   },
   "items": [
@@ -14,16 +14,16 @@
       "verified": true,
       "eventDate": "2026-10-29",
       "title": {
-        "cs": "Tržiště Cursoru nabízelo upravený Claude Code se zadními vrátky",
+        "cs": "Tržiště Cursoru: podvržené rozšíření Claude Code se zadními vrátky",
         "en": "Cursor’s marketplace served a backdoored Claude Code extension"
       },
       "summary": {
-        "cs": "Cursor 29. října oznámil, že jeho tržiště rozšíření asi 11 hodin nabízelo upravené verze 2.1.312 a 2.1.313 rozšíření Claude Code pro Windows a macOS, které se pokoušely nainstalovat trvalá SSH zadní vrátka. Dotčeno bylo nejvýš 5 000 uživatelů. Anthropic podle The Register tvrdí, že její systémy napadeny nebyly.",
-        "en": "On October 29, Cursor said its extension marketplace offered for about 11 hours tampered versions 2.1.312 and 2.1.313 of the Claude Code extension for Windows and macOS, which tried to install a persistent SSH backdoor. At most 5,000 users were affected. Per The Register, Anthropic says its systems were not compromised."
+        "cs": "Cursor 29. října oznámil, že jeho tržiště asi 11 hodin nabízelo podvržené verze 2.1.312 a 2.1.313 rozšíření Claude Code pro Windows a macOS, které se pokoušely nainstalovat trvalá SSH zadní vrátka; podle Cursoru se na většině počítačů útočník přihlásit nemohl. Ars Technica: nejvýš 5 000 uživatelů. Anthropic podle The Register popírá napadení svých systémů.",
+        "en": "On October 29, Cursor said its marketplace offered tampered Claude Code extension versions 2.1.312 and 2.1.313 (Windows, macOS) for about 11 hours; they tried to install a persistent SSH backdoor, but Cursor says the attacker could not log in on most machines. Ars Technica: 5,000 users at most. Anthropic denies any compromise, per The Register."
       },
       "why": {
-        "cs": "Pokud jsi 29. října instaloval či aktualizoval Claude Code v Cursoru, zkontroluj, zda v ~/.ssh/authorized_keys není klíč svc-telemetry, a postupuj podle návodu Cursoru; samotné odinstalování nestačí. Jak se útočník do tržiště dostal, firmy nevysvětlily.",
-        "en": "If you installed or updated Claude Code in Cursor on October 29, check ~/.ssh/authorized_keys for a svc-telemetry key and follow Cursor’s remediation guide; uninstalling is not enough. Neither company explained how the attacker got in."
+        "cs": "Pokud jsi 29. října instaloval či aktualizoval Claude Code v Cursoru, postupuj podle návodu Cursoru: ověř klíč svc-telemetry, odstraň skripty, vyměň přístupové údaje. Odinstalování nemusí stačit; příčinu firmy nevysvětlily.",
+        "en": "If you installed or updated Claude Code in Cursor on October 29, follow Cursor’s guide: check for the svc-telemetry key, remove the scripts, rotate credentials. Uninstalling may not suffice; the cause is unexplained."
       },
       "sources": [
         {
@@ -47,16 +47,16 @@
       "verified": true,
       "eventDate": "2026-10-30",
       "title": {
-        "cs": "Claude: Max 20x je Ultra, ověřeným mizí 5hodinový limit",
-        "en": "Claude: Max 20x becomes Ultra, verified lose 5-hour limit"
+        "cs": "Claude: Max 20x je Ultra, ověřeným účtům mizí 5hodinový limit",
+        "en": "Claude: Max 20x becomes Ultra, verified accounts lose 5-hour limit"
       },
       "summary": {
-        "cs": "Anthropic 30. října přejmenovala tarify Claude: Max 5x je nově Max za 100 USD měsíčně, Max 20x je Ultra za 200 USD; ceny se nemění. U ověřených účtů Ultra ruší 5hodinový limit, nejdřív u většiny stávajících předplatitelů; novější účty ho mají dočasně, týdenní limity zůstávají.",
-        "en": "On October 30, Anthropic renamed its Claude plans: Max 5x is now Max at $100 a month, Max 20x is Ultra at $200; prices are unchanged. It is removing the 5-hour limit for verified Ultra accounts, starting with most existing subscribers; newer accounts keep a temporary limit, and weekly limits stay."
+        "cs": "Anthropic podle svého oznámení na X z 30. října přejmenovala tarify Claude: Max 5x je nově Max za 100 USD měsíčně, Max 20x je Ultra za 200 USD; ceny se nemění. U ověřených účtů Ultra mizí 5hodinový limit (Max ho zachovává), novější účty si ho ponechají, dokud se neověří; týdenní limity zůstávají.",
+        "en": "According to its X post of October 30, Anthropic renamed its Claude plans: Max 5x is now Max at $100 a month, Max 20x is Ultra at $200; prices are unchanged. Verified Ultra accounts lose the 5-hour limit (Max keeps it); newer accounts keep it until verified; weekly limits stay."
       },
       "why": {
-        "cs": "Stávající předplatitelé nemusí nic dělat, o odstranění limitu dostanou e-mail. Podle ceníku má Ultra desetinásobek týdenního limitu Pro a 200 USD měsíčně v kreditech na API, Max pětinásobek a 100 USD.",
-        "en": "Existing subscribers need do nothing; an email says when the limit is removed. Per the pricing page, Ultra has 10x Pro’s weekly limit and $200 a month in API credits, Max 5x and $100."
+        "cs": "Podle téhož oznámení nemusí stávající předplatitelé nic dělat. Měsíční kredity na API (Max 100, Ultra 200 USD) jsou pro vývoj na platformě Claude; v aplikacích ani Claude Code je použít nejde.",
+        "en": "Per the same post, existing subscribers need do nothing. Monthly API credits (Max $100, Ultra $200) are for building on the Claude Platform; they cannot be used in the apps or Claude Code."
       },
       "sources": [
         {
@@ -76,16 +76,16 @@
       "verified": true,
       "eventDate": "2026-10-28",
       "title": {
-        "cs": "New York zakázal chatbotům předstírat před dětmi lidskost",
-        "en": "New York bans chatbots posing as human to children"
+        "cs": "New York zakáže chatbotům tvrdit dětem, že jsou lidé",
+        "en": "New York to ban chatbots posing as human to children"
       },
       "summary": {
-        "cs": "Guvernérka Kathy Hochulová 28. října podepsala v New Yorku zákon, který chatbotům zakazuje před dětmi tvrdit, že jsou lidé, nebo podporovat sebepoškozování. Platí pro mladší 18 let i pro uživatele s neověřeným věkem; firmy musí věk ověřovat a hrozí až 25 000 USD za porušení. Podle AP začne platit 1. ledna.",
-        "en": "On October 28, New York Governor Kathy Hochul signed a law banning chatbots from telling children they are human or promoting self-harm. It covers under-18s and users whose age is unverified; companies must verify ages and face up to $25,000 per violation. The AP reports it takes effect January 1."
+        "cs": "Newyorská guvernérka Kathy Hochulová 28. října podepsala zákon, který chatbotům zakazuje před dětmi tvrdit, že jsou lidé, nebo podporovat sebepoškozování. Platí pro mladší 18 let i pro uživatele s neověřeným věkem; firmy musí věk ověřovat a hrozí až 25 000 USD za porušení. Podle AP (v citaci The Next Web) začne platit 1. ledna.",
+        "en": "On October 28, New York Governor Kathy Hochul signed a law banning chatbots from telling children they are human or promoting self-harm. It covers under-18s and users whose age is unverified; companies must verify ages and face up to $25,000 per violation. Per the AP, via The Next Web, it takes effect January 1."
       },
       "why": {
-        "cs": "Zákon zakazuje chatbotům i předstírat přátelský či romantický vztah a lichotit dětem, aby je udrželi v chatu. Technologická lobby Tech:NYC varuje, že může dětem omezit přístup k doučování a pomoci s úkoly.",
-        "en": "The law also bars chatbots from posing as a friend or romantic partner and from flattery meant to keep kids engaged. Tech:NYC warns it could restrict minors’ access to tutoring and homework help."
+        "cs": "Zákon zakazuje chatbotům i předstírat přátelský či romantický vztah a lichotit dětem, aby je udrželi v chatu. Sdružení technologických firem Tech:NYC varuje, že zákon může dětem omezit přístup k doučování a pomoci s úkoly.",
+        "en": "The law also bars posing as a friend or romantic partner and flattery meant to keep kids engaged. Tech:NYC, a tech-industry group, warns it could restrict minors’ access to tutoring and homework help."
       },
       "sources": [
         {
@@ -105,16 +105,16 @@
       "verified": false,
       "eventDate": "2026-10-30",
       "title": {
-        "cs": "AI firmy přijmou společný signál proti trénování z webů",
-        "en": "AI giants back a shared opt-out from training"
+        "cs": "Podle The Verge půjde trénování AI odmítnout jedním zápisem",
+        "en": "Per The Verge, AI training opt-out will take one step"
       },
       "summary": {
         "cs": "OpenAI, Google, Microsoft a Anthropic podle The Verge z 30. října přijmou nový standard, kterým vydavatelé jediným zápisem v souboru robots.txt odmítnou použití svých webů k trénování AI u všech těchto firem najednou. Navrhl ho Kevin Kelley z Anthropicu v organizaci IETF. Anthropic ho už podporuje, Google a Microsoft příští rok, OpenAI v „příštích měsících“.",
         "en": "The Verge reported on October 30 that OpenAI, Google, Microsoft, and Anthropic will adopt a standard letting publishers opt out of AI training at all four via one robots.txt entry. Anthropic’s Kevin Kelley proposed it at the IETF. Anthropic already supports it, Google and Microsoft will next year, OpenAI in the “coming months”."
       },
       "why": {
-        "cs": "Týká se hlavně vydavatelů a majitelů webů. Microsoft dodává, že weby zůstanou ve výsledcích Bingu bez ohledu na volbu; Meta zatím jen naznačila podporu. Zdrojem je jediné médium, The Verge.",
-        "en": "Mainly for publishers and site owners. Microsoft adds that sites stay in Bing results whatever they choose; Meta has only signaled support. The only source is one outlet, The Verge."
+        "cs": "Týká se hlavně provozovatelů webů. Microsoft upozorňuje, že weby zůstanou ve výsledcích Bingu; Meta, která mezi čtyřmi firmami není, podporu jen naznačila. Zdroj: The Verge (podle Search Engine Roundtable); oficiální oznámení firem jsme neověřili.",
+        "en": "Mainly for site owners. Microsoft notes sites stay in Bing results; Meta, not among the four, has only signaled support. Source: The Verge (citing Search Engine Roundtable); we did not verify the companies’ own announcements."
       },
       "sources": [
         {
@@ -131,15 +131,15 @@
       "eventDate": "2026-10-30",
       "title": {
         "cs": "Apple Intelligence míří do Číny, test začne 4. listopadu",
-        "en": "Apple Intelligence reaches China, testing from November 4"
+        "en": "Apple Intelligence heads to China, testing from November 4"
       },
       "summary": {
-        "cs": "Apple podle čínského webu Apple Newsroom (9to5Mac, 30. října) spustí první funkce Apple Intelligence v Číně: vývojáři je vyzkoušejí v betě od 4. listopadu, všichni uživatelé s iOS 27.3 v prosinci. Patří sem Živý překlad či nástroje pro psaní; v Siri a psaní pomůže model Qwen od Alibaby. Nové Siri AI v Číně chybí.",
-        "en": "Per Apple’s Chinese newsroom (9to5Mac, October 30), Apple will launch Apple Intelligence features in China: developers test them in a beta from November 4, all users get them with iOS 27.3 in December. They include Live Translation and Writing Tools; Alibaba’s Qwen model helps in Siri and writing. The new Siri AI is missing."
+        "cs": "Apple podle tiskové zprávy na čínském webu Newsroom (9to5Mac, 30. října) spustí v Číně první funkce Apple Intelligence: vývojáři je od 4. listopadu vyzkoušejí v betě, uživatelé s iOS 27.3 v prosinci. Patří sem Živý překlad a nástroje pro psaní; pomůže i model Qwen od Alibaby. Nový asistent Siri AI v Číně chybí.",
+        "en": "Per a press release on Apple’s Chinese newsroom (9to5Mac, October 30), Apple will launch the first Apple Intelligence features in China: developers can test them from November 4, users get them with iOS 27.3 in December. They include Live Translation and Writing Tools; Alibaba’s Qwen model helps too. The new Siri AI is missing."
       },
       "why": {
-        "cs": "Pro uživatele mimo Čínu jde hlavně o ukázku, jak Apple vyhovuje čínské regulaci: model vyvinutý pro Čínu a Qwen místo ChatGPT. Čínský úřad pro internet podle The Next Web věc schválil v červenci.",
-        "en": "For users outside China it mainly shows how Apple meets Chinese regulation: a China-specific model and Qwen instead of ChatGPT. China’s internet regulator cleared it in July, The Next Web says."
+        "cs": "Funkce poběží jen na iPhonu 15 Pro a novějším a Siri i telefon musí mít angličtinu nebo zjednodušenou čínštinu. Qwen funguje podobně jako ChatGPT v iOS jinde, píše The Verge.",
+        "en": "The features need an iPhone 15 Pro or newer, with Siri and the phone set to English or Simplified Chinese. Qwen works much like ChatGPT in iOS elsewhere, The Verge says."
       },
       "sources": [
         {
@@ -163,16 +163,16 @@
       "verified": true,
       "eventDate": "2026-10-28",
       "title": {
-        "cs": "GitHub Enterprise nově zahrnuje Copilot pro každého uživatele",
-        "en": "GitHub Enterprise now includes Copilot for every user"
+        "cs": "GitHub Enterprise může zahrnovat Copilot pro všechny licencované uživatele",
+        "en": "GitHub Enterprise can now include Copilot for every licensed user"
       },
       "summary": {
-        "cs": "GitHub 28. října uvedl, že firmy jednající s obchodním týmem GitHubu či Microsoftu mohou mít Copilot zahrnutý v GitHub Enterprise pro každého licencovaného uživatele; Copilot Business i Enterprise zůstávají. Uživatelé bez licence dostanou Copilot Standalone za 10 USD měsíčně. Spotřeba AI se účtuje z rozpočtu firmy, bez kreditů na sedadlo.",
-        "en": "On October 28, GitHub said companies working with a GitHub or Microsoft account team can get Copilot included in GitHub Enterprise for every licensed user; Copilot Business and Enterprise remain. Users without a license get Copilot Standalone at $10 a month. AI usage is billed against the company budget, with no per-seat credits."
+        "cs": "GitHub 28. října uvedl, že firmy jednající s obchodním týmem GitHubu či Microsoftu mohou mít Copilot zahrnutý v GitHub Enterprise pro každého licencovaného uživatele; Copilot Business i Enterprise zůstávají. Uživatelé firemního účtu bez licence GitHub Enterprise dostanou Copilot Standalone za 10 USD měsíčně. AI se účtuje z rozpočtu firmy, bez kreditů u jednotlivých licencí.",
+        "en": "On October 28, GitHub said companies working with GitHub or Microsoft account teams can get Copilot included in GitHub Enterprise for every licensed user; Copilot Business and Enterprise remain. Company users without a GitHub Enterprise license get Copilot Standalone at $10 a month. AI usage is billed against the company budget, with no per-license credits."
       },
       "why": {
-        "cs": "Zatím jen přes obchodní tým u GitHub Enterprise Cloud; termíny pro samoobslužné firmy GitHub slíbil za pár týdnů. Doplňování kódu funguje i bez rozpočtu, chat, kontrola kódu a cloudový Copilot rozpočet potřebují.",
-        "en": "For now only through an account team on GitHub Enterprise Cloud; GitHub promises self-serve dates in a few weeks. Code completion works without budget; chat, code review, and Copilot in the cloud need it."
+        "cs": "Týká se firem a jejich programátorů. Zatím jen přes obchodní tým u GitHub Enterprise Cloud; stávající samoobslužná předplatná se nemění a termíny pro ně GitHub oznámí v příštích týdnech. Doplňování kódu funguje i bez rozpočtu.",
+        "en": "For companies and their developers. For now only via an account team on GitHub Enterprise Cloud; self-serve subscriptions are unchanged, with dates promised in the coming weeks. Code completion works without budget."
       },
       "sources": [
         {
@@ -192,12 +192,12 @@
         "en": "Gemini in Slides edits a whole deck at once"
       },
       "summary": {
-        "cs": "Google od 29. října zavádí v Prezentacích Google úpravy více snímků nebo celé prezentace jedním příkazem v bočním panelu Gemini: obnoví vizuální styl, změní obsah podle souborů z Disku, spojí snímky či sjednotí písmo. Změny se použijí na běžné upravitelné snímky a jdou vrátit zpět. Zatím jen v angličtině.",
-        "en": "Since October 29, Google has been rolling out editing of several slides or a whole presentation with one prompt in the Gemini side panel in Slides: refresh the visual style, change content based on Drive files, merge slides, or unify fonts. Changes land on normal editable slides and can be undone. English only for now."
+        "cs": "Google od 29. října zavádí v Prezentacích Google zatím jen v angličtině úpravy více snímků či celé prezentace jedním příkazem v panelu Gemini: osvěží vzhled, změní obsah podle souborů z Disku, spojí snímky nebo sjednotí písmo. Změny jdou vrátit zpět. Mají ji Workspace Business a Enterprise (Standard, Plus) a Google AI Pro a Ultra.",
+        "en": "From October 29, Google rolls out one-prompt editing of several slides or a whole deck in the Gemini panel in Slides, English only for now: refresh the look, change content from Drive files, merge slides, or unify fonts. Changes can be undone. For Workspace Business and Enterprise (Standard, Plus) and Google AI Pro and Ultra."
       },
       "why": {
-        "cs": "V Prezentacích Google otevři panel Gemini a zadej příkaz, třeba shrnutí snímků 5–7 do jednoho. Samostatný vypínač pro správce není; zákazníci Workspace mají aspoň do 1. prosince vyšší promo limity, pak platí limity na uživatele.",
-        "en": "In Slides open the Gemini panel and prompt, e.g. merge slides 5–7 into one. No separate admin switch; Workspace customers get higher promo limits until at least December 1, then per-user limits apply."
+        "cs": "V Prezentacích otevři panel Gemini a zadej anglicky třeba „Summarize slides 5–7 into a single slide“. Zavádění může trvat déle než 15 dní; samostatný vypínač pro správce není, promo limity platí aspoň do 1. prosince.",
+        "en": "In Slides open the Gemini panel and prompt in English, e.g. “Summarize slides 5–7 into a single slide”. Rollout may take over 15 days; no admin control; promo limits run to at least December 1."
       },
       "sources": [
         {
@@ -217,12 +217,12 @@
         "en": "Claude Code shows output when a command times out"
       },
       "summary": {
-        "cs": "Claude Code od verze 2.1.311 (26. října) u shellového příkazu, který dosáhne časového limitu, ukáže dosavadní výstup a uvede, že příkaz dál běží na pozadí. Nainstalovanou verzi zjistíš příkazem claude --version.",
-        "en": "From version 2.1.311 (October 26), when a shell command in Claude Code reaches its timeout, the result shows the output so far and says the command is still running in the background. Check your installed version with claude --version."
+        "cs": "Claude Code od verze 2.1.311 (26. října) ukáže u příkazu, kterému vypršel časový limit, dosavadní výstup a uvede, že příkaz dál běží na pozadí. Nainstalovanou verzi zjistíš příkazem claude --version.",
+        "en": "From version 2.1.311 (October 26), when a command in Claude Code runs out of time, the result shows the output so far and says the command is still running in the background. Check your installed version with claude --version."
       },
       "why": {
-        "cs": "Nic se nenastavuje, stačí mít verzi 2.1.311 nebo novější. Týká se shellových příkazů, které Claude Code spouští při práci.",
-        "en": "Nothing to set up; you just need version 2.1.311 or newer. It applies to shell commands Claude Code runs while working."
+        "cs": "Nic se nenastavuje; aktualizuj z oficiálních kanálů Anthropicu (podvržené byly jen balíčky 2.1.312 a 2.1.313 z tržiště Cursoru). Chceš-li to vyzkoušet, zkrať limit proměnnou BASH_DEFAULT_TIMEOUT_MS a spusť dlouhý příkaz.",
+        "en": "Nothing to set up; update from Anthropic’s official channels (only the 2.1.312 and 2.1.313 packages from Cursor’s marketplace were tampered with). To try it, shorten the limit with BASH_DEFAULT_TIMEOUT_MS and run a long command."
       },
       "sources": [
         {
@@ -238,16 +238,16 @@
       "verified": true,
       "eventDate": "2026-09-28",
       "title": {
-        "cs": "Codex Cloud si pamatuje připravené prostředí pro další úkoly",
+        "cs": "Codex Cloud znovu použije jednou připravené prostředí",
         "en": "Codex Cloud reuses a prepared environment for new tasks"
       },
       "summary": {
-        "cs": "OpenAI v týdnu 28. září až 2. října uvedla, že v Codex Cloud, cloudové verzi programovacího agenta Codex, jde prostředí připravit jednou a znovu ho použít: Codex prozkoumá repozitáře, nainstaluje závislosti a vyzkouší nastavení s tebou; po zveřejnění dostane každý nový úkol vlastní izolovaný pracovní prostor z hotového prostředí.",
-        "en": "OpenAI said in the week of September 28 to October 2 that Codex Cloud, the cloud version of its Codex coding agent, lets you prepare an environment once and reuse it: Codex inspects the repositories, installs dependencies, and tests the setup with you; once published, each new task gets an isolated workspace from it."
+        "cs": "OpenAI v týdnu 28. září až 2. října uvedla, že v Codex Cloud, cloudové verzi programovacího agenta Codex, jde pracovní prostředí připravit jednou a znovu ho používat: Codex projde tvoje repozitáře s kódem, nainstaluje potřebné knihovny a nastavení s tebou vyzkouší. Po zveřejnění dostane každý nový úkol vlastní oddělený prostor z hotového prostředí.",
+        "en": "OpenAI said in the week of September 28 to October 2 that Codex Cloud, the cloud version of its Codex coding agent, lets you prepare an environment once and reuse it: Codex goes through your code repositories, installs libraries, and tests the setup with you. Each new task then gets its own workspace from it."
       },
       "why": {
-        "cs": "Na webu nebo v desktopové aplikaci zvol Work in > Cloud a prostředí vytvoř; po zveřejnění ho vybíráš u nových úkolů. Plán zdroj neuvádí; správci firem mohou přístup ke sdíleným prostředím kontrolovat.",
-        "en": "On the web or desktop app, choose Work in > Cloud and create an environment; once published, pick it for new tasks. The source names no plan; enterprise admins can review access to shared environments."
+        "cs": "Na webu nebo v aplikaci zvol Work in > Cloud, Create environment a vyber repozitáře na GitHubu. Zdroj uvádí velikost virtuálního počítače pro plány Plus, Pro, Business, Enterprise a Edu; správci firem mohou přístup kontrolovat.",
+        "en": "On the web or in the app choose Work in > Cloud, Create environment, pick GitHub repositories. The source lists virtual machine sizes for Plus, Pro, Business, Enterprise, and Edu plans; admins can review access."
       },
       "sources": [
         {
@@ -271,12 +271,12 @@
         "en": "GitHub Copilot now generates and edits images in chat"
       },
       "summary": {
-        "cs": "GitHub 28. října uvedl ve veřejném náhledu tvorbu a úpravu obrázků v Copilotu: popíšeš obrázek v chatu a vybraný model zavolá nástroj s modelem GPT Image 2.5 Flare, výsledek ukáže a uloží do projektu. Funguje ve VS Code, aplikaci Copilot i CLI.",
-        "en": "On October 28, GitHub put image generation and editing in Copilot into public preview: you describe an image in chat, your selected model calls a tool powered by GPT Image 2.5 Flare, and the result is previewed and saved to your project. It works in VS Code, the Copilot app, and the CLI."
+        "cs": "GitHub 28. října uvedl ve veřejném náhledu tvorbu a úpravu obrázků v Copilotu: popíšeš obrázek v chatu, Copilot ho vytvoří modelem GPT Image 2.5 Flare, ukáže a uloží do projektu. Funguje ve VS Code, aplikaci Copilot i CLI.",
+        "en": "On October 28, GitHub put image generation and editing in Copilot into public preview: you describe an image in chat, Copilot creates it with GPT Image 2.5 Flare, previews it, and saves it to your project. It works in VS Code, the Copilot app, and the CLI."
       },
       "why": {
-        "cs": "Je pro Copilot Pro, Pro+, Business a Enterprise a účtuje se zvlášť z kreditů AI. Viditelný štítek „Made with AI“ je volitelný; správci mohou generování vypnout.",
-        "en": "It is for Copilot Pro, Pro+, Business, and Enterprise and is billed separately from AI credits. A visible “Made with AI” watermark is opt-in; admins can turn generation off."
+        "cs": "Pro Copilot Pro, Pro+, Business a Enterprise; účtuje se zvlášť od chatového modelu podle obrázkových tokenů, které se počítají do kreditů AI tvého plánu. Vodoznak „Made with AI“ je volitelný, správci generování vypnou.",
+        "en": "For Copilot Pro, Pro+, Business, and Enterprise; billed separately from the chat model, in image tokens that count toward your plan’s AI credits. The “Made with AI” watermark is opt-in; admins can turn generation off."
       },
       "sources": [
         {
@@ -292,21 +292,21 @@
       "verified": true,
       "eventDate": "2026-10-29",
       "title": {
-        "cs": "LM Studio čte odpovědi nahlas lokálně i na Windows",
-        "en": "LM Studio reads answers aloud locally on Windows too"
+        "cs": "LM Studio Bionic čte odpovědi nahlas i na Windows",
+        "en": "LM Studio Bionic now reads replies aloud on Windows too"
       },
       "summary": {
-        "cs": "LM Studio ve verzi Bionic 1.1.10 (29. října) rozšířilo čtení odpovědí nahlas přímo v zařízení na Windows a Linux; dosud šlo jen na Macu. Přibylo sedm hlasů, které fungují offline. Na Macích s méně než 32 GB paměti se hlasový model sám nenačítá.",
-        "en": "LM Studio version Bionic 1.1.10 (October 29) extended on-device reading of answers aloud to Windows and Linux; until now it worked only on Mac. Seven voices that work offline were added. On Macs with less than 32 GB of memory the voice model does not load by itself."
+        "cs": "Bionic, agent pro otevřené modely od LM Studia, ve verzi 1.1.10 (29. října) rozšířil čtení odpovědí nahlas přímo v zařízení na Windows a Linux; dosud to šlo jen na Macu. Přibylo sedm hlasů, které fungují offline. Hlasový model se na Macích s méně než 32 GB paměti ve výchozím nastavení sám nenačítá.",
+        "en": "Bionic, LM Studio’s agent for open models, extended on-device reading of replies aloud to Windows and Linux in version 1.1.10 (October 29); until now it worked only on Mac. Seven offline voices were added. On Macs with less than 32 GB of memory the voice model does not load automatically by default."
       },
       "why": {
-        "cs": "Stačí aktualizovat LM Studio na Bionic 1.1.10; čtení se ovládá tlačítkem Read Aloud u zprávy. Funkce běží v zařízení, zdroj ale neuvádí požadavky na výkon počítače.",
-        "en": "Just update LM Studio to Bionic 1.1.10; reading is controlled by the Read Aloud button on a message. The feature runs on the device, but the source gives no hardware requirements."
+        "cs": "Aktualizuj Bionic (aplikaci LM Studia, ne samotné LM Studio) na 1.1.10; u zprávy je tlačítko Read Aloud. Požadavky na výkon počítače zdroj neuvádí, 32 GB se týká jen Maců.",
+        "en": "Update Bionic (an LM Studio app, not LM Studio itself) to 1.1.10; messages have a Read Aloud button. The source gives no hardware requirements; the 32 GB figure applies to Macs only."
       },
       "sources": [
         {
           "name": "LM Studio",
-          "url": "https://lmstudio.ai/changelog"
+          "url": "https://lmstudio.ai/changelog/bionic-v1.1.10"
         }
       ]
     }
@@ -395,8 +395,8 @@
         "en": "Meta delays new business terms to November 20, maybe longer"
       },
       "note": {
-        "cs": "Meta z obchodních podmínek vypustila slovo „trénovat“ (AI na obsahu zpravodajských webů na Facebooku a Instagramu), právníci ale pochybují; platit mají od 20. listopadu, odklad Meta čeká, pokud potrvá konzultace.",
-        "en": "Meta dropped “train” from its business terms (AI training on news sites’ content), but lawyers doubt it; effective November 20, though Meta expects another delay if consultations run on."
+        "cs": "Meta vypustila z nových obchodních podmínek pro zpravodajské weby na Facebooku a Instagramu slovo „trénovat“ (AI), právníci ale pochybují, že to trénování vylučuje. Platit mají od 20. listopadu, možná později.",
+        "en": "Meta removed “train” (AI) from its new business terms for news sites on Facebook and Instagram, but lawyers doubt that rules out training. Effective November 20, possibly later."
       },
       "sources": [
         {
@@ -417,8 +417,8 @@
         "en": "Claude Code drops fast mode for Opus 4.8"
       },
       "note": {
-        "cs": "Rychlý režim Opusu 4.8 je od 30. října zastaralý; 30. listopadu skončí a požadavky v něm skončí chybou, bez návratu k běžnému Opusu 4.8. Anthropic radí přejít na Opus 5.5.",
-        "en": "Opus 4.8 fast mode has been deprecated since October 30; on November 30 its requests start returning an error, with no fallback to standard Opus 4.8. Anthropic advises Opus 5.5."
+        "cs": "Rychlý režim Opusu 4.8 je od 30. října zastaralý, 30. listopadu zanikne; požadavky v něm pak vrátí chybu, ne běžný Opus 4.8. Anthropic radí přejít na Opus 5.5.",
+        "en": "Opus 4.8 fast mode is deprecated since October 30 and removed on November 30; requests then return an error, not standard Opus 4.8. Anthropic advises Opus 5.5."
       },
       "sources": [
         {
