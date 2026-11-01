@@ -496,6 +496,16 @@ a `used` přesné a nikdy záznamy nepřepisuj zpětně.
   **Jsou tam dvě záložky**: výchozí je **Bionic** (samostatný agent LM Studia, verze 1.1.x,
   trvalý odkaz `lmstudio.ai/changelog/bionic-v1.1.10`), vlastní aplikace LM Studio je na
   `lmstudio.ai/changelog/lmstudio` (0.4.x) — tip pojmenuj podle toho, komu změna patří.
+  **OpenAI**: HTML stránky `openai.com/index/…` jsou 403 a WebSearch na přesný titulek je
+  nevrací, ale RSS `openai.com/news/rss.xml` jde stáhnout a nese oficiální titulek, popis
+  a datum — to je T1 potvrzení, že oznámení vyšlo (stejně jako u blokovaných
+  `help.openai.com`); podrobnosti a čísla ber z T2, které z oznámení cituje, a do `sources`
+  dej oficiální URL jako první. **Microsoft 365 Copilot**
+  `learn.microsoft.com/en-us/microsoft-365/copilot/release-notes` (T1, název zdroje
+  „Microsoft Learn“; nejnovější datovaný blok je nahoře, každý záznam má kroky „Try this“).
+  **Hugging Face** `huggingface.co/blog/feed.xml`: když sweep hlásí 429, zkus feed za pár
+  minut ručně. WebSearch v režimu `extended` našel čerstvé pokrytí tam, kde `standard`
+  vrátil jen starší články — pro klíčového kandidáta ho zkus.
   Čistý text změn Claude Code je `raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md`
   (HTML stránka je plná JSONu). Záznam bez data v textu stránky = hledej datum v HTML,
   než ho vyřadíš jako „bez data". **Nová volba v nastavení, kterou dokumentace ještě
