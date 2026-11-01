@@ -2,8 +2,8 @@
   "date": "2026-11-01",
   "sample": false,
   "headline": {
-    "cs": "OpenAI zpřísňuje ChatGPT u zbraní a minulých útoků",
-    "en": "OpenAI tightens ChatGPT limits on weapons and past attacks"
+    "cs": "OpenAI zpřísňuje v ChatGPT ochranu před násilím",
+    "en": "OpenAI tightens ChatGPT’s protections against violence"
   },
   "items": [
     {
@@ -14,16 +14,16 @@
       "verified": true,
       "eventDate": "2026-10-30",
       "title": {
-        "cs": "OpenAI zpřísňuje ChatGPT u zbraní a minulých útoků",
-        "en": "OpenAI tightens ChatGPT limits on weapons and past attacks"
+        "cs": "OpenAI zpřísňuje v ChatGPT ochranu před násilím",
+        "en": "OpenAI tightens ChatGPT’s protections against violence"
       },
       "summary": {
-        "cs": "OpenAI 30. října oznámila přísnější ochranu před násilím v ChatGPT. Mladším 18 let nedá praktické informace o zbraních a zabezpečení ani u nevinných dotazů, všem omezí podrobnosti o minulých masových útocích. ChatGPT bude umět ukončit rozhovor, v němž se někdo upíná na násilí; opakování může vést k dočasnému pozastavení účtu. Zavádí se během několika týdnů.",
-        "en": "On October 30, OpenAI announced tougher violence protections in ChatGPT. Under-18s get no practical information on weapons and security systems, even for harmless-looking questions; everyone gets fewer details on past mass attacks. ChatGPT will be able to end chats where someone fixates on violence, and repeats may mean a temporary account pause. Rollout takes weeks."
+        "cs": "OpenAI 30. října oznámila přísnější ochranu před násilím v ChatGPT: mladším 18 let nedá praktické informace o zbraních a bezpečnostních systémech ani u nevinně vypadajících dotazů, všem omezí podrobnosti o minulých masových útocích. Bude umět ukončit rozhovor, v němž se někdo upíná na násilí; opakování může znamenat dočasné pozastavení účtu. Nasazení začne v příštích týdnech.",
+        "en": "On October 30, OpenAI announced tougher ChatGPT violence protections: under-18s get no practical information on weapons and security systems, even for harmless-looking questions; everyone gets fewer details on past mass attacks. It will be able to end chats where someone fixates on violence; repeats may mean a temporary account pause. Rollout starts in coming weeks."
       },
       "why": {
-        "cs": "Dospělí, které odhad věku omylem zařadí mezi mladistvé, si věk ověří přes Persona. OpenAI uvádí přes 200 oznámení policii ve třetím čtvrtletí a první Community Safety Report slíbila na začátek roku 2027.",
-        "en": "Adults wrongly placed in the teen experience can confirm their age through Persona. OpenAI cites 200-plus referrals to law enforcement in the third quarter and promises a first Community Safety Report in early 2027."
+        "cs": "Týká se i dospělých: o minulých masových útocích dostanou méně podrobností. Dospělí omylem zařazení mezi mladistvé si mohou věk ověřit přes Persona, partnera OpenAI. OpenAI uvádí přes 200 oznámení policii ve třetím čtvrtletí.",
+        "en": "It affects adults: they get fewer details on past mass attacks. Adults wrongly placed in the teen experience can confirm their age through Persona, OpenAI’s partner. OpenAI cites 200-plus law-enforcement referrals in the third quarter."
       },
       "sources": [
         {
@@ -43,16 +43,16 @@
       "verified": true,
       "eventDate": "2026-10-31",
       "title": {
-        "cs": "Cisco Talos: malware nechává AI hodnotit ukradená data",
+        "cs": "Cisco Talos: malware nechává AI seřadit oběti podle hodnoty",
         "en": "Cisco Talos: infostealer lets AI rank victims by value"
       },
       "summary": {
-        "cs": "Cisco Talos 31. října popsal infostealer Volta-Autodoxer: po krádeži hesel, relací a peněženek pošle data přes OpenRouter jazykovému modelu, který oběť seřadí podle toho, co lze zpeněžit. Podle Wired se nejdřív obrací na Claude Opus 4.6, při odmítnutí na Kimi K2 a Gemini 2.5 Flash. Talos nesledoval, zda se už používá v praxi.",
-        "en": "On October 31, Cisco Talos described the Volta-Autodoxer malware: after stealing passwords, sessions, and wallets, it sends the loot via OpenRouter to an AI model that ranks the victim by monetizable value. Per Wired, it tries Claude Opus 4.6, then Kimi K2 and Gemini 2.5 Flash if refused. Talos did not track real use."
+        "cs": "Cisco Talos 31. října popsal infostealer Volta-Autodoxer: po krádeži hesel, přihlášení k účtům a kryptopeněženek pošle data přes službu OpenRouter AI modelu, který oběť seřadí podle toho, co lze zpeněžit. Podle Wired se nejdřív obrací na Claude Opus 4.6, při odmítnutí na Kimi K2 a Gemini 2.5 Flash. Talos nesledoval, zda se používá v praxi.",
+        "en": "On October 31, Cisco Talos described Volta-Autodoxer malware: after stealing passwords, logins, and crypto wallets, it sends the loot via OpenRouter to an AI model that ranks the victim by monetizable value. Per Wired, it tries Claude Opus 4.6 first, then Kimi K2 and Gemini 2.5 Flash if refused. Talos did not track real use."
       },
       "why": {
-        "cs": "Volta cílí na Windows; takové malware se podle Wired často skrývá v padělaném softwaru. Při podezření Talos radí zrušit tokeny a změnit hesla; frázi krypto peněženky, která ležela v souboru, považuj za prozrazenou.",
-        "en": "Volta targets Windows; per Wired, such malware often hides in counterfeit software. If infected, Talos advises revoking tokens and changing passwords; treat a crypto wallet seed phrase that sat in a file as compromised."
+        "cs": "Volta cílí na Windows. Při podezření Talos radí zneplatnit přihlášení ke službám a změnit hesla; kryptopeněženku, jejíž obnovovací fráze ležela v souboru, považuj za prozrazenou a převeď prostředky do nové.",
+        "en": "Volta targets Windows. If infected, Talos advises revoking stolen logins to services and changing passwords; treat a crypto wallet whose recovery phrase sat in a file as compromised and move funds to a new one."
       },
       "sources": [
         {
@@ -72,16 +72,16 @@
       "verified": false,
       "eventDate": "2026-10-29",
       "title": {
-        "cs": "Poslanci chtějí od OpenAI odpovědi kvůli propuštěným výzkumníkům",
-        "en": "House Democrats press OpenAI over fired safety researchers"
+        "cs": "Podle The Next Web žádá 20 poslanců USA odpovědi od OpenAI",
+        "en": "Per The Next Web, 20 House Democrats press OpenAI for answers"
       },
       "summary": {
-        "cs": "Dvacet demokratických členů Sněmovny USA vyzvalo v dopise z 29. října šéfa OpenAI Sama Altmana, aby slíbil nepropouštět zaměstnance sdílející informace o bezpečnosti, a požaduje odpovědi do 13. listopadu. OpenAI podle dopisu pozastavila trénink a testování nejschopnějších modelů; tři výzkumníky podle firmy propustila pro porušení pravidel o citlivých informacích.",
-        "en": "In an October 29 letter, twenty Democratic House members asked OpenAI chief Sam Altman to promise not to fire staff who share safety information, with answers due November 13. Per the letter, OpenAI paused training and testing of its most capable models; the company says it fired three researchers over sensitive information."
+        "cs": "Podle The Next Web žádá 20 demokratických členů Sněmovny USA v dopise z 29. října Sama Altmana, aby slíbil nepropouštět oznamovatele; odpovědi chce do 13. listopadu. OpenAI podle dopisu pozastavila trénink, testování a používání nástrojů u nejschopnějších modelů; tři výzkumníky podle firmy propustila pro porušení pravidel o citlivých informacích, ti to popírají.",
+        "en": "Per The Next Web, 20 Democratic House members asked Sam Altman in an October 29 letter to promise not to fire whistleblowers, with answers due November 13. Per the letter, OpenAI paused training, testing, and tool use for its top models; it says it fired three researchers for breaking sensitive-information rules, which they deny."
       },
       "why": {
-        "cs": "Podle The Next Web OpenAI téhož dne popsala, že nové monitorování by incident v Hugging Face zachytilo o víc než 30 hodin dřív. Zatím jde o dopis poslanců a tvrzení firmy, ne o šetření.",
-        "en": "The Next Web says OpenAI described the same day how new monitoring would have caught the Hugging Face incident over 30 hours earlier. So far: a lawmakers’ letter and company claims, not an investigation."
+        "cs": "Zdroj je jen The Next Web, dopis jsme nenašli. Dopis počítá s trvající pauzou; The Next Web nevysvětluje, jak to souvisí s naší zprávou z 24. října, že trénink 1. října pokračoval.",
+        "en": "Our only source is The Next Web; we did not find the letter. It assumes the pause continues; The Next Web does not square this with our October 24 report that training resumed October 1."
       },
       "sources": [
         {
@@ -105,16 +105,16 @@
       "verified": true,
       "eventDate": "2026-10-22",
       "title": {
-        "cs": "Claude Platform je plně dostupná na Google Cloudu",
-        "en": "Full Claude Platform now generally available on Google Cloud"
+        "cs": "Claude Platform je na Google Cloudu v ostrém provozu",
+        "en": "Claude Platform is now generally available on Google Cloud"
       },
       "summary": {
-        "cs": "Anthropic 22. října uvedla do ostrého provozu službu Claude Models on Google Cloud (Anthropic managed): zákazníci Google Cloudu dostanou celou Claude Platform, nové funkce ve stejný den jako u Anthropicu, přihlášení přes Google Cloud IAM a jednu fakturu čerpanou z jejich závazku u Googlu. Zatím jsou koncové body USA a Global; zpracovatelem dat je Anthropic.",
-        "en": "On October 22, Anthropic made Claude Models on Google Cloud (Anthropic managed) generally available: Google Cloud customers get the full Claude Platform, new features the same day as at Anthropic, Google Cloud IAM sign-in, and one invoice drawn from their Google commitment. US and Global endpoints for now; Anthropic is the data processor."
+        "cs": "Anthropic 22. října uvedla do ostrého provozu službu Claude Models on Google Cloud (Anthropic managed): firmy s Google Cloudem dostanou celou Claude Platform, nové funkce ve stejný den jako u Anthropicu a přihlášení i jednu fakturu přes Google; spotřeba se počítá do jejich závazku u Googlu. Zatím jsou koncové body USA a Global.",
+        "en": "On October 22, Anthropic made Claude Models on Google Cloud (Anthropic managed) generally available: Google Cloud customers get the full Claude Platform, new features the same day as at Anthropic, and sign-in and one invoice through Google; usage counts toward their Google commitment. US and Global endpoints for now."
       },
       "why": {
-        "cs": "Kdo potřebuje Google jako zpracovatele dat nebo přísné regionální uložení dat, zůstane u varianty spravované Googlem. Rychlý režim Opusu 5.5 tu stojí 8 a 40 USD za milion tokenů.",
-        "en": "Those who need Google as data processor or strict regional data residency stay with the Google-managed option. Opus 5.5 fast mode costs $8 and $40 per million tokens there."
+        "cs": "Kdo potřebuje Google jako zpracovatele dat či regionální uložení dat, zůstane u varianty spravované Googlem. U varianty od Anthropicu stojí rychlý režim Opusu 5.5 8 USD (vstup) a 40 USD (výstup) za milion tokenů.",
+        "en": "If you need Google as data processor or strict regional data residency, stay with the Google-managed option. Opus 5.5 fast mode in the Anthropic-managed option costs $8 (input) and $40 (output) per million tokens."
       },
       "sources": [
         {
@@ -130,16 +130,16 @@
       "verified": true,
       "eventDate": "2026-10-28",
       "title": {
-        "cs": "XREAL AURA: brýle s Android XR, zatím bez Evropy",
-        "en": "Android XR glasses XREAL AURA, not in Europe yet"
+        "cs": "XREAL AURA: brýle s Android XR, objednávky ve čtyřech zemích",
+        "en": "XREAL AURA: Android XR glasses, orders open in four countries"
       },
       "summary": {
-        "cs": "Google a XREAL 28. října uvedly XREAL AURA, první kabelové brýle s Android XR: promítají aplikace do zorného pole, pomáhá Gemini a výkon obstarává kabelem připojený kapesní modul. Objednat jdou v USA, Kanadě a Koreji, od 2. listopadu v Japonsku, pro dospělé od 1 099 USD; Best Buy posílá od poloviny listopadu.",
-        "en": "On October 28, Google and XREAL launched XREAL AURA, the first wired glasses with Android XR: they project apps into your view, Gemini helps, and a cable-connected pocket puck does the processing. Orders open in the US, Canada, and Korea, and in Japan from November 2, for adults from $1,099; Best Buy ships from mid-November."
+        "cs": "Google a XREAL 28. října uvedly XREAL AURA, první kabelové brýle s Android XR: promítají aplikace do zorného pole, pomáhá Gemini, výkon dodává kapesní modul na kabelu. Objednat jdou v USA, Kanadě a Koreji, od 2. listopadu v Japonsku; úvodní cena od 1 099 USD platí do konce roku, Best Buy posílá od poloviny listopadu.",
+        "en": "On October 28, Google and XREAL launched XREAL AURA, the first wired glasses with Android XR: they project apps into your view, Gemini helps, a pocket puck does the processing. Orders open in the US, Canada, and Korea, and in Japan from November 2; launch price from $1,099 through year-end, Best Buy ships mid-November."
       },
       "why": {
-        "cs": "Mezi zeměmi není Evropa ani Česko. Brýle jde zapojit do notebooku přes USB-C a jeho obrazovka se objeví jako okno; Gemini vidí, na co se díváš.",
-        "en": "Europe and Czechia are not among the countries. The glasses plug into a laptop via USB-C and its screen shows up as a window; Gemini sees what you are looking at."
+        "cs": "Google mezi zeměmi neuvádí Evropu ani Česko; objednat smí jen lidé od 18 let. Notebook jde připojit USB-C kabelem s videovýstupem a jeho obrazovka se objeví jako okno; Gemini vidí, na co se díváš.",
+        "en": "Google lists neither Europe nor Czechia; buyers must be 18+. A laptop plugs in by a USB-C cable with video output and shows up as a window; Gemini sees what you look at."
       },
       "sources": [
         {
@@ -155,16 +155,16 @@
       "verified": true,
       "eventDate": "2026-10-30",
       "title": {
-        "cs": "Claude Code zhustí nečinný rozhovor i ve VS Code",
+        "cs": "Claude Code shrne dlouhý nečinný rozhovor i ve VS Code",
         "en": "Claude Code compacts idle chats in VS Code too"
       },
       "summary": {
-        "cs": "Claude Code od verze 2.1.314 (30. října) zhušťuje nečinný rozhovor i ve VS Code a na záložce Code v Claude Desktopu; v terminálu to umí od verze 2.1.299. Rozhovor delší než 200 000 tokenů se po nečinnosti shrne a shrnutí se použije při další zprávě, pokud vypršela paměť zadání (prompt cache).",
-        "en": "From version 2.1.314 (October 30), Claude Code compacts an idle conversation in VS Code and on the Code tab of Claude Desktop too; the terminal has done so since 2.1.299. A conversation over 200,000 tokens is summarized when idle, and the summary is used on your next message if the prompt cache has expired."
+        "cs": "Claude Code od verze 2.1.314 (30. října) umí i ve VS Code a na záložce Code v Claude Desktopu shrnout dlouhý rozhovor (přes 200 000 tokenů), který necháš ležet. Při další zprávě se použije shrnutí, pokud vypršela cache zadání, takže se rozhovor nezpracovává znovu celý. V terminálu to funguje od verze 2.1.299.",
+        "en": "From version 2.1.314 (October 30), Claude Code can summarize a long idle conversation (over 200,000 tokens) in VS Code and on the Code tab of Claude Desktop too. On your next message the summary is used if the prompt cache has expired, avoiding full reprocessing. In the terminal since 2.1.299."
       },
       "why": {
-        "cs": "Nic se nenastavuje, stačí verze 2.1.314 nebo novější. V terminálu jde funkci vypnout v /config; zda to platí i pro VS Code a Desktop, zdroj neuvádí.",
-        "en": "Nothing to set up; version 2.1.314 or newer is enough. In the terminal you can turn it off in /config; the source does not say whether that applies to VS Code and Desktop."
+        "cs": "Stačí verze 2.1.314 nebo novější; na Bedrocku, Vertexu, Foundry a bránách až po zapnutí hodinové cache zadání. V terminálu jde funkci vypnout v /config; pro VS Code a Desktop to zdroj neuvádí.",
+        "en": "2.1.314 or newer is enough; on Bedrock, Vertex, Foundry, and gateways only with the one-hour prompt cache on. In the terminal, turn it off in /config; for VS Code and Desktop the source is silent."
       },
       "sources": [
         {
@@ -180,16 +180,16 @@
       "verified": true,
       "eventDate": "2026-10-20",
       "title": {
-        "cs": "OpenAI API teď udrží cache zadání až 12 hodin",
-        "en": "OpenAI API can cache a prompt for 12 hours"
+        "cs": "OpenAI API teď udrží cache zadání aspoň 12 hodin",
+        "en": "OpenAI API can cache a prompt for at least 12 hours"
       },
       "summary": {
-        "cs": "OpenAI 20. října přidala do API volbu 12hodinové cache zadání: společný začátek promptu, třeba pokyny nebo podklady, zůstane uložený aspoň 12 hodin místo výchozích 30 minut. Zápis stojí 2,5násobek ceny vstupu místo 1,25násobku, čtení z cache zlomek. Platí v Responses API pro modely GPT-5.6 a novější.",
-        "en": "On October 20, OpenAI added a 12-hour prompt cache option to the API: a shared prompt prefix, such as instructions or reference material, stays cached for at least 12 hours instead of the default 30 minutes. Writes cost 2.5x the input price instead of 1.25x. It works in the Responses API for GPT-5.6 and later."
+        "cs": "OpenAI 20. října přidala do API (Responses API, modely GPT-5.6 a novější) volbu 12hodinové cache zadání: společný začátek promptu, třeba pokyny nebo podklady, zůstane uložený aspoň 12 hodin místo výchozích 30 minut. Delší uložení je dražší: zápis stojí 2,5násobek ceny vstupu místo 1,25násobku, čtení zlomek.",
+        "en": "On October 20, OpenAI added a 12-hour prompt cache option to the API (Responses API, GPT-5.6 and later): a shared prompt prefix, such as instructions or reference material, stays cached for at least 12 hours instead of the default 30 minutes. Writes cost 2.5x the input price instead of 1.25x; reads cost a fraction."
       },
       "why": {
-        "cs": "V požadavku nastav prompt_cache_options.ttl na „12h“. Hodí se na stálé pokyny a podklady, které během dne používáš opakovaně; prompt musí mít aspoň 1 024 tokenů.",
-        "en": "In the request set prompt_cache_options.ttl to “12h”. It suits stable instructions and reference material you reuse through the day; the prompt must be at least 1,024 tokens."
+        "cs": "Stálé pokyny a podklady dej na začátek a „12h“ nastav jen jejich breakpointu (prompt_cache_breakpoint.ttl); ttl celého požadavku platí i pro měnící se konec a zdražil by ho. Minimum promptu: 1 024 tokenů.",
+        "en": "Put stable instructions and reference material first and set “12h” only on their breakpoint (prompt_cache_breakpoint.ttl); the request-level ttl also covers the changing tail, making it pricier. Minimum prompt: 1,024 tokens."
       },
       "sources": [
         {
@@ -213,12 +213,12 @@
         "en": "Gemini posts a meeting recap straight into Google Chat"
       },
       "summary": {
-        "cs": "Google od 16. října zavádí shrnutí schůzek v Google Chatu: po hovoru s funkcí Take notes for me se do chatu schůzky samo vloží shrnutí, klíčová rozhodnutí, úkoly s řešiteli a odkazy na poznámky Gemini, nahrávku a přepis. Karta chodí tiše a smazat ji může kdokoli z účastníků.",
-        "en": "From October 16, Google is rolling out meeting recaps in Google Chat: after a call with Take notes for me on, the meeting chat automatically gets a summary, key decisions, action items with owners, and links to the Gemini notes, recording, and transcript. The card arrives silently and any participant can delete it."
+        "cs": "Google od 16. října (u plánovaného vydání od 27. října) zavádí shrnutí schůzek v Google Chatu: po hovoru s funkcí Take notes for me se do chatu schůzky samo vloží shrnutí, klíčová rozhodnutí, úkoly s řešiteli a odkazy na poznámky Gemini, nahrávku a přepis. Karta přijde bez upozornění a smazat ji může kdokoli z účastníků.",
+        "en": "From October 16 (October 27 for scheduled-release domains), Google rolls out meeting recaps in Google Chat: after a call with Take notes for me on, the chat gets a summary, key decisions, action items with owners, and links to the Gemini notes, recording, and transcript. The card arrives silently; any participant can delete it."
       },
       "why": {
-        "cs": "Nic se nenastavuje: stačí v Meetu zapnout Take notes for me. Platí pro Business a Enterprise Standard a Plus a Frontline Plus; nepošle se, když poznámky dostanou jen hostitelé a spolupořadatelé.",
-        "en": "Nothing to set up: turn on Take notes for me in Meet. It covers Business and Enterprise Standard and Plus and Frontline Plus; it is not posted if notes go only to hosts and co-hosts."
+        "cs": "Žádné nastavení není: shrnutí se objeví, když v Meetu běží Take notes for me. Platí pro Workspace Business Standard a Plus, Enterprise Standard a Plus a Frontline Plus se zapnutým Gemini; osobní účty oznámení neuvádí.",
+        "en": "No setting: the recap appears when Take notes for me is on in Meet. Covers Workspace Business Standard and Plus, Enterprise Standard and Plus, and Frontline Plus with Gemini on; personal accounts are not mentioned."
       },
       "sources": [
         {
@@ -238,12 +238,12 @@
         "en": "Copilot Notebooks now accept web links as sources"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání z 27. října uvádí, že Copilot Notebooks v Microsoft 365 Copilot umí použít jako referenci webový odkaz. Dosud notebook pracoval jen s dosavadními zdroji; teď do něj přidáš i obsah z webu a Copilot z něj vychází. Funkce je zatím označená jen pro web.",
-        "en": "In its October 27 release notes, Microsoft says Copilot Notebooks in Microsoft 365 Copilot can use a web link as a reference. Until now a notebook worked only with its existing sources; now you can add web content and Copilot builds on it. The feature is so far marked for the web only."
+        "cs": "Microsoft v poznámkách k vydání za 13.–27. října uvádí, že Copilot Notebooks v Microsoft 365 Copilot umí použít jako referenci webový odkaz. Dosud mezi referencemi odkazy na web nebyly; teď do notebooku přidáš obsah z webu a Copilot z něj vychází. Funkce je zatím označená jen pro webovou verzi.",
+        "en": "In its release notes for October 13–27, Microsoft says Copilot Notebooks in Microsoft 365 Copilot can use a web link as a reference. Until now, notebook references did not include web links; now you can add web content and Copilot builds on it. The feature is so far marked for the web version only."
       },
       "why": {
-        "cs": "Otevři Copilot Notebook, přidej referenci a vlož odkaz na webovou stránku; pak se Copilota ptej s tímto zdrojem. Poznámky k vydání licenci nezmiňují.",
-        "en": "Open a Copilot Notebook, add a reference, and paste a web link; then ask Copilot with this source. The release notes do not mention a license."
+        "cs": "Otevři Copilot Notebook, přidej referenci a vlož odkaz na webovou stránku; pak se Copilota ptej na obsah té stránky. Které licence Microsoft 365 Copilot funkci mají, poznámky k vydání neuvádějí.",
+        "en": "Open a Copilot Notebook, add a reference, and paste a web page link; then ask Copilot about that page. The release notes do not say which Microsoft 365 Copilot licenses include the feature."
       },
       "sources": [
         {
@@ -259,16 +259,16 @@
       "verified": true,
       "eventDate": "2026-10-05",
       "title": {
-        "cs": "Perplexity cituje i knihy a časopisy Wiley",
+        "cs": "Perplexity umí citovat knihy a časopisy Wiley",
         "en": "Perplexity can cite Wiley books and journals"
       },
       "summary": {
-        "cs": "Perplexity v changelogu z 5. října uvádí, že v Perplexity i v Computeru jde prohledávat a citovat časopisy a knihy nakladatelství Wiley, aniž by sis platil samostatné předplatné Wiley. Příklady z oznámení: vysvětlit podle knih Wiley ocenění firmy, nebo porovnat jejich rady pro vedení týmů na dálku.",
-        "en": "Perplexity’s October 5 changelog says you can search and cite Wiley journals and books in Perplexity and in Computer without a separate Wiley subscription. The announcement’s examples: explain how to value a company using Wiley books, or compare their advice on leading remote teams."
+        "cs": "Perplexity v přehledu novinek (changelog) z 5. října uvádí, že v Perplexity i v nástroji Computer jde prohledávat a citovat časopisy a knihy nakladatelství Wiley bez samostatného předplatného Wiley. Příklad z oznámení: porovnat rady knih Wiley o vedení týmů na dálku.",
+        "en": "Perplexity’s October 5 changelog says you can search and cite Wiley journals and books in Perplexity and in its Computer tool without a separate Wiley subscription. The announcement’s example: compare how Wiley management books recommend leading remote teams."
       },
       "why": {
-        "cs": "Do dotazu napiš, že má vycházet z knih Wiley (příklad z oznámení: Use Wiley books to explain how to value a company). Platí na všech plánech Perplexity, rozsah prémiového obsahu se liší.",
-        "en": "Tell it in your query to draw on Wiley books (the announcement’s example: Use Wiley books to explain how to value a company). Available on all Perplexity plans; the premium allowance varies by plan."
+        "cs": "V dotazu napiš, že má vycházet z knih Wiley, třeba „Use Wiley books to explain how to value a company with discounted cash flow, with a worked example“. Platí pro všechny plány, rozsah se liší.",
+        "en": "In your query, say it should draw on Wiley books, e.g. “Use Wiley books to explain how to value a company with discounted cash flow, with a worked example”. All plans; the allowance varies."
       },
       "sources": [
         {
@@ -298,32 +298,14 @@
       "tentative": true
     },
     {
-      "date": "2026-11-13",
-      "title": {
-        "cs": "Podle The Next Web má OpenAI odpovědět poslancům do 13. listopadu",
-        "en": "Per The Next Web, OpenAI must answer House Democrats by November 13"
-      },
-      "note": {
-        "cs": "Dopis, který vedl poslanec Greg Casar, žádá odpovědi na 11 sad otázek o propuštěných výzkumnících a pozastaveném testování modelů; dopis sám jsme nenašli.",
-        "en": "The letter led by Rep. Greg Casar seeks answers to 11 sets of questions on the fired researchers and paused model testing; we did not find the letter itself."
-      },
-      "sources": [
-        {
-          "name": "The Next Web",
-          "url": "https://thenextweb.com/news/openai-whistleblowers-house-democrats-casar-letter"
-        }
-      ],
-      "tentative": true
-    },
-    {
       "date": "2026-11-16",
       "title": {
         "cs": "GitHub vyřadí z Copilotu pro programátory tři modely",
         "en": "GitHub retires three models from GitHub Copilot"
       },
       "note": {
-        "cs": "16. listopadu GitHub z Copilotu vyřadí Claude Opus 4.8, Opus 5 a GPT-5.6 Terra (náhrady: Opus 5.5, GPT-6.1 Sol či GPT-6 Luna). Jednotlivcům s ročním předplatným Opus 4.8 zůstane.",
-        "en": "On November 16, GitHub Copilot drops Claude Opus 4.8, Opus 5, and GPT-5.6 Terra (replacements: Opus 5.5, GPT-6.1 Sol or GPT-6 Luna). Individual annual subscribers keep Opus 4.8."
+        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8 a Opus 5 (náhrada Opus 5.5) a GPT-5.6 Terra (GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane ročním předplatitelům.",
+        "en": "On November 16, GitHub retires Opus 4.8 and Opus 5 (replacement Opus 5.5) and GPT-5.6 Terra (GPT-6.1 Sol or GPT-6 Luna) from Copilot. Opus 4.8 stays for annual subscribers."
       },
       "sources": [
         {
@@ -341,7 +323,7 @@
       },
       "note": {
         "cs": "Agentura má do 16. listopadu poslat guvernérovi doporučení, zda by změny zákonů o bezpečnosti AI fungovaly, třeba nezávislí auditoři přímo u vývojářů AI nebo nouzový vypínač nejschopnějších modelů.",
-        "en": "By November 16 the agency must send the governor recommendations on AI safety-law changes, e.g. independent auditors at AI developers or a kill switch for top models."
+        "en": "By November 16 the agency must send the governor recommendations on whether AI safety-law changes would work, e.g. independent auditors at AI developers or a kill switch for top models."
       },
       "sources": [
         {
@@ -402,8 +384,8 @@
         "en": "Claude Code drops fast mode for Opus 4.8"
       },
       "note": {
-        "cs": "Rychlý režim Opusu 4.8 je od 30. října zastaralý, 30. listopadu zanikne; požadavky v něm pak vrátí chybu, ne běžný Opus 4.8. Anthropic radí přejít na Opus 5.5.",
-        "en": "Opus 4.8 fast mode is deprecated since October 30 and removed on November 30; requests then return an error, not standard Opus 4.8. Anthropic advises Opus 5.5."
+        "cs": "Podle changelogu Claude Code zanikne 30. listopadu rychlý režim (rychlejší výstup) Opusu 4.8; požadavky v něm pak vrátí chybu, ne běžný Opus 4.8. Anthropic radí přejít na Opus 5.5.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode (faster output) ends on November 30; requests then return an error, not standard Opus 4.8. Anthropic advises moving to Opus 5.5."
       },
       "sources": [
         {
@@ -423,8 +405,8 @@
         "en": "Anthropic files to go public on Nasdaq"
       },
       "note": {
-        "cs": "Od podání 26. října: Warrenová žádá od Anthropicu odpovědi do 3. listopadu; přihláška zatím nenabyla účinnosti a cena akcií není určena.",
-        "en": "Since the October 26 filing: Warren wants answers from Anthropic by November 3; the filing is not yet effective and no share price is set."
+        "cs": "Přihláška zatím není účinná a cena akcií není určena; podle The Next Web žádá Warrenová odpovědi do 3. listopadu.",
+        "en": "The filing is not yet effective and no share price is set; per The Next Web, Warren wants answers by November 3."
       }
     },
     {
@@ -435,8 +417,8 @@
         "en": "Google unveils Gemini 4 Carbon, first to cyber defenders"
       },
       "note": {
-        "cs": "Dostanou ho zatím jen bezpečnostní experti přes program Fairwind; datum pro ostatní Google neuvádí, vyzkoušet ho zatím nejde.",
-        "en": "Only security experts get it for now, through the Fairwind program; Google gives no date for others, and you cannot try it yet."
+        "cs": "K 29. říjnu ho mají jen vybraní bezpečnostní experti přes program Fairwind; datum pro ostatní Google neuvádí.",
+        "en": "As of October 29 only selected security experts have it, through the Fairwind program; Google gives no date for others."
       }
     },
     {
@@ -447,8 +429,8 @@
         "en": "Cursor’s marketplace served a backdoored Claude Code extension"
       },
       "note": {
-        "cs": "Podle Cursoru se na většině počítačů útočník přihlásit nemohl; Anthropic popírá napadení svých systémů, příčinu firmy nevysvětlily.",
-        "en": "Cursor says the attacker could not log in on most machines; Anthropic denies a compromise of its systems, and neither firm explained the cause."
+        "cs": "Kdo 29. října v Cursoru instaloval či aktualizoval Claude Code, má se řídit návodem Cursoru; podle Cursoru se útočník na většině počítačů nepřihlásil.",
+        "en": "If you installed or updated Claude Code in Cursor on October 29, follow Cursor’s guide; per Cursor, attackers couldn’t log in on most machines."
       }
     },
     {
@@ -459,8 +441,8 @@
         "en": "OpenAI releases GPT-6.1 Terra, a cheaper mid-tier model"
       },
       "note": {
-        "cs": "Střední model pro obraz a ovládání počítače; vývojáři platí 1 a 5 USD za milion tokenů, polovinu ceny GPT-6.1 Sol.",
-        "en": "A mid-tier model for vision and computer use; developers pay $1 and $5 per million tokens, half the price of GPT-6.1 Sol."
+        "cs": "Střední model pro obraz a ovládání počítače; vývojáři platí 1 USD za milion vstupních a 5 USD za milion výstupních tokenů, polovinu ceny GPT-6.1 Sol.",
+        "en": "Mid-tier model for vision and computer use; developers pay $1 per million input and $5 per million output tokens, half the price of GPT-6.1 Sol."
       }
     },
     {
@@ -483,8 +465,8 @@
         "en": "Apple Intelligence heads to China, testing from November 4"
       },
       "note": {
-        "cs": "Beta pro vývojáře má začít 4. listopadu, iOS 27.3 s funkcemi pro všechny v prosinci; asistent Siri AI v Číně chybí.",
-        "en": "The developer beta starts November 4, iOS 27.3 with the features for everyone in December; the Siri AI assistant is missing in China."
+        "cs": "Beta pro vývojáře má začít 4. listopadu, v prosinci přijdou funkce s iOS 27.3 (iPhone 15 Pro a novější); asistent Siri AI v Číně chybí.",
+        "en": "Developer beta starts November 4; features arrive with iOS 27.3 in December (iPhone 15 Pro and newer); the Siri AI assistant is missing in China."
       }
     }
   ]

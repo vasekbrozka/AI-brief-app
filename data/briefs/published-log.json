@@ -2003,7 +2003,7 @@
     {
       "slug": "2026-11-01-openai-chatgpt-violence-safeguards",
       "date": "2026-11-01",
-      "topic": "OpenAI 30. 10. (oficiální popis ve feedu OpenAI, T1; The Next Web 31. 10.): přísnější ochrana před násilím v ChatGPT — mladším 18 let bez praktických informací o zbraních a zabezpečení ani u nevinných dotazů, všem méně podrobností o minulých masových útocích, ChatGPT bude umět ukončit rozhovor s fixací na násilí a opakování může vést k dočasnému pozastavení účtu, zpřesněný odhad věku (dospělí zařazení omylem ověří věk přes Persona), přes 200 oznámení policii ve 3. čtvrtletí, první Community Safety Report začátkem 2027, zavádění v příštích týdnech — highlight; HTML stránka openai.com vrací 403"
+      "topic": "OpenAI 30. 10. (oficiální popis ve feedu OpenAI, T1; The Next Web 31. 10.): přísnější ochrana před násilím v ChatGPT — mladším 18 let bez praktických informací o zbraních a bezpečnostních systémech ani u nevinně vypadajících dotazů, všem méně podrobností o minulých masových útocích, ChatGPT bude umět ukončit rozhovor s fixací na násilí a opakování může vést k dočasnému pozastavení účtu, dospělí zařazení omylem mezi mladistvé si věk ověří přes Persona, přes 200 oznámení policii ve 3. čtvrtletí, nasazení začne v příštích týdnech — highlight; HTML stránka openai.com vrací 403"
     },
     {
       "slug": "2026-11-01-volta-infostealer-ai-victim-ranking",
@@ -2013,37 +2013,37 @@
     {
       "slug": "2026-11-01-house-democrats-press-openai-whistleblowers",
       "date": "2026-11-01",
-      "topic": "The Next Web 31. 10.: dopis 20 demokratických členů Sněmovny USA (vede Greg Casar) z 29. 10. — OpenAI má slíbit nepropouštět oznamovatele a do 13. 11. odpovědět na 11 sad otázek; podle dopisu pozastavila trénink, testování a nástroje u nejschopnějších modelů; firma tvrdí, že tři výzkumníky (Korbak, Balesni, Wang) propustila pro porušení pravidel o citlivých informacích; téhož dne OpenAI popsala nové monitorování (replay incidentu v Hugging Face: výstraha o víc než 30 hodin dřív) — jediný T2 zdroj, verified:false; navazuje na 2026-10-24"
+      "topic": "The Next Web 31. 10.: dopis 20 demokratických členů Sněmovny USA (vede Greg Casar) z 29. 10. — OpenAI má slíbit nepropouštět oznamovatele a do 13. 11. odpovědět na 11 sad otázek; podle dopisu pozastavila trénink, testování a používání nástrojů u nejschopnějších modelů; firma tvrdí, že tři výzkumníky (Korbak, Balesni, Wang) propustila pro porušení pravidel o citlivých informacích, ti to popírají; dopis sám se nenašel, v textu otevřeně uvedeno; upozorněno na rozpor s 24. 10. (trénink 1. 10. pokračoval) — jediný T2 zdroj, verified:false; navazuje na 2026-10-24. NEPUBLIKOVÁNO: příspěvek OpenAI z 29. 10. o monitorování (replay incidentu v Hugging Face, výstraha o víc než 30 hodin dřív)"
     },
     {
       "slug": "2026-11-01-claude-platform-google-cloud-ga",
       "date": "2026-11-01",
-      "topic": "Anthropic 22. 10. (claude.com, T1): Claude Models on Google Cloud (Anthropic managed) v ostrém provozu — celá Claude Platform přes Google Cloud IAM, jedna faktura z existujícího závazku, nové funkce ve stejný den, koncové body USA a Global, zpracovatelem dat Anthropic; varianta spravovaná Googlem zůstává; rychlý režim Opusu 5.5 za 8/40 USD za milion tokenů; modely Fable 5.1, Opus 5.5, Sonnet 5.5, Haiku 5.5"
+      "topic": "Anthropic 22. 10. (claude.com, T1): Claude Models on Google Cloud (Anthropic managed) v ostrém provozu — celá Claude Platform pro firmy s Google Cloudem, přihlášení i jedna faktura přes Google, spotřeba se počítá do závazku u Googlu, nové funkce ve stejný den, koncové body USA a Global; varianta spravovaná Googlem zůstává (pro zpracovatele dat Google a regionální uložení dat); rychlý režim Opusu 5.5 za 8 USD vstup a 40 USD výstup za milion tokenů; modely Fable 5.1, Opus 5.5, Sonnet 5.5, Haiku 5.5"
     },
     {
       "slug": "2026-11-01-xreal-aura-android-xr-glasses",
       "date": "2026-11-01",
-      "topic": "Google 28. 10. (T1): XREAL AURA — první kabelové brýle s Android XR (Gemini, kapesní modul se Snapdragon Reality Elite, zorné pole 70°, pod 95 g); objednávky USA, Kanada, Korea, od 2. 11. Japonsko, od 1 099 USD (úvodní cena do konce roku), od 18 let; Best Buy posílá od poloviny listopadu; Evropa mezi zeměmi není"
+      "topic": "Google 28. 10. (T1): XREAL AURA — první kabelové brýle s Android XR (Gemini, kapesní modul se Snapdragon Reality Elite, zorné pole 70°, pod 95 g); objednávky USA, Kanada, Korea, od 2. 11. Japonsko, od 18 let, úvodní cena od 1 099 USD do konce roku; Best Buy posílá od poloviny listopadu; Evropa mezi zeměmi není; notebook přes USB-C kabel s videovýstupem"
     },
     {
       "slug": "2026-11-01-tip-claude-code-idle-compaction-vscode-desktop",
       "date": "2026-11-01",
-      "topic": "tip: Claude Code 2.1.314 (30. 10.) — zhušťování nečinného rozhovoru (přes 200 000 tokenů) i ve VS Code a na záložce Code v Claude Desktopu, v terminálu od 2.1.299; nic se nenastavuje — z banky tipů"
+      "topic": "tip: Claude Code 2.1.314 (30. 10.) — shrnutí dlouhého nečinného rozhovoru (přes 200 000 tokenů) i ve VS Code a na záložce Code v Claude Desktopu, v terminálu od 2.1.299; na Bedrocku, Vertexu, Foundry a bránách až po zapnutí hodinové cache zadání; v terminálu jde vypnout v /config — z banky tipů"
     },
     {
       "slug": "2026-11-01-tip-openai-api-12-hour-prompt-cache",
       "date": "2026-11-01",
-      "topic": "tip: OpenAI API — 12hodinová cache zadání (20. 10.; Responses API, GPT-5.6 a novější; prompt_cache_options.ttl „12h“; zápis 2,5× ceny vstupu místo 1,25×; prompt aspoň 1 024 tokenů)"
+      "topic": "tip: OpenAI API — 12hodinová cache zadání (20. 10.; Responses API, GPT-5.6 a novější; minimální doba uložení 12 h místo 30 min; zápis 2,5× ceny vstupu místo 1,25×; ttl „12h“ nastavit jen breakpointu stálého začátku (prompt_cache_breakpoint.ttl), ttl celého požadavku platí i pro měnící se konec; prompt aspoň 1 024 tokenů)"
     },
     {
       "slug": "2026-11-01-tip-gemini-chat-meeting-recaps",
       "date": "2026-11-01",
-      "topic": "tip: Gemini — shrnutí schůzek rovnou v Google Chatu (16. 10.; Take notes for me; Business a Enterprise Standard a Plus, Frontline Plus) — z banky tipů"
+      "topic": "tip: Gemini — shrnutí schůzek rovnou v Google Chatu (od 16. 10. Rapid Release, od 27. 10. plánované vydání; Take notes for me; Workspace Business Standard a Plus, Enterprise Standard a Plus, Frontline Plus se zapnutým Gemini; žádné nastavení) — z banky tipů"
     },
     {
       "slug": "2026-11-01-tip-m365-copilot-notebooks-web-links",
       "date": "2026-11-01",
-      "topic": "tip: Microsoft 365 Copilot — Copilot Notebooks přijmou jako referenci i odkaz na web (poznámky k vydání z 27. 10., jen web)"
+      "topic": "tip: Microsoft 365 Copilot — Copilot Notebooks přijmou jako referenci i odkaz na web (poznámky k vydání za 13.–27. 10., jen web)"
     },
     {
       "slug": "2026-11-01-tip-perplexity-wiley-sources",
@@ -2051,5 +2051,5 @@
       "topic": "tip: Perplexity — citace knih a časopisů Wiley bez samostatného předplatného (changelog z 5. 10., všechny plány) — z banky tipů"
     }
   ],
-  "updated": "2026-11-01T03:27:15Z"
+  "updated": "2026-11-01T03:59:33Z"
 }

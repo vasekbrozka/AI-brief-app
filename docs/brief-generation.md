@@ -240,7 +240,17 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   oznámení** („má zadní vrátka" × „pokusil se je nainstalovat", číslo obětí, které
   v oznámení firmy není, patří médiu, které ho uvádí); (6) tvrzení, které stojí jen na
   zakázaném zdroji (oficiální příspěvek na x.com), do `sources` nepatří, ale text to přizná
-  („podle oznámení na X") a vynechá, co nepotvrdí žádný citovaný zdroj.
+  („podle oznámení na X") a vynechá, co nepotvrdí žádný citovaný zdroj;
+  (7) **neověřená položka (`verified: false`) nese výhradu jen v poli** — appka u karet žádný
+  štítek neukazuje, takže „Podle X…" (v titulku i v první větě), „dopis jsme nenašli" a druhá
+  strana (co k tomu říká obviněný nebo firma) musí stát v textu; neoznámenou věc, na kterou
+  zdroj sám jen odkazuje, nevysvětluj z polovičky (incident bez vysvětlení z `why` vypusť);
+  (8) **„nic se nenastavuje" / „stačí verze X"** v tipu — projdi u zdroje sekce Availability,
+  Rollout a podmínky (cloudové platformy, edice, postupné zavádění, nastavení platné pro
+  celý požadavek) a výjimky přiznej; **titulek „až N hodin" × zdroj „minimálně N hodin"** a
+  marketingové „plně / full" místo „v ostrém provozu" jsou nejčastější záměny významu;
+  (9) čtenář hlásí, že primární zdroj nešel načíst (403) → ověř to sám na vlastní kopii a
+  do deníku napiš výsledek; jeho „neověřeno" není ani potvrzení, ani vyvrácení.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.
@@ -324,6 +334,9 @@ v neděli místo nich tento kurátorovaný výběr (karty odkazovaných položek
   a co se od té doby stalo (když nic, jen proč to bylo důležité).
 - Vybírej napříč firmami a tématy; tipy do ohlédnutí nepatří. Hlavní zpráva soboty
   může být v ohlédnutí taky — nevylučují se.
+- `note` se v appce nezobrazuje (karty se berou podle `id`); drž ji přesnou a v mezích,
+  ale kontrola 5c jí nemusí věnovat víc času než kartám. Tvrzení, které v odkazované
+  položce není (např. termín, který je jen na radaru), do `note` nepatří.
 - **Žádná nová rešerše**: zdrojem jsou vlastní briefy v `data/briefs/`. Skript ověří,
   že `id` existují a titulky sedí.
 - V jiné dny pole vynech.

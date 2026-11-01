@@ -3900,16 +3900,16 @@
       "verified": true,
       "eventDate": "2026-10-05",
       "title": {
-        "cs": "Perplexity cituje i knihy a časopisy Wiley",
+        "cs": "Perplexity umí citovat knihy a časopisy Wiley",
         "en": "Perplexity can cite Wiley books and journals"
       },
       "summary": {
-        "cs": "Perplexity v changelogu z 5. října uvádí, že v Perplexity i v Computeru jde prohledávat a citovat časopisy a knihy nakladatelství Wiley, aniž by sis platil samostatné předplatné Wiley. Příklady z oznámení: vysvětlit podle knih Wiley ocenění firmy, nebo porovnat jejich rady pro vedení týmů na dálku.",
-        "en": "Perplexity’s October 5 changelog says you can search and cite Wiley journals and books in Perplexity and in Computer without a separate Wiley subscription. The announcement’s examples: explain how to value a company using Wiley books, or compare their advice on leading remote teams."
+        "cs": "Perplexity v přehledu novinek (changelog) z 5. října uvádí, že v Perplexity i v nástroji Computer jde prohledávat a citovat časopisy a knihy nakladatelství Wiley bez samostatného předplatného Wiley. Příklad z oznámení: porovnat rady knih Wiley o vedení týmů na dálku.",
+        "en": "Perplexity’s October 5 changelog says you can search and cite Wiley journals and books in Perplexity and in its Computer tool without a separate Wiley subscription. The announcement’s example: compare how Wiley management books recommend leading remote teams."
       },
       "why": {
-        "cs": "Do dotazu napiš, že má vycházet z knih Wiley (příklad z oznámení: Use Wiley books to explain how to value a company). Platí na všech plánech Perplexity, rozsah prémiového obsahu se liší.",
-        "en": "Tell it in your query to draw on Wiley books (the announcement’s example: Use Wiley books to explain how to value a company). Available on all Perplexity plans; the premium allowance varies by plan."
+        "cs": "V dotazu napiš, že má vycházet z knih Wiley, třeba „Use Wiley books to explain how to value a company with discounted cash flow, with a worked example“. Platí pro všechny plány, rozsah se liší.",
+        "en": "In your query, say it should draw on Wiley books, e.g. “Use Wiley books to explain how to value a company with discounted cash flow, with a worked example”. All plans; the allowance varies."
       },
       "sources": [
         {
@@ -4097,12 +4097,12 @@
         "en": "Gemini posts a meeting recap straight into Google Chat"
       },
       "summary": {
-        "cs": "Google od 16. října zavádí shrnutí schůzek v Google Chatu: po hovoru s funkcí Take notes for me se do chatu schůzky samo vloží shrnutí, klíčová rozhodnutí, úkoly s řešiteli a odkazy na poznámky Gemini, nahrávku a přepis. Karta chodí tiše a smazat ji může kdokoli z účastníků.",
-        "en": "From October 16, Google is rolling out meeting recaps in Google Chat: after a call with Take notes for me on, the meeting chat automatically gets a summary, key decisions, action items with owners, and links to the Gemini notes, recording, and transcript. The card arrives silently and any participant can delete it."
+        "cs": "Google od 16. října (u plánovaného vydání od 27. října) zavádí shrnutí schůzek v Google Chatu: po hovoru s funkcí Take notes for me se do chatu schůzky samo vloží shrnutí, klíčová rozhodnutí, úkoly s řešiteli a odkazy na poznámky Gemini, nahrávku a přepis. Karta přijde bez upozornění a smazat ji může kdokoli z účastníků.",
+        "en": "From October 16 (October 27 for scheduled-release domains), Google rolls out meeting recaps in Google Chat: after a call with Take notes for me on, the chat gets a summary, key decisions, action items with owners, and links to the Gemini notes, recording, and transcript. The card arrives silently; any participant can delete it."
       },
       "why": {
-        "cs": "Nic se nenastavuje: stačí v Meetu zapnout Take notes for me. Platí pro Business a Enterprise Standard a Plus a Frontline Plus; nepošle se, když poznámky dostanou jen hostitelé a spolupořadatelé.",
-        "en": "Nothing to set up: turn on Take notes for me in Meet. It covers Business and Enterprise Standard and Plus and Frontline Plus; it is not posted if notes go only to hosts and co-hosts."
+        "cs": "Žádné nastavení není: shrnutí se objeví, když v Meetu běží Take notes for me. Platí pro Workspace Business Standard a Plus, Enterprise Standard a Plus a Frontline Plus se zapnutým Gemini; osobní účty oznámení neuvádí.",
+        "en": "No setting: the recap appears when Take notes for me is on in Meet. Covers Workspace Business Standard and Plus, Enterprise Standard and Plus, and Frontline Plus with Gemini on; personal accounts are not mentioned."
       },
       "sources": [
         {
@@ -4491,16 +4491,16 @@
       "verified": true,
       "eventDate": "2026-10-30",
       "title": {
-        "cs": "Claude Code zhustí nečinný rozhovor i ve VS Code",
+        "cs": "Claude Code shrne dlouhý nečinný rozhovor i ve VS Code",
         "en": "Claude Code compacts idle chats in VS Code too"
       },
       "summary": {
-        "cs": "Claude Code od verze 2.1.314 (30. října) zhušťuje nečinný rozhovor i ve VS Code a na záložce Code v Claude Desktopu; v terminálu to umí od verze 2.1.299. Rozhovor delší než 200 000 tokenů se po nečinnosti shrne a shrnutí se použije při další zprávě, pokud vypršela paměť zadání (prompt cache).",
-        "en": "From version 2.1.314 (October 30), Claude Code compacts an idle conversation in VS Code and on the Code tab of Claude Desktop too; the terminal has done so since 2.1.299. A conversation over 200,000 tokens is summarized when idle, and the summary is used on your next message if the prompt cache has expired."
+        "cs": "Claude Code od verze 2.1.314 (30. října) umí i ve VS Code a na záložce Code v Claude Desktopu shrnout dlouhý rozhovor (přes 200 000 tokenů), který necháš ležet. Při další zprávě se použije shrnutí, pokud vypršela cache zadání, takže se rozhovor nezpracovává znovu celý. V terminálu to funguje od verze 2.1.299.",
+        "en": "From version 2.1.314 (October 30), Claude Code can summarize a long idle conversation (over 200,000 tokens) in VS Code and on the Code tab of Claude Desktop too. On your next message the summary is used if the prompt cache has expired, avoiding full reprocessing. In the terminal since 2.1.299."
       },
       "why": {
-        "cs": "Nic se nenastavuje, stačí verze 2.1.314 nebo novější. V terminálu jde funkci vypnout v /config; zda to platí i pro VS Code a Desktop, zdroj neuvádí.",
-        "en": "Nothing to set up; version 2.1.314 or newer is enough. In the terminal you can turn it off in /config; the source does not say whether that applies to VS Code and Desktop."
+        "cs": "Stačí verze 2.1.314 nebo novější; na Bedrocku, Vertexu, Foundry a bránách až po zapnutí hodinové cache zadání. V terminálu jde funkci vypnout v /config; pro VS Code a Desktop to zdroj neuvádí.",
+        "en": "2.1.314 or newer is enough; on Bedrock, Vertex, Foundry, and gateways only with the one-hour prompt cache on. In the terminal, turn it off in /config; for VS Code and Desktop the source is silent."
       },
       "sources": [
         {
@@ -4708,16 +4708,16 @@
       "verified": true,
       "eventDate": "2026-10-20",
       "title": {
-        "cs": "OpenAI API teď udrží cache zadání až 12 hodin",
-        "en": "OpenAI API can cache a prompt for 12 hours"
+        "cs": "OpenAI API teď udrží cache zadání aspoň 12 hodin",
+        "en": "OpenAI API can cache a prompt for at least 12 hours"
       },
       "summary": {
-        "cs": "OpenAI 20. října přidala do API volbu 12hodinové cache zadání: společný začátek promptu, třeba pokyny nebo podklady, zůstane uložený aspoň 12 hodin místo výchozích 30 minut. Zápis stojí 2,5násobek ceny vstupu místo 1,25násobku, čtení z cache zlomek. Platí v Responses API pro modely GPT-5.6 a novější.",
-        "en": "On October 20, OpenAI added a 12-hour prompt cache option to the API: a shared prompt prefix, such as instructions or reference material, stays cached for at least 12 hours instead of the default 30 minutes. Writes cost 2.5x the input price instead of 1.25x. It works in the Responses API for GPT-5.6 and later."
+        "cs": "OpenAI 20. října přidala do API (Responses API, modely GPT-5.6 a novější) volbu 12hodinové cache zadání: společný začátek promptu, třeba pokyny nebo podklady, zůstane uložený aspoň 12 hodin místo výchozích 30 minut. Delší uložení je dražší: zápis stojí 2,5násobek ceny vstupu místo 1,25násobku, čtení zlomek.",
+        "en": "On October 20, OpenAI added a 12-hour prompt cache option to the API (Responses API, GPT-5.6 and later): a shared prompt prefix, such as instructions or reference material, stays cached for at least 12 hours instead of the default 30 minutes. Writes cost 2.5x the input price instead of 1.25x; reads cost a fraction."
       },
       "why": {
-        "cs": "V požadavku nastav prompt_cache_options.ttl na „12h“. Hodí se na stálé pokyny a podklady, které během dne používáš opakovaně; prompt musí mít aspoň 1 024 tokenů.",
-        "en": "In the request set prompt_cache_options.ttl to “12h”. It suits stable instructions and reference material you reuse through the day; the prompt must be at least 1,024 tokens."
+        "cs": "Stálé pokyny a podklady dej na začátek a „12h“ nastav jen jejich breakpointu (prompt_cache_breakpoint.ttl); ttl celého požadavku platí i pro měnící se konec a zdražil by ho. Minimum promptu: 1 024 tokenů.",
+        "en": "Put stable instructions and reference material first and set “12h” only on their breakpoint (prompt_cache_breakpoint.ttl); the request-level ttl also covers the changing tail, making it pricier. Minimum prompt: 1,024 tokens."
       },
       "sources": [
         {
@@ -4743,12 +4743,12 @@
         "en": "Copilot Notebooks now accept web links as sources"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání z 27. října uvádí, že Copilot Notebooks v Microsoft 365 Copilot umí použít jako referenci webový odkaz. Dosud notebook pracoval jen s dosavadními zdroji; teď do něj přidáš i obsah z webu a Copilot z něj vychází. Funkce je zatím označená jen pro web.",
-        "en": "In its October 27 release notes, Microsoft says Copilot Notebooks in Microsoft 365 Copilot can use a web link as a reference. Until now a notebook worked only with its existing sources; now you can add web content and Copilot builds on it. The feature is so far marked for the web only."
+        "cs": "Microsoft v poznámkách k vydání za 13.–27. října uvádí, že Copilot Notebooks v Microsoft 365 Copilot umí použít jako referenci webový odkaz. Dosud mezi referencemi odkazy na web nebyly; teď do notebooku přidáš obsah z webu a Copilot z něj vychází. Funkce je zatím označená jen pro webovou verzi.",
+        "en": "In its release notes for October 13–27, Microsoft says Copilot Notebooks in Microsoft 365 Copilot can use a web link as a reference. Until now, notebook references did not include web links; now you can add web content and Copilot builds on it. The feature is so far marked for the web version only."
       },
       "why": {
-        "cs": "Otevři Copilot Notebook, přidej referenci a vlož odkaz na webovou stránku; pak se Copilota ptej s tímto zdrojem. Poznámky k vydání licenci nezmiňují.",
-        "en": "Open a Copilot Notebook, add a reference, and paste a web link; then ask Copilot with this source. The release notes do not mention a license."
+        "cs": "Otevři Copilot Notebook, přidej referenci a vlož odkaz na webovou stránku; pak se Copilota ptej na obsah té stránky. Které licence Microsoft 365 Copilot funkci mají, poznámky k vydání neuvádějí.",
+        "en": "Open a Copilot Notebook, add a reference, and paste a web page link; then ask Copilot about that page. The release notes do not say which Microsoft 365 Copilot licenses include the feature."
       },
       "sources": [
         {
