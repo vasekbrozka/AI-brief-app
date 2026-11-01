@@ -451,16 +451,6 @@
       "topic": "tip: ChatGPT od začátku září ukáže hlasový rozhovor na uzamčené obrazovce iPhonu a v Dynamic Islandu (Background Conversations)"
     },
     {
-      "slug": "2026-09-01-chatgpt-ads-billion-milestone",
-      "date": "2026-09-01",
-      "topic": "OpenAI 31.8. oznámilo, že ChatGPT Ads dosáhly ročního tempa 1 mld. USD (za necelých 200 dní); rozšíření do Indie/Evropy/MENA přes Ads Manager, cíl 2,5 mld. za rok"
-    },
-    {
-      "slug": "2026-09-01-tip-alexa-fire-tv-free",
-      "date": "2026-09-01",
-      "topic": "tip: Amazon od 19.8. nasazuje Alexa+ zdarma na všechna Fire TV v USA bez Prime (konverzační vyhledávání, chytrá domácnost, AI doporučení)"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -2009,7 +1999,57 @@
       "slug": "2026-10-31-tip-lmstudio-bionic-read-aloud-windows-linux",
       "date": "2026-10-31",
       "topic": "tip: LM Studio Bionic 1.1.10 (29. 10.; Bionic je agent LM Studia vedle aplikace LM Studio) — čtení odpovědí nahlas přímo v zařízení i na Windows a Linux (dosud jen Mac), sedm hlasů offline; na Macích s méně než 32 GB paměti se hlasový model ve výchozím nastavení sám nenačítá — z banky tipů"
+    },
+    {
+      "slug": "2026-11-01-openai-chatgpt-violence-safeguards",
+      "date": "2026-11-01",
+      "topic": "OpenAI 30. 10. (oficiální popis ve feedu OpenAI, T1; The Next Web 31. 10.): přísnější ochrana před násilím v ChatGPT — mladším 18 let bez praktických informací o zbraních a zabezpečení ani u nevinných dotazů, všem méně podrobností o minulých masových útocích, ChatGPT bude umět ukončit rozhovor s fixací na násilí a opakování může vést k dočasnému pozastavení účtu, zpřesněný odhad věku (dospělí zařazení omylem ověří věk přes Persona), přes 200 oznámení policii ve 3. čtvrtletí, první Community Safety Report začátkem 2027, zavádění v příštích týdnech — highlight; HTML stránka openai.com vrací 403"
+    },
+    {
+      "slug": "2026-11-01-volta-infostealer-ai-victim-ranking",
+      "date": "2026-11-01",
+      "topic": "Cisco Talos 31. 10. (Wired 31. 10.): infostealer Volta-Autodoxer (Windows, samomazací) po krádeži hesel, relací, peněženek a klíčů pošle data přes OpenRouter jazykovému modelu, který oběť seřadí podle zpeněžitelnosti; podle Wired výchozí Claude Opus 4.6, při odmítnutí Kimi K2 a Gemini 2.5 Flash; Talos nesledoval nasazení v praxi; rady Talosu: zrušit tokeny, změnit hesla, frázi peněženky uloženou v souboru považovat za prozrazenou; doména talosintelligence.com přidána mezi T1 v kontrole"
+    },
+    {
+      "slug": "2026-11-01-house-democrats-press-openai-whistleblowers",
+      "date": "2026-11-01",
+      "topic": "The Next Web 31. 10.: dopis 20 demokratických členů Sněmovny USA (vede Greg Casar) z 29. 10. — OpenAI má slíbit nepropouštět oznamovatele a do 13. 11. odpovědět na 11 sad otázek; podle dopisu pozastavila trénink, testování a nástroje u nejschopnějších modelů; firma tvrdí, že tři výzkumníky (Korbak, Balesni, Wang) propustila pro porušení pravidel o citlivých informacích; téhož dne OpenAI popsala nové monitorování (replay incidentu v Hugging Face: výstraha o víc než 30 hodin dřív) — jediný T2 zdroj, verified:false; navazuje na 2026-10-24"
+    },
+    {
+      "slug": "2026-11-01-claude-platform-google-cloud-ga",
+      "date": "2026-11-01",
+      "topic": "Anthropic 22. 10. (claude.com, T1): Claude Models on Google Cloud (Anthropic managed) v ostrém provozu — celá Claude Platform přes Google Cloud IAM, jedna faktura z existujícího závazku, nové funkce ve stejný den, koncové body USA a Global, zpracovatelem dat Anthropic; varianta spravovaná Googlem zůstává; rychlý režim Opusu 5.5 za 8/40 USD za milion tokenů; modely Fable 5.1, Opus 5.5, Sonnet 5.5, Haiku 5.5"
+    },
+    {
+      "slug": "2026-11-01-xreal-aura-android-xr-glasses",
+      "date": "2026-11-01",
+      "topic": "Google 28. 10. (T1): XREAL AURA — první kabelové brýle s Android XR (Gemini, kapesní modul se Snapdragon Reality Elite, zorné pole 70°, pod 95 g); objednávky USA, Kanada, Korea, od 2. 11. Japonsko, od 1 099 USD (úvodní cena do konce roku), od 18 let; Best Buy posílá od poloviny listopadu; Evropa mezi zeměmi není"
+    },
+    {
+      "slug": "2026-11-01-tip-claude-code-idle-compaction-vscode-desktop",
+      "date": "2026-11-01",
+      "topic": "tip: Claude Code 2.1.314 (30. 10.) — zhušťování nečinného rozhovoru (přes 200 000 tokenů) i ve VS Code a na záložce Code v Claude Desktopu, v terminálu od 2.1.299; nic se nenastavuje — z banky tipů"
+    },
+    {
+      "slug": "2026-11-01-tip-openai-api-12-hour-prompt-cache",
+      "date": "2026-11-01",
+      "topic": "tip: OpenAI API — 12hodinová cache zadání (20. 10.; Responses API, GPT-5.6 a novější; prompt_cache_options.ttl „12h“; zápis 2,5× ceny vstupu místo 1,25×; prompt aspoň 1 024 tokenů)"
+    },
+    {
+      "slug": "2026-11-01-tip-gemini-chat-meeting-recaps",
+      "date": "2026-11-01",
+      "topic": "tip: Gemini — shrnutí schůzek rovnou v Google Chatu (16. 10.; Take notes for me; Business a Enterprise Standard a Plus, Frontline Plus) — z banky tipů"
+    },
+    {
+      "slug": "2026-11-01-tip-m365-copilot-notebooks-web-links",
+      "date": "2026-11-01",
+      "topic": "tip: Microsoft 365 Copilot — Copilot Notebooks přijmou jako referenci i odkaz na web (poznámky k vydání z 27. 10., jen web)"
+    },
+    {
+      "slug": "2026-11-01-tip-perplexity-wiley-sources",
+      "date": "2026-11-01",
+      "topic": "tip: Perplexity — citace knih a časopisů Wiley bez samostatného předplatného (changelog z 5. 10., všechny plány) — z banky tipů"
     }
   ],
-  "updated": "2026-10-31T03:50:11Z"
+  "updated": "2026-11-01T03:27:15Z"
 }

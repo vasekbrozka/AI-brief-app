@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-31T03:50:11Z",
+  "updated": "2026-11-01T03:27:15Z",
   "briefs": [
+    {
+      "date": "2026-11-01",
+      "headline": {
+        "cs": "OpenAI zpřísňuje ChatGPT u zbraní a minulých útoků",
+        "en": "OpenAI tightens ChatGPT limits on weapons and past attacks"
+      },
+      "itemCount": 10
+    },
     {
       "date": "2026-10-31",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Anthropic commits equity to a public benefit fund"
       },
       "itemCount": 4
-    },
-    {
-      "date": "2026-10-18",
-      "headline": {
-        "cs": "Cursor přidal canvasy pro cloudové agenty",
-        "en": "Cursor adds canvases for cloud agents"
-      },
-      "itemCount": 1
     }
   ]
 }

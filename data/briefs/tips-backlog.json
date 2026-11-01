@@ -23,76 +23,6 @@
       "used": "2026-08-03"
     },
     {
-      "slug": "tip-gemini-app-linking",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": false,
-      "title": {
-        "cs": "Gemini propojíš s aplikacemi, které používáš",
-        "en": "Gemini links up with the apps you use"
-      },
-      "summary": {
-        "cs": "Ke Gemini si připojíš svoje oblíbené aplikace — třeba Dropbox, Zillow Rentals nebo Viator — a pak jedním zadáním vyřídíš práci napříč nimi, aniž bys mezi nimi přeskakoval. Google to přidal v červencové vlně novinek.",
-        "en": "You can link your favorite apps to Gemini — Dropbox, Zillow Rentals, or Viator among them — and then get work done across them from a single prompt instead of hopping between apps. Google added it in its July drop."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/"
-        }
-      ],
-      "added": "2026-08-01",
-      "used": "2026-08-02"
-    },
-    {
-      "slug": "tip-chatgpt-memory-dreaming",
-      "category": "tools",
-      "theme": "chatgpt",
-      "verified": false,
-      "title": {
-        "cs": "ChatGPT si tě pamatuje o poznání líp",
-        "en": "ChatGPT remembers you noticeably better"
-      },
-      "summary": {
-        "cs": "ChatGPT dostal novou paměť — lépe si drží, co o tobě ví, opravuje zastaralé údaje a zvládne toho udržet víc. OpenAI to zatím spustilo pro plány Plus a Pro v USA, další země a plány přijdou v dalších týdnech.",
-        "en": "ChatGPT got a new memory system — it holds on to what it knows about you better, fixes stale details, and keeps more of it. OpenAI started with Plus and Pro plans in the US; more countries and plans follow over the coming weeks."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/chatgpt-memory-dreaming/"
-        },
-        {
-          "name": "OpenAI",
-          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-        }
-      ],
-      "added": "2026-08-02",
-      "used": "2026-08-02"
-    },
-    {
-      "slug": "tip-copilot-excel-autosave",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": false,
-      "title": {
-        "cs": "Copilot v Excelu už nevyžaduje automatické ukládání",
-        "en": "Copilot in Excel no longer demands AutoSave"
-      },
-      "summary": {
-        "cs": "Copilot v Excelu teď funguje i v sešitech, kde nemáš zapnuté automatické ukládání — dřív ho to blokovalo. Když máš neuložené změny, Excel ti připomene AutoSave zapnout, ale můžeš pokračovat i bez něj. Microsoft to rolluje v srpnu.",
-        "en": "Copilot in Excel now works in workbooks with AutoSave turned off — it used to be blocked there. If you have unsaved changes, Excel reminds you to turn AutoSave on, but you can carry on without it. Microsoft is rolling this out in August."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        }
-      ],
-      "added": "2026-08-02",
-      "used": "2026-08-02"
-    },
-    {
       "slug": "tip-claude-agent-skills",
       "category": "tools",
       "theme": "claude",
@@ -3988,7 +3918,7 @@
         }
       ],
       "added": "2026-10-26",
-      "used": null
+      "used": "2026-11-01"
     },
     {
       "slug": "tip-perplexity-inline-visualizations",
@@ -4172,7 +4102,7 @@
       },
       "why": {
         "cs": "Nic se nenastavuje: stačí v Meetu zapnout Take notes for me. Platí pro Business a Enterprise Standard a Plus a Frontline Plus; nepošle se, když poznámky dostanou jen hostitelé a spolupořadatelé.",
-        "en": "Nothing to set up: just turn on Take notes for me in Meet. It covers Business and Enterprise Standard and Plus and Frontline Plus; it is not posted if notes go only to hosts and co-hosts."
+        "en": "Nothing to set up: turn on Take notes for me in Meet. It covers Business and Enterprise Standard and Plus and Frontline Plus; it is not posted if notes go only to hosts and co-hosts."
       },
       "sources": [
         {
@@ -4181,7 +4111,7 @@
         }
       ],
       "added": "2026-10-27",
-      "used": null
+      "used": "2026-11-01"
     },
     {
       "slug": "tip-chatgpt-icloud-mail-calendar",
@@ -4562,11 +4492,11 @@
       "eventDate": "2026-10-30",
       "title": {
         "cs": "Claude Code zhustí nečinný rozhovor i ve VS Code",
-        "en": "Claude Code compacts an idle chat in VS Code too"
+        "en": "Claude Code compacts idle chats in VS Code too"
       },
       "summary": {
         "cs": "Claude Code od verze 2.1.314 (30. října) zhušťuje nečinný rozhovor i ve VS Code a na záložce Code v Claude Desktopu; v terminálu to umí od verze 2.1.299. Rozhovor delší než 200 000 tokenů se po nečinnosti shrne a shrnutí se použije při další zprávě, pokud vypršela paměť zadání (prompt cache).",
-        "en": "From version 2.1.314 (October 30), Claude Code compacts an idle conversation in VS Code and on the Code tab of Claude Desktop too; the terminal has had it since version 2.1.299. A conversation over 200,000 tokens is summarized after it sits idle, and the summary is used on your next message if the prompt cache has expired."
+        "en": "From version 2.1.314 (October 30), Claude Code compacts an idle conversation in VS Code and on the Code tab of Claude Desktop too; the terminal has done so since 2.1.299. A conversation over 200,000 tokens is summarized when idle, and the summary is used on your next message if the prompt cache has expired."
       },
       "why": {
         "cs": "Nic se nenastavuje, stačí verze 2.1.314 nebo novější. V terminálu jde funkci vypnout v /config; zda to platí i pro VS Code a Desktop, zdroj neuvádí.",
@@ -4579,7 +4509,7 @@
         }
       ],
       "added": "2026-10-30",
-      "used": null
+      "used": "2026-11-01"
     },
     {
       "slug": "tip-github-copilot-security-extension",
@@ -4768,6 +4698,172 @@
         }
       ],
       "added": "2026-10-31",
+      "used": null
+    },
+    {
+      "slug": "tip-openai-api-12-hour-prompt-cache",
+      "category": "tools",
+      "theme": "chatgpt",
+      "added": "2026-11-01",
+      "verified": true,
+      "eventDate": "2026-10-20",
+      "title": {
+        "cs": "OpenAI API teď udrží cache zadání až 12 hodin",
+        "en": "OpenAI API can cache a prompt for 12 hours"
+      },
+      "summary": {
+        "cs": "OpenAI 20. října přidala do API volbu 12hodinové cache zadání: společný začátek promptu, třeba pokyny nebo podklady, zůstane uložený aspoň 12 hodin místo výchozích 30 minut. Zápis stojí 2,5násobek ceny vstupu místo 1,25násobku, čtení z cache zlomek. Platí v Responses API pro modely GPT-5.6 a novější.",
+        "en": "On October 20, OpenAI added a 12-hour prompt cache option to the API: a shared prompt prefix, such as instructions or reference material, stays cached for at least 12 hours instead of the default 30 minutes. Writes cost 2.5x the input price instead of 1.25x. It works in the Responses API for GPT-5.6 and later."
+      },
+      "why": {
+        "cs": "V požadavku nastav prompt_cache_options.ttl na „12h“. Hodí se na stálé pokyny a podklady, které během dne používáš opakovaně; prompt musí mít aspoň 1 024 tokenů.",
+        "en": "In the request set prompt_cache_options.ttl to “12h”. It suits stable instructions and reference material you reuse through the day; the prompt must be at least 1,024 tokens."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/api/docs/changelog"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/api/docs/guides/prompt-caching"
+        }
+      ],
+      "used": "2026-11-01"
+    },
+    {
+      "slug": "tip-m365-copilot-notebooks-web-links",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-11-01",
+      "verified": true,
+      "eventDate": "2026-10-27",
+      "title": {
+        "cs": "Copilot Notebooks přijmou jako zdroj i odkaz na web",
+        "en": "Copilot Notebooks now accept web links as sources"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 27. října uvádí, že Copilot Notebooks v Microsoft 365 Copilot umí použít jako referenci webový odkaz. Dosud notebook pracoval jen s dosavadními zdroji; teď do něj přidáš i obsah z webu a Copilot z něj vychází. Funkce je zatím označená jen pro web.",
+        "en": "In its October 27 release notes, Microsoft says Copilot Notebooks in Microsoft 365 Copilot can use a web link as a reference. Until now a notebook worked only with its existing sources; now you can add web content and Copilot builds on it. The feature is so far marked for the web only."
+      },
+      "why": {
+        "cs": "Otevři Copilot Notebook, přidej referenci a vlož odkaz na webovou stránku; pak se Copilota ptej s tímto zdrojem. Poznámky k vydání licenci nezmiňují.",
+        "en": "Open a Copilot Notebook, add a reference, and paste a web link; then ask Copilot with this source. The release notes do not mention a license."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "used": "2026-11-01"
+    },
+    {
+      "slug": "tip-claude-code-ultrathink-vscode",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-10-31",
+      "title": {
+        "cs": "Ultrathink ve VS Code spustí zadání na úrovni xhigh",
+        "en": "Ultrathink now runs at xhigh effort in VS Code"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.316 (31. října) spouští ve VS Code zadání s klíčovým slovem ultrathink na úrovni úsilí xhigh a v poli chatu ho zvýrazní duhově, stejně jako v terminálu. Nainstalovanou verzi zjistíš příkazem claude --version.",
+        "en": "From version 2.1.316 (October 31), Claude Code in VS Code runs a prompt containing the ultrathink keyword at xhigh effort and shows it in rainbow colors in the chat box, as in the terminal. Check your installed version with claude --version."
+      },
+      "why": {
+        "cs": "Do zadání napiš ultrathink, nic se nenastavuje. Vypnout klíčové slovo jde novou proměnnou CLAUDE_CODE_DISABLE_ULTRATHINK; poznámky k vydání neuvádějí hodnotu ani výchozí stav.",
+        "en": "Just write ultrathink in the prompt; nothing to set up. The new variable CLAUDE_CODE_DISABLE_ULTRATHINK turns the keyword off; the release notes give neither a value nor the default."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-11-01",
+      "used": null
+    },
+    {
+      "slug": "tip-m365-copilot-onenote-android-multimodal",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-10-27",
+      "title": {
+        "cs": "OneNote na Androidu zachytí zvuk, fotky i poznámky najednou",
+        "en": "OneNote on Android captures audio, photos, and notes together"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 27. října uvádí, že vícedruhové zachytávání v Copilot Notebooks v OneNote je nově i na Androidu; na iPhonu a iPadu už bylo. V jedné relaci přepíšeš zvuk, přidáš fotky a napíšeš poznámky; Copilot z toho vytvoří strukturovanou stránku s postřehy a uloží ji do zvoleného notebooku.",
+        "en": "In its October 27 release notes, Microsoft says multimodal capture in Copilot Notebooks in OneNote is now on Android too; it was already on iPhone and iPad. In one session you transcribe audio, add photos, and type notes; Copilot turns them into a structured page with insights and saves it to the notebook you choose."
+      },
+      "why": {
+        "cs": "V OneNote na Androidu otevři Copilot Notebook a spusť vícedruhové zachytávání (multimodal capture); hodí se na schůzky a tabule. Poznámky k vydání licenci neuvádějí.",
+        "en": "In OneNote on Android open a Copilot Notebook and start multimodal capture; it suits meetings and whiteboards. The release notes do not mention a license."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "added": "2026-11-01",
+      "used": null
+    },
+    {
+      "slug": "tip-m365-copilot-researcher-canva",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-10-27",
+      "title": {
+        "cs": "Researcher v Copilotu umí čerpat z Canvy",
+        "en": "Researcher in Copilot can now draw on Canva"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 27. října uvádí, že agent Researcher v Microsoft Copilotu podporuje konektor Canva: obsah z propojené Canvy můžeš zahrnout do rešerše, aniž přepínáš mezi aplikacemi. Funkce je zatím označená jen pro web.",
+        "en": "In its October 27 release notes, Microsoft says the Researcher agent in Microsoft Copilot supports the Canva connector: you can include content from a connected Canva account in your research without switching apps. The feature is so far marked for the web only."
+      },
+      "why": {
+        "cs": "V Researcheru spusť rešerši a zvol konektor Canva, pokud je u tebe dostupný. Poznámky licenci neuvádějí; konektor musí být v prostředí zapnutý.",
+        "en": "In Researcher start a research task and pick the Canva connector if it is available to you. The notes name no license; the connector must be enabled in your environment."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "added": "2026-11-01",
+      "used": null
+    },
+    {
+      "slug": "tip-openai-decisions-api-ga",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-10-22",
+      "title": {
+        "cs": "Decisions API od OpenAI je v ostrém provozu",
+        "en": "OpenAI’s Decisions API is now generally available"
+      },
+      "summary": {
+        "cs": "OpenAI 22. října uvedla Decisions API do ostrého provozu s modelem gpt-6-luna. Sdílený vstup jde ukládat do cache se slevou, otázky smějí obsahovat obrázky a strukturovaná data se předávají přímo jako input_json. Jeden požadavek nově zvládne až 400 otázek místo 200 ve veřejné betě.",
+        "en": "On October 22, OpenAI made the Decisions API generally available with gpt-6-luna. Shared input can be cached at a discount, questions may include images, and structured data is passed directly as input_json. One request now handles up to 400 questions instead of 200 in the public beta."
+      },
+      "why": {
+        "cs": "Je pro vývojáře: endpoint v1/decisions. Změny od veřejné bety shrnuje dokumentace; poznámka k vydání neuvádí ceny ani plány.",
+        "en": "For developers: the v1/decisions endpoint. The documentation lists the changes since the public beta; the release note gives no prices or plans."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/api/docs/changelog"
+        }
+      ],
+      "added": "2026-11-01",
       "used": null
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "terms": [
     {
       "id": "quantization",
@@ -1014,6 +1014,55 @@
       "short": {
         "cs": "Otevřená organizace, v níž odborníci a firmy domlouvají technické standardy internetu, třeba jak si počítače vyměňují data. Její dokumenty vznikají diskusí a konsenzem.",
         "en": "An open organization where experts and companies agree on technical internet standards, such as how computers exchange data. Its documents are produced through discussion and consensus."
+      }
+    },
+    {
+      "id": "infostealer",
+      "term": {
+        "cs": "Infostealer (malware na krádež údajů)",
+        "en": "Infostealer (data-stealing malware)"
+      },
+      "aliases": [
+        "infostealer",
+        "infostealeru",
+        "infostealerem",
+        "infostealery",
+        "infostealers"
+      ],
+      "short": {
+        "cs": "Škodlivý program, který z počítače potichu vybere uložená hesla, cookies, platební karty a další přihlašovací údaje a pošle je útočníkovi. Často se skrývá v padělaném nebo pirátském softwaru.",
+        "en": "Malware that quietly collects saved passwords, cookies, payment cards, and other login data from a computer and sends it to an attacker. It often hides in counterfeit or pirated software."
+      }
+    },
+    {
+      "id": "prompt-cache",
+      "term": {
+        "cs": "Cache zadání (prompt caching)",
+        "en": "Prompt cache"
+      },
+      "aliases": [
+        "cache zadání",
+        "cache promptu",
+        "prompt cache",
+        "prompt caching"
+      ],
+      "short": {
+        "cs": "Dočasné uložení opakovaného začátku zadání (pokynů, podkladů), aby ho model nemusel u dalších požadavků zpracovávat znovu. Je to rychlejší a levnější; po vypršení platnosti se zpracuje znovu.",
+        "en": "Temporary storage of a repeated prompt prefix (instructions, reference material) so the model need not reprocess it on later requests. It is faster and cheaper; after it expires, the prefix is processed again."
+      }
+    },
+    {
+      "id": "android-xr",
+      "term": {
+        "cs": "Android XR (brýle a headsety)",
+        "en": "Android XR (glasses and headsets)"
+      },
+      "aliases": [
+        "Android XR"
+      ],
+      "short": {
+        "cs": "Systém Googlu pro brýle a headsety, které promítají aplikace do prostoru před uživatelem (XR = rozšířená a virtuální realita). Běží na něm i Gemini, který vidí, na co se díváš.",
+        "en": "Google’s system for glasses and headsets that project apps into the space in front of you (XR = extended reality). Gemini runs on it too and can see what you are looking at."
       }
     }
   ]
