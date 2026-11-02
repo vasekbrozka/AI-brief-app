@@ -4273,12 +4273,12 @@
         "en": "Gemini shows topics as interactive layers"
       },
       "summary": {
-        "cs": "Google 28. října zavedl v aplikaci Gemini knihovnu „immersive explorations“, interaktivních scén, ve kterých téma procházíš po vrstvách od planetárních měřítek po molekuly a atomy, třeba obchodní stezky Hedvábné cesty nebo trysky letadla. Najdeš je na webu i v mobilu; do chatu mají přijít později.",
+        "cs": "Google 28. října zavedl v aplikaci Gemini knihovnu „immersive explorations“, interaktivních scén, ve kterých téma procházíš po vrstvách od planetárních měřítek po molekuly a atomy, třeba obchodní stezky Hedvábné cesty nebo tryskový motor. Najdeš je na webu i v mobilu; do chatu mají přijít později.",
         "en": "On October 28, Google added a library of immersive explorations to the Gemini app: interactive scenes where you move through a topic layer by layer, from planetary scales to molecules and atoms, such as Silk Road trade routes or a jet engine. They work on web and mobile; chat access follows."
       },
       "why": {
-        "cs": "Otevři gemini.google.com/immersive-explorations nebo v nabídce zvol Studenti; funguje i s osobním účtem Google. Čeština zatím mezi jazyky není, uvidíš angličtinu; nastavení pro uživatele ani správce neexistuje.",
-        "en": "Open gemini.google.com/immersive-explorations or choose Students in the menu; it works with a personal Google account too. Czech is not among the languages yet, so you get English; there is no user or admin setting."
+        "cs": "Otevři gemini.google.com/immersive-explorations nebo v nabídce zvol Studenti; funguje i s osobním účtem Google, nic se nezapíná. Čeština zatím mezi jazyky není, uvidíš angličtinu.",
+        "en": "Open gemini.google.com/immersive-explorations or choose Students in the menu; it works with a personal Google account too, and nothing needs turning on. Czech is not among the languages yet, so you get English."
       },
       "sources": [
         {
@@ -4470,16 +4470,16 @@
       "verified": true,
       "eventDate": "2026-10-28",
       "title": {
-        "cs": "Copilot v aplikaci GitHub projde varování z kontroly kódu",
-        "en": "Copilot in GitHub app works through code scanning alerts"
+        "cs": "Aplikace GitHub Copilot pomůže projít varování z kontroly kódu",
+        "en": "GitHub Copilot app helps work through code scanning alerts"
       },
       "summary": {
-        "cs": "GitHub 28. října uvedl ve veřejném náhledu rozšíření pro zabezpečení v aplikaci Copilot: ukáže otevřená varování z kontroly kódu (code scanning) podle závažnosti a Copilot je na požádání vysvětlí nebo opraví v lokální kopii, nic sám neodešle. Příkaz /security-review zkontroluje i tvoje rozpracované změny.",
-        "en": "On October 28, GitHub put a security extension for the Copilot app into public preview: it lists open code scanning alerts by severity, and Copilot explains or fixes them in your local copy on request, pushing nothing itself. The /security-review command also checks your work in progress."
+        "cs": "GitHub 28. října uvedl ve veřejném náhledu rozšíření pro zabezpečení v aplikaci GitHub Copilot: ukáže otevřená varování z kontroly kódu (code scanning) podle závažnosti a Copilot je na požádání vysvětlí nebo opraví v lokální kopii, nic sám neodešle. Příkaz /security-review zkontroluje i tvoje rozpracované změny.",
+        "en": "On October 28, GitHub put a security extension for the GitHub Copilot app into public preview: it lists open code scanning alerts by severity, and Copilot explains or fixes them in your local copy on request, pushing nothing itself. The /security-review command also checks your work in progress."
       },
       "why": {
-        "cs": "V terminálu spusť copilot plugin install github-security@awesome-copilot, nebo v aplikaci zvol Customize, vyhledej github-security a dej Install. U Business a Enterprise musí aplikaci povolit správce; soukromé repozitáře chtějí pro varování GitHub Code Security.",
-        "en": "Run copilot plugin install github-security@awesome-copilot in a terminal, or in the app choose Customize, search github-security, and click Install. Business and Enterprise admins must enable the app; private repositories need GitHub Code Security for alerts."
+        "cs": "Nainstaluj příkazem copilot plugin install github-security@awesome-copilot, nebo v aplikaci přes Customize. Vysvětlení, opravy i /security-review čerpají AI kredity jako běžný dotaz. U Business a Enterprise musí aplikaci povolit správce; soukromé repozitáře chtějí GitHub Code Security.",
+        "en": "Install via copilot plugin install github-security@awesome-copilot or the app’s Customize menu. Explain, Fix, and /security-review use AI credits like any prompt. Business and Enterprise admins must enable the app; private repositories need GitHub Code Security."
       },
       "sources": [
         {
@@ -4605,8 +4605,8 @@
       "verified": true,
       "eventDate": "2026-10-31",
       "title": {
-        "cs": "Subagenti Claude Code mohou mít vlastní úroveň úsilí",
-        "en": "Claude Code subagents get their own effort level"
+        "cs": "Claude Code: výchozí úsilí subagentů nastavíš proměnnou",
+        "en": "Claude Code: set subagents’ default effort with a variable"
       },
       "summary": {
         "cs": "Claude Code od verze 2.1.316 (31. října) umí proměnnou prostředí CLAUDE_CODE_SUBAGENT_EFFORT: nastaví úroveň úsilí, na které běží subagenti, když ji nic jiného neurčuje; dosud ji dědili z hlavní relace. Nainstalovanou verzi zjistíš příkazem claude --version.",
@@ -4748,12 +4748,12 @@
         "en": "OneNote on Android captures audio, photos, and notes together"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání za 13.–27. října uvádí, že vícedruhové zachytávání v Copilot Notebooks v OneNote je nově i na Androidu; na iPhonu a iPadu už bylo. V jedné relaci přepíšeš zvuk, přidáš fotky a napíšeš poznámky; Copilot z toho vytvoří strukturovanou stránku s postřehy a uloží ji do zvoleného notebooku.",
+        "cs": "Microsoft v poznámkách k vydání za 13.–27. října uvádí, že zachytávání zvuku, fotek a poznámek najednou (multimodal capture) v Copilot Notebooks v OneNote je nově i na Androidu; na iPhonu a iPadu už bylo. Copilot z přepisu zvuku, fotek a textu vytvoří strukturovanou stránku s postřehy a uloží ji do zvoleného notebooku.",
         "en": "In its release notes for October 13–27, Microsoft says multimodal capture in Copilot Notebooks in OneNote is now on Android too; iPhone and iPad already had it. In one session you transcribe audio, add photos, and type notes; Copilot turns them into a structured page with insights and saves it to the notebook you choose."
       },
       "why": {
-        "cs": "V OneNote na Androidu otevři Copilot Notebook a spusť vícedruhové zachytávání (multimodal capture); hodí se na schůzky a tabule. Poznámky k vydání licenci neuvádějí.",
-        "en": "In OneNote on Android open a Copilot Notebook and start multimodal capture; it suits meetings and whiteboards. The release notes do not mention a license."
+        "cs": "V OneNote na Androidu otevři Copilot Notebook a zvol zachytávání zvuku, fotek a poznámek najednou; hodí se na schůzky a tabule. Týká se Microsoft 365 Copilot; funkce se zavádí postupně, takže ji možná ještě neuvidíš.",
+        "en": "In OneNote on Android open a Copilot Notebook and capture audio, photos, and notes together; good for meetings and whiteboards. Applies to Microsoft 365 Copilot; rolls out gradually, so you may not see it yet."
       },
       "sources": [
         {
@@ -4830,12 +4830,12 @@
         "en": "LM Studio’s Bionic now has an in-app terminal"
       },
       "summary": {
-        "cs": "Bionic, agent pro otevřené modely od LM Studia, ve verzi 1.1.10 (29. října) zpřístupnil vestavěný terminál ve veřejných sestaveních. Přibyly nastavitelné profily shellu, samočinné spuštění obnovené relace po jejím výběru, čtečka obrazovky pro výstup terminálu a opravy zkratek a schránky.",
-        "en": "Bionic, LM Studio’s agent for open models, made its in-app terminal available in public builds with version 1.1.10 (October 29). It also gained configurable shell profiles, restored sessions that start automatically once selected, screen reader support for terminal output, and fixes for shortcuts and the clipboard."
+        "cs": "Bionic, aplikace od LM Studia, ve verzi 1.1.10 (29. října) zpřístupnil vestavěný terminál ve veřejných sestaveních. Přibyly nastavitelné profily shellu, samočinné spuštění obnovené relace po jejím výběru, čtečka obrazovky pro výstup terminálu a opravy zkratek a schránky.",
+        "en": "Bionic, an app from LM Studio, made its in-app terminal available in public builds with version 1.1.10 (October 29). It also gained configurable shell profiles, restored sessions that start automatically once selected, screen reader support for terminal output, and fixes for shortcuts and the clipboard."
       },
       "why": {
-        "cs": "Aktualizuj Bionic (aplikaci LM Studia, ne samotné LM Studio) na 1.1.10. Changelog neuvádí, kde se terminál otevírá ani jak se zapíná; hledej ho v aplikaci.",
-        "en": "Update Bionic (an LM Studio app, not LM Studio itself) to 1.1.10. The changelog does not say where the terminal opens or how to turn it on; look for it in the app."
+        "cs": "Aktualizuj Bionic (aplikaci LM Studia, ne samotné LM Studio) na 1.1.10. Changelog neuvádí, kde se terminál otevírá ani jak se zapíná; hledej ho v aplikaci. Tip z dnešního draftu vypadl po kontrole čtenáři: stejné vydání 1.1.10 už bylo tipem 31. 10. a zdroj neříká, kde terminál najít.",
+        "en": "Update Bionic (an LM Studio app, not LM Studio itself) to 1.1.10. The changelog does not say where the terminal opens or how to turn it on; look for it in the app. Dropped from the draft after review: the same 1.1.10 release was already a tip on October 31 and the source does not say where to find the terminal."
       },
       "sources": [
         {
@@ -4843,7 +4843,7 @@
           "url": "https://lmstudio.ai/changelog/bionic-v1.1.10"
         }
       ],
-      "used": "2026-11-02"
+      "used": null
     },
     {
       "slug": "tip-m365-copilot-powerpoint-attach-image",

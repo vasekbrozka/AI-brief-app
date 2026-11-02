@@ -2023,32 +2023,32 @@
     {
       "slug": "2026-11-02-chatgpt-codex-shared-usage-allowance",
       "date": "2026-11-02",
-      "topic": "OpenAI (nápověda, T1; BleepingComputer 1. 11.): od prosince jedna sdílená zásoba využití ChatGPT a Codexu u Plus, Pro a Business (tokeny; režim Instant se nepočítá; Settings > Usage; velikost zásoby a den neuvedeny); Chat a Work se začnou zkoušet jako jedno prostředí; Work a Codex u Pro 100/200/500 zdvojnásobeny 29. 10. — highlight; help.openai.com vrací 403, obsah potvrdilo vyhledávání a BleepingComputer. NEPUBLIKOVÁNO: limity počtu předplatných na kartu a zařízení (nápověda OpenAI + The Decoder)"
+      "topic": "OpenAI (nápověda, T1 — obsah z citací ve výsledcích vyhledávání a čtyřech webech; BleepingComputer 1. 11., e-mail předplatitelům): od prosince jedna sdílená zásoba využití ChatGPT a Codexu u Plus, Pro a Business (Instant se nepočítá; Settings > Usage; velikost zásoby a den začátku neuvedeny); v příštích týdnech test spojení Chat a Work na malé skupině; Work a Codex u Pro 100/200/500 zdvojnásobeny 29. 10. — highlight; help.openai.com vrací 403. NEPUBLIKOVÁNO: limity počtu předplatných na kartu a zařízení (nápověda OpenAI + The Decoder)"
     },
     {
       "slug": "2026-11-02-claude-code-game-recreation-rule",
       "date": "2026-11-02",
-      "topic": "Anthropic: kolem 27. 10. pravidlo v instrukcích Claude Code na Opusu 5.5 proti vytváření kopií konkrétních existujících her (Engadget: potvrdil Addy Osmani na X; Tom's Hardware a TNW: žádné oficiální oznámení, v changelogu nic; vývojáři hlásí odmítnutí i u zakázek pro majitele her)"
+      "topic": "Anthropic: pravidlo v instrukcích Clauda proti vytváření kopií konkrétních existujících her (Engadget 1. 11.: potvrdil Addy Osmani na X; TNW a Tom's Hardware: odmítnutí v Claude Code hlásí vývojáři od konce října, jeden i u zakázky pro majitele her; Anthropic nic neoznámil, v seznamu změn nic; „Opus 5.5“ a „27. 10.“ jsou jen tvrzení uživatelů)"
     },
     {
       "slug": "2026-11-02-deepseek-super-agent-prototype",
       "date": "2026-11-02",
-      "topic": "DeepSeek 31. 10.: open-source prototyp Super-agent (MIT) — proaktivní kódovací agent pro jedno úložiště na GitHubu, naslouchá GitHubu a volitelně Feishu, odpovídá pull requestem; výzkumný prototyp, ne produkt (TNW podle Bloombergu a SCMP; README repozitáře)"
+      "topic": "DeepSeek 31. 10.: open-source prototyp Super-agent (MIT) — kódovací agent pro jeden repozitář na GitHubu, naslouchá GitHubu a volitelně Feishu (pracovní chat ByteDance), na pokyn oprávněné osoby založí úkol a odpoví pull requestem; výzkumný prototyp (TNW podle Bloombergu, SCMP; README repozitáře: jedná jen na pokyn nebo podle pravidla týmu)"
     },
     {
       "slug": "2026-11-02-cma-meta-ai-terms-investigation",
       "date": "2026-11-02",
-      "topic": "Britský CMA 30. 10. (GOV.UK, TNW) zahájil šetření obchodních podmínek Mety (obsah z webů vydavatelů a firem pro vlastní produkty vč. AI); Meta podmínky 28. 10. pozastavila do konzultace (původně 20. 11.), dominantní postavení se teprve zkoumá; navazuje na 2026-10-21; z radaru proto odpadl termín 20. 11."
+      "topic": "Britský CMA 30. 10. (GOV.UK, TNW) zahájil šetření obchodních podmínek Mety (obsah z webů vydavatelů a firem pro vlastní produkty vč. AI); Meta podmínky 28. 10. pozastavila do konzultace (měly platit od 20. 11., původně od 30. 10.), dominantní postavení se teprve zkoumá; navazuje na 2026-10-21; z radaru proto odpadl termín 20. 11."
     },
     {
       "slug": "2026-11-02-android-bench-sonnet-5-5-leads",
       "date": "2026-11-02",
-      "topic": "Google 26. 10. aktualizoval Android Bench (30 úloh; dvojice model + nástroj): Claude Sonnet 5.5 (max) 40,0 % za 1 574,90 USD, Opus 5.5 37,3 %, GPT-6.1 Sol 29,3 % za 99,50 USD, Gemini 4 Argon až šestý (21,3 %); oficiální žebříček developer.android.com/bench + 9to5Google (ten Argon chybně uvádí jako pátý); doména android.com přidána mezi T1 v kontrole"
+      "topic": "Google 26. 10. aktualizoval Android Bench (30 úloh; dvojice model + nástroj): Claude Sonnet 5.5 (max) 40,0 %, cena celého testu 1 574,90 USD, Opus 5.5 37,3 %, GPT-6.1 Sol 29,3 % za 99,50 USD, Gemini 4 Argon (high) až šestý (21,3 %); intervaly spolehlivosti se překrývají; oficiální žebříček developer.android.com/bench + 9to5Google (ten Argon chybně uvádí jako pátý); doména android.com přidána mezi T1 v kontrole"
     },
     {
       "slug": "2026-11-02-openai-post-midterm-policy-push",
       "date": "2026-11-02",
-      "topic": "Axios + TechCrunch 1. 11.: OpenAI (Chris Lehane) chystá po volbách 3. 11. politickou a PR kampaň — povinná opatření pro nejvýkonnější AI („speed limits“), datová centra jako „AI compute campuses“, start v Kongresu od 9. 11.; zatím plán z rozhovoru, ne zveřejněné návrhy"
+      "topic": "Axios + TechCrunch 1. 11.: OpenAI (Chris Lehane) chystá po volbách do Kongresu 3. 11. politickou a PR kampaň — AI „rychlostní limity“ (podle Axiosu povinná opatření pro nejvýkonnější AI), datová centra jako „AI compute campuses“, podle Axiosu start od 9. 11.; zatím plán z rozhovoru, ne zveřejněné návrhy"
     },
     {
       "slug": "2026-11-02-tip-gemini-immersive-explorations",
@@ -2058,23 +2058,18 @@
     {
       "slug": "2026-11-02-tip-m365-copilot-onenote-android-multimodal",
       "date": "2026-11-02",
-      "topic": "tip: OneNote na Androidu — vícedruhové zachytávání (zvuk, fotky, poznámky) v Copilot Notebooks (poznámky k vydání za 13.–27. 10.; na iPhonu a iPadu už bylo) — z banky tipů"
+      "topic": "tip: OneNote na Androidu — zachytávání zvuku, fotek a poznámek najednou v Copilot Notebooks (poznámky k vydání za 13.–27. 10.; platí pro Microsoft 365 Copilot, zavádí se postupně; na iPhonu a iPadu už bylo) — z banky tipů"
     },
     {
       "slug": "2026-11-02-tip-github-copilot-security-extension",
       "date": "2026-11-02",
-      "topic": "tip: GitHub Copilot app — rozšíření pro zabezpečení (28. 10., veřejný náhled; copilot plugin install github-security@awesome-copilot; varování z code scanning, Explain/Fix v lokální kopii, /security-review; Business a Enterprise povolí správce, soukromé repozitáře chtějí Code Security) — z banky tipů"
+      "topic": "tip: GitHub Copilot app — rozšíření pro zabezpečení (28. 10., veřejný náhled; copilot plugin install github-security@awesome-copilot; varování z code scanning, Explain/Fix v lokální kopii, /security-review; čerpá AI kredity; Business a Enterprise povolí správce, soukromé repozitáře chtějí Code Security) — z banky tipů"
     },
     {
       "slug": "2026-11-02-tip-claude-code-subagent-effort-env",
       "date": "2026-11-02",
-      "topic": "tip: Claude Code 2.1.316 (31. 10.) — proměnná CLAUDE_CODE_SUBAGENT_EFFORT nastaví úroveň úsilí subagentů; povolené hodnoty zdroj neuvádí — z banky tipů"
-    },
-    {
-      "slug": "2026-11-02-tip-lmstudio-bionic-in-app-terminal",
-      "date": "2026-11-02",
-      "topic": "tip: LM Studio Bionic 1.1.10 (29. 10.) — vestavěný terminál ve veřejných sestaveních (profily shellu, obnovené relace, čtečka obrazovky); changelog neuvádí, kde se otevírá"
+      "topic": "tip: Claude Code 2.1.316 (31. 10.) — proměnná CLAUDE_CODE_SUBAGENT_EFFORT nastaví výchozí úroveň úsilí subagentů (vlastní úroveň šla zadat už od 2.1.292); povolené hodnoty zdroj neuvádí — z banky tipů"
     }
   ],
-  "updated": "2026-11-02T03:31:59Z"
+  "updated": "2026-11-02T03:57:47Z"
 }

@@ -250,7 +250,24 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   celý požadavek) a výjimky přiznej; **titulek „až N hodin" × zdroj „minimálně N hodin"** a
   marketingové „plně / full" místo „v ostrém provozu" jsou nejčastější záměny významu;
   (9) čtenář hlásí, že primární zdroj nešel načíst (403) → ověř to sám na vlastní kopii a
-  do deníku napiš výsledek; jeho „neověřeno" není ani potvrzení, ani vyvrácení.
+  do deníku napiš výsledek; jeho „neověřeno" není ani potvrzení, ani vyvrácení;
+  (10) **položka (hlavně highlight) stojí na T1 stránce, kterou čtenář ani sandbox neotevře**
+  (help.openai.com, axios.com…) — čtenář ji označí za neověřenou. Fakta z takové stránky
+  připiš v textu jmenovitě („Podle nápovědy OpenAI…“), totéž fakta z čitelného zdroje
+  („podle e-mailu, který viděl BleepingComputer“); detail, který nese jen blokovaný zdroj
+  („povinná opatření“, „Kongres od 9. 11.“ — Axios), připiš „Podle Axiosu…“ a hedge zdroje
+  („might rebrand“) nepřetvářej v jistotu; do deníku napiš, čím se obsah blokované stránky
+  potvrdil (citace ve výsledcích vyhledávání, víc webů, které ji citují);
+  (11) **hlášení jednoho uživatele není „vývojáři hlásí“** a „and/or“ či „allegedly“ ze zdroje
+  se nepřevádí na jistotu (Claude Code × Opus 5.5; datum „kolem 27. října“ patřilo jednomu
+  vývojáři); (12) **přesunutý termín napiš celou řadou** („měly platit od 20. listopadu,
+  původně od 30. října“) — „původně“ se bez kontroly zdroje splete s posledním odkladem;
+  (13) **titulek tipu slibuje novou schopnost, ale změnil se jen výchozí stav** (subagenti
+  uměli vlastní úroveň úsilí už dřív, nová je výchozí hodnota proměnnou) — projdi changelog
+  zpět; druhý tip ze stejného vydání nástroje jako tip z posledních dní (Bionic 1.1.10)
+  patří do banky, pokud nemá praktický návod; (14) u benchmarků přiznej ve `why` překrývající
+  se intervaly spolehlivosti a rozdílnou úroveň úsilí (max × high); „cena celého běhu“
+  testu není cena pro uživatele.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

@@ -18,12 +18,12 @@
         "en": "ChatGPT and Codex will share one limit from December"
       },
       "summary": {
-        "cs": "OpenAI podle nápovědy a e-mailu, který viděl BleepingComputer, od prosince spojí využití ChatGPT a Codexu u tarifů Plus, Pro a Business do jedné zásoby v tokenech; režim Instant se nepočítá. Chat a Work chce v příštích týdnech zkoušet jako jedno prostředí. Limity Work a Codexu u Pro 100, 200 a 500 zdvojnásobila 29. října.",
-        "en": "Per its help page and BleepingComputer, OpenAI will merge ChatGPT and Codex usage on Plus, Pro, and Business plans into one token-based pool from December; Instant chats do not count. Chat and Work will be tested together in coming weeks. On October 29 it doubled Work and Codex limits on Pro 100, 200, and 500."
+        "cs": "Podle nápovědy OpenAI se od prosince spojí využití ChatGPT a Codexu u tarifů Plus, Pro a Business do jedné zásoby. Podle e-mailu, který viděl BleepingComputer, chce OpenAI v příštích týdnech na malé skupině zkusit spojit chat s režimem Work. Limity Work a Codexu u Pro 100, 200 a 500 zdvojnásobila 29. října.",
+        "en": "Per OpenAI’s help page, ChatGPT and Codex usage on Plus, Pro, and Business plans will merge into one pool from December. Per an email BleepingComputer saw, OpenAI will test combining Chat with Work on a small group in coming weeks. On October 29 it doubled Work and Codex limits on Pro 100, 200, and 500."
       },
       "why": {
-        "cs": "Kdo programuje i chatuje, čerpá z jedné zásoby; zbývající limit uvidíš v Settings > Usage. Velikost zásoby ani přesný den začátku OpenAI neuvádí; Codex zůstane samostatným prostředím v desktopové aplikaci.",
-        "en": "If you code and chat, you draw from one pool; check what is left in Settings > Usage. OpenAI gives neither pool size nor start day; Codex stays a separate experience in the desktop app."
+        "cs": "Work je režim ChatGPT, který na zadání sestaví třeba web. Rychlé chaty (Instant) se nepočítají, složitější úkoly čerpají víc; velikost zásoby ani den začátku nejsou známé. Zbývající limit pak uvidíš v Settings > Usage.",
+        "en": "Work is the ChatGPT mode that builds, say, a website on request. Instant chats do not count, complex tasks draw more; pool size and start day are unknown. Remaining usage shows in Settings > Usage."
       },
       "sources": [
         {
@@ -41,18 +41,18 @@
       "kind": "news",
       "category": "tools",
       "verified": true,
-      "eventDate": "2026-10-27",
+      "eventDate": "2026-10-31",
       "title": {
-        "cs": "Claude Code odmítá vytvářet kopie existujících her",
-        "en": "Claude Code now refuses to recreate existing games"
+        "cs": "Claude dostal pravidlo proti kopiím existujících her",
+        "en": "Claude gets a rule against recreating existing games"
       },
       "summary": {
-        "cs": "Kolem 27. října přibylo do instrukcí Claude Code na Opusu 5.5 pravidlo, které má Clauda odvést od vytváření kopií konkrétních existujících her, i přejmenovaných. Podle Engadgetu to na X potvrdil Addy Osmani z Anthropicu: porušování cizího duševního vlastnictví zakazují zásady. Hry vlastní, žánrové nebo z vlastních podkladů mají fungovat dál.",
-        "en": "Around October 27, a rule was added to Claude Code’s Opus 5.5 instructions to steer Claude away from recreating specific existing games, even renamed ones. Per Engadget, Anthropic’s Addy Osmani confirmed it on X: infringing others’ IP violates the usage policy. Original, genre, and own-asset games should keep working."
+        "cs": "Podle Engadgetu (1. listopadu) přibylo do instrukcí Clauda pravidlo, které ho odvádí od vytváření kopií konkrétních existujících her, i přejmenovaných. Addy Osmani z Anthropicu to na X potvrdil: porušování cizího duševního vlastnictví zakazují zásady. Hry vlastní, žánrové nebo z vlastních podkladů mají fungovat dál.",
+        "en": "Per Engadget (November 1), a rule was added to Claude’s instructions that steers it away from recreating specific existing games, even renamed ones. Anthropic’s Addy Osmani confirmed it on X: infringing others’ IP violates the usage policy. Original, genre, and own-asset games should keep working."
       },
       "why": {
-        "cs": "Podle TNW vývojáři hlásí odmítnutí i u zakázek pro majitele her. Anthropic změnu oficiálně neoznámil, potvrdil ji jen zaměstnanec na X; v changelogu o ní nic není. Osmani slíbil pravidlo dál ladit.",
-        "en": "Per TNW, developers report refusals even on commissioned work for game owners. Anthropic made no official announcement, only an employee confirmed it on X; the changelog is silent. Osmani promised further tuning."
+        "cs": "Odmítnutí v Claude Code (programovací nástroj Anthropicu) hlásí vývojáři od konce října; The Next Web cituje jednoho, kterému to zablokovalo zakázku pro majitele her. Anthropic změnu neoznámil a v seznamu změn o ní nic není.",
+        "en": "Developers report refusals in Claude Code (Anthropic’s coding tool) since late October; The Next Web cites one whose work for a game’s owner was blocked. Anthropic made no announcement, and its release notes are silent."
       },
       "sources": [
         {
@@ -77,15 +77,15 @@
       "eventDate": "2026-10-31",
       "title": {
         "cs": "DeepSeek zveřejnil prototyp kódovacího agenta Super-agent",
-        "en": "DeepSeek open-sources Super-agent, a proactive coding agent"
+        "en": "DeepSeek open-sources Super-agent, a prototype coding agent"
       },
       "summary": {
-        "cs": "DeepSeek 31. října zveřejnil pod licencí MIT prototyp Super-agent, kódovacího agenta pro jedno úložiště na GitHubu. Naslouchá GitHubu a volitelně chatu Feishu; na pokyn oprávněné osoby založí úkol, zpracuje ho ve vlastní relaci a odpoví třeba pull requestem. DeepSeek ho označuje za výzkumný prototyp, ne za produkt; podle Bloombergu míří proti Claude Code.",
-        "en": "On October 31, DeepSeek released under the MIT license a prototype coding agent, Super-agent, for one GitHub repository. It watches GitHub and optionally Feishu; on authorized request it opens a task, works in its own session, and replies, e.g. with a pull request. DeepSeek calls it a research prototype; per Bloomberg it targets Claude Code."
+        "cs": "DeepSeek 31. října zveřejnil pod licencí MIT prototyp kódovacího agenta Super-agent pro jeden repozitář na GitHubu. Naslouchá GitHubu a volitelně pracovnímu chatu Feishu od ByteDance; na pokyn oprávněné osoby založí úkol a odpoví třeba pull requestem. DeepSeek ho označuje za výzkumný prototyp; podle Bloombergu míří proti Claude Code.",
+        "en": "On October 31, DeepSeek released under the MIT license Super-agent, a prototype coding agent for one GitHub repository. It watches GitHub and optionally Feishu (ByteDance’s work chat); on an authorized person’s request it opens a task and replies, e.g. with a pull request. DeepSeek calls it a research prototype; per Bloomberg it targets Claude Code."
       },
       "why": {
-        "cs": "Je to experiment pro týmy, které vyvíjejí na GitHubu. DeepSeek radí kód před použitím zkontrolovat a upravit, část nápadů z popisu ještě není hotová; instalaci ti má provést tvůj kódovací agent podle SETUP.md.",
-        "en": "An experiment for GitHub teams. DeepSeek advises reviewing and adapting the code before use; some ideas from its write-up are not built yet. Your own coding agent is meant to do the setup from SETUP.md."
+        "cs": "Je to experiment pro týmy, které vyvíjejí na GitHubu. DeepSeek radí kód před použitím zkontrolovat a upravit; část nápadů z jeho článku ještě není hotová, agent jedná jen na pokyn nebo podle pravidla týmu.",
+        "en": "An experiment for teams on GitHub. DeepSeek advises reviewing and adapting the code first; some ideas from its article are not built yet, and the agent acts only when asked or a team rule allows."
       },
       "sources": [
         {
@@ -105,16 +105,16 @@
       "verified": true,
       "eventDate": "2026-10-30",
       "title": {
-        "cs": "Britský úřad CMA šetří podmínky Mety",
-        "en": "UK regulator CMA investigates Meta’s content terms"
+        "cs": "Britský úřad CMA šetří obchodní podmínky Mety",
+        "en": "UK regulator CMA investigates Meta’s commercial terms"
       },
       "summary": {
-        "cs": "Britský úřad pro hospodářskou soutěž CMA 30. října zahájil šetření podmínek Mety, které by jí dovolily brát obsah z webů vydavatelů a firem pro vlastní produkty včetně AI, aniž by měli na výběr. Meta je 28. října pozastavila do konzultace (původně měly platit od 20. listopadu) a šetření nepovažuje za opodstatněné.",
-        "en": "On October 30, UK regulator CMA opened an investigation into Meta’s terms that could let it take content from publishers’ and businesses’ websites for its own products, including AI, without a choice for them. Meta paused them on October 28 for consultation (they were due November 20) and sees no grounds for the probe."
+        "cs": "Britský úřad pro hospodářskou soutěž CMA 30. října zahájil šetření obchodních podmínek Mety, které by jí dovolily brát obsah z webů vydavatelů a firem pro vlastní produkty včetně AI, aniž by měli na výběr. Meta podmínky 28. října pozastavila do konzultace (měly platit od 20. listopadu, původně od 30. října) a šetření nepovažuje za opodstatněné.",
+        "en": "On October 30, UK regulator CMA opened an investigation into Meta’s commercial terms, which could let it take content from publishers’ and businesses’ websites for its own products, including AI, without their choice. Meta paused the terms on October 28 for consultation (due November 20, originally October 30) and sees no grounds for the probe."
       },
       "why": {
-        "cs": "Týká se vydavatelů a firem na Facebooku a Instagramu. CMA teprve zjišťuje, zda má Meta dominantní postavení; o porušení zákona se nerozhodlo. Meta slíbila podmínky bez konzultace neměnit.",
-        "en": "It affects publishers and businesses on Facebook and Instagram. The CMA first checks whether Meta is dominant; no ruling on a breach yet. Meta promised not to change the terms without consultation."
+        "cs": "Týká se vydavatelů a firem, které služby Mety používají. CMA teprve zjišťuje, zda má Meta dominantní postavení; o porušení zákona se nerozhodlo. Meta slíbila podmínky bez konzultace neměnit.",
+        "en": "It affects publishers and businesses that use Meta’s services. The CMA first checks whether Meta is dominant; no ruling on a breach yet. Meta promised not to change the terms without consultation."
       },
       "sources": [
         {
@@ -142,16 +142,16 @@
       "verified": true,
       "eventDate": "2026-10-26",
       "title": {
-        "cs": "Android Bench: vede Sonnet 5.5, Gemini 4 Argon šestý",
-        "en": "Android Bench: Sonnet 5.5 leads, Gemini 4 Argon sixth"
+        "cs": "Google: v programování pro Android vede Claude Sonnet 5.5",
+        "en": "Google: Claude Sonnet 5.5 leads Android coding benchmark"
       },
       "summary": {
-        "cs": "Google 26. října aktualizoval Android Bench, srovnání AI modelů v programování pro Android na 30 úlohách. Vede Claude Sonnet 5.5 (úspěšnost 40,0 %), druhý je Opus 5.5 (37,3 %), šestý Gemini 4 Argon (21,3 %). GPT-6.1 Sol dosáhl 29,3 % za průměrných 99,50 USD na celý běh, vítěz za 1 574,90 USD.",
-        "en": "On October 26, Google updated Android Bench, a ranking of AI models at Android coding across 30 tasks. Claude Sonnet 5.5 leads (40.0% pass rate), Opus 5.5 is second (37.3%), Gemini 4 Argon sixth (21.3%). GPT-6.1 Sol reached 29.3% at an average $99.50 per full run, the winner at $1,574.90."
+        "cs": "Google 26. října aktualizoval Android Bench, srovnání AI modelů v programování pro Android na 30 úlohách. Vede Claude Sonnet 5.5 (úspěšnost 40,0 %), druhý je Opus 5.5 (37,3 %), šestý Gemini 4 Argon (21,3 %). Celý test vyšel Sonnetu 5.5 na 1 574,90 USD, GPT-6.1 Sol (29,3 %) na 99,50 USD.",
+        "en": "On October 26, Google updated Android Bench, a ranking of AI models at Android coding across 30 tasks. Claude Sonnet 5.5 leads (40.0% pass rate), Opus 5.5 is second (37.3%), Gemini 4 Argon sixth (21.3%). The full test cost Sonnet 5.5 $1,574.90, GPT-6.1 Sol (29.3%) $99.50."
       },
       "why": {
-        "cs": "Měří se dvojice model a nástroj (Claude Code, Codex, Antigravity SDK), takže jde o srovnání celé sestavy. Nejlepší výsledek je zároveň nejdražší; GPT-6.1 Sol vyšel levněji než zbytek první pětky.",
-        "en": "The ranking scores model–tool pairs (Claude Code, Codex, Antigravity SDK), so it compares whole setups. The top result is also the costliest; GPT-6.1 Sol came in cheaper than the rest of the top five."
+        "cs": "Měří se dvojice model a nástroj (Claude Code, Codex, Antigravity SDK). Intervaly spolehlivosti se překrývají, pořadí je tedy orientační; Gemini 4 Argon se měřil na úrovni high, první tři modely na max.",
+        "en": "The ranking scores model–tool pairs (Claude Code, Codex, Antigravity SDK). Confidence intervals overlap, so the order is indicative; Gemini 4 Argon was run at high effort, the top three models at max."
       },
       "sources": [
         {
@@ -171,16 +171,16 @@
       "verified": true,
       "eventDate": "2026-11-01",
       "title": {
-        "cs": "OpenAI chystá po volbách politickou kampaň",
+        "cs": "OpenAI chystá po volbách do Kongresu politickou kampaň",
         "en": "OpenAI plans a post-midterm policy and PR push"
       },
       "summary": {
-        "cs": "Podle Axiosu a TechCrunche (1. listopadu) chce OpenAI po volbách 3. listopadu spustit politickou a PR kampaň. Ředitel pro globální záležitosti Chris Lehane počítá s návrhy povinných opatření pro nejvýkonnější AI, které nazývá „rychlostní limity“, a s přejmenováním datových center na „AI compute campuses“. Začít má v Kongresu od 9. listopadu.",
-        "en": "Per Axios and TechCrunch (November 1), OpenAI plans a policy and PR campaign after the November 3 midterms. Global affairs chief Chris Lehane wants mandatory safeguards on the most powerful AI, which he calls “speed limits,” and data centers rebranded as “AI compute campuses.” It is due to start in Congress from November 9."
+        "cs": "Podle Axiosu a TechCrunche (1. listopadu) chystá OpenAI po volbách do Kongresu USA 3. listopadu politickou a PR kampaň. Ředitel pro globální záležitosti Chris Lehane v rozhovoru pro Axios mluvil o návrzích včetně AI „rychlostních limitů“ a o přejmenování datových center na „AI compute campuses“. Podle Axiosu má začít od 9. listopadu.",
+        "en": "Per Axios and TechCrunch (November 1), OpenAI is preparing a policy and PR campaign after the November 3 US midterms. Global affairs chief Chris Lehane told Axios of proposals including AI “speed limits” and rebranding data centers as “AI compute campuses.” Per Axios, it is due to start on November 9."
       },
       "why": {
-        "cs": "Ukazuje, co bude OpenAI v Kongresu prosazovat a jak chce změnit vnímání nepopulárních datových center. Zatím jde o plán z rozhovoru pro Axios, ne o zveřejněné návrhy.",
-        "en": "It shows what OpenAI will push in Congress and how it wants to change views of unpopular data centers. So far this is a plan from an Axios interview, not published proposals."
+        "cs": "Kampaň ukáže, jaká pravidla pro AI bude OpenAI v Kongresu prosazovat a jak chce změnit pohled na nepopulární datová centra. Zatím jde o plán z rozhovoru, ne o zveřejněné návrhy.",
+        "en": "The campaign will show what AI rules OpenAI pushes in Congress and how it wants to change views of unpopular data centers. So far it is a plan from an interview, not published proposals."
       },
       "sources": [
         {
@@ -204,12 +204,12 @@
         "en": "Gemini shows topics as interactive layers"
       },
       "summary": {
-        "cs": "Google 28. října zavedl v aplikaci Gemini knihovnu „immersive explorations“, interaktivních scén, ve kterých téma procházíš po vrstvách od planetárních měřítek po molekuly a atomy, třeba obchodní stezky Hedvábné cesty nebo trysky letadla. Najdeš je na webu i v mobilu; do chatu mají přijít později.",
+        "cs": "Google 28. října zavedl v aplikaci Gemini knihovnu „immersive explorations“, interaktivních scén, ve kterých téma procházíš po vrstvách od planetárních měřítek po molekuly a atomy, třeba obchodní stezky Hedvábné cesty nebo tryskový motor. Najdeš je na webu i v mobilu; do chatu mají přijít později.",
         "en": "On October 28, Google added a library of immersive explorations to the Gemini app: interactive scenes where you move through a topic layer by layer, from planetary scales to molecules and atoms, such as Silk Road trade routes or a jet engine. They work on web and mobile; chat access follows."
       },
       "why": {
-        "cs": "Otevři gemini.google.com/immersive-explorations nebo v nabídce zvol Studenti; funguje i s osobním účtem Google. Čeština zatím mezi jazyky není, uvidíš angličtinu; nastavení pro uživatele ani správce neexistuje.",
-        "en": "Open gemini.google.com/immersive-explorations or choose Students in the menu; it works with a personal Google account too. Czech is not among the languages yet, so you get English; there is no user or admin setting."
+        "cs": "Otevři gemini.google.com/immersive-explorations nebo v nabídce zvol Studenti; funguje i s osobním účtem Google, nic se nezapíná. Čeština zatím mezi jazyky není, uvidíš angličtinu.",
+        "en": "Open gemini.google.com/immersive-explorations or choose Students in the menu; it works with a personal Google account too, and nothing needs turning on. Czech is not among the languages yet, so you get English."
       },
       "sources": [
         {
@@ -233,12 +233,12 @@
         "en": "OneNote on Android captures audio, photos, and notes together"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání za 13.–27. října uvádí, že vícedruhové zachytávání v Copilot Notebooks v OneNote je nově i na Androidu; na iPhonu a iPadu už bylo. V jedné relaci přepíšeš zvuk, přidáš fotky a napíšeš poznámky; Copilot z toho vytvoří strukturovanou stránku s postřehy a uloží ji do zvoleného notebooku.",
+        "cs": "Microsoft v poznámkách k vydání za 13.–27. října uvádí, že zachytávání zvuku, fotek a poznámek najednou (multimodal capture) v Copilot Notebooks v OneNote je nově i na Androidu; na iPhonu a iPadu už bylo. Copilot z přepisu zvuku, fotek a textu vytvoří strukturovanou stránku s postřehy a uloží ji do zvoleného notebooku.",
         "en": "In its release notes for October 13–27, Microsoft says multimodal capture in Copilot Notebooks in OneNote is now on Android too; iPhone and iPad already had it. In one session you transcribe audio, add photos, and type notes; Copilot turns them into a structured page with insights and saves it to the notebook you choose."
       },
       "why": {
-        "cs": "V OneNote na Androidu otevři Copilot Notebook a spusť vícedruhové zachytávání (multimodal capture); hodí se na schůzky a tabule. Poznámky k vydání licenci neuvádějí.",
-        "en": "In OneNote on Android open a Copilot Notebook and start multimodal capture; it suits meetings and whiteboards. The release notes do not mention a license."
+        "cs": "V OneNote na Androidu otevři Copilot Notebook a zvol zachytávání zvuku, fotek a poznámek najednou; hodí se na schůzky a tabule. Týká se Microsoft 365 Copilot; funkce se zavádí postupně, takže ji možná ještě neuvidíš.",
+        "en": "In OneNote on Android open a Copilot Notebook and capture audio, photos, and notes together; good for meetings and whiteboards. Applies to Microsoft 365 Copilot; rolls out gradually, so you may not see it yet."
       },
       "sources": [
         {
@@ -254,16 +254,16 @@
       "verified": true,
       "eventDate": "2026-10-28",
       "title": {
-        "cs": "Copilot v aplikaci GitHub projde varování z kontroly kódu",
-        "en": "Copilot in GitHub app works through code scanning alerts"
+        "cs": "Aplikace GitHub Copilot pomůže projít varování z kontroly kódu",
+        "en": "GitHub Copilot app helps work through code scanning alerts"
       },
       "summary": {
-        "cs": "GitHub 28. října uvedl ve veřejném náhledu rozšíření pro zabezpečení v aplikaci Copilot: ukáže otevřená varování z kontroly kódu (code scanning) podle závažnosti a Copilot je na požádání vysvětlí nebo opraví v lokální kopii, nic sám neodešle. Příkaz /security-review zkontroluje i tvoje rozpracované změny.",
-        "en": "On October 28, GitHub put a security extension for the Copilot app into public preview: it lists open code scanning alerts by severity, and Copilot explains or fixes them in your local copy on request, pushing nothing itself. The /security-review command also checks your work in progress."
+        "cs": "GitHub 28. října uvedl ve veřejném náhledu rozšíření pro zabezpečení v aplikaci GitHub Copilot: ukáže otevřená varování z kontroly kódu (code scanning) podle závažnosti a Copilot je na požádání vysvětlí nebo opraví v lokální kopii, nic sám neodešle. Příkaz /security-review zkontroluje i tvoje rozpracované změny.",
+        "en": "On October 28, GitHub put a security extension for the GitHub Copilot app into public preview: it lists open code scanning alerts by severity, and Copilot explains or fixes them in your local copy on request, pushing nothing itself. The /security-review command also checks your work in progress."
       },
       "why": {
-        "cs": "V terminálu spusť copilot plugin install github-security@awesome-copilot, nebo v aplikaci zvol Customize, vyhledej github-security a dej Install. U Business a Enterprise musí aplikaci povolit správce; soukromé repozitáře chtějí pro varování GitHub Code Security.",
-        "en": "Run copilot plugin install github-security@awesome-copilot in a terminal, or in the app choose Customize, search github-security, and click Install. Business and Enterprise admins must enable the app; private repositories need GitHub Code Security for alerts."
+        "cs": "Nainstaluj příkazem copilot plugin install github-security@awesome-copilot, nebo v aplikaci přes Customize. Vysvětlení, opravy i /security-review čerpají AI kredity jako běžný dotaz. U Business a Enterprise musí aplikaci povolit správce; soukromé repozitáře chtějí GitHub Code Security.",
+        "en": "Install via copilot plugin install github-security@awesome-copilot or the app’s Customize menu. Explain, Fix, and /security-review use AI credits like any prompt. Business and Enterprise admins must enable the app; private repositories need GitHub Code Security."
       },
       "sources": [
         {
@@ -279,8 +279,8 @@
       "verified": true,
       "eventDate": "2026-10-31",
       "title": {
-        "cs": "Subagenti Claude Code mohou mít vlastní úroveň úsilí",
-        "en": "Claude Code subagents get their own effort level"
+        "cs": "Claude Code: výchozí úsilí subagentů nastavíš proměnnou",
+        "en": "Claude Code: set subagents’ default effort with a variable"
       },
       "summary": {
         "cs": "Claude Code od verze 2.1.316 (31. října) umí proměnnou prostředí CLAUDE_CODE_SUBAGENT_EFFORT: nastaví úroveň úsilí, na které běží subagenti, když ji nic jiného neurčuje; dosud ji dědili z hlavní relace. Nainstalovanou verzi zjistíš příkazem claude --version.",
@@ -294,31 +294,6 @@
         {
           "name": "Anthropic",
           "url": "https://code.claude.com/docs/en/changelog"
-        }
-      ]
-    },
-    {
-      "id": "2026-11-02-tip-lmstudio-bionic-in-app-terminal",
-      "kind": "tip",
-      "category": "tools",
-      "verified": true,
-      "eventDate": "2026-10-29",
-      "title": {
-        "cs": "Bionic od LM Studia má vestavěný terminál",
-        "en": "LM Studio’s Bionic now has an in-app terminal"
-      },
-      "summary": {
-        "cs": "Bionic, agent pro otevřené modely od LM Studia, ve verzi 1.1.10 (29. října) zpřístupnil vestavěný terminál ve veřejných sestaveních. Přibyly nastavitelné profily shellu, samočinné spuštění obnovené relace po jejím výběru, čtečka obrazovky pro výstup terminálu a opravy zkratek a schránky.",
-        "en": "Bionic, LM Studio’s agent for open models, made its in-app terminal available in public builds with version 1.1.10 (October 29). It also gained configurable shell profiles, restored sessions that start automatically once selected, screen reader support for terminal output, and fixes for shortcuts and the clipboard."
-      },
-      "why": {
-        "cs": "Aktualizuj Bionic (aplikaci LM Studia, ne samotné LM Studio) na 1.1.10. Changelog neuvádí, kde se terminál otevírá ani jak se zapíná; hledej ho v aplikaci.",
-        "en": "Update Bionic (an LM Studio app, not LM Studio itself) to 1.1.10. The changelog does not say where the terminal opens or how to turn it on; look for it in the app."
-      },
-      "sources": [
-        {
-          "name": "LM Studio",
-          "url": "https://lmstudio.ai/changelog/bionic-v1.1.10"
         }
       ]
     }
@@ -349,8 +324,8 @@
         "en": "GitHub retires three models from GitHub Copilot"
       },
       "note": {
-        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8 a Opus 5 (náhrada Opus 5.5) a GPT-5.6 Terra (GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane ročním předplatitelům.",
-        "en": "On November 16, GitHub retires Opus 4.8 and Opus 5 (replacement Opus 5.5) and GPT-5.6 Terra (GPT-6.1 Sol or GPT-6 Luna) from Copilot. Opus 4.8 stays for annual subscribers."
+        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8 a Opus 5 (náhrada Opus 5.5) a GPT-5.6 Terra (GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane individuálním předplatitelům s ročním tarifem.",
+        "en": "On November 16, GitHub retires Opus 4.8, Opus 5 (replacement Opus 5.5), and GPT-5.6 Terra (GPT-6.1 Sol or GPT-6 Luna) from Copilot. Opus 4.8 stays for individual annual-plan subscribers."
       },
       "sources": [
         {
@@ -363,7 +338,7 @@
     {
       "date": "2026-11-16",
       "title": {
-        "cs": "Kalifornská agentura pro vládní operace odevzdá doporučení k AI",
+        "cs": "Kalifornská agentura pro vládní operace má odevzdat doporučení k AI",
         "en": "California’s Government Operations Agency due to deliver AI recommendations"
       },
       "note": {
