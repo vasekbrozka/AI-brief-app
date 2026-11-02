@@ -55,6 +55,7 @@ CANONICAL_NAMES = {
     "anthropic.com": "Anthropic", "claude.com": "Anthropic", "support.claude.com": "Anthropic",
     "code.claude.com": "Anthropic", "openai.com": "OpenAI", "help.openai.com": "OpenAI",
     "blog.google": "Google", "deepmind.google": "DeepMind", "googleblog.com": "Google",
+    "android.com": "Google",
     "microsoft.com": "Microsoft", "learn.microsoft.com": "Microsoft Learn",
     "nvidia.com": "NVIDIA", "ai.meta.com": "Meta", "huggingface.co": "Hugging Face",
     "mistral.ai": "Mistral", "x.ai": "xAI", "apple.com": "Apple",
@@ -86,6 +87,7 @@ T1_DOMAINS = [
     "php.net", "recursive.com", "blog.youtube",
     "1password.com", "radicalnumerics.ai", "microsoft.ai", "linuxfoundation.org",
     "kimi.ai", "block.xyz", "security.com", "gov.uk", "talosintelligence.com",
+    "android.com",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.
