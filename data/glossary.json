@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "terms": [
     {
       "id": "quantization",
@@ -1063,6 +1063,58 @@
       "short": {
         "cs": "Systém Googlu pro brýle a headsety, které promítají aplikace do prostoru před uživatelem (XR = rozšířená a virtuální realita). Běží na něm i Gemini, který vidí, na co se díváš.",
         "en": "Google’s system for glasses and headsets that project apps into the space in front of you (XR = extended reality). Gemini runs on it too and can see what you are looking at."
+      }
+    },
+    {
+      "id": "pull-request",
+      "term": {
+        "cs": "Pull request (žádost o začlenění změn)",
+        "en": "Pull request"
+      },
+      "aliases": [
+        "pull request",
+        "pull requestu",
+        "pull requestem",
+        "pull requesty",
+        "pull requestů",
+        "pull requests"
+      ],
+      "short": {
+        "cs": "Návrh změn v kódu, který vývojář nabídne ke schválení do hlavního projektu. Ostatní ho prohlédnou, okomentují a teprve pak se změna začlení. Agenti jím obvykle předávají hotovou práci.",
+        "en": "A proposed code change that a developer submits for approval into the main project. Others review and comment on it before it is merged. Coding agents usually hand over finished work this way."
+      }
+    },
+    {
+      "id": "subagent",
+      "term": {
+        "cs": "Subagent (pomocný agent)",
+        "en": "Subagent"
+      },
+      "aliases": [
+        "subagent",
+        "subagenti",
+        "subagentů",
+        "subagenty",
+        "subagentem",
+        "subagents"
+      ],
+      "short": {
+        "cs": "Menší AI agent, kterého hlavní agent pověří dílčím úkolem, třeba prohledat kód nebo ověřit výsledek. Běží vedle hlavního agenta a vrací mu jen shrnutí své práce.",
+        "en": "A smaller AI agent that a main agent hands a sub-task, such as searching code or checking a result. It runs alongside the main agent and returns only a summary of its work."
+      }
+    },
+    {
+      "id": "cma",
+      "term": {
+        "cs": "CMA (britský úřad pro hospodářskou soutěž)",
+        "en": "CMA (UK competition authority)"
+      },
+      "aliases": [
+        "CMA"
+      ],
+      "short": {
+        "cs": "Competition and Markets Authority: britský úřad, který hlídá férovou soutěž na trzích. Může šetřit firmy kvůli zneužití dominantního postavení a ukládat jim pokuty nebo nápravná opatření.",
+        "en": "The Competition and Markets Authority: the UK body that polices fair competition in markets. It can investigate firms for abusing a dominant position and impose fines or remedies."
       }
     }
   ]

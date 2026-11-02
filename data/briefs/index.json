@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-01T03:59:33Z",
+  "updated": "2026-11-02T03:31:59Z",
   "briefs": [
+    {
+      "date": "2026-11-02",
+      "headline": {
+        "cs": "ChatGPT a Codex budou od prosince sdílet jeden limit",
+        "en": "ChatGPT and Codex will share one limit from December"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-11-01",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Hacker used AI agents to break into 100-plus websites"
       },
       "itemCount": 13
-    },
-    {
-      "date": "2026-10-19",
-      "headline": {
-        "cs": "Anthropic vyčlenil podíl ve fondu pro veřejný prospěch",
-        "en": "Anthropic commits equity to a public benefit fund"
-      },
-      "itemCount": 4
     }
   ]
 }

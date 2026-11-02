@@ -421,36 +421,6 @@
       "topic": "tip: Gemini od 24.8. vytvoří interaktivní 3D vizualizace přímo v chatu (např. otočitelná DNA struktura) místo statického textu"
     },
     {
-      "slug": "2026-09-02-claude-fable-mythos-5-1",
-      "date": "2026-09-02",
-      "topic": "Anthropic 1.9. vydalo Claude Fable 5.1 a Mythos 5.1 (navazuje na červnovou 5.0 řadu); mid-conversation effort dial, provenance tracking, cache -75%"
-    },
-    {
-      "slug": "2026-09-02-pentagon-genai-mil-chatgpt-grok",
-      "date": "2026-09-02",
-      "topic": "Pentagon 31.8. přidal ChatGPT Mil a Grok pro vládu vedle Gemini na GenAI.mil (3M lidí, 1,7M zaregistrováno); Grok nasazen bez zveřejnění interního zjištění o neřešitelném CSAM riziku"
-    },
-    {
-      "slug": "2026-09-02-google-android-drop-gemini-guided-vision",
-      "date": "2026-09-02",
-      "topic": "Google 1.9. zářijový Android Drop — Gemini Guided Vision pro nevidomé, Find Hub pamatuje věci bez čipu (fotka), Messages sdílené seznamy"
-    },
-    {
-      "slug": "2026-09-02-anthropic-lambda-nvidia-texas-deal",
-      "date": "2026-09-02",
-      "topic": "Anthropic 31.8. podepsalo 2. mega-dohodu tento týden — 35 mld. USD/6 let s Lambda (Nvidia-backed) za 350MW v Beacon Point, Texas (po 45mld. s Nscale)"
-    },
-    {
-      "slug": "2026-09-02-metr-security-incident-disclosure",
-      "date": "2026-09-02",
-      "topic": "METR 31.8. přiznalo 2 kyberútoky z 2026 (březen: ukradený API klíč, ~600k USD kreditů; květen: neúspěšný pokus o data přes odkrytý endpoint), žádná citlivá data neunikla"
-    },
-    {
-      "slug": "2026-09-02-tip-chatgpt-live-lock-screen",
-      "date": "2026-09-02",
-      "topic": "tip: ChatGPT od začátku září ukáže hlasový rozhovor na uzamčené obrazovce iPhonu a v Dynamic Islandu (Background Conversations)"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -2049,7 +2019,62 @@
       "slug": "2026-11-01-tip-perplexity-wiley-sources",
       "date": "2026-11-01",
       "topic": "tip: Perplexity — citace knih a časopisů Wiley bez samostatného předplatného (changelog z 5. 10., všechny plány) — z banky tipů"
+    },
+    {
+      "slug": "2026-11-02-chatgpt-codex-shared-usage-allowance",
+      "date": "2026-11-02",
+      "topic": "OpenAI (nápověda, T1; BleepingComputer 1. 11.): od prosince jedna sdílená zásoba využití ChatGPT a Codexu u Plus, Pro a Business (tokeny; režim Instant se nepočítá; Settings > Usage; velikost zásoby a den neuvedeny); Chat a Work se začnou zkoušet jako jedno prostředí; Work a Codex u Pro 100/200/500 zdvojnásobeny 29. 10. — highlight; help.openai.com vrací 403, obsah potvrdilo vyhledávání a BleepingComputer. NEPUBLIKOVÁNO: limity počtu předplatných na kartu a zařízení (nápověda OpenAI + The Decoder)"
+    },
+    {
+      "slug": "2026-11-02-claude-code-game-recreation-rule",
+      "date": "2026-11-02",
+      "topic": "Anthropic: kolem 27. 10. pravidlo v instrukcích Claude Code na Opusu 5.5 proti vytváření kopií konkrétních existujících her (Engadget: potvrdil Addy Osmani na X; Tom's Hardware a TNW: žádné oficiální oznámení, v changelogu nic; vývojáři hlásí odmítnutí i u zakázek pro majitele her)"
+    },
+    {
+      "slug": "2026-11-02-deepseek-super-agent-prototype",
+      "date": "2026-11-02",
+      "topic": "DeepSeek 31. 10.: open-source prototyp Super-agent (MIT) — proaktivní kódovací agent pro jedno úložiště na GitHubu, naslouchá GitHubu a volitelně Feishu, odpovídá pull requestem; výzkumný prototyp, ne produkt (TNW podle Bloombergu a SCMP; README repozitáře)"
+    },
+    {
+      "slug": "2026-11-02-cma-meta-ai-terms-investigation",
+      "date": "2026-11-02",
+      "topic": "Britský CMA 30. 10. (GOV.UK, TNW) zahájil šetření obchodních podmínek Mety (obsah z webů vydavatelů a firem pro vlastní produkty vč. AI); Meta podmínky 28. 10. pozastavila do konzultace (původně 20. 11.), dominantní postavení se teprve zkoumá; navazuje na 2026-10-21; z radaru proto odpadl termín 20. 11."
+    },
+    {
+      "slug": "2026-11-02-android-bench-sonnet-5-5-leads",
+      "date": "2026-11-02",
+      "topic": "Google 26. 10. aktualizoval Android Bench (30 úloh; dvojice model + nástroj): Claude Sonnet 5.5 (max) 40,0 % za 1 574,90 USD, Opus 5.5 37,3 %, GPT-6.1 Sol 29,3 % za 99,50 USD, Gemini 4 Argon až šestý (21,3 %); oficiální žebříček developer.android.com/bench + 9to5Google (ten Argon chybně uvádí jako pátý); doména android.com přidána mezi T1 v kontrole"
+    },
+    {
+      "slug": "2026-11-02-openai-post-midterm-policy-push",
+      "date": "2026-11-02",
+      "topic": "Axios + TechCrunch 1. 11.: OpenAI (Chris Lehane) chystá po volbách 3. 11. politickou a PR kampaň — povinná opatření pro nejvýkonnější AI („speed limits“), datová centra jako „AI compute campuses“, start v Kongresu od 9. 11.; zatím plán z rozhovoru, ne zveřejněné návrhy"
+    },
+    {
+      "slug": "2026-11-02-tip-gemini-immersive-explorations",
+      "date": "2026-11-02",
+      "topic": "tip: Gemini — knihovna „immersive explorations“ (28. 10.; interaktivní scény po vrstvách; gemini.google.com/immersive-explorations nebo Studenti v nabídce; web i mobil, osobní i Workspace účty; angličtina pro češtinu; do chatu později) — z banky tipů"
+    },
+    {
+      "slug": "2026-11-02-tip-m365-copilot-onenote-android-multimodal",
+      "date": "2026-11-02",
+      "topic": "tip: OneNote na Androidu — vícedruhové zachytávání (zvuk, fotky, poznámky) v Copilot Notebooks (poznámky k vydání za 13.–27. 10.; na iPhonu a iPadu už bylo) — z banky tipů"
+    },
+    {
+      "slug": "2026-11-02-tip-github-copilot-security-extension",
+      "date": "2026-11-02",
+      "topic": "tip: GitHub Copilot app — rozšíření pro zabezpečení (28. 10., veřejný náhled; copilot plugin install github-security@awesome-copilot; varování z code scanning, Explain/Fix v lokální kopii, /security-review; Business a Enterprise povolí správce, soukromé repozitáře chtějí Code Security) — z banky tipů"
+    },
+    {
+      "slug": "2026-11-02-tip-claude-code-subagent-effort-env",
+      "date": "2026-11-02",
+      "topic": "tip: Claude Code 2.1.316 (31. 10.) — proměnná CLAUDE_CODE_SUBAGENT_EFFORT nastaví úroveň úsilí subagentů; povolené hodnoty zdroj neuvádí — z banky tipů"
+    },
+    {
+      "slug": "2026-11-02-tip-lmstudio-bionic-in-app-terminal",
+      "date": "2026-11-02",
+      "topic": "tip: LM Studio Bionic 1.1.10 (29. 10.) — vestavěný terminál ve veřejných sestaveních (profily shellu, obnovené relace, čtečka obrazovky); changelog neuvádí, kde se otevírá"
     }
   ],
-  "updated": "2026-11-01T03:59:33Z"
+  "updated": "2026-11-02T03:31:59Z"
 }
