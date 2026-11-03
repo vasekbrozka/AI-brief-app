@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "terms": [
     {
       "id": "quantization",
@@ -1115,6 +1115,57 @@
       "short": {
         "cs": "Competition and Markets Authority: britský úřad, který hlídá férovou soutěž na trzích. Může šetřit firmy kvůli zneužití dominantního postavení a ukládat jim pokuty nebo nápravná opatření.",
         "en": "The Competition and Markets Authority: the UK body that polices fair competition in markets. It can investigate firms for abusing a dominant position and impose fines or remedies."
+      }
+    },
+    {
+      "id": "private-ai-compute",
+      "term": {
+        "cs": "Private AI Compute",
+        "en": "Private AI Compute"
+      },
+      "aliases": [
+        "Private AI Compute"
+      ],
+      "short": {
+        "cs": "Zabezpečené cloudové prostředí Googlu, kam telefon posílá data ke zpracování pokročilými modely. Podle Googlu jsou data šifrovaná a Google se k nim nedostane. Používá se třeba na detekci podvodů.",
+        "en": "Google’s secure cloud environment where a phone sends data to be processed by more powerful models. Google says the data is encrypted and not accessible to Google. Used for example for scam detection."
+      }
+    },
+    {
+      "id": "sandbox",
+      "term": {
+        "cs": "Sandbox (izolované prostředí)",
+        "en": "Sandbox"
+      },
+      "aliases": [
+        "sandbox",
+        "sandboxy",
+        "sandboxu",
+        "sandboxech",
+        "sandboxes"
+      ],
+      "short": {
+        "cs": "Oddělené, hlídané prostředí, ve kterém může program nebo AI agent spouštět kód a pracovat se soubory, aniž by ohrozil zbytek systému. Po práci se obvykle smaže.",
+        "en": "An isolated, controlled environment where a program or AI agent can run code and handle files without endangering the rest of the system. It is usually wiped afterwards."
+      }
+    },
+    {
+      "id": "connector",
+      "term": {
+        "cs": "Konektor (connector)",
+        "en": "Connector"
+      },
+      "aliases": [
+        "konektor",
+        "konektory",
+        "konektorů",
+        "konektorech",
+        "connector",
+        "connectors"
+      ],
+      "short": {
+        "cs": "Propojení AI nástroje s jinou službou, třeba s e-mailem, kalendářem nebo Canvou. Díky němu AI může číst data z té služby nebo v ní jednat. Obvykle ho zapneš sám.",
+        "en": "A link between an AI tool and another service, such as email, a calendar, or Canva. It lets the AI read that service’s data or act in it. You usually switch it on yourself."
       }
     }
   ]

@@ -1,0 +1,452 @@
+{
+  "date": "2026-11-03",
+  "sample": false,
+  "headline": {
+    "cs": "Anthropic: práh zrychleného vývoje AI může být blízko",
+    "en": "Anthropic: AI-accelerated progress threshold may be near"
+  },
+  "items": [
+    {
+      "id": "2026-11-03-anthropic-amended-s1-rsi-warning",
+      "kind": "news",
+      "category": "business",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-11-02",
+      "title": {
+        "cs": "Anthropic: práh zrychleného vývoje AI může být blízko",
+        "en": "Anthropic: AI-accelerated progress threshold may be near"
+      },
+      "summary": {
+        "cs": "Podle TNW a TechCrunch uvádí Anthropic v doplněné přihlášce k IPO z 2. listopadu za 3. čtvrtletí tržby téměř 17 mld. USD a nákupní závazky 895,4 mld. USD. V rizicích píše, že může „brzy“ splnit vlastní definici „dramaticky zrychleného pokroku způsobeného AI“; žádný současný model za práh neoznačila.",
+        "en": "Per TNW and TechCrunch, Anthropic’s amended IPO filing of November 2 reports nearly $17 billion in third-quarter revenue and $895.4 billion in purchase commitments. Its risk factors say it may “imminently” meet its own definition of “dramatically accelerated progress attributable to AI”; no current model is designated past the threshold."
+      },
+      "why": {
+        "cs": "Firma zvažuje změnu svých pravidel, aby vývoj nejlepších modelů dál řídili lidé; zveřejnění rizik je ale zároveň marketing, upozorňuje TechCrunch. Na burzu (Nasdaq, značka ANT) míří do konce listopadu.",
+        "en": "It is considering a policy change to keep humans in control of frontier model development; a risk disclosure doubles as marketing, TechCrunch notes. Listing on Nasdaq (ticker ANT) is planned by the end of November."
+      },
+      "sources": [
+        {
+          "name": "SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-ipo-filing-17bn-revenue-commitments"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-10-27",
+        "id": "2026-10-27-anthropic-s1-ipo-filing",
+        "title": {
+          "cs": "Anthropic podal přihlášku ke vstupu na burzu",
+          "en": "Anthropic files to go public on Nasdaq"
+        }
+      }
+    },
+    {
+      "id": "2026-11-03-grok-bot-limits-throttled",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-01",
+      "title": {
+        "cs": "Musk omezil limity Grok Bot kvůli neudržitelným nákladům",
+        "en": "Musk throttles Grok Bot limits over “unsustainable” costs"
+      },
+      "summary": {
+        "cs": "Podle TechCrunch měli o víkendu 31. října až 1. listopadu někteří uživatelé Grok Bot, agenta SpaceX s virtuálním počítačem, týdenní limit vyčerpaný, i když ho nepoužívali; měřiče skočily třeba z 50 na 100 %. Musk 1. listopadu na X potvrdil, že nejde o chybu: obsluha byla vůči příjmům neudržitelně drahá.",
+        "en": "Per TechCrunch, over the weekend of October 31–November 1 some users of Grok Bot, SpaceX’s virtual-computer agent, found weekly limits maxed out unused; meters jumped from as low as 50% to 100%. On November 1 Musk confirmed on X it was no glitch: serving it was unsustainably costly relative to revenue."
+      },
+      "why": {
+        "cs": "Týká se předplatitelů Grok Bot (tarify do 200 USD měsíčně). Musk nezveřejnil, jak budou limity vypadat dál; limity mění i OpenAI (společná zásoba od prosince) a Anthropic.",
+        "en": "Affects Grok Bot subscribers (plans up to $200 a month). Musk gave no figures for future limits; OpenAI (shared pool from December) and Anthropic are changing limits too."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/grok-bot-costs-unsustainably-high-musk-usage-limits"
+        },
+        {
+          "name": "TechRadar",
+          "url": "https://www.techradar.com/ai-platforms-assistants/elon-musk-says-grok-bot-was-throttled-because-costs-were-unsustainably-high-as-users-call-the-move-a-rug-pull"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-chatgpt-classic-app-retires-jan-30",
+      "kind": "news",
+      "category": "tools",
+      "verified": false,
+      "eventDate": "2026-11-02",
+      "title": {
+        "cs": "Podle 9to5Mac skončí aplikace ChatGPT Classic 30. ledna",
+        "en": "Per 9to5Mac, ChatGPT Classic app retires on January 30"
+      },
+      "summary": {
+        "cs": "Podle 9to5Mac se uživatelům aplikace ChatGPT Classic od 2. listopadu zobrazuje upozornění, že skončí 30. ledna 2027; historie chatů se přenese do nové aplikace ChatGPT, která sdružuje ChatGPT, Work a Codex. OpenAI také e-mailem oznámila, že v příštích týdnech zkusí spojit Chat a Work.",
+        "en": "Per 9to5Mac, users of the ChatGPT Classic app have been shown a notice since November 2 that it retires on January 30, 2027; chat history carries over to the new ChatGPT app that combines ChatGPT, Work, and Codex. OpenAI also emailed that it will test merging Chat and Work in coming weeks."
+      },
+      "why": {
+        "cs": "Kdo používá Classic, má čas do konce ledna stáhnout novou aplikaci (odkaz je v upozornění). Zatím to uvádí jediné médium, oficiální oznámení OpenAI jsme nenašli.",
+        "en": "If you use Classic, you have until the end of January to download the new app (the notice links to it). So far only one outlet reports this; we found no official OpenAI announcement."
+      },
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/02/openai-is-retiring-chatgpt-classic-app-will-soon-combine-chat-and-work-tabs-in-new-app/"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-11-02",
+        "id": "2026-11-02-chatgpt-codex-shared-usage-allowance",
+        "title": {
+          "cs": "ChatGPT a Codex budou od prosince sdílet jeden limit",
+          "en": "ChatGPT and Codex will share one limit from December"
+        }
+      }
+    },
+    {
+      "id": "2026-11-03-anthropic-message-threads-beta",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-02",
+      "title": {
+        "cs": "Claude API: vlákna zpráv zkracují čekání u dlouhých relací",
+        "en": "Claude API message threads cut waits in long sessions"
+      },
+      "summary": {
+        "cs": "Anthropic 2. listopadu spustila ve veřejné betě „message threads“ pro Claude API: agent pošle celou konverzaci jednou a dál jen nové zprávy s ID poslední odpovědi. U požadavků s 500 tisíci až 1 milionem tokenů se medián času do začátku odpovědi snížil asi o 35 %. Ceny, limity i spotřeba tokenů se nemění.",
+        "en": "On November 2, Anthropic launched message threads in public beta for the Claude API: an agent sends the full conversation once, then only new messages plus the ID of the last reply. On requests of 500k to 1M tokens, median time to first token fell about 35%. Prices, limits, and token usage stay the same."
+      },
+      "why": {
+        "cs": "Pro vývojáře agentů: přidej do požadavku pole thread. Vlákno žije v paměti 5 minut po posledním požadavku, pak pošli konverzaci znovu; podle TNW nejde s nulovou retencí dat ani HIPAA.",
+        "en": "For agent developers: add the thread field. A thread lives in memory 5 minutes after the last request, then resend the conversation; per TNW it is unavailable with zero data retention or HIPAA."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/message-threads"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-message-threads-beta-claude-api-agents"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-apple-age-ratings-ai-companions",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-11-02",
+      "title": {
+        "cs": "Apple dá AI společníkům v App Store hodnocení 18+",
+        "en": "Apple will rate romantic AI companion apps 18+"
+      },
+      "summary": {
+        "cs": "Apple 2. listopadu oznámil, že od 16. listopadu musí vývojáři v App Store Connect uvést, zda aplikace nabízí sdílení polohy nebo seznamování a vztahy, včetně virtuálního společníka, který vede sexuální či romantický obsah. Takové aplikace dostanou minimálně hodnocení 18+; údaje musí mít všechny aplikace vyplněné do 12. ledna 2027.",
+        "en": "On November 2, Apple said that from November 16 developers must declare in App Store Connect whether an app includes shared location or dating and relationships features, including a virtual companion that engages users in sexual or romantic content. Such apps get a minimum 18+ rating; all apps must declare by January 12, 2027."
+      },
+      "why": {
+        "cs": "Pro rodiče a uživatele jde o jasnější označení aplikací s romantickými AI společníky; vývojáři mají čas do 12. ledna 2027.",
+        "en": "For parents and users it makes apps with romantic AI companions clearer to spot; developers have until January 12, 2027."
+      },
+      "sources": [
+        {
+          "name": "Apple",
+          "url": "https://developer.apple.com/news/?id=yxkh08us"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/02/apple-to-require-18-age-ratings-for-dating-apps-and-ai-romantic-companions/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-semianalysis-gdpx-benchmark",
+      "kind": "news",
+      "category": "research",
+      "verified": false,
+      "eventDate": "2026-11-02",
+      "title": {
+        "cs": "GDPx: nejlepší model získal jen 12 % bodů",
+        "en": "GDPx benchmark: best model scores only 12%"
+      },
+      "summary": {
+        "cs": "Analytická firma SemiAnalysis 2. listopadu zveřejnila benchmark GDPx: 206 úloh z 11 oborů od 14 datových partnerů. Vede Claude Opus 5.5 (12,0 %, 51,41 USD za úlohu), druhý je Gemini 4 Carbon (10,9 %, 16,29 USD), třetí GPT-6 Astra (9,6 %, 53,99 USD). Skóre je průměr ze tří pokusů.",
+        "en": "On November 2, analytics firm SemiAnalysis published GDPx, a benchmark of 206 tasks across 11 domains from 14 data partners. Claude Opus 5.5 leads (12.0%, $51.41 per task), Gemini 4 Carbon is second (10.9%, $16.29), GPT-6 Astra third (9.6%, $53.99). The score averages three attempts."
+      },
+      "why": {
+        "cs": "Ukazuje, že i nejlepší modely zvládají těžké odborné úlohy jen zčásti; Carbon stojí asi třetinu ceny Opusu. Bez kyberbezpečnosti, biologie a alignmentu by podle 9to5Google vedl GPT-6 Astra.",
+        "en": "Even the best models solve hard expert tasks only partly; Carbon costs about a third of Opus. Per 9to5Google, without the cybersecurity, biology, and alignment domains GPT-6 Astra would lead."
+      },
+      "sources": [
+        {
+          "name": "SemiAnalysis",
+          "url": "https://gdpx.semianalysis.com/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/11/02/gemini-4-carbon-benchmark/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-wired-hidden-deepfake-apps",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-02",
+      "title": {
+        "cs": "Stovky „běžných“ AI appek skrývaly zneužívající deepfake nástroje",
+        "en": "Hundreds of ‘everyday’ AI apps hid abusive deepfake tools"
+      },
+      "summary": {
+        "cs": "Vyšetřování Wired z 2. listopadu odhalilo síť přes 400 propojených appek a webů, které se tvářily jako běžné AI služby, např. portréty mazlíčků. Po serverové kontrole načetly rozhraní pro tvorbu sexuálních a násilných deepfake snímků z nahraných fotek. Apple po dotazu odstranil 19 appek, Google většinu; Meta zasáhla proti více než 10 000 reklamním účtům.",
+        "en": "A WIRED investigation of November 2 found over 400 linked apps and sites posing as everyday AI services, such as pet portraits. After a server check they loaded an interface for making sexual and violent deepfakes from uploaded photos. Apple removed 19 apps after being asked, Google most; Meta acted against over 10,000 ad accounts."
+      },
+      "why": {
+        "cs": "Apple tvrdí, že appky při schválení pravidla splňovaly a obsah vyměnily až potom; jedním ze spouštěčů byl podle Wired proklik z reklamy na Facebooku či Instagramu. Opatrně s appkami z reklam.",
+        "en": "Apple says the apps complied when approved and swapped their content afterwards; per WIRED one trigger was tapping an ad on Facebook or Instagram. Be careful with apps installed from ads."
+      },
+      "sources": [
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/02/ai-apps-with-hidden-sexual-and-violent-deepfake-features-made-it-into-the-app-store/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-tip-google-messages-enhanced-protection",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-14",
+      "title": {
+        "cs": "Zprávy Google pomocí Gemini hlídají podvodné konverzace",
+        "en": "Google Messages uses Gemini to watch for scam chats"
+      },
+      "summary": {
+        "cs": "Google 14. října oznámil pro aplikaci Zprávy Google volitelný režim Enhanced protection: Scam Detection u konverzace s neznámým odesílatelem posílá kontext do cloudových modelů Gemini v Private AI Compute, aby dřív poznala záměr podvodníka. Podle Googlu se data zpracovávají šifrovaně. Režim se zavádí postupně.",
+        "en": "On October 14, Google announced an opt-in Enhanced protection mode for Google Messages: in a chat with an unknown sender, Scam Detection sends context to cloud Gemini models in Private AI Compute to spot a scammer’s intent sooner. Google says the data is processed encrypted. The mode rolls out gradually."
+      },
+      "why": {
+        "cs": "V Zprávách Google klepni na profilový obrázek › Messages settings › Protection & Safety › Spam and scam protection a vyber Enhanced protection. Nabídka se objeví, jen když ji telefon podporuje.",
+        "en": "In Google Messages tap your profile picture › Messages settings › Protection & Safety › Spam and scam protection and choose Enhanced protection. The option shows up only if your phone supports it."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://support.google.com/messages/answer/9327903?hl=en"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/14/google-messages-enhanced-protection-mode/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-tip-claude-code-schedule-connectors-warning",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-03",
+      "title": {
+        "cs": "Naplánovaný úkol v Claude Code varuje před nechtěnými konektory",
+        "en": "Claude Code warns of unrequested connectors in scheduled tasks"
+      },
+      "summary": {
+        "cs": "Claude Code 2.1.317 (3. listopadu) přidal varování k příkazu /schedule: když nový cloudový naplánovaný úkol získá konektory, o které sis neřekl, Claude Code to ukáže a poradí, jak je odebrat. Ve stejné verzi se zeptá, než nástroj pro web nebo shell odešle e-mail tvého účtu do sítě.",
+        "en": "Claude Code 2.1.317 (November 3) added a warning to the /schedule command: when a new cloud scheduled task gets connectors you did not ask for, Claude Code shows it and explains how to remove them. The same version asks before a web or shell tool sends your account email address over the network."
+      },
+      "why": {
+        "cs": "Pro vývojáře. Verzi zjistíš příkazem claude --version; při vytváření úkolu přes /schedule si varování přečti. Changelog nepopisuje, jak přesně se konektory odebírají.",
+        "en": "For developers. Check your version with claude --version and read the warning when you create a task with /schedule. The changelog does not describe how exactly connectors are removed."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-tip-m365-copilot-search-chat",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-06",
+      "title": {
+        "cs": "Copilot Search teď plynule přejde do chatu",
+        "en": "Copilot Search now flows straight into chat"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 6. října uvádí, že Microsoft 365 Copilot Search spojil vyhledávání s chatem: z výsledků hledání můžeš rovnou přejít k doplňujícím otázkám nebo k tvorbě obsahu podle nalezených zdrojů. Novinka vyšla mezi 22. zářím a 6. říjnem a platí pro Windows i web.",
+        "en": "In its October 6 release notes, Microsoft says Microsoft 365 Copilot Search now joins search with chat: from your search results you can go straight to follow-up questions or to creating content based on what was found. The feature shipped between September 22 and October 6, on Windows and the web."
+      },
+      "why": {
+        "cs": "Otevři Microsoft 365 Copilot Search, zadej dotaz a v panelu chatu vedle výsledků se ptej dál nebo nech vytvořit text z nalezeného. Microsoft funkce zavádí postupně, takže ji nemusíš mít hned.",
+        "en": "Open Microsoft 365 Copilot Search, enter a query, and use the chat pane beside the results to ask follow-ups or draft text. Microsoft rolls features out gradually, so you may not have it yet."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-tip-openai-agents-api-sandbox-artifact-sdk",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-16",
+      "title": {
+        "cs": "Sandboxy Agents API umí tvořit tabulky, prezentace i Wordy",
+        "en": "Agents API sandboxes can create sheets, decks, and documents"
+      },
+      "summary": {
+        "cs": "OpenAI 16. října uvedla, že hostované sandboxy v Agents API nově obsahují Artifact SDK a skills pro tvorbu a úpravy tabulek, prezentací a dokumentů Word. Agent, který v takovém sandboxu běží, má pro tyto soubory hotové nástroje.",
+        "en": "On October 16, OpenAI said OpenAI-hosted sandboxes in the Agents API now include the Artifact SDK and skills for creating and editing spreadsheets, presentations, and Word documents. An agent running in such a sandbox has ready-made tools for these files."
+      },
+      "why": {
+        "cs": "Je pro vývojáře: týká se endpointu v1/agents. Poznámka v changelogu neuvádí ukázkový kód, ceny ani plány.",
+        "en": "For developers: it concerns the v1/agents endpoint. The changelog entry gives no sample code, prices, or plans."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/api/docs/changelog"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-11-03",
+      "title": {
+        "cs": "Podle Wall Street Journal chce Warrenová odpovědi od Anthropicu do 3. listopadu",
+        "en": "Warren wants Anthropic’s answers by November 3, per the Wall Street Journal"
+      },
+      "note": {
+        "cs": "Americká senátorka Warrenová žádá odpovědi na čtyři strany otázek k přihlášce Anthropicu na burzu (IPO), včetně rizik AI; dopis z 27. října popisuje The Next Web podle Wall Street Journal.",
+        "en": "US Senator Warren wants answers to four pages of questions on Anthropic’s IPO filing, including AI risks; The Next Web describes the October 27 letter, citing the Wall Street Journal."
+      },
+      "sources": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-ipo-retail-warren-s-1-details"
+        }
+      ],
+      "tentative": true
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "GitHub vyřadí z Copilotu pro programátory tři modely",
+        "en": "GitHub retires three models from GitHub Copilot"
+      },
+      "note": {
+        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8 a Opus 5 (náhrada Opus 5.5) a GPT-5.6 Terra (GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane individuálním předplatitelům s ročním tarifem.",
+        "en": "On November 16, GitHub retires Opus 4.8, Opus 5 (replacement Opus 5.5), and GPT-5.6 Terra (GPT-6.1 Sol or GPT-6 Luna) from Copilot. Opus 4.8 stays for individual annual-plan subscribers."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "Kalifornská agentura pro vládní operace má odevzdat doporučení k AI",
+        "en": "California’s Government Operations Agency due to deliver AI recommendations"
+      },
+      "note": {
+        "cs": "Agentura má do 16. listopadu poslat guvernérovi doporučení, zda by změny zákonů o bezpečnosti AI fungovaly, třeba nezávislí auditoři přímo u vývojářů AI nebo nouzový vypínač nejschopnějších modelů.",
+        "en": "By November 16 the agency must send the governor recommendations on whether AI safety-law changes would work, e.g. independent auditors at AI developers or a kill switch for top models."
+      },
+      "sources": [
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf"
+        },
+        {
+          "name": "gov.ca.gov",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "V App Store začnou platit nové údaje k věkovému hodnocení",
+        "en": "New age rating declarations start in the App Store"
+      },
+      "note": {
+        "cs": "Od 16. listopadu musí vývojáři uvádět sdílení polohy a seznamování, včetně romantických AI společníků; takové aplikace mají minimálně 18+. Všechny aplikace to musí doplnit do 12. ledna 2027.",
+        "en": "From November 16 developers must declare shared location and dating features, including romantic AI companions; such apps get at least 18+. All apps must complete this by January 12, 2027."
+      },
+      "sources": [
+        {
+          "name": "Apple",
+          "url": "https://developer.apple.com/news/?id=yxkh08us"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "Microsoft Ignite: konference o Copilotu a AI agentech",
+        "en": "Microsoft Ignite: a conference on Copilot and AI agents"
+      },
+      "note": {
+        "cs": "Microsoftova konference se koná 17.–20. listopadu v San Franciscu; online (zdarma) jen 17.–19. listopadu. Témata: Copilot, AI agenti, cloud, zabezpečení a Windows.",
+        "en": "Microsoft’s conference runs November 17–20 in San Francisco; the online event (free) is November 17–19 only. Topics: Copilot, AI agents, cloud, security, and Windows."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://ignite.microsoft.com/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "Claude Code ruší rychlý režim pro Opus 4.8",
+        "en": "Claude Code drops fast mode for Opus 4.8"
+      },
+      "note": {
+        "cs": "Podle changelogu Claude Code zanikne 30. listopadu rychlý režim (rychlejší výstup) Opusu 4.8; požadavky v něm pak vrátí chybu, ne běžný Opus 4.8. Anthropic radí přejít na Opus 5.5.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode (faster output) ends on November 30; requests then return an error, not standard Opus 4.8. Anthropic advises moving to Opus 5.5."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

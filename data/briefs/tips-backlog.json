@@ -1,28 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-copilot-excel-theme",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": false,
-      "title": {
-        "cs": "Copilot v Excelu sladí vzhled tabulky za tebe",
-        "en": "Copilot in Excel styles your spreadsheet for you"
-      },
-      "summary": {
-        "cs": "Copilot v Excelu umí nově obléknout tvoje data do jednotného vzhledu — sladí barvy, nastyluje grafy a srovná rozvržení, aby klíčová čísla vystoupila. Nemusíš nic formátovat ručně. Microsoft to rolluje v srpnu.",
-        "en": "Copilot in Excel can now dress your data in a coordinated look — harmonized colors, styled charts, and a tidier layout so the key numbers stand out. No manual formatting needed. Microsoft is rolling it out in August."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        }
-      ],
-      "added": "2026-08-04",
-      "used": "2026-08-04"
-    },
-    {
       "slug": "tip-copilot-excel-powerbi",
       "category": "tools",
       "theme": "copilot",
@@ -3548,7 +3526,7 @@
       },
       "why": {
         "cs": "Otevři Microsoft 365 Copilot Search, zadej dotaz a v panelu chatu vedle výsledků se ptej dál nebo nech vytvořit text z nalezeného. Microsoft funkce zavádí postupně, takže ji nemusíš mít hned.",
-        "en": "Open Microsoft 365 Copilot Search, enter a query, and use the chat pane beside the results to ask follow-ups or have text drafted from what was found. Microsoft rolls features out gradually, so you may not have it right away."
+        "en": "Open Microsoft 365 Copilot Search, enter a query, and use the chat pane beside the results to ask follow-ups or draft text. Microsoft rolls features out gradually, so you may not have it yet."
       },
       "sources": [
         {
@@ -3557,7 +3535,7 @@
         }
       ],
       "added": "2026-10-24",
-      "used": null
+      "used": "2026-11-03"
     },
     {
       "slug": "tip-gemini-maps-carplay",
@@ -4880,7 +4858,7 @@
       "eventDate": "2026-10-16",
       "title": {
         "cs": "Sandboxy Agents API umí tvořit tabulky, prezentace i Wordy",
-        "en": "Agents API sandboxes can create spreadsheets, decks, and Word files"
+        "en": "Agents API sandboxes can create sheets, decks, and documents"
       },
       "summary": {
         "cs": "OpenAI 16. října uvedla, že hostované sandboxy v Agents API nově obsahují Artifact SDK a skills pro tvorbu a úpravy tabulek, prezentací a dokumentů Word. Agent, který v takovém sandboxu běží, má pro tyto soubory hotové nástroje.",
@@ -4897,6 +4875,91 @@
         }
       ],
       "added": "2026-11-02",
+      "used": "2026-11-03"
+    },
+    {
+      "slug": "tip-google-messages-enhanced-protection",
+      "category": "tools",
+      "theme": "gemini",
+      "added": "2026-11-03",
+      "verified": true,
+      "eventDate": "2026-10-14",
+      "title": {
+        "cs": "Zprávy Google pomocí Gemini hlídají podvodné konverzace",
+        "en": "Google Messages uses Gemini to watch for scam chats"
+      },
+      "summary": {
+        "cs": "Google 14. října oznámil pro aplikaci Zprávy Google volitelný režim Enhanced protection: Scam Detection u konverzace s neznámým odesílatelem posílá kontext do cloudových modelů Gemini v Private AI Compute, aby dřív poznala záměr podvodníka. Podle Googlu se data zpracovávají šifrovaně. Režim se zavádí postupně.",
+        "en": "On October 14, Google announced an opt-in Enhanced protection mode for Google Messages: in a chat with an unknown sender, Scam Detection sends context to cloud Gemini models in Private AI Compute to spot a scammer’s intent sooner. Google says the data is processed encrypted. The mode rolls out gradually."
+      },
+      "why": {
+        "cs": "V Zprávách Google klepni na profilový obrázek › Messages settings › Protection & Safety › Spam and scam protection a vyber Enhanced protection. Nabídka se objeví, jen když ji telefon podporuje.",
+        "en": "In Google Messages tap your profile picture › Messages settings › Protection & Safety › Spam and scam protection and choose Enhanced protection. The option shows up only if your phone supports it."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://support.google.com/messages/answer/9327903?hl=en"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/14/google-messages-enhanced-protection-mode/"
+        }
+      ],
+      "used": "2026-11-03"
+    },
+    {
+      "slug": "tip-claude-code-schedule-connectors-warning",
+      "category": "tools",
+      "theme": "claude",
+      "added": "2026-11-03",
+      "verified": true,
+      "eventDate": "2026-11-03",
+      "title": {
+        "cs": "Naplánovaný úkol v Claude Code varuje před nechtěnými konektory",
+        "en": "Claude Code warns of unrequested connectors in scheduled tasks"
+      },
+      "summary": {
+        "cs": "Claude Code 2.1.317 (3. listopadu) přidal varování k příkazu /schedule: když nový cloudový naplánovaný úkol získá konektory, o které sis neřekl, Claude Code to ukáže a poradí, jak je odebrat. Ve stejné verzi se zeptá, než nástroj pro web nebo shell odešle e-mail tvého účtu do sítě.",
+        "en": "Claude Code 2.1.317 (November 3) added a warning to the /schedule command: when a new cloud scheduled task gets connectors you did not ask for, Claude Code shows it and explains how to remove them. The same version asks before a web or shell tool sends your account email address over the network."
+      },
+      "why": {
+        "cs": "Pro vývojáře. Verzi zjistíš příkazem claude --version; při vytváření úkolu přes /schedule si varování přečti. Changelog nepopisuje, jak přesně se konektory odebírají.",
+        "en": "For developers. Check your version with claude --version and read the warning when you create a task with /schedule. The changelog does not describe how exactly connectors are removed."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "used": "2026-11-03"
+    },
+    {
+      "slug": "tip-google-vids-avatar-upload",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-10-30",
+      "title": {
+        "cs": "Avatar ve Vids jde vytvořit z tvé fotky",
+        "en": "Google Vids can make a custom avatar from your photo"
+      },
+      "summary": {
+        "cs": "Google v Workspace Updates z 2. listopadu uvádí, že ve Vids jde vytvořit vlastní avatar nahráním obrázku z počítače, Disku nebo Fotek. Obrázek lze ve Vids upravit (pozadí, světlo, výzdoba) a avatar se uloží do projektu k opakovanému použití. Zavádění začalo 30. října.",
+        "en": "Google’s Workspace Updates post of November 2 says Vids can now make a custom avatar from an image you upload from your computer, Drive, or Photos. You can refine the image in Vids (background, lighting, decorations), and the avatar is saved in the project for reuse. Rollout began October 30."
+      },
+      "why": {
+        "cs": "Funkce je pro osobní účty Google s Google AI Pro nebo Ultra a pro většinu edic Workspace; správce ji zvlášť vypnout nemůže. U domén s plánovaným vydáním přijde od 20. listopadu.",
+        "en": "It is for personal Google accounts with Google AI Pro or Ultra and most Workspace editions; admins cannot switch it off separately. Domains on Scheduled Release get it from November 20."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "http://workspaceupdates.googleblog.com/2026/11/create-a-custom-avatar-google-vids.html"
+        }
+      ],
+      "added": "2026-11-03",
       "used": null
     }
   ]

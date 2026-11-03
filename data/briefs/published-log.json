@@ -391,36 +391,6 @@
       "topic": "tip: Teams od srpna ukáže souhrn schůzky v jazyce zvoleném pro titulky/tlumočníka, jde změnit i po vygenerování (Teams Premium + M365 Copilot)"
     },
     {
-      "slug": "2026-09-03-openai-astra-critical-cyber-threshold",
-      "date": "2026-09-03",
-      "topic": "OpenAI oznámilo, že nevydaný Astra jako první překročil kritickou hranici kybernetických schopností (Preparedness) — sám našel a využil 2 zero-day; vývoj pozastaven kvůli pojistkám"
-    },
-    {
-      "slug": "2026-09-03-lutnick-trusts-anthropic",
-      "date": "2026-09-03",
-      "topic": "ministr obchodu Lutnick 1.9. (Axios): administrativa Anthropicu zase věří, „zpátky na správné straně“ — pár dní po soudní prohře Pentagonu"
-    },
-    {
-      "slug": "2026-09-03-claude-commerce-agent-blueprint",
-      "date": "2026-09-03",
-      "topic": "Anthropic 2.9. spustilo blueprint pro nákupní/obchodní agenty na Claude (Shopify, Priceline, Accenture, Mastercard, Visa); +30-35% velikost košíku u partnera"
-    },
-    {
-      "slug": "2026-09-03-sony-warner-chappell-sue-anthropic",
-      "date": "2026-09-03",
-      "topic": "Sony Music Publishing + Warner Chappell 31.8. žalují Anthropic i osobně Amodeie a Manna za autorská práva k písním (piráctví, LibGen), až 150k USD/skladba"
-    },
-    {
-      "slug": "2026-09-03-gemini-3-8-flash",
-      "date": "2026-09-03",
-      "topic": "Google DeepMind 2.9. představilo Gemini 3.8 Flash (3 týdny po 3.7) — refinement, méně upovídaný výstup, zaměřený na kódování"
-    },
-    {
-      "slug": "2026-09-03-tip-gemini-interactive-visualizations",
-      "date": "2026-09-03",
-      "topic": "tip: Gemini od 24.8. vytvoří interaktivní 3D vizualizace přímo v chatu (např. otočitelná DNA struktura) místo statického textu"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -2069,7 +2039,62 @@
       "slug": "2026-11-02-tip-claude-code-subagent-effort-env",
       "date": "2026-11-02",
       "topic": "tip: Claude Code 2.1.316 (31. 10.) — proměnná CLAUDE_CODE_SUBAGENT_EFFORT nastaví výchozí úroveň úsilí subagentů (vlastní úroveň šla zadat už od 2.1.292); povolené hodnoty zdroj neuvádí — z banky tipů"
+    },
+    {
+      "slug": "2026-11-03-anthropic-amended-s1-rsi-warning",
+      "date": "2026-11-03",
+      "topic": "Anthropic 2. 11. doplnila přihlášku S-1/A k IPO (TNW podle Bloombergu, TechCrunch; sec.gov dokument pro automat 403): tržby za 3. čtvrtletí téměř 17 mld. USD, nákupní závazky 895,4 mld. USD (≈448 mld. do konce 2030), v rizicích „may imminently meet“ vlastní definici „dramatically accelerated progress attributable to AI“ (RSP), žádný model práh nepřekročil, zvažuje úpravu RSP; Nasdaq ANT do konce listopadu — highlight; navazuje na 2026-10-27"
+    },
+    {
+      "slug": "2026-11-03-grok-bot-limits-throttled",
+      "date": "2026-11-03",
+      "topic": "xAI/SpaceX: o víkendu 31. 10.–1. 11. skákaly uživatelům Grok Bot měřiče týdenních limitů (50→100 %); Musk 1. 11. na X: obsluha je „unsustainably high relative to revenue“, nejde o chybu; nová čísla limitů nezveřejnil (TechCrunch, TNW, TechRadar; Grok Bot = agent SpaceX s virtuálním počítačem, tarify do 200 USD)"
+    },
+    {
+      "slug": "2026-11-03-chatgpt-classic-app-retires-jan-30",
+      "date": "2026-11-03",
+      "topic": "OpenAI: aplikace ChatGPT Classic skončí 30. 1. 2027 (upozornění v aplikaci od 2. 11., historie chatů se přenese do nové aplikace s ChatGPT, Work a Codexem) — jediný zdroj 9to5Mac, verified:false; navazuje na 2026-11-02 (spojení Chat a Work, sdílená zásoba)"
+    },
+    {
+      "slug": "2026-11-03-anthropic-message-threads-beta",
+      "date": "2026-11-03",
+      "topic": "Anthropic 2. 11.: message threads ve veřejné betě Claude API (první požadavek celá konverzace, další jen nové zprávy + ID poslední odpovědi; medián času do první odpovědi −35 % u 500k–1M tokenů; ceny, limity a spotřeba tokenů beze změny; vlákno 5 minut v paměti; podle TNW ne pro ZDR a HIPAA)"
+    },
+    {
+      "slug": "2026-11-03-apple-age-ratings-ai-companions",
+      "date": "2026-11-03",
+      "topic": "Apple 2. 11. (Developer News, 9to5Mac): od 16. 11. musí vývojáři v App Store Connect uvádět sdílení polohy a Dating and Relationships (i virtuální společník se sexuálním či romantickým obsahem → min. 18+); všechny aplikace do 12. 1. 2027 — na radar 16. 11."
+    },
+    {
+      "slug": "2026-11-03-semianalysis-gdpx-benchmark",
+      "date": "2026-11-03",
+      "topic": "SemiAnalysis 2. 11. spustila benchmark GDPx (206 úloh, 11 oborů, 14 partnerů): Claude Opus 5.5 12,0 % (51,41 USD/úlohu), Gemini 4 Carbon 10,9 % (16,29), GPT-6 Astra 9,6 % (53,99); bez kyberbezpečnosti, biologie a alignmentu by vedl Astra (9to5Google); verified:false (jeden T2 + web benchmarku)"
+    },
+    {
+      "slug": "2026-11-03-wired-hidden-deepfake-apps",
+      "date": "2026-11-03",
+      "topic": "Wired 2. 11.: síť přes 400 propojených appek a webů vydávaných za běžné AI služby skrývala nástroje na sexuální a násilné deepfaky (server rozhodl, co appka ukáže); Apple po dotazu odstranil 19 appek, Google většinu, Meta zasáhla proti 10 000+ reklamním účtům (Wired, 9to5Mac)"
+    },
+    {
+      "slug": "2026-11-03-tip-google-messages-enhanced-protection",
+      "date": "2026-11-03",
+      "topic": "tip: Zprávy Google — volitelný režim Enhanced protection (oznámeno 14. 10., zavádí se postupně; cloudové modely Gemini v Private AI Compute posuzují konverzace s neznámým odesílatelem; Messages settings › Protection & Safety › Spam and scam protection; nabídka jen na podporovaných telefonech) — nový"
+    },
+    {
+      "slug": "2026-11-03-tip-claude-code-schedule-connectors-warning",
+      "date": "2026-11-03",
+      "topic": "tip: Claude Code 2.1.317 (3. 11.) — /schedule varuje, když nový cloudový naplánovaný úkol dostane konektory, o které uživatel nežádal; navíc dotaz před odesláním e-mailu účtu do sítě (changelog neuvádí postup odebrání) — nový"
+    },
+    {
+      "slug": "2026-11-03-tip-m365-copilot-search-chat",
+      "date": "2026-11-03",
+      "topic": "tip: Microsoft 365 Copilot Search — chat vedle výsledků hledání (poznámky k vydání z 6. 10.; Windows a web; zavádí se postupně) — z banky tipů"
+    },
+    {
+      "slug": "2026-11-03-tip-openai-agents-api-sandbox-artifact-sdk",
+      "date": "2026-11-03",
+      "topic": "tip: OpenAI Agents API (16. 10.) — hostované sandboxy mají Artifact SDK a skills pro tvorbu a úpravy tabulek, prezentací a dokumentů Word; pro vývojáře, changelog bez ukázkového kódu a cen — z banky tipů"
     }
   ],
-  "updated": "2026-11-02T03:57:47Z"
+  "updated": "2026-11-03T03:25:04Z"
 }

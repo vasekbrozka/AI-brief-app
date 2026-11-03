@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-02T03:57:47Z",
+  "updated": "2026-11-03T03:25:04Z",
   "briefs": [
+    {
+      "date": "2026-11-03",
+      "headline": {
+        "cs": "Anthropic: práh zrychleného vývoje AI může být blízko",
+        "en": "Anthropic: AI-accelerated progress threshold may be near"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-11-02",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Mistral launches Voxtral 3, which transcribes Czech too"
       },
       "itemCount": 10
-    },
-    {
-      "date": "2026-10-20",
-      "headline": {
-        "cs": "Hacker s AI agenty prolomil přes 100 webů",
-        "en": "Hacker used AI agents to break into 100-plus websites"
-      },
-      "itemCount": 13
     }
   ]
 }
