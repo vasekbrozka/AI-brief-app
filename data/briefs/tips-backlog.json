@@ -3517,16 +3517,16 @@
       "verified": true,
       "eventDate": "2026-10-06",
       "title": {
-        "cs": "Copilot Search teď plynule přejde do chatu",
-        "en": "Copilot Search now flows straight into chat"
+        "cs": "Microsoft 365 Copilot Search: chat vedle výsledků hledání",
+        "en": "Microsoft 365 Copilot Search: chat beside search results"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání z 6. října uvádí, že Microsoft 365 Copilot Search spojil vyhledávání s chatem: z výsledků hledání můžeš rovnou přejít k doplňujícím otázkám nebo k tvorbě obsahu podle nalezených zdrojů. Novinka vyšla mezi 22. zářím a 6. říjnem a platí pro Windows i web.",
-        "en": "In its October 6 release notes, Microsoft says Microsoft 365 Copilot Search now joins search with chat: from your search results you can go straight to follow-up questions or to creating content based on what was found. The feature shipped between September 22 and October 6, on Windows and the web."
+        "cs": "Poznámky k vydání Microsoft 365 Copilot z 6. října (změny od 22. září) uvádějí, že Copilot Search nabízí chat přímo u výsledků: doptávat se a vytvářet obsah podle nalezeného. Chat v postranním panelu Copilot Search zmiňují už poznámky z 25. srpna. Platí pro Windows a web.",
+        "en": "Microsoft 365 Copilot release notes of October 6 (updates since September 22) say Copilot Search offers chat right beside search results: ask follow-ups or create content from what was found. The August 25 notes already mention a chat side pane in Copilot Search. It applies to Windows and the web."
       },
       "why": {
-        "cs": "Otevři Microsoft 365 Copilot Search, zadej dotaz a v panelu chatu vedle výsledků se ptej dál nebo nech vytvořit text z nalezeného. Microsoft funkce zavádí postupně, takže ji nemusíš mít hned.",
-        "en": "Open Microsoft 365 Copilot Search, enter a query, and use the chat pane beside the results to ask follow-ups or draft text. Microsoft rolls features out gradually, so you may not have it yet."
+        "cs": "Pro uživatele s licencí Microsoft 365 Copilot. Otevři Copilot Search v aplikaci Microsoft 365 Copilot, zadej dotaz a v panelu chatu vedle výsledků se ptej dál nebo nech vytvořit text. Microsoft funkce zavádí postupně.",
+        "en": "For Microsoft 365 Copilot license holders. Open Copilot Search in the Microsoft 365 Copilot app, enter a query, and use the chat pane beside the results to ask follow-ups or draft text. Rollout is gradual."
       },
       "sources": [
         {
@@ -4857,21 +4857,25 @@
       "verified": true,
       "eventDate": "2026-10-16",
       "title": {
-        "cs": "Sandboxy Agents API umí tvořit tabulky, prezentace i Wordy",
-        "en": "Agents API sandboxes can create sheets, decks, and documents"
+        "cs": "Pro vývojáře: sandboxy Agents API tvoří tabulky i prezentace",
+        "en": "For developers: Agents API sandboxes build sheets and decks"
       },
       "summary": {
-        "cs": "OpenAI 16. října uvedla, že hostované sandboxy v Agents API nově obsahují Artifact SDK a skills pro tvorbu a úpravy tabulek, prezentací a dokumentů Word. Agent, který v takovém sandboxu běží, má pro tyto soubory hotové nástroje.",
-        "en": "On October 16, OpenAI said OpenAI-hosted sandboxes in the Agents API now include the Artifact SDK and skills for creating and editing spreadsheets, presentations, and Word documents. An agent running in such a sandbox has ready-made tools for these files."
+        "cs": "OpenAI 16. října uvedla, že hostované sandboxy v Agents API (veřejná beta) nově obsahují SDK a skills pro tvorbu a úpravy tabulek, prezentací a dokumentů Word. Agent, který v takovém sandboxu běží, má pro tyto soubory hotové nástroje.",
+        "en": "On October 16, OpenAI said OpenAI-hosted sandboxes in the Agents API (public beta) now include an SDK and skills for creating and editing spreadsheets, presentations, and Word documents. An agent running in such a sandbox has ready-made tools for these files."
       },
       "why": {
-        "cs": "Je pro vývojáře: týká se endpointu v1/agents. Poznámka v changelogu neuvádí ukázkový kód, ceny ani plány.",
-        "en": "For developers: it concerns the v1/agents endpoint. The changelog entry gives no sample code, prices, or plans."
+        "cs": "Je pro vývojáře: v požadavku na vytvoření session nastav environment.type na openai_hosted; podle dokumentace se soubory z /workspace/outputs po dokončení kola zveřejní ke stažení. Sandbox se účtuje podle sazeb kontejnerů, model zvlášť.",
+        "en": "For developers: in the create-session request set environment.type to openai_hosted; per the docs, files in /workspace/outputs are published for download when a turn completes. Sandboxes bill at container rates, the model separately."
       },
       "sources": [
         {
           "name": "OpenAI",
           "url": "https://learn.chatgpt.com/api/docs/changelog"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/environments/openai-hosted"
         }
       ],
       "added": "2026-11-02",
@@ -4885,16 +4889,16 @@
       "verified": true,
       "eventDate": "2026-10-14",
       "title": {
-        "cs": "Zprávy Google pomocí Gemini hlídají podvodné konverzace",
-        "en": "Google Messages uses Gemini to watch for scam chats"
+        "cs": "Zprávy Google: volitelná ochrana před podvody s Gemini",
+        "en": "Google Messages adds opt-in Gemini scam protection"
       },
       "summary": {
-        "cs": "Google 14. října oznámil pro aplikaci Zprávy Google volitelný režim Enhanced protection: Scam Detection u konverzace s neznámým odesílatelem posílá kontext do cloudových modelů Gemini v Private AI Compute, aby dřív poznala záměr podvodníka. Podle Googlu se data zpracovávají šifrovaně. Režim se zavádí postupně.",
-        "en": "On October 14, Google announced an opt-in Enhanced protection mode for Google Messages: in a chat with an unknown sender, Scam Detection sends context to cloud Gemini models in Private AI Compute to spot a scammer’s intent sooner. Google says the data is processed encrypted. The mode rolls out gradually."
+        "cs": "Google 14. října oznámil pro aplikaci Zprávy Google volitelný režim Enhanced protection: Scam Detection u konverzace s neznámým odesílatelem pošle data zpráv do cloudových modelů Gemini v Private AI Compute, aby dřív poznala záměr podvodníka. Podle Googlu se data zpracovávají šifrovaně. Zavádí se postupně a nemusí být na každém telefonu.",
+        "en": "On October 14, Google announced an opt-in Enhanced protection mode for Google Messages: in chats with unknown senders, Scam Detection sends message data to cloud Gemini models in Private AI Compute to spot a scammer’s intent sooner. Google says the data is processed encrypted. It rolls out gradually and may not reach every phone."
       },
       "why": {
-        "cs": "V Zprávách Google klepni na profilový obrázek › Messages settings › Protection & Safety › Spam and scam protection a vyber Enhanced protection. Nabídka se objeví, jen když ji telefon podporuje.",
-        "en": "In Google Messages tap your profile picture › Messages settings › Protection & Safety › Spam and scam protection and choose Enhanced protection. The option shows up only if your phone supports it."
+        "cs": "Klepni na profilový obrázek › Messages settings › Protection & Safety › Spam and scam protection › Enhanced protection (anglicky podle nápovědy). Nabídka je jen na podporovaných telefonech; dostupnost v Česku zdroje neuvádějí.",
+        "en": "Tap your profile picture › Messages settings › Protection & Safety › Spam and scam protection › Enhanced protection. It appears only on supported phones; sources do not say if it is available in Czechia."
       },
       "sources": [
         {
@@ -4916,21 +4920,25 @@
       "verified": true,
       "eventDate": "2026-11-03",
       "title": {
-        "cs": "Naplánovaný úkol v Claude Code varuje před nechtěnými konektory",
+        "cs": "Claude Code varuje před nechtěnými konektory v naplánovaných úkolech",
         "en": "Claude Code warns of unrequested connectors in scheduled tasks"
       },
       "summary": {
-        "cs": "Claude Code 2.1.317 (3. listopadu) přidal varování k příkazu /schedule: když nový cloudový naplánovaný úkol získá konektory, o které sis neřekl, Claude Code to ukáže a poradí, jak je odebrat. Ve stejné verzi se zeptá, než nástroj pro web nebo shell odešle e-mail tvého účtu do sítě.",
+        "cs": "Claude Code 2.1.317 (3. listopadu) přidal varování k příkazu /schedule: když nový cloudový naplánovaný úkol získá konektory, o které sis neřekl, Claude Code to ukáže a poradí, jak je odebrat. Ve stejné verzi se zeptá, než nástroj pro web nebo shell odešle e-mailovou adresu tvého účtu do sítě.",
         "en": "Claude Code 2.1.317 (November 3) added a warning to the /schedule command: when a new cloud scheduled task gets connectors you did not ask for, Claude Code shows it and explains how to remove them. The same version asks before a web or shell tool sends your account email address over the network."
       },
       "why": {
-        "cs": "Pro vývojáře. Verzi zjistíš příkazem claude --version; při vytváření úkolu přes /schedule si varování přečti. Changelog nepopisuje, jak přesně se konektory odebírají.",
-        "en": "For developers. Check your version with claude --version and read the warning when you create a task with /schedule. The changelog does not describe how exactly connectors are removed."
+        "cs": "Pro vývojáře: nový cloudový úkol dostane podle dokumentace všechny tvé připojené konektory a Claude je může použít i k zápisu. Zkus /schedule a nepotřebné konektory odeber (karta Connectors v Advanced settings nebo /schedule update).",
+        "en": "For developers: per the docs, a new cloud task gets all your connected connectors, and Claude can write with them. Try /schedule and remove the ones you do not need (Connectors tab, or /schedule update)."
       },
       "sources": [
         {
           "name": "Anthropic",
           "url": "https://code.claude.com/docs/en/changelog"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/routines"
         }
       ],
       "used": "2026-11-03"

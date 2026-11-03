@@ -267,7 +267,19 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   zpět; druhý tip ze stejného vydání nástroje jako tip z posledních dní (Bionic 1.1.10)
   patří do banky, pokud nemá praktický návod; (14) u benchmarků přiznej ve `why` překrývající
   se intervaly spolehlivosti a rozdílnou úroveň úsilí (max × high); „cena celého běhu“
-  testu není cena pro uživatele.
+  testu není cena pro uživatele; (15) **výrok osoby × výklad média** — co CEO napsal
+  („neudržitelně drahé vůči příjmům“) a co z toho udělalo médium („potvrdil, že nejde
+  o chybu“, „omezil limity“) jsou dvě tvrzení: titulek a první věta nesou jen výrok,
+  výklad dostane „podle X“ (a druhý zdroj, který ho nepotvrzuje, se do `why` přizná);
+  pojem, který primární text nepoužívá (slovo „AI“ v oznámení Applu), patří médiu, které
+  ho použilo; (16) **číslo z vlastního měření výrobce či autora testu** („medián −35 %“,
+  skóre vlastního benchmarku) nese větu „Podle Anthropicu / autora testu…“ včetně podmínek
+  měření (v Claude Code, ne obecně v API); „cena úlohy v testu“ není ceník a model
+  „coming soon“ většina zákazníků nemá; (17) **tip z jednořádkové poznámky v changelogu**
+  nemá „co zkusit“ — otevři stránku dokumentace, na kterou poznámka odkazuje (odkaz je
+  v HTML changelogu), a krok, podmínku i cenu vezmi z ní; když nic nepřidá, patří tip do
+  banky; (18) po simulaci slovníčku zkontroluj, že alias nepodtrhl cizí produkt (OpenAI
+  „Artifact SDK“ × Claude artefakty) — přeformuluj text, existující záznamy neměň.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

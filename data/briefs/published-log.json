@@ -2043,58 +2043,58 @@
     {
       "slug": "2026-11-03-anthropic-amended-s1-rsi-warning",
       "date": "2026-11-03",
-      "topic": "Anthropic 2. 11. doplnila přihlášku S-1/A k IPO (TNW podle Bloombergu, TechCrunch; sec.gov dokument pro automat 403): tržby za 3. čtvrtletí téměř 17 mld. USD, nákupní závazky 895,4 mld. USD (≈448 mld. do konce 2030), v rizicích „may imminently meet“ vlastní definici „dramatically accelerated progress attributable to AI“ (RSP), žádný model práh nepřekročil, zvažuje úpravu RSP; Nasdaq ANT do konce listopadu — highlight; navazuje na 2026-10-27"
+      "topic": "Anthropic 2. 11. doplnila přihlášku S-1/A k IPO: v rizicích (citace TechCrunch) podle interních odhadů a očekávání u budoucích modelů může „imminently“ splnit vlastní definici „dramatically accelerated progress attributable to AI“ (RSP), žádný současný model práh nepřekročil, zvažuje úpravu RSP, aby vývoj modelů dál řídili lidé; tržby za 3. čtvrtletí téměř 17 mld. USD (The Next Web podle Bloombergu); sec.gov dokument pro automat 403, neotevřen; nepublikováno: nákupní závazky 895,4 mld. USD, Nasdaq ANT do konce listopadu — highlight; navazuje na 2026-10-27"
     },
     {
       "slug": "2026-11-03-grok-bot-limits-throttled",
       "date": "2026-11-03",
-      "topic": "xAI/SpaceX: o víkendu 31. 10.–1. 11. skákaly uživatelům Grok Bot měřiče týdenních limitů (50→100 %); Musk 1. 11. na X: obsluha je „unsustainably high relative to revenue“, nejde o chybu; nová čísla limitů nezveřejnil (TechCrunch, TNW, TechRadar; Grok Bot = agent SpaceX s virtuálním počítačem, tarify do 200 USD)"
+      "topic": "xAI/SpaceX: o víkendu 31. 10.–1. 11. uživatelé Grok Bot hlásili na X skoky měřičů týdenních limitů (50→100 %); Musk 1. 11. na X: obsluha je „unsustainably high relative to revenue“ (TechCrunch to čte jako potvrzení, že nejde o chybu; TNW: žádná čísla, neřekl, zda SpaceX limity snížil; Cursor hlásil chybu fakturace, souvislost nejasná; Grok Bot = agent SpaceX s virtuálním počítačem, ne chatbot Grok) — TechCrunch, TNW, TechRadar"
     },
     {
       "slug": "2026-11-03-chatgpt-classic-app-retires-jan-30",
       "date": "2026-11-03",
-      "topic": "OpenAI: aplikace ChatGPT Classic skončí 30. 1. 2027 (upozornění v aplikaci od 2. 11., historie chatů se přenese do nové aplikace s ChatGPT, Work a Codexem) — jediný zdroj 9to5Mac, verified:false; navazuje na 2026-11-02 (spojení Chat a Work, sdílená zásoba)"
+      "topic": "OpenAI: desktopová aplikace ChatGPT Classic skončí 30. 1. 2027 (upozornění v aplikaci od 2. 11., historie chatů se přenese do nové aplikace s ChatGPT, Work a Codexem; 9to5Mac cituje e-mail OpenAI: test spojení Chat a Work v příštích týdnech, nejdřív u malé skupiny) — jediný zdroj 9to5Mac, web OpenAI pro automat 403, verified:false; navazuje na 2026-11-02 (sdílená zásoba)"
     },
     {
       "slug": "2026-11-03-anthropic-message-threads-beta",
       "date": "2026-11-03",
-      "topic": "Anthropic 2. 11.: message threads ve veřejné betě Claude API (první požadavek celá konverzace, další jen nové zprávy + ID poslední odpovědi; medián času do první odpovědi −35 % u 500k–1M tokenů; ceny, limity a spotřeba tokenů beze změny; vlákno 5 minut v paměti; podle TNW ne pro ZDR a HIPAA)"
+      "topic": "Anthropic 2. 11.: message threads ve veřejné betě Claude API (první požadavek celá konverzace, další jen nové zprávy + ID poslední odpovědi; podle Anthropicu medián času do první odpovědi −35 % v Claude Code u 500k–1M tokenů; ceny, limity a spotřeba tokenů beze změny; vlákno vyprší po 5 minutách; dokumentace: beta hlavička message-threads-2026-08-12, bez ZDR a HIPAA)"
     },
     {
       "slug": "2026-11-03-apple-age-ratings-ai-companions",
       "date": "2026-11-03",
-      "topic": "Apple 2. 11. (Developer News, 9to5Mac): od 16. 11. musí vývojáři v App Store Connect uvádět sdílení polohy a Dating and Relationships (i virtuální společník se sexuálním či romantickým obsahem → min. 18+); všechny aplikace do 12. 1. 2027 — na radar 16. 11."
+      "topic": "Apple 2. 11. (Developer News, 9to5Mac): od 16. 11. musí vývojáři uvádět sdílení polohy a Dating and Relationships (i virtuální společník se sexuálním či romantickým obsahem); min. 18+ jen u Dating and Relationships, sdílení polohy věk v některých regionech nemění; všechny aplikace do 12. 1. 2027 — na radar 16. 11."
     },
     {
       "slug": "2026-11-03-semianalysis-gdpx-benchmark",
       "date": "2026-11-03",
-      "topic": "SemiAnalysis 2. 11. spustila benchmark GDPx (206 úloh, 11 oborů, 14 partnerů): Claude Opus 5.5 12,0 % (51,41 USD/úlohu), Gemini 4 Carbon 10,9 % (16,29), GPT-6 Astra 9,6 % (53,99); bez kyberbezpečnosti, biologie a alignmentu by vedl Astra (9to5Google); verified:false (jeden T2 + web benchmarku)"
+      "topic": "SemiAnalysis 2. 11. zveřejnila vlastní benchmark GDPx (206 úloh, 11 oborů, 14 partnerů): Claude Opus 5.5 12,0 % (51,41 USD/úlohu), Gemini 4 Carbon 10,9 % (16,29), GPT-6 Astra 9,6 % (53,99); bezpečnostní filtry snižují skóre Opusu a Astry, bez kyberbezpečnosti, biologie a alignmentu by podle 9to5Google vedla Astra; Carbon zatím většině zákazníků nedostupný; výsledky uvádí jen autor testu, verified:false"
     },
     {
       "slug": "2026-11-03-wired-hidden-deepfake-apps",
       "date": "2026-11-03",
-      "topic": "Wired 2. 11.: síť přes 400 propojených appek a webů vydávaných za běžné AI služby skrývala nástroje na sexuální a násilné deepfaky (server rozhodl, co appka ukáže); Apple po dotazu odstranil 19 appek, Google většinu, Meta zasáhla proti 10 000+ reklamním účtům (Wired, 9to5Mac)"
+      "topic": "Wired 2. 11.: síť přes 400 appek a webů vydávaných za běžné AI služby skrývala nástroje na sexuální a násilné deepfaky (server rozhodl, komu appka skryté rozhraní ukáže); Apple po dotazu odstranil 19 appek, Google většinu už před dotazem, Meta podle svých slov zasáhla proti 11 600 reklamním účtům; spouštěč zřejmě proklik z reklamy na Facebooku či Instagramu (Wired, 9to5Mac)"
     },
     {
       "slug": "2026-11-03-tip-google-messages-enhanced-protection",
       "date": "2026-11-03",
-      "topic": "tip: Zprávy Google — volitelný režim Enhanced protection (oznámeno 14. 10., zavádí se postupně; cloudové modely Gemini v Private AI Compute posuzují konverzace s neznámým odesílatelem; Messages settings › Protection & Safety › Spam and scam protection; nabídka jen na podporovaných telefonech) — nový"
+      "topic": "tip: Zprávy Google — volitelný režim Enhanced protection (oznámeno 14. 10., zavádí se postupně; cloudové modely Gemini v Private AI Compute posuzují konverzace s neznámým odesílatelem; Messages settings › Protection & Safety › Spam and scam protection, názvy z anglické nápovědy; nabídka jen na podporovaných telefonech, dostupnost v Česku zdroje neuvádějí) — nový"
     },
     {
       "slug": "2026-11-03-tip-claude-code-schedule-connectors-warning",
       "date": "2026-11-03",
-      "topic": "tip: Claude Code 2.1.317 (3. 11.) — /schedule varuje, když nový cloudový naplánovaný úkol dostane konektory, o které uživatel nežádal; navíc dotaz před odesláním e-mailu účtu do sítě (changelog neuvádí postup odebrání) — nový"
+      "topic": "tip: Claude Code 2.1.317 (3. 11.) — /schedule varuje, když nový cloudový naplánovaný úkol dostane konektory, o které uživatel nežádal; dotaz před odesláním e-mailové adresy účtu do sítě; dokumentace (code.claude.com/docs/en/routines): nový úkol dostane všechny připojené konektory a Claude může zapisovat, nepotřebné se odeberou na kartě Connectors nebo /schedule update — nový"
     },
     {
       "slug": "2026-11-03-tip-m365-copilot-search-chat",
       "date": "2026-11-03",
-      "topic": "tip: Microsoft 365 Copilot Search — chat vedle výsledků hledání (poznámky k vydání z 6. 10.; Windows a web; zavádí se postupně) — z banky tipů"
+      "topic": "tip: Microsoft 365 Copilot Search — chat vedle výsledků hledání (poznámky k vydání z 6. 10.; chat v postranním panelu zmiňují už poznámky z 25. 8.; licence Microsoft 365 Copilot; Windows a web; zavádí se postupně) — z banky tipů"
     },
     {
       "slug": "2026-11-03-tip-openai-agents-api-sandbox-artifact-sdk",
       "date": "2026-11-03",
-      "topic": "tip: OpenAI Agents API (16. 10.) — hostované sandboxy mají Artifact SDK a skills pro tvorbu a úpravy tabulek, prezentací a dokumentů Word; pro vývojáře, changelog bez ukázkového kódu a cen — z banky tipů"
+      "topic": "tip: OpenAI Agents API (veřejná beta; změna 16. 10.) — hostované sandboxy mají SDK a skills pro tvorbu a úpravy tabulek, prezentací a dokumentů Word; pro vývojáře; dokumentace: environment.type openai_hosted, soubory z /workspace/outputs ke stažení po dokončení kola, účtování podle sazeb kontejnerů — z banky tipů"
     }
   ],
-  "updated": "2026-11-03T03:25:04Z"
+  "updated": "2026-11-03T03:57:41Z"
 }
