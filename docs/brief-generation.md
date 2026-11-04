@@ -279,7 +279,21 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   nemá „co zkusit“ — otevři stránku dokumentace, na kterou poznámka odkazuje (odkaz je
   v HTML changelogu), a krok, podmínku i cenu vezmi z ní; když nic nepřidá, patří tip do
   banky; (18) po simulaci slovníčku zkontroluj, že alias nepodtrhl cizí produkt (OpenAI
-  „Artifact SDK“ × Claude artefakty) — přeformuluj text, existující záznamy neměň.
+  „Artifact SDK“ × Claude artefakty) — přeformuluj text, existující záznamy neměň; totéž
+  platí pro alias uvnitř názvu příkazu nebo produktu (`claude setup-token` → Token, „Agent
+  Client Protocol“ spotřebuje podtržení pro AI agenta): pojem nech stát dřív samostatně
+  („jako AI agent“) nebo název vynech; (19) **„zdroj to neuvádí“ je tvrzení, které se
+  ověřuje** — před větou typu „changelog neuvádí, jak přihlášení obnovit“ projdi celý blok
+  vydání i odkazované stránky (Claude Code 2.1.318 měl pokyn o pár řádků jinde: `claude auth
+  login`); (20) **titulek ani headline nepřebírá rámování výrobce**, když média titulkují
+  spornější část téhož oznámení (Google „AI pro žáky vypnutá“ × NBC a TechCrunch: vypíná
+  i Vyhledávání), a `why` řekne, co se kritizovalo — „po kritice“ samo nic neříká;
+  (21) **předpověď nese hedge i horizont**: „vysoce pravděpodobné“ (NCSC) drž ve shrnutí i
+  ve `why`, a když primární zdroj horizont neříká (jen The Register: do roku 2028), připiš
+  „podle X“; omezení platnosti výsledku (jen celočíselná 4bitová verze, greedy dekódování
+  u FlashProve) patří do `why`; (22) před 5c projdi `why` proti shrnutím — první věta
+  nesmí opakovat údaj, který už shrnutí má (Watch a Netflix 4. 11.: „jen vývojářská beta“,
+  „jen USA a angličtina“); napiš, co shrnutí nemá (nastavení, soukromí, co přijde dál).
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

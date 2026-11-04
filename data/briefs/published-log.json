@@ -2083,37 +2083,37 @@
     {
       "slug": "2026-11-04-google-schools-ai-off-by-default",
       "date": "2026-11-04",
-      "topic": "Google 3. 11. (blog Chris Phillips; NBC News, TechCrunch, Verge, Ars, Engadget, 9to5Google, CNN): Gemini, Gemini Notebook, Gemini ve Classroomu a Vyhledávání budou pro školní účty žáků K-12 ve výchozím stavu vypnuté, dokud je správce nezapne (podrobnosti „v příštích měsících“, NYT: začátek 2027); Phillips: Search a AI jsou „deeply integrated“, bez AI není Search; po kritice Google (příspěvek na X) školám dovolil zapnout produkty jednotlivě, Search ale zůstává s AI funkcemi; Guided Learning od 3. 11. v Classroomu celosvětově, pilot ve Search v USA později v listopadu — highlight"
+      "topic": "Google 3. 11. (blog Chris Phillips; NBC News, TechCrunch, Verge, Ars, Engadget, 9to5Google, CNN): Gemini, Gemini Notebook, Gemini ve Classroomu a Vyhledávání budou pro účty žáků K-12 ve výchozím stavu vypnuté, dokud je správce nezapne (termín neuveden, podrobnosti „v příštích měsících“; TechCrunch: příští rok, NYT: začátek 2027); kritici (AFT, Fairplay): školy bez AI přijdou i o Search; Google (příspěvek na X) upřesnil, že produkty lze zapnout jednotlivě, Search ale zůstává s AI funkcemi (NBC); Guided Learning od 3. 11. v Classroomu celosvětově, pilot ve Search v USA později v listopadu — highlight"
     },
     {
       "slug": "2026-11-04-apple-siri-ai-open-to-all-developers",
       "date": "2026-11-04",
-      "topic": "Apple 3. 11. (Developer News, Verge, 9to5Mac): Siri AI otevřena všem vývojářům jako Developer Preview v betách iOS/iPadOS/macOS/visionOS 27.3 (App Intents, vícekrokové skills, Spotlight); aplikace zákazníkům za pár měsíců, App Store na jaře; Siri AI beta v 6 jazycích (bez češtiny), v EU na iOS/iPadOS/watchOS nedostupná, denní limity a budoucí poplatek za rozšířený přístup"
+      "topic": "Apple 3. 11. (Developer News, Verge, 9to5Mac): Siri AI otevřena vývojářům jako Developer Preview (náhled) v betách iOS/iPadOS/macOS/visionOS 27.3 (App Intents, skills spojující víc akcí, Spotlight); aplikace zákazníkům za pár měsíců, App Store na jaře; Siri AI beta v 6 jazycích (bez češtiny), v EU na iOS/iPadOS/watchOS nedostupná, denní limity používání a budoucí poplatek za rozšířený přístup"
     },
     {
       "slug": "2026-11-04-anthropic-flashprove-provable-inference",
       "date": "2026-11-04",
-      "topic": "Anthropic (příspěvek z 2. 11., Frontier Red Team; TechCrunch 3. 11.): FlashProve — open-source prototyp kryptografického důkazu (zkSNARK), že odpověď vznikla ve zvoleném modelu (Llama 4 Maverick 400B, jedna H100 ≈110 tok/s, ≈19 MB na 1 024 tokenů, 70–95× GPU čas vLLM, kontext do 1 024; Apache 2.0); TechCrunch: žádné plány nasazení"
+      "topic": "Anthropic (příspěvek datovaný 2. 11., Frontier Red Team; TechCrunch 3. 11.): FlashProve — open-source prototyp kryptografického důkazu (zkSNARK), že odpověď vznikla ve zvoleném modelu; platí jen pro celočíselnou 4bitovou verzi a greedy dekódování (Llama 4 Maverick 400B; podle Anthropicu jedna H100 ≈110 tok/s, ≈19 MB na 1 024 tokenů, 70–95× GPU čas vLLM, kontext do 1 024; Apache 2.0); TechCrunch: žádné plány nasazení"
     },
     {
       "slug": "2026-11-04-ncsc-annual-review-ai-cyber-threat",
       "date": "2026-11-04",
-      "topic": "NCSC (GCHQ) 3. 11., roční přehled 2026 (The Register): „highly likely“ AI malware v ransomware útoku na britskou kritickou infrastrukturu; AI zrychluje stávající útoky, ne end-to-end; závod v záplatování; „stínová AI“; scénář 2028 s autonomním útočníkem; ministr Narayan téhož dne: vážné narušení „extremely likely“ (TNW, nepublikováno)"
+      "topic": "NCSC (GCHQ) 3. 11., roční přehled 2026 (The Register: do roku 2028): „highly likely“ AI malware v ransomware útoku na britskou kritickou infrastrukturu; AI zrychluje stávající útoky, ne end-to-end; závod v opravách chyb; „stínová AI“; scénář 2028 s autonomním útočníkem; ministr Narayan téhož dne: vážné narušení „extremely likely“ (TNW, nepublikováno)"
     },
     {
       "slug": "2026-11-04-openai-chatgpt-search-volume-claim",
       "date": "2026-11-04",
-      "topic": "OpenAI (Adam Fry, tisková akce 2. 11.; Verge, 9to5Google): objem hledání v ChatGPT ≈ pětina Googlu (hledání = dotaz s webovým hledáním; zdroj čísla Googlu neuveden); „většině lidí reklamy nevadí“; tvrzení OpenAI bez nezávislého ověření"
+      "topic": "OpenAI (Adam Fry, tisková akce 2. 11.; Verge, 9to5Google): objem hledání v ChatGPT ≈ pětina Googlu (hledání = dotaz s webovým hledáním; zdroj čísla Googlu neuveden); reklamy v ChatGPT „většině lidí zřejmě nevadí“ (Verge: „do not seem to mind“); tvrzení OpenAI bez nezávislého ověření"
     },
     {
       "slug": "2026-11-04-apple-watch-siri-recap-live-rewind-beta",
       "date": "2026-11-04",
-      "topic": "Apple 3. 11. (9to5Mac, TechCrunch): watchOS 27.3 vývojářská beta přináší Siri Recap a Live Rewind pro Watch Series 12/Ultra 4 (15 s textem po dvojitém stisku korunky; shrnutí se po 7 dnech mažou; Apple: zvuk se neukládá); oznámeno v září (2026-09-10)"
+      "topic": "Apple 3. 11. (9to5Mac, TechCrunch): watchOS 27.3 vývojářská beta přináší Siri Recap a Live Rewind pro Watch Series 12/Ultra 4 (15 s textem po dvojitém stisku korunky; shrnutí se po 7 dnech mažou; Apple: zvuk se neukládá, zhuštěný text jde šifrovaně do Private Cloud Compute); oznámeno v září (2026-09-10)"
     },
     {
       "slug": "2026-11-04-netflix-ai-discover-tab",
       "date": "2026-11-04",
-      "topic": "Netflix 3. 11. (TechCrunch, Verge, Engadget): záložka AI Discover v TV aplikaci, první funkce doporučení podle nálady a tématu; postupně v USA, angličtina, podporované televize; „test kitchen“"
+      "topic": "Netflix 3. 11. (TechCrunch, Verge, Engadget): záložka AI Discover v TV aplikaci, první funkce doporučení podle nálady a tématu; postupně v USA, angličtina, podporované televize, další uživatelé v příštích týdnech; „test kitchen“"
     },
     {
       "slug": "2026-11-04-tip-github-copilot-jetbrains-air",
@@ -2128,13 +2128,13 @@
     {
       "slug": "2026-11-04-tip-claude-code-login-expiry-warning",
       "date": "2026-11-04",
-      "topic": "tip: Claude Code 2.1.318 (4. 11.) — claude auth status ukáže loginExpiresAt, JSON claude -p credential_expires_at, 10 dní předem varování na stderr u claude -p — nový"
+      "topic": "tip: Claude Code 2.1.318 (4. 11.) — claude auth status ukáže loginExpiresAt, JSON claude -p credential_expires_at, od 10 dní předem varování na stderr u claude -p; po vypršení chyba v claude -p uvede claude auth login a claude setup-token — nový"
     },
     {
       "slug": "2026-11-04-tip-github-dependabot-agent-package-manager",
       "date": "2026-11-04",
-      "topic": "tip: Dependabot verzní aktualizace pro Agent Package Manager (3. 11.; apm.yml, apm.lock.yaml; položka apm v .github/dependabot.yml; github.com všechny plány, GHES 3.24) — nový"
+      "topic": "tip: Dependabot verzní aktualizace pro Agent Package Manager (3. 11.; podporované git závislosti z apm.yml, apm.lock.yaml jen pokud existuje; položka apm v .github/dependabot.yml; github.com všechny plány, GHES 3.24) — nový"
     }
   ],
-  "updated": "2026-11-04T03:27:22Z"
+  "updated": "2026-11-04T03:56:42Z"
 }

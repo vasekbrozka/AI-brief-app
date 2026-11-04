@@ -2,8 +2,8 @@
   "date": "2026-11-04",
   "sample": false,
   "headline": {
-    "cs": "Google: AI pro žáky bude ve výchozím stavu vypnutá",
-    "en": "Google: AI for students will be off by default"
+    "cs": "Google žákům ve výchozím stavu vypne Gemini i Vyhledávání",
+    "en": "Google: Gemini and Search off by default for students"
   },
   "items": [
     {
@@ -14,16 +14,16 @@
       "verified": true,
       "eventDate": "2026-11-03",
       "title": {
-        "cs": "Google: AI pro žáky bude ve výchozím stavu vypnutá",
-        "en": "Google: AI for students will be off by default"
+        "cs": "Google žákům ve výchozím stavu vypne Gemini i Vyhledávání",
+        "en": "Google: Gemini and Search off by default for students"
       },
       "summary": {
-        "cs": "Google 3. listopadu oznámil, že Gemini, Gemini Notebook, Gemini ve Classroomu i Vyhledávání budou pro školní účty žáků K-12 ve výchozím stavu vypnuté, dokud je správce školy nezapne; podrobnosti slíbil „v příštích měsících“. Guided Learning, režim vedoucí žáky k řešení krok za krokem, je od 3. listopadu v Google Classroom celosvětově.",
-        "en": "On November 3, Google said Gemini, Gemini Notebook, Gemini in Classroom, and Search will be off by default for K-12 student accounts until school administrators turn them on, with details promised “in the coming months.” Guided Learning, which walks students through problems step by step, is in Google Classroom worldwide from November 3."
+        "cs": "Google 3. listopadu oznámil, že Gemini, Gemini Notebook, Gemini ve Classroomu i Vyhledávání budou pro účty žáků základních a středních škol (K-12) ve výchozím stavu vypnuté, dokud je správce školy nezapne. Termín neuvedl, podrobnosti slíbil „v příštích měsících“. Guided Learning, režim vedoucí žáky k řešení krok za krokem, je od 3. listopadu v Classroomu celosvětově.",
+        "en": "On November 3, Google said Gemini, Gemini Notebook, Gemini in Classroom, and Search will be off by default for K-12 student accounts until school administrators turn them on. It gave no date, only promised details “in the coming months.” Guided Learning, which walks students through problems step by step, is now in Classroom worldwide."
       },
       "why": {
-        "cs": "Po kritice Google v příspěvku na X doplnil, že školy mohou zapnout i samotné Vyhledávání, jenže s AI funkcemi, třeba shrnutími (NBC News). Zdroje se zaměřují na USA; dopad na české školy neuvádějí.",
-        "en": "After criticism, Google said on X that schools can enable Search alone, but with AI features such as summaries (NBC News). Sources focus on the US, not Czech schools."
+        "cs": "Kritici namítali, že školy bez AI přijdou i o Vyhledávání. Google upřesnil, že lze zapnout jen Vyhledávání, podle NBC News ale s AI funkcemi, třeba shrnutími. Podle TechCrunch změna přijde příští rok; region zdroje neuvádějí.",
+        "en": "Critics said schools without AI would lose Search too. Google said schools can enable Search alone, but with AI features such as summaries (NBC News). TechCrunch: it takes effect next year; no region given."
       },
       "sources": [
         {
@@ -47,16 +47,16 @@
       "verified": true,
       "eventDate": "2026-11-03",
       "title": {
-        "cs": "Apple otevřel Siri AI všem vývojářům aplikací",
-        "en": "Apple opens Siri AI to all app developers"
+        "cs": "Apple otevřel vývojářům aplikací náhled Siri AI",
+        "en": "Apple opens a Siri AI preview to all app developers"
       },
       "summary": {
-        "cs": "Apple 3. listopadu otevřel Siri AI všem vývojářům: ve vývojářských betách iOS, iPadOS, macOS a visionOS 27.3 mohou aplikace nabídnout Siri své akce přes App Intents a nově i vícekrokové rutiny. Zákazníkům mají aplikace dorazit za několik měsíců; Siri AI zároveň umí víc ve vlastních aplikacích Applu, třeba v Mailu a Fotkách.",
-        "en": "On November 3, Apple opened Siri AI to all app developers: in the 27.3 developer betas of iOS, iPadOS, macOS, and visionOS, apps can expose actions to Siri through App Intents, plus multi-step routines. Apps reach customers in a few months; Siri AI also does more in Apple’s own apps such as Mail and Photos."
+        "cs": "Apple 3. listopadu otevřel vývojářům náhled Siri AI: ve vývojářských betách iOS, iPadOS, macOS a visionOS 27.3 mohou aplikace nabídnout Siri své akce přes App Intents a nově i „skills“ spojující víc akcí. Zákazníkům mají aplikace dorazit za několik měsíců; Siri AI zároveň umí víc ve vlastních aplikacích Applu, třeba v Mailu a Fotkách.",
+        "en": "On November 3, Apple opened a Siri AI preview to developers: in the 27.3 developer betas of iOS, iPadOS, macOS, and visionOS, apps can expose actions to Siri through App Intents, plus multi-action “skills.” Apps reach customers in a few months; Siri AI also does more in Apple’s own apps such as Mail and Photos."
       },
       "why": {
-        "cs": "Siri AI je zatím beta v šesti jazycích (bez češtiny) a v EU na iOS, iPadOS a hodinkách nedostupná. Apple uvádí denní limity a budoucí poplatek za rozšířený přístup.",
-        "en": "Siri AI is still a beta in six languages, not Czech, and is unavailable in the EU on iOS, iPadOS, and Apple Watch. Apple lists daily limits and a future fee for expanded access."
+        "cs": "Siri AI, nová verze Siri, je zatím beta v šesti jazycích (bez češtiny) a v EU na iOS, iPadOS a hodinkách nedostupná. Apple uvádí denní limity používání a budoucí poplatek za rozšířený přístup.",
+        "en": "Siri AI, Apple’s new Siri, is a beta in six languages, not Czech, and unavailable in the EU on iOS, iPadOS, and Apple Watch. Daily usage limits apply; expanded access will cost extra later."
       },
       "sources": [
         {
@@ -80,16 +80,16 @@
       "verified": true,
       "eventDate": "2026-11-02",
       "title": {
-        "cs": "Anthropic: důkaz, že odpověď vznikla ve zvoleném modelu",
-        "en": "Anthropic prototype proves which model wrote an answer"
+        "cs": "Anthropic: prototyp důkazu, že odpověď vznikla ve zvoleném modelu",
+        "en": "Anthropic prototype proves an answer came from the chosen model"
       },
       "summary": {
-        "cs": "Anthropic v příspěvku z 2. listopadu představila FlashProve, open-source prototyp kryptografického důkazu, že odpověď vznikla ve zvoleném modelu, a ne v tajně vyměněném levnějším. U modelu Llama 4 Maverick (400 mld. parametrů) vytváří jedna karta H100 důkaz rychlostí přes 100 tokenů za sekundu; důkaz má kolem 19 MB na požadavek o 1 024 tokenech.",
-        "en": "In a post dated November 2, Anthropic introduced FlashProve, an open-source prototype for cryptographically proving that a response came from the chosen model, not a secretly swapped cheaper one. For Llama 4 Maverick (400B parameters), one H100 GPU generates proofs at over 100 tokens per second; a proof is about 19 MB per 1,024-token request."
+        "cs": "Anthropic v příspěvku datovaném 2. listopadu představila FlashProve, open-source prototyp kryptografického důkazu, že odpověď vznikla ve zvoleném modelu, ne v tajně vyměněném. Podle Anthropicu vytvoří u modelu Llama 4 Maverick (400 mld. parametrů) jedna grafická karta (GPU) H100 důkazy rychlostí přes 100 tokenů za sekundu; důkaz požadavku o 1 024 tokenech má kolem 19 MB.",
+        "en": "In a post dated November 2, Anthropic introduced FlashProve, an open-source prototype that cryptographically proves a response came from the chosen model, not a secretly swapped one. Per Anthropic, for Llama 4 Maverick (400B parameters) one H100 GPU generates proofs at over 100 tokens per second; a proof is about 19 MB per 1,024-token request."
       },
       "why": {
-        "cs": "Je to výzkumný prototyp: důkaz stojí zhruba 70–95× víc GPU času než zpracování zadání ve vLLM a zvládá jen kontexty do 1 024 tokenů. Podle TechCrunch ho zatím žádná laboratoř nasadit neplánuje.",
-        "en": "A research prototype: proofs cost roughly 70–95 times the GPU time of processing the prompt in vLLM and cover contexts up to 1,024 tokens. Per TechCrunch, no lab plans to deploy it yet."
+        "cs": "Prototyp dokazuje jen celočíselnou 4bitovou verzi modelu a výběr vždy nejpravděpodobnějšího slova (greedy), stojí zhruba 70–95× víc výpočetního času než zpracování zadání a zvládá vstupy do 1 024 tokenů. TechCrunch: nasazení není v plánu.",
+        "en": "It proves only a 4-bit integer version of the model with greedy decoding, costs roughly 70–95 times the compute of processing the prompt, and handles inputs up to 1,024 tokens. TechCrunch: no deployment planned."
       },
       "sources": [
         {
@@ -109,16 +109,16 @@
       "verified": true,
       "eventDate": "2026-11-03",
       "title": {
-        "cs": "Britské NCSC: AI malware v ransomwaru je „vysoce pravděpodobný“",
+        "cs": "Britské NCSC: ransomwarový útok s AI malwarem je „vysoce pravděpodobný“",
         "en": "UK NCSC: AI malware in ransomware attack ‘highly likely’"
       },
       "summary": {
-        "cs": "Britské Národní centrum kybernetické bezpečnosti (NCSC) 3. listopadu v ročním přehledu uvedlo, že je „vysoce pravděpodobné“, že AI malware poslouží při ransomwarovém útoku na kritickou infrastrukturu Británie. AI podle něj hlavně zrychluje a rozšiřuje stávající útoky, ne že by útočila sama od začátku do konce; varuje i před „stínovou AI“ ve firmách.",
-        "en": "On November 3, the UK’s National Cyber Security Centre (NCSC) said in its annual review that AI malware will “highly likely” be used in a ransomware attack on UK critical infrastructure. It says AI mainly speeds up and scales existing attacks rather than running them end to end, and it warns about “shadow AI.”"
+        "cs": "Britské Národní centrum kybernetické bezpečnosti (NCSC) 3. listopadu uvedlo, že je „vysoce pravděpodobné“, že AI malware poslouží při ransomwarovém útoku na kritickou infrastrukturu Británie (podle The Register do roku 2028). AI podle něj hlavně zrychluje a rozšiřuje stávající útoky, ne že by útočila sama od začátku do konce; varuje i před „stínovou AI“ ve firmách.",
+        "en": "On November 3, the UK’s National Cyber Security Centre (NCSC) said AI malware will “highly likely” be used in a ransomware attack on UK critical infrastructure (per The Register, by 2028). It says AI mainly speeds up and scales existing attacks rather than running them end to end, and it warns about “shadow AI.”"
       },
       "why": {
-        "cs": "NCSC čeká závod v záplatování: AI pomáhá útočníkům najít a zneužít chyby dřív, než je správci opraví. „Stínová AI“ znamená, že zaměstnanci posílají firemní data do osobních AI nástrojů a firma ztrácí přehled.",
-        "en": "The NCSC expects a patching race: AI helps attackers find and exploit flaws before owners fix them. “Shadow AI” means staff send company data to personal AI tools, and the firm loses track of it."
+        "cs": "NCSC vysoce pravděpodobně čeká závod v opravách chyb: AI pomáhá útočníkům najít a zneužít chyby dřív, než je správci opraví. Týká se to i zaměstnanců, kteří vkládají pracovní data do osobních AI nástrojů.",
+        "en": "The NCSC judges it highly likely that defenders face a patching race: AI helps attackers find and exploit flaws before owners fix them. It also concerns staff who paste work data into personal AI tools."
       },
       "sources": [
         {
@@ -138,12 +138,12 @@
       "verified": true,
       "eventDate": "2026-11-02",
       "title": {
-        "cs": "OpenAI: hledání v ChatGPT je pětinou objemu Googlu",
+        "cs": "OpenAI tvrdí: hledání v ChatGPT je zhruba pětinou objemu Googlu",
         "en": "OpenAI says ChatGPT search is one-fifth of Google’s"
       },
       "summary": {
-        "cs": "Podle OpenAI dosahuje objem hledání v ChatGPT zhruba pětiny objemu Googlu. Řekl to Adam Fry, produktový šéf ChatGPT pro spotřebitele, na tiskové akci 2. listopadu. Hledáním OpenAI myslí dotaz, po kterém ChatGPT prohledá web; zdroj čísla o Googlu neuvedl. Reklamy podle něj většině lidí nevadí.",
-        "en": "Per OpenAI, ChatGPT search volume is roughly one-fifth of Google’s, said Adam Fry, ChatGPT consumer product lead, at a press event on November 2. OpenAI counts a search as any query that makes ChatGPT search the web; he named no source for Google’s figure. He said most people do not mind ads."
+        "cs": "Podle OpenAI dosahuje objem hledání v ChatGPT zhruba pětiny objemu Googlu. Řekl to Adam Fry, produktový šéf ChatGPT pro spotřebitele, na tiskové akci 2. listopadu. Hledáním OpenAI myslí dotaz, po kterém ChatGPT prohledá web; zdroj čísla o Googlu neuvedl. Reklamy v ChatGPT podle něj většině lidí zřejmě nevadí.",
+        "en": "Per OpenAI, ChatGPT search volume is roughly one-fifth of Google’s, said Adam Fry, ChatGPT consumer product lead, at a press event on November 2. OpenAI counts a search as any query that makes ChatGPT search the web; he named no source for Google’s figure. He said most people do not seem to mind ChatGPT ads."
       },
       "why": {
         "cs": "Je to tvrzení OpenAI bez nezávislého ověření a bez uvedeného zdroje čísla Googlu. OpenAI míří podle The Verge na IPO, které by mohlo přijít na začátku příštího roku, a vidí v reklamách cestu k zisku.",
@@ -175,8 +175,8 @@
         "en": "On November 3, Apple released the watchOS 27.3 developer beta with Siri Recap and Live Rewind for Apple Watch Series 12 and Ultra 4. Double-pressing the crown shows the last 15 seconds of a conversation as text; Siri Recap summarizes talks, and unsaved summaries vanish after seven days. Apple says it stores no audio."
       },
       "why": {
-        "cs": "Zatím jen vývojářská beta pro Series 12 a Ultra 4. Siri Recap zapneš v aplikaci Watch na iPhonu, případně podle času či místa. Dostupnost v Česku zdroje neuvádějí.",
-        "en": "For now only a developer beta for Series 12 and Ultra 4. You turn Siri Recap on in the Watch app on iPhone, optionally by time or place. Czech availability is not stated."
+        "cs": "Siri Recap zapneš v aplikaci Watch na iPhonu, i podle času či místa. Zhuštěný text rozhovoru se u něj ale šifrovaně pošle do Private Cloud Compute (TechCrunch). Dostupnost v Česku zdroje neuvádějí.",
+        "en": "You turn Siri Recap on in the Watch app on iPhone, also by time or place. Its condensed conversation text is sent encrypted to Private Cloud Compute (TechCrunch). Czech availability is not stated."
       },
       "sources": [
         {
@@ -204,8 +204,8 @@
         "en": "On November 3, Netflix announced an “AI Discover” tab in its TV app for experimental ways to find something to watch. The first feature recommends titles by mood and theme, such as “something light” or “family movie night.” It is rolling out gradually in the US to members using Netflix in English on supported TVs."
       },
       "why": {
-        "cs": "Zdroje uvádějí zatím jen USA a angličtinu. Netflix záložku nazývá „testovací kuchyní“ a podle zpětné vazby rozhodne, co přesune do hlavní aplikace; u titulů je tlačítko pro ladění doporučení.",
-        "en": "Sources mention only the US and English. Netflix calls the tab a “test kitchen” and will use feedback to decide what moves to the main app; each title has a button to tune recommendations."
+        "cs": "Netflix záložku nazývá „testovací kuchyní“ a podle zpětné vazby rozhodne, co přesune do hlavní aplikace. U titulů je tlačítko pro ladění doporučení; další uživatelé přibudou v příštích týdnech (TechCrunch). Pro Česko zdroje nic neuvádějí.",
+        "en": "Netflix calls the tab a “test kitchen” and will use feedback to decide what moves to the main app. Each title has a button to tune recommendations; more users follow in the coming weeks (TechCrunch)."
       },
       "sources": [
         {
@@ -229,12 +229,12 @@
         "en": "GitHub Copilot now works in JetBrains Air"
       },
       "summary": {
-        "cs": "GitHub 3. listopadu oznámil, že Copilot jde použít v JetBrains Air: zadáváš mu úkoly, řídíš jejich průběh a kontroluješ výsledky vedle svého kódu. Funguje přes Agent Client Protocol, buď lokálně v IDE JetBrains, nebo v cloudu; úkoly běží na tvém předplatném Copilotu, ne na kreditech JetBrains AI.",
-        "en": "On November 3, GitHub announced that Copilot works in JetBrains Air: you delegate tasks, guide their execution, and review results alongside your code. It uses the Agent Client Protocol, either locally in a JetBrains IDE or in the cloud; tasks run on your Copilot subscription, not on JetBrains AI credits."
+        "cs": "GitHub 3. listopadu oznámil, že Copilot jde použít v JetBrains Air jako AI agent: zadáváš mu úkoly, řídíš jejich průběh a kontroluješ výsledky vedle svého kódu. Funguje přes Agent Client Protocol, buď lokálně v IDE JetBrains, nebo v cloudu; úkoly běží na tvém předplatném Copilotu, ne na kreditech JetBrains AI.",
+        "en": "On November 3, GitHub announced that Copilot works in JetBrains Air as an AI agent: you delegate tasks, guide their execution, and review results alongside your code. It uses the Agent Client Protocol, either locally in a JetBrains IDE or in the cloud; tasks run on your Copilot subscription, not on JetBrains AI credits."
       },
       "why": {
-        "cs": "Pro vývojáře. Lokálně: nainstaluj Air do IDE JetBrains, vyber GitHub Copilot a připoj účet. Cloudové úkoly vyžadují firemní organizaci s Air Teams a Copilot povolený správcem; vybrat osobní či firemní plán nejde.",
-        "en": "For developers. Locally: install Air in your JetBrains IDE, pick GitHub Copilot, and connect your account. Cloud tasks need a business Air Teams organization with Copilot enabled by the admin; you cannot choose the plan."
+        "cs": "Lokálně: nainstaluj Air do IDE JetBrains, vyber GitHub Copilot a připoj účet. Cloudové úkoly vyžadují firemní organizaci s Air Teams a Copilot povolený správcem; vybrat osobní či firemní plán nejde.",
+        "en": "Locally: install Air in your JetBrains IDE, pick Copilot, and connect your account. Cloud tasks need a business Air Teams organization with Copilot enabled by the admin; you cannot choose between personal and company plans."
       },
       "sources": [
         {
@@ -254,11 +254,11 @@
         "en": "Gemini Notebook now offers hundreds of free textbooks"
       },
       "summary": {
-        "cs": "Google 29. října oznámil, že studenti mohou v Gemini Notebooku zdarma přidat stovky učebnic od poskytovatelů z USA a Indie, například OpenStax, Open Textbook Library a S Chand Publishing. Odpovědi jsou pak založené přímo na učebnici, s odkazy na zdroj; z textu jde vytvořit studijní přehledy, kvízy a kartičky.",
-        "en": "On October 29, Google said students can add hundreds of textbooks from US and Indian providers such as OpenStax, Open Textbook Library, and S Chand Publishing to Gemini Notebook at no charge. Answers are then grounded in the textbook, with links to the source, and the text can become study guides, quizzes, and flashcards."
+        "cs": "Google 29. října oznámil, že studenti mohou v Gemini Notebooku zdarma přidat stovky učebnic od poskytovatelů z USA a Indie, například OpenStax a S Chand Publishing. Podle Googlu pak odpovědi vycházejí přímo z učebnice, s odkazy na zdroj; z textu jde vytvořit studijní přehledy, kvízy a kartičky.",
+        "en": "On October 29, Google said students can add hundreds of textbooks from US and Indian providers such as OpenStax and S Chand Publishing to Gemini Notebook at no charge. Per Google, answers are then grounded in the textbook, with links to the source, and the text can become study guides, quizzes, and flashcards."
       },
       "why": {
-        "cs": "V notebooku zvol Add sources › Textbooks a vyber učebnici z katalogu. Poskytovatelé jsou z USA a Indie; zda je nabídka stejná v Česku, zdroj neuvádí.",
+        "cs": "V Gemini Notebooku zvol Add sources › Textbooks a vyber učebnici z katalogu. Poskytovatelé jsou z USA a Indie; zda je nabídka stejná v Česku, zdroj neuvádí.",
         "en": "In your notebook choose Add sources › Textbooks and pick a book from the catalog. Providers are from the US and India; the source does not say if the catalog is the same in Czechia."
       },
       "sources": [
@@ -279,12 +279,12 @@
         "en": "Claude Code shows when your sign-in expires"
       },
       "summary": {
-        "cs": "Claude Code 2.1.318 (4. listopadu) ukazuje v příkazu claude auth status, kdy končí uložené přihlášení přes claude.ai (loginExpiresAt), a stejné datum nese JSON výstup příkazu claude -p. Deset dní před koncem navíc textový výstup claude -p vypíše na standardní chybový výstup jednořádkové varování.",
+        "cs": "Claude Code 2.1.318 (4. listopadu) ukazuje v příkazu claude auth status, kdy končí uložené přihlášení přes claude.ai (loginExpiresAt), a stejné datum nese JSON výstup příkazu claude -p. Od deseti dní před koncem navíc textový výstup claude -p vypisuje na standardní chybový výstup jednořádkové varování.",
         "en": "Claude Code 2.1.318 (November 4) shows in claude auth status when a stored claude.ai sign-in ends (loginExpiresAt), and the claude -p JSON result carries the same date. Starting 10 days before it ends, claude -p text output also prints a one-line warning to stderr."
       },
       "why": {
-        "cs": "Pro vývojáře. Zkus příkaz claude auth status; jde-li o skripty nebo plánované úlohy s claude -p, sleduj stderr, kde se 10 dní předem objeví varování. Changelog neuvádí, jak přihlášení obnovit.",
-        "en": "For developers. Try claude auth status; for scripts or scheduled jobs using claude -p, watch stderr, where the warning appears 10 days ahead. The changelog does not say how to renew the sign-in."
+        "cs": "Zkus claude auth status. U skriptů a úloh s claude -p sleduj stderr, kde se od 10 dní předem objevuje varování; po vypršení chyba v claude -p uvede claude auth login.",
+        "en": "Try claude auth status; for scripts using claude -p, watch stderr, where the warning appears from 10 days ahead. After expiry, the error in claude -p names claude auth login."
       },
       "sources": [
         {
@@ -304,11 +304,11 @@
         "en": "Dependabot can now update Agent Package Manager dependencies"
       },
       "summary": {
-        "cs": "GitHub 3. listopadu přidal do Dependabotu podporu Agent Package Manageru (APM), aby zůstaly aktuální dovednosti, prompty a instrukce AI agentů: Dependabot otevírá pull requesty s novými verzemi git závislostí z apm.yml a přegeneruje apm.lock.yaml. Týká se verzí, ne bezpečnostních aktualizací; platí na github.com ve všech plánech.",
-        "en": "On November 3, GitHub added Agent Package Manager (APM) support to Dependabot version updates so AI agent skills, prompts, and instructions stay current: Dependabot opens pull requests for new versions of git dependencies in apm.yml and regenerates apm.lock.yaml. It covers version updates, not security updates, on github.com in all plans."
+        "cs": "GitHub 3. listopadu přidal do Dependabotu podporu, aby zůstaly aktuální dovednosti, prompty a instrukce AI agentů spravované v Agent Package Manageru (APM): Dependabot otevírá pull requesty s novými verzemi podporovaných git závislostí z apm.yml a přegeneruje apm.lock.yaml, pokud existuje. Týká se verzí, ne bezpečnostních aktualizací; platí na github.com ve všech plánech.",
+        "en": "On November 3, GitHub let Dependabot version updates keep AI agent skills, prompts, and instructions current in Agent Package Manager (APM): Dependabot opens pull requests for new versions of supported git dependencies in apm.yml and regenerates apm.lock.yaml when present. It covers version updates, not security updates, on github.com in all plans."
       },
       "why": {
-        "cs": "Pro týmy, které spravují AI agenty přes APM: do .github/dependabot.yml přidej položku apm, uveď adresář s apm.yml a zvol plán aktualizací. V GitHub Enterprise Serveru bude funkce od verze 3.24.",
+        "cs": "Pro týmy, které spravují AI agenty přes APM: do .github/dependabot.yml přidej položku apm, uveď adresář s apm.yml a nastav rozvrh aktualizací (schedule). V GitHub Enterprise Serveru bude funkce od verze 3.24.",
         "en": "For teams managing AI agents through APM: add an apm entry to .github/dependabot.yml, name the directory with apm.yml, and choose an update schedule. GitHub Enterprise Server gets it in version 3.24."
       },
       "sources": [
@@ -327,7 +327,7 @@
         "en": "GitHub retires three models from GitHub Copilot"
       },
       "note": {
-        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8 a Opus 5 (náhrada Opus 5.5) a GPT-5.6 Terra (GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane individuálním předplatitelům s ročním tarifem.",
+        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8, Opus 5 (náhrada Opus 5.5) a GPT-5.6 Terra (GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane individuálním předplatitelům s ročním tarifem.",
         "en": "On November 16, GitHub retires Opus 4.8, Opus 5 (replacement Opus 5.5), and GPT-5.6 Terra (GPT-6.1 Sol or GPT-6 Luna) from Copilot. Opus 4.8 stays for individual annual-plan subscribers."
       },
       "sources": [
@@ -345,8 +345,8 @@
         "en": "New age rating declarations start in the App Store"
       },
       "note": {
-        "cs": "Od 16. listopadu musí vývojáři uvádět, zda aplikace nabízí sdílení polohy nebo seznamování a vztahy. Údaje doplňují při další aktualizaci, nejpozději do 12. ledna 2027.",
-        "en": "From November 16 developers must declare shared location or dating and relationships features. Answers are due at the next app update, by January 12, 2027 at the latest."
+        "cs": "Od 16. listopadu musí vývojáři uvádět, zda aplikace sdílí polohu nebo nabízí seznamování a vztahy, i s virtuálním společníkem se sexuálním či romantickým obsahem (18+). Vyplnit do 12. ledna 2027.",
+        "en": "From November 16 developers must declare whether apps share location or offer dating and relationships, including a virtual companion with sexual or romantic content (18+). Due by January 12, 2027."
       },
       "sources": [
         {
@@ -381,8 +381,8 @@
         "en": "Claude Code drops fast mode for Opus 4.8"
       },
       "note": {
-        "cs": "Podle changelogu Claude Code zanikne 30. listopadu rychlý režim (rychlejší výstup) Opusu 4.8; požadavky v něm pak vrátí chybu, ne běžný Opus 4.8. Anthropic radí přejít na Opus 5.5.",
-        "en": "Per the Claude Code changelog, Opus 4.8 fast mode (faster output) ends on November 30; requests then return an error, not standard Opus 4.8. Anthropic advises moving to Opus 5.5."
+        "cs": "Podle changelogu Claude Code zanikne 30. listopadu rychlý režim (rychlejší výstup) Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Rychlost zachová přechod na Opus 5.5.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
       },
       "sources": [
         {
@@ -413,7 +413,7 @@
     {
       "date": "2026-12-02",
       "title": {
-        "cs": "EU: do 2. prosince musí firmy splnit zákaz nudify aplikací",
+        "cs": "EU: do 2. prosince musí firmy splnit zákaz aplikací na „svlékání“",
         "en": "EU: companies must meet nudifier-app ban by December 2"
       },
       "note": {

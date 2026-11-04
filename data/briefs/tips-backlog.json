@@ -4960,12 +4960,12 @@
         "en": "GitHub Copilot now works in JetBrains Air"
       },
       "summary": {
-        "cs": "GitHub 3. listopadu oznámil, že Copilot jde použít v JetBrains Air: zadáváš mu úkoly, řídíš jejich průběh a kontroluješ výsledky vedle svého kódu. Funguje přes Agent Client Protocol, buď lokálně v IDE JetBrains, nebo v cloudu; úkoly běží na tvém předplatném Copilotu, ne na kreditech JetBrains AI.",
-        "en": "On November 3, GitHub announced that Copilot works in JetBrains Air: you delegate tasks, guide their execution, and review results alongside your code. It uses the Agent Client Protocol, either locally in a JetBrains IDE or in the cloud; tasks run on your Copilot subscription, not on JetBrains AI credits."
+        "cs": "GitHub 3. listopadu oznámil, že Copilot jde použít v JetBrains Air jako AI agent: zadáváš mu úkoly, řídíš jejich průběh a kontroluješ výsledky vedle svého kódu. Funguje přes Agent Client Protocol, buď lokálně v IDE JetBrains, nebo v cloudu; úkoly běží na tvém předplatném Copilotu, ne na kreditech JetBrains AI.",
+        "en": "On November 3, GitHub announced that Copilot works in JetBrains Air as an AI agent: you delegate tasks, guide their execution, and review results alongside your code. It uses the Agent Client Protocol, either locally in a JetBrains IDE or in the cloud; tasks run on your Copilot subscription, not on JetBrains AI credits."
       },
       "why": {
-        "cs": "Pro vývojáře. Lokálně: nainstaluj Air do IDE JetBrains, vyber GitHub Copilot a připoj účet. Cloudové úkoly vyžadují firemní organizaci s Air Teams a Copilot povolený správcem; vybrat osobní či firemní plán nejde.",
-        "en": "For developers. Locally: install Air in your JetBrains IDE, pick GitHub Copilot, and connect your account. Cloud tasks need a business Air Teams organization with Copilot enabled by the admin; you cannot choose the plan."
+        "cs": "Lokálně: nainstaluj Air do IDE JetBrains, vyber GitHub Copilot a připoj účet. Cloudové úkoly vyžadují firemní organizaci s Air Teams a Copilot povolený správcem; vybrat osobní či firemní plán nejde.",
+        "en": "Locally: install Air in your JetBrains IDE, pick Copilot, and connect your account. Cloud tasks need a business Air Teams organization with Copilot enabled by the admin; you cannot choose between personal and company plans."
       },
       "sources": [
         {
@@ -4987,11 +4987,11 @@
         "en": "Gemini Notebook now offers hundreds of free textbooks"
       },
       "summary": {
-        "cs": "Google 29. října oznámil, že studenti mohou v Gemini Notebooku zdarma přidat stovky učebnic od poskytovatelů z USA a Indie, například OpenStax, Open Textbook Library a S Chand Publishing. Odpovědi jsou pak založené přímo na učebnici, s odkazy na zdroj; z textu jde vytvořit studijní přehledy, kvízy a kartičky.",
-        "en": "On October 29, Google said students can add hundreds of textbooks from US and Indian providers such as OpenStax, Open Textbook Library, and S Chand Publishing to Gemini Notebook at no charge. Answers are then grounded in the textbook, with links to the source, and the text can become study guides, quizzes, and flashcards."
+        "cs": "Google 29. října oznámil, že studenti mohou v Gemini Notebooku zdarma přidat stovky učebnic od poskytovatelů z USA a Indie, například OpenStax a S Chand Publishing. Podle Googlu pak odpovědi vycházejí přímo z učebnice, s odkazy na zdroj; z textu jde vytvořit studijní přehledy, kvízy a kartičky.",
+        "en": "On October 29, Google said students can add hundreds of textbooks from US and Indian providers such as OpenStax and S Chand Publishing to Gemini Notebook at no charge. Per Google, answers are then grounded in the textbook, with links to the source, and the text can become study guides, quizzes, and flashcards."
       },
       "why": {
-        "cs": "V notebooku zvol Add sources › Textbooks a vyber učebnici z katalogu. Poskytovatelé jsou z USA a Indie; zda je nabídka stejná v Česku, zdroj neuvádí.",
+        "cs": "V Gemini Notebooku zvol Add sources › Textbooks a vyber učebnici z katalogu. Poskytovatelé jsou z USA a Indie; zda je nabídka stejná v Česku, zdroj neuvádí.",
         "en": "In your notebook choose Add sources › Textbooks and pick a book from the catalog. Providers are from the US and India; the source does not say if the catalog is the same in Czechia."
       },
       "sources": [
@@ -5014,12 +5014,12 @@
         "en": "Claude Code shows when your sign-in expires"
       },
       "summary": {
-        "cs": "Claude Code 2.1.318 (4. listopadu) ukazuje v příkazu claude auth status, kdy končí uložené přihlášení přes claude.ai (loginExpiresAt), a stejné datum nese JSON výstup příkazu claude -p. Deset dní před koncem navíc textový výstup claude -p vypíše na standardní chybový výstup jednořádkové varování.",
+        "cs": "Claude Code 2.1.318 (4. listopadu) ukazuje v příkazu claude auth status, kdy končí uložené přihlášení přes claude.ai (loginExpiresAt), a stejné datum nese JSON výstup příkazu claude -p. Od deseti dní před koncem navíc textový výstup claude -p vypisuje na standardní chybový výstup jednořádkové varování.",
         "en": "Claude Code 2.1.318 (November 4) shows in claude auth status when a stored claude.ai sign-in ends (loginExpiresAt), and the claude -p JSON result carries the same date. Starting 10 days before it ends, claude -p text output also prints a one-line warning to stderr."
       },
       "why": {
-        "cs": "Pro vývojáře. Zkus příkaz claude auth status; jde-li o skripty nebo plánované úlohy s claude -p, sleduj stderr, kde se 10 dní předem objeví varování. Changelog neuvádí, jak přihlášení obnovit.",
-        "en": "For developers. Try claude auth status; for scripts or scheduled jobs using claude -p, watch stderr, where the warning appears 10 days ahead. The changelog does not say how to renew the sign-in."
+        "cs": "Zkus claude auth status. U skriptů a úloh s claude -p sleduj stderr, kde se od 10 dní předem objevuje varování; po vypršení chyba v claude -p uvede claude auth login.",
+        "en": "Try claude auth status; for scripts using claude -p, watch stderr, where the warning appears from 10 days ahead. After expiry, the error in claude -p names claude auth login."
       },
       "sources": [
         {
@@ -5041,11 +5041,11 @@
         "en": "Dependabot can now update Agent Package Manager dependencies"
       },
       "summary": {
-        "cs": "GitHub 3. listopadu přidal do Dependabotu podporu Agent Package Manageru (APM), aby zůstaly aktuální dovednosti, prompty a instrukce AI agentů: Dependabot otevírá pull requesty s novými verzemi git závislostí z apm.yml a přegeneruje apm.lock.yaml. Týká se verzí, ne bezpečnostních aktualizací; platí na github.com ve všech plánech.",
-        "en": "On November 3, GitHub added Agent Package Manager (APM) support to Dependabot version updates so AI agent skills, prompts, and instructions stay current: Dependabot opens pull requests for new versions of git dependencies in apm.yml and regenerates apm.lock.yaml. It covers version updates, not security updates, on github.com in all plans."
+        "cs": "GitHub 3. listopadu přidal do Dependabotu podporu, aby zůstaly aktuální dovednosti, prompty a instrukce AI agentů spravované v Agent Package Manageru (APM): Dependabot otevírá pull requesty s novými verzemi podporovaných git závislostí z apm.yml a přegeneruje apm.lock.yaml, pokud existuje. Týká se verzí, ne bezpečnostních aktualizací; platí na github.com ve všech plánech.",
+        "en": "On November 3, GitHub let Dependabot version updates keep AI agent skills, prompts, and instructions current in Agent Package Manager (APM): Dependabot opens pull requests for new versions of supported git dependencies in apm.yml and regenerates apm.lock.yaml when present. It covers version updates, not security updates, on github.com in all plans."
       },
       "why": {
-        "cs": "Pro týmy, které spravují AI agenty přes APM: do .github/dependabot.yml přidej položku apm, uveď adresář s apm.yml a zvol plán aktualizací. V GitHub Enterprise Serveru bude funkce od verze 3.24.",
+        "cs": "Pro týmy, které spravují AI agenty přes APM: do .github/dependabot.yml přidej položku apm, uveď adresář s apm.yml a nastav rozvrh aktualizací (schedule). V GitHub Enterprise Serveru bude funkce od verze 3.24.",
         "en": "For teams managing AI agents through APM: add an apm entry to .github/dependabot.yml, name the directory with apm.yml, and choose an update schedule. GitHub Enterprise Server gets it in version 3.24."
       },
       "sources": [

@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-04T03:27:22Z",
+  "updated": "2026-11-04T03:56:42Z",
   "briefs": [
     {
       "date": "2026-11-04",
       "headline": {
-        "cs": "Google: AI pro žáky bude ve výchozím stavu vypnutá",
-        "en": "Google: AI for students will be off by default"
+        "cs": "Google žákům ve výchozím stavu vypne Gemini i Vyhledávání",
+        "en": "Google: Gemini and Search off by default for students"
       },
       "itemCount": 11
     },
