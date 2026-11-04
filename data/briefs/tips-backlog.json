@@ -23,28 +23,6 @@
       "used": "2026-08-06"
     },
     {
-      "slug": "tip-copilot-notebooks-markdown",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": false,
-      "title": {
-        "cs": "Copilot Notebooks berou jako zdroj i markdown",
-        "en": "Copilot Notebooks now take Markdown files too"
-      },
-      "summary": {
-        "cs": "Do Copilot Notebooks přidáš jako podklad nově i soubory v markdownu, vedle textovek a RTF. Poznámky a dokumentaci psanou v markdownu tak Copilot čte přímo, bez převádění. Microsoft to rolluje v srpnu.",
-        "en": "Copilot Notebooks now accept Markdown files as sources, alongside TXT and RTF. Notes and documentation written in Markdown go straight in, with no converting first. Microsoft is rolling it out in August."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        }
-      ],
-      "added": "2026-08-04",
-      "used": "2026-08-05"
-    },
-    {
       "slug": "tip-gemini-personalized-images",
       "category": "tools",
       "theme": "gemini",
@@ -4954,12 +4932,12 @@
         "en": "Google Vids can make a custom avatar from your photo"
       },
       "summary": {
-        "cs": "Google v Workspace Updates z 2. listopadu uvádí, že ve Vids jde vytvořit vlastní avatar nahráním obrázku z počítače, Disku nebo Fotek. Obrázek lze ve Vids upravit (pozadí, světlo, výzdoba) a avatar se uloží do projektu k opakovanému použití. Zavádění začalo 30. října.",
-        "en": "Google’s Workspace Updates post of November 2 says Vids can now make a custom avatar from an image you upload from your computer, Drive, or Photos. You can refine the image in Vids (background, lighting, decorations), and the avatar is saved in the project for reuse. Rollout began October 30."
+        "cs": "Google v Workspace Updates z 2. listopadu uvádí, že ve Vids jde vytvořit vlastní avatar nahráním obrázku z počítače, Disku nebo Fotek. Obrázek lze ve Vids upravit (pozadí, světlo, výzdoba) a avatar se uloží do projektu k opakovanému použití. Zavádění začalo 30. října a 3. listopadu bylo pozastaveno.",
+        "en": "Google’s Workspace Updates post of November 2 says Vids can now make a custom avatar from an image you upload from your computer, Drive, or Photos. You can refine the image in Vids (background, lighting, decorations), and the avatar is saved in the project for reuse. Rollout began October 30 and was paused on November 3."
       },
       "why": {
-        "cs": "Funkce je pro osobní účty Google s Google AI Pro nebo Ultra a pro většinu edic Workspace; správce ji zvlášť vypnout nemůže. U domén s plánovaným vydáním přijde od 20. listopadu.",
-        "en": "It is for personal Google accounts with Google AI Pro or Ultra and most Workspace editions; admins cannot switch it off separately. Domains on Scheduled Release get it from November 20."
+        "cs": "Pozor: Google 3. listopadu zavádění pozastavil a datum obnovení neuvedl. Funkce je pro osobní účty s Google AI Pro nebo Ultra a pro většinu edic Workspace; správce ji zvlášť vypnout nemůže.",
+        "en": "Note: on November 3 Google paused the rollout and gave no resume date. The feature is for personal accounts with Google AI Pro or Ultra and most Workspace editions; admins cannot switch it off separately."
       },
       "sources": [
         {
@@ -4968,6 +4946,141 @@
         }
       ],
       "added": "2026-11-03",
+      "used": null
+    },
+    {
+      "slug": "tip-github-copilot-jetbrains-air",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-11-04",
+      "verified": true,
+      "eventDate": "2026-11-03",
+      "title": {
+        "cs": "GitHub Copilot funguje i v JetBrains Air",
+        "en": "GitHub Copilot now works in JetBrains Air"
+      },
+      "summary": {
+        "cs": "GitHub 3. listopadu oznámil, že Copilot jde použít v JetBrains Air: zadáváš mu úkoly, řídíš jejich průběh a kontroluješ výsledky vedle svého kódu. Funguje přes Agent Client Protocol, buď lokálně v IDE JetBrains, nebo v cloudu; úkoly běží na tvém předplatném Copilotu, ne na kreditech JetBrains AI.",
+        "en": "On November 3, GitHub announced that Copilot works in JetBrains Air: you delegate tasks, guide their execution, and review results alongside your code. It uses the Agent Client Protocol, either locally in a JetBrains IDE or in the cloud; tasks run on your Copilot subscription, not on JetBrains AI credits."
+      },
+      "why": {
+        "cs": "Pro vývojáře. Lokálně: nainstaluj Air do IDE JetBrains, vyber GitHub Copilot a připoj účet. Cloudové úkoly vyžadují firemní organizaci s Air Teams a Copilot povolený správcem; vybrat osobní či firemní plán nejde.",
+        "en": "For developers. Locally: install Air in your JetBrains IDE, pick GitHub Copilot, and connect your account. Cloud tasks need a business Air Teams organization with Copilot enabled by the admin; you cannot choose the plan."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air"
+        }
+      ],
+      "used": "2026-11-04"
+    },
+    {
+      "slug": "tip-gemini-notebook-textbooks",
+      "category": "tools",
+      "theme": "gemini",
+      "added": "2026-11-04",
+      "verified": true,
+      "eventDate": "2026-10-29",
+      "title": {
+        "cs": "Gemini Notebook nabízí stovky učebnic zdarma",
+        "en": "Gemini Notebook now offers hundreds of free textbooks"
+      },
+      "summary": {
+        "cs": "Google 29. října oznámil, že studenti mohou v Gemini Notebooku zdarma přidat stovky učebnic od poskytovatelů z USA a Indie, například OpenStax, Open Textbook Library a S Chand Publishing. Odpovědi jsou pak založené přímo na učebnici, s odkazy na zdroj; z textu jde vytvořit studijní přehledy, kvízy a kartičky.",
+        "en": "On October 29, Google said students can add hundreds of textbooks from US and Indian providers such as OpenStax, Open Textbook Library, and S Chand Publishing to Gemini Notebook at no charge. Answers are then grounded in the textbook, with links to the source, and the text can become study guides, quizzes, and flashcards."
+      },
+      "why": {
+        "cs": "V notebooku zvol Add sources › Textbooks a vyber učebnici z katalogu. Poskytovatelé jsou z USA a Indie; zda je nabídka stejná v Česku, zdroj neuvádí.",
+        "en": "In your notebook choose Add sources › Textbooks and pick a book from the catalog. Providers are from the US and India; the source does not say if the catalog is the same in Czechia."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-access-textbooks/"
+        }
+      ],
+      "used": "2026-11-04"
+    },
+    {
+      "slug": "tip-claude-code-login-expiry-warning",
+      "category": "tools",
+      "theme": "claude",
+      "added": "2026-11-04",
+      "verified": true,
+      "eventDate": "2026-11-04",
+      "title": {
+        "cs": "Claude Code ukáže, kdy ti vyprší přihlášení",
+        "en": "Claude Code shows when your sign-in expires"
+      },
+      "summary": {
+        "cs": "Claude Code 2.1.318 (4. listopadu) ukazuje v příkazu claude auth status, kdy končí uložené přihlášení přes claude.ai (loginExpiresAt), a stejné datum nese JSON výstup příkazu claude -p. Deset dní před koncem navíc textový výstup claude -p vypíše na standardní chybový výstup jednořádkové varování.",
+        "en": "Claude Code 2.1.318 (November 4) shows in claude auth status when a stored claude.ai sign-in ends (loginExpiresAt), and the claude -p JSON result carries the same date. Starting 10 days before it ends, claude -p text output also prints a one-line warning to stderr."
+      },
+      "why": {
+        "cs": "Pro vývojáře. Zkus příkaz claude auth status; jde-li o skripty nebo plánované úlohy s claude -p, sleduj stderr, kde se 10 dní předem objeví varování. Changelog neuvádí, jak přihlášení obnovit.",
+        "en": "For developers. Try claude auth status; for scripts or scheduled jobs using claude -p, watch stderr, where the warning appears 10 days ahead. The changelog does not say how to renew the sign-in."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "used": "2026-11-04"
+    },
+    {
+      "slug": "tip-github-dependabot-agent-package-manager",
+      "category": "tools",
+      "theme": "other",
+      "added": "2026-11-04",
+      "verified": true,
+      "eventDate": "2026-11-03",
+      "title": {
+        "cs": "Dependabot umí aktualizovat závislosti Agent Package Manageru",
+        "en": "Dependabot can now update Agent Package Manager dependencies"
+      },
+      "summary": {
+        "cs": "GitHub 3. listopadu přidal do Dependabotu podporu Agent Package Manageru (APM), aby zůstaly aktuální dovednosti, prompty a instrukce AI agentů: Dependabot otevírá pull requesty s novými verzemi git závislostí z apm.yml a přegeneruje apm.lock.yaml. Týká se verzí, ne bezpečnostních aktualizací; platí na github.com ve všech plánech.",
+        "en": "On November 3, GitHub added Agent Package Manager (APM) support to Dependabot version updates so AI agent skills, prompts, and instructions stay current: Dependabot opens pull requests for new versions of git dependencies in apm.yml and regenerates apm.lock.yaml. It covers version updates, not security updates, on github.com in all plans."
+      },
+      "why": {
+        "cs": "Pro týmy, které spravují AI agenty přes APM: do .github/dependabot.yml přidej položku apm, uveď adresář s apm.yml a zvol plán aktualizací. V GitHub Enterprise Serveru bude funkce od verze 3.24.",
+        "en": "For teams managing AI agents through APM: add an apm entry to .github/dependabot.yml, name the directory with apm.yml, and choose an update schedule. GitHub Enterprise Server gets it in version 3.24."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager"
+        }
+      ],
+      "used": "2026-11-04"
+    },
+    {
+      "slug": "tip-xcode-27-3-github-copilot",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": false,
+      "eventDate": "2026-11-03",
+      "title": {
+        "cs": "Xcode 27.3 přidává GitHub Copilot do vestavěného asistenta",
+        "en": "Xcode 27.3 adds GitHub Copilot to its built-in assistant"
+      },
+      "summary": {
+        "cs": "Podle 9to5Mac Apple 3. listopadu vydal Xcode 27.3 beta 1, jehož poznámky k vydání uvádějí, že GitHub Copilot je dostupný ve vestavěném kódovacím asistentovi. Xcode už dříve podporoval ChatGPT, Claude a Gemini. Beta vyžaduje Mac s macOS Tahoe 26.6 nebo novějším.",
+        "en": "Per 9to5Mac, Apple released Xcode 27.3 beta 1 on November 3, and its release notes say GitHub Copilot is now available in the built-in coding assistant. Xcode already supported ChatGPT, Claude, and Gemini. The beta requires a Mac running macOS Tahoe 26.6 or later."
+      },
+      "why": {
+        "cs": "Zdrojem je jediný článek 9to5Mac; poznámky k vydání Xcode jsme neotevřeli a postup zapnutí neznáme. Je to beta 1, vyzkoušej ji jen na zkušebním projektu.",
+        "en": "The only source is one 9to5Mac article; we could not open the Xcode release notes and do not know how to switch it on. It is beta 1, so try it on a test project only."
+      },
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/03/xcode-27-3-adds-github-copilot-to-its-built-in-coding-assistant/"
+        }
+      ],
+      "added": "2026-11-04",
       "used": null
     }
   ]

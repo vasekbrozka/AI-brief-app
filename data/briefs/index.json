@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-03T03:57:41Z",
+  "updated": "2026-11-04T03:27:22Z",
   "briefs": [
+    {
+      "date": "2026-11-04",
+      "headline": {
+        "cs": "Google: AI pro žáky bude ve výchozím stavu vypnutá",
+        "en": "Google: AI for students will be off by default"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-11-03",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "AI pomohla odhalit chyby v PHP, útočníci je zkoušejí",
         "en": "AI helped expose PHP flaws now under attack"
-      },
-      "itemCount": 10
-    },
-    {
-      "date": "2026-10-21",
-      "headline": {
-        "cs": "Mistral vydal Voxtral 3, přepis řeči umí i česky",
-        "en": "Mistral launches Voxtral 3, which transcribes Czech too"
       },
       "itemCount": 10
     }

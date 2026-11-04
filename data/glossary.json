@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "terms": [
     {
       "id": "quantization",
@@ -1166,6 +1166,57 @@
       "short": {
         "cs": "Propojení AI nástroje s jinou službou, třeba s e-mailem, kalendářem nebo Canvou. Díky němu AI může číst data z té služby nebo v ní jednat. Obvykle ho zapneš sám.",
         "en": "A link between an AI tool and another service, such as email, a calendar, or Canva. It lets the AI read that service’s data or act in it. You usually switch it on yourself."
+      }
+    },
+    {
+      "id": "ransomware",
+      "term": {
+        "cs": "Ransomware",
+        "en": "Ransomware"
+      },
+      "aliases": [
+        "ransomware",
+        "ransomwaru",
+        "ransomwarem",
+        "ransomwarovém",
+        "ransomwarový",
+        "ransomwarových"
+      ],
+      "short": {
+        "cs": "Škodlivý program, který zašifruje data oběti a za jejich odemčení žádá výkupné. Cílí na firmy, nemocnice i úřady; útočníci často navíc hrozí zveřejněním ukradených dat.",
+        "en": "Malicious software that encrypts a victim’s data and demands a ransom to unlock it. It targets companies, hospitals, and agencies; attackers often also threaten to publish stolen data."
+      }
+    },
+    {
+      "id": "shadow-ai",
+      "term": {
+        "cs": "Stínová AI (shadow AI)",
+        "en": "Shadow AI"
+      },
+      "aliases": [
+        "stínová AI",
+        "stínovou AI",
+        "stínové AI",
+        "stínové umělé inteligence",
+        "shadow AI"
+      ],
+      "short": {
+        "cs": "Používání AI nástrojů, které firma neschválila a nevidí, třeba když zaměstnanec vloží pracovní dokument do osobního chatbota. Firma pak ztrácí přehled, kam data putují.",
+        "en": "Use of AI tools an organisation has not approved or cannot see, such as an employee pasting a work document into a personal chatbot. The firm loses track of where the data goes."
+      }
+    },
+    {
+      "id": "app-intents",
+      "term": {
+        "cs": "App Intents",
+        "en": "App Intents"
+      },
+      "aliases": [
+        "App Intents"
+      ],
+      "short": {
+        "cs": "Programové rozhraní Applu, kterým aplikace popíše své akce a obsah. Díky tomu je může spustit Siri, Spotlight nebo Zkratky, aniž bys aplikaci otevíral.",
+        "en": "Apple’s programming interface through which an app describes its actions and content, so Siri, Spotlight, or Shortcuts can run them without you opening the app."
       }
     }
   ]
