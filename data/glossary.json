@@ -290,7 +290,8 @@
         "otevřený model",
         "otevřené modely",
         "otevřených modelů",
-        "otevřeným modelem"
+        "otevřeným modelem",
+        "open weights"
       ],
       "short": {
         "cs": "Model, jehož „váhy“ (naučené parametry) jsou volně ke stažení, takže si ho lze provozovat i upravovat samostatně.",
@@ -818,7 +819,8 @@
       "aliases": [
         "Terra",
         "Luna",
-        "Astra"
+        "Astra",
+        "gpt-6-luna"
       ],
       "short": {
         "cs": "OpenAI dělí modely do čtyř tříd: Luna je nejlevnější, Terra střední, Sol silnější pro složitou práci a Astra nejschopnější a nejdražší.",

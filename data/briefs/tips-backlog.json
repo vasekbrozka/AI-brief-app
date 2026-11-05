@@ -3648,16 +3648,16 @@
       "verified": true,
       "eventDate": "2026-09-23",
       "title": {
-        "cs": "Copilot najde schůzky podle tématu nebo klíčového slova",
-        "en": "Copilot can find meetings by topic or keyword"
+        "cs": "Microsoft 365 Copilot najde schůzky podle klíčových slov",
+        "en": "Microsoft 365 Copilot can find meetings by keyword"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že Copilot umí hledat schůzky podle tématu nebo klíčových slov, a to v těle pozvánky, v chatu i v přepisu. Dřív hledání chat ani přepis nezahrnovalo. Funkce míří na Android, Windows, iOS a Mac.",
-        "en": "Microsoft’s release notes from September 23 say Copilot can find meetings by a topic or keyword found in the meeting body, chat, or transcript. Before, the search did not cover chat or transcripts. The feature targets Android, Windows, iOS, and Mac."
+        "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že Microsoft 365 Copilot umí hledat schůzky podle tématu nebo klíčových slov, a to v textu pozvánky, v chatu i v přepisu. Dřív hledání chat ani přepis nezahrnovalo. Funkce je určena pro Android, Windows, iOS a Mac.",
+        "en": "Microsoft’s release notes from September 23 say Microsoft 365 Copilot can find meetings by a topic or keyword found in the meeting invitation text, chat, or transcript. Before, the search did not cover chat or transcripts. The feature is intended for Android, Windows, iOS, and Mac."
       },
       "why": {
-        "cs": "Otevři Copilota, zadej téma nebo klíčové slovo a z nabídnutých schůzek vyber tu správnou. V přepisech hledá jen u schůzek z posledních dvou měsíců; licenci poznámky k vydání neuvádějí.",
-        "en": "Open Copilot, enter a topic or keyword, and pick the right meeting from the list. Transcript search covers only meetings from the last two months; the release notes do not name a license."
+        "cs": "Otevři Copilota, zadej téma nebo slovo a vyber schůzku. V přepisech hledá jen u schůzek z posledních dvou měsíců; Microsoft funkce zavádí postupně, takže nemusí být hned k dispozici. Licenci poznámky neuvádějí.",
+        "en": "Open Copilot, enter a topic or word, and pick the meeting. Transcript search covers only the last two months; the notes say rollout is gradual and name no license."
       },
       "sources": [
         {
@@ -4714,12 +4714,12 @@
         "en": "OpenAI’s Decisions API is now generally available"
       },
       "summary": {
-        "cs": "OpenAI 22. října uvedla Decisions API do ostrého provozu. Endpoint POST /v1/decisions vyhodnotí text, obrázky či JSON a vrátí typovanou odpověď (pravděpodobnost, volbu z možností nebo skóre) podle OpenAI zhruba 10× rychleji než Responses API. Běží zatím jen s modelem gpt-6-luna a jeden požadavek zvládne až 400 otázek.",
-        "en": "On October 22, OpenAI made the Decisions API generally available. The POST /v1/decisions endpoint evaluates text, images, or JSON and returns a typed answer (probability, choice, or score), which OpenAI says is about 10 times faster than the Responses API. So far it runs only with gpt-6-luna; one request handles up to 400 questions."
+        "cs": "OpenAI 22. října uvedla Decisions API, rozhraní pro vývojáře, do ostrého provozu. Přes adresu POST /v1/decisions vyhodnotí text, obrázky či JSON a vrátí odpověď ve zvoleném tvaru (pravděpodobnost, volba z možností nebo skóre), podle OpenAI zhruba 10× rychleji než Responses API. Zatím běží jen s modelem gpt-6-luna; jeden požadavek zvládne až 400 otázek.",
+        "en": "On October 22, OpenAI made its Decisions API for developers generally available. At POST /v1/decisions it evaluates text, images, or JSON and returns a probability, a choice, or a score, which OpenAI says is about 10 times faster than the Responses API. So far it needs gpt-6-luna; one request handles up to 400 questions."
       },
       "why": {
-        "cs": "Otázky si nejdřív vyzkoušej v Playgroundu, než napíšeš kód. Hodí se k třídění obsahu, směrování požadavků a řazení práce; vlastní schéma JSON dá spíš Structured Outputs v Responses API.",
-        "en": "Try your questions in the Playground before writing code. It suits classifying content, routing requests, and prioritizing work; for your own JSON schema, Structured Outputs in the Responses API fits better."
+        "cs": "Otázky si nejdřív vyzkoušej v Playgroundu na platformě OpenAI pro vývojáře, než napíšeš kód. Hodí se k třídění obsahu, směrování požadavků a řazení práce; vlastní schéma JSON dá spíš Structured Outputs v Responses API.",
+        "en": "Try your questions in the Playground on OpenAI’s developer platform before writing code. It suits classifying content, routing requests, and prioritizing work; for your own JSON schema, Structured Outputs in the Responses API fits better."
       },
       "sources": [
         {
@@ -4996,12 +4996,12 @@
       "verified": true,
       "eventDate": "2026-11-04",
       "title": {
-        "cs": "GitHub Copilot funguje i ve vestavěném asistentovi Xcode",
-        "en": "GitHub Copilot now works in Xcode’s coding assistant"
+        "cs": "GitHub Copilot jde vyzkoušet v betě Xcode 27.3",
+        "en": "GitHub Copilot arrives in the Xcode 27.3 beta"
       },
       "summary": {
-        "cs": "GitHub 4. listopadu oznámil, že Copilot jde použít přímo ve vestavěném kódovacím asistentovi Xcode. Integrace je ve veřejném náhledu a funguje od Xcode 27.3 beta; stávající rozšíření GitHub Copilot for Xcode zůstává jako samostatná možnost. Podporované jsou všechny plány Copilotu.",
-        "en": "On November 4, GitHub announced that Copilot works directly in Xcode’s built-in coding assistant. The integration is in public preview, available from Xcode 27.3 beta; the existing GitHub Copilot for Xcode extension remains a separate option. All Copilot plans are supported."
+        "cs": "GitHub 4. listopadu oznámil, že Copilot jde použít přímo ve vestavěném kódovacím asistentovi Xcode (Applova nástroje pro vývojáře aplikací). Integrace je ve veřejném náhledu a funguje od Xcode 27.3 beta; stávající rozšíření GitHub Copilot for Xcode zůstává jako samostatná možnost. Podporované jsou všechny plány Copilotu.",
+        "en": "On November 4, GitHub announced that Copilot works directly in the built-in coding assistant of Xcode, Apple’s app-development tool. The integration is in public preview, available from Xcode 27.3 beta; the existing GitHub Copilot for Xcode extension remains a separate option. All Copilot plans are supported."
       },
       "why": {
         "cs": "Stáhni Xcode 27.3 beta (chce macOS Tahoe 26.6 nebo novější), pak Copilota nastav v Xcode > Settings > Intelligence. Je to beta, zkus ji jen na zkušebním projektu.",
@@ -5024,16 +5024,16 @@
       "verified": true,
       "eventDate": "2026-10-28",
       "title": {
-        "cs": "Copilot se jednou připojí ke Slacku, Figmě i Notionu",
-        "en": "Connect Slack, Figma, and Notion to Copilot once"
+        "cs": "GitHub Copilot propojíš jednou se Slackem, Figmou i Notionem",
+        "en": "Connect Slack, Figma, and Notion to GitHub Copilot once"
       },
       "summary": {
-        "cs": "GitHub 28. října začal zavádět ve veřejném náhledu ověřené servery MCP, tedy konektory ke službám jako Slack, Figma, Notion, Sentry nebo Linear. Službu připojíš jednou a funguje v aplikaci Copilot, Copilot CLI, VS Code, cloudu Copilota i GitHub Mobile; na začátku je k dispozici 26 služeb.",
+        "cs": "GitHub 28. října začal zavádět ve veřejném náhledu servery MCP ověřené GitHubem, tedy konektory ke službám jako Slack, Figma, Notion, Sentry nebo Linear. Službu připojíš jednou a funguje v aplikaci Copilot, Copilot CLI, VS Code, cloudu Copilota i GitHub Mobile; na začátku je k dispozici 26 služeb.",
         "en": "On October 28, GitHub began rolling out GitHub-verified MCP servers, or connectors, in public preview for services such as Slack, Figma, Notion, Sentry, and Linear. You connect a service once and it works in the Copilot app, Copilot CLI, VS Code, Copilot in the cloud, and GitHub Mobile; 26 services are available at launch."
       },
       "why": {
-        "cs": "V aplikaci Copilot otevři Customize a u služby zvol Connect; v CLI použij /mcp a otevři Connectors. U Business a Enterprise musí správce nejdřív zapnout politiku Editor preview features.",
-        "en": "In the Copilot app open Customize and select Connect on a service; in the CLI run /mcp and open Connectors. Business and Enterprise admins must first enable the Editor preview features policy."
+        "cs": "V aplikaci Copilot otevři Customize a u služby zvol Connect. U Copilot Business a Enterprise musí správce zapnout politiku Editor preview features; u některých služeb, třeba Slacku, musí přístup povolit i správce dané služby.",
+        "en": "In the Copilot app, open Customize and select Connect on a service. Copilot Business and Enterprise admins must enable the Editor preview features policy; some services, such as Slack, also need their own admin’s approval."
       },
       "sources": [
         {

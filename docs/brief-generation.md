@@ -293,7 +293,19 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   „podle X“; omezení platnosti výsledku (jen celočíselná 4bitová verze, greedy dekódování
   u FlashProve) patří do `why`; (22) před 5c projdi `why` proti shrnutím — první věta
   nesmí opakovat údaj, který už shrnutí má (Watch a Netflix 4. 11.: „jen vývojářská beta“,
-  „jen USA a angličtina“); napiš, co shrnutí nemá (nastavení, soukromí, co přijde dál).
+  „jen USA a angličtina“); napiš, co shrnutí nemá (nastavení, soukromí, co přijde dál);
+  (23) **číslo, které nese jen jedno z citovaných médií, patří tomu médiu**: 76 % voličů
+  z průzkumu NBC měl jen The Verge, Engadget z téhož průzkumu cituje jiné číslo (56 %) →
+  „podle The Verge 76 % voličů dotázaných NBC News“; předběžné součty (ranní stav po
+  volbách, 33 z 45) nesou „předběžně“ a název webu, který je počítá; (24) **víc médií
+  přebírajících jednu zprávu není víc potvrzení** (Bloomberg → TechCrunch, The Next Web,
+  9to5Mac): `why` to řekne a tvrzení drž ve slabší verzi zdrojů („některým inženýrům“,
+  „vybízejí“ místo „krátí inženýrům“, „mají přejít“); (25) **dva produkty stejného jména
+  v jednom briefu** (GitHub Copilot × Microsoft 365 Copilot) nesou v titulku výrobce;
+  licenci shrň včetně rozsahu (tržby skupiny, „jakékoli komerční použití“, nápis
+  u největších produktů), ne jen hlavního čísla; chybí-li slovníčku tvar (EN „open
+  weights“) nebo název modelu s pomlčkou (gpt-6-luna → podtrhla by se jen „luna“), doplň
+  alias.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.
