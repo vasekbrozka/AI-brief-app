@@ -1,0 +1,419 @@
+{
+  "date": "2026-11-05",
+  "sample": false,
+  "headline": {
+    "cs": "ChatGPT umí vytvořit animované GIFy díky Images 2.6",
+    "en": "ChatGPT can now make animated GIFs with Images 2.6"
+  },
+  "items": [
+    {
+      "id": "2026-11-05-openai-images-2-6-animated-gifs",
+      "kind": "news",
+      "category": "models",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-11-04",
+      "title": {
+        "cs": "ChatGPT umí vytvořit animované GIFy díky Images 2.6",
+        "en": "ChatGPT can now make animated GIFs with Images 2.6"
+      },
+      "summary": {
+        "cs": "OpenAI 4. listopadu vydala model Images 2.6. ChatGPT díky němu z textu nebo nahrané fotky vytvoří GIF, jehož rychlost i jednotlivé snímky jde upravit, a obrázky vznikají rychleji. Zavádí se pro všechny uživatele ChatGPT a Codexu na webu i v aplikacích; vývojáři dostanou v API modely GPT-Image-2.6 Flare (rychlost) a Sunburst (kvalita).",
+        "en": "On November 4, OpenAI released Images 2.6. ChatGPT can now turn a prompt or uploaded photo into a GIF with editable speed and frames, and images generate faster. It is rolling out to all ChatGPT and Codex users on web, desktop, and mobile; developers get API models GPT-Image-2.6 Flare (speed) and Sunburst (quality)."
+      },
+      "why": {
+        "cs": "Zkus napsat „udělej gif tančící kočky“; dřív ChatGPT GIF jedním krokem neuměl. Číslo o více než 4 miliardách obrázků týdně (v září 3 miliardy) uvádí sama OpenAI.",
+        "en": "Try asking for “a gif of a cat dancing”; before, ChatGPT could not make GIFs in one step. OpenAI’s own figure: over 4 billion images a week, up from 3 billion in September."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-images-2-6"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-us-midterms-voters-restrict-data-centers",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-11-03",
+      "title": {
+        "cs": "Američané v místních hlasováních omezili datová centra",
+        "en": "US voters restrict data centers in midterm ballot measures"
+      },
+      "summary": {
+        "cs": "V amerických volbách 3. listopadu se o datových centrech hlasovalo ve 45 místních referendech v 10 státech; podle sledovací stránky jich k ránu po volbách 33 výstavbu omezilo, od zákazů po moratoria. Podle exit pollu NBC News 76 % dotázaných nechce datová centra ve svém okolí. Moratoria podporují i zvolení guvernéři Texasu a Georgie.",
+        "en": "In the US election on November 3, voters decided 45 local data center ballot measures in 10 states; per a tracking site, 33 restricted construction by the next morning, from bans to moratoriums. An NBC exit poll found 76% of voters oppose data centers locally. The governors-elect of Texas and Georgia back moratoriums too."
+      },
+      "why": {
+        "cs": "Datová centra jsou základ výpočetního výkonu pro AI, takže omezení mohou zpomalit její růst. The Verge ale upozorňuje, že přímou souvislost mezi tématem a zvolením konkrétních kandidátů nejde prokázat.",
+        "en": "Data centers supply the computing power behind AI, so limits could slow its growth. The Verge notes, however, that a direct link between the issue and any one candidate’s win is hard to prove."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2306534/americans-overwhelmingly-voted-against-data-centers-in-the-midterms/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-moonshot-kimi-k3-1-pro-open-weights-update",
+      "kind": "news",
+      "category": "opensource",
+      "verified": true,
+      "eventDate": "2026-11-02",
+      "title": {
+        "cs": "Moonshot zveřejnila váhy Kimi K3.1 Pro",
+        "en": "Moonshot releases open weights of Kimi K3.1 Pro"
+      },
+      "summary": {
+        "cs": "Moonshot AI zveřejnila na Hugging Face váhy modelu Kimi K3.1 Pro, který v říjnu uvedla jen přes web a API. Repozitář vznikl 2. listopadu, před slíbeným termínem 4. listopadu. Podle karty modelu jde o MoE model s 2,8 bilionu parametrů (104 miliard aktivních) a kontextem 1 milion tokenů.",
+        "en": "Moonshot AI published the weights of Kimi K3.1 Pro on Hugging Face; the model launched in October via website and API only. The repository dates from November 2, ahead of the promised November 4. Per the model card, it is a mixture-of-experts model with 2.8 trillion parameters (104 billion active) and a 1-million-token context."
+      },
+      "why": {
+        "cs": "Licence dovoluje volné použití; kdo ale provozuje „model jako službu“ a má tržby nad 20 mil. USD za 12 měsíců, potřebuje dohodu s Moonshotem. Výjimka: interní použití a provoz přes Moonshot či jeho certifikované partnery.",
+        "en": "The license allows free use, but anyone running a model-as-a-service business with over $20 million revenue in 12 months needs a deal with Moonshot. Exempt: internal use and access via Moonshot or its certified partners."
+      },
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+        },
+        {
+          "name": "Kimi",
+          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-10-24",
+        "id": "2026-10-24-moonshot-kimi-k3-1-pro",
+        "title": {
+          "cs": "Moonshot uvedla Kimi K3.1 Pro, otevřené váhy zveřejní později",
+          "en": "Moonshot launches Kimi K3.1 Pro, open weights to follow"
+        }
+      }
+    },
+    {
+      "id": "2026-11-05-apple-siri-ai-waitlist-high-demand-only",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-02",
+      "title": {
+        "cs": "Siri AI: čekací listina už jen při velkém zájmu",
+        "en": "Siri AI waitlist now used only at high demand"
+      },
+      "summary": {
+        "cs": "Apple v podpůrné stránce s datem 2. listopadu uvádí, že Siri AI v iOS 27 se po zapnutí přes „Try Siri AI (Beta)“ v Nastavení začne stahovat automaticky a čekací listinu použije jen v době velkého zájmu. Dřív stránka psala, že uživatele na listinu přidá a stahování začne po skončení čekání (podle 9to5Mac).",
+        "en": "Apple’s support page dated November 2 says Siri AI in iOS 27 downloads automatically after you turn it on via “Try Siri AI (Beta)” in Settings, with a waitlist only during times of high demand. Earlier, the page said users would join a waitlist and the download would start when the wait ended (per 9to5Mac)."
+      },
+      "why": {
+        "cs": "Siri AI je beta v angličtině, francouzštině, japonštině, korejštině, portugalštině a španělštině; v EU je na iOS, iPadOS a hodinkách nedostupná. Na iPhonu chce model 15 Pro nebo novější.",
+        "en": "Siri AI is a beta in six languages (English, French, Japanese, Korean, Portuguese, Spanish) and unavailable in the EU on iOS, iPadOS, and watchOS. On iPhone it needs a 15 Pro or newer."
+      },
+      "sources": [
+        {
+          "name": "Apple",
+          "url": "https://support.apple.com/en-us/127893"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/04/apple-disables-siri-ai-waitlist-in-ios-27-with-one-exception/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-apple-cuts-engineers-daily-ai-budgets",
+      "kind": "news",
+      "category": "business",
+      "verified": true,
+      "eventDate": "2026-11-04",
+      "title": {
+        "cs": "Apple podle Bloombergu krátí inženýrům denní limity na AI",
+        "en": "Apple reportedly cuts engineers’ daily AI spending caps"
+      },
+      "summary": {
+        "cs": "Podle Bloombergu z 4. listopadu Apple v říjnu snížil denní limit výdajů na AI u některých inženýrů z 300 na 200 dolarů a plánuje další škrty až na 100 dolarů. Mimo inženýring je limit často už 100 dolarů, u některých týmů se zvažuje 25. Zaměstnanec může o výjimku požádat vedení.",
+        "en": "Bloomberg reported on November 4 that Apple cut the daily AI spending cap for some engineers from $300 to $200 in October and plans further cuts to as low as $100. Outside engineering the cap is often already $100, and $25 is being considered for some teams. Employees can ask senior leaders for an exemption."
+      },
+      "why": {
+        "cs": "Zpráva stojí na anonymních zdrojích a Apple se odmítl vyjádřit. Zaměstnanci smějí používat Claude, ChatGPT i Gemini, některé týmy ale mají přejít na levnější modely nebo modely běžící přímo v zařízení (The Next Web).",
+        "en": "The report rests on anonymous sources and Apple declined to comment. Staff may use Claude, ChatGPT, and Gemini, but some teams should move to cheaper or on-device models (The Next Web)."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/apple-cuts-employee-ai-token-budgets"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/04/report-apple-reduces-employees-ai-token-allowances-as-ternus-moves-to-cut-costs/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-pangram-ai-image-video-detection",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-04",
+      "title": {
+        "cs": "Pangram spouští detekci AI obrázků a videa",
+        "en": "Pangram launches AI image and video detection"
+      },
+      "summary": {
+        "cs": "Pangram, tvůrce nástroje na odhalování AI textu, 4. listopadu spustil modely pro obrázky (Image 1.0) a video (Image Flash 1.0). Obrázek označí mapou míst, kde zasáhla AI, a běží i v rozšíření pro Chrome; video kontroluje po snímcích. Podle firmy zachytí 99,2 % AI obrázků při 0,27 % falešných poplachů.",
+        "en": "Pangram, maker of an AI-text detector, launched models for images (Image 1.0) and video (Image Flash 1.0) on November 4. It marks where AI touched an image with a heatmap and runs in a Chrome extension; video is checked frame by frame. The company says it catches 99.2% of AI images with 0.27% false positives."
+      },
+      "why": {
+        "cs": "Čísla pocházejí z vlastních testů firmy. Zkusit jde web nebo rozšíření pro Chrome: účet zdarma ověří jen pár obrázků, pod 512×512 pixelů výsledek hlásí sníženou jistotu (Engadget).",
+        "en": "The figures come from the company’s own tests. You can try the web app or Chrome extension: a free account checks only a few images, and below 512×512 pixels results carry a reduced-confidence note (Engadget)."
+      },
+      "sources": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/pangram-image-1-0-flash-ai-image-video-detection"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2307116/pangram-expands-its-ai-detection-tools-to-video-and-images/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-tip-xcode-27-3-github-copilot",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-04",
+      "title": {
+        "cs": "GitHub Copilot funguje i ve vestavěném asistentovi Xcode",
+        "en": "GitHub Copilot now works in Xcode’s coding assistant"
+      },
+      "summary": {
+        "cs": "GitHub 4. listopadu oznámil, že Copilot jde použít přímo ve vestavěném kódovacím asistentovi Xcode. Integrace je ve veřejném náhledu a funguje od Xcode 27.3 beta; stávající rozšíření GitHub Copilot for Xcode zůstává jako samostatná možnost. Podporované jsou všechny plány Copilotu.",
+        "en": "On November 4, GitHub announced that Copilot works directly in Xcode’s built-in coding assistant. The integration is in public preview, available from Xcode 27.3 beta; the existing GitHub Copilot for Xcode extension remains a separate option. All Copilot plans are supported."
+      },
+      "why": {
+        "cs": "Stáhni Xcode 27.3 beta (chce macOS Tahoe 26.6 nebo novější), pak Copilota nastav v Xcode > Settings > Intelligence. Je to beta, zkus ji jen na zkušebním projektu.",
+        "en": "Download Xcode 27.3 beta (needs macOS Tahoe 26.6 or later), then set up Copilot in Xcode > Settings > Intelligence. It is a beta, so try it on a test project."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-tip-github-copilot-verified-mcp-connectors",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Copilot se jednou připojí ke Slacku, Figmě i Notionu",
+        "en": "Connect Slack, Figma, and Notion to Copilot once"
+      },
+      "summary": {
+        "cs": "GitHub 28. října začal zavádět ve veřejném náhledu ověřené servery MCP, tedy konektory ke službám jako Slack, Figma, Notion, Sentry nebo Linear. Službu připojíš jednou a funguje v aplikaci Copilot, Copilot CLI, VS Code, cloudu Copilota i GitHub Mobile; na začátku je k dispozici 26 služeb.",
+        "en": "On October 28, GitHub began rolling out GitHub-verified MCP servers, or connectors, in public preview for services such as Slack, Figma, Notion, Sentry, and Linear. You connect a service once and it works in the Copilot app, Copilot CLI, VS Code, Copilot in the cloud, and GitHub Mobile; 26 services are available at launch."
+      },
+      "why": {
+        "cs": "V aplikaci Copilot otevři Customize a u služby zvol Connect; v CLI použij /mcp a otevři Connectors. U Business a Enterprise musí správce nejdřív zapnout politiku Editor preview features.",
+        "en": "In the Copilot app open Customize and select Connect on a service; in the CLI run /mcp and open Connectors. Business and Enterprise admins must first enable the Editor preview features policy."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-28-connect-your-tools-to-copilot-without-all-the-setup"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-tip-m365-copilot-find-meetings",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Copilot najde schůzky podle tématu nebo klíčového slova",
+        "en": "Copilot can find meetings by topic or keyword"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že Copilot umí hledat schůzky podle tématu nebo klíčových slov, a to v těle pozvánky, v chatu i v přepisu. Dřív hledání chat ani přepis nezahrnovalo. Funkce míří na Android, Windows, iOS a Mac.",
+        "en": "Microsoft’s release notes from September 23 say Copilot can find meetings by a topic or keyword found in the meeting body, chat, or transcript. Before, the search did not cover chat or transcripts. The feature targets Android, Windows, iOS, and Mac."
+      },
+      "why": {
+        "cs": "Otevři Copilota, zadej téma nebo klíčové slovo a z nabídnutých schůzek vyber tu správnou. V přepisech hledá jen u schůzek z posledních dvou měsíců; licenci poznámky k vydání neuvádějí.",
+        "en": "Open Copilot, enter a topic or keyword, and pick the right meeting from the list. Transcript search covers only meetings from the last two months; the release notes do not name a license."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-tip-openai-decisions-api-ga",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-22",
+      "title": {
+        "cs": "Decisions API od OpenAI je v ostrém provozu",
+        "en": "OpenAI’s Decisions API is now generally available"
+      },
+      "summary": {
+        "cs": "OpenAI 22. října uvedla Decisions API do ostrého provozu. Endpoint POST /v1/decisions vyhodnotí text, obrázky či JSON a vrátí typovanou odpověď (pravděpodobnost, volbu z možností nebo skóre) podle OpenAI zhruba 10× rychleji než Responses API. Běží zatím jen s modelem gpt-6-luna a jeden požadavek zvládne až 400 otázek.",
+        "en": "On October 22, OpenAI made the Decisions API generally available. The POST /v1/decisions endpoint evaluates text, images, or JSON and returns a typed answer (probability, choice, or score), which OpenAI says is about 10 times faster than the Responses API. So far it runs only with gpt-6-luna; one request handles up to 400 questions."
+      },
+      "why": {
+        "cs": "Otázky si nejdřív vyzkoušej v Playgroundu, než napíšeš kód. Hodí se k třídění obsahu, směrování požadavků a řazení práce; vlastní schéma JSON dá spíš Structured Outputs v Responses API.",
+        "en": "Try your questions in the Playground before writing code. It suits classifying content, routing requests, and prioritizing work; for your own JSON schema, Structured Outputs in the Responses API fits better."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/api/docs/guides/decisions"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/api/docs/changelog"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "GitHub vyřadí z Copilotu pro programátory tři modely",
+        "en": "GitHub retires three models from GitHub Copilot"
+      },
+      "note": {
+        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8, Opus 5 (náhrada Opus 5.5) a GPT-5.6 Terra (GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane individuálním předplatitelům s ročním tarifem.",
+        "en": "On November 16, GitHub retires Opus 4.8, Opus 5 (replacement Opus 5.5), and GPT-5.6 Terra (GPT-6.1 Sol or GPT-6 Luna) from Copilot. Opus 4.8 stays for individual annual-plan subscribers."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "Microsoft Ignite: konference o Copilotu a AI agentech",
+        "en": "Microsoft Ignite: a conference on Copilot and AI agents"
+      },
+      "note": {
+        "cs": "Microsoftova konference se koná 17.–20. listopadu v San Franciscu; online (zdarma) jen 17.–19. listopadu. Témata: Copilot, AI agenti, cloud, zabezpečení a Windows.",
+        "en": "Microsoft’s conference runs November 17–20 in San Francisco; the online event (free) is November 17–19 only. Topics: Copilot, AI agents, cloud, security, and Windows."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://ignite.microsoft.com/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "Claude Code ruší rychlý režim pro Opus 4.8",
+        "en": "Claude Code drops fast mode for Opus 4.8"
+      },
+      "note": {
+        "cs": "Podle changelogu Claude Code zanikne 30. listopadu rychlý režim (rychlejší výstup) Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Rychlost zachová přechod na Opus 5.5.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "AWS re:Invent: velká konference o cloudu a AI",
+        "en": "AWS re:Invent: cloud and AI conference in Las Vegas"
+      },
+      "note": {
+        "cs": "AWS re:Invent běží od 30. listopadu do 4. prosince v Las Vegas. Podle pořadatele nabídne přes 2 200 sessionů; keynoty jdou sledovat zdarma online (livestream).",
+        "en": "AWS re:Invent runs November 30 to December 4 in Las Vegas. The organizer lists over 2,200 sessions; keynotes can be watched free via livestream."
+      },
+      "sources": [
+        {
+          "name": "AWS",
+          "url": "https://reinvent.awsevents.com/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-01",
+      "title": {
+        "cs": "NVIDIA GTC Washington: keynote Jensena Huanga",
+        "en": "NVIDIA GTC Washington: Jensen Huang’s keynote"
+      },
+      "note": {
+        "cs": "Konference GTC ve Washingtonu běží od 30. listopadu do 3. prosince; keynote Jensena Huanga je 1. prosince ve 14:00 východního času (20:00 našeho). Program: otevřené modely, AI továrny, fyzická AI.",
+        "en": "GTC in Washington runs November 30 to December 3; Jensen Huang’s keynote is December 1 at 2 p.m. Eastern (8 p.m. Prague). Topics: open models, AI factories, physical AI."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/en-us/gtc-dc/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-02",
+      "title": {
+        "cs": "EU: do 2. prosince musí firmy splnit zákaz aplikací na „svlékání“",
+        "en": "EU: companies must meet nudifier-app ban by December 2"
+      },
+      "note": {
+        "cs": "Podle Evropského parlamentu mají firmy do 2. prosince 2026 splnit zákaz AI aplikací, které „svlékají“ lidi z fotek, a starší systémy do té doby musí strojově čitelně označovat AI obsah.",
+        "en": "Per the European Parliament, firms must meet the ban on AI apps that “undress” people in photos by December 2, 2026; older systems must label AI content machine-readably by then."
+      },
+      "sources": [
+        {
+          "name": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

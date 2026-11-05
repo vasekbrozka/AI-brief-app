@@ -1,50 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-copilot-excel-powerbi",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": false,
-      "title": {
-        "cs": "Copilot v Excelu počítá i nad daty z Power BI",
-        "en": "Copilot in Excel can work off your Power BI data"
-      },
-      "summary": {
-        "cs": "K Excelu si nově připojíš report z Power BI a Copilot z něj rovnou vytáhne trendy, srovnání i doprovodné výpočty — pracuje tedy nad firemními daty, která už někdo pohlídal. Microsoft to rolluje v srpnu.",
-        "en": "You can now attach a Power BI report to Excel and have Copilot pull trends, comparisons, and supporting calculations straight from it — working off governed company data. Microsoft is rolling it out in August."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        }
-      ],
-      "added": "2026-08-04",
-      "used": "2026-08-06"
-    },
-    {
-      "slug": "tip-gemini-personalized-images",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": false,
-      "title": {
-        "cs": "Gemini vygeneruje obrázky podle tvého vkusu",
-        "en": "Gemini generates images that match your taste"
-      },
-      "summary": {
-        "cs": "Gemini umí vygenerovat obrázky ušité na míru tobě — vychází z toho, co o tvých zájmech a vkusu ví z předchozích konverzací. Google to zpřístupnil všem uživatelům v USA v červencové vlně novinek.",
-        "en": "Gemini can generate images tailored to you — drawing on what it knows about your interests and taste from earlier conversations. Google made it available to all users in the US in its July drop."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/"
-        }
-      ],
-      "added": "2026-08-06",
-      "used": "2026-08-06"
-    },
-    {
       "slug": "tip-chatgpt-unlimited-free",
       "category": "tools",
       "theme": "chatgpt",
@@ -3693,15 +3649,15 @@
       "eventDate": "2026-09-23",
       "title": {
         "cs": "Copilot najde schůzky podle tématu nebo klíčového slova",
-        "en": "Copilot finds meetings by topic or keyword"
+        "en": "Copilot can find meetings by topic or keyword"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že Copilot umí hledat schůzky podle tématu či klíčových slov, a to i v těle pozvánky, v chatu a v přepisu. Přepisy prohledává u schůzek z posledních dvou měsíců. Funkce míří na Android, Windows, iOS a Mac.",
-        "en": "Microsoft’s September 23 release notes say Copilot can find meetings by topic or keyword, including in the invitation body, chat, and transcript. Transcripts are searched for meetings from the last two months. The feature is aimed at Android, Windows, iOS, and Mac."
+        "cs": "Microsoft v poznámkách k vydání z 23. září uvádí, že Copilot umí hledat schůzky podle tématu nebo klíčových slov, a to v těle pozvánky, v chatu i v přepisu. Dřív hledání chat ani přepis nezahrnovalo. Funkce míří na Android, Windows, iOS a Mac.",
+        "en": "Microsoft’s release notes from September 23 say Copilot can find meetings by a topic or keyword found in the meeting body, chat, or transcript. Before, the search did not cover chat or transcripts. The feature targets Android, Windows, iOS, and Mac."
       },
       "why": {
-        "cs": "Otevři Copilota, zadej téma nebo klíčové slovo a z nabídnutých schůzek vyber tu, kterou hledáš, včetně souvisejícího obsahu. Zavádí se postupně; potřebnou licenci zdroj neuvádí.",
-        "en": "Open Copilot, enter a topic or keyword, and pick the meeting you want from the results, with its related content. It rolls out gradually; the source names no license."
+        "cs": "Otevři Copilota, zadej téma nebo klíčové slovo a z nabídnutých schůzek vyber tu správnou. V přepisech hledá jen u schůzek z posledních dvou měsíců; licenci poznámky k vydání neuvádějí.",
+        "en": "Open Copilot, enter a topic or keyword, and pick the right meeting from the list. Transcript search covers only meetings from the last two months; the release notes do not name a license."
       },
       "sources": [
         {
@@ -3710,7 +3666,7 @@
         }
       ],
       "added": "2026-10-26",
-      "used": null
+      "used": "2026-11-05"
     },
     {
       "slug": "tip-gemini-meet-speech-translation-63",
@@ -4758,21 +4714,25 @@
         "en": "OpenAI’s Decisions API is now generally available"
       },
       "summary": {
-        "cs": "OpenAI 22. října uvedla Decisions API do ostrého provozu s modelem gpt-6-luna. Sdílený vstup jde ukládat do cache se slevou, otázky smějí obsahovat obrázky a strukturovaná data se předávají přímo jako input_json. Jeden požadavek nově zvládne až 400 otázek místo 200 ve veřejné betě.",
-        "en": "On October 22, OpenAI made the Decisions API generally available with gpt-6-luna. Shared input can be cached at a discount, questions may include images, and structured data is passed directly as input_json. One request now handles up to 400 questions instead of 200 in the public beta."
+        "cs": "OpenAI 22. října uvedla Decisions API do ostrého provozu. Endpoint POST /v1/decisions vyhodnotí text, obrázky či JSON a vrátí typovanou odpověď (pravděpodobnost, volbu z možností nebo skóre) podle OpenAI zhruba 10× rychleji než Responses API. Běží zatím jen s modelem gpt-6-luna a jeden požadavek zvládne až 400 otázek.",
+        "en": "On October 22, OpenAI made the Decisions API generally available. The POST /v1/decisions endpoint evaluates text, images, or JSON and returns a typed answer (probability, choice, or score), which OpenAI says is about 10 times faster than the Responses API. So far it runs only with gpt-6-luna; one request handles up to 400 questions."
       },
       "why": {
-        "cs": "Je pro vývojáře: endpoint v1/decisions. Změny od veřejné bety shrnuje dokumentace; poznámka k vydání neuvádí ceny ani plány.",
-        "en": "For developers: the v1/decisions endpoint. The documentation lists the changes since the public beta; the release note gives no prices or plans."
+        "cs": "Otázky si nejdřív vyzkoušej v Playgroundu, než napíšeš kód. Hodí se k třídění obsahu, směrování požadavků a řazení práce; vlastní schéma JSON dá spíš Structured Outputs v Responses API.",
+        "en": "Try your questions in the Playground before writing code. It suits classifying content, routing requests, and prioritizing work; for your own JSON schema, Structured Outputs in the Responses API fits better."
       },
       "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/api/docs/guides/decisions"
+        },
         {
           "name": "OpenAI",
           "url": "https://learn.chatgpt.com/api/docs/changelog"
         }
       ],
       "added": "2026-11-01",
-      "used": null
+      "used": "2026-11-05"
     },
     {
       "slug": "tip-lmstudio-bionic-in-app-terminal",
@@ -4799,33 +4759,6 @@
           "url": "https://lmstudio.ai/changelog/bionic-v1.1.10"
         }
       ],
-      "used": null
-    },
-    {
-      "slug": "tip-m365-copilot-powerpoint-attach-image",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": true,
-      "eventDate": "2026-10-27",
-      "title": {
-        "cs": "Copilot v PowerPointu zohlední přiložený obrázek",
-        "en": "Copilot in PowerPoint can use an attached image"
-      },
-      "summary": {
-        "cs": "Microsoft v poznámkách k vydání za 13.–27. října uvádí, že Copilot v PowerPointu (Windows, web) nově při tvorbě prezentace zohlední přiložený obrázek; dřív vznikala jen z textu. Obrázek přiložíš k zadání v panelu Copilota a Copilot ho zapracuje do vygenerovaných snímků.",
-        "en": "In its release notes for October 13–27, Microsoft says Copilot in PowerPoint (Windows, web) can now take an attached image into account when creating a presentation; before, it worked from text only. You attach the image to your prompt in the Copilot pane and Copilot works it into the generated slides."
-      },
-      "why": {
-        "cs": "Otevři novou prezentaci, v panelu Copilota napiš zadání a přilož obrázek; pak zkontroluj vygenerované snímky. Poznámky k vydání licenci neuvádějí.",
-        "en": "Open a new presentation, type your prompt in the Copilot pane and attach an image; then review the generated slides. The release notes do not mention a license."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        }
-      ],
-      "added": "2026-11-02",
       "used": null
     },
     {
@@ -5060,27 +4993,81 @@
       "slug": "tip-xcode-27-3-github-copilot",
       "category": "tools",
       "theme": "copilot",
-      "verified": false,
-      "eventDate": "2026-11-03",
+      "verified": true,
+      "eventDate": "2026-11-04",
       "title": {
-        "cs": "Xcode 27.3 přidává GitHub Copilot do vestavěného asistenta",
-        "en": "Xcode 27.3 adds GitHub Copilot to its built-in assistant"
+        "cs": "GitHub Copilot funguje i ve vestavěném asistentovi Xcode",
+        "en": "GitHub Copilot now works in Xcode’s coding assistant"
       },
       "summary": {
-        "cs": "Podle 9to5Mac Apple 3. listopadu vydal Xcode 27.3 beta 1, jehož poznámky k vydání uvádějí, že GitHub Copilot je dostupný ve vestavěném kódovacím asistentovi. Xcode už dříve podporoval ChatGPT, Claude a Gemini. Beta vyžaduje Mac s macOS Tahoe 26.6 nebo novějším.",
-        "en": "Per 9to5Mac, Apple released Xcode 27.3 beta 1 on November 3, and its release notes say GitHub Copilot is now available in the built-in coding assistant. Xcode already supported ChatGPT, Claude, and Gemini. The beta requires a Mac running macOS Tahoe 26.6 or later."
+        "cs": "GitHub 4. listopadu oznámil, že Copilot jde použít přímo ve vestavěném kódovacím asistentovi Xcode. Integrace je ve veřejném náhledu a funguje od Xcode 27.3 beta; stávající rozšíření GitHub Copilot for Xcode zůstává jako samostatná možnost. Podporované jsou všechny plány Copilotu.",
+        "en": "On November 4, GitHub announced that Copilot works directly in Xcode’s built-in coding assistant. The integration is in public preview, available from Xcode 27.3 beta; the existing GitHub Copilot for Xcode extension remains a separate option. All Copilot plans are supported."
       },
       "why": {
-        "cs": "Zdrojem je jediný článek 9to5Mac; poznámky k vydání Xcode jsme neotevřeli a postup zapnutí neznáme. Je to beta 1, vyzkoušej ji jen na zkušebním projektu.",
-        "en": "The only source is one 9to5Mac article; we could not open the Xcode release notes and do not know how to switch it on. It is beta 1, so try it on a test project only."
+        "cs": "Stáhni Xcode 27.3 beta (chce macOS Tahoe 26.6 nebo novější), pak Copilota nastav v Xcode > Settings > Intelligence. Je to beta, zkus ji jen na zkušebním projektu.",
+        "en": "Download Xcode 27.3 beta (needs macOS Tahoe 26.6 or later), then set up Copilot in Xcode > Settings > Intelligence. It is a beta, so try it on a test project."
       },
       "sources": [
         {
-          "name": "9to5Mac",
-          "url": "https://9to5mac.com/2026/11/03/xcode-27-3-adds-github-copilot-to-its-built-in-coding-assistant/"
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant"
         }
       ],
       "added": "2026-11-04",
+      "used": "2026-11-05"
+    },
+    {
+      "slug": "tip-github-copilot-verified-mcp-connectors",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-11-05",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Copilot se jednou připojí ke Slacku, Figmě i Notionu",
+        "en": "Connect Slack, Figma, and Notion to Copilot once"
+      },
+      "summary": {
+        "cs": "GitHub 28. října začal zavádět ve veřejném náhledu ověřené servery MCP, tedy konektory ke službám jako Slack, Figma, Notion, Sentry nebo Linear. Službu připojíš jednou a funguje v aplikaci Copilot, Copilot CLI, VS Code, cloudu Copilota i GitHub Mobile; na začátku je k dispozici 26 služeb.",
+        "en": "On October 28, GitHub began rolling out GitHub-verified MCP servers, or connectors, in public preview for services such as Slack, Figma, Notion, Sentry, and Linear. You connect a service once and it works in the Copilot app, Copilot CLI, VS Code, Copilot in the cloud, and GitHub Mobile; 26 services are available at launch."
+      },
+      "why": {
+        "cs": "V aplikaci Copilot otevři Customize a u služby zvol Connect; v CLI použij /mcp a otevři Connectors. U Business a Enterprise musí správce nejdřív zapnout politiku Editor preview features.",
+        "en": "In the Copilot app open Customize and select Connect on a service; in the CLI run /mcp and open Connectors. Business and Enterprise admins must first enable the Editor preview features policy."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-28-connect-your-tools-to-copilot-without-all-the-setup"
+        }
+      ],
+      "used": "2026-11-05"
+    },
+    {
+      "slug": "tip-github-copilot-agent-merge",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-10-28",
+      "title": {
+        "cs": "Copilot za tebe opraví, co blokuje pull request",
+        "en": "Copilot can now fix what blocks your pull request"
+      },
+      "summary": {
+        "cs": "GitHub 28. října přidal Agent Merge přímo do pull requestů na github.com. V okně slučování zvolíš Watch and fix a Copilot v cloudovém vývojovém prostředí opraví selhávající workflow Actions, konflikty při slučování, nebo obojí. Jde ho zapnout jako výchozí pro všechny tvoje pull requesty.",
+        "en": "On October 28, GitHub brought Agent Merge straight into pull requests on github.com. Select Watch and fix in the merge box, and Copilot works in a cloud development environment to fix failing Actions workflows, merge conflicts, or both. You can turn it on by default for all your pull requests."
+      },
+      "why": {
+        "cs": "Jde zkombinovat s automatickým slučováním (auto-merge): Copilot drží request připravený a GitHub ho sloučí, jakmile jsou splněné všechny podmínky. Chce placený plán Copilotu a podléhá politikám organizace nebo podniku.",
+        "en": "It can be combined with auto-merge: Copilot keeps the request ready and GitHub merges it once all requirements are met. It needs a paid Copilot plan and is subject to organization and enterprise policies."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-28-agent-merge-watches-and-fixes-pull-requests-in-the-cloud"
+        }
+      ],
+      "added": "2026-11-05",
       "used": null
     }
   ]

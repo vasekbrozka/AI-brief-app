@@ -87,7 +87,7 @@ T1_DOMAINS = [
     "php.net", "recursive.com", "blog.youtube",
     "1password.com", "radicalnumerics.ai", "microsoft.ai", "linuxfoundation.org",
     "kimi.ai", "block.xyz", "security.com", "gov.uk", "talosintelligence.com",
-    "android.com",
+    "android.com", "awsevents.com",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.

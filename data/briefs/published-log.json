@@ -351,31 +351,6 @@
       "topic": "tip: Anthropic od 25.8. sloučilo paměť chatu a Coworku — sdílené téma napříč oběma, editovatelné, citlivá témata mimo výchozí nastavení"
     },
     {
-      "slug": "2026-09-05-stop-rogue-ai-act",
-      "date": "2026-09-05",
-      "topic": "poslanci Gottheimer+Lawler 3.9. navrhli Stop Rogue AI Act (reakce na HF průnik) — NIST standardy do roka, povinný strojově čitelný soupis AI agentů a nezfalšovatelné logy"
-    },
-    {
-      "slug": "2026-09-05-crusoe-30-billion-funding",
-      "date": "2026-09-05",
-      "topic": "Crusoe (AI datacentra) 3.9. uzavřelo kolo 3+ mld. USD při hodnotě ~30 mld. (Atreides, Valor, Mubadala) — ztrojnásobení oproti říjnu 2025 (10 mld.)"
-    },
-    {
-      "slug": "2026-09-05-microsoft-mai-transcribe-2",
-      "date": "2026-09-05",
-      "topic": "Microsoft AI 3.9. vydalo MAI-Transcribe-2 (60 jazyků, $0,10/hod, FLEURS chybovost 5,2%) — 10x rychlejší/levnější než OpenAI/Google/ElevenLabs"
-    },
-    {
-      "slug": "2026-09-05-humain-m3-saudi-arabic-model",
-      "date": "2026-09-05",
-      "topic": "saúdská HUMAIN 3.9. na LEAP Riyadh představila humain-m3 (428B parametrů, arabština, staví na čínské otevřené MiniMax-M3) — 89,4% na 7 benchmarcích"
-    },
-    {
-      "slug": "2026-09-05-tip-chatgpt-google-workspace-sidebyside",
-      "date": "2026-09-05",
-      "topic": "tip: ChatGPT od 3.9. umí otevřít Google Doc/Sheet/Slide vedle konverzace + pracovat napříč celou složkou"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -2134,7 +2109,57 @@
       "slug": "2026-11-04-tip-github-dependabot-agent-package-manager",
       "date": "2026-11-04",
       "topic": "tip: Dependabot verzní aktualizace pro Agent Package Manager (3. 11.; podporované git závislosti z apm.yml, apm.lock.yaml jen pokud existuje; položka apm v .github/dependabot.yml; github.com všechny plány, GHES 3.24) — nový"
+    },
+    {
+      "slug": "2026-11-05-openai-images-2-6-animated-gifs",
+      "date": "2026-11-05",
+      "topic": "OpenAI 4. 11. (OpenAI, Verge, TNW): Images 2.6 — ChatGPT umí vytvořit animovaný GIF z promptu nebo nahrané fotky (úprava rychlosti a jednotlivých snímků), rychlejší generování obrázků; zavádí se pro všechny uživatele ChatGPT a Codexu (web, desktop, mobil); API modely GPT-Image-2.6 Flare (rychlost) a Sunburst (kvalita); OpenAI: přes 4 mld obrázků týdně v ChatGPT a API (3 mld v září) — highlight"
+    },
+    {
+      "slug": "2026-11-05-us-midterms-voters-restrict-data-centers",
+      "date": "2026-11-05",
+      "topic": "Volby v USA 3. 11. (Verge, Engadget, Wired): o datových centrech se hlasovalo ve 45 místních referendech v 10 státech, podle sledovací stránky jich k ránu 33 výstavbu omezilo (zákazy, moratoria); exit poll NBC: 76 % proti datovým centrům ve svém okolí; zvolení guvernéři Texasu (Hinojosa) a Georgie (Bottoms) podporují moratoria; Verge: přímou souvislost s volbou konkrétních kandidátů nejde prokázat"
+    },
+    {
+      "slug": "2026-11-05-moonshot-kimi-k3-1-pro-open-weights-update",
+      "date": "2026-11-05",
+      "topic": "Moonshot 2. 11. (Hugging Face moonshotai/Kimi-K3.1-Pro, Kimi blog): váhy Kimi K3.1 Pro zveřejněny (repozitář vznikl 2. 11., slib byl do 4. 11.; MoE 2,8 bil. parametrů, 104 mld aktivních, kontext 1 milion tokenů); licence volná, ale provozovatel „modelu jako služby“ s tržbami nad 20 mil. USD za 12 měsíců potřebuje dohodu s Moonshotem (výjimka: interní použití, oficiální produkty a certifikovaní partneři); navazuje na 2026-10-24-moonshot-kimi-k3-1-pro"
+    },
+    {
+      "slug": "2026-11-05-apple-siri-ai-waitlist-high-demand-only",
+      "date": "2026-11-05",
+      "topic": "Apple 2. 11. (support.apple.com/en-us/127893; 9to5Mac 4. 11.): Siri AI v iOS 27 se po zapnutí v Nastavení stahuje automaticky, čekací listina jen při velkém zájmu (dřív byli všichni na listině); beta v angličtině, francouzštině, japonštině, korejštině, portugalštině a španělštině, v EU na iOS/iPadOS/watchOS nedostupná, na iPhonu 15 Pro a novějším"
+    },
+    {
+      "slug": "2026-11-05-apple-cuts-engineers-daily-ai-budgets",
+      "date": "2026-11-05",
+      "topic": "Bloomberg 4. 11. (TechCrunch, The Next Web, 9to5Mac): Apple v říjnu snížil denní limit výdajů na AI u některých inženýrů z 300 na 200 USD, plánuje další škrty až na 100; mimo inženýring často už 100, zvažuje se 25; výjimku lze žádat u vedení; zdroje anonymní, Apple odmítl komentář; některé týmy mají přejít na levnější či lokální modely"
+    },
+    {
+      "slug": "2026-11-05-pangram-ai-image-video-detection",
+      "date": "2026-11-05",
+      "topic": "Pangram 4. 11. (The Next Web, Engadget): modely Image 1.0 (obrázky, heatmapa, rozšíření pro Chrome) a Image Flash 1.0 (video po snímcích) na detekci AI obsahu; podle firmy 99,2 % AI obrázků při 0,27 % falešných poplachů (vlastní testy); pod 512×512 pixelů snížená jistota; účet zdarma ověří jen pár obrázků"
+    },
+    {
+      "slug": "2026-11-05-tip-xcode-27-3-github-copilot",
+      "date": "2026-11-05",
+      "topic": "tip: GitHub Copilot ve vestavěném kódovacím asistentovi Xcode 27.3 beta (GitHub changelog 4. 11.; veřejný náhled; Xcode > Settings > Intelligence; macOS Tahoe 26.6+; všechny plány Copilotu; rozšíření GitHub Copilot for Xcode zůstává) — nový"
+    },
+    {
+      "slug": "2026-11-05-tip-github-copilot-verified-mcp-connectors",
+      "date": "2026-11-05",
+      "topic": "tip: GitHub-verified MCP servery (konektory) v Copilotu (28. 10.; veřejný náhled; 26 služeb, např. Slack, Figma, Notion, Sentry, Linear; připojení v aplikaci Copilot přes Customize, v CLI přes /mcp > Connectors, ve VS Code; Business a Enterprise: politika Editor preview features) — nový"
+    },
+    {
+      "slug": "2026-11-05-tip-m365-copilot-find-meetings",
+      "date": "2026-11-05",
+      "topic": "tip: Copilot v Microsoft 365 najde schůzky podle tématu nebo klíčového slova v těle pozvánky, chatu a přepisu (poznámky k vydání z 23. 9.; přepisy jen z posledních dvou měsíců; Android, Windows, iOS, Mac) — nový"
+    },
+    {
+      "slug": "2026-11-05-tip-openai-decisions-api-ga",
+      "date": "2026-11-05",
+      "topic": "tip: OpenAI Decisions API je obecně dostupné (22. 10.; POST /v1/decisions, jen gpt-6-luna; text, obrázky i JSON; odpověď = pravděpodobnost, volba nebo skóre; podle OpenAI ≈10× rychlejší než Responses API; až 400 otázek na požadavek; Playground) — nový"
     }
   ],
-  "updated": "2026-11-04T03:56:42Z"
+  "updated": "2026-11-05T03:32:56Z"
 }
