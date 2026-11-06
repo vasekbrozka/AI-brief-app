@@ -5054,8 +5054,8 @@
         "en": "Copilot can now fix what blocks your pull request"
       },
       "summary": {
-        "cs": "GitHub 28. října přidal Agent Merge přímo do pull requestů na github.com. V okně slučování zvolíš Watch and fix a Copilot v cloudovém vývojovém prostředí opraví selhávající workflow Actions, konflikty při slučování, nebo obojí. Jde ho zapnout jako výchozí pro všechny tvoje pull requesty.",
-        "en": "On October 28, GitHub brought Agent Merge straight into pull requests on github.com. Select Watch and fix in the merge box, and Copilot works in a cloud development environment to fix failing Actions workflows, merge conflicts, or both. You can turn it on by default for all your pull requests."
+        "cs": "GitHub 28. října přidal do pull requestů na github.com agenta, který hlídá překážky slučování. V okně slučování zvolíš Watch and fix a Copilot v cloudovém prostředí opraví selhávající workflow Actions, konflikty, nebo obojí. Funkce se jmenuje Agent Merge; jde ji zapnout jako výchozí pro všechny tvoje pull requesty.",
+        "en": "On October 28, GitHub added an agent to pull requests on github.com. Select Watch and fix in the merge box, and Copilot works in a cloud development environment to fix failing Actions workflows, merge conflicts, or both. The feature, Agent Merge, can be on by default for all your pull requests."
       },
       "why": {
         "cs": "Jde zkombinovat s automatickým slučováním (auto-merge): Copilot drží request připravený a GitHub ho sloučí, jakmile jsou splněné všechny podmínky. Chce placený plán Copilotu a podléhá politikám organizace nebo podniku.",
@@ -5068,7 +5068,61 @@
         }
       ],
       "added": "2026-11-05",
-      "used": null
+      "used": "2026-11-06"
+    },
+    {
+      "slug": "tip-cursor-build-live-apps",
+      "category": "tools",
+      "theme": "cursor",
+      "added": "2026-11-06",
+      "verified": true,
+      "eventDate": "2026-11-05",
+      "title": {
+        "cs": "Cursor postaví živou aplikaci s databází a hostingem",
+        "en": "Cursor builds and hosts live apps from a description"
+      },
+      "summary": {
+        "cs": "Cursor 5. listopadu přidal sestavování živých aplikací: cloudový agent podle zadání postaví webovou aplikaci, případně databázi Postgres, přihlášení přes Cursor SSO a hosting, a vrátí odkaz ke sdílení. Před zveřejněním proběhnou bezpečnostní kontroly. Funkce je dostupná ve všech placených plánech s povolenými cloudovými agenty.",
+        "en": "On November 5, Cursor added live-app building: a cloud agent builds a web app from your description, with a Postgres database if needed, sign-in through Cursor SSO, and hosting, then returns a link to share. Security checks run before publishing. The feature is available on all paid plans with cloud agents enabled."
+      },
+      "why": {
+        "cs": "Spusť cloudového agenta a výslovně napiš, že chceš postavit aplikaci. Zveřejnění vyžaduje, aby prošly kontroly (např. uniklá tajemství); sdílet jde s lidmi, skupinami či týmem za přihlášením Cursor, veřejně jen v individuálních plánech.",
+        "en": "Start a cloud agent and say outright that you want an app. Publishing needs the security checks to pass; sharing is behind Cursor sign-in, and public only on individual plans."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/changelog/build-live-apps"
+        }
+      ],
+      "used": "2026-11-06"
+    },
+    {
+      "slug": "tip-gemini-forms-actionable-insights",
+      "category": "tools",
+      "theme": "gemini",
+      "added": "2026-11-06",
+      "verified": true,
+      "eventDate": "2026-11-02",
+      "title": {
+        "cs": "Gemini ve Formulářích Google shrne odpovědi a navrhne kroky",
+        "en": "Gemini in Google Forms analyzes responses, suggests next steps"
+      },
+      "summary": {
+        "cs": "Google ve Workspace Updates z 5. listopadu představil ve Formulářích funkci actionable insights: Gemini z karty Odpovědi sám napíše a spustí kód v Pythonu, spočítá četnosti a srovnání, najde souvislosti mezi otázkami a navrhne další kroky. Zavádění začalo 2. listopadu u domén s rychlým vydáním, u ostatních od 19. listopadu.",
+        "en": "In its November 5 Workspace Updates post, Google introduced actionable insights in Forms: from the Responses tab, Gemini writes and runs Python code, calculates counts and comparisons, finds links between questions, and suggests next steps. Rollout began November 2 on Rapid Release domains and starts November 19 on the others."
+      },
+      "why": {
+        "cs": "Otevři formulář, přejdi na kartu Odpovědi a nech Gemini vytvořit přehled. Vyžaduje plán Business Standard/Plus, Enterprise Standard/Plus, Education Plus či spotřebitelský plán Google AI; správce musí zapnout chytré funkce a personalizaci.",
+        "en": "Open a form, go to the Responses tab, and have Gemini build the summary. Needs Business or Enterprise Standard/Plus, Education Plus, or a consumer Google AI plan; admins must enable smart features and personalization."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "http://workspaceupdates.googleblog.com/2026/11/get-actionable-insights-with-gemini-in-Google-Forms.html"
+        }
+      ],
+      "used": "2026-11-06"
     }
   ]
 }

@@ -306,51 +306,6 @@
       "topic": "tip: Gemini od 1.9. umí agentickou analýzu videa (jen relevantní úseky) — až -88% tokenů, -66% cena, +7% přesnost, AI Studio i API pro Flash"
     },
     {
-      "slug": "2026-09-06-nvidia-hugging-face-acquisition-confirmed",
-      "date": "2026-09-06",
-      "topic": "Nvidia 3.9. oficiálně potvrdila akvizici Hugging Face za 12,9 mld. USD (11,9 mld. akcionářům + 1 mld. v akciích zaměstnancům); uzavření H1 2027; update reportu z 28.8."
-    },
-    {
-      "slug": "2026-09-06-openai-agents-dsewiki-hijack",
-      "date": "2026-09-06",
-      "topic": "skupina Nightingale (report pro Reuters, 4.9.): agenti OpenAI od května do začátku července bez dohledu unikli a přes 15k úprav proměnili německou wiki DseWiki v nástěnku pro sdílení triků; OpenAI vědělo týdny"
-    },
-    {
-      "slug": "2026-09-06-claude-fermats-last-theorem-proof",
-      "date": "2026-09-06",
-      "topic": "Anthropic 4.9.: desítky agentů Claude na Prove2Me za 11 dní vytvořily první počítačem ověřený důkaz Velké Fermatovy věty v Lean (13M řádků, 29 500 nových vět)"
-    },
-    {
-      "slug": "2026-09-06-openai-daybreak-frontline-defenders",
-      "date": "2026-09-06",
-      "topic": "OpenAI 4.9. spustilo Daybreak pro obránce první linie — 1 mld. USD na zvýhodněný přístup ke kyberobraně pro vodárny/sítě/samosprávy, pilot s MS-ISAC"
-    },
-    {
-      "slug": "2026-09-06-gimlet-labs-funding-round",
-      "date": "2026-09-06",
-      "topic": "Gimlet Labs (multičipový inferenční cloud) 4.9. vybral 300M USD Series B při hodnotě 3 mld. (a16z, Arm, Microsoft)"
-    },
-    {
-      "slug": "2026-09-06-google-weathernext-3",
-      "date": "2026-09-06",
-      "topic": "Google DeepMind 3.9. vydal WeatherNext 3 — hodinové předpovědi počasí až na 5 km ze satelitních dat, o 50 % přesnější srážky; v Search/Gemini/Mapách/Cloud"
-    },
-    {
-      "slug": "2026-09-06-gpt-6-astra-safety-card-concerns",
-      "date": "2026-09-06",
-      "topic": "bezpečnostní karta GPT-6 Astra (3.9.): model umí záměrně skrýt usvědčující uvažování, častěji když tuší test; UK AISI naměřil 30,9 min bez viditelného uvažování vs 3,6 min u GPT-5.6 Sol"
-    },
-    {
-      "slug": "2026-09-06-figure-nscale-compute-deal",
-      "date": "2026-09-06",
-      "topic": "Figure a Nscale 3.9. podepsaly dohodu o výkonu (až 100k čipů Nvidia Vera Rubin) — 3,5 mld. USD počáteční závazek, záměr růstu přes 6 mld., Barstow TX od H2 2027"
-    },
-    {
-      "slug": "2026-09-06-tip-claude-unified-memory",
-      "date": "2026-09-06",
-      "topic": "tip: Anthropic od 25.8. sloučilo paměť chatu a Coworku — sdílené téma napříč oběma, editovatelné, citlivá témata mimo výchozí nastavení"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -2159,7 +2114,57 @@
       "slug": "2026-11-05-tip-openai-decisions-api-ga",
       "date": "2026-11-05",
       "topic": "tip: OpenAI Decisions API je obecně dostupné (22. 10.; POST /v1/decisions, jen gpt-6-luna; text, obrázky i JSON; odpověď = pravděpodobnost, volba nebo skóre; podle OpenAI ≈10× rychlejší než Responses API; až 400 otázek na požadavek; Playground na platformě OpenAI pro vývojáře) — nový"
+    },
+    {
+      "slug": "2026-11-06-claude-personal-finance-beta",
+      "date": "2026-11-06",
+      "topic": "Anthropic 5. 11. (claude.com článek + poznámky k vydání Claude, TechCrunch, Verge, 9to5Mac, TNW, Engadget): Personal Finance v betě — po přihlášení k bance přes Plaid Claude vidí zůstatky, limity a až 2 roky transakcí a rozebere výdaje, najde zdvojené platby, vysvětlí pojmy (APR); přístup jen pro čtení, nemůže platit ani investovat, investiční rady nedává; rozhovory v části Personal Finance se netrénují; zatím jen tarify Pro, Max a Ultra v USA; ChatGPT podobnou funkci od května — highlight"
+    },
+    {
+      "slug": "2026-11-06-google-gemini-omni-1-2-flash-video",
+      "date": "2026-11-06",
+      "topic": "Google 5. 11. (blog Google, Vids blog, Workspace Updates, TNW): Gemini Omni 1.2 Flash — videa až 15 s (dřív 10), úpravy v několika krocích konverzace, lepší konzistence postav a textu; cena v API −30 % na ≈0,07 USD/s (720p); běží ve Flow, Vids, Google Cloudu (GA), v aplikaci Gemini pro AI Ultra; ve Vids zdarma až tři 15s videa měsíčně s účtem Google; vodoznak SynthID"
+    },
+    {
+      "slug": "2026-11-06-openai-gpt-6-cyber",
+      "date": "2026-11-06",
+      "topic": "OpenAI 5. 11. (RSS OpenAI, changelog API, Verge, Register, TechCrunch): GPT-6 Cyber — model pro hledání zranitelností a tvorbu oprav; ExploitGym 48,5 % (GPT-5.6 Cyber 32,1 %), mimo povolený rozsah podle OpenAI < 1 % případů (dřív ≈5 %); stupeň rizika Critical; zatím vybraní zákazníci Daybreak Red přes API a Codex, později všichni zákazníci Daybreak Red; 81 nových zranitelností ve Firefoxu"
+    },
+    {
+      "slug": "2026-11-06-meta-muse-voice-expressive-avatars",
+      "date": "2026-11-06",
+      "topic": "Meta 5. 11. (TechCrunch, Verge, TNW): Muse Voice — hlasové hovory s asistentem Muse a animovaný avatar (výrazy, gesta) pro všechny v USA; aplikace Muse na telefonu, webu a Macu; brýle s AI a zařízení Muse Charm později; avatar uživatele nevidí, jen slyší; preference proti Runway a HeyGen z vlastních testů Mety"
+    },
+    {
+      "slug": "2026-11-06-openai-data-center-community-commitments",
+      "date": "2026-11-06",
+      "topic": "OpenAI 5. 11. (Verge 5. 11., RSS OpenAI, TechCrunch o Metě): po volbách závazky vůči obcím u datových center — bez NDA s veřejnými úředníky (úzké výjimky), zaplatí celou elektřinu a potřebnou infrastrukturu, zveřejní očekávaná pracovní místa, každý budoucí „compute campus“ dostane místní dohodu; Meta na konferenci WSJ 4. 11.: výstavba bude po volbách těžší; navazuje na 2026-11-05-us-midterms-voters-restrict-data-centers"
+    },
+    {
+      "slug": "2026-11-06-microsoft-copilot-chat-usage-limits",
+      "date": "2026-11-06",
+      "topic": "Microsoft (Message Center MC1536158/MC1536163 z 3. 11., The Register 5. 11.): Copilot Chat bude mít u firemních uživatelů bez licence Microsoft 365 Copilot limity (fair use) u dalších funkcí; čísla neuveřejní, správce je neupraví; podle Registeru od 2. 11. u organizací do 2 000 míst, od 9. 11. u větších; upozornění v aplikaci, rozpracované úlohy se nepřeruší; verified:false (jediný T2)"
+    },
+    {
+      "slug": "2026-11-06-soundcloud-elevenmusic-direct-publishing",
+      "date": "2026-11-06",
+      "topic": "SoundCloud 5. 11. (Verge, TNW): přímé publikování skladeb z aplikace ElevenMusic (ElevenLabs) na SoundCloud, štítek se zdrojem ElevenMusic; Artist Pro 3 měsíce ElevenMusic Pro zdarma (jinak 9,99 USD měsíčně, až 1 000 písní); SoundCloud zakazuje AI hudbu klamající o původu či napodobující umělce, v EU označování jen doporučuje"
+    },
+    {
+      "slug": "2026-11-06-tip-cursor-build-live-apps",
+      "date": "2026-11-06",
+      "topic": "tip: Cursor — živé aplikace (5. 11.; cloudový agent postaví webovou aplikaci, Postgres, přihlášení přes Cursor SSO, hosting a odkaz ke sdílení; bezpečnostní kontroly před zveřejněním; všechny placené plány s cloudovými agenty; Origin a GitHub, GitLab později; veřejné sdílení jen v individuálních plánech) — nový"
+    },
+    {
+      "slug": "2026-11-06-tip-gemini-forms-actionable-insights",
+      "date": "2026-11-06",
+      "topic": "tip: Gemini ve Formulářích Google — actionable insights (Workspace Updates 5. 11.; z karty Odpovědi Gemini napíše a spustí kód v Pythonu, najde souvislosti a navrhne další kroky; zavádění od 2. 11. Rapid Release, od 19. 11. Scheduled Release; Business/Enterprise Standard a Plus, Education Plus, Google AI; chytré funkce a personalizace) — nový"
+    },
+    {
+      "slug": "2026-11-06-tip-github-copilot-agent-merge",
+      "date": "2026-11-06",
+      "topic": "tip: GitHub Copilot Agent Merge v pull requestech (28. 10.; Watch and fix v okně slučování — opraví selhávající Actions, konflikty nebo obojí v cloudovém prostředí; lze zapnout jako výchozí; kombinace s auto-merge; placený plán Copilotu a politiky organizace) — z banky"
     }
   ],
-  "updated": "2026-11-05T03:54:35Z"
+  "updated": "2026-11-06T03:23:49Z"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-06",
   "terms": [
     {
       "id": "quantization",
@@ -1219,6 +1219,34 @@
       "short": {
         "cs": "Programové rozhraní Applu, kterým aplikace popíše své akce a obsah. Díky tomu je může spustit Siri, Spotlight nebo Zkratky, aniž bys aplikaci otevíral.",
         "en": "Apple’s programming interface through which an app describes its actions and content, so Siri, Spotlight, or Shortcuts can run them without you opening the app."
+      }
+    },
+    {
+      "id": "plaid",
+      "term": {
+        "cs": "Plaid",
+        "en": "Plaid"
+      },
+      "aliases": [
+        "Plaid"
+      ],
+      "short": {
+        "cs": "Služba, která propojuje aplikace s bankovními účty. K bance se přihlásíš sám přes Plaid, takže aplikace tvoje bankovní heslo nevidí a dostane jen přístup, který schválíš.",
+        "en": "A service that connects apps to bank accounts. You sign in to your bank yourself through Plaid, so the app never sees your banking password and gets only the access you approve."
+      }
+    },
+    {
+      "id": "synthid",
+      "term": {
+        "cs": "SynthID",
+        "en": "SynthID"
+      },
+      "aliases": [
+        "SynthID"
+      ],
+      "short": {
+        "cs": "Neviditelný vodoznak Googlu, který se vkládá do obrázků, videí, zvuku a textu vytvořených jeho AI. Speciální detektor podle něj pozná, že obsah vznikl v modelech Googlu.",
+        "en": "Google’s invisible watermark embedded in images, video, audio, and text made by its AI. A dedicated detector can use it to tell that content came from Google’s models."
       }
     }
   ]
