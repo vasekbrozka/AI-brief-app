@@ -18,12 +18,12 @@
         "en": "Claude Personal Finance analyzes bank accounts (US beta)"
       },
       "summary": {
-        "cs": "Anthropic 5. listopadu začala zavádět v betě funkci Personal Finance. Po přihlášení k bance přes službu Plaid Claude vidí zůstatky a až dva roky transakcí a umí rozebrat výdaje, najít zdvojené platby nebo vysvětlit finanční pojmy. Přístup je jen pro čtení; zatím jde o tarify Pro, Max a Ultra v USA.",
+        "cs": "Anthropic 5. listopadu začala zavádět v betě funkci Personal Finance. Po přihlášení k bance přes službu Plaid Claude vidí zůstatky a až dva roky transakcí a umí rozebrat výdaje, najít zdvojené platby nebo vysvětlit finanční pojmy. Přístup je jen pro čtení; zatím jen v USA a jen v tarifech Pro, Max a Ultra.",
         "en": "On November 5, Anthropic began rolling out Personal Finance in beta. After you sign in to your bank via Plaid, Claude sees balances and up to two years of transactions, and can break down spending, spot duplicate charges, or explain terms. Access is read-only; for now only Pro, Max, and Ultra plans in the US."
       },
       "why": {
-        "cs": "Anthropic sama radí ověřit důležitá čísla u banky: Claude se může mýlit a investiční radu nedává. Rozhovory v části Personal Finance se nepoužívají k trénování modelů; ChatGPT podobnou funkci nabízí od května (TechCrunch).",
-        "en": "Anthropic says to check figures with your bank: Claude can err and gives no investment advice. Chats in the Personal Finance hub are not used for training; ChatGPT has had something similar since May (TechCrunch)."
+        "cs": "Anthropic radí čísla ověřit u banky: Claude se může mýlit a není určen k investičním radám. Rozhovory v Personal Finance model nevyužije k učení, jinde platí běžné nastavení soukromí. ChatGPT to má od května (TechCrunch).",
+        "en": "Anthropic: check figures with your bank; Claude can err and is not built for investment advice. Personal Finance chats do not train models; elsewhere, privacy settings apply. ChatGPT has offered this since May (TechCrunch)."
       },
       "sources": [
         {
@@ -47,16 +47,16 @@
       "verified": true,
       "eventDate": "2026-11-05",
       "title": {
-        "cs": "Gemini Omni 1.2 Flash točí 15sekundová videa levněji",
-        "en": "Gemini Omni 1.2 Flash: 15-second videos at 30% lower cost"
+        "cs": "Gemini Omni 1.2 Flash: 15sekundová videa, levnější API",
+        "en": "Gemini Omni 1.2 Flash: 15-second videos, API price down 30%"
       },
       "summary": {
-        "cs": "Google 5. listopadu zpřístupnil videomodel Gemini Omni 1.2 Flash. Zvládne klipy až 15 sekund (dřív 10) a úpravy v několika krocích konverzace; podle Googlu lépe drží vzhled postav a textu. Cena v API klesla o 30 % na zhruba 0,07 USD za sekundu videa 720p. Běží ve Flow, Vids a Google Cloudu.",
-        "en": "Google released Gemini Omni 1.2 Flash, its video model, on November 5. Clips can now run 15 seconds (up from 10) with edits over several chat turns, and Google says characters and text stay more consistent. API pricing fell 30% to about $0.07 per second of 720p. It runs in Flow, Vids, and Google Cloud."
+        "cs": "Google 5. listopadu zpřístupnil videomodel Gemini Omni 1.2 Flash. Zvládne klipy až 15 sekund (dřív 10) a úpravy v několika krocích konverzace; podle Googlu lépe drží vzhled postav a textu. Cena pro vývojáře v API klesla o 30 % na zhruba 0,07 USD za sekundu videa 720p. Běží ve Flow, Vids a Google Cloudu.",
+        "en": "Google released Gemini Omni 1.2 Flash, its video model, on November 5. Clips can run 15 seconds (up from 10) with edits over several chat turns, and Google says characters and text stay more consistent. Developer API pricing fell 30% to about $0.07 per second of 720p. It runs in Flow, Vids, and Google Cloud."
       },
       "why": {
-        "cs": "Zkusit jde ve Vids (vids.new): podle Googlu zdarma až tři 15sekundová videa měsíčně s účtem Google. V aplikaci Gemini zatím jen pro tarif AI Ultra; videa nesou vodoznak SynthID (The Next Web).",
-        "en": "Try it in Vids (vids.new): Google says any Google account gets up to three free 15-second videos a month. The Gemini app offers it only to AI Ultra; videos carry SynthID watermarks (The Next Web)."
+        "cs": "Zkusit jde ve Vids (vids.new): podle Googlu zdarma až tři 15sekundová videa měsíčně s účtem Google. V aplikaci Gemini zatím jen pro tarif AI Ultra; videa nesou neviditelný vodoznak SynthID (The Next Web).",
+        "en": "Try it in Vids (vids.new): Google says any Google account gets up to three free 15-second videos a month. The Gemini app: AI Ultra only; videos carry invisible SynthID watermarks (The Next Web)."
       },
       "sources": [
         {
@@ -80,16 +80,16 @@
       "verified": true,
       "eventDate": "2026-11-05",
       "title": {
-        "cs": "OpenAI uvedla GPT-6 Cyber pro hledání zranitelností",
-        "en": "OpenAI launches GPT-6 Cyber for finding vulnerabilities"
+        "cs": "OpenAI uvedla GPT-6 Cyber, zatím jen pro vybrané zákazníky",
+        "en": "OpenAI launches GPT-6 Cyber, for select customers only"
       },
       "summary": {
-        "cs": "OpenAI 5. listopadu uvedla GPT-6 Cyber, model pro hledání zranitelností a tvorbu oprav, který se má lépe držet zadaného rozsahu. V testu ExploitGym dosáhl podle OpenAI 48,5 % (GPT-5.6 Cyber 32,1 %). Firma ho zařadila do nejvyššího stupně rizika „Critical“; zatím ho přes API a Codex dostanou vybraní zákazníci programu Daybreak Red.",
-        "en": "On November 5, OpenAI launched GPT-6 Cyber, a model for finding vulnerabilities and developing fixes, meant to stay better within its assigned scope. OpenAI says it scored 48.5% on ExploitGym (GPT-5.6 Cyber: 32.1%). It is rated “Critical,” OpenAI’s highest cyber risk tier; select Daybreak Red customers get it first through the API and Codex."
+        "cs": "OpenAI 5. listopadu uvedla GPT-6 Cyber, model pro hledání zranitelností, který sama řadí do nejvyššího kybernetického stupně rizika „Critical“. Zatím ho přes API a Codex mají vybraní zákazníci programu Daybreak Red. V benchmarku ExploitGym, který měří zneužití zranitelností, dosáhl podle OpenAI 48,5 % (GPT-5.6 Cyber 32,1 %, GPT-6 Astra 42,4 %).",
+        "en": "On November 5, OpenAI launched GPT-6 Cyber, a model for finding vulnerabilities that it rates “Critical,” its highest cyber risk tier. For now, select Daybreak Red customers get it through the API and Codex. On the ExploitGym benchmark, which measures exploiting vulnerabilities, OpenAI says it scored 48.5% (GPT-5.6 Cyber: 32.1%; GPT-6 Astra: 42.4%)."
       },
       "why": {
-        "cs": "Běžní uživatelé ho nedostanou, míří na schválené firmy a výzkumníky. Čísla pocházejí z testů OpenAI: z povoleného rozsahu model podle firmy vybočil v méně než 1 % případů (u GPT-5.6 Cyber kolem 5 %).",
-        "en": "Regular users will not get it; it targets approved firms and researchers. OpenAI’s own tests show the model left its permitted scope in under 1% of cases (about 5% for GPT-5.6 Cyber)."
+        "cs": "Běžní uživatelé ho nedostanou, v příštích týdnech se rozšíří na všechny zákazníky Daybreak Red. Údaj o vybočení z povoleného rozsahu (pod 1 %, dřív kolem 5 %) pochází z jednoho testu OpenAI.",
+        "en": "Regular users will not get it; it expands to all Daybreak Red customers in the coming weeks. The figure for leaving its permitted scope (under 1%, previously about 5%) comes from one OpenAI test."
       },
       "sources": [
         {
@@ -97,12 +97,12 @@
           "url": "https://openai.com/index/introducing-gpt-6-cyber"
         },
         {
-          "name": "OpenAI",
-          "url": "https://learn.chatgpt.com/api/docs/changelog"
-        },
-        {
           "name": "The Verge",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855"
         }
       ]
     },
@@ -113,16 +113,16 @@
       "verified": true,
       "eventDate": "2026-11-05",
       "title": {
-        "cs": "Meta zpřístupnila v USA hlasové hovory s asistentem Muse",
-        "en": "Meta lets US users talk to its Muse AI agent"
+        "cs": "Meta v USA zavádí hlasové hovory s asistentem Muse",
+        "en": "Meta rolls out Muse agent voice calls in the US"
       },
       "summary": {
-        "cs": "Meta 5. listopadu zpřístupnila v USA hlasové hovory s asistentem Muse a animovaný avatar, který reaguje výrazy a gesty. Funguje v aplikaci Muse na telefonu, na webu a na Macu; Muse jde přerušit a mezitím může na pozadí pracovat na úkolech. Pro brýle s AI a zařízení Muse Charm to Meta slibuje později.",
-        "en": "On November 5, Meta opened voice calls with its Muse agent to US users, with an animated avatar reacting through expressions and gestures. It works in the Muse app on phone, web, and Mac; Muse can be interrupted and keeps working on tasks in the background. AI glasses and the Muse Charm device follow later."
+        "cs": "Meta 5. listopadu v USA začala zavádět hlasové hovory s asistentem Muse a animovaný avatar, který reaguje výrazy a gesty. Podle Mety funguje v aplikaci Muse na telefonu, na webu a na Macu, jde přerušit a Muse mezitím pracuje na úkolech na pozadí. Pro brýle s AI a zařízení Muse Charm to Meta slibuje později.",
+        "en": "On November 5, Meta began rolling out voice calls with its Muse agent in the US, with an expressive animated avatar. Meta says it works in the Muse app on phone, web, and Mac, can be interrupted, and keeps working on tasks in the background. AI glasses and the Muse Charm device follow later."
       },
       "why": {
-        "cs": "Mimo USA zatím nedostupné. Avatar uživatele nevidí, jen slyší (TechCrunch). Že hodnotitelé preferovali avatary Mety před Runway a HeyGen, vyplývá z vlastních testů firmy (The Next Web).",
-        "en": "Not available outside the US yet. The avatar cannot see you, only hear you (TechCrunch). Meta’s claim that raters preferred its avatars over Runway’s and HeyGen’s rests on its own tests (The Next Web)."
+        "cs": "Podle The Next Web hovor spustíš ikonou telefonu vpravo nahoře v aplikaci; mimo USA zatím nedostupné. Avatar tě nevidí, jen slyší (TechCrunch). Meta sama říká, že ukázky nemusí odpovídat avatarům v aplikaci.",
+        "en": "Start a call with the top-right phone icon (The Next Web); not yet outside the US. The avatar cannot see you, only hear you (TechCrunch). Meta says demos may not match the app’s avatars."
       },
       "sources": [
         {
@@ -146,16 +146,16 @@
       "verified": true,
       "eventDate": "2026-11-05",
       "title": {
-        "cs": "OpenAI se u datových center vzdává NDA s úředníky",
-        "en": "OpenAI drops NDAs with officials for data center projects"
+        "cs": "OpenAI u datových center slíbila omezit NDA s úředníky",
+        "en": "OpenAI pledges to limit data center NDAs with officials"
       },
       "summary": {
-        "cs": "OpenAI 5. listopadu po volbách, v nichž voliči omezovali datová centra, oznámila podle The Verge závazky vůči obcím: u projektů nebude s veřejnými úředníky uzavírat dohody o mlčenlivosti (NDA) kromě úzkých výjimek, zaplatí celou spotřebovanou elektřinu a potřebnou infrastrukturu a zveřejní, kolik pracovních míst čeká.",
-        "en": "On November 5, after the elections in which voters restricted data centers, OpenAI announced commitments to communities, The Verge reports: it will not use non-disclosure agreements (NDAs) with public officials on projects beyond narrow exceptions, will pay the full cost of the electricity and infrastructure it needs, and will publish the jobs it expects."
+        "cs": "OpenAI 5. listopadu po amerických volbách, v nichž voliči omezovali datová centra, oznámila podle The Verge závazky vůči obcím: u projektů nebude s veřejnými úředníky uzavírat dohody o mlčenlivosti (NDA) kromě úzkých výjimek, zaplatí celou spotřebovanou elektřinu a potřebnou infrastrukturu a zveřejní, kolik pracovních míst čeká.",
+        "en": "On November 5, after the US elections in which voters restricted data centers, OpenAI announced commitments to communities, The Verge reports: it will not use non-disclosure agreements (NDAs) with public officials on projects beyond narrow exceptions, will pay the full cost of the electricity and infrastructure it needs, and will publish the jobs it expects."
       },
       "why": {
-        "cs": "Každý budoucí „compute campus“ (OpenAI tak říká datovým centrům) dostane místní dohodu s těmito závazky. Meta podle TechCrunch řekla na konferenci WSJ 4. listopadu, že výstavba bude po volbách těžší.",
-        "en": "Every future “compute campus” (OpenAI’s term for data centers) will get a local compact with these commitments. Meta said at a WSJ conference on November 4 that building will be harder after the elections (TechCrunch)."
+        "cs": "OpenAI slibuje, že každý budoucí „compute campus“ (její název pro datové centrum), který vlastní a provozuje, dostane místní dohodu s těmito závazky. Datová centra pohánějí AI služby; o jejich výstavbě teď rozhodují i voliči.",
+        "en": "OpenAI promises each future “compute campus” (its term for data centers) it owns and operates a local compact with these commitments. Data centers power AI services; voters now weigh in on building them."
       },
       "sources": [
         {
@@ -165,10 +165,6 @@
         {
           "name": "The Verge",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/"
         }
       ],
       "followsUp": {
@@ -184,21 +180,25 @@
       "id": "2026-11-06-microsoft-copilot-chat-usage-limits",
       "kind": "news",
       "category": "tools",
-      "verified": false,
+      "verified": true,
       "eventDate": "2026-11-03",
       "title": {
-        "cs": "Podle The Register: Copilot Chat bez licence dostane limity",
-        "en": "Per The Register, Copilot Chat gets caps for unlicensed users"
+        "cs": "Firemní Copilot Chat bez licence dostane limity u dalších funkcí",
+        "en": "Business Copilot Chat without a license gets caps on more features"
       },
       "summary": {
-        "cs": "Podle The Register a oznámení Microsoftu v Message Center z 3. listopadu dostane Copilot Chat u firemních uživatelů bez licence Microsoft 365 Copilot limity pro další funkce. Microsoft čísla nezveřejní; podle The Register začaly u organizací do 2 000 míst 2. listopadu, u větších od 9. listopadu.",
-        "en": "Per The Register and a November 3 Microsoft Message Center notice, Copilot Chat gets usage limits on more features for business users without a Microsoft 365 Copilot license. Microsoft will not publish the numbers; per The Register they began November 2 for organizations up to 2,000 seats and start November 9 for larger ones."
+        "cs": "Microsoft podle stránky podpory a oznámení v Message Center z 3. listopadu zavádí u Copilot Chatu pro firemní uživatele bez licence Microsoft 365 Copilot limity i u dalších funkcí; u tvorby obrázků už platí. Čísla nezveřejní. Podle The Register začaly u organizací do 2 000 míst 2. listopadu, u větších začnou 9. listopadu.",
+        "en": "Per Microsoft’s support page and a November 3 Message Center notice, business users without a Microsoft 365 Copilot license get usage limits on more Copilot Chat features; image generation already has them. Numbers stay unpublished. Per The Register, rollout began November 2 for organizations up to 2,000 seats and starts November 9 for larger ones."
       },
       "why": {
-        "cs": "Správce limity nenastaví ani neuvidí. Po vyčerpání se objeví upozornění, kdy to zkusit znovu; rozpracované úlohy se nepřeruší. Microsoft podle The Register uvádí, že narazit na limit „může znamenat zájem o další funkce Copilotu“.",
-        "en": "Admins cannot set the limits. A notice says when to retry, and tasks in progress are not interrupted. Microsoft says, per The Register, that hitting a limit “might indicate interest in additional Copilot capabilities.”"
+        "cs": "Správce limity nenastaví ani neuvidí; kolísají během dne. Upozornění řekne, kdy to zkusit znovu, a obvykle nabídne žádost o licenci Microsoft 365 Copilot u správce (The Register); rozpracované úlohy se nepřeruší.",
+        "en": "Admins cannot set or see the limits; they vary through the day. A notice says when to retry and usually offers a Copilot license request to your admin (The Register); tasks in progress continue."
       },
       "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat"
+        },
         {
           "name": "The Register",
           "url": "https://www.theregister.com/ai-and-ml/2026/11/05/copilot-chat-has-usage-caps-and-microsoft-would-rather-you-found-them-by-hitting-them/5307814"
@@ -216,16 +216,16 @@
       "verified": true,
       "eventDate": "2026-11-05",
       "title": {
-        "cs": "SoundCloud přijme AI skladby z ElevenMusic přímo",
-        "en": "SoundCloud adds direct publishing from ElevenMusic"
+        "cs": "SoundCloud umožnil přímo publikovat AI skladby z ElevenMusic",
+        "en": "SoundCloud adds direct publishing of AI songs from ElevenMusic"
       },
       "summary": {
-        "cs": "SoundCloud 5. listopadu umožnil publikovat skladby vytvořené v aplikaci ElevenMusic od ElevenLabs přímo na SoundCloud, bez ručního exportu a nahrávání. Takové skladby ponesou štítek se zdrojem ElevenMusic. Členové SoundCloud Artist Pro dostanou tři měsíce ElevenMusic Pro zdarma; běžná cena je 9,99 USD měsíčně a zahrnuje až 1 000 písní měsíčně.",
-        "en": "On November 5, SoundCloud began letting people publish songs made in ElevenLabs’ ElevenMusic app directly to SoundCloud, without manual export and upload. Such tracks carry a label naming ElevenMusic. SoundCloud Artist Pro members get three months of ElevenMusic Pro free; it normally costs $9.99 a month and includes up to 1,000 songs a month."
+        "cs": "SoundCloud 5. listopadu umožnil publikovat skladby vytvořené v aplikaci ElevenMusic od ElevenLabs přímo na SoundCloud, bez ručního exportu a nahrávání. Takové skladby ponesou štítek ElevenMusic. Členové SoundCloud Artist Pro dostanou tři měsíce ElevenMusic Pro zdarma; podle The Next Web běžně stojí 9,99 USD měsíčně a zahrnuje až 1 000 písní měsíčně.",
+        "en": "On November 5, SoundCloud began letting people publish songs made in ElevenLabs’ ElevenMusic app directly to SoundCloud, without manual export. Such tracks carry an ElevenMusic label. SoundCloud Artist Pro members get three months of ElevenMusic Pro free; per The Next Web, it normally costs $9.99 a month for up to 1,000 songs."
       },
       "why": {
-        "cs": "SoundCloud zakazuje AI hudbu, která klame o původu nebo napodobuje umělce. Uživatele pod pravidly EU k označení AI skladeb jen „vybízí“ (The Verge).",
-        "en": "SoundCloud bans AI music that misleads about its origin or impersonates artists. For users under EU rules it only “encourages” labeling AI tracks (The Verge)."
+        "cs": "Podle pravidel SoundCloudu je zakázaná AI hudba, která klame o původu nebo napodobuje umělce. Uživatele v EU SoundCloud k označení AI skladeb jen „vybízí“ (The Verge).",
+        "en": "SoundCloud’s rules ban AI music that misleads about its origin or impersonates artists. For users subject to EU rules it only “encourages” labeling AI tracks (The Verge)."
       },
       "sources": [
         {
@@ -245,16 +245,16 @@
       "verified": true,
       "eventDate": "2026-11-05",
       "title": {
-        "cs": "Cursor postaví živou aplikaci s databází a hostingem",
-        "en": "Cursor builds and hosts live apps from a description"
+        "cs": "Cursor umí postavit živou aplikaci s databází a hostingem",
+        "en": "Cursor can now build and host live apps"
       },
       "summary": {
-        "cs": "Cursor 5. listopadu přidal sestavování živých aplikací: cloudový agent podle zadání postaví webovou aplikaci, případně databázi Postgres, přihlášení přes Cursor SSO a hosting, a vrátí odkaz ke sdílení. Před zveřejněním proběhnou bezpečnostní kontroly. Funkce je dostupná ve všech placených plánech s povolenými cloudovými agenty.",
-        "en": "On November 5, Cursor added live-app building: a cloud agent builds a web app from your description, with a Postgres database if needed, sign-in through Cursor SSO, and hosting, then returns a link to share. Security checks run before publishing. The feature is available on all paid plans with cloud agents enabled."
+        "cs": "Cursor 5. listopadu přidal sestavování živých aplikací: cloudový agent podle zadání postaví webovou aplikaci, případně databázi Postgres, přihlášení přes Cursor a hosting a vrátí odkaz ke sdílení. Před zveřejněním proběhnou kontroly běžných chyb, např. tajných klíčů zapsaných do souborů aplikace. Funkce je ve všech placených plánech s povolenými cloudovými agenty.",
+        "en": "On November 5, Cursor added live-app building: a cloud agent builds a web app from your description, adding a Postgres database if needed, Cursor sign-in, and hosting, and returns a share link. Before publishing, checks catch common issues such as secrets written into app files. Available on all paid plans with cloud agents enabled."
       },
       "why": {
-        "cs": "Spusť cloudového agenta a výslovně napiš, že chceš postavit aplikaci. Zveřejnění vyžaduje, aby prošly kontroly (např. uniklá tajemství); sdílet jde s lidmi, skupinami či týmem za přihlášením Cursor, veřejně jen v individuálních plánech.",
-        "en": "Start a cloud agent and say outright that you want an app. Publishing needs the security checks to pass; sharing is behind Cursor sign-in, and public only on individual plans."
+        "cs": "Nejdřív aktualizuj Cursor, spusť cloudového agenta a výslovně napiš, že chceš postavit aplikaci (např. interní nástroj pro registraci na akce). Repozitáře zatím jen z GitHubu a Cursor Origin. Veřejně sdílet jde na individuálních plánech.",
+        "en": "Update Cursor, start a cloud agent, and say outright you want an app (e.g., an internal event-registration tool). Repos only from GitHub and Cursor Origin for now. Public sharing works on individual plans."
       },
       "sources": [
         {
@@ -274,17 +274,17 @@
         "en": "Gemini in Google Forms analyzes responses, suggests next steps"
       },
       "summary": {
-        "cs": "Google ve Workspace Updates z 5. listopadu představil ve Formulářích funkci actionable insights: Gemini z karty Odpovědi sám napíše a spustí kód v Pythonu, spočítá četnosti a srovnání, najde souvislosti mezi otázkami a navrhne další kroky. Zavádění začalo 2. listopadu u domén s rychlým vydáním, u ostatních od 19. listopadu.",
-        "en": "In its November 5 Workspace Updates post, Google introduced actionable insights in Forms: from the Responses tab, Gemini writes and runs Python code, calculates counts and comparisons, finds links between questions, and suggests next steps. Rollout began November 2 on Rapid Release domains and starts November 19 on the others."
+        "cs": "Google 5. listopadu představil ve Formulářích funkci actionable insights (využitelné poznatky): Gemini z karty Odpovědi spočítá četnosti a srovnání, najde souvislosti mezi otázkami a navrhne další kroky; na pozadí píše a spouští kód v Pythonu. Zavádění začalo 2. listopadu u firemních domén s rychlým vydáním, u ostatních od 19. listopadu, vždy postupně (až 15 dní).",
+        "en": "On November 5, Google introduced actionable insights in Forms: from the Responses tab, Gemini writes and runs Python code, calculates counts and comparisons, finds links between questions, and suggests next steps. Rollout began November 2 on Rapid Release domains and starts November 19 on the others, gradually (up to 15 days)."
       },
       "why": {
-        "cs": "Otevři formulář, přejdi na kartu Odpovědi a nech Gemini vytvořit přehled. Vyžaduje plán Business Standard/Plus, Enterprise Standard/Plus, Education Plus či spotřebitelský plán Google AI; správce musí zapnout chytré funkce a personalizaci.",
-        "en": "Open a form, go to the Responses tab, and have Gemini build the summary. Needs Business or Enterprise Standard/Plus, Education Plus, or a consumer Google AI plan; admins must enable smart features and personalization."
+        "cs": "Otevři formulář, přejdi na kartu Odpovědi a vygeneruj poznatky (insights). Vyžaduje plán Business Standard/Plus, Enterprise Standard/Plus, Education Plus nebo spotřebitelský Google AI, Pro či Ultra; uživatel musí mít zapnuté chytré funkce a personalizaci.",
+        "en": "Open a form, go to the Responses tab, and generate insights. Needs Business or Enterprise Standard/Plus, Education Plus, or consumer Google AI, Pro, or Ultra; users must have smart features and personalization turned on."
       },
       "sources": [
         {
           "name": "Google",
-          "url": "http://workspaceupdates.googleblog.com/2026/11/get-actionable-insights-with-gemini-in-Google-Forms.html"
+          "url": "https://workspaceupdates.googleblog.com/2026/11/get-actionable-insights-with-gemini-in-Google-Forms.html"
         }
       ]
     },
@@ -295,16 +295,16 @@
       "verified": true,
       "eventDate": "2026-10-28",
       "title": {
-        "cs": "Copilot za tebe opraví, co blokuje pull request",
-        "en": "Copilot can now fix what blocks your pull request"
+        "cs": "GitHub Copilot se pokusí opravit, co blokuje pull request",
+        "en": "GitHub Copilot can try to fix blocked pull requests"
       },
       "summary": {
-        "cs": "GitHub 28. října přidal do pull requestů na github.com agenta, který hlídá překážky slučování. V okně slučování zvolíš Watch and fix a Copilot v cloudovém prostředí opraví selhávající workflow Actions, konflikty, nebo obojí. Funkce se jmenuje Agent Merge; jde ji zapnout jako výchozí pro všechny tvoje pull requesty.",
-        "en": "On October 28, GitHub added an agent to pull requests on github.com. Select Watch and fix in the merge box, and Copilot works in a cloud development environment to fix failing Actions workflows, merge conflicts, or both. The feature, Agent Merge, can be on by default for all your pull requests."
+        "cs": "GitHub 28. října přidal do pull requestů na github.com agenta, který hlídá překážky slučování. Copilot se v cloudovém prostředí podle volby pokusí opravit selhávající automatické kontroly (GitHub Actions), konflikty při slučování, nebo obojí. Funkce se jmenuje Agent Merge; jde ji zapnout jako výchozí pro všechny tvoje pull requesty.",
+        "en": "On October 28, GitHub added an agent to pull requests on github.com. Copilot works in a cloud development environment to fix failing GitHub Actions checks, merge conflicts, or both, as you choose. The feature, Agent Merge, can be on by default for all your pull requests."
       },
       "why": {
-        "cs": "Jde zkombinovat s automatickým slučováním (auto-merge): Copilot drží request připravený a GitHub ho sloučí, jakmile jsou splněné všechny podmínky. Chce placený plán Copilotu a podléhá politikám organizace nebo podniku.",
-        "en": "It can be combined with auto-merge: Copilot keeps the request ready and GitHub merges it once all requirements are met. It needs a paid Copilot plan and is subject to organization and enterprise policies."
+        "cs": "V okně slučování zvol „Watch and fix“. Jde zkombinovat s automatickým slučováním (auto-merge): GitHub request sloučí, jakmile jsou splněná všechna pravidla. Chce placený plán Copilotu a podléhá pravidlům organizace nebo podniku.",
+        "en": "In the merge box, select “Watch and fix.” It can be combined with auto-merge: GitHub merges once all requirements are met. It needs a paid Copilot plan and is subject to organization and enterprise policies."
       },
       "sources": [
         {
@@ -322,8 +322,8 @@
         "en": "GitHub retires three models from GitHub Copilot"
       },
       "note": {
-        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8, Opus 5 a GPT-5.6 Terra. Doporučená náhrada: Opus 5.5; GPT-6.1 Sol či GPT-6 Luna. Opus 4.8 zůstane individuálním předplatitelům s ročním tarifem.",
-        "en": "On November 16, GitHub retires Opus 4.8, Opus 5, and GPT-5.6 Terra from Copilot. Suggested alternatives: Opus 5.5; GPT-6.1 Sol or GPT-6 Luna. Opus 4.8 stays for individual annual-plan subscribers."
+        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8 a Opus 5 (náhrada: Opus 5.5) i GPT-5.6 Terra (náhrada: GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane dostupný ročním individuálním předplatitelům.",
+        "en": "On November 16, GitHub retires Opus 4.8, Opus 5 (alternative: Opus 5.5), and GPT-5.6 Terra (alternatives: GPT-6.1 Sol or GPT-6 Luna) from Copilot. Opus 4.8 stays for individual annual subscribers."
       },
       "sources": [
         {
@@ -412,8 +412,8 @@
         "en": "EU: companies must meet nudifier-app ban by December 2"
       },
       "note": {
-        "cs": "Podle Evropského parlamentu mají firmy do 2. prosince 2026 splnit zákaz AI aplikací, které „svlékají“ lidi z fotek, a starší systémy do té doby musí strojově čitelně označovat AI obsah.",
-        "en": "Per the European Parliament, firms must meet the ban on AI apps that “undress” people in photos by December 2, 2026; older systems must label AI content machine-readably by then."
+        "cs": "Podle Evropského parlamentu platí od 2. prosince 2026 zákaz AI aplikací na „svlékání“ lidí a u systémů uvedených na trh před 2. srpnem 2026 i strojově čitelné označování AI obsahu.",
+        "en": "Per the European Parliament, the ban on “nudifier” apps applies from December 2, 2026, as does machine-readable labeling of AI content for systems on the market before August 2."
       },
       "sources": [
         {

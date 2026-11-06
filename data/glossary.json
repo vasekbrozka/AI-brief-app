@@ -1248,6 +1248,20 @@
         "cs": "Neviditelný vodoznak Googlu, který se vkládá do obrázků, videí, zvuku a textu vytvořených jeho AI. Speciální detektor podle něj pozná, že obsah vznikl v modelech Googlu.",
         "en": "Google’s invisible watermark embedded in images, video, audio, and text made by its AI. A dedicated detector can use it to tell that content came from Google’s models."
       }
+    },
+    {
+      "id": "codex",
+      "term": {
+        "cs": "Codex",
+        "en": "Codex"
+      },
+      "aliases": [
+        "Codex"
+      ],
+      "short": {
+        "cs": "Programovací agent od OpenAI: čte, upravuje a spouští kód v projektu a plní programátorské úkoly zadané běžným jazykem.",
+        "en": "OpenAI’s coding agent: it reads, edits and runs code in a project and carries out programming tasks given in plain language."
+      }
     }
   ]
 }

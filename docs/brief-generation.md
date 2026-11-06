@@ -305,7 +305,18 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   licenci shrň včetně rozsahu (tržby skupiny, „jakékoli komerční použití“, nápis
   u největších produktů), ne jen hlavního čísla; chybí-li slovníčku tvar (EN „open
   weights“) nebo název modelu s pomlčkou (gpt-6-luna → podtrhla by se jen „luna“), doplň
-  alias.
+  alias; (26) **tvrzení stojí na zdroji, který je v `sources`**: „nejvyšší stupeň rizika“
+  a „přes Codex“ (GPT-6 Cyber) nesl jen stažený, ale necitovaný The Register — čtenáři to
+  v citovaných zdrojích nenašli a označili za neověřené; zdroj přidej (limit tří: vyměň
+  slabší, třeba changelog potvrzující jedinou větu), nebo detail vypusť; (27) **titulek
+  říká, koho se věc týká, a slib je slib**: „levněji“ byla cena v API pro vývojáře, ne pro
+  uživatele Vids; „dostane místní dohodu“ je „OpenAI slibuje“ včetně rozsahu slibu (jen
+  campusy, které vlastní a provozuje) a titulek netvrdí víc než zdroj („vzdává se NDA“ ×
+  „až na úzké výjimky“); (28) **`verified: false` z jediného T2 zkus nejdřív povýšit**:
+  oficiální stránka podpory či dokumentace výrobce (Microsoft Support k limitům Copilot
+  Chatu) jde často otevřít a nese jádro zprávy; podrobnosti, které nese jen médium
+  (hranice 2 000 míst), zůstávají jmenovitě u média; primární zdroj s 403 zkus podruhé
+  (stránka Evropského parlamentu se otevřela na druhý pokus).
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.
