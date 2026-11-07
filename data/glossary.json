@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "terms": [
     {
       "id": "quantization",
@@ -1261,6 +1261,38 @@
       "short": {
         "cs": "Programovací agent od OpenAI: čte, upravuje a spouští kód v projektu a plní programátorské úkoly zadané běžným jazykem.",
         "en": "OpenAI’s coding agent: it reads, edits and runs code in a project and carries out programming tasks given in plain language."
+      }
+    },
+    {
+      "id": "gemini-live",
+      "term": {
+        "cs": "Gemini Live",
+        "en": "Gemini Live"
+      },
+      "aliases": [
+        "Gemini Live"
+      ],
+      "short": {
+        "cs": "Hlasová konverzace s Gemini v reálném čase: model slyší přímo tvůj hlas, ne jen přepis, odpovídá nahlas a můžeš mu kdykoli skočit do řeči.",
+        "en": "Real-time voice conversation with Gemini: the model hears your voice directly, not just a transcript, answers out loud, and lets you interrupt it at any time."
+      }
+    },
+    {
+      "id": "unified-memory",
+      "term": {
+        "cs": "Sjednocená paměť",
+        "en": "Unified memory"
+      },
+      "aliases": [
+        "sjednocená paměť",
+        "sjednocené paměti",
+        "sjednocenou paměť",
+        "sjednocenou pamětí",
+        "unified memory"
+      ],
+      "short": {
+        "cs": "Paměť sdílená procesorem i grafickým jádrem čipů Apple Silicon. U lokálních AI modelů rozhoduje, jak velký model se do počítače vejde a jak rychle poběží.",
+        "en": "Memory shared by the processor and graphics cores of Apple Silicon chips. For local AI models it decides how large a model fits on the machine and how fast it runs."
       }
     }
   ]

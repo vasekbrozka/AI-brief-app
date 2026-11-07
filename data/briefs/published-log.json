@@ -286,26 +286,6 @@
       "topic": "tip: Gemini Spark od 3.9. spravuje Fotky Google (vyhledávání, třídění, úpravy, alba, sdílení) — Google AI Pro/Ultra USA"
     },
     {
-      "slug": "2026-09-07-openai-wiki-incident-disclosure-framework",
-      "date": "2026-09-07",
-      "topic": "OpenAI 5.9. oficiálně přiznalo wiki incident (DseWiki) a slíbilo do týdnů rámec pro hlášení neřízeného chování agentů — pokrývá trénink, testování i provoz, spolupráce s regulátory"
-    },
-    {
-      "slug": "2026-09-07-excel-copilot-function-retirement",
-      "date": "2026-09-07",
-      "topic": "Excel podle zpráv od 14.9. ruší vzorcovou funkci =COPILOT() necelý rok po náhledu (Insiders/Frontier) — Microsoft odkazuje na postranní panel Copilotu"
-    },
-    {
-      "slug": "2026-09-07-tip-meta-muse-spark-13",
-      "date": "2026-09-07",
-      "topic": "tip: Meta 2.9. vydala Muse Spark 1.3 — blíží se výkonem špičce, cílí na osobní agenty pracující nepřetržitě na pozadí"
-    },
-    {
-      "slug": "2026-09-07-tip-gemini-agentic-video",
-      "date": "2026-09-07",
-      "topic": "tip: Gemini od 1.9. umí agentickou analýzu videa (jen relevantní úseky) — až -88% tokenů, -66% cena, +7% přesnost, AI Studio i API pro Flash"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -2164,7 +2144,62 @@
       "slug": "2026-11-06-tip-github-copilot-agent-merge",
       "date": "2026-11-06",
       "topic": "tip: GitHub Copilot Agent Merge v pull requestech (28. 10.; Watch and fix v okně slučování — Copilot v cloudovém prostředí opraví selhávající automatické kontroly (Actions), konflikty nebo obojí podle volby; lze zapnout jako výchozí; kombinace s auto-merge; placený plán Copilotu a politiky organizace) — z banky"
+    },
+    {
+      "slug": "2026-11-07-google-antigravity-voice-remote-agents",
+      "date": "2026-11-07",
+      "topic": "Google 6. 11. (blog Antigravity, 9to5Google): Antigravity 2.29 — hlasový režim (Gemini Live; aplikace i CLI 1.5.0+, devět hlasů, destruktivní akce hlasem neschválíš), podle 9to5Google vzdálení agenti v cloudu pro Google AI Pro a Ultra, nový vzhled — highlight"
+    },
+    {
+      "slug": "2026-11-07-meta-muse-spaces",
+      "date": "2026-11-07",
+      "topic": "Meta 6. 11. (about.fb.com, TechCrunch, Verge): Muse — spaces: na popis postaví interaktivní prostor (plánovač, tracker, hra), po propojení aplikací (Gmail, Kalendář, Notion) se na pozadí aktualizují; všude, kde Muse funguje; sdílení Meta zvažuje"
+    },
+    {
+      "slug": "2026-11-07-amazon-alexa-shopping-text",
+      "date": "2026-11-07",
+      "topic": "Amazon 6. 11. (aboutamazon.com, Verge, TNW): Alexa for Shopping přijímá objednávky textovou zprávou — zatím jen pozvaní zákazníci v USA, další miliony v dalších týdnech; podle TNW (Digiday) sponzorované produkty v odpovědích; navazuje na blokaci Meta Muse v září"
+    },
+    {
+      "slug": "2026-11-07-perplexity-teammates-max",
+      "date": "2026-11-07",
+      "topic": "Perplexity 6. 11. (changelog, Engadget): teammates — osobní agenti pro průběžnou práci v Computeru (plánují, souběžné úlohy, Slack); jen předplatitelé Max na webu (Engadget: 200 USD měsíčně); v témže vydání lokální Computer na Macu, hlasový režim a Agent Plugins"
+    },
+    {
+      "slug": "2026-11-07-openai-funding-1-25-trillion",
+      "date": "2026-11-07",
+      "topic": "Bloomberg 6. 11. (TechCrunch, Verge): OpenAI vybrala dalších 11 mld. USD při ocenění 1,25 bil. USD, kolo (≈20 mld., původně až 30 mld.) není uzavřené a OpenAI se nevyjádřila; v březnu 122 mld. při 852 mld.; kupci akcií Anthropicu při IPO podle Bloombergu vidí ocenění až kolem 1,1 bil. místo 2 bil."
+    },
+    {
+      "slug": "2026-11-07-europe-data-center-protests",
+      "date": "2026-11-07",
+      "topic": "6.–7. 11. (Register 5. 11., Verge 6. 11.): protesty přes 100 skupin v 15 evropských zemích za moratorium na velká datová centra; Amsterdam — asi 100 lidí vnikne na staveniště datového centra Microsoftu (Reuters); Amsterdam zakázal nová centra do 2030; navazuje na 2026-11-06-openai-data-center-community-commitments"
+    },
+    {
+      "slug": "2026-11-07-tip-cursor-voice-chat",
+      "date": "2026-11-07",
+      "topic": "tip: Cursor — hlasový chat s agenty (6. 11.; tlačítko Start voice chat, na iOS „Hey Siri, call Cursor“; Grok Voice; Privacy Mode bez uchovávání dat; okno Agents, IDE, web, iOS) — nový"
+    },
+    {
+      "slug": "2026-11-07-tip-claude-code-deny-instead-of-prompting",
+      "date": "2026-11-07",
+      "topic": "tip: Claude Code 2.1.319 (6. 11.) — permissions.denyInsteadOfPrompting: volání čekající na potvrzení se zamítne a tah pokračuje (terminál, subagenti, týmoví agenti); dokumentace nastavení volbu zatím nepopisuje — nový"
+    },
+    {
+      "slug": "2026-11-07-tip-github-copilot-shared-automations",
+      "date": "2026-11-07",
+      "topic": "tip: GitHub Copilot — sdílené automatizace (28. 10.; typ Shared nelze změnit; viditelné s právem čtení, úpravy s právem zápisu; kredity platí vlastník repozitáře; politika billed to the organization; Pro, Pro+, Max, Business, Enterprise) — z banky"
+    },
+    {
+      "slug": "2026-11-07-tip-perplexity-computer-local-mac",
+      "date": "2026-11-07",
+      "topic": "tip: Perplexity Computer plně lokálně na Macu (6. 11.; Pro, Max, Enterprise; aplikace 26.42.0+; doporučeno 36 GB sjednocené paměti; režimy Local a Hybrid) — nový"
+    },
+    {
+      "slug": "2026-11-07-tip-gemini-notebook-co-create-slides-videos",
+      "date": "2026-11-07",
+      "topic": "tip: Gemini Notebook — prezentace a video přehledy po krocích (19. 10.; přepínač Review, Review outline notes / Review producer notes, Proceed; zavádění globálně během týdne) — nový"
     }
   ],
-  "updated": "2026-11-06T03:54:22Z"
+  "updated": "2026-11-07T03:23:06Z"
 }

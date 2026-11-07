@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-06T03:54:22Z",
+  "updated": "2026-11-07T03:23:06Z",
   "briefs": [
+    {
+      "date": "2026-11-07",
+      "headline": {
+        "cs": "Google Antigravity: hlasové ovládání a agenti v cloudu",
+        "en": "Google Antigravity adds voice mode and cloud agents"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-11-06",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Británie zřídí AI laboratoř proti biologickým hrozbám",
         "en": "UK to set up AI Biosecurity Lab with £100m"
-      },
-      "itemCount": 10
-    },
-    {
-      "date": "2026-10-24",
-      "headline": {
-        "cs": "OpenAI trénuje špičkové modely odpojené od živého internetu",
-        "en": "OpenAI trains frontier models with no live internet access"
       },
       "itemCount": 10
     }

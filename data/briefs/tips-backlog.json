@@ -4209,24 +4209,24 @@
       "slug": "tip-perplexity-mac-voice-mode-gpt-live",
       "category": "tools",
       "theme": "perplexity",
-      "verified": false,
-      "eventDate": "2026-10-28",
+      "verified": true,
+      "eventDate": "2026-11-06",
       "title": {
-        "cs": "Hlasový režim Perplexity běží na modelu gpt-live-1",
-        "en": "Perplexity’s voice mode now runs on gpt-live-1"
+        "cs": "Hlasový režim Perplexity ovládá Projekty a spouští úlohy Computeru",
+        "en": "Perplexity’s voice mode manages Projects and starts Computer tasks"
       },
       "summary": {
-        "cs": "Podle 9to5Mac z 28. října Perplexity vylepšila hlasový režim v aplikaci pro Mac a na webu: běží na modelu OpenAI gpt-live-1, který umí poslouchat, i když mluví. V jedné hlasové relaci jde pracovat s více sezeními Computeru, zadávat nové úkoly a spravovat Projekty.",
-        "en": "According to 9to5Mac on October 28, Perplexity upgraded voice mode in its Mac app and on the web: it runs on OpenAI’s gpt-live-1, which can listen while it speaks. In one voice session you can work across several Computer sessions, start new tasks, and manage Projects."
+        "cs": "Perplexity v changelogu z 6. listopadu uvádí hlasový režim, ve kterém bez rukou procházíš Perplexity, otevíráš výsledky, spravuješ Projekty a spouštíš úlohy Computeru. Běží na modelu OpenAI gpt-live-1 a je pro předplatitele Pro a Max na desktopovém webu a v aplikaci pro Mac.",
+        "en": "Perplexity’s November 6 changelog describes a voice mode for working hands-free: navigate Perplexity, open assets, manage Projects, and start Computer tasks. It runs on OpenAI’s gpt-live-1 and is available to Pro and Max subscribers on desktop web and in the Mac app."
       },
       "why": {
-        "cs": "Je pro předplatitele Pro a Max. Zdrojem je jediný článek 9to5Mac, changelog Perplexity záznam zatím nemá; ověř si funkci v aplikaci.",
-        "en": "It is for Pro and Max subscribers. The only source is one 9to5Mac article, and Perplexity’s changelog has no entry yet; check the feature in the app."
+        "cs": "Zkus zadání jako „Vytvoř úlohu Computeru, která porovná tři dodavatele a uloží výsledek do tohoto Projektu.“ Funguje jen na desktopovém webu a v aplikaci pro Mac, ne na mobilu.",
+        "en": "Try a request like “Create a Computer task to compare these three vendors and save the results to this Project.” It works only on desktop web and in the Mac app, not on mobile."
       },
       "sources": [
         {
-          "name": "9to5Mac",
-          "url": "https://9to5mac.com/2026/10/28/perplexity-upgrades-mac-app-with-chatgpt-powered-voice-mode/"
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog/teammates-fully-local-computer-on-mac-and-voice-mode"
         }
       ],
       "added": "2026-10-29",
@@ -4418,7 +4418,7 @@
       },
       "why": {
         "cs": "Při vytváření automatizace na github.com, v aplikaci Copilot nebo ve VS Code zvol typ Shared; později se nedá změnit. V organizaci musí správce povolit politiku Allow use of Copilot cloud agent billed to the organization.",
-        "en": "When you create an automation on github.com, in the Copilot app, or in VS Code, choose the Shared type; it cannot be changed later. In an organization an admin must enable the Allow use of Copilot cloud agent billed to the organization policy."
+        "en": "Choose the Shared type when you create an automation on github.com, in the Copilot app, or in VS Code; it cannot be changed later. In an organization, an admin must enable the cloud-agent billing policy."
       },
       "sources": [
         {
@@ -4427,7 +4427,7 @@
         }
       ],
       "added": "2026-10-30",
-      "used": null
+      "used": "2026-11-07"
     },
     {
       "slug": "tip-lmstudio-bionic-read-aloud-windows-linux",
@@ -5123,6 +5123,168 @@
         }
       ],
       "used": "2026-11-06"
+    },
+    {
+      "slug": "tip-cursor-voice-chat",
+      "category": "tools",
+      "theme": "cursor",
+      "added": "2026-11-07",
+      "verified": true,
+      "eventDate": "2026-11-06",
+      "title": {
+        "cs": "Cursor umožňuje s agenty mluvit v hlasovém hovoru",
+        "en": "Cursor lets you talk to its agents in a voice call"
+      },
+      "summary": {
+        "cs": "Cursor 6. listopadu přidal hlasový chat s agenty: v hovoru v reálném čase popíšeš změnu nahlas, zeptáš se, na čem agent pracuje, a během práce slyšíš krátké průběžné zprávy. Funguje v okně Agents, v IDE, na webu a v Cursoru pro iOS; běží na Grok Voice.",
+        "en": "On November 6, Cursor added voice chat with agents: in a realtime call you describe a change out loud, ask what an agent is working on, and hear short progress updates as it works. It works in the Agents Window, the IDE, on the web, and in Cursor for iOS, and runs on Grok Voice."
+      },
+      "why": {
+        "cs": "Nejdřív aktualizuj Cursor. U nečinného agenta s prázdným vstupem klikni na vlnu Start voice chat vedle mikrofonu pro diktování; na iOS řekni „Hey Siri, call Cursor“. S Privacy Mode běží hovor bez uchovávání dat.",
+        "en": "Update Cursor. With an idle agent and empty input, click the waveform button Start voice chat beside the mic; on iOS say “Hey Siri, call Cursor.” In Privacy Mode, calls have zero data retention."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/changelog/voice-chat"
+        }
+      ],
+      "used": "2026-11-07"
+    },
+    {
+      "slug": "tip-claude-code-deny-instead-of-prompting",
+      "category": "tools",
+      "theme": "claude",
+      "added": "2026-11-07",
+      "verified": true,
+      "eventDate": "2026-11-06",
+      "title": {
+        "cs": "Claude Code místo čekání na schválení volání zamítne",
+        "en": "Claude Code can deny tool calls instead of prompting"
+      },
+      "summary": {
+        "cs": "Claude Code 2.1.319 (vydaná 6. listopadu) přidala nastavení permissions.denyInsteadOfPrompting. Když by volání nástroje čekalo na potvrzení, je místo toho zamítnuto a běh pokračuje; platí to v terminálových relacích, u subagentů i týmových agentů.",
+        "en": "Claude Code 2.1.319 (released November 6) added the permissions.denyInsteadOfPrompting setting. A tool call that would wait for your approval is denied and the turn continues, in terminal sessions, subagents, and teammates."
+      },
+      "why": {
+        "cs": "Hodí se pro běhy bez dozoru, kde nikdo nemůže potvrzovat. Dokumentace nastavení volbu zatím nepopisuje, takže hodnota ani výchozí stav nejsou známé; changelog uvádí jen název a účinek.",
+        "en": "Handy for unattended runs where nobody can confirm. The settings documentation does not describe the option yet, so its value and default are unknown; the changelog gives only the name and effect."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "used": "2026-11-07"
+    },
+    {
+      "slug": "tip-perplexity-computer-local-mac",
+      "category": "tools",
+      "theme": "perplexity",
+      "added": "2026-11-07",
+      "verified": true,
+      "eventDate": "2026-11-06",
+      "title": {
+        "cs": "Perplexity Computer jde spustit celý lokálně na Macu",
+        "en": "Perplexity’s Computer can now run fully on your Mac"
+      },
+      "summary": {
+        "cs": "Perplexity 6. listopadu přidala režim, ve kterém Computer běží celý na zařízení: s tvým svolením pracuje s lokálními soubory a aplikacemi jako Poznámky a Mail, aniž posílá osobní data do cloudu. Je pro Pro, Max a Enterprise na Macu s čipem Apple Silicon (aplikace 26.42.0 a novější).",
+        "en": "On November 6, Perplexity added a mode where Computer runs entirely on-device: with your permission it works across local files and Mac apps like Notes and Mail without sending personal data to the cloud. It is for Pro, Max, and Enterprise subscribers on Apple-silicon Macs (app 26.42.0 or later)."
+      },
+      "why": {
+        "cs": "Doporučeno je 36 GB sjednocené paměti. Zvolit jde Local (vše na Macu, i offline) nebo Hybrid (úkol se dělí mezi Mac a cloud).",
+        "en": "36 GB of unified memory is recommended. You can choose Local (everything on your Mac, even offline) or Hybrid (a task is split between your Mac and the cloud)."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog/teammates-fully-local-computer-on-mac-and-voice-mode"
+        }
+      ],
+      "used": "2026-11-07"
+    },
+    {
+      "slug": "tip-gemini-notebook-co-create-slides-videos",
+      "category": "tools",
+      "theme": "gemini",
+      "added": "2026-11-07",
+      "verified": true,
+      "eventDate": "2026-10-19",
+      "title": {
+        "cs": "Gemini Notebook: prezentace a videa s kontrolou osnovy",
+        "en": "Gemini Notebook lets you review slide and video outlines first"
+      },
+      "summary": {
+        "cs": "Google 19. října rozšířil Gemini Notebook o tvorbu prezentací (Slide Decks) a video přehledů (Video Overviews) po krocích: z chatu navrhne témata podle tvých zdrojů, ty je potvrdíš a doladíš styl a formát. Funkce se podle Googlu zaváděla globálně během následujícího týdne.",
+        "en": "On October 19, Google gave Gemini Notebook a step-by-step flow for Slide Decks and Video Overviews: from the chat it suggests topics based on your sources, you confirm them and steer style and format. Google said it would roll out globally to all users over the following week."
+      },
+      "why": {
+        "cs": "V chatu popros o prezentaci nebo video; zapni přepínač Review a v panelu Studio otevři „Review outline notes“ (prezentace) či „Review producer notes“ (video). Dej zpětnou vazbu a potvrď tlačítkem Proceed.",
+        "en": "Ask for slides or a video in the chat, turn on the Review toggle, and open “Review outline notes” (slides) or “Review producer notes” (video) in the studio panel. Add feedback, then select Proceed."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/"
+        }
+      ],
+      "used": "2026-11-07"
+    },
+    {
+      "slug": "tip-chatgpt-dot-ios-reply-notification",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-11-04",
+      "title": {
+        "cs": "Dotovi z ChatGPT odpovíš na iOS rovnou z notifikace",
+        "en": "Reply to your ChatGPT dot straight from an iOS notification"
+      },
+      "summary": {
+        "cs": "OpenAI v týdnu 2.–6. listopadu umožnil na iOS odpovědět dotu z notifikace nebo mu poslat obsah z jiné aplikace. Otevření konverzace z notifikace je rychlejší, odkazy na Gmail se otevřou v aplikaci Gmail nebo v prohlížeči a na podporovaných iPhonech jde dota otevřít tlačítkem Action.",
+        "en": "In the week of November 2–6, OpenAI let iOS users reply to their dot from a notification or share content from another app. Opening the conversation from a notification loads faster, supported Gmail links open in the Gmail app or browser, and on supported iPhones the Action button can open your dot."
+      },
+      "why": {
+        "cs": "Dots se zavádějí postupně jen oprávněným účtům; Enterprise, Edu a Healthcare je mohou povolit. U Enterprise začíná fakturace 18. listopadu, správci si ji před tím mohou prohlédnout.",
+        "en": "Dots roll out gradually to eligible accounts; Enterprise, Edu, and Healthcare workspaces can enable them. Enterprise billing begins November 18, and admins can review it beforehand."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/codex/whats-new/november-2-6-2026"
+        }
+      ],
+      "added": "2026-11-07",
+      "used": null
+    },
+    {
+      "slug": "tip-raycast-dictate-to-ai",
+      "category": "tools",
+      "theme": "other",
+      "verified": true,
+      "eventDate": "2026-11-04",
+      "title": {
+        "cs": "Raycast: nadiktuj dotaz a AI vezme kontext z aplikace",
+        "en": "Raycast’s Dictate to AI answers using the app you are in"
+      },
+      "summary": {
+        "cs": "Raycast ve verzi 2.11 (4. listopadu) přidal příkaz Dictate to AI: spojí to, co řekneš, s kontextem z aktivní aplikace a vrátí odpověď AI v méně krocích. Kontext jde v nastavení příkazu zapnout nebo vypnout. Přibyla i diktovací rozšíření pro AI chat a rozšíření Kontakty.",
+        "en": "Raycast 2.11 (November 4) added the Dictate to AI command: it combines what you say with context from your focused app and returns an AI answer in fewer steps. You can turn context on or off in the command settings. A dictation extension for AI chat and a Contacts extension were added too."
+      },
+      "why": {
+        "cs": "Přiřaď příkazu klávesovou zkratku, ať ho máš po ruce. Changelog neuvádí, jaký tarif Raycastu AI a diktování vyžadují; ověř si to v aplikaci.",
+        "en": "Assign the command a hotkey to keep it at hand. The changelog does not say which Raycast plan AI and dictation need; check in the app."
+      },
+      "sources": [
+        {
+          "name": "Raycast",
+          "url": "https://www.raycast.com/changelog"
+        }
+      ],
+      "added": "2026-11-07",
+      "used": null
     }
   ]
 }
