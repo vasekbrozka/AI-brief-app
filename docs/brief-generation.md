@@ -316,7 +316,15 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   oficiální stránka podpory či dokumentace výrobce (Microsoft Support k limitům Copilot
   Chatu) jde často otevřít a nese jádro zprávy; podrobnosti, které nese jen médium
   (hranice 2 000 míst), zůstávají jmenovitě u média; primární zdroj s 403 zkus podruhé
-  (stránka Evropského parlamentu se otevřela na druhý pokus).
+  (stránka Evropského parlamentu se otevřela na druhý pokus); (29) **duplicity hledej
+  v CELÉM `published-log.json` (60 dní), ne jen v posledních týdnech**: souhrnný changelog
+  znovu hlásí, co vyšlo dřív — lokální Computer na Macu (blog Perplexity z 20. 10., v briefu
+  21. 10.) a Gemini Notebook (19. 10., v briefu 20. 10.) prošly jako „nové“ tipy, protože
+  dedupe grep končil u 24. 10.; teprve čtenáři to chytili. Před výběrem každé zprávy i tipu
+  spusť `grep -i` v logu přes produkt a klíčová slova funkce (např. „Perplexity“ + „lokál“,
+  „Notebook“ + „prezentac“) a u položky z changelogu dohledej datum prvního oznámení (blog
+  výrobce, starší záznam changelogu); je-li dřívější než záznam v logu, je to duplicita —
+  vyřaď, nebo ji vydej jako navazující jen s tím, co je opravdu nové.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

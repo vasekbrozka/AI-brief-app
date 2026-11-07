@@ -2148,58 +2148,53 @@
     {
       "slug": "2026-11-07-google-antigravity-voice-remote-agents",
       "date": "2026-11-07",
-      "topic": "Google 6. 11. (blog Antigravity, 9to5Google): Antigravity 2.29 — hlasový režim (Gemini Live; aplikace i CLI 1.5.0+, devět hlasů, destruktivní akce hlasem neschválíš), podle 9to5Google vzdálení agenti v cloudu pro Google AI Pro a Ultra, nový vzhled — highlight"
+      "topic": "Google 6. 11. (blog Antigravity, 9to5Google): Antigravity — hlasový režim (Gemini Live; aplikace i CLI 1.5.0+, /voice live nebo F6; rizikové akce hlasem neschválíš), podle 9to5Google vzdálení agenti v cloudu pro Google AI Pro a Ultra — highlight"
     },
     {
       "slug": "2026-11-07-meta-muse-spaces",
       "date": "2026-11-07",
-      "topic": "Meta 6. 11. (about.fb.com, TechCrunch, Verge): Muse — spaces: na popis postaví interaktivní prostor (plánovač, tracker, hra), po propojení aplikací (Gmail, Kalendář, Notion) se na pozadí aktualizují; všude, kde Muse funguje; sdílení Meta zvažuje"
+      "topic": "Meta 6. 11. (about.fb.com, TechCrunch, Verge): Muse — spaces: na popis postaví interaktivní prostor (plánovač, hra), po propojení aplikací (Verge: Gmail, Kalendář, Notion) se podle Mety aktualizuje na pozadí; zavádí se všem uživatelům Muse (TC: 10 mil. uživatelů agentů v USA a Kanadě, Česko zdroje neuvádějí); sdílení Meta zvažuje"
     },
     {
       "slug": "2026-11-07-amazon-alexa-shopping-text",
       "date": "2026-11-07",
-      "topic": "Amazon 6. 11. (aboutamazon.com, Verge, TNW): Alexa for Shopping přijímá objednávky textovou zprávou — zatím jen pozvaní zákazníci v USA, další miliony v dalších týdnech; podle TNW (Digiday) sponzorované produkty v odpovědích; navazuje na blokaci Meta Muse v září"
+      "topic": "Amazon 6. 11. (aboutamazon.com, Verge, TNW): Alexa for Shopping přijímá objednávky textovou zprávou — zatím jen pozvaní zákazníci v USA, další miliony v dalších týdnech; nákup po schválení nebo automaticky při cílové ceně; podle TNW (Digiday) sponzorované produkty v odpovědích; navazuje na blokaci Meta Muse v září"
     },
     {
       "slug": "2026-11-07-perplexity-teammates-max",
       "date": "2026-11-07",
-      "topic": "Perplexity 6. 11. (changelog, Engadget): teammates — osobní agenti pro průběžnou práci v Computeru (plánují, souběžné úlohy, Slack); jen předplatitelé Max na webu (Engadget: 200 USD měsíčně); v témže vydání lokální Computer na Macu, hlasový režim a Agent Plugins"
+      "topic": "Perplexity 6. 11. (changelog, Engadget): teammates — osobní agenti pro průběžnou práci v Computeru (plánují, souběžné úlohy, Slack); jen předplatitelé Max (Engadget: web a iOS, 200 USD měsíčně); v témže vydání lokální Computer na Macu (vyšlo už 21. 10.), hlasový režim a Agent Plugins"
     },
     {
       "slug": "2026-11-07-openai-funding-1-25-trillion",
       "date": "2026-11-07",
-      "topic": "Bloomberg 6. 11. (TechCrunch, Verge): OpenAI vybrala dalších 11 mld. USD při ocenění 1,25 bil. USD, kolo (≈20 mld., původně až 30 mld.) není uzavřené a OpenAI se nevyjádřila; v březnu 122 mld. při 852 mld.; kupci akcií Anthropicu při IPO podle Bloombergu vidí ocenění až kolem 1,1 bil. místo 2 bil."
+      "topic": "Bloomberg 6. 11. (TechCrunch, Verge; jediný zdroj s nejmenovanými informátory, verified:false): OpenAI prý vybrala dalších 11 mld. USD při hodnotě firmy 1,25 bil. USD, kolo (≈20 mld., původně až 30 mld.) není uzavřené, bez potvrzení OpenAI; v březnu 122 mld. při 852 mld."
     },
     {
       "slug": "2026-11-07-europe-data-center-protests",
       "date": "2026-11-07",
-      "topic": "6.–7. 11. (Register 5. 11., Verge 6. 11.): protesty přes 100 skupin v 15 evropských zemích za moratorium na velká datová centra; Amsterdam — asi 100 lidí vnikne na staveniště datového centra Microsoftu (Reuters); Amsterdam zakázal nová centra do 2030; navazuje na 2026-11-06-openai-data-center-community-commitments"
+      "topic": "6.–7. 11. (Register 5. 11., Verge 6. 11.): podle organizátorů přes 100 skupin v 15 evropských zemích protestuje za moratorium na nové velké projekty datových center; Amsterdam — asi 100 lidí vnikne na staveniště datového centra Microsoftu (Reuters), zazněla i politická hesla; Amsterdam zakázal nová centra do 2030; navazuje na 2026-11-06-openai-data-center-community-commitments"
     },
     {
       "slug": "2026-11-07-tip-cursor-voice-chat",
       "date": "2026-11-07",
-      "topic": "tip: Cursor — hlasový chat s agenty (6. 11.; tlačítko Start voice chat, na iOS „Hey Siri, call Cursor“; Grok Voice; Privacy Mode bez uchovávání dat; okno Agents, IDE, web, iOS) — nový"
-    },
-    {
-      "slug": "2026-11-07-tip-claude-code-deny-instead-of-prompting",
-      "date": "2026-11-07",
-      "topic": "tip: Claude Code 2.1.319 (6. 11.) — permissions.denyInsteadOfPrompting: volání čekající na potvrzení se zamítne a tah pokračuje (terminál, subagenti, týmoví agenti); dokumentace nastavení volbu zatím nepopisuje — nový"
+      "topic": "tip: Cursor — hlasový chat s agenty (6. 11.; tlačítko Start voice chat, na iOS „Hey Siri, call Cursor“; Grok Voice; Privacy Mode bez uchovávání dat podle Cursoru; okno Agents, IDE, web, iOS) — nový"
     },
     {
       "slug": "2026-11-07-tip-github-copilot-shared-automations",
       "date": "2026-11-07",
-      "topic": "tip: GitHub Copilot — sdílené automatizace (28. 10.; typ Shared nelze změnit; viditelné s právem čtení, úpravy s právem zápisu; kredity platí vlastník repozitáře; politika billed to the organization; Pro, Pro+, Max, Business, Enterprise) — z banky"
+      "topic": "tip: GitHub Copilot — sdílené automatizace (28. 10.; typ Shared nelze změnit; viditelné s právem čtení, úpravy s právem zápisu; kredity platí vlastník repozitáře; politika billed to the organization; Pro, Pro+, Max, Business, Enterprise; dostupnost se může lišit) — z banky"
     },
     {
-      "slug": "2026-11-07-tip-perplexity-computer-local-mac",
+      "slug": "2026-11-07-tip-perplexity-agent-plugins",
       "date": "2026-11-07",
-      "topic": "tip: Perplexity Computer plně lokálně na Macu (6. 11.; Pro, Max, Enterprise; aplikace 26.42.0+; doporučeno 36 GB sjednocené paměti; režimy Local a Hybrid) — nový"
+      "topic": "tip: Perplexity Agent Plugins (changelog 6. 11. + nápověda; balíček konektorů a dovedností jedním krokem; vlastní plugin .zip nebo import z GitHubu, přijme i pluginy Claude Code a Codex; vyvolání lomítkem; stránka Plugins; pluginy s dovednostmi vyžadují tarif s Computerem) — nový"
     },
     {
-      "slug": "2026-11-07-tip-gemini-notebook-co-create-slides-videos",
+      "slug": "2026-11-07-tip-raycast-dictate-to-ai",
       "date": "2026-11-07",
-      "topic": "tip: Gemini Notebook — prezentace a video přehledy po krocích (19. 10.; přepínač Review, Review outline notes / Review producer notes, Proceed; zavádění globálně během týdne) — nový"
+      "topic": "tip: Raycast 2.11 pro Mac (4. 11.) — Dictate to AI: diktát + kontext z aktivní aplikace (jde vypnout v nastavení příkazu), zkratka např. Control + A; rozšíření Dictation a Contacts; tarif zdroje neuvádějí — z kandidátů (vyšlo dnes)"
     }
   ],
-  "updated": "2026-11-07T03:23:06Z"
+  "updated": "2026-11-07T03:59:01Z"
 }

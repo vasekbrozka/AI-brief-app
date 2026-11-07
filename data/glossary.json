@@ -133,7 +133,9 @@
         "AI agentů",
         "AI agentem",
         "AI agentům",
-        "AI agentech"
+        "AI agentech",
+        "AI agents",
+        "agents"
       ],
       "short": {
         "cs": "AI, která nejen odpovídá, ale sama plní úkoly — hledá, používá nástroje a dělá kroky za tebe, dokud není hotovo.",
@@ -357,7 +359,8 @@
         "promptů",
         "promptem",
         "promptování",
-        "prompting"
+        "prompting",
+        "prompts"
       ],
       "short": {
         "cs": "Zadání, které modelu napíšeš — otázka nebo instrukce, podle níž vytvoří odpověď.",
@@ -1278,21 +1281,33 @@
       }
     },
     {
-      "id": "unified-memory",
+      "id": "cli",
       "term": {
-        "cs": "Sjednocená paměť",
-        "en": "Unified memory"
+        "cs": "CLI (příkazový řádek)",
+        "en": "CLI (command line)"
       },
       "aliases": [
-        "sjednocená paměť",
-        "sjednocené paměti",
-        "sjednocenou paměť",
-        "sjednocenou pamětí",
-        "unified memory"
+        "CLI",
+        "CLIs"
       ],
       "short": {
-        "cs": "Paměť sdílená procesorem i grafickým jádrem čipů Apple Silicon. U lokálních AI modelů rozhoduje, jak velký model se do počítače vejde a jak rychle poběží.",
-        "en": "Memory shared by the processor and graphics cores of Apple Silicon chips. For local AI models it decides how large a model fits on the machine and how fast it runs."
+        "cs": "Příkazový řádek: program, který ovládáš psaním příkazů v terminálu místo klikání. Vývojáři v něm spouštějí i AI agenty, třeba Claude Code, Codex nebo Antigravity.",
+        "en": "Command-line interface: a program you control by typing commands in a terminal instead of clicking. Developers also run AI agents there, such as Claude Code, Codex, or Antigravity."
+      }
+    },
+    {
+      "id": "ide",
+      "term": {
+        "cs": "IDE (vývojové prostředí)",
+        "en": "IDE (development environment)"
+      },
+      "aliases": [
+        "IDE",
+        "IDEs"
+      ],
+      "short": {
+        "cs": "Vývojové prostředí: aplikace, ve které programátor píše, spouští a ladí kód. Obsahuje editor, nástroje i AI asistenty, například Cursor nebo VS Code.",
+        "en": "Integrated development environment: the app where a programmer writes, runs, and debugs code. It bundles an editor, tools, and AI assistants, for example Cursor or VS Code."
       }
     }
   ]

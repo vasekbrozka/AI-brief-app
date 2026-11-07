@@ -4409,16 +4409,16 @@
       "verified": true,
       "eventDate": "2026-10-28",
       "title": {
-        "cs": "Automatizace Copilota jde sdílet s celým týmem",
-        "en": "Copilot automations can now be shared with your team"
+        "cs": "GitHub Copilot: automatizace nově i jako sdílené pro tým",
+        "en": "GitHub Copilot automations can now be shared team-wide"
       },
       "summary": {
-        "cs": "GitHub 28. října začal zavádět sdílené automatizace Copilota: tým společně vytváří a upravuje pracovní postupy z promptů, spouštěčů a nástrojů, které Copilot spouští sám v cloudu. Vidí je všichni s právem čtení repozitáře, upravují ti s právem zápisu a kredity AI platí vlastník repozitáře.",
-        "en": "On October 28, GitHub began rolling out shared Copilot automations: a team builds and maintains workflows made of prompts, triggers, and tools that Copilot runs on its own in the cloud. Everyone with read access to the repository sees them, those with write access edit them, and the repository owner pays the AI credits."
+        "cs": "GitHub 28. října začal zavádět sdílené automatizace Copilota: pracovní postupy z promptů, spouštěčů a nástrojů, které Copilot spouští sám v cloudu. Vidí je všichni s právem čtení repozitáře, upravují ti s právem zápisu a kredity AI platí vlastník repozitáře. Zavádí se pro tarify Copilot Pro, Pro+, Max, Business a Enterprise.",
+        "en": "GitHub began rolling out shared Copilot automations on October 28: workflows of prompts, triggers, and tools that Copilot runs on its own in the cloud. Everyone with read access to the repository sees them, those with write access edit them, and the owner pays the AI credits. For Copilot Pro, Pro+, Max, Business, and Enterprise."
       },
       "why": {
-        "cs": "Při vytváření automatizace na github.com, v aplikaci Copilot nebo ve VS Code zvol typ Shared; později se nedá změnit. V organizaci musí správce povolit politiku Allow use of Copilot cloud agent billed to the organization.",
-        "en": "Choose the Shared type when you create an automation on github.com, in the Copilot app, or in VS Code; it cannot be changed later. In an organization, an admin must enable the cloud-agent billing policy."
+        "cs": "Při vytváření automatizace na github.com, v aplikaci Copilot nebo ve VS Code zvol typ Shared; později se nedá změnit. Dostupnost se může lišit; v organizaci musí správce povolit politiku fakturace cloudového agenta organizaci.",
+        "en": "Choose type Shared when creating an automation on github.com, in the Copilot app, or in VS Code; it can’t be changed later. Availability may vary; organizations need an admin to enable the cloud-agent billing policy."
       },
       "sources": [
         {
@@ -5140,8 +5140,8 @@
         "en": "On November 6, Cursor added voice chat with agents: in a realtime call you describe a change out loud, ask what an agent is working on, and hear short progress updates as it works. It works in the Agents Window, the IDE, on the web, and in Cursor for iOS, and runs on Grok Voice."
       },
       "why": {
-        "cs": "Nejdřív aktualizuj Cursor. U nečinného agenta s prázdným vstupem klikni na vlnu Start voice chat vedle mikrofonu pro diktování; na iOS řekni „Hey Siri, call Cursor“. S Privacy Mode běží hovor bez uchovávání dat.",
-        "en": "Update Cursor. With an idle agent and empty input, click the waveform button Start voice chat beside the mic; on iOS say “Hey Siri, call Cursor.” In Privacy Mode, calls have zero data retention."
+        "cs": "U nečinného agenta s prázdným vstupem klikni na tlačítko se zvukovou vlnou (Start voice chat) vedle mikrofonu; na iOS řekni „Hey Siri, call Cursor“. Cursor uvádí, že v Privacy Mode hovor neuchovává data.",
+        "en": "With an idle agent and empty input, click the waveform button (Start voice chat) beside the mic; on iOS say “Hey Siri, call Cursor.” Cursor says voice chat has zero data retention in Privacy Mode."
       },
       "sources": [
         {
@@ -5152,82 +5152,67 @@
       "used": "2026-11-07"
     },
     {
-      "slug": "tip-claude-code-deny-instead-of-prompting",
+      "slug": "tip-raycast-dictate-to-ai",
       "category": "tools",
-      "theme": "claude",
-      "added": "2026-11-07",
+      "theme": "other",
       "verified": true,
-      "eventDate": "2026-11-06",
+      "eventDate": "2026-11-04",
       "title": {
-        "cs": "Claude Code místo čekání na schválení volání zamítne",
-        "en": "Claude Code can deny tool calls instead of prompting"
+        "cs": "Raycast: diktuj AI s kontextem z aktivní aplikace",
+        "en": "Raycast: speak to AI with context from your app"
       },
       "summary": {
-        "cs": "Claude Code 2.1.319 (vydaná 6. listopadu) přidala nastavení permissions.denyInsteadOfPrompting. Když by volání nástroje čekalo na potvrzení, je místo toho zamítnuto a běh pokračuje; platí to v terminálových relacích, u subagentů i týmových agentů.",
-        "en": "Claude Code 2.1.319 (released November 6) added the permissions.denyInsteadOfPrompting setting. A tool call that would wait for your approval is denied and the turn continues, in terminal sessions, subagents, and teammates."
+        "cs": "Raycast 2.11 pro Mac přidal 4. listopadu příkaz Dictate to AI: nahlas řekneš, co potřebuješ, a Raycast k tomu přidá kontext z aktivní aplikace, takže AI odpoví relevantněji a na méně kroků. Přibylo i rozšíření Dictation pro AI Chat, které využije tvé přepisy, a rozšíření Contacts.",
+        "en": "Raycast 2.11 for Mac added the Dictate to AI command on November 4: you say what you need aloud, and Raycast adds context from your focused app, so the AI answers more relevantly and in fewer steps. It also added a Dictation extension for AI Chat that uses your transcripts, and a Contacts extension."
       },
       "why": {
-        "cs": "Hodí se pro běhy bez dozoru, kde nikdo nemůže potvrzovat. Dokumentace nastavení volbu zatím nepopisuje, takže hodnota ani výchozí stav nejsou známé; changelog uvádí jen název a účinek.",
-        "en": "Handy for unattended runs where nobody can confirm. The settings documentation does not describe the option yet, so its value and default are unknown; the changelog gives only the name and effect."
+        "cs": "Kontext z aktivní aplikace jde v nastavení příkazu zapnout nebo vypnout. Raycast radí přiřadit příkazu klávesovou zkratku, třeba Control + A. Jaký tarif příkaz vyžaduje, zdroje neuvádějí.",
+        "en": "You can turn context from the focused app on or off in the command settings. Raycast suggests assigning a hotkey, such as Control + A. The sources do not say which plan the command needs."
       },
       "sources": [
         {
-          "name": "Anthropic",
-          "url": "https://code.claude.com/docs/en/changelog"
+          "name": "Raycast",
+          "url": "https://www.raycast.com/changelog/macos/2-11"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/06/raycast-combines-voice-dictation-and-screen-awareness-in-new-ai-feature/"
         }
       ],
+      "added": "2026-11-07",
       "used": "2026-11-07"
     },
     {
-      "slug": "tip-perplexity-computer-local-mac",
+      "slug": "tip-perplexity-agent-plugins",
       "category": "tools",
       "theme": "perplexity",
       "added": "2026-11-07",
       "verified": true,
       "eventDate": "2026-11-06",
       "title": {
-        "cs": "Perplexity Computer jde spustit celý lokálně na Macu",
-        "en": "Perplexity’s Computer can now run fully on your Mac"
+        "cs": "Perplexity: pluginy přidají konektory i dovednosti jedním krokem",
+        "en": "Perplexity plugins add connectors and skills in one step"
       },
       "summary": {
-        "cs": "Perplexity 6. listopadu přidala režim, ve kterém Computer běží celý na zařízení: s tvým svolením pracuje s lokálními soubory a aplikacemi jako Poznámky a Mail, aniž posílá osobní data do cloudu. Je pro Pro, Max a Enterprise na Macu s čipem Apple Silicon (aplikace 26.42.0 a novější).",
-        "en": "On November 6, Perplexity added a mode where Computer runs entirely on-device: with your permission it works across local files and Mac apps like Notes and Mail without sending personal data to the cloud. It is for Pro, Max, and Enterprise subscribers on Apple-silicon Macs (app 26.42.0 or later)."
+        "cs": "Perplexity v changelogu z 6. listopadu přidala do Computeru pluginy: balíček, který jedním krokem nainstaluje konektory na externí nástroje i dovednosti pro celý pracovní postup. Vlastní plugin nahraješ jako .zip nebo naimportuješ z veřejného GitHubu. Podle Perplexity má stejný balíček fungovat u různých agentů, protože vychází z otevřeného standardu Agent Plugins.",
+        "en": "Perplexity’s November 6 changelog adds plugins to Computer: a bundle that installs connectors to outside tools and skills for a whole workflow in one step. You can upload your own (.zip) or import one from a public GitHub repository. Perplexity says the same package works across agents because it follows the open Agent Plugins standard."
       },
       "why": {
-        "cs": "Doporučeno je 36 GB sjednocené paměti. Zvolit jde Local (vše na Macu, i offline) nebo Hybrid (úkol se dělí mezi Mac a cloud).",
-        "en": "36 GB of unified memory is recommended. You can choose Local (everything on your Mac, even offline) or Hybrid (a task is split between your Mac and the cloud)."
+        "cs": "V úloze plugin použiješ lomítkem „/“. Podle nápovědy Perplexity jde nahrát i plugin z Claude Code či Codexu tak, jak je. Pluginy s dovednostmi vyžadují tarif, který Computer zahrnuje.",
+        "en": "Type “/” in a task to use a plugin. Perplexity’s help says a Claude Code or Codex plugin can be uploaded as it is. Plugins with skills need a plan that includes Computer."
       },
       "sources": [
         {
           "name": "Perplexity",
           "url": "https://www.perplexity.ai/changelog/teammates-fully-local-computer-on-mac-and-voice-mode"
-        }
-      ],
-      "used": "2026-11-07"
-    },
-    {
-      "slug": "tip-gemini-notebook-co-create-slides-videos",
-      "category": "tools",
-      "theme": "gemini",
-      "added": "2026-11-07",
-      "verified": true,
-      "eventDate": "2026-10-19",
-      "title": {
-        "cs": "Gemini Notebook: prezentace a videa s kontrolou osnovy",
-        "en": "Gemini Notebook lets you review slide and video outlines first"
-      },
-      "summary": {
-        "cs": "Google 19. října rozšířil Gemini Notebook o tvorbu prezentací (Slide Decks) a video přehledů (Video Overviews) po krocích: z chatu navrhne témata podle tvých zdrojů, ty je potvrdíš a doladíš styl a formát. Funkce se podle Googlu zaváděla globálně během následujícího týdne.",
-        "en": "On October 19, Google gave Gemini Notebook a step-by-step flow for Slide Decks and Video Overviews: from the chat it suggests topics based on your sources, you confirm them and steer style and format. Google said it would roll out globally to all users over the following week."
-      },
-      "why": {
-        "cs": "V chatu popros o prezentaci nebo video; zapni přepínač Review a v panelu Studio otevři „Review outline notes“ (prezentace) či „Review producer notes“ (video). Dej zpětnou vazbu a potvrď tlačítkem Proceed.",
-        "en": "Ask for slides or a video in the chat, turn on the Review toggle, and open “Review outline notes” (slides) or “Review producer notes” (video) in the studio panel. Add feedback, then select Proceed."
-      },
-      "sources": [
+        },
         {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/"
+          "name": "Perplexity (nápověda)",
+          "url": "https://www.perplexity.ai/help-center/en/articles/2026100701-what-are-plugins"
+        },
+        {
+          "name": "Perplexity (nápověda – vlastní plugin)",
+          "url": "https://www.perplexity.ai/help-center/en/articles/2026100802-create-or-upload-a-custom-plugin"
         }
       ],
       "used": "2026-11-07"
@@ -5254,33 +5239,6 @@
         {
           "name": "OpenAI",
           "url": "https://learn.chatgpt.com/codex/whats-new/november-2-6-2026"
-        }
-      ],
-      "added": "2026-11-07",
-      "used": null
-    },
-    {
-      "slug": "tip-raycast-dictate-to-ai",
-      "category": "tools",
-      "theme": "other",
-      "verified": true,
-      "eventDate": "2026-11-04",
-      "title": {
-        "cs": "Raycast: nadiktuj dotaz a AI vezme kontext z aplikace",
-        "en": "Raycast’s Dictate to AI answers using the app you are in"
-      },
-      "summary": {
-        "cs": "Raycast ve verzi 2.11 (4. listopadu) přidal příkaz Dictate to AI: spojí to, co řekneš, s kontextem z aktivní aplikace a vrátí odpověď AI v méně krocích. Kontext jde v nastavení příkazu zapnout nebo vypnout. Přibyla i diktovací rozšíření pro AI chat a rozšíření Kontakty.",
-        "en": "Raycast 2.11 (November 4) added the Dictate to AI command: it combines what you say with context from your focused app and returns an AI answer in fewer steps. You can turn context on or off in the command settings. A dictation extension for AI chat and a Contacts extension were added too."
-      },
-      "why": {
-        "cs": "Přiřaď příkazu klávesovou zkratku, ať ho máš po ruce. Changelog neuvádí, jaký tarif Raycastu AI a diktování vyžadují; ověř si to v aplikaci.",
-        "en": "Assign the command a hotkey to keep it at hand. The changelog does not say which Raycast plan AI and dictation need; check in the app."
-      },
-      "sources": [
-        {
-          "name": "Raycast",
-          "url": "https://www.raycast.com/changelog"
         }
       ],
       "added": "2026-11-07",

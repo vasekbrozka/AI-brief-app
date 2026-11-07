@@ -2,8 +2,8 @@
   "date": "2026-11-07",
   "sample": false,
   "headline": {
-    "cs": "Google Antigravity: hlasové ovládání a agenti v cloudu",
-    "en": "Google Antigravity adds voice mode and cloud agents"
+    "cs": "Vývojářský nástroj Antigravity od Googlu se nově ovládá hlasem",
+    "en": "Google’s Antigravity coding tool now takes voice commands"
   },
   "items": [
     {
@@ -14,16 +14,16 @@
       "verified": true,
       "eventDate": "2026-11-06",
       "title": {
-        "cs": "Google Antigravity: hlasové ovládání a agenti v cloudu",
-        "en": "Google Antigravity adds voice mode and cloud agents"
+        "cs": "Vývojářský nástroj Antigravity od Googlu se nově ovládá hlasem",
+        "en": "Google’s Antigravity coding tool now takes voice commands"
       },
       "summary": {
-        "cs": "Google 6. listopadu vydal Antigravity 2.29, svou vývojářskou platformu pro práci s AI agenty na Macu, Windows a Linuxu. Nově s agentem mluvíš hlasově (Gemini Live): zadáváš úkoly, řídíš práci a schvaluješ oprávnění. Podle 9to5Google se předplatitelům Google AI Pro a Ultra zavádějí i vzdálení agenti, kteří běží v cloudu, i když zavřeš notebook.",
-        "en": "On November 6, Google released Antigravity 2.29, its agentic development platform for Mac, Windows, and Linux. New voice mode (Gemini Live) lets you give tasks, steer the work, and approve permissions by talking. Per 9to5Google, Google AI Pro and Ultra subscribers also get cloud remote agents that keep working when your laptop is closed."
+        "cs": "Google 6. listopadu přidal do Antigravity, svého vývojářského nástroje s AI agenty, hlasový režim na bázi Gemini Live: agentovi zadáš úkol, za běhu ho usměrňuješ a na jeho žádosti o oprávnění odpovídáš hlasem (kromě rizikových akcí). Podle 9to5Google se předplatitelům Google AI Pro a Ultra postupně zavádějí i vzdálení agenti běžící v cloudu.",
+        "en": "On November 6, Google added a voice mode (built on Gemini Live) to Antigravity, its developer tool for AI agents: you give tasks, steer the work, and answer permission requests by voice, except for risky actions. Per 9to5Google, cloud-based remote agents are also rolling out to Google AI Pro and Ultra subscribers."
       },
       "why": {
-        "cs": "Hlasový režim zapneš tlačítkem Start Voice mode v okně zprávy (v CLI /voice live nebo F6). Mazání souborů, příkazy s vyššími právy a force-push hlasem schválit nejdou, tam klikneš na obrazovce.",
-        "en": "Turn on voice mode with Start Voice mode in the message box (CLI: /voice live or F6). Deleting files, elevated-privilege commands, and force-pushes cannot be approved by voice; you click Allow on screen."
+        "cs": "Hlasový režim zapneš tlačítkem Start Voice mode, v příkazovém řádku (CLI od verze 1.5.0) příkazem /voice live nebo klávesou F6. Rizikové akce, třeba mazání souborů či force-push, hlasem schválit nejde; klikneš na obrazovce.",
+        "en": "Turn it on with Start Voice mode, or in the CLI (1.5.0+) with /voice live or F6. Risky actions, such as deleting files or force-pushing, can’t be approved by voice; you click Allow on screen."
       },
       "sources": [
         {
@@ -47,12 +47,12 @@
         "en": "Meta’s Muse can now build custom “spaces” from a description"
       },
       "summary": {
-        "cs": "Meta 6. listopadu představila v aplikaci Muse funkci spaces: popíšeš, co potřebuješ (plánovač, tracker, přehled nákupů, hru), a Muse z toho postaví interaktivní prostor na míru. Po propojení aplikací jako Gmail, Google Kalendář či Notion se spaces na pozadí samy aktualizují. Podle Mety jsou dostupné všude, kde Muse funguje.",
-        "en": "On November 6, Meta added “spaces” to Muse: describe what you need (a planner, tracker, shopping hub, game) and Muse builds an interactive space for it. Once you connect apps such as Gmail, Google Calendar, or Notion, spaces update themselves in the background. Meta says they are available everywhere Muse is."
+        "cs": "Meta 6. listopadu přidala do Muse, své aplikace s AI agenty, funkci „spaces“: popíšeš, co potřebuješ (plánovač, hru), a Muse postaví interaktivní prostor na míru. Po propojení aplikací (The Verge jmenuje Gmail, Google Kalendář, Notion) se prostor podle Mety sám aktualizuje na pozadí. Zavádí se všem uživatelům Muse.",
+        "en": "On November 6, Meta added “spaces” to Muse, its AI-agent app: describe what you need (a planner, a game) and Muse builds an interactive space for it. Once you connect apps (The Verge names Gmail, Google Calendar, Notion), Meta says the space updates itself in the background. It is rolling out to all Muse users."
       },
       "why": {
-        "cs": "Spaces mají místo v postranním panelu Muse; jde je přesunout na hlavní kartu nebo naplánovat, kdy se zobrazí (The Verge). Sdílení s ostatními Meta teprve zvažuje.",
-        "en": "Spaces live in Muse’s sidebar; you can move them to the main tab or schedule when they appear (The Verge). Meta is only exploring sharing them with others."
+        "cs": "Zdroje neuvádějí, zda je Muse dostupná v Česku; TechCrunch zmiňuje 10 milionů uživatelů agentů Mety v USA a Kanadě. Spaces jdou dát do postranního panelu nebo hlavních karet; sdílení Meta jen zvažuje.",
+        "en": "Sources do not say whether Muse is available in Czechia; TechCrunch cites 10 million agent users in the US and Canada. Spaces can go in the sidebar or main tabs; Meta is only exploring sharing."
       },
       "sources": [
         {
@@ -76,16 +76,16 @@
       "verified": true,
       "eventDate": "2026-11-06",
       "title": {
-        "cs": "Alexa for Shopping přijímá objednávky textovou zprávou",
-        "en": "Amazon’s Alexa for Shopping now takes orders by text"
+        "cs": "Alexa for Shopping v USA bere objednávky textovkou na pozvánku",
+        "en": "Alexa for Shopping takes orders by text, US invite-only"
       },
       "summary": {
-        "cs": "Amazon 6. listopadu začal nechávat vybrané zákazníky v USA psát nákupnímu agentovi Alexa for Shopping textové zprávy: agent hledá a porovnává zboží, přidává ho do košíku, hlídá ceny a objednává. Funkce je zatím jen na pozvánku, v následujících týdnech má přijít k dalším milionům zákazníků.",
-        "en": "On November 6, Amazon began letting selected US customers text its Alexa for Shopping agent: it searches and compares products, adds them to the cart, tracks prices, and places orders. It is invitation-only for now and is due to reach millions more customers in the coming weeks."
+        "cs": "Amazon 6. listopadu začal nechávat vybrané zákazníky v USA psát nákupnímu agentovi Alexa for Shopping textové zprávy: agent hledá a porovnává zboží, přidává ho do košíku, hlídá ceny a objednává se tvým souhlasem nebo automaticky při cílové ceně. Zatím je jen na pozvánku, k dalším milionům zákazníků má dorazit v příštích týdnech.",
+        "en": "On November 6, Amazon began letting selected US customers text its Alexa for Shopping agent: it searches and compares products, adds them to the cart, tracks prices, and orders with your approval or automatically at a target price. It is invitation-only for now and due to reach millions more customers in the coming weeks."
       },
       "why": {
-        "cs": "Podle The Next Web (s odkazem na Digiday) se v odpovědích mohou objevit sponzorované produkty; nákupy, které agent dokončí sám, reklamu nenesou. Zájemci se mohou přihlásit na čekací listinu na stránce Amazonu.",
-        "en": "Per The Next Web (citing Digiday), sponsored products can appear in replies; purchases the agent completes on its own carry no ads. Those without an invite can join a waitlist on Amazon’s page."
+        "cs": "Podle The Next Web (s odkazem na Digiday) se mezi nabídnutými možnostmi mohou objevit sponzorované produkty, inzerenty ale Amazon zatím neúčtuje. U nákupů, které agent dokončí sám, reklama není.",
+        "en": "Per The Next Web (citing Digiday), sponsored products can appear among the options the agent sends, though Amazon is not charging advertisers yet. Purchases the agent completes on its own carry no ads."
       },
       "sources": [
         {
@@ -109,12 +109,12 @@
       "verified": true,
       "eventDate": "2026-11-06",
       "title": {
-        "cs": "Perplexity spustila „teammates“ – agenty na průběžnou práci",
-        "en": "Perplexity launches “teammates,” agents for ongoing work"
+        "cs": "Perplexity spustila „teammates“, agenty na průběžnou práci, jen pro Max",
+        "en": "Perplexity launches “teammates,” ongoing-work agents for Max only"
       },
       "summary": {
-        "cs": "Perplexity 6. listopadu představila „teammates“, osobní agenty, kterým zadáš průběžnou práci místo jednotlivých úkolů: plánují ji, spouštějí úlohy souběžně a pracují, dokud nejsou výsledky k posouzení. Využívají tvoje úlohy, dovednosti a paměť z Perplexity Computer. Jsou jen pro předplatitele Max na webu; Engadget uvádí 200 USD měsíčně.",
-        "en": "On November 6, Perplexity introduced “teammates,” agents you give ongoing work instead of single tasks: they plan it, run tasks in parallel, and keep going until results are ready for review. They draw on your tasks, skills, and memory from Perplexity Computer. Available to Max subscribers on the web; Engadget lists $200 a month."
+        "cs": "Perplexity 6. listopadu představila „teammates“, osobní agenty, kterým zadáš průběžnou práci místo jednotlivých úkolů: plánují ji, spouštějí úlohy souběžně a pracují, dokud nejsou výsledky k posouzení. Běží v Perplexity Computer, jejím asistentovi na vícekrokové úkoly, a jsou jen pro předplatitele Max; Engadget uvádí web, iOS a 200 USD měsíčně.",
+        "en": "On November 6, Perplexity introduced “teammates,” agents you give ongoing work instead of single tasks: they plan it, run tasks in parallel, and continue until results are ready for review. They run in Perplexity Computer, its multi-step task assistant, and are for Max subscribers only; Engadget lists web and iOS and $200 a month."
       },
       "why": {
         "cs": "Příklady od Perplexity: ranní kontrola e-mailu a kalendáře s návrhy odpovědí, sledování konkurence a koncepty odpovědí zákazníkům s dotazem před vrácením peněz. Každý teammate má v Computeru vlastní záznam v postranním panelu (Engadget).",
@@ -135,19 +135,19 @@
       "id": "2026-11-07-openai-funding-1-25-trillion",
       "kind": "news",
       "category": "business",
-      "verified": true,
+      "verified": false,
       "eventDate": "2026-11-06",
       "title": {
-        "cs": "OpenAI prý získala 11 mld. USD při ocenění 1,25 bil.",
+        "cs": "OpenAI prý získala 11 mld. USD při hodnotě firmy 1,25 bil.",
         "en": "OpenAI reportedly raises $11B at a $1.25T valuation"
       },
       "summary": {
-        "cs": "Bloomberg 6. listopadu (přebírají TechCrunch a The Verge): OpenAI vybrala dalších 11 mld. USD při ocenění 1,25 bilionu USD. Kolo ještě neskončilo a může dosáhnout asi 20 mld.; původně chtěla až 30 mld. V březnu získala 122 mld. USD při ocenění 852 mld. USD.",
-        "en": "Bloomberg reported on November 6 (relayed by TechCrunch and The Verge) that OpenAI has raised another $11 billion at a $1.25 trillion valuation. The round has not closed and could reach about $20 billion; OpenAI had hoped for up to $30 billion. In March it raised $122 billion at an $852 billion valuation."
+        "cs": "Podle Bloombergu z 6. listopadu (přebírají TechCrunch a The Verge) OpenAI vybrala dalších 11 mld. USD při hodnotě firmy 1,25 bilionu USD. Kolo prý ještě neskončilo a může dosáhnout asi 20 mld.; původně chtěla až 30 mld. V březnu získala 122 mld. USD při hodnotě 852 mld. USD.",
+        "en": "Per Bloomberg on November 6 (relayed by TechCrunch and The Verge), OpenAI has raised another $11 billion at a $1.25 trillion valuation. The round has reportedly not closed and could reach about $20 billion; OpenAI had hoped for up to $30 billion. In March it raised $122 billion at an $852 billion valuation."
       },
       "why": {
-        "cs": "Obě média přebírají jedinou zprávu Bloombergu; OpenAI se zatím nevyjádřila (TechCrunch). Podle Bloombergu zároveň někteří kupci akcií Anthropicu při IPO vidí ocenění jen kolem 1,1 bilionu místo dřívějších 2 bilionů.",
-        "en": "Both outlets relay a single Bloomberg report; OpenAI has not commented (TechCrunch). Bloomberg also reports some buyers of Anthropic’s IPO shares see a valuation as low as $1.1 trillion, versus $2 trillion earlier."
+        "cs": "Částka a hodnota firmy pocházejí z jedné zprávy Bloombergu s nejmenovanými zdroji, bez potvrzení OpenAI (TechCrunch se jí na komentář teprve ptal). O kole psaly minulý týden podobně FT a WSJ (The Verge).",
+        "en": "The amount and valuation come from one Bloomberg report citing unnamed sources, without OpenAI confirmation (TechCrunch only asked it for comment). The FT and WSJ reported similarly on the round last week (The Verge)."
       },
       "sources": [
         {
@@ -171,12 +171,12 @@
         "en": "European protests against data centers demand a moratorium"
       },
       "summary": {
-        "cs": "Přes 100 skupin v 15 evropských zemích pořádá 6. a 7. listopadu protesty proti výstavbě datových center a požaduje okamžité moratorium na velké projekty (The Register). V Amsterdamu podle Reuters (přes The Verge) vnikla asi stovka lidí na staveniště datového centra Microsoftu; část vylezla na jeřáb a vyvěsila transparent.",
-        "en": "More than 100 groups in 15 European countries are holding protests on November 6 and 7 against data center construction, demanding an immediate moratorium on large projects (The Register). In Amsterdam, about 100 people entered a Microsoft data center construction site, Reuters reports via The Verge; some climbed a crane to hang a banner."
+        "cs": "Podle organizátorů přes 100 skupin v 15 evropských zemích 6. a 7. listopadu protestuje proti stavbě datových center v době boomu AI a žádá okamžité pozastavení (moratorium) nových velkých projektů (The Register). V Amsterdamu podle Reuters (přes The Verge) vnikla asi stovka lidí na staveniště datového centra Microsoftu; část vylezla na jeřáb.",
+        "en": "More than 100 groups in 15 European countries, per the organizers, are protesting data center construction in the AI boom on November 6 and 7, demanding an immediate moratorium on new large projects (The Register). In Amsterdam, about 100 people entered a Microsoft data center site, Reuters reports via The Verge; some climbed a crane."
       },
       "why": {
-        "cs": "Amsterdam nová datová centra do roku 2030 zakázal, Microsoftův projekt ale pokračuje podle plánu z roku 2016 (The Verge). Akce se konají i ve Velké Británii, kde protestují třeba proti kampusu o výkonu 1,5 GW.",
-        "en": "Amsterdam banned new data centers until 2030, but Microsoft’s project is proceeding on a plan dating to 2016 (The Verge). Events also run in the UK, including against a planned 1.5 GW campus in Devon."
+        "cs": "Amsterdam nová datová centra do roku 2030 zakázal, projekt Microsoftu ale vychází z plánu z roku 2016 a pokračuje. Podle The Verge zazněla na staveništi i politická hesla proti Microsoftu; nešlo jen o datová centra.",
+        "en": "Amsterdam banned new data centers until 2030, but Microsoft’s project follows a 2016 plan and proceeds. At the site, The Verge also relays political slogans against Microsoft, so the protest went beyond data centers."
       },
       "sources": [
         {
@@ -212,38 +212,13 @@
         "en": "On November 6, Cursor added voice chat with agents: in a realtime call you describe a change out loud, ask what an agent is working on, and hear short progress updates as it works. It works in the Agents Window, the IDE, on the web, and in Cursor for iOS, and runs on Grok Voice."
       },
       "why": {
-        "cs": "Nejdřív aktualizuj Cursor. U nečinného agenta s prázdným vstupem klikni na vlnu Start voice chat vedle mikrofonu pro diktování; na iOS řekni „Hey Siri, call Cursor“. S Privacy Mode běží hovor bez uchovávání dat.",
-        "en": "Update Cursor. With an idle agent and empty input, click the waveform button Start voice chat beside the mic; on iOS say “Hey Siri, call Cursor.” In Privacy Mode, calls have zero data retention."
+        "cs": "U nečinného agenta s prázdným vstupem klikni na tlačítko se zvukovou vlnou (Start voice chat) vedle mikrofonu; na iOS řekni „Hey Siri, call Cursor“. Cursor uvádí, že v Privacy Mode hovor neuchovává data.",
+        "en": "With an idle agent and empty input, click the waveform button (Start voice chat) beside the mic; on iOS say “Hey Siri, call Cursor.” Cursor says voice chat has zero data retention in Privacy Mode."
       },
       "sources": [
         {
           "name": "Cursor",
           "url": "https://cursor.com/changelog/voice-chat"
-        }
-      ]
-    },
-    {
-      "id": "2026-11-07-tip-claude-code-deny-instead-of-prompting",
-      "kind": "tip",
-      "category": "tools",
-      "verified": true,
-      "eventDate": "2026-11-06",
-      "title": {
-        "cs": "Claude Code místo čekání na schválení volání zamítne",
-        "en": "Claude Code can deny tool calls instead of prompting"
-      },
-      "summary": {
-        "cs": "Claude Code 2.1.319 (vydaná 6. listopadu) přidala nastavení permissions.denyInsteadOfPrompting. Když by volání nástroje čekalo na potvrzení, je místo toho zamítnuto a běh pokračuje; platí to v terminálových relacích, u subagentů i týmových agentů.",
-        "en": "Claude Code 2.1.319 (released November 6) added the permissions.denyInsteadOfPrompting setting. A tool call that would wait for your approval is denied and the turn continues, in terminal sessions, subagents, and teammates."
-      },
-      "why": {
-        "cs": "Hodí se pro běhy bez dozoru, kde nikdo nemůže potvrzovat. Dokumentace nastavení volbu zatím nepopisuje, takže hodnota ani výchozí stav nejsou známé; changelog uvádí jen název a účinek.",
-        "en": "Handy for unattended runs where nobody can confirm. The settings documentation does not describe the option yet, so its value and default are unknown; the changelog gives only the name and effect."
-      },
-      "sources": [
-        {
-          "name": "Anthropic",
-          "url": "https://code.claude.com/docs/en/changelog"
         }
       ]
     },
@@ -254,16 +229,16 @@
       "verified": true,
       "eventDate": "2026-10-28",
       "title": {
-        "cs": "Automatizace Copilota jde sdílet s celým týmem",
-        "en": "Copilot automations can now be shared with your team"
+        "cs": "GitHub Copilot: automatizace nově i jako sdílené pro tým",
+        "en": "GitHub Copilot automations can now be shared team-wide"
       },
       "summary": {
-        "cs": "GitHub 28. října začal zavádět sdílené automatizace Copilota: tým společně vytváří a upravuje pracovní postupy z promptů, spouštěčů a nástrojů, které Copilot spouští sám v cloudu. Vidí je všichni s právem čtení repozitáře, upravují ti s právem zápisu a kredity AI platí vlastník repozitáře.",
-        "en": "On October 28, GitHub began rolling out shared Copilot automations: a team builds and maintains workflows made of prompts, triggers, and tools that Copilot runs on its own in the cloud. Everyone with read access to the repository sees them, those with write access edit them, and the repository owner pays the AI credits."
+        "cs": "GitHub 28. října začal zavádět sdílené automatizace Copilota: pracovní postupy z promptů, spouštěčů a nástrojů, které Copilot spouští sám v cloudu. Vidí je všichni s právem čtení repozitáře, upravují ti s právem zápisu a kredity AI platí vlastník repozitáře. Zavádí se pro tarify Copilot Pro, Pro+, Max, Business a Enterprise.",
+        "en": "GitHub began rolling out shared Copilot automations on October 28: workflows of prompts, triggers, and tools that Copilot runs on its own in the cloud. Everyone with read access to the repository sees them, those with write access edit them, and the owner pays the AI credits. For Copilot Pro, Pro+, Max, Business, and Enterprise."
       },
       "why": {
-        "cs": "Při vytváření automatizace na github.com, v aplikaci Copilot nebo ve VS Code zvol typ Shared; později se nedá změnit. V organizaci musí správce povolit politiku Allow use of Copilot cloud agent billed to the organization.",
-        "en": "Choose the Shared type when you create an automation on github.com, in the Copilot app, or in VS Code; it cannot be changed later. In an organization, an admin must enable the cloud-agent billing policy."
+        "cs": "Při vytváření automatizace na github.com, v aplikaci Copilot nebo ve VS Code zvol typ Shared; později se nedá změnit. Dostupnost se může lišit; v organizaci musí správce povolit politiku fakturace cloudového agenta organizaci.",
+        "en": "Choose type Shared when creating an automation on github.com, in the Copilot app, or in VS Code; it can’t be changed later. Availability may vary; organizations need an admin to enable the cloud-agent billing policy."
       },
       "sources": [
         {
@@ -273,52 +248,64 @@
       ]
     },
     {
-      "id": "2026-11-07-tip-perplexity-computer-local-mac",
+      "id": "2026-11-07-tip-perplexity-agent-plugins",
       "kind": "tip",
       "category": "tools",
       "verified": true,
       "eventDate": "2026-11-06",
       "title": {
-        "cs": "Perplexity Computer jde spustit celý lokálně na Macu",
-        "en": "Perplexity’s Computer can now run fully on your Mac"
+        "cs": "Perplexity: pluginy přidají konektory i dovednosti jedním krokem",
+        "en": "Perplexity plugins add connectors and skills in one step"
       },
       "summary": {
-        "cs": "Perplexity 6. listopadu přidala režim, ve kterém Computer běží celý na zařízení: s tvým svolením pracuje s lokálními soubory a aplikacemi jako Poznámky a Mail, aniž posílá osobní data do cloudu. Je pro Pro, Max a Enterprise na Macu s čipem Apple Silicon (aplikace 26.42.0 a novější).",
-        "en": "On November 6, Perplexity added a mode where Computer runs entirely on-device: with your permission it works across local files and Mac apps like Notes and Mail without sending personal data to the cloud. It is for Pro, Max, and Enterprise subscribers on Apple-silicon Macs (app 26.42.0 or later)."
+        "cs": "Perplexity v changelogu z 6. listopadu přidala do Computeru pluginy: balíček, který jedním krokem nainstaluje konektory na externí nástroje i dovednosti pro celý pracovní postup. Vlastní plugin nahraješ jako .zip nebo naimportuješ z veřejného GitHubu. Podle Perplexity má stejný balíček fungovat u různých agentů, protože vychází z otevřeného standardu Agent Plugins.",
+        "en": "Perplexity’s November 6 changelog adds plugins to Computer: a bundle that installs connectors to outside tools and skills for a whole workflow in one step. You can upload your own (.zip) or import one from a public GitHub repository. Perplexity says the same package works across agents because it follows the open Agent Plugins standard."
       },
       "why": {
-        "cs": "Doporučeno je 36 GB sjednocené paměti. Zvolit jde Local (vše na Macu, i offline) nebo Hybrid (úkol se dělí mezi Mac a cloud).",
-        "en": "36 GB of unified memory is recommended. You can choose Local (everything on your Mac, even offline) or Hybrid (a task is split between your Mac and the cloud)."
+        "cs": "V úloze plugin použiješ lomítkem „/“. Podle nápovědy Perplexity jde nahrát i plugin z Claude Code či Codexu tak, jak je. Pluginy s dovednostmi vyžadují tarif, který Computer zahrnuje.",
+        "en": "Type “/” in a task to use a plugin. Perplexity’s help says a Claude Code or Codex plugin can be uploaded as it is. Plugins with skills need a plan that includes Computer."
       },
       "sources": [
         {
           "name": "Perplexity",
           "url": "https://www.perplexity.ai/changelog/teammates-fully-local-computer-on-mac-and-voice-mode"
+        },
+        {
+          "name": "Perplexity (nápověda)",
+          "url": "https://www.perplexity.ai/help-center/en/articles/2026100701-what-are-plugins"
+        },
+        {
+          "name": "Perplexity (nápověda – vlastní plugin)",
+          "url": "https://www.perplexity.ai/help-center/en/articles/2026100802-create-or-upload-a-custom-plugin"
         }
       ]
     },
     {
-      "id": "2026-11-07-tip-gemini-notebook-co-create-slides-videos",
+      "id": "2026-11-07-tip-raycast-dictate-to-ai",
       "kind": "tip",
       "category": "tools",
       "verified": true,
-      "eventDate": "2026-10-19",
+      "eventDate": "2026-11-04",
       "title": {
-        "cs": "Gemini Notebook: prezentace a videa s kontrolou osnovy",
-        "en": "Gemini Notebook lets you review slide and video outlines first"
+        "cs": "Raycast: diktuj AI s kontextem z aktivní aplikace",
+        "en": "Raycast: speak to AI with context from your app"
       },
       "summary": {
-        "cs": "Google 19. října rozšířil Gemini Notebook o tvorbu prezentací (Slide Decks) a video přehledů (Video Overviews) po krocích: z chatu navrhne témata podle tvých zdrojů, ty je potvrdíš a doladíš styl a formát. Funkce se podle Googlu zaváděla globálně během následujícího týdne.",
-        "en": "On October 19, Google gave Gemini Notebook a step-by-step flow for Slide Decks and Video Overviews: from the chat it suggests topics based on your sources, you confirm them and steer style and format. Google said it would roll out globally to all users over the following week."
+        "cs": "Raycast 2.11 pro Mac přidal 4. listopadu příkaz Dictate to AI: nahlas řekneš, co potřebuješ, a Raycast k tomu přidá kontext z aktivní aplikace, takže AI odpoví relevantněji a na méně kroků. Přibylo i rozšíření Dictation pro AI Chat, které využije tvé přepisy, a rozšíření Contacts.",
+        "en": "Raycast 2.11 for Mac added the Dictate to AI command on November 4: you say what you need aloud, and Raycast adds context from your focused app, so the AI answers more relevantly and in fewer steps. It also added a Dictation extension for AI Chat that uses your transcripts, and a Contacts extension."
       },
       "why": {
-        "cs": "V chatu popros o prezentaci nebo video; zapni přepínač Review a v panelu Studio otevři „Review outline notes“ (prezentace) či „Review producer notes“ (video). Dej zpětnou vazbu a potvrď tlačítkem Proceed.",
-        "en": "Ask for slides or a video in the chat, turn on the Review toggle, and open “Review outline notes” (slides) or “Review producer notes” (video) in the studio panel. Add feedback, then select Proceed."
+        "cs": "Kontext z aktivní aplikace jde v nastavení příkazu zapnout nebo vypnout. Raycast radí přiřadit příkazu klávesovou zkratku, třeba Control + A. Jaký tarif příkaz vyžaduje, zdroje neuvádějí.",
+        "en": "You can turn context from the focused app on or off in the command settings. Raycast suggests assigning a hotkey, such as Control + A. The sources do not say which plan the command needs."
       },
       "sources": [
         {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/"
+          "name": "Raycast",
+          "url": "https://www.raycast.com/changelog/macos/2-11"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/06/raycast-combines-voice-dictation-and-screen-awareness-in-new-ai-feature/"
         }
       ]
     }
@@ -327,17 +314,21 @@
     {
       "date": "2026-11-13",
       "title": {
-        "cs": "Google AI Plus ztratí výběr modelů Pro (podle zpráv)",
-        "en": "Google AI Plus loses Pro model choice (per reports)"
+        "cs": "Google AI Plus má přijít o volbu modelu Gemini Pro (podle 9to5Google)",
+        "en": "Google AI Plus loses Gemini Pro model choice (per 9to5Google)"
       },
       "note": {
-        "cs": "Podle e-mailu, který cituje 9to5Google, půjde od 13. listopadu vybírat modely Pro v Gemini i AI Mode jen s tarifem AI Pro a výš; AI Plus ponechá Flash-Lite a Flash.",
-        "en": "Per an email quoted by 9to5Google, from November 13 only AI Pro and above can pick Pro models in Gemini and Search AI Mode; AI Plus keeps Flash-Lite and Flash."
+        "cs": "Podle e-mailu sdíleného na Redditu (cituje 9to5Google) přijdou předplatitelé AI Plus od 13. listopadu o výběr modelů Pro v Gemini i AI Mode; termín jim Google oznamuje e-mailem.",
+        "en": "Per an email shared on Reddit (quoted by 9to5Google), AI Plus loses the choice of Pro models in Gemini and AI Mode from November 13; Google emails subscribers their dates."
       },
       "sources": [
         {
           "name": "9to5Google",
           "url": "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/"
+        },
+        {
+          "name": "Google",
+          "url": "https://support.google.com/gemini/answer/17004136?hl=en"
         }
       ],
       "tentative": true
@@ -385,7 +376,7 @@
         "en": "Claude Code drops fast mode for Opus 4.8"
       },
       "note": {
-        "cs": "Podle changelogu Claude Code zanikne 30. listopadu rychlý režim (rychlejší výstup) Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Rychlost zachová přechod na Opus 5.5.",
+        "cs": "Podle changelogu Claude Code zanikne 30. listopadu rychlý režim (rychlejší výstup) Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Přechod na Opus 5.5 rychlost zachová.",
         "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
       },
       "sources": [
@@ -403,8 +394,8 @@
         "en": "AWS re:Invent: cloud and AI conference in Las Vegas"
       },
       "note": {
-        "cs": "AWS re:Invent běží od 30. listopadu do 4. prosince v Las Vegas. Podle pořadatele nabídne přes 2 200 sessionů (přednášek i workshopů); hlavní projevy jdou po bezplatné registraci sledovat online.",
-        "en": "AWS re:Invent runs November 30 to December 4 in Las Vegas. The organizer lists over 2,200 sessions (talks, workshops, and more); keynotes can be watched online after free registration."
+        "cs": "AWS re:Invent běží od 30. listopadu do 4. prosince v Las Vegas. Podle pořadatele jdou hlavní projevy po bezplatné registraci sledovat online.",
+        "en": "AWS re:Invent runs November 30 to December 4 in Las Vegas. The organizer says keynotes can be watched online after free registration."
       },
       "sources": [
         {
@@ -421,8 +412,8 @@
         "en": "NVIDIA GTC Washington: Jensen Huang’s keynote"
       },
       "note": {
-        "cs": "Konference GTC ve Washingtonu běží od 30. listopadu do 3. prosince; keynote Jensena Huanga je 1. prosince ve 14:00 východního času (20:00 našeho). Program: otevřené modely, AI továrny, fyzická AI.",
-        "en": "GTC in Washington runs November 30 to December 3; Jensen Huang’s keynote is December 1 at 2 p.m. Eastern (8 p.m. Prague). Topics: open models, AI factories, physical AI."
+        "cs": "Konference GTC ve Washingtonu běží od 30. listopadu do 3. prosince; keynote Jensena Huanga je 1. prosince ve 14:00 východního času (20:00 našeho času).",
+        "en": "GTC in Washington runs November 30 to December 3; Jensen Huang’s keynote is December 1 at 2 p.m. Eastern (8 p.m. Prague time)."
       },
       "sources": [
         {
@@ -439,8 +430,8 @@
         "en": "EU: companies must meet nudifier-app ban by December 2"
       },
       "note": {
-        "cs": "Podle Evropského parlamentu platí od 2. prosince 2026 zákaz AI aplikací na „svlékání“ lidí a u systémů uvedených na trh před 2. srpnem 2026 i strojově čitelné označování AI obsahu.",
-        "en": "Per the European Parliament, the ban on “nudifier” apps applies from December 2, 2026, as does machine-readable labeling of AI content for systems on the market before August 2."
+        "cs": "Podle Evropského parlamentu mají firmy do 2. prosince 2026 splnit zákaz aplikací na „svlékání“; pak platí i strojově čitelné označování AI obsahu u systémů z trhu před 2. srpnem 2026.",
+        "en": "Per the European Parliament, companies have until December 2, 2026 to comply with the “nudifier” app ban; machine-readable AI labeling then applies to systems on the market before August 2."
       },
       "sources": [
         {
