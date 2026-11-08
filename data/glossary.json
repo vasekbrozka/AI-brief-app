@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "terms": [
     {
       "id": "quantization",
@@ -1308,6 +1308,54 @@
       "short": {
         "cs": "Vývojové prostředí: aplikace, ve které programátor píše, spouští a ladí kód. Obsahuje editor, nástroje i AI asistenty, například Cursor nebo VS Code.",
         "en": "Integrated development environment: the app where a programmer writes, runs, and debugs code. It bundles an editor, tools, and AI assistants, for example Cursor or VS Code."
+      }
+    },
+    {
+      "id": "copilot-cowork",
+      "term": {
+        "cs": "Copilot Cowork (Microsoft)",
+        "en": "Copilot Cowork (Microsoft)"
+      },
+      "aliases": [
+        "Copilot Cowork"
+      ],
+      "short": {
+        "cs": "Agent v Microsoft 365 Copilot, který převezme vícekrokový úkol a dělá ho za tebe; u citlivých kroků čeká na tvůj souhlas. Nezaměňuj s Claude Cowork od Anthropicu.",
+        "en": "An agent in Microsoft 365 Copilot that takes on a multi-step task for you and waits for your approval on sensitive steps. Not to be confused with Anthropic’s Claude Cowork."
+      }
+    },
+    {
+      "id": "exploit",
+      "term": {
+        "cs": "Exploit",
+        "en": "Exploit"
+      },
+      "aliases": [
+        "exploit",
+        "exploity",
+        "exploitů",
+        "exploitem",
+        "exploitu",
+        "exploits"
+      ],
+      "short": {
+        "cs": "Kód nebo postup, který zneužije chybu (zranitelnost) v softwaru, třeba aby útočník získal vyšší oprávnění. Výzkumníci jím ověřují, že je chyba opravdu nebezpečná.",
+        "en": "Code or a technique that abuses a flaw (vulnerability) in software, for example to gain higher privileges. Researchers use exploits to prove a flaw is really dangerous."
+      }
+    },
+    {
+      "id": "cve",
+      "term": {
+        "cs": "CVE (číslo známé chyby)",
+        "en": "CVE (known-flaw ID)"
+      },
+      "aliases": [
+        "CVE",
+        "CVEs"
+      ],
+      "short": {
+        "cs": "Celosvětový identifikátor veřejně známé bezpečnostní chyby, třeba CVE-2026-12345. Počet CVE v aktualizaci říká, kolik takových chyb oprava uzavřela.",
+        "en": "A worldwide identifier for a publicly known security flaw, such as CVE-2026-12345. The number of CVEs in an update tells how many such flaws it closed."
       }
     }
   ]

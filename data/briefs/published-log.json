@@ -271,21 +271,6 @@
       "topic": "tip: Copilot mobile od konce srpna vytvoří z popsané myšlenky hotový návrh e-mailu přímo v Outlooku (rollout polovina srpna-září)"
     },
     {
-      "slug": "2026-09-08-insilico-rentosertib-aging-reversal",
-      "date": "2026-09-08",
-      "topic": "Insilico Medicine 7.9. v Nature Biotechnology: rentosertib (AI-navržený lék na plicní fibrózu z Pharma.AI) u 42 pacientů snížil biologický věk podle 6 hodin stárnutí — první AI cíl i molekula zároveň"
-    },
-    {
-      "slug": "2026-09-08-tip-chatgpt-restaurant-reservations",
-      "date": "2026-09-08",
-      "topic": "tip: ChatGPT od 10.8. rezervuje stůl v restauraci přes OpenTable/Resy/Yelp přímo v konverzaci"
-    },
-    {
-      "slug": "2026-09-08-tip-gemini-spark-photos",
-      "date": "2026-09-08",
-      "topic": "tip: Gemini Spark od 3.9. spravuje Fotky Google (vyhledávání, třídění, úpravy, alba, sdílení) — Google AI Pro/Ultra USA"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -2194,7 +2179,57 @@
       "slug": "2026-11-07-tip-raycast-dictate-to-ai",
       "date": "2026-11-07",
       "topic": "tip: Raycast 2.11 pro Mac (4. 11.) — Dictate to AI: diktát + kontext z aktivní aplikace (jde vypnout v nastavení příkazu), zkratka např. Control + A; rozšíření Dictation a Contacts; tarif zdroje neuvádějí — z kandidátů (vyšlo dnes)"
+    },
+    {
+      "slug": "2026-11-08-metr-anthropic-ai-rd-acceleration",
+      "date": "2026-11-08",
+      "topic": "METR 5. 11. (metr.org, The Verge; AP při průzkumu): posudek z hodnocení uvnitř Anthropicu (12. 8.–29. 10.) — schopnosti modelů rostou ≈2× rychleji než před říjnem 2025 (AECI 1,9×, interval 1,5–2,8×), podle odhadu METR z ≈80 % kvůli využití AI ve výzkumu; většina klíčových důkazů ve veřejné verzi vyškrtnuta (Anthropic: obchodní tajemství, vlastní zpráva za pár týdnů); navazuje na 2026-11-03-anthropic-amended-s1-rsi-warning — highlight"
+    },
+    {
+      "slug": "2026-11-08-openai-linux-kernel-ai-pipeline",
+      "date": "2026-11-08",
+      "topic": "OpenAI 4. 11. (zpráva A thousand fewer paths to root; CSO Online, Help Net Security): automatický systém v říjnu našel a funkčními exploity ověřil 948 zranitelností v jádře Linuxu (lokální eskalace práv na root), 1 213 430 USD v API, lidé kontrolují před nahlášením; před nahlášením 61 opraveno, 43 s opravou, 299 se veřejně řeší; navazuje na Patch the Planet"
+    },
+    {
+      "slug": "2026-11-08-microsoft-windows-ai-vulnerability-management",
+      "date": "2026-11-08",
+      "topic": "Microsoft 5. 11. (blog Windows): AI (agentní skener MDASH) při hledání, ověřování a opravách zranitelností; říjnová aktualizace Windows opravila přes 1 100 CVE; útočníci mohou z vydané opravy odvodit exploit během hodin — aktualizovat hned"
+    },
+    {
+      "slug": "2026-11-08-microsoft-copilot-claude-eu-data-boundary",
+      "date": "2026-11-08",
+      "topic": "Microsoft 5. 11. (blog Copilot): modely Claude v Copilotu (vč. Copilot Cowork) do konce roku 2026 se zpracováním v EU Data Boundary pro EU a EFTA; v EU/EFTA výchozí stav vypnuto, správce zapne v admin centru; zákaznická data se k učení modelů nepoužívají"
+    },
+    {
+      "slug": "2026-11-08-anthropic-claude-max-usage-lawsuit-ruling",
+      "date": "2026-11-08",
+      "topic": "Podle The Next Web (cituje Courthouse News) 6. 11.: soudce Tse nechal v Kahn v. Anthropic pokračovat nároky z nedbalostního uvedení v omyl a porušení smlouvy kvůli slibu 5× / 20× u Claude Max (věrohodně zavádějící; jen úvodní fáze, nic nedokazuje); jiné nároky zamítnuty; násobek platí za pětihodinovou relaci; tarify přejmenovány na Max a Ultra — verified:false"
+    },
+    {
+      "slug": "2026-11-08-bbc-ai-toy-self-harm-reply",
+      "date": "2026-11-08",
+      "topic": "BBC 5. 11. (přes The Next Web): AI plyšák My Baby Bunny (zařízení Doubao, 75 £, od 3 let) odpověděl na dotaz o slově „sexual“ krizovou větou o sebepoškození; výrobce neznámý; druhá hračka Grem (Curio) citlivé otázky směrovala k dospělým; britští poslanci a lordi 3. 11. žádají stažení AI hraček do nezávislých testů — verified:false"
+    },
+    {
+      "slug": "2026-11-08-tip-m365-copilot-cowork-local-edge",
+      "date": "2026-11-08",
+      "topic": "tip: Microsoft Copilot Cowork na webu používá lokální Edge (poznámky k vydání M365 Copilot z 4. 11.; prochází stránky, sbírá informace, vyplňuje formuláře i na přihlášených webech; přihlašovací údaje a cookies zůstávají v zařízení) — nový"
+    },
+    {
+      "slug": "2026-11-08-tip-openai-live-api-outbound-sip",
+      "date": "2026-11-08",
+      "topic": "tip: OpenAI Live API — odchozí volání přes SIP pro všechny organizace (2. 11.; GPT-Live; POST /v1/live/sessions s transportem sip; trunk na sip.api.openai.com, pro EU sip-eu; DTMF, přepojení, zavěšení přes sideband) — nový"
+    },
+    {
+      "slug": "2026-11-08-tip-claude-code-tasks-earlier-subagents",
+      "date": "2026-11-08",
+      "topic": "tip: Claude Code 2.1.319 (6. 11.) — /tasks má řádek Earlier in this session s dokončenými subagenty, jdou znovu otevřít a psát jim; doba uchování v poznámkách neuvedena — nový"
+    },
+    {
+      "slug": "2026-11-08-tip-perplexity-mac-voice-mode-gpt-live",
+      "date": "2026-11-08",
+      "topic": "tip: Perplexity — hlasový režim (changelog 6. 11.; gpt-live-1; Projekty, otevírání výsledků, úlohy Computeru; desktopový web a Mac, Pro a Max) — z banky"
     }
   ],
-  "updated": "2026-11-07T03:59:01Z"
+  "updated": "2026-11-08T03:28:00Z"
 }

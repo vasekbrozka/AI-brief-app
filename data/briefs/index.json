@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-07T03:59:01Z",
+  "updated": "2026-11-08T03:28:00Z",
   "briefs": [
+    {
+      "date": "2026-11-08",
+      "headline": {
+        "cs": "METR: schopnosti modelů Anthropicu rostou zhruba dvakrát rychleji",
+        "en": "METR: Anthropic’s models are improving about twice as fast"
+      },
+      "itemCount": 10
+    },
     {
       "date": "2026-11-07",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Elvis Presley rights holders sue Anthropic"
       },
       "itemCount": 11
-    },
-    {
-      "date": "2026-10-25",
-      "headline": {
-        "cs": "Británie zřídí AI laboratoř proti biologickým hrozbám",
-        "en": "UK to set up AI Biosecurity Lab with £100m"
-      },
-      "itemCount": 10
     }
   ]
 }

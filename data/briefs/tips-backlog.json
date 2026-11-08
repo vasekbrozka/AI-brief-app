@@ -1,32 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-chatgpt-unlimited-free",
-      "category": "tools",
-      "theme": "chatgpt",
-      "verified": true,
-      "title": {
-        "cs": "ChatGPT ruší limity na psaní i v bezplatném plánu",
-        "en": "ChatGPT drops chat limits, including on the free plan"
-      },
-      "summary": {
-        "cs": "V ChatGPT padají limity na textové chatování, a to i v bezplatném plánu — omezení zůstávají u souborů, obrázků a hlasu. Zdarma navíc dostaneš model GPT-5.6 Luna a tlačítko Think na těžší otázky. OpenAI to oznámilo 6. srpna, neomezené psaní se zapíná až teď.",
-        "en": "ChatGPT is dropping its limits on text chats, including on the free plan — limits stay on files, images, and voice. Free users also get the GPT-5.6 Luna model and a Think button for harder questions. OpenAI announced it on August 6 and unlimited chats switch on now."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/"
-        }
-      ],
-      "added": "2026-08-09",
-      "used": "2026-08-09"
-    },
-    {
       "slug": "tip-claude-cowork-one-home",
       "category": "tools",
       "theme": "claude",
@@ -4216,12 +4190,12 @@
         "en": "Perplexity’s voice mode manages Projects and starts Computer tasks"
       },
       "summary": {
-        "cs": "Perplexity v changelogu z 6. listopadu uvádí hlasový režim, ve kterém bez rukou procházíš Perplexity, otevíráš výsledky, spravuješ Projekty a spouštíš úlohy Computeru. Běží na modelu OpenAI gpt-live-1 a je pro předplatitele Pro a Max na desktopovém webu a v aplikaci pro Mac.",
-        "en": "Perplexity’s November 6 changelog describes a voice mode for working hands-free: navigate Perplexity, open assets, manage Projects, and start Computer tasks. It runs on OpenAI’s gpt-live-1 and is available to Pro and Max subscribers on desktop web and in the Mac app."
+        "cs": "Perplexity v changelogu z 6. listopadu uvádí hlasový režim, ve kterém bez rukou procházíš Perplexity, otevíráš výsledky, spravuješ Projekty a spouštíš úlohy svého agenta Computer. Běží na modelu OpenAI gpt-live-1 a je pro předplatitele Pro a Max na desktopovém webu a v aplikaci pro Mac.",
+        "en": "Perplexity’s November 6 changelog describes a voice mode for working hands-free: navigate Perplexity, open results, manage Projects, and start tasks for its Computer agent. It runs on OpenAI’s gpt-live-1 and is available to Pro and Max subscribers on desktop web and in the Mac app."
       },
       "why": {
-        "cs": "Zkus zadání jako „Vytvoř úlohu Computeru, která porovná tři dodavatele a uloží výsledek do tohoto Projektu.“ Funguje jen na desktopovém webu a v aplikaci pro Mac, ne na mobilu.",
-        "en": "Try a request like “Create a Computer task to compare these three vendors and save the results to this Project.” It works only on desktop web and in the Mac app, not on mobile."
+        "cs": "Zkus zadání jako „Vytvoř úlohu Computeru, která porovná tři dodavatele a uloží výsledek do tohoto Projektu.“ Zdroj uvádí jen desktopový web a aplikaci pro Mac, mobil nezmiňuje.",
+        "en": "Try a request like “Create a Computer task to compare these three vendors and save the results to this Project.” The source names only desktop web and the Mac app; it does not mention mobile."
       },
       "sources": [
         {
@@ -4230,7 +4204,7 @@
         }
       ],
       "added": "2026-10-29",
-      "used": null
+      "used": "2026-11-08"
     },
     {
       "slug": "tip-codex-cloud-reusable-environments",
@@ -5242,6 +5216,145 @@
         }
       ],
       "added": "2026-11-07",
+      "used": null
+    },
+    {
+      "slug": "tip-m365-copilot-cowork-local-edge",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-11-08",
+      "verified": true,
+      "eventDate": "2026-11-04",
+      "title": {
+        "cs": "Copilot Cowork od Microsoftu umí pracovat v tvém Edge",
+        "en": "Microsoft’s Copilot Cowork can now work in your local Edge"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání Microsoft 365 Copilot z 4. listopadu uvádí, že Copilot Cowork na webu umí při úkolu vyžadujícím prohlížeč použít Edge na tvém zařízení: v samostatné kartě prochází stránky, sbírá informace a vyplňuje formuláře, i tam, kde jsi přihlášený. Přihlašovací údaje a cookies zůstávají v zařízení.",
+        "en": "Microsoft’s November 4 Microsoft 365 Copilot release notes say Copilot Cowork on the web can use Edge on your device for browser tasks: in a separate tab it browses, gathers information, and fills in forms, even on sites where you are signed in. Credentials and cookies stay on your device."
+      },
+      "why": {
+        "cs": "Otevři Copilot Cowork na webu v Edge a zadej úkol, který potřebuje prohlížeč, třeba sběr informací z webu nebo vyplnění podporovaného formuláře. Průběh sleduješ v konverzaci a u citlivých kroků schvaluješ nebo přebíráš řízení.",
+        "en": "In Edge, open Copilot Cowork on the web and give it a browser task, such as gathering information or filling in a form. You follow it in chat and approve or take over when asked."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "used": "2026-11-08"
+    },
+    {
+      "slug": "tip-openai-live-api-outbound-sip",
+      "category": "tools",
+      "theme": "chatgpt",
+      "added": "2026-11-08",
+      "verified": true,
+      "eventDate": "2026-11-02",
+      "title": {
+        "cs": "OpenAI Live API: GPT-Live teď umí volat na telefonní čísla",
+        "en": "OpenAI Live API: GPT-Live can now call phone numbers"
+      },
+      "summary": {
+        "cs": "OpenAI 2. listopadu zpřístupnila všem organizacím odchozí volání přes SIP v Live API: hlasový model GPT-Live zavolá na telefonní číslo přes tvého poskytovatele SIP trunku, třeba Twilio. Hovor založíš žádostí POST /v1/live/sessions s transportem sip; číslo i trunk obstaráš u poskytovatele sám.",
+        "en": "On November 2, OpenAI made outbound SIP calling available to all organizations in the Live API: the GPT-Live voice model dials a phone number through your SIP trunk provider, such as Twilio. You place a call with POST /v1/live/sessions using the sip transport; you get the number and trunk from your provider."
+      },
+      "why": {
+        "cs": "Pro vývojáře: nasměruj trunk u poskytovatele na sip:ID_PROJEKTU@sip.api.openai.com (pro data v EU sip-eu.api.openai.com); hovor pak řídíš přes boční WebSocket: DTMF, přepojení, zavěšení. Návod je v SIP guide.",
+        "en": "For developers: point your provider’s trunk at sip:PROJECT_ID@sip.api.openai.com (sip-eu.api.openai.com for EU data); you then control the call over a sideband WebSocket: DTMF, transfer, hangup. See the SIP guide."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/api/docs/changelog"
+        },
+        {
+          "name": "OpenAI (návod)",
+          "url": "https://learn.chatgpt.com/api/docs/guides/voice-sip?api=live"
+        }
+      ],
+      "used": "2026-11-08"
+    },
+    {
+      "slug": "tip-claude-code-tasks-earlier-subagents",
+      "category": "tools",
+      "theme": "claude",
+      "added": "2026-11-08",
+      "verified": true,
+      "eventDate": "2026-11-06",
+      "title": {
+        "cs": "Claude Code: dokončené subagenty znovu otevřeš v /tasks",
+        "en": "Claude Code: reopen finished subagents from /tasks"
+      },
+      "summary": {
+        "cs": "Claude Code 2.1.319 (6. listopadu) přidal do /tasks řádek „Earlier in this session“ se seznamem dokončených subagentů. Subagenta lze znovu otevřít a napsat mu, i když zmizel ze seznamu nebo jsi Claude Code restartoval. Nainstalovanou verzi zjistíš příkazem claude --version.",
+        "en": "Claude Code 2.1.319 (November 6) added an “Earlier in this session” row to /tasks that lists finished subagents. You can reopen a subagent and message it even after it leaves the list or you restart Claude Code. Check your installed version with claude --version."
+      },
+      "why": {
+        "cs": "Spusť /tasks, vyber řádek Earlier in this session a otevři subagenta. Poznámky k vydání neuvádějí, jak dlouho se záznamy drží, takže si to ověř na vlastní relaci.",
+        "en": "Run /tasks, pick the Earlier in this session row, and open a subagent. The release notes do not say how long entries are kept, so try it in your own session."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "used": "2026-11-08"
+    },
+    {
+      "slug": "tip-m365-copilot-excel-navigate-changes",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-04",
+      "title": {
+        "cs": "Copilot v Excelu odkáže přímo na místa, která změnil",
+        "en": "Copilot in Excel links straight to the cells it changed"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání Microsoft 365 Copilot z 4. listopadu uvádí, že odpověď Copilota v Excelu nově obsahuje odkazy, které zvýrazní místa změn v sešitu: nové listy, tabulky, oblasti buněk i objekty jako grafy a tvary. Funkce je označená pro Windows, web a Mac.",
+        "en": "Microsoft’s November 4 Microsoft 365 Copilot release notes say Copilot’s reply in Excel now includes links that highlight where it changed your workbook: new sheets, tables, ranges, and objects such as charts and shapes. The feature is listed for Windows, web, and Mac."
+      },
+      "why": {
+        "cs": "V Excelu pošli Copilotovi zadání, které sešit změní, a v odpovědi klikni na zvýrazněný odkaz. Licenci poznámky neuvádějí.",
+        "en": "In Excel, send Copilot a prompt that changes the workbook and click the highlighted link in its reply. The release notes do not name a license."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "added": "2026-11-08",
+      "used": null
+    },
+    {
+      "slug": "tip-github-copilot-code-review-feedback-reasons",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-06",
+      "title": {
+        "cs": "Copilot code review: k 👎 u přehledu teď dáš důvod",
+        "en": "Copilot code review: you can now give a reason with a 👎"
+      },
+      "summary": {
+        "cs": "GitHub 6. listopadu aktualizoval Copilot code review: přehledový komentář je kompaktnější, přeskočené a vyloučené soubory jsou v jedné sekci „Files not reviewed“ a relace ukazují spotřebované kredity AI. Nastavení jde spravovat přes REST a GraphQL API. Platí pro Copilot Pro, Pro+, Max, Business a Enterprise.",
+        "en": "On November 6, GitHub updated Copilot code review: the overview comment is more compact, skipped and content-excluded files share one “Files not reviewed” section, and review sessions show the AI credits used. Settings can be managed through the REST and GraphQL APIs. For Copilot Pro, Pro+, Max, Business, and Enterprise."
+      },
+      "why": {
+        "cs": "Dej přehledu 👎, zvol Add a reason a vyber hlavní problém, třeba příliš upovídaný komentář nebo nesprávné nálezy; GitHub tím zlepšuje nálezy. Nastavení přes API řeší správci.",
+        "en": "Give an overview a 👎, choose Add a reason, and pick the main problem, such as a too-verbose comment or incorrect findings; GitHub uses this to improve findings. Admins handle the API settings."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates"
+        }
+      ],
+      "added": "2026-11-08",
       "used": null
     }
   ]
