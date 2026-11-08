@@ -1101,7 +1101,9 @@
         "subagentů",
         "subagenty",
         "subagentem",
-        "subagents"
+        "subagents",
+        "subagenta",
+        "subagentovi"
       ],
       "short": {
         "cs": "Menší AI agent, kterého hlavní agent pověří dílčím úkolem, třeba prohledat kód nebo ověřit výsledek. Běží vedle hlavního agenta a vrací mu jen shrnutí své práce.",

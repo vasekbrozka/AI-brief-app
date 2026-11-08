@@ -2,8 +2,8 @@
   "date": "2026-11-08",
   "sample": false,
   "headline": {
-    "cs": "METR: schopnosti modelů Anthropicu rostou zhruba dvakrát rychleji",
-    "en": "METR: Anthropic’s models are improving about twice as fast"
+    "cs": "METR: modely Anthropicu se zřejmě zlepšují zhruba dvakrát rychleji",
+    "en": "METR: Anthropic’s models likely improve about twice as fast"
   },
   "items": [
     {
@@ -14,16 +14,16 @@
       "verified": true,
       "eventDate": "2026-11-05",
       "title": {
-        "cs": "METR: schopnosti modelů Anthropicu rostou zhruba dvakrát rychleji",
-        "en": "METR: Anthropic’s models are improving about twice as fast"
+        "cs": "METR: modely Anthropicu se zřejmě zlepšují zhruba dvakrát rychleji",
+        "en": "METR: Anthropic’s models likely improve about twice as fast"
       },
       "summary": {
-        "cs": "METR, nezisková organizace hodnotící rizika AI, 5. listopadu zveřejnila posudek z hodnocení uvnitř Anthropicu (12. 8.–29. 10.): schopnosti jeho modelů se podle něj od října 2025 zlepšují zhruba dvakrát rychleji, s velkou nejistotou, a většinu zrychlení nejspíš způsobuje využití AI ve výzkumu samotném. Anthropic z veřejné verze vyškrtl většinu klíčových důkazů.",
-        "en": "METR, a nonprofit AI-risk evaluator, published an assessment on November 5 from a review inside Anthropic (August 12–October 29): the company’s model capabilities have improved about twice as fast since October 2025, with high uncertainty, mostly thanks to AI used in its own research. Anthropic redacted most of the key evidence from the public version."
+        "cs": "METR, nezisková organizace hodnotící rizika AI, 5. listopadu zveřejnila posudek z hodnocení uvnitř Anthropicu (od 12. srpna do 29. října): u jasně zadaných úloh se jeho modely zlepšují zřejmě dvakrát rychleji než od března 2024 do října 2025, s velkou nejistotou. Většinu zrychlení nejspíš způsobuje AI, kterou Anthropic používá při vývoji.",
+        "en": "METR, a nonprofit AI-risk evaluator, published an assessment on November 5 from a review inside Anthropic (August 12 to October 29): on well-specified tasks its models likely improve about twice as fast as between March 2024 and October 2025, with high uncertainty. Most of the speedup is probably due to AI Anthropic uses in development."
       },
       "why": {
-        "cs": "Nezávislý pohled dovnitř laboratoře: jak AI urychluje vlastní vývoj. Škrty Anthropic hájí obchodním tajemstvím a vlastní zprávu slibuje „v příštích týdnech“ (The Verge); METR přiznává, že veřejnost se musí víc spoléhat na jeho úsudek.",
-        "en": "A look inside a lab at AI speeding up its own development. Anthropic cites trade secrets for the redactions and promises a report soon (The Verge); METR says the public must rely on its judgment."
+        "cs": "Anthropic vyškrtl většinu klíčových důkazů jako obchodně citlivé a vlastní zprávu slibuje „v příštích týdnech“ (The Verge). METR přiznává, že se veřejnost musí víc spoléhat na jeho úsudek, než by bylo ideální.",
+        "en": "Anthropic redacted most key evidence as commercially sensitive and promises its own report in the coming weeks (The Verge). METR admits the public must rely on its judgment more than would be ideal."
       },
       "sources": [
         {
@@ -51,16 +51,16 @@
       "verified": true,
       "eventDate": "2026-11-04",
       "title": {
-        "cs": "OpenAI: AI našla 948 zranitelností v jádře Linuxu",
-        "en": "OpenAI: AI found 948 vulnerabilities in the Linux kernel"
+        "cs": "OpenAI: AI našla v jádře Linuxu 948 chyb dávajících práva správce",
+        "en": "OpenAI: AI found 948 Linux kernel flaws that give root access"
       },
       "summary": {
-        "cs": "OpenAI 4. listopadu popsala říjnový pokus: její automatický systém našel v jádře Linuxu a funkčními exploity ověřil 948 různých zranitelností, které běžnému uživateli dávají práva správce (root), a navrhl k nim opravy. Běh stál asi 1,2 mil. USD v API; lidé výsledky před nahlášením kontrolují (podle CSO Online).",
-        "en": "On November 4, OpenAI described an October experiment: its automated system found 948 distinct vulnerabilities in the Linux kernel that give an ordinary user root access, confirmed each with a working exploit, and drafted fixes. The run cost about $1.2 million in API credits; humans review results before reporting (per CSO Online)."
+        "cs": "OpenAI 4. listopadu popsala říjnový pokus: její automatický systém na dosud nevydaném modelu našel v jádře Linuxu a funkčními exploity ověřil 948 různých zranitelností, které uživateli s běžným účtem dávají práva správce (root), a navrhl k nim opravy. Běh stál asi 1,2 mil. USD za využití API.",
+        "en": "On November 4, OpenAI described an October experiment: its automated system, running on an unreleased model, found 948 distinct Linux kernel vulnerabilities that give an ordinary user root access, confirmed each with a working exploit, and drafted fixes. The run cost about $1.2 million in API credits."
       },
       "why": {
-        "cs": "Před nahlášením OpenAI bylo 61 chyb opraveno v hlavní větvi Linuxu, 43 mělo opravu v přípravě a 299 se veřejně řešilo (CSO Online). IDC vidí riziko hlavně v tom, jak dlouho oprava putuje do distribucí.",
-        "en": "Before OpenAI reported them, 61 flaws were patched upstream, 43 had staging patches, and 299 were under public discussion (CSO Online). IDC sees the main risk in how long fixes take to reach Linux distributions."
+        "cs": "Výsledky před nahlášením podle OpenAI kontrolují lidé. Už během běhu bylo 61 chyb opraveno v hlavním kódu Linuxu, u 43 existovala oprava v přípravě a 299 se veřejně řešilo; úplný rozpis chybí (CSO Online).",
+        "en": "Humans review results before reporting, OpenAI says. During the run, 61 flaws were already patched in mainline Linux, 43 had staged patches, and 299 were under public discussion; no full breakdown was given (CSO Online)."
       },
       "sources": [
         {
@@ -70,6 +70,10 @@
         {
           "name": "CSO Online",
           "url": "https://www.csoonline.com/article/4245265/openai-built-an-ai-pipeline-to-find-exploit-and-patch-linux-flaws.html"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/05/openai-linux-kernel-root-exploits/"
         }
       ]
     },
@@ -84,12 +88,12 @@
         "en": "Microsoft: October Windows update fixed over 1,100 flaws"
       },
       "summary": {
-        "cs": "Microsoft 5. listopadu na blogu o Windows uvedl, že AI využívá k rychlejšímu hledání, ověřování a opravám zranitelností, například agentním skenerem kódu MDASH. Říjnová měsíční bezpečnostní aktualizace Windows opravila přes 1 100 chyb (CVE); podle firmy to neznamená méně bezpečný systém, ale víc nalezených a uzavřených děr.",
-        "en": "On November 5, Microsoft said on its Windows blog that it uses AI to find, validate, and fix vulnerabilities faster, for example with the agentic code scanner MDASH. October’s monthly Windows security update fixed over 1,100 flaws (CVEs); the company says that means more holes found and closed, not a less secure system."
+        "cs": "Microsoft 5. listopadu na blogu o Windows uvedl, že AI využívá k rychlejšímu hledání, ověřování a opravám zranitelností, například agentním skenerem kódu MDASH. Říjnová aktualizace Windows opravila přes 1 100 chyb (CVE); podle firmy to neznamená horší zabezpečení, ale víc nalezených a uzavřených děr. Kolik jich našla AI, neuvádí.",
+        "en": "On November 5, Microsoft said it uses AI to find, validate, and fix vulnerabilities faster, for example with the agentic code scanner MDASH. October’s Windows update fixed over 1,100 flaws (CVEs); the company says that means more holes found and closed, not worse security. It does not say how many AI found."
       },
       "why": {
-        "cs": "Opravy instaluj co nejdřív: po zveřejnění opravy z ní podle Microsoftu mohou útočníci odvodit exploit už během hodin. Firmám Microsoft radí řadit zařízení podle expozice a měřit ochranu ve dnech od vydání.",
-        "en": "Install fixes promptly: once a fix is public, Microsoft says attackers may derive an exploit from it within hours. For organizations it advises prioritizing devices by exposure and measuring protection in days from release."
+        "cs": "Opravy instaluj co nejdřív: z vydané opravy mohou útočníci podle Microsoftu potenciálně odvodit exploit už během hodin. Firmám radí aktualizovat nejdřív zařízení vystavená internetu a měřit ochranu ve dnech od vydání.",
+        "en": "Install fixes promptly: Microsoft says attackers could potentially derive an exploit from a published fix within hours. It advises organizations to update internet-facing devices first and to measure protection in days from release."
       },
       "sources": [
         {
@@ -105,21 +109,25 @@
       "verified": true,
       "eventDate": "2026-11-05",
       "title": {
-        "cs": "Claude v Microsoft Copilotu bude zpracovávat data uvnitř EU",
-        "en": "Claude in Microsoft Copilot gets EU Data Boundary processing"
+        "cs": "Microsoft: Claude v Copilotu bude do konce roku zpracovávat data v EU",
+        "en": "Microsoft: Claude in Copilot will process data in the EU by year-end"
       },
       "summary": {
-        "cs": "Microsoft 5. listopadu oznámil, že organizace v EU a EFTA budou do konce roku 2026 moci používat modely Claude od Anthropicu v Copilotu, včetně Copilot Cowork, se zpracováním dat uvnitř EU Data Boundary. Kdo Claude v Copilotu používá už dnes, nemusí nic dělat; v EU a EFTA je ale model ve výchozím stavu vypnutý.",
-        "en": "On November 5, Microsoft announced that by the end of 2026 organizations in the EU and EFTA will be able to use Anthropic’s Claude models in Copilot, including Copilot Cowork, with processing inside the EU Data Boundary. Current users need to do nothing; in the EU and EFTA the models are off by default."
+        "cs": "Microsoft 5. listopadu oznámil, že firmy v EU a EFTA budou do konce roku 2026 moci používat modely Claude od Anthropicu v Copilotu, včetně Copilot Cowork, se zpracováním dat uvnitř EU Data Boundary, tedy závazku zpracovávat data v EU a EFTA. Dnes je Claude z něj podle dokumentace Microsoftu vyňatý.",
+        "en": "On November 5, Microsoft announced that by the end of 2026 organizations in the EU and EFTA will be able to use Anthropic’s Claude models in Copilot, including Copilot Cowork, with processing inside the EU Data Boundary, Microsoft’s commitment to process data in the EU and EFTA. Today, Microsoft’s documentation excludes Claude from it."
       },
       "why": {
-        "cs": "Správce Claude zapne v centru pro správu Microsoft 365 pro všechny nebo vybrané skupiny. EU Data Boundary je Microsoftův závazek zpracovávat data v EU a EFTA; zákaznická data se podle něj nepoužívají k učení modelů.",
-        "en": "Admins enable Claude in the Microsoft 365 admin center for everyone or selected groups. The EU Data Boundary is Microsoft’s EU/EFTA data-processing pledge; it says customer data does not train models."
+        "cs": "V EU a EFTA je Claude standardně vypnutý; zapne ho správce v centru pro správu Microsoft 365, kdo ho už zapnul, nemusí nic dělat. Podle Microsoftu se data zákazníků k trénování základních modelů nepoužívají.",
+        "en": "Off by default in the EU and EFTA: an admin enables Claude in the Microsoft 365 admin center; those who already did need do nothing. Microsoft says customer data does not train foundation models."
       },
       "sources": [
         {
           "name": "Microsoft",
           "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/05/bringing-claude-models-in-microsoft-copilot-into-the-eu-data-boundary/"
+        },
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/copilot/implement/connect-to-ai-subprocessor"
         }
       ]
     },
@@ -130,16 +138,16 @@
       "verified": false,
       "eventDate": "2026-11-06",
       "title": {
-        "cs": "Podle The Next Web může žaloba kvůli limitům Claude Max pokračovat",
-        "en": "Claude Max usage lawsuit can proceed, judge rules, per The Next Web"
+        "cs": "Podle The Next Web může část žaloby kvůli limitům Claude Max pokračovat",
+        "en": "Part of Claude Max usage lawsuit can proceed, per The Next Web"
       },
       "summary": {
-        "cs": "Podle The Next Web, které cituje Courthouse News, soudce Alex Tse 6. listopadu nechal v žalobě Kahn v. Anthropic pokračovat nároky z nedbalostního uvedení v omyl a z porušení smlouvy: slib „5× nebo 20× více využití“ u tarifů Max označil za věrohodně zavádějící. Je to jen úvodní fáze, nic nedokazuje; jiné nároky soud zamítl.",
-        "en": "Per The Next Web, citing Courthouse News, Judge Alex Tse on November 6 let claims of negligent misrepresentation and breach of contract proceed in Kahn v. Anthropic, calling the “5x or 20x more usage” promise for Max plans plausibly misleading. The ruling is from an early stage and proves nothing; the court dismissed other claims."
+        "cs": "Podle The Next Web (cituje Courthouse News, rozsudek sama nečetla) soudce Alex Tse 6. listopadu nechal v žalobě Kahn v. Anthropic pokračovat nároky, že Anthropic zákazníky z nedbalosti uvedl v omyl a porušil smlouvu: slib tarifů Max „5× nebo 20× více využití“ než Pro označil za věrohodně zavádějící. Část dalších nároků zamítl.",
+        "en": "Per The Next Web, citing Courthouse News without having read the ruling, Judge Alex Tse on November 6 let claims of negligent misrepresentation and breach of contract proceed in Kahn v. Anthropic, calling the “5x or 20x more usage” than Pro promise for Max plans plausibly misleading. The court dismissed other claims."
       },
       "why": {
-        "cs": "Podle The Next Web platí násobek 5× či 20× pro pětihodinovou relaci, týdenní limity tolik nerostou. Soudce poznamenal, že upřesnění je „o dva odkazy dál“ od prodejní stránky; tarify se přejmenovaly na Max a Ultra.",
-        "en": "Per The Next Web, 5x or 20x applies per five-hour session; weekly limits scale less. The judge noted the clarification sits “two hyperlinks away” from the sales page; the plans were renamed Max and Ultra."
+        "cs": "Podle zprávy platí 5× či 20× jen pro pětihodinovou relaci; žalobci vyčíslili týdenní limit u jednoho modelu na 3,5× a 6× tarifu Pro. Upřesnění je podle soudce „o dva odkazy dál“ od prodejní stránky.",
+        "en": "Per the report, 5x or 20x applies per five-hour session; plaintiffs put weekly limits for one model at about 3.5x and 6x of Pro. The judge: the clarification is “two hyperlinks away” from sales pages."
       },
       "sources": [
         {
@@ -155,46 +163,50 @@
       "verified": false,
       "eventDate": "2026-11-05",
       "title": {
-        "cs": "Podle BBC dal AI plyšák pro tříleté nečekanou odpověď o sebepoškození",
-        "en": "AI plush for three-year-olds gave unprompted self-harm reply, per BBC"
+        "cs": "AI plyšák pro tříleté prý nevyžádaně odpověděl krizovou větou o sebepoškození",
+        "en": "AI plush for three-year-olds reportedly gave a self-harm crisis reply unprompted"
       },
       "summary": {
-        "cs": "Podle BBC (v podání The Next Web) odpověděl AI plyšák My Baby Bunny, který se ve Velké Británii prodává od tří let za 75 liber, na dotaz o významu slova „sexual“ krizovou větou o sebepoškození. BBC test zveřejnila 5. listopadu a nezjistila, kdo hračku vyrábí; druhá hračka, Grem (Curio), citlivé otázky směrovala k dospělým.",
-        "en": "Per the BBC via The Next Web, the AI plush My Baby Bunny, sold in the UK from age three for £75, answered a question about the word “sexual” with a self-harm crisis message. The BBC published its test on November 5 and could not identify the maker; Curio’s Grem steered sensitive questions to adults."
+        "cs": "Podle The Next Web a Kotaku (test BBC z 5. listopadu jsme sami nedohledali) odpověděl AI plyšák My Baby Bunny, určený dětem od tří let, na dotaz o významu slova „sexual“ zřejmě po přeslechnutí radou zavolat záchranku a odejít od předmětů, kterými se lze zranit. BBC nezjistila, kdo hračku vyrábí.",
+        "en": "Per The Next Web and Kotaku (we could not find the BBC’s November 5 test), the AI plush My Baby Bunny, for ages three and up, apparently misheard a question about the word “sexual” and urged calling emergency services and moving away from anything that could hurt. The BBC could not identify the maker."
       },
       "why": {
-        "cs": "Britští poslanci a lordi 3. listopadu napsali ministrům a prodejcům, aby AI hračky stáhli z prodeje do nezávislých testů; v EU už nová pravidla chtějí po výrobcích posouzení rizik pro duševní zdraví (The Next Web).",
-        "en": "UK MPs and peers wrote to ministers and retailers on November 3 asking that AI toys be pulled until independent tests; in the EU, new rules require makers to assess mental-health risks (The Next Web)."
+        "cs": "Britští poslanci a lordi 3. listopadu žádají ministry a prodejce o stažení AI hraček z prodeje do nezávislých testů (Sky News přes The Next Web); v EU už musí výrobci posuzovat rizika pro duševní zdraví.",
+        "en": "UK MPs and peers asked ministers and retailers on November 3 to pull AI toys until independent tests (Sky News via The Next Web); EU makers must already assess mental-health risks of connected toys."
       },
       "sources": [
         {
           "name": "The Next Web",
           "url": "https://thenextweb.com/news/ai-teddy-for-three-year-olds-gave-unprompted-self-harm-reply-bbc-finds"
+        },
+        {
+          "name": "Kotaku",
+          "url": "https://kotaku.com/ai-stuffy-says-i-cant-help-with-killing-you-completely-unprompted-2000754819"
         }
       ]
     },
     {
-      "id": "2026-11-08-tip-m365-copilot-cowork-local-edge",
+      "id": "2026-11-08-tip-github-copilot-code-review-feedback-reasons",
       "kind": "tip",
       "category": "tools",
       "verified": true,
-      "eventDate": "2026-11-04",
+      "eventDate": "2026-11-06",
       "title": {
-        "cs": "Copilot Cowork od Microsoftu umí pracovat v tvém Edge",
-        "en": "Microsoft’s Copilot Cowork can now work in your local Edge"
+        "cs": "GitHub Copilot code review: u 👎 vybereš důvod",
+        "en": "GitHub Copilot code review: a 👎 takes a reason"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání Microsoft 365 Copilot z 4. listopadu uvádí, že Copilot Cowork na webu umí při úkolu vyžadujícím prohlížeč použít Edge na tvém zařízení: v samostatné kartě prochází stránky, sbírá informace a vyplňuje formuláře, i tam, kde jsi přihlášený. Přihlašovací údaje a cookies zůstávají v zařízení.",
-        "en": "Microsoft’s November 4 Microsoft 365 Copilot release notes say Copilot Cowork on the web can use Edge on your device for browser tasks: in a separate tab it browses, gathers information, and fills in forms, even on sites where you are signed in. Credentials and cookies stay on your device."
+        "cs": "GitHub 6. listopadu aktualizoval Copilot code review, tedy kontrolu kódu v pull requestech, kterou dělá AI: přehledový komentář je kompaktnější, přeskočené soubory jsou v sekci „Files not reviewed“ a relace ukazují spotřebované kredity AI. Nastavení jde spravovat přes REST a GraphQL API. Platí pro Copilot Pro, Pro+, Max, Business a Enterprise.",
+        "en": "On November 6, GitHub updated Copilot code review, the AI code check on pull requests: the overview comment is more compact, skipped files share a “Files not reviewed” section, and review sessions show AI credits used. Settings can be managed through the REST and GraphQL APIs. For Copilot Pro, Pro+, Max, Business, and Enterprise."
       },
       "why": {
-        "cs": "Otevři Copilot Cowork na webu v Edge a zadej úkol, který potřebuje prohlížeč, třeba sběr informací z webu nebo vyplnění podporovaného formuláře. Průběh sleduješ v konverzaci a u citlivých kroků schvaluješ nebo přebíráš řízení.",
-        "en": "In Edge, open Copilot Cowork on the web and give it a browser task, such as gathering information or filling in a form. You follow it in chat and approve or take over when asked."
+        "cs": "Dej přehledu 👎, zvol Add a reason a vyber hlavní problém, třeba příliš upovídaný komentář nebo nesprávné nálezy; GitHub tím zlepšuje nálezy. Nastavení přes API řeší správci.",
+        "en": "Give an overview a 👎, choose Add a reason, and pick the main problem, such as a too-verbose comment or incorrect findings; GitHub uses this to improve findings. Admins handle the API settings."
       },
       "sources": [
         {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates"
         }
       ]
     },
@@ -205,16 +217,16 @@
       "verified": true,
       "eventDate": "2026-11-02",
       "title": {
-        "cs": "OpenAI Live API: GPT-Live teď umí volat na telefonní čísla",
-        "en": "OpenAI Live API: GPT-Live can now call phone numbers"
+        "cs": "Pro vývojáře: GPT-Live z OpenAI teď volá na telefonní čísla",
+        "en": "For developers: OpenAI’s GPT-Live can now call phone numbers"
       },
       "summary": {
-        "cs": "OpenAI 2. listopadu zpřístupnila všem organizacím odchozí volání přes SIP v Live API: hlasový model GPT-Live zavolá na telefonní číslo přes tvého poskytovatele SIP trunku, třeba Twilio. Hovor založíš žádostí POST /v1/live/sessions s transportem sip; číslo i trunk obstaráš u poskytovatele sám.",
-        "en": "On November 2, OpenAI made outbound SIP calling available to all organizations in the Live API: the GPT-Live voice model dials a phone number through your SIP trunk provider, such as Twilio. You place a call with POST /v1/live/sessions using the sip transport; you get the number and trunk from your provider."
+        "cs": "OpenAI 2. listopadu zpřístupnila všem organizacím odchozí volání přes SIP v Live API: hlasový model GPT-Live zavolá na telefonní číslo a povede hovor, pokud ho napojíš na poskytovatele SIP (internetové telefonie). Hovor založí požadavek POST /v1/live/sessions s transportem sip.",
+        "en": "On November 2, OpenAI made outbound SIP calling (internet telephony) available to all organizations in the Live API: the GPT-Live voice model dials a phone number and holds the conversation once connected to your SIP provider. A call is created with POST /v1/live/sessions using the sip transport."
       },
       "why": {
-        "cs": "Pro vývojáře: nasměruj trunk u poskytovatele na sip:ID_PROJEKTU@sip.api.openai.com (pro data v EU sip-eu.api.openai.com); hovor pak řídíš přes boční WebSocket: DTMF, přepojení, zavěšení. Návod je v SIP guide.",
-        "en": "For developers: point your provider’s trunk at sip:PROJECT_ID@sip.api.openai.com (sip-eu.api.openai.com for EU data); you then control the call over a sideband WebSocket: DTMF, transfer, hangup. See the SIP guide."
+        "cs": "Pošli cílové číslo (E.164), adresu poskytovatele sips: s digest přihlášením a číslo volajícího; trunk musí umět TLS a SRTP. Klávesy (DTMF) jdou přes boční WebSocket, přepojení a zavěšení přes POST.",
+        "en": "Send the E.164 destination, your provider’s sips: endpoint with digest login, and the caller number; the trunk needs TLS and SRTP. Keypad tones (DTMF) go over a sideband WebSocket; transfer and hangup are POSTs."
       },
       "sources": [
         {
@@ -238,12 +250,12 @@
         "en": "Claude Code: reopen finished subagents from /tasks"
       },
       "summary": {
-        "cs": "Claude Code 2.1.319 (6. listopadu) přidal do /tasks řádek „Earlier in this session“ se seznamem dokončených subagentů. Subagenta lze znovu otevřít a napsat mu, i když zmizel ze seznamu nebo jsi Claude Code restartoval. Nainstalovanou verzi zjistíš příkazem claude --version.",
-        "en": "Claude Code 2.1.319 (November 6) added an “Earlier in this session” row to /tasks that lists finished subagents. You can reopen a subagent and message it even after it leaves the list or you restart Claude Code. Check your installed version with claude --version."
+        "cs": "Claude Code, programátorský nástroj Anthropicu, přidal ve verzi 2.1.319 (6. listopadu) do příkazu /tasks řádek „Earlier in this session“ se seznamem dokončených subagentů. Subagenta lze znovu otevřít a napsat mu, i když zmizel ze seznamu nebo jsi Claude Code restartoval. Verzi zjistíš příkazem claude --version.",
+        "en": "Claude Code, Anthropic’s coding tool, added an “Earlier in this session” row to /tasks in version 2.1.319 (November 6), listing finished subagents. You can reopen a subagent and message it even after it leaves the list or you restart Claude Code. Check your version with claude --version."
       },
       "why": {
-        "cs": "Spusť /tasks, vyber řádek Earlier in this session a otevři subagenta. Poznámky k vydání neuvádějí, jak dlouho se záznamy drží, takže si to ověř na vlastní relaci.",
-        "en": "Run /tasks, pick the Earlier in this session row, and open a subagent. The release notes do not say how long entries are kept, so try it in your own session."
+        "cs": "V Claude Code napiš /tasks, v řádku Earlier in this session vyber dokončeného subagenta a otevři ho. Poznámky k vydání neuvádějí, jak dlouho se záznamy drží, takže to ověř u sebe.",
+        "en": "In Claude Code, run /tasks, pick a finished subagent in the Earlier in this session row, and open it. The release notes do not say how long entries are kept, so check it yourself."
       },
       "sources": [
         {
@@ -259,16 +271,16 @@
       "verified": true,
       "eventDate": "2026-11-06",
       "title": {
-        "cs": "Hlasový režim Perplexity ovládá Projekty a spouští úlohy Computeru",
-        "en": "Perplexity’s voice mode manages Projects and starts Computer tasks"
+        "cs": "Aktualizovaný hlasový režim Perplexity ovládá Projekty a úlohy Computeru",
+        "en": "Perplexity’s updated voice mode manages Projects and Computer tasks"
       },
       "summary": {
-        "cs": "Perplexity v changelogu z 6. listopadu uvádí hlasový režim, ve kterém bez rukou procházíš Perplexity, otevíráš výsledky, spravuješ Projekty a spouštíš úlohy svého agenta Computer. Běží na modelu OpenAI gpt-live-1 a je pro předplatitele Pro a Max na desktopovém webu a v aplikaci pro Mac.",
-        "en": "Perplexity’s November 6 changelog describes a voice mode for working hands-free: navigate Perplexity, open results, manage Projects, and start tasks for its Computer agent. It runs on OpenAI’s gpt-live-1 and is available to Pro and Max subscribers on desktop web and in the Mac app."
+        "cs": "Perplexity v changelogu z 6. listopadu popisuje aktualizovaný hlasový režim, ve kterém bez rukou procházíš Perplexity, otevíráš výsledky, spravuješ Projekty a spouštíš úlohy svého agenta Computer. Běží na hlasovém modelu OpenAI gpt-live-1 a je pro předplatitele Pro a Max na desktopovém webu a v aplikaci pro Mac.",
+        "en": "Perplexity’s November 6 changelog describes an updated voice mode for working hands-free: navigate Perplexity, open results, manage Projects, and start tasks for its Computer agent. It runs on OpenAI’s voice model gpt-live-1 and is available to Pro and Max subscribers on desktop web and in the Mac app."
       },
       "why": {
-        "cs": "Zkus zadání jako „Vytvoř úlohu Computeru, která porovná tři dodavatele a uloží výsledek do tohoto Projektu.“ Zdroj uvádí jen desktopový web a aplikaci pro Mac, mobil nezmiňuje.",
-        "en": "Try a request like “Create a Computer task to compare these three vendors and save the results to this Project.” The source names only desktop web and the Mac app; it does not mention mobile."
+        "cs": "Zkus zadání z changelogu, třeba „Vytvoř úlohu Computeru, která porovná tři dodavatele a uloží výsledek do tohoto Projektu.“ Zdroj uvádí jen desktopový web a aplikaci pro Mac, mobil nezmiňuje.",
+        "en": "Try the changelog’s example: “Create a Computer task to compare these three vendors and save the results to this Project.” The source names only desktop web and the Mac app, not mobile."
       },
       "sources": [
         {
@@ -286,7 +298,7 @@
         "en": "Google AI Plus loses Gemini Pro model choice (per 9to5Google)"
       },
       "note": {
-        "cs": "Podle e-mailu sdíleného na Redditu (cituje 9to5Google) přijdou předplatitelé AI Plus od 13. listopadu o výběr modelů Pro v Gemini i AI Mode; termín jim Google oznamuje e-mailem.",
+        "cs": "Podle e-mailu sdíleného na Redditu (cituje 9to5Google) přijdou předplatitelé AI Plus od 13. listopadu o výběr modelů Pro v Gemini i AI Mode (AI režimu Vyhledávání); termín oznamuje Google e-mailem.",
         "en": "Per an email shared on Reddit (quoted by 9to5Google), AI Plus loses the choice of Pro models in Gemini and AI Mode from November 13; Google emails subscribers their dates."
       },
       "sources": [
@@ -380,8 +392,8 @@
         "en": "NVIDIA GTC Washington: Jensen Huang’s keynote"
       },
       "note": {
-        "cs": "Konference GTC ve Washingtonu běží od 30. listopadu do 3. prosince; keynote Jensena Huanga je 1. prosince ve 14:00 východního času (20:00 našeho času).",
-        "en": "GTC in Washington runs November 30 to December 3; Jensen Huang’s keynote is December 1 at 2 p.m. Eastern (8 p.m. Prague time)."
+        "cs": "Konference GTC ve Washingtonu běží od 30. listopadu do 3. prosince; keynote Jensena Huanga, šéfa NVIDIE, je 1. prosince ve 14:00 východního času (20:00 našeho času).",
+        "en": "GTC in Washington runs November 30 to December 3; keynote by Jensen Huang, NVIDIA’s CEO, is December 1 at 2 p.m. Eastern (8 p.m. Prague time)."
       },
       "sources": [
         {
@@ -398,8 +410,8 @@
         "en": "EU: companies must meet nudifier-app ban by December 2"
       },
       "note": {
-        "cs": "Podle Evropského parlamentu mají firmy do 2. prosince 2026 splnit zákaz aplikací na „svlékání“; pak platí i strojově čitelné označování AI obsahu u systémů z trhu před 2. srpnem 2026.",
-        "en": "Per the European Parliament, companies have until December 2, 2026 to comply with the “nudifier” app ban; machine-readable AI labeling then applies to systems on the market before August 2."
+        "cs": "Podle Evropského parlamentu mají firmy do 2. prosince splnit zákaz aplikací, které AI „svlékají“ lidi bez souhlasu; pak platí označování AI obsahu u systémů uvedených na trh před 2. srpnem.",
+        "en": "Per the European Parliament, companies have until December 2 to comply with the “nudifier” app ban; AI-content labeling then applies to systems placed on the market before August 2."
       },
       "sources": [
         {
@@ -419,8 +431,8 @@
         "en": "Anthropic: threshold for AI-accelerated progress may be near"
       },
       "note": {
-        "cs": "Anthropic v přihlášce k IPO varovala před prahem zrychleného pokroku AI. METR to o dva dny později doplnil posudkem o dvojnásobném tempu.",
-        "en": "Anthropic’s IPO filing warned that AI-accelerated progress may be near. Two days later METR added its assessment of twice the pace."
+        "cs": "Anthropic v přihlášce k IPO varovala před prahem zrychleného pokroku AI. METR to o tři dny později doplnil posudkem o dvojnásobném tempu.",
+        "en": "Anthropic’s IPO filing warned that AI-accelerated progress may be near. Three days later METR added its assessment of twice the pace."
       }
     },
     {
@@ -455,8 +467,8 @@
         "en": "Voters in dozens of US communities restrict data centers"
       },
       "note": {
-        "cs": "Volby ukázaly, že datová centra jsou politické téma: o výstavbě se hlasovalo ve 45 místních referendech. Pak přišly protesty v Evropě.",
-        "en": "The elections showed data centers are a political issue: 45 local referendums decided on construction. Protests in Europe followed."
+        "cs": "Datová centra jsou politické téma: o výstavbě se hlasovalo ve 45 místních referendech, předběžně jich 33 výstavbu omezilo. Pak přišly protesty v Evropě.",
+        "en": "Data centers are a political issue: 45 local referendums decided on construction, and 33 restricted it, preliminarily. Protests in Europe followed."
       }
     },
     {
@@ -467,8 +479,8 @@
         "en": "Google: Gemini and Search off by default for students"
       },
       "note": {
-        "cs": "Google vypne žákům základních a středních škol Gemini i Vyhledávání, dokud je správce školy nezapne; termín nezveřejnil.",
-        "en": "Google will switch off Gemini and Search for K-12 students until a school admin enables them; no date was given."
+        "cs": "Google vypne na školních účtech žáků základních a středních škol Gemini i Vyhledávání, dokud je správce nezapne; termín nezveřejnil.",
+        "en": "Google will switch off Gemini and Search on K-12 student school accounts until a school admin enables them; no date was given."
       }
     },
     {
@@ -479,8 +491,8 @@
         "en": "ChatGPT and Codex will share one limit from December"
       },
       "note": {
-        "cs": "ChatGPT a Codex budou od prosince sdílet jeden limit u tarifů Plus, Pro a Business; OpenAI chce zkusit spojit chat s režimem Work.",
-        "en": "ChatGPT and Codex will share one limit on Plus, Pro, and Business from December; OpenAI plans to test merging chat with Work."
+        "cs": "ChatGPT a Codex (programátorský nástroj OpenAI) budou od prosince sdílet jeden limit u Plus, Pro a Business; OpenAI chce zkusit spojit chat s režimem Work.",
+        "en": "ChatGPT and Codex (OpenAI’s coding tool) will share one limit on Plus, Pro, and Business from December; OpenAI plans to test merging chat with Work."
       }
     }
   ]

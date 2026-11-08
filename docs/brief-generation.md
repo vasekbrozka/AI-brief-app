@@ -324,7 +324,22 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   spusť `grep -i` v logu přes produkt a klíčová slova funkce (např. „Perplexity“ + „lokál“,
   „Notebook“ + „prezentac“) a u položky z changelogu dohledej datum prvního oznámení (blog
   výrobce, starší záznam changelogu); je-li dřívější než záznam v logu, je to duplicita —
-  vyřaď, nebo ji vydej jako navazující jen s tím, co je opravdu nové.
+  vyřaď, nebo ji vydej jako navazující jen s tím, co je opravdu nové; (30) **grep v logu
+  nezná českou morfologii a poznámky k vydání se opakují**: hledání „kopie“ nenašlo
+  „kopiím“ (pravidlo Claude Code proti kopiím her už vyšlo 2. 11. a draft ho nabízel
+  znovu) — před výběrem vytiskni CELÝ seznam titulků zpráv a tipů za posledních 14 dní
+  a porovnej ho očima, grep dělej na kmeny („kopi“). Souhrnné poznámky k vydání
+  Microsoftu (Learn) vypisují tutéž položku ve víc dávkách (Excel „odkazy na změny“:
+  23. 9. i 4. 11.) a stránka „What’s new“ produktu může mít obecnou dostupnost o měsíce
+  dřív (Copilot Cowork v lokálním Edge: Frontier 6/2026, GA 8/2026) — tip z poznámek
+  porovnej s dřívějšími dávkami i s „What’s new“, vítězí datum prvního oznámení;
+  (31) **tip popisuje ten tok, který slibuje titulek, a předpoklady patří do textu**:
+  v návodu OpenAI stála adresa sip:ID_PROJEKTU@… jen u příchozích hovorů, odchozí se
+  zakládají požadavkem s číslem a údaji trunku a přes WebSocket jdou jen klávesy DTMF
+  (přepojení a zavěšení jsou POST); Cowork v Edge chce zapnutý „Cowork Browsing“
+  od správce a Edge 152+. Před psaním kroků do `why` zjisti, z které části návodu
+  pocházejí, a co zdroj dává jako předpoklad (správce, verze, tarif), napiš; tip jen
+  pro vývojáře to řekne v titulku („Pro vývojáře:“).
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.
