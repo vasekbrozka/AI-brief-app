@@ -339,7 +339,20 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   (přepojení a zavěšení jsou POST); Cowork v Edge chce zapnutý „Cowork Browsing“
   od správce a Edge 152+. Před psaním kroků do `why` zjisti, z které části návodu
   pocházejí, a co zdroj dává jako předpoklad (správce, verze, tarif), napiš; tip jen
-  pro vývojáře to řekne v titulku („Pro vývojáře:“).
+  pro vývojáře to řekne v titulku („Pro vývojáře:“); (32) **„zdroj neuvádí X“ ověř na
+  celé stránce a přičítej každé tvrzení tomu, kdo je nese**: u Playgroundu stálo v `why`
+  „zdroj neuvádí dostupnost podle zemí“, ale poslední odstavec blogu říká „USA, od 18 let,
+  rozsah tvorby podle předplatného Google AI“ — před větou „zdroj neuvádí cenu / jazyky /
+  dostupnost / tarif“ projdi celý text zdroje (US, 18, countries, available, plan,
+  subscription) a omezení dostupnosti dej do titulku i shrnutí. Funkce bývá oficiálně
+  popsaná v nápovědě výrobce (NYT Cooking: help.nytimes.com), ne v tiskovém oznámení —
+  před „oznámení jsme nenašli“ hledej v nápovědě a datum vysvětlujícího článku není datum
+  spuštění. Podrobnosti přičti médiu, které je opravdu nese (Ternus, Federighi, iOS 27.3
+  měl jen The Verge, 9to5Mac jen výhled na příští rok), a shodu jmen (Cathedral ×
+  Cathedral Systems) tvrď jen tehdy, když ji říká citovaný zdroj — jinak napiš, že to
+  zdroje výslovně neuvádějí. **Titulek citlivé kauzy stojí na výroku oficiálního aktéra**
+  (rada Nvidie: „cílem zahraniční rozvědky“), ne na tvrzení z memoranda („špiónka“), které
+  patří do těla textu s atribucí.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

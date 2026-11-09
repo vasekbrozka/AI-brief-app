@@ -2203,53 +2203,53 @@
     {
       "slug": "2026-11-09-nvidia-board-investigates-huang-megaspeed",
       "date": "2026-11-09",
-      "topic": "Nvidia 8. 11. (TechCrunch, The Verge): správní rada oznámila nezávislé vyšetřování (nezávislí členové rady s externími právníky) po zprávách, že Jensen Huang byl cílem zahraniční zpravodajské operace; Huang v interním vzkazu přiznal nevěru; podle memoranda kolujícího mezi americkými politiky (TechCrunch) čínská tajná služba naverbovala jeho partnerku, vedoucí pracovnici Megaspeed (zákazník Nvidie, šetřený americkým ministerstvem obchodu pro podezření z pašování čipů do Číny — Verge); rada „nevidí důvod“ domnívat se, že utrpěla bezpečnost státu či tajemství firmy; Nvidia dřív uvedla, že styky nebyly neobvyklé — highlight"
+      "topic": "Nvidia 8. 11. (TechCrunch, The Verge): správní rada oznámila nezávislé vyšetřování (výbor nezávislých členů rady s externími právníky) po zprávách, že Jensen Huang byl cílem zahraniční zpravodajské operace; Huang ve vzkazu firmě přiznal nevěru — podle TechCrunch šlo o bývalou manažerku Megaspeed, kterou podle memoranda kolujícího mezi americkými politiky naverbovala čínská MSS; Megaspeed je zákazník Nvidie a šetří ho americké ministerstvo obchodu kvůli podezření z pašování čipů do Číny (Verge); rada „nevidí důvod“ domnívat se, že byla ohrožena národní bezpečnost ani tajemství NVIDIE; titulek po kontrole stojí na výroku rady (ne na „špiónce“) — highlight"
     },
     {
       "slug": "2026-11-09-doj-super-intelligence-task-force",
       "date": "2026-11-09",
-      "topic": "Ministerstvo spravedlnosti USA 5. 11. (justice.gov, The Next Web, The Register): Super Intelligence Task Force („SI“ = termín administrativy pro AI), vedou ji náměstci ministra Stanley Woodward a Stephen Weiss; chrání vedoucí postavení USA v AI před zneužitím cizími státy, nadnárodními zločineckými organizacemi a firmami i jednotlivci při podvodech; podle TNW (Nextgov) pohlcuje AI Litigation Task Force (žaloby proti státním zákonům o AI); Register: technologický ředitel Pentagonu Emil Michael slíbil podrobnosti o regulaci AI později v listopadu"
+      "topic": "Ministerstvo spravedlnosti USA 5. 11. (justice.gov, The Next Web, The Register): Super Intelligence Task Force („SI“ = termín administrativy pro AI), vedou ji Associate Attorney General Stanley Woodward a Associate Deputy Attorney General Stephen Weiss (v textu jen „dva vysocí úředníci“); chrání americký náskok v AI před zneužitím cizími státy, nadnárodními zločineckými organizacemi a jednotlivci či firmami při podvodech; podle TNW (cituje Nextgov, interní memo z 13. 10.) pohlcuje AI Litigation Task Force (žaloby proti zákonům jednotlivých států USA o AI); Register: technologický ředitel Pentagonu Emil Michael slíbil podrobnosti o regulaci AI později v listopadu"
     },
     {
       "slug": "2026-11-09-xai-grok-api-text-watermark",
       "date": "2026-11-09",
-      "topic": "xAI / SpaceXSI 7. 11. (dokumentace docs.x.ai): výchozí neviditelný statistický vodoznak textu ze sedmi modelů v API (grok-4.7, 4.6, 4.5, 4.3, 4.20 reasoning / non-reasoning / multi-agent); hlavička x-watermark: true; správce týmu vypíná po modelech; detekce na žádost (formulář); důvod soulad s AI Actem EU; jen API, ne aplikace Grok"
+      "topic": "xAI / SpaceXSI (v dokumentaci docs.x.ai; Engadget píše SpaceXAI) od 7. 11.: výchozí neviditelný statistický vodoznak textu ze sedmi modelů v API (grok-4.7, 4.6, 4.5, 4.3, 4.20 reasoning / non-reasoning / multi-agent); hlavička x-watermark: true; správce týmu vypíná po modelech v konzoli, některé modely mohou být zamčené (dotaz u správce, pak support@x.ai); kód měnit nemusíš, kvalitu ani rychlost vodoznak nemění; detekce statistická, přístup na žádost (formulář); důvod podle dokumentace soulad s AI Actem EU; jen API, ne aplikace Grok"
     },
     {
       "slug": "2026-11-09-openai-model-spec-five-values",
       "date": "2026-11-09",
-      "topic": "OpenAI 29. 10. (openai.com/index/updated-model-spec; The Next Web): přepracovaný Model Spec kolem pěti hodnot (věrnost záměru člověka, minimalizace škod, upřímnost a transparentnost, lidská autonomie, péče); většina stylových pravidel zrušena; model nově „GPT“; OpenAI přiznává, že jej modely zatím plně nesplňují (TNW); veřejnost se vyzývá k nesouhlasu — kategorie models (ne policy, kvůli stropu business + policy)"
+      "topic": "OpenAI 29. 10. (openai.com/index/updated-model-spec — 403, potvrzuje RSS; The Next Web): přepracovaný Model Spec kolem pěti hodnot (věrnost záměru člověka, minimalizace škod, upřímnost a transparentnost, lidská autonomie, péče); většinu stylových pravidel ruší (TNW: model nově „GPT“ místo „asistenta“ — z textu vypuštěno); většina pravidel jsou výchozí nastavení měnitelné uživateli i vývojáři; OpenAI přiznává, že její modely Spec zatím plně nesplňují; veřejnost se ptá, s čím v jeho vyvážení nesouhlasí — kategorie models (ne policy, kvůli stropu business + policy)"
     },
     {
       "slug": "2026-11-09-openai-cathedral-security-sprint-bounty",
       "date": "2026-11-09",
-      "topic": "OpenAI 2. 11. (openai.com Preparing our next security sprint to harden OpenAI; The Decoder podle Washington Post): příští interní bezpečnostní sprint s Cathedral Systems (AI testování a posílení obran), vyšší odměny Security Bug Bounty vč. bonusů za kvalitu hlášení, loajalitu a prioritní kampaně; The Decoder: Cathedral dřív pomocí AI agentů pronikla do obchodních systémů Anthropicu (Anthropic: omezená část sales/HR/IT, ne konverzace s Claude, kód ani váhy; Cathedral porušila pravidla programu; Cathedral to odmítá)"
+      "topic": "OpenAI 2. 11. (openai.com: Preparing our next security sprint to harden OpenAI a samostatný příspěvek Rewarding defenders with bigger bug bounties — oba 403, popisy z RSS; The Decoder podle Washington Post): příští interní bezpečnostní sprint s Cathedral Systems (AI testování obran), vyšší odměny Security Bug Bounty vč. bonusů za kvalitu hlášení, věrnost a prioritní kampaně; The Decoder (28. 10.): firma Cathedral pomocí AI agentů pronikla do systémů Anthropicu přes software třetích stran v rámci jeho programu odměn (Anthropic: omezená část sales/HR/IT, ne konverzace s Claude, kód ani váhy; Cathedral porušila pravidla programu; Cathedral: standardní postup) — totožnost Cathedral × Cathedral Systems citované zdroje výslovně neuvádějí (v textu řečeno)"
     },
     {
       "slug": "2026-11-09-apple-agentic-siri-faster-plan",
       "date": "2026-11-09",
-      "topic": "Apple (nepotvrzeno) 8. 11. (The Verge a 9to5Mac podle Gurmana z Bloombergu): CEO John Ternus tlačí na Craiga Federighiho, aby Siri dohnala konkurenční agenty; jemnější ovládání vestavěných aplikací (úpravy fotek, karty v Safari) s iOS 27.3, integrace aplikací třetích stran na jaře, Siri dotahující trvalé úkoly nejdřív příští rok — verified:false (jediný zdroj Gurman)"
+      "topic": "Apple (nepotvrzeno) 8. 11. (The Verge podle Gurmana z Bloombergu; 9to5Mac cituje jen výhled na příští rok): CEO John Ternus tlačí na Craiga Federighiho (šéf AI), aby zrychlil Siri a dohnal konkurenční agenty; jemnější ovládání vestavěných aplikací (otáčení a ořez fotek, třídění karet v Safari) s iOS 27.3, integrace aplikací třetích stran na jaře, Siri vyřizující dlouhodobé úkoly sama už příští rok — verified:false (jediný zdroj Gurman)"
     },
     {
       "slug": "2026-11-09-tip-m365-copilot-excel-navigate-changes",
       "date": "2026-11-09",
-      "topic": "tip: Microsoft 365 Copilot — odpověď v Excelu obsahuje odkazy, které zvýrazní místa změněná Copilotem (nové listy, tabulky, oblasti buněk, grafy a tvary); poprvé v poznámkách k vydání z 23. 9., znovu 4. 11.; Windows, web, Mac; licence neuvedena — z banky"
+      "topic": "tip: Microsoft 365 Copilot — odpověď v Excelu obsahuje odkazy, které zvýrazní místa změněná Copilotem (nové listy, tabulky, oblasti buněk, grafy a tvary); v poznámkách k vydání od 23. 9., znovu 4. 11.; Windows, web, Mac; Applies to: Microsoft 365 Copilot, zavádí se postupně — z banky"
     },
     {
       "slug": "2026-11-09-tip-google-playground-game-from-description",
       "date": "2026-11-09",
-      "topic": "tip: Google Playground (blog Google 7. 10.) — experimentální platforma, hru vytvoříš popisem v konverzaci bez programování (prázdné plátno / vzorové zadání / vedení), sdílení a komunitní galerie, vícehráčové hry a žebříčky; cena, jazyky a dostupnost podle zemí neuvedeny — nový"
+      "topic": "tip: Google Playground (blog Google 7. 10.) — experimentální platforma, hru vytvoříš popisem v konverzaci bez programování (prázdné plátno / vzorová zadání / vedená pomoc), sdílení a komunitní galerie, vícehráčové hry v některých žánrech; spuštěno jen v USA pro uživatele od 18 let, rozsah tvorby podle předplatného Google AI; cena a jazyky neuvedeny — nový"
     },
     {
       "slug": "2026-11-09-tip-nyt-cooking-ai-recipe-customize",
       "date": "2026-11-09",
-      "topic": "tip: NYT Cooking pro iOS (beta, 23. 10.; Wired a The Verge, oznámení NYT nenalezeno) — pole „Customize this recipe…“, AI vytvoří novou verzi se zvýrazněnými změnami a ponechá původní; jen předplatitelé, jen iOS; Verge: málem půl másla v koláči, Wired: absurdní úpravy odmítá — nový, verified:false"
+      "topic": "tip: NYT Cooking pro iOS (beta; nápověda NYT, Wired 8. 11., The Verge 7. 11.; vysvětlující článek NYT 23. 10.) — pole „Customize this recipe…“ nad seznamem surovin, AI vytvoří novou verzi se zvýrazněnými změnami a ponechá původní; jen předplatitelé, jen iOS; NYT: beta, recepty redakce nezkontrolovala; Verge: na dotaz na máslo odpověděl údajem z upravené verze bez označení — nový"
     },
     {
       "slug": "2026-11-09-tip-perplexity-computer-queue-followups",
       "date": "2026-11-09",
-      "topic": "tip: Perplexity Computer — držení následných zpráv do konce kroku (changelog 6. 11.): zprávy poslané za běhu zpracuje Computer jednu po druhé, zapíná se v nastavení Computeru, jen web; ve frontě jde zprávu upravit, smazat nebo poslat hned (Send now); tarify neuvedeny; stejný changelog jako tipy z 7. a 8. 11. — nový"
+      "topic": "tip: Perplexity Computer — držení následných zpráv do konce aktuálního úkolu (changelog 6. 11.): zprávy poslané za běhu zpracuje Computer jednu po druhé, zapíná se v nastavení Computeru, jen web; ve frontě jde zprávu upravit, smazat nebo poslat hned (Send now); tarify neuvedeny; stejný changelog jako tipy z 7. a 8. 11. — nový"
     }
   ],
-  "updated": "2026-11-09T03:31:07Z"
+  "updated": "2026-11-09T04:00:12Z"
 }

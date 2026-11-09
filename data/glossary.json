@@ -932,7 +932,11 @@
         "parametrům",
         "parametrem",
         "parameters",
-        "parameter"
+        "parameter",
+        "váhy modelů",
+        "váhy modelu",
+        "model weights",
+        "weights"
       ],
       "short": {
         "cs": "Čísla uvnitř modelu, která se nastavují při tréninku; čím víc jich je, tím větší a obvykle schopnější (a dražší) model bývá. U směsi expertů se v každém kroku použije jen jejich část (aktivní parametry).",
@@ -1381,17 +1385,38 @@
       }
     },
     {
-      "id": "model-spec",
+      "id": "ai-act",
       "term": {
-        "cs": "Model Spec",
-        "en": "Model Spec"
+        "cs": "AI Act (unijní zákon o AI)",
+        "en": "AI Act (EU AI law)"
       },
       "aliases": [
-        "Model Spec"
+        "AI Act",
+        "AI Actu",
+        "AI Actem",
+        "AI Actů"
       ],
       "short": {
-        "cs": "Veřejný dokument OpenAI, který popisuje, jak se mají její modely chovat: jaké hodnoty a pravidla mají přednost a které chování je jen výchozí nastavení, jež lze změnit.",
-        "en": "OpenAI’s public document describing how its models should behave: which values and rules take priority and which behavior is only a changeable default."
+        "cs": "Unijní zákon o umělé inteligenci. Dělí AI podle rizika, některá použití zakazuje a jiným ukládá povinnosti, třeba označovat obsah vytvořený AI. Zavádí se postupně.",
+        "en": "The EU law on artificial intelligence. It sorts AI by risk, bans some uses, and imposes duties on others, such as labeling AI-made content. It phases in gradually."
+      }
+    },
+    {
+      "id": "changelog",
+      "term": {
+        "cs": "Changelog (seznam změn)",
+        "en": "Changelog"
+      },
+      "aliases": [
+        "changelog",
+        "changelogu",
+        "changelogem",
+        "changelogy",
+        "changelogů"
+      ],
+      "short": {
+        "cs": "Seznam změn, který firma zveřejňuje u svého produktu: co se kdy přidalo, opravilo nebo změnilo.",
+        "en": "A list of changes a company publishes for its product: what was added, fixed, or changed, and when."
       }
     }
   ]

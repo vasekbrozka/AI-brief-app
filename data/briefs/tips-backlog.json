@@ -5266,12 +5266,12 @@
         "en": "Excel Copilot links straight to the cells it changed"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání Microsoft 365 Copilot (poprvé z 23. září, znovu z 4. listopadu) uvádí, že odpověď Copilota v Excelu obsahuje odkazy, které zvýrazní místa změn v sešitu: nové listy, tabulky, oblasti buněk i objekty jako grafy a tvary. Funkce je označená pro Windows, web a Mac.",
-        "en": "Microsoft’s Microsoft 365 Copilot release notes (first September 23, again November 4) say Copilot’s reply in Excel includes links that highlight where it changed your workbook: new sheets, tables, ranges, and objects such as charts and shapes. The feature is listed for Windows, web, and Mac."
+        "cs": "Podle poznámek k vydání Microsoft 365 Copilot (funkce je v nich od 23. září, znovu 4. listopadu) obsahuje odpověď Copilota v Excelu odkazy, které zvýrazní místa změn v sešitu: nové listy, tabulky, oblasti buněk i objekty jako grafy a tvary. Funkce je označená pro Windows, web a Mac.",
+        "en": "Per the Microsoft 365 Copilot release notes (the feature has been listed since September 23, again on November 4), Copilot’s reply in Excel includes links that highlight where it changed your workbook: new sheets, tables, ranges, and objects such as charts and shapes. The feature is listed for Windows, web, and Mac."
       },
       "why": {
-        "cs": "V Excelu pošli Copilotovi zadání, které sešit změní, a v odpovědi klikni na zvýrazněný odkaz. Licenci poznámky neuvádějí.",
-        "en": "In Excel, send Copilot a prompt that changes the workbook and click the highlighted link in its reply. The release notes do not name a license."
+        "cs": "V Excelu pošli Copilotovi zadání, které sešit změní, a v odpovědi klikni na zvýrazněný odkaz. Týká se Microsoft 365 Copilot; zavádí se postupně, takže funkci nemusíš mít hned.",
+        "en": "In Excel, send Copilot a prompt that changes the workbook and click the highlighted link in its reply. It applies to Microsoft 365 Copilot and rolls out gradually, so you may not have it yet."
       },
       "sources": [
         {
@@ -5290,16 +5290,16 @@
       "verified": true,
       "eventDate": "2026-10-07",
       "title": {
-        "cs": "Google Playground: hru postavíš popisem a bez programování",
-        "en": "Google Playground builds a game from a text description"
+        "cs": "Google Playground (zatím jen USA): hru postavíš popisem",
+        "en": "Google Playground (US only) builds games from descriptions"
       },
       "summary": {
-        "cs": "Google 7. října spustil Playground, experimentální platformu, kde hru vytvoříš popisem v konverzaci, bez programování: začneš prázdným plátnem, vzorovým zadáním nebo vedením, hru hned otestuješ a sdílíš s přáteli či publikuješ do komunitní galerie. Blog zmiňuje i vícehráčové hry a žebříčky.",
-        "en": "On October 7, Google launched Playground, an experimental platform where you create a game by describing it in conversation, with no coding: start from a blank canvas, a starter prompt, or guided support, test it instantly, then share it or publish it to a community gallery. The blog also mentions multiplayer and leaderboards."
+        "cs": "Google 7. října spustil v USA pro uživatele od 18 let Playground, experimentální platformu, kde hru vytvoříš popisem v konverzaci, bez programování: začneš prázdným plátnem, vzorovým zadáním nebo s vedenou pomocí, hru hned otestuješ a sdílíš či publikuješ do komunitní galerie. Rozsah tvorby se odstupňuje podle předplatného Google AI.",
+        "en": "On October 7, Google launched Playground, an experimental platform in the US (18+) where you build a game by describing it in conversation, no coding: start from a blank canvas, starter prompts, or guided support, test it, then share or publish it to a gallery. Creation access is tiered by Google AI subscription."
       },
       "why": {
-        "cs": "Otevři playground.google a popiš hru větou; fyziku, pravidla či postavy pak měníš dalšími zadáními. Je to experiment a zdroj neuvádí cenu, jazyky ani dostupnost podle zemí.",
-        "en": "Open playground.google and describe a game in a sentence; change physics, rules, or characters with follow-up prompts. It is an experiment, and the source gives no price, languages, or country availability."
+        "cs": "Otevři playground.google a popiš hru větou; fyziku, pravidla či postavy pak měníš dalšími zadáními. Mimo USA zatím nejde; cenu a jazyky zdroj neuvádí.",
+        "en": "Open playground.google and describe a game in a sentence; change physics, rules, or characters with follow-up prompts. It is not available outside the US yet; the source gives no price or languages."
       },
       "sources": [
         {
@@ -5314,21 +5314,25 @@
       "category": "tools",
       "theme": "other",
       "added": "2026-11-09",
-      "verified": false,
+      "verified": true,
       "eventDate": "2026-10-23",
       "title": {
         "cs": "NYT Cooking: AI přizpůsobí recept tomu, co máš doma",
         "en": "NYT Cooking’s AI adapts recipes to what you have"
       },
       "summary": {
-        "cs": "Podle Wired a The Verge přidal The New York Times 23. října do aplikace NYT Cooking pro iOS beta funkci: pod receptem je pole „Customize this recipe…“, kam napíšeš, co nemáš nebo na co recept upravit. AI vytvoří novou verzi se zvýrazněnými změnami, původní recept zůstane. Je pro předplatitele a zatím jen na iOS.",
-        "en": "Per Wired and The Verge, The New York Times added a beta feature to its NYT Cooking iOS app on October 23: a “Customize this recipe…” field where you type what you lack or how to change the recipe. AI writes a new version with highlighted changes and keeps the original. Subscribers only, iOS only."
+        "cs": "Podle nápovědy NYT, Wired a The Verge má aplikace NYT Cooking pro iOS beta funkci: nad seznamem surovin je pole „Customize this recipe…“, kam napíšeš, co nemáš nebo jak recept upravit. AI vytvoří novou verzi se zvýrazněnými změnami, originál zůstane. NYT ji vysvětlil 23. října; je jen pro předplatitele a jen na iOS.",
+        "en": "Per NYT’s help page, Wired, and The Verge, NYT Cooking’s iOS app has a beta feature: a “Customize this recipe…” field above the ingredients where you type what you lack or how to change it. AI writes a new version with highlighted changes, keeping the original. NYT explained it on October 23; subscribers, iOS only."
       },
       "why": {
-        "cs": "Napiš třeba, že nemáš formu na bábovku. Verge funkci chválí, ale málem prý půl másla v koláči; Wired píše, že nesmyslné úpravy odmítá. Oznámení The New York Times jsme nenašli.",
-        "en": "Try telling it you have no Bundt pan. The Verge praises it but says it almost halved the butter in a cake; Wired says it refuses absurd requests. We found no NYT announcement."
+        "cs": "Napiš třeba, že nemáš formu na bábovku. NYT upozorňuje, že jde o beta a upravené recepty redakce nezkontrolovala; The Verge se zeptal na máslo a dostal množství z upravené verze, aniž asistent řekl, z které.",
+        "en": "Try telling it you have no Bundt pan. NYT warns it is a beta and editors did not check customized recipes; The Verge asked about butter and got the modified version’s amount, unlabeled."
       },
       "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://help.nytimes.com/360011047512-New-York-Times-Cooking/customize-nyt-cooking-recipes"
+        },
         {
           "name": "Wired",
           "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/"
@@ -5352,12 +5356,12 @@
         "en": "Perplexity Computer can queue your follow-up messages"
       },
       "summary": {
-        "cs": "Perplexity v changelogu z 6. listopadu uvádí, že zprávy, které pošleš, zatímco agent Computer pracuje, mohou počkat, dokud neskončí aktuální krok; Computer je pak zpracuje jednu po druhé. Zprávu ve frontě jde upravit, smazat nebo poslat hned volbou Send now. Funkce se zapíná v nastavení Computeru a je pro web.",
-        "en": "Perplexity’s November 6 changelog says messages you send while its Computer agent works can wait until the current turn ends; Computer then picks them up one by one. You can edit or delete a queued message, or use Send now. The feature is enabled in Computer settings and is for the web."
+        "cs": "Perplexity v changelogu z 6. listopadu uvádí, že zprávy, které pošleš, zatímco agent Computer pracuje, mohou počkat, dokud Computer nedokončí aktuální úkol; pak je zpracuje jednu po druhé. Zprávu ve frontě jde upravit, smazat nebo poslat hned volbou Send now. Funkce se zapíná v nastavení Computeru a je jen pro web.",
+        "en": "Perplexity’s November 6 changelog says messages you send while its Computer agent works can wait until Computer finishes the current task; it then picks them up one by one. You can edit or delete a queued message, or use Send now. The feature is enabled in Computer settings and is for the web."
       },
       "why": {
-        "cs": "Zapni držení zpráv v nastavení Computeru a během rešerše pošli třeba „Pak sestav rozpočet pro první tři.“ (příklad z changelogu). Zdroj neuvádí, ve kterých tarifech funkce je.",
-        "en": "Turn on message holding in Computer settings and, during research, send something like “Then build a budget for the top three,” the changelog’s example. The source does not say which plans have the feature."
+        "cs": "V nastavení Computeru zapni držení zpráv a během rešerše míst pro akci pošli třeba „Pak sestav rozpočet pro první tři.“ (příklad z changelogu). Zdroj neuvádí, ve kterých tarifech funkce je.",
+        "en": "Turn on message holding in Computer settings and, while it researches event venues, send “Then build a budget for the top three,” the changelog’s example. The source does not name the plans."
       },
       "sources": [
         {
