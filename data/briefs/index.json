@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-08T03:58:50Z",
+  "updated": "2026-11-09T03:31:07Z",
   "briefs": [
+    {
+      "date": "2026-11-09",
+      "headline": {
+        "cs": "Nvidia vyšetřuje vztah šéfa Huanga s možnou čínskou špiónkou",
+        "en": "Nvidia investigates Huang’s ties to a possible Chinese spy"
+      },
+      "itemCount": 10
+    },
     {
       "date": "2026-11-08",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Anthropic files to go public on Nasdaq"
       },
       "itemCount": 12
-    },
-    {
-      "date": "2026-10-26",
-      "headline": {
-        "cs": "Držitelé práv k písním Elvise žalují Anthropic",
-        "en": "Elvis Presley rights holders sue Anthropic"
-      },
-      "itemCount": 11
     }
   ]
 }

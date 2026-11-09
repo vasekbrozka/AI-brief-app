@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "terms": [
     {
       "id": "quantization",
@@ -1358,6 +1358,40 @@
       "short": {
         "cs": "Celosvětový identifikátor veřejně známé bezpečnostní chyby, třeba CVE-2026-12345. Počet CVE v aktualizaci říká, kolik takových chyb oprava uzavřela.",
         "en": "A worldwide identifier for a publicly known security flaw, such as CVE-2026-12345. The number of CVEs in an update tells how many such flaws it closed."
+      }
+    },
+    {
+      "id": "watermark",
+      "term": {
+        "cs": "Vodoznak (v textu od AI)",
+        "en": "Watermark (in AI text)"
+      },
+      "aliases": [
+        "vodoznak",
+        "vodoznaku",
+        "vodoznakem",
+        "vodoznaky",
+        "vodoznaků",
+        "watermark",
+        "watermarks"
+      ],
+      "short": {
+        "cs": "Skrytý signál, podle kterého jde poznat, že obsah vytvořila AI. U textu je statistický: čtenář ho nevidí, ale detektor ho z dostatečně dlouhého úseku vyčte.",
+        "en": "A hidden signal showing that content was made by AI. In text it is statistical: readers cannot see it, but a detector can read it from a long enough passage."
+      }
+    },
+    {
+      "id": "model-spec",
+      "term": {
+        "cs": "Model Spec",
+        "en": "Model Spec"
+      },
+      "aliases": [
+        "Model Spec"
+      ],
+      "short": {
+        "cs": "Veřejný dokument OpenAI, který popisuje, jak se mají její modely chovat: jaké hodnoty a pravidla mají přednost a které chování je jen výchozí nastavení, jež lze změnit.",
+        "en": "OpenAI’s public document describing how its models should behave: which values and rules take priority and which behavior is only a changeable default."
       }
     }
   ]

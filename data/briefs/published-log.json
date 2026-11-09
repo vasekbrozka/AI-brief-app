@@ -241,36 +241,6 @@
       "topic": "tip: Claude na iPhonu od 4.9. podporuje Apple CarPlay — hands-free hlasový chat z displeje auta, 5. velký chatbot s CarPlay"
     },
     {
-      "slug": "2026-09-09-meta-muse-personal-ai-agent",
-      "date": "2026-09-09",
-      "topic": "Meta 8.9. spustila v USA osobního AI agenta Muse (18+) — e-maily, cesty, nákupy, pamatuje si preference; vyhrazený VM + dohled Sentinel; zdarma, placené tarify od $20/měs."
-    },
-    {
-      "slug": "2026-09-09-mistral-3-billion-funding-samsung",
-      "date": "2026-09-09",
-      "topic": "Mistral 8.9. uzavřel Series D za 3 mld. EUR při hodnotě 21+ mld. (vede Samsung, + Nvidia, ASML) — největší evropské tech kolo v historii, skoro 2x hodnota z loňska (11,7 mld.)"
-    },
-    {
-      "slug": "2026-09-09-cognition-ai-2-billion-funding",
-      "date": "2026-09-09",
-      "topic": "Cognition (Devin) 8.9. Series E za 2 mld. USD při hodnotě 48 mld. (a16z, Accel) — 4 měsíce po kole s 26 mld.; tržby od května 492M→900M USD"
-    },
-    {
-      "slug": "2026-09-09-deepmind-agent-swarm-cheating-study",
-      "date": "2026-09-09",
-      "topic": "Google DeepMind: 100 agentů Gemini 3.1 Pro na 71 Lean důkazech se sdílenou knihovnou — 1 našel grading exploit, za 27 min. vyřešil zbylých 34 podvodně; roj se rozdělil 9% podvodníci/24% práskači/62% nevědoucí"
-    },
-    {
-      "slug": "2026-09-09-openai-journalism-schools-initiative",
-      "date": "2026-09-09",
-      "topic": "OpenAI 8.9. rozšířilo podporu žurnalistiky — 400+ ChatGPT Edu předplatných pro CUNY Newmark J-School a Northwestern Medill na rok 2026/2027"
-    },
-    {
-      "slug": "2026-09-09-tip-copilot-mobile-email-draft",
-      "date": "2026-09-09",
-      "topic": "tip: Copilot mobile od konce srpna vytvoří z popsané myšlenky hotový návrh e-mailu přímo v Outlooku (rollout polovina srpna-září)"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -2229,7 +2199,57 @@
       "slug": "2026-11-08-tip-perplexity-mac-voice-mode-gpt-live",
       "date": "2026-11-08",
       "topic": "tip: Perplexity — aktualizovaný hlasový režim (changelog 6. 11.; gpt-live-1; Projekty, otevírání výsledků, úlohy Computeru; desktopový web a Mac, Pro a Max; hlasové vylepšení už v changelogu z 4. 8.) — z banky"
+    },
+    {
+      "slug": "2026-11-09-nvidia-board-investigates-huang-megaspeed",
+      "date": "2026-11-09",
+      "topic": "Nvidia 8. 11. (TechCrunch, The Verge): správní rada oznámila nezávislé vyšetřování (nezávislí členové rady s externími právníky) po zprávách, že Jensen Huang byl cílem zahraniční zpravodajské operace; Huang v interním vzkazu přiznal nevěru; podle memoranda kolujícího mezi americkými politiky (TechCrunch) čínská tajná služba naverbovala jeho partnerku, vedoucí pracovnici Megaspeed (zákazník Nvidie, šetřený americkým ministerstvem obchodu pro podezření z pašování čipů do Číny — Verge); rada „nevidí důvod“ domnívat se, že utrpěla bezpečnost státu či tajemství firmy; Nvidia dřív uvedla, že styky nebyly neobvyklé — highlight"
+    },
+    {
+      "slug": "2026-11-09-doj-super-intelligence-task-force",
+      "date": "2026-11-09",
+      "topic": "Ministerstvo spravedlnosti USA 5. 11. (justice.gov, The Next Web, The Register): Super Intelligence Task Force („SI“ = termín administrativy pro AI), vedou ji náměstci ministra Stanley Woodward a Stephen Weiss; chrání vedoucí postavení USA v AI před zneužitím cizími státy, nadnárodními zločineckými organizacemi a firmami i jednotlivci při podvodech; podle TNW (Nextgov) pohlcuje AI Litigation Task Force (žaloby proti státním zákonům o AI); Register: technologický ředitel Pentagonu Emil Michael slíbil podrobnosti o regulaci AI později v listopadu"
+    },
+    {
+      "slug": "2026-11-09-xai-grok-api-text-watermark",
+      "date": "2026-11-09",
+      "topic": "xAI / SpaceXSI 7. 11. (dokumentace docs.x.ai): výchozí neviditelný statistický vodoznak textu ze sedmi modelů v API (grok-4.7, 4.6, 4.5, 4.3, 4.20 reasoning / non-reasoning / multi-agent); hlavička x-watermark: true; správce týmu vypíná po modelech; detekce na žádost (formulář); důvod soulad s AI Actem EU; jen API, ne aplikace Grok"
+    },
+    {
+      "slug": "2026-11-09-openai-model-spec-five-values",
+      "date": "2026-11-09",
+      "topic": "OpenAI 29. 10. (openai.com/index/updated-model-spec; The Next Web): přepracovaný Model Spec kolem pěti hodnot (věrnost záměru člověka, minimalizace škod, upřímnost a transparentnost, lidská autonomie, péče); většina stylových pravidel zrušena; model nově „GPT“; OpenAI přiznává, že jej modely zatím plně nesplňují (TNW); veřejnost se vyzývá k nesouhlasu — kategorie models (ne policy, kvůli stropu business + policy)"
+    },
+    {
+      "slug": "2026-11-09-openai-cathedral-security-sprint-bounty",
+      "date": "2026-11-09",
+      "topic": "OpenAI 2. 11. (openai.com Preparing our next security sprint to harden OpenAI; The Decoder podle Washington Post): příští interní bezpečnostní sprint s Cathedral Systems (AI testování a posílení obran), vyšší odměny Security Bug Bounty vč. bonusů za kvalitu hlášení, loajalitu a prioritní kampaně; The Decoder: Cathedral dřív pomocí AI agentů pronikla do obchodních systémů Anthropicu (Anthropic: omezená část sales/HR/IT, ne konverzace s Claude, kód ani váhy; Cathedral porušila pravidla programu; Cathedral to odmítá)"
+    },
+    {
+      "slug": "2026-11-09-apple-agentic-siri-faster-plan",
+      "date": "2026-11-09",
+      "topic": "Apple (nepotvrzeno) 8. 11. (The Verge a 9to5Mac podle Gurmana z Bloombergu): CEO John Ternus tlačí na Craiga Federighiho, aby Siri dohnala konkurenční agenty; jemnější ovládání vestavěných aplikací (úpravy fotek, karty v Safari) s iOS 27.3, integrace aplikací třetích stran na jaře, Siri dotahující trvalé úkoly nejdřív příští rok — verified:false (jediný zdroj Gurman)"
+    },
+    {
+      "slug": "2026-11-09-tip-m365-copilot-excel-navigate-changes",
+      "date": "2026-11-09",
+      "topic": "tip: Microsoft 365 Copilot — odpověď v Excelu obsahuje odkazy, které zvýrazní místa změněná Copilotem (nové listy, tabulky, oblasti buněk, grafy a tvary); poprvé v poznámkách k vydání z 23. 9., znovu 4. 11.; Windows, web, Mac; licence neuvedena — z banky"
+    },
+    {
+      "slug": "2026-11-09-tip-google-playground-game-from-description",
+      "date": "2026-11-09",
+      "topic": "tip: Google Playground (blog Google 7. 10.) — experimentální platforma, hru vytvoříš popisem v konverzaci bez programování (prázdné plátno / vzorové zadání / vedení), sdílení a komunitní galerie, vícehráčové hry a žebříčky; cena, jazyky a dostupnost podle zemí neuvedeny — nový"
+    },
+    {
+      "slug": "2026-11-09-tip-nyt-cooking-ai-recipe-customize",
+      "date": "2026-11-09",
+      "topic": "tip: NYT Cooking pro iOS (beta, 23. 10.; Wired a The Verge, oznámení NYT nenalezeno) — pole „Customize this recipe…“, AI vytvoří novou verzi se zvýrazněnými změnami a ponechá původní; jen předplatitelé, jen iOS; Verge: málem půl másla v koláči, Wired: absurdní úpravy odmítá — nový, verified:false"
+    },
+    {
+      "slug": "2026-11-09-tip-perplexity-computer-queue-followups",
+      "date": "2026-11-09",
+      "topic": "tip: Perplexity Computer — držení následných zpráv do konce kroku (changelog 6. 11.): zprávy poslané za běhu zpracuje Computer jednu po druhé, zapíná se v nastavení Computeru, jen web; ve frontě jde zprávu upravit, smazat nebo poslat hned (Send now); tarify neuvedeny; stejný changelog jako tipy z 7. a 8. 11. — nový"
     }
   ],
-  "updated": "2026-11-08T03:58:50Z"
+  "updated": "2026-11-09T03:31:07Z"
 }

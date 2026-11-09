@@ -1,54 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-claude-cowork-one-home",
-      "category": "tools",
-      "theme": "claude",
-      "verified": false,
-      "title": {
-        "cs": "Chat a Cowork mají v Claude jeden domov",
-        "en": "Chat and Cowork now share one home in Claude"
-      },
-      "summary": {
-        "cs": "Claude spojil Chat a Cowork do jednoho místa — projekty i artefakty teď máš dostupné z obou. Projekt je samostatný pracovní prostor s vlastními soubory, instrukcemi a pamětí. Anthropic to spustil 5. srpna.",
-        "en": "Claude merged Chat and Cowork into one place — your projects and artifacts are now reachable from both. A project is a self-contained workspace with its own files, instructions, and memory. Anthropic shipped it on August 5."
-      },
-      "sources": [
-        {
-          "name": "Claude Help Center",
-          "url": "https://support.claude.com/en/articles/12138966-release-notes"
-        },
-        {
-          "name": "Claude Help Center",
-          "url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork"
-        }
-      ],
-      "added": "2026-08-10",
-      "used": "2026-08-10"
-    },
-    {
-      "slug": "tip-copilot-mobile-notifications",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": false,
-      "title": {
-        "cs": "Copilot v mobilu pošle souhrn dne i čekající úkoly",
-        "en": "Copilot mobile now pushes your day and pending items"
-      },
-      "summary": {
-        "cs": "Mobilní aplikace Microsoft 365 Copilot začíná posílat upozornění — přehled Váš den ve zkratce a připomínku věcí, které na tebe čekají. Nemusíš tedy appku otevírat, abys věděl, co tě dnes čeká. Microsoft to rolluje v srpnu na iOS i Androidu.",
-        "en": "The Microsoft 365 Copilot mobile app is starting to send notifications — a Your Day at a Glance summary and a reminder of items waiting for you. You no longer have to open the app to see what is on today. Microsoft is rolling it out in August on iOS and Android."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        }
-      ],
-      "added": "2026-08-10",
-      "used": "2026-08-10"
-    },
-    {
       "slug": "tip-claude-code-auto-mode-default",
       "category": "tools",
       "theme": "claude",
@@ -5311,7 +5263,7 @@
       "eventDate": "2026-09-23",
       "title": {
         "cs": "Copilot v Excelu odkáže přímo na místa, která změnil",
-        "en": "Copilot in Excel links straight to the cells it changed"
+        "en": "Excel Copilot links straight to the cells it changed"
       },
       "summary": {
         "cs": "Microsoft v poznámkách k vydání Microsoft 365 Copilot (poprvé z 23. září, znovu z 4. listopadu) uvádí, že odpověď Copilota v Excelu obsahuje odkazy, které zvýrazní místa změn v sešitu: nové listy, tabulky, oblasti buněk i objekty jako grafy a tvary. Funkce je označená pro Windows, web a Mac.",
@@ -5328,6 +5280,172 @@
         }
       ],
       "added": "2026-11-08",
+      "used": "2026-11-09"
+    },
+    {
+      "slug": "tip-google-playground-game-from-description",
+      "category": "tools",
+      "theme": "gemini",
+      "added": "2026-11-09",
+      "verified": true,
+      "eventDate": "2026-10-07",
+      "title": {
+        "cs": "Google Playground: hru postavíš popisem a bez programování",
+        "en": "Google Playground builds a game from a text description"
+      },
+      "summary": {
+        "cs": "Google 7. října spustil Playground, experimentální platformu, kde hru vytvoříš popisem v konverzaci, bez programování: začneš prázdným plátnem, vzorovým zadáním nebo vedením, hru hned otestuješ a sdílíš s přáteli či publikuješ do komunitní galerie. Blog zmiňuje i vícehráčové hry a žebříčky.",
+        "en": "On October 7, Google launched Playground, an experimental platform where you create a game by describing it in conversation, with no coding: start from a blank canvas, a starter prompt, or guided support, test it instantly, then share it or publish it to a community gallery. The blog also mentions multiplayer and leaderboards."
+      },
+      "why": {
+        "cs": "Otevři playground.google a popiš hru větou; fyziku, pravidla či postavy pak měníš dalšími zadáními. Je to experiment a zdroj neuvádí cenu, jazyky ani dostupnost podle zemí.",
+        "en": "Open playground.google and describe a game in a sentence; change physics, rules, or characters with follow-up prompts. It is an experiment, and the source gives no price, languages, or country availability."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+        }
+      ],
+      "used": "2026-11-09"
+    },
+    {
+      "slug": "tip-nyt-cooking-ai-recipe-customize",
+      "category": "tools",
+      "theme": "other",
+      "added": "2026-11-09",
+      "verified": false,
+      "eventDate": "2026-10-23",
+      "title": {
+        "cs": "NYT Cooking: AI přizpůsobí recept tomu, co máš doma",
+        "en": "NYT Cooking’s AI adapts recipes to what you have"
+      },
+      "summary": {
+        "cs": "Podle Wired a The Verge přidal The New York Times 23. října do aplikace NYT Cooking pro iOS beta funkci: pod receptem je pole „Customize this recipe…“, kam napíšeš, co nemáš nebo na co recept upravit. AI vytvoří novou verzi se zvýrazněnými změnami, původní recept zůstane. Je pro předplatitele a zatím jen na iOS.",
+        "en": "Per Wired and The Verge, The New York Times added a beta feature to its NYT Cooking iOS app on October 23: a “Customize this recipe…” field where you type what you lack or how to change the recipe. AI writes a new version with highlighted changes and keeps the original. Subscribers only, iOS only."
+      },
+      "why": {
+        "cs": "Napiš třeba, že nemáš formu na bábovku. Verge funkci chválí, ale málem prý půl másla v koláči; Wired píše, že nesmyslné úpravy odmítá. Oznámení The New York Times jsme nenašli.",
+        "en": "Try telling it you have no Bundt pan. The Verge praises it but says it almost halved the butter in a cake; Wired says it refuses absurd requests. We found no NYT announcement."
+      },
+      "sources": [
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review"
+        }
+      ],
+      "used": "2026-11-09"
+    },
+    {
+      "slug": "tip-perplexity-computer-queue-followups",
+      "category": "tools",
+      "theme": "perplexity",
+      "added": "2026-11-09",
+      "verified": true,
+      "eventDate": "2026-11-06",
+      "title": {
+        "cs": "Perplexity Computer: další zprávy můžeš dát do fronty",
+        "en": "Perplexity Computer can queue your follow-up messages"
+      },
+      "summary": {
+        "cs": "Perplexity v changelogu z 6. listopadu uvádí, že zprávy, které pošleš, zatímco agent Computer pracuje, mohou počkat, dokud neskončí aktuální krok; Computer je pak zpracuje jednu po druhé. Zprávu ve frontě jde upravit, smazat nebo poslat hned volbou Send now. Funkce se zapíná v nastavení Computeru a je pro web.",
+        "en": "Perplexity’s November 6 changelog says messages you send while its Computer agent works can wait until the current turn ends; Computer then picks them up one by one. You can edit or delete a queued message, or use Send now. The feature is enabled in Computer settings and is for the web."
+      },
+      "why": {
+        "cs": "Zapni držení zpráv v nastavení Computeru a během rešerše pošli třeba „Pak sestav rozpočet pro první tři.“ (příklad z changelogu). Zdroj neuvádí, ve kterých tarifech funkce je.",
+        "en": "Turn on message holding in Computer settings and, during research, send something like “Then build a budget for the top three,” the changelog’s example. The source does not say which plans have the feature."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog/teammates-fully-local-computer-on-mac-and-voice-mode"
+        }
+      ],
+      "used": "2026-11-09"
+    },
+    {
+      "slug": "tip-m365-copilot-sharepoint-list-agent",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-04",
+      "title": {
+        "cs": "Copilot vytvoří Microsoft List podle tvého popisu",
+        "en": "Copilot builds a Microsoft List from your description"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání Microsoft 365 Copilot z 4. listopadu uvádí agenta pro seznamy SharePoint: popíšeš, jaký seznam chceš, a agent navrhne jeho strukturu a pole, aby z údajů nebo odpovědí Copilota vznikl Microsoft List. Funkce je označená jen pro web.",
+        "en": "Microsoft’s November 4 Microsoft 365 Copilot release notes describe a SharePoint list agent: you describe the list you want, and the agent proposes its structure and fields so that information or Copilot’s replies become a Microsoft List. The feature is listed for web only."
+      },
+      "why": {
+        "cs": "V Copilotu popiš seznam, zkontroluj navržená pole a seznam vytvoř; obsah pak doplníš nebo upravíš. Licenci poznámky neuvádějí.",
+        "en": "In Copilot, describe the list, review the suggested fields, and create it; then add or refine content. The release notes do not name a license."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "added": "2026-11-09",
+      "used": null
+    },
+    {
+      "slug": "tip-google-play-personal-ai-apps-ai-studio",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-10-13",
+      "title": {
+        "cs": "Android: vlastní aplikaci z AI Studia spustíš bez vývojářského účtu",
+        "en": "Android: run your own AI Studio app without a developer account"
+      },
+      "summary": {
+        "cs": "Google 13. října oznámil, že aplikaci, kterou si pomocí vibe codingu vytvoříš v Google AI Studiu, můžeš přes Google Play spustit na vlastním zařízení jen s běžným účtem Google, bez vývojářského účtu. Zůstane soukromá, oddělená od veřejného katalogu. Zatím jen na vybraných trzích včetně USA a od 18 let.",
+        "en": "Google said on October 13 that an app you vibe-code in Google AI Studio can run on your own device through Google Play with just a regular Google account, no developer account. It stays private, separate from the public catalog. For now only in select markets, including the US, for ages 18 and over."
+      },
+      "why": {
+        "cs": "Sdílení s blízkými má přijít až „v příštích měsících“; veřejné vydání vyžaduje vývojářský účet a stejné kontroly jako u ostatních aplikací. Zdroj nejmenuje, zda to běží v Česku.",
+        "en": "Sharing with close contacts is promised only “in the coming months”; a public release needs a developer account and the same reviews as other apps. The source does not say whether it works in Czechia."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/"
+        }
+      ],
+      "added": "2026-11-09",
+      "used": null
+    },
+    {
+      "slug": "tip-github-copilot-vscode-local-automations-cron",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-06",
+      "title": {
+        "cs": "Pro vývojáře: Copilot ve VS Code spouští automatizace podle cronu",
+        "en": "For developers: VS Code Copilot automations accept cron schedules"
+      },
+      "summary": {
+        "cs": "GitHub v týdenním přehledu z 6. listopadu uvádí, že místní automatizace Copilotu ve VS Code 1.145 nově podporují výrazy cron a vlastní agenty z tvého pracovního prostoru, takže opakované úlohy lze spouštět podle zvoleného rozvrhu.",
+        "en": "GitHub’s November 6 weekly roundup says local automations for Copilot in VS Code 1.145 now support cron expressions and custom agents from your workspace, so recurring tasks can run on a schedule you choose."
+      },
+      "why": {
+        "cs": "Ve VS Code založ místní automatizaci a rozvrh zadej výrazem cron. Podrobnosti nastavení přehled neuvádí; hledej je v úplných poznámkách k VS Code 1.145.",
+        "en": "In VS Code, create a local automation and enter its schedule as a cron expression. The roundup gives no setup details; see the full VS Code 1.145 release notes."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2"
+        }
+      ],
+      "added": "2026-11-09",
       "used": null
     }
   ]

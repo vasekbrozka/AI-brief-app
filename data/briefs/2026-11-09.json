@@ -1,0 +1,439 @@
+{
+  "date": "2026-11-09",
+  "sample": false,
+  "headline": {
+    "cs": "Nvidia vyšetřuje vztah šéfa Huanga s možnou čínskou špiónkou",
+    "en": "Nvidia investigates Huang’s ties to a possible Chinese spy"
+  },
+  "items": [
+    {
+      "id": "2026-11-09-nvidia-board-investigates-huang-megaspeed",
+      "kind": "news",
+      "category": "business",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-11-08",
+      "title": {
+        "cs": "Nvidia vyšetřuje vztah šéfa Huanga s možnou čínskou špiónkou",
+        "en": "Nvidia investigates Huang’s ties to a possible Chinese spy"
+      },
+      "summary": {
+        "cs": "Správní rada Nvidie 8. listopadu oznámila nezávislé vyšetřování po zprávách, že byl šéf Jensen Huang cílem zahraniční zpravodajské operace. Huang v interním vzkazu přiznal nevěru; podle memoranda, které kolovalo mezi americkými politiky (TechCrunch), jeho partnerku z firmy Megaspeed naverbovala čínská tajná služba. Rada nevidí důvod domnívat se, že utrpěla bezpečnost státu či firmy.",
+        "en": "Nvidia’s board announced an independent investigation on November 8 after reports that CEO Jensen Huang was a foreign intelligence target. Huang admitted an affair in a staff memo; a memo among US policymakers (TechCrunch) says China recruited his partner, a Megaspeed executive. The board sees no sign national security or company secrets were compromised."
+      },
+      "why": {
+        "cs": "Megaspeed je zákazník Nvidie a šetří ho americké ministerstvo obchodu kvůli podezření z pašování AI čipů do Číny (The Verge). Nvidia dřív uvedla, že styky obou nebyly neobvyklé (TechCrunch).",
+        "en": "Megaspeed is an Nvidia customer and under a US Commerce Department probe over suspected smuggling of AI chips to China (The Verge). Nvidia had said the two’s dealings were not unusual (TechCrunch)."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huangs-relationship-chinese-spy"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-doj-super-intelligence-task-force",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-11-05",
+      "title": {
+        "cs": "Ministerstvo spravedlnosti USA zřídilo jednotku Super Intelligence Task Force",
+        "en": "US Justice Department launches Super Intelligence Task Force"
+      },
+      "summary": {
+        "cs": "Americké ministerstvo spravedlnosti 5. listopadu oznámilo vznik Super Intelligence Task Force (SI je termín administrativy pro AI). Vedou ji náměstci ministra Stanley Woodward a Stephen Weiss. Má chránit vedoucí postavení USA v AI před zneužitím cizími státy, zločineckými organizacemi i firmami a lidmi, kteří AI použijí k podvodům nebo jinému protiprávnímu jednání.",
+        "en": "On November 5, the US Justice Department announced its Super Intelligence Task Force (SI is the administration’s term for AI), led by Associate Attorney General Stanley Woodward and Associate Deputy Attorney General Stephen Weiss. It aims to protect US AI leadership from misuse by foreign states, criminal groups, and anyone committing fraud with AI."
+      },
+      "why": {
+        "cs": "Podle The Next Web převezme i skupinu, která u soudů napadá státní zákony o AI. Podrobnosti o regulaci AI slíbil zveřejnit později tento měsíc technologický ředitel Pentagonu Emil Michael (The Register).",
+        "en": "Per The Next Web, it also absorbs the group that challenges state AI laws in court. Pentagon technology chief Emil Michael promised details of its AI regulatory approach later this month (The Register)."
+      },
+      "sources": [
+        {
+          "name": "U.S. Department of Justice",
+          "url": "https://www.justice.gov/opa/pr/department-justice-launches-super-intelligence-task-force"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/doj-super-intelligence-task-force-ai"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/a/5308074"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-xai-grok-api-text-watermark",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-07",
+      "title": {
+        "cs": "Text z Grok API nově nese skrytý vodoznak",
+        "en": "Grok API text now carries a hidden watermark"
+      },
+      "summary": {
+        "cs": "SpaceXSI, firma za modely Grok, podle své dokumentace od 7. listopadu ve výchozím stavu značí neviditelným statistickým vodoznakem text ze sedmi modelů v API, od grok-4.7 po grok-4.20. Důvodem je soulad s unijním AI Actem. Vodoznak ukazuje hlavička x-watermark: true; vypnout ho může u každého modelu správce týmu.",
+        "en": "SpaceXSI, the company behind Grok, says in its documentation that from November 7 text from seven API models, from grok-4.7 to grok-4.20, carries an invisible statistical watermark by default. The stated reason is EU AI Act compliance. An x-watermark: true header shows it; a team admin can opt out per model."
+      },
+      "why": {
+        "cs": "Dokumentace popisuje jen API, ne aplikaci Grok. Detekce je statistická a přístup k ní se žádá formulářem; u modelů zamčených pro tým se vypnutí řeší dotazem u firmy.",
+        "en": "The docs cover only the API, not the Grok app. Detection is statistical and access to it is by application; for models locked on for a team, opting out means asking the company."
+      },
+      "sources": [
+        {
+          "name": "xAI",
+          "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-openai-model-spec-five-values",
+      "kind": "news",
+      "category": "models",
+      "verified": true,
+      "eventDate": "2026-10-29",
+      "title": {
+        "cs": "OpenAI přepsala Model Spec kolem pěti hodnot",
+        "en": "OpenAI rewrites its Model Spec around five values"
+      },
+      "summary": {
+        "cs": "OpenAI 29. října zveřejnila přepracovaný Model Spec, veřejný popis toho, jak se mají její modely chovat. Stojí na pěti hodnotách: věrnost záměru člověka, minimalizace škod, upřímnost a transparentnost, lidská autonomie a péče. Většinu stylových pravidel zrušila a model nově nazývá „GPT“; podle The Next Web přiznává, že jej její modely zatím plně nesplňují.",
+        "en": "OpenAI updated its Model Spec on October 29, the public rulebook for model behavior. It rests on five values: faithfulness to human intent, minimizing harm, honesty and transparency, human agency, and care. It drops most style rules and calls the model “GPT”; OpenAI admits its models do not yet fully meet it (The Next Web)."
+      },
+      "why": {
+        "cs": "Model má chápat, co lidé doopravdy chtějí, a neříkat jim jen to, co chtějí slyšet; většina pravidel zůstává výchozím nastavením, které lze měnit. OpenAI se veřejnosti ptá, kde s tím nastavením nesouhlasí (The Next Web).",
+        "en": "The model should grasp what people actually want, not just say what they want to hear; most rules stay changeable defaults. OpenAI asks the public where it disagrees with the balance (The Next Web)."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/updated-model-spec"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-model-spec-five-values-update"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-openai-cathedral-security-sprint-bounty",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-02",
+      "title": {
+        "cs": "OpenAI chystá s Cathedral bezpečnostní sprint a zvyšuje odměny",
+        "en": "OpenAI plans security sprint with Cathedral, raises bounties"
+      },
+      "summary": {
+        "cs": "OpenAI 2. listopadu oznámila, že další interní bezpečnostní sprint připraví s firmou Cathedral Systems, aby s pomocí AI otestovala a posílila své obrany, a že zvyšuje odměny v programu za nahlášené chyby včetně bonusů za kvalitu hlášení. Podle The Decoder Cathedral dřív pomocí AI agentů pronikla do obchodních systémů Anthropicu.",
+        "en": "On November 2, OpenAI said it is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI, and is raising Security Bug Bounty rewards, with bonuses for report quality, loyalty, and priority campaigns. According to The Decoder, Cathedral earlier used AI agents to get into Anthropic’s business systems."
+      },
+      "why": {
+        "cs": "Anthropic tvrdí, že Cathedral viděla jen omezenou část obchodních, personálních a IT systémů, ne konverzace s Claude, kód ani váhy modelů, a že porušila pravidla programu; Cathedral to odmítá (The Decoder podle Washington Post).",
+        "en": "Anthropic says Cathedral reached only a limited set of sales, HR, and IT systems, not Claude chats, code, or weights, and broke the program’s rules; Cathedral disputes that (The Decoder, citing the Washington Post)."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-apple-agentic-siri-faster-plan",
+      "kind": "news",
+      "category": "tools",
+      "verified": false,
+      "eventDate": "2026-11-08",
+      "title": {
+        "cs": "Apple prý zrychluje plán, aby Siri jednala jako agent",
+        "en": "Apple reportedly hurries plan to make Siri an agent"
+      },
+      "summary": {
+        "cs": "Podle zprávy Marka Gurmana z Bloombergu (8. listopadu), jak ji shrnují The Verge a 9to5Mac, tlačí generální ředitel Applu John Ternus na Craiga Federighiho, aby Siri dohnala konkurenční agenty. Jemnější ovládání vestavěných aplikací, třeba úpravy fotek a karet v Safari, má přijít s iOS 27.3; propojení s aplikacemi třetích stran se čeká na jaře.",
+        "en": "Bloomberg’s Mark Gurman reported on November 8, per The Verge and 9to5Mac, that Apple CEO John Ternus is pressing Craig Federighi to speed up Siri so it can match rival agents. Finer control of built-in apps, such as photo edits and Safari tabs, is expected with iOS 27.3; third-party integration is likely in spring."
+      },
+      "why": {
+        "cs": "Je to nepotvrzená zpráva: Apple plány neoznámil. Siri, která sama dotahuje trvalé úkoly, by podle Gurmana mohla přijít nejdřív příští rok; obě média přebírají jediný zdroj.",
+        "en": "This is unconfirmed: Apple has announced no such plans. By Gurman’s account, a Siri that carries ongoing tasks through on its own could arrive as early as next year; both outlets rely on one source."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/08/apple-working-on-agentic-siri-ai-next-year-report/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-tip-m365-copilot-excel-navigate-changes",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-23",
+      "title": {
+        "cs": "Copilot v Excelu odkáže přímo na místa, která změnil",
+        "en": "Excel Copilot links straight to the cells it changed"
+      },
+      "summary": {
+        "cs": "Microsoft v poznámkách k vydání Microsoft 365 Copilot (poprvé z 23. září, znovu z 4. listopadu) uvádí, že odpověď Copilota v Excelu obsahuje odkazy, které zvýrazní místa změn v sešitu: nové listy, tabulky, oblasti buněk i objekty jako grafy a tvary. Funkce je označená pro Windows, web a Mac.",
+        "en": "Microsoft’s Microsoft 365 Copilot release notes (first September 23, again November 4) say Copilot’s reply in Excel includes links that highlight where it changed your workbook: new sheets, tables, ranges, and objects such as charts and shapes. The feature is listed for Windows, web, and Mac."
+      },
+      "why": {
+        "cs": "V Excelu pošli Copilotovi zadání, které sešit změní, a v odpovědi klikni na zvýrazněný odkaz. Licenci poznámky neuvádějí.",
+        "en": "In Excel, send Copilot a prompt that changes the workbook and click the highlighted link in its reply. The release notes do not name a license."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-tip-google-playground-game-from-description",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-07",
+      "title": {
+        "cs": "Google Playground: hru postavíš popisem a bez programování",
+        "en": "Google Playground builds a game from a text description"
+      },
+      "summary": {
+        "cs": "Google 7. října spustil Playground, experimentální platformu, kde hru vytvoříš popisem v konverzaci, bez programování: začneš prázdným plátnem, vzorovým zadáním nebo vedením, hru hned otestuješ a sdílíš s přáteli či publikuješ do komunitní galerie. Blog zmiňuje i vícehráčové hry a žebříčky.",
+        "en": "On October 7, Google launched Playground, an experimental platform where you create a game by describing it in conversation, with no coding: start from a blank canvas, a starter prompt, or guided support, test it instantly, then share it or publish it to a community gallery. The blog also mentions multiplayer and leaderboards."
+      },
+      "why": {
+        "cs": "Otevři playground.google a popiš hru větou; fyziku, pravidla či postavy pak měníš dalšími zadáními. Je to experiment a zdroj neuvádí cenu, jazyky ani dostupnost podle zemí.",
+        "en": "Open playground.google and describe a game in a sentence; change physics, rules, or characters with follow-up prompts. It is an experiment, and the source gives no price, languages, or country availability."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-tip-nyt-cooking-ai-recipe-customize",
+      "kind": "tip",
+      "category": "tools",
+      "verified": false,
+      "eventDate": "2026-10-23",
+      "title": {
+        "cs": "NYT Cooking: AI přizpůsobí recept tomu, co máš doma",
+        "en": "NYT Cooking’s AI adapts recipes to what you have"
+      },
+      "summary": {
+        "cs": "Podle Wired a The Verge přidal The New York Times 23. října do aplikace NYT Cooking pro iOS beta funkci: pod receptem je pole „Customize this recipe…“, kam napíšeš, co nemáš nebo na co recept upravit. AI vytvoří novou verzi se zvýrazněnými změnami, původní recept zůstane. Je pro předplatitele a zatím jen na iOS.",
+        "en": "Per Wired and The Verge, The New York Times added a beta feature to its NYT Cooking iOS app on October 23: a “Customize this recipe…” field where you type what you lack or how to change the recipe. AI writes a new version with highlighted changes and keeps the original. Subscribers only, iOS only."
+      },
+      "why": {
+        "cs": "Napiš třeba, že nemáš formu na bábovku. Verge funkci chválí, ale málem prý půl másla v koláči; Wired píše, že nesmyslné úpravy odmítá. Oznámení The New York Times jsme nenašli.",
+        "en": "Try telling it you have no Bundt pan. The Verge praises it but says it almost halved the butter in a cake; Wired says it refuses absurd requests. We found no NYT announcement."
+      },
+      "sources": [
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-tip-perplexity-computer-queue-followups",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-06",
+      "title": {
+        "cs": "Perplexity Computer: další zprávy můžeš dát do fronty",
+        "en": "Perplexity Computer can queue your follow-up messages"
+      },
+      "summary": {
+        "cs": "Perplexity v changelogu z 6. listopadu uvádí, že zprávy, které pošleš, zatímco agent Computer pracuje, mohou počkat, dokud neskončí aktuální krok; Computer je pak zpracuje jednu po druhé. Zprávu ve frontě jde upravit, smazat nebo poslat hned volbou Send now. Funkce se zapíná v nastavení Computeru a je pro web.",
+        "en": "Perplexity’s November 6 changelog says messages you send while its Computer agent works can wait until the current turn ends; Computer then picks them up one by one. You can edit or delete a queued message, or use Send now. The feature is enabled in Computer settings and is for the web."
+      },
+      "why": {
+        "cs": "Zapni držení zpráv v nastavení Computeru a během rešerše pošli třeba „Pak sestav rozpočet pro první tři.“ (příklad z changelogu). Zdroj neuvádí, ve kterých tarifech funkce je.",
+        "en": "Turn on message holding in Computer settings and, during research, send something like “Then build a budget for the top three,” the changelog’s example. The source does not say which plans have the feature."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog/teammates-fully-local-computer-on-mac-and-voice-mode"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-11-13",
+      "title": {
+        "cs": "Google AI Plus má přijít o volbu modelu Gemini Pro (podle 9to5Google)",
+        "en": "Google AI Plus loses Gemini Pro model choice (per 9to5Google)"
+      },
+      "note": {
+        "cs": "Podle e-mailu sdíleného na Redditu (cituje 9to5Google) přijdou předplatitelé AI Plus od 13. listopadu o výběr modelů Pro v Gemini i AI Mode (AI režimu Vyhledávání); termín oznamuje Google e-mailem.",
+        "en": "Per an email shared on Reddit (quoted by 9to5Google), AI Plus loses the choice of Pro models in Gemini and AI Mode from November 13; Google emails subscribers their dates."
+      },
+      "sources": [
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/"
+        },
+        {
+          "name": "Google",
+          "url": "https://support.google.com/gemini/answer/17004136?hl=en"
+        }
+      ],
+      "tentative": true
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "GitHub vyřadí z Copilotu pro programátory tři modely",
+        "en": "GitHub retires three models from GitHub Copilot"
+      },
+      "note": {
+        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8 a Opus 5 (náhrada: Opus 5.5) i GPT-5.6 Terra (náhrada: GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane dostupný ročním individuálním předplatitelům.",
+        "en": "On November 16, GitHub retires Opus 4.8, Opus 5 (alternative: Opus 5.5), and GPT-5.6 Terra (alternatives: GPT-6.1 Sol or GPT-6 Luna) from Copilot. Opus 4.8 stays for individual annual subscribers."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "Microsoft Ignite: konference o Copilotu a AI agentech",
+        "en": "Microsoft Ignite: a conference on Copilot and AI agents"
+      },
+      "note": {
+        "cs": "Microsoftova konference se koná 17.–20. listopadu v San Franciscu; online (zdarma) jen 17.–19. listopadu. Témata: Copilot, AI agenti, cloud, zabezpečení a Windows.",
+        "en": "Microsoft’s conference runs November 17–20 in San Francisco; the online event (free) is November 17–19 only. Topics: Copilot, AI agents, cloud, security, and Windows."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://ignite.microsoft.com/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "NVIDIA: výsledky za třetí čtvrtletí fiskálního roku 2027",
+        "en": "NVIDIA: third-quarter fiscal 2027 results"
+      },
+      "note": {
+        "cs": "NVIDIA zveřejní výsledky za čtvrtletí, které skončilo 25. října, kolem 13:20 pacifického času; živý hovor s analytiky začíná 17. listopadu ve 14:00 pacifického času (23:00 našeho času).",
+        "en": "NVIDIA reports results for the quarter ended October 25 at about 1:20 p.m. Pacific; the live analyst call starts November 17 at 2 p.m. Pacific (11 p.m. Prague time)."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "Claude Code ruší rychlý režim pro Opus 4.8",
+        "en": "Claude Code drops fast mode for Opus 4.8"
+      },
+      "note": {
+        "cs": "Podle changelogu Claude Code zanikne 30. listopadu rychlý režim (rychlejší výstup) Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Přechod na Opus 5.5 rychlost zachová.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "AWS re:Invent: velká konference o cloudu a AI",
+        "en": "AWS re:Invent: cloud and AI conference in Las Vegas"
+      },
+      "note": {
+        "cs": "AWS re:Invent běží od 30. listopadu do 4. prosince v Las Vegas. Podle pořadatele jdou hlavní projevy po bezplatné registraci sledovat online.",
+        "en": "AWS re:Invent runs November 30 to December 4 in Las Vegas. The organizer says keynotes can be watched online after free registration."
+      },
+      "sources": [
+        {
+          "name": "AWS",
+          "url": "https://reinvent.awsevents.com/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-01",
+      "title": {
+        "cs": "NVIDIA GTC Washington: keynote Jensena Huanga",
+        "en": "NVIDIA GTC Washington: Jensen Huang’s keynote"
+      },
+      "note": {
+        "cs": "Konference GTC ve Washingtonu běží od 30. listopadu do 3. prosince; keynote Jensena Huanga, šéfa NVIDIE, je 1. prosince ve 14:00 východního času (20:00 našeho času).",
+        "en": "GTC in Washington runs November 30 to December 3; keynote by Jensen Huang, NVIDIA’s CEO, is December 1 at 2 p.m. Eastern (8 p.m. Prague time)."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/en-us/gtc-dc/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-02",
+      "title": {
+        "cs": "EU: do 2. prosince musí firmy splnit zákaz aplikací na „svlékání“",
+        "en": "EU: companies must meet nudifier-app ban by December 2"
+      },
+      "note": {
+        "cs": "Podle Evropského parlamentu mají firmy do 2. prosince splnit zákaz aplikací, které AI „svlékají“ lidi bez souhlasu; pak platí označování AI obsahu u systémů uvedených na trh před 2. srpnem.",
+        "en": "Per the European Parliament, companies have until December 2 to comply with the “nudifier” app ban; AI-content labeling then applies to systems placed on the market before August 2."
+      },
+      "sources": [
+        {
+          "name": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}
