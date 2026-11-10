@@ -68,6 +68,8 @@ CANONICAL_NAMES = {
     "washingtonpost.com": "The Washington Post", "theguardian.com": "The Guardian",
     "bbc.com": "BBC", "bbc.co.uk": "BBC", "npr.org": "NPR", "fortune.com": "Fortune",
     "venturebeat.com": "VentureBeat",
+    "fireworks.ai": "Fireworks AI", "notion.com": "Notion",
+    "mpo.gov.cz": "Ministerstvo průmyslu a obchodu",
 }
 
 # --- zdroje: tiery důvěryhodnosti (viz recept, sekce Zdroje) ------------------
@@ -88,6 +90,7 @@ T1_DOMAINS = [
     "1password.com", "radicalnumerics.ai", "microsoft.ai", "linuxfoundation.org",
     "kimi.ai", "block.xyz", "security.com", "gov.uk", "talosintelligence.com",
     "android.com", "awsevents.com", "antigravity.google", "raycast.com",
+    "gov.cz", "fireworks.ai", "notion.com",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.

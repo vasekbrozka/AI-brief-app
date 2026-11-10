@@ -5451,6 +5451,141 @@
       ],
       "added": "2026-11-09",
       "used": null
+    },
+    {
+      "slug": "tip-github-copilot-claude-fable-5-2",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-11-10",
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "GitHub Copilot nabízí Claude Fable 5.2 od tarifu Pro+",
+        "en": "GitHub Copilot adds Claude Fable 5.2 from Pro+"
+      },
+      "summary": {
+        "cs": "GitHub 9. listopadu uvedl, že Claude Fable 5.2 je v Copilotu obecně dostupný pro tarify Pro+, Max, Business a Enterprise. Najdeš ho ve výběru modelů ve VS Code, Visual Studiu, Copilot CLI, na github.com, v mobilní aplikaci GitHub, JetBrains, Xcode i Eclipse. Zavádí se postupně a účtuje se podle ceníku poskytovatele.",
+        "en": "On November 9, GitHub said Claude Fable 5.2 is generally available in Copilot for the Pro+, Max, Business, and Enterprise plans. You find it in the model picker in VS Code, Visual Studio, Copilot CLI, github.com, GitHub Mobile, JetBrains, Xcode, and Eclipse. Rollout is gradual, and it is billed at the provider’s list price."
+      },
+      "why": {
+        "cs": "Správce Business a Enterprise musí zapnout zásadu Claude Fable 5.2 v nastavení Copilota, výchozí stav je vypnuto. Model vyžaduje uchování dat u Anthropicu pro bezpečnostní klasifikátory; nulové uchování mají zatím jen vybraní podnikoví zákazníci.",
+        "en": "Business and Enterprise admins must turn on the Claude Fable 5.2 policy in Copilot settings (off by default). The model requires Anthropic to retain data for safety classifiers; zero retention is only for eligible enterprises."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot"
+        }
+      ],
+      "used": "2026-11-10"
+    },
+    {
+      "slug": "tip-google-workspace-skills-studio-apps",
+      "category": "tools",
+      "theme": "gemini",
+      "added": "2026-11-10",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "Skills ve Workspace se zavádějí do Studia i aplikací",
+        "en": "Skills in Workspace roll out across Studio and apps"
+      },
+      "summary": {
+        "cs": "Google 10. listopadu uvedl, že skills ve Workspace, tedy opakovaně použitelné pokyny pro Gemini, se zavádějí ve Workspace Studiu i v aplikacích. Vytvoříš je ve Studiu, v Dokumentech nebo příkazem v Gmailu; Gemini je použije sám, nebo je vyvoláš přes @. Zatím jen pro dospělé, v angličtině, ne v Tabulkách a Meet.",
+        "en": "On November 10, Google said skills in Workspace, reusable instructions for Gemini, are rolling out across Workspace Studio and apps. You build them in Studio, Docs, or by asking Gemini in Gmail; Gemini applies them itself or via @. For now adults only, English only, not in Sheets or Meet."
+      },
+      "why": {
+        "cs": "Skills jsou ve výchozím stavu zapnuté pro edice Business, Enterprise a AI Expanded Access; správce je může vypnout. Zavádění (Rapid Release) začalo 9. listopadu a trvá až 15 dnů; Scheduled Release začíná 30. listopadu.",
+        "en": "Skills are on by default for Business and Enterprise editions and AI Expanded Access; admins can turn them off. Rapid Release rollout began November 9, takes up to 15 days; Scheduled Release starts November 30."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/skills-in-workspace.html"
+        }
+      ],
+      "used": "2026-11-10"
+    },
+    {
+      "slug": "tip-gemini-sketch-to-app",
+      "category": "tools",
+      "theme": "gemini",
+      "added": "2026-11-10",
+      "verified": true,
+      "eventDate": "2026-11-05",
+      "title": {
+        "cs": "Gemini z fotky náčrtu napíše funkční aplikaci",
+        "en": "Gemini turns a sketch photo into a working app"
+      },
+      "summary": {
+        "cs": "Google 5. listopadu popsal, jak v aplikaci Gemini změnit náčrt aplikace, trackeru návyků nebo herní desky v interaktivní nástroj: nahraješ fotku náčrtu, vybereš nástroj Canvas a zeptáš se „Can you code this app?“. Gemini přečte obrázek, napíše kód a v náhledu ho hned upraví podle tvých přání, třeba barvy či písma.",
+        "en": "On November 5, Google showed how to turn a sketch of an app, habit tracker, or game board into a working tool in the Gemini app: upload a photo, select Canvas, and ask “Can you code this app?” Gemini reads it, writes the code, and tweaks colors or fonts in the preview."
+      },
+      "why": {
+        "cs": "V aplikaci Gemini nahraj fotku náčrtu, zapni Canvas a požádej o kód; výsledek vyzkoušíš v náhledu a upravíš dalšími pokyny. Zdroj neuvádí, ve kterých zemích a tarifech to funguje.",
+        "en": "In the Gemini app, upload a sketch photo, turn on Canvas, and ask for code; test and refine it in the preview. The source does not say which countries and plans have it."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/"
+        }
+      ],
+      "used": "2026-11-10"
+    },
+    {
+      "slug": "tip-google-ai-studio-maps-platform",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "Google AI Studio: mapy do aplikace bez platební karty",
+        "en": "AI Studio adds Google Maps with no credit card"
+      },
+      "summary": {
+        "cs": "Google 9. listopadu oznámil, že Google Maps Platform lze používat přímo v Google AI Studiu. Popíšeš aplikaci s reálným místem, třeba 3D prohlídku New Yorku, AI Studio propojí klíč a hned ukáže živý náhled. Začátek nevyžaduje platební kartu; zdarma platí denní kvóty.",
+        "en": "Google said on November 9 that Google Maps Platform can be used directly inside Google AI Studio. You describe an app with a real-world place, such as a 3D tour of New York, and AI Studio connects the key and loads a live preview. Starting needs no credit card; free use has daily quotas."
+      },
+      "why": {
+        "cs": "V AI Studiu popiš nápad s reálným místem a zapni Google Maps; AI Studio může napojit i tvůj existující projekt Google Cloud. Pro ostrý provoz je nutný placený účet Cloud Billing.",
+        "en": "In AI Studio, describe an idea with a real-world place and turn on Google Maps; AI Studio can also link your existing Google Cloud project. Production use requires a paid Cloud billing account."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-google-maps-platform-ai-studio/"
+        }
+      ],
+      "added": "2026-11-10",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-memory-summary",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": false,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "Gemini: Memory summary ukáže, co si o tobě pamatuje",
+        "en": "Gemini’s Memory summary shows what it knows about you"
+      },
+      "summary": {
+        "cs": "Podle 9to5Google z 9. listopadu Gemini zavádí Memory summary, přehled toho, co aplikace o tobě ví; můžeš ho zobrazit, upravit i smazat. Na webu je v Nastavení > Personal Intelligence, údaje přidáš či odebereš textovým polem a v menu je historie změn.",
+        "en": "Per 9to5Google on November 9, Gemini is rolling out Memory summary, an overview of what the app knows about you that you can view, edit, and delete. On the web it is under Settings > Personal Intelligence; add or remove details in a text field, and a menu shows change history."
+      },
+      "why": {
+        "cs": "Zkontroluj, co si Gemini o tobě pamatuje, a nepřesné nebo citlivé údaje smaž. Oficiálně je to pro předplatitele Google AI v americké angličtině se zapnutou aktivitou a pamětí; v mobilních aplikacích to 9to5Google zatím nevidí.",
+        "en": "Check what Gemini remembers about you and delete anything wrong or sensitive. Officially for Google AI subscribers in US English with Keep Activity and Memory on; 9to5Google does not see it on mobile yet."
+      },
+      "sources": [
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/11/09/google-gemini-memory-summary/"
+        }
+      ],
+      "added": "2026-11-10",
+      "used": null
     }
   ]
 }

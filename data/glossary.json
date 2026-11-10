@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "terms": [
     {
       "id": "quantization",
@@ -1417,6 +1417,73 @@
       "short": {
         "cs": "Seznam změn, který firma zveřejňuje u svého produktu: co se kdy přidalo, opravilo nebo změnilo.",
         "en": "A list of changes a company publishes for its product: what was added, fixed, or changed, and when."
+      }
+    },
+    {
+      "id": "regulatory-sandbox",
+      "term": {
+        "cs": "Regulační sandbox (kontrolované zkušební prostředí)",
+        "en": "Regulatory sandbox"
+      },
+      "aliases": [
+        "regulační sandbox",
+        "regulačního sandboxu",
+        "regulačním sandboxu",
+        "regulačním sandboxem",
+        "regulační sandboxy",
+        "regulačních sandboxů",
+        "regulatory sandbox",
+        "regulatory sandboxes"
+      ],
+      "short": {
+        "cs": "Kontrolované prostředí, kde firmy mohou pod dohledem úřadu zkoušet nový systém AI dřív, než ho plně nasadí. Musí při tom respektovat požadavky na bezpečnost a ochranu práv.",
+        "en": "A controlled environment where companies can test a new AI system under an authority’s supervision before fully deploying it. They must still meet safety and rights-protection requirements."
+      }
+    },
+    {
+      "id": "git-repo",
+      "term": {
+        "cs": "Git a repozitář (úložiště kódu)",
+        "en": "Git and repository"
+      },
+      "aliases": [
+        "Git",
+        "gitu",
+        "gitem",
+        "repozitář",
+        "repozitáře",
+        "repozitáři",
+        "repozitářů",
+        "repozitářích",
+        "repozitářem",
+        "repository",
+        "repositories",
+        "repo",
+        "repos"
+      ],
+      "short": {
+        "cs": "Git je nástroj, který ukládá všechny verze kódu. Repozitář je složka projektu s celou jeho historií, třeba na GitHubu. Veřejný repozitář může číst kdokoli, proto v něm nesmí být hesla.",
+        "en": "Git tracks every version of code. A repository is a project folder with its full history, for example on GitHub. Anyone can read a public one, so it must not hold passwords."
+      }
+    },
+    {
+      "id": "zdr",
+      "term": {
+        "cs": "ZDR (nulové uchování dat)",
+        "en": "ZDR (zero data retention)"
+      },
+      "aliases": [
+        "ZDR",
+        "zero data retention",
+        "zero retention",
+        "nulové uchování dat",
+        "nulové uchování",
+        "nulového uchování",
+        "nulovým uchováním"
+      ],
+      "short": {
+        "cs": "Zero data retention: poskytovatel AI po vyřízení požadavku neukládá tvoje zadání ani odpovědi, kromě případů, kdy to vyžaduje zákon. Část služeb ho nabízí jen vybraným podnikovým zákazníkům.",
+        "en": "Zero data retention: the AI provider does not store your prompts or replies after handling a request, except where law requires it. Some services offer it only to select enterprise customers."
       }
     }
   ]

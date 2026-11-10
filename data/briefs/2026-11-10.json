@@ -1,0 +1,451 @@
+{
+  "date": "2026-11-10",
+  "sample": false,
+  "headline": {
+    "cs": "Anthropic uvedla Claude Fable 5.2 a Mythos 5.2",
+    "en": "Anthropic launches Claude Fable 5.2 and Mythos 5.2"
+  },
+  "items": [
+    {
+      "id": "2026-11-10-anthropic-claude-fable-mythos-5-2",
+      "kind": "news",
+      "category": "models",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "Anthropic uvedla Claude Fable 5.2 a Mythos 5.2",
+        "en": "Anthropic launches Claude Fable 5.2 and Mythos 5.2"
+      },
+      "summary": {
+        "cs": "Anthropic 9. listopadu uvedla Claude Fable 5.2 a Mythos 5.2, týž model ve dvou podobách. Fable, s ochranami proti zneužití v kybernetice a biologii, je dostupný všem; Mythos dostanou jen ověřené organizace. Fable stojí 8 USD za milion vstupních a 40 USD za milion výstupních tokenů, podle firmy až o 30 % rychleji než 5.1.",
+        "en": "Anthropic launched Claude Fable 5.2 and Mythos 5.2 on November 9, one model in two forms. Fable, with cyber and biology safeguards, is available to all users; Mythos goes only to vetted organizations. Fable costs $8 per million input and $40 per million output tokens; Anthropic says it is up to 30% faster than 5.1."
+      },
+      "why": {
+        "cs": "Pro a běžná sedadla Team mají Fable do 16. listopadu v rámci 50 % týdenního limitu plus jeden reset, Max a Ultra 1–3 resety. Reset najdeš v Nastavení > Využití; Fable čerpá limity rychleji.",
+        "en": "Pro and standard Team seats get Fable through November 16 within 50% of weekly limits, plus one reset; Max and Ultra get 1–3 resets. Resets are in Settings > Usage; Fable uses limits faster."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-claude-code-settings-secrets-github",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "Claude Code: nastavení s hesly se dostalo na GitHub",
+        "en": "Claude Code settings files leaked secrets on GitHub"
+      },
+      "summary": {
+        "cs": "Podle firmy Apiiro (Ars Technica, 9. listopadu) ukládá Claude Code po volbě „Yes, and don’t ask again“ schválený příkaz i s hesly v něm do .claude/settings.local.json. Soubor se omylem dostává do veřejných repozitářů: Apiiro jich našla přes 100 000, zhruba 1 100 z 63 organizací obsahovalo hesla či klíče.",
+        "en": "Per Apiiro (Ars Technica, November 9), after you choose “Yes, and don’t ask again,” Claude Code saves the approved command, secrets in it included, to .claude/settings.local.json. The file ends up in public repositories by mistake: Apiiro found over 100,000, and about 1,100 from 63 organizations held passwords or keys."
+      },
+      "why": {
+        "cs": "Používáš-li Claude Code, zkontroluj, že .claude/settings.local.json není v gitu, a uniklá hesla vyměň. Dokumentace spoléhá na globální git excludes; Anthropic podle Ars říká, že se soubor nemá commitovat, a hledá řešení.",
+        "en": "If you use Claude Code, check that .claude/settings.local.json is not in git and rotate leaked passwords. Docs rely on global git excludes; per Ars, Anthropic says not to commit it and seeks a fix."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/settings"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-apple-intelligence-usage-packs",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "Apple začíná za rozšířené používání AI účtovat 50 USD",
+        "en": "Apple starts charging $50 for extended AI usage"
+      },
+      "summary": {
+        "cs": "Apple podle The Verge a 9to5Mac (9. listopadu) v aktualizaci Logic Pro nabízí jednorázový Intelligence Usage Pack za 49,99 USD pro předplatitele Creator Studia, kteří vyčerpali měsíční limit AI funkcí. Nevyužité navíc se přenáší, platí 12 měsíců; váže se na Apple účet bez sdílení v rodině. Zatím jen Logic Pro.",
+        "en": "Apple, per The Verge and 9to5Mac (November 9), offers a one-time $49.99 Intelligence Usage Pack in a Logic Pro update for Creator Studio subscribers who hit their monthly AI limit. Unused usage rolls over for 12 months; it is tied to one Apple Account, with no Family Sharing. For now, Logic Pro only."
+      },
+      "why": {
+        "cs": "Balíčky jsou jen v osmi zemích (USA, Británie, Kanada, Brazílie, Francie, Německo, Indie, Mexiko), Česko mezi nimi není (Engadget podle podpory Applu). Funkce používají cloudové modely OpenAI nebo Googlu (The Verge).",
+        "en": "Packs are sold in eight countries only (US, UK, Canada, Brazil, France, Germany, India, Mexico); Czechia is not among them (Engadget, citing Apple support). The features use cloud models from OpenAI or Google (The Verge)."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2311500/apple-starts-offering-50-dollar-extended-usage-packs-for-ai-features-in-creator-studio/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-meta-muse-ember",
+      "kind": "news",
+      "category": "models",
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "Meta vydala Muse Ember, nejmenší a nejlevnější model",
+        "en": "Meta launches Muse Ember, its smallest and cheapest model"
+      },
+      "summary": {
+        "cs": "Meta 9. listopadu uvedla Muse Ember, svůj nejmenší a nejúspornější model pro práci agentů (volání nástrojů, třídění, čtení dlouhých dokumentů). Je v Meta Model API a Muse Code za 0,10 USD za milion vstupních a 0,50 USD za milion výstupních tokenů. Podle Mety dává víc výkonu za cenu než Claude Haiku 5.5 a GPT-6 Luna.",
+        "en": "Meta launched Muse Ember on November 9, its smallest, most efficient model for agent work (tool calls, routing, long documents). It is in the Meta Model API and Muse Code at $0.10 per million input and $0.50 per million output tokens. Meta says it beats Claude Haiku 5.5 and GPT-6 Luna on performance per dollar."
+      },
+      "why": {
+        "cs": "Je to model pro vývojáře, ne chatbot: má dělat objem opakované práce pod větším modelem (Muse Wonder plánuje, Ember zpracovává). Srovnání je z Artificial Analysis a vychází z Metou navržených cen.",
+        "en": "It is a developer model, not a chatbot: it handles the volume of repeated work under a larger model (Muse Wonder plans, Ember executes). The comparison comes from Artificial Analysis and uses Meta’s proposed prices."
+      },
+      "sources": [
+        {
+          "name": "Meta",
+          "url": "https://research.meta.ai/blog/muse-ember"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-fireworks-ai-incident-notion",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "Únik u Fireworks AI mohl odkrýt chaty Notion AI",
+        "en": "Fireworks AI breach may have exposed Notion AI chats"
+      },
+      "summary": {
+        "cs": "Fireworks AI, infrastrukturní platforma pro AI, 9. listopadu doplnila bulletin o říjnovém útoku: kromě klíčů se u omezeného počtu účtů dostali útočníci i k fakturačním údajům, datasetům a nedokončeným modelům; platební karty nemá. Notion uvádí, že se to mohlo týkat méně než 1 % pracovních prostorů a anonymních chatů Notion AI z funkce Insights.",
+        "en": "Fireworks AI, an AI infrastructure platform, updated its bulletin on an October attack on November 9: besides keys, attackers reached billing data, datasets, and incomplete models for some accounts; it holds no payment cards. Notion says fewer than 1% of workspaces and anonymous Notion AI chats from its Insights feature may be affected."
+      },
+      "why": {
+        "cs": "Neozvala-li se Notion tobě ani majiteli prostoru, nejsi dotčen; dotčení majitelé uvidí data v Notionu. Podle Fireworks za útokem stojí skupina obchodující s přístupem k modelům („LLMjacking“).",
+        "en": "If Notion has not contacted you or your workspace owner, you are not affected; affected owners can review the data in Notion. Fireworks says the attackers are a group selling access to models (“LLMjacking”)."
+      },
+      "sources": [
+        {
+          "name": "Fireworks AI",
+          "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update"
+        },
+        {
+          "name": "Notion",
+          "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-czech-ai-council-ai-act-bill",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "Vláda zřídila Radu pro AI a schválila návrh zákona",
+        "en": "Czech government creates AI Council, approves AI Act bill"
+      },
+      "summary": {
+        "cs": "Česká vláda 9. listopadu zřídila Radu vlády pro umělou inteligenci, kterou povede premiér a která má koordinovat Národní strategii AI. Schválila i návrh zákona k unijnímu AI Actu: hlavním dozorem bude Český telekomunikační úřad, v části oblastí také ČNB a Úřad pro ochranu osobních údajů; počítá s regulačním sandboxem pro testování AI.",
+        "en": "On November 9, the Czech government created an AI Council chaired by the prime minister to coordinate the national AI strategy. It also approved a bill implementing the EU AI Act: the telecom regulator ČTÚ leads supervision, with the central bank and data protection office in some areas, plus a regulatory sandbox for testing AI."
+      },
+      "why": {
+        "cs": "Pro firmy: jasnější dozorové orgány a regulační sandbox na zkoušení AI; podle návrhu lze za určitých podmínek porušení řešit upozorněním a výzvou k nápravě, bez řízení o přestupku (MPO). Je to zatím návrh zákona.",
+        "en": "For companies: clear supervisors and a regulatory sandbox to try AI; the bill lets a breach, in some cases, get a warning to fix it instead of misdemeanor proceedings (ministry). Still only a bill."
+      },
+      "sources": [
+        {
+          "name": "Ministerstvo průmyslu a obchodu",
+          "url": "https://mpo.gov.cz/cz/rozcestnik/pro-media/tiskove-zpravy/vlada-podporila-rozvoj-umele-inteligence-zrizenim-nove-rady-a-schvalenim-navrhu-zakona--295239/"
+        },
+        {
+          "name": "Lupa",
+          "url": "https://www.lupa.cz/aktuality/cesko-ma-radu-pro-umelou-inteligenci-cleny-jsou-pechoucek-nebo-rehak/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-cisco-ibm-claude-mythos",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "Cisco a IBM zapojí do bezpečnostních nástrojů Claude Mythos",
+        "en": "Cisco and IBM add Claude Mythos to security tools"
+      },
+      "summary": {
+        "cs": "Podle The Next Web Cisco na akci Cisco Live v Melbourne oznámilo, že Claude Mythos zapojí do nástroje AI Defense, který útočí na AI aplikace a agenty zákazníků a hledá slabiny; zákazníci Mythos přímo nezadávají. IBM 9. listopadu oznámila plán zapojit Mythos na začátku roku 2027 do Concert Protect k hledání neznámých chyb v kódu.",
+        "en": "Per The Next Web, Cisco said at Cisco Live in Melbourne it will build Claude Mythos into AI Defense, which attacks customers’ AI apps and agents to find weak spots; customers cannot prompt Mythos directly. IBM said on November 9 it plans Mythos in Concert Protect in early 2027 to find unknown flaws in code."
+      },
+      "why": {
+        "cs": "Mythos zůstává jen pro ověřené organizace; nástroje nabídnou jeho schopnosti, aniž zákazníkům model vydají. Opravy navrhují nástroje IBM a Red Hat, schvalují je vývojáři; plány IBM se podle firmy mohou změnit.",
+        "en": "Mythos stays limited to vetted organizations; the tools offer its abilities without handing customers the model. IBM and Red Hat tools draft fixes and developers approve them; IBM says its plans could change."
+      },
+      "sources": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/cisco-ai-defense-claude-mythos-red-teaming"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/ibm-concert-protect-claude-mythos-vulnerability-scanning"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/10/anthropics-super-bug-finding-mythos-model-is-going-into-cisco-and-ibm-products/5308616"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-tip-github-copilot-claude-fable-5-2",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "GitHub Copilot nabízí Claude Fable 5.2 od tarifu Pro+",
+        "en": "GitHub Copilot adds Claude Fable 5.2 from Pro+"
+      },
+      "summary": {
+        "cs": "GitHub 9. listopadu uvedl, že Claude Fable 5.2 je v Copilotu obecně dostupný pro tarify Pro+, Max, Business a Enterprise. Najdeš ho ve výběru modelů ve VS Code, Visual Studiu, Copilot CLI, na github.com, v mobilní aplikaci GitHub, JetBrains, Xcode i Eclipse. Zavádí se postupně a účtuje se podle ceníku poskytovatele.",
+        "en": "On November 9, GitHub said Claude Fable 5.2 is generally available in Copilot for the Pro+, Max, Business, and Enterprise plans. You find it in the model picker in VS Code, Visual Studio, Copilot CLI, github.com, GitHub Mobile, JetBrains, Xcode, and Eclipse. Rollout is gradual, and it is billed at the provider’s list price."
+      },
+      "why": {
+        "cs": "Správce Business a Enterprise musí zapnout zásadu Claude Fable 5.2 v nastavení Copilota, výchozí stav je vypnuto. Model vyžaduje uchování dat u Anthropicu pro bezpečnostní klasifikátory; nulové uchování mají zatím jen vybraní podnikoví zákazníci.",
+        "en": "Business and Enterprise admins must turn on the Claude Fable 5.2 policy in Copilot settings (off by default). The model requires Anthropic to retain data for safety classifiers; zero retention is only for eligible enterprises."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-tip-google-workspace-skills-studio-apps",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "Skills ve Workspace se zavádějí do Studia i aplikací",
+        "en": "Skills in Workspace roll out across Studio and apps"
+      },
+      "summary": {
+        "cs": "Google 10. listopadu uvedl, že skills ve Workspace, tedy opakovaně použitelné pokyny pro Gemini, se zavádějí ve Workspace Studiu i v aplikacích. Vytvoříš je ve Studiu, v Dokumentech nebo příkazem v Gmailu; Gemini je použije sám, nebo je vyvoláš přes @. Zatím jen pro dospělé, v angličtině, ne v Tabulkách a Meet.",
+        "en": "On November 10, Google said skills in Workspace, reusable instructions for Gemini, are rolling out across Workspace Studio and apps. You build them in Studio, Docs, or by asking Gemini in Gmail; Gemini applies them itself or via @. For now adults only, English only, not in Sheets or Meet."
+      },
+      "why": {
+        "cs": "Skills jsou ve výchozím stavu zapnuté pro edice Business, Enterprise a AI Expanded Access; správce je může vypnout. Zavádění (Rapid Release) začalo 9. listopadu a trvá až 15 dnů; Scheduled Release začíná 30. listopadu.",
+        "en": "Skills are on by default for Business and Enterprise editions and AI Expanded Access; admins can turn them off. Rapid Release rollout began November 9, takes up to 15 days; Scheduled Release starts November 30."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/skills-in-workspace.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-tip-gemini-sketch-to-app",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-05",
+      "title": {
+        "cs": "Gemini z fotky náčrtu napíše funkční aplikaci",
+        "en": "Gemini turns a sketch photo into a working app"
+      },
+      "summary": {
+        "cs": "Google 5. listopadu popsal, jak v aplikaci Gemini změnit náčrt aplikace, trackeru návyků nebo herní desky v interaktivní nástroj: nahraješ fotku náčrtu, vybereš nástroj Canvas a zeptáš se „Can you code this app?“. Gemini přečte obrázek, napíše kód a v náhledu ho hned upraví podle tvých přání, třeba barvy či písma.",
+        "en": "On November 5, Google showed how to turn a sketch of an app, habit tracker, or game board into a working tool in the Gemini app: upload a photo, select Canvas, and ask “Can you code this app?” Gemini reads it, writes the code, and tweaks colors or fonts in the preview."
+      },
+      "why": {
+        "cs": "V aplikaci Gemini nahraj fotku náčrtu, zapni Canvas a požádej o kód; výsledek vyzkoušíš v náhledu a upravíš dalšími pokyny. Zdroj neuvádí, ve kterých zemích a tarifech to funguje.",
+        "en": "In the Gemini app, upload a sketch photo, turn on Canvas, and ask for code; test and refine it in the preview. The source does not say which countries and plans have it."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "OpenAI: živý přenos Cyber at the Frontier",
+        "en": "OpenAI: Cyber at the Frontier livestream"
+      },
+      "note": {
+        "cs": "OpenAI 12. listopadu v 10:00 pacifického času (19:00 našeho času) v živém přenosu představí své nejnovější kybernetické produkty; konkrétní novinky předem nezveřejnila.",
+        "en": "OpenAI will show its latest cyber products in a livestream at 10 a.m. Pacific (7 p.m. Prague time); it has not said what exactly."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/cyber-at-the-frontier/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-13",
+      "title": {
+        "cs": "Google AI Plus má přijít o volbu modelu Gemini Pro (podle 9to5Google)",
+        "en": "Google AI Plus loses Gemini Pro model choice (per 9to5Google)"
+      },
+      "note": {
+        "cs": "Podle e-mailu z Redditu (9to5Google) přijdou předplatitelé AI Plus od 13. listopadu o výběr pokročilých modelů Pro v Gemini i AI režimu Vyhledávání; každý dostane vlastní termín e-mailem.",
+        "en": "Per an email shared on Reddit (9to5Google), AI Plus loses the choice of advanced Pro models in Gemini and AI Mode from November 13; Google emails each subscriber a date."
+      },
+      "sources": [
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/"
+        },
+        {
+          "name": "Google",
+          "url": "https://support.google.com/gemini/answer/17004136?hl=en"
+        }
+      ],
+      "tentative": true
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "GitHub vyřadí z Copilotu pro programátory tři modely",
+        "en": "GitHub retires three models from GitHub Copilot"
+      },
+      "note": {
+        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8 a Opus 5 (náhrada: Opus 5.5) i GPT-5.6 Terra (náhrada: GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane dostupný ročním individuálním předplatitelům.",
+        "en": "On November 16, GitHub retires Opus 4.8, Opus 5 (alternative: Opus 5.5), and GPT-5.6 Terra (alternatives: GPT-6.1 Sol or GPT-6 Luna) from Copilot. Opus 4.8 stays for individual annual subscribers."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "Microsoft Ignite: konference o Copilotu a AI agentech",
+        "en": "Microsoft Ignite: a conference on Copilot and AI agents"
+      },
+      "note": {
+        "cs": "Microsoftova konference se koná 17.–20. listopadu v San Franciscu; online (zdarma) jen 17.–19. listopadu. Témata: Copilot, AI agenti, cloud, zabezpečení a Windows.",
+        "en": "Microsoft’s conference runs November 17–20 in San Francisco; the online event (free) is November 17–19 only. Topics: Copilot, AI agents, cloud, security, and Windows."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://ignite.microsoft.com/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "NVIDIA: čtvrtletní výsledky",
+        "en": "NVIDIA: quarterly results"
+      },
+      "note": {
+        "cs": "NVIDIA, výrobce čipů pro AI, zveřejní výsledky za čtvrtletí, které skončilo 25. října, kolem 22:20 našeho času; hovor s analytiky začíná ve 23:00.",
+        "en": "NVIDIA, a maker of AI chips, reports results for the quarter ended October 25 at about 10:20 p.m. Prague time; the analyst call starts at 11 p.m."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-19",
+      "title": {
+        "cs": "Anthropic: začátek obchodování akcií (podle WSJ)",
+        "en": "Anthropic: shares start trading (per WSJ)"
+      },
+      "note": {
+        "cs": "Podle Wall Street Journal (přes TechCrunch) chce Anthropic stanovit rozpětí ocenění a zahájit obchodování 19. nebo 20. listopadu; termín není potvrzen.",
+        "en": "Per the Wall Street Journal (via TechCrunch), Anthropic aims to set a valuation range and start trading on November 19 or 20; the date is unconfirmed."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+        }
+      ],
+      "tentative": true
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "Claude Code ruší rychlý režim pro Opus 4.8",
+        "en": "Claude Code drops fast mode for Opus 4.8"
+      },
+      "note": {
+        "cs": "Podle changelogu Claude Code zanikne 30. listopadu rychlý režim (rychlejší výstup) Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Přechod na Opus 5.5 rychlost zachová.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-02",
+      "title": {
+        "cs": "EU: do 2. prosince musí firmy splnit zákaz aplikací na „svlékání“",
+        "en": "EU: companies must meet nudifier-app ban by December 2"
+      },
+      "note": {
+        "cs": "AI Act: podle europarlamentu mají firmy do 2. prosince splnit zákaz aplikací, které AI „svlékají“ lidi bez souhlasu, a označovat AI obsah ve starších systémech (před 2. srpnem).",
+        "en": "AI Act: per the EU Parliament, firms must comply by December 2 with the ban on AI “undressing” apps and label AI content in systems marketed before August 2."
+      },
+      "sources": [
+        {
+          "name": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}
