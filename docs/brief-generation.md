@@ -352,7 +352,17 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   Cathedral Systems) tvrď jen tehdy, když ji říká citovaný zdroj — jinak napiš, že to
   zdroje výslovně neuvádějí. **Titulek citlivé kauzy stojí na výroku oficiálního aktéra**
   (rada Nvidie: „cílem zahraniční rozvědky“), ne na tvrzení z memoranda („špiónka“), které
-  patří do těla textu s atribucí.
+  patří do těla textu s atribucí; (33) **kvalifikátor patří k té části výčtu, ke které ho
+  zdroj váže, a výrok jednotlivce není stanovisko firmy**: u Fireworks AI stálo „u omezeného
+  počtu účtů“ jen u klíčů, datasetů a nedokončených modelů, údaje o účtech a fakturaci byly
+  bez omezení — stlačením výčtu do jedné věty se omezení přenese na všechno. Stejně „od
+  0,10 USD“ (cena platí do 200 tisíc tokenů zadání), „pokud firma ve lhůtě napraví“ (MPO)
+  nebo „bez data“ (Cisco) jsou podmínky a patří do věty. Výrok Borise Chernyho na Hacker
+  News je jeho, ne stanovisko Anthropicu; „důkazy ukazují na souvislost“ není „stojí za
+  útokem“; plán není hotová věc („zapojí“ místo „zapojilo“, v EN „plan“ místo „add“).
+  Před zápisem věty s výčtem projdi zdroj a u každé položky zkontroluj, jaký kvalifikátor
+  k ní opravdu patří; „podle firmy“ patří k tvrzení firmy o sobě („dostupný všem“, ale
+  nabídka platí po omezenou dobu a jen v některých tarifech).
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

@@ -5464,12 +5464,12 @@
         "en": "GitHub Copilot adds Claude Fable 5.2 from Pro+"
       },
       "summary": {
-        "cs": "GitHub 9. listopadu uvedl, že Claude Fable 5.2 je v Copilotu obecně dostupný pro tarify Pro+, Max, Business a Enterprise. Najdeš ho ve výběru modelů ve VS Code, Visual Studiu, Copilot CLI, na github.com, v mobilní aplikaci GitHub, JetBrains, Xcode i Eclipse. Zavádí se postupně a účtuje se podle ceníku poskytovatele.",
-        "en": "On November 9, GitHub said Claude Fable 5.2 is generally available in Copilot for the Pro+, Max, Business, and Enterprise plans. You find it in the model picker in VS Code, Visual Studio, Copilot CLI, github.com, GitHub Mobile, JetBrains, Xcode, and Eclipse. Rollout is gradual, and it is billed at the provider’s list price."
+        "cs": "GitHub 9. listopadu uvedl, že Claude Fable 5.2 je v Copilotu dostupný v tarifech Pro+, Max, Business a Enterprise. Najdeš ho ve výběru modelů ve vývojářských nástrojích (VS Code, Visual Studio, Copilot CLI, JetBrains, Xcode, Eclipse), na github.com a v mobilní aplikaci GitHub. Zavádí se postupně; účtuje se podle spotřeby za ceny poskytovatele.",
+        "en": "On November 9, GitHub said Claude Fable 5.2 is available in Copilot on the Pro+, Max, Business, and Enterprise plans. Find it in the model picker in developer tools (VS Code, Visual Studio, Copilot CLI, JetBrains, Xcode, Eclipse), on github.com, and in GitHub Mobile. Rollout is gradual; billing is by usage at the provider’s prices."
       },
       "why": {
-        "cs": "Správce Business a Enterprise musí zapnout zásadu Claude Fable 5.2 v nastavení Copilota, výchozí stav je vypnuto. Model vyžaduje uchování dat u Anthropicu pro bezpečnostní klasifikátory; nulové uchování mají zatím jen vybraní podnikoví zákazníci.",
-        "en": "Business and Enterprise admins must turn on the Claude Fable 5.2 policy in Copilot settings (off by default). The model requires Anthropic to retain data for safety classifiers; zero retention is only for eligible enterprises."
+        "cs": "Správce Business a Enterprise musí zapnout zásadu Claude Fable 5.2 (výchozí stav je vypnuto). Anthropic u něj uchovává zadání i odpovědi kvůli hlídání zneužití; nulové uchování dat mají jen vybraní podnikoví zákazníci.",
+        "en": "Business and Enterprise admins must turn on the Claude Fable 5.2 policy (off by default). Anthropic retains prompts and outputs to detect misuse; zero data retention is only for eligible enterprise customers."
       },
       "sources": [
         {
@@ -5491,12 +5491,12 @@
         "en": "Skills in Workspace roll out across Studio and apps"
       },
       "summary": {
-        "cs": "Google 10. listopadu uvedl, že skills ve Workspace, tedy opakovaně použitelné pokyny pro Gemini, se zavádějí ve Workspace Studiu i v aplikacích. Vytvoříš je ve Studiu, v Dokumentech nebo příkazem v Gmailu; Gemini je použije sám, nebo je vyvoláš přes @. Zatím jen pro dospělé, v angličtině, ne v Tabulkách a Meet.",
+        "cs": "Google 10. listopadu uvedl, že skills ve Workspace, tedy opakovaně použitelné pokyny pro Gemini, se zavádějí ve Workspace Studiu i v aplikacích. Vytvoříš je ve Studiu, v Dokumentech nebo zadáním Gemini v Gmailu; Gemini je použije sám, nebo je vyvoláš přes @. Zatím jen pro dospělé, v angličtině, ne v Tabulkách a Meet.",
         "en": "On November 10, Google said skills in Workspace, reusable instructions for Gemini, are rolling out across Workspace Studio and apps. You build them in Studio, Docs, or by asking Gemini in Gmail; Gemini applies them itself or via @. For now adults only, English only, not in Sheets or Meet."
       },
       "why": {
-        "cs": "Skills jsou ve výchozím stavu zapnuté pro edice Business, Enterprise a AI Expanded Access; správce je může vypnout. Zavádění (Rapid Release) začalo 9. listopadu a trvá až 15 dnů; Scheduled Release začíná 30. listopadu.",
-        "en": "Skills are on by default for Business and Enterprise editions and AI Expanded Access; admins can turn them off. Rapid Release rollout began November 9, takes up to 15 days; Scheduled Release starts November 30."
+        "cs": "Jen pro vybrané edice Workspace (Business, Enterprise) a doplněk AI Expanded Access, ve výchozím stavu zapnuté; správce je může vypnout. Zavádění: od 9. listopadu u rychlého vydávání (až 15 dnů), od 30. listopadu u plánovaného.",
+        "en": "On by default only in Workspace Business and Enterprise editions and with AI Expanded Access; admins can turn them off. Rollout: Rapid Release from November 9 (up to 15 days), Scheduled Release from November 30."
       },
       "sources": [
         {
@@ -5514,16 +5514,16 @@
       "verified": true,
       "eventDate": "2026-11-05",
       "title": {
-        "cs": "Gemini z fotky náčrtu napíše funkční aplikaci",
-        "en": "Gemini turns a sketch photo into a working app"
+        "cs": "Gemini umí z fotky náčrtu napsat kód aplikace",
+        "en": "Gemini can turn a sketch photo into app code"
       },
       "summary": {
         "cs": "Google 5. listopadu popsal, jak v aplikaci Gemini změnit náčrt aplikace, trackeru návyků nebo herní desky v interaktivní nástroj: nahraješ fotku náčrtu, vybereš nástroj Canvas a zeptáš se „Can you code this app?“. Gemini přečte obrázek, napíše kód a v náhledu ho hned upraví podle tvých přání, třeba barvy či písma.",
         "en": "On November 5, Google showed how to turn a sketch of an app, habit tracker, or game board into a working tool in the Gemini app: upload a photo, select Canvas, and ask “Can you code this app?” Gemini reads it, writes the code, and tweaks colors or fonts in the preview."
       },
       "why": {
-        "cs": "V aplikaci Gemini nahraj fotku náčrtu, zapni Canvas a požádej o kód; výsledek vyzkoušíš v náhledu a upravíš dalšími pokyny. Zdroj neuvádí, ve kterých zemích a tarifech to funguje.",
-        "en": "In the Gemini app, upload a sketch photo, turn on Canvas, and ask for code; test and refine it in the preview. The source does not say which countries and plans have it."
+        "cs": "Zkus to na jednoduchém náčrtu: výsledek uvidíš v náhledu a barvy, písma či funkce upravíš dalšími pokyny. Zdroj neuvádí, ve kterých zemích a tarifech to funguje.",
+        "en": "Try it on a simple sketch: you see the result in the preview and adjust colors, fonts, or features with further instructions. The source does not say which countries and plans have it."
       },
       "sources": [
         {
