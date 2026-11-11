@@ -362,7 +362,24 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   útokem“; plán není hotová věc („zapojí“ místo „zapojilo“, v EN „plan“ místo „add“).
   Před zápisem věty s výčtem projdi zdroj a u každé položky zkontroluj, jaký kvalifikátor
   k ní opravdu patří; „podle firmy“ patří k tvrzení firmy o sobě („dostupný všem“, ale
-  nabídka platí po omezenou dobu a jen v některých tarifech).
+  nabídka platí po omezenou dobu a jen v některých tarifech); (34) **co je „rozpor
+  zdrojů“, rozhoduje to, kdo koho cituje, a procento bez jmenovatele zavádí**: u Adobe MAX
+  draft psal „TechCrunch píše o vydání, The Verge o náhledu, 9to5Mac o startu až 2027“,
+  jenže The Verge i 9to5Mac v další větě citují Adobe shodně („zatím nedostupné, soukromá
+  beta začátkem 2027“) a jen TechCrunch píše „releasing“ — „previewed at the event“ z první
+  věty Vergu není dostupnost. Před větou „zdroje se liší“ přečti u každého zdroje celý
+  odstavec o stavu, stav podle firmy dej do shrnutí a odlišný zdroj do `why`. Stejně:
+  „(cituje Digiday)“ patřilo jen k druhé větě The Next Web, CNBC a WSJ byly z druhé ruky
+  (piš „podle CNBC (přes TechCrunch)“) a „po upozornění Claroc stáhla“ byla chyba v časové
+  ose — podle Ars začala SpaceXSI mazat až po dotazu Ars, Claroc ji nahlásila už 8. 11.
+  „94,7 % aplikací otevřených komukoli“ nebyly úniky: většinou hry a kalkulačky, citlivých
+  asi desetina podle odhadu výzkumníka, který prodává ochranu — dej i podíl, na kterém
+  záleží, a kdo má zájem. A výklad ve slovníčku se může s položkou rozejít: definice
+  „agent“ (plní úkoly za tebe) u chatu s firemním asistentem v ChatGPT zavádí — přeformuluj
+  tak, aby alias nesedl (titulky se nepodtrhují), a produkt jmenuj v titulku; pojem, který
+  čtenář nezná (Argon, SEC, RAISE Act, Grok Build), dostane v první větě 2–4 slova
+  vysvětlení; řádek „Dostupnost“ zdroje čti celý (u Gemini v Gmailu zahrnoval i osobní
+  účty Google, ne jen Workspace).
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

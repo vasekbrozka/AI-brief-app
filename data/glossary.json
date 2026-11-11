@@ -1503,23 +1503,6 @@
       }
     },
     {
-      "id": "swarm",
-      "term": {
-        "cs": "Roj agentů (swarm)",
-        "en": "Agent swarm"
-      },
-      "aliases": [
-        "swarm",
-        "swarmu",
-        "roj agentů",
-        "roje agentů"
-      ],
-      "short": {
-        "cs": "Víc AI agentů pracuje na jednom zadání najednou jako tým: jeden plánuje, další píší kód nebo kontrolují výsledky. Hodí se na velké projekty.",
-        "en": "Several AI agents work on one task at the same time like a team: one plans, others write code or check results. Suited to large projects."
-      }
-    },
-    {
       "id": "frontier-ai",
       "term": {
         "cs": "Frontier AI (špičkové modely)",

@@ -18,12 +18,12 @@
         "en": "Anthropic launches Claude Sheets, Whiteboards, and Data"
       },
       "summary": {
-        "cs": "Anthropic 10. listopadu uvedla v betě Claude Sheets (tabulky, které Claude s týmem vytváří a upravuje) a Claude Whiteboards (sdílené tabule) pro všechny placené tarify. Dashboardy se přejmenovaly na Claude Data a jsou běžně dostupné; partneři jako Adobe a Atlassian mohou své aplikace otevřít přímo v Claude.",
-        "en": "On November 10, Anthropic launched Claude Sheets (spreadsheets Claude builds and edits with your team) and Claude Whiteboards (shared boards) in beta for all paid plans. Dashboards became Claude Data, now generally available; partners such as Adobe and Atlassian can open their apps inside Claude."
+        "cs": "Anthropic 10. listopadu uvedla v betě Claude Sheets (tabulky, které Claude s týmem vytváří a upravuje) a Claude Whiteboards (sdílené tabule) pro všechny placené tarify. Dashboardy, v nichž se firmy přes konektor ptají na svá data, jsou jako Claude Data běžně dostupné; aplikace Adobe či Atlassianu se otevřou přímo v Claude.",
+        "en": "On November 10, Anthropic launched Claude Sheets (spreadsheets Claude builds and edits with your team) and Claude Whiteboards (shared boards) in beta for all paid plans. Dashboards, where companies ask questions of their data through a connector, are now generally available as Claude Data; Adobe and Atlassian apps open inside Claude."
       },
       "why": {
-        "cs": "V tarifech Team je vše ve výchozím stavu zapnuté; na Enterprise jsou Sheets a Whiteboards vypnuté a správce je zapne v Nastavení organizace. Sheets zatím umí jen základní funkce; exportovat jde do .xlsx či CSV.",
-        "en": "Team plans have all three on by default; on Enterprise, Sheets and Whiteboards stay off until an admin enables them in Organization settings. Sheets is basic so far; export to .xlsx or CSV."
+        "cs": "Funguje na webu, desktopu i mobilu. Sheets zatím umí jen základní funkce (export do .xlsx či CSV). V Teamu je vše zapnuté, v Enterprise Sheets a Whiteboards zapíná správce, Data se zapnou 19. 11.",
+        "en": "Works on web, desktop, and mobile. Sheets is basic so far (export to .xlsx or CSV). Team plans have everything on; on Enterprise, admins enable Sheets and Whiteboards, and Data turns on November 19."
       },
       "sources": [
         {
@@ -48,15 +48,15 @@
       "eventDate": "2026-11-10",
       "title": {
         "cs": "Anthropic zahájila roadshow před vstupem na burzu",
-        "en": "Anthropic launches IPO roadshow at $70–78 a share"
+        "en": "Anthropic launches IPO roadshow with $70–78 price range"
       },
       "summary": {
-        "cs": "Anthropic 10. listopadu zahájila roadshow k veřejné nabídce akcií: nabízí 825 milionů akcií třídy A v rozpětí 70–78 USD a žádá o zařazení na Nasdaq pod značkou ANT. Podle TechCrunch by horní hranice znamenala ocenění 1,404 bilionu USD; obchodování má podle WSJ a CNBC začít kolem 19. nebo 20. listopadu.",
-        "en": "On November 10, Anthropic launched its IPO roadshow: it offers 825 million Class A shares at $70–78 and has applied to list on Nasdaq as ANT. Per TechCrunch, the top of the range implies a $1.404 trillion valuation; trading is due to start around November 19 or 20, per the WSJ and CNBC."
+        "cs": "Anthropic 10. listopadu zahájila roadshow k IPO: nabízí 825 milionů akcií v rozpětí 70–78 USD a žádá o zařazení na Nasdaq pod značkou ANT. Podle TechCrunch by horní hranice znamenala ocenění 1,404 bilionu USD (plně zředěné); obchodování má začít kolem 19. nebo 20. listopadu podle CNBC a WSJ (citují je TechCrunch a The Verge).",
+        "en": "On November 10, Anthropic launched its IPO roadshow, offering 825 million shares at $70–78 and applying to list on Nasdaq as ANT. Per TechCrunch, the top of the range implies a $1.404 trillion valuation (fully diluted); trading is due around November 19 or 20, per CNBC and the WSJ (via TechCrunch and The Verge)."
       },
       "why": {
-        "cs": "Cena a ocenění jsou zatím předběžné: registrace u SEC ještě není účinná. Podle TechCrunch jde o méně než dříve zvažované 2 biliony USD; až 20 % akcií má jít drobným investorům.",
-        "en": "Price and valuation are preliminary: the SEC registration is not yet effective. Per TechCrunch, that is below the $2 trillion once discussed; up to 20% of shares are to go to retail investors."
+        "cs": "Cena i ocenění jsou předběžné, akcie se zatím prodávat nesmí (přihláška u amerického úřadu SEC není účinná). Podle TechCrunch je to pod údajně cílenými 2 biliony; až 20 % akcií má jít drobným investorům.",
+        "en": "Price and valuation are preliminary; shares can’t be sold yet (the SEC filing is not effective). TechCrunch: below the $2 trillion reportedly targeted; up to 20% of shares are expected to go to retail investors."
       },
       "sources": [
         {
@@ -84,12 +84,12 @@
         "en": "Gemini 4 Carbon reaches developers and AI Ultra users"
       },
       "summary": {
-        "cs": "Google 10. listopadu zpřístupnil Gemini 4 Carbon, dříve jen kyberobráncům: platící vývojáři a firmy ho mají přes API v AI Studiu a Gemini for business za úvodních 2 a 10 USD za milion vstupních a výstupních tokenů, předplatitelé AI Ultra v aplikaci Gemini, režimu AI ve Vyhledávání a Antigravity. Antigravity ukazuje náhled /swarm.",
-        "en": "On November 10, Google opened Gemini 4 Carbon, previously for cyber defenders only: paying developers and businesses get it via the API in AI Studio and Gemini for business at an introductory $2 and $10 per million input and output tokens, AI Ultra subscribers in the Gemini app, AI Mode, and Antigravity. Antigravity previews /swarm."
+        "cs": "Google 10. listopadu zpřístupnil Gemini 4 Carbon, dříve jen bezpečnostním expertům. Platící vývojáři a firmy ho mají přes API v AI Studiu a Gemini for business za úvodních 2 USD (vstup) a 10 USD (výstup) za milion tokenů; předplatitelům AI Ultra se postupně zavádí v aplikaci Gemini, režimu AI ve Vyhledávání a Antigravity.",
+        "en": "On November 10, Google opened Gemini 4 Carbon, previously for cyber defenders only. Paying developers and businesses get it via API in AI Studio and Gemini for business at an introductory $2 (input) and $10 (output) per million tokens; AI Ultra subscribers get it gradually in the Gemini app, AI Mode in Search, and Antigravity."
       },
       "why": {
-        "cs": "Argon podle Googlu zůstává ideální volbou pro většinu programování a práce se znalostmi; Carbon je na nejnáročnější úlohy a spotřebuje víc tokenů. Úvodní cena podle The Verge koncem listopadu vzroste na dvojnásobek.",
-        "en": "Argon, per Google, stays the ideal choice for most coding and knowledge work; Carbon is for the hardest tasks and uses more tokens. Per The Verge, the introductory price doubles at the end of November."
+        "cs": "Gemini 4 Argon zůstává podle Googlu ideální volbou pro většinu programování a práce se znalostmi; Carbon míří na nejnáročnější úlohy a spotřebuje víc tokenů. Úvodní cena platí do 30. 11., pak 4 a 20 USD.",
+        "en": "Gemini 4 Argon stays the ideal choice for most coding and knowledge work, per Google; Carbon targets the hardest tasks and uses more tokens. The introductory price runs to November 30, then $4 and $20."
       },
       "sources": [
         {
@@ -121,16 +121,16 @@
       "verified": true,
       "eventDate": "2026-11-10",
       "title": {
-        "cs": "ChatGPT dostane ověřené firemní profily a agenty",
-        "en": "ChatGPT adds verified business profiles and agents"
+        "cs": "ChatGPT spouští v betě firemní profily a agenty",
+        "en": "ChatGPT launches business profiles and agents in beta"
       },
       "summary": {
-        "cs": "OpenAI 10. listopadu spustila v betě Businesses in ChatGPT: firmy si v nástroji Business Hub ověří profil, upraví údaje a uvidí, jak často je ChatGPT zmiňuje. Vybrané americké e-shopy a online služby mohou spustit Business Agenta, se kterým si uživatelé v ChatGPT popovídají o produktech; chat je označený a oddělený.",
-        "en": "On November 10, OpenAI launched Businesses in ChatGPT in beta: companies verify a profile in Business Hub, update their details, and see how often ChatGPT mentions them. Eligible US e-commerce and online-service firms can launch a Business Agent that users chat with about products; the chat is labeled and kept separate."
+        "cs": "OpenAI 10. listopadu spustila v betě Businesses in ChatGPT: firmy si v nástroji Business Hub ověří profil, upraví údaje a uvidí, jak často je ChatGPT zmiňuje. Způsobilé americké e-shopy a online služby mohou spustit firemního asistenta, se kterým si lidé v ChatGPT popovídají o produktech; chat je podle OpenAI označený a oddělený.",
+        "en": "On November 10, OpenAI launched Businesses in ChatGPT in beta: companies verify a profile in Business Hub, update their details, and see how often ChatGPT mentions them. Eligible US e-commerce and online-service firms can run an AI assistant that people chat with about products; per OpenAI, the chat is labeled and kept separate."
       },
       "why": {
-        "cs": "Když ChatGPT firmu doporučí, otevřeš její profil a ptáš se agenta; nákup zatím vede na web firmy. Podle The Next Web (cituje Digiday) jde agenta sponzorovat jako reklamu; OpenAI tvrdí, že platba doporučování nemění.",
-        "en": "Open a recommended firm’s profile and ask its agent; buying still goes to the firm’s site. Per The Next Web (citing Digiday), agents can be sponsored as ads; OpenAI says paying does not change recommendations."
+        "cs": "Když ChatGPT firmu doporučí, otevřeš její profil a ptáš se asistenta; nákup zatím vede na web firmy. Podle The Next Web jde asistenta sponzorovat jako reklamu; podle Digiday OpenAI tvrdí, že platba doporučování nemění.",
+        "en": "Open a recommended firm’s profile and ask its assistant; buying still goes to the firm’s site. Per The Next Web, it can be sponsored as an ad; Digiday reports OpenAI says paying doesn’t change recommendations."
       },
       "sources": [
         {
@@ -154,16 +154,16 @@
       "verified": true,
       "eventDate": "2026-11-10",
       "title": {
-        "cs": "Claroc: Grok Build vystavuje sdílené aplikace komukoli",
-        "en": "Claroc: Grok Build exposes shared apps to anyone"
+        "cs": "Claroc: sdílené aplikace z Grok Build otevřené komukoli",
+        "en": "Claroc: shared Grok Build apps open to anyone"
       },
       "summary": {
-        "cs": "Podle bezpečnostní firmy Claroc (10. listopadu) bylo z 37 571 fungujících adres grok.me, kde se publikují aplikace z Grok Build, 35 578 (94,7 %) otevřených komukoli bez přihlášení. Claroc uvádí interní data SpaceXSI, dříve xAI, i dalších 30 organizací; SpaceXSI po jejím upozornění stáhla 24 vlastních aplikací.",
-        "en": "Per security firm Claroc (November 10), of 37,571 working grok.me addresses, where Grok Build apps are published, 35,578 (94.7%) opened for anyone without sign-in. Claroc reports internal data from SpaceXSI, formerly xAI, and 30 other organizations; SpaceXSI took down 24 of its own apps after Claroc’s report."
+        "cs": "Podle bezpečnostní firmy Claroc (10. listopadu) bylo z 37 571 fungujících adres grok.me, kde se publikují aplikace z programovacího agenta Grok Build, 35 578 (94,7 %) otevřených komukoli bez přihlášení; většinou hry, úvodní stránky a kalkulačky, citlivá data podle jejího odhadu nese 650–800 aplikací. SpaceXSI (dříve xAI) po dotazu Ars Technica stáhla 24 svých aplikací.",
+        "en": "Per security firm Claroc (November 10), of 37,571 working grok.me addresses, where Grok Build coding-agent apps are published, 35,578 (94.7%) opened for anyone without sign-in; mostly games, landing pages, and calculators, with about 650–800 apps holding private data, it estimates. SpaceXSI, formerly xAI, took down 24 of its own apps after Ars Technica asked."
       },
       "why": {
-        "cs": "Používáš-li Grok Build, přepni sdílení z „kdokoli s odkazem“ na pozvané nebo jen sebe. Claroc to v testu našla jako výchozí; podle zástupce Cursoru (patří SpaceXSI) jsou aplikace výchozně soukromé (Ars).",
-        "en": "If you use Grok Build, switch sharing from “anyone with the link” to invited users or only you. Claroc found that default; a Cursor spokesperson (SpaceXSI owns Cursor) says apps are private by default (Ars)."
+        "cs": "Používáš-li Grok Build, přepni sdílení z „kdokoli s odkazem“ na pozvané nebo jen sebe. Claroc to našla jako výchozí a prodává ochranu AI aplikací; mluvčí Cursoru (patří SpaceXSI) tvrdí, že jsou výchozně soukromé (Ars).",
+        "en": "Using Grok Build? Switch sharing from “anyone with the link” to invited users or only you. Claroc found that default and sells AI-app security; Cursor, owned by SpaceXSI, says apps are private by default (Ars)."
       },
       "sources": [
         {
@@ -183,16 +183,16 @@
       "verified": true,
       "eventDate": "2026-11-10",
       "title": {
-        "cs": "Adobe MAX: AI agenti a nové funkce ve Photoshopu",
-        "en": "Adobe MAX: AI agents and new Creative Cloud tools"
+        "cs": "Adobe MAX: AI asistenti a novinky ve Photoshopu",
+        "en": "Adobe MAX: AI assistants and new Photoshop tools"
       },
       "summary": {
-        "cs": "Na konferenci Adobe MAX 10. listopadu Adobe oznámil novinky: Photoshop dostal funkce Relight a Generative Restyle, Premiere generativní odstranění objektů (beta) a Firefly rozšířeného AI asistenta s plánovacím režimem. Lokální MCP pro ovládání Photoshopu, Illustratoru či Premiere z ChatGPT, Claude nebo Gemini Adobe představil jako náhled.",
-        "en": "At Adobe MAX on November 10, Adobe announced new features: Photoshop gets Relight and Generative Restyle, Premiere gets generative object removal (beta), and Firefly gets an upgraded AI assistant with a plan mode. Adobe showed a local MCP for driving Photoshop, Illustrator, or Premiere from ChatGPT, Claude, or Gemini as a preview."
+        "cs": "Adobe na konferenci MAX 10. listopadu oznámil: Photoshop získal Relight (úpravu světel v obrázku) a Generative Restyle (varianty stylu obrázku), Premiere generativní odstranění objektů (beta), AI asistenti jdou v betě i do dalších aplikací. MCP, přes které ChatGPT, Claude či Gemini ovládají aplikace Adobe, zatím není k dispozici; soukromá beta začne na začátku 2027.",
+        "en": "At Adobe MAX on November 10, Adobe announced Photoshop’s Relight (adjustable lights) and Generative Restyle (image style variations), Premiere’s generative object removal (beta), and AI assistants in beta in more apps. MCP, which lets ChatGPT, Claude, or Gemini drive Adobe apps, is not available yet; a private beta starts in early 2027."
       },
       "why": {
-        "cs": "Novinky se zavádějí postupně a část je v betě. U MCP se zdroje rozcházejí: TechCrunch píše o vydání, The Verge o náhledu a 9to5Mac o startu až v roce 2027.",
-        "en": "Features roll out gradually and some are in beta. Sources differ on MCP: TechCrunch writes of a release, The Verge of a preview, and 9to5Mac of a launch only in 2027."
+        "cs": "Novinky se zavádějí postupně a část je v betě. U MCP se TechCrunch liší: píše o vydání, zatímco The Verge a 9to5Mac citují Adobe (soukromá beta začátkem 2027).",
+        "en": "Features roll out gradually and some are in beta. On MCP, TechCrunch differs: it writes of a release, while The Verge and 9to5Mac cite Adobe (private beta in early 2027)."
       },
       "sources": [
         {
@@ -220,8 +220,8 @@
         "en": "New York opens AI developer registration and testing center"
       },
       "summary": {
-        "cs": "New York 10. listopadu otevřel portál, ve kterém se musí do 1. ledna 2027 zaregistrovat velcí vývojáři špičkové AI, třeba Anthropic a OpenAI; od té doby budou podle zákona RAISE Act zveřejňovat bezpečnostní rámce a hlásit závažné incidenty do 72 hodin. Guvernérka také spustila centrum na Binghamtonské univerzitě, které bude nezávisle testovat AI.",
-        "en": "On November 10, New York opened a portal where large frontier AI developers, such as Anthropic and OpenAI, must register by January 1, 2027; from then, the RAISE Act has them publish safety frameworks and report critical incidents within 72 hours. The governor also launched a center at Binghamton University to test AI independently."
+        "cs": "New York 10. listopadu otevřel portál, kde se musí do 1. ledna 2027 zaregistrovat velcí vývojáři špičkové AI, třeba Anthropic a OpenAI; podle newyorského zákona o bezpečnosti AI (RAISE Act) pak budou zveřejňovat bezpečnostní rámce a hlásit závažné incidenty do 72 hodin. Podle úřadu guvernérky bude centrum při Binghamtonské univerzitě nezávisle testovat AI.",
+        "en": "On November 10, New York opened a portal where large frontier AI developers, such as Anthropic and OpenAI, must register by January 1, 2027; under the state’s RAISE Act on AI safety, they publish safety frameworks and report critical incidents within 72 hours. Per the governor’s office, a Binghamton University center will test AI independently."
       },
       "why": {
         "cs": "Povinnosti platí od 1. ledna 2027 pro firmy s tržbami nad 500 milionů USD; pokuta až 1 milion USD, při opakování 3 miliony (TechCrunch). Engadget: centrum může studovat jen to, co firmy zveřejní.",
@@ -249,12 +249,12 @@
         "en": "Gemini in Gmail: thread summaries and drafting for Workspace"
       },
       "summary": {
-        "cs": "Google 10. listopadu rozšířil funkce Gemini v Gmailu na všechny uživatele Workspace od 18 let, tedy i školní a pracovní účty. AI Overview shrne dlouhé e-mailové vlákno a Help me write vytvoří koncept e-mailu nebo upraví text podle krátkého zadání; zavádí se postupně.",
-        "en": "On November 10, Google expanded Gemini in Gmail to all Workspace users aged 18 and older, school and work accounts included. AI Overview summarizes a long email thread, and Help me write drafts an email or refines text from a short prompt; rollout is gradual."
+        "cs": "Google 10. listopadu rozšířil funkce Gemini v Gmailu na všechny uživatele Workspace od 18 let, tedy i školní a pracovní účty. AI Overview shrne dlouhé e-mailové vlákno a Help me write (bez personalizace) vytvoří koncept e-mailu nebo upraví text podle krátkého zadání; zavádí se postupně.",
+        "en": "On November 10, Google expanded Gemini in Gmail to all Workspace users aged 18 and older, school and work accounts included. AI Overview summarizes a long email thread, and Help me write (non-personalized) drafts an email or refines text from a short prompt; rollout is gradual."
       },
       "why": {
-        "cs": "Je to ve výchozím stavu zapnuté a vypnout to může uživatel i správce. Potřebuješ mít v Gmailu zapnuté chytré funkce; zavádění začalo 10. listopadu a trvá až 15 dnů.",
-        "en": "It is on by default, and both users and admins can turn it off. You need smart features enabled in Gmail; rollout began November 10 and takes up to 15 days."
+        "cs": "Otevři dlouhé vlákno: AI Overview je nahoře. Help me write zkus se zadáním jako „napiš poděkování po pohovoru“. Platí i pro osobní účty Google od 18 let se zapnutými chytrými funkcemi; vypnout lze.",
+        "en": "Open a long thread: AI Overview is at the top. Try Help me write with “draft a thank-you after an interview.” Also for personal Google accounts 18+ with smart features on; can be turned off."
       },
       "sources": [
         {
@@ -274,14 +274,18 @@
         "en": "Spotify’s AI DJ adds new voices and less chatter"
       },
       "summary": {
-        "cs": "Spotify 10. listopadu oznámil, že si předplatitelé Premium v AI DJ mohou vybrat z devíti nových hlasů v angličtině a španělštině, včetně britského, irského či indického přízvuku. Nově jde také vypnout komentáře mezi skladbami; DJ pak jen krátce pozdraví při spuštění a při změně hudby.",
-        "en": "On November 10, Spotify said Premium subscribers can pick from nine new AI DJ voices in English and Spanish, including British, Irish, and Indian accents. You can also turn off commentary between songs; the DJ then only briefly acknowledges you when it starts and when you change the music."
+        "cs": "Spotify 10. listopadu oznámil, že si předplatitelé Premium v AI DJ mohou vybrat z devíti nových hlasů v angličtině a španělštině, včetně britského, irského či indického přízvuku. Nově jde také vypnout komentáře mezi skladbami; DJ se pak krátce ozve jen při spuštění a při přepnutí na jinou hudbu.",
+        "en": "On November 10, Spotify said Premium subscribers can pick from nine new AI DJ voices in English and Spanish, including British, Irish, and Indian accents. You can also turn off commentary between songs; the DJ then only briefly speaks up when it starts and when you switch to different music."
       },
       "why": {
-        "cs": "Ve Spotify vyhledej „DJ“, otevři nabídku se třemi tečkami a vyber hlas a nastavení komentářů. Hlasy se podle Spotify zavádějí od 10. listopadu v zemích, kde DJ funguje.",
-        "en": "In Spotify, search for “DJ,” open the three-dot menu, and pick a voice and commentary setting. Per Spotify, voices roll out from November 10 in markets where DJ works."
+        "cs": "V mobilní aplikaci Spotify vyhledej „DJ“, otevři nabídku se třemi tečkami a vyber hlas a nastavení komentářů. Hlasy i přepínač se zavádějí od 10. listopadu v zemích, kde DJ funguje.",
+        "en": "In the Spotify mobile app, search for “DJ,” open the three-dot menu, and pick a voice and commentary setting. Voices and the toggle roll out from November 10 in markets where DJ works."
       },
       "sources": [
+        {
+          "name": "Spotify",
+          "url": "https://newsroom.spotify.com/2026-11-10/dj-new-voices-controls/"
+        },
         {
           "name": "TechCrunch",
           "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/"
@@ -303,12 +307,12 @@
         "en": "Copilot builds a Microsoft List from your description"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání Microsoft 365 Copilot z 4. listopadu uvádí agenta pro seznamy SharePoint: popíšeš, jaký seznam chceš, a agent navrhne jeho strukturu a pole, aby z údajů nebo odpovědí Copilota vznikl Microsoft List. Funkce je označená jen pro web.",
-        "en": "Microsoft’s November 4 Microsoft 365 Copilot release notes describe a SharePoint list agent: you describe the list you want, and the agent proposes its structure and fields so that information or Copilot’s replies become a Microsoft List. The feature is listed for web only."
+        "cs": "Microsoft v poznámkách k vydání Microsoft 365 Copilot z 4. listopadu uvádí agenta pro seznamy SharePoint: popíšeš, jaký seznam chceš, a agent navrhne jeho strukturu a pole. Z popisu, strukturovaných údajů nebo odpovědí Copilota tak vznikne Microsoft List (seznam pro evidenci informací). Funkce je označená jen pro web.",
+        "en": "Microsoft’s November 4 Microsoft 365 Copilot release notes describe a SharePoint list agent: you describe the list you want, and the agent proposes its structure and fields. A description, structured information, or Copilot replies can thus become a Microsoft List (a list for tracking information). The feature is listed for web only."
       },
       "why": {
-        "cs": "V Copilotu na webu popiš seznam, zkontroluj navržená pole a seznam vytvoř; obsah pak doplníš nebo upravíš. Týká se Microsoft 365 Copilot a zavádí se postupně, takže ho nemusíš mít hned.",
-        "en": "In Copilot on the web, describe the list, review the suggested fields, and create it; then refine content. It applies to Microsoft 365 Copilot and rolls out gradually, so you may not have it yet."
+        "cs": "V Copilotu na webu popiš seznam, zkontroluj navržená pole a seznam vytvoř; obsah pak doplníš nebo upravíš. Týká se Microsoft 365 Copilot na webu, jinde to zdroj neuvádí; zavádí se postupně.",
+        "en": "In Copilot on the web, describe the list, review the suggested fields, and create it; then refine content. It applies to Microsoft 365 Copilot on the web; elsewhere is not stated. Rolls out gradually."
       },
       "sources": [
         {
@@ -460,8 +464,8 @@
         "en": "EU: companies must meet nudifier-app ban by December 2"
       },
       "note": {
-        "cs": "AI Act: podle europarlamentu mají firmy do 2. prosince splnit zákaz aplikací, které AI „svlékají“ lidi bez souhlasu, a označovat AI obsah u systémů uvedených na trh před 2. srpnem.",
-        "en": "AI Act: per the EU Parliament, firms must comply by December 2 with the ban on AI “undressing” apps and label AI content in systems marketed before August 2."
+        "cs": "AI Act: podle europarlamentu musí firmy do 2. prosince splnit zákaz aplikací, které AI „svlékají“ lidi bez souhlasu, a označovat AI obsah (systémy uvedené na trh před 2. srpnem 2026).",
+        "en": "AI Act: per the EU Parliament, firms must comply by December 2 with the ban on AI “undressing” apps and label AI content (systems marketed before August 2, 2026)."
       },
       "sources": [
         {
