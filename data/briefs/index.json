@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-10T10:35:53Z",
+  "updated": "2026-11-11T03:21:18Z",
   "briefs": [
+    {
+      "date": "2026-11-11",
+      "headline": {
+        "cs": "Anthropic uvedla Claude Sheets, Whiteboards a Data",
+        "en": "Anthropic launches Claude Sheets, Whiteboards, and Data"
+      },
+      "itemCount": 10
+    },
     {
       "date": "2026-11-10",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Google představil Gemini 4 Carbon, zatím jen bezpečnostním expertům",
         "en": "Google unveils Gemini 4 Carbon, first to cyber defenders"
-      },
-      "itemCount": 11
-    },
-    {
-      "date": "2026-10-28",
-      "headline": {
-        "cs": "Google ukázal Genie 4, model světa se zvukem",
-        "en": "Google unveils Genie 4, a world model with sound"
       },
       "itemCount": 11
     }

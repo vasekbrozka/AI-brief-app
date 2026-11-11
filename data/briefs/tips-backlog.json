@@ -5386,8 +5386,8 @@
         "en": "Microsoft’s November 4 Microsoft 365 Copilot release notes describe a SharePoint list agent: you describe the list you want, and the agent proposes its structure and fields so that information or Copilot’s replies become a Microsoft List. The feature is listed for web only."
       },
       "why": {
-        "cs": "V Copilotu popiš seznam, zkontroluj navržená pole a seznam vytvoř; obsah pak doplníš nebo upravíš. Licenci poznámky neuvádějí.",
-        "en": "In Copilot, describe the list, review the suggested fields, and create it; then add or refine content. The release notes do not name a license."
+        "cs": "V Copilotu na webu popiš seznam, zkontroluj navržená pole a seznam vytvoř; obsah pak doplníš nebo upravíš. Týká se Microsoft 365 Copilot a zavádí se postupně, takže ho nemusíš mít hned.",
+        "en": "In Copilot on the web, describe the list, review the suggested fields, and create it; then refine content. It applies to Microsoft 365 Copilot and rolls out gradually, so you may not have it yet."
       },
       "sources": [
         {
@@ -5396,7 +5396,7 @@
         }
       ],
       "added": "2026-11-09",
-      "used": null
+      "used": "2026-11-11"
     },
     {
       "slug": "tip-google-play-personal-ai-apps-ai-studio",
@@ -5585,6 +5585,118 @@
         }
       ],
       "added": "2026-11-10",
+      "used": null
+    },
+    {
+      "slug": "tip-gmail-gemini-summaries-help-me-write-workspace",
+      "category": "tools",
+      "theme": "gemini",
+      "added": "2026-11-11",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "Gemini v Gmailu: shrnutí vláken i psaní pro Workspace",
+        "en": "Gemini in Gmail: thread summaries and drafting for Workspace"
+      },
+      "summary": {
+        "cs": "Google 10. listopadu rozšířil funkce Gemini v Gmailu na všechny uživatele Workspace od 18 let, tedy i školní a pracovní účty. AI Overview shrne dlouhé e-mailové vlákno a Help me write vytvoří koncept e-mailu nebo upraví text podle krátkého zadání; zavádí se postupně.",
+        "en": "On November 10, Google expanded Gemini in Gmail to all Workspace users aged 18 and older, school and work accounts included. AI Overview summarizes a long email thread, and Help me write drafts an email or refines text from a short prompt; rollout is gradual."
+      },
+      "why": {
+        "cs": "Je to ve výchozím stavu zapnuté a vypnout to může uživatel i správce. Potřebuješ mít v Gmailu zapnuté chytré funkce; zavádění začalo 10. listopadu a trvá až 15 dnů.",
+        "en": "It is on by default, and both users and admins can turn it off. You need smart features enabled in Gmail; rollout began November 10 and takes up to 15 days."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/expanding-gemini-in-gmail-to-more-Google-Workspace-users.html"
+        }
+      ],
+      "used": "2026-11-11"
+    },
+    {
+      "slug": "tip-spotify-ai-dj-voices-less-commentary",
+      "category": "tools",
+      "theme": "other",
+      "added": "2026-11-11",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "Spotify DJ: nové hlasy a možnost méně komentářů",
+        "en": "Spotify’s AI DJ adds new voices and less chatter"
+      },
+      "summary": {
+        "cs": "Spotify 10. listopadu oznámil, že si předplatitelé Premium v AI DJ mohou vybrat z devíti nových hlasů v angličtině a španělštině, včetně britského, irského či indického přízvuku. Nově jde také vypnout komentáře mezi skladbami; DJ pak jen krátce pozdraví při spuštění a při změně hudby.",
+        "en": "On November 10, Spotify said Premium subscribers can pick from nine new AI DJ voices in English and Spanish, including British, Irish, and Indian accents. You can also turn off commentary between songs; the DJ then only briefly acknowledges you when it starts and when you change the music."
+      },
+      "why": {
+        "cs": "Ve Spotify vyhledej „DJ“, otevři nabídku se třemi tečkami a vyber hlas a nastavení komentářů. Hlasy se podle Spotify zavádějí od 10. listopadu v zemích, kde DJ funguje.",
+        "en": "In Spotify, search for “DJ,” open the three-dot menu, and pick a voice and commentary setting. Per Spotify, voices roll out from November 10 in markets where DJ works."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/10/spotifys-ai-dj-adds-nine-voices-and-a-setting-to-reduce-interruptions/"
+        }
+      ],
+      "used": "2026-11-11"
+    },
+    {
+      "slug": "tip-github-copilot-gemini-4-carbon",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "Gemini 4 Carbon je v GitHub Copilotu obecně dostupný",
+        "en": "Gemini 4 Carbon is generally available in GitHub Copilot"
+      },
+      "summary": {
+        "cs": "GitHub 10. listopadu oznámil, že Gemini 4 Carbon od Googlu, určený pro složité programování, agenty a bezpečnostní práci, je v Copilotu obecně dostupný pro Pro+, Max, Business a Enterprise. Vybereš ho v nabídce modelů ve VS Code, Visual Studiu, Copilot CLI i na github.com. Zavádění je postupné.",
+        "en": "GitHub said on November 10 that Google’s Gemini 4 Carbon, aimed at complex coding, agentic work and security tasks, is generally available in Copilot for Pro+, Max, Business, and Enterprise. Pick it in the model picker in VS Code, Visual Studio, Copilot CLI, and on github.com. Rollout is gradual."
+      },
+      "why": {
+        "cs": "Účtuje se podle ceníku poskytovatele v rámci spotřebního účtování. Správci tarifů Business a Enterprise řídí přístup v zásadách modelů; při výchozím povolení se nové modely zapnou samy, pokud je správce nevypnul.",
+        "en": "Billed at provider list price under usage-based billing. Business and Enterprise admins manage access in the model policy; with default enablement, new models switch on automatically unless an admin turned them off."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot"
+        }
+      ],
+      "added": "2026-11-11",
+      "used": null
+    },
+    {
+      "slug": "tip-google-chat-schedule-meeting-one-click",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "Google Chat: Gemini nabídne termíny schůzky jedním klikem",
+        "en": "Google Chat: Gemini proposes meeting times in one click"
+      },
+      "summary": {
+        "cs": "Když v Google Chatu v konverzaci do pěti lidí někdo navrhne sejít se, Gemini větu podtrhne. Po najetí myší uvidíš až tři termíny podle Kalendáře s upozorněním na kolize, hosty z konverzace a návrh názvu; jedním klikem schůzku vytvoříš. Zatím na webu a jen v angličtině.",
+        "en": "When someone in a Google Chat conversation of up to five people suggests meeting, Gemini underlines the sentence. Hover to see up to three times based on Calendar availability with conflicts flagged, attendees from the conversation, and a suggested title; one click creates the meeting. At launch: web, English only."
+      },
+      "why": {
+        "cs": "Ve výchozím stavu zapnuto pro způsobilé uživatele, vyžaduje zapnuté chytré funkce a personalizaci; samostatné nastavení pro správce neexistuje. Platí pro Business Standard a Plus, Enterprise Standard a Plus, Frontline Plus a AI Ultra Access.",
+        "en": "On by default for eligible users; needs smart features and personalization on; no separate admin control. Available in Business Standard and Plus, Enterprise Standard and Plus, Frontline Plus, and AI Ultra Access."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/schedule-meetings-in-single-click-from-conversations-in-Google-Chat.html"
+        }
+      ],
+      "added": "2026-11-11",
       "used": null
     }
   ]

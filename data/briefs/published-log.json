@@ -196,26 +196,6 @@
       "topic": "OpenAI 10.9. otevřelo Agents API (veřejná beta) — infrastruktura Codexu pro všechny vývojáře; dlouhé session, subagenti, hostovaný sandbox; bez extra poplatku"
     },
     {
-      "slug": "2026-09-11-anthropic-accuses-chinese-labs-claude-distillation",
-      "date": "2026-09-11",
-      "topic": "Anthropic 10.9. zveřejnilo: Moonshot AI tajně přesměroval ~300k požadavků na Claude Opus přes 5380 podvodných účtů, vydával odpovědi za vlastní; podobně DeepSeek/Alibaba, dohromady 151M+ dotazů (destilace)"
-    },
-    {
-      "slug": "2026-09-11-chatgpt-financial-services-launch",
-      "date": "2026-09-11",
-      "topic": "OpenAI 10.9. spustilo ChatGPT pro finanční služby (na GPT-6 Astra) — práce juniorních bankéřů, s Morgan Stanley+Evercore jako design partnery, data z LSEG/Daloopa/PitchBook/Crunchbase"
-    },
-    {
-      "slug": "2026-09-11-openai-government-pricing-change",
-      "date": "2026-09-11",
-      "topic": "OpenAI 10.9. ukončilo pilot $1/rok pro US úřady — od 1.10. 50% sleva podle spotřeby do 2028; pilot využilo 3,5M zaměstnanců, úspora $1,4 mld.; rozšířeno na státní/městské/kmenové samosprávy"
-    },
-    {
-      "slug": "2026-09-11-positron-ai-875-million-funding",
-      "date": "2026-09-11",
-      "topic": "Positron AI (paměťové inferenční čipy) 10.9. Series C 875M USD při hodnotě 5 mld. (4x za 7 měsíců) — čip Asimov až 2304GB LPDDR5X, výroba TSMC 2027"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -2274,7 +2254,57 @@
       "slug": "2026-11-10-tip-gemini-sketch-to-app",
       "date": "2026-11-10",
       "topic": "tip: Gemini — z fotky náčrtu aplikace, trackeru návyků nebo herní desky vznikne kód aplikace (blog Google 5. 11.; titulek po kontrole bez „funkční aplikace“): nahraješ fotku, vybereš Canvas a zeptáš se „Can you code this app?“; Gemini přečte obrázek, napíše kód a barvy, písma či funkce upravíš v náhledu; zdroj neuvádí země ani tarify (stránka zkontrolována) — nový"
+    },
+    {
+      "slug": "2026-11-11-anthropic-claude-sheets-whiteboards-data",
+      "date": "2026-11-11",
+      "topic": "Anthropic 10. 11. (claude.com článek o Sheets, Whiteboards a Data, The Verge, Engadget; TechCrunch navíc Meetings): Claude Sheets (tabulky s listy, vzorci, formátováním a rozbalovacími nabídkami; Claude je tvoří a upravuje s týmem, změny rozepisuje; zatím jen základní funkce, export do .xlsx či CSV) a Claude Whiteboards (sdílená tabule, z níž Claude udělá dokument či prezentaci) v betě pro všechny placené tarify; Claude Dashboards z října se přejmenoval na Claude Data (běžně dostupné, potřebuje datový konektor; certifikované dotazy a živé sdílení v betě); interaktivní konektory otevřou aplikace partnerů (Adobe, Atlassian, HubSpot, Notion…) přímo v Claude; Team: vše výchozně zapnuté, Enterprise: Sheets a Whiteboards vypnuté, Claude Data se zapne výchozně 19. 11.; Claude Meetings (připojí se k hovoru v Google Meet) vynechán — článek Anthropicu říká „coming soon“, TechCrunch, Verge a Engadget píšou o betě pro Team a Enterprise — highlight"
+    },
+    {
+      "slug": "2026-11-11-anthropic-ipo-roadshow-price-range",
+      "date": "2026-11-11",
+      "topic": "Anthropic 10. 11. (anthropic.com tisková zpráva, TechCrunch, The Verge): roadshow k IPO, nabídka 825 000 000 akcií třídy A (801 351 354 od Anthropicu, 23 648 646 od stávajících akcionářů; 30denní opce dalších 123 750 000), rozpětí 70–78 USD, žádost o zařazení na Nasdaq Global Select Market pod značkou ANT; podle TechCrunch při horní hranici ocenění 1,404 bilionu USD (květnové kolo 965 mld.; dříve zvažované 2 biliony), vybrat 57,75–64,35 mld. USD, soukromý prodej akcií třídy N za 26 mld. USD (Google a Nvidia po 10 mld.), až 20 % akcií drobným investorům; obchodování kolem 19. 11. podle CNBC, 19. nebo 20. 11. podle WSJ (Verge) — datum Anthropic neuvádí, registrace u SEC zatím není účinná; navazuje na S-1 z 27. 10. — business"
+    },
+    {
+      "slug": "2026-11-11-google-gemini-4-carbon-rollout-update",
+      "date": "2026-11-11",
+      "topic": "Google 10. 11. (blog Google, The Verge, 9to5Google): Gemini 4 Carbon (dřív od 28. 10. jen kyberobráncům přes Fairwind) dostupný platícím vývojářům a firmám přes API v AI Studiu a Gemini for business za úvodních 2 / 10 USD za milion vstupních / výstupních tokenů (podle Verge koncem listopadu dvojnásobek), předplatitelům AI Ultra v aplikaci Gemini, režimu AI ve Vyhledávání a Antigravity (Verge: nejasné, kdy a zda pro nižší tarify); Antigravity ukazuje náhled /swarm; Argon podle Googlu zůstává ideální volbou pro většinu programování a práce se znalostmi, Carbon na nejnáročnější úlohy a spotřebuje víc tokenů; navazuje na položku z 29. 10. (followsUp)"
+    },
+    {
+      "slug": "2026-11-11-openai-businesses-in-chatgpt",
+      "date": "2026-11-11",
+      "topic": "OpenAI 10. 11. (openai.com — 403, potvrzuje RSS; The Verge, The Next Web; TechCrunch): Businesses in ChatGPT v betě — Business Hub (firma si ověří profil, upraví údaje, ceny a zásoby, uvidí zmínky v ChatGPT, kliky na web a témata; OpenAI nesdílí chaty uživatelů s firmami) a Business Agenti pro vybrané americké e-shopy a online služby (chat označený a oddělený od hlavního, agent se musí představit jako AI, nákup zatím vede na web firmy, platby přes Visa se připravují); podle The Next Web (cituje Digiday) lze agenta sponzorovat jako reklamu ChatGPT Ads, OpenAI tvrdí, že platba doporučování nemění"
+    },
+    {
+      "slug": "2026-11-11-grok-build-shared-apps-exposed-claroc",
+      "date": "2026-11-11",
+      "topic": "Grok Build 10. 11. (výzkum Claroc — blog.claroc.io, Ars Technica): Claroc prošla 43 551 adres grok.me (publikované aplikace z Grok Build), 37 571 bylo online a 35 578 (94,7 %) se otevřelo komukoli bez přihlášení; mezi nimi 24 aplikací zaměstnanců SpaceXSI (dříve xAI) a X (interní plán onboardingu, mapa 594 účtů, reklamní nabídky) a interní data 30 dalších organizací; sdílení v testu Claroc nabízelo výchozí „Anyone with the link“, zástupce Cursoru (patří SpaceXSI, podle Ars) říká, že aplikace jsou výchozně soukromé; SpaceXSI po upozornění stáhla 24 vlastních aplikací, ostatní zůstaly; Ars: přepnout sdílení na pozvané; Claroc nahlásila SpaceXSI 8. 11., Ars upozornil, že ostatní platformy (Lovable, Bolt, Replit) mají podobnou adresaci; titulek s atribucí „Claroc:“"
+    },
+    {
+      "slug": "2026-11-11-adobe-max-agents-firefly-photoshop",
+      "date": "2026-11-11",
+      "topic": "Adobe 10. 11. na MAX v Miami (The Verge, TechCrunch, 9to5Mac): Photoshop Relight a Generative Restyle (další funkce v betě), Premiere Generative Remove (beta) a nástroje pro zvuk, Lightroom Open Eyes (beta) a odstranění skvrn, InDesign co-editing (beta), modely Topaz Wonder 4 a Image HDR, Firefly AI Assistant (beta) s plánovacím režimem a výběrem modelu, vždy zapnutí agenti; lokální MCP pro Photoshop, Illustrator, Premiere a After Effects (ChatGPT, Claude, Gemini) — The Verge „náhled“, TechCrunch „vydání“, 9to5Mac „start až v roce 2027“ (rozpor uveden v textu); zavádění postupně od 10. 11."
+    },
+    {
+      "slug": "2026-11-11-new-york-raise-act-portal-ai-center",
+      "date": "2026-11-11",
+      "topic": "New York 10. 11. (TechCrunch, Engadget): portál pro registraci velkých vývojářů špičkové AI (tržby nad 500 mil. USD, třeba Anthropic a OpenAI) do 1. 1. 2027; od té doby podle RAISE Act zveřejňují bezpečnostní rámce a hlásí závažné incidenty do 72 hodin, úřad DIGIT, pokuta až 1 mil. USD, při opakování 3 mil.; guvernérka Hochulová spustila New York Center for AI Responsibility and Research na Binghamtonské univerzitě (nezávislé testování AI, přes 80 vědců, výpočetní výkon Empire AI) — Engadget: studovat může jen to, co firmy zveřejní — policy"
+    },
+    {
+      "slug": "2026-11-11-tip-gmail-gemini-summaries-help-me-write-workspace",
+      "date": "2026-11-11",
+      "topic": "tip: Gmail — Gemini (AI Overview shrnutí dlouhých vláken a Help me write bez personalizace) pro všechny uživatele Workspace od 18 let (Workspace Updates 10. 11.): ve výchozím stavu zapnuté, vypnout může uživatel i správce, nutné zapnuté chytré funkce v Gmailu; zavádění od 10. 11., až 15 dnů; navazuje na AI přehledy ve vyhledávání Gmailu (21. 9.) a tipy z 17. 10. — nový"
+    },
+    {
+      "slug": "2026-11-11-tip-spotify-ai-dj-voices-less-commentary",
+      "date": "2026-11-11",
+      "topic": "tip: Spotify — AI DJ pro předplatitele Premium: devět nových hlasů v angličtině (britský, americký, irský, australský, indický přízvuk) a španělštině, přepínač vypnutí komentářů mezi skladbami (TechCrunch, 9to5Mac podle blogu Spotify z 10. 11.); hlas a nastavení komentářů: hledat „DJ“ ve Spotify, nabídka se třemi tečkami; zavádí se od 10. 11. v zemích, kde DJ funguje — nový"
+    },
+    {
+      "slug": "2026-11-11-tip-m365-copilot-sharepoint-list-agent",
+      "date": "2026-11-11",
+      "topic": "tip: Microsoft 365 Copilot — agent pro seznamy SharePoint vytvoří Microsoft List podle popisu (poznámky k vydání z 4. 11., jen web; Applies to: Microsoft 365 Copilot, postupné zavádění) — z banky"
     }
   ],
-  "updated": "2026-11-10T10:35:53Z"
+  "updated": "2026-11-11T03:21:18Z"
 }

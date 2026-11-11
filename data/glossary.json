@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "terms": [
     {
       "id": "quantization",
@@ -1484,6 +1484,59 @@
       "short": {
         "cs": "Zero data retention: poskytovatel AI po vyřízení požadavku neukládá tvoje zadání ani odpovědi, kromě případů, kdy to vyžaduje zákon. Část služeb ho nabízí jen vybraným podnikovým zákazníkům.",
         "en": "Zero data retention: the AI provider does not store your prompts or replies after handling a request, except where law requires it. Some services offer it only to select enterprise customers."
+      }
+    },
+    {
+      "id": "roadshow",
+      "term": {
+        "cs": "Roadshow (před vstupem na burzu)",
+        "en": "Roadshow (before an IPO)"
+      },
+      "aliases": [
+        "roadshow",
+        "roadshowu",
+        "roadshow"
+      ],
+      "short": {
+        "cs": "Série prezentací, kterými firma před vstupem na burzu představuje svůj byznys velkým investorům a zjišťuje zájem o své akcie.",
+        "en": "A series of presentations in which a company pitches its business to big investors before listing on a stock exchange and gauges demand for its shares."
+      }
+    },
+    {
+      "id": "swarm",
+      "term": {
+        "cs": "Roj agentů (swarm)",
+        "en": "Agent swarm"
+      },
+      "aliases": [
+        "swarm",
+        "swarmu",
+        "roj agentů",
+        "roje agentů"
+      ],
+      "short": {
+        "cs": "Víc AI agentů pracuje na jednom zadání najednou jako tým: jeden plánuje, další píší kód nebo kontrolují výsledky. Hodí se na velké projekty.",
+        "en": "Several AI agents work on one task at the same time like a team: one plans, others write code or check results. Suited to large projects."
+      }
+    },
+    {
+      "id": "frontier-ai",
+      "term": {
+        "cs": "Frontier AI (špičkové modely)",
+        "en": "Frontier AI"
+      },
+      "aliases": [
+        "frontier AI",
+        "frontier model",
+        "frontier models",
+        "frontier developers",
+        "špičkové AI",
+        "špičkové modely",
+        "špičkových modelů"
+      ],
+      "short": {
+        "cs": "Nejschopnější současné modely AI a velké firmy, které je vyvíjejí. Právě na ně míří nové bezpečnostní zákony a dohled.",
+        "en": "The most capable current AI models and the large companies that build them. New safety laws and oversight target them in particular."
       }
     }
   ]
