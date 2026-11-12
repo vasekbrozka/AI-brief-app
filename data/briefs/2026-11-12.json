@@ -1,0 +1,492 @@
+{
+  "date": "2026-11-12",
+  "sample": false,
+  "headline": {
+    "cs": "Gemini Live je nově v Apple CarPlay",
+    "en": "Gemini Live comes to Apple CarPlay"
+  },
+  "items": [
+    {
+      "id": "2026-11-12-google-gemini-live-apple-carplay",
+      "kind": "news",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-11-11",
+      "title": {
+        "cs": "Gemini Live je nově v Apple CarPlay",
+        "en": "Gemini Live comes to Apple CarPlay"
+      },
+      "summary": {
+        "cs": "Google 11. listopadu začal zavádět aplikaci Gemini v Apple CarPlay: Gemini Live umožní hlasem za jízdy probrat kalendář, shrnout e-maily nebo si nacvičit prezentaci. Funkce se zavádí globálně pro všechny uživatele Gemini na iOS ve všech jazycích podporovaných Gemini Live; konverzace se synchronizují s iPhonem.",
+        "en": "On November 11, Google began rolling out the Gemini app on Apple CarPlay: Gemini Live lets you talk through your calendar, summarize emails, or rehearse a presentation by voice while driving. It rolls out globally to all Gemini users on iOS in every language Gemini Live supports, and chats sync with the iPhone."
+      },
+      "why": {
+        "cs": "Aktualizuj Gemini na iPhonu, povol mikrofon a aspoň jednou použij Gemini Live; pak ťukni na ikonu Gemini na displeji auta. Denní přehled (Daily Brief) není v EHP, tedy ani v Česku, dostupný.",
+        "en": "Update Gemini on your iPhone, allow the microphone, and use Gemini Live once; then tap the Gemini icon on the car display. Daily Brief is not available in the EEA, so not in Czechia either."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/11/google-confirms-gemini-app-coming-to-apple-carplay/"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-united-restricts-third-party-ai-agents-booking",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-11",
+      "title": {
+        "cs": "United zakazuje cizím AI agentům rezervovat letenky",
+        "en": "United bars third-party AI agents from booking flights"
+      },
+      "summary": {
+        "cs": "United Airlines 11. listopadu oznámila, že omezí přístup nezávislým osobním AI agentům a asistentům k rezervacím: přímo na svých platformách i nepřímo přes agentury a agregátory. Důvodem jsou přihlašovací údaje a federální pravidla, například potvrzení o zavazadlech musí dát člověk. Agenti smějí lety zobrazit, ale koupit je nesmějí.",
+        "en": "United Airlines said on November 11 it will restrict independent personal AI agents and assistants from booking, directly on its platforms and indirectly through travel agencies and aggregators. It cites account credentials and federal rules, for example that only a human can confirm the bag declaration. Agents may still show flights but cannot buy them."
+      },
+      "why": {
+        "cs": "Letenku u United ti AI asistent nekoupí; Southwest naopak nabídku letů zpřístupnil v ChatGPT. Podle Engadgetu agenti zatím obstarávají zlomek nákupů: Uber uvedl za týden 500 objednávek jídla a čtyři jízdy.",
+        "en": "An AI assistant won’t buy you a United ticket; Southwest, by contrast, opened its flights in ChatGPT. Per Engadget, agents handle few purchases: Uber cited 500 food orders and four rides in a week."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2314121/united-is-restricting-ai-agents-from-booking-flights/"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-deepmind-alphaproof-code-signal-verification",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "DeepMind formálně ověřil klíčové části protokolu Signal",
+        "en": "DeepMind formally verifies key parts of the Signal protocol"
+      },
+      "summary": {
+        "cs": "Google DeepMind 10. listopadu oznámil, že pomocí systému AlphaProof Code formálně ověřil klíčové záruky šifrování Signalu: navázání spojení PQXDH, odolné i proti kvantovým počítačům, a protokol Triple Ratchet. V ověřených částech nenašel nové chyby; výsledek platí za předpokladu dokonalé kryptografie a nezahrnuje celou aplikaci. Specifikaci a důkaz DeepMind zveřejňuje.",
+        "en": "Google DeepMind said on November 10 that AlphaProof Code formally verified key guarantees of Signal’s encryption: the quantum-resistant PQXDH handshake and the Triple Ratchet protocol. It found no new flaws in the verified parts; the result assumes perfect cryptography and excludes the whole app. DeepMind is releasing the specification and proof."
+      },
+      "why": {
+        "cs": "Stejný protokol chrání zprávy v Signalu, WhatsAppu i Google Messages (Wired). Práce trvala čtyři týdny; podle DeepMindu je to první krok k ověřování softwaru, ne záruka, že chyby neexistují.",
+        "en": "The same protocol protects messages in Signal, WhatsApp, and Google Messages (Wired). The work took four weeks; DeepMind calls it a first step toward verifying software, not a guarantee that no flaws exist."
+      },
+      "sources": [
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-openai-control-room-stop-research-models",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "OpenAI: Control Room zastaví výzkumné modely do 35 sekund",
+        "en": "OpenAI Control Room halts research models within 35 seconds"
+      },
+      "summary": {
+        "cs": "OpenAI 9. listopadu představila Control Room, centrální systém, který sleduje úlohy modelů ve své výzkumné infrastruktuře a při bezpečnostních obavách je rychle zastaví. Od rozhodnutí o zásahu to trvá až 35 sekund; OpenAI chce prodlevu snížit na nulu. Při vlastním výpadku systém výstup modelů zastaví. Nasazen je už napříč výzkumnou infrastrukturou.",
+        "en": "On November 9, OpenAI introduced Control Room, a central system that tracks model workloads across its research infrastructure and quickly stops them on safety or security concerns. From the decision to intervene it takes up to 35 seconds; OpenAI aims for zero. If Control Room itself fails, model output stops. It is already deployed."
+      },
+      "why": {
+        "cs": "Je to interní nástroj výzkumu; zákaznický provoz modelů je podle OpenAI už centralizovaný a umí je rychle stáhnout. The Register to spojuje s nedávnými případy agentů, kteří překročili zadání; OpenAI časování nevysvětlila.",
+        "en": "An internal research tool; OpenAI says its customer-facing model serving is already centralized and can take deployments down fast. The Register ties it to recent agent overreach; OpenAI has not explained the timing."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/control-room"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/11/openai-builds-a-kill-switch-for-its-research-models/5309006"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-elevenlabs-summit-elevenai-custom-models",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-11",
+      "title": {
+        "cs": "ElevenLabs: modely na míru firmám a aplikace ElevenAI",
+        "en": "ElevenLabs: custom models for firms and the ElevenAI app"
+      },
+      "summary": {
+        "cs": "ElevenLabs na summitu v New Yorku 11. listopadu oznámila, že firmám v příštích měsících pomůže doladit své hlasové modely i vybrané open-source jazykové modely na datech z provozu. Otevřela také bezplatný předběžný přístup k aplikaci ElevenAI, která z porad dělá zápisy a úkoly, a spustila partnerský program s tržištěm aplikací.",
+        "en": "At its New York summit on November 11, ElevenLabs said it will soon help businesses fine-tune its voice models and selected open-source language models on their own deployment data. It also opened free early access to ElevenAI, an app that turns meetings into notes and tasks, and launched a partner program with a marketplace."
+      },
+      "why": {
+        "cs": "ElevenAI míří na firemní týmy a podle ElevenLabs si zápisy dělá se souhlasem všech účastníků. Doladění modelů přijde v příštích měsících, nákup přes tržiště až od příštího roku.",
+        "en": "ElevenAI targets company teams, and ElevenLabs says it takes notes with every participant’s consent. Fine-tuning arrives in the coming months, and buying through the marketplace starts next year."
+      },
+      "sources": [
+        {
+          "name": "ElevenLabs",
+          "url": "https://elevenlabs.io/blog/nyc-summit"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/elevenlabs-summit-nyc-elevenai-custom-models-partner-program"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-meta-pauses-business-terms-crawling-update",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-11-06",
+      "title": {
+        "cs": "Meta pozastavila nové podmínky pro firmy a procházení webů",
+        "en": "Meta pauses new business terms that allowed site crawling"
+      },
+      "summary": {
+        "cs": "Meta pozastavila plánované změny čtyř sad obchodních pravidel, které měly platit od 20. listopadu; podle Reuters z 6. listopadu zůstávají stávající podmínky. Nová pravidla by Metě dovolila procházet weby propojené s firemními účty, i když firma má jen stránku na Facebooku; kritici, hlavně vydavatelé, varovali před využitím obsahu k trénování AI.",
+        "en": "Meta paused planned changes to four sets of business rules due from November 20; per Reuters on November 6, existing terms stay. The new rules would have let Meta crawl websites linked to business accounts, even of a firm with only a Facebook Page; critics, mainly publishers, warned the content could feed AI training."
+      },
+      "why": {
+        "cs": "Meta tvrdí, že šlo o sloučení pravidel procházení a web lze blokovat souborem robots.txt, což podmínky neříkaly (TNW). Změnu předcházely soudní zákazy v Norsku a Brazílii a šetření britského CMA; kdy se vrátí, Meta neřekla.",
+        "en": "Meta says it only merged crawling rules and robots.txt can block its crawler, which the terms omitted (TNW). Court bans in Norway and Brazil and a UK CMA probe preceded it; no return date."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/meta-pauses-commercial-terms-crawling-publishers"
+        },
+        {
+          "name": "404 Media",
+          "url": "https://404media.co/meta-generative-ai-commercial-terms-on-pause"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-11-02",
+        "id": "2026-11-02-cma-meta-ai-terms-investigation",
+        "title": {
+          "cs": "Britský úřad CMA šetří obchodní podmínky Mety",
+          "en": "UK regulator CMA investigates Meta’s commercial terms"
+        }
+      }
+    },
+    {
+      "id": "2026-11-12-tsmc-invest-anthropic-openai",
+      "kind": "news",
+      "category": "business",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "TSMC chce investovat miliardu do Anthropicu a OpenAI",
+        "en": "TSMC to invest $1 billion in Anthropic and OpenAI"
+      },
+      "summary": {
+        "cs": "Správní rada TSMC podle Reuters z 10. listopadu schválila investici až 500 milionů USD do přednostních akcií OpenAI a dalších 500 milionů do akcií Anthropicu za očekávanou cenu při jeho vstupu na burzu. TSMC vyrábí většinu čipů Nvidie pro AI i čipy Applu a hlásí šestý rekordní čtvrtletní zisk v řadě.",
+        "en": "TSMC’s board approved up to $500 million in OpenAI preferred stock and another $500 million in Anthropic shares at its expected IPO price, Reuters reported on November 10. TSMC makes most of Nvidia’s AI chips and Apple’s custom chips, and reported a sixth straight record quarterly profit."
+      },
+      "why": {
+        "cs": "Analytici podle WSJ (přes Ars) upozorňují na „kruhové financování“: dodavatel čipů investuje do zákazníků, kteří je kupují. Nvidia dosud dala OpenAI 30 miliard a Anthropicu 10 miliard USD; vklad TSMC je malý.",
+        "en": "Analysts quoted by WSJ via Ars warn of “circular financing”: a chip supplier investing in its own customers. Nvidia has put $30 billion into OpenAI and $10 billion into Anthropic; TSMC’s stake is small."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/"
+        },
+        {
+          "name": "Reuters",
+          "url": "http://reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-tip-chrome-modern-web-guidance-1-0",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "Pro vývojáře: Modern Web Guidance 1.0 pro coding agenty",
+        "en": "For developers: Modern Web Guidance 1.0 for coding agents"
+      },
+      "summary": {
+        "cs": "Tým Chrome 10. listopadu vydal stabilní verzi 1.0 projektu Modern Web Guidance: sady dovedností, které coding agentům dodají ověřené postupy pro web (přístupnost, výkon, bezpečnost) a údaje o podpoře v prohlížečích. Verze 1.0 přidává workflow, které prohledá existující kód a navrhne bezpečná zmodernizování; na projektu se podílí i Firefox a Edge.",
+        "en": "On November 10, the Chrome team released stable Modern Web Guidance 1.0: skills that give coding agents vetted web best practices (accessibility, performance, security) and browser-support data. Version 1.0 adds a workflow that scans an existing codebase and suggests safe modernizations, and Firefox and Edge now join the project."
+      },
+      "why": {
+        "cs": "V projektu spusť npx modern-web-guidance@latest install; starší instalaci aktualizuje příkaz update. Pak agentovi zadej například /modern-web-guidance Modernize the code in this directory. Workflow zatím hledá jen omezenou sadu vzorů (statická analýza).",
+        "en": "In your project run npx modern-web-guidance@latest install (update to upgrade). Then tell your agent, e.g., /modern-web-guidance Modernize the code in this directory. So far the workflow checks only a limited set of patterns."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://developer.chrome.com/blog/modern-web-guidance-v1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-tip-github-copilot-gemini-4-carbon",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "Gemini 4 Carbon je v GitHub Copilotu obecně dostupný",
+        "en": "Gemini 4 Carbon is generally available in GitHub Copilot"
+      },
+      "summary": {
+        "cs": "GitHub 10. listopadu oznámil, že Gemini 4 Carbon od Googlu, určený pro složité programování, agenty a bezpečnostní práci, je v Copilotu obecně dostupný pro Pro+, Max, Business a Enterprise. Vybereš ho v nabídce modelů ve VS Code, Visual Studiu, Copilot CLI i na github.com. Zavádění je postupné.",
+        "en": "GitHub said on November 10 that Google’s Gemini 4 Carbon, aimed at complex coding, agentic work and security tasks, is generally available in Copilot for Pro+, Max, Business, and Enterprise. Pick it in the model picker in VS Code, Visual Studio, Copilot CLI, and on github.com. Rollout is gradual."
+      },
+      "why": {
+        "cs": "Účtuje se podle ceníku poskytovatele v rámci spotřebního účtování. Správci tarifů Business a Enterprise řídí přístup v zásadách modelů; při výchozím povolení se nové modely zapnou samy, pokud je správce nevypnul.",
+        "en": "Billed at provider list price under usage-based billing. Business and Enterprise admins manage access in the model policy; with default enablement, new models switch on automatically unless an admin turned them off."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-tip-google-chat-schedule-meeting-one-click",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "Google Chat: Gemini nabídne termíny schůzky jedním klikem",
+        "en": "Google Chat: Gemini proposes meeting times in one click"
+      },
+      "summary": {
+        "cs": "Když v Google Chatu v konverzaci do pěti lidí někdo navrhne sejít se, Gemini větu podtrhne. Po najetí myší uvidíš až tři termíny podle Kalendáře s upozorněním na kolize, hosty z konverzace a návrh názvu; jedním klikem schůzku vytvoříš. Zatím na webu a jen v angličtině.",
+        "en": "When someone in a Google Chat conversation of up to five people suggests meeting, Gemini underlines the sentence. Hover to see up to three times based on Calendar availability with conflicts flagged, attendees from the conversation, and a suggested title; one click creates the meeting. At launch: web, English only."
+      },
+      "why": {
+        "cs": "Ve výchozím stavu zapnuto pro způsobilé uživatele, vyžaduje zapnuté chytré funkce a personalizaci; samostatné nastavení pro správce neexistuje. Platí pro Business Standard a Plus, Enterprise Standard a Plus, Frontline Plus a AI Ultra Access.",
+        "en": "On by default for eligible users; needs smart features and personalization on; no separate admin control. Available in Business Standard and Plus, Enterprise Standard and Plus, Frontline Plus, and AI Ultra Access."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/schedule-meetings-in-single-click-from-conversations-in-Google-Chat.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-tip-claude-code-deny-instead-of-prompting",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-06",
+      "title": {
+        "cs": "Claude Code může místo dotazu na povolení akci zamítnout",
+        "en": "Claude Code can deny actions instead of asking permission"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.319 (6. listopadu) má nastavení permissions.denyInsteadOfPrompting: akce, která by jinak čekala na potvrzení v dialogu o oprávnění, se zamítne a práce pokračuje. Platí v terminálových relacích, u subagentů i týmových agentů. Nainstalovanou verzi zjistíš příkazem claude --version.",
+        "en": "Since version 2.1.319 (November 6), Claude Code has the permissions.denyInsteadOfPrompting setting: an action that would otherwise wait for your approval in a permission dialog is denied and the work continues. It applies in terminal sessions, subagents, and teammates. Check your installed version with claude --version."
+      },
+      "why": {
+        "cs": "Hodí se pro běhy bez člověka, kde by dialog zablokoval práci. Podle dokumentace nastavení platí hodnota true z ~/.claude/settings.json nebo přes --settings; zamítnutá akce se neprovede, výsledek tak může být neúplný.",
+        "en": "Useful for unattended runs where a dialog would block work. Per the docs, the setting takes true from ~/.claude/settings.json or via --settings; a denied action is not performed, so the result may be incomplete."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/settings"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-11-12",
+      "title": {
+        "cs": "OpenAI: živý přenos Cyber at the Frontier",
+        "en": "OpenAI: Cyber at the Frontier livestream"
+      },
+      "note": {
+        "cs": "OpenAI 12. listopadu v 10:00 pacifického času (19:00 našeho času) vysílá živě keynote o další éře kybernetické obrany; konkrétní novinky předem nezveřejnila.",
+        "en": "OpenAI streams a live keynote on the next era of cyber defense at 10 a.m. Pacific (7 p.m. Prague time); it has not said what exactly."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/cyber-at-the-frontier/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-13",
+      "title": {
+        "cs": "Google AI Plus má přijít o volbu modelu Gemini Pro (podle 9to5Google)",
+        "en": "Google AI Plus loses Gemini Pro model choice (per 9to5Google)"
+      },
+      "note": {
+        "cs": "Podle e-mailu z Redditu (9to5Google) přijdou předplatitelé AI Plus od 13. listopadu o výběr pokročilých modelů Pro v Gemini i AI režimu Vyhledávání; každý dostane vlastní termín e-mailem.",
+        "en": "Per an email shared on Reddit (9to5Google), AI Plus loses the choice of advanced Pro models in Gemini and AI Mode from November 13; Google emails each subscriber a date."
+      },
+      "sources": [
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/"
+        },
+        {
+          "name": "Google",
+          "url": "https://support.google.com/gemini/answer/17004136?hl=en"
+        }
+      ],
+      "tentative": true
+    },
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "GitHub vyřadí z Copilotu pro programátory tři modely",
+        "en": "GitHub retires three models from GitHub Copilot"
+      },
+      "note": {
+        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8 a Opus 5 (náhrada: Opus 5.5) i GPT-5.6 Terra (náhrada: GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane dostupný ročním individuálním předplatitelům.",
+        "en": "On November 16, GitHub retires Opus 4.8, Opus 5 (alternative: Opus 5.5), and GPT-5.6 Terra (alternatives: GPT-6.1 Sol or GPT-6 Luna) from Copilot. Opus 4.8 stays for individual annual subscribers."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "Microsoft Ignite: konference o Copilotu a AI agentech",
+        "en": "Microsoft Ignite: a conference on Copilot and AI agents"
+      },
+      "note": {
+        "cs": "Microsoftova konference se koná 17.–20. listopadu v San Franciscu; online (zdarma) jen 17.–19. listopadu. Témata: Copilot, AI agenti, cloud, zabezpečení a Windows.",
+        "en": "Microsoft’s conference runs November 17–20 in San Francisco; the online event (free) is November 17–19 only. Topics: Copilot, AI agents, cloud, security, and Windows."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://ignite.microsoft.com/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "NVIDIA: čtvrtletní výsledky",
+        "en": "NVIDIA: quarterly results"
+      },
+      "note": {
+        "cs": "NVIDIA, výrobce čipů pro AI, zveřejní výsledky za čtvrtletí, které skončilo 25. října, kolem 22:20 našeho času; hovor s analytiky začíná ve 23:00.",
+        "en": "NVIDIA, a maker of AI chips, reports results for the quarter ended October 25 at about 10:20 p.m. Prague time; the analyst call starts at 11 p.m."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-19",
+      "title": {
+        "cs": "Anthropic: vstup na burzu (IPO) údajně 19. nebo 20. listopadu",
+        "en": "Anthropic: IPO reportedly on November 19 or 20"
+      },
+      "note": {
+        "cs": "Anthropic 10. listopadu zahájila roadshow, rozpětí ceny je 70–78 USD za akcii (Nasdaq, ANT). Podle WSJ (přes The Verge) má obchodování začít 19. nebo 20. listopadu; oznámení Anthropicu datum neuvádí.",
+        "en": "Anthropic launched its roadshow November 10 at $70–78 a share (Nasdaq: ANT). Per WSJ (via The Verge), trading is to start November 19 or 20; Anthropic’s release gives no date."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/roadshow-launch"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion"
+        }
+      ],
+      "tentative": true
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "Claude Code ruší rychlý režim pro Opus 4.8",
+        "en": "Claude Code drops fast mode for Opus 4.8"
+      },
+      "note": {
+        "cs": "Podle changelogu Claude Code zanikne 30. listopadu rychlý režim (rychlejší výstup) Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Přechod na Opus 5.5 rychlost zachová.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-02",
+      "title": {
+        "cs": "EU: do 2. prosince musí firmy splnit zákaz aplikací na „svlékání“",
+        "en": "EU: companies must meet nudifier-app ban by December 2"
+      },
+      "note": {
+        "cs": "AI Act: podle europarlamentu musí firmy do 2. prosince splnit zákaz aplikací, které AI „svlékají“ lidi bez souhlasu, a označovat AI obsah (systémy uvedené na trh před 2. srpnem 2026).",
+        "en": "AI Act: per the EU Parliament, firms must comply by December 2 with the ban on AI “undressing” apps and label AI content (systems marketed before August 2, 2026)."
+      },
+      "sources": [
+        {
+          "name": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "terms": [
     {
       "id": "quantization",
@@ -1520,6 +1520,49 @@
       "short": {
         "cs": "Nejschopnější současné modely AI a velké firmy, které je vyvíjejí. Právě na ně míří nové bezpečnostní zákony a dohled.",
         "en": "The most capable current AI models and the large companies that build them. New safety laws and oversight target them in particular."
+      }
+    },
+    {
+      "id": "formal-verification",
+      "term": {
+        "cs": "Formální verifikace",
+        "en": "Formal verification"
+      },
+      "aliases": [
+        "formální verifikace",
+        "formální verifikaci",
+        "formální verifikací",
+        "formálně ověřil",
+        "formálně ověřila",
+        "formálně ověřit",
+        "formal verification",
+        "formally verified",
+        "formally verifies",
+        "formally verify"
+      ],
+      "short": {
+        "cs": "Matematický důkaz, že program dělá přesně to, co má. Na rozdíl od testů nezkouší jen vybrané případy, ale dokazuje to pro všechny možné vstupy.",
+        "en": "A mathematical proof that a program does exactly what it should. Unlike tests, it does not try only selected cases but proves the behavior for all possible inputs."
+      }
+    },
+    {
+      "id": "crawler",
+      "term": {
+        "cs": "Crawler (procházení webů)",
+        "en": "Web crawler"
+      },
+      "aliases": [
+        "crawler",
+        "crawlery",
+        "crawleru",
+        "crawl",
+        "crawling",
+        "procházet weby",
+        "procházení webů"
+      ],
+      "short": {
+        "cs": "Program, který automaticky prochází weby a stahuje jejich obsah, třeba pro vyhledávač nebo k trénování AI. Majitel webu ho může omezit souborem robots.txt.",
+        "en": "A program that automatically browses websites and downloads their content, for example for a search engine or to train AI. A site owner can limit it with a robots.txt file."
       }
     }
   ]

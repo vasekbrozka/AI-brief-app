@@ -5674,7 +5674,7 @@
         }
       ],
       "added": "2026-11-11",
-      "used": null
+      "used": "2026-11-12"
     },
     {
       "slug": "tip-google-chat-schedule-meeting-one-click",
@@ -5701,6 +5701,149 @@
         }
       ],
       "added": "2026-11-11",
+      "used": "2026-11-12"
+    },
+    {
+      "slug": "tip-chrome-modern-web-guidance-1-0",
+      "category": "tools",
+      "theme": "other",
+      "added": "2026-11-12",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "Pro vývojáře: Modern Web Guidance 1.0 pro coding agenty",
+        "en": "For developers: Modern Web Guidance 1.0 for coding agents"
+      },
+      "summary": {
+        "cs": "Tým Chrome 10. listopadu vydal stabilní verzi 1.0 projektu Modern Web Guidance: sady dovedností, které coding agentům dodají ověřené postupy pro web (přístupnost, výkon, bezpečnost) a údaje o podpoře v prohlížečích. Verze 1.0 přidává workflow, které prohledá existující kód a navrhne bezpečná zmodernizování; na projektu se podílí i Firefox a Edge.",
+        "en": "On November 10, the Chrome team released stable Modern Web Guidance 1.0: skills that give coding agents vetted web best practices (accessibility, performance, security) and browser-support data. Version 1.0 adds a workflow that scans an existing codebase and suggests safe modernizations, and Firefox and Edge now join the project."
+      },
+      "why": {
+        "cs": "V projektu spusť npx modern-web-guidance@latest install; starší instalaci aktualizuje příkaz update. Pak agentovi zadej například /modern-web-guidance Modernize the code in this directory. Workflow zatím hledá jen omezenou sadu vzorů (statická analýza).",
+        "en": "In your project run npx modern-web-guidance@latest install (update to upgrade). Then tell your agent, e.g., /modern-web-guidance Modernize the code in this directory. So far the workflow checks only a limited set of patterns."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://developer.chrome.com/blog/modern-web-guidance-v1"
+        }
+      ],
+      "used": "2026-11-12"
+    },
+    {
+      "slug": "tip-claude-code-deny-instead-of-prompting",
+      "category": "tools",
+      "theme": "claude",
+      "added": "2026-11-12",
+      "verified": true,
+      "eventDate": "2026-11-06",
+      "title": {
+        "cs": "Claude Code může místo dotazu na povolení akci zamítnout",
+        "en": "Claude Code can deny actions instead of asking permission"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.319 (6. listopadu) má nastavení permissions.denyInsteadOfPrompting: akce, která by jinak čekala na potvrzení v dialogu o oprávnění, se zamítne a práce pokračuje. Platí v terminálových relacích, u subagentů i týmových agentů. Nainstalovanou verzi zjistíš příkazem claude --version.",
+        "en": "Since version 2.1.319 (November 6), Claude Code has the permissions.denyInsteadOfPrompting setting: an action that would otherwise wait for your approval in a permission dialog is denied and the work continues. It applies in terminal sessions, subagents, and teammates. Check your installed version with claude --version."
+      },
+      "why": {
+        "cs": "Hodí se pro běhy bez člověka, kde by dialog zablokoval práci. Podle dokumentace nastavení platí hodnota true z ~/.claude/settings.json nebo přes --settings; zamítnutá akce se neprovede, výsledek tak může být neúplný.",
+        "en": "Useful for unattended runs where a dialog would block work. Per the docs, the setting takes true from ~/.claude/settings.json or via --settings; a denied action is not performed, so the result may be incomplete."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/settings"
+        }
+      ],
+      "used": "2026-11-12"
+    },
+    {
+      "slug": "tip-claude-api-latency-optimize",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-11-06",
+      "title": {
+        "cs": "Pro vývojáře: Claude Code ladí rychlost volání Claude API",
+        "en": "For developers: Claude Code tunes Claude API latency"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.319 (6. listopadu) má příkaz /claude-api latency-optimize: podle poznámek k vydání najde místa, kde kód volající Claude API nechává lidi čekat, a vyzkouší rychlejší nastavení proti tvému evalu. Nainstalovanou verzi zjistíš příkazem claude --version.",
+        "en": "Claude Code 2.1.319 (November 6) adds /claude-api latency-optimize: per the release notes it finds where code calling the Claude API makes people wait and tries faster settings against your eval. Check your installed version with claude --version."
+      },
+      "why": {
+        "cs": "Pro vývojáře aplikací nad Claude API. Poznámky k vydání neuvádějí, jaká nastavení se zkoušejí ani co eval obnáší; příkaz proto zkus nejdřív na zkušebním projektu.",
+        "en": "For developers building on the Claude API. The release notes do not say which settings are tried or what the eval involves, so try it on a test project first."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-11-12",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-decisions-api",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-11",
+      "title": {
+        "cs": "Pro vývojáře: Gemini Decisions API vrací pravděpodobnosti místo textu",
+        "en": "For developers: Gemini Decisions API returns probabilities, not text"
+      },
+      "summary": {
+        "cs": "Google 11. listopadu uvedl Gemini Decisions API s novým modelem Gemini Decision 1: v jednom průchodu vyhodnotí až 1 000 otázek (ano/ne, výběr, hodnocení podle stupnice) nad textem, obrázky, zvukem, videem a PDF a ke každé odpovědi vrátí míru jistoty. Cena je 0,10 USD za milion vstupních tokenů, výstup se neúčtuje.",
+        "en": "On November 11, Google introduced the Gemini Decisions API with its new Gemini Decision 1 model: in one pass it scores up to 1,000 questions (yes/no, choice, rubric) over text, images, audio, video, and PDFs, returning a confidence score for each. It costs $0.10 per million input tokens; output is not billed."
+      },
+      "why": {
+        "cs": "Klíč získáš v Google AI Studiu; dokumentace je pro Python, JavaScript a REST. Hodí se ke směrování dotazů, kontrole pravidel nebo hodnocení obsahu; podle Googlu odpověď trvá 150–250 ms.",
+        "en": "Get a key in Google AI Studio; documentation covers Python, JavaScript, and REST. It suits query routing, policy checks, or content grading; per Google, an answer takes 150–250 ms."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+        }
+      ],
+      "added": "2026-11-12",
+      "used": null
+    },
+    {
+      "slug": "tip-google-tabletop-labs",
+      "category": "tools",
+      "theme": "other",
+      "verified": true,
+      "eventDate": "2026-11-11",
+      "title": {
+        "cs": "Google Tabletop: sdílený prostor pro plánování ve skupině",
+        "en": "Google Tabletop: a shared AI space for group planning"
+      },
+      "summary": {
+        "cs": "Google Labs 11. listopadu spustil experiment Tabletop: po zadání odkazů, souborů a nápadů a pokynu @tabletop vznikne itinerář výletu, anketa o večeři, rozdělování výdajů nebo turnajový pavouk. Ostatní se připojí odkazem a upravují současně jako v Dokumentu. Zatím jen v USA od 18 let přes čekací listinu.",
+        "en": "On November 11, Google Labs launched the Tabletop experiment: add links, files, and ideas, then prompt @tabletop to generate a trip itinerary, dinner poll, expense splitter, or tournament bracket. Others join by link and edit at the same time, as in a Google Doc. For now, US only, 18 and older, via a waitlist."
+      },
+      "why": {
+        "cs": "Zapsat se jde na labs.google/tabletop; mimo USA a pod 18 let zatím přístup není. Jde o veřejné testování, takže funkce i podmínky se mohou změnit.",
+        "en": "Sign up at labs.google/tabletop; outside the US and under 18 there is no access yet. It is public testing, so features and terms may change."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability"
+        }
+      ],
+      "added": "2026-11-12",
       "used": null
     }
   ]
