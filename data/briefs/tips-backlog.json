@@ -5656,16 +5656,16 @@
       "verified": true,
       "eventDate": "2026-11-10",
       "title": {
-        "cs": "Gemini 4 Carbon je v GitHub Copilotu obecně dostupný",
-        "en": "Gemini 4 Carbon is generally available in GitHub Copilot"
+        "cs": "Pro vývojáře: Gemini 4 Carbon dostupný v GitHub Copilotu",
+        "en": "For developers: Gemini 4 Carbon now in GitHub Copilot"
       },
       "summary": {
-        "cs": "GitHub 10. listopadu oznámil, že Gemini 4 Carbon od Googlu, určený pro složité programování, agenty a bezpečnostní práci, je v Copilotu obecně dostupný pro Pro+, Max, Business a Enterprise. Vybereš ho v nabídce modelů ve VS Code, Visual Studiu, Copilot CLI i na github.com. Zavádění je postupné.",
-        "en": "GitHub said on November 10 that Google’s Gemini 4 Carbon, aimed at complex coding, agentic work and security tasks, is generally available in Copilot for Pro+, Max, Business, and Enterprise. Pick it in the model picker in VS Code, Visual Studio, Copilot CLI, and on github.com. Rollout is gradual."
+        "cs": "GitHub 10. listopadu oznámil, že Gemini 4 Carbon od Googlu, určený pro složité programování, práci agentů a bezpečnostní úkoly, je v Copilotu plně dostupný (ne zkušební verze) v tarifech Pro+, Max, Business a Enterprise. Vybereš ho v nabídce modelů například ve VS Code, JetBrains, Xcode, Copilot CLI i na github.com. Zavádění je postupné.",
+        "en": "GitHub said on November 10 that Google’s Gemini 4 Carbon, aimed at complex coding, agentic work and security tasks, is generally available (not a preview) in Copilot Pro+, Max, Business, and Enterprise. Pick it in the model picker, for example in VS Code, JetBrains, Xcode, Copilot CLI, and on github.com. Rollout is gradual."
       },
       "why": {
-        "cs": "Účtuje se podle ceníku poskytovatele v rámci spotřebního účtování. Správci tarifů Business a Enterprise řídí přístup v zásadách modelů; při výchozím povolení se nové modely zapnou samy, pokud je správce nevypnul.",
-        "en": "Billed at provider list price under usage-based billing. Business and Enterprise admins manage access in the model policy; with default enablement, new models switch on automatically unless an admin turned them off."
+        "cs": "Platí se podle skutečné spotřeby, v cenách poskytovatele modelu. Správci tarifů Business a Enterprise řídí přístup v zásadách modelů; při výchozím povolení se nové modely zapnou samy, pokud je správce nevypnul.",
+        "en": "Billed by actual usage at the model provider’s list prices. Business and Enterprise admins manage access in the model policy; with default enablement, new models switch on automatically unless an admin turned them off."
       },
       "sources": [
         {
@@ -5691,8 +5691,8 @@
         "en": "When someone in a Google Chat conversation of up to five people suggests meeting, Gemini underlines the sentence. Hover to see up to three times based on Calendar availability with conflicts flagged, attendees from the conversation, and a suggested title; one click creates the meeting. At launch: web, English only."
       },
       "why": {
-        "cs": "Ve výchozím stavu zapnuto pro způsobilé uživatele, vyžaduje zapnuté chytré funkce a personalizaci; samostatné nastavení pro správce neexistuje. Platí pro Business Standard a Plus, Enterprise Standard a Plus, Frontline Plus a AI Ultra Access.",
-        "en": "On by default for eligible users; needs smart features and personalization on; no separate admin control. Available in Business Standard and Plus, Enterprise Standard and Plus, Frontline Plus, and AI Ultra Access."
+        "cs": "Zavádění je postupné (od 9. listopadu). Zapnuto ve výchozím stavu, vyžaduje chytré funkce a personalizaci. Platí pro tarify Google Workspace Business Standard a Plus, Enterprise Standard a Plus, Frontline Plus a AI Ultra Access.",
+        "en": "Rollout is gradual (from November 9). On by default, needs smart features and personalization on. Available in Google Workspace Business Standard and Plus, Enterprise Standard and Plus, Frontline Plus, and AI Ultra Access plans."
       },
       "sources": [
         {
@@ -5711,21 +5711,25 @@
       "verified": true,
       "eventDate": "2026-11-10",
       "title": {
-        "cs": "Pro vývojáře: Modern Web Guidance 1.0 pro coding agenty",
+        "cs": "Pro vývojáře: Modern Web Guidance 1.0 pro programovací agenty",
         "en": "For developers: Modern Web Guidance 1.0 for coding agents"
       },
       "summary": {
-        "cs": "Tým Chrome 10. listopadu vydal stabilní verzi 1.0 projektu Modern Web Guidance: sady dovedností, které coding agentům dodají ověřené postupy pro web (přístupnost, výkon, bezpečnost) a údaje o podpoře v prohlížečích. Verze 1.0 přidává workflow, které prohledá existující kód a navrhne bezpečná zmodernizování; na projektu se podílí i Firefox a Edge.",
-        "en": "On November 10, the Chrome team released stable Modern Web Guidance 1.0: skills that give coding agents vetted web best practices (accessibility, performance, security) and browser-support data. Version 1.0 adds a workflow that scans an existing codebase and suggests safe modernizations, and Firefox and Edge now join the project."
+        "cs": "Tým Chrome 10. listopadu vydal stabilní verzi 1.0 projektu Modern Web Guidance: sady dovedností, které programovacím agentům dodají ověřené postupy pro web (přístupnost, výkon, bezpečnost) a údaje o podpoře v prohlížečích. Novinkou je postup, který prohledá existující kód a navrhne bezpečné úpravy na modernější řešení; na projektu se podílí i Firefox a Edge.",
+        "en": "On November 10, the Chrome team released stable Modern Web Guidance 1.0: skills that give coding agents vetted web best practices (accessibility, performance, security) and browser-support data. New is a workflow that scans an existing codebase and suggests safe modernizations; Firefox and Edge now join the project."
       },
       "why": {
-        "cs": "V projektu spusť npx modern-web-guidance@latest install; starší instalaci aktualizuje příkaz update. Pak agentovi zadej například /modern-web-guidance Modernize the code in this directory. Workflow zatím hledá jen omezenou sadu vzorů (statická analýza).",
-        "en": "In your project run npx modern-web-guidance@latest install (update to upgrade). Then tell your agent, e.g., /modern-web-guidance Modernize the code in this directory. So far the workflow checks only a limited set of patterns."
+        "cs": "V projektu spusť npx modern-web-guidance@latest install (aktualizace: totéž s update). Pak zadej /modern-web-guidance Modernize the code in this directory. Postup zatím hledá jen omezenou sadu vzorů; funguje například s Claude Code, Copilot CLI či Antigravity.",
+        "en": "In your project run npx modern-web-guidance@latest install (update: same with update). Then enter /modern-web-guidance Modernize the code in this directory. Limited set of patterns so far; works with e.g. Claude Code, Copilot CLI, Antigravity."
       },
       "sources": [
         {
           "name": "Google",
           "url": "https://developer.chrome.com/blog/modern-web-guidance-v1"
+        },
+        {
+          "name": "Google",
+          "url": "https://developer.chrome.com/docs/modern-web-guidance"
         }
       ],
       "used": "2026-11-12"
@@ -5738,16 +5742,16 @@
       "verified": true,
       "eventDate": "2026-11-06",
       "title": {
-        "cs": "Claude Code může místo dotazu na povolení akci zamítnout",
-        "en": "Claude Code can deny actions instead of asking permission"
+        "cs": "Pro vývojáře: Claude Code umí akci zamítnout místo dotazu",
+        "en": "For developers: Claude Code can deny instead of asking"
       },
       "summary": {
         "cs": "Claude Code od verze 2.1.319 (6. listopadu) má nastavení permissions.denyInsteadOfPrompting: akce, která by jinak čekala na potvrzení v dialogu o oprávnění, se zamítne a práce pokračuje. Platí v terminálových relacích, u subagentů i týmových agentů. Nainstalovanou verzi zjistíš příkazem claude --version.",
         "en": "Since version 2.1.319 (November 6), Claude Code has the permissions.denyInsteadOfPrompting setting: an action that would otherwise wait for your approval in a permission dialog is denied and the work continues. It applies in terminal sessions, subagents, and teammates. Check your installed version with claude --version."
       },
       "why": {
-        "cs": "Hodí se pro běhy bez člověka, kde by dialog zablokoval práci. Podle dokumentace nastavení platí hodnota true z ~/.claude/settings.json nebo přes --settings; zamítnutá akce se neprovede, výsledek tak může být neúplný.",
-        "en": "Useful for unattended runs where a dialog would block work. Per the docs, the setting takes true from ~/.claude/settings.json or via --settings; a denied action is not performed, so the result may be incomplete."
+        "cs": "Hodí se pro běhy bez dohledu. Zapneš ji hodnotou true v ~/.claude/settings.json nebo volbou --settings; podle dokumentace platí i tehdy, když ji správce nastavil na false. Zamítnutá akce se neprovede, výsledek proto může být neúplný.",
+        "en": "Useful for unattended runs. Enable with true in ~/.claude/settings.json or via --settings; per the docs it holds even if an admin set false. A denied action is not performed, so results may be incomplete."
       },
       "sources": [
         {

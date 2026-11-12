@@ -70,6 +70,7 @@ CANONICAL_NAMES = {
     "venturebeat.com": "VentureBeat",
     "fireworks.ai": "Fireworks AI", "notion.com": "Notion",
     "elevenlabs.io": "ElevenLabs", "chrome.com": "Google",
+    "google-deepmind.github.io": "DeepMind",
     "mpo.gov.cz": "Ministerstvo průmyslu a obchodu",
 }
 
@@ -92,6 +93,7 @@ T1_DOMAINS = [
     "kimi.ai", "block.xyz", "security.com", "gov.uk", "talosintelligence.com",
     "android.com", "awsevents.com", "antigravity.google", "raycast.com",
     "gov.cz", "fireworks.ai", "notion.com", "chrome.com", "elevenlabs.io",
+    "google-deepmind.github.io",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.

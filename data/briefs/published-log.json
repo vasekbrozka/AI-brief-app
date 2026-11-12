@@ -2288,58 +2288,58 @@
     {
       "slug": "2026-11-12-google-gemini-live-apple-carplay",
       "date": "2026-11-12",
-      "topic": "Google 11. 11. (blog Google, 9to5Mac, Engadget): aplikace Gemini s Gemini Live v Apple CarPlay — hlasem kalendář, e-maily, příprava prezentace, konverzace se synchronizují s iPhonem; globálně pro všechny uživatele Gemini na iOS ve všech jazycích Gemini Live; po aktualizaci aplikace, s povoleným mikrofonem a po prvním použití Gemini Live na iPhonu; Daily Brief ne v EHP a pod 18 let; podle 9to5Mac poslední velký chatbot bez CarPlay (dřív Gemini jen přes Mapy Google) — highlight"
+      "topic": "Google 11. 11. (blog Google, 9to5Mac, Engadget): aplikace Gemini s Gemini Live začíná fungovat v Apple CarPlay — hlasem kalendář, e-maily, příprava prezentace, konverzace se synchronizují s iPhonem; zavádění postupné, globálně pro všechny uživatele Gemini na iOS ve všech jazycích Gemini Live; po aktualizaci aplikace, s povoleným mikrofonem a po prvním použití Gemini Live na iPhonu; Daily Brief ne v EHP — highlight"
     },
     {
       "slug": "2026-11-12-united-restricts-third-party-ai-agents-booking",
       "date": "2026-11-12",
-      "topic": "United Airlines 11. 11. (The Verge podle WSJ, Engadget, CBS News): omezí nezávislé osobní AI agenty a asistenty při rezervacích (vlastní platformy, agentury, agregátory) — přihlašovací údaje, federální pravidla (zavazadla potvrdí člověk); agenti lety zobrazí, ale nekoupí; Southwest nabídku zpřístupnil v ChatGPT; Uber 500 objednávek jídla a čtyři jízdy za týden přes agenty (Engadget)"
+      "topic": "United Airlines 11. 11. (The Verge podle WSJ, Engadget, CBS News): omezí neautorizované AI agenty a asistenty třetích stran při rezervacích (vlastní platformy, agentury, agregátory) — podle United únik přihlašovacích údajů, nechtěné nákupy, federální pravidla (prohlášení o zavazadlech potvrdí člověk); agenti lety zobrazí, ale nekoupí; Uber: z 320 mil. jízd a doručení za týden 500 objednávek jídla a čtyři jízdy přes agenty (Engadget)"
     },
     {
       "slug": "2026-11-12-deepmind-alphaproof-code-signal-verification",
       "date": "2026-11-12",
-      "topic": "Google DeepMind 10. 11. (Wired, The Register): systém AlphaProof Code formálně ověřil klíčové záruky protokolu Signal — PQXDH a Triple Ratchet (utajení dopředu, ověření stran, obnova po úniku klíče); čtyři týdny, tým pěti lidí, agenti Gemini Carbon vygenerovali 6,5 mil. řádků Lean (Register); nové chyby nenašel, předpoklad dokonalé kryptografie, ne celá aplikace; specifikace a důkaz zveřejněny"
+      "topic": "Google DeepMind 10. 11. (stránka DeepMind, Wired, The Register): systém AlphaProof Code formálně ověřil klíčové záruky implementace libsignal — PQXDH a Triple Ratchet, jen chaty 1:1, při předpokladu bezpečných šifrovacích funkcí; tým pěti lidí čtyři týdny, 6,5 mil. řádků Lean; v ověřených částech žádné nové chyby, ne celá aplikace, podle Wiredu jeden milník; varianty protokolu i ve WhatsAppu a Google Messages"
     },
     {
       "slug": "2026-11-12-openai-control-room-stop-research-models",
       "date": "2026-11-12",
-      "topic": "OpenAI 9. 11. (RSS OpenAI, The Register; openai.com 403): Control Room — centrální systém sleduje a při bezpečnostních obavách zastaví úlohy modelů ve výzkumné infrastruktuře; až 35 s prodleva (cache autorizace inference, cíl nula), při výpadku zastaví výstup modelů; interní nástroj výzkumu; Register ho spojuje s nedávnými případy agentů (Hugging Face, Wikimedia, australská zdravotní data)"
+      "topic": "OpenAI 9. 11. (RSS OpenAI, The Register; openai.com 403): Control Room — centrální systém sleduje a při bezpečnostních obavách zastaví úlohy modelů ve výzkumné infrastruktuře; podle Registeru prodleva 35 s od rozhodnutí (cache autorizace inference, cíl nula), při vlastním výpadku zastaví výstup modelů; interní nástroj výzkumu; Register se domnívá, že načasování mohly ovlivnit případy agentů (Hugging Face, Wikimedia, australská zdravotní data); datum z RSS, Register píše z australského pásma „Tuesday“"
     },
     {
       "slug": "2026-11-12-elevenlabs-summit-elevenai-custom-models",
       "date": "2026-11-12",
-      "topic": "ElevenLabs 11. 11. (blog ElevenLabs, The Next Web): summit v New Yorku — v příštích měsících doladění hlasových a vybraných open-source jazykových modelů na datech firem; ElevenAI (zápisy z porad se souhlasem účastníků, Scribe v3; bezplatný předběžný přístup od 11. 11.); ElevenAgents: Memory a Routines, Interaction Engine (náhled); partnerský program (550+ partnerů) a tržiště aplikací (nákup od příštího roku); rozšířené partnerství s Nvidií"
+      "topic": "ElevenLabs 11. 11. (blog ElevenLabs, The Next Web): summit v New Yorku — v příštích měsících doladění hlasových a vybraných open-source jazykových modelů na vlastních datech firem; ElevenAI (zápisy z porad se souhlasem účastníků; bezplatný předběžný přístup od 11. 11.); partnerský program (550+ partnerů) a tržiště aplikací partnerů (nákup od příštího roku pro stávající zákazníky); rozšířené partnerství s Nvidií"
     },
     {
       "slug": "2026-11-12-meta-pauses-business-terms-crawling-update",
       "date": "2026-11-12",
-      "topic": "Meta 6. 11. (Ars Technica, The Next Web, 404 Media; Reuters): pozastavila změny Commercial Terms, Product Catalog Terms, Self-Serve Ad Terms a Ad Creative Generative AI Terms, které měly platit od 20. 11. (původně 30. 10.) — procházení webů propojených s firemním účtem, kritika vydavatelů (trénování AI); soudní zákazy v Norsku a Brazílii, šetření CMA, dopisy senátorů; Meta: jen sloučení pravidel, robots.txt crawler zablokuje; navazuje na 2026-11-02 — policy"
+      "topic": "Meta 6. 11. (Ars Technica, The Next Web, 404 Media; mluvčí Mety přes Reuters): čtyři sady podmínek (Commercial Terms, Product Catalog Terms, Self-Serve Ad Terms, Ad Creative Generative AI Terms), které měly platit od 20. 11. (původně 30. 10.), nevstoupí v platnost; stávající zůstávají — procházení webů propojených s firemním účtem, kritika vydavatelů (trénování AI); předběžná opatření v Norsku a Brazílii, šetření CMA; Meta: robots.txt crawler omezí; navazuje na 2026-11-02 — policy"
     },
     {
       "slug": "2026-11-12-tsmc-invest-anthropic-openai",
       "date": "2026-11-12",
-      "topic": "TSMC 10. 11. (Ars Technica podle Reuters a WSJ): správní rada schválila až 500 mil. USD do přednostních akcií OpenAI a 500 mil. do akcií Anthropicu za cenu při IPO; šestý rekordní kvartál (zisk přes 23 mld. USD za červenec–září); kruhové financování (WSJ), Nvidia dosud 30 mld. do OpenAI a 10 mld. do Anthropicu — business"
+      "topic": "TSMC 10. 11. (podání Form 6-K u SEC, Ars Technica): správní rada schválila investice až 500 mil. USD do přednostních akcií OpenAI a až 500 mil. USD do kmenových akcií Anthropicu za cenu při jeho IPO; TSMC vyrábí většinu AI čipů Nvidie i většinu čipů Applu; kruhové financování (Ars, varování analytiků podle WSJ) — business"
     },
     {
       "slug": "2026-11-12-tip-chrome-modern-web-guidance-1-0",
       "date": "2026-11-12",
-      "topic": "tip: Chrome — Modern Web Guidance 1.0 (10. 11.; sady dovedností pro coding agenty: přístupnost, výkon, bezpečnost, data o podpoře v prohlížečích; npx modern-web-guidance@latest install/update; /modern-web-guidance Modernize the code in this directory; modernizační workflow zatím jen omezená sada vzorů; Firefox a Edge se přidávají) — nový"
+      "topic": "tip: Chrome — Modern Web Guidance 1.0 (10. 11.; sady dovedností pro programovací agenty: přístupnost, výkon, bezpečnost, data o podpoře v prohlížečích; npx modern-web-guidance@latest install/update; /modern-web-guidance Modernize the code in this directory; postup zatím jen omezená sada vzorů; Claude Code, Copilot CLI, Antigravity; Firefox a Edge se přidávají) — nový"
     },
     {
       "slug": "2026-11-12-tip-github-copilot-gemini-4-carbon",
       "date": "2026-11-12",
-      "topic": "tip: GitHub Copilot — Gemini 4 Carbon obecně dostupný (10. 11.; Pro+, Max, Business, Enterprise; nabídka modelů ve VS Code, Visual Studiu, Copilot CLI, na github.com; ceník poskytovatele; zásady modelů pro správce) — z banky"
+      "topic": "tip: GitHub Copilot — Gemini 4 Carbon plně dostupný (10. 11.; Pro+, Max, Business, Enterprise; nabídka modelů ve VS Code, JetBrains, Xcode, Copilot CLI, na github.com; ceník poskytovatele; zásady modelů pro správce; zavádění postupné) — z banky"
     },
     {
       "slug": "2026-11-12-tip-google-chat-schedule-meeting-one-click",
       "date": "2026-11-12",
-      "topic": "tip: Google Chat — Gemini podtrhne větu o schůzce a nabídne až tři termíny, hosty a název (Workspace Updates 10. 11.; web, angličtina, konverzace do 5 lidí; vyžaduje chytré funkce) — z banky"
+      "topic": "tip: Google Chat — Gemini podtrhne větu o schůzce a nabídne až tři termíny, hosty a název (Workspace Updates 10. 11.; web, angličtina, konverzace do 5 lidí; vyžaduje chytré funkce; zavádění od 9. 11. postupné) — z banky"
     },
     {
       "slug": "2026-11-12-tip-claude-code-deny-instead-of-prompting",
       "date": "2026-11-12",
-      "topic": "tip: Claude Code — nastavení permissions.denyInsteadOfPrompting (od 2.1.319, 6. 11.; akce čekající na potvrzení se zamítne a práce pokračuje; true z ~/.claude/settings.json nebo --settings; terminál, subagenti, týmoví agenti) — nový"
+      "topic": "tip: Claude Code — nastavení permissions.denyInsteadOfPrompting (od 2.1.319, 6. 11.; akce čekající na potvrzení se zamítne a práce pokračuje; true z ~/.claude/settings.json nebo --settings, platí i proti správci; terminál, subagenti, týmoví agenti) — nový"
     }
   ],
-  "updated": "2026-11-12T03:28:45Z"
+  "updated": "2026-11-12T03:59:54Z"
 }

@@ -379,7 +379,22 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   tak, aby alias nesedl (titulky se nepodtrhují), a produkt jmenuj v titulku; pojem, který
   čtenář nezná (Argon, SEC, RAISE Act, Grok Build), dostane v první větě 2–4 slova
   vysvětlení; řádek „Dostupnost“ zdroje čti celý (u Gemini v Gmailu zahrnoval i osobní
-  účty Google, ne jen Workspace).
+  účty Google, ne jen Workspace); (35) **u zprávy o firmě, výzkumu nebo regulaci najdi
+  primární dokument dřív, než napíšeš `why`**: investice TSMC do OpenAI a Anthropicu stála
+  na řetězci Ars → Reuters (Reuters z naší sítě nejde) — podání Form 6-K u SEC z 10. 11.
+  dalo T1 a přesné znění („not to exceed US$500 million“ u obou částek, Anthropic za cenu
+  při IPO), tedy titulek „až miliardu“; WebSearch ho našel, `curl` s UA prohlížeče vrací
+  403, obecný UA bez kontaktních údajů uživatele projde. U Signalu opravila stránka
+  DeepMind mediální zjednodušení („protokol chrání WhatsApp“ → „varianty protokolu“; ověřeny
+  jen chaty 1:1; tým pěti lidí, čtyři týdny). U veřejných firem hledej podání (SEC EDGAR:
+  6-K, 8-K, S-1), u laboratoří preprint nebo stránku projektu. Rozpor v datu o jediný den
+  (RSS OpenAI „Mon, 09 Nov 13:00 GMT“ × The Register „on Tuesday“) nejdřív porovnej
+  s pásmem autora (APAC Editor v Sydney: pondělí 13:00 GMT = úterý 00:00) a drž datum
+  primárního zdroje; titulek „je nově“ × zdroj „rolling out“ → „přichází“ a věta
+  o postupném zavádění do `why`; tip jen pro vývojáře má „Pro vývojáře:“ v titulku
+  u každého nástroje (Copilot, Claude Code), ne jen u `npx`; alias ve slovníčku, který je
+  běžné slovo („parametrem“ u volby --settings → „parametry modelu“), odhalí jen simulace —
+  přeformuluj text.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

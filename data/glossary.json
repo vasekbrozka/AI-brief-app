@@ -599,7 +599,11 @@
         "skills",
         "skilly",
         "skillů",
-        "skillu"
+        "skillu",
+        "sada dovedností",
+        "sady dovedností",
+        "sadu dovedností",
+        "sadách dovedností"
       ],
       "short": {
         "cs": "Složka s pokyny a skripty, která AI agentovi vysvětlí konkrétní úkol nebo postup. Agent si ji načte, až ji potřebuje — třeba „piš v mém stylu“ nebo „sestav měsíční report“.",
@@ -1541,8 +1545,8 @@
         "formally verify"
       ],
       "short": {
-        "cs": "Matematický důkaz, že program dělá přesně to, co má. Na rozdíl od testů nezkouší jen vybrané případy, ale dokazuje to pro všechny možné vstupy.",
-        "en": "A mathematical proof that a program does exactly what it should. Unlike tests, it does not try only selected cases but proves the behavior for all possible inputs."
+        "cs": "Matematický důkaz, že program splňuje přesně popsané vlastnosti — a to pro všechny vstupy, ne jen vyzkoušené. Platí ale jen pro popsané části a při daných předpokladech.",
+        "en": "A mathematical proof that a program meets precisely described properties — for all inputs, not just tested ones. It holds only for the parts described and under stated assumptions."
       }
     },
     {
