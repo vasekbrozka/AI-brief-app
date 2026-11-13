@@ -18,12 +18,12 @@
         "en": "Google launches the fast Gemini 4 Hydrogen model"
       },
       "summary": {
-        "cs": "Google 12. listopadu uvedl Gemini 4 Hydrogen: podle něj je při výchozím nastavení 2,5× rychlejší než Gemini 3.8 Flash a v indexu Artificial Analysis má 51 bodů proti 50 u Argonu. Funguje ve Vyhledávání, aplikaci Gemini, AI Studiu a API (1,50 USD za milion vstupních tokenů) a nabízí čtyři úrovně uvažování.",
-        "en": "On November 12, Google launched Gemini 4 Hydrogen, which it says is 2.5 times faster than Gemini 3.8 Flash at the default setting and scores 51 to Argon’s 50 on the Artificial Analysis index. It runs in Search, the Gemini app, AI Studio, and the API ($1.50 per million input tokens) with four thinking levels."
+        "cs": "Google 12. listopadu uvedl rychlý model Gemini 4 Hydrogen. Podle Googlu je při výchozí úrovni uvažování 2,5× rychlejší než Gemini 3.8 Flash a v indexu Artificial Analysis má 51 bodů proti 50 u jeho špičkového modelu Argon. Je ve Vyhledávání, aplikaci Gemini, AI Studiu a API (1,50 USD za milion vstupních tokenů).",
+        "en": "On November 12, Google launched Gemini 4 Hydrogen. Per Google, it is 2.5 times faster than Gemini 3.8 Flash at the default thinking level and scores 51 to 50 for its top-tier Argon on the Artificial Analysis index. It runs in Search, the Gemini app, AI Studio, and the API ($1.50 per million input tokens)."
       },
       "why": {
-        "cs": "Podle Googlu je výchozí v AI Mode. V aplikaci Gemini mají bezplatné účty Hydrogen jen automatickým výběrem; Ars Technica píše, že AI Plus a bezplatné účty mají zatím starší model.",
-        "en": "Per Google, it is the default in AI Mode. In the Gemini app free accounts get it only via auto selection, and Ars Technica says AI Plus and free accounts still have an older model."
+        "cs": "V aplikaci Gemini ho podle Googlu dostanou bezplatné účty jen automatickým výběrem; Ars Technica píše, že tarif AI Plus i bezplatné účty mají zatím starší model — zdroje se liší. Ve Vyhledávání je pro všechny.",
+        "en": "Gemini app: Google says free accounts get it only via auto selection; Ars Technica says AI Plus and free accounts still have an older model — sources differ. In Search it is open to all."
       },
       "sources": [
         {
@@ -51,12 +51,12 @@
         "en": "Nvidia CEO Jensen Huang resigns"
       },
       "summary": {
-        "cs": "Správní rada Nvidie 12. listopadu oznámila, že Jensen Huang s okamžitou platností rezignoval na funkce prezidenta, generálního ředitele i člena rady. Dočasně firmu vede finanční ředitelka Colette Kress; rada poprvé jmenovala předsedu, Harveyho Jonese, a hledá stálého nástupce. Výsledky za třetí čtvrtletí zůstávají na 17. listopadu.",
-        "en": "Nvidia’s board announced on November 12 that Jensen Huang resigned as president, CEO, and director, effective immediately. CFO Colette Kress is interim CEO, Harvey Jones is the board’s first chair, and a search for a permanent CEO has begun. Third-quarter results stay set for November 17."
+        "cs": "Správní rada Nvidie, výrobce čipů pro AI, 12. listopadu oznámila, že Jensen Huang s okamžitou platností rezignoval na funkce prezidenta, generálního ředitele i člena rady. Dočasně firmu vede finanční ředitelka Colette Kress; rada poprvé jmenovala předsedu, Harveyho Jonese, a hledá stálého nástupce. Výsledky za třetí čtvrtletí zůstávají na 17. listopadu.",
+        "en": "The board of Nvidia, the AI chip maker, announced on November 12 that Jensen Huang resigned as president, CEO, and director, effective immediately. CFO Colette Kress is interim CEO, Harvey Jones is the board’s first chair, and a search for a permanent CEO has begun. Third-quarter results stay set for November 17."
       },
       "why": {
-        "cs": "Wired a TechCrunch odchod spojují se zprávami o Huangových vztazích s údajnou čínskou agentkou (Čína to odmítá) a podřízenou; Nvidia důvod neuvedla. Šetření rada oznámila 8. listopadu.",
-        "en": "Wired and TechCrunch tie the exit to reports of Huang’s relationships with an alleged Chinese spy (China denies this) and a subordinate; Nvidia gave no reason. The board opened its inquiry on November 8."
+        "cs": "Nvidia důvod neuvedla. Wired a TechCrunch odchod spojují s nevěrou, kterou Huang přiznal, a se zprávami médií (NYT, FT) o špionáži (podle Wiredu ji Čína odmítá) a o vztahu s jedním z přímých podřízených.",
+        "en": "Nvidia gave no reason. Wired and TechCrunch tie the exit to Huang’s admitted infidelity and to media reports (NYT, FT) of espionage (China denies it, per Wired) and of a relationship with a direct report."
       },
       "sources": [
         {
@@ -88,16 +88,16 @@
       "verified": true,
       "eventDate": "2026-11-12",
       "title": {
-        "cs": "Claude Meetings: Claude se přidá do videohovoru",
-        "en": "Claude Meetings lets Claude join your video calls"
+        "cs": "Claude Meetings: v betě se Claude připojí k videohovoru",
+        "en": "Claude Meetings: in beta, Claude joins your video calls"
       },
       "summary": {
-        "cs": "Anthropic 12. listopadu začala v betě zavádět Claude Meetings: Claude se připojí k hovoru na Google Meet jako viditelný účastník, píše zápisy a úkoly, odpovídá na dotazy a tvoří dokumenty či tabule. Připojené nástroje člověka používá s jeho povolením; ukládá přepis a souhrn, ne zvuk. Beta je jen pro tarify Team a Enterprise.",
-        "en": "On November 12, Anthropic began rolling out Claude Meetings in beta: Claude joins a Google Meet call as a visible participant, takes notes and action items, answers questions, and builds docs or whiteboards. It uses a person’s connected tools with their permission and saves a transcript and summary, not audio. For Team and Enterprise plans."
+        "cs": "Anthropic 12. listopadu začala pro tarify Team a Enterprise v betě zavádět Claude Meetings: Claude se připojí k hovoru na Google Meet jako viditelný účastník, píše zápisy a úkoly, odpovídá na dotazy a tvoří dokumenty či tabule. Připojené nástroje člověka používá s jeho povolením; ukládá přepis, souhrn a popisy obrazovky, ne zvuk.",
+        "en": "On November 12, Anthropic began rolling out Claude Meetings in beta for Team and Enterprise: Claude joins a Google Meet call as a visible participant, takes notes and action items, answers questions, and builds docs or whiteboards. It uses connected tools with each person’s permission and saves a transcript, summary, and screen descriptions, not audio."
       },
       "why": {
-        "cs": "Na Team je pozvání Claude dostupné výchozně (admin ho vypne), na Enterprise ho zapíná admin. S hosty z jiné organizace se Claude ve výchozím stavu hovorů neúčastní; před zapnutím ověř, že všichni souhlasí s přepisem.",
-        "en": "On Team, inviting Claude is available by default (admins can turn it off); on Enterprise an admin enables it. Claude stays out of calls with outside guests by default; confirm everyone accepts transcription first."
+        "cs": "Na Team je to dostupné výchozně, na Enterprise to zapíná admin; ne pro organizace se ZDR, HIPAA či CMEK. Claude se hovorů s hosty zvenčí výchozně neúčastní; ověř, že všichni souhlasí s přepisem.",
+        "en": "On Team it is available by default; on Enterprise an admin enables it; not for organizations with ZDR, HIPAA, or CMEK. By default Claude skips calls with outside guests; confirm everyone accepts transcription."
       },
       "sources": [
         {
@@ -117,16 +117,16 @@
       "verified": true,
       "eventDate": "2026-11-12",
       "title": {
-        "cs": "Meta Muse umí za vás telefonovat firmám",
-        "en": "Meta’s Muse can now phone businesses for you"
+        "cs": "Muse od Mety volá firmám, jen platícím v USA",
+        "en": "Meta’s Muse now phones businesses, for paying US users"
       },
       "summary": {
-        "cs": "Meta podle TechCrunch z 12. listopadu zpřístupnila agentovi Muse volání na firmy v USA: zavolá třeba do restaurace nebo na úřad, počká na lince a domluví rezervaci či schůzku. Funkce je jen pro platící předplatitele (od 20 USD měsíčně); dosud ji od září zkoušeli vybraní uživatelé.",
-        "en": "Meta’s Muse agent can now place calls to US businesses, TechCrunch reported on November 12: it can phone a restaurant or a government office, wait on hold, and book a reservation or appointment. The feature is for paying subscribers only (from $20 a month); selected users have tested it since September."
+        "cs": "Meta podle TechCrunch z 12. listopadu zpřístupnila AI agentovi Muse volání na firmy v USA: podle Mety zavolá třeba do restaurace nebo na úřad, počká na lince a domluví rezervaci či schůzku. Funkce je jen pro platící předplatitele v USA (od 20 USD měsíčně); dosud ji od září zkoušeli vybraní uživatelé.",
+        "en": "Meta’s Muse AI agent can now place calls to US businesses, TechCrunch reported on November 12: per Meta, it can phone a restaurant or a government office, wait on hold, and book a reservation or appointment. The feature is for paying US subscribers only (from $20 a month); selected users have tested it since September."
       },
       "why": {
-        "cs": "TechCrunch: firmy často zavěsí, jakmile poznají, že volá AI. V hovoru, který ukázal Engadget, se Muse jako AI výslovně nepředstavila; řekla jen, že volá jménem uživatele a hovor přepisuje.",
-        "en": "TechCrunch notes businesses often hang up on AI callers. In a call Engadget cites, Muse did not explicitly say it was an AI, only that it called on the user’s behalf and was transcribing."
+        "cs": "TechCrunch: firmy často zavěsí, jakmile poznají, že volá AI. V hovoru sdíleném zaměstnancem Mety (cituje Engadget) se Muse jako AI výslovně nepředstavila; řekla jen, že volá jménem uživatele a hovor přepisuje.",
+        "en": "TechCrunch: businesses often hang up on AI callers. In a Meta employee’s shared call (Engadget), Muse did not explicitly say it was an AI, only that it called for the user and was transcribing."
       },
       "sources": [
         {
@@ -146,16 +146,16 @@
       "verified": true,
       "eventDate": "2026-11-12",
       "title": {
-        "cs": "Google zahájil předobjednávky chytrých brýlí s Gemini",
-        "en": "Google opens pre-orders for Gemini smart glasses"
+        "cs": "Google otevřel předobjednávky brýlí s Gemini (USA a Korea)",
+        "en": "Google opens Gemini glasses pre-orders (US, Korea)"
       },
       "summary": {
-        "cs": "Google 12. listopadu otevřel předobjednávky brýlí s Gemini od Warby Parker (od 395 USD) a Gentle Monster (od 449 USD); do prodeje půjdou 10. prosince. Brýle nemají displej: ovládáš je hlasem („Hey Gemini“) nebo dotykem, mají 12megapixelovou kameru a baterii na až devět hodin.",
-        "en": "On November 12, Google opened pre-orders for Gemini glasses from Warby Parker (from $395) and Gentle Monster (from $449); they go on sale December 10. The glasses have no display: you use them by voice (“Hey Gemini”) or touch, with a 12-megapixel camera and up to nine hours of battery."
+        "cs": "Google 12. listopadu otevřel předobjednávky brýlí s Gemini od Warby Parker (od 395 USD, jen USA) a Gentle Monster (od 449 USD, USA a Jižní Korea); do prodeje půjdou 10. prosince. Brýle nemají displej (Ars Technica): ovládáš je hlasem nebo dotykem, mají 12megapixelovou kameru a baterii na až devět hodin.",
+        "en": "On November 12, Google opened pre-orders for Gemini glasses from Warby Parker (from $395, US) and Gentle Monster (from $449, US and South Korea); sales start December 10. The glasses have no display (Ars Technica); you use them by voice or touch, with a 12-megapixel camera and up to nine hours of battery."
       },
       "why": {
-        "cs": "Jen s účtem Google z USA nebo Jižní Koreje od 18 let; telefony Pixel 7+, Galaxy S/Z s One UI 9+ a iPhone 13 Pro+. Google slibuje kontrolku nahrávání a automatické zakrytí tváří kolemjdoucích.",
-        "en": "Only with a Google account from the US or South Korea, 18+; phones: Pixel 7+, Galaxy S/Z on One UI 9+, iPhone 13 Pro+. Google promises a recording light and automatic masking of bystanders’ faces."
+        "cs": "Vyžaduje účet Google z USA nebo Jižní Koreje, 18+; Pixel 7+, Galaxy S/Z s One UI 9 či iPhone 13 Pro+. Google slibuje kontrolku při natáčení a zakrytí tváří kolemjdoucích před zpracováním Gemini.",
+        "en": "Requires a Google account from the US or South Korea, 18+; Pixel 7+, Galaxy S/Z (One UI 9), iPhone 13 Pro+. Google promises a recording light and bystander face masking before Gemini processes visuals."
       },
       "sources": [
         {
@@ -175,16 +175,16 @@
       "verified": true,
       "eventDate": "2026-11-12",
       "title": {
-        "cs": "Samostatně hostované Claude Managed Agents: soukromá beta",
+        "cs": "Claude Managed Agents: provoz u firmy, soukromá beta",
         "en": "Anthropic opens private beta of self-hosted Managed Agents"
       },
       "summary": {
-        "cs": "Anthropic 12. listopadu nabídla v soukromé betě samostatně hostované Claude Managed Agents: firmy je spustí ve vlastním cloudu nebo on-premise včetně serveru, databáze, sandboxů, přihlašovacích údajů a historie sezení. Požadavky na Claude se posílají tam, kam firma určí: k Anthropicu, do Amazon Bedrock, Google Agent Platform, Microsoft Foundry nebo přes vlastní bránu.",
+        "cs": "Anthropic 12. listopadu nabídla v soukromé betě samostatně hostované Claude Managed Agents: firmy je spustí ve vlastním cloudu nebo on-premise včetně serveru, databáze, sandboxů, přihlašovacích údajů a historie relací. Požadavky na Claude se posílají tam, kam firma určí: k Anthropicu, do Amazon Bedrock, Google Agent Platform, Microsoft Foundry nebo přes vlastní bránu.",
         "en": "On November 12, Anthropic opened a private beta of self-hosted Claude Managed Agents: companies run it in their own cloud or on-premises, including the server, database, sandboxes, credentials, and session history. Model requests go where the company chooses: Anthropic, Amazon Bedrock, Google Agent Platform, Microsoft Foundry, or its own gateway."
       },
       "why": {
-        "cs": "Podle The Next Web Claude samotný ve firmě neběží: každé volání modelu míří k poskytovateli, firma řeší správu serveru; nic se nepřenáší z hostované služby a chybí webhooky a plánované běhy.",
-        "en": "Per The Next Web, Claude itself does not run in-house: model calls still go to a provider, the firm maintains the server, nothing migrates from the hosted service, and webhooks and scheduled runs are missing."
+        "cs": "Podle The Next Web Claude samotný ve firmě neběží: každé volání modelu míří k poskytovateli, firma řeší správu serveru; nic se nepřenáší z hostované služby a chybí webhooky a plánované běhy. Přístup na vyžádání.",
+        "en": "Per The Next Web, Claude does not run in-house: model calls go to a provider, the firm maintains the server, nothing migrates from the hosted service, and webhooks and schedules are missing. Access on request."
       },
       "sources": [
         {
@@ -204,16 +204,16 @@
       "verified": true,
       "eventDate": "2026-11-11",
       "title": {
-        "cs": "Sheets canvas jde publikovat jako samostatný odkaz",
+        "cs": "Sheets canvas půjde publikovat jako samostatný odkaz",
         "en": "Publish a Sheets canvas as its own link"
       },
       "summary": {
-        "cs": "Google 11. listopadu začal zavádět publikování plátna Sheets canvas, interaktivní miniaplikace (třeba přehled, kanban či kalendář) z dat v tabulce, jako samostatného odkazu jen pro čtení. Odkaz má vlastní nastavení okruhu lidí, takže zdrojovou tabulku nemusíš sdílet. Lze zvolit průběžné obnovování, nebo statický snímek dat.",
-        "en": "On November 11, Google began rolling out publishing a Sheets canvas, an interactive mini-app (such as a dashboard or calendar) built from spreadsheet data, as its own read-only link. The link has a separate audience setting, so you need not share the source sheet. You can republish automatically or publish a static view."
+        "cs": "Google 11. listopadu začal zavádět publikování plátna Sheets canvas, v němž Gemini dělá z dat v tabulce interaktivní miniaplikace (třeba přehled, kanban či kalendář), jako samostatného odkazu jen pro čtení. Odkaz má vlastní nastavení okruhu lidí, takže zdrojovou tabulku nemusíš sdílet. Lze zvolit průběžné obnovování, nebo statický snímek dat.",
+        "en": "On November 11, Google began rolling out publishing a Sheets canvas, where Gemini turns spreadsheet data into interactive mini-apps (such as a dashboard or calendar), as its own read-only link. The link has a separate audience setting, so you need not share the source sheet. You can republish automatically or publish a static view."
       },
       "why": {
-        "cs": "Ikona v panelu plátna → Publish canvas; jen na webu a u plátna, které můžeš upravovat; platí stávající nastavení zveřejňování souborů. Mají ho vybrané edice Workspace a Google AI Pro/Ultra; zavádění trvá až 15 dní.",
-        "en": "Toolbar icon → Publish canvas; web only, for canvases you can edit; your existing publish-to-the-web setting applies. Available in select Workspace editions and Google AI Pro/Ultra; rollout takes up to 15 days."
+        "cs": "Ikona v panelu plátna → Publish canvas (jen web, plátno s právem úprav; platí nastavení zveřejňování souborů). Zavádí se od 11. 11., u plánovaného vydání od 2. 12.; vybrané edice Workspace a AI Pro/Ultra.",
+        "en": "Toolbar icon → Publish canvas (web only, canvases you can edit; your publish-to-the-web setting applies). Rolling out from November 11, scheduled-release domains from December 2; select Workspace editions and AI Pro/Ultra."
       },
       "sources": [
         {
@@ -229,7 +229,7 @@
       "verified": true,
       "eventDate": "2026-11-06",
       "title": {
-        "cs": "Pro vývojáře: automatizace Copilotu ve VS Code podle cronu",
+        "cs": "Pro vývojáře: automatizace Copilotu podle rozvrhu (cron)",
         "en": "For developers: VS Code Copilot automations accept cron schedules"
       },
       "summary": {
@@ -237,13 +237,21 @@
         "en": "GitHub’s November 6 weekly roundup says local automations for Copilot in VS Code 1.145 now support cron expressions and custom agents from your workspace, so recurring tasks can run on a schedule you choose."
       },
       "why": {
-        "cs": "Ve VS Code založ místní automatizaci a rozvrh zadej výrazem cron. Podrobnosti nastavení přehled neuvádí; hledej je v úplných poznámkách k VS Code 1.145.",
-        "en": "In VS Code, create a local automation and enter its schedule as a cron expression. The roundup gives no setup details; see the full VS Code 1.145 release notes."
+        "cs": "V okně Agents otevři Automations, založ místní automatizaci (Run in the Cloud nech vypnuté) a když předvolby rozvrhu nestačí, zvol Cron a zadej pětipolový výraz. U cloudových automatizací cron nejde.",
+        "en": "In the Agents window open Automations and create a local automation (Run in the Cloud off); if presets are too coarse, select Cron and enter a five-field expression. Not available for cloud automations."
       },
       "sources": [
         {
           "name": "GitHub",
           "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2"
+        },
+        {
+          "name": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/updates/v1_145"
+        },
+        {
+          "name": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/docs/agents/run/automations"
         }
       ]
     },
@@ -254,21 +262,25 @@
       "verified": true,
       "eventDate": "2026-11-12",
       "title": {
-        "cs": "VS Code: Claude Code se ptá, zda složce věříš",
-        "en": "VS Code: Claude Code asks before trusting folders"
+        "cs": "Pro vývojáře: Claude Code se ptá, zda složce věříš",
+        "en": "For developers: Claude Code now asks before trusting folders"
       },
       "summary": {
-        "cs": "Claude Code od verze 2.1.323 (12. listopadu) zobrazí ve VS Code před první relací ve složce, u které důvěra zatím nebyla potvrzena, vlastní dotaz na důvěru. Když odmítneš, Claude Code nastavení té složky ani její servery MCP nepoužije. Nainstalovanou verzi zjistíš příkazem claude --version.",
-        "en": "Claude Code 2.1.323 (November 12) shows its own trust dialog in VS Code before the first session in a folder you have not trusted. If you decline, Claude Code does not use that folder’s settings or MCP servers. Check your installed version with claude --version."
+        "cs": "Claude Code od verze 2.1.323 (12. listopadu) zobrazí ve VS Code před první relací ve složce, u které důvěra zatím nebyla potvrzena, vlastní dotaz na důvěru. Když odmítneš, Claude Code nastavení té složky ani její servery MCP nepoužije. Verzi zjistíš v zobrazení Extensions: číslo verze rozšíření odpovídá verzi Claude Code.",
+        "en": "Claude Code 2.1.323 (November 12) shows its own trust dialog in VS Code before the first session in a folder you have not trusted. If you decline, Claude Code does not use that folder’s settings or MCP servers. Check the version in the Extensions view; it matches the bundled Claude Code version."
       },
       "why": {
-        "cs": "Hodí se při otevírání cizích repozitářů; v nedůvěryhodné složce už podle poznámek nastavení repozitáře nesmí vypnout tvoje hooky ani zapnout či vypnout pluginy.",
-        "en": "Useful when opening unfamiliar repositories; per the release notes, in an untrusted folder the repository’s settings can no longer disable your hooks or turn plugins on or off."
+        "cs": "Aktualizuj rozšíření (Extensions) a složky, které neznáš, nepotvrzuj. Podle poznámek navíc v nedůvěryhodné složce nastavení repozitáře už nevypne tvoje hooky ani nezapne či nevypne pluginy.",
+        "en": "Update the extension; do not confirm trust for folders you do not know. Per the release notes, an untrusted folder’s settings can also no longer disable your hooks or turn plugins on or off."
       },
       "sources": [
         {
           "name": "Anthropic",
           "url": "https://code.claude.com/docs/en/changelog"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/vs-code"
         }
       ]
     },
@@ -279,16 +291,16 @@
       "verified": true,
       "eventDate": "2026-11-11",
       "title": {
-        "cs": "Google Tabletop: sdílený prostor pro plánování ve skupině",
-        "en": "Google Tabletop: a shared AI space for group planning"
+        "cs": "Google Tabletop: AI prostor pro skupinové plánování (jen USA)",
+        "en": "Google Tabletop: shared AI group planning (US only)"
       },
       "summary": {
-        "cs": "Google Labs 11. listopadu spustil experiment Tabletop: po zadání odkazů, souborů a nápadů a pokynu @tabletop vznikne itinerář výletu, anketa o večeři, rozdělování výdajů nebo turnajový pavouk. Ostatní se připojí odkazem a upravují současně jako v Dokumentu. Zatím jen v USA od 18 let přes čekací listinu.",
-        "en": "On November 11, Google Labs launched the Tabletop experiment: add links, files, and ideas, then prompt @tabletop to generate a trip itinerary, dinner poll, expense splitter, or tournament bracket. Others join by link and edit at the same time, as in a Google Doc. For now, US only, 18 and older, via a waitlist."
+        "cs": "Google Labs 11. listopadu spustil experiment Tabletop: podle Googlu po zadání odkazů, souborů a nápadů a pokynu @tabletop vznikne itinerář výletu, anketa o večeři, rozdělování výdajů nebo turnajový pavouk. Ostatní se připojí odkazem a upravují současně jako v Dokumentu. Zatím jen v USA od 18 let přes čekací listinu.",
+        "en": "On November 11, Google Labs launched the Tabletop experiment: per Google, add links, files, and ideas, then prompt @tabletop for a trip itinerary, dinner poll, expense splitter, or tournament bracket. Others join by link and edit at once, as in a Google Doc. For now, US only, 18 and older, via a waitlist."
       },
       "why": {
-        "cs": "Zapsat se jde na labs.google/tabletop; mimo USA a pod 18 let zatím přístup není. Jde o veřejné testování, takže funkce i podmínky se mohou změnit.",
-        "en": "Sign up at labs.google/tabletop; outside the US and under 18 there is no access yet. It is public testing, so features and terms may change."
+        "cs": "Zapsat se jde na labs.google/tabletop; mimo USA a pod 18 let zatím přístup není. Podle The Verge může věkový limit platit jen během veřejného testování.",
+        "en": "Sign up at labs.google/tabletop; outside the US and under 18 there is no access yet. The Verge suggests the age limit may apply only during public testing."
       },
       "sources": [
         {
@@ -310,8 +322,8 @@
         "en": "Google AI Plus loses Gemini Pro model choice (per 9to5Google)"
       },
       "note": {
-        "cs": "Podle e-mailu z Redditu (9to5Google) přijdou předplatitelé AI Plus od 13. listopadu o výběr modelů Pro v Gemini i AI režimu Vyhledávání; Google v nápovědě slibuje e-mail s vlastním termínem.",
-        "en": "Per a Reddit email (9to5Google), AI Plus subscribers lose Pro model choice in Gemini and Search AI Mode from November 13; Google only promises an email with each person’s date."
+        "cs": "Podle e-mailu Googlu zveřejněného na Redditu (9to5Google) přijdou předplatitelé AI Plus od 13. listopadu o výběr modelů Pro v Gemini i AI Mode; Google slibuje e-mail s vlastním datem.",
+        "en": "Per a Google email posted on Reddit (9to5Google), AI Plus subscribers lose Pro model choice in Gemini and AI Mode from November 13; Google promises personal dates by email."
       },
       "sources": [
         {
@@ -368,8 +380,8 @@
         "en": "NVIDIA: quarterly results"
       },
       "note": {
-        "cs": "NVIDIA zveřejní výsledky za čtvrtletí skončené 25. října kolem 22:20 našeho času, první po odchodu šéfa Jensena Huanga; hovor s analytiky začíná ve 23:00.",
-        "en": "NVIDIA reports results for the quarter ended October 25 at about 10:20 p.m. Prague time, the first since CEO Jensen Huang resigned; the analyst call starts at 11 p.m."
+        "cs": "NVIDIA, výrobce čipů pro AI, zveřejní výsledky za čtvrtletí skončené 25. října kolem 22:20 našeho času, první po odchodu šéfa Jensena Huanga.",
+        "en": "NVIDIA, a maker of AI chips, reports results for the quarter ended October 25 at about 10:20 p.m. Prague time, the first since CEO Jensen Huang resigned."
       },
       "sources": [
         {
@@ -390,8 +402,8 @@
         "en": "Anthropic: IPO reportedly on November 19 or 20"
       },
       "note": {
-        "cs": "Anthropic 10. listopadu zahájila roadshow, rozpětí ceny je 70–78 USD za akcii (Nasdaq, ANT). Podle WSJ (přes The Verge) má obchodování začít 19. nebo 20. listopadu; oznámení Anthropicu datum neuvádí.",
-        "en": "Anthropic launched its roadshow November 10 at $70–78 a share (Nasdaq: ANT). Per WSJ (via The Verge), trading is to start November 19 or 20; Anthropic’s release gives no date."
+        "cs": "Anthropic 10. listopadu zahájila prezentace pro investory (roadshow) a požádala o kotaci na Nasdaq (ANT). Podle WSJ (přes The Verge) začne obchodování 19. nebo 20. 11.; Anthropic datum neuvádí.",
+        "en": "Anthropic began its roadshow (investor presentations) November 10 and applied to list on Nasdaq (ANT). Per WSJ (via The Verge), trading starts November 19 or 20; Anthropic gives no date."
       },
       "sources": [
         {
@@ -412,7 +424,7 @@
         "en": "Claude Code drops fast mode for Opus 4.8"
       },
       "note": {
-        "cs": "Podle changelogu Claude Code zanikne 30. listopadu rychlý režim (rychlejší výstup) Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Přechod na Opus 5.5 rychlost zachová.",
+        "cs": "Podle poznámek k vydání Claude Code zanikne 30. listopadu rychlý režim Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Přechod na Opus 5.5 rychlost zachová.",
         "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
       },
       "sources": [
@@ -430,8 +442,8 @@
         "en": "EU: companies must meet nudifier-app ban by December 2"
       },
       "note": {
-        "cs": "Podle europarlamentu platí od 2. prosince zákaz aplikací, které AI „svlékají“ lidi bez souhlasu; označovat AI obsah musí do téhož dne i systémy uvedené na trh před 2. srpnem.",
-        "en": "Per Parliament: the ban on AI “undress” apps applies from December 2; for systems placed on the market before August 2, AI content labelling is due by then too."
+        "cs": "Podle europarlamentu platí od 2. prosince 2026 zákaz AI aplikací na „svlékání“ lidí bez souhlasu; téhož dne začne označování AI obsahu u systémů uvedených na trh před 2. srpnem 2026.",
+        "en": "Per Parliament: the ban on AI “undress” apps applies from December 2, 2026; for systems placed on the market before August 2, 2026, AI content labelling is due by then."
       },
       "sources": [
         {
@@ -448,8 +460,8 @@
         "en": "Google: Gemini smart glasses go on sale"
       },
       "note": {
-        "cs": "Předobjednávky už běží; brýle od Warby Parker a Gentle Monster se 10. prosince začnou prodávat v obchodech i online, jen v USA a Jižní Koreji.",
-        "en": "Pre-orders are open; glasses from Warby Parker and Gentle Monster go on sale in stores and online on December 10, in the US and South Korea only."
+        "cs": "Předobjednávky už běží; brýle od Warby Parker (jen USA) a Gentle Monster (USA a Jižní Korea) se 10. prosince začnou prodávat v obchodech i online.",
+        "en": "Pre-orders are open; glasses from Warby Parker (US only) and Gentle Monster (US and South Korea) go on sale in stores and online on December 10."
       },
       "sources": [
         {

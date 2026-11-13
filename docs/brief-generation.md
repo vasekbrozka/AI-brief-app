@@ -394,7 +394,23 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   o postupném zavádění do `why`; tip jen pro vývojáře má „Pro vývojáře:“ v titulku
   u každého nástroje (Copilot, Claude Code), ne jen u `npx`; alias ve slovníčku, který je
   běžné slovo („parametrem“ u volby --settings → „parametry modelu“), odhalí jen simulace —
-  přeformuluj text.
+  přeformuluj text; (36) **tip z banky před použitím ověř proti nejnovějšímu vydání a
+  proti poslední publikaci**: text v bance může nést interní poznámku („z dnešního draftu
+  vypadl…“ u Bionicu 1.1.10 — stejné vydání i zdroj jako tip z 31. 10.) a changelog může mít
+  novější vydání (Claude Code 2.1.323 z 12. 11. nabídl čerstvý tip místo 2.1.319, ze kterého
+  byl tip už den předtím); tip musí projít zkouškou „zkusím hned“ — `why` (v appce „Jak na
+  to“) nese skutečnou cestu z dokumentace výrobce, ne „podrobnosti zdroj neuvádí“ (cron ve
+  VS Code: okno Agents → Automations, Cron, pětipolový výraz — jen z poznámek VS Code
+  a dokumentace, changelog GitHubu cestu neměl), u verze rozšíření řekni, kde ji vidět
+  (Extensions, ne `claude --version`), a u omezení dostupnosti (jen USA, 18+, čekací
+  listina) patří omezení do titulku. Výrok osoby citovaný médiem (Stein: „výchozí v AI
+  Mode“) není „podle Googlu“ z blogu; formulace „podřízenou“ nad rámec zdroje, který pohlaví
+  neuvádí, je nepodložená; rozpor dvou zdrojů (Google × Ars u bezplatných účtů) přiznej
+  slovy „zdroje se liší“. **Radar se ve slovníčku nepodtrhuje** (`RadarSection` nepoužívá
+  `GlossaryText`) — v poznámkách radaru žádný žargon (roadshow, changelog) bez vysvětlení;
+  „(Nasdaq, ANT)“ říká víc než „požádala o kotaci na Nasdaq“. Titulek betové funkce nese
+  „v betě“ a poznámka k jednotlivým úrovním dostupnosti (Team × Enterprise; ZDR, HIPAA
+  a CMEK nejsou podporované) patří do `why`.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

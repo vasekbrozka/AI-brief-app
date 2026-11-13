@@ -135,7 +135,9 @@
         "AI agentům",
         "AI agentech",
         "AI agents",
-        "agents"
+        "agents",
+        "agentovi",
+        "AI agentovi"
       ],
       "short": {
         "cs": "AI, která nejen odpovídá, ale sama plní úkoly — hledá, používá nástroje a dělá kroky za tebe, dokud není hotovo.",
@@ -1157,7 +1159,9 @@
         "sandboxy",
         "sandboxu",
         "sandboxech",
-        "sandboxes"
+        "sandboxes",
+        "sandboxů",
+        "sandboxům"
       ],
       "short": {
         "cs": "Oddělené, hlídané prostředí, ve kterém může program nebo AI agent spouštět kód a pracovat se soubory, aniž by ohrozil zbytek systému. Po práci se obvykle smaže.",

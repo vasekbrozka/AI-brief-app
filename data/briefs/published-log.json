@@ -2333,53 +2333,53 @@
     {
       "slug": "2026-11-13-google-gemini-4-hydrogen-launch",
       "date": "2026-11-13",
-      "topic": "Google 12. 11. (blog modelu a blog Vyhledávání Google, The Verge, Ars Technica, The Next Web): Gemini 4 Hydrogen — rychlý model nahrazující řadu Flash (Gemini 3.8 Flash), podle Googlu 2,5× rychlejší při výchozím nastavení, 51 bodů v indexu Artificial Analysis proti 50 u Argonu (54 při xhigh), čtyři úrovně uvažování (nová xhigh), cena 1,50 / 7,50 USD za milion tokenů v API; ve Vyhledávání globálně a výchozí v AI Mode, AI Studio, Gemini API, Gemini for business, Antigravity (Pro a Ultra); aplikace Gemini: nabídka modelů, bezplatné účty automatickým výběrem, Ars píše, že AI Plus a bezplatné účty mají starší model — highlight"
+      "topic": "Google 12. 11. (blog modelu a blog Vyhledávání Google, The Verge, Ars Technica, The Next Web): Gemini 4 Hydrogen — rychlý model nahrazující řadu Flash (Gemini 3.8 Flash), podle Googlu 2,5× rychlejší při výchozí úrovni uvažování, 51 bodů v indexu Artificial Analysis proti 50 u Argonu (54 při xhigh), čtyři úrovně uvažování (nová xhigh), cena 1,50 / 7,50 USD za milion tokenů v API; ve Vyhledávání globálně (podle Roberta Steina z Googlu přes The Verge výchozí v AI Mode), AI Studio, Gemini API, Gemini for business, Antigravity (Pro a Ultra); aplikace Gemini: nabídka modelů, bezplatné účty automatickým výběrem (Google) × Ars: AI Plus a bezplatné účty mají starší model — zdroje se liší — highlight"
     },
     {
       "slug": "2026-11-13-nvidia-ceo-huang-resigns-kress-interim",
       "date": "2026-11-13",
-      "topic": "Nvidia 12. 11. (tisková zpráva NVIDIA, Wired, TechCrunch): Jensen Huang rezignoval s okamžitou platností na funkce prezidenta, CEO i člena rady; dočasně vede Colette Kress (CFO), prvním předsedou rady Harvey C. Jones, hledá se stálý nástupce; výsledky za 3. čtvrtletí 17. 11. beze změny; podle Wired a TechCrunch souvislost se zprávami o vztazích s údajnou čínskou agentkou (Čína odmítá) a podřízenou, Nvidia důvod neuvedla; navazuje na 2026-11-09 — business"
+      "topic": "Nvidia 12. 11. (tisková zpráva NVIDIA, Wired, TechCrunch): Jensen Huang rezignoval s okamžitou platností na funkce prezidenta, CEO i člena rady; dočasně vede Colette Kress (CFO), prvním předsedou rady Harvey C. Jones, hledá se stálý nástupce; výsledky za 3. čtvrtletí 17. 11. beze změny; Nvidia důvod neuvedla; Wired a TechCrunch spojují odchod s nevěrou, kterou Huang přiznal (e-mail zaměstnancům 8. 11.), a se zprávami médií (NYT, FT) o špionáži (Čína odmítá — Wired) a o vztahu s přímým podřízeným; navazuje na 2026-11-09 — business"
     },
     {
       "slug": "2026-11-13-anthropic-claude-meetings-beta",
       "date": "2026-11-13",
-      "topic": "Anthropic 12. 11. (článek claude.com, poznámky k vydání Claude): Claude Meetings začínají v betě — Claude se připojí k hovoru na Google Meet jako viditelný účastník, zápisy a úkoly, odpovědi písemně, dokumenty a tabule za hovoru; nástroje s povolením člověka; ukládá přepis, souhrn a popisy obrazovky, ne zvuk; Team a Enterprise (Team výchozně, Enterprise zapíná admin); hosté zvenčí výchozně ne; bez ZDR, HIPAA a CMEK; přepisy a odpovědi zdarma, artefakty zdarma do 10. 2. 2027"
+      "topic": "Anthropic 12. 11. (článek claude.com, poznámky k vydání Claude): Claude Meetings začínají v betě — Claude se připojí k hovoru na Google Meet jako viditelný účastník, zápisy a úkoly, odpovědi písemně, dokumenty a tabule za hovoru; nástroje s povolením člověka; ukládá přepis, souhrn a popisy obrazovky, ne zvuk; Team (výchozně, admin vypne) a Enterprise (zapíná admin); hosté zvenčí výchozně ne; ne pro organizace se ZDR, HIPAA a CMEK; přepisy a odpovědi zdarma, artefakty zdarma do 10. 2. 2027"
     },
     {
       "slug": "2026-11-13-meta-muse-phone-calls-businesses",
       "date": "2026-11-13",
-      "topic": "Meta 12. 11. (TechCrunch, Engadget): agent Muse umí volat na firmy v USA (restaurace, úřady, rezervace, schůzky, čekání na lince) — jen placené předplatné (od 20 USD měsíčně), dosud od září vybraní uživatelé; Muse přes 10 milionů uživatelů; firmy často zavěsí na AI, v ukázce se Muse jako AI výslovně nepředstavila; e-mailová adresa Muse brzy i pro bezplatné účty"
+      "topic": "Meta 12. 11. (TechCrunch, Engadget; Wang na X: out now to paid subs in the US): agent Muse umí volat na firmy v USA (restaurace, úřady, rezervace, schůzky, čekání na lince — podle Mety) — jen placené předplatné v USA (od 20 USD měsíčně), dosud od září vybraní uživatelé; Muse přes 10 milionů uživatelů; firmy často zavěsí na AI, v hovoru sdíleném zaměstnancem Mety (Engadget) se Muse jako AI výslovně nepředstavila; e-mailová adresa Muse brzy i pro bezplatné účty"
     },
     {
       "slug": "2026-11-13-google-intelligent-eyewear-preorders",
       "date": "2026-11-13",
-      "topic": "Google 12. 11. (blog Google, Ars Technica): předobjednávky prvních brýlí s Gemini od Warby Parker (od 395 USD, jen USA) a Gentle Monster (od 449 USD, USA a Jižní Korea), do prodeje 10. 12.; bez displeje, 12MP kamera, baterie až 9 h, 41 g; hlas „Hey Gemini“ nebo dotyk; Pixel 7+, Galaxy S/Z s One UI 9+, iPhone 13 Pro+; účet Google z USA nebo Jižní Koreje, 18+; soukromí — kontrolka, zakrytí tváří, žádné živé vysílání"
+      "topic": "Google 12. 11. (blog Google, Ars Technica): předobjednávky brýlí s Gemini od Warby Parker (od 395 USD, jen USA) a Gentle Monster (od 449 USD, USA a Jižní Korea), do prodeje 10. 12.; bez displeje (Ars), 12MP kamera, baterie až 9 h, 41 g; hlas „Hey Gemini“ nebo dotyk; Pixel 7+, Galaxy S/Z s One UI 9+, iPhone 13 Pro+; účet Google z USA nebo Jižní Koreje, 18+; soukromí — kontrolka při natáčení, zakrytí tváří kolemjdoucích před zpracováním Gemini, žádné živé vysílání"
     },
     {
       "slug": "2026-11-13-anthropic-self-hosted-managed-agents",
       "date": "2026-11-13",
-      "topic": "Anthropic 12. 11. (článek claude.com, The Next Web): samostatně hostované Claude Managed Agents v soukromé betě — celá služba (server, databáze, sandboxy, přihlašovací údaje, historie sezení) ve vlastním cloudu či on-premise; požadavky na Claude k Anthropicu, Bedrock, Google Agent Platform, Foundry nebo vlastní bráně; The Next Web: Claude neběží u firmy, správa serveru na firmě, nic se nepřenáší z hostované služby, chybí webhooky a plánované běhy; přístup přes obchodní tým Anthropicu"
+      "topic": "Anthropic 12. 11. (článek claude.com, The Next Web): samostatně hostované Claude Managed Agents v soukromé betě — celá služba (server, databáze, sandboxy, přihlašovací údaje, historie relací) ve vlastním cloudu či on-premise; požadavky na Claude k Anthropicu, Bedrock, Google Agent Platform, Foundry nebo vlastní bráně; The Next Web: Claude neběží u firmy, správa serveru na firmě, nic se nepřenáší z hostované služby, chybí webhooky a plánované běhy; přístup přes obchodní tým Anthropicu"
     },
     {
       "slug": "2026-11-13-tip-google-sheets-canvas-publish-link",
       "date": "2026-11-13",
-      "topic": "tip: Google Tabulky — Sheets canvas lze publikovat jako samostatný odkaz jen pro čtení (Workspace Updates 11. 11.; vlastní nastavení okruhu lidí, průběžné obnovování nebo statický snímek; jen web, plátno s právem úprav; platí nastavení zveřejňování souborů; Business a Enterprise Standard/Plus, AI Pro/Ultra; zavádění od 11. 11. až 15 dní, plánované vydání od 2. 12.) — nový"
+      "topic": "tip: Google Tabulky — Sheets canvas (Gemini z dat dělá miniaplikace) lze publikovat jako samostatný odkaz jen pro čtení (Workspace Updates 11. 11.; vlastní nastavení okruhu lidí, průběžné obnovování nebo statický snímek; jen web, plátno s právem úprav; platí nastavení zveřejňování souborů; Business a Enterprise Standard/Plus, AI Pro/Ultra; zavádění od 11. 11. až 15 dní, plánované vydání od 2. 12.) — nový"
     },
     {
       "slug": "2026-11-13-tip-github-copilot-vscode-local-automations-cron",
       "date": "2026-11-13",
-      "topic": "tip: GitHub Copilot ve VS Code 1.145 — místní automatizace podporují výrazy cron a vlastní agenty z pracovního prostoru (týdenní přehled GitHub 6. 11.; podrobnosti nastavení v úplných poznámkách) — z banky"
+      "topic": "tip: GitHub Copilot ve VS Code 1.145 — místní automatizace podporují výrazy cron a vlastní agenty z pracovního prostoru (týdenní přehled GitHub 6. 11.; postup z poznámek VS Code 1.145 a dokumentace: okno Agents → Automations, místní automatizace s vypnutým Run in the Cloud, Cron = pětipolový výraz, u cloudových automatizací cron není) — z banky, doplněno"
     },
     {
       "slug": "2026-11-13-tip-claude-code-vscode-folder-trust-prompt",
       "date": "2026-11-13",
-      "topic": "tip: Claude Code ve VS Code — vlastní dotaz na důvěru před první relací v nedůvěryhodné složce (od 2.1.323, 12. 11.; po odmítnutí se nepoužijí nastavení složky ani její servery MCP; v nedůvěryhodné složce nastavení repozitáře nevypne hooky ani nezapne či nevypne pluginy) — nový"
+      "topic": "tip: Claude Code ve VS Code — vlastní dotaz na důvěru před první relací v nedůvěryhodné složce (od 2.1.323, 12. 11.; po odmítnutí se nepoužijí nastavení složky ani její servery MCP; v nedůvěryhodné složce nastavení repozitáře nevypne hooky ani nezapne či nevypne pluginy; verze rozšíření = verze Claude Code, vidět v zobrazení Extensions) — nový"
     },
     {
       "slug": "2026-11-13-tip-google-tabletop-labs",
       "date": "2026-11-13",
-      "topic": "tip: Google Labs — Tabletop (11. 11.; sdílené prostory s @tabletop: itinerář, anketa, výdaje, turnajový pavouk; připojení odkazem; zatím USA, 18+, čekací listina labs.google/tabletop; znovu ověřeno 13. 11.) — z banky"
+      "topic": "tip: Google Labs — Tabletop (11. 11.; sdílené prostory s @tabletop: itinerář, anketa, výdaje, turnajový pavouk; připojení odkazem; zatím USA, 18+, čekací listina labs.google/tabletop; The Verge: věkový limit může platit jen během veřejného testování; znovu ověřeno 13. 11.) — z banky"
     }
   ],
-  "updated": "2026-11-13T03:36:37Z"
+  "updated": "2026-11-13T04:05:00Z"
 }

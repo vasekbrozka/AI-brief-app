@@ -4676,8 +4676,8 @@
         "en": "Bionic, an app from LM Studio, made its in-app terminal available in public builds with version 1.1.10 (October 29). It also gained configurable shell profiles, restored sessions that start automatically once selected, screen reader support for terminal output, and fixes for shortcuts and the clipboard."
       },
       "why": {
-        "cs": "Aktualizuj Bionic (aplikaci LM Studia, ne samotné LM Studio) na 1.1.10. Changelog neuvádí, kde se terminál otevírá ani jak se zapíná; hledej ho v aplikaci. Tip z dnešního draftu vypadl po kontrole čtenáři: stejné vydání 1.1.10 už bylo tipem 31. 10. a zdroj neříká, kde terminál najít.",
-        "en": "Update Bionic (an LM Studio app, not LM Studio itself) to 1.1.10. The changelog does not say where the terminal opens or how to turn it on; look for it in the app. Dropped from the draft after review: the same 1.1.10 release was already a tip on October 31 and the source does not say where to find the terminal."
+        "cs": "Aktualizuj Bionic (aplikaci LM Studia, ne samotné LM Studio) na 1.1.10. Changelog neuvádí, kde se terminál otevírá ani jak se zapíná; hledej ho v aplikaci.",
+        "en": "Update Bionic (an LM Studio app, not LM Studio itself) to 1.1.10. The changelog does not say where the terminal opens or how to turn it on; look for it in the app."
       },
       "sources": [
         {
@@ -5432,7 +5432,7 @@
       "verified": true,
       "eventDate": "2026-11-06",
       "title": {
-        "cs": "Pro vývojáře: automatizace Copilotu ve VS Code podle cronu",
+        "cs": "Pro vývojáře: automatizace Copilotu podle rozvrhu (cron)",
         "en": "For developers: VS Code Copilot automations accept cron schedules"
       },
       "summary": {
@@ -5440,13 +5440,21 @@
         "en": "GitHub’s November 6 weekly roundup says local automations for Copilot in VS Code 1.145 now support cron expressions and custom agents from your workspace, so recurring tasks can run on a schedule you choose."
       },
       "why": {
-        "cs": "Ve VS Code založ místní automatizaci a rozvrh zadej výrazem cron. Podrobnosti nastavení přehled neuvádí; hledej je v úplných poznámkách k VS Code 1.145.",
-        "en": "In VS Code, create a local automation and enter its schedule as a cron expression. The roundup gives no setup details; see the full VS Code 1.145 release notes."
+        "cs": "V okně Agents otevři Automations, založ místní automatizaci (Run in the Cloud nech vypnuté) a když předvolby rozvrhu nestačí, zvol Cron a zadej pětipolový výraz. U cloudových automatizací cron nejde.",
+        "en": "In the Agents window open Automations and create a local automation (Run in the Cloud off); if presets are too coarse, select Cron and enter a five-field expression. Not available for cloud automations."
       },
       "sources": [
         {
           "name": "GitHub",
           "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2"
+        },
+        {
+          "name": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/updates/v1_145"
+        },
+        {
+          "name": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/docs/agents/run/automations"
         }
       ],
       "added": "2026-11-09",
@@ -5826,16 +5834,16 @@
       "verified": true,
       "eventDate": "2026-11-11",
       "title": {
-        "cs": "Google Tabletop: sdílený prostor pro plánování ve skupině",
-        "en": "Google Tabletop: a shared AI space for group planning"
+        "cs": "Google Tabletop: AI prostor pro skupinové plánování (jen USA)",
+        "en": "Google Tabletop: shared AI group planning (US only)"
       },
       "summary": {
-        "cs": "Google Labs 11. listopadu spustil experiment Tabletop: po zadání odkazů, souborů a nápadů a pokynu @tabletop vznikne itinerář výletu, anketa o večeři, rozdělování výdajů nebo turnajový pavouk. Ostatní se připojí odkazem a upravují současně jako v Dokumentu. Zatím jen v USA od 18 let přes čekací listinu.",
-        "en": "On November 11, Google Labs launched the Tabletop experiment: add links, files, and ideas, then prompt @tabletop to generate a trip itinerary, dinner poll, expense splitter, or tournament bracket. Others join by link and edit at the same time, as in a Google Doc. For now, US only, 18 and older, via a waitlist."
+        "cs": "Google Labs 11. listopadu spustil experiment Tabletop: podle Googlu po zadání odkazů, souborů a nápadů a pokynu @tabletop vznikne itinerář výletu, anketa o večeři, rozdělování výdajů nebo turnajový pavouk. Ostatní se připojí odkazem a upravují současně jako v Dokumentu. Zatím jen v USA od 18 let přes čekací listinu.",
+        "en": "On November 11, Google Labs launched the Tabletop experiment: per Google, add links, files, and ideas, then prompt @tabletop for a trip itinerary, dinner poll, expense splitter, or tournament bracket. Others join by link and edit at once, as in a Google Doc. For now, US only, 18 and older, via a waitlist."
       },
       "why": {
-        "cs": "Zapsat se jde na labs.google/tabletop; mimo USA a pod 18 let zatím přístup není. Jde o veřejné testování, takže funkce i podmínky se mohou změnit.",
-        "en": "Sign up at labs.google/tabletop; outside the US and under 18 there is no access yet. It is public testing, so features and terms may change."
+        "cs": "Zapsat se jde na labs.google/tabletop; mimo USA a pod 18 let zatím přístup není. Podle The Verge může věkový limit platit jen během veřejného testování.",
+        "en": "Sign up at labs.google/tabletop; outside the US and under 18 there is no access yet. The Verge suggests the age limit may apply only during public testing."
       },
       "sources": [
         {
@@ -5858,16 +5866,16 @@
       "verified": true,
       "eventDate": "2026-11-11",
       "title": {
-        "cs": "Sheets canvas jde publikovat jako samostatný odkaz",
+        "cs": "Sheets canvas půjde publikovat jako samostatný odkaz",
         "en": "Publish a Sheets canvas as its own link"
       },
       "summary": {
-        "cs": "Google 11. listopadu začal zavádět publikování plátna Sheets canvas, interaktivní miniaplikace (třeba přehled, kanban či kalendář) z dat v tabulce, jako samostatného odkazu jen pro čtení. Odkaz má vlastní nastavení okruhu lidí, takže zdrojovou tabulku nemusíš sdílet. Lze zvolit průběžné obnovování, nebo statický snímek dat.",
-        "en": "On November 11, Google began rolling out publishing a Sheets canvas, an interactive mini-app (such as a dashboard or calendar) built from spreadsheet data, as its own read-only link. The link has a separate audience setting, so you need not share the source sheet. You can republish automatically or publish a static view."
+        "cs": "Google 11. listopadu začal zavádět publikování plátna Sheets canvas, v němž Gemini dělá z dat v tabulce interaktivní miniaplikace (třeba přehled, kanban či kalendář), jako samostatného odkazu jen pro čtení. Odkaz má vlastní nastavení okruhu lidí, takže zdrojovou tabulku nemusíš sdílet. Lze zvolit průběžné obnovování, nebo statický snímek dat.",
+        "en": "On November 11, Google began rolling out publishing a Sheets canvas, where Gemini turns spreadsheet data into interactive mini-apps (such as a dashboard or calendar), as its own read-only link. The link has a separate audience setting, so you need not share the source sheet. You can republish automatically or publish a static view."
       },
       "why": {
-        "cs": "Ikona v panelu plátna → Publish canvas; jen na webu a u plátna, které můžeš upravovat; platí stávající nastavení zveřejňování souborů. Mají ho vybrané edice Workspace a Google AI Pro/Ultra; zavádění trvá až 15 dní.",
-        "en": "Toolbar icon → Publish canvas; web only, for canvases you can edit; your existing publish-to-the-web setting applies. Available in select Workspace editions and Google AI Pro/Ultra; rollout takes up to 15 days."
+        "cs": "Ikona v panelu plátna → Publish canvas (jen web, plátno s právem úprav; platí nastavení zveřejňování souborů). Zavádí se od 11. 11., u plánovaného vydání od 2. 12.; vybrané edice Workspace a AI Pro/Ultra.",
+        "en": "Toolbar icon → Publish canvas (web only, canvases you can edit; your publish-to-the-web setting applies). Rolling out from November 11, scheduled-release domains from December 2; select Workspace editions and AI Pro/Ultra."
       },
       "sources": [
         {
@@ -5885,21 +5893,25 @@
       "verified": true,
       "eventDate": "2026-11-12",
       "title": {
-        "cs": "VS Code: Claude Code se ptá, zda složce věříš",
-        "en": "VS Code: Claude Code asks before trusting folders"
+        "cs": "Pro vývojáře: Claude Code se ptá, zda složce věříš",
+        "en": "For developers: Claude Code now asks before trusting folders"
       },
       "summary": {
-        "cs": "Claude Code od verze 2.1.323 (12. listopadu) zobrazí ve VS Code před první relací ve složce, u které důvěra zatím nebyla potvrzena, vlastní dotaz na důvěru. Když odmítneš, Claude Code nastavení té složky ani její servery MCP nepoužije. Nainstalovanou verzi zjistíš příkazem claude --version.",
-        "en": "Claude Code 2.1.323 (November 12) shows its own trust dialog in VS Code before the first session in a folder you have not trusted. If you decline, Claude Code does not use that folder’s settings or MCP servers. Check your installed version with claude --version."
+        "cs": "Claude Code od verze 2.1.323 (12. listopadu) zobrazí ve VS Code před první relací ve složce, u které důvěra zatím nebyla potvrzena, vlastní dotaz na důvěru. Když odmítneš, Claude Code nastavení té složky ani její servery MCP nepoužije. Verzi zjistíš v zobrazení Extensions: číslo verze rozšíření odpovídá verzi Claude Code.",
+        "en": "Claude Code 2.1.323 (November 12) shows its own trust dialog in VS Code before the first session in a folder you have not trusted. If you decline, Claude Code does not use that folder’s settings or MCP servers. Check the version in the Extensions view; it matches the bundled Claude Code version."
       },
       "why": {
-        "cs": "Hodí se při otevírání cizích repozitářů; v nedůvěryhodné složce už podle poznámek nastavení repozitáře nesmí vypnout tvoje hooky ani zapnout či vypnout pluginy.",
-        "en": "Useful when opening unfamiliar repositories; per the release notes, in an untrusted folder the repository’s settings can no longer disable your hooks or turn plugins on or off."
+        "cs": "Aktualizuj rozšíření (Extensions) a složky, které neznáš, nepotvrzuj. Podle poznámek navíc v nedůvěryhodné složce nastavení repozitáře už nevypne tvoje hooky ani nezapne či nevypne pluginy.",
+        "en": "Update the extension; do not confirm trust for folders you do not know. Per the release notes, an untrusted folder’s settings can also no longer disable your hooks or turn plugins on or off."
       },
       "sources": [
         {
           "name": "Anthropic",
           "url": "https://code.claude.com/docs/en/changelog"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/vs-code"
         }
       ],
       "used": "2026-11-13"
