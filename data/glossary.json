@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "terms": [
     {
       "id": "quantization",
@@ -1567,6 +1567,81 @@
       "short": {
         "cs": "Program, který automaticky prochází weby a stahuje jejich obsah, třeba pro vyhledávač nebo k trénování AI. Majitel webu ho může omezit souborem robots.txt.",
         "en": "A program that automatically browses websites and downloads their content, for example for a search engine or to train AI. A site owner can limit it with a robots.txt file."
+      }
+    },
+    {
+      "id": "eval",
+      "term": {
+        "cs": "Eval (vyhodnocení modelu)",
+        "en": "Eval"
+      },
+      "aliases": [
+        "eval",
+        "evalu",
+        "evaly",
+        "evals"
+      ],
+      "short": {
+        "cs": "Sada zadání a kritérií, na které vývojář měří, jak dobře si model nebo AI aplikace vede. Po změně nastavení se výsledky porovnají s předchozími.",
+        "en": "A set of tasks and criteria a developer uses to measure how well a model or AI app performs. After a settings change, results are compared with earlier ones."
+      }
+    },
+    {
+      "id": "on-premise",
+      "term": {
+        "cs": "On-premise (provoz u sebe)",
+        "en": "On-premises (self-hosted)"
+      },
+      "aliases": [
+        "on-premise",
+        "on-premises",
+        "self-hosted",
+        "self-host",
+        "samostatně hostované",
+        "samostatně hostovaných"
+      ],
+      "short": {
+        "cs": "Software běží na vlastních serverech nebo v cloudovém účtu firmy, ne u poskytovatele služby. Firma ovládá svá data, ale sama odpovídá za provoz, aktualizace a zabezpečení.",
+        "en": "Software runs on a company’s own servers or cloud account rather than at the service provider. The company controls its data but is responsible for operation, updates, and security."
+      }
+    },
+    {
+      "id": "cron",
+      "term": {
+        "cs": "Cron (zápis časového rozvrhu)",
+        "en": "Cron expression"
+      },
+      "aliases": [
+        "cron",
+        "cronu",
+        "výraz cron",
+        "výrazy cron",
+        "výrazem cron",
+        "cron expression",
+        "cron expressions",
+        "cron schedules"
+      ],
+      "short": {
+        "cs": "Zkrácený zápis, jak často se má úloha opakovat, v pěti polích: například „0 8 * * 1-5“ je každý všední den v 8:00. Pochází z unixového plánovače cron.",
+        "en": "A compact notation for how often a task repeats, in five fields: for example “0 8 * * 1-5” means weekdays at 8:00. It comes from the Unix cron scheduler."
+      }
+    },
+    {
+      "id": "hook",
+      "term": {
+        "cs": "Hook (automatický háček)",
+        "en": "Hook"
+      },
+      "aliases": [
+        "hook",
+        "hooks",
+        "hooky",
+        "hooků",
+        "hookům"
+      ],
+      "short": {
+        "cs": "Vlastní příkaz nebo skript, který nástroj (třeba Claude Code) spustí sám při určité události, například před úpravou souboru nebo po dokončení úkolu.",
+        "en": "A custom command or script that a tool (such as Claude Code) runs automatically on a certain event, such as before editing a file or after finishing a task."
       }
     }
   ]

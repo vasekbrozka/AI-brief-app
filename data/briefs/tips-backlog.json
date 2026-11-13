@@ -5432,7 +5432,7 @@
       "verified": true,
       "eventDate": "2026-11-06",
       "title": {
-        "cs": "Pro vývojáře: Copilot ve VS Code spouští automatizace podle cronu",
+        "cs": "Pro vývojáře: automatizace Copilotu ve VS Code podle cronu",
         "en": "For developers: VS Code Copilot automations accept cron schedules"
       },
       "summary": {
@@ -5450,7 +5450,7 @@
         }
       ],
       "added": "2026-11-09",
-      "used": null
+      "used": "2026-11-13"
     },
     {
       "slug": "tip-github-copilot-claude-fable-5-2",
@@ -5776,12 +5776,12 @@
         "en": "For developers: Claude Code tunes Claude API latency"
       },
       "summary": {
-        "cs": "Claude Code od verze 2.1.319 (6. listopadu) má příkaz /claude-api latency-optimize: podle poznámek k vydání najde místa, kde kód volající Claude API nechává lidi čekat, a vyzkouší rychlejší nastavení proti tvému evalu. Nainstalovanou verzi zjistíš příkazem claude --version.",
-        "en": "Claude Code 2.1.319 (November 6) adds /claude-api latency-optimize: per the release notes it finds where code calling the Claude API makes people wait and tries faster settings against your eval. Check your installed version with claude --version."
+        "cs": "Claude Code od verze 2.1.319 (6. listopadu) umí ladit rychlost kódu volajícího Claude API: podle poznámek k vydání příkaz /claude-api latency-optimize najde místa, kde tvůj kód nechává lidi čekat, a vyzkouší rychlejší nastavení proti tvému evalu. Nainstalovanou verzi zjistíš příkazem claude --version.",
+        "en": "Claude Code 2.1.319 (November 6) can tune the speed of code that calls the Claude API: per the release notes, /claude-api latency-optimize finds where your code makes people wait and tries faster settings against your eval. Check your installed version with claude --version."
       },
       "why": {
-        "cs": "Pro vývojáře aplikací nad Claude API. Poznámky k vydání neuvádějí, jaká nastavení se zkoušejí ani co eval obnáší; příkaz proto zkus nejdřív na zkušebním projektu.",
-        "en": "For developers building on the Claude API. The release notes do not say which settings are tried or what the eval involves, so try it on a test project first."
+        "cs": "Spusť ho v projektu, který volá Claude API. Poznámky k vydání neuvádějí, jaká nastavení se zkoušejí ani co eval obnáší; zkus ho proto nejdřív na zkušebním projektu.",
+        "en": "Run it in a project that calls the Claude API. The release notes do not say which settings are tried or what the eval involves, so try it on a test project first."
       },
       "sources": [
         {
@@ -5848,6 +5848,87 @@
         }
       ],
       "added": "2026-11-12",
+      "used": "2026-11-13"
+    },
+    {
+      "slug": "tip-google-sheets-canvas-publish-link",
+      "category": "tools",
+      "theme": "gemini",
+      "added": "2026-11-13",
+      "verified": true,
+      "eventDate": "2026-11-11",
+      "title": {
+        "cs": "Sheets canvas jde publikovat jako samostatný odkaz",
+        "en": "Publish a Sheets canvas as its own link"
+      },
+      "summary": {
+        "cs": "Google 11. listopadu začal zavádět publikování plátna Sheets canvas, interaktivní miniaplikace (třeba přehled, kanban či kalendář) z dat v tabulce, jako samostatného odkazu jen pro čtení. Odkaz má vlastní nastavení okruhu lidí, takže zdrojovou tabulku nemusíš sdílet. Lze zvolit průběžné obnovování, nebo statický snímek dat.",
+        "en": "On November 11, Google began rolling out publishing a Sheets canvas, an interactive mini-app (such as a dashboard or calendar) built from spreadsheet data, as its own read-only link. The link has a separate audience setting, so you need not share the source sheet. You can republish automatically or publish a static view."
+      },
+      "why": {
+        "cs": "Ikona v panelu plátna → Publish canvas; jen na webu a u plátna, které můžeš upravovat; platí stávající nastavení zveřejňování souborů. Mají ho vybrané edice Workspace a Google AI Pro/Ultra; zavádění trvá až 15 dní.",
+        "en": "Toolbar icon → Publish canvas; web only, for canvases you can edit; your existing publish-to-the-web setting applies. Available in select Workspace editions and Google AI Pro/Ultra; rollout takes up to 15 days."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/publish-sheets-canvas-as-standalone-link.html"
+        }
+      ],
+      "used": "2026-11-13"
+    },
+    {
+      "slug": "tip-claude-code-vscode-folder-trust-prompt",
+      "category": "tools",
+      "theme": "claude",
+      "added": "2026-11-13",
+      "verified": true,
+      "eventDate": "2026-11-12",
+      "title": {
+        "cs": "VS Code: Claude Code se ptá, zda složce věříš",
+        "en": "VS Code: Claude Code asks before trusting folders"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.323 (12. listopadu) zobrazí ve VS Code před první relací ve složce, u které důvěra zatím nebyla potvrzena, vlastní dotaz na důvěru. Když odmítneš, Claude Code nastavení té složky ani její servery MCP nepoužije. Nainstalovanou verzi zjistíš příkazem claude --version.",
+        "en": "Claude Code 2.1.323 (November 12) shows its own trust dialog in VS Code before the first session in a folder you have not trusted. If you decline, Claude Code does not use that folder’s settings or MCP servers. Check your installed version with claude --version."
+      },
+      "why": {
+        "cs": "Hodí se při otevírání cizích repozitářů; v nedůvěryhodné složce už podle poznámek nastavení repozitáře nesmí vypnout tvoje hooky ani zapnout či vypnout pluginy.",
+        "en": "Useful when opening unfamiliar repositories; per the release notes, in an untrusted folder the repository’s settings can no longer disable your hooks or turn plugins on or off."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "used": "2026-11-13"
+    },
+    {
+      "slug": "tip-antigravity-orchestrator-carbon-hydrogen",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-12",
+      "title": {
+        "cs": "Pro vývojáře: Orchestrator v Antigravity střídá Carbon a Hydrogen",
+        "en": "For developers: Antigravity Orchestrator switches between Carbon and Hydrogen"
+      },
+      "summary": {
+        "cs": "Google 12. listopadu přidal do Antigravity volbu modelu Orchestrator: v jednom zadání střídá silnější model (Carbon či Argon), který plánuje, s rychlým Hydrogenem, který píše úpravy a spouští testy. Podle vlastního měření Googlu na Terminal-Bench dosáhl výsledku blízkého Carbonu s o 24 % nižší spotřebou kvóty a o 19 % rychleji.",
+        "en": "On November 12, Google added an Orchestrator model option to Antigravity: within one task it alternates a stronger model (Carbon or Argon) that plans with the fast Hydrogen that writes edits and runs tests. In Google’s own Terminal-Bench measurement it came near Carbon’s results with 24% less quota use and 19% faster runs."
+      },
+      "why": {
+        "cs": "V Antigravity zvol Orchestrator v nabídce modelů: (Carbon) mají předplatitelé Ultra, (Argon) i placené Pro; firmy ho mají v Gemini for business. Čísla jsou měření Googlu.",
+        "en": "In Antigravity pick Orchestrator in the model selector: (Carbon) is for Ultra subscribers, (Argon) also for paid Pro; businesses get it in Gemini for business. The numbers are Google’s own."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+        }
+      ],
+      "added": "2026-11-13",
       "used": null
     }
   ]

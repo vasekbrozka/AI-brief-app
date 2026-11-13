@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-12T03:59:54Z",
+  "updated": "2026-11-13T03:36:37Z",
   "briefs": [
+    {
+      "date": "2026-11-13",
+      "headline": {
+        "cs": "Google uvedl rychlý model Gemini 4 Hydrogen",
+        "en": "Google launches the fast Gemini 4 Hydrogen model"
+      },
+      "itemCount": 10
+    },
     {
       "date": "2026-11-12",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Tržiště Cursoru: podvržené rozšíření Claude Code se zadními vrátky",
         "en": "Cursor’s marketplace served a backdoored Claude Code extension"
-      },
-      "itemCount": 11
-    },
-    {
-      "date": "2026-10-30",
-      "headline": {
-        "cs": "Mistral zveřejnil ke stažení model Mistral Large 4",
-        "en": "Mistral releases open weights of Mistral Large 4"
       },
       "itemCount": 11
     }
