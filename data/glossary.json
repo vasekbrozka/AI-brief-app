@@ -1164,8 +1164,8 @@
         "sandboxům"
       ],
       "short": {
-        "cs": "Oddělené, hlídané prostředí, ve kterém může program nebo AI agent spouštět kód a pracovat se soubory, aniž by ohrozil zbytek systému. Po práci se obvykle smaže.",
-        "en": "An isolated, controlled environment where a program or AI agent can run code and handle files without endangering the rest of the system. It is usually wiped afterwards."
+        "cs": "Oddělené, hlídané prostředí, ve kterém program nebo AI agent spouští kód a pracuje se soubory, aniž by ohrozil zbytek systému; omezuje přístup k souborům a síti. Cloudová se po práci obvykle smaže.",
+        "en": "An isolated, controlled environment where a program or AI agent runs code and handles files without endangering the rest of the system, limiting access to files and network. Cloud ones are usually wiped afterwards."
       }
     },
     {
@@ -1248,8 +1248,8 @@
         "Plaid"
       ],
       "short": {
-        "cs": "Služba, která propojuje aplikace s bankovními účty. K bance se přihlásíš sám přes Plaid, takže aplikace tvoje bankovní heslo nevidí a dostane jen přístup, který schválíš.",
-        "en": "A service that connects apps to bank accounts. You sign in to your bank yourself through Plaid, so the app never sees your banking password and gets only the access you approve."
+        "cs": "Služba, která propojuje aplikace s bankovními účty a kartami; přes ni aplikace získá přístup k údajům z banky.",
+        "en": "A service that connects apps to bank accounts and cards; through it an app gets access to data from the bank."
       }
     },
     {

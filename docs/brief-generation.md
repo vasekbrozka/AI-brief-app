@@ -410,7 +410,20 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   `GlossaryText`) — v poznámkách radaru žádný žargon (roadshow, changelog) bez vysvětlení;
   „(Nasdaq, ANT)“ říká víc než „požádala o kotaci na Nasdaq“. Titulek betové funkce nese
   „v betě“ a poznámka k jednotlivým úrovním dostupnosti (Team × Enterprise; ZDR, HIPAA
-  a CMEK nejsou podporované) patří do `why`.
+  a CMEK nejsou podporované) patří do `why`; (37) **po výměně zdrojů u radaru ověř, že
+  každý údaj v titulku i poznámce má oporu ve zbylých zdrojích** („19. nebo 20.“ nesl jen
+  WSJ přes Verge; The Next Web uvádí jen 19. 11.) a „oficiálně neuvádí“ napiš jen tam, kde
+  jsi stránku pořadatele opravdu otevřel; **dostupnost tipu musí mít oporu v citovaných
+  URL** (stránku s přístupem — learn.chatgpt.com/codex/dots: Pro mimo EHP, UK a Švýcarsko,
+  Business Premium podle regionu a firmy — přidej do `sources`; EHP znamená i Česko, větu
+  piš z pohledu čtenáře); **definici ve slovníčku čti i v novém kontextu** (sandbox „po
+  práci se smaže“ neplatí pro hranici kolem příkazů Claude Code, u Plaidu „heslo nevidí“
+  žádný zdroj netvrdí) a oprav ji; **míra „vhodných odpovědí“ je podíl rozhovorů, ne
+  odpovědí**, a číslo z jiného testu (98 % × 94 % u Opusu 5 a 5.5: romantické podvody, ne
+  sebepoškozování) pojmenuj, ať se dvě „94 %“ nesplynou; **čas dne ze zdrojů v různých
+  pásmech** (Wired po 12:00 ET, TechRadar 12:30, NBC 12:50) nepřepočítávej na minuty;
+  **radar smí zdvojit zprávu**, když zpráva vypadne z indexu dřív než termín (konec
+  modelů v Copilotu 14. 12.) — do deníku napiš proč.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

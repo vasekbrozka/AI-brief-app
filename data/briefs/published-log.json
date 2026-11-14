@@ -2368,58 +2368,58 @@
     {
       "slug": "2026-11-14-openai-chatgpt-wallet-launch",
       "date": "2026-11-14",
-      "topic": "OpenAI 13. 11. (RSS OpenAI, The Verge, The Next Web; TechCrunch, Engadget, 9to5Mac při průzkumu): ChatGPT Wallet — agenti dots nakupují po schválení (Face ID či otisk prstu, záznam o souhlasu), platí se náhradním číslem karty (platební token), skutečné údaje nevidí agent ani obchod; zatím omezeně jen ChatGPT Pro v USA, 18+, karty vydané v USA (Amex, Chase, Mastercard, Visa); OpenAI upozorňuje, že weby a protipodvodové systémy mohou nákupy agentů blokovat (Amazon agenty blokuje, United Airlines je chce blokovat — The Next Web podle CNBC); provizi zatím neúčtuje (CNBC); později limity útrat a předschválení; Commerce Partner Playbook pro obchodníky — highlight"
+      "topic": "OpenAI 13. 11. (RSS OpenAI, The Verge, The Next Web; TechCrunch, Engadget, 9to5Mac při průzkumu): ChatGPT Wallet — agenti dots nakupují po schválení (Face ID či otisk prstu, záznam o souhlasu), podle OpenAI se platí náhradním číslem karty (platební token), skutečné údaje nevidí agent ani obchod; zatím omezeně jen ChatGPT Pro v USA, 18+, karty vydané v USA (Amex, Chase, Mastercard, Visa), v Česku ne; OpenAI upozorňuje, že weby a protipodvodové systémy mohou nákupy agentů blokovat (Amazon agenty nenechá nakupovat, United Airlines je chce blokovat — The Next Web podle CNBC); provizi zatím neúčtuje (CNBC přes The Next Web a Engadget; v textu nepoužito); později limity útrat a předschválení; Commerce Partner Playbook pro obchodníky — highlight"
     },
     {
       "slug": "2026-11-14-google-gemini-google-wallet-connection",
       "date": "2026-11-14",
-      "topic": "Google 13. 11. (blog Google, The Next Web, Engadget; 9to5Google při průzkumu): Gemini + Google Wallet — všichni uživatelé aplikace Gemini v USA (Android, iOS, web) přes Personal Intelligence, @Google Wallet; volitelně Plaid (bankovní účty a karty); jen čtení, nemůže peníze přesouvat ani investovat; jde vypnout; podle The Next Web Google netrénuje přímo na datech z Wallet, ale nápověda uvádí trénink na souhrnech transakcí při zapnuté aktivitě Gemini (a část konverzací čtou lidé); souběžně Memory Summary (podle TNW mimo Evropu a UK)"
+      "topic": "Google 13. 11. (blog Google, nápověda Googlu support.google.com/gemini/answer/16836988, The Next Web; Engadget a 9to5Google při průzkumu): Gemini + Google Wallet — všichni uživatelé aplikace Gemini v USA (Android, iOS, web) přes Personal Intelligence, @Google Wallet; podle Googlu odpovídá na dotazy o útratách, najde opakované platby a upozorní na zdražení, navrhne rozpočet; volitelně Plaid (bankovní účty a karty); jen čtení, nemůže peníze přesouvat ani investovat; jde vypnout; nápověda Googlu: Gemini netrénuje přímo na datech z Wallet, ale aktivita v aplikaci Gemini včetně dat z připojených aplikací slouží k trénování při zapnutém Keep Activity a část dat prohlíží lidé; souběžně Memory Summary (podle TNW mimo Evropu a UK)"
     },
     {
       "slug": "2026-11-14-microsoft-365-outage-november-12",
       "date": "2026-11-14",
-      "topic": "Microsoft 12. 11. kolem 12:30–12:50 ET (≈18:30 našeho času) až 13. 11. (Wired, NBC News, TechRadar; Deadline při průzkumu): celosvětový výpadek Microsoft 365 (Exchange Online/Outlook, Teams, Copilot, SharePoint, Planner, To Do, Windows 365 aj.), víc než 70 zemí (Wired), kolem 120 000 hlášení na Downdetector (TechRadar); Microsoft: nešlo o kyberútok ani AI/agenty, problém z dřívějšího navyšování síťové kapacity po nedávné změně sítě; postupná obnova 13. 11., fronta e-mailů prodloužena na 48 h (Wired); úplná zpráva o příčině bez termínu; The Register později v titulku uvedl přes 27 hodin (jen titulek)"
+      "topic": "Microsoft od 12. 11. (odpoledne amerického času, v Evropě večer) do 13. 11. (Wired, NBC News, TechRadar; Deadline při průzkumu): výpadek Microsoft 365 (Exchange Online/Outlook, Teams, Copilot, SharePoint, Planner, To Do, Windows 365 aj.), víc než 70 zemí (Wired; TechRadar aspoň 74), kolem 120 000 hlášení na Downdetector (TechRadar); Microsoft předběžně: nešlo o kyberútok ani AI/agenty, problém z dřívějšího navyšování síťové kapacity po nedávné změně sítě (Wired: úplná příčina neznámá); postupná obnova 13. 11., Microsoft ani večer 13. 11. neuvedl termín úplné obnovy (Deadline, The Register), fronta e-mailů prodloužena na 48 h (Wired); úplná zpráva o příčině bez termínu; The Register později v titulku uvedl přes 27 hodin (jen titulek)"
     },
     {
       "slug": "2026-11-14-anthropic-safety-evals-guide",
       "date": "2026-11-14",
-      "topic": "Anthropic 13. 11. (anthropic.com/research Building strong safety evaluations; The Next Web): příručka ke stavbě testů bezpečnosti — Claude Fable 5.1 v testu rozhovorů o sebepoškozování 60 % vhodných odpovědí přes API vs 94 % v claude.ai s doplněnou systémovou instrukcí (rozdíl u vícekolových testů až 34 b.); jednokolové testy nasycené 94–98 % u všech nedávných modelů; Opus 5 vs 5.5 98 % vs 94 % (romantické podvody) statisticky nevýznamné; rady: určit konstrukt předem, ověřit hodnotitele proti lidem, uvádět nejistotu (intervaly spolehlivosti u API přes ±10 b.), aspoň 100 případů u vícekolových a 1 000 u jednokolových testů, testy v sandboxu bez internetu"
+      "topic": "Anthropic 13. 11. (anthropic.com/research Building strong safety evaluations — datum na stránce 13. 11.; The Next Web píše o čtvrtku): příručka k testům bezpečnosti — Claude Fable 5.1 v testu rozhovorů o sebepoškozování se choval vhodně po celou dobu v 60 % rozhovorů přes API vs 94 % v claude.ai s upravenými skrytými instrukcemi (system prompt; rozdíl u vícekolových testů až 34 b.); jednokolové testy nasycené 94–98 % u všech nedávných modelů; Opus 5 vs 5.5 98 % vs 94 % (test romantických podvodů na claude.ai) rozdíl příliš malý, statisticky nevýznamný; rady: určit konstrukt předem, ověřit hodnotitele proti lidem, uvádět nejistotu (intervaly spolehlivosti u API přes ±10 b.), aspoň 100 případů u vícekolových a 1 000 u jednokolových testů, testy v sandboxu bez internetu"
     },
     {
       "slug": "2026-11-14-llama-cpp-v1-0-0",
       "date": "2026-11-14",
-      "topic": "llama.cpp a ggml 13. 11. (blog Hugging Face, tým ggml-org): verze 1.0.0 knihoven libllama a libggml; sémantické verzování — MAJOR = nekompatibilní změna veřejného C API v ./include, MINOR = funkce, backendy, podpora modelů, PATCH = opravy; přes 150 variant architektur; distribuce (Homebrew, Winget, Docker, Debian, conda-forge, MacPorts, XCFramework); CI přes HF Buckets a Jobs, podpora hardwaru NVIDIA/AMD/Qualcomm/Arm/IBM/Intel; zmínka o desktopových aplikacích Llama pro macOS a Windows"
+      "topic": "llama.cpp a ggml 13. 11. (blog Hugging Face, tým ggml-org): verze 1.0.0 knihoven libllama a libggml, přísnější hlášení nekompatibilních změn; sémantické verzování — MAJOR = nekompatibilní změna veřejného C API v ./include, MINOR = funkce, backendy, podpora modelů, PATCH = opravy; přes 150 variant architektur; distribuce (Homebrew, Winget, Docker, Debian, conda-forge, MacPorts, XCFramework); CI přes HF Buckets a Jobs, podpora hardwaru NVIDIA/AMD/Qualcomm/Arm/IBM/Intel; zmínka o desktopových aplikacích Llama pro macOS a Windows od týmu llama.cpp a Hugging Face (bez odkazu)"
     },
     {
       "slug": "2026-11-14-unemployment-labs-blackwell-chinese-models",
       "date": "2026-11-14",
-      "topic": "Unemployment Labs 12. 11. (zpráva Willa DePue; TechCrunch a The Register 13. 11.): analýza zveřejněných vah modelů DeepSeek, Moonshot AI (Kimi K3), MiniMax a Ant Group — šest modelů od dubna 2026 (DeepSeek-V4-Pro a V4-Flash, Kimi K3 a K3.1-Pro, MiniMax-M3, Ling-3.1-flash) nese otisk Blackwell, starší Hopper; V4-Flash a K3 ověřeno i na fyzických čipech; zpráva sama: neprokazuje umístění čipů, způsob získání ani porušení kontrol; TechCrunch: čipy mohly být v zahraničním datacentru (Malajsie); Alibaba, Zhipu, Tencent, Xiaomi, StepFun stále Hopper; autor tvrdí potvrzení od výzkumníků (Register), nezávislé veřejné ověření nenalezeno; kontext odchod Jensena Huanga 12. 11. (2026-11-13)"
+      "topic": "Unemployment Labs 12. 11. (zpráva Willa DePue, unemploymentlabs.com/checkpoint-forensics; TechCrunch a The Register 13. 11.): analýza zveřejněných vah modelů DeepSeek, Moonshot AI (Kimi K3), MiniMax a Ant Group — šest modelů od dubna 2026 (DeepSeek-V4-Pro a V4-Flash, Kimi K3 a K3.1-Pro, MiniMax-M3, Ling-3.1-flash) nese otisk Blackwell, starší Hopper; V4-Flash a K3 ověřeno i na fyzických čipech; zpráva sama: neprokazuje umístění čipů, způsob získání ani porušení kontrol, trénink na Blackwellu jen podporuje; kód ke zopakování zveřejněn (github.com/macrogrants/checkpoint-forensics); autor tvrdí potvrzení od nejmenovaných odborníků (Register), nezávislé veřejné zopakování nenalezeno; TechCrunch: čipy mohly být v zahraničním datacentru; Alibaba, Zhipu, Tencent, Xiaomi, StepFun se čtou jako Hopper; kontext odchod Jensena Huanga 12. 11. (2026-11-13)"
     },
     {
       "slug": "2026-11-14-github-copilot-model-deprecations-december",
       "date": "2026-11-14",
-      "topic": "GitHub 13. 11. (changelog): 14. 12. 2026 končí ve všech částech Copilotu Claude Fable 5 (→ Fable 5.2), Claude Haiku 4.5 (→ Haiku 5.5; zůstává ročním individuálním předplatitelům), Gemini 3.8 Flash (→ Gemini 4 Hydrogen), Gemini 4 Argon (→ Gemini 4 Carbon), Grok 4.6 (→ Grok 4.7), Kimi K3 (náhrada neoznámena); Business a Enterprise: náhrady se zapnou samy, pokud správce nevypnul výchozí povolení; téhož dne GitHub oznámil Gemini 4 Hydrogen v Copilotu plně dostupný (Pro, Pro+, Max, Business, Enterprise)"
+      "topic": "GitHub 13. 11. (changelog): 14. 12. 2026 končí ve všech částech GitHub Copilotu Claude Fable 5 (→ Fable 5.2), Claude Haiku 4.5 (→ Haiku 5.5; zůstává ročním individuálním předplatitelům), Gemini 3.8 Flash (→ Gemini 4 Hydrogen), Gemini 4 Argon (→ Gemini 4 Carbon), Grok 4.6 (→ Grok 4.7), Kimi K3 (náhrada neoznámena); Business a Enterprise: náhrady se zapnou samy, pokud správce nevypnul výchozí povolení; téhož dne GitHub oznámil Gemini 4 Hydrogen v Copilotu plně dostupný (Pro, Pro+, Max, Business, Enterprise); na radaru i jako termín 14. 12. (zpráva zmizí z indexu dřív)"
     },
     {
       "slug": "2026-11-14-tip-claude-code-sandbox-permission-flow",
       "date": "2026-11-14",
-      "topic": "tip: Claude Code 2.1.325 (13. 11.) — příkazy Bash v sandboxu jdou standardně přes běžné schvalování; původní chování vrací sandbox.autoAllowBashIfSandboxed: true (u managed settings v nejvýše postaveném zdroji) nebo /sandbox → Mode → auto-allow; i v auto-allow se ptá rm na kritických cestách a obsahová pravidla ask (Bash(git push *)); dokumentace code.claude.com/docs/en/sandboxing — nový"
+      "topic": "tip: Claude Code 2.1.325 (13. 11.) — příkazy v sandboxu (zapnutém; macOS, Linux, WSL2) jdou standardně přes běžné schvalování; původní chování vrací sandbox.autoAllowBashIfSandboxed: true (u managed settings v nejvýše postaveném zdroji) nebo /sandbox → Mode → auto-allow; i v auto-allow se ptá rm na kritických cestách a obsahová pravidla ask (Bash(git push *)); dokumentace code.claude.com/docs/en/sandboxing — nový"
     },
     {
       "slug": "2026-11-14-tip-google-ai-studio-cloud-credits",
       "date": "2026-11-14",
-      "topic": "tip: Google AI Studio — vyzvednutí měsíčních kreditů Google Cloud pro Google AI Pro a Ultra přímo v AI Studiu (blog Google 13. 11.; profil Google Developer Program se vytvoří při uplatnění, fakturace Cloud, předplacený zůstatek aspoň 5 USD pro Gemini API, platnost 12 měsíců, sčítání, jen hlavní předplatitel, výše podle tarifu) — nový"
+      "topic": "tip: Google AI Studio — vyzvednutí měsíčních kreditů Google Cloud pro Google AI Pro a Ultra přímo v AI Studiu (blog Google 13. 11.; profil Google Developer Program se vytvoří při uplatnění, fakturace Cloud, předplacený zůstatek aspoň 5 USD, aby šly kredity čerpat, platnost 12 měsíců, sčítání, jen hlavní předplatitel, výše podle tarifu; nevyzvednuté kredity v levém menu, zůstatek na aistudio.google.com/billing) — nový"
     },
     {
       "slug": "2026-11-14-tip-copilot-cowork-local-edge",
       "date": "2026-11-14",
-      "topic": "tip: Copilot Cowork — práce v místním Microsoft Edge (poznámky k vydání Microsoft 365 Copilot, úsek z 4. 11. = změny 28. 10.–3. 11.; web; prochází stránky, sbírá informace, vyplňuje formuláře, i na přihlášených webech; přihlašovací údaje a cookies zůstávají na zařízení; u důležitých kroků čeká na vstup či schválení; licence v poznámkách neuvedena) — nový"
+      "topic": "tip: Copilot Cowork — práce v místním Microsoft Edge (poznámky k vydání Microsoft 365 Copilot, úsek z 4. 11. = změny 28. 10.–3. 11.; web, zavádí se postupně; prochází stránky, sbírá informace, vyplňuje formuláře, i na přihlášených webech; přihlašovací údaje a cookies zůstávají na zařízení; podle poznámek žádá o vstup či schválení; licence v poznámkách neuvedena) — nový"
     },
     {
       "slug": "2026-11-14-tip-chatgpt-dot-custom-instructions",
       "date": "2026-11-14",
-      "topic": "tip: ChatGPT dots — vlastní pokyny pro dota (týdenní přehled OpenAI 9.–13. 11.; dokumentace dots/controls: říct v konverzaci, nebo na mobilu Customize → Behavior → How [dot] handles tasks; oddělené od obecných vlastních pokynů ChatGPT; dostupnost: Pro 100/200/500 mimo EHP, UK a Švýcarsko, Business Premium, Enterprise/Edu/Healthcare — od 18. 11. standardně zapnuto, pokud se firma neodhlásí) — nový"
+      "topic": "tip: ChatGPT dots — vlastní pokyny pro dota (týdenní přehled OpenAI 9.–13. 11.; dokumentace dots/controls: říct v konverzaci, nebo na mobilu Customize → Behavior → How [dot] handles tasks, když Behavior appka nabízí; oddělené od obecných vlastních pokynů ChatGPT; dostupnost podle learn.chatgpt.com/codex/dots: Pro 100/200/500 18+ mimo EHP, UK a Švýcarsko, Business Premium v podporovaných regionech podle firmy, Enterprise/Edu/Healthcare — od 18. 11. standardně zapnuto, pokud se firma neodhlásí; zavádí se postupně) — nový"
     }
   ],
-  "updated": "2026-11-14T03:31:30Z"
+  "updated": "2026-11-14T03:53:16Z"
 }
