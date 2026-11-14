@@ -5942,6 +5942,176 @@
       ],
       "added": "2026-11-13",
       "used": null
+    },
+    {
+      "slug": "tip-claude-code-sandbox-permission-flow",
+      "category": "tools",
+      "theme": "claude",
+      "added": "2026-11-14",
+      "verified": true,
+      "eventDate": "2026-11-13",
+      "title": {
+        "cs": "Claude Code: příkazy v sandboxu se už samy neschvalují",
+        "en": "Claude Code: sandboxed commands no longer auto-approve"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.325 (13. listopadu) vede příkazy Bash běžící v sandboxu běžným schvalováním oprávnění, místo aby je pouštěl bez dotazu. Původní chování vrátíš v nastavení řádkem sandbox.autoAllowBashIfSandboxed: true, nebo v panelu /sandbox na kartě Mode volbou auto-allow. Verzi zjistíš příkazem claude --version.",
+        "en": "From version 2.1.325 (November 13), Claude Code runs Bash commands inside the sandbox through the normal permission flow instead of without asking. To restore the earlier behavior, set sandbox.autoAllowBashIfSandboxed: true in settings, or choose auto-allow on the Mode tab of the /sandbox panel. Check your version with claude --version."
+      },
+      "why": {
+        "cs": "Auto-allow je pohodlnější, ale příkazy měnící soubory uvnitř sandboxu pak běží bez dotazu. I tak se potvrzuje rm na kritických cestách a pravidla ask pro konkrétní příkazy.",
+        "en": "Auto-allow is more convenient, but commands that change files inside the sandbox then run without asking. Even so, rm on critical paths and ask rules aimed at specific commands still need your confirmation."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/sandboxing"
+        }
+      ],
+      "used": "2026-11-14"
+    },
+    {
+      "slug": "tip-google-ai-studio-cloud-credits",
+      "category": "tools",
+      "theme": "gemini",
+      "added": "2026-11-14",
+      "verified": true,
+      "eventDate": "2026-11-13",
+      "title": {
+        "cs": "Google AI Pro/Ultra: kredity pro API v AI Studiu",
+        "en": "Google AI Pro/Ultra: claim API credits in AI Studio"
+      },
+      "summary": {
+        "cs": "Google 13. listopadu přidal do AI Studia vyzvedávání měsíčních kreditů Google Cloud. Předplatitelé Google AI Pro a Ultra tam vytvoří profil Google Developer Program, připojí fakturaci a kredity použijí na Gemini API. Každá měsíční dávka platí 12 měsíců a nevyčerpané se sčítají.",
+        "en": "On November 13, Google added claiming of monthly Google Cloud credits to AI Studio. Google AI Pro and Ultra subscribers can create a Google Developer Program profile there, link billing, and apply the credits to the Gemini API. Each monthly grant is valid for 12 months and unused grants stack."
+      },
+      "why": {
+        "cs": "Na Gemini API s fakturací přes Cloud je potřeba předplacený zůstatek aspoň 5 USD. Kredity smí používat jen hlavní předplatitel a jejich výši určuje tarif.",
+        "en": "Using the Gemini API with Cloud billing needs a prepaid balance of at least $5. Only the primary subscriber can use the credits, and the amount depends on the plan tier."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/"
+        }
+      ],
+      "used": "2026-11-14"
+    },
+    {
+      "slug": "tip-copilot-cowork-local-edge",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-11-14",
+      "verified": true,
+      "eventDate": "2026-11-04",
+      "title": {
+        "cs": "Copilot Cowork zvládne webové kroky v tvém Edgi",
+        "en": "Copilot Cowork can run web steps in your Edge"
+      },
+      "summary": {
+        "cs": "Podle poznámek k vydání Microsoft 365 Copilot (změny z 28. 10.–3. 11.) umí Copilot Cowork použít Edge na tvém počítači: prochází stránky, sbírá informace a vyplňuje formuláře, i na webech s tvým přihlášením. Průběh sleduješ v konverzaci a přihlašovací údaje i cookies zůstávají na zařízení.",
+        "en": "Per the Microsoft 365 Copilot release notes (changes from October 28 to November 3), Copilot Cowork can use Microsoft Edge on your computer: it navigates pages, gathers information, and fills in forms, including on sites where you are signed in. You follow progress in the conversation, and credentials and cookies stay on your device."
+      },
+      "why": {
+        "cs": "Otevři Copilot Cowork na webu v Edgi a zadej úkol, který potřebuje prohlížeč; u důležitých kroků čeká na tvůj vstup nebo schválení. Poznámky licenci neuvádějí; ověř ji u správce.",
+        "en": "Open Copilot Cowork on the web in Edge and give it a browser task; on important steps it waits for your input or approval. The notes state no licensing, so ask your admin."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "used": "2026-11-14"
+    },
+    {
+      "slug": "tip-chatgpt-dot-custom-instructions",
+      "category": "tools",
+      "theme": "chatgpt",
+      "added": "2026-11-14",
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "Dot v ChatGPT: vlastní pokyny k práci",
+        "en": "ChatGPT dots: set custom instructions for your dot"
+      },
+      "summary": {
+        "cs": "OpenAI v týdnu 9.–13. listopadu přidala dotům v ChatGPT vlastní pokyny: dotovi řekneš, jak má psát, jak často se hlásit nebo kdy se má před akcí zeptat. Pokyn lze zadat v konverzaci a později nechat upravit. Pokyny dota jsou oddělené od obecných vlastních pokynů ChatGPT.",
+        "en": "During November 9–13, OpenAI added custom instructions for dots in ChatGPT: you tell your dot how to write, how often to check in, or when to ask before acting. You can set one in conversation and ask your dot to update it later. They are separate from your general ChatGPT custom instructions."
+      },
+      "why": {
+        "cs": "V mobilní appce: postranní panel › Customize › Behavior, vyber dota, pokyny ulož. Dots nemají v EHP osobní tarify Pro; Business Premium a Enterprise ano (u Enterprise se od 18. 11. zapínají samy).",
+        "en": "On mobile: sidebar › Customize › Behavior, pick your dot, save. No dots on personal Pro plans in the EEA; Business Premium and Enterprise have them (default-on for Enterprise from November 18)."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/docs/whats-new"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/codex/dots/controls"
+        }
+      ],
+      "used": "2026-11-14"
+    },
+    {
+      "slug": "tip-workspace-studio-wait-until",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "Workspace Studio: krok Wait until pozdrží automatizaci",
+        "en": "Workspace Studio: the Wait until step pauses a flow"
+      },
+      "summary": {
+        "cs": "Google ve Workspace Studiu zavedl krok Wait until: automatizaci lze kdekoli pozastavit, i uvnitř větvení a smyček, a nechat ji pokračovat v zadaný den a čas nebo po zvolené době až do 14 dnů. Zavádění začalo 9. listopadu.",
+        "en": "Google introduced a Wait until step in Workspace Studio: a flow can be paused anywhere, even inside branches and loops, and resumed on a set day and time or after a chosen duration of up to 14 days. Rollout began on November 9."
+      },
+      "why": {
+        "cs": "Ve Studiu přidej do postupu krok Wait until a zvol režim; průběh vidíš na kartě Activity. Platí pro Business Starter/Standard/Plus, Enterprise Standard/Plus a Education; správce ho nevypne.",
+        "en": "In Studio add a Wait until step to a flow and pick a mode; progress shows on the Activity tab. It covers Business Starter/Standard/Plus, Enterprise Standard/Plus, and Education; admins cannot turn it off."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/pause-and-schedule-automated-workflows-with-the-new-Wait-until-step-in-Workspace-Studio.html"
+        }
+      ],
+      "added": "2026-11-14",
+      "used": null
+    },
+    {
+      "slug": "tip-claude-code-scheduled-tasks-skill-ask",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-11-13",
+      "title": {
+        "cs": "Claude Code: naplánované úlohy se ptají před spuštěním skillu",
+        "en": "Claude Code: scheduled tasks ask before running some skills"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.325 (13. listopadu) se u naplánovaných úloh a příkazu /loop zeptá před spuštěním skillu, který deklaruje allowed-tools nebo hooky. Aby skill běžel bez dozoru, přidej Skill(název) do permissions.allow. Verzi zjistíš příkazem claude --version.",
+        "en": "From version 2.1.325 (November 13), Claude Code asks before a scheduled task or /loop runs a skill that declares allowed-tools or hooks. To let the skill run unattended, add Skill(name) to permissions.allow. Check your version with claude --version."
+      },
+      "why": {
+        "cs": "Týká se úloh bez dozoru: bez pravidla v permissions.allow mohou čekat na tvé schválení. Pravidlo přidej jen u skillů, kterým věříš.",
+        "en": "This affects unattended tasks: without a rule in permissions.allow they may wait for your approval. Add the rule only for skills you trust."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-11-14",
+      "used": null
     }
   ]
 }

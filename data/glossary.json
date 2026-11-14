@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "terms": [
     {
       "id": "quantization",
@@ -1646,6 +1646,59 @@
       "short": {
         "cs": "Vlastní příkaz nebo skript, který nástroj (třeba Claude Code) spustí sám při určité události, například před úpravou souboru nebo po dokončení úkolu.",
         "en": "A custom command or script that a tool (such as Claude Code) runs automatically on a certain event, such as before editing a file or after finishing a task."
+      }
+    },
+    {
+      "id": "semver",
+      "term": {
+        "cs": "Sémantické verzování",
+        "en": "Semantic versioning"
+      },
+      "aliases": [
+        "sémantického verzování",
+        "sémantické verzování",
+        "sémantickým verzováním",
+        "semantic versioning",
+        "semver"
+      ],
+      "short": {
+        "cs": "Pravidla číslování verzí softwaru ve tvaru hlavní.vedlejší.oprava: vyšší hlavní číslo znamená nekompatibilní změnu, po které se starší kód může rozbít.",
+        "en": "Rules for numbering software versions as major.minor.patch: a higher major number signals an incompatible change that can break older code."
+      }
+    },
+    {
+      "id": "dot",
+      "term": {
+        "cs": "Dot (agent v ChatGPT)",
+        "en": "Dot (ChatGPT agent)"
+      },
+      "aliases": [
+        "dots",
+        "dot",
+        "dota",
+        "dotovi",
+        "dotům",
+        "doty"
+      ],
+      "short": {
+        "cs": "Osobní AI agent v ChatGPT, který dostane průběžnou odpovědnost za úkoly a pracuje i mezi konverzacemi; OpenAI ho zavádí postupně jen oprávněným účtům.",
+        "en": "A personal AI agent in ChatGPT that is given ongoing responsibility for tasks and keeps working between conversations; OpenAI rolls it out gradually to eligible accounts only."
+      }
+    },
+    {
+      "id": "blackwell",
+      "term": {
+        "cs": "Blackwell a Hopper (čipy Nvidie)",
+        "en": "Blackwell and Hopper (Nvidia chips)"
+      },
+      "aliases": [
+        "Blackwell",
+        "Hopper",
+        "Hopperu"
+      ],
+      "short": {
+        "cs": "Dvě generace AI čipů Nvidie: novější Blackwell, jehož vývoz do Číny USA zakazují, a starší, méně výkonný Hopper (například H100 a H200).",
+        "en": "Two generations of Nvidia AI chips: the newer Blackwell, whose export to China the US bans, and the older, less powerful Hopper (for example H100 and H200)."
       }
     }
   ]

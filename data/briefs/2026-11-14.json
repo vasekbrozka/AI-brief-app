@@ -1,0 +1,484 @@
+{
+  "date": "2026-11-14",
+  "sample": false,
+  "headline": {
+    "cs": "ChatGPT Wallet: agenti OpenAI nakupují s tvým schválením",
+    "en": "ChatGPT Wallet lets OpenAI’s agents shop with your approval"
+  },
+  "items": [
+    {
+      "id": "2026-11-14-openai-chatgpt-wallet-launch",
+      "kind": "news",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-11-13",
+      "title": {
+        "cs": "ChatGPT Wallet: agenti OpenAI nakupují s tvým schválením",
+        "en": "ChatGPT Wallet lets OpenAI’s agents shop with your approval"
+      },
+      "summary": {
+        "cs": "OpenAI 13. listopadu spustila ChatGPT Wallet: její agenti, zvaní dots, v něm nakupují podle zadání. Před každým nákupem člověk zkontroluje zboží, částku i kartu a potvrdí ho Face ID nebo otiskem prstu. Platí se náhradním číslem karty, takže skutečné údaje nevidí ani agent, ani obchod. Zatím jen pro uživatele ChatGPT Pro v USA.",
+        "en": "On November 13, OpenAI launched ChatGPT Wallet, where its agents (called dots) buy things on request. Before each purchase the user reviews items, total, and card, and approves with Face ID or a fingerprint. A substitute card number keeps real details from the agent and the store. US ChatGPT Pro users only, for now."
+      },
+      "why": {
+        "cs": "OpenAI sama upozorňuje, že některé weby i systémy proti podvodům mohou nákupy agenta odmítnout. Provizi z nákupů zatím neúčtuje, píše CNBC.",
+        "en": "OpenAI itself warns that some websites and fraud-detection systems may block agent purchases. It takes no cut of purchases for now, CNBC reported."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/chatgpt-wallet-openai-dots-agents-payments"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-google-gemini-google-wallet-connection",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-13",
+      "title": {
+        "cs": "Gemini umí číst Google Wallet a radit s rozpočtem",
+        "en": "Gemini can read Google Wallet to help with budgets"
+      },
+      "summary": {
+        "cs": "Google 13. listopadu zpřístupnil všem uživatelům aplikace Gemini v USA propojení s Google Wallet. Gemini pak zodpoví dotazy o útratách, najde zapomenutá předplatná a navrhne rozpočet; volitelně lze přes Plaid připojit i bankovní účty a karty. Údaje smí jen číst, ne přesouvat peníze, a propojení jde kdykoli vypnout.",
+        "en": "On November 13, Google opened a Google Wallet connection to all Gemini app users in the US. Gemini can answer questions about spending, find forgotten subscriptions, and suggest a budget; bank and card accounts can optionally be linked via Plaid. It can read data but not move money, and you can disconnect anytime."
+      },
+      "why": {
+        "cs": "Podle The Next Web Google netrénuje AI přímo na datech z Wallet, ale jeho nápověda uvádí, že při zapnuté aktivitě Gemini může trénovat na souhrnech transakcí.",
+        "en": "Per The Next Web, Google does not train its AI directly on Wallet data, but its help pages say that with Gemini activity on it may train on summaries of transactions."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/google-gemini-wallet-spending-insights-plaid"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-microsoft-365-outage-november-12",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-12",
+      "title": {
+        "cs": "Rozsáhlý výpadek Microsoft 365 zasáhl Outlook, Teams i Copilot",
+        "en": "Major Microsoft 365 outage hit Outlook, Teams, and Copilot"
+      },
+      "summary": {
+        "cs": "Microsoft 365 měl od 12. listopadu kolem 18:30 našeho času celosvětový výpadek: podle Wired zasáhl víc než 70 zemí a týkal se Outlooku, Teams i Copilota. Microsoft uvádí, že nešlo o kybernetický útok ani o AI, ale o problém z dřívějšího navyšování síťové kapacity. Služby se 13. listopadu obnovovaly postupně.",
+        "en": "Microsoft 365 suffered a worldwide outage starting around 6:30 p.m. Central European time on November 12; per Wired it reached more than 70 countries and hit Outlook, Teams, and Copilot. Microsoft says it was not a cyberattack or AI, but a problem from an earlier network capacity upgrade. Services came back gradually on November 13."
+      },
+      "why": {
+        "cs": "Podle Wired Microsoft prodloužil frontu e-mailů na 48 hodin, aby zprávy z výpadku dorazily, takže se mohou zpozdit. Úplnou zprávu o příčině slíbil bez udání termínu.",
+        "en": "Per Wired, Microsoft extended the email queue time to 48 hours so messages sent during the outage would be delivered, so some may arrive late. A full post-incident report is promised, with no date."
+      },
+      "sources": [
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/tech/tech-news/outlook-widespread-outage-hits-microsoft-apps-rcna609047"
+        },
+        {
+          "name": "TechRadar",
+          "url": "https://www.techradar.com/news/live/outlook-outage-nov-2026"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-anthropic-safety-evals-guide",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-13",
+      "title": {
+        "cs": "Anthropic: bezpečnostní skóre AI závisí na nastavení testu",
+        "en": "Anthropic: AI safety scores depend on the test setup"
+      },
+      "summary": {
+        "cs": "Anthropic 13. listopadu zveřejnila příručku ke stavbě spolehlivých testů bezpečnosti AI. Ukazuje, že tentýž model dopadne jinak podle nastavení: u Claude Fable 5.1 vyšlo v testu rozhovorů o sebepoškozování 60 % vhodných odpovědí přes API, ale 94 % v aplikaci claude.ai s doplněnou systémovou instrukcí.",
+        "en": "On November 13, Anthropic published a guide to building reliable AI safety tests. It shows the same model can score very differently depending on setup: for Claude Fable 5.1, a self-harm conversation test gave 60% appropriate responses through the API but 94% in the claude.ai app with an added system instruction."
+      },
+      "why": {
+        "cs": "Anthropic radí předem určit, co se měří, ověřit proti lidem AI, která odpovědi hodnotí, a uvádět nejistotu výsledků. Rozdíl 98 % a 94 % u Opusu 5 a 5.5 podle ní nebyl statisticky významný.",
+        "en": "Anthropic advises deciding what to measure first, checking the AI grader against humans, and reporting uncertainty. It says the 98% vs. 94% gap between Opus 5 and 5.5 was not statistically significant."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/research/building-strong-safety-evaluations"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-safety-evaluations-guidance-fable-self-harm"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-llama-cpp-v1-0-0",
+      "kind": "news",
+      "category": "opensource",
+      "verified": true,
+      "eventDate": "2026-11-13",
+      "title": {
+        "cs": "llama.cpp vyšlo ve verzi 1.0 a slibuje stabilní rozhraní",
+        "en": "llama.cpp reaches version 1.0 and promises a stable API"
+      },
+      "summary": {
+        "cs": "Projekt llama.cpp, který spouští AI modely na vlastním počítači, 13. listopadu vydal verzi 1.0.0 knihoven llama.cpp a ggml. Nekompatibilní změny veřejného rozhraní v jazyce C teď ohlásí vyšším číslem hlavní verze podle pravidel sémantického verzování. Podporuje přes 150 variant architektur modelů.",
+        "en": "The llama.cpp project, which runs AI models on your own computer, released version 1.0.0 of the llama.cpp and ggml libraries on November 13. Breaking changes to the public C interface will now be signaled by a higher major version, following semantic versioning rules. It supports more than 150 model architecture variants."
+      },
+      "why": {
+        "cs": "Jde hlavně o slib stability pro vývojáře, kteří na llama.cpp staví aplikace: podle čísla verze poznají, kdy jim aktualizace rozbije kód. Blog zmiňuje i desktopové aplikace Llama pro macOS a Windows.",
+        "en": "It is mainly a stability promise for developers building on llama.cpp: the version number tells them when an update will break their code. The blog also mentions Llama desktop apps for macOS and Windows."
+      },
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-unemployment-labs-blackwell-chinese-models",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-11-12",
+      "title": {
+        "cs": "Zpráva: čínské AI modely nesou stopy čipů Blackwell",
+        "en": "Report claims Chinese AI models carry Blackwell chip traces"
+      },
+      "summary": {
+        "cs": "Skupina Unemployment Labs (vede ji Will DePue, dříve z OpenAI) 12. listopadu zveřejnila analýzu otevřených modelů čínských firem DeepSeek, Moonshot AI, MiniMax a Ant Group. Šest modelů od dubna 2026 podle ní nese stopy čipů Nvidia Blackwell, jejichž vývoz do Číny USA omezují. Zpráva sama uvádí, že neprokazuje, kde čipy stály ani porušení pravidel.",
+        "en": "Unemployment Labs (led by Will DePue, ex-OpenAI) published an analysis on November 12 of open models from DeepSeek, Moonshot AI, MiniMax, and Ant Group. It says six models since April 2026 carry traces of Nvidia Blackwell chips, export-restricted to China. The report concedes it cannot show where the chips were or that rules were broken."
+      },
+      "why": {
+        "cs": "TechCrunch dodává, že čipy mohly stát i v zahraničním datacentru. Nezávislé veřejné ověření zdroje nezmiňují. Alibaba (Qwen), Zhipu (GLM) a Tencent podle zprávy zůstávají u generace Hopper.",
+        "en": "TechCrunch adds the chips could have been in an offshore data center. The sources mention no independent public verification. Alibaba (Qwen), Zhipu (GLM), and Tencent models still read as the Hopper generation, per the report."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/13/chinese-ai-labs-are-training-models-on-nvidias-blackwell-despite-export-controls-says-ex-openai-engineer/5309891"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-github-copilot-model-deprecations-december",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-13",
+      "title": {
+        "cs": "GitHub 14. prosince vyřadí z Copilotu šest modelů",
+        "en": "GitHub will retire six Copilot models on December 14"
+      },
+      "summary": {
+        "cs": "GitHub 13. listopadu oznámil, že 14. prosince 2026 přestane ve všech částech Copilotu nabízet Claude Fable 5, Claude Haiku 4.5, Gemini 3.8 Flash, Gemini 4 Argon, Grok 4.6 a Kimi K3. Jako náhradu doporučuje Claude Fable 5.2, Haiku 5.5, Gemini 4 Hydrogen, Gemini 4 Carbon a Grok 4.7; za Kimi K3 zatím žádnou.",
+        "en": "On November 13, GitHub said Claude Fable 5, Claude Haiku 4.5, Gemini 3.8 Flash, Gemini 4 Argon, Grok 4.6, and Kimi K3 leave all of Copilot on December 14, 2026. Suggested replacements: Claude Fable 5.2, Haiku 5.5, Gemini 4 Hydrogen, Gemini 4 Carbon, and Grok 4.7; none yet for Kimi K3."
+      },
+      "why": {
+        "cs": "Ve firemních tarifech Business a Enterprise se doporučené náhrady zapnou samy, pokud správce nevypnul výchozí povolování nových modelů. Haiku 4.5 zůstane individuálním předplatitelům na roční tarify.",
+        "en": "On Business and Enterprise plans the suggested replacements switch on automatically unless an admin turned off the default for new models. Haiku 4.5 stays for individual subscribers on annual plans."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-tip-claude-code-sandbox-permission-flow",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-13",
+      "title": {
+        "cs": "Claude Code: příkazy v sandboxu se už samy neschvalují",
+        "en": "Claude Code: sandboxed commands no longer auto-approve"
+      },
+      "summary": {
+        "cs": "Claude Code od verze 2.1.325 (13. listopadu) vede příkazy Bash běžící v sandboxu běžným schvalováním oprávnění, místo aby je pouštěl bez dotazu. Původní chování vrátíš v nastavení řádkem sandbox.autoAllowBashIfSandboxed: true, nebo v panelu /sandbox na kartě Mode volbou auto-allow. Verzi zjistíš příkazem claude --version.",
+        "en": "From version 2.1.325 (November 13), Claude Code runs Bash commands inside the sandbox through the normal permission flow instead of without asking. To restore the earlier behavior, set sandbox.autoAllowBashIfSandboxed: true in settings, or choose auto-allow on the Mode tab of the /sandbox panel. Check your version with claude --version."
+      },
+      "why": {
+        "cs": "Auto-allow je pohodlnější, ale příkazy měnící soubory uvnitř sandboxu pak běží bez dotazu. I tak se potvrzuje rm na kritických cestách a pravidla ask pro konkrétní příkazy.",
+        "en": "Auto-allow is more convenient, but commands that change files inside the sandbox then run without asking. Even so, rm on critical paths and ask rules aimed at specific commands still need your confirmation."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/sandboxing"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-tip-google-ai-studio-cloud-credits",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-13",
+      "title": {
+        "cs": "Google AI Pro/Ultra: kredity pro API v AI Studiu",
+        "en": "Google AI Pro/Ultra: claim API credits in AI Studio"
+      },
+      "summary": {
+        "cs": "Google 13. listopadu přidal do AI Studia vyzvedávání měsíčních kreditů Google Cloud. Předplatitelé Google AI Pro a Ultra tam vytvoří profil Google Developer Program, připojí fakturaci a kredity použijí na Gemini API. Každá měsíční dávka platí 12 měsíců a nevyčerpané se sčítají.",
+        "en": "On November 13, Google added claiming of monthly Google Cloud credits to AI Studio. Google AI Pro and Ultra subscribers can create a Google Developer Program profile there, link billing, and apply the credits to the Gemini API. Each monthly grant is valid for 12 months and unused grants stack."
+      },
+      "why": {
+        "cs": "Na Gemini API s fakturací přes Cloud je potřeba předplacený zůstatek aspoň 5 USD. Kredity smí používat jen hlavní předplatitel a jejich výši určuje tarif.",
+        "en": "Using the Gemini API with Cloud billing needs a prepaid balance of at least $5. Only the primary subscriber can use the credits, and the amount depends on the plan tier."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-tip-copilot-cowork-local-edge",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-04",
+      "title": {
+        "cs": "Copilot Cowork zvládne webové kroky v tvém Edgi",
+        "en": "Copilot Cowork can run web steps in your Edge"
+      },
+      "summary": {
+        "cs": "Podle poznámek k vydání Microsoft 365 Copilot (změny z 28. 10.–3. 11.) umí Copilot Cowork použít Edge na tvém počítači: prochází stránky, sbírá informace a vyplňuje formuláře, i na webech s tvým přihlášením. Průběh sleduješ v konverzaci a přihlašovací údaje i cookies zůstávají na zařízení.",
+        "en": "Per the Microsoft 365 Copilot release notes (changes from October 28 to November 3), Copilot Cowork can use Microsoft Edge on your computer: it navigates pages, gathers information, and fills in forms, including on sites where you are signed in. You follow progress in the conversation, and credentials and cookies stay on your device."
+      },
+      "why": {
+        "cs": "Otevři Copilot Cowork na webu v Edgi a zadej úkol, který potřebuje prohlížeč; u důležitých kroků čeká na tvůj vstup nebo schválení. Poznámky licenci neuvádějí; ověř ji u správce.",
+        "en": "Open Copilot Cowork on the web in Edge and give it a browser task; on important steps it waits for your input or approval. The notes state no licensing, so ask your admin."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-tip-chatgpt-dot-custom-instructions",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "Dot v ChatGPT: vlastní pokyny k práci",
+        "en": "ChatGPT dots: set custom instructions for your dot"
+      },
+      "summary": {
+        "cs": "OpenAI v týdnu 9.–13. listopadu přidala dotům v ChatGPT vlastní pokyny: dotovi řekneš, jak má psát, jak často se hlásit nebo kdy se má před akcí zeptat. Pokyn lze zadat v konverzaci a později nechat upravit. Pokyny dota jsou oddělené od obecných vlastních pokynů ChatGPT.",
+        "en": "During November 9–13, OpenAI added custom instructions for dots in ChatGPT: you tell your dot how to write, how often to check in, or when to ask before acting. You can set one in conversation and ask your dot to update it later. They are separate from your general ChatGPT custom instructions."
+      },
+      "why": {
+        "cs": "V mobilní appce: postranní panel › Customize › Behavior, vyber dota, pokyny ulož. Dots nemají v EHP osobní tarify Pro; Business Premium a Enterprise ano (u Enterprise se od 18. 11. zapínají samy).",
+        "en": "On mobile: sidebar › Customize › Behavior, pick your dot, save. No dots on personal Pro plans in the EEA; Business Premium and Enterprise have them (default-on for Enterprise from November 18)."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/docs/whats-new"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/codex/dots/controls"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "GitHub vyřadí z Copilotu pro programátory tři modely",
+        "en": "GitHub retires three models from GitHub Copilot"
+      },
+      "note": {
+        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8 a Opus 5 (náhrada: Opus 5.5) i GPT-5.6 Terra (náhrada: GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane dostupný ročním individuálním předplatitelům.",
+        "en": "On November 16, GitHub retires Opus 4.8, Opus 5 (alternative: Opus 5.5), and GPT-5.6 Terra (alternatives: GPT-6.1 Sol or GPT-6 Luna) from Copilot. Opus 4.8 stays for individual annual subscribers."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "Microsoft Ignite: konference o Copilotu a AI agentech",
+        "en": "Microsoft Ignite: a conference on Copilot and AI agents"
+      },
+      "note": {
+        "cs": "Microsoftova konference se koná 17.–20. listopadu v San Franciscu, část lze sledovat i online. Témata: Copilot, AI agenti, zabezpečení a cloud.",
+        "en": "Microsoft’s conference runs November 17–20 in San Francisco, and part of it can be followed online. Topics: Copilot, AI agents, security, and cloud."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://ignite.microsoft.com/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "NVIDIA: čtvrtletní výsledky",
+        "en": "NVIDIA: quarterly results"
+      },
+      "note": {
+        "cs": "NVIDIA, výrobce čipů pro AI, zveřejní výsledky za čtvrtletí skončené 25. října kolem 22:20 našeho času, první po odchodu šéfa Jensena Huanga.",
+        "en": "NVIDIA, a maker of AI chips, reports results for the quarter ended October 25 at about 10:20 p.m. Prague time, the first since CEO Jensen Huang resigned."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+        },
+        {
+          "name": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-19",
+      "title": {
+        "cs": "Anthropic: vstup na burzu (IPO) údajně 19. nebo 20. listopadu",
+        "en": "Anthropic: IPO reportedly on November 19 or 20"
+      },
+      "note": {
+        "cs": "Anthropic žádá o kotaci na Nasdaq (ANT). Podle The Next Web má obchodování začít 19. 11. a cena se podle Bloombergu stanoví 18. 11.; Anthropic datum oficiálně neuvádí.",
+        "en": "Anthropic has applied to list on Nasdaq (ANT). Per The Next Web, trading is due November 19, pricing November 18 (Bloomberg); Anthropic gives no official date."
+      },
+      "sources": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-ipo-oversubscribed-founders-sell-retail-europe"
+        }
+      ],
+      "tentative": true
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "Claude Code ruší rychlý režim pro Opus 4.8",
+        "en": "Claude Code drops fast mode for Opus 4.8"
+      },
+      "note": {
+        "cs": "Podle poznámek k vydání Claude Code zanikne 30. listopadu rychlý režim Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Přechod na Opus 5.5 rychlost zachová.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-02",
+      "title": {
+        "cs": "EU: do 2. prosince musí firmy splnit zákaz aplikací na „svlékání“",
+        "en": "EU: companies must meet nudifier-app ban by December 2"
+      },
+      "note": {
+        "cs": "Podle europarlamentu platí od 2. prosince 2026 zákaz AI aplikací na „svlékání“ lidí bez souhlasu; téhož dne začne označování AI obsahu u systémů uvedených na trh před 2. srpnem 2026.",
+        "en": "Per Parliament: the ban on AI “undress” apps applies from December 2, 2026; for systems placed on the market before August 2, 2026, AI content labelling is due by then."
+      },
+      "sources": [
+        {
+          "name": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-10",
+      "title": {
+        "cs": "Google: chytré brýle s Gemini půjdou do prodeje",
+        "en": "Google: Gemini smart glasses go on sale"
+      },
+      "note": {
+        "cs": "Předobjednávky už běží; brýle od Warby Parker (jen USA) a Gentle Monster (USA a Jižní Korea) se 10. prosince začnou prodávat v obchodech i online.",
+        "en": "Pre-orders are open; glasses from Warby Parker (US only) and Gentle Monster (US and South Korea) go on sale in stores and online on December 10."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-14",
+      "title": {
+        "cs": "GitHub: 14. prosince z Copilotu zmizí šest modelů",
+        "en": "GitHub: six models leave Copilot on December 14"
+      },
+      "note": {
+        "cs": "GitHub 13. listopadu oznámil konec šesti modelů, mj. Claude Fable 5 a Gemini 4 Argon; doporučuje nové verze. Ročním individuálním předplatitelům zůstane Haiku 4.5.",
+        "en": "GitHub announced on November 13 that six models end, including Claude Fable 5 and Gemini 4 Argon, and suggests newer versions. Annual individual subscribers keep Haiku 4.5."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

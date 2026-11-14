@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-13T04:05:00Z",
+  "updated": "2026-11-14T03:31:30Z",
   "briefs": [
+    {
+      "date": "2026-11-14",
+      "headline": {
+        "cs": "ChatGPT Wallet: agenti OpenAI nakupují s tvým schválením",
+        "en": "ChatGPT Wallet lets OpenAI’s agents shop with your approval"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-11-13",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "OpenAI tightens ChatGPT’s protections against violence"
       },
       "itemCount": 10
-    },
-    {
-      "date": "2026-10-31",
-      "headline": {
-        "cs": "Tržiště Cursoru: podvržené rozšíření Claude Code se zadními vrátky",
-        "en": "Cursor’s marketplace served a backdoored Claude Code extension"
-      },
-      "itemCount": 11
     }
   ]
 }
