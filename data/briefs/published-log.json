@@ -131,26 +131,6 @@
       "topic": "Cloudflare od 15.9. defaultně blokuje smíšené (search+agent+training) AI roboty na stránkách s reklamou — nové/free účty, placení se stávajícím nastavením beze změny"
     },
     {
-      "slug": "2026-09-15-anthropic-openai-google-ai-safety-standards-body",
-      "date": "2026-09-15",
-      "topic": "Anthropic, OpenAI a Google (The Information) od července jednají o společném úřadu pro bezpečnostní standardy AI — sdílené protokoly testování před vydáním; impuls: červencová esej Demise Hassabise"
-    },
-    {
-      "slug": "2026-09-15-microsoft-humanist-ai-code-of-conduct",
-      "date": "2026-09-15",
-      "topic": "Nadella 13.9. oznámil, Microsoft 14.9. otevřel konzultaci k Humanist AI Code of Conduct pro MAI modely (zákaz odolávat vypnutí/skrývat uvažování) — reakce na Amodeiho esej"
-    },
-    {
-      "slug": "2026-09-15-grok-models-microsoft-copilot",
-      "date": "2026-09-15",
-      "topic": "Microsoft 12.9. přidal modely Grok (xAI) do Copilotu ve Word/Excel/PowerPoint (zatím jen Frontier program) — první nabídnutí modelu mezi přímými konkurenty"
-    },
-    {
-      "slug": "2026-09-15-tip-perplexity-portable-computer-windows",
-      "date": "2026-09-15",
-      "topic": "tip: Perplexity Portable Computer (lokální AI agent) 14.9. rozšířeno na Windows s NVIDIA GeForce RTX/RTX PRO (24GB+ VRAM), dřív jen Linux/DGX Spark"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -2419,7 +2399,62 @@
       "slug": "2026-11-14-tip-chatgpt-dot-custom-instructions",
       "date": "2026-11-14",
       "topic": "tip: ChatGPT dots — vlastní pokyny pro dota (týdenní přehled OpenAI 9.–13. 11.; dokumentace dots/controls: říct v konverzaci, nebo na mobilu Customize → Behavior → How [dot] handles tasks, když Behavior appka nabízí; oddělené od obecných vlastních pokynů ChatGPT; dostupnost podle learn.chatgpt.com/codex/dots: Pro 100/200/500 18+ mimo EHP, UK a Švýcarsko, Business Premium v podporovaných regionech podle firmy, Enterprise/Edu/Healthcare — od 18. 11. standardně zapnuto, pokud se firma neodhlásí; zavádí se postupně) — nový"
+    },
+    {
+      "slug": "2026-11-15-google-deepmind-gemini-robotics-2-5",
+      "date": "2026-11-15",
+      "topic": "Google DeepMind 10. 11. (blog DeepMind, Ars Technica 10. 11.): Gemini Robotics 2.5 — model pro ovládání robotů (vision-language-action); přes 200 úloh (pipetování, mašle), o 30–100 % vyšší úspěšnost a o 20–30 % rychlejší než předchůdce (podle DeepMindu); pilot s Apptronik Apollo 2 u Mercedes-Benz (Kecskemét, Sindelfingen): třídění dílů s úspěšností 96 %, zbylé 4 % „strmá cesta“ (Ars); model v cloudu, jen partneři (Agile Robots, Apptronik, Boston Dynamics); otevřený test ASIMOV-Jailbreak (čísla DeepMindu a Arsu se liší — v textu bez nich) — highlight"
+    },
+    {
+      "slug": "2026-11-15-faa-smart-ai-all-22-centers",
+      "date": "2026-11-15",
+      "topic": "FAA 10. 11. (oznámení faa.gov, Ars Technica 13. 11., AeroTime): AI systém SMART (200 datových toků; doporučení ověřují specialisté FAA ve Washingtonu → Command Center ve Warrentonu → místní vedení rozhodne) rozšířen na všech 22 středisek řízení provozu; podle FAA od 21. 9. 180 přesměrovaných letů, v průměru 10 min a téměř 80 galonů paliva na let; NATCA (Ars podle Flying): nebyla zapojena do návrhu ani testů; AeroTime: přes dvě desítky zákonodárců žádaly pozastavení, FAA se v oznámení nevěnovala jejich otázkám o testování bezpečnosti"
+    },
+    {
+      "slug": "2026-11-15-anthropic-claude-for-manufacturing",
+      "date": "2026-11-15",
+      "topic": "Anthropic 12. 11. (článek claude.com): Claude for Manufacturing — plugin se 17 dovednostmi (nabídky, neshody kvality, diagnostika poruch, poptávky dodavatelům, srovnání návrhů, produkční reporty), konektory Autodesk Fusion, Infor, Microsoft 365, Oracle NetSuite; člověk kontroluje a schvaluje před odesláním; zařízení neovládá; Team/Enterprise („Set us up“); Infor vydává vlastní plugin (změny v Inforu); webinář 17. 11."
+    },
+    {
+      "slug": "2026-11-15-deepmind-alphagenome-2",
+      "date": "2026-11-15",
+      "topic": "Google DeepMind 11. 11. (blog DeepMind): AlphaGenome 2 — podmíněný model předpovídá účinky variant DNA v konkrétních typech buněk (trénink přes 100 mil. buněčných profilů, 68 tkání); TenK10K: příčinné varianty 30 % vs. 16 %, směr efektu 43 % vs. 23 % (údaje DeepMindu); API pro nevýdělečný výzkum, komerční výzkum jen soukromý náhled"
+    },
+    {
+      "slug": "2026-11-15-google-adobe-partnership-gemini-drive",
+      "date": "2026-11-15",
+      "topic": "Google 10. 11. na Adobe MAX (blog Google, 9to5Google): rozšířené partnerství s Adobe — cesta z Disku a Gmailu do Acrobatu (Edit with), konektory Adobe v Gemini a Gemini Enterprise, nástroje Adobe v režimu AI ve Vyhledávání, asistent Adobe CX Enterprise Coworker v Gemini Enterprise, DeepMind a Adobe zkoumají obrazový model pro Photoshop; bez termínů"
+    },
+    {
+      "slug": "2026-11-15-mistral-studio-managed-agents-apps",
+      "date": "2026-11-15",
+      "topic": "Mistral 5. 11. (mistral.ai): Studio — spravované agenty a aplikace (Mistral MCP server, nasazení jedním příkazem), workflow s event triggery a vizuálním grafem, sledování a evaluace agentů; cloud/VPC/on-premises; zákazníci ABANCA, Accenture, Alten, BNP Paribas, Capgemini, CMA CGM, TCS; interní příklady Mistralu (stovky hodin měsíčně u incidentů, 35 hodin týdně u workflow)"
+    },
+    {
+      "slug": "2026-11-15-openai-acquires-pierre-computer",
+      "date": "2026-11-15",
+      "topic": "OpenAI 4. 11. (RSS OpenAI — stránka 403; InfoWorld 6. 11.): OpenAI koupí Pierre Computer Company (San Francisco; Code.Storage — infrastruktura pro Git; knihovny Trees a Diffs už v Codexu); cena nezveřejněna; zákazníci Code.Storage ji mohou používat, dokud OpenAI funkce nepřevede do Codexu; open-source zůstane otevřený"
+    },
+    {
+      "slug": "2026-11-15-tip-claude-opus-5-5-medium-effort",
+      "date": "2026-11-15",
+      "topic": "tip: Claude — Opus 5.5 je výchozí model na Pro, Max, Ultra a Team; střední úsilí je výchozí (podle Anthropicu 12. 11. vyrovná Opus 5 na vysokém); pokyny „think hard“ lze vynechat; Effort: název modelu vedle tlačítka odeslání → Effort; na High až když Medium váhá"
+    },
+    {
+      "slug": "2026-11-15-tip-workspace-studio-wait-until",
+      "date": "2026-11-15",
+      "topic": "tip: Google Workspace Studio — krok Wait until (od 9. 11.; až 14 dnů; i ve větvení a smyčkách; karta Activity; Business, Enterprise, Education; správce ho nevypne) — z banky"
+    },
+    {
+      "slug": "2026-11-15-tip-github-copilot-app-ghes",
+      "date": "2026-11-15",
+      "topic": "tip: GitHub Copilot app 1.2.0+ — účet GitHub Enterprise Server (13. 11., obecně dostupné; Settings > Accounts > Add account; nejdřív přihlášení GitHub.com/GHE.com; bez cloudových relací pro GHES)"
+    },
+    {
+      "slug": "2026-11-15-tip-hugging-face-google-cloud-billing",
+      "date": "2026-11-15",
+      "topic": "tip: Hugging Face — platba organizace přes Google Cloud Marketplace (10. 11.; Subscribe → Sign up with Hugging Face; schválení týmem HF před fakturací; bez doplňování kreditů; Team/Enterprise, Jobs, Inference Endpoints/Providers, GPU Spaces, úložiště)"
     }
   ],
-  "updated": "2026-11-14T03:53:16Z"
+  "updated": "2026-11-15T03:27:21Z"
 }

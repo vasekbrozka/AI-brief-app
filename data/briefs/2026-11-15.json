@@ -1,0 +1,538 @@
+{
+  "date": "2026-11-15",
+  "sample": false,
+  "headline": {
+    "cs": "Gemini Robotics 2.5: robot třídil díly u Mercedesu",
+    "en": "Gemini Robotics 2.5: robot sorted parts at Mercedes"
+  },
+  "items": [
+    {
+      "id": "2026-11-15-google-deepmind-gemini-robotics-2-5",
+      "kind": "news",
+      "category": "research",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "Gemini Robotics 2.5: robot třídil díly u Mercedesu",
+        "en": "Gemini Robotics 2.5: robot sorted parts at Mercedes"
+      },
+      "summary": {
+        "cs": "Google DeepMind 10. listopadu představil Gemini Robotics 2.5, model pro ovládání robotů. Podle DeepMindu zvládl přes 200 úloh od pipetování po uvázání mašle, uspěl o 30–100 % častěji a byl o 20–30 % rychlejší než předchozí verze. V pilotu u Mercedes-Benz roztřídil humanoid Apollo 2 součástky s 96% úspěšností.",
+        "en": "On November 10, Google DeepMind introduced Gemini Robotics 2.5, a model for controlling robots. Per DeepMind, it handled over 200 tasks from pipetting to tying a bow, succeeded 30–100% more often, and ran 20–30% faster than the previous version. In a Mercedes-Benz pilot, the Apollo 2 humanoid sorted parts with a 96% success rate."
+      },
+      "why": {
+        "cs": "Zatím pilot: model běží v cloudu a mají ho jen partneři (Apptronik, Boston Dynamics). Zbylých 4 % chyb je podle DeepMindu „strmá cesta“ (Ars Technica). Zveřejnil i otevřený test bezpečnosti robotů ASIMOV-Jailbreak.",
+        "en": "Still a pilot: the model runs in the cloud and only partners have it. DeepMind calls the last 4% of errors a steep road (Ars Technica). It also released ASIMOV-Jailbreak, an open robot-safety test."
+      },
+      "sources": [
+        {
+          "name": "DeepMind",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-faa-smart-ai-all-22-centers",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "FAA rozšířila AI systém SMART na všechna střediska",
+        "en": "FAA expands SMART AI system to all 22 centers"
+      },
+      "summary": {
+        "cs": "Americký úřad pro civilní letectví (FAA) 10. listopadu oznámil, že AI systém SMART, který z 200 datových toků doporučuje dispečerům změny tras a časů letů, použije ve všech 22 střediscích řízení provozu. Podle FAA od 21. září pomohl přesměrovat 180 letů a ušetřil v průměru 10 minut a téměř 80 galonů paliva na let.",
+        "en": "On November 10, the US FAA said its SMART AI system, which turns 200 data streams into route and schedule recommendations for air traffic controllers, will now cover all 22 control centers. Per the FAA, since September 21 it helped reroute 180 flights, saving on average 10 minutes and almost 80 gallons of fuel each."
+      },
+      "why": {
+        "cs": "Doporučení ověřují specialisté FAA a místní vedení rozhoduje, zda je použije. Odbory dispečerů NATCA podle Ars Technica uvádějí, že se na návrhu ani testech nepodílely; FAA podle AeroTime nezodpověděla otázky zákonodárců o testování.",
+        "en": "FAA specialists validate recommendations and local leaders decide whether to use them. Per Ars Technica, the controllers’ union NATCA had no part in design or testing; per AeroTime, the FAA left lawmakers’ safety-testing questions unanswered."
+      },
+      "sources": [
+        {
+          "name": "FAA",
+          "url": "https://www.faa.gov/newsroom/statements/general-statements"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+        },
+        {
+          "name": "AeroTime",
+          "url": "https://www.aerotime.aero/articles/faa-smart-air-traffic-tool-22-en-route-centers/amp"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-anthropic-claude-for-manufacturing",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-12",
+      "title": {
+        "cs": "Anthropic uvedla Claude for Manufacturing pro výrobní firmy",
+        "en": "Anthropic launches Claude for Manufacturing for plant teams"
+      },
+      "summary": {
+        "cs": "Anthropic 12. listopadu uvedla Claude for Manufacturing, plugin se 17 dovednostmi pro výrobu: od cenových nabídek přes vyšetření neúspěšné kontroly kvality po diagnostiku poruchy stroje. Čerpá z firemních dat přes konektory na Autodesk Fusion, Infor, Microsoft 365 a Oracle NetSuite; výsledek má před odesláním zkontrolovat a schválit člověk.",
+        "en": "On November 12, Anthropic launched Claude for Manufacturing, a plugin with 17 skills for plant work, from quoting jobs and investigating failed inspections to diagnosing breakdowns. It draws on company data through connectors to Autodesk Fusion, Infor, Microsoft 365, and Oracle NetSuite; a person is meant to review and approve results before they go out."
+      },
+      "why": {
+        "cs": "Plugin si nainstaluješ na tarifu Team nebo Enterprise a řekneš Claudovi „Set us up“; ten ověří konektory a ohlásí, co zatím nepoběží naplno. Zařízení sám neovládá.",
+        "en": "Install the plugin on a Team or Enterprise plan and tell Claude “Set us up”; it checks the connectors and reports what cannot fully run yet. It does not operate equipment."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/claude-for-manufacturing"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-deepmind-alphagenome-2",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-11",
+      "title": {
+        "cs": "AlphaGenome 2 předpovídá účinky variant DNA v buňkách",
+        "en": "AlphaGenome 2 predicts DNA variant effects in cells"
+      },
+      "summary": {
+        "cs": "Google DeepMind 11. listopadu představil AlphaGenome 2, model, který předpovídá, jak změny v DNA ovlivňují aktivitu genů v konkrétních typech lidských buněk, ne jen v celých tkáních. Na datech TenK10K podle DeepMindu našel téměř dvakrát víc příčinných variant než předchůdce (30 % proti 16 %). Je dostupný přes API pro nevýdělečný výzkum.",
+        "en": "On November 11, Google DeepMind introduced AlphaGenome 2, a model that predicts how DNA changes affect gene activity in specific human cell types, not just whole tissues. On the TenK10K dataset DeepMind says it found nearly twice as many causal variants as its predecessor (30% vs. 16%). Available via an API for non-commercial research."
+      },
+      "why": {
+        "cs": "Čísla pocházejí od DeepMindu a týkají se jedné sady dat; nezávislé ověření zdroj neuvádí. Pro komerční výzkum je model zatím jen v soukromém náhledu. Jde o nástroj pro výzkumníky.",
+        "en": "The figures come from DeepMind and cover one dataset; the post cites no independent check. For commercial research the model is only in private preview. It is a tool for researchers."
+      },
+      "sources": [
+        {
+          "name": "DeepMind",
+          "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-google-adobe-partnership-gemini-drive",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "Google propojí Disk, Gmail a Gemini s nástroji Adobe",
+        "en": "Google to link Drive, Gmail, Gemini with Adobe tools"
+      },
+      "summary": {
+        "cs": "Google 10. listopadu, na konferenci Adobe MAX, oznámil rozšířené partnerství s Adobe. Z Disku a Gmailu má vést cesta do Acrobatu (volba Edit with v náhledu souboru), konektory Adobe v Gemini a Gemini Enterprise se rozšíří a nástroje Adobe přibudou i v režimu AI ve Vyhledávání. Termíny Google neuvádí.",
+        "en": "On November 10, at the Adobe MAX conference, Google announced an expanded partnership with Adobe. Drive and Gmail are to get a path into Acrobat (an Edit with option in file previews), Adobe’s connectors in Gemini and Gemini Enterprise will grow, and Adobe tools will come to AI Mode in Search. Google gives no dates."
+      },
+      "why": {
+        "cs": "Většina funkcí je zatím jen „brzy“. Firmy mají v Gemini Enterprise dostat asistenta Adobe CX Enterprise Coworker; společný obrazový model pro Photoshop s DeepMindem teprve zkoumají.",
+        "en": "Most features are only “soon” for now. Businesses are to get Adobe’s CX Enterprise Coworker assistant in Gemini Enterprise; a joint image model for Photoshop with DeepMind is only being explored."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/11/10/google-adobe-partnership-adding-google-drive-gemini-integration/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-mistral-studio-managed-agents-apps",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-05",
+      "title": {
+        "cs": "Mistral rozšířil Studio o spravované agenty a aplikace",
+        "en": "Mistral adds managed agents and apps to Studio"
+      },
+      "summary": {
+        "cs": "Mistral 5. listopadu rozšířil Studio, firemní platformu pro AI, o spravované agenty a aplikace a o novinky u workflow a sledování agentů. Vývojáři otestují agenta lokálně a nasadí ho jedním příkazem; provoz lze zvolit v cloudu, ve vlastní virtuální privátní síti (VPC) nebo ve vlastním datacentru. Studio podle Mistralu používá BNP Paribas či Accenture.",
+        "en": "On November 5, Mistral expanded Studio, its enterprise AI platform, with managed agents and apps plus updates to workflows and agent observability. Developers test an agent locally and deploy it with one command: in the cloud, a virtual private cloud (VPC), or on premises. Mistral says BNP Paribas and Accenture use Studio."
+      },
+      "why": {
+        "cs": "Mistral uvádí vlastní příklady: agent vyšetřující provozní incidenty ušetří jeho týmu podle firmy stovky hodin měsíčně a workflow třídící nápady asi 35 hodin týdně. Jde o interní čísla Mistralu.",
+        "en": "Mistral gives its own examples: an agent investigating production incidents saves its team hundreds of hours a month, and a workflow sorting ideas about 35 hours a week. These are Mistral’s internal figures."
+      },
+      "sources": [
+        {
+          "name": "Mistral",
+          "url": "https://mistral.ai/news/build-with-studio/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-openai-acquires-pierre-computer",
+      "kind": "news",
+      "category": "business",
+      "verified": true,
+      "eventDate": "2026-11-04",
+      "title": {
+        "cs": "OpenAI koupí Pierre, tvůrce nástrojů pro Git v Codexu",
+        "en": "OpenAI to buy Pierre, maker of Codex’s Git tools"
+      },
+      "summary": {
+        "cs": "OpenAI 4. listopadu oznámila, že koupí firmu Pierre Computer Company ze San Franciscu, autora služby Code.Storage (infrastruktura pro Git, systém pro správu verzí kódu) a knihoven Trees a Diffs, které Codex už používá. Cenu nezveřejnila. Chce z Codexu udělat místo, kde vývojáři a agenti pracují od první větve po nasazení.",
+        "en": "On November 4, OpenAI announced it will acquire Pierre Computer Company of San Francisco, maker of Code.Storage (infrastructure for Git, the code version-control system) and the Trees and Diffs libraries Codex already uses. No price was disclosed. OpenAI wants Codex to be where developers and agents work, from the first branch to deployment."
+      },
+      "why": {
+        "cs": "Zákazníci Code.Storage mohou službu používat, dokud OpenAI její funkce nepřevede do Codexu. Open-source projekty Pierre zůstanou otevřené a OpenAI do nich bude přispívat, píše InfoWorld.",
+        "en": "Code.Storage customers can keep using it until OpenAI brings its features into Codex. Pierre’s open-source projects stay open, and OpenAI will keep contributing to them, InfoWorld reports."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/openai-to-acquire-pierre"
+        },
+        {
+          "name": "InfoWorld",
+          "url": "https://www.infoworld.com/article/4245719/openai-buys-tiny-software-developer-to-improve-codex.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-tip-claude-opus-5-5-medium-effort",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-12",
+      "title": {
+        "cs": "Claude: s Opusem 5.5 začni na středním úsilí",
+        "en": "Claude: start Opus 5.5 at Medium effort"
+      },
+      "summary": {
+        "cs": "Anthropic 12. listopadu doporučila Opus 5.5, výchozí model v Claude na tarifech Pro, Max, Ultra a Team, jako denního pomocníka pro práci se znalostmi. Výchozí je střední úroveň úsilí: podle Anthropicu na ní Opus 5.5 vyrovnal Opus 5 na vysoké. Pokyny typu „think hard“ lze vynechat, přemýšlení je zapnuté vždy.",
+        "en": "On November 12, Anthropic recommended Opus 5.5, the default model in Claude on Pro, Max, Ultra, and Team plans, as a daily driver for knowledge work. Medium effort is the default; per Anthropic, Opus 5.5 at Medium matched Opus 5 at High. You can drop prompts like “think hard,” since thinking is always on."
+      },
+      "why": {
+        "cs": "Úsilí změníš kliknutím na název modelu vedle tlačítka odeslání a volbou Effort. Na High přejdi, až když Medium váhá; silnější model zkus teprve potom.",
+        "en": "Click the model name next to the send button and choose Effort. Move up to High only when Medium stalls, and try a stronger model after that."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-tip-workspace-studio-wait-until",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-09",
+      "title": {
+        "cs": "Workspace Studio: krok Wait until pozdrží automatizaci",
+        "en": "Workspace Studio: the Wait until step pauses a flow"
+      },
+      "summary": {
+        "cs": "Google ve Workspace Studiu zavedl krok Wait until: automatizaci lze kdekoli pozastavit, i uvnitř větvení a smyček, a nechat ji pokračovat v zadaný den a čas nebo po zvolené době až do 14 dnů. Zavádění začalo 9. listopadu.",
+        "en": "Google introduced a Wait until step in Workspace Studio: a flow can be paused anywhere, even inside branches and loops, and resumed on a set day and time or after a chosen duration of up to 14 days. Rollout began on November 9."
+      },
+      "why": {
+        "cs": "Ve Studiu přidej do postupu krok Wait until a zvol režim: den příštího týdne, konkrétní den a čas, nebo časový odstup. Průběh vidíš na kartě Activity. Platí pro Business, Enterprise a Education; správce ho nevypne.",
+        "en": "Add a Wait until step in Studio and pick a mode: day next week, specific day and time, or duration. Progress shows on the Activity tab. Covers Business, Enterprise, Education; admins cannot turn it off."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/pause-and-schedule-automated-workflows-with-the-new-Wait-until-step-in-Workspace-Studio.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-tip-github-copilot-app-ghes",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-13",
+      "title": {
+        "cs": "GitHub Copilot app: účet GitHub Enterprise Server",
+        "en": "GitHub Copilot app: add a GitHub Enterprise Server account"
+      },
+      "summary": {
+        "cs": "Aplikace GitHub Copilot od verze 1.2.0 umí pracovat i s firemním serverem GitHub Enterprise Server (GHES): se vzdálenými repozitáři, issues a pull requesty. GitHub 13. listopadu oznámil, že funkce, dosud volitelný náhled, je obecně dostupná.",
+        "en": "The GitHub Copilot app, from version 1.2.0, can also work with a company’s GitHub Enterprise Server (GHES): remote repositories, issues, and pull requests. On November 13, GitHub said the feature, previously an opt-in preview, is now generally available."
+      },
+      "why": {
+        "cs": "Nejdřív se v aplikaci přihlas účtem GitHub.com nebo GHE.com, pak otevři Settings > Accounts > Add account a zvol GitHub Enterprise Server. Cloudové relace pro GHES nejsou dostupné.",
+        "en": "First sign in to the app with a GitHub.com or GHE.com account, then open Settings > Accounts > Add account and choose GitHub Enterprise Server. Cloud sessions are not available for GHES."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-tip-hugging-face-google-cloud-billing",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "Hugging Face: platba přes účet Google Cloud",
+        "en": "Hugging Face: pay through your Google Cloud account"
+      },
+      "summary": {
+        "cs": "Správce organizace na Hugging Face může propojit organizaci s účtem Google Cloud přes Marketplace, takže její spotřeba půjde na fakturu Google Cloud místo platební karty: předplatné Team či Enterprise, výpočty (Jobs, Inference Endpoints, Inference Providers, GPU Spaces) i úložiště. Hugging Face to popsal 10. listopadu.",
+        "en": "An admin of a Hugging Face organization can link it to a Google Cloud account through the Marketplace, so its usage lands on the Google Cloud invoice instead of a credit card: Team or Enterprise subscriptions, compute (Jobs, Inference Endpoints, Inference Providers, GPU Spaces), and storage. Hugging Face described it on November 10."
+      },
+      "why": {
+        "cs": "Na Marketplace otevři nabídku Hugging Face Hub, vyber projekt, klikni Subscribe a přes Sign up with Hugging Face propoj organizaci. Tým Hugging Face předplatné před fakturací schvaluje; kredity se přes Marketplace doplnit nedají.",
+        "en": "On the Marketplace open the Hugging Face Hub listing, pick a project, click Subscribe, then link the organization via Sign up with Hugging Face. Hugging Face reviews subscriptions before billing; no credit top-ups once linked."
+      },
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/hub-gcp-marketplace"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-11-16",
+      "title": {
+        "cs": "GitHub vyřadí z Copilotu pro programátory tři modely",
+        "en": "GitHub retires three models from GitHub Copilot"
+      },
+      "note": {
+        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8 a Opus 5 (náhrada: Opus 5.5) i GPT-5.6 Terra (náhrada: GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane dostupný ročním individuálním předplatitelům.",
+        "en": "On November 16, GitHub retires Opus 4.8, Opus 5 (alternative: Opus 5.5), and GPT-5.6 Terra (alternatives: GPT-6.1 Sol or GPT-6 Luna) from Copilot. Opus 4.8 stays for individual annual subscribers."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "Microsoft Ignite: konference o Copilotu a AI agentech",
+        "en": "Microsoft Ignite: a conference on Copilot and AI agents"
+      },
+      "note": {
+        "cs": "Microsoftova konference se koná 17.–20. listopadu v San Franciscu, část lze sledovat i online. Témata: Copilot, AI agenti, zabezpečení a cloud.",
+        "en": "Microsoft’s conference runs November 17–20 in San Francisco, and part of it can be followed online. Topics: Copilot, AI agents, security, and cloud."
+      },
+      "sources": [
+        {
+          "name": "Microsoft",
+          "url": "https://ignite.microsoft.com/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": {
+        "cs": "NVIDIA: čtvrtletní výsledky",
+        "en": "NVIDIA: quarterly results"
+      },
+      "note": {
+        "cs": "NVIDIA, výrobce čipů pro AI, zveřejní výsledky za čtvrtletí skončené 25. října kolem 22:20 našeho času, první po odchodu šéfa Jensena Huanga.",
+        "en": "NVIDIA, a maker of AI chips, reports results for the quarter ended October 25 at about 10:20 p.m. Prague time, the first since CEO Jensen Huang resigned."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+        },
+        {
+          "name": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-19",
+      "title": {
+        "cs": "Anthropic: vstup na burzu (IPO) údajně 19. listopadu",
+        "en": "Anthropic: IPO reportedly on November 19"
+      },
+      "note": {
+        "cs": "Anthropic žádá o kotaci na Nasdaq (ANT); tisková zpráva Anthropicu datum neuvádí. Podle The Next Web má obchodování začít 19. 11.",
+        "en": "Anthropic has applied to list on Nasdaq (ANT); its press release gives no date. Per The Next Web, trading is due to start November 19."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/roadshow-launch"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"
+        }
+      ],
+      "tentative": true
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "Claude Code ruší rychlý režim pro Opus 4.8",
+        "en": "Claude Code drops fast mode for Opus 4.8"
+      },
+      "note": {
+        "cs": "Podle poznámek k vydání Claude Code zanikne 30. listopadu rychlý režim Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Přechod na Opus 5.5 rychlost zachová.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-02",
+      "title": {
+        "cs": "EU: do 2. prosince musí firmy splnit zákaz aplikací na „svlékání“",
+        "en": "EU: companies must meet nudifier-app ban by December 2"
+      },
+      "note": {
+        "cs": "Podle europarlamentu platí od 2. prosince 2026 zákaz AI aplikací na „svlékání“ lidí bez souhlasu; téhož dne začne označování AI obsahu u systémů uvedených na trh před 2. srpnem 2026.",
+        "en": "Per Parliament, from December 2, 2026 AI apps that “undress” people without consent are banned, and AI content from systems launched before August 2 must be labelled."
+      },
+      "sources": [
+        {
+          "name": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-10",
+      "title": {
+        "cs": "Google: chytré brýle s Gemini půjdou do prodeje",
+        "en": "Google: Gemini smart glasses go on sale"
+      },
+      "note": {
+        "cs": "Předobjednávky už běží; brýle od Warby Parker (jen USA) a Gentle Monster (USA a Jižní Korea) se 10. prosince začnou prodávat v obchodech i online.",
+        "en": "Pre-orders are open; glasses from Warby Parker (US only) and Gentle Monster (US and South Korea) go on sale in stores and online on December 10."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-14",
+      "title": {
+        "cs": "GitHub: 14. prosince z Copilotu zmizí šest modelů",
+        "en": "GitHub: six models leave Copilot on December 14"
+      },
+      "note": {
+        "cs": "GitHub 13. listopadu oznámil konec šesti modelů, mj. Claude Fable 5 a Gemini 4 Argon; doporučuje nové verze. Ročním individuálním předplatitelům zůstane Haiku 4.5.",
+        "en": "GitHub announced on November 13 that six models end, including Claude Fable 5 and Gemini 4 Argon, and suggests newer versions. Annual individual subscribers keep Haiku 4.5."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"
+        }
+      ],
+      "tentative": false
+    }
+  ],
+  "weekInReview": [
+    {
+      "date": "2026-11-13",
+      "id": "2026-11-13-nvidia-ceo-huang-resigns-kress-interim",
+      "title": {
+        "cs": "Šéf Nvidie Jensen Huang rezignoval",
+        "en": "Nvidia CEO Jensen Huang resigns"
+      },
+      "note": {
+        "cs": "Šéf Nvidie odešel s okamžitou platností, dočasně firmu vede finanční ředitelka. Důvod Nvidia neuvedla; média ho spojují s přiznanou nevěrou a zprávami o špionáži.",
+        "en": "Nvidia’s CEO left with immediate effect; the CFO leads for now. Nvidia gave no reason; media link it to an admitted affair and espionage reports."
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "id": "2026-11-10-anthropic-claude-fable-mythos-5-2",
+      "title": {
+        "cs": "Anthropic uvedla Claude Fable 5.2 a Mythos 5.2",
+        "en": "Anthropic launches Claude Fable 5.2 and Mythos 5.2"
+      },
+      "note": {
+        "cs": "Anthropic uvedla týž model ve dvou podobách: Fable pro všechny, s ochranami proti zneužití, a Mythos jen pro ověřené organizace.",
+        "en": "Anthropic launched one model in two forms: Fable for everyone, with misuse safeguards, and Mythos for verified organizations only."
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "id": "2026-11-13-google-gemini-4-hydrogen-launch",
+      "title": {
+        "cs": "Google uvedl rychlý model Gemini 4 Hydrogen",
+        "en": "Google launches the fast Gemini 4 Hydrogen model"
+      },
+      "note": {
+        "cs": "Google uvedl rychlý model, podle sebe 2,5× rychlejší než Gemini 3.8 Flash; je ve Vyhledávání, aplikaci Gemini, AI Studiu i API.",
+        "en": "Google launched a fast model, by its own account 2.5× faster than Gemini 3.8 Flash, in Search, the Gemini app, AI Studio, and the API."
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "id": "2026-11-14-openai-chatgpt-wallet-launch",
+      "title": {
+        "cs": "ChatGPT Wallet: agenti OpenAI nakupují s tvým schválením",
+        "en": "ChatGPT Wallet lets OpenAI’s agents shop with your approval"
+      },
+      "note": {
+        "cs": "OpenAI spustila ChatGPT Wallet: agenti nakupují, každou platbu ale člověk potvrdí Face ID nebo otiskem. Zatím jen pro ChatGPT Pro v USA.",
+        "en": "OpenAI launched ChatGPT Wallet: agents shop, but a person approves each payment with Face ID or a fingerprint. So far US ChatGPT Pro only."
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "id": "2026-11-14-microsoft-365-outage-november-12",
+      "title": {
+        "cs": "Rozsáhlý výpadek Microsoft 365 zasáhl Outlook, Teams i Copilot",
+        "en": "Major Microsoft 365 outage hit Outlook, Teams, and Copilot"
+      },
+      "note": {
+        "cs": "Microsoft 365 měl od 12. listopadu rozsáhlý výpadek Outlooku, Teams i Copilota. Microsoft předběžně uvádí problém při navyšování síťové kapacity; úplnou příčinu zatím nezveřejnil.",
+        "en": "Microsoft 365 had a major Outlook, Teams, and Copilot outage from November 12. Microsoft cites a network-capacity upgrade; the full cause is unpublished."
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "id": "2026-11-10-czech-ai-council-ai-act-bill",
+      "title": {
+        "cs": "Vláda zřídila Radu pro AI a schválila návrh zákona",
+        "en": "Czech cabinet creates AI Council, backs AI Act bill"
+      },
+      "note": {
+        "cs": "Vláda zřídila Radu pro AI a schválila návrh zákona k AI Actu; ještě musí do Sněmovny. Hlavním dozorem má být Český telekomunikační úřad.",
+        "en": "Cabinet created an AI Council and backed an AI Act bill that still goes to the Chamber. The Czech Telecommunications Office is to supervise."
+      }
+    }
+  ]
+}

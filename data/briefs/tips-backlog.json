@@ -6078,8 +6078,8 @@
         "en": "Google introduced a Wait until step in Workspace Studio: a flow can be paused anywhere, even inside branches and loops, and resumed on a set day and time or after a chosen duration of up to 14 days. Rollout began on November 9."
       },
       "why": {
-        "cs": "Ve Studiu přidej do postupu krok Wait until a zvol režim; průběh vidíš na kartě Activity. Platí pro Business Starter/Standard/Plus, Enterprise Standard/Plus a Education; správce ho nevypne.",
-        "en": "In Studio add a Wait until step to a flow and pick a mode; progress shows on the Activity tab. It covers Business Starter/Standard/Plus, Enterprise Standard/Plus, and Education; admins cannot turn it off."
+        "cs": "Ve Studiu přidej do postupu krok Wait until a zvol režim: den příštího týdne, konkrétní den a čas, nebo časový odstup. Průběh vidíš na kartě Activity. Platí pro Business, Enterprise a Education; správce ho nevypne.",
+        "en": "Add a Wait until step in Studio and pick a mode: day next week, specific day and time, or duration. Progress shows on the Activity tab. Covers Business, Enterprise, Education; admins cannot turn it off."
       },
       "sources": [
         {
@@ -6088,7 +6088,7 @@
         }
       ],
       "added": "2026-11-14",
-      "used": null
+      "used": "2026-11-15"
     },
     {
       "slug": "tip-claude-code-scheduled-tasks-skill-ask",
@@ -6116,6 +6116,87 @@
       ],
       "added": "2026-11-14",
       "used": null
+    },
+    {
+      "slug": "tip-claude-opus-5-5-medium-effort",
+      "category": "tools",
+      "theme": "claude",
+      "added": "2026-11-15",
+      "verified": true,
+      "eventDate": "2026-11-12",
+      "title": {
+        "cs": "Claude: s Opusem 5.5 začni na středním úsilí",
+        "en": "Claude: start Opus 5.5 at Medium effort"
+      },
+      "summary": {
+        "cs": "Anthropic 12. listopadu doporučila Opus 5.5, výchozí model v Claude na tarifech Pro, Max, Ultra a Team, jako denního pomocníka pro práci se znalostmi. Výchozí je střední úroveň úsilí: podle Anthropicu na ní Opus 5.5 vyrovnal Opus 5 na vysoké. Pokyny typu „think hard“ lze vynechat, přemýšlení je zapnuté vždy.",
+        "en": "On November 12, Anthropic recommended Opus 5.5, the default model in Claude on Pro, Max, Ultra, and Team plans, as a daily driver for knowledge work. Medium effort is the default; per Anthropic, Opus 5.5 at Medium matched Opus 5 at High. You can drop prompts like “think hard,” since thinking is always on."
+      },
+      "why": {
+        "cs": "Úsilí změníš kliknutím na název modelu vedle tlačítka odeslání a volbou Effort. Na High přejdi, až když Medium váhá; silnější model zkus teprve potom.",
+        "en": "Click the model name next to the send button and choose Effort. Move up to High only when Medium stalls, and try a stronger model after that."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work"
+        }
+      ],
+      "used": "2026-11-15"
+    },
+    {
+      "slug": "tip-github-copilot-app-ghes",
+      "category": "tools",
+      "theme": "copilot",
+      "added": "2026-11-15",
+      "verified": true,
+      "eventDate": "2026-11-13",
+      "title": {
+        "cs": "GitHub Copilot app: účet GitHub Enterprise Server",
+        "en": "GitHub Copilot app: add a GitHub Enterprise Server account"
+      },
+      "summary": {
+        "cs": "Aplikace GitHub Copilot od verze 1.2.0 umí pracovat i s firemním serverem GitHub Enterprise Server (GHES): se vzdálenými repozitáři, issues a pull requesty. GitHub 13. listopadu oznámil, že funkce, dosud volitelný náhled, je obecně dostupná.",
+        "en": "The GitHub Copilot app, from version 1.2.0, can also work with a company’s GitHub Enterprise Server (GHES): remote repositories, issues, and pull requests. On November 13, GitHub said the feature, previously an opt-in preview, is now generally available."
+      },
+      "why": {
+        "cs": "Nejdřív se v aplikaci přihlas účtem GitHub.com nebo GHE.com, pak otevři Settings > Accounts > Add account a zvol GitHub Enterprise Server. Cloudové relace pro GHES nejsou dostupné.",
+        "en": "First sign in to the app with a GitHub.com or GHE.com account, then open Settings > Accounts > Add account and choose GitHub Enterprise Server. Cloud sessions are not available for GHES."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app"
+        }
+      ],
+      "used": "2026-11-15"
+    },
+    {
+      "slug": "tip-hugging-face-google-cloud-billing",
+      "category": "tools",
+      "theme": "other",
+      "added": "2026-11-15",
+      "verified": true,
+      "eventDate": "2026-11-10",
+      "title": {
+        "cs": "Hugging Face: platba přes účet Google Cloud",
+        "en": "Hugging Face: pay through your Google Cloud account"
+      },
+      "summary": {
+        "cs": "Správce organizace na Hugging Face může propojit organizaci s účtem Google Cloud přes Marketplace, takže její spotřeba půjde na fakturu Google Cloud místo platební karty: předplatné Team či Enterprise, výpočty (Jobs, Inference Endpoints, Inference Providers, GPU Spaces) i úložiště. Hugging Face to popsal 10. listopadu.",
+        "en": "An admin of a Hugging Face organization can link it to a Google Cloud account through the Marketplace, so its usage lands on the Google Cloud invoice instead of a credit card: Team or Enterprise subscriptions, compute (Jobs, Inference Endpoints, Inference Providers, GPU Spaces), and storage. Hugging Face described it on November 10."
+      },
+      "why": {
+        "cs": "Na Marketplace otevři nabídku Hugging Face Hub, vyber projekt, klikni Subscribe a přes Sign up with Hugging Face propoj organizaci. Tým Hugging Face předplatné před fakturací schvaluje; kredity se přes Marketplace doplnit nedají.",
+        "en": "On the Marketplace open the Hugging Face Hub listing, pick a project, click Subscribe, then link the organization via Sign up with Hugging Face. Hugging Face reviews subscriptions before billing; no credit top-ups once linked."
+      },
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/hub-gcp-marketplace"
+        }
+      ],
+      "used": "2026-11-15"
     }
   ]
 }

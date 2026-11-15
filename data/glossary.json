@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "terms": [
     {
       "id": "quantization",
@@ -1699,6 +1699,49 @@
       "short": {
         "cs": "Dvě generace AI čipů Nvidie: novější Blackwell, jehož vývoz do Číny USA zakazují, a starší, méně výkonný Hopper (například H100 a H200).",
         "en": "Two generations of Nvidia AI chips: the newer Blackwell, whose export to China the US bans, and the older, less powerful Hopper (for example H100 and H200)."
+      }
+    },
+    {
+      "id": "plugin",
+      "term": {
+        "cs": "Plugin (doplněk)",
+        "en": "Plugin"
+      },
+      "aliases": [
+        "plugin",
+        "plugins",
+        "pluginy",
+        "pluginu",
+        "pluginem",
+        "pluginů",
+        "pluginech",
+        "pluginům"
+      ],
+      "short": {
+        "cs": "Doplněk, který do aplikace nebo AI nástroje přidá novou funkci, sadu dovedností či propojení najednou. Instaluje se zvlášť a obvykle jde kdykoli odebrat.",
+        "en": "An add-on that adds a feature, a set of skills, or connections to an app or AI tool in one go. It is installed separately and can usually be removed any time."
+      }
+    },
+    {
+      "id": "dna-variant",
+      "term": {
+        "cs": "Varianta DNA",
+        "en": "DNA variant"
+      },
+      "aliases": [
+        "variant DNA",
+        "varianty DNA",
+        "variantu DNA",
+        "variantách DNA",
+        "variantami DNA",
+        "příčinných variant",
+        "DNA variant",
+        "DNA variants",
+        "causal variants"
+      ],
+      "short": {
+        "cs": "Místo v DNA, kde se lidé liší, třeba v jednom písmenu kódu. Některé varianty mění, jak se gen zapíná či vypíná, a tím ovlivňují vlastnosti nebo riziko nemoci.",
+        "en": "A spot in DNA where people differ, for example in a single letter of the code. Some variants change how a gene switches on or off and so affect traits or disease risk."
       }
     }
   ]

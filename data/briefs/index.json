@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-14T03:53:16Z",
+  "updated": "2026-11-15T03:27:21Z",
   "briefs": [
+    {
+      "date": "2026-11-15",
+      "headline": {
+        "cs": "Gemini Robotics 2.5: robot třídil díly u Mercedesu",
+        "en": "Gemini Robotics 2.5: robot sorted parts at Mercedes"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-11-14",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "ChatGPT a Codex budou od prosince sdílet jeden limit",
         "en": "ChatGPT and Codex will share one limit from December"
-      },
-      "itemCount": 10
-    },
-    {
-      "date": "2026-11-01",
-      "headline": {
-        "cs": "OpenAI zpřísňuje v ChatGPT ochranu před násilím",
-        "en": "OpenAI tightens ChatGPT’s protections against violence"
       },
       "itemCount": 10
     }
