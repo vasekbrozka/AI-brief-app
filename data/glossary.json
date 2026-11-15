@@ -1273,7 +1273,10 @@
         "en": "Codex"
       },
       "aliases": [
-        "Codex"
+        "Codex",
+        "Codexu",
+        "Codexem",
+        "Codexa"
       ],
       "short": {
         "cs": "Programovací agent od OpenAI: čte, upravuje a spouští kód v projektu a plní programátorské úkoly zadané běžným jazykem.",
@@ -1602,7 +1605,8 @@
         "self-hosted",
         "self-host",
         "samostatně hostované",
-        "samostatně hostovaných"
+        "samostatně hostovaných",
+        "on premises"
       ],
       "short": {
         "cs": "Software běží na vlastních serverech nebo v cloudovém účtu firmy, ne u poskytovatele služby. Firma ovládá svá data, ale sama odpovídá za provoz, aktualizace a zabezpečení.",
@@ -1742,6 +1746,27 @@
       "short": {
         "cs": "Místo v DNA, kde se lidé liší, třeba v jednom písmenu kódu. Některé varianty mění, jak se gen zapíná či vypíná, a tím ovlivňují vlastnosti nebo riziko nemoci.",
         "en": "A spot in DNA where people differ, for example in a single letter of the code. Some variants change how a gene switches on or off and so affect traits or disease risk."
+      }
+    },
+    {
+      "id": "effort",
+      "term": {
+        "cs": "Úroveň úsilí (effort)",
+        "en": "Effort level"
+      },
+      "aliases": [
+        "úroveň úsilí",
+        "úrovně úsilí",
+        "úrovní úsilí",
+        "úroveň nasazení",
+        "úrovni nasazení",
+        "Medium effort",
+        "effort level",
+        "effort levels"
+      ],
+      "short": {
+        "cs": "Nastavení, kolik času a „přemýšlení“ model věnuje odpovědi. Nižší úroveň je rychlejší a levnější, vyšší důkladnější, ale pomalejší a dražší.",
+        "en": "A setting for how much time and thinking a model spends on an answer. Lower is faster and cheaper; higher is more thorough but slower and costlier."
       }
     }
   ]

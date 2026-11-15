@@ -2403,12 +2403,12 @@
     {
       "slug": "2026-11-15-google-deepmind-gemini-robotics-2-5",
       "date": "2026-11-15",
-      "topic": "Google DeepMind 10. 11. (blog DeepMind, Ars Technica 10. 11.): Gemini Robotics 2.5 — model pro ovládání robotů (vision-language-action); přes 200 úloh (pipetování, mašle), o 30–100 % vyšší úspěšnost a o 20–30 % rychlejší než předchůdce (podle DeepMindu); pilot s Apptronik Apollo 2 u Mercedes-Benz (Kecskemét, Sindelfingen): třídění dílů s úspěšností 96 %, zbylé 4 % „strmá cesta“ (Ars); model v cloudu, jen partneři (Agile Robots, Apptronik, Boston Dynamics); otevřený test ASIMOV-Jailbreak (čísla DeepMindu a Arsu se liší — v textu bez nich) — highlight"
+      "topic": "Google DeepMind 10. 11. (blog DeepMind, Ars Technica 10. 11.): Gemini Robotics 2.5 — model pro ovládání robotů (vision-language-action); přes 200 úloh (pipetování, mašle), o 30–100 % vyšší úspěšnost a o 20–30 % rychlejší než předchůdce (podle DeepMindu); pilot s Apptronik Apollo 2 u Mercedes-Benz (Kecskemét, Sindelfingen): třídění dílů s úspěšností 96 %, zbylé 4 % „strmá cesta“ (Ars); model v cloudu, jen partneři (Agile Robots, Apptronik, Boston Dynamics); otevřený test ASIMOV-Jailbreak (čísla DeepMindu a Arsu se liší — v textu bez nich)"
     },
     {
       "slug": "2026-11-15-faa-smart-ai-all-22-centers",
       "date": "2026-11-15",
-      "topic": "FAA 10. 11. (oznámení faa.gov, Ars Technica 13. 11., AeroTime): AI systém SMART (200 datových toků; doporučení ověřují specialisté FAA ve Washingtonu → Command Center ve Warrentonu → místní vedení rozhodne) rozšířen na všech 22 středisek řízení provozu; podle FAA od 21. 9. 180 přesměrovaných letů, v průměru 10 min a téměř 80 galonů paliva na let; NATCA (Ars podle Flying): nebyla zapojena do návrhu ani testů; AeroTime: přes dvě desítky zákonodárců žádaly pozastavení, FAA se v oznámení nevěnovala jejich otázkám o testování bezpečnosti"
+      "topic": "FAA 10. 11. (oznámení faa.gov, Ars Technica 13. 11., AeroTime): AI systém SMART (200 datových toků; doporučení ověřují specialisté FAA ve Washingtonu → Command Center ve Warrentonu → místní vedení rozhodne) rozšířen na všech 22 středisek řízení provozu; podle FAA od 21. 9. 180 přesměrovaných letů, v průměru 10 min a téměř 80 galonů paliva na let; NATCA (Ars podle Flying): nebyla zapojena do návrhu ani testů; AeroTime: přes dvě desítky zákonodárců žádaly pozastavení, FAA se v oznámení nevěnovala jejich otázkám o testování bezpečnosti — highlight"
     },
     {
       "slug": "2026-11-15-anthropic-claude-for-manufacturing",
@@ -2456,5 +2456,5 @@
       "topic": "tip: Hugging Face — platba organizace přes Google Cloud Marketplace (10. 11.; Subscribe → Sign up with Hugging Face; schválení týmem HF před fakturací; bez doplňování kreditů; Team/Enterprise, Jobs, Inference Endpoints/Providers, GPU Spaces, úložiště)"
     }
   ],
-  "updated": "2026-11-15T03:27:21Z"
+  "updated": "2026-11-15T03:50:45Z"
 }

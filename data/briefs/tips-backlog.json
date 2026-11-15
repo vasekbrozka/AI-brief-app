@@ -6074,17 +6074,21 @@
         "en": "Workspace Studio: the Wait until step pauses a flow"
       },
       "summary": {
-        "cs": "Google ve Workspace Studiu zavedl krok Wait until: automatizaci lze kdekoli pozastavit, i uvnitř větvení a smyček, a nechat ji pokračovat v zadaný den a čas nebo po zvolené době až do 14 dnů. Zavádění začalo 9. listopadu.",
+        "cs": "Google ve Workspace Studiu zavedl krok Wait until: automatizaci lze i uprostřed složitého postupu (podmínky, opakování) pozastavit a nechat ji pokračovat v zadaný den a čas nebo po zvolené době až do 14 dnů. Zavádění začalo 9. listopadu.",
         "en": "Google introduced a Wait until step in Workspace Studio: a flow can be paused anywhere, even inside branches and loops, and resumed on a set day and time or after a chosen duration of up to 14 days. Rollout began on November 9."
       },
       "why": {
-        "cs": "Ve Studiu přidej do postupu krok Wait until a zvol režim: den příštího týdne, konkrétní den a čas, nebo časový odstup. Průběh vidíš na kartě Activity. Platí pro Business, Enterprise a Education; správce ho nevypne.",
-        "en": "Add a Wait until step in Studio and pick a mode: day next week, specific day and time, or duration. Progress shows on the Activity tab. Covers Business, Enterprise, Education; admins cannot turn it off."
+        "cs": "Jen pro Workspace Business, Enterprise Standard/Plus a Education; správce ho nevypne. Přidej do postupu krok Wait until, zvol režim (den příštího týdne, den a čas, časový odstup); průběh vidíš na kartě Activity.",
+        "en": "Only for Workspace Business, Enterprise Standard/Plus, and Education; admins cannot turn it off. Add a Wait until step and choose a mode (day next week, day and time, duration); progress shows on the Activity tab."
       },
       "sources": [
         {
           "name": "Google",
           "url": "https://workspaceupdates.googleblog.com/2026/11/pause-and-schedule-automated-workflows-with-the-new-Wait-until-step-in-Workspace-Studio.html"
+        },
+        {
+          "name": "Google",
+          "url": "https://support.google.com/workspace-studio/answer/18886148"
         }
       ],
       "added": "2026-11-14",
@@ -6129,12 +6133,12 @@
         "en": "Claude: start Opus 5.5 at Medium effort"
       },
       "summary": {
-        "cs": "Anthropic 12. listopadu doporučila Opus 5.5, výchozí model v Claude na tarifech Pro, Max, Ultra a Team, jako denního pomocníka pro práci se znalostmi. Výchozí je střední úroveň úsilí: podle Anthropicu na ní Opus 5.5 vyrovnal Opus 5 na vysoké. Pokyny typu „think hard“ lze vynechat, přemýšlení je zapnuté vždy.",
+        "cs": "Anthropic 12. listopadu doporučila Opus 5.5, výchozí model v Claude na tarifech Pro, Max, Ultra a Team, jako každodenní nástroj pro dokumenty, rešerše a analýzy. Výchozí je střední úroveň úsilí: podle Anthropicu na ní Opus 5.5 vyrovnal Opus 5 na vysoké. Pokyny typu „think hard“ lze vynechat, přemýšlení je zapnuté vždy.",
         "en": "On November 12, Anthropic recommended Opus 5.5, the default model in Claude on Pro, Max, Ultra, and Team plans, as a daily driver for knowledge work. Medium effort is the default; per Anthropic, Opus 5.5 at Medium matched Opus 5 at High. You can drop prompts like “think hard,” since thinking is always on."
       },
       "why": {
-        "cs": "Úsilí změníš kliknutím na název modelu vedle tlačítka odeslání a volbou Effort. Na High přejdi, až když Medium váhá; silnější model zkus teprve potom.",
-        "en": "Click the model name next to the send button and choose Effort. Move up to High only when Medium stalls, and try a stronger model after that."
+        "cs": "Klikni na název modelu vedle tlačítka odeslání a zvol Effort. Na High přejdi, až když střední nestačí; bývá pomalejší a dražší. Fable 5.2 se na Pro a standardních sedadlech Team platí kredity, mimo úvodní nabídku.",
+        "en": "Click the model name beside the send button, choose Effort. Use High only if Medium falls short; it costs more. Fable 5.2 uses credits on Pro and standard Team seats outside the launch offer."
       },
       "sources": [
         {
@@ -6152,21 +6156,25 @@
       "verified": true,
       "eventDate": "2026-11-13",
       "title": {
-        "cs": "GitHub Copilot app: účet GitHub Enterprise Server",
+        "cs": "GitHub Copilot app: přidej účet GitHub Enterprise Server",
         "en": "GitHub Copilot app: add a GitHub Enterprise Server account"
       },
       "summary": {
-        "cs": "Aplikace GitHub Copilot od verze 1.2.0 umí pracovat i s firemním serverem GitHub Enterprise Server (GHES): se vzdálenými repozitáři, issues a pull requesty. GitHub 13. listopadu oznámil, že funkce, dosud volitelný náhled, je obecně dostupná.",
-        "en": "The GitHub Copilot app, from version 1.2.0, can also work with a company’s GitHub Enterprise Server (GHES): remote repositories, issues, and pull requests. On November 13, GitHub said the feature, previously an opt-in preview, is now generally available."
+        "cs": "Aplikace GitHub Copilot od verze 1.2.0 umí pracovat i s firemním serverem GitHub Enterprise Server (GHES): se vzdálenými repozitáři, úkoly (issues) a pull requesty. GitHub 13. listopadu oznámil, že funkce, dosud volitelný náhled, je dostupná všem. Cloudové relace pro GHES nejsou.",
+        "en": "The GitHub Copilot app, from version 1.2.0, can also work with a company’s GitHub Enterprise Server (GHES): remote repositories, issues, and pull requests. On November 13, GitHub said the feature, previously an opt-in preview, is now generally available. Cloud sessions are not available for GHES."
       },
       "why": {
-        "cs": "Nejdřív se v aplikaci přihlas účtem GitHub.com nebo GHE.com, pak otevři Settings > Accounts > Add account a zvol GitHub Enterprise Server. Cloudové relace pro GHES nejsou dostupné.",
-        "en": "First sign in to the app with a GitHub.com or GHE.com account, then open Settings > Accounts > Add account and choose GitHub Enterprise Server. Cloud sessions are not available for GHES."
+        "cs": "Přihlas se účtem GitHub.com nebo GHE.com, pak Settings > Accounts > Add account > GitHub Enterprise Server a v prohlížeči autorizuj. Copilot navíc potřebuje cloudový účet s licencí Copilot.",
+        "en": "Sign in with a GitHub.com or GHE.com account, then Settings > Accounts > Add account > GitHub Enterprise Server, and authorize in the browser. Copilot also needs a cloud account with a Copilot license."
       },
       "sources": [
         {
           "name": "GitHub",
           "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://docs.github.com/enterprise-server@latest/copilot/copilot-on-ghes/sign-in-on-copilot-app"
         }
       ],
       "used": "2026-11-15"
@@ -6187,8 +6195,8 @@
         "en": "An admin of a Hugging Face organization can link it to a Google Cloud account through the Marketplace, so its usage lands on the Google Cloud invoice instead of a credit card: Team or Enterprise subscriptions, compute (Jobs, Inference Endpoints, Inference Providers, GPU Spaces), and storage. Hugging Face described it on November 10."
       },
       "why": {
-        "cs": "Na Marketplace otevři nabídku Hugging Face Hub, vyber projekt, klikni Subscribe a přes Sign up with Hugging Face propoj organizaci. Tým Hugging Face předplatné před fakturací schvaluje; kredity se přes Marketplace doplnit nedají.",
-        "en": "On the Marketplace open the Hugging Face Hub listing, pick a project, click Subscribe, then link the organization via Sign up with Hugging Face. Hugging Face reviews subscriptions before billing; no credit top-ups once linked."
+        "cs": "V Google Cloud Marketplace otevři Hugging Face Hub, vyber projekt a fakturační účet, přijmi podmínky, klikni Subscribe a přes Sign up with Hugging Face vyber organizaci. Hugging Face to před fakturací schvaluje; kredity nejde doplňovat.",
+        "en": "Open the Hugging Face Hub listing on Google Cloud Marketplace, pick project and billing account, accept the terms, click Subscribe, choose the organization via Sign up with Hugging Face. Reviewed before billing; no credit top-ups."
       },
       "sources": [
         {

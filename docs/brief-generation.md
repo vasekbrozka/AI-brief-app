@@ -423,7 +423,21 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   sebepoškozování) pojmenuj, ať se dvě „94 %“ nesplynou; **čas dne ze zdrojů v různých
   pásmech** (Wired po 12:00 ET, TechRadar 12:30, NBC 12:50) nepřepočítávej na minuty;
   **radar smí zdvojit zprávu**, když zpráva vypadne z indexu dřív než termín (konec
-  modelů v Copilotu 14. 12.) — do deníku napiš proč.
+  modelů v Copilotu 14. 12.) — do deníku napiš proč; (38) **datum bereš ze stránky
+  zdroje, ne ze sweepu** (DeepMind: sweep 9. 11., stránka i Ars 10. 11.); **když se T1 a
+  T2 liší v číslech** (ASIMOV-Jailbreak: DeepMind stovky promptů a 99,5 %, Ars 1 500 a
+  98,8 %), drž T1 nebo čísla vynech; **T1 se často skrývá v odkazu T2 článku** (FAA: Ars
+  odkazuje na faa.gov/newsroom/statements/general-statements; s User-Agentem „Mozilla/5.0“
+  jde stáhnout); **výkon, který tvrdí firma, nes s kontextem** („v laboratorních
+  testech“, „v pilotu“, „podle FAA“) a podíl bez jmenovatele (30 % čeho) raději vynech;
+  **cizí jednotky převeď** (galony → litry), **VPC není privátní síť, ale privátní cloud**,
+  a „dispečer“ není řídicí letového provozu; **tip s odkazem na dokumentaci ověř v ní**
+  (GHES v aplikaci Copilot: autorizace v prohlížeči a licence Copilotu jsou jen v
+  dokumentaci) a **cenu doporučeného „silnějšího“ modelu napiš do tipu** (Fable 5.2 za
+  kredity); **když dva čtenáři ze tří preferují jako highlight jinou zprávu, přehodnoť
+  to** (FAA místo robotů) a po přesunu uprav `highlight`, pořadí položek, `headline` i
+  `topic` v published-log. InfoWorld, AeroTime a Flying nejsou v seznamech T2: WARN je
+  v pořádku, když zpráva stojí na T1 nebo dvou T2.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.
