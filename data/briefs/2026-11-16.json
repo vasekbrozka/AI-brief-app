@@ -2,7 +2,7 @@
   "date": "2026-11-16",
   "sample": false,
   "headline": {
-    "cs": "Apple spustila studii, jak lidé používají AI k zdraví",
+    "cs": "Apple spustila studii o používání AI při zdravotních otázkách",
     "en": "Apple launches study on how people use health AI"
   },
   "items": [
@@ -14,16 +14,16 @@
       "verified": true,
       "eventDate": "2026-11-15",
       "title": {
-        "cs": "Apple spustila studii, jak lidé používají AI k zdraví",
+        "cs": "Apple spustila studii o používání AI při zdravotních otázkách",
         "en": "Apple launches study on how people use health AI"
       },
       "summary": {
-        "cs": "Apple 15. listopadu spustila v USA studii Apple Health AI Usage Study se zdravotnickou platformou OpenEvidence. V nové aplikaci mohou lidé od 21 let klást zdravotní otázky, dostávat odpovědi s odkazy na recenzované studie a hodnotit je. Zapojit se může až 200 000 lidí s iPhonem 15 Pro či novějším a iOS 26.",
-        "en": "On November 15, Apple launched the Apple Health AI Usage Study in the US with health platform OpenEvidence. In a new app, people 21 and older ask health questions, get answers linked to peer-reviewed studies, and rate them. Up to 200,000 people with an iPhone 15 Pro or later and iOS 26 can join."
+        "cs": "Apple 15. listopadu spustila v USA studii Apple Health AI Usage Study. V nové aplikaci mohou lidé od 21 let klást zdravotní otázky AI firmy OpenEvidence, dostávat odpovědi s odkazy na recenzované studie a hodnotit je. Zapojit se může až 200 000 lidí s iPhonem 15 Pro či novějším a iOS 26 či novějším.",
+        "en": "On November 15, Apple launched the Apple Health AI Usage Study in the US. In a new app, people 21 and older ask OpenEvidence’s AI health questions, get answers linked to peer-reviewed studies, and rate them. Up to 200,000 people with an iPhone 15 Pro or later and iOS 26 or later can join."
       },
       "why": {
-        "cs": "Sdílení zdravotních údajů z iPhonu (klidový tep, spánek, laboratorní výsledky) je dobrovolné a data studie se podle Apple nepoužijí k trénování modelů. Zda podobné odpovědi dostane Siri nebo aplikace Zdraví, zatím není jasné (TechCrunch).",
-        "en": "Sharing health data from the iPhone (heart rate, sleep, lab results) is optional, and Apple says study data will not train models. Whether Siri or the Health app will get similar answers is unclear (TechCrunch)."
+        "cs": "Jen pro USA. Aplikace nemá diagnostikovat ani léčit; sdílení zdravotních údajů je dobrovolné a data se podle Apple netrénují. Zda podobné odpovědi dostane Siri či Zdraví, není jasné (TechCrunch).",
+        "en": "US only. The app does not diagnose or treat; sharing health data is optional, and Apple says the data will not train models. Whether Siri or the Health app gets similar answers is unclear (TechCrunch)."
       },
       "sources": [
         {
@@ -47,16 +47,16 @@
       "verified": true,
       "eventDate": "2026-11-13",
       "title": {
-        "cs": "Kongres chce přísnější vývoz AI čipů a výpověď Huanga",
-        "en": "Congress pushes tighter AI chip exports, Huang testimony"
+        "cs": "Kongres: výbory žádají výpověď Huanga, řeší vývoz čipů",
+        "en": "Congress: committees seek Huang testimony, chip export limits"
       },
       "summary": {
-        "cs": "Po rezignaci šéfa Nvidie Jensena Huanga sílí v Kongresu tlak na přísnější vývoz AI čipů do Číny. Senátní bankovní výbor žádá veřejnou výpověď Huanga (3. prosince) a ministra obchodu Lutnicka, sněmovní výbory neveřejný rozhovor s ním. Znovu se řeší zákony o sledování polohy čipů.",
-        "en": "After Nvidia CEO Jensen Huang resigned, pressure grows in Congress for tighter AI chip exports to China. The Senate Banking Committee asks Huang (December 3) and Commerce Secretary Lutnick to testify publicly; House committees want a closed-door interview with him. Bills on tracking chip locations are back in play."
+        "cs": "Po rezignaci šéfa Nvidie Jensena Huanga a zprávách o jeho vztahu s údajnou čínskou špiónkou sílí podle The Verge v Kongresu tlak na přísnější vývoz AI čipů. Republikánští předsedové výborů žádají Huangovu veřejnou výpověď (Senát, 3. prosince) a neveřejný rozhovor (Sněmovna); ministr obchodu Lutnick přijde podle resortu dobrovolně.",
+        "en": "After Nvidia CEO Jensen Huang resigned amid reports of a relationship with an alleged Chinese spy, pressure grows in Congress, per The Verge, for tighter AI chip exports. Republican committee chairs ask Huang to testify publicly (Senate, December 3) and give a closed-door interview (House); Commerce Secretary Lutnick will appear voluntarily, his department says."
       },
       "why": {
-        "cs": "Podle poslance Billa Fostera Nvidia soukromě řekla, že sledování čipů by technicky šlo; odvětvová asociace ho označila za „možná neproveditelné“ (MIT Technology Review, Nvidia se nevyjádřila). Zatím jde o žádosti a návrhy, ne o pravidla.",
-        "en": "Per Rep. Bill Foster, Nvidia privately said chip tracking is technically possible; an industry group called it “potentially infeasible” (MIT Technology Review; Nvidia did not respond). So far these are requests and bills, not rules."
+        "cs": "Podle poslance Billa Fostera, spoluautora návrhu o sledování čipů, Nvidia soukromě řekla, že to jde (nic písemně; Nvidia se nevyjádřila); polovodičová asociace SIA to v březnu označila za „možná neproveditelné“. Zatím jen žádosti a návrhy.",
+        "en": "Per Rep. Bill Foster, co-sponsor of a chip-tracking bill, Nvidia privately said it is possible (nothing in writing; Nvidia did not respond); industry group SIA called it “potentially infeasible” in March. Only requests and bills."
       },
       "sources": [
         {
@@ -71,7 +71,15 @@
           "name": "The Verge",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
         }
-      ]
+      ],
+      "followsUp": {
+        "date": "2026-11-13",
+        "id": "2026-11-13-nvidia-ceo-huang-resigns-kress-interim",
+        "title": {
+          "cs": "Šéf Nvidie Jensen Huang rezignoval",
+          "en": "Nvidia CEO Jensen Huang resigns"
+        }
+      }
     },
     {
       "id": "2026-11-16-uber-drivers-licenses-fireworks-ai-breach",
@@ -84,12 +92,12 @@
         "en": "Fireworks AI breach also hit Uber drivers"
       },
       "summary": {
-        "cs": "Uber podle TechCrunche z 13. listopadu oznamuje tisícům řidičů, že jim při říjnovém útoku na dodavatele unikly osobní údaje včetně řidičských průkazů. Jde o Fireworks AI, což Uber potvrdil; ve třech státech USA jde o přes 7 800 lidí a čísla mají růst. Uber nabízí bezplatné sledování úvěru.",
-        "en": "On November 13, TechCrunch reported that Uber is telling thousands of drivers their data, including driver’s licenses, was stolen in an October attack on a vendor. It is Fireworks AI, which Uber confirmed; filings in three US states cover over 7,800 people, and the count should rise. Uber offers free credit monitoring."
+        "cs": "Uber oznamuje tisícům řidičů (TechCrunch, 13. listopadu), že jim při říjnovém útoku na dodavatele unikly osobní údaje včetně řidičských průkazů. Dodavatelem je Fireworks AI (platforma pro provoz AI modelů), což mluvčí Uberu potvrdil; oficiální oznámení ho nejmenuje. Oznámení tří států uvádějí přes 7 800 lidí; celkový počet Uber nesdělil.",
+        "en": "Uber is telling thousands of drivers (TechCrunch, November 13) that personal data, including driver’s licenses, was stolen in an October attack on a vendor. It is Fireworks AI, an AI model platform, an Uber spokesperson confirmed; the official notice names no vendor. Notices in three states cover over 7,800 people; Uber gave no total."
       },
       "why": {
-        "cs": "Postižení dostávají dopis s kódem k bezplatnému sledování úvěru (zápis do 90 dnů). Fireworks útok připisuje skupině, která prodává přístup k modelům (LLMjacking); Uber nesdělil, kolik lidí je dotčeno.",
-        "en": "Affected drivers get a letter with a code for free credit monitoring (enroll within 90 days). Fireworks blames a group that sells access to models (LLMjacking); Uber did not say how many people are affected."
+        "cs": "Postižení dostávají dopis s kódem k bezplatnému sledování změn v úvěrové historii (zápis do 90 dnů od data dopisu); zneužití údajů Uber zatím nezjistil. Podle TechCrunche počet postižených poroste.",
+        "en": "Affected drivers get a letter with a code for free credit-file monitoring (enroll within 90 days of its date); Uber has found no misuse so far. TechCrunch expects the number of victims to rise."
       },
       "sources": [
         {
@@ -117,16 +125,16 @@
       "verified": true,
       "eventDate": "2026-11-10",
       "title": {
-        "cs": "Google Cloud uvedl Gemini for healthcare pro zdravotníky",
+        "cs": "Google Cloud představil Gemini for healthcare zatím jako náhled",
         "en": "Google Cloud launches Gemini for healthcare in preview"
       },
       "summary": {
-        "cs": "Google Cloud 10. listopadu oznámil Gemini for healthcare, AI pro zdravotnické organizace. Propojuje zdravotní záznamy, fakturaci, klinická doporučení a data Medicare a provádí vícekrokové úkoly, třeba souhrn zdravotní dokumentace nebo posouzení žádosti o schválení péče. Je v náhledu; partnery jsou HCA Healthcare, Highmark Health a Northwell Health.",
-        "en": "On November 10, Google Cloud announced Gemini for healthcare, AI for health organizations. It joins health records, billing, clinical guidelines, and Medicare data and runs multi-step tasks, such as summarizing medical records or reviewing care-approval requests. It is in preview; launch partners include HCA Healthcare, Highmark Health, and Northwell Health."
+        "cs": "Google Cloud 10. listopadu oznámil Gemini for healthcare, AI pro zdravotnické organizace. Propojuje zdravotní záznamy, fakturaci, klinická doporučení a data Medicare (americké veřejné pojištění) a provádí vícekrokové úkoly, třeba souhrn zdravotní dokumentace nebo posouzení žádosti o schválení péče. Je v náhledu; mezi prvními partnery jsou HCA Healthcare, Highmark Health a Northwell Health.",
+        "en": "On November 10, Google Cloud announced Gemini for healthcare, AI for health organizations. It joins health records, billing, clinical guidelines, and Medicare (US public insurance) data and runs multi-step tasks, such as summarizing medical records or reviewing care-approval requests. It is in preview; launch partners include HCA Healthcare, Highmark Health, and Northwell Health."
       },
       "why": {
-        "cs": "Je určen zdravotnickým týmům, ne pacientům, a zatím jen v náhledu. Google uvádí, že lékaři ztrácejí papírováním téměř 28 hodin týdně; AI jedná v daných mezích a pod lidským dohledem.",
-        "en": "It is for healthcare teams, not patients, and only in preview. Google says clinicians lose nearly 28 hours a week to paperwork; the AI acts within set guardrails and with human oversight."
+        "cs": "Je určen zdravotnickým týmům, ne pacientům, a zatím jen v náhledu. Podle Googlu ztrácejí zdravotníci papírováním téměř 28 hodin týdně; AI má podle něj dodržovat stanovená pravidla a podléhat dohledu člověka.",
+        "en": "It is for healthcare teams, not patients, and only in preview. Google says clinicians lose nearly 28 hours a week to paperwork; per Google the AI follows set guardrails and stays under human oversight."
       },
       "sources": [
         {
@@ -146,12 +154,12 @@
         "en": "IBM’s LLMON format aims to stop injected instructions"
       },
       "summary": {
-        "cs": "IBM 12. listopadu vydala na Hugging Face dva experimentální modely Granite 4.1 (3B a 8B) učené číst značkovací formát LLMON, který odděluje pokyny od dat. Podle IBM prakticky vyřadil úspěšné útoky typu prompt injection v testu OPI, aniž zhoršil obecné schopnosti; testovány byly jen statické útoky.",
-        "en": "On November 12, IBM released two experimental Granite 4.1 preview models (3B and 8B) on Hugging Face, trained to read LLMON, a markup format that keeps instructions apart from data. Per IBM, it practically eliminated successful prompt injection attacks on the OPI test without hurting general ability; only static attacks were tested."
+        "cs": "IBM 12. listopadu vydala na Hugging Face dva experimentální modely Granite 4.1 s formátem LLMON, který odděluje pokyny od dat. Podle IBM většinou ignorují skryté pokyny v datech (nepřímý prompt injection) a v některých testech klesla úspěšnost útoků téměř na nulu; obecné schopnosti zůstaly jako u běžného Granite 4.1. Testovány byly jen předem připravené útoky.",
+        "en": "On November 12, IBM released two experimental Granite 4.1 models on Hugging Face with LLMON, a format that keeps instructions apart from data. Per IBM, they mostly ignore instructions hidden in data (indirect prompt injection); in some tests attack success fell to nearly zero, with general ability on par. Only pre-built attacks were tested."
       },
       "why": {
-        "cs": "Údaje jsou od IBM a z jednoho typu testů; vícekolové (adaptivní) útoky IBM teprve řeší. K formátu patří i nástroje pro převod z JSONu; modely jsou náhledy, ne hotový produkt.",
-        "en": "The figures come from IBM and one type of test; IBM is still working on adaptive attacks spread over many turns. Converters from JSON exist; the models are previews, not a finished product."
+        "cs": "Skryté pokyny jsou slabinou AI agentů. Údaje jsou od IBM; jde o naučené chování, ne záruku, vícekolové útoky IBM teprve řeší a modely nejsou pro produkci.",
+        "en": "Hidden instructions are a main weakness of AI agents. The figures are IBM’s; it is learned behavior, not a guarantee, multi-turn attacks are still being worked on, and the models are not for production."
       },
       "sources": [
         {
@@ -167,16 +175,16 @@
       "verified": true,
       "eventDate": "2026-11-10",
       "title": {
-        "cs": "Gemini Intelligence dorazí na Pixely 10 a novou Motorolu",
+        "cs": "Gemini Intelligence přichází na Pixely 10 a novou Motorolu",
         "en": "Gemini Intelligence reaches Pixel 10 and a new Motorola"
       },
       "summary": {
-        "cs": "Google 10. listopadu rozšířil Gemini Intelligence, balík AI funkcí pro Android, na Pixely 10 a novou Motorolu signature 27 (předobjednávky v USA od 19. 11.). Přidává diktování Rambler, automatizaci úkolů, například objednání jídla, i ve Velké Británii, Indii a Japonsku a za pár týdnů widgety vytvořené popisem.",
-        "en": "On November 10, Google extended Gemini Intelligence, a set of AI features for Android, to Pixel 10 and the new motorola signature 27 (US pre-orders from November 19). It adds Rambler dictation, task automation such as ordering food in the UK, India, and Japan, and, within weeks, widgets built from a description."
+        "cs": "Google 10. listopadu rozšířil Gemini Intelligence, balík AI funkcí pro Android, na Pixely 10 a novou Motorolu signature 27 (předobjednávky v USA od 19. 11.). Přidává diktování Rambler a za pár týdnů widgety vytvořené popisem; automatizace úkolů, například objednání jídla, se rozšiřuje do Velké Británie, Indie a Japonska.",
+        "en": "On November 10, Google extended Gemini Intelligence, a set of AI features for Android, to Pixel 10 and the new motorola signature 27 (US pre-orders from November 19). It adds Rambler dictation and, within weeks, widgets built from a description; task automation, such as ordering food, is expanding to the UK, India, and Japan."
       },
       "why": {
-        "cs": "Funkce se zavádějí postupně a jen ve vybraných zemích a jazycích; zda dorazí do Česka, Google v příspěvku neuvádí. Pomocník Device Assistance vyžaduje Android 17 nebo novější.",
-        "en": "Features roll out gradually and only in selected countries and languages; the post does not say whether they reach Czechia. The Device Assistance helper needs Android 17 or later."
+        "cs": "Funkce se zavádějí postupně a jen ve vybraných zemích a jazycích; zda dorazí do Česka, Google neuvádí. Část je od 18 let a při větším používání může vyžadovat předplatné.",
+        "en": "Features roll out gradually and only in selected countries and languages; Google does not say whether they reach Czechia. Some are for ages 18+ and may need a subscription for heavier use."
       },
       "sources": [
         {
@@ -192,16 +200,16 @@
       "verified": true,
       "eventDate": "2026-11-13",
       "title": {
-        "cs": "DeepMind zveřejnila data stojící za svými modely počasí",
-        "en": "DeepMind opens datasets behind its AI weather models"
+        "cs": "DeepMind otevřela dvě datové sady modelu WeatherNext 3",
+        "en": "DeepMind opens two datasets behind WeatherNext 3"
       },
       "summary": {
-        "cs": "Google DeepMind 13. listopadu zveřejnil dvě datové sady za modelem WeatherNext 3: SatWeave, hodinový globální snímek z družic, a PARDIG, AI mapu srážek světa po 15 minutách s rozlišením asi 10 km. Podle DeepMindu detekuje slabý až střední déšť o více než 30 % lépe než NASA IMERG-Final.",
-        "en": "On November 13, Google DeepMind released two datasets behind its WeatherNext 3 model: SatWeave, an hourly global mosaic of satellite imagery, and PARDIG, an AI map of rainfall worldwide every 15 minutes at about 10 km resolution. Per DeepMind, PARDIG detects light to moderate rain over 30% better than NASA’s IMERG-Final."
+        "cs": "Google DeepMind 13. listopadu zveřejnil dvě datové sady modelu WeatherNext 3: SatWeave, hodinový globální snímek z družic, a PARDIG, AI mapu srážek světa po 15 minutách (rozlišení asi 10 km, prodleva asi pět hodin). Podle DeepMindu je skóre detekce slabého až středního deště o více než 30 % vyšší než u NASA IMERG-Final.",
+        "en": "On November 13, Google DeepMind released two WeatherNext 3 datasets: SatWeave, an hourly global mosaic of satellite imagery, and PARDIG, an AI map of rainfall worldwide every 15 minutes (about 10 km, about five hours’ delay). Per DeepMind, its detection score for light to moderate rain is over 30% above NASA’s IMERG-Final."
       },
       "why": {
-        "cs": "Data jsou volně dostupná na Google Cloud Storage, historii PARDIG i v Earth Engine; hodí se výzkumníkům a vývojářům předpovědí záplav a sucha. Srovnání s radary a stanicemi provedl DeepMind sám.",
-        "en": "The data are openly available on Google Cloud Storage, PARDIG history also in Earth Engine; useful for researchers and developers of flood and drought forecasts. DeepMind ran the comparison with radars and stations itself."
+        "cs": "Data jsou otevřeně dostupná na Google Cloud Storage, historie PARDIG i v Earth Engine; hodí se výzkumníkům a vývojářům modelů záplav a sucha. Přesnost srovnal s pozemními radary a stanicemi DeepMind sám.",
+        "en": "The data are openly available on Google Cloud Storage, PARDIG history also in Earth Engine; useful for researchers and builders of flood and drought models. DeepMind itself compared accuracy with ground radars and stations."
       },
       "sources": [
         {
@@ -217,16 +225,16 @@
       "verified": true,
       "eventDate": "2026-11-09",
       "title": {
-        "cs": "Google AI Studio: mapy do aplikace bez platební karty",
-        "en": "AI Studio adds Google Maps with no credit card"
+        "cs": "AI Studio: Google Maps Platform na zkoušku bez karty",
+        "en": "AI Studio: try Google Maps Platform without a card"
       },
       "summary": {
-        "cs": "Google 9. listopadu oznámil, že Google Maps Platform lze používat přímo v Google AI Studiu. Popíšeš aplikaci s reálným místem, třeba 3D prohlídku New Yorku, AI Studio propojí klíč a hned ukáže živý náhled. Začátek nevyžaduje platební kartu; zdarma platí denní kvóty.",
-        "en": "Google said on November 9 that Google Maps Platform can be used directly inside Google AI Studio. You describe an app with a real-world place, such as a 3D tour of New York, and AI Studio connects the key and loads a live preview. Starting needs no credit card; free use has daily quotas."
+        "cs": "Google 9. listopadu oznámil, že Google Maps Platform lze používat přímo v Google AI Studiu. Popíšeš aplikaci s reálným místem, třeba 3D prohlídku New Yorku, AI Studio propojí mapy a hned ukáže živý náhled. Začít jde bez platební karty a zdarma do denních limitů.",
+        "en": "Google said on November 9 that Google Maps Platform works inside Google AI Studio. You describe an app with a real-world place, such as a 3D tour of New York, and AI Studio connects the maps and loads a live preview. You can start without a credit card, free up to daily limits."
       },
       "why": {
-        "cs": "V AI Studiu popiš nápad s reálným místem a zapni Google Maps; AI Studio může napojit i tvůj existující projekt Google Cloud. Pro ostrý provoz je nutný placený účet Cloud Billing.",
-        "en": "In AI Studio, describe an idea with a real-world place and turn on Google Maps; AI Studio can also link your existing Google Cloud project. Production use requires a paid Cloud billing account."
+        "cs": "V AI Studiu popiš nápad s reálným místem a povol Google Maps (AI Studio může napojit i tvůj projekt Google Cloud). Pro ostré nasazení je nutný placený účet Google Cloud.",
+        "en": "In AI Studio, describe an idea with a real-world place and enable Google Maps (AI Studio can also link your existing Google Cloud project). Production use needs a paid Google Cloud billing account."
       },
       "sources": [
         {
@@ -242,16 +250,16 @@
       "verified": true,
       "eventDate": "2026-10-27",
       "title": {
-        "cs": "Researcher v Copilotu umí čerpat z Canvy",
-        "en": "Researcher in Copilot can now draw on Canva"
+        "cs": "Microsoft 365 Copilot: Researcher umí čerpat z Canvy",
+        "en": "Microsoft 365 Copilot: Researcher can now draw on Canva"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání z 27. října uvádí, že agent Researcher v Microsoft Copilotu podporuje konektor Canva: obsah z propojené Canvy můžeš zahrnout do rešerše, aniž přepínáš mezi aplikacemi. Funkce je zatím označená jen pro web.",
-        "en": "In its October 27 release notes, Microsoft says the Researcher agent in Microsoft Copilot supports the Canva connector: you can include content from a connected Canva account in your research without switching apps. The feature is so far marked for the web only."
+        "cs": "Microsoft v poznámkách k vydání (úsek do 27. října) uvádí, že agent Researcher v Microsoft 365 Copilotu podporuje konektor Canva: obsah z propojené Canvy můžeš zahrnout do rešerše, aniž přepínáš mezi aplikacemi. Funkce je zatím označená jen pro web.",
+        "en": "In its release notes (section through October 27), Microsoft says the Researcher agent in Microsoft 365 Copilot supports the Canva connector: you can include content from a connected Canva account in your research without switching apps. The feature is so far listed as web-only."
       },
       "why": {
-        "cs": "V Researcheru spusť rešerši a zvol konektor Canva, pokud je u tebe dostupný. Poznámky licenci neuvádějí; konektor musí být v prostředí zapnutý.",
-        "en": "In Researcher start a research task and pick the Canva connector if it is available to you. The notes name no license; the connector must be enabled in your environment."
+        "cs": "Otevři Researcher, začni rešerši a zvol konektor Canva, pokud je u tebe dostupný; vrácený obsah z Canvy použij ve výsledku. Poznámky neuvádějí, jaké předplatné je potřeba; konektor musí být ve tvém prostředí zapnutý.",
+        "en": "Open Researcher, start a research task, pick the Canva connector if available, and use the returned content. The notes do not say which subscription is needed; the connector must be enabled in your environment."
       },
       "sources": [
         {
@@ -267,21 +275,25 @@
       "verified": true,
       "eventDate": "2026-11-04",
       "title": {
-        "cs": "Dotovi z ChatGPT odpovíš na iOS rovnou z notifikace",
-        "en": "Reply to your ChatGPT dot from an iOS notification"
+        "cs": "Agentovi dot v ChatGPT odpovíš na iOS z notifikace",
+        "en": "Reply to a ChatGPT dot from an iOS notification"
       },
       "summary": {
-        "cs": "OpenAI v týdnu 2.–6. listopadu umožnil na iOS odpovědět dotu z notifikace nebo mu poslat obsah z jiné aplikace. Otevření konverzace z notifikace je rychlejší, odkazy na Gmail se otevřou v aplikaci Gmail nebo v prohlížeči a na podporovaných iPhonech jde dota otevřít tlačítkem Action.",
-        "en": "In the week of November 2–6, OpenAI let iOS users reply to their dot from a notification or share content from another app. Opening the conversation from a notification loads faster, supported Gmail links open in the Gmail app or browser, and on supported iPhones the Action button can open your dot."
+        "cs": "OpenAI v týdnu 2.–6. listopadu umožnil na iOS odpovědět dotu, osobnímu agentovi v ChatGPT, z notifikace nebo mu poslat obsah z jiné aplikace. Otevření konverzace z notifikace je rychlejší, odkazy na Gmail se otevřou v aplikaci Gmail a tlačítkem Action jde dota otevřít.",
+        "en": "In the week of November 2–6, OpenAI let iOS users reply to their dot, a personal agent in ChatGPT, from a notification or share content to it from another app. Opening a conversation from a notification is faster, supported Gmail links open in the Gmail app, and the Action button can open your dot."
       },
       "why": {
-        "cs": "Na iOS odpovíš dotu z notifikace a obsah z jiné aplikace mu pošleš přes sdílení. Tlačítko Action na podporovaných iPhonech lze nastavit k otevření dota. Oprávněné prostory Enterprise, Edu a Healthcare mohou dots zapnout.",
-        "en": "On iOS, reply to your dot from a notification or share content to it from another app. Set the Action button on supported iPhones to open it. Enterprise, Edu, and Healthcare workspaces can enable dots."
+        "cs": "Tlačítko Action: v Zkratkách přidej akci „Open your dot“ a vyber ji v Nastavení. Dots mají zatím ChatGPT Pro mimo EHP, UK a Švýcarsko (v Česku ne), Business Premium podle regionu a firemní prostory.",
+        "en": "Action button: in Shortcuts add the “Open your dot” action and pick it in Settings. Dots are on ChatGPT Pro outside the EEA, UK, and Switzerland (not Czechia), Business Premium by region, and workspace plans."
       },
       "sources": [
         {
           "name": "OpenAI",
           "url": "https://learn.chatgpt.com/codex/whats-new/november-2-6-2026"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/codex/dots/channels"
         }
       ]
     },
@@ -292,21 +304,25 @@
       "verified": true,
       "eventDate": "2026-11-13",
       "title": {
-        "cs": "Claude Code: naplánované úlohy se ptají před spuštěním skillu",
+        "cs": "Claude Code: naplánované úlohy se ptají před některými skilly",
         "en": "Claude Code: scheduled tasks ask before running some skills"
       },
       "summary": {
-        "cs": "Claude Code od verze 2.1.325 (13. listopadu) se u naplánovaných úloh a příkazu /loop zeptá před spuštěním skillu, který deklaruje allowed-tools nebo hooky. Aby skill běžel bez dozoru, přidej Skill(název) do permissions.allow. Verzi zjistíš příkazem claude --version.",
-        "en": "From version 2.1.325 (November 13), Claude Code asks before a scheduled task or /loop runs a skill that declares allowed-tools or hooks. To let the skill run unattended, add Skill(name) to permissions.allow. Check your version with claude --version."
+        "cs": "Pro vývojáře: Claude Code, Anthropicův nástroj pro programování s AI, se od verze 2.1.325 (13. listopadu) u naplánovaných úloh a příkazu /loop zeptá před spuštěním skillu, který deklaruje allowed-tools nebo hooky. Aby skill běžel bez dozoru, přidej Skill(název) do permissions.allow. Verzi zjistíš příkazem claude --version.",
+        "en": "For developers: from version 2.1.325 (November 13), Claude Code, Anthropic’s AI coding tool, asks before a scheduled task or /loop runs a skill that declares allowed-tools or hooks. To let the skill run unattended, add Skill(name) to permissions.allow. Check your version with claude --version."
       },
       "why": {
-        "cs": "Týká se úloh bez dozoru: bez pravidla v permissions.allow mohou čekat na tvé schválení. Pravidlo přidej jen u skillů, kterým věříš.",
-        "en": "This affects unattended tasks: without a rule in permissions.allow they may wait for your approval. Add the rule only for skills you trust."
+        "cs": "Pravidlo přidáš příkazem /permissions nebo do permissions.allow v souboru settings.json. Týká se úloh bez dozoru: bez pravidla mohou čekat na tvé schválení. Přidávej ho jen u skillů, kterým věříš.",
+        "en": "Add the rule with /permissions or in permissions.allow in settings.json. It affects unattended tasks: without the rule they may wait for your approval. Add it only for skills you trust."
       },
       "sources": [
         {
           "name": "Anthropic",
           "url": "https://code.claude.com/docs/en/changelog"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/permissions"
         }
       ]
     }
@@ -319,8 +335,8 @@
         "en": "GitHub retires three models from GitHub Copilot"
       },
       "note": {
-        "cs": "16. listopadu GitHub vyřadí z Copilotu Opus 4.8 a Opus 5 (náhrada: Opus 5.5) i GPT-5.6 Terra (náhrada: GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane dostupný ročním individuálním předplatitelům.",
-        "en": "On November 16, GitHub retires Opus 4.8, Opus 5 (alternative: Opus 5.5), and GPT-5.6 Terra (alternatives: GPT-6.1 Sol or GPT-6 Luna) from Copilot. Opus 4.8 stays for individual annual subscribers."
+        "cs": "16. listopadu GitHub vyřadí modely Claude Opus 4.8 a Opus 5 (náhrada: Opus 5.5) i GPT-5.6 Terra (náhrada: GPT-6.1 Sol či GPT-6 Luna). Opus 4.8 zůstane ročním individuálním předplatitelům.",
+        "en": "On November 16, GitHub retires Claude Opus 4.8, Opus 5 (alternative: Opus 5.5), and GPT-5.6 Terra (alternatives: GPT-6.1 Sol or GPT-6 Luna). Opus 4.8 stays for individual annual subscribers."
       },
       "sources": [
         {
@@ -417,8 +433,8 @@
         "en": "EU: companies must meet nudifier-app ban by December 2"
       },
       "note": {
-        "cs": "Od 2. prosince 2026 platí zákaz AI aplikací na „svlékání“ lidí bez souhlasu a povinné označování AI obsahu i u starších systémů. Zákon schválila Rada EU 29. 6.",
-        "en": "From December 2, 2026 AI apps that “undress” people without consent are banned, and labelling of AI content applies to older systems too. Council approved the law June 29."
+        "cs": "Firmy mají do 2. prosince 2026 čas splnit zákaz AI aplikací na „svlékání“ lidí bez souhlasu a strojově čitelně označovat AI obsah i u starších systémů. Zákon schválen 29. 6.",
+        "en": "Companies have until December 2, 2026 to meet the ban on AI apps that “undress” people without consent and to label AI content machine-readably, older systems included. Adopted June 29."
       },
       "sources": [
         {
@@ -461,8 +477,8 @@
         "en": "GitHub: six models leave Copilot on December 14"
       },
       "note": {
-        "cs": "GitHub 13. listopadu oznámil konec šesti modelů, mj. Claude Fable 5 a Gemini 4 Argon; doporučuje nové verze (za Kimi K3 zatím žádnou). Ročním individuálním předplatitelům zůstane Haiku 4.5.",
-        "en": "GitHub says six models end, including Claude Fable 5 and Gemini 4 Argon, and suggests newer ones (none yet for Kimi K3). Annual individual subscribers keep Haiku 4.5."
+        "cs": "GitHub 13. listopadu oznámil konec šesti modelů 14. prosince, mj. Claude Fable 5 a Gemini 4 Argon; doporučuje náhrady (pro Kimi K3 zatím žádnou). Ročním individuálním předplatitelům zůstane Haiku 4.5.",
+        "en": "GitHub says six models end December 14, including Claude Fable 5 and Gemini 4 Argon, and suggests replacements (none yet for Kimi K3). Annual individual subscribers keep Haiku 4.5."
       },
       "sources": [
         {

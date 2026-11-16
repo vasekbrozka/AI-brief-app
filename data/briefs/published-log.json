@@ -2443,58 +2443,58 @@
     {
       "slug": "2026-11-16-apple-health-ai-usage-study-openevidence",
       "date": "2026-11-16",
-      "topic": "Apple 15. 11. (apple.com/newsroom, TechCrunch 15. 11., The Verge 16. 11.): Apple Health AI Usage Study — studie a nová aplikace v USA ve spolupráci s OpenEvidence (zdravotní otázky, odpovědi s odkazy na recenzované studie, hodnocení odpovědí, měsíční dotazníky podle TechCrunch); 21+, iPhone 15 Pro či novější s iOS 26, až 200 000 účastníků; sdílení údajů z HealthKitu dobrovolné, data studie se netrénují; nejasné, zda přijde do Siri či Zdraví; Verge uvádí, že aplikace nepoužívá Apple Intelligence, Apple píše o iPhonu s Apple Intelligence (nezmíněno)"
+      "topic": "Apple 15. 11. (apple.com/newsroom, TechCrunch 15. 11., The Verge 16. 11.): Apple Health AI Usage Study — studie a nová aplikace v USA ve spolupráci s OpenEvidence (zdravotní otázky, odpovědi s odkazy na recenzované studie, hodnocení odpovědí podle Verge/TechCrunch, měsíční dotazníky podle TechCrunch); 21+, iPhone 15 Pro či novější s iOS 26 či novější, až 200 000 účastníků; sdílení údajů z HealthKitu dobrovolné, data studie se netrénují; aplikace nemá diagnostikovat ani léčit (Apple); nejasné, zda přijde do Siri či Zdraví (TechCrunch); Verge uvádí, že aplikace nepoužívá Apple Intelligence, Apple píše o iPhonu s Apple Intelligence (v textu nezmíněno)"
     },
     {
       "slug": "2026-11-16-congress-ai-chip-export-huang-testimony",
       "date": "2026-11-16",
-      "topic": "Kongres USA 12.–15. 11. (ABC News 13. 11., MIT Technology Review 12. 11., The Verge 15. 11.; Reuters přes Verge): po rezignaci šéfa Nvidie Jensena Huanga tlak na přísnější vývoz AI čipů do Číny — Senátní bankovní výbor (Tim Scott) žádá veřejnou výpověď Huanga (3. 12., jinak předvolání) a ministra obchodu Lutnicka (Commerce: dobrovolně vystoupí); sněmovní výbory žádají neveřejný rozhovor s Huangem 1. 12. (jednání probíhají) a s právníkem Nvidie 2. 12.; Chip Security Act (sledování polohy čipů) jedním ze tří návrhů pro obranný zákon NDAA; podle poslance Fostera Nvidia soukromě řekla, že to technicky jde (nic písemně, Nvidia se nevyjádřila), asociace SIA v březnu: „možná neproveditelné“; Johnson: „rostoucí shoda“; žádosti a návrhy, ne pravidla"
+      "topic": "Kongres USA 12.–15. 11. (ABC News 13. 11., MIT Technology Review 12. 11., The Verge 15. 11.; Reuters přes Verge): po rezignaci šéfa Nvidie Jensena Huanga a zprávách o jeho vztahu s údajnou čínskou špiónkou tlak na přísnější vývoz AI čipů do Číny (podle Verge podpora obou stran) — Senátní bankovní výbor (Tim Scott, republikán) žádá veřejnou výpověď Huanga (3. 12., jinak předvolání) a ministra obchodu Lutnicka (resort: vystoupí dobrovolně); sněmovní výbory (Mast, Crawford, Moolenaar) žádají neveřejný rozhovor s Huangem 1. 12. (jednání probíhají) a s právníkem Nvidie 2. 12.; Chip Security Act (sledování polohy čipů) jedním ze tří návrhů pro obranný zákon NDAA; podle demokratického poslance Fostera (spoluautor) Nvidia soukromě řekla, že to technicky jde (nic písemně, Nvidia se nevyjádřila), asociace SIA v březnu: „možná neproveditelné“; Johnson: „rostoucí shoda“ (v textu nevyužito); žádosti a návrhy, ne pravidla; navazuje na 13. 11."
     },
     {
       "slug": "2026-11-16-uber-drivers-licenses-fireworks-ai-breach",
       "date": "2026-11-16",
-      "topic": "TechCrunch 13. 11. + oznámení Uberu u kalifornského úřadu pro ochranu spotřebitele (oag.ca.gov, dopis z 10. 11.): Uber oznamuje tisícům řidičů krádež osobních údajů včetně řidičských průkazů při říjnovém útoku na dodavatele (dodavatel upozornil 9. 10.; podle TechCrunche a Uberu Fireworks AI) — MA 2 567, SC 3 430, RI 1 873 (součet 7 870), Illinois a Kalifornie bez čísel, čísla mají růst; Uber nabízí bezplatné sledování úvěru (Cyberscout/TransUnion, zápis do 90 dnů); Fireworks útok připisuje skupině prodávající přístup k modelům; navazuje na 10. 11."
+      "topic": "TechCrunch 13. 11. + oznámení Uberu u kalifornského generálního prokurátora (oag.ca.gov, vzorový dopis z 10. 11.): Uber oznamuje tisícům řidičů krádež osobních údajů včetně řidičských průkazů při říjnovém útoku na dodavatele (dodavatel upozornil 9. 10.; Fireworks AI uvádí TechCrunch a mluvčí Uberu, oficiální oznámení dodavatele nejmenuje) — oznámení států MA 2 567, SC 3 430, RI 1 873 (součet 7 870), Illinois a Kalifornie bez čísel, podle TechCrunche počet poroste; Uber celkový počet nesdělil; bezplatné sledování změn v úvěrové historii (Cyberscout/TransUnion, zápis do 90 dnů od data dopisu), zneužití zatím nezjištěno (dopis); LLMjacking v textu není (jen v bulletinu Fireworks z 10. 11.); navazuje na 10. 11."
     },
     {
       "slug": "2026-11-16-google-cloud-gemini-for-healthcare",
       "date": "2026-11-16",
-      "topic": "Google Cloud 10. 11. (blog Google): Gemini for healthcare — AI pro zdravotnické organizace, spojuje zdravotní záznamy, fakturaci, klinická doporučení a data Medicare; vícekrokové úkoly (souhrn dokumentace, posouzení předchozího schválení péče) s lidským dohledem; náhled; partneři HCA Healthcare, Highmark Health, Northwell Health; Google: lékaři ztrácejí téměř 28 hodin týdně papírováním"
+      "topic": "Google Cloud 10. 11. (blog Google): Gemini for healthcare — AI pro zdravotnické organizace, spojuje zdravotní záznamy, fakturaci, klinická doporučení a data Medicare; vícekrokové úkoly (souhrn dokumentace, posouzení předchozího schválení péče); náhled; mezi prvními partnery HCA Healthcare, Highmark Health, Northwell Health; podle Googlu zdravotníci ztrácejí téměř 28 hodin týdně papírováním a AI má dodržovat stanovená pravidla pod dohledem člověka"
     },
     {
       "slug": "2026-11-16-ibm-granite-llmon-prompt-injection",
       "date": "2026-11-16",
-      "topic": "IBM 12. 11. (blog Hugging Face, IBM Granite): LLMON (LLM Object Notation) — značkovací formát oddělující pokyny od dat; dva experimentální náhledové modely granite-4.1-3b/8b-LLMON-preview + toolkit na GitHubu a převodníky z JSONu; podle IBM test OPI: útoky prakticky vyřazeny (o 47 % víc odražených útoků než nejlepší testovaný špičkový model, o 95 % než nejlepší open source — v textu nevyužito), obecné schopnosti na úrovni Granite 4.1 Instruct; jen statické útoky, adaptivní vícekolové IBM teprve řeší"
+      "topic": "IBM 12. 11. (blog Hugging Face, IBM Granite): LLMON (LLM Object Notation) — značkovací formát oddělující pokyny od dat; dva experimentální náhledové modely granite-4.1-3b/8b-LLMON-preview (ne pro produkci) + toolkit na GitHubu a převodníky z JSONu; podle IBM většinou ignorují nepřímé skryté pokyny v datech, v testu OPI téměř nulová úspěšnost útoků (o 47 % víc odražených útoků než nejlepší testovaný špičkový model, o 95 % než nejlepší open source — v textu nevyužito), obecné schopnosti na úrovni Granite 4.1 Instruct; jen statické útoky, adaptivní vícekolové IBM teprve řeší; naučené chování, ne vynucená záruka"
     },
     {
       "slug": "2026-11-16-google-gemini-intelligence-pixel-10-motorola",
       "date": "2026-11-16",
-      "topic": "Google 10. 11. (blog Google): Gemini Intelligence na dalších zařízeních — Pixel 10, 10 Pro XL, 10 Pro Fold (Pixel Drop) a motorola signature 27 (předobjednávky v USA 19. 11.); Rambler (diktování), automatizace úkolů ve Velké Británii, Indii, Japonsku, Create My Widget (během několika týdnů, později Pixel Watch), Device Assistance (Android 17+), návrhy v Android Auto brzy; jen vybrané země a jazyky"
+      "topic": "Google 10. 11. (blog Google): Gemini Intelligence na dalších zařízeních — Pixel 10, 10 Pro XL, 10 Pro Fold (Pixel Drop) a motorola signature 27 (předobjednávky v USA 19. 11.); Rambler (diktování), automatizace úkolů se rozšiřuje do Velké Británie, Indie, Japonska, Create My Widget (během několika týdnů, později Pixel Watch), Device Assistance (Android 17+, v textu nezmíněno), návrhy v Android Auto brzy; jen vybrané země a jazyky, část 18+ a při větším používání předplatné"
     },
     {
       "slug": "2026-11-16-deepmind-pardig-satweave-weather-datasets",
       "date": "2026-11-16",
-      "topic": "Google DeepMind 13. 11. (blog DeepMind; datePublished 13. 11., sweep uváděl 10. 11.): datové sady SatWeave (hodinový globální mozaikový snímek z geostacionárních družic, 17 kanálů, archiv přes deset let) a PARDIG (AI srážky celého světa po 15 minutách, ~10 km, zpoždění asi 5 hodin, archiv 1999–2026) za modelem WeatherNext 3; podle DeepMindu PARDIG o více než 30 % lépe detekuje slabé až střední srážky než NASA IMERG-Final; volně na Google Cloud Storage, PARDIG i v Earth Engine; text blogu uvádí pět družic, popisek šest — počet v textu vynechán"
+      "topic": "Google DeepMind 13. 11. (blog DeepMind; datePublished 13. 11., sweep uváděl 10. 11.): datové sady SatWeave (hodinový globální mozaikový snímek z geostacionárních družic, 17 kanálů, archiv přes deset let) a PARDIG (AI srážky celého světa po 15 minutách, ~10 km, prodleva asi 5 hodin, archiv 1999–2026) za modelem WeatherNext 3; podle DeepMindu je skóre detekce (Critical Success Index) slabých až středních srážek o více než 30 % vyšší než u NASA IMERG-Final; otevřeně na Google Cloud Storage, PARDIG i v Earth Engine; text blogu uvádí pět družic, popisek šest — počet v textu vynechán"
     },
     {
       "slug": "2026-11-16-tip-google-ai-studio-maps-platform",
       "date": "2026-11-16",
-      "topic": "tip: Google AI Studio — Google Maps Platform přímo v AI Studiu (blog Google 9. 11.; popis aplikace s reálným místem → AI Studio propojí klíč a ukáže živý náhled; bez platební karty do denních kvót; existující projekt Google Cloud lze propojit; ostrý provoz vyžaduje placený účet) — z banky"
+      "topic": "tip: Google AI Studio — Google Maps Platform přímo v AI Studiu (blog Google 9. 11.; popis aplikace s reálným místem → AI Studio propojí klíč a ukáže živý náhled; bez platební karty do denních limitů; existující projekt Google Cloud lze propojit; ostré nasazení vyžaduje placený účet) — z banky"
     },
     {
       "slug": "2026-11-16-tip-m365-copilot-researcher-canva",
       "date": "2026-11-16",
-      "topic": "tip: Microsoft 365 Copilot — Researcher podporuje konektor Canva (poznámky k vydání, úsek z 27. 10.; jen web; konektor musí být v prostředí dostupný a zapnutý; kroky: Researcher → rešerše → konektor Canva → použít vrácený obsah) — z banky"
+      "topic": "tip: Microsoft 365 Copilot — Researcher podporuje konektor Canva (poznámky k vydání, úsek 13.–27. 10.; jen web; konektor musí být v prostředí dostupný a zapnutý; kroky: Researcher → rešerše → konektor Canva → použít vrácený obsah; předplatné poznámky neuvádějí) — z banky"
     },
     {
       "slug": "2026-11-16-tip-chatgpt-dot-ios-reply-notification",
       "date": "2026-11-16",
-      "topic": "tip: ChatGPT dots na iOS — odpověď z notifikace a sdílení obsahu z jiné aplikace (týdenní přehled OpenAI 2.–6. 11., záznam ze 4. 11.; rychlejší otevření konverzace, odkazy na Gmail, tlačítko Action; prostory Enterprise, Edu a Healthcare mohou dots zapnout, fakturace Enterprise od 18. 11.) — z banky"
+      "topic": "tip: ChatGPT dots na iOS — odpověď z notifikace a sdílení obsahu z jiné aplikace (týdenní přehled OpenAI 2.–6. 11., záznam ze 4. 11.; rychlejší otevření konverzace, odkazy na Gmail); tlačítko Action přes Zkratky: akce „Open your dot“ (dokumentace OpenAI, dots/channels); dostupnost: Pro mimo EHP, UK a Švýcarsko (v Česku ne), Business Premium podle regionu, Enterprise/Edu/Healthcare (výchozí zapnuto od 18. 11.) — z banky"
     },
     {
       "slug": "2026-11-16-tip-claude-code-scheduled-tasks-skill-ask",
       "date": "2026-11-16",
-      "topic": "tip: Claude Code 2.1.325 (13. 11.) — naplánované úlohy a /loop se ptají před spuštěním skillu s allowed-tools nebo hooky; bez dozoru: Skill(název) do permissions.allow — z banky"
+      "topic": "tip: Claude Code 2.1.325 (13. 11.) — naplánované úlohy a /loop se ptají před spuštěním skillu s allowed-tools nebo hooky; bez dozoru: Skill(název) do permissions.allow (settings.json nebo /permissions; dokumentace Claude Code, permissions) — z banky"
     }
   ],
-  "updated": "2026-11-16T03:27:55Z"
+  "updated": "2026-11-16T03:54:58Z"
 }

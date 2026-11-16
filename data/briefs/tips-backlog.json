@@ -4609,16 +4609,16 @@
       "verified": true,
       "eventDate": "2026-10-27",
       "title": {
-        "cs": "Researcher v Copilotu umí čerpat z Canvy",
-        "en": "Researcher in Copilot can now draw on Canva"
+        "cs": "Microsoft 365 Copilot: Researcher umí čerpat z Canvy",
+        "en": "Microsoft 365 Copilot: Researcher can now draw on Canva"
       },
       "summary": {
-        "cs": "Microsoft v poznámkách k vydání z 27. října uvádí, že agent Researcher v Microsoft Copilotu podporuje konektor Canva: obsah z propojené Canvy můžeš zahrnout do rešerše, aniž přepínáš mezi aplikacemi. Funkce je zatím označená jen pro web.",
-        "en": "In its October 27 release notes, Microsoft says the Researcher agent in Microsoft Copilot supports the Canva connector: you can include content from a connected Canva account in your research without switching apps. The feature is so far marked for the web only."
+        "cs": "Microsoft v poznámkách k vydání (úsek do 27. října) uvádí, že agent Researcher v Microsoft 365 Copilotu podporuje konektor Canva: obsah z propojené Canvy můžeš zahrnout do rešerše, aniž přepínáš mezi aplikacemi. Funkce je zatím označená jen pro web.",
+        "en": "In its release notes (section through October 27), Microsoft says the Researcher agent in Microsoft 365 Copilot supports the Canva connector: you can include content from a connected Canva account in your research without switching apps. The feature is so far listed as web-only."
       },
       "why": {
-        "cs": "V Researcheru spusť rešerši a zvol konektor Canva, pokud je u tebe dostupný. Poznámky licenci neuvádějí; konektor musí být v prostředí zapnutý.",
-        "en": "In Researcher start a research task and pick the Canva connector if it is available to you. The notes name no license; the connector must be enabled in your environment."
+        "cs": "Otevři Researcher, začni rešerši a zvol konektor Canva, pokud je u tebe dostupný; vrácený obsah z Canvy použij ve výsledku. Poznámky neuvádějí, jaké předplatné je potřeba; konektor musí být ve tvém prostředí zapnutý.",
+        "en": "Open Researcher, start a research task, pick the Canva connector if available, and use the returned content. The notes do not say which subscription is needed; the connector must be enabled in your environment."
       },
       "sources": [
         {
@@ -5123,21 +5123,25 @@
       "verified": true,
       "eventDate": "2026-11-04",
       "title": {
-        "cs": "Dotovi z ChatGPT odpovíš na iOS rovnou z notifikace",
-        "en": "Reply to your ChatGPT dot from an iOS notification"
+        "cs": "Agentovi dot v ChatGPT odpovíš na iOS z notifikace",
+        "en": "Reply to a ChatGPT dot from an iOS notification"
       },
       "summary": {
-        "cs": "OpenAI v týdnu 2.–6. listopadu umožnil na iOS odpovědět dotu z notifikace nebo mu poslat obsah z jiné aplikace. Otevření konverzace z notifikace je rychlejší, odkazy na Gmail se otevřou v aplikaci Gmail nebo v prohlížeči a na podporovaných iPhonech jde dota otevřít tlačítkem Action.",
-        "en": "In the week of November 2–6, OpenAI let iOS users reply to their dot from a notification or share content from another app. Opening the conversation from a notification loads faster, supported Gmail links open in the Gmail app or browser, and on supported iPhones the Action button can open your dot."
+        "cs": "OpenAI v týdnu 2.–6. listopadu umožnil na iOS odpovědět dotu, osobnímu agentovi v ChatGPT, z notifikace nebo mu poslat obsah z jiné aplikace. Otevření konverzace z notifikace je rychlejší, odkazy na Gmail se otevřou v aplikaci Gmail a tlačítkem Action jde dota otevřít.",
+        "en": "In the week of November 2–6, OpenAI let iOS users reply to their dot, a personal agent in ChatGPT, from a notification or share content to it from another app. Opening a conversation from a notification is faster, supported Gmail links open in the Gmail app, and the Action button can open your dot."
       },
       "why": {
-        "cs": "Na iOS odpovíš dotu z notifikace a obsah z jiné aplikace mu pošleš přes sdílení. Tlačítko Action na podporovaných iPhonech lze nastavit k otevření dota. Oprávněné prostory Enterprise, Edu a Healthcare mohou dots zapnout.",
-        "en": "On iOS, reply to your dot from a notification or share content to it from another app. Set the Action button on supported iPhones to open it. Enterprise, Edu, and Healthcare workspaces can enable dots."
+        "cs": "Tlačítko Action: v Zkratkách přidej akci „Open your dot“ a vyber ji v Nastavení. Dots mají zatím ChatGPT Pro mimo EHP, UK a Švýcarsko (v Česku ne), Business Premium podle regionu a firemní prostory.",
+        "en": "Action button: in Shortcuts add the “Open your dot” action and pick it in Settings. Dots are on ChatGPT Pro outside the EEA, UK, and Switzerland (not Czechia), Business Premium by region, and workspace plans."
       },
       "sources": [
         {
           "name": "OpenAI",
           "url": "https://learn.chatgpt.com/codex/whats-new/november-2-6-2026"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/codex/dots/channels"
         }
       ],
       "added": "2026-11-07",
@@ -5521,16 +5525,16 @@
       "verified": true,
       "eventDate": "2026-11-09",
       "title": {
-        "cs": "Google AI Studio: mapy do aplikace bez platební karty",
-        "en": "AI Studio adds Google Maps with no credit card"
+        "cs": "AI Studio: Google Maps Platform na zkoušku bez karty",
+        "en": "AI Studio: try Google Maps Platform without a card"
       },
       "summary": {
-        "cs": "Google 9. listopadu oznámil, že Google Maps Platform lze používat přímo v Google AI Studiu. Popíšeš aplikaci s reálným místem, třeba 3D prohlídku New Yorku, AI Studio propojí klíč a hned ukáže živý náhled. Začátek nevyžaduje platební kartu; zdarma platí denní kvóty.",
-        "en": "Google said on November 9 that Google Maps Platform can be used directly inside Google AI Studio. You describe an app with a real-world place, such as a 3D tour of New York, and AI Studio connects the key and loads a live preview. Starting needs no credit card; free use has daily quotas."
+        "cs": "Google 9. listopadu oznámil, že Google Maps Platform lze používat přímo v Google AI Studiu. Popíšeš aplikaci s reálným místem, třeba 3D prohlídku New Yorku, AI Studio propojí mapy a hned ukáže živý náhled. Začít jde bez platební karty a zdarma do denních limitů.",
+        "en": "Google said on November 9 that Google Maps Platform works inside Google AI Studio. You describe an app with a real-world place, such as a 3D tour of New York, and AI Studio connects the maps and loads a live preview. You can start without a credit card, free up to daily limits."
       },
       "why": {
-        "cs": "V AI Studiu popiš nápad s reálným místem a zapni Google Maps; AI Studio může napojit i tvůj existující projekt Google Cloud. Pro ostrý provoz je nutný placený účet Cloud Billing.",
-        "en": "In AI Studio, describe an idea with a real-world place and turn on Google Maps; AI Studio can also link your existing Google Cloud project. Production use requires a paid Cloud billing account."
+        "cs": "V AI Studiu popiš nápad s reálným místem a povol Google Maps (AI Studio může napojit i tvůj projekt Google Cloud). Pro ostré nasazení je nutný placený účet Google Cloud.",
+        "en": "In AI Studio, describe an idea with a real-world place and enable Google Maps (AI Studio can also link your existing Google Cloud project). Production use needs a paid Google Cloud billing account."
       },
       "sources": [
         {
@@ -6074,21 +6078,25 @@
       "verified": true,
       "eventDate": "2026-11-13",
       "title": {
-        "cs": "Claude Code: naplánované úlohy se ptají před spuštěním skillu",
+        "cs": "Claude Code: naplánované úlohy se ptají před některými skilly",
         "en": "Claude Code: scheduled tasks ask before running some skills"
       },
       "summary": {
-        "cs": "Claude Code od verze 2.1.325 (13. listopadu) se u naplánovaných úloh a příkazu /loop zeptá před spuštěním skillu, který deklaruje allowed-tools nebo hooky. Aby skill běžel bez dozoru, přidej Skill(název) do permissions.allow. Verzi zjistíš příkazem claude --version.",
-        "en": "From version 2.1.325 (November 13), Claude Code asks before a scheduled task or /loop runs a skill that declares allowed-tools or hooks. To let the skill run unattended, add Skill(name) to permissions.allow. Check your version with claude --version."
+        "cs": "Pro vývojáře: Claude Code, Anthropicův nástroj pro programování s AI, se od verze 2.1.325 (13. listopadu) u naplánovaných úloh a příkazu /loop zeptá před spuštěním skillu, který deklaruje allowed-tools nebo hooky. Aby skill běžel bez dozoru, přidej Skill(název) do permissions.allow. Verzi zjistíš příkazem claude --version.",
+        "en": "For developers: from version 2.1.325 (November 13), Claude Code, Anthropic’s AI coding tool, asks before a scheduled task or /loop runs a skill that declares allowed-tools or hooks. To let the skill run unattended, add Skill(name) to permissions.allow. Check your version with claude --version."
       },
       "why": {
-        "cs": "Týká se úloh bez dozoru: bez pravidla v permissions.allow mohou čekat na tvé schválení. Pravidlo přidej jen u skillů, kterým věříš.",
-        "en": "This affects unattended tasks: without a rule in permissions.allow they may wait for your approval. Add the rule only for skills you trust."
+        "cs": "Pravidlo přidáš příkazem /permissions nebo do permissions.allow v souboru settings.json. Týká se úloh bez dozoru: bez pravidla mohou čekat na tvé schválení. Přidávej ho jen u skillů, kterým věříš.",
+        "en": "Add the rule with /permissions or in permissions.allow in settings.json. It affects unattended tasks: without the rule they may wait for your approval. Add it only for skills you trust."
       },
       "sources": [
         {
           "name": "Anthropic",
           "url": "https://code.claude.com/docs/en/changelog"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/permissions"
         }
       ],
       "added": "2026-11-14",

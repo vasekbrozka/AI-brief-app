@@ -436,7 +436,19 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   dokumentaci) a **cenu doporučeného „silnějšího“ modelu napiš do tipu** (Fable 5.2 za
   kredity); **když dva čtenáři ze tří preferují jako highlight jinou zprávu, přehodnoť
   to** (FAA místo robotů) a po přesunu uprav `highlight`, pořadí položek, `headline` i
-  `topic` v published-log. InfoWorld, AeroTime a Flying nejsou v seznamech T2: WARN je
+  `topic` v published-log; (39) **tip z banky starší než pár dní znovu otevři u zdroje**
+  (Vids: Workspace Updates připsaly 3. 11. nad článek „Update: zavádění pozastaveno“; tip
+  jsem z banky vyřadil) a **u tipu s omezenou dostupností si otevři dokumentaci funkce, ne
+  jen týdenní přehled** (dots: lekce 37 platí i pro tipy z banky — draft ji porušil a
+  chytili ji všichni tři čtenáři); **údaj, který citované zdroje nemají, nepřebírej ani ze
+  starší položky** (LLMjacking je jen v bulletinu Fireworks, ne v TechCrunchi ani v
+  oznámení u kalifornského úřadu); **součet z oznámení států a „celkový počet Uber
+  nesdělil“ řekni jednou větou**, jinak to čtenář bere jako rozpor; **omezení, která firma
+  sama uvádí** (IBM: „naučené chování, ne záruka“ a „ne pro produkci“; Apple: „nemá
+  diagnostikovat ani léčit“) patří do `why`; **titulek se ve slovníčku nepodtrhuje**, nové
+  slovo (dot) v něm vysvětli slovy („agentovi dot“); ABC News je abcnews.com
+  (abcnews.go.com přesměrovává) — doména je v T2 seznamu `check-brief.py`. InfoWorld,
+  AeroTime a Flying nejsou v seznamech T2: WARN je
   v pořádku, když zpráva stojí na T1 nebo dvou T2.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
