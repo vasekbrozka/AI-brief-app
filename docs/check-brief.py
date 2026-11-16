@@ -108,7 +108,7 @@ T2_DOMAINS = [
     "windowscentral.com", "androidauthority.com", "androidpolice.com", "tomshardware.com",
     "tomsguide.com", "techradar.com", "pcmag.com", "cnet.com", "404media.co",
     "spectrum.ieee.org", "qz.com", "thenextweb.com", "bleepingcomputer.com",
-    "securityweek.com", "nbcnews.com", "cbsnews.com", "abcnews.go.com", "latimes.com",
+    "securityweek.com", "nbcnews.com", "cbsnews.com", "abcnews.go.com", "abcnews.com", "latimes.com",
     "sfchronicle.com", "economist.com", "time.com", "theatlantic.com", "newyorker.com",
     "vox.com", "scmp.com", "nikkei.com", "calmatters.org", "statnews.com",
     "seznamzpravy.cz", "irozhlas.cz", "ceskatelevize.cz", "lupa.cz", "ihned.cz", "hn.cz",

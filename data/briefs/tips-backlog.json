@@ -4627,7 +4627,7 @@
         }
       ],
       "added": "2026-11-01",
-      "used": null
+      "used": "2026-11-16"
     },
     {
       "slug": "tip-openai-decisions-api-ga",
@@ -4779,33 +4779,6 @@
         }
       ],
       "used": "2026-11-03"
-    },
-    {
-      "slug": "tip-google-vids-avatar-upload",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": true,
-      "eventDate": "2026-10-30",
-      "title": {
-        "cs": "Avatar ve Vids jde vytvořit z tvé fotky",
-        "en": "Google Vids can make a custom avatar from your photo"
-      },
-      "summary": {
-        "cs": "Google v Workspace Updates z 2. listopadu uvádí, že ve Vids jde vytvořit vlastní avatar nahráním obrázku z počítače, Disku nebo Fotek. Obrázek lze ve Vids upravit (pozadí, světlo, výzdoba) a avatar se uloží do projektu k opakovanému použití. Zavádění začalo 30. října a 3. listopadu bylo pozastaveno.",
-        "en": "Google’s Workspace Updates post of November 2 says Vids can now make a custom avatar from an image you upload from your computer, Drive, or Photos. You can refine the image in Vids (background, lighting, decorations), and the avatar is saved in the project for reuse. Rollout began October 30 and was paused on November 3."
-      },
-      "why": {
-        "cs": "Pozor: Google 3. listopadu zavádění pozastavil a datum obnovení neuvedl. Funkce je pro osobní účty s Google AI Pro nebo Ultra a pro většinu edic Workspace; správce ji zvlášť vypnout nemůže.",
-        "en": "Note: on November 3 Google paused the rollout and gave no resume date. The feature is for personal accounts with Google AI Pro or Ultra and most Workspace editions; admins cannot switch it off separately."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "http://workspaceupdates.googleblog.com/2026/11/create-a-custom-avatar-google-vids.html"
-        }
-      ],
-      "added": "2026-11-03",
-      "used": null
     },
     {
       "slug": "tip-github-copilot-jetbrains-air",
@@ -5151,15 +5124,15 @@
       "eventDate": "2026-11-04",
       "title": {
         "cs": "Dotovi z ChatGPT odpovíš na iOS rovnou z notifikace",
-        "en": "Reply to your ChatGPT dot straight from an iOS notification"
+        "en": "Reply to your ChatGPT dot from an iOS notification"
       },
       "summary": {
         "cs": "OpenAI v týdnu 2.–6. listopadu umožnil na iOS odpovědět dotu z notifikace nebo mu poslat obsah z jiné aplikace. Otevření konverzace z notifikace je rychlejší, odkazy na Gmail se otevřou v aplikaci Gmail nebo v prohlížeči a na podporovaných iPhonech jde dota otevřít tlačítkem Action.",
         "en": "In the week of November 2–6, OpenAI let iOS users reply to their dot from a notification or share content from another app. Opening the conversation from a notification loads faster, supported Gmail links open in the Gmail app or browser, and on supported iPhones the Action button can open your dot."
       },
       "why": {
-        "cs": "Dots se zavádějí postupně jen oprávněným účtům; Enterprise, Edu a Healthcare je mohou povolit. U Enterprise začíná fakturace 18. listopadu, správci si ji před tím mohou prohlédnout.",
-        "en": "Dots roll out gradually to eligible accounts; Enterprise, Edu, and Healthcare workspaces can enable them. Enterprise billing begins November 18, and admins can review it beforehand."
+        "cs": "Na iOS odpovíš dotu z notifikace a obsah z jiné aplikace mu pošleš přes sdílení. Tlačítko Action na podporovaných iPhonech lze nastavit k otevření dota. Oprávněné prostory Enterprise, Edu a Healthcare mohou dots zapnout.",
+        "en": "On iOS, reply to your dot from a notification or share content to it from another app. Set the Action button on supported iPhones to open it. Enterprise, Edu, and Healthcare workspaces can enable dots."
       },
       "sources": [
         {
@@ -5168,7 +5141,7 @@
         }
       ],
       "added": "2026-11-07",
-      "used": null
+      "used": "2026-11-16"
     },
     {
       "slug": "tip-openai-live-api-outbound-sip",
@@ -5566,7 +5539,7 @@
         }
       ],
       "added": "2026-11-10",
-      "used": null
+      "used": "2026-11-16"
     },
     {
       "slug": "tip-gemini-memory-summary",
@@ -6119,7 +6092,7 @@
         }
       ],
       "added": "2026-11-14",
-      "used": null
+      "used": "2026-11-16"
     },
     {
       "slug": "tip-claude-opus-5-5-medium-effort",

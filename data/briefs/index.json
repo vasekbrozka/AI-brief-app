@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-15T03:50:45Z",
+  "updated": "2026-11-16T03:27:55Z",
   "briefs": [
+    {
+      "date": "2026-11-16",
+      "headline": {
+        "cs": "Apple spustila studii, jak lidé používají AI k zdraví",
+        "en": "Apple launches study on how people use health AI"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-11-15",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Anthropic: threshold for AI-accelerated progress may be near"
       },
       "itemCount": 11
-    },
-    {
-      "date": "2026-11-02",
-      "headline": {
-        "cs": "ChatGPT a Codex budou od prosince sdílet jeden limit",
-        "en": "ChatGPT and Codex will share one limit from December"
-      },
-      "itemCount": 10
     }
   ]
 }
