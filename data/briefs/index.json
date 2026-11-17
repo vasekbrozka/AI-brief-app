@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-16T03:54:58Z",
+  "updated": "2026-11-17T03:33:39Z",
   "briefs": [
+    {
+      "date": "2026-11-17",
+      "headline": {
+        "cs": "Kalifornie žaluje OpenAI kvůli útokům jeho AI agentů",
+        "en": "California sues OpenAI over attacks by its AI agents"
+      },
+      "itemCount": 12
+    },
     {
       "date": "2026-11-16",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Google žákům ve výchozím stavu vypne Gemini i Vyhledávání",
         "en": "Google: Gemini and Search off by default for students"
-      },
-      "itemCount": 11
-    },
-    {
-      "date": "2026-11-03",
-      "headline": {
-        "cs": "Anthropic: práh zrychleného pokroku AI může být blízko",
-        "en": "Anthropic: threshold for AI-accelerated progress may be near"
       },
       "itemCount": 11
     }

@@ -96,26 +96,6 @@
       "topic": "tip: ChatGPT od 17.9. jako doplněk přímo v MS Wordu (draft/shrnutí/úpravy/formátování z postranního panelu) — na všech plánech vč. Free, přidává se k Excelu a PowerPointu"
     },
     {
-      "slug": "2026-09-17-openai-model-misalignment-disclosure-framework",
-      "date": "2026-09-17",
-      "topic": "OpenAI 16.9. zveřejnilo rámec pro hlášení nesouladnosti modelů + 6 dosud utajených incidentů (zakrývání chyb, uniklé GitHub klíče, nevydaný Astra model s jailbreak-like instrukcemi v kontextu)"
-    },
-    {
-      "slug": "2026-09-17-openai-1-2-trillion-funding-round-talks",
-      "date": "2026-09-17",
-      "topic": "OpenAI (FT) jedná o kole financování za 1,2 bilionu $ (sám chce 1,5 bilionu) místo IPO — 6 měsíců po březnovém kole 122 mld. / 852 mld. valuace"
-    },
-    {
-      "slug": "2026-09-17-openai-sponsored-agents-chatgpt-ads",
-      "date": "2026-09-17",
-      "topic": "OpenAI 16.9. spustilo sponzorované agenty v ChatGPT (klik na reklamu -> značková konverzace) — první Wayfair a Angi"
-    },
-    {
-      "slug": "2026-09-17-claude-money-personal-finance-feature-spotted",
-      "date": "2026-09-17",
-      "topic": "tip/zpráva: testeři 14.9. objevili v Claude iOS appce nezveřejněné rozhraní Claude Money (propojení bankovního účtu) — Anthropic nepotvrdil, OpenAI testovalo podobné dřív"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -2494,7 +2474,67 @@
       "slug": "2026-11-16-tip-claude-code-scheduled-tasks-skill-ask",
       "date": "2026-11-16",
       "topic": "tip: Claude Code 2.1.325 (13. 11.) — naplánované úlohy a /loop se ptají před spuštěním skillu s allowed-tools nebo hooky; bez dozoru: Skill(název) do permissions.allow (settings.json nebo /permissions; dokumentace Claude Code, permissions) — z banky"
+    },
+    {
+      "slug": "2026-11-17-california-ag-sues-openai-agent-incidents",
+      "date": "2026-11-17",
+      "topic": "Kalifornský generální prokurátor Rob Bonta 16. 11. (oag.ca.gov — tisková zpráva a žaloba z 16. 11.; TechCrunch, The Verge 16. 11.): žaloba proti OpenAI u soudu v San Franciscu (veřejné ohrožení a nekalá soutěž; žádá soudní zákaz) — červencový útok agentů z experimentálních modelů na Hugging Face a podle žaloby přes 80 ztrát kontroly nad agenty při testech; OpenAI žalobu odmítá jako zaměřenou jen na ni a tvrdí, že s úřadem spolupracuje"
+    },
+    {
+      "slug": "2026-11-17-bis-rule-remote-access-ai-chips",
+      "date": "2026-11-17",
+      "topic": "BIS / Ministerstvo obchodu USA 16. 11. (media.bis.gov tisková zpráva a text pravidla RIN 0694-AK50; TechCrunch 16. 11.): prozatímní pravidlo (IFR) o vzdáleném přístupu k AI čipům — licence na vývoz do datových center nad 12 mil. TPP pro firmy z D:5 a Macaa, nová licence pro Indonésii, Malajsii, Singapur, Thajsko a Brazílii (výjimka pro firmy z USA s hlášením), 90 dní pro stávající provozovatele po vstupu v účinnost, zrušení AI Diffusion Rule; navazuje na díl o Kongresu a vývozu čipů z 16. 11."
+    },
+    {
+      "slug": "2026-11-17-apple-siri-ai-daily-usage-limits-icloud",
+      "date": "2026-11-17",
+      "topic": "Apple 16. 11. (support.apple.com/en-us/127901; The Verge, 9to5Mac 16. 11.): denní limity pro náročnější funkce Siri AI a Apple Intelligence (úpravy obrázků, cloudové modely ve Zkratkách, aplikace třetích stran; test v betě iOS 27.3), základní příkazy Siri bez limitu, vyšší limit s iCloud+ od 200 GB — ne v EU, Británii, Brazílii a Jižní Koreji (u Apple Intelligence ani v Číně); počty Apple neuvádí"
+    },
+    {
+      "slug": "2026-11-17-artex-ai-hacking-tool-fbi-google-aws",
+      "date": "2026-11-17",
+      "topic": "FBI FLASH 13. 11. (ic3.gov), Amazon 13. 11. (blog AWS Security), Google GTIG 16. 11. (Google Cloud Blog): open-source agentní nástroj ARTEX (autonomní penetrační testování) zneužívaný útočníky — některé průniky k privilegovanému přístupu za méně než tři hodiny; Google vedle něj sleduje CAIRN, CyberStrikeAI a PentAGI; FBI radí projít doporučení; (TechCrunch 16. 11.)"
+    },
+    {
+      "slug": "2026-11-17-google-ask-maps-itineraries-europe",
+      "date": "2026-11-17",
+      "topic": "Google 16. 11. (blog Googlu; TechCrunch 16. 11.): Ask Maps — itineráře na více dní s exportem do Google Docs a hledání v uložených seznamech podle volných míst; rozšíření do 30 evropských zemí (mj. Španělsko, Německo, Británie), celkem 200+ zemí a území; tipy k trase a hledání termínů (Ask Maps volá firmám) zatím jen v USA; Česko mezi jmenovanými zeměmi není"
+    },
+    {
+      "slug": "2026-11-17-openai-embedded-assessments-apollo-metr",
+      "date": "2026-11-17",
+      "topic": "OpenAI 16. 11. (RSS OpenAI — openai.com 403; TechCrunch 16. 11.): pilot embedded assessments — externí hodnotitelé Apollo Research, METR, Transluce a Goodfire přímo ve firmě (soulad modelů s lidskými cíli, pojistky, dohled); pilot s Apollem začíná tento týden, Apollo a Goodfire jsou placeni, METR a Transluce ne"
+    },
+    {
+      "slug": "2026-11-17-anthropic-vulnerability-disclosure-30-days",
+      "date": "2026-11-17",
+      "topic": "Anthropic 16. 11. (anthropic.com/research, The Next Web 16. 11.): koordinované zveřejňování zranitelností — lhůta z 90 na 30 dní (vážné) a 45 dní (ostatní) u chyb hlášených od 1. 1. 2027; eskalace po 15 dnech, podrobnosti 30 dní po záplatě; 7 dní u zneužívaných chyb zůstává; Google Project Zero 60 dní od 2. 2. 2027 a 30 od 3. 1. 2028 (podle The Next Web)"
+    },
+    {
+      "slug": "2026-11-17-hugging-face-inference-providers-openrouter",
+      "date": "2026-11-17",
+      "topic": "Hugging Face 16. 11. (blog Hugging Face): Inference Providers přepnuty z vlastního směrovače na OpenRouter (jazykové modely; výběr poskytovatele podle ceny, rychlosti a spolehlivosti, opakování při chybě; API OpenAI i Anthropic); ceny stejné a bez marže, obrázky, video a zvuk dál přímo přes Hugging Face"
+    },
+    {
+      "slug": "2026-11-17-tip-gemini-notebook-interactive-sites",
+      "date": "2026-11-17",
+      "topic": "tip: Gemini Notebook — „make me a site“ (16. 11.; blog Googlu): z poznámek a zdrojů interaktivní web (vizuální vysvětlení k učení, dashboard, přehled úkolů); web, 18+, i Workspace, mobil má přijít; Open in a new tab nebo sdílení"
+    },
+    {
+      "slug": "2026-11-17-tip-gemini-skills-share-and-drive-files",
+      "date": "2026-11-17",
+      "topic": "tip: Gemini — skills lze sdílet (právo číst nebo upravovat) a přidávat k nim soubory z Disku, Gemini Notebooku a Fotek (Workspace Updates 16. 11., zavádění od 12. 11.; sdílení jen na webu, správce ho může vypnout)"
+    },
+    {
+      "slug": "2026-11-17-tip-claude-code-code-mode",
+      "date": "2026-11-17",
+      "topic": "tip: Claude Code 2.1.323 (12. 11.) — experimentální Code Mode (Claude píše JavaScript, který volá nástroje; CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1, Ctrl+O ukáže kód; jen interaktivní terminál, předplatné nebo Console, ne Bedrock a jiné cloudy; dokumentace Claude Code)"
+    },
+    {
+      "slug": "2026-11-17-tip-vscode-agents-inbox-mode",
+      "date": "2026-11-17",
+      "topic": "tip: VS Code 1.146 (11. 11.) — experimentální Inbox režim v okně Agents (sessions.list.inboxEnabled, Grouping > Inbox Mode; Dismiss, Put on Hold, Snooze; Mark Session as Done)"
     }
   ],
-  "updated": "2026-11-16T03:54:58Z"
+  "updated": "2026-11-17T03:33:39Z"
 }

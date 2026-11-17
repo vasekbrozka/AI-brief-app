@@ -6186,6 +6186,203 @@
         }
       ],
       "used": "2026-11-15"
+    },
+    {
+      "slug": "tip-gemini-notebook-interactive-sites",
+      "category": "tools",
+      "theme": "notebooklm",
+      "verified": true,
+      "eventDate": "2026-11-16",
+      "title": {
+        "cs": "Gemini Notebook z poznámek postaví interaktivní web",
+        "en": "Gemini Notebook turns your notes into an interactive site"
+      },
+      "summary": {
+        "cs": "Google 16. listopadu oznámil, že Gemini Notebook umí ze zdrojů vytvořit interaktivní web: vizuální vysvětlení k učení (periodická tabulka, časová osa), dashboard s daty nebo přehled úkolů a termínů. Zavádí se globálně na webu pro uživatele od 18 let, i ve Workspace; mobilní aplikace má přijít.",
+        "en": "On November 16, Google said Gemini Notebook can turn your sources into an interactive site: visual study explainers (periodic table, timeline), a dashboard for your data, or a task-and-deadline tracker. It is rolling out globally on the web for users 18 and older, Workspace included; the mobile app is coming."
+      },
+      "why": {
+        "cs": "V chatu Gemini Notebooku napiš „make me a site“ a popis, co chceš postavit. Hotový web otevřeš přes „Open in a new tab“ nebo ho sdílíš s ostatními.",
+        "en": "In a Gemini Notebook chat, type “make me a site” plus a description of what to build. Open the finished site with “Open in a new tab” or share it with others."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/"
+        }
+      ],
+      "added": "2026-11-17",
+      "used": "2026-11-17"
+    },
+    {
+      "slug": "tip-gemini-skills-share-and-drive-files",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-16",
+      "title": {
+        "cs": "Skills v Gemini jdou sdílet a čerpat z Disku",
+        "en": "Gemini skills can be shared and use Drive files"
+      },
+      "summary": {
+        "cs": "Google 16. listopadu oznámil dvě novinky pro skills (opakovaně použitelné pokyny) v aplikaci Gemini: můžeš je sdílet s právem číst či upravovat a přidávat k nim soubory z Disku, Gemini Notebooku a Fotek. Soubory z Disku a poznámkové bloky se aktualizují v reálném čase. Zavádění začalo 12. listopadu.",
+        "en": "On November 16, Google announced two additions to skills (reusable instructions) in the Gemini app: you can share them with view or edit rights and attach files from Drive, Gemini Notebook, and Photos. Drive files and notebooks update in real time. The rollout began on November 12."
+      },
+      "why": {
+        "cs": "Sdílet jde zatím jen v Gemini na webu, ne v mobilu; příjemce musí mít přístup i k souborům z Disku. Firemní správce může sdílení skills vypnout. Platí pro zákazníky Workspace i osobní účty.",
+        "en": "Sharing works only in the Gemini web app for now; recipients also need access to the Drive files. A company admin can switch sharing off. Workspace customers and personal accounts both get it."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "http://workspaceupdates.googleblog.com/2026/11/share-skills-add-files-from-Drive-Notebook-Photos-to-skills-Gemini-app.html"
+        }
+      ],
+      "added": "2026-11-17",
+      "used": "2026-11-17"
+    },
+    {
+      "slug": "tip-claude-code-code-mode",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-11-12",
+      "title": {
+        "cs": "Claude Code má experimentální Code Mode s JavaScriptem",
+        "en": "Claude Code gains an experimental Code Mode"
+      },
+      "summary": {
+        "cs": "Claude Code 2.1.323 (12. listopadu) přidal experimentální Code Mode: místo jednotlivých volání nástrojů Claude napíše JavaScript, který jich zvládne víc najednou, třeba paralelně nebo s filtrováním výsledků, a Claude Code ho spustí. Funkce je ve výchozím stavu vypnutá a může se kdykoli změnit či zmizet.",
+        "en": "Claude Code 2.1.323 (November 12) added an experimental Code Mode: instead of single tool calls, Claude writes JavaScript that makes several at once, for example in parallel or with filtered results, and Claude Code runs it. The feature is off by default and may change or disappear at any time."
+      },
+      "why": {
+        "cs": "Nastav CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 a potvrď dotaz; kód ukáže Ctrl+O. Jen v interaktivním terminálu, s předplatným Claude nebo účtem Console, ne přes Bedrock a jiné cloudy.",
+        "en": "Set CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 and confirm when asked; Ctrl+O shows the code. Interactive terminal only, with a Claude subscription or Console account, not via Bedrock or other clouds."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/code-mode"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-11-17",
+      "used": "2026-11-17"
+    },
+    {
+      "slug": "tip-vscode-agents-inbox-mode",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-11",
+      "title": {
+        "cs": "VS Code: Inbox ukáže agentní relace čekající na tebe",
+        "en": "VS Code: Inbox mode surfaces agent sessions needing you"
+      },
+      "summary": {
+        "cs": "VS Code 1.146 (11. listopadu) přidal experimentální Inbox režim: v okně Agents seřadí relace tak, že nahoře jsou ty, které čekají na tvou pozornost, pod nimi běžící, připravené ke sloučení, odložené a hotové. Nepotřebnou relaci můžeš odložit nebo označit jako vyřízenou.",
+        "en": "VS Code 1.146 (November 11) added an experimental Inbox mode: the Agents window sorts sessions so those needing your attention come first, followed by running, ready to merge, on hold, and done. You can snooze a session you do not need or mark it done."
+      },
+      "why": {
+        "cs": "Zapni nastavení sessions.list.inboxEnabled (ve výchozím stavu vypnuté) a v seznamu relací okna Agents zvol Grouping > Inbox Mode. Odmítnutí z Inboxu relaci nearchivuje; archivuješ ji přes Mark Session as Done.",
+        "en": "Enable the sessions.list.inboxEnabled setting (off by default), then pick Grouping > Inbox Mode in the Agents window’s session list. Dismissing from Inbox does not archive a session; archive it with Mark Session as Done."
+      },
+      "sources": [
+        {
+          "name": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/updates"
+        }
+      ],
+      "added": "2026-11-17",
+      "used": "2026-11-17"
+    },
+    {
+      "slug": "tip-cursor-live-apps",
+      "category": "tools",
+      "theme": "cursor",
+      "verified": true,
+      "eventDate": "2026-11-05",
+      "title": {
+        "cs": "Cursor postaví živou aplikaci a nasadí ji na odkaz",
+        "en": "Cursor builds a live app and deploys it to a link"
+      },
+      "summary": {
+        "cs": "Cursor 5. listopadu umožnil stavět živé aplikace přímo v editoru: cloudový agent vytvoří web, podle potřeby databázi Postgres a přihlášení přes Cursor SSO a nasadí ho na zvolenou adresu. Před zveřejněním proběhnou bezpečnostní kontroly a nic nejde živě, dokud aplikaci výslovně nepublikuješ.",
+        "en": "On November 5, Cursor made it possible to build live apps right in the editor: a cloud agent creates the web app, a Postgres database if needed, and sign-in via Cursor SSO, then deploys it to the address you choose. Security checks run before publishing, and nothing goes live until you explicitly publish the app."
+      },
+      "why": {
+        "cs": "Spusť cloudového agenta a výslovně mu řekni, že chceš postavit aplikaci. Funkce je na všech placených plánech s cloudovými agenty; sdílení je za přihlášením do Cursoru, na individuálních plánech jde i veřejně.",
+        "en": "Start a cloud agent and tell it explicitly that you want to build an app. It is on all paid plans with cloud agents enabled; sharing sits behind Cursor sign-in, and on individual plans can also be public."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/changelog"
+        }
+      ],
+      "added": "2026-11-17",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-regional-voices",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-16",
+      "title": {
+        "cs": "Gemini nabízí 66 nových regionálních hlasů",
+        "en": "Gemini adds 66 new regional voices"
+      },
+      "summary": {
+        "cs": "Google 16. listopadu zavedl v aplikaci Gemini na Androidu a iOS 66 nových regionálních hlasů, mj. pro americkou, britskou a indickou angličtinu, hindštinu, brazilskou portugalštinu, indonéštinu a korejštinu. Vybraný hlas platí v celé aplikaci, třeba v Gemini Live i při čtení odpovědí nahlas.",
+        "en": "On November 16, Google rolled out 66 new regional voices in the Gemini app on Android and iOS, including U.S., U.K., and Indian English, Hindi, Brazilian Portuguese, Indonesian, and Korean. The chosen voice applies across the app, for example in Gemini Live and when reading answers aloud."
+      },
+      "why": {
+        "cs": "Hlasy vyzkoušíš v nabídce se třemi tečkami v Gemini Live nebo v nastavení hlasu Gemini v aplikaci. Čeština mezi jmenovanými jazyky není; Google výčet uvádí slovem „včetně“.",
+        "en": "Preview the voices in the three-dot menu in Gemini Live or in Gemini’s voice settings in the app. Czech is not among the named languages; Google gives the list with “including”."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/"
+        }
+      ],
+      "added": "2026-11-17",
+      "used": null
+    },
+    {
+      "slug": "tip-lmstudio-bionic-lm-link-remote",
+      "category": "tools",
+      "theme": "local",
+      "verified": true,
+      "eventDate": "2026-11-16",
+      "title": {
+        "cs": "LM Studio Bionic pracuje s chaty a projekty na jiném zařízení",
+        "en": "LM Studio Bionic works with chats and projects on another device"
+      },
+      "summary": {
+        "cs": "LM Studio Bionic 1.2.1 (16. listopadu) přidal přes LM Link vzdálené chaty a projekty na jiných zařízeních s Bionic nebo llmster, včetně výběru zařízení a složky pro vzdálené projekty. V nastavení vzdálených strojů je přepínač „Allow remote agent control“.",
+        "en": "LM Studio Bionic 1.2.1 (November 16) added, via LM Link, remote chats and projects on other devices running Bionic or llmster, including device and folder selection for remote projects. The remote machines settings include an “Allow remote agent control” switch."
+      },
+      "why": {
+        "cs": "Ikonu LM Link najdeš v LM Studiu nad ozubeným kolem nastavení; k propojení je nutné přihlášení a druhé zařízení s LM Studiem. Podrobný postup pro vzdálené chaty changelog neuvádí.",
+        "en": "Find the LM Link icon in LM Studio just above the Settings gear; linking needs a login and a second device running LM Studio. The changelog gives no detailed steps for remote chats."
+      },
+      "sources": [
+        {
+          "name": "LM Studio",
+          "url": "https://lmstudio.ai/changelog/bionic-v1.2.1"
+        },
+        {
+          "name": "LM Studio",
+          "url": "https://lmstudio.ai/docs/lmlink/basics"
+        }
+      ],
+      "added": "2026-11-17",
+      "used": null
     }
   ]
 }
