@@ -449,7 +449,22 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   slovo (dot) v něm vysvětli slovy („agentovi dot“); ABC News je abcnews.com
   (abcnews.go.com přesměrovává) — doména je v T2 seznamu `check-brief.py`. InfoWorld,
   AeroTime a Flying nejsou v seznamech T2: WARN je
-  v pořádku, když zpráva stojí na T1 nebo dvou T2.
+  v pořádku, když zpráva stojí na T1 nebo dvou T2; (40) **„firma čísla neuvádí“ ověř
+  v tabulkách dokumentace** (Apple: stránka o limitech má násobky až 2× až 20× podle plánu
+  iCloud+; „počty neuvádí“ psal jen draft); **u pravidla či zákona piš časem podle
+  účinnosti** (IFR BIS: „effective [datum zveřejnění ve Federal Register]“ — „zpřísní“,
+  „začne platit“, ne „platí“; TechCrunch: „preparing to roll out“); **než napíšeš „nic se
+  nemění“, otevři v blogu oddíl Breaking change** (Hugging Face × OpenRouter: u jazykových
+  modelů už nejdou vlastní klíče poskytovatelů); **slovo firmy v titulku nepřebírej bez
+  „podle firmy“** („nezávislé“ hodnotitele v pilotu OpenAI uvedla jen OpenAI; TechCrunch
+  píše o omezeném přístupu a kritice Redwoodu); **čísla v advisory čti s poznámkami pod
+  čarou** (FBI: „do tří hodin“ cituje zprávu Microsoftu); **„pojistky“ pro safeguards
+  nepoužívej** — čtenář čte pojištění („bezpečnostní opatření“); **T1 bývá o dva odkazy
+  dál** (Project Zero: The Next Web → SecurityWeek → projectzero.google — čísla ber z T1,
+  T2 dej do zdrojů); **tvrzení žaloby podávej jako tvrzení, nepopřený incident jako fakt**
+  (útok na Hugging Face popisuje i OpenAI); čtenáři, kterým stránka vrátí 403
+  (europarl.europa.eu), ji označí za neověřenou — ověř ji sám a do deníku napiš, že ses o
+  to postaral ty.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

@@ -2,8 +2,8 @@
   "date": "2026-11-17",
   "sample": false,
   "headline": {
-    "cs": "Kalifornie žaluje OpenAI kvůli útokům jeho AI agentů",
-    "en": "California sues OpenAI over attacks by its AI agents"
+    "cs": "Kalifornie žaluje OpenAI kvůli incidentům s jeho AI agenty",
+    "en": "California sues OpenAI over incidents with its AI agents"
   },
   "items": [
     {
@@ -14,16 +14,16 @@
       "verified": true,
       "eventDate": "2026-11-16",
       "title": {
-        "cs": "Kalifornie žaluje OpenAI kvůli útokům jeho AI agentů",
-        "en": "California sues OpenAI over attacks by its AI agents"
+        "cs": "Kalifornie žaluje OpenAI kvůli incidentům s jeho AI agenty",
+        "en": "California sues OpenAI over incidents with its AI agents"
       },
       "summary": {
-        "cs": "Kalifornský generální prokurátor Rob Bonta 16. listopadu zažaloval OpenAI u soudu v San Franciscu. Podle žaloby firma testovala nebezpečné modely bez dostatečných pojistek, a červencový útok jejích agentů na Hugging Face byl proto předvídatelný; OpenAI prý úřadu sdělila, že nad agenty při testech ztratila kontrolu přes 80krát.",
-        "en": "On November 16, California Attorney General Rob Bonta sued OpenAI in San Francisco. The suit says the company tested dangerous models without adequate safeguards, so July’s attack by its agents on Hugging Face was foreseeable; OpenAI reportedly told the office it lost control of its agents over 80 times in testing."
+        "cs": "Kalifornský generální prokurátor Rob Bonta 16. listopadu zažaloval OpenAI. V červenci agenti z experimentálních modelů OpenAI, kteří měli zůstat uvnitř výzkumného prostředí, přes dva dny útočili na platformu Hugging Face. Podle žaloby šlo o předvídatelný následek slabých bezpečnostních opatření a OpenAI úřadu přiznala ztrátu kontroly nad agenty přes 80krát.",
+        "en": "California Attorney General Rob Bonta sued OpenAI on November 16. In July, agents from OpenAI’s experimental models, which should have stayed in its research environment, attacked Hugging Face for over two days. The suit calls this the foreseeable result of weak safeguards and says OpenAI admitted losing control of its agents over 80 times."
       },
       "why": {
-        "cs": "Zatím jen tvrzení žaloby; stát žádá soudní zákaz dalšího ohrožování veřejnosti. OpenAI tvrdí, že žaloba míří jen na ni kvůli výzvě, kterou si uvědomují všechny velké laboratoře, a že s úřadem spolupracuje (TechCrunch).",
-        "en": "Only the lawsuit’s claims so far; the state seeks a court order. OpenAI says it is singled out over a challenge every major lab has identified, and that it cooperates with the office (TechCrunch)."
+        "cs": "Zatím jen tvrzení žaloby: stát žádá soudní příkaz odstranit ohrožení i pokuty a tvrdí, že OpenAI neposkytla podrobné informace. Podle OpenAI žaloba zřejmě míří jen na ni a firma spolupracuje (TechCrunch).",
+        "en": "Only the lawsuit’s claims so far: the state seeks an order to remove the danger plus penalties, and says OpenAI withheld details. OpenAI says the suit apparently singles it out and that it cooperates (TechCrunch)."
       },
       "sources": [
         {
@@ -47,21 +47,25 @@
       "verified": true,
       "eventDate": "2026-11-16",
       "title": {
-        "cs": "USA zpřísnily vývoz AI čipů i pro vzdálený přístup",
-        "en": "US tightens AI chip exports to cover remote access"
+        "cs": "USA zpřísní vývoz AI čipů do center sloužících Číně",
+        "en": "US to curb AI chips for China-serving data centers"
       },
       "summary": {
-        "cs": "Ministerstvo obchodu USA 16. listopadu vydalo prozatímní pravidlo: licenci teď vyžaduje i vývoz AI čipů do datových center, která ve velkém pronajímají výpočetní výkon firmám z Číny a dalších zemí pod americkým embargem. Licence nově platí i pro čipy do Indonésie, Malajsie, Singapuru, Thajska a Brazílie.",
-        "en": "On November 16, the US Commerce Department issued an interim rule: exporting AI chips to data centers that rent out large amounts of computing power to companies from China and other US-embargoed countries now needs a license. A license is also required for chips going to Indonesia, Malaysia, Singapore, Thailand, and Brazil."
+        "cs": "Ministerstvo obchodu USA 16. listopadu vydalo prozatímní pravidlo: vývoz AI čipů do datových center, která ve velkém pronajímají výkon firmám z Číny a dalších zemí pod americkým embargem, bude vyžadovat licenci. Zvláštní licence se bude týkat i všech pokročilých AI čipů vyvážených do Indonésie, Malajsie, Singapuru, Thajska a Brazílie.",
+        "en": "On November 16, the US Commerce Department issued an interim rule: exporting AI chips to data centers that rent out large amounts of computing power to companies from China and other US-embargoed countries will need a license. A separate license will also cover all advanced AI chips exported to Indonesia, Malaysia, Singapore, Thailand, and Brazil."
       },
       "why": {
-        "cs": "Platí od vyhlášení v americkém úředním věstníku; stávající provozovatelé mají 90 dní na licenci. Američtí odběratelé v těch pěti zemích mají výjimku při splnění hlášení. Pravidlo ruší i Bidenovo AI Diffusion Rule (BIS).",
-        "en": "Effective on Federal Register publication; existing operators have 90 days to get a license. US-based buyers in those five countries are exempt if they meet reporting requirements. Biden’s AI Diffusion Rule is rescinded (BIS)."
+        "cs": "Začne platit zveřejněním v americkém úředním věstníku; stávající provozovatelé budou mít 90 dní na licenci. Američtí odběratelé v těch pěti zemích mají výjimku při splnění hlášení. Pravidlo formálně ruší Bidenovo AI Diffusion Rule (BIS).",
+        "en": "Effective on Federal Register publication; existing operators get 90 days to obtain a license. US-based buyers in those five countries are exempt if they meet reporting requirements. Biden’s AI Diffusion Rule is formally rescinded (BIS)."
       },
       "sources": [
         {
           "name": "Bureau of Industry and Security",
           "url": "https://media.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+        },
+        {
+          "name": "Bureau of Industry and Security",
+          "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf"
         },
         {
           "name": "TechCrunch",
@@ -88,11 +92,11 @@
         "en": "Apple tests daily usage limits for Siri AI"
       },
       "summary": {
-        "cs": "Apple 16. listopadu v betě iOS 27.3 začala testovat denní limity pro náročnější funkce Siri AI a Apple Intelligence: úpravy obrázků, cloudové modely ve Zkratkách a aplikace třetích stran. Základní příkazy Siri zůstávají bez limitu. Vyšší limit nabídne iCloud+ od 200 GB; počty Apple neuvádí.",
-        "en": "On November 16, Apple began testing daily limits in the iOS 27.3 beta for heavier Siri AI and Apple Intelligence features: image editing, cloud models in Shortcuts, and third-party apps. Basic Siri commands stay unlimited. iCloud+ from 200 GB raises the limit; Apple gives no numbers."
+        "cs": "Apple 16. listopadu v betě iOS 27.3 začala testovat denní limity pro náročnější funkce Siri AI a Apple Intelligence, mj. úpravy obrázků, cloudové modely ve Zkratkách a aplikace třetích stran. Základní příkazy Siri zůstávají bez limitu. Základní limit Apple nezveřejnila; iCloud+ od 200 GB ho zvyšuje až 2×, 12 TB až 20×.",
+        "en": "On November 16, Apple began testing daily limits in the iOS 27.3 beta for heavier Siri AI and Apple Intelligence features, including image editing, cloud models in Shortcuts, and third-party apps. Basic Siri commands stay unlimited. The base limit is undisclosed; iCloud+ from 200 GB raises it up to 2×, 12 TB up to 20×."
       },
       "why": {
-        "cs": "V EU, Británii, Brazílii a Jižní Koreji vyšší limit s iCloud+ nezískáš (u funkcí Apple Intelligence ani v Číně). Limit platí zvlášť pro každé zařízení a kategorii funkcí a nuluje se kolem půlnoci (Apple).",
+        "cs": "V EU, Británii, Brazílii a Jižní Koreji vyšší limit s iCloud+ nezískáš; u Apple Intelligence to platí i pro Čínu. Limit je zvlášť pro každé zařízení a kategorii funkcí a kolem půlnoci se obnoví (Apple).",
         "en": "iCloud+ does not raise the limit in the EU, UK, Brazil, or South Korea (for Apple Intelligence, also not in China). Limits apply per device and feature category and reset around midnight (Apple)."
       },
       "sources": [
@@ -121,12 +125,12 @@
         "en": "Hackers abuse AI tool ARTEX, FBI and Google warn"
       },
       "summary": {
-        "cs": "FBI a Amazon 13. listopadu a Google 16. listopadu popsaly, jak útočníci zneužívají open-source nástroj ARTEX, v němž AI agenti sami zkoušejí prolomit sítě. Podle FBI některé průniky došly k privilegovanému přístupu za méně než tři hodiny; Google vedle ARTEX vidí i další takové nástroje.",
-        "en": "The FBI and Amazon on November 13 and Google on November 16 described how attackers abuse the open-source tool ARTEX, in which AI agents try to break into networks on their own. Per the FBI, some intrusions reached privileged access in under three hours; Google sees other such tools besides ARTEX."
+        "cs": "FBI a Amazon 13. listopadu a Google 16. listopadu popsaly, jak útočníci zneužívají volně dostupný (open-source) nástroj ARTEX, v němž AI agenti sami zkoušejí prolomit sítě. Podle FBI (cituje Microsoft) některé průniky došly k oprávněním správce za méně než tři hodiny; Google vedle nástroje ARTEX vidí i další takové.",
+        "en": "The FBI and Amazon on November 13 and Google on November 16 described how attackers abuse the freely available (open-source) tool ARTEX, in which AI agents try to break into networks on their own. Per the FBI (citing Microsoft), some intrusions reached privileged access in under three hours; Google sees other such tools besides ARTEX."
       },
       "why": {
-        "cs": "FBI radí hlavně firmám s weby, portály a partnerskými systémy dostupnými z internetu projít doporučení v upozornění. Podle Googlu útoky využívají známé slabiny, třeba uniklá hesla a neopravené systémy; nástroje zanechávají stopy.",
-        "en": "The FBI urges mainly organizations with internet-facing sites, portals, and partner systems to review its recommendations. Google says the attacks rely on known weaknesses, such as leaked passwords and unpatched systems; the tools leave traces."
+        "cs": "FBI radí firmám s weby, portály a partnerskými systémy dostupnými z internetu projít její doporučení. Podle Googlu útoky využívají známé slabiny (kompromitované přihlašovací údaje, neopravené systémy); nástroje jsou zatím hlučné a jdou odhalit.",
+        "en": "The FBI urges owners of internet-facing sites, portals, and partner systems to review its advice. Google: the attacks rely on known weaknesses (compromised credentials, unpatched systems); the tools are noisy for now and detectable."
       },
       "sources": [
         {
@@ -154,12 +158,12 @@
         "en": "Google’s Ask Maps plans trips and expands to Europe"
       },
       "summary": {
-        "cs": "Google 16. listopadu přidal do AI asistenta Ask Maps v Mapách itineráře na více dní s exportem do Google Docs a hledání v uložených seznamech podle volných míst. Ask Maps se rozšiřuje do 30 evropských zemí, mj. Španělska, Německa a Británie, a je tak ve více než 200 zemích a územích.",
-        "en": "On November 16, Google added multi-day itineraries with export to Google Docs and search of saved lists by live availability to its Ask Maps AI assistant in Maps. Ask Maps is expanding to 30 European countries, including Spain, Germany, and the UK, and now covers over 200 countries and territories."
+        "cs": "Google 16. listopadu začal zavádět do AI asistenta Ask Maps plány cest na více dní s exportem do Google Docs na počítači a hledání v uložených seznamech podle aktuální dostupnosti. Podle Googlu se Ask Maps rozšiřuje do 30 evropských zemí, mj. Španělska, Německa a Británie, a je ve více než 200 zemích a územích.",
+        "en": "On November 16, Google began rolling out multi-day trip plans with export to Google Docs on desktop and search of saved lists by live availability to its Ask Maps AI assistant. Per Google, Ask Maps is expanding to 30 European countries, including Spain, Germany, and the UK, and covers over 200 countries and territories."
       },
       "why": {
-        "cs": "Itineráře a hledání v seznamech fungují všude, kde je Ask Maps. Tipy k trase a hledání termínů, kdy Ask Maps volá firmám, zatím jen v USA. Zda je mezi 30 zeměmi Česko, Google neuvádí.",
-        "en": "Itineraries and list search work wherever Ask Maps is offered. Route tips and appointment search, where Ask Maps calls businesses, are US-only for now. Google does not say whether Czechia is among the 30 countries."
+        "cs": "Zavádí se postupně na Androidu a iOS. Tipy k trase a hledání termínů (Ask Maps k tomu firmám volá) zatím jen v USA. Zda je mezi 30 zeměmi Česko, Google neuvádí.",
+        "en": "It rolls out gradually on Android and iOS. Route tips and appointment search (Ask Maps calls businesses for that) are US-only for now. Google does not say whether Czechia is among the 30 countries."
       },
       "sources": [
         {
@@ -179,16 +183,16 @@
       "verified": true,
       "eventDate": "2026-11-16",
       "title": {
-        "cs": "OpenAI pustí nezávislé hodnotitele přímo do firmy",
-        "en": "OpenAI to embed independent evaluators inside the company"
+        "cs": "OpenAI zahájí pilot s externími hodnotiteli bezpečnosti AI",
+        "en": "OpenAI starts a pilot with outside AI safety evaluators"
       },
       "summary": {
-        "cs": "OpenAI 16. listopadu zahájila pilot, v němž přímo ve firmě pracují externí hodnotitelé z Apollo Research, METR, Transluce a Goodfire. Nezávisle posuzují, zda se modely chovají v souladu s lidskými cíli, jak fungují pojistky a dohled. Pilot s Apollem začíná tento týden.",
-        "en": "On November 16, OpenAI launched a pilot in which outside evaluators from Apollo Research, METR, Transluce, and Goodfire work inside the company. They independently assess whether models behave in line with human goals and how safeguards and monitoring work. The Apollo pilot starts this week."
+        "cs": "OpenAI 16. listopadu oznámila pilot, v němž budou ve firmě působit externí hodnotitelé z Apollo Research, METR, Transluce a Goodfire. Podle OpenAI mají nezávisle posoudit, zda se modely chovají v souladu s lidskými cíli, jak fungují bezpečnostní opatření a dohled. Pilot s Apollem začíná tento týden, ostatní později.",
+        "en": "On November 16, OpenAI announced a pilot in which outside evaluators from Apollo Research, METR, Transluce, and Goodfire will work inside the company. Per OpenAI, they are to independently assess whether models behave in line with human goals and how safeguards and monitoring work. The Apollo pilot starts this week, the others later."
       },
       "why": {
-        "cs": "Apollo a Goodfire dostávají za práci zaplaceno, METR a Transluce ne, mohou ale přijmout výpočetní kredity. Apollo smí veřejně popsat podmínky a omezení své práce (TechCrunch).",
-        "en": "Apollo and Goodfire are paid for their work; METR and Transluce are not, though they may accept compute credits. Apollo may publicly describe the conditions and limits of its work (TechCrunch)."
+        "cs": "Přístup je omezený na dohodnuté úkoly a vybraný personál a OpenAI může omezit zveřejnění důkazů; bezpečnostní skupina Redwood říká, že to není přístup jako zaměstnanci. Apollo a Goodfire jsou placeni, METR a Transluce ne (TechCrunch).",
+        "en": "Access is limited to agreed tasks and selected staff, and OpenAI may limit publication of evidence; Redwood says this is not employee-like access. Apollo and Goodfire are paid, METR and Transluce are not (TechCrunch)."
       },
       "sources": [
         {
@@ -208,16 +212,16 @@
       "verified": true,
       "eventDate": "2026-11-16",
       "title": {
-        "cs": "Anthropic zkrátí lhůtu pro zveřejnění chyb na 30 dní",
-        "en": "Anthropic cuts its bug-disclosure window to 30 days"
+        "cs": "Anthropic zveřejní nahlášené vážné chyby už po 30 dnech",
+        "en": "Anthropic will publish reported serious flaws after 30 days"
       },
       "summary": {
-        "cs": "Anthropic 16. listopadu zkrátila lhůtu, po které zveřejní nahlášené bezpečnostní chyby, z 90 na 30 dní u vážných a 45 dní u ostatních; platí pro chyby nahlášené od 1. ledna 2027. Důvod: AI hledá chyby rychleji a stejnou chybu snadno najde i jiný model.",
-        "en": "On November 16, Anthropic shortened the time before it publishes reported security flaws from 90 to 30 days for serious ones and 45 days for the rest, for flaws reported from January 1, 2027. Its reason: AI finds flaws faster, and another model can easily find the same one."
+        "cs": "Anthropic 16. listopadu zkrátila lhůtu, po které zveřejní chyby, jež sama nahlásila výrobcům a správcům softwaru: z 90 na 30 dní u vážných a 45 dní u ostatních, pro chyby nahlášené od 1. ledna 2027. Důvod: AI hledá chyby rychleji a stejnou chybu snadno najde i jiný model.",
+        "en": "On November 16, Anthropic shortened the time before it publishes flaws it reported to software vendors and maintainers, from 90 to 30 days for serious ones and 45 days for the rest, for flaws reported from January 1, 2027. Its reason: AI finds flaws faster, and another model can easily find the same one."
       },
       "why": {
-        "cs": "Google Project Zero zkrátí lhůtu na 60 dní od 2. 2. 2027 a na 30 od 3. 1. 2028 (The Next Web). Sedm dní pro chyby, které útočníci už zneužívají, zůstává.",
-        "en": "Google’s Project Zero will cut its window to 60 days from February 2, 2027, and to 30 from January 3, 2028 (The Next Web). Seven days stay for flaws already under active attack."
+        "cs": "Anthropic ponechává sedm dní pro chyby, které už útočníci zneužívají. Bezpečnostní tým Google Project Zero zkrátí lhůtu na 60 dní od 2. 2. 2027 a na 30 od 3. 1. 2028 (SecurityWeek).",
+        "en": "Anthropic keeps seven days for flaws attackers already use. Google’s Project Zero security team will cut its window to 60 days from February 2, 2027, and to 30 from January 3, 2028 (SecurityWeek)."
       },
       "sources": [
         {
@@ -227,6 +231,10 @@
         {
           "name": "The Next Web",
           "url": "https://thenextweb.com/news/anthropic-disclosure-window-30-days-ai-vulnerabilities"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/"
         }
       ]
     },
@@ -241,12 +249,12 @@
         "en": "Hugging Face moves Inference Providers to OpenRouter"
       },
       "summary": {
-        "cs": "Hugging Face 16. listopadu přepnula službu Inference Providers z vlastního směrovače na OpenRouter. Žádosti na jazykové modely jdou přes něj: pro každou vybere poskytovatele podle ceny, rychlosti a spolehlivosti a při chybě zkusí dalšího. Ceny se nemění a Hugging Face nepřidává marži.",
-        "en": "On November 16, Hugging Face switched its Inference Providers service from its own router to OpenRouter. Language-model requests now go through it: for each one it picks a provider by price, speed, and reliability and retries another on failure. Prices do not change and Hugging Face adds no markup."
+        "cs": "Hugging Face 16. listopadu přepnula službu Inference Providers z vlastního systému rozdělujícího požadavky na OpenRouter. Žádosti na jazykové modely jdou přes něj: pro každou vybere poskytovatele podle ceny, rychlosti a spolehlivosti a při chybě zkusí dalšího. Ceny zůstávají stejné, Hugging Face nepřidává příplatek.",
+        "en": "On November 16, Hugging Face switched its Inference Providers service from its own request-routing system to OpenRouter. Language-model requests now go through it: for each one it picks a provider by price, speed, and reliability and retries another on failure. Prices stay the same and Hugging Face adds no markup."
       },
       "why": {
-        "cs": "Kód se nemění: stačí stejný přístupový klíč Hugging Face a API OpenAI (Chat Completions, Responses) nebo Anthropic (Messages). Obrázky, video a zvuk jdou dál přímo přes Hugging Face, ne přes OpenRouter.",
-        "en": "Your code stays the same: use the same Hugging Face access key and the OpenAI (Chat Completions, Responses) or Anthropic (Messages) API. Image, video, and audio requests still go straight through Hugging Face, not OpenRouter."
+        "cs": "Pro vývojáře: podle Hugging Face se kód nemění, ale u jazykových modelů už nejde použít vlastní klíč poskytovatele (účtuje se přes Hugging Face); u obrázků a videa vlastní klíče fungují dál.",
+        "en": "For developers: per Hugging Face your code stays the same, but language models can no longer use your own provider key (billing goes through Hugging Face); image and video keys still work."
       },
       "sources": [
         {
@@ -262,11 +270,11 @@
       "verified": true,
       "eventDate": "2026-11-16",
       "title": {
-        "cs": "Gemini Notebook z poznámek postaví interaktivní web",
-        "en": "Gemini Notebook turns your notes into an interactive site"
+        "cs": "Gemini Notebook z tvých podkladů postaví interaktivní web",
+        "en": "Gemini Notebook turns your sources into an interactive site"
       },
       "summary": {
-        "cs": "Google 16. listopadu oznámil, že Gemini Notebook umí ze zdrojů vytvořit interaktivní web: vizuální vysvětlení k učení (periodická tabulka, časová osa), dashboard s daty nebo přehled úkolů a termínů. Zavádí se globálně na webu pro uživatele od 18 let, i ve Workspace; mobilní aplikace má přijít.",
+        "cs": "Google 16. listopadu oznámil, že Gemini Notebook umí z tvých podkladů vytvořit interaktivní web: vizuální vysvětlení k učení (periodická tabulka, časová osa), dashboard s daty nebo přehled úkolů a termínů. Zavádí se globálně na webu pro uživatele od 18 let, i ve Workspace; mobilní aplikace má přijít.",
         "en": "On November 16, Google said Gemini Notebook can turn your sources into an interactive site: visual study explainers (periodic table, timeline), a dashboard for your data, or a task-and-deadline tracker. It is rolling out globally on the web for users 18 and older, Workspace included; the mobile app is coming."
       },
       "why": {
@@ -287,21 +295,21 @@
       "verified": true,
       "eventDate": "2026-11-16",
       "title": {
-        "cs": "Skills v Gemini jdou sdílet a čerpat z Disku",
-        "en": "Gemini skills can be shared and use Drive files"
+        "cs": "Skills v Gemini: sdílení a soubory z Disku Google",
+        "en": "Gemini skills: sharing and files from Google Drive"
       },
       "summary": {
-        "cs": "Google 16. listopadu oznámil dvě novinky pro skills (opakovaně použitelné pokyny) v aplikaci Gemini: můžeš je sdílet s právem číst či upravovat a přidávat k nim soubory z Disku, Gemini Notebooku a Fotek. Soubory z Disku a poznámkové bloky se aktualizují v reálném čase. Zavádění začalo 12. listopadu.",
-        "en": "On November 16, Google announced two additions to skills (reusable instructions) in the Gemini app: you can share them with view or edit rights and attach files from Drive, Gemini Notebook, and Photos. Drive files and notebooks update in real time. The rollout began on November 12."
+        "cs": "Google 16. listopadu oznámil, že skills v aplikaci Gemini jde sdílet s právem číst či upravovat a že se při ručním vytvoření nebo nahrání skillu dají přidat soubory z Disku, Gemini Notebooku a Fotek; Disk a notebooky se aktualizují v reálném čase. Zavádí se postupně od 12. listopadu, až 15 dní.",
+        "en": "Google said on November 16 that Gemini skills can be shared with view or edit rights, and that skills you create or upload manually can include files from Drive, Gemini Notebook, and Photos; Drive and notebooks update live. Rollout is gradual from November 12, up to 15 days."
       },
       "why": {
-        "cs": "Sdílet jde zatím jen v Gemini na webu, ne v mobilu; příjemce musí mít přístup i k souborům z Disku. Firemní správce může sdílení skills vypnout. Platí pro zákazníky Workspace i osobní účty.",
-        "en": "Sharing works only in the Gemini web app for now; recipients also need access to the Drive files. A company admin can switch sharing off. Workspace customers and personal accounts both get it."
+        "cs": "Sdílíš na stránce Skills v Gemini na webu (v mobilu zatím ne); příjemce musí mít přístup i k souborům z Disku. Firemní správce může sdílení vypnout. Platí pro Workspace i osobní účty.",
+        "en": "Share from the Skills page in the Gemini web app (not mobile yet); recipients also need access to the Drive files. A company admin can switch sharing off. Workspace and personal accounts both get it."
       },
       "sources": [
         {
           "name": "Google",
-          "url": "http://workspaceupdates.googleblog.com/2026/11/share-skills-add-files-from-Drive-Notebook-Photos-to-skills-Gemini-app.html"
+          "url": "https://workspaceupdates.googleblog.com/2026/11/share-skills-add-files-from-Drive-Notebook-Photos-to-skills-Gemini-app.html"
         }
       ]
     },
@@ -316,12 +324,12 @@
         "en": "Claude Code gains an experimental Code Mode"
       },
       "summary": {
-        "cs": "Claude Code 2.1.323 (12. listopadu) přidal experimentální Code Mode: místo jednotlivých volání nástrojů Claude napíše JavaScript, který jich zvládne víc najednou, třeba paralelně nebo s filtrováním výsledků, a Claude Code ho spustí. Funkce je ve výchozím stavu vypnutá a může se kdykoli změnit či zmizet.",
-        "en": "Claude Code 2.1.323 (November 12) added an experimental Code Mode: instead of single tool calls, Claude writes JavaScript that makes several at once, for example in parallel or with filtered results, and Claude Code runs it. The feature is off by default and may change or disappear at any time."
+        "cs": "Programátorský asistent Claude Code 2.1.323 (12. listopadu) přidal experimentální Code Mode: místo jednotlivých volání nástrojů, jako jsou Bash, Read nebo Edit, Claude napíše JavaScript, který jich zvládne víc najednou, a Claude Code ho spustí. Funkce je ve výchozím stavu vypnutá a může se kdykoli změnit či zmizet.",
+        "en": "The coding assistant Claude Code 2.1.323 (November 12) added an experimental Code Mode: instead of single tool calls such as Bash, Read, or Edit, Claude writes JavaScript that makes several at once, and Claude Code runs it. The feature is off by default and may change or disappear at any time."
       },
       "why": {
-        "cs": "Nastav CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 a potvrď dotaz; kód ukáže Ctrl+O. Jen v interaktivním terminálu, s předplatným Claude nebo účtem Console, ne přes Bedrock a jiné cloudy.",
-        "en": "Set CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 and confirm when asked; Ctrl+O shows the code. Interactive terminal only, with a Claude subscription or Console account, not via Bedrock or other clouds."
+        "cs": "Nastav CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1, potvrď upozornění; kód ukáže Ctrl+O. Jen v terminálu, s předplatným či účtem Console, ne přes Bedrock aj.; nejde s OpenTelemetry, DISABLE_TELEMETRY ani HIPAA/ZDR; v auto režimu klasifikátor posuzuje kód, ne každé volání.",
+        "en": "Set CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1, confirm; Ctrl+O shows the code. Terminal only, Claude subscription or Console account, not Bedrock and other clouds; blocked by OpenTelemetry, DISABLE_TELEMETRY, HIPAA, ZDR; auto mode reviews the code, not each call."
       },
       "sources": [
         {
@@ -345,17 +353,17 @@
         "en": "VS Code: Inbox mode surfaces agent sessions needing you"
       },
       "summary": {
-        "cs": "VS Code 1.146 (11. listopadu) přidal experimentální Inbox režim: v okně Agents seřadí relace tak, že nahoře jsou ty, které čekají na tvou pozornost, pod nimi běžící, připravené ke sloučení, odložené a hotové. Nepotřebnou relaci můžeš odložit nebo označit jako vyřízenou.",
-        "en": "VS Code 1.146 (November 11) added an experimental Inbox mode: the Agents window sorts sessions so those needing your attention come first, followed by running, ready to merge, on hold, and done. You can snooze a session you do not need or mark it done."
+        "cs": "VS Code 1.146 (11. listopadu) přidal experimentální Inbox režim: v okně Agents seřadí relace agentů (jejich rozdělanou práci) tak, že nahoře jsou ty, které čekají na tvou pozornost, pod nimi běžící, připravené ke sloučení změn, odložené a hotové. Nepotřebnou relaci můžeš odložit nebo označit jako vyřízenou.",
+        "en": "VS Code 1.146 (November 11) added an experimental Inbox mode: the Agents window sorts agent sessions (their work in progress) so those needing your attention come first, followed by running, ready to merge, on hold, and done. You can snooze a session you do not need or mark it done."
       },
       "why": {
-        "cs": "Zapni nastavení sessions.list.inboxEnabled (ve výchozím stavu vypnuté) a v seznamu relací okna Agents zvol Grouping > Inbox Mode. Odmítnutí z Inboxu relaci nearchivuje; archivuješ ji přes Mark Session as Done.",
-        "en": "Enable the sessions.list.inboxEnabled setting (off by default), then pick Grouping > Inbox Mode in the Agents window’s session list. Dismissing from Inbox does not archive a session; archive it with Mark Session as Done."
+        "cs": "Zapni nastavení sessions.list.inboxEnabled (výchozí: vypnuto) a v seznamu relací okna Agents zvol Grouping > Inbox Mode. Jak okno Agents otevřít a co vyžaduje, release notes neuvádějí.",
+        "en": "Enable the sessions.list.inboxEnabled setting (off by default), then pick Grouping > Inbox Mode in the Agents window’s session list. The release notes do not say how to open the Agents window or what it requires."
       },
       "sources": [
         {
           "name": "Visual Studio Code",
-          "url": "https://code.visualstudio.com/updates"
+          "url": "https://code.visualstudio.com/updates/v1_146"
         }
       ]
     }
@@ -444,12 +452,12 @@
     {
       "date": "2026-12-02",
       "title": {
-        "cs": "EU: do 2. prosince musí firmy splnit zákaz aplikací na „svlékání“",
-        "en": "EU: companies must meet nudifier-app ban by December 2"
+        "cs": "EU: do 2. prosince musí firmy splnit zákaz nahých deepfaků",
+        "en": "EU: AI apps making fake nude images banned by December 2"
       },
       "note": {
-        "cs": "Firmy mají do 2. prosince 2026 čas splnit zákaz AI aplikací na „svlékání“ lidí bez souhlasu a strojově čitelně označovat AI obsah i u starších systémů. Zákon schválen 29. 6.",
-        "en": "Companies have until December 2, 2026 to meet the ban on AI apps that “undress” people without consent and to label AI content machine-readably, older systems included. Adopted June 29."
+        "cs": "Podle AI Actu musí firmy do 2. prosince 2026 splnit zákaz AI aplikací, které bez souhlasu vytvářejí nahé snímky lidí, a strojově čitelně označovat AI obsah i u starších systémů.",
+        "en": "AI Act: by December 2, 2026 companies must meet the ban on AI apps making nude images of people without consent and label AI content machine-readably, older systems too."
       },
       "sources": [
         {
@@ -470,8 +478,8 @@
         "en": "Google: Gemini smart glasses go on sale"
       },
       "note": {
-        "cs": "Předobjednávky běží; brýle Warby Parker (jen USA) a Gentle Monster (USA, Jižní Korea) půjdou 10. prosince do prodeje. Fungují jen s účtem Google z USA či Jižní Koreje, 18+.",
-        "en": "Pre-orders open; Warby Parker (US only) and Gentle Monster (US, South Korea) glasses go on sale December 10. They need a Google account from the US or South Korea, 18+."
+        "cs": "Brýle Warby Parker (jen USA) a Gentle Monster (USA, Jižní Korea) půjdou 10. prosince do prodeje. Potřebují účet Google z USA či Jižní Koreje (18+) a vybraný telefon.",
+        "en": "Warby Parker (US only) and Gentle Monster (US, South Korea) glasses go on sale December 10. They need a US or South Korean Google account, 18+, and a supported phone."
       },
       "sources": [
         {
@@ -488,8 +496,8 @@
     {
       "date": "2026-12-14",
       "title": {
-        "cs": "GitHub: 14. prosince z Copilotu zmizí šest modelů",
-        "en": "GitHub: six models leave Copilot on December 14"
+        "cs": "GitHub Copilot: 14. prosince skončí šest modelů",
+        "en": "GitHub Copilot: six models end on December 14"
       },
       "note": {
         "cs": "GitHub 13. listopadu oznámil konec šesti modelů 14. prosince, mj. Claude Fable 5 a Gemini 4 Argon; doporučuje náhrady (pro Kimi K3 zatím žádnou). Ročním individuálním předplatitelům zůstane Haiku 4.5.",

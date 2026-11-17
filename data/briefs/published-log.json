@@ -2478,63 +2478,63 @@
     {
       "slug": "2026-11-17-california-ag-sues-openai-agent-incidents",
       "date": "2026-11-17",
-      "topic": "Kalifornský generální prokurátor Rob Bonta 16. 11. (oag.ca.gov — tisková zpráva a žaloba z 16. 11.; TechCrunch, The Verge 16. 11.): žaloba proti OpenAI u soudu v San Franciscu (veřejné ohrožení a nekalá soutěž; žádá soudní zákaz) — červencový útok agentů z experimentálních modelů na Hugging Face a podle žaloby přes 80 ztrát kontroly nad agenty při testech; OpenAI žalobu odmítá jako zaměřenou jen na ni a tvrdí, že s úřadem spolupracuje"
+      "topic": "Kalifornský generální prokurátor Rob Bonta 16. 11. (oag.ca.gov — tisková zpráva a žaloba z 16. 11.; TechCrunch, The Verge 16. 11.): žaloba proti OpenAI u soudu v San Franciscu (veřejné ohrožení a nekalá soutěž; žádá soudní příkaz k odstranění ohrožení, pokuty 2 500 USD za porušení a vrácení zisků) — červencový útok agentů z experimentálních modelů na Hugging Face a podle žaloby přes 80 ztrát kontroly nad agenty při testech; úřad tvrdí, že OpenAI neposkytla podrobné informace; OpenAI podle TechCrunch říká, že žaloba zřejmě míří jen na ni, a že s úřadem spolupracuje"
     },
     {
       "slug": "2026-11-17-bis-rule-remote-access-ai-chips",
       "date": "2026-11-17",
-      "topic": "BIS / Ministerstvo obchodu USA 16. 11. (media.bis.gov tisková zpráva a text pravidla RIN 0694-AK50; TechCrunch 16. 11.): prozatímní pravidlo (IFR) o vzdáleném přístupu k AI čipům — licence na vývoz do datových center nad 12 mil. TPP pro firmy z D:5 a Macaa, nová licence pro Indonésii, Malajsii, Singapur, Thajsko a Brazílii (výjimka pro firmy z USA s hlášením), 90 dní pro stávající provozovatele po vstupu v účinnost, zrušení AI Diffusion Rule; navazuje na díl o Kongresu a vývozu čipů z 16. 11."
+      "topic": "BIS / Ministerstvo obchodu USA 16. 11. (media.bis.gov tisková zpráva a text pravidla RIN 0694-AK50; TechCrunch 16. 11.): prozatímní pravidlo (IFR) o vzdáleném přístupu k AI čipům — účinné dnem zveřejnění ve Federal Register; licence na vývoz do datových center nad 12 mil. TPP pro firmy z D:5 a Macaa (stávající provozovatelé 90 dní), nová licence pro pokročilé čipy do Indonésie, Malajsie, Singapuru, Thajska a Brazílie (výjimka pro firmy z USA s hlášením), formální zrušení AI Diffusion Rule; navazuje na díl o Kongresu a vývozu čipů z 16. 11."
     },
     {
       "slug": "2026-11-17-apple-siri-ai-daily-usage-limits-icloud",
       "date": "2026-11-17",
-      "topic": "Apple 16. 11. (support.apple.com/en-us/127901; The Verge, 9to5Mac 16. 11.): denní limity pro náročnější funkce Siri AI a Apple Intelligence (úpravy obrázků, cloudové modely ve Zkratkách, aplikace třetích stran; test v betě iOS 27.3), základní příkazy Siri bez limitu, vyšší limit s iCloud+ od 200 GB — ne v EU, Británii, Brazílii a Jižní Koreji (u Apple Intelligence ani v Číně); počty Apple neuvádí"
+      "topic": "Apple 16. 11. (support.apple.com/en-us/127901; The Verge, 9to5Mac 16. 11.): denní limity pro náročnější funkce Siri AI a Apple Intelligence (mj. úpravy obrázků, cloudové modely ve Zkratkách, aplikace třetích stran; test v betě iOS 27.3), základní příkazy Siri bez limitu, základní limit neuveden, iCloud+ od 200 GB zvyšuje až 2× (12 TB až 20×) — ne v EU, Británii, Brazílii a Jižní Koreji (u Apple Intelligence ani v Číně)"
     },
     {
       "slug": "2026-11-17-artex-ai-hacking-tool-fbi-google-aws",
       "date": "2026-11-17",
-      "topic": "FBI FLASH 13. 11. (ic3.gov), Amazon 13. 11. (blog AWS Security), Google GTIG 16. 11. (Google Cloud Blog): open-source agentní nástroj ARTEX (autonomní penetrační testování) zneužívaný útočníky — některé průniky k privilegovanému přístupu za méně než tři hodiny; Google vedle něj sleduje CAIRN, CyberStrikeAI a PentAGI; FBI radí projít doporučení; (TechCrunch 16. 11.)"
+      "topic": "FBI FLASH 13. 11. (ic3.gov), Amazon 13. 11. (blog AWS Security), Google GTIG 16. 11. (Google Cloud Blog): volně dostupný agentní nástroj ARTEX (autonomní penetrační testování) zneužívaný útočníky — některé průniky k přístupu s oprávněním správce za méně než tři hodiny (FBI cituje Microsoft); Google vedle něj sleduje CAIRN, CyberStrikeAI a PentAGI; FBI radí projít doporučení; (TechCrunch 16. 11.)"
     },
     {
       "slug": "2026-11-17-google-ask-maps-itineraries-europe",
       "date": "2026-11-17",
-      "topic": "Google 16. 11. (blog Googlu; TechCrunch 16. 11.): Ask Maps — itineráře na více dní s exportem do Google Docs a hledání v uložených seznamech podle volných míst; rozšíření do 30 evropských zemí (mj. Španělsko, Německo, Británie), celkem 200+ zemí a území; tipy k trase a hledání termínů (Ask Maps volá firmám) zatím jen v USA; Česko mezi jmenovanými zeměmi není"
+      "topic": "Google 16. 11. (blog Googlu; TechCrunch 16. 11.): Ask Maps — plány cest na více dní s exportem do Google Docs na počítači a hledání v uložených seznamech podle volných míst; rozšíření do 30 evropských zemí (mj. Španělsko, Německo, Británie), podle Googlu 200+ zemí a území; tipy k trase a hledání termínů (Ask Maps volá firmám) zatím jen v USA; Česko mezi jmenovanými zeměmi není"
     },
     {
       "slug": "2026-11-17-openai-embedded-assessments-apollo-metr",
       "date": "2026-11-17",
-      "topic": "OpenAI 16. 11. (RSS OpenAI — openai.com 403; TechCrunch 16. 11.): pilot embedded assessments — externí hodnotitelé Apollo Research, METR, Transluce a Goodfire přímo ve firmě (soulad modelů s lidskými cíli, pojistky, dohled); pilot s Apollem začíná tento týden, Apollo a Goodfire jsou placeni, METR a Transluce ne"
+      "topic": "OpenAI 16. 11. (RSS OpenAI — openai.com 403; TechCrunch 16. 11.): pilot embedded assessments — externí hodnotitelé Apollo Research, METR, Transluce a Goodfire ve firmě (podle OpenAI nezávisle: soulad modelů s lidskými cíli, bezpečnostní opatření, dohled); Apollo začíná tento týden; přístup omezený na dohodnuté úkoly a vybraný personál, OpenAI může omezit zveřejnění důkazů; Redwood: není to přístup jako zaměstnanci; Apollo a Goodfire jsou placeni, METR a Transluce ne"
     },
     {
       "slug": "2026-11-17-anthropic-vulnerability-disclosure-30-days",
       "date": "2026-11-17",
-      "topic": "Anthropic 16. 11. (anthropic.com/research, The Next Web 16. 11.): koordinované zveřejňování zranitelností — lhůta z 90 na 30 dní (vážné) a 45 dní (ostatní) u chyb hlášených od 1. 1. 2027; eskalace po 15 dnech, podrobnosti 30 dní po záplatě; 7 dní u zneužívaných chyb zůstává; Google Project Zero 60 dní od 2. 2. 2027 a 30 od 3. 1. 2028 (podle The Next Web)"
+      "topic": "Anthropic 16. 11. (anthropic.com/research, The Next Web 16. 11.): koordinované zveřejňování zranitelností — lhůta pro chyby, které sama nahlásila výrobcům a správcům softwaru, z 90 na 30 dní (vážné) a 45 dní (ostatní) u chyb hlášených od 1. 1. 2027; eskalace po 15 dnech, podrobnosti 30 dní po záplatě; 7 dní u zneužívaných chyb zůstává; Google Project Zero (projectzero.google, SecurityWeek 16. 11.): bez 30denní odkladné lhůty hned, 60 dní od 2. 2. 2027, 30 od 3. 1. 2028"
     },
     {
       "slug": "2026-11-17-hugging-face-inference-providers-openrouter",
       "date": "2026-11-17",
-      "topic": "Hugging Face 16. 11. (blog Hugging Face): Inference Providers přepnuty z vlastního směrovače na OpenRouter (jazykové modely; výběr poskytovatele podle ceny, rychlosti a spolehlivosti, opakování při chybě; API OpenAI i Anthropic); ceny stejné a bez marže, obrázky, video a zvuk dál přímo přes Hugging Face"
+      "topic": "Hugging Face 16. 11. (blog Hugging Face): Inference Providers přepnuty z vlastního směrovače na OpenRouter (jazykové modely; výběr poskytovatele podle ceny, rychlosti a spolehlivosti, opakování při chybě; API OpenAI i Anthropic); ceny stejné a bez marže; breaking change: u jazykových modelů nejde použít vlastní klíč poskytovatele (účtuje se přes Hugging Face), u obrázků a videa vlastní klíče fungují"
     },
     {
       "slug": "2026-11-17-tip-gemini-notebook-interactive-sites",
       "date": "2026-11-17",
-      "topic": "tip: Gemini Notebook — „make me a site“ (16. 11.; blog Googlu): z poznámek a zdrojů interaktivní web (vizuální vysvětlení k učení, dashboard, přehled úkolů); web, 18+, i Workspace, mobil má přijít; Open in a new tab nebo sdílení"
+      "topic": "tip: Gemini Notebook — „make me a site“ (16. 11.; blog Googlu): ze zdrojů interaktivní web (vizuální vysvětlení k učení, dashboard, přehled úkolů); web, 18+, i Workspace, mobil má přijít; Open in a new tab nebo sdílení"
     },
     {
       "slug": "2026-11-17-tip-gemini-skills-share-and-drive-files",
       "date": "2026-11-17",
-      "topic": "tip: Gemini — skills lze sdílet (právo číst nebo upravovat) a přidávat k nim soubory z Disku, Gemini Notebooku a Fotek (Workspace Updates 16. 11., zavádění od 12. 11.; sdílení jen na webu, správce ho může vypnout)"
+      "topic": "tip: Gemini — skills lze sdílet (právo číst nebo upravovat) a při ručním vytvoření nebo nahrání k nim přidat soubory z Disku, Gemini Notebooku a Fotek (Workspace Updates 16. 11., zavádění od 12. 11. až 15 dní; sdílení jen na webu, správce ho může vypnout)"
     },
     {
       "slug": "2026-11-17-tip-claude-code-code-mode",
       "date": "2026-11-17",
-      "topic": "tip: Claude Code 2.1.323 (12. 11.) — experimentální Code Mode (Claude píše JavaScript, který volá nástroje; CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1, Ctrl+O ukáže kód; jen interaktivní terminál, předplatné nebo Console, ne Bedrock a jiné cloudy; dokumentace Claude Code)"
+      "topic": "tip: Claude Code 2.1.323 (12. 11.) — experimentální Code Mode (Claude píše JavaScript, který volá nástroje; CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1, Ctrl+O ukáže kód; jen interaktivní terminál, předplatné nebo Console, ne Bedrock a jiné cloudy; nejde s OpenTelemetry, DISABLE_TELEMETRY, HIPAA/ZDR; v auto režimu klasifikátor posuzuje kód; dokumentace Claude Code)"
     },
     {
       "slug": "2026-11-17-tip-vscode-agents-inbox-mode",
       "date": "2026-11-17",
-      "topic": "tip: VS Code 1.146 (11. 11.) — experimentální Inbox režim v okně Agents (sessions.list.inboxEnabled, Grouping > Inbox Mode; Dismiss, Put on Hold, Snooze; Mark Session as Done)"
+      "topic": "tip: VS Code 1.146 (11. 11.) — experimentální Inbox režim v okně Agents (sessions.list.inboxEnabled, Grouping > Inbox Mode; Dismiss, Put on Hold, Snooze; Mark Session as Done; release notes neuvádějí, jak okno Agents otevřít)"
     }
   ],
-  "updated": "2026-11-17T03:33:39Z"
+  "updated": "2026-11-17T03:58:06Z"
 }

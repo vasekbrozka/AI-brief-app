@@ -6194,11 +6194,11 @@
       "verified": true,
       "eventDate": "2026-11-16",
       "title": {
-        "cs": "Gemini Notebook z poznámek postaví interaktivní web",
-        "en": "Gemini Notebook turns your notes into an interactive site"
+        "cs": "Gemini Notebook z tvých podkladů postaví interaktivní web",
+        "en": "Gemini Notebook turns your sources into an interactive site"
       },
       "summary": {
-        "cs": "Google 16. listopadu oznámil, že Gemini Notebook umí ze zdrojů vytvořit interaktivní web: vizuální vysvětlení k učení (periodická tabulka, časová osa), dashboard s daty nebo přehled úkolů a termínů. Zavádí se globálně na webu pro uživatele od 18 let, i ve Workspace; mobilní aplikace má přijít.",
+        "cs": "Google 16. listopadu oznámil, že Gemini Notebook umí z tvých podkladů vytvořit interaktivní web: vizuální vysvětlení k učení (periodická tabulka, časová osa), dashboard s daty nebo přehled úkolů a termínů. Zavádí se globálně na webu pro uživatele od 18 let, i ve Workspace; mobilní aplikace má přijít.",
         "en": "On November 16, Google said Gemini Notebook can turn your sources into an interactive site: visual study explainers (periodic table, timeline), a dashboard for your data, or a task-and-deadline tracker. It is rolling out globally on the web for users 18 and older, Workspace included; the mobile app is coming."
       },
       "why": {
@@ -6221,21 +6221,21 @@
       "verified": true,
       "eventDate": "2026-11-16",
       "title": {
-        "cs": "Skills v Gemini jdou sdílet a čerpat z Disku",
-        "en": "Gemini skills can be shared and use Drive files"
+        "cs": "Skills v Gemini: sdílení a soubory z Disku Google",
+        "en": "Gemini skills: sharing and files from Google Drive"
       },
       "summary": {
-        "cs": "Google 16. listopadu oznámil dvě novinky pro skills (opakovaně použitelné pokyny) v aplikaci Gemini: můžeš je sdílet s právem číst či upravovat a přidávat k nim soubory z Disku, Gemini Notebooku a Fotek. Soubory z Disku a poznámkové bloky se aktualizují v reálném čase. Zavádění začalo 12. listopadu.",
-        "en": "On November 16, Google announced two additions to skills (reusable instructions) in the Gemini app: you can share them with view or edit rights and attach files from Drive, Gemini Notebook, and Photos. Drive files and notebooks update in real time. The rollout began on November 12."
+        "cs": "Google 16. listopadu oznámil, že skills v aplikaci Gemini jde sdílet s právem číst či upravovat a že se při ručním vytvoření nebo nahrání skillu dají přidat soubory z Disku, Gemini Notebooku a Fotek; Disk a notebooky se aktualizují v reálném čase. Zavádí se postupně od 12. listopadu, až 15 dní.",
+        "en": "Google said on November 16 that Gemini skills can be shared with view or edit rights, and that skills you create or upload manually can include files from Drive, Gemini Notebook, and Photos; Drive and notebooks update live. Rollout is gradual from November 12, up to 15 days."
       },
       "why": {
-        "cs": "Sdílet jde zatím jen v Gemini na webu, ne v mobilu; příjemce musí mít přístup i k souborům z Disku. Firemní správce může sdílení skills vypnout. Platí pro zákazníky Workspace i osobní účty.",
-        "en": "Sharing works only in the Gemini web app for now; recipients also need access to the Drive files. A company admin can switch sharing off. Workspace customers and personal accounts both get it."
+        "cs": "Sdílíš na stránce Skills v Gemini na webu (v mobilu zatím ne); příjemce musí mít přístup i k souborům z Disku. Firemní správce může sdílení vypnout. Platí pro Workspace i osobní účty.",
+        "en": "Share from the Skills page in the Gemini web app (not mobile yet); recipients also need access to the Drive files. A company admin can switch sharing off. Workspace and personal accounts both get it."
       },
       "sources": [
         {
           "name": "Google",
-          "url": "http://workspaceupdates.googleblog.com/2026/11/share-skills-add-files-from-Drive-Notebook-Photos-to-skills-Gemini-app.html"
+          "url": "https://workspaceupdates.googleblog.com/2026/11/share-skills-add-files-from-Drive-Notebook-Photos-to-skills-Gemini-app.html"
         }
       ],
       "added": "2026-11-17",
@@ -6252,12 +6252,12 @@
         "en": "Claude Code gains an experimental Code Mode"
       },
       "summary": {
-        "cs": "Claude Code 2.1.323 (12. listopadu) přidal experimentální Code Mode: místo jednotlivých volání nástrojů Claude napíše JavaScript, který jich zvládne víc najednou, třeba paralelně nebo s filtrováním výsledků, a Claude Code ho spustí. Funkce je ve výchozím stavu vypnutá a může se kdykoli změnit či zmizet.",
-        "en": "Claude Code 2.1.323 (November 12) added an experimental Code Mode: instead of single tool calls, Claude writes JavaScript that makes several at once, for example in parallel or with filtered results, and Claude Code runs it. The feature is off by default and may change or disappear at any time."
+        "cs": "Programátorský asistent Claude Code 2.1.323 (12. listopadu) přidal experimentální Code Mode: místo jednotlivých volání nástrojů, jako jsou Bash, Read nebo Edit, Claude napíše JavaScript, který jich zvládne víc najednou, a Claude Code ho spustí. Funkce je ve výchozím stavu vypnutá a může se kdykoli změnit či zmizet.",
+        "en": "The coding assistant Claude Code 2.1.323 (November 12) added an experimental Code Mode: instead of single tool calls such as Bash, Read, or Edit, Claude writes JavaScript that makes several at once, and Claude Code runs it. The feature is off by default and may change or disappear at any time."
       },
       "why": {
-        "cs": "Nastav CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 a potvrď dotaz; kód ukáže Ctrl+O. Jen v interaktivním terminálu, s předplatným Claude nebo účtem Console, ne přes Bedrock a jiné cloudy.",
-        "en": "Set CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 and confirm when asked; Ctrl+O shows the code. Interactive terminal only, with a Claude subscription or Console account, not via Bedrock or other clouds."
+        "cs": "Nastav CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1, potvrď upozornění; kód ukáže Ctrl+O. Jen v terminálu, s předplatným či účtem Console, ne přes Bedrock aj.; nejde s OpenTelemetry, DISABLE_TELEMETRY ani HIPAA/ZDR; v auto režimu klasifikátor posuzuje kód, ne každé volání.",
+        "en": "Set CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1, confirm; Ctrl+O shows the code. Terminal only, Claude subscription or Console account, not Bedrock and other clouds; blocked by OpenTelemetry, DISABLE_TELEMETRY, HIPAA, ZDR; auto mode reviews the code, not each call."
       },
       "sources": [
         {
@@ -6283,17 +6283,17 @@
         "en": "VS Code: Inbox mode surfaces agent sessions needing you"
       },
       "summary": {
-        "cs": "VS Code 1.146 (11. listopadu) přidal experimentální Inbox režim: v okně Agents seřadí relace tak, že nahoře jsou ty, které čekají na tvou pozornost, pod nimi běžící, připravené ke sloučení, odložené a hotové. Nepotřebnou relaci můžeš odložit nebo označit jako vyřízenou.",
-        "en": "VS Code 1.146 (November 11) added an experimental Inbox mode: the Agents window sorts sessions so those needing your attention come first, followed by running, ready to merge, on hold, and done. You can snooze a session you do not need or mark it done."
+        "cs": "VS Code 1.146 (11. listopadu) přidal experimentální Inbox režim: v okně Agents seřadí relace agentů (jejich rozdělanou práci) tak, že nahoře jsou ty, které čekají na tvou pozornost, pod nimi běžící, připravené ke sloučení změn, odložené a hotové. Nepotřebnou relaci můžeš odložit nebo označit jako vyřízenou.",
+        "en": "VS Code 1.146 (November 11) added an experimental Inbox mode: the Agents window sorts agent sessions (their work in progress) so those needing your attention come first, followed by running, ready to merge, on hold, and done. You can snooze a session you do not need or mark it done."
       },
       "why": {
-        "cs": "Zapni nastavení sessions.list.inboxEnabled (ve výchozím stavu vypnuté) a v seznamu relací okna Agents zvol Grouping > Inbox Mode. Odmítnutí z Inboxu relaci nearchivuje; archivuješ ji přes Mark Session as Done.",
-        "en": "Enable the sessions.list.inboxEnabled setting (off by default), then pick Grouping > Inbox Mode in the Agents window’s session list. Dismissing from Inbox does not archive a session; archive it with Mark Session as Done."
+        "cs": "Zapni nastavení sessions.list.inboxEnabled (výchozí: vypnuto) a v seznamu relací okna Agents zvol Grouping > Inbox Mode. Jak okno Agents otevřít a co vyžaduje, release notes neuvádějí.",
+        "en": "Enable the sessions.list.inboxEnabled setting (off by default), then pick Grouping > Inbox Mode in the Agents window’s session list. The release notes do not say how to open the Agents window or what it requires."
       },
       "sources": [
         {
           "name": "Visual Studio Code",
-          "url": "https://code.visualstudio.com/updates"
+          "url": "https://code.visualstudio.com/updates/v1_146"
         }
       ],
       "added": "2026-11-17",

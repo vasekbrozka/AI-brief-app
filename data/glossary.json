@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-17",
   "terms": [
     {
       "id": "quantization",
@@ -1767,6 +1767,51 @@
       "short": {
         "cs": "Nastavení, kolik času a „přemýšlení“ model věnuje odpovědi. Nižší úroveň je rychlejší a levnější, vyšší důkladnější, ale pomalejší a dražší.",
         "en": "A setting for how much time and thinking a model spends on an answer. Lower is faster and cheaper; higher is more thorough but slower and costlier."
+      }
+    },
+    {
+      "id": "claude-code",
+      "term": {
+        "cs": "Claude Code (programátorský asistent)",
+        "en": "Claude Code (coding assistant)"
+      },
+      "aliases": [
+        "Claude Code"
+      ],
+      "short": {
+        "cs": "Programátorský agent od Anthropicu: v terminálu, editoru, desktopové aplikaci i v prohlížeči čte a upravuje kód, spouští příkazy a testy.",
+        "en": "Anthropic’s coding agent: in the terminal, an editor, the desktop app, or the browser it reads and edits code and runs commands and tests."
+      }
+    },
+    {
+      "id": "openrouter",
+      "term": {
+        "cs": "OpenRouter",
+        "en": "OpenRouter"
+      },
+      "aliases": [
+        "OpenRouter",
+        "OpenRouteru",
+        "OpenRouterem"
+      ],
+      "short": {
+        "cs": "Služba, která přes jedno rozhraní zpřístupňuje stovky AI modelů od desítek poskytovatelů a pro každý požadavek vybírá poskytovatele podle ceny, rychlosti a spolehlivosti.",
+        "en": "A service that exposes hundreds of AI models from dozens of providers through one interface and picks a provider per request by price, speed, and reliability."
+      }
+    },
+    {
+      "id": "open-source",
+      "term": {
+        "cs": "Open source (otevřený zdrojový kód)",
+        "en": "Open source"
+      },
+      "aliases": [
+        "open-source",
+        "open source"
+      ],
+      "short": {
+        "cs": "Software s veřejným zdrojovým kódem, který může podle licence kdokoli prohlížet, používat a upravovat. U AI modelů se zveřejnění vah označuje spíš jako open-weight.",
+        "en": "Software whose source code is public, so anyone may view, use, and modify it under its license. For AI models, publishing the weights is more precisely called open-weight."
       }
     }
   ]
