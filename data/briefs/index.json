@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-17T03:58:06Z",
+  "updated": "2026-11-18T03:30:17Z",
   "briefs": [
+    {
+      "date": "2026-11-18",
+      "headline": {
+        "cs": "OpenAI uvedla GPT-6.2 Astra a Sol",
+        "en": "OpenAI releases GPT-6.2 Astra and Sol"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-11-17",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "ChatGPT can now make animated GIFs with Images 2.6"
       },
       "itemCount": 10
-    },
-    {
-      "date": "2026-11-04",
-      "headline": {
-        "cs": "Google žákům ve výchozím stavu vypne Gemini i Vyhledávání",
-        "en": "Google: Gemini and Search off by default for students"
-      },
-      "itemCount": 11
     }
   ]
 }

@@ -67,72 +67,6 @@
       "used": "2026-08-20"
     },
     {
-      "slug": "tip-chatgpt-effort-slider",
-      "category": "tools",
-      "theme": "chatgpt",
-      "verified": false,
-      "title": {
-        "cs": "ChatGPT nechá nastavit, kolik úsilí do odpovědi dá",
-        "en": "ChatGPT lets you dial how much effort an answer gets"
-      },
-      "summary": {
-        "cs": "ChatGPT dostal v srpnu posuvník úsilí pro model GPT-5.6 Sol na plánech Plus a Pro. Uživatelé zdarma a na plánu Go mají zároveň nový výchozí model pro běžné konverzace.",
-        "en": "ChatGPT gained an effort slider for GPT-5.6 Sol on the Plus and Pro plans in August. Free and Go users got a new default model for everyday chats at the same time."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-        }
-      ],
-      "added": "2026-08-18",
-      "used": "2026-08-19"
-    },
-    {
-      "slug": "tip-gemini-rambler-voice",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": false,
-      "title": {
-        "cs": "Hlasový vstup Rambler rozumí i souvětí bez konce",
-        "en": "Rambler voice input copes with rambling sentences"
-      },
-      "summary": {
-        "cs": "Google ukázal na akci Made by Google hlasový vstup Rambler, který zvládá souvětí bez konce i slovní vatu. Live Transcribe navíc nově překládá americký znakový jazyk do textu přes fotoaparát Pixelu.",
-        "en": "At Made by Google, Google showed Rambler, a voice input built for run-on sentences and filler words. Live Transcribe also now turns American Sign Language into text through the Pixel camera."
-      },
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/"
-        }
-      ],
-      "added": "2026-08-18",
-      "used": "2026-08-19"
-    },
-    {
-      "slug": "tip-meta-muse-glimmer",
-      "category": "tools",
-      "theme": "other",
-      "verified": false,
-      "title": {
-        "cs": "Meta pustila Muse Glimmer, model na tvůj notebook",
-        "en": "Meta releases Muse Glimmer, a model for your laptop"
-      },
-      "summary": {
-        "cs": "Meta v polovině srpna vydala Muse Glimmer — otevřený model odvozený z jejího nejsilnějšího Muse Sparku, dost malý na to, aby běžel lokálně na notebooku. Podle Mety patří mezi nejvýkonnější modely své velikosti. Je součástí rodiny Muse z laboratoře Meta Superintelligence Labs.",
-        "en": "Meta released Muse Glimmer in mid-August — an open-weight model spun off its strongest system, Muse Spark, small enough to run locally on a laptop. Meta calls it one of the highest-performing models of its size. It belongs to the Muse family from Meta Superintelligence Labs."
-      },
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/"
-        }
-      ],
-      "added": "2026-08-19",
-      "used": "2026-08-19"
-    },
-    {
       "slug": "tip-gemini-connected-apps-wave",
       "category": "tools",
       "theme": "gemini",
@@ -6300,33 +6234,6 @@
       "used": "2026-11-17"
     },
     {
-      "slug": "tip-cursor-live-apps",
-      "category": "tools",
-      "theme": "cursor",
-      "verified": true,
-      "eventDate": "2026-11-05",
-      "title": {
-        "cs": "Cursor postaví živou aplikaci a nasadí ji na odkaz",
-        "en": "Cursor builds a live app and deploys it to a link"
-      },
-      "summary": {
-        "cs": "Cursor 5. listopadu umožnil stavět živé aplikace přímo v editoru: cloudový agent vytvoří web, podle potřeby databázi Postgres a přihlášení přes Cursor SSO a nasadí ho na zvolenou adresu. Před zveřejněním proběhnou bezpečnostní kontroly a nic nejde živě, dokud aplikaci výslovně nepublikuješ.",
-        "en": "On November 5, Cursor made it possible to build live apps right in the editor: a cloud agent creates the web app, a Postgres database if needed, and sign-in via Cursor SSO, then deploys it to the address you choose. Security checks run before publishing, and nothing goes live until you explicitly publish the app."
-      },
-      "why": {
-        "cs": "Spusť cloudového agenta a výslovně mu řekni, že chceš postavit aplikaci. Funkce je na všech placených plánech s cloudovými agenty; sdílení je za přihlášením do Cursoru, na individuálních plánech jde i veřejně.",
-        "en": "Start a cloud agent and tell it explicitly that you want to build an app. It is on all paid plans with cloud agents enabled; sharing sits behind Cursor sign-in, and on individual plans can also be public."
-      },
-      "sources": [
-        {
-          "name": "Cursor",
-          "url": "https://cursor.com/changelog"
-        }
-      ],
-      "added": "2026-11-17",
-      "used": null
-    },
-    {
       "slug": "tip-gemini-regional-voices",
       "category": "tools",
       "theme": "gemini",
@@ -6382,6 +6289,149 @@
         }
       ],
       "added": "2026-11-17",
+      "used": null
+    },
+    {
+      "slug": "tip-ai-mode-temporary-threads",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "AI Mode ve Vyhledávání umí dočasná vlákna bez uložení",
+        "en": "AI Mode in Search gets unsaved temporary threads"
+      },
+      "summary": {
+        "cs": "Google 17. listopadu přidal do AI Mode ve Vyhledávání dočasná vlákna. Na dotaz, který nechceš mít v historii ani v doporučeních, otevři dočasné vlákno: odpovědi se nepřizpůsobí dřívějším preferencím a po zavření vlákna zmizí. Zavádí se globálně v prohlížečích na počítači i mobilu, ve všech jazycích AI Mode.",
+        "en": "On November 17, Google added temporary threads to AI Mode in Search. For a question you don’t want in your history or recommendations, open a temporary thread: answers ignore your past preferences and vanish once you close it. It rolls out globally in desktop and mobile browsers, in all AI Mode languages."
+      },
+      "why": {
+        "cs": "Klikni na ikonu dočasných vláken vpravo nahoře v AI Mode (pero s tečkovaným okrajem). Podle Googlu je relace oddělená od účtu; zavřené vlákno nejde znovu otevřít (Google, 9to5Google).",
+        "en": "Click the temporary-threads icon at the top right of AI Mode (a pen with a dotted outline). Per Google, the session is detached from your account; a closed thread cannot be reopened (Google, 9to5Google)."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/11/17/google-ai-mode-temporary-threads/"
+        }
+      ],
+      "added": "2026-11-18",
+      "used": "2026-11-18"
+    },
+    {
+      "slug": "tip-claude-desktop-release-channel",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Claude Desktop: zvol kanál aktualizací Stable nebo Latest",
+        "en": "Claude Desktop: pick the Stable or Latest update channel"
+      },
+      "summary": {
+        "cs": "Anthropic 17. listopadu přidala do Claude Desktopu volbu kanálu aktualizací. Stable zůstává výchozí a dostává nové verze méně často, po důkladnějším testování. Latest dostává novou verzi zhruba jednou denně, takže opravy a novinky dorazí dřív, ale může být méně spolehlivý. Volba je na všech plánech v Claude pro Mac a Windows.",
+        "en": "On November 17, Anthropic added a release-channel choice to Claude Desktop. Stable stays the default and gets new versions less often, after more testing. Latest gets a new version about daily, so fixes and features arrive sooner but may be less reliable. It is on all plans, in Claude for Mac and Windows."
+      },
+      "why": {
+        "cs": "V Nastavení (Desktop app) vyber u Release channel možnost Latest. Přepnutí zpět na Stable aplikaci nevrátí na starší verzi; urgentní opravy přijdou až s novější Stable verzí. Nejde na Linuxu ani na spravovaných počítačích.",
+        "en": "In Settings, under Desktop app, pick Latest at Release channel. Going back to Stable does not downgrade, and urgent fixes arrive only with a newer Stable version. Not on Linux or managed computers."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/10065433-install-claude-desktop"
+        }
+      ],
+      "added": "2026-11-18",
+      "used": "2026-11-18"
+    },
+    {
+      "slug": "tip-github-copilot-browser-use",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "GitHub Copilot pracuje v tvém přihlášeném prohlížeči",
+        "en": "GitHub Copilot works in your signed-in browser"
+      },
+      "summary": {
+        "cs": "GitHub 17. listopadu zavedl ve veřejném náhledu funkci Browser use pro aplikaci GitHub Copilot: agent v prohlížeči, kde už jsi přihlášený, vyplní formuláře, vytáhne informace z webů nebo otestuje a odladí webovou aplikaci, kterou stavíš. Funguje v prohlížečích na Chromiu, třeba v Chrome a Edge, v odděleném seskupení karet.",
+        "en": "On November 17, GitHub launched browser use in public preview for the GitHub Copilot app: an agent in your already signed-in browser fills out forms, pulls information from webpages, or tests and debugs the web app you are building. It works in Chromium-based browsers, such as Chrome and Edge, in an isolated tab group."
+      },
+      "why": {
+        "cs": "Ve výchozím stavu je vypnuté: nainstaluj rozšíření GitHub Copilot pro Chrome a v nastavení Computer Use zapni Enable Computer Use i Enable Browser Use. Oprávnění spravuješ v nastavení rozšíření.",
+        "en": "It is off by default: install the GitHub Copilot extension for Chrome, then in Computer Use settings turn on both Enable Computer Use and Enable Browser Use. You manage permissions in the extension’s settings."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases"
+        }
+      ],
+      "added": "2026-11-18",
+      "used": "2026-11-18"
+    },
+    {
+      "slug": "tip-github-copilot-code-review-adaptive",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Copilot code review sám zvolí hloubku kontroly",
+        "en": "Copilot code review picks its own review depth"
+      },
+      "summary": {
+        "cs": "GitHub 17. listopadu zavedl ve veřejném náhledu režim Adaptive pro Copilot code review. Copilot posoudí složitost a riziko každého pull requestu a zkontroluje ho na úrovni Lite, Balanced nebo Max, takže běžné změny dostanou rychlý průchod a rizikové hlubší. Dostupné je v plánech Pro, Pro+, Max, Business a Enterprise.",
+        "en": "On November 17, GitHub introduced Adaptive in public preview for Copilot code review. Copilot judges each pull request’s complexity and risk and reviews it at Lite, Balanced, or Max, so routine changes get a quick pass and risky ones a deeper look. It is available on Pro, Pro+, Max, Business, and Enterprise plans."
+      },
+      "why": {
+        "cs": "Adaptive zvolíš u pull requestu v liště Reviewers nebo ho nastavíš jako výchozí; Balanced zůstává výchozí. Nikdy nepřekročí maximum nastavené pro repozitář, organizaci či firmu.",
+        "en": "Pick Adaptive per pull request in the Reviewers bar or as your default in settings; Balanced stays the default. It never exceeds the maximum set for your repository, organization, or enterprise."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more"
+        }
+      ],
+      "added": "2026-11-18",
+      "used": null
+    },
+    {
+      "slug": "tip-github-copilot-evals",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "GitHub Copilot Evals otestují tvé skills a agenty",
+        "en": "GitHub Copilot Evals tests your skills and agents"
+      },
+      "summary": {
+        "cs": "GitHub 17. listopadu uvedl ve veřejném náhledu GitHub Copilot Evals. Eval je opakovatelný test chování AI: zadáš agentovi realistický úkol, popíšeš dobrý výsledek a zkontroluješ výsledek i postup. Po úpravě skillu, vlastního agenta či nástroje MCP test spustíš znovu a odhalíš zhoršení.",
+        "en": "On November 17, GitHub launched GitHub Copilot Evals in public preview. An eval is a repeatable test of AI behavior: you give an agent a realistic task, describe a good result, and check the outcome and the steps taken. After changing a skill, custom agent, or MCP tool, rerun it to catch regressions."
+      },
+      "why": {
+        "cs": "Napiš Copilotu vlastními slovy nebo použij /eval; každý běh schvaluješ. Nainstaluj rozšíření pro VS Code, plugin do Copilot CLI či plugin v aplikaci Copilot (Individual, Business, Enterprise).",
+        "en": "Ask Copilot in your own words or use /eval; you approve each run. Install the extension for VS Code, the plugin for Copilot CLI, or the plugin in the Copilot app (Individual, Business, Enterprise)."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview"
+        }
+      ],
+      "added": "2026-11-18",
       "used": null
     }
   ]

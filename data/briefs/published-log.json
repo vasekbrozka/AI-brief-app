@@ -76,26 +76,6 @@
       "topic": "Anthropic 17.9.: Claude sám za <4 týdny optimalizoval 36 open-source biologických modelů (protein/genomika), 4x zrychlení, GPU jádra FlashPairformer, kód na GitHubu (Apache 2.0)"
     },
     {
-      "slug": "2026-09-18-claude-cowork-chat-merge-docs-slides-design",
-      "date": "2026-09-18",
-      "topic": "Anthropic 16.9. sloučil Claude Cowork s běžným chatem do jedné appky, přidal Claude Docs a Claude Slides, Claude Design teď funguje přímo v konverzaci (beta, Pro/Max nejdřív)"
-    },
-    {
-      "slug": "2026-09-18-anthropic-rd-automation-index-claude-26-percent",
-      "date": "2026-09-18",
-      "topic": "Anthropic 17.9. zveřejnil R&D Automation Index — Claude \"vede\" 26 % vlastního výzkumu a vývoje firmy (z <1 % v únoru), spolupracuje na ~90 % práce zaměstnanců"
-    },
-    {
-      "slug": "2026-09-18-microsoft-copilot-outage-september-17",
-      "date": "2026-09-18",
-      "topic": "Microsoft Copilot 17.9. ráno na hodiny vypadl (3000+ hlášení na Downdetector), příčina: změna síťové infrastruktury, plně obnoveno večer téhož dne"
-    },
-    {
-      "slug": "2026-09-18-tip-chatgpt-word-integration",
-      "date": "2026-09-18",
-      "topic": "tip: ChatGPT od 17.9. jako doplněk přímo v MS Wordu (draft/shrnutí/úpravy/formátování z postranního panelu) — na všech plánech vč. Free, přidává se k Excelu a PowerPointu"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -2534,7 +2514,62 @@
       "slug": "2026-11-17-tip-vscode-agents-inbox-mode",
       "date": "2026-11-17",
       "topic": "tip: VS Code 1.146 (11. 11.) — experimentální Inbox režim v okně Agents (sessions.list.inboxEnabled, Grouping > Inbox Mode; Dismiss, Put on Hold, Snooze; Mark Session as Done; release notes neuvádějí, jak okno Agents otevřít)"
+    },
+    {
+      "slug": "2026-11-18-openai-gpt-6-2-astra-sol",
+      "date": "2026-11-18",
+      "topic": "OpenAI 17. 11. (RSS OpenAI — openai.com 403; 9to5Mac a 9to5Google 17. 11.; changelog GitHubu): GPT-6.2 Astra a Sol v ChatGPT Work, Codexu a API (Plus, Pro, Enterprise, Edu) — Astra nejvyšší kvalita pro profesionální práci (dokumenty, prezentace, kód), Sol levnější pro každodenní práci; podle OpenAI méně výstupních tokenů, v FrontierCode 2.0 je Sol při max. úsilí do půl bodu za Astrou za zhruba pětinu ceny; API Astra 8/0,40/40 USD za milion tokenů (vstup/cache/výstup, o 20 % méně než GPT-6 Astra), Sol 2/0,10/10; Ultrafast (až 4,5× rychlejší) v Pro za 200 USD se Solem a v Pro za 500 USD s oběma; GitHub Copilot Pro+, Max, Business, Enterprise"
+    },
+    {
+      "slug": "2026-11-18-nvidia-q3-results-huang-not-reinstated-h200",
+      "date": "2026-11-18",
+      "topic": "Nvidia 17. 11. (tisková zpráva NVIDIA; TechCrunch 17. 11.; The Verge při průzkumu): výsledky 3. čtvrtletí fiskálního roku 2027 — tržby 115,8 mld. USD (+103 % meziročně, +20 % mezičtvrtletně), datová centra 107,6 mld. (+110 %), hrubá marže 74,8 %; výhled 4. čtvrtletí 130 mld. ±3 % bez tržeb za výpočetní techniku pro datová centra z Číny; předseda rady Harvey C. Jones: rada nehodlá Huanga znovu jmenovat CEO (Huang se na X nabídl k návratu); dočasná CEO a CFO Colette Kress: Nvidia přestane v Číně prodávat čipy H200; nový výbor rady pro národní bezpečnost a exportní kontroly; zpětný odkup akcií 28,1 mld. USD v čtvrtletí; navazuje na díl z 13. 11."
+    },
+    {
+      "slug": "2026-11-18-microsoft-ignite-copilot-office-autopilot",
+      "date": "2026-11-18",
+      "topic": "Microsoft 17. 11. (blog Copilot, blog Microsoftu, Ars Technica 17.–18. 11.): Ignite 2026 — všeobecně dostupné Home (Chat + Copilot Cowork na jednom místě) a Office v Copilotu (Word, Excel, PowerPoint v aplikaci, soubory upravitelné v Office, zahrnuto v ceně licence Copilotu; dědí oprávnění a popisky citlivosti); Copilot Managed Runtime GA, Code GA v příštích týdnech; Autopilot (autonomní agent s vlastní identitou a pamětí) se zavádí zákazníkům Frontier, účtování přes Copilot Credits, cena neuvedena; Microsoft IQ / Work IQ GA; Auto routing modelů; Today v soukromém náhledu; rozšířený Agent 365; Workspaces zatím ve Frontier"
+    },
+    {
+      "slug": "2026-11-18-gemini-tasks-free-six-countries",
+      "date": "2026-11-18",
+      "topic": "Google 17. 11. (blog Googlu — Josh Woodward; The Verge, TechCrunch, 9to5Google 17. 11.): Tasks v aplikaci Gemini (dříve Spark) zdarma v USA, Japonsku, Jižní Koreji, Kanadě, Austrálii a Indii na modelu Gemini 4 Hydrogen (dosud jen předplatitelé Pro a Ultra); přepínač Chat → Tasks; pokročilé funkce zatím jen v USA — volání firmám, nákupy přes Google Pay (AP2), přihlášení přes Správce hesel Google, zadávání úkolů e-mailem na gemini@google.com nebo textovkou; izolovaný virtuální stroj pro každý účet; před nákupem žádost o souhlas; Česko mezi zeměmi není"
+    },
+    {
+      "slug": "2026-11-18-gemini-chat-retention-two-months-training-controls",
+      "date": "2026-11-18",
+      "topic": "Google 16. 11. (blog Googlu Gemini app updates: New chat history and training controls; TechCrunch, Ars Technica 17. 11.; The Register při průzkumu): Gemini uchová chaty s vypnutou historií a dočasné chaty zhruba dva měsíce místo 72 hodin (globální zavádění v příštích týdnech); samostatná nastavení historie a trénování AI (kdo měl Keep Activity vypnuté, má obě vypnutá; trénování se vypíná zvlášť, jen u budoucích chatů); Google může data podle Ars držet až 3 roky; OpenAI uchovává dočasné chaty až 30 dní, Anthropic 30 dní (TechCrunch)"
+    },
+    {
+      "slug": "2026-11-18-oregon-sues-openai-child-safety",
+      "date": "2026-11-18",
+      "topic": "Oregon DOJ 17. 11. (doj.state.or.us — tisková zpráva; Engadget 17. 11.): generální prokurátor Dan Rayfield žaluje OpenAI u Multnomah County Circuit Court (žaloba za 2,035 mld. USD; podle Engadgetu škody a pokuty nejméně 2 mld.) — ohrožování dětí a klamání o bezpečnosti ChatGPT (zákon o nekalých obchodních praktikách, nedbalost, veřejné obtěžování), soudní příkaz; zahajuje iniciativu Keeping Kids Safe; OpenAI se v době vydání Engadgetu nevyjádřila"
+    },
+    {
+      "slug": "2026-11-18-microsoft-mai-code-2-flash-github-copilot",
+      "date": "2026-11-18",
+      "topic": "Microsoft AI 17. 11. (microsoft.ai; changelog GitHubu 17. 11.): kódovací modely MAI Code 2 a MAI Code 2 Flash — podle Microsoftu v průměru čtyř testů (DeepSWE 1.1, Terminal Bench 2.1, SWE-Atlas, FrontierCode 1.1) 98 % výkonu GPT-6.1 Sol za 40 % ceny a 96 % výkonu Claude Opus 5.5 za 5 % ceny (cena s 50% akční slevou; tři testy na interní platformě MSBench); Flash srovnatelný s GPT-6 Luna a Claude Haiku 5.5 za 65 % a 20 % ceny; v Copilotu (Code 2: Pro, Pro+, Max, Business, Enterprise; Flash i Free a Student), Flash v omezeném náhledu ve Foundry; nevyladěné na nejtěžší úlohy"
+    },
+    {
+      "slug": "2026-11-18-anthropic-linked-billing-claude-platform",
+      "date": "2026-11-18",
+      "topic": "Anthropic 17. 11. (claude.com — Linked billing on the Claude Platform; The Next Web 17. 11.): beta — zákazník propojí organizaci Claude Platform s aplikací třetí strany (Asana, ClickHouse, Factory, Linear, Warp, Kilo Code aj.) a spotřeba API se účtuje přímo jemu bez předání klíče; aplikace u požadavku volí, kdo platí; měsíční limit a odpojení; jen organizace platící Anthropicu přímo (ne přes AWS, Google Cloud, Azure ani jen předplatným); požadavky běží v organizaci aplikace — nastavení zákazníka (uchování dat, IP allowlist, šifrovací klíče) neplatí"
+    },
+    {
+      "slug": "2026-11-18-tip-ai-mode-temporary-threads",
+      "date": "2026-11-18",
+      "topic": "tip: AI Mode ve Vyhledávání Google — dočasná vlákna (17. 11.; blog Googlu, 9to5Google; ikona vpravo nahoře, relace oddělená od účtu, bez historie a personalizace, po zavření zmizí; globálně v prohlížečích na počítači i mobilu, ve všech jazycích AI Mode)"
+    },
+    {
+      "slug": "2026-11-18-tip-claude-desktop-release-channel",
+      "date": "2026-11-18",
+      "topic": "tip: Claude Desktop — kanál aktualizací Stable/Latest (17. 11.; poznámky k vydání Claude a nápověda; Nastavení > Desktop app > Release channel; Latest dostává verzi zhruba denně; přepnutí zpět na Stable nevrací starší verzi a urgentní opravy přijdou až s novější Stable verzí; Mac a Windows, všechny plány, ne Linux, Microsoft Store ani spravované počítače)"
+    },
+    {
+      "slug": "2026-11-18-tip-github-copilot-browser-use",
+      "date": "2026-11-18",
+      "topic": "tip: GitHub Copilot — Browser use (17. 11., veřejný náhled; changelog GitHubu; rozšíření GitHub Copilot pro Chrome, prohlížeče na Chromiu vč. Edge, oddělené seskupení karet; Settings > Computer Use: Enable Computer Use + Enable Browser Use, ve výchozím stavu vypnuto; i v Copilot CLI, VS Code a JetBrains)"
     }
   ],
-  "updated": "2026-11-17T03:58:06Z"
+  "updated": "2026-11-18T03:30:17Z"
 }

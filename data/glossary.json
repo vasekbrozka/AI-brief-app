@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "terms": [
     {
       "id": "quantization",
@@ -1812,6 +1812,62 @@
       "short": {
         "cs": "Software s veřejným zdrojovým kódem, který může podle licence kdokoli prohlížet, používat a upravovat. U AI modelů se zveřejnění vah označuje spíš jako open-weight.",
         "en": "Software whose source code is public, so anyone may view, use, and modify it under its license. For AI models, publishing the weights is more precisely called open-weight."
+      }
+    },
+    {
+      "id": "public-preview",
+      "term": {
+        "cs": "Veřejný náhled (public preview)",
+        "en": "Public preview"
+      },
+      "aliases": [
+        "public preview",
+        "veřejném náhledu",
+        "veřejný náhled",
+        "veřejného náhledu",
+        "veřejným náhledem"
+      ],
+      "short": {
+        "cs": "Raná, veřejně dostupná fáze nové funkce: můžeš ji vyzkoušet, ale může se ještě měnit a nemusí mít plnou podporu.",
+        "en": "An early, publicly available stage of a new feature: you can try it, but it may still change and may lack full support."
+      }
+    },
+    {
+      "id": "temporary-chat",
+      "term": {
+        "cs": "Dočasný chat (temporary chat)",
+        "en": "Temporary chat"
+      },
+      "aliases": [
+        "dočasné chaty",
+        "dočasný chat",
+        "dočasných chatů",
+        "dočasným chatem",
+        "dočasném chatu",
+        "temporary chat",
+        "temporary chats"
+      ],
+      "short": {
+        "cs": "Konverzace, která se neukládá do historie a nepřizpůsobuje odpovědi. Data se ale mohou ještě chvíli uchovávat: u Gemini asi dva měsíce, u ChatGPT a Claude až 30 dní.",
+        "en": "A conversation that is not saved to history and does not personalize answers. The data may still be kept for a while: about two months in Gemini, up to 30 days in ChatGPT and Claude."
+      }
+    },
+    {
+      "id": "frontier-program",
+      "term": {
+        "cs": "Frontier (program Microsoftu)",
+        "en": "Frontier (Microsoft program)"
+      },
+      "aliases": [
+        "programu Frontier",
+        "program Frontier",
+        "programem Frontier",
+        "Frontier customers",
+        "Frontier program"
+      ],
+      "short": {
+        "cs": "Program předčasného přístupu Microsoftu, v němž zákazníci dostávají nové funkce Copilotu dřív než ostatní.",
+        "en": "Microsoft’s early-access program, in which customers get new Copilot features before everyone else."
       }
     }
   ]
