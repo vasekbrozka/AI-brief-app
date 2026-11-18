@@ -464,7 +464,24 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   T2 dej do zdrojů); **tvrzení žaloby podávej jako tvrzení, nepopřený incident jako fakt**
   (útok na Hugging Face popisuje i OpenAI); čtenáři, kterým stránka vrátí 403
   (europarl.europa.eu), ji označí za neověřenou — ověř ji sám a do deníku napiš, že ses o
-  to postaral ty.
+  to postaral ty; (41) **banku tipů dedupuj podle funkce, ne podle dnešního tématu** — „živé aplikace v
+  Cursoru“ jsem 17. 11. zapsal jako nového kandidáta, ale vyšly už 6. 11. (`tip-cursor-live-apps`
+  × `2026-11-06-tip-cursor-build-live-apps`); před každým zápisem do banky grepni
+  published-log podle klíčových slov funkce, i pro témata, na která dnes nepíšeš; **čísla z
+  vlastního srovnání firmy čti s poznámkami pod čarou a dej je do shrnutí, ne jen do `why`**
+  (MAI Code 2: „40 % ceny“ je s 50% akční slevou, tři ze čtyř testů běžely na interní platformě,
+  soupeřem je GPT-6.1 Sol, ne GPT-6.2 vydaný téhož dne); **„za pětinu ceny“ vždy vymezi**
+  („při maximálním úsilí v tom testu“), když ceník tvrzení jinak vyvrací (Sol má za token
+  čtvrtinovou cenu); **u funkce s omezenou dostupností uváděj příklady platné ve všech zemích
+  spuštění** (Gemini Tasks: volání firmám a Správce hesel jen v USA, jinde plány jídel a kalendář)
+  a **„Česko na seznamu není“ napiš do shrnutí**; **bezpečnostní tvrzení firmy („zeptá se před
+  nákupem“) piš „podle Googlu“ a s chybami, které firma sama přiznává**; **název produktu, který
+  se kryje s jiným heslem ve slovníčku (Cowork = Claude), napiš celým (Copilot Cowork)**, a když
+  heslo v textu vysvětluje něco jiného („trénování“ chatů × trénink modelu), oprav heslo; **oficiální
+  weby států USA mimo `.gov` (doj.state.or.us) přidej do `T1_DOMAINS`** místo hledání druhého média
+  (vládní weby jsou T1); **pomocným agentům dej celkový strop dotazů (12–18 za všechny bloky)** —
+  dva agenti poslali dvakrát 18; čtenáři, kterým Microsoft, TechCrunch či microsoft.ai vrátí
+  403/502, označí tvrzení za neověřená — přečti je sám (curl s hlavičkou prohlížeče je čte).
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

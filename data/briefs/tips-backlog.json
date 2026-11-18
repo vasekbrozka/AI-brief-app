@@ -6298,12 +6298,12 @@
       "verified": true,
       "eventDate": "2026-11-17",
       "title": {
-        "cs": "AI Mode ve Vyhledávání umí dočasná vlákna bez uložení",
-        "en": "AI Mode in Search gets unsaved temporary threads"
+        "cs": "AI Mode: dočasná vlákna se neukládají do historie",
+        "en": "AI Mode: temporary threads are not saved to history"
       },
       "summary": {
-        "cs": "Google 17. listopadu přidal do AI Mode ve Vyhledávání dočasná vlákna. Na dotaz, který nechceš mít v historii ani v doporučeních, otevři dočasné vlákno: odpovědi se nepřizpůsobí dřívějším preferencím a po zavření vlákna zmizí. Zavádí se globálně v prohlížečích na počítači i mobilu, ve všech jazycích AI Mode.",
-        "en": "On November 17, Google added temporary threads to AI Mode in Search. For a question you don’t want in your history or recommendations, open a temporary thread: answers ignore your past preferences and vanish once you close it. It rolls out globally in desktop and mobile browsers, in all AI Mode languages."
+        "cs": "Google 17. listopadu přidal do AI Mode ve Vyhledávání dočasná vlákna. Na dotaz, který nechceš mít v historii ani v doporučeních, otevři dočasné vlákno: odpovědi se nepřizpůsobí dřívějším preferencím a po zavření vlákna podle Googlu zmizí. Zavádí se globálně v prohlížečích na počítači i mobilu, ve všech jazycích AI Mode.",
+        "en": "On November 17, Google added temporary threads to AI Mode in Search. For a question you don’t want in your history or recommendations, open a temporary thread: answers ignore your past preferences and, per Google, vanish once you close it. It rolls out globally in desktop and mobile browsers, in all AI Mode languages."
       },
       "why": {
         "cs": "Klikni na ikonu dočasných vláken vpravo nahoře v AI Mode (pero s tečkovaným okrajem). Podle Googlu je relace oddělená od účtu; zavřené vlákno nejde znovu otevřít (Google, 9to5Google).",
@@ -6333,12 +6333,12 @@
         "en": "Claude Desktop: pick the Stable or Latest update channel"
       },
       "summary": {
-        "cs": "Anthropic 17. listopadu přidala do Claude Desktopu volbu kanálu aktualizací. Stable zůstává výchozí a dostává nové verze méně často, po důkladnějším testování. Latest dostává novou verzi zhruba jednou denně, takže opravy a novinky dorazí dřív, ale může být méně spolehlivý. Volba je na všech plánech v Claude pro Mac a Windows.",
-        "en": "On November 17, Anthropic added a release-channel choice to Claude Desktop. Stable stays the default and gets new versions less often, after more testing. Latest gets a new version about daily, so fixes and features arrive sooner but may be less reliable. It is on all plans, in Claude for Mac and Windows."
+        "cs": "Anthropic 17. listopadu přidala do Claude Desktopu volbu kanálu aktualizací. Stable zůstává výchozí a dostává nové verze méně často, po důkladnějším testování. Latest dostává novou verzi zhruba jednou denně, takže opravy a novinky dorazí o pár dní dřív, ale může být méně spolehlivý. Volba je na všech plánech v Claude pro Mac a Windows.",
+        "en": "On November 17, Anthropic added a release-channel choice to Claude Desktop. Stable stays the default and gets new versions less often, after more testing. Latest gets one about daily, so fixes and features arrive a few days sooner but may be less reliable. It is on all plans, in Claude for Mac and Windows."
       },
       "why": {
-        "cs": "V Nastavení (Desktop app) vyber u Release channel možnost Latest. Přepnutí zpět na Stable aplikaci nevrátí na starší verzi; urgentní opravy přijdou až s novější Stable verzí. Nejde na Linuxu ani na spravovaných počítačích.",
-        "en": "In Settings, under Desktop app, pick Latest at Release channel. Going back to Stable does not downgrade, and urgent fixes arrive only with a newer Stable version. Not on Linux or managed computers."
+        "cs": "V Nastavení (Desktop app) vyber u Release channel možnost Latest. Přepnutí zpět na Stable ponechá stávající verzi; urgentní opravy přijdou až s novější Stable verzí. Nejde na Linuxu, z Microsoft Store ani na spravovaných počítačích.",
+        "en": "In Settings (Desktop app), pick Latest under Release channel. Going back to Stable keeps the newer version; urgent fixes arrive only with a newer Stable release. Not on Linux, Microsoft Store, or managed computers."
       },
       "sources": [
         {
@@ -6360,16 +6360,16 @@
       "verified": true,
       "eventDate": "2026-11-17",
       "title": {
-        "cs": "GitHub Copilot pracuje v tvém přihlášeném prohlížeči",
-        "en": "GitHub Copilot works in your signed-in browser"
+        "cs": "GitHub Copilot v náhledu pracuje v tvém přihlášeném prohlížeči",
+        "en": "GitHub Copilot preview works in your signed-in browser"
       },
       "summary": {
-        "cs": "GitHub 17. listopadu zavedl ve veřejném náhledu funkci Browser use pro aplikaci GitHub Copilot: agent v prohlížeči, kde už jsi přihlášený, vyplní formuláře, vytáhne informace z webů nebo otestuje a odladí webovou aplikaci, kterou stavíš. Funguje v prohlížečích na Chromiu, třeba v Chrome a Edge, v odděleném seskupení karet.",
+        "cs": "GitHub 17. listopadu zavedl ve veřejném náhledu funkci Browser use pro aplikaci GitHub Copilot: agent v prohlížeči, kde už jsi přihlášený, vyplní formuláře, vytáhne informace z webů nebo otestuje a odladí webovou aplikaci, kterou stavíš. Funguje v Chrome, Edge a dalších prohlížečích na Chromiu, v odděleném seskupení karet.",
         "en": "On November 17, GitHub launched browser use in public preview for the GitHub Copilot app: an agent in your already signed-in browser fills out forms, pulls information from webpages, or tests and debugs the web app you are building. It works in Chromium-based browsers, such as Chrome and Edge, in an isolated tab group."
       },
       "why": {
-        "cs": "Ve výchozím stavu je vypnuté: nainstaluj rozšíření GitHub Copilot pro Chrome a v nastavení Computer Use zapni Enable Computer Use i Enable Browser Use. Oprávnění spravuješ v nastavení rozšíření.",
-        "en": "It is off by default: install the GitHub Copilot extension for Chrome, then in Computer Use settings turn on both Enable Computer Use and Enable Browser Use. You manage permissions in the extension’s settings."
+        "cs": "Ve výchozím stavu je vypnuté: nainstaluj rozšíření GitHub Copilot pro Chrome a v nastavení aplikace Copilot, část Computer Use, zapni Enable Computer Use i Enable Browser Use. Oprávnění nastavíš v rozšíření.",
+        "en": "It is off by default: install the GitHub Copilot extension for Chrome, then turn on Enable Computer Use and Enable Browser Use in the Copilot app’s Computer Use settings. Permissions are set in the extension."
       },
       "sources": [
         {

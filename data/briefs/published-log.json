@@ -2523,7 +2523,7 @@
     {
       "slug": "2026-11-18-nvidia-q3-results-huang-not-reinstated-h200",
       "date": "2026-11-18",
-      "topic": "Nvidia 17. 11. (tisková zpráva NVIDIA; TechCrunch 17. 11.; The Verge při průzkumu): výsledky 3. čtvrtletí fiskálního roku 2027 — tržby 115,8 mld. USD (+103 % meziročně, +20 % mezičtvrtletně), datová centra 107,6 mld. (+110 %), hrubá marže 74,8 %; výhled 4. čtvrtletí 130 mld. ±3 % bez tržeb za výpočetní techniku pro datová centra z Číny; předseda rady Harvey C. Jones: rada nehodlá Huanga znovu jmenovat CEO (Huang se na X nabídl k návratu); dočasná CEO a CFO Colette Kress: Nvidia přestane v Číně prodávat čipy H200; nový výbor rady pro národní bezpečnost a exportní kontroly; zpětný odkup akcií 28,1 mld. USD v čtvrtletí; navazuje na díl z 13. 11."
+      "topic": "Nvidia 17. 11. (tisková zpráva NVIDIA; TechCrunch 17. 11.; The Verge při průzkumu): výsledky 3. čtvrtletí fiskálního roku 2027 — tržby 115,8 mld. USD (+103 % meziročně, +20 % mezičtvrtletně), datová centra 107,6 mld. (+110 %), hrubá marže 74,8 %; výhled 4. čtvrtletí (s týdnem navíc) 130 mld. ±3 % bez tržeb za výpočetní techniku pro datová centra z Číny; předseda rady Harvey C. Jones: rada nehodlá Huanga znovu jmenovat CEO (Huang se na X nabídl k návratu); dočasná CEO a CFO Colette Kress: Nvidia přestane v Číně prodávat čipy H200; nový výbor rady pro národní bezpečnost a exportní kontroly; zpětný odkup akcií 28,1 mld. USD v čtvrtletí; navazuje na díl z 13. 11."
     },
     {
       "slug": "2026-11-18-microsoft-ignite-copilot-office-autopilot",
@@ -2548,7 +2548,7 @@
     {
       "slug": "2026-11-18-microsoft-mai-code-2-flash-github-copilot",
       "date": "2026-11-18",
-      "topic": "Microsoft AI 17. 11. (microsoft.ai; changelog GitHubu 17. 11.): kódovací modely MAI Code 2 a MAI Code 2 Flash — podle Microsoftu v průměru čtyř testů (DeepSWE 1.1, Terminal Bench 2.1, SWE-Atlas, FrontierCode 1.1) 98 % výkonu GPT-6.1 Sol za 40 % ceny a 96 % výkonu Claude Opus 5.5 za 5 % ceny (cena s 50% akční slevou; tři testy na interní platformě MSBench); Flash srovnatelný s GPT-6 Luna a Claude Haiku 5.5 za 65 % a 20 % ceny; v Copilotu (Code 2: Pro, Pro+, Max, Business, Enterprise; Flash i Free a Student), Flash v omezeném náhledu ve Foundry; nevyladěné na nejtěžší úlohy"
+      "topic": "Microsoft AI 17. 11. (microsoft.ai; changelog GitHubu 17. 11.): kódovací modely MAI Code 2 a MAI Code 2 Flash — podle Microsoftu v průměru čtyř testů (DeepSWE 1.1, Terminal Bench 2.1, SWE-Atlas, FrontierCode 1.1) 98 % výkonu GPT-6.1 Sol (ne GPT-6.2 ze stejného dne) za 40 % ceny a 96 % výkonu Claude Opus 5.5 za 5 % ceny (cena s 50% akční slevou; tři testy na interní platformě MSBench; v Copilotu se účtuje podle spotřeby); Flash srovnatelný s GPT-6 Luna a Claude Haiku 5.5 za 65 % a 20 % ceny; v Copilotu (Code 2: Pro, Pro+, Max, Business, Enterprise; Flash i Free a Student), Flash v omezeném náhledu ve Foundry; nevyladěné na nejtěžší úlohy"
     },
     {
       "slug": "2026-11-18-anthropic-linked-billing-claude-platform",
@@ -2571,5 +2571,5 @@
       "topic": "tip: GitHub Copilot — Browser use (17. 11., veřejný náhled; changelog GitHubu; rozšíření GitHub Copilot pro Chrome, prohlížeče na Chromiu vč. Edge, oddělené seskupení karet; Settings > Computer Use: Enable Computer Use + Enable Browser Use, ve výchozím stavu vypnuto; i v Copilot CLI, VS Code a JetBrains)"
     }
   ],
-  "updated": "2026-11-18T03:30:17Z"
+  "updated": "2026-11-18T03:52:43Z"
 }

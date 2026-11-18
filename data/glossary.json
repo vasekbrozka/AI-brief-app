@@ -403,8 +403,8 @@
         "training"
       ],
       "short": {
-        "cs": "Proces, při kterém se model učí ze surových dat. Spotřebuje obrovský výpočetní výkon a proběhne jednou, dopředu.",
-        "en": "The process where a model learns from raw data. It uses enormous compute and happens once, up front."
+        "cs": "Proces, při kterém se model učí z dat. Hlavní trénink spotřebuje obrovský výpočetní výkon a proběhne dopředu; některé firmy model dál zlepšují i z chatů uživatelů, pokud to nastavení dovolí.",
+        "en": "The process where a model learns from data. The main training uses enormous compute and happens up front; some companies keep improving models from users’ chats too, if the settings allow it."
       }
     },
     {
@@ -1848,8 +1848,8 @@
         "temporary chats"
       ],
       "short": {
-        "cs": "Konverzace, která se neukládá do historie a nepřizpůsobuje odpovědi. Data se ale mohou ještě chvíli uchovávat: u Gemini asi dva měsíce, u ChatGPT a Claude až 30 dní.",
-        "en": "A conversation that is not saved to history and does not personalize answers. The data may still be kept for a while: about two months in Gemini, up to 30 days in ChatGPT and Claude."
+        "cs": "Konverzace, která se neukládá do historie a nepřizpůsobuje odpovědi. Data se ale mohou ještě chvíli uchovávat: u Gemini asi dva měsíce, u ChatGPT až 30 dní, u Claude 30 dní.",
+        "en": "A conversation not saved to history and not personalized. The data may still be kept for a while: about two months in Gemini, up to 30 days in ChatGPT, 30 in Claude."
       }
     },
     {
