@@ -6352,12 +6352,12 @@
         "en": "For developers: Claude Code /code-review now reports only bugs"
       },
       "summary": {
-        "cs": "Anthropic 19. listopadu vydala Claude Code 2.1.328. Příkaz /code-review na většině modelů hlásí jen chyby a porušení pravidel z CLAUDE.md, úklid a zjednodušení kódu přenechává příkazu /simplify. Každý nález má označení Important, Pre-existing nebo Nit a přehled končí navrženou opravou.",
-        "en": "On November 19, Anthropic released Claude Code 2.1.328. On most models, /code-review now reports only bugs and CLAUDE.md violations, leaving cleanups and simplifications to /simplify. Each finding is marked Important, Pre-existing, or Nit, and the summary ends with a suggested fix."
+        "cs": "Anthropic 19. listopadu vydala Claude Code 2.1.328. Příkaz /code-review na většině modelů hlásí jen chyby a porušení pravidel projektu ze souboru CLAUDE.md; úklid kódu přenechává příkazu /simplify. Nálezy označuje Important (důležité), Pre-existing (už dříve existující) nebo Nit (drobnost) a přehled končí navrženou opravou.",
+        "en": "On November 19, Anthropic released Claude Code 2.1.328. On most models, /code-review now reports only bugs and violations of project rules in CLAUDE.md, leaving cleanups to /simplify. Findings are marked Important, Pre-existing, or Nit, and the summary ends with a suggested fix."
       },
       "why": {
-        "cs": "Aktualizuj Claude Code (verzi ukáže claude --version) a ve složce se změnami spusť /code-review; s přepínačem --fix se nálezy rovnou opraví, s číslem pull requestu zkontroluje jeho změny. Úklid spustíš zvlášť příkazem /simplify.",
-        "en": "Update Claude Code (claude --version shows the version) and run /code-review in a folder with changes; --fix applies the findings, and a pull request number reviews that PR. Run cleanups separately with /simplify."
+        "cs": "V repozitáři Gitu spusť /code-review: zkontroluje commity před upstreamem i necommitnuté změny. S --fix nálezy aplikuje (podle režimu oprávnění; zpět přes git), s číslem pull requestu zkontroluje PR.",
+        "en": "In a Git repo, run /code-review: it reviews commits ahead of upstream plus uncommitted changes. --fix applies the findings (per your permission mode; undo via git); a pull request number reviews that PR."
       },
       "sources": [
         {
@@ -6366,7 +6366,7 @@
         },
         {
           "name": "Anthropic",
-          "url": "https://code.claude.com/docs/en/commands"
+          "url": "https://code.claude.com/docs/en/code-review-local"
         }
       ],
       "added": "2026-11-19",
@@ -6383,12 +6383,12 @@
         "en": "For developers: GitHub Copilot now connects Supabase and Buildkite"
       },
       "summary": {
-        "cs": "GitHub 18. listopadu přidal do Copilotu osm dalších konektorů ve veřejném náhledu: Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow a Wix. Například se zeptáš, proč selhal poslední build v Buildkite, a necháš kód opravit, nebo před migrací zkontroluješ schéma databáze Supabase.",
-        "en": "On November 18, GitHub added eight more connectors to Copilot in public preview: Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow, and Wix. For example, ask why your latest Buildkite build failed and have the code fixed, or check your Supabase schema before a migration."
+        "cs": "GitHub 18. listopadu přidal do Copilotu osm dalších konektorů ve veřejném náhledu: Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow a Wix. Zeptáš se třeba, proč selhalo poslední automatické sestavení (build) v Buildkite, a necháš kód opravit, nebo před migrací zkontroluješ schéma databáze Supabase.",
+        "en": "On November 18, GitHub added eight more connectors to Copilot in public preview: Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow, and Wix. For example, ask why your latest automated build (Buildkite) failed and have the code fixed, or check your Supabase schema before a migration."
       },
       "why": {
-        "cs": "V aplikaci Copilot otevři Customize a u služby zvol Connect; v Copilot CLI použij /mcp a záložku Connectors. U plánů Business a Enterprise musí správce zapnout politiku Editor preview features.",
-        "en": "In the Copilot app, open Customize and select Connect on the service; in Copilot CLI, use /mcp and the Connectors tab. On Business and Enterprise plans an admin must enable the Editor preview features policy."
+        "cs": "V aplikaci GitHub Copilot otevři Customize a u služby zvol Connect. U Business a Enterprise musí správce zapnout politiku Editor preview features, případně konektory přidat do seznamu povolených; u Boxu i na straně služby.",
+        "en": "Open Customize in the GitHub Copilot app and pick Connect. Business and Enterprise: an admin enables the Editor preview features policy and may need to allowlist the connectors; Box also needs enabling on its side."
       },
       "sources": [
         {
@@ -6410,12 +6410,12 @@
         "en": "For developers: Gemini Decisions API returns probabilities, not text"
       },
       "summary": {
-        "cs": "Google 11. listopadu uvedl Gemini Decisions API s novým modelem Gemini Decision 1: v jednom průchodu vyhodnotí až 1 000 otázek (ano/ne, výběr, hodnocení podle stupnice) nad textem, obrázky, zvukem, videem a PDF a ke každé odpovědi vrátí míru jistoty. Cena je 0,10 USD za milion vstupních tokenů, výstup se neúčtuje.",
-        "en": "On November 11, Google introduced the Gemini Decisions API with its new Gemini Decision 1 model: in one pass it scores up to 1,000 questions (yes/no, choice, rubric) over text, images, audio, video, and PDFs, returning a confidence score for each. It costs $0.10 per million input tokens; output is not billed."
+        "cs": "Google 11. listopadu uvedl Gemini Decisions API s novým modelem Gemini Decision 1: v jednom průchodu vyhodnotí až 1 000 otázek (ano/ne, výběr, hodnocení podle stupnice) nad textem, obrázky, zvukem, videem a PDF a ke každé odpovědi vrátí pravděpodobnosti a míru jistoty. Cena je 0,10 USD za milion vstupních tokenů, výstup se neúčtuje.",
+        "en": "On November 11, Google introduced the Gemini Decisions API with its new Gemini Decision 1 model: in one pass it scores up to 1,000 questions (yes/no, choice, rubric) over text, images, audio, video, and PDFs, returning probabilities and a confidence score for each. It costs $0.10 per million input tokens; output is not billed."
       },
       "why": {
-        "cs": "Klíč získáš v Google AI Studiu; dokumentace je pro Python, JavaScript a REST. Hodí se ke směrování dotazů, kontrole pravidel nebo hodnocení obsahu; podle Googlu odpověď trvá 150–250 ms.",
-        "en": "Get a key in Google AI Studio; documentation covers Python, JavaScript, and REST. It suits query routing, policy checks, or content grading; per Google, an answer takes 150–250 ms."
+        "cs": "API klíč získáš v Google AI Studiu. Hodí se ke směrování dotazů, kontrole pravidel nebo hodnocení obsahu; podle Googlu odpověď trvá 150–250 ms u vstupů do 16 tisíc tokenů a do 100 otázek.",
+        "en": "Get an API key in Google AI Studio. It suits query routing, policy checks, or content grading; per Google, an answer takes 150–250 ms for inputs up to 16K tokens and up to 100 questions."
       },
       "sources": [
         {

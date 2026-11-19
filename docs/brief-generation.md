@@ -481,7 +481,31 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   weby států USA mimo `.gov` (doj.state.or.us) přidej do `T1_DOMAINS`** místo hledání druhého média
   (vládní weby jsou T1); **pomocným agentům dej celkový strop dotazů (12–18 za všechny bloky)** —
   dva agenti poslali dvakrát 18; čtenáři, kterým Microsoft, TechCrunch či microsoft.ai vrátí
-  403/502, označí tvrzení za neověřená — přečti je sám (curl s hlavičkou prohlížeče je čte).
+  403/502, označí tvrzení za neověřená — přečti je sám (curl s hlavičkou prohlížeče je čte);
+  (42) **zdroj, který blokuje curl, čte někdy WebFetch** — cisa.gov a gao.gov vrátily curlu 403,
+  WebFetch je přečetl (číslo zprávy GAO jsem našel přes úvodní stránku a stránku podcastu);
+  help.openai.com dává 403 i přes WebFetch. Zkus oba nástroje dřív, než položku shodíš na
+  `verified: false`, a do deníku napiš, čím ses o obsah postaral; čtenářům (curl) 403 zůstane,
+  proto tvrzení z takové stránky atribuuj jmenovitě a **druhý zdroj vezmi tak, aby ho čtenář
+  otevřel a nesl i podstatná tvrzení** (Java4Shell: The Register místo CISA). **Než uzavřeš
+  položku o jedné události, zjisti, zda o ní nemá další článek i médium, které už citujeme**
+  (The Register měl o chybě v Javě vlastní text s podmínkami — OpenJDK 17.0.6+ na x86-64 s
+  AVX-512, oprava z 17. 11., Talos bez zneužití — a rozhodl spor BBC × Engadget, zda aktualizace
+  Oracle Java4Shell opravuje). **Web výzkumníků, kteří chybu sami objevili (wiz.io), a oficiální
+  web projektu (nginx.org) jsou T1 pro vlastní zjištění a vydání** (precedent
+  talosintelligence.com) — doména do `T1_DOMAINS`. **„Kritická“ je hodnocení (CVSS 9,2 podle Wiz
+  a The Register), ne slovo výrobce** (nginx.org: major a medium) — atribuuj ho. **Cena patří ke
+  konfiguraci** (MSI RTX Spark 4 399 USD za 64 GB, 7 499 USD za 128 GB; „o 700 USD dražší“ patřilo
+  Windows Central a bez uvedení srovnávaného notebooku nic neříkalo) a **omezení z dokumentace
+  patří do tipu** (`/code-review` bez cíle čte commity před upstreamem a necommitnuté změny,
+  `--fix` jde přes režim oprávnění; latence 150–250 ms platí do 16 tis. tokenů a 100 otázek).
+  **Zpráva pro jiné publikum než čtenáře** (IPO Anthropicu) dostane do shrnutí „firma za
+  Claudem“ a do `why` to, co se čtenáře týká (na co půjde výnos podle The Next Web a FT).
+  **Radarový termín na dnešek, který už nese zpráva**, z radaru vypadne — WARN přenosu je
+  záměrný, důvod do deníku. **Sweep nezná znovu vydané oznámení z jiné adresy** (Workspace
+  Updates z 18. 11. zopakovaly blog Googlu z 16. 11., tip „make me a site“ vyšel 17. 11.): grep
+  podle funkce. **Název zdroje odpovídá adrese** (zrcadlo Rady EU na eeas.europa.eu se jmenuje
+  „Council of the EU (EEAS)“). Dva pomocní agenti s celkovým stropem 18 dotazů ho dodrželi (9 + 9).
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.
