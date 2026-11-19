@@ -1,0 +1,460 @@
+{
+  "date": "2026-11-19",
+  "sample": false,
+  "headline": {
+    "cs": "Anthropic stanovila cenu IPO na 83 USD za akcii",
+    "en": "Anthropic prices its IPO at $83 a share"
+  },
+  "items": [
+    {
+      "id": "2026-11-19-anthropic-ipo-priced-83-usd",
+      "kind": "news",
+      "category": "business",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "Anthropic stanovila cenu IPO na 83 USD za akcii",
+        "en": "Anthropic prices its IPO at $83 a share"
+      },
+      "summary": {
+        "cs": "Anthropic 18. listopadu stanovila cenu vstupu na burzu (IPO) na 83 USD za akcii, nad rozpětím 70–78 USD, s nímž oslovovala investory. Nabízí 980 milionů akcií, z toho zhruba 956 milionů prodává sama, zbytek stávající akcionáři. Obchodování na Nasdaqu pod značkou ANT má začít 19. listopadu, nabídka se má uzavřít 20. listopadu.",
+        "en": "On November 18, Anthropic priced its IPO at $83 a share, above the $70–78 range it marketed. It is offering 980 million shares, about 956 million from Anthropic itself and the rest from existing shareholders. Trading on Nasdaq as ANT is due to start November 19, and the offering to close November 20."
+      },
+      "why": {
+        "cs": "Ocenění uvádí TechCrunch, ne Anthropic: asi 1,5 bilionu USD (plně zředěné). První den obchodování má podle něj ukázat, zda investoři věří AI navzdory výkyvům akcií, a nastavit očekávání u OpenAI, která IPO zatím neoznámila.",
+        "en": "TechCrunch, not Anthropic, gives the valuation: about $1.5 trillion fully diluted. Day one of trading should show whether investors still back AI despite recent swings, and set expectations for OpenAI, which has announced no IPO."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-11-11",
+        "id": "2026-11-11-anthropic-ipo-roadshow-price-range",
+        "title": {
+          "cs": "Anthropic zahájila roadshow před vstupem na burzu",
+          "en": "Anthropic launches IPO roadshow with $70–78 price range"
+        }
+      }
+    },
+    {
+      "id": "2026-11-19-google-gemini-4-neon",
+      "kind": "news",
+      "category": "models",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "Gemini 4 Neon: nový model mezi Hydrogenem a Carbonem",
+        "en": "Gemini 4 Neon: new model between Hydrogen and Carbon"
+      },
+      "summary": {
+        "cs": "Google 18. listopadu začal zavádět Gemini 4 Neon, model mezi rychlým Hydrogenem a nejsilnějším Carbonem: kontext 1 milion tokenů, čtyři úrovně uvažování, v API 3 USD za milion vstupních a 15 USD za milion výstupních tokenů. K dispozici je v Gemini API, pro firmy a pro předplatitele AI Pro a Ultra v aplikaci Gemini.",
+        "en": "On November 18, Google began rolling out Gemini 4 Neon, between the fast Hydrogen and the most capable Carbon: 1 million-token context, four thinking levels, $3 per million input and $15 per million output tokens. It is in the Gemini API, for businesses, and for AI Pro and Ultra subscribers in the Gemini app."
+      },
+      "why": {
+        "cs": "Pořadí v žebříčcích uvádí Google: třetí v indexu Artificial Analysis (61 bodů při nejvyšší úrovni uvažování). Podle 9to5Google Neon v nabídce modelů aplikace nahrazuje Argon a model 3.1 Pro mizí.",
+        "en": "The rankings are Google’s: third on the Artificial Analysis index (61 points at the highest thinking level). Per 9to5Google, Neon replaces Argon in the app’s model picker and 3.1 Pro goes away."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement/"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-11-13",
+        "id": "2026-11-13-google-gemini-4-hydrogen-launch",
+        "title": {
+          "cs": "Google uvedl rychlý model Gemini 4 Hydrogen",
+          "en": "Google launches the fast Gemini 4 Hydrogen model"
+        }
+      }
+    },
+    {
+      "id": "2026-11-19-google-genie-4-project-genie-ultra",
+      "kind": "news",
+      "category": "models",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "Genie 4 je v Project Genie pro předplatitele Ultra",
+        "en": "Genie 4 arrives in Project Genie for Ultra subscribers"
+      },
+      "summary": {
+        "cs": "Google 18. listopadu začal pro oprávněné předplatitele Google AI Ultra zavádět Genie 4, model světa ukázaný v říjnu, v prohlížečové aplikaci Project Genie. Svět jde za chodu měnit textem a poprvé má zvuk. Přibyl agent, který světy tvoří z konverzace, a galerie ke sdílení; předplatitelé AI Pro se mohou zapsat na čekací listinu.",
+        "en": "On November 18, Google began rolling out Genie 4, the world model shown in October, to eligible Google AI Ultra subscribers in the browser-based Project Genie. Text now edits a world mid-session, and it has sound. A new agent builds worlds from conversation, a gallery shares them, and AI Pro users can join a waitlist."
+      },
+      "why": {
+        "cs": "Podle Googlu jde pořád o výzkumné systémy: v dlouhých sezeních se detaily mění a čitelný text i složitá fyzika zůstávají těžké. Genie 3 zůstává pro delší běhy, nově až 3 minuty; výtvory nesou vodoznak SynthID.",
+        "en": "Per Google, both remain research systems: details drift in long sessions, and readable text and complex physics are hard. Genie 3 stays for longer runs, now up to 3 minutes; creations carry SynthID watermarks."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/google-genie-4-project-genie-ai-ultra-world-model"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-ai-found-critical-flaws-java-nginx",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "AI našla kritické chyby v Javě i serveru NGINX",
+        "en": "AI finds critical flaws in Java and NGINX"
+      },
+      "summary": {
+        "cs": "CISA 17. listopadu vyzvala k okamžité záplatě chyby Java4Shell: upravený vstup Base64 může shodit běhové prostředí Javy a umožnit vzdálené spuštění kódu. Našla ji firma Calif hledající chyby pomocí AI. NGINX 18. listopadu vydal verze 1.31.9 a 1.30.7 s deseti opravami; dvě kritické v HTTP/2 našlo pět týmů, podle The Register většinou s AI.",
+        "en": "On November 17, CISA urged immediate patching of Java4Shell: crafted Base64 input can crash the Java runtime and allow remote code execution. Calif, a firm hunting bugs with AI, found it. On November 18, NGINX released 1.31.9 and 1.30.7 with ten fixes; five teams found two critical HTTP/2 flaws, mostly with AI, per The Register."
+      },
+      "why": {
+        "cs": "Provozuješ-li NGINX s HTTP/2, aktualizuj; podle The Register jde mezitím HTTP/2 dočasně vypnout a F5 zneužití zatím nezaznamenala. U Javy CISA žádá záplatovat hlavně systémy dostupné z internetu.",
+        "en": "If you run NGINX with HTTP/2, update; per The Register, disabling HTTP/2 works as a stopgap, and F5 has seen no exploitation. For Java, CISA asks to patch internet-facing systems first."
+      },
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching"
+        },
+        {
+          "name": "NGINX",
+          "url": "https://nginx.org/en/security_advisories.html"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/security/2026/11/18/ai-found-more-critical-bugs-in-another-widely-used-technology-running-225m-websites/5310887"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-microsoft-agent-framework-pypi-compromise",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Dvě verze balíčku Microsoft Agent Framework kradly přihlašovací údaje",
+        "en": "Two Microsoft Agent Framework releases on PyPI stole credentials"
+      },
+      "summary": {
+        "cs": "Do oficiálního balíčku Microsoftu pro tvorbu AI agentů v Pythonu (Microsoft Agent Framework) na PyPI se 17. listopadu dostaly dvě škodlivé verze, 1.26.1 a 1.26.2, které kradly přihlašovací údaje, hlavně k Azure a CI. Podle Wiz byly dostupné necelou hodinu; poslední bezpečná verze je 1.26.0.",
+        "en": "On November 17, two malicious versions, 1.26.1 and 1.26.2, appeared in Microsoft’s official Python package for building AI agents (Microsoft Agent Framework) on PyPI and stole credentials, mainly for Azure and CI. Per Wiz, they were available for under an hour; the last safe version is 1.26.0."
+      },
+      "why": {
+        "cs": "Kód se spouštěl při každém startu Pythonu, i bez importu balíčku. Našel jsi 1.26.1 nebo 1.26.2? Podle Wiz vyměň všechna tajemství v dotčeném prostředí; jak útočník získal přístup k publikování, zatím není známo.",
+        "en": "The code ran on every Python start, even without importing the package. Found 1.26.1 or 1.26.2? Per Wiz, rotate every secret in the affected environment; how the attacker gained publishing access is not yet known."
+      },
+      "sources": [
+        {
+          "name": "Wiz",
+          "url": "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-gao-chatbots-attack-plans-covert-tests",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "GAO: po obejití ochran chatboty sestavily plány útoků",
+        "en": "GAO: chatbots drafted attack plans after safeguards were bypassed"
+      },
+      "summary": {
+        "cs": "Americký úřad GAO 18. listopadu zveřejnil zprávu o utajených testech z jara 2026: ChatGPT, Claude, Gemini i Grok po obejití ochran poskytly informace k plánování útoku (výbušné zařízení, elektrická síť), každý za méně než 12 hodin. Podle GAO informace nebyly nové, AI je ale během hodin spojila do použitelných plánů.",
+        "en": "On November 18, the US Government Accountability Office (GAO) published covert tests from spring 2026: with safeguards bypassed, ChatGPT, Claude, Gemini, and Grok each supplied attack-planning information (explosive device, power grid) in under 12 hours. GAO says it was not new, but AI combined it into viable plans within hours."
+      },
+      "why": {
+        "cs": "Firmy podle GAO slíbily ochrany dál zlepšovat; Google namítá, že testy běžely na dřívějších modelech, Anthropic nález bere vážně, ale nemůže ho ověřit. Senátorka Hassan chce v lednu slyšení o AI.",
+        "en": "The companies promised to keep improving safeguards; Google says the tests used earlier models, and Anthropic takes the finding seriously but cannot verify it. Senator Hassan plans a January AI hearing."
+      },
+      "sources": [
+        {
+          "name": "GAO",
+          "url": "https://www.gao.gov/products/gao-27-108814"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://cbsnews.com/news/ai-platforms-plan-us-terror-attack-when-asked-to-senate-hearings"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-openai-ai-chip-design-amd",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "OpenAI tvrdí, že AI zlepšila návrh čipů AMD",
+        "en": "OpenAI says its AI improved AMD chip designs"
+      },
+      "summary": {
+        "cs": "OpenAI 18. listopadu podle The Next Web uvedla, že její modely zlepšily výkon, spotřebu a plochu návrhů grafických čipů AMD až o 14 %; část úprav je v čipu poslaném do výroby. Model přepisoval kód popisující obvody a software Synopsys ověřoval každou změnu. AMD podle OpenAI potvrdila i jednociferná zlepšení v klíčových částech příštího procesoru.",
+        "en": "OpenAI said on November 18, per The Next Web, its models improved power, performance, and area in AMD GPU designs by up to 14%, with some changes in a chip sent for manufacturing. The model rewrote circuit code, checked by Synopsys software. AMD confirmed single-digit gains in key parts of its next CPU, per OpenAI."
+      },
+      "why": {
+        "cs": "Čísla jsou tvrzení OpenAI. Podle The Next Web šéf čipů OpenAI Richard Ho minulý měsíc řekl, že změnám od AI plně nevěří a každou kontroluje; s firmou Synopsys teď trénuje model GPT-Synopsys.",
+        "en": "These are OpenAI’s claims. Per The Next Web, its chip chief Richard Ho said last month he does not fully trust AI design changes and checks each; OpenAI is training GPT-Synopsys with Synopsys."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-models-amd-gpu-chip-design-14-percent"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-nvidia-rtx-spark-compact-desktops",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "Nvidia: počítače RTX Spark pro lokální AI v prodeji",
+        "en": "Nvidia’s RTX Spark mini PCs go on sale"
+      },
+      "summary": {
+        "cs": "Nvidia 18. listopadu oznámila, že kompaktní počítače s čipem RTX Spark jsou v prodeji u ASUS, Dell a MSI; Acer, GIGABYTE, HP a Microsoft mají přijít. Mají až 128 GB sdílené paměti a podle Nvidie zvládnou lokálně modely se 120 miliardami parametrů. Ceny začínají podle The Next Web na 4 399 USD.",
+        "en": "On November 18, Nvidia said compact desktops with its RTX Spark chip are on sale from ASUS, Dell, and MSI, with Acer, GIGABYTE, HP, and Microsoft to follow. They have up to 128 GB of shared memory and, per Nvidia, run 120-billion-parameter models locally. Prices start at $4,399, per The Next Web."
+      },
+      "why": {
+        "cs": "Určené jsou vývojářům a tvůrcům: modely a agenty lokálně, bez cloudových poplatků za tokeny a se soubory na vlastním počítači. Podle The Next Web jsou asi o 700 USD dražší než notebooky RTX Spark.",
+        "en": "Nvidia targets developers and creators: models and agents run locally, with no cloud token charges and files kept on your PC. Per The Next Web, they cost about $700 more than RTX Spark laptops."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/nvidia-rtx-spark-compact-desktops-asus-dell-msi-local-ai"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-tip-claude-code-review-bugs-only",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-19",
+      "title": {
+        "cs": "Pro vývojáře: /code-review v Claude Code hlásí jen chyby",
+        "en": "For developers: Claude Code /code-review now reports only bugs"
+      },
+      "summary": {
+        "cs": "Anthropic 19. listopadu vydala Claude Code 2.1.328. Příkaz /code-review na většině modelů hlásí jen chyby a porušení pravidel z CLAUDE.md, úklid a zjednodušení kódu přenechává příkazu /simplify. Každý nález má označení Important, Pre-existing nebo Nit a přehled končí navrženou opravou.",
+        "en": "On November 19, Anthropic released Claude Code 2.1.328. On most models, /code-review now reports only bugs and CLAUDE.md violations, leaving cleanups and simplifications to /simplify. Each finding is marked Important, Pre-existing, or Nit, and the summary ends with a suggested fix."
+      },
+      "why": {
+        "cs": "Aktualizuj Claude Code (verzi ukáže claude --version) a ve složce se změnami spusť /code-review; s přepínačem --fix se nálezy rovnou opraví, s číslem pull requestu zkontroluje jeho změny. Úklid spustíš zvlášť příkazem /simplify.",
+        "en": "Update Claude Code (claude --version shows the version) and run /code-review in a folder with changes; --fix applies the findings, and a pull request number reviews that PR. Run cleanups separately with /simplify."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/commands"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-tip-github-copilot-more-connectors",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "Pro vývojáře: GitHub Copilot připojí i Supabase a Buildkite",
+        "en": "For developers: GitHub Copilot now connects Supabase and Buildkite"
+      },
+      "summary": {
+        "cs": "GitHub 18. listopadu přidal do Copilotu osm dalších konektorů ve veřejném náhledu: Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow a Wix. Například se zeptáš, proč selhal poslední build v Buildkite, a necháš kód opravit, nebo před migrací zkontroluješ schéma databáze Supabase.",
+        "en": "On November 18, GitHub added eight more connectors to Copilot in public preview: Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow, and Wix. For example, ask why your latest Buildkite build failed and have the code fixed, or check your Supabase schema before a migration."
+      },
+      "why": {
+        "cs": "V aplikaci Copilot otevři Customize a u služby zvol Connect; v Copilot CLI použij /mcp a záložku Connectors. U plánů Business a Enterprise musí správce zapnout politiku Editor preview features.",
+        "en": "In the Copilot app, open Customize and select Connect on the service; in Copilot CLI, use /mcp and the Connectors tab. On Business and Enterprise plans an admin must enable the Editor preview features policy."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-tip-gemini-decisions-api",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-11",
+      "title": {
+        "cs": "Pro vývojáře: Gemini Decisions API vrací pravděpodobnosti místo textu",
+        "en": "For developers: Gemini Decisions API returns probabilities, not text"
+      },
+      "summary": {
+        "cs": "Google 11. listopadu uvedl Gemini Decisions API s novým modelem Gemini Decision 1: v jednom průchodu vyhodnotí až 1 000 otázek (ano/ne, výběr, hodnocení podle stupnice) nad textem, obrázky, zvukem, videem a PDF a ke každé odpovědi vrátí míru jistoty. Cena je 0,10 USD za milion vstupních tokenů, výstup se neúčtuje.",
+        "en": "On November 11, Google introduced the Gemini Decisions API with its new Gemini Decision 1 model: in one pass it scores up to 1,000 questions (yes/no, choice, rubric) over text, images, audio, video, and PDFs, returning a confidence score for each. It costs $0.10 per million input tokens; output is not billed."
+      },
+      "why": {
+        "cs": "Klíč získáš v Google AI Studiu; dokumentace je pro Python, JavaScript a REST. Hodí se ke směrování dotazů, kontrole pravidel nebo hodnocení obsahu; podle Googlu odpověď trvá 150–250 ms.",
+        "en": "Get a key in Google AI Studio; documentation covers Python, JavaScript, and REST. It suits query routing, policy checks, or content grading; per Google, an answer takes 150–250 ms."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-11-19",
+      "title": {
+        "cs": "PHP vydá kritické bezpečnostní opravy pro všechny podporované verze",
+        "en": "PHP to release critical security fixes for all supported versions"
+      },
+      "note": {
+        "cs": "Tým PHP ohlásil vydání mezi 14:00 a 14:30 UTC. Nejvyšší závažnost je kritická, ale vyžaduje nestandardní nastavení nebo neobvyklé prostředí; čísla verzí a podrobnosti zveřejní s vydáním.",
+        "en": "The PHP team announced the release for 14:00–14:30 UTC. The highest severity is critical but needs a non-default or uncommon setup; version numbers and details come with the release."
+      },
+      "sources": [
+        {
+          "name": "PHP",
+          "url": "https://www.php.net/archive/2026.php#2026-11-18-1"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "Claude Code ruší rychlý režim pro Opus 4.8",
+        "en": "Claude Code drops fast mode for Opus 4.8"
+      },
+      "note": {
+        "cs": "Podle poznámek k vydání Claude Code zanikne 30. listopadu rychlý režim Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Přechod na Opus 5.5 rychlost zachová.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "AWS re:Invent: velká konference o cloudu a AI",
+        "en": "AWS re:Invent: big cloud and AI conference"
+      },
+      "note": {
+        "cs": "Běží od 30. listopadu do 4. prosince v Las Vegas. Podle Amazonu bude pět hlavních projevů a hlavním tématem AI agenti; čekají se novinky kolem Bedrocku a nástroje Kiro.",
+        "en": "Runs November 30 to December 4 in Las Vegas. Amazon plans five keynotes, with AI agents as the main theme; news is expected around Bedrock and the Kiro developer tool."
+      },
+      "sources": [
+        {
+          "name": "Amazon",
+          "url": "https://www.aboutamazon.com/news/aws/what-is-aws-reinvent"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-02",
+      "title": {
+        "cs": "EU: do 2. prosince musí firmy splnit zákaz nahých deepfaků",
+        "en": "EU: AI apps making fake nude images banned by December 2"
+      },
+      "note": {
+        "cs": "Podle AI Actu musí firmy do 2. prosince 2026 splnit zákaz AI aplikací, které bez souhlasu vytvářejí nahé snímky lidí, a strojově čitelně označovat AI obsah i u starších systémů.",
+        "en": "AI Act: by December 2, 2026 companies must meet the ban on AI apps making nude images of people without consent and label AI content machine-readably, older systems too."
+      },
+      "sources": [
+        {
+          "name": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban"
+        },
+        {
+          "name": "Council of the EU",
+          "url": "https://eeas.europa.eu/delegations/chile/artificial-intelligence-council-gives-final-green-light-simplify-and-streamline-rules_en"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-10",
+      "title": {
+        "cs": "Google: chytré brýle s Gemini půjdou do prodeje",
+        "en": "Google: Gemini smart glasses go on sale"
+      },
+      "note": {
+        "cs": "Brýle Warby Parker (jen USA) a Gentle Monster (USA, Jižní Korea) půjdou 10. prosince do prodeje. Potřebují účet Google z USA či Jižní Koreje (18+) a podporovaný telefon.",
+        "en": "Warby Parker (US only) and Gentle Monster (US, South Korea) glasses go on sale December 10. They need a US or South Korean Google account, 18+, and a supported phone."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-14",
+      "title": {
+        "cs": "GitHub Copilot: 14. prosince skončí šest modelů",
+        "en": "GitHub Copilot: six models end on December 14"
+      },
+      "note": {
+        "cs": "GitHub 13. listopadu oznámil konec šesti modelů 14. prosince, mj. Claude Fable 5 a Gemini 4 Argon; doporučuje náhrady (pro Kimi K3 zatím žádnou). Ročním individuálním předplatitelům zůstane Haiku 4.5.",
+        "en": "GitHub says six models end December 14, including Claude Fable 5 and Gemini 4 Argon, and suggests replacements (none yet for Kimi K3). Annual individual subscribers keep Haiku 4.5."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

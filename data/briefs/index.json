@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-18T03:52:43Z",
+  "updated": "2026-11-19T03:39:01Z",
   "briefs": [
+    {
+      "date": "2026-11-19",
+      "headline": {
+        "cs": "Anthropic stanovila cenu IPO na 83 USD za akcii",
+        "en": "Anthropic prices its IPO at $83 a share"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-11-18",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Claude v USA rozebere výdaje z propojených bankovních účtů",
         "en": "Claude Personal Finance analyzes bank accounts (US beta)"
-      },
-      "itemCount": 10
-    },
-    {
-      "date": "2026-11-05",
-      "headline": {
-        "cs": "ChatGPT umí vytvořit animované GIFy díky Images 2.6",
-        "en": "ChatGPT can now make animated GIFs with Images 2.6"
       },
       "itemCount": 10
     }

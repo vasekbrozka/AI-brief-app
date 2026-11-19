@@ -1,72 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-claude-code-auto-mode-default",
-      "category": "tools",
-      "theme": "claude",
-      "verified": false,
-      "title": {
-        "cs": "Claude Code jede automaticky bez ptaní na každý krok",
-        "en": "Claude Code now runs on auto without step-by-step approval"
-      },
-      "summary": {
-        "cs": "Anthropic zapnul v Claude Code automatický režim jako výchozí pro plány Pro, Max a Team. Od 14. srpna se nástroj neptá na schválení každého kroku, zastaví se jen u nevratných a ničivých akcí.",
-        "en": "Anthropic has made auto mode the default in Claude Code for Pro, Max and Team plans. Since 14 August the tool no longer asks for approval at every step, stopping only at irreversible or destructive actions."
-      },
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
-        }
-      ],
-      "added": "2026-08-18",
-      "used": "2026-08-20"
-    },
-    {
-      "slug": "tip-copilot-sharepoint-dashboards",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": false,
-      "title": {
-        "cs": "Copilot udělá ze seznamu v SharePointu živý dashboard",
-        "en": "Copilot turns a SharePoint list into a live dashboard"
-      },
-      "summary": {
-        "cs": "Copilot v SharePointu umí ze seznamu vygenerovat živý dashboard jako interaktivní HTML report, který zůstane napojený na data. Přibylo i tlačítko na stránce, které spustí připravený prompt jedním kliknutím. Microsoft to nasadil v srpnu.",
-        "en": "Copilot in SharePoint can generate a live dashboard from a list as an interactive HTML report that stays connected to the underlying data. A page button can also fire a prepared prompt in one click. Microsoft shipped it in August."
-      },
-      "sources": [
-        {
-          "name": "Microsoft",
-          "url": "https://techcommunity.microsoft.com/blog/spblog/whats-new-in-copilot-in-sharepoint-august-2026/4535421"
-        }
-      ],
-      "added": "2026-08-18",
-      "used": "2026-08-20"
-    },
-    {
-      "slug": "tip-copilot-excel-autosave-off",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": false,
-      "title": {
-        "cs": "Copilot v Excelu funguje nově i s vypnutým automatickým ukládáním",
-        "en": "Copilot in Excel now works with AutoSave switched off"
-      },
-      "summary": {
-        "cs": "Copilot v Excelu funguje nově i v sešitech uložených v cloudu s vypnutým automatickým ukládáním, a to na Windows i na Macu. Excel před první úpravou připomene, ať si automatické ukládání zapnete.",
-        "en": "Copilot in Excel now works in cloud-saved workbooks even when AutoSave is switched off, on both Windows and Mac. Excel reminds you to turn AutoSave back on before it starts making changes."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        }
-      ],
-      "added": "2026-08-18",
-      "used": "2026-08-20"
-    },
-    {
       "slug": "tip-gemini-connected-apps-wave",
       "category": "tools",
       "theme": "gemini",
@@ -5712,33 +5646,6 @@
       "used": null
     },
     {
-      "slug": "tip-gemini-decisions-api",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": true,
-      "eventDate": "2026-11-11",
-      "title": {
-        "cs": "Pro vývojáře: Gemini Decisions API vrací pravděpodobnosti místo textu",
-        "en": "For developers: Gemini Decisions API returns probabilities, not text"
-      },
-      "summary": {
-        "cs": "Google 11. listopadu uvedl Gemini Decisions API s novým modelem Gemini Decision 1: v jednom průchodu vyhodnotí až 1 000 otázek (ano/ne, výběr, hodnocení podle stupnice) nad textem, obrázky, zvukem, videem a PDF a ke každé odpovědi vrátí míru jistoty. Cena je 0,10 USD za milion vstupních tokenů, výstup se neúčtuje.",
-        "en": "On November 11, Google introduced the Gemini Decisions API with its new Gemini Decision 1 model: in one pass it scores up to 1,000 questions (yes/no, choice, rubric) over text, images, audio, video, and PDFs, returning a confidence score for each. It costs $0.10 per million input tokens; output is not billed."
-      },
-      "why": {
-        "cs": "Klíč získáš v Google AI Studiu; dokumentace je pro Python, JavaScript a REST. Hodí se ke směrování dotazů, kontrole pravidel nebo hodnocení obsahu; podle Googlu odpověď trvá 150–250 ms.",
-        "en": "Get a key in Google AI Studio; documentation covers Python, JavaScript, and REST. It suits query routing, policy checks, or content grading; per Google, an answer takes 150–250 ms."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
-        }
-      ],
-      "added": "2026-11-12",
-      "used": null
-    },
-    {
       "slug": "tip-google-tabletop-labs",
       "category": "tools",
       "theme": "other",
@@ -6432,6 +6339,145 @@
         }
       ],
       "added": "2026-11-18",
+      "used": null
+    },
+    {
+      "slug": "tip-claude-code-review-bugs-only",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-11-19",
+      "title": {
+        "cs": "Pro vývojáře: /code-review v Claude Code hlásí jen chyby",
+        "en": "For developers: Claude Code /code-review now reports only bugs"
+      },
+      "summary": {
+        "cs": "Anthropic 19. listopadu vydala Claude Code 2.1.328. Příkaz /code-review na většině modelů hlásí jen chyby a porušení pravidel z CLAUDE.md, úklid a zjednodušení kódu přenechává příkazu /simplify. Každý nález má označení Important, Pre-existing nebo Nit a přehled končí navrženou opravou.",
+        "en": "On November 19, Anthropic released Claude Code 2.1.328. On most models, /code-review now reports only bugs and CLAUDE.md violations, leaving cleanups and simplifications to /simplify. Each finding is marked Important, Pre-existing, or Nit, and the summary ends with a suggested fix."
+      },
+      "why": {
+        "cs": "Aktualizuj Claude Code (verzi ukáže claude --version) a ve složce se změnami spusť /code-review; s přepínačem --fix se nálezy rovnou opraví, s číslem pull requestu zkontroluje jeho změny. Úklid spustíš zvlášť příkazem /simplify.",
+        "en": "Update Claude Code (claude --version shows the version) and run /code-review in a folder with changes; --fix applies the findings, and a pull request number reviews that PR. Run cleanups separately with /simplify."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/commands"
+        }
+      ],
+      "added": "2026-11-19",
+      "used": "2026-11-19"
+    },
+    {
+      "slug": "tip-github-copilot-more-connectors",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "Pro vývojáře: GitHub Copilot připojí i Supabase a Buildkite",
+        "en": "For developers: GitHub Copilot now connects Supabase and Buildkite"
+      },
+      "summary": {
+        "cs": "GitHub 18. listopadu přidal do Copilotu osm dalších konektorů ve veřejném náhledu: Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow a Wix. Například se zeptáš, proč selhal poslední build v Buildkite, a necháš kód opravit, nebo před migrací zkontroluješ schéma databáze Supabase.",
+        "en": "On November 18, GitHub added eight more connectors to Copilot in public preview: Box, Buildkite, Calendly, ClickUp, Mixpanel, Supabase, Webflow, and Wix. For example, ask why your latest Buildkite build failed and have the code fixed, or check your Supabase schema before a migration."
+      },
+      "why": {
+        "cs": "V aplikaci Copilot otevři Customize a u služby zvol Connect; v Copilot CLI použij /mcp a záložku Connectors. U plánů Business a Enterprise musí správce zapnout politiku Editor preview features.",
+        "en": "In the Copilot app, open Customize and select Connect on the service; in Copilot CLI, use /mcp and the Connectors tab. On Business and Enterprise plans an admin must enable the Editor preview features policy."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot"
+        }
+      ],
+      "added": "2026-11-19",
+      "used": "2026-11-19"
+    },
+    {
+      "slug": "tip-gemini-decisions-api",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-11",
+      "title": {
+        "cs": "Pro vývojáře: Gemini Decisions API vrací pravděpodobnosti místo textu",
+        "en": "For developers: Gemini Decisions API returns probabilities, not text"
+      },
+      "summary": {
+        "cs": "Google 11. listopadu uvedl Gemini Decisions API s novým modelem Gemini Decision 1: v jednom průchodu vyhodnotí až 1 000 otázek (ano/ne, výběr, hodnocení podle stupnice) nad textem, obrázky, zvukem, videem a PDF a ke každé odpovědi vrátí míru jistoty. Cena je 0,10 USD za milion vstupních tokenů, výstup se neúčtuje.",
+        "en": "On November 11, Google introduced the Gemini Decisions API with its new Gemini Decision 1 model: in one pass it scores up to 1,000 questions (yes/no, choice, rubric) over text, images, audio, video, and PDFs, returning a confidence score for each. It costs $0.10 per million input tokens; output is not billed."
+      },
+      "why": {
+        "cs": "Klíč získáš v Google AI Studiu; dokumentace je pro Python, JavaScript a REST. Hodí se ke směrování dotazů, kontrole pravidel nebo hodnocení obsahu; podle Googlu odpověď trvá 150–250 ms.",
+        "en": "Get a key in Google AI Studio; documentation covers Python, JavaScript, and REST. It suits query routing, policy checks, or content grading; per Google, an answer takes 150–250 ms."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+        }
+      ],
+      "added": "2026-11-19",
+      "used": "2026-11-19"
+    },
+    {
+      "slug": "tip-chatgpt-live-dictation",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": false,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "ChatGPT: Live Dictation píše text za pochodu a bez limitu 10 minut",
+        "en": "ChatGPT Live Dictation types as you speak, with no 10-minute limit"
+      },
+      "summary": {
+        "cs": "Podle 9to5Mac z 18. listopadu OpenAI zavádí v ChatGPT Live Dictation: řeč se mění v text už během mluvení, takže nečekáš na hotový přepis, a limit nahrávání 10 minut je pryč. Zavádí se globálně ve všech plánech ChatGPT v iOS, v Androidu, na webu i v desktopové aplikaci.",
+        "en": "Per 9to5Mac on November 18, OpenAI is rolling out Live Dictation in ChatGPT: speech turns into text as you talk, so you don’t wait for the transcript, and the 10-minute recording limit is gone. It is rolling out globally to all ChatGPT plans on iOS, Android, web, and the desktop app."
+      },
+      "why": {
+        "cs": "Text zobrazíš nebo skryješ klepnutím na vlnu zvuku. Zdrojem je jen 9to5Mac, který cituje poznámky k vydání aplikace; nápovědu OpenAI se nepodařilo otevřít (403), proto funkci ověř v aplikaci.",
+        "en": "Tap or click the waveform to show or hide the text. The only source is 9to5Mac quoting the app’s release notes; OpenAI’s help page returned 403, so check the feature in the app."
+      },
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/18/chatgpt-app-gains-enhanced-live-dictation-streaming-without-10-minute-limit/"
+        }
+      ],
+      "added": "2026-11-19",
+      "used": null
+    },
+    {
+      "slug": "tip-claude-code-mcp-add-json-stdin",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Pro vývojáře: Claude Code přidá server MCP z JSON na vstupu",
+        "en": "For developers: Claude Code adds an MCP server from JSON on stdin"
+      },
+      "summary": {
+        "cs": "Anthropic 17. listopadu vydala Claude Code 2.1.327 s příkazem claude mcp add-json <název> -, který přečte JSON serveru MCP ze standardního vstupu, takže tokeny nemusí zůstat na příkazové řádce. Uvnitř relace Claude Code nejde použít. Verze také přidala do /status seznam rozbitých souborů agentů, dovedností a příkazů.",
+        "en": "On November 17, Anthropic released Claude Code 2.1.327 with claude mcp add-json <name> -, which reads an MCP server’s JSON from standard input so tokens can stay off the command line. It cannot be used inside a Claude Code session. The release also added a list of broken agent, skill, and command files to /status."
+      },
+      "why": {
+        "cs": "Spusť příkaz v terminálu mimo relaci Claude Code a JSON mu pošli rourou (pipe). Changelog nic dalšího k postupu neuvádí; před použitím tip znovu ověř v dokumentaci.",
+        "en": "Run it in a terminal outside a Claude Code session and pipe the JSON in. The changelog gives no further steps; re-check the docs before using this tip."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-11-19",
       "used": null
     }
   ]

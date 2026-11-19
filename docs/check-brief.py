@@ -94,7 +94,7 @@ T1_DOMAINS = [
     "android.com", "awsevents.com", "antigravity.google", "raycast.com",
     "gov.cz", "fireworks.ai", "notion.com", "chrome.com", "elevenlabs.io",
     "google-deepmind.github.io", "visualstudio.com",
-    "doj.state.or.us",
+    "doj.state.or.us", "wiz.io", "nginx.org",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.

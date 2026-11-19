@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "terms": [
     {
       "id": "quantization",
@@ -1868,6 +1868,48 @@
       "short": {
         "cs": "Program předčasného přístupu Microsoftu, v němž zákazníci dostávají nové funkce Copilotu dřív než ostatní.",
         "en": "Microsoft’s early-access program, in which customers get new Copilot features before everyone else."
+      }
+    },
+    {
+      "id": "pypi",
+      "term": {
+        "cs": "PyPI (sklad balíčků pro Python)",
+        "en": "PyPI (Python package index)"
+      },
+      "aliases": [
+        "PyPI"
+      ],
+      "short": {
+        "cs": "Veřejný sklad hotových knihoven (balíčků) pro Python, odkud je stahuje příkaz pip. Útočníci se sem občas pokusí dostat škodlivou verzi oblíbeného balíčku.",
+        "en": "The public store of ready-made Python libraries (packages), which the pip command downloads from. Attackers sometimes try to slip a malicious version of a popular package into it."
+      }
+    },
+    {
+      "id": "cvss",
+      "term": {
+        "cs": "CVSS (skóre závažnosti chyby)",
+        "en": "CVSS (flaw severity score)"
+      },
+      "aliases": [
+        "CVSS"
+      ],
+      "short": {
+        "cs": "Číselné hodnocení závažnosti bezpečnostní chyby od 0 do 10; od 9,0 se chyba označuje jako kritická. Počítá se z toho, jak snadno jde zneužít a co útočník získá.",
+        "en": "A numeric severity rating for a security flaw from 0 to 10; from 9.0 a flaw counts as critical. It reflects how easy it is to exploit and what an attacker gains."
+      }
+    },
+    {
+      "id": "ci",
+      "term": {
+        "cs": "CI (automatické sestavování a testy)",
+        "en": "CI (continuous integration)"
+      },
+      "aliases": [
+        "CI"
+      ],
+      "short": {
+        "cs": "Automatický systém, který při každé změně kódu sám program sestaví a otestuje. Bývají v něm uložené přístupové klíče, proto je lákavým cílem útoků.",
+        "en": "An automatic system that builds and tests a program whenever its code changes. It often holds access keys, which makes it an attractive attack target."
       }
     }
   ]
