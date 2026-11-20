@@ -1,0 +1,466 @@
+{
+  "date": "2026-11-20",
+  "sample": false,
+  "headline": {
+    "cs": "Anthropic začala obchodovat na burze, otevřela na 111,50 USD",
+    "en": "Anthropic starts trading on Nasdaq, opening at $111.50"
+  },
+  "items": [
+    {
+      "id": "2026-11-20-anthropic-nasdaq-debut-opens-111-usd",
+      "kind": "news",
+      "category": "business",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-11-19",
+      "title": {
+        "cs": "Anthropic začala obchodovat na burze, otevřela na 111,50 USD",
+        "en": "Anthropic starts trading on Nasdaq, opening at $111.50"
+      },
+      "summary": {
+        "cs": "Anthropic, firma za Claudem, 19. listopadu začala obchodovat na Nasdaqu pod značkou ANT. Akcie se otevřely na 111,50 USD, asi o třetinu výš než cena 83 USD z IPO, a média odhadují hodnotu firmy na zhruba 2 biliony USD. Nabídka akcií má podle TechCrunche vynést přes 81 miliard USD.",
+        "en": "Anthropic, the company behind Claude, began trading on Nasdaq as ANT on November 19. Shares opened at $111.50, about a third above the $83 IPO price, and media put the company’s value at roughly $2 trillion. According to TechCrunch, the offering is set to raise over $81 billion."
+      },
+      "why": {
+        "cs": "TechCrunch očekává po IPO a dalších financováních asi 220 miliard USD v hotovosti, The Register uvádí závazky na výpočetní kapacity kolem 900 miliard USD. Šéf Amodei řekl, že lepší finance posilují odhodlání „dělat správnou věc“.",
+        "en": "TechCrunch expects about $220 billion in cash after the IPO and other financing; The Register cites compute commitments of about $900 billion. Dario Amodei said stronger finances strengthen the resolve “to do the right thing”."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-11-19",
+        "id": "2026-11-19-anthropic-ipo-priced-83-usd",
+        "title": {
+          "cs": "Anthropic jde na burzu, akcie naceněny na 83 USD",
+          "en": "Anthropic goes public with shares priced at $83"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20-google-gemini-mac-computer-use",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-19",
+      "title": {
+        "cs": "Gemini na Macu ovládá aplikace, zatím jen v USA",
+        "en": "Gemini for Mac now controls apps, US only"
+      },
+      "summary": {
+        "cs": "Google 19. listopadu přidal do aplikace Gemini pro Mac ovládání počítače: Gemini za uživatele klikává, píše a vyplňuje formuláře v aplikacích i na webu v odděleném okně s živým náhledem. Zatím jen v angličtině v USA, na Macu s čipem Apple Silicon a macOS 15, pro předplatitele Google AI Plus, Pro a Ultra (18+).",
+        "en": "On November 19, Google added computer use to the Gemini app for Mac: Gemini clicks, types, and fills in forms in apps and on the web in a separate live-preview window. For now English-only in the US, on Apple Silicon Macs with macOS 15, for Google AI Plus, Pro, and Ultra subscribers (18+)."
+      },
+      "why": {
+        "cs": "Podle 9to5Google se Gemini zastaví při přihlášení a platbě a citlivé kroky nechá potvrdit; aplikace, ke kterým smí, vybíráš ty a jde ho kdykoli zastavit. TechCrunch: Google neřekl, kdy funkci rozšíří mimo USA.",
+        "en": "Per 9to5Google, it pauses for logins and payments and asks to confirm sensitive steps; you choose which apps it uses and can stop it anytime. Google gave no date for going beyond the US (TechCrunch)."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/11/19/gemini-mac-computer-use/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-european-commission-cyberattack-artex",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-19",
+      "title": {
+        "cs": "Evropská komise řeší kyberútok, zřejmě s nástrojem ARTEX",
+        "en": "European Commission hit by cyberattack, reportedly with ARTEX"
+      },
+      "summary": {
+        "cs": "Evropská komise podle Politica a The Register z 19. listopadu přes 10 dní řeší kybernetický útok; podle zdrojů Politica při něm hackeři použili AI nástroj ARTEX. Dočasně vypadly interní systémy pro výplatní pásky, dovolené a proplácení lékařských výdajů. Komise potvrdila zásah do jednotlivých systémů a informování dotčených, zda unikly osobní údaje, neupřesnila.",
+        "en": "The European Commission has been handling a cyberattack for over 10 days, per Politico and The Register (November 19); Politico’s sources say hackers used the AI tool ARTEX. Systems for payslips, leave, and medical reimbursements went offline. The Commission confirmed that individual systems were targeted and those affected informed, but not whether personal data leaked."
+      },
+      "why": {
+        "cs": "Autor kód v říjnu stáhl, kopie ale kolují dál; podle FBI našli výzkumníci počátkem listopadu přes 1 600 veřejně dostupných konzolí ARTEX. CERT-EU, tým pro unijní instituce, o útocích s ARTEX informoval už 5. listopadu.",
+        "en": "The author pulled the code in October, but copies circulate; per the FBI, researchers found over 1,600 exposed ARTEX consoles in early November. CERT-EU, the EU institutions’ cyber team, warned on November 5."
+      },
+      "sources": [
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103"
+        },
+        {
+          "name": "CERT-EU",
+          "url": "https://www.cert.europa.eu/blog/from-penetration-testing-to-cyber-threat-beware-of-artex"
+        },
+        {
+          "name": "FBI",
+          "url": "https://www.ic3.gov/CSA/2026/261113.pdf"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-11-17",
+        "id": "2026-11-17-artex-ai-hacking-tool-fbi-google-aws",
+        "title": {
+          "cs": "Hackeři zneužívají AI nástroj ARTEX, varuje FBI i Google",
+          "en": "Hackers abuse AI tool ARTEX, FBI and Google warn"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20-meta-muse-mixes-up-conversations-reuters",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "Zaměstnanci Mety hlásí, že Muse míchá cizí konverzace",
+        "en": "Meta staff report Muse mixing up users’ conversations"
+      },
+      "summary": {
+        "cs": "Podle Reuters (18. listopadu) interní příspěvky zaměstnanců Mety popisují, že AI agent Muse míchal konverzace různých účtů a ukazoval údaje, které lidem nepatřily, třeba zůstatky na bankovních účtech. Meta mluví o ojedinělých případech, kdy agent halucinoval zprávy, a uvádí, že zaměstnanci testují jiné verze než veřejnost.",
+        "en": "According to Reuters (November 18), internal posts by Meta employees describe the AI agent Muse mixing up conversations across accounts and showing people data that was not theirs, such as bank balances. Meta calls them isolated cases in which the agent hallucinated messages, and says employees test different versions than the public."
+      },
+      "why": {
+        "cs": "Jde o jediné šetření Reuters, které přebírají i TechCrunch, Ars Technica a 9to5Mac, ne o tři nezávislá potvrzení. Muse má přes 10 milionů stažení; než agentovi povolíš přístup k dalším aplikacím, zkontroluj jeho oprávnění.",
+        "en": "This is a single Reuters investigation relayed by TechCrunch, Ars Technica, and 9to5Mac, not three independent confirmations. Muse has over 10 million downloads; before granting an agent access to more apps, check its permissions."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/19/major-privacy-breaches-reported-in-muse-ai-including-bank-balances/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-google-chrome-mirror-dimension-agent-tests",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-19",
+      "title": {
+        "cs": "Google testuje agenty v Chromu v umělé kopii webu",
+        "en": "Google tests Chrome agents inside a synthetic web"
+      },
+      "summary": {
+        "cs": "Google 19. listopadu na blogu popsal „mirror dimension“, umělou verzi webu s tisíci simulovaných stránek, na které Chrome zkouší své AI agenty (funkci auto browse). Agent zadává skutečné adresy, izolovaný sandbox ho ale přesměruje na vygenerované weby, aby nepoznal, že je testován. Podle Wired jsou v ní sociální sítě, e-shopy i bankovní účty.",
+        "en": "On November 19, Google detailed a ‘mirror dimension’: a synthetic web of thousands of simulated sites where Chrome tests its AI agents (auto browse). The agent enters real addresses, but an isolated sandbox reroutes it to generated sites, so it can’t tell it’s a test. Per Wired, they include social networks, shops, and bank dashboards."
+      },
+      "why": {
+        "cs": "Podle Wired se v ní zkouší odolnost proti skrytým pokynům na stránkách (prompt injection); inženýr Chromu říká, že agent začíná poznat, kdy se zeptat uživatele. Google chce prostředí zpřístupnit dalším svým týmům.",
+        "en": "Per Wired, it tests resilience to hidden instructions on pages (prompt injection); a Chrome engineer says the agent is learning when to ask the user. Google wants to open it to more teams."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/security/mirror-dimension-for-agents/"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-google-genie-4-gemini-api-ai-studio",
+      "kind": "news",
+      "category": "models",
+      "verified": true,
+      "eventDate": "2026-11-19",
+      "title": {
+        "cs": "Genie 4 je v Gemini API pro vývojáře",
+        "en": "Genie 4 opens to developers in Gemini API"
+      },
+      "summary": {
+        "cs": "Google 19. listopadu zpřístupnil model světa Genie 4 vývojářům přes Gemini API (Interactions API) a Google AI Studio. Z textu, obrázku nebo obojího vytvoří souvislé světy v 720p při 24 snímcích za sekundu se zvukem; klávesnicí se v nich pohybuješ a textem měníš počasí, světlo či události. Každý výstup nese vodoznak SynthID.",
+        "en": "On November 19, Google opened the Genie 4 world model to developers via the Gemini API (Interactions API) and Google AI Studio. From text, an image, or both it generates continuous 720p worlds at 24 fps with sound; you move by keyboard and change weather, lighting, or events by text. Outputs carry a SynthID watermark."
+      },
+      "why": {
+        "cs": "Podle Googlu se hodí na prototypy interaktivních zážitků, vizualizaci návrhů prostoru a trénink robotů a AI agentů. Navazuje na spuštění Genie 4 z 18. listopadu; ceník a dokumentace jsou u Gemini API.",
+        "en": "Per Google, it suits prototypes of interactive experiences, visualizing spatial designs, and training robots and AI agents. It follows the Genie 4 launch of November 18; pricing and documentation are with the Gemini API."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-11-19",
+        "id": "2026-11-19-google-genie-4-project-genie-ultra",
+        "title": {
+          "cs": "Genie 4 je v Project Genie pro předplatitele Ultra",
+          "en": "Genie 4 arrives in Project Genie for Ultra subscribers"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20-google-search-homepage-ai-sidebar",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-19",
+      "title": {
+        "cs": "Úvodní stránka Googlu dostává postranní panel s AI chaty",
+        "en": "Google’s homepage gets a sidebar for AI chats"
+      },
+      "summary": {
+        "cs": "Google 19. listopadu začal podle příspěvku viceprezidenta Robbyho Steina na X zavádět na úvodní stránce vyhledávání postranní panel s historií AI konverzací. The Verge píše o hledáních z AI Mode, 9to5Google o chatech a úkolech z Gemini; je v něm i tlačítko nového chatu. Zavádí se globálně, zatím na počítačích.",
+        "en": "On November 19, per a post on X by vice president Robby Stein, Google began rolling out a sidebar with AI conversation history on its search homepage. The Verge describes searches from AI Mode, 9to5Google chats and tasks from Gemini; it has a new-chat button. Rollout is global, for now on desktop."
+      },
+      "why": {
+        "cs": "Zavádí se postupně: 9to5Google ho na svých zařízeních zatím neviděl. Podle The Verge panel otevřeš šedým pruhem vlevo; jde v něm hledat v konverzacích a připojit Gemini Notebook.",
+        "en": "Rollout is gradual: 9to5Google had not yet seen it on its devices. Per The Verge, a gray bar on the left opens the panel, where you can search conversations or connect a Gemini Notebook."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/11/19/google-search-homepage-gemini-sidebar-update/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-tip-chatgpt-live-dictation",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "Diktování v ChatGPT ukazuje text už při mluvení",
+        "en": "ChatGPT dictation now shows text as you speak"
+      },
+      "summary": {
+        "cs": "OpenAI 18. listopadu podle svého oznámení na X zavedla v ChatGPT Live Dictation: řeč se mění v text už během mluvení, ne až po dokončení nahrávky, a zmizel limit 10 minut. Zavádí se globálně ve všech plánech na webu, v desktopové aplikaci i v mobilních aplikacích pro iOS a Android.",
+        "en": "On November 18, according to its post on X, OpenAI introduced Live Dictation in ChatGPT: speech turns into text as you talk, not after the recording ends, and the 10-minute limit is gone. It is rolling out globally to all plans on the web, the desktop app, and the iOS and Android apps."
+      },
+      "why": {
+        "cs": "Při diktování klepni na vlnu zvuku: ukáže se živý přepis, který před odesláním opravíš v poli zprávy. Zavádí se postupně, funkci tedy nemusíš mít hned; podle The Verge ji dostanou všechny plány.",
+        "en": "Tap the waveform while dictating: a live transcript appears, editable in the message box before sending. Rollout is gradual, so you may not have it yet; all plans get it (The Verge)."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/18/chatgpt-app-gains-enhanced-live-dictation-streaming-without-10-minute-limit/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-tip-canva-turn-off-generative-ai",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-19",
+      "title": {
+        "cs": "Canva: generativní AI vypneš jedním přepínačem",
+        "en": "Canva lets you switch off generative AI features"
+      },
+      "summary": {
+        "cs": "Canva 19. listopadu přidala pro účty Free a Pro přepínač, který skryje funkce generativní AI, a druhou volbu, která v knihovně ukazuje méně obsahu vytvořeného AI. Zůstává dostupné odstranění pozadí a Magic Grab, protože nic nového nevytvářejí; ovládání je zdarma a jde kdykoli změnit.",
+        "en": "On November 19, Canva added a switch for Free and Pro accounts that hides generative AI features, and a second option that shows less AI-generated content in its library. Background Remover and Magic Grab stay available because they create nothing new; the controls are free and can be changed anytime."
+      },
+      "why": {
+        "cs": "V Canvě otevři Profile › Settings › Permissions a přepni Enable generative AI features; druhá volba je v Profile › Your account › AI personalization. Podle The Verge vypne třeba Magic Write či Dream Lab.",
+        "en": "Open Profile › Settings › Permissions and toggle Enable generative AI features; the second option is under Profile › Your account › AI personalization. Per The Verge, it hides Magic Write and Dream Lab."
+      },
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/19/canva-introduces-new-controls-to-hide-generative-ai-features/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-tip-lmstudio-bionic-lm-link-remote",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-16",
+      "title": {
+        "cs": "LM Studio Bionic: chaty a projekty na jiném zařízení",
+        "en": "LM Studio Bionic: chats and projects on another device"
+      },
+      "summary": {
+        "cs": "LM Studio Bionic 1.2.1 (16. listopadu) přidal přes LM Link vzdálené chaty a projekty na jiných zařízeních s Bionic, včetně výběru zařízení a složky pro vzdálené projekty. V nastavení vzdálených strojů je přepínač pro povolení vzdáleného ovládání agenta (Allow remote agent control).",
+        "en": "LM Studio Bionic 1.2.1 (November 16) added, via LM Link, remote chats and projects on other devices running Bionic, including device and folder selection for remote projects. The remote machines settings include a switch to allow remote control of the agent, labeled Allow remote agent control."
+      },
+      "why": {
+        "cs": "Ikonu LM Link najdeš v LM Studiu nad ozubeným kolem nastavení; po přihlášení se propojení vytvoří samo, pak přidáš druhé zařízení. Podle dokumentace jde použít modely i na iPhonu a iPadu (aplikace Locally).",
+        "en": "Find the LM Link icon above the Settings gear in LM Studio; after signing in, a link is created and you add a second device. Docs: models also work on iPhone and iPad via Locally."
+      },
+      "sources": [
+        {
+          "name": "LM Studio",
+          "url": "https://lmstudio.ai/changelog/bionic-v1.2.1"
+        },
+        {
+          "name": "LM Studio",
+          "url": "https://lmstudio.ai/docs/lmlink/basics"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-tip-cursor-voice-chat-agents",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-06",
+      "title": {
+        "cs": "Pro vývojáře: Cursor umí hlasový hovor s agentem",
+        "en": "For developers: Cursor now has voice calls with agents"
+      },
+      "summary": {
+        "cs": "Cursor 6. listopadu přidal hlasový chat: s agentem mluvíš v reálném čase, zadáváš mu úkoly a on ti hlasem hlásí průběh. Funguje v Agents Window, v IDE, na webu i v iOS aplikaci; hlas obstarává Grok Voice. S Privacy Mode běží hovor s nulovým uchováním dat.",
+        "en": "On November 6, Cursor added voice chat: you talk to an agent in real time, give it tasks, and it reports progress aloud. It works in the Agents Window, the IDE, on the web, and in the iOS app; Grok Voice provides the voice. With Privacy Mode on, calls run with zero data retention."
+      },
+      "why": {
+        "cs": "Když je agent nečinný a pole zprávy prázdné, klikni na vlnu Start voice chat. Chce přihlášení účtem Cursoru, ne API klíč; platí denní limit hovorů a správce týmu hlas může vypnout.",
+        "en": "With an idle agent and an empty message box, click the waveform Start voice chat. Needs a Cursor account sign-in, not an API key; a daily call limit applies, and team admins can disable it."
+      },
+      "sources": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/changelog/voice-chat"
+        },
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/docs/agent/voice-chat"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "Claude Code ruší rychlý režim pro Opus 4.8",
+        "en": "Claude Code drops fast mode for Opus 4.8"
+      },
+      "note": {
+        "cs": "Podle poznámek k vydání Claude Code zanikne 30. listopadu rychlý režim Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Rychlost zachováš přechodem na Opus 5.5.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "AWS re:Invent: velká konference o cloudu a AI",
+        "en": "AWS re:Invent: big cloud and AI conference"
+      },
+      "note": {
+        "cs": "Běží od 30. listopadu do 4. prosince v Las Vegas. Podle Amazonu bude pět hlavních projevů a hlavním tématem AI agenti; čekají se novinky kolem služby Bedrock a nástroje Kiro.",
+        "en": "Runs November 30 to December 4 in Las Vegas. Amazon plans five keynotes themed on AI agents; news is expected around the Bedrock service and the Kiro developer tool."
+      },
+      "sources": [
+        {
+          "name": "Amazon",
+          "url": "https://www.aboutamazon.com/news/aws/what-is-aws-reinvent"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-02",
+      "title": {
+        "cs": "EU: do 2. prosince musí firmy splnit zákaz nahých deepfaků",
+        "en": "EU: AI apps making fake nude images banned by December 2"
+      },
+      "note": {
+        "cs": "Podle AI Actu musí firmy do 2. prosince 2026 splnit zákaz AI aplikací, které bez souhlasu vytvářejí nahé snímky lidí, a strojově čitelně označovat AI obsah i u starších systémů.",
+        "en": "AI Act: by December 2, 2026 companies must meet the ban on AI apps making nude images of people without consent and label AI content machine-readably, older systems too."
+      },
+      "sources": [
+        {
+          "name": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban"
+        },
+        {
+          "name": "Council of the EU (EEAS)",
+          "url": "https://eeas.europa.eu/delegations/chile/artificial-intelligence-council-gives-final-green-light-simplify-and-streamline-rules_en"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-10",
+      "title": {
+        "cs": "Google: chytré brýle s Gemini půjdou do prodeje",
+        "en": "Google: Gemini smart glasses go on sale"
+      },
+      "note": {
+        "cs": "Brýle Warby Parker (jen USA) a Gentle Monster (USA, Jižní Korea) půjdou 10. prosince do prodeje. Potřebují účet Google z USA či Jižní Koreje (18+) a podporovaný telefon.",
+        "en": "Warby Parker (US only) and Gentle Monster (US, South Korea) glasses go on sale December 10. They need a US or South Korean Google account, 18+, and a supported phone."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-14",
+      "title": {
+        "cs": "GitHub Copilot: 14. prosince skončí šest modelů",
+        "en": "GitHub Copilot: six models end on December 14"
+      },
+      "note": {
+        "cs": "GitHub 13. listopadu oznámil konec šesti modelů 14. prosince, mj. Claude Fable 5 a Gemini 4 Argon; doporučuje náhrady (pro Kimi K3 zatím žádnou). Ročním individuálním předplatitelům zůstane Haiku 4.5.",
+        "en": "GitHub says six models end December 14, including Claude Fable 5 and Gemini 4 Argon, and suggests replacements (none yet for Kimi K3). Annual individual subscribers keep Haiku 4.5."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

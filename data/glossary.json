@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "terms": [
     {
       "id": "quantization",
@@ -1910,6 +1910,20 @@
       "short": {
         "cs": "Automatický systém, který při každé změně kódu sám program sestaví a otestuje. Bývají v něm uložené přístupové klíče, proto je lákavým cílem útoků.",
         "en": "An automatic system that builds and tests a program whenever its code changes. It often holds access keys, which makes it an attractive attack target."
+      }
+    },
+    {
+      "id": "artex",
+      "term": {
+        "cs": "ARTEX (AI nástroj pro útoky a testy)",
+        "en": "ARTEX (AI attack and testing tool)"
+      },
+      "aliases": [
+        "ARTEX"
+      ],
+      "short": {
+        "cs": "Volně šířený nástroj, v němž AI agenti podle zadání sami zkoumají a zkoušejí prolomit počítačové sítě. Vznikl pro řízené bezpečnostní testy, útočníci ho ale zneužívají.",
+        "en": "A freely available tool in which AI agents probe and try to break into computer networks on their own, starting from a plain-language goal. Built for controlled security testing, but attackers abuse it."
       }
     }
   ]

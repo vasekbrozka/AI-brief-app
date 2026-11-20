@@ -36,36 +36,6 @@
       "topic": "tip: Claude Code od 19.9. (v2.1.278) přesunul klasifikátor auto mode na server — bez poplatku za jeho režii (API/Enterprise/Bedrock/Vertex/Foundry)"
     },
     {
-      "slug": "2026-09-20-claude-code-projects-redesigned",
-      "date": "2026-09-20",
-      "topic": "Anthropic 17.9. spustil v betě přepracované Projects pro Claude Code — koordinátor dělí práci mezi paralelní agentní vlákna se sdílenou pamětí"
-    },
-    {
-      "slug": "2026-09-20-claude-small-business-expansion",
-      "date": "2026-09-20",
-      "topic": "Anthropic 15.9. rozšířil Claude for Small Business z 15 na 43 postupů + 27 propojení (Shopify, Salesforce, Stripe...), 900k+ instalací od května"
-    },
-    {
-      "slug": "2026-09-20-microsoft-suleyman-openai-misalignment-reaction",
-      "date": "2026-09-20",
-      "topic": "Microsoft AI šéf Suleyman 18.9. (CNBC) označil OpenAI zjištění o modelu upravujícím vlastní řetězec uvažování za \"vážnou situaci\""
-    },
-    {
-      "slug": "2026-09-20-salesforce-agentforce-seven-named-agents",
-      "date": "2026-09-20",
-      "topic": "Salesforce 11.9. představil 7 pojmenovaných agentů Agentforce (Casey, Hunter...) pro konkrétní role, Agentforce+Slack 7 mld. agentních jednotek"
-    },
-    {
-      "slug": "2026-09-20-tip-gemini-notebook-voice-conversations",
-      "date": "2026-09-20",
-      "topic": "tip: Gemini Notebook od 15.9. hlasový rozhovor nad zdroji (~100 jazyků) + nahrávání přednášek v mobilní appce"
-    },
-    {
-      "slug": "2026-09-20-tip-github-copilot-auto-model-tiers",
-      "date": "2026-09-20",
-      "topic": "tip: GitHub Copilot od 14.9. automatický výběr modelu ve 3 úrovních (efektivita/vyváženost/inteligence)"
-    },
-    {
       "slug": "2026-09-22-claude-for-financial-advisors",
       "date": "2026-09-22",
       "topic": "Anthropic spustilo Claude for Financial Advisors"
@@ -2614,7 +2584,62 @@
       "slug": "2026-11-19-tip-gemini-decisions-api",
       "date": "2026-11-19",
       "topic": "tip: Gemini Decisions API (11. 11.; blog Googlu; model gemini-decision-1; až 1 000 otázek ano/ne, výběr, hodnocení v jednom průchodu nad textem, obrázky, zvukem, videem a PDF, ke každé odpovědi pravděpodobnosti a míra jistoty; 0,10 USD za milion vstupních tokenů, výstup se neúčtuje; 150–250 ms u vstupů do 16 tis. tokenů a do 100 otázek; klíč v Google AI Studiu; Python, JavaScript, REST)"
+    },
+    {
+      "slug": "2026-11-20-anthropic-nasdaq-debut-opens-111-usd",
+      "date": "2026-11-20",
+      "topic": "Anthropic 19. 11. (TechCrunch 19. 11.; The Register 19. 11.; The Next Web, Engadget a The Verge při průzkumu; anthropic.com — tisková zpráva z 18. 11.): první den obchodování na Nasdaqu (ANT) — otevření na 111,50 USD (+34 % nad 83 USD z IPO; TechCrunch v prvních minutách 33 %); hodnota firmy zhruba 2 bil. USD podle TechCrunch a Register (The Verge u ceny IPO 1,5 bil.; Engadget později v den při asi 95 USD 1,23 bil. — jiný základ výpočtu; TNW v poledne asi 107 USD podle Bloombergu); nabídka akcií přes 81 mld. USD (TechCrunch: 81,3 mld.) plus soukromé umístění 26 mld. USD (Nvidia a Google po 10 mld.); podle TechCrunch asi 220 mld. USD v hotovosti, podle The Register závazky na výpočetní kapacity kolem 900 mld. USD; Amodei u zvonku: tempo vývoje a bezpečnost, „race to the top“; navazuje na díl z 19. 11. (cena IPO) — highlight"
+    },
+    {
+      "slug": "2026-11-20-google-gemini-mac-computer-use",
+      "date": "2026-11-20",
+      "topic": "Google 19. 11. (blog Googlu; 9to5Google 19. 11.; TechCrunch 19. 11.; The Verge a The Next Web při průzkumu): ovládání počítače v aplikaci Gemini pro Mac — Gemini klikává, píše a vyplňuje formuláře v aplikacích a na webu v izolovaném okně na pozadí s živým náhledem, uživatel vybírá aplikace a schvaluje klíčové akce (9to5Google: pauza při přihlášení a platbě; @Computer use v promptu; desktopové konektory Blender a Autodesk Fusion); jen angličtina v USA, Apple Silicon, macOS Sequoia 15.0+, osobní účty 18+, předplatitelé Google AI Plus, Pro, Ultra; rozšíření mimo USA Google neuvedl (TechCrunch); starší tip na Gemini pro macOS: 2026-10-25-tip-gemini-mac-antigravity"
+    },
+    {
+      "slug": "2026-11-20-european-commission-cyberattack-artex",
+      "date": "2026-11-20",
+      "topic": "Evropská komise 19. 11. (The Register 19. 11. podle Politico — politico.eu vrací curlu 403; CERT-EU blog z 5. 11.; FBI z 13. 11.): přes 10 dní narušení interních systémů (Sysper — výplatní pásky, výkazy a dovolené; MyPMO — lékařské výdaje; překladatelské služby; Sysper podruhé vypadl 18. 11.), podle zdrojů Politico použit ARTEX; mluvčí Regnier: zásah do jednotlivých systémů, dotčení informováni; únik osobních údajů neupřesněn (Register dotaz nezodpovězen); nouzová schůze Corporate Management Board, komisařka Virkkunen informovala kolegy 18. 11.; CERT-EU 5. 11. pozoroval útoky s ARTEX u svých klientů; FBI: nad 1 600 veřejně dostupných konzolí ARTEX (počátek listopadu), autor stáhl repozitář v říjnu, kopie a komerční ARTEX PRO; navazuje na díl z 17. 11. (ARTEX)"
+    },
+    {
+      "slug": "2026-11-20-meta-muse-mixes-up-conversations-reuters",
+      "date": "2026-11-20",
+      "topic": "Reuters 18. 11. (investigace z interních příspěvků Mety — reuters.com vrací 401, text čten přes TechCrunch 19. 11., Ars Technica a 9to5Mac 19. 11.): zaměstnanci hlásí, že Muse míchá konverzace různých účtů a ukazuje cizí údaje (zůstatky Capital One a Charles Schwab, připomínka ze Signalu, objednávky); Meta: ojedinělé případy, agent podle ní halucinoval zprávy (vestavěné podněty k oslovení uživatele mezi sezeními; podle Ars zůstatky ani bitcoin nebyly skutečné), zaměstnanci testují jiné verze než veřejnost; Muse od září, přes 10 mil. stažení; 9to5Mac: AI Now Institute dřív reprodukoval přístup Muse k zprávám ze Signalu bez povolení; dřívější Muse: 2026-10-21-meta-muse-share-links-exposed"
+    },
+    {
+      "slug": "2026-11-20-google-chrome-mirror-dimension-agent-tests",
+      "date": "2026-11-20",
+      "topic": "Google 19. 11. (blog Googlu — blog.google/security; Wired 19. 11.): Chrome „mirror dimension“ — hermetický sandbox (gVisor) s tisíci simulovaných webů inspirovaných běžnými cestami uživatelů a lokální proxy, která agentovi podstrčí vygenerovaný web pod skutečnou adresou (vlastní kořenová certifikační autorita jen v sandboxu); test funkce auto browse, odolnost proti skrytým pokynům (prompt injection), zamezení „eval awareness“ (model nepozná test); Wired: weby vytvářeli agenti, plán zpřístupnit prostředí dalším týmům Googlu"
+    },
+    {
+      "slug": "2026-11-20-google-genie-4-gemini-api-ai-studio",
+      "date": "2026-11-20",
+      "topic": "Google 19. 11. (blog Googlu): Genie 4 pro vývojáře v Gemini API (Interactions API) a Google AI Studio — z textu, obrázku nebo obojího souvislé světy 720p, 24 fps, nativní zvuk; klávesnice a živé textové pokyny; vodoznak SynthID u každého výstupu; využití podle Googlu: prototypy, vizualizace prostoru, trénink robotů a agentů; navazuje na díl z 19. 11. (Project Genie pro Ultra, spuštěno 18. 11.) a na první ukázku z 28. 10."
+    },
+    {
+      "slug": "2026-11-20-google-search-homepage-ai-sidebar",
+      "date": "2026-11-20",
+      "topic": "Google 19. 11. (The Verge 19. 11.; 9to5Google 19. 11.; příspěvek Robbyho Steina na X — x.com není citovatelný): postranní panel na úvodní stránce vyhledávání na počítačích — historie AI konverzací (Verge: hledání z AI Mode, nové vlákno, hledání ve vláknech, Gemini Notebook; 9to5Google: chaty a úkoly z Gemini, tlačítko nového chatu, zkratky Gemini); zavádí se globálně, 9to5Google ho zatím neviděl; souvisí s tipem 2026-11-18-tip-ai-mode-temporary-threads"
+    },
+    {
+      "slug": "2026-11-20-tip-chatgpt-live-dictation",
+      "date": "2026-11-20",
+      "topic": "tip: ChatGPT Live Dictation (18. 11.; oznámení OpenAI na X — x.com není citovatelný; 9to5Mac 18. 11.; The Verge 19. 11.) — řeč se mění v text už při mluvení, klepnutím na vlnu zvuku se text zobrazí či skryje a před odesláním jde upravit v poli zprávy; zrušen limit nahrávání 10 minut; globálně ve všech plánech na webu, desktopu, iOS a Androidu (zavádí se postupně); záznam „record mode“ je jiná funkce (beta)"
+    },
+    {
+      "slug": "2026-11-20-tip-canva-turn-off-generative-ai",
+      "date": "2026-11-20",
+      "topic": "tip: Canva (19. 11.; 9to5Mac, The Verge, 9to5Google) — přepínač generativní AI (Profile › Settings › Permissions › Enable generative AI features) skryje Magic Write, Magic Design, Magic Layers, Magic Edit, Dream Lab, Canva Code, AI Shapes; Background Remover a Magic Grab zůstávají; druhá volba v Profile › Your account › AI personalization ukáže méně AI obsahu v knihovně; účty Free a Pro, zdarma; newsroom Canvy vrací 403"
+    },
+    {
+      "slug": "2026-11-20-tip-lmstudio-bionic-lm-link-remote",
+      "date": "2026-11-20",
+      "topic": "tip: LM Studio Bionic 1.2.1 (16. 11.; changelog a dokumentace LM Link) — vzdálené chaty a projekty na jiných zařízeních s Bionic přes LM Link; ikona LM Link nad ozubeným kolem nastavení, přihlášení, propojení se vytvoří samo, přidání druhého zařízení; Remote machines — přepínač Allow remote agent control; podle dokumentace modely i na iPhonu a iPadu (aplikace Locally); z banky z 17. 11."
+    },
+    {
+      "slug": "2026-11-20-tip-cursor-voice-chat-agents",
+      "date": "2026-11-20",
+      "topic": "tip: Cursor hlasový chat s agentem (6. 11.; changelog a dokumentace cursor.com) — tlačítko vlny Start voice chat (agent nečinný, prázdné pole; v IDE chat aspoň s jednou zprávou), Grok Voice, funguje v Agents Window, IDE, webu a iOS (Hey Siri, call Cursor); vyžaduje přihlášení účtem, ne API klíč; denní limit hovorů; admin týmu může vypnout; Privacy Mode nulové uchování dat; ticho asi 10 min ukončí hovor"
     }
   ],
-  "updated": "2026-11-19T04:08:14Z"
+  "updated": "2026-11-20T03:31:56Z"
 }

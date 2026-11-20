@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-19T04:08:14Z",
+  "updated": "2026-11-20T03:31:56Z",
   "briefs": [
+    {
+      "date": "2026-11-20",
+      "headline": {
+        "cs": "Anthropic začala obchodovat na burze, otevřela na 111,50 USD",
+        "en": "Anthropic starts trading on Nasdaq, opening at $111.50"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-11-19",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Vývojářský nástroj Antigravity od Googlu se nově ovládá hlasem",
         "en": "Google’s Antigravity coding tool now takes voice commands"
-      },
-      "itemCount": 10
-    },
-    {
-      "date": "2026-11-06",
-      "headline": {
-        "cs": "Claude v USA rozebere výdaje z propojených bankovních účtů",
-        "en": "Claude Personal Finance analyzes bank accounts (US beta)"
       },
       "itemCount": 10
     }
