@@ -6393,8 +6393,8 @@
         "en": "On November 18, according to its post on X, OpenAI introduced Live Dictation in ChatGPT: speech turns into text as you talk, not after the recording ends, and the 10-minute limit is gone. It is rolling out globally to all plans on the web, the desktop app, and the iOS and Android apps."
       },
       "why": {
-        "cs": "Při diktování klepni na vlnu zvuku: ukáže se živý přepis, který před odesláním opravíš v poli zprávy. Zavádí se postupně, funkci tedy nemusíš mít hned; podle The Verge ji dostanou všechny plány.",
-        "en": "Tap the waveform while dictating: a live transcript appears, editable in the message box before sending. Rollout is gradual, so you may not have it yet; all plans get it (The Verge)."
+        "cs": "Spusť diktování v poli zprávy a klepnutím na vlnu zvuku živý přepis zobraz či skryj; před odesláním ho oprav. Zavádí se postupně, zdroje neuvádějí podporované jazyky.",
+        "en": "Start dictation in the message box, tap the waveform to show or hide the live transcript, and edit it before sending. Rollout is gradual; the sources name no supported languages."
       },
       "sources": [
         {
@@ -6416,16 +6416,16 @@
       "verified": true,
       "eventDate": "2026-11-19",
       "title": {
-        "cs": "Canva: generativní AI vypneš jedním přepínačem",
-        "en": "Canva lets you switch off generative AI features"
+        "cs": "Canva: funkce generativní AI skryješ jedním přepínačem",
+        "en": "Canva can now hide its generative AI features"
       },
       "summary": {
-        "cs": "Canva 19. listopadu přidala pro účty Free a Pro přepínač, který skryje funkce generativní AI, a druhou volbu, která v knihovně ukazuje méně obsahu vytvořeného AI. Zůstává dostupné odstranění pozadí a Magic Grab, protože nic nového nevytvářejí; ovládání je zdarma a jde kdykoli změnit.",
-        "en": "On November 19, Canva added a switch for Free and Pro accounts that hides generative AI features, and a second option that shows less AI-generated content in its library. Background Remover and Magic Grab stay available because they create nothing new; the controls are free and can be changed anytime."
+        "cs": "Canva 19. listopadu přidala pro účty Free a Pro přepínač, který skryje funkce generativní AI, a druhou volbu, která v knihovně ukazuje méně obsahu vytvořeného AI. Podle Canvy zůstávají dostupné odstranění pozadí a Magic Grab, protože nic nového nevytvářejí; ovládání je zdarma a jde kdykoli změnit.",
+        "en": "On November 19, Canva added a switch for Free and Pro accounts that hides generative AI features, and a second option that shows less AI-generated content in its library. Per Canva, Background Remover and Magic Grab stay available because they create nothing new; the controls are free and can be changed anytime."
       },
       "why": {
-        "cs": "V Canvě otevři Profile › Settings › Permissions a přepni Enable generative AI features; druhá volba je v Profile › Your account › AI personalization. Podle The Verge vypne třeba Magic Write či Dream Lab.",
-        "en": "Open Profile › Settings › Permissions and toggle Enable generative AI features; the second option is under Profile › Your account › AI personalization. Per The Verge, it hides Magic Write and Dream Lab."
+        "cs": "V Profile › Settings › Permissions přepni Enable generative AI features, druhá volba je v Profile › Your account › AI personalization (názvy podle angličtiny). Týmové a školní účty už AI řídí správci.",
+        "en": "In Profile › Settings › Permissions, toggle Enable generative AI features; the second option is under Profile › Your account › AI personalization (English UI names). Team and school accounts are controlled by admins."
       },
       "sources": [
         {
@@ -6451,12 +6451,12 @@
         "en": "LM Studio Bionic: chats and projects on another device"
       },
       "summary": {
-        "cs": "LM Studio Bionic 1.2.1 (16. listopadu) přidal přes LM Link vzdálené chaty a projekty na jiných zařízeních s Bionic, včetně výběru zařízení a složky pro vzdálené projekty. V nastavení vzdálených strojů je přepínač pro povolení vzdáleného ovládání agenta (Allow remote agent control).",
-        "en": "LM Studio Bionic 1.2.1 (November 16) added, via LM Link, remote chats and projects on other devices running Bionic, including device and folder selection for remote projects. The remote machines settings include a switch to allow remote control of the agent, labeled Allow remote agent control."
+        "cs": "Bionic, agent z programu LM Studio (spouští AI modely na vlastním počítači), přidal ve verzi 1.2.1 (16. listopadu) přes LM Link vzdálené chaty a projekty na jiných zařízeních s Bionic, včetně výběru zařízení a složky. V nastavení vzdálených strojů je přepínač Allow remote agent control (povolení vzdáleného ovládání agenta).",
+        "en": "Bionic, the agent in LM Studio (a program for running AI models locally), added in 1.2.1 (November 16) remote chats and projects on other Bionic devices via LM Link, including device and folder selection. The remote machines settings include a switch labeled Allow remote agent control."
       },
       "why": {
-        "cs": "Ikonu LM Link najdeš v LM Studiu nad ozubeným kolem nastavení; po přihlášení se propojení vytvoří samo, pak přidáš druhé zařízení. Podle dokumentace jde použít modely i na iPhonu a iPadu (aplikace Locally).",
-        "en": "Find the LM Link icon above the Settings gear in LM Studio; after signing in, a link is created and you add a second device. Docs: models also work on iPhone and iPad via Locally."
+        "cs": "Podle dokumentace je ikona LM Link v aplikaci LM Studio nad ozubeným kolem nastavení; potřebuješ přihlášení, propojení se vytvoří samo a pak přidáš druhé zařízení. Kde je v Bionicu, zdroje neuvádějí; changelog zmiňuje úvodního průvodce.",
+        "en": "Docs: LM Link icon is in the LM Studio app above the Settings gear; sign in, a link is created, add a second device. Bionic’s menus are not described; the changelog mentions onboarding."
       },
       "sources": [
         {
@@ -6472,31 +6472,35 @@
       "used": "2026-11-20"
     },
     {
-      "slug": "tip-cursor-voice-chat-agents",
+      "slug": "tip-claude-code-tasks-scheduled-loops",
       "category": "tools",
-      "theme": "cursor",
+      "theme": "claude",
       "verified": true,
-      "eventDate": "2026-11-06",
+      "eventDate": "2026-11-19",
       "title": {
-        "cs": "Pro vývojáře: Cursor umí hlasový hovor s agentem",
-        "en": "For developers: Cursor now has voice calls with agents"
+        "cs": "Pro vývojáře: Claude Code ukáže naplánované úlohy v /tasks",
+        "en": "For developers: Claude Code lists scheduled tasks in /tasks"
       },
       "summary": {
-        "cs": "Cursor 6. listopadu přidal hlasový chat: s agentem mluvíš v reálném čase, zadáváš mu úkoly a on ti hlasem hlásí průběh. Funguje v Agents Window, v IDE, na webu i v iOS aplikaci; hlas obstarává Grok Voice. S Privacy Mode běží hovor s nulovým uchováním dat.",
-        "en": "On November 6, Cursor added voice chat: you talk to an agent in real time, give it tasks, and it reports progress aloud. It works in the Agents Window, the IDE, on the web, and in the iOS app; Grok Voice provides the voice. With Privacy Mode on, calls run with zero data retention."
+        "cs": "Anthropic 19. listopadu vydala Claude Code 2.1.329: příkaz /tasks, který ukazuje práci na pozadí v relaci, nově vypisuje i naplánované úlohy, čekající /loop, cíl a větve konverzace; klávesa x je po potvrzení zastaví. Uložené naplánované úlohy z dřívějších verzí je v nových přihlášených relacích většinou nutné naplánovat znovu.",
+        "en": "On November 19, Anthropic released Claude Code 2.1.329: /tasks, which shows background work in a session, now also lists scheduled tasks, pending /loop wakeups, the goal, and conversation forks; x stops one after confirmation. Scheduled tasks saved by earlier versions mostly need scheduling again in new signed-in sessions."
       },
       "why": {
-        "cs": "Když je agent nečinný a pole zprávy prázdné, klikni na vlnu Start voice chat. Chce přihlášení účtem Cursoru, ne API klíč; platí denní limit hovorů a správce týmu hlas může vypnout.",
-        "en": "With an idle agent and an empty message box, click the waveform Start voice chat. Needs a Cursor account sign-in, not an API key; a daily call limit applies, and team admins can disable it."
+        "cs": "Spusť /tasks, u položky stiskni x a potvrď zastavení. /tasks podle dokumentace ukazuje práci na pozadí včetně dokončených subagentů; plánování a /loop popisuje samostatná stránka dokumentace.",
+        "en": "Run /tasks, press x on an entry, and confirm. Per the docs, /tasks shows background work including finished subagents; scheduling and /loop have their own docs page."
       },
       "sources": [
         {
-          "name": "Cursor",
-          "url": "https://cursor.com/changelog/voice-chat"
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
         },
         {
-          "name": "Cursor",
-          "url": "https://cursor.com/docs/agent/voice-chat"
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/commands"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/scheduled-tasks"
         }
       ],
       "added": "2026-11-20",
@@ -6555,33 +6559,6 @@
         {
           "name": "Google",
           "url": "https://gemini.google/import-memory/"
-        }
-      ],
-      "added": "2026-11-20",
-      "used": null
-    },
-    {
-      "slug": "tip-claude-code-tasks-scheduled-loops",
-      "category": "tools",
-      "theme": "claude",
-      "verified": true,
-      "eventDate": "2026-11-19",
-      "title": {
-        "cs": "Pro vývojáře: Claude Code sdružil naplánované úlohy v /tasks",
-        "en": "For developers: Claude Code lists scheduled tasks in /tasks"
-      },
-      "summary": {
-        "cs": "Anthropic 19. listopadu vydala Claude Code 2.1.329: příkaz /tasks nově ukazuje i naplánované úlohy této relace, čekající /loop, cíl a větve konverzace; klávesa x je po potvrzení zastaví. Uložené naplánované úlohy z dřívějších verzí je v nových přihlášených relacích většinou potřeba naplánovat znovu.",
-        "en": "On November 19, Anthropic released Claude Code 2.1.329: /tasks now also shows this session’s scheduled tasks, pending /loop wakeups, the goal, and conversation forks; x stops one after asking. Scheduled tasks saved by earlier versions mostly need scheduling again in new signed-in sessions."
-      },
-      "why": {
-        "cs": "Otevři /tasks v relaci a u položky stiskni x; Claude se zeptá před zastavením. Changelog nic dalšího k postupu neuvádí; před použitím tip znovu ověř v dokumentaci.",
-        "en": "Open /tasks in a session and press x on an entry; Claude asks before stopping it. The changelog gives no further steps; re-check the docs before using this tip."
-      },
-      "sources": [
-        {
-          "name": "Anthropic",
-          "url": "https://code.claude.com/docs/en/changelog"
         }
       ],
       "added": "2026-11-20",

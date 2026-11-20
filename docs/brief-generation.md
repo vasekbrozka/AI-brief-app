@@ -506,6 +506,20 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   Updates z 18. 11. zopakovaly blog Googlu z 16. 11., tip „make me a site“ vyšel 17. 11.): grep
   podle funkce. **Název zdroje odpovídá adrese** (zrcadlo Rady EU na eeas.europa.eu se jmenuje
   „Council of the EU (EEAS)“). Dva pomocní agenti s celkovým stropem 18 dotazů ho dodrželi (9 + 9).
+  (43) **duplicitu tipu chytí grep bez `head` a srovnání zdroje** — draft z 20. 11. vydal Cursor hlasový chat
+  podruhé (tip z 7. 11. `tip-cursor-voice-chat`, draft `tip-cursor-voice-chat-agents`, stejný zdroj
+  cursor.com/changelog/voice-chat), protože jsem výpis z logu ořezal `head -14` a „voice“ hledal jen v prvních
+  řádcích; chytil to až pokročilý čtenář. Výpis z `published-log.json` **nikdy neořezávej**, hledej kmeny funkce
+  (voice, hlas, mikrofon) a čti všechny shody; `check-brief.py` nově varuje, když zdroj tipu už citovala dřívější
+  položka (adresy se třemi a více citacemi, tedy changelogy, se nepočítají). **Zpráva, kterou jedno médium přebírá
+  po druhém** (Reuters → TechCrunch, Ars Technica, 9to5Mac; Politico → The Register): přečti celý text **každého**
+  citovaného média — výhradu „Reuters nedokázal ověřit, zda šlo o cizí údaje, nebo o výmysly“ a tvrzení Mety, že šlo
+  o halucinace, měl jen Ars, TechCrunch je vynechal; titulek pak varuje („možná míchá“), nekonstatuje.
+  **T1, který událost nejmenuje** (CERT-EU a FBI k ARTEX nezmiňují Evropskou komisi), nedělá z incidentu
+  `verified: true`: dej `false`, ve `why` to řekni a v textu atribuuj „podle Politica (přes The Register)“. **Heslo
+  slovníčku čti i v novém kontextu** („vodoznak“ je definovaný jen pro text, u Genie 4 jde o označení SynthID) a
+  **alias uvnitř názvu stránky dokumentace** („Run prompts on a schedule“ podtrhne prompt) obejdi popisem stránky.
+  **Čtyři zprávy jedné firmy** (Google 19. 11.) jen v den, kdy dominuje, a pátou položku téže firmy (Tool Retrieval) vyměň.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

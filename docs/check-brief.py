@@ -702,6 +702,27 @@ def main() -> int:
                     warn(f"{i['id']}: titulek se podobá {pid} — stejná událost se neopakuje; nový vývoj = update s followsUp")
                     break
 
+    # --- zdroj tipu už citovala dřívější položka (stejná funkce pod jiným slugem; Cursor 20. 11.) ----
+    # Obecné stránky (changelog, dokumentace) cituje víc položek — warn jen u adresy, kterou citovaly nejvýš dvě.
+    if not file_mode:
+        def norm_url(u: str) -> str:
+            return (u or "").split("#")[0].rstrip("/").lower()
+        cited: dict[str, list[str]] = {}
+        for k in range(1, PUBLOG_KEEP_DAYS + 1):
+            b = load_brief_file(today - timedelta(days=k))
+            for pi in (b or {}).get("items", []):
+                if isinstance(pi, dict) and pi.get("id"):
+                    for s_ in pi.get("sources", []) or []:
+                        if isinstance(s_, dict) and s_.get("url"):
+                            cited.setdefault(norm_url(s_["url"]), []).append(pi["id"])
+        for i in tips:
+            for s_ in i.get("sources", []) or []:
+                ids = cited.get(norm_url(s_.get("url", "")), []) if isinstance(s_, dict) else []
+                if 1 <= len(ids) <= 2:
+                    warn(f"{i['id']}: zdroj {s_['url']} už citoval {ids[0]} — stejná funkce pod jiným slugem? "
+                         f"(grep v published-log podle funkce, výpis neořezávej)")
+                    break
+
     # --- weekInReview (týden v AI, nedělní brief) ------------------------------------
     week = brief.get("weekInReview")
     is_sunday = today.weekday() == 6

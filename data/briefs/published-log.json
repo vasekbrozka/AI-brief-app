@@ -2598,17 +2598,17 @@
     {
       "slug": "2026-11-20-european-commission-cyberattack-artex",
       "date": "2026-11-20",
-      "topic": "Evropská komise 19. 11. (The Register 19. 11. podle Politico — politico.eu vrací curlu 403; CERT-EU blog z 5. 11.; FBI z 13. 11.): přes 10 dní narušení interních systémů (Sysper — výplatní pásky, výkazy a dovolené; MyPMO — lékařské výdaje; překladatelské služby; Sysper podruhé vypadl 18. 11.), podle zdrojů Politico použit ARTEX; mluvčí Regnier: zásah do jednotlivých systémů, dotčení informováni; únik osobních údajů neupřesněn (Register dotaz nezodpovězen); nouzová schůze Corporate Management Board, komisařka Virkkunen informovala kolegy 18. 11.; CERT-EU 5. 11. pozoroval útoky s ARTEX u svých klientů; FBI: nad 1 600 veřejně dostupných konzolí ARTEX (počátek listopadu), autor stáhl repozitář v říjnu, kopie a komerční ARTEX PRO; navazuje na díl z 17. 11. (ARTEX)"
+      "topic": "Evropská komise 19. 11. (The Register 19. 11. podle Politico — politico.eu vrací curlu 403; verified: false — jediný řetězec Politico → Register, CERT-EU ani FBI Komisi nejmenují; CERT-EU blog z 5. 11.; FBI z 13. 11.): přes 10 dní narušení interních systémů (Sysper — výplatní pásky, výkazy a dovolené; MyPMO — lékařské výdaje; překladatelské služby; Sysper podruhé vypadl 18. 11.), podle zdrojů Politico použit ARTEX; mluvčí Regnier: zásah do jednotlivých systémů, dotčení informováni; únik osobních údajů neupřesněn (Register dotaz nezodpovězen); nouzová schůze Corporate Management Board, komisařka Virkkunen informovala kolegy 18. 11.; CERT-EU 5. 11. pozoroval útoky s ARTEX u svých klientů; FBI: nad 1 600 veřejně dostupných konzolí ARTEX (počátek listopadu), autor stáhl repozitář v říjnu, kopie a komerční ARTEX PRO; navazuje na díl z 17. 11. (ARTEX)"
     },
     {
       "slug": "2026-11-20-meta-muse-mixes-up-conversations-reuters",
       "date": "2026-11-20",
-      "topic": "Reuters 18. 11. (investigace z interních příspěvků Mety — reuters.com vrací 401, text čten přes TechCrunch 19. 11., Ars Technica a 9to5Mac 19. 11.): zaměstnanci hlásí, že Muse míchá konverzace různých účtů a ukazuje cizí údaje (zůstatky Capital One a Charles Schwab, připomínka ze Signalu, objednávky); Meta: ojedinělé případy, agent podle ní halucinoval zprávy (vestavěné podněty k oslovení uživatele mezi sezeními; podle Ars zůstatky ani bitcoin nebyly skutečné), zaměstnanci testují jiné verze než veřejnost; Muse od září, přes 10 mil. stažení; 9to5Mac: AI Now Institute dřív reprodukoval přístup Muse k zprávám ze Signalu bez povolení; dřívější Muse: 2026-10-21-meta-muse-share-links-exposed"
+      "topic": "Reuters 18. 11. (investigace z interních příspěvků Mety — reuters.com vrací 401, text čten přes TechCrunch 19. 11., Ars Technica a 9to5Mac 19. 11.): zaměstnanci varují, že Muse možná míchá konverzace různých účtů a ukazuje cizí údaje (zůstatky Capital One a Charles Schwab, připomínka ze Signalu, objednávky); Reuters sám nedokázal ověřit, zda šlo o skutečná data, nebo výmysly (podle Ars); Meta: ojedinělé případy, podle ní halucinace, které už vyřešila (vestavěné podněty k oslovení uživatele mezi sezeními), zaměstnanci testují jiné verze než veřejnost; test Reuters se Signalem a AI Now Institute (Ars): na Androidu Muse mohl číst zprávy Signalu přes oprávnění z úvodního nastavení, na iPhonu blokováno, na macOS využil nastavení usnadnění; Muse od září, přes 10 mil. stažení; 9to5Mac: AI Now Institute dřív reprodukoval přístup Muse k zprávám ze Signalu bez povolení; dřívější Muse: 2026-10-21-meta-muse-share-links-exposed"
     },
     {
       "slug": "2026-11-20-google-chrome-mirror-dimension-agent-tests",
       "date": "2026-11-20",
-      "topic": "Google 19. 11. (blog Googlu — blog.google/security; Wired 19. 11.): Chrome „mirror dimension“ — hermetický sandbox (gVisor) s tisíci simulovaných webů inspirovaných běžnými cestami uživatelů a lokální proxy, která agentovi podstrčí vygenerovaný web pod skutečnou adresou (vlastní kořenová certifikační autorita jen v sandboxu); test funkce auto browse, odolnost proti skrytým pokynům (prompt injection), zamezení „eval awareness“ (model nepozná test); Wired: weby vytvářeli agenti, plán zpřístupnit prostředí dalším týmům Googlu"
+      "topic": "Google 19. 11. (blog Googlu — blog.google/security; Wired 19. 11.): Chrome „mirror dimension“ — hermetický sandbox (gVisor) s tisíci simulovaných webů inspirovaných běžnými cestami uživatelů (v textu blogu i stovky interaktivních stránek) a lokální proxy, která agentovi podstrčí vygenerovaný web pod skutečnou adresou (vlastní kořenová certifikační autorita jen v sandboxu); test funkce auto browse, odolnost proti skrytým pokynům (prompt injection), zamezení „eval awareness“ (model nepozná test); Wired: weby vytvářeli agenti, plán zpřístupnit prostředí dalším týmům Googlu"
     },
     {
       "slug": "2026-11-20-google-genie-4-gemini-api-ai-studio",
@@ -2633,13 +2633,13 @@
     {
       "slug": "2026-11-20-tip-lmstudio-bionic-lm-link-remote",
       "date": "2026-11-20",
-      "topic": "tip: LM Studio Bionic 1.2.1 (16. 11.; changelog a dokumentace LM Link) — vzdálené chaty a projekty na jiných zařízeních s Bionic přes LM Link; ikona LM Link nad ozubeným kolem nastavení, přihlášení, propojení se vytvoří samo, přidání druhého zařízení; Remote machines — přepínač Allow remote agent control; podle dokumentace modely i na iPhonu a iPadu (aplikace Locally); z banky z 17. 11."
+      "topic": "tip: LM Studio Bionic 1.2.1 (16. 11.; changelog a dokumentace LM Link) — vzdálené chaty a projekty na jiných zařízeních s Bionic přes LM Link; ikona LM Link v aplikaci LM Studio nad ozubeným kolem nastavení (kde je v Bionicu, zdroje neuvádějí; changelog zmiňuje úvodního průvodce), přihlášení, propojení se vytvoří samo, přidání druhého zařízení; Remote machines — přepínač Allow remote agent control; podle dokumentace modely i na iPhonu a iPadu (aplikace Locally); z banky z 17. 11."
     },
     {
-      "slug": "2026-11-20-tip-cursor-voice-chat-agents",
+      "slug": "2026-11-20-tip-claude-code-tasks-scheduled-loops",
       "date": "2026-11-20",
-      "topic": "tip: Cursor hlasový chat s agentem (6. 11.; changelog a dokumentace cursor.com) — tlačítko vlny Start voice chat (agent nečinný, prázdné pole; v IDE chat aspoň s jednou zprávou), Grok Voice, funguje v Agents Window, IDE, webu a iOS (Hey Siri, call Cursor); vyžaduje přihlášení účtem, ne API klíč; denní limit hovorů; admin týmu může vypnout; Privacy Mode nulové uchování dat; ticho asi 10 min ukončí hovor"
+      "topic": "tip: Claude Code 2.1.329 (19. 11.; changelog, dokumentace příkazů a Run prompts on a schedule na code.claude.com) — /tasks (dosud práce na pozadí a dokončení subagenti, 2026-11-08-tip-claude-code-tasks-earlier-subagents) nově ukazuje i naplánované úlohy relace, čekající /loop, cíl a větve konverzace; x je po potvrzení zastaví; uložené naplánované úlohy z dřívějších verzí je v nových přihlášených relacích většinou nutné naplánovat znovu (--resume vlastní relace je dál spustí); souvisí s 2026-11-16-tip-claude-code-scheduled-tasks-skill-ask"
     }
   ],
-  "updated": "2026-11-20T03:31:56Z"
+  "updated": "2026-11-20T03:58:12Z"
 }

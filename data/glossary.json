@@ -1913,6 +1913,20 @@
       }
     },
     {
+      "id": "apple-silicon",
+      "term": {
+        "cs": "Apple Silicon (čipy Applu pro Macy)",
+        "en": "Apple Silicon (Apple’s Mac chips)"
+      },
+      "aliases": [
+        "Apple Silicon"
+      ],
+      "short": {
+        "cs": "Vlastní čipy Applu pro Macy (řada M). Starší Macy mají čipy Intel; který čip máš, ukáže nabídka Apple › O tomto Macu.",
+        "en": "Apple’s own chips for Macs (the M series). Older Macs have Intel chips; the Apple menu › About This Mac shows which one you have."
+      }
+    },
+    {
       "id": "artex",
       "term": {
         "cs": "ARTEX (AI nástroj pro útoky a testy)",
