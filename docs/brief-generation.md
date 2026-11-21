@@ -520,6 +520,25 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   slovníčku čti i v novém kontextu** („vodoznak“ je definovaný jen pro text, u Genie 4 jde o označení SynthID) a
   **alias uvnitř názvu stránky dokumentace** („Run prompts on a schedule“ podtrhne prompt) obejdi popisem stránky.
   **Čtyři zprávy jedné firmy** (Google 19. 11.) jen v den, kdy dominuje, a pátou položku téže firmy (Tool Retrieval) vyměň.
+  (44) **„blokovaná“ doména se může otevřít a tvrzení agenta o T1 stránce není důkaz** — 21. 11. jsem tip „ChatGPT Space pro Plus“
+  (jediné T2 Engadget) vydala jako `verified: false`, protože agent D tvrdil, že to potvrzují poznámky k vydání OpenAI, můj dotaz
+  F nic nenašel a `help.openai.com` bylo dřív 403; pokročilý čtenář pak našel záznam „November 20 — ChatGPT Space is rolling
+  out to Plus“ a stránka šla stáhnout **prostým curlem** (200 i s `-A curl`). **Před draftem zkus každou „blokovanou“ doménu
+  (help.openai.com, openai.com/index) znovu a výsledek zapiš**; to, co agent četl a sandbox ne, ber jako ukazatel — stáhni to,
+  nebo `verified: false`. Stejné stažení dalo T1 i pro radar (konec hlasových režimů ChatGPT 11. 12.). **Highlight, který je
+  tvrzením jednotlivce** (Alpöge: důkaz Riemannovy hypotézy): `verified: true` znamená, že tvrzení padlo (esej + dvě média),
+  ne že je správné; titulek říká „tvrdí“, shrnutí napíše, kdo co ověřil (několik účastníků diskuse potvrdilo kompilaci v Leanu)
+  a že správnost zdroje nepotvrzují, `why` uvede pravidla uznání (Clayův institut); autorovo „věřím“ nezesilovat na „dokázal“
+  bez „tvrdí“. **Údaj z karty modelu a z blogu partnera se liší** (Inkling: blog Hugging Face 3 mld. aktivních a „32 z 48 testů“,
+  karta 3,4 mld. aktivních, 5,4 mld. efektivně): číslo vezmi z karty, tvrzení z blogu atribuuj blogu. **Uzavírací zpráva
+  k dřívějšímu dílu** (uzavření IPO po ceně a debutu) bez nové informace pro čtenáře je výplň — dva čtenáři ji označili (žargon
+  „opce“, čtyři různé „miliardy“) a odvozené číslo („81 mld. bez opce“), které zdroje nepíšou, do textu nepatří; nahraď ji
+  ověřenou zprávou s dopadem na čtenáře (vodoznak textu Claude, T1 ×2). **Zdroj si protiřečí** (AWS: Redis „bez ověření“ i
+  „hardened“): popiš fakt, hodnotící přídavné jméno vynech. **Primární zdroj subjektu zprávy mimo seznam T1** (Signal, Dragos,
+  nizozemský AP, osobní stránka autora tvrzení, blog Bingu) patří do `T1_DOMAINS` a `CANONICAL_NAMES` v `check-brief.py`
+  (precedens wiz.io), ne do WARN. **Připomínku, kterou jeden čtenář vznesl dva dny po sobě** (Bedrock a Kiro u radaru re:Invent),
+  už nezamítej — vysvětli ji podle stránky pořadatele. Radar: zákaz s výjimkou (EU: „pokud nemají přiměřené pojistky“) napiš
+  i s výjimkou.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

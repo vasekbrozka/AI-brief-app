@@ -18,12 +18,12 @@
         "en": "Anthropic mathematician claims Claude helped prove Riemann hypothesis"
       },
       "summary": {
-        "cs": "Levent Alpöge z Anthropicu 20. listopadu zveřejnil esej s tvrzením, že s Claudem dokázal Riemannovu hypotézu, slavný nevyřešený problém o prvočíslech. Důkaz je zapsaný v jazyce Lean, který počítač kontroluje krok za krokem; podle TechCrunche několik matematiků potvrdilo, že se zkompiluje; odborné posouzení teprve začíná.",
-        "en": "On November 20, Anthropic mathematician Levent Alpöge published an essay claiming he proved the Riemann hypothesis, a famous open problem about prime numbers, with Claude. The proof is written in Lean, which a computer checks step by step; per TechCrunch, several mathematicians confirmed it compiles, but expert review has only begun."
+        "cs": "Levent Alpöge z Anthropicu 20. listopadu zveřejnil esej, v níž píše, že s Claudem našel důkaz Riemannovy hypotézy, slavného nevyřešeného problému o prvočíslech. Důkaz zapsal v jazyce Lean, kde počítač kontroluje každý krok; podle TechCrunche několik účastníků odborné diskuse potvrdilo, že ho počítač přijímá. Správnost důkazu zdroje zatím nepotvrzují.",
+        "en": "On November 20, Anthropic mathematician Levent Alpöge published an essay saying he found, with Claude, a proof of the Riemann hypothesis, a famous open problem about primes. It is written in Lean, where a computer checks each step; per TechCrunch, several participants in an expert chat confirmed it compiles. Correctness is not yet confirmed."
       },
       "why": {
-        "cs": "Jde o tvrzení jednoho autora, ne o potvrzený výsledek: Clayův institut zvažuje řešení nejdřív dva roky po publikaci a po obecném přijetí matematiky. Anthropic se podle The Verge zatím nevyjádřil.",
-        "en": "This is one author’s claim, not a confirmed result: the Clay Institute considers a solution only two years after publication and general acceptance by mathematicians. Per The Verge, Anthropic has not commented."
+        "cs": "Je to tvrzení jednoho autora, ne potvrzený výsledek. Clayův institut, udělující cenu za řešení, posuzuje řešení nejdřív dva roky po zveřejnění a po přijetí matematickou obcí. Podle The Verge Anthropic zatím nekomentoval.",
+        "en": "This is one author’s claim, not a confirmed result. The Clay Institute, which awards the prize, reviews a solution only two years after publication and acceptance by mathematicians. Per The Verge, Anthropic has not commented."
       },
       "sources": [
         {
@@ -47,16 +47,16 @@
       "verified": true,
       "eventDate": "2026-11-20",
       "title": {
-        "cs": "Signal blokuje čtení obrazovky AI asistentům Siri a Gemini",
-        "en": "Signal stops Siri and Gemini AI reading your screen"
+        "cs": "Signal omezuje AI asistentům Siri a Gemini čtení obrazovky",
+        "en": "Signal restricts Siri and Gemini AI screen reading"
       },
       "summary": {
-        "cs": "Signal 20. listopadu oznámil, že chrání zprávy před AI agenty zabudovanými do telefonů: v iPhonu s iOS 27 blokuje snímky obrazovky a čtení obsahu asistentem Siri (volba Block Siri AI, výchozí zapnutá), na Androidu brání zachycení obrazovky, kde AI asistenta pozná. Blokování jde v nastavení vypnout.",
-        "en": "On November 20, Signal said it shields chats from phone-built AI agents: on iPhones with iOS 27 it blocks screenshots and Siri AI reading them (a Block Siri AI setting, on by default); on Android it blocks screen capture where it spots an AI assistant. You can turn it off in settings."
+        "cs": "Signal 20. listopadu oznámil, že chrání zprávy před AI agenty zabudovanými do telefonů: v iPhonu s iOS 27 zakázal v aplikaci snímky obrazovky, aby je nečetl Siri (volba Block Siri AI, ve výchozím nastavení zapnutá). Na Androidu blokuje zachycení obrazovky tam, kde pozná AI asistenta. Zákaz jde v nastavení vypnout.",
+        "en": "On November 20, Signal said it shields chats from phone-built AI agents: on iPhones with iOS 27 it bans in-app screenshots so Siri cannot read them (a Block Siri AI setting, on by default). On Android it blocks screen capture where it can spot an AI assistant. You can turn it off in settings."
       },
       "why": {
-        "cs": "Signal přiznává, že ochrana je neúplná: agenti mohou číst data i ze souborů v zařízení a na Macu ji zatím nenasadí. Apple, Google a Microsoft vyzývá k nástrojům, jimiž aplikace přístup AI odmítnou.",
-        "en": "Signal admits it is incomplete: agents may still read data from device files, and it cannot protect Mac yet. It urges Apple, Google, and Microsoft to give apps a way to refuse AI access."
+        "cs": "Signal vyzývá Apple, Google a Microsoft, aby aplikacím daly nástroj, jímž přístup AI odmítnou. Sám přiznává, že ochrana je neúplná: agenti mohou číst data i ze souborů v zařízení a na Macu ji zatím nenasadí.",
+        "en": "Signal urges Apple, Google, and Microsoft to give apps a way to refuse AI access. It admits the protection is incomplete: agents may still read data from device files, and it cannot protect Mac yet."
       },
       "sources": [
         {
@@ -88,16 +88,16 @@
       "verified": true,
       "eventDate": "2026-11-20",
       "title": {
-        "cs": "Amazon: AI agenti hackerů sami našli zero-day",
-        "en": "Amazon: hackers’ AI agents found a zero-day themselves"
+        "cs": "Amazon: AI agenti hackerů sami našli neznámou chybu",
+        "en": "Amazon: hackers’ AI agents found an unknown flaw themselves"
       },
       "summary": {
-        "cs": "Amazon 20. listopadu popsal zářijovou kampaň, v níž útočník s čínskými stopami pustil na univerzity ve východní Asii AI agenty open-source nástroje Cairn. Agenti sami našli dosud neznámou chybu (zero-day) v aplikaci MONAI Label a asi za 11 minut od mapování rozhraní zapisovali soubory na server. Správci chybu opravili.",
-        "en": "On November 20, Amazon described a September campaign where an actor with Chinese ties pointed open-source Cairn’s AI agents at East Asian universities. The agents found an unknown flaw (a zero-day) in MONAI Label and about 11 minutes after mapping its interface were writing files on the server. Maintainers fixed it."
+        "cs": "Amazon 20. listopadu popsal zářijovou kampaň: útočník s vazbami na Čínu pustil AI agenty open-source nástroje Cairn na univerzity ve východní Asii mimo pevninskou Čínu. Agenti sami našli neznámou chybu (zero-day) v aplikaci MONAI Label, asi za 11 minut od mapování rozhraní zapisovali soubory na server a později získali plnou kontrolu. Vývojáři chybu opravili.",
+        "en": "On November 20, Amazon described a September campaign: an actor with ties to China pointed open-source Cairn’s AI agents at East Asian universities outside mainland China. The agents found an unknown flaw (zero-day) in MONAI Label, wrote files to the server within about 11 minutes of mapping it, and later took control. Developers fixed it."
       },
       "why": {
-        "cs": "Agenti 16 hodin bez přestávky marně zkoušeli útoky na Redis a uspěli až u neopravené chyby. Amazon útok přisuzuje Číně se střední jistotou; Cairn podle Gambit Security zneužívají i zločinci.",
-        "en": "The agents spent 16 hours without a break failing against Redis and won only on an unpatched flaw. Amazon attributes the attack to China with moderate confidence; per Gambit Security, criminals use Cairn too."
+        "cs": "Cairn je volně dostupný a podle firmy Gambit Security ho zneužívají i zločinci. U databáze Redis agenti 16 hodin neuspěli, zabrala až neopravená chyba jinde; Amazon útočníka spojuje s Čínou se střední jistotou.",
+        "en": "Cairn is open source, and per Gambit Security criminals abuse it. The agents failed against a Redis database for 16 hours; an unpatched flaw elsewhere worked. Amazon links the actor to China with moderate confidence."
       },
       "sources": [
         {
@@ -117,16 +117,16 @@
       "verified": true,
       "eventDate": "2026-11-19",
       "title": {
-        "cs": "Dva miliony návnad odhalily úniky promptů u AI služeb",
-        "en": "Two million bait prompts reveal leaks across AI services"
+        "cs": "Dragos: dva miliony návnad odhalily úniky promptů",
+        "en": "Dragos: two million bait prompts reveal leaks"
       },
       "summary": {
-        "cs": "Výzkumník HD Moore z firmy Dragos 19. listopadu popsal pokus: poslal AI službám asi dva miliony zpráv s unikátními návnadami, tedy falešnými klíči a odkazy. Podle něj útočníci kradli zprávy u tří poskytovatelů, prodejci levných přístupů je logovali a někteří poskytovatelé ignorovali nastavení soukromí.",
-        "en": "On November 19, Dragos researcher HD Moore described an experiment: he sent AI services about two million prompts with unique bait, fake keys and links. He says attackers stole prompts at three providers, resellers of cheap access logged them, and some providers ignored privacy settings."
+        "cs": "Výzkumník HD Moore z firmy Dragos 19. listopadu popsal pokus: poslal AI službám asi dva miliony zpráv s návnadami, tedy klíči k prázdným účtům a unikátními odkazy. Podle něj útočníci kradli zprávy u tří poskytovatelů, přeprodejci levného přístupu je ukládali a někteří poskytovatelé ignorovali nastavení soukromí.",
+        "en": "On November 19, Dragos researcher HD Moore described an experiment: he sent AI services about two million prompts with unique bait, keys to empty accounts and links. He says attackers stole prompts at three providers, resellers of cheap access stored them, and some providers ignored privacy settings."
       },
       "why": {
-        "cs": "Do promptů proto nepatří hesla ani klíče: každý mezičlánek, třeba AI router, který je rozesílá modelům, vidí celý text. Příznak ZDR, tedy nic neukládat, útočníka uvnitř nezastavil.",
-        "en": "So keep passwords and keys out of prompts: every hop, such as an AI router that dispatches them to models, sees the full text. The ZDR flag (store nothing) did not stop an attacker inside."
+        "cs": "Zprávy do AI často putují přes prostředníky, třeba AI routery, a každý vidí celý text; proto do promptů nepatří hesla ani klíče. Nastavení ZDR (nic neukládat) útočníka uvnitř služby nezastavilo.",
+        "en": "Prompts to AI often pass through intermediaries, such as AI routers, and each sees the full text, so keep passwords and keys out. The ZDR setting (store nothing) did not stop an attacker inside."
       },
       "sources": [
         {
@@ -150,12 +150,12 @@
         "en": "Dutch watchdog advises against buying AI camera glasses"
       },
       "summary": {
-        "cs": "Nizozemský úřad pro ochranu osobních údajů (AP) 19. listopadu otestoval šest AI brýlí s kamerou a koupi pro běžné použití nedoporučil. Jedny při simulované resuscitaci tvrdily, že už jede sanitka, jiné daly datingovou radu dospělému se zájmem o nezletilého; nahrávací světlo šlo snadno zakrýt.",
-        "en": "On November 19, the Dutch data protection authority (AP) tested six AI camera glasses and advised against buying one for general use. One claimed an ambulance was coming in a simulated resuscitation, another gave dating advice to an adult interested in a minor; recording lights were easy to cover."
+        "cs": "Nizozemský úřad pro ochranu osobních údajů 19. listopadu zveřejnil test šesti AI brýlí s kamerou a koupi nedoporučil. Jedny při simulované resuscitaci tvrdily, že sanitka jede, ač nikoho nezavolaly; jiné daly radu k seznamování dospělému se zájmem o nezletilého. U téměř všech šlo světlo kamery snadno zakrýt.",
+        "en": "On November 19, the Dutch data protection authority published a test of six AI camera glasses and advised against buying them. One claimed an ambulance was coming in a simulated resuscitation though none was called; another gave dating advice to an adult interested in a minor. Recording lights were easy to cover on almost all."
       },
       "why": {
-        "cs": "Úřad modely nejmenuje. U některých brýlí šlo připojit se z okolí bez souhlasu a AI funkce zpracovávají data hlavně na serverech mimo EU; plošný zákaz podle něj dlouho nepomůže.",
-        "en": "The AP names no models. Some glasses could be reached from nearby without consent, and the AI features mostly run on servers outside the EU; a blanket ban, it says, will not hold."
+        "cs": "Značky úřad nejmenuje a podrobně testoval jen dvoje brýle. Většina brýlí po zakrytí světla dál natáčela, k některým šlo z okolí připojit se bez souhlasu. Majitelům míst radí zakázat je v domovním řádu.",
+        "en": "No brands named; only two pairs tested in depth. Most glasses kept filming with the light covered; some could be reached from nearby without consent. Venues are advised to ban them in house rules."
       },
       "sources": [
         {
@@ -175,16 +175,16 @@
       "verified": true,
       "eventDate": "2026-11-20",
       "title": {
-        "cs": "METR: schopnosti AI rostou rychle, hůř se ale měří",
-        "en": "METR: AI abilities grow fast, get harder to measure"
+        "cs": "METR: schopnosti pro výzkum AI rostou, měří se hůř",
+        "en": "METR: AI-research skills grow fast, get harder to measure"
       },
       "summary": {
-        "cs": "Nezisková organizace METR 20. listopadu zveřejnila aktualizaci měření: časový horizont modelů, tedy délka úkolů, které zvládnou, se na rozšířené sadě zdvojnásobuje zhruba za 3,6 měsíce. Modely obvykle dosahují výkonu zkušených lidí v kódování a optimalizaci, u úkolů vyžadujících úsudek bez jasné zpětné vazby ale zaostávají za experty.",
-        "en": "On November 20, the nonprofit METR published a measurement update: models’ time horizon, the length of tasks they can complete, doubles roughly every 3.6 months on the expanded suite. Models usually match skilled humans at coding and optimization, but trail experts on tasks needing judgment without clear feedback."
+        "cs": "Nezisková organizace METR 20. listopadu zveřejnila aktualizaci měření: časový horizont modelů, tedy délka úkolů, které zvládnou v polovině případů, se zdvojnásobuje zhruba za 3,6 měsíce (95% interval 2,1–4,9). Modely obvykle vyrovnají nebo předčí zkušené lidi v kódování a optimalizaci, u úkolů, kde se špatně pozná dobrý výsledek, ale zaostávají za experty.",
+        "en": "The nonprofit METR published a measurement update on November 20: models’ time horizon, the length of tasks they complete half the time, doubles roughly every 3.6 months (95% interval 2.1–4.9). Models usually match or beat skilled humans at coding and optimization, but trail experts on tasks where good results are hard to judge."
       },
       "why": {
-        "cs": "METR nemůže vyloučit prudké zrychlení výzkumu AI během příštích let a důležité schopnosti se měří hůř. Testovala veřejné modely do Opusu 5.5 a GPT-6 Astra.",
-        "en": "METR cannot rule out drastic AI research acceleration within a couple of years, and the capabilities that matter are harder to measure. Tested: public models up to Opus 5.5 and GPT-6 Astra."
+        "cs": "METR nemůže vyloučit, že AI během pár let prudce urychlí výzkum AI; klíčové schopnosti se měří hůř. Testovala veřejné modely do Opusu 5.5 a GPT-6 Astra.",
+        "en": "METR cannot rule out AI sharply speeding up AI research within a couple of years; key abilities are harder to measure. Tested: public models up to Opus 5.5 and GPT-6 Astra."
       },
       "sources": [
         {
@@ -216,12 +216,12 @@
         "en": "Thinking Machines releases open model Inkling 2 Mini"
       },
       "summary": {
-        "cs": "Thinking Machines Lab 20. listopadu vydala Inkling 2 Mini, otevřený model pro text a obrázky (licence Apache 2.0) pro lokální provoz: asi 26 miliard parametrů, 3 miliardy aktivních na token, kontext 1 milion tokenů. Podle autorů vede v 32 z 48 testů nad modely jako Gemma 4 31B a Qwen3.8-27B.",
-        "en": "On November 20, Thinking Machines Lab released Inkling 2 Mini, an open model for text and images (Apache 2.0 license) for local use: about 26 billion parameters, 3 billion active per token, a 1-million-token context. Per its authors, it leads in 32 of 48 tests against models such as Gemma 4 31B and Qwen3.8-27B."
+        "cs": "Thinking Machines Lab 20. listopadu vydala Inkling 2 Mini, otevřený model (licence Apache 2.0) pro lokální provoz: čte text i obrázky, odpovídá textem, má 26,4 miliardy parametrů (3,4 miliardy aktivních) a kontextové okno až 1 milion tokenů. Podle blogu Hugging Face předčil v 32 z 48 testů modely jako Gemma 4 31B a Qwen3.8-27B.",
+        "en": "Thinking Machines released Inkling 2 Mini on November 20: an open local model (Apache 2.0) that takes text and images and writes text, with 26.4 billion parameters (3.4 billion active) and up to 1 million tokens of context. Per the Hugging Face blog, it beat Gemma 4 31B and Qwen3.8-27B in 32 of 48 tests."
       },
       "why": {
-        "cs": "Soubor má asi 20 GB; autoři podporují Mac s 32 GB paměti či víc a DGX Spark, u jiných GPU doporučují 32 GB VRAM. Čísla pocházejí od autorů; Hugging Face chce víc ověření.",
-        "en": "The file is about 20 GB; the authors support Macs with 32 GB+ memory and DGX Spark, and advise 32 GB of VRAM elsewhere. The numbers are the authors’; Hugging Face wants more validation."
+        "cs": "Model ke stažení má asi 20 GB; autoři podporují Mac s Apple Silicon a 32 GB paměti, NVIDIA DGX Spark a GPU s 32 GB VRAM. Hugging Face píše, že výsledky chtějí víc ověření.",
+        "en": "The download is about 20 GB; supported are Macs with Apple Silicon and 32 GB of memory, NVIDIA DGX Spark, and GPUs with 32 GB of VRAM. Hugging Face says the results need more validation."
       },
       "sources": [
         {
@@ -235,64 +235,60 @@
       ]
     },
     {
-      "id": "2026-11-21-anthropic-closes-ipo-93-5-billion",
+      "id": "2026-11-21-claude-invisible-text-watermark-older-models",
       "kind": "news",
-      "category": "business",
+      "category": "tools",
       "verified": true,
-      "eventDate": "2026-11-20",
+      "eventDate": "2026-11-16",
       "title": {
-        "cs": "Anthropic uzavřela IPO, nabídka vynesla 93,5 miliardy USD",
-        "en": "Anthropic closes IPO, the offering raised $93.5 billion"
+        "cs": "Claude značí svůj text neviditelným vodoznakem",
+        "en": "Claude marks its text with an invisible watermark"
       },
       "summary": {
-        "cs": "Anthropic 20. listopadu oznámila uzavření IPO: prodala 1,127 miliardy akcií po 83 USD, včetně plně využité opce bank na dalších 147 milionů. Hrubý výnos je asi 93,5 miliardy USD, z toho asi 91,6 miliardy získala firma, zbytek stávající akcionáři. Sedm firem, mj. AMD, Google, Microsoft a NVIDIA, koupilo další akcie za asi 26 miliard.",
-        "en": "On November 20, Anthropic said its IPO has closed: 1.127 billion shares sold at $83, including the banks’ full option for 147 million. Gross proceeds are about $93.5 billion, of which $91.6 billion went to the company, the rest to existing shareholders. Seven firms, including AMD, Google, Microsoft, and NVIDIA, bought about $26 billion more."
+        "cs": "Anthropic podle poznámek k vydání z 16. listopadu značí neviditelným vodoznakem i text starších modelů Claude (Opus 4.6 a 4.5, Sonnet 4.5, Haiku 4.5); modely uvedené od 2. srpna ho nesou od začátku. Vodoznak je vetkaný do textu a zůstává při kopírování. Důvodem je unijní AI Act; detekci zatím dostávají jen vybrané organizace.",
+        "en": "Per its November 16 release notes, Anthropic marks text from older Claude models (Opus 4.6 and 4.5, Sonnet 4.5, Haiku 4.5) with an invisible watermark; models launched since August 2 carry it from launch. It is woven into the text and survives copying. The reason is the EU AI Act; only selected organizations get detection."
       },
       "why": {
-        "cs": "Dřívější údaj přes 81 miliard USD počítal bez opce bank (980 milionů akcií po 83 USD). Hrubý výnos s privátním umístěním, asi 119,5 miliardy, je před poplatky bankám a náklady nabídky.",
-        "en": "The earlier figure of over $81 billion left out the banks’ option (980 million shares at $83). Gross proceeds with the private placement, about $119.5 billion, are before bank fees and offering costs."
+        "cs": "Když text od Claude vložíš jinam, vodoznak jde s ním a organizace s přístupem k detekci mohou zjistit, že ho zpracoval Claude. Chybějící vodoznak ale neznamená, že text AI nepsala.",
+        "en": "If you paste Claude’s text elsewhere, the watermark goes with it, and organizations with detection access can tell Claude processed it. A missing watermark does not mean AI did not write the text."
       },
       "sources": [
         {
           "name": "Anthropic",
-          "url": "https://www.anthropic.com/news/ipo-close"
+          "url": "https://platform.claude.com/docs/en/release-notes/overview"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content"
         }
-      ],
-      "followsUp": {
-        "date": "2026-11-20",
-        "id": "2026-11-20-anthropic-nasdaq-debut-opens-111-usd",
-        "title": {
-          "cs": "Anthropic začala obchodovat na burze, otevřela na 111,50 USD",
-          "en": "Anthropic starts trading on Nasdaq, opening at $111.50"
-        }
-      }
+      ]
     },
     {
       "id": "2026-11-21-tip-chatgpt-space-plus",
       "kind": "tip",
       "category": "tools",
-      "verified": false,
+      "verified": true,
       "eventDate": "2026-11-20",
       "title": {
-        "cs": "ChatGPT Space je podle Engadgetu i pro předplatitele Plus",
-        "en": "ChatGPT Space now open to Plus, per Engadget"
+        "cs": "ChatGPT Space je teď i pro předplatitele Plus",
+        "en": "ChatGPT Space now open to Plus subscribers"
       },
       "summary": {
-        "cs": "Podle Engadgetu OpenAI 20. listopadu rozšířila ChatGPT Space, sdílený prostor pro stránky, prezentace, soubory a odkazy, na tarif Plus (dřív Pro, Business a Enterprise). V levé nabídce zvol Space, kde dřív byla Knihovna, klikni na plus a vyber šablonu, nebo nahraj soubory. Stránky se mohou aktualizovat z propojených nástrojů.",
-        "en": "Per Engadget, OpenAI on November 20 expanded ChatGPT Space, a shared space for pages, slides, files, and links, to the Plus plan (earlier Pro, Business, and Enterprise). Pick Space in the left menu, where Library used to be, click the plus, and choose a template or upload files. Pages can stay updated from connected tools."
+        "cs": "OpenAI 20. listopadu začala zavádět ChatGPT Space, sdílený prostor pro stránky, prezentace a soubory, i pro předplatitele Plus od 18 let (dosud jen Pro, Business a Enterprise). V postranním panelu otevři Space, který nahradil Knihovnu, a přes New vytvoř stránku nebo prezentaci. Mohou se samy aktualizovat z propojených aplikací.",
+        "en": "On November 20, OpenAI began rolling out ChatGPT Space, a shared space for pages, slides, and files, to Plus users aged 18 and older (so far only Pro, Business, and Enterprise). Open Space in the sidebar, which replaced Library, and create a page or slides via New. They can update themselves from connected apps."
       },
       "why": {
-        "cs": "Podle Engadgetu na Plus ve Space zatím nejdou dots (osobní agenti); jejich test u vybraných předplatitelů Plus začal 19. listopadu. Spolupracovníky můžeš pozvat. Dostupnost podle zemí zdroje neuvádějí.",
-        "en": "Per Engadget, dots (personal agents) do not work in Space on Plus yet; a test with selected Plus subscribers began November 19. You can invite collaborators. Sources do not give availability by country."
+        "cs": "Sdílené stránky otevřou jen lidé s přístupem ke Space; uživatelé Free ne a veřejné odkazy nejsou. Dots jsou zatím jen u Pro, takže je ve Space na Plus nepoužiješ.",
+        "en": "Shared pages open only for people with Space access; Free users cannot open them and public links are not available. Dots are Pro-only for now, so you cannot use them in Space on Plus."
       },
       "sources": [
         {
-          "name": "Engadget",
-          "url": "https://www.engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users/"
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
         },
         {
-          "name": "OpenAI",
-          "url": "https://learn.chatgpt.com/codex/space/getting-started"
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users/"
         }
       ]
     },
@@ -307,12 +303,12 @@
         "en": "Gemini in Apps Script writes and fixes scripts"
       },
       "summary": {
-        "cs": "Google 16. listopadu oznámil, že postranní panel Gemini v Apps Script je všeobecně dostupný (zavádění od 12. 11.). V Tabulkách, Dokumentech nebo Prezentacích otevři Extensions › Apps Script, popiš úlohu běžnou řečí a Gemini napíše skript; změny po blocích přijmeš nebo odmítneš a chyby z Execution logu opraví tlačítko Fix errors.",
-        "en": "On November 16, Google announced the Gemini side panel in Apps Script is generally available (rollout began November 12). In Sheets, Docs, or Slides open Extensions › Apps Script, describe the task in plain language, and Gemini writes the script; accept or reject changes block by block, and Fix errors repairs Execution log errors."
+        "cs": "Google 16. listopadu oznámil, že postranní panel Gemini v Apps Script, nástroji pro automatizace v Tabulkách, Dokumentech a Prezentacích, už není ve zkušební verzi. Otevři Extensions › Apps Script, popiš úlohu běžnou řečí a Gemini napíše skript; změny po blocích přijmeš nebo odmítneš a chyby opraví tlačítko Fix errors.",
+        "en": "On November 16, Google announced the Gemini side panel in Apps Script, the automation tool in Sheets, Docs, and Slides, is out of preview. Open Extensions › Apps Script, describe the task in plain language, and Gemini writes the script; accept or reject changes block by block, and Fix errors repairs errors."
       },
       "why": {
-        "cs": "Mají ho Business Standard a Plus, Enterprise Standard a Plus, osobní Google AI Pro a Ultra i vybrané doplňky; vypínají ho správci Workspace. Skripty běží s tvými oprávněními a souhlasem OAuth.",
-        "en": "Available on Business Standard and Plus, Enterprise Standard and Plus, personal Google AI Pro and Ultra, and some add-ons; Workspace admins can switch it off. Scripts run with your permissions and OAuth consent."
+        "cs": "Panel se u nového skriptu otevře sám, jinak ho vyvolá ikona Ask Gemini vpravo nahoře. Mají ho Business Standard a Plus, Enterprise Standard a Plus, Google AI Pro a Ultra. Skripty běží s tvými oprávněními.",
+        "en": "The panel opens itself on a new script, otherwise via the Ask Gemini icon at top right. For Business Standard/Plus, Enterprise Standard/Plus, and Google AI Pro/Ultra. Scripts run with your permissions."
       },
       "sources": [
         {
@@ -328,16 +324,16 @@
       "verified": true,
       "eventDate": "2026-11-17",
       "title": {
-        "cs": "Teams: hlasový profil zlepší přepisy a souhrny Copilota",
-        "en": "Teams: a voice profile improves transcripts and Copilot recaps"
+        "cs": "Teams: hlasový profil pomáhá rozpoznat mluvčí v přepisech",
+        "en": "Teams: a voice profile helps identify speakers in transcripts"
       },
       "summary": {
-        "cs": "Podle poznámek k vydání Microsoft 365 Copilot z 17. listopadu nabízí Teams (Windows, Mac) Express voice enrollment, rychlou registraci hlasu. V nastavení Teams otevři kartu Recognition, souhlas zapni a hlas se zaregistruje z pár schůzek. Profil umožní izolaci hlasu, rozpoznání mluvčích a lepší přepisy i souhrny Copilota.",
-        "en": "Per the Microsoft 365 Copilot release notes of November 17, Teams (Windows, Mac) offers Express voice enrollment. In Teams settings open the Recognition tab and opt in; your voice is enrolled from a couple of meetings. The profile enables voice isolation, speaker recognition, and better transcripts and Copilot recaps."
+        "cs": "Podle poznámek k vydání Microsoft 365 Copilot z 17. listopadu nabízí Teams (Windows, Mac) Express voice enrollment, rychlou registraci hlasu. Kdo hlasový profil ještě nemá, otevře v nastavení Teams kartu Recognition, souhlasí a hlas se zaregistruje z pár schůzek. Profil umožní rozpoznání mluvčích v přepisech a lepší souhrny Copilota.",
+        "en": "Per the Microsoft 365 Copilot release notes of November 17, Teams (Windows, Mac) offers Express voice enrollment. If you have no voice profile yet, open the Recognition tab in Teams settings and opt in; your voice is enrolled from a couple of meetings. The profile enables speaker recognition in transcripts and better Copilot recaps."
       },
       "why": {
-        "cs": "Registrace je dobrovolná a správce ji může v organizaci zapnout nebo vypnout. Poznámky neuvádějí, pro které tarify a země platí, ani přesné datum zavedení.",
-        "en": "Enrollment is opt-in, and admins can enable or disable it for the organization. The notes do not say which plans or countries get it, or the exact rollout date."
+        "cs": "Registrace je dobrovolná a správce ji může vypnout. Poznámky neuvádějí, jak se profil ukládá, pro které tarify a země platí ani přesné datum zavedení.",
+        "en": "Enrollment is opt-in, and admins can switch it off. The notes do not say how the profile is stored, which plans or countries get it, or the exact rollout date."
       },
       "sources": [
         {
@@ -376,8 +372,8 @@
     {
       "date": "2026-11-30",
       "title": {
-        "cs": "Claude Code ruší rychlý režim pro Opus 4.8",
-        "en": "Claude Code drops fast mode for Opus 4.8"
+        "cs": "Pro vývojáře: Claude Code ruší rychlý režim pro Opus 4.8",
+        "en": "For developers: Claude Code drops fast mode for Opus 4.8"
       },
       "note": {
         "cs": "Podle poznámek k vydání Claude Code zanikne 30. listopadu rychlý režim Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Rychlost zachováš přechodem na Opus 5.5.",
@@ -398,8 +394,8 @@
         "en": "AWS re:Invent: big cloud and AI conference"
       },
       "note": {
-        "cs": "Běží od 30. listopadu do 4. prosince v Las Vegas. Podle Amazonu bude pět hlavních projevů a hlavním tématem AI agenti; čekají se novinky kolem služby Bedrock a nástroje Kiro.",
-        "en": "Runs November 30 to December 4 in Las Vegas. Amazon plans five keynotes, with AI agents dominating the agenda; expect news on the Bedrock service and the Kiro developer tool."
+        "cs": "Běží 30. 11.–4. 12. v Las Vegas. Podle Amazonu bude pět hlavních projevů a hlavním tématem AI agenti; čekají se novinky kolem AI služby Bedrock a vývojářského nástroje Kiro.",
+        "en": "Runs November 30–December 4 in Las Vegas. Amazon plans five keynotes, AI agents dominating the agenda; expect news on the AI service Bedrock and developer tool Kiro."
       },
       "sources": [
         {
@@ -410,32 +406,14 @@
       "tentative": false
     },
     {
-      "date": "2026-11-30",
-      "title": {
-        "cs": "Claude Sonnet 4.5 končí v Claude API",
-        "en": "Claude Sonnet 4.5 retires from the Claude API"
-      },
-      "note": {
-        "cs": "Oznámeno 30. září: Sonnet 4.5 končí v Claude API 30. listopadu, náhradou je Sonnet 5.5. Bez záložního modelu Claude Code na API ohlásí chybu. Bedrock a Google mají vlastní termíny.",
-        "en": "Announced September 30: Sonnet 4.5 retires from Claude API on November 30; Sonnet 5.5 replaces it. Without a fallback, Claude Code on API errors. Bedrock and Google have separate dates."
-      },
-      "sources": [
-        {
-          "name": "Anthropic",
-          "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
-        }
-      ],
-      "tentative": false
-    },
-    {
       "date": "2026-12-02",
       "title": {
-        "cs": "EU: do 2. prosince musí firmy splnit zákaz nahých deepfaků",
+        "cs": "EU: do 2. prosince musí firmy dodržet zákaz nahých deepfaků",
         "en": "EU: AI apps making fake nude images banned by December 2"
       },
       "note": {
-        "cs": "AI Act: od 2. prosince 2026 platí zákaz AI aplikací tvořících bez souhlasu nahé snímky lidí a strojově čitelné značení AI obsahu u systémů uvedených na trh před 2. srpnem.",
-        "en": "AI Act: from December 2, 2026, AI apps making nude images of people without consent are banned; AI content needs machine-readable labels, including systems on the market before August 2."
+        "cs": "AI Act: od 2. 12. 2026 platí zákaz AI systémů tvořících bez souhlasu intimní snímky lidí, pokud nemají pojistky proti zneužití, a značení AI obsahu u starších systémů.",
+        "en": "AI Act: from December 2, 2026, AI systems making intimate images of people without consent are banned unless safeguarded; older systems must also label AI content in machine-readable form."
       },
       "sources": [
         {
@@ -472,10 +450,28 @@
       "tentative": false
     },
     {
+      "date": "2026-12-11",
+      "title": {
+        "cs": "ChatGPT: konec hlasových režimů Advanced a Standard",
+        "en": "ChatGPT: Advanced and Standard voice retire"
+      },
+      "note": {
+        "cs": "Oznámeno 10. listopadu: 11. prosince ve ChatGPT Voice skončí Advanced a Standard voice, zůstane GPT-Live. Živé video a sdílení obrazovky poběží na Advanced voice, dokud je GPT-Live nezíská.",
+        "en": "Announced November 10: on December 11, Advanced and Standard voice leave ChatGPT Voice, leaving GPT-Live. Live video and screen sharing stay on Advanced voice until GPT-Live gets them."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "tentative": false
+    },
+    {
       "date": "2026-12-14",
       "title": {
-        "cs": "GitHub Copilot: 14. prosince skončí šest modelů",
-        "en": "GitHub Copilot: six models end on December 14"
+        "cs": "Pro vývojáře: 14. prosince skončí v GitHub Copilotu šest modelů",
+        "en": "For developers: six GitHub Copilot models end on December 14"
       },
       "note": {
         "cs": "GitHub 13. listopadu oznámil konec šesti modelů 14. prosince, mj. Claude Fable 5, Gemini 4 Argon a Haiku 4.5 (ten zůstane ročním individuálním předplatitelům); pro Kimi K3 zatím není náhrada.",

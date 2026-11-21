@@ -6551,28 +6551,28 @@
       "slug": "tip-chatgpt-space-plus",
       "category": "tools",
       "theme": "chatgpt",
-      "verified": false,
+      "verified": true,
       "eventDate": "2026-11-20",
       "title": {
-        "cs": "ChatGPT Space je podle Engadgetu i pro předplatitele Plus",
-        "en": "ChatGPT Space now open to Plus, per Engadget"
+        "cs": "ChatGPT Space je teď i pro předplatitele Plus",
+        "en": "ChatGPT Space now open to Plus subscribers"
       },
       "summary": {
-        "cs": "Podle Engadgetu OpenAI 20. listopadu rozšířila ChatGPT Space, sdílený prostor pro stránky, prezentace, soubory a odkazy, na tarif Plus (dřív Pro, Business a Enterprise). V levé nabídce zvol Space, kde dřív byla Knihovna, klikni na plus a vyber šablonu, nebo nahraj soubory. Stránky se mohou aktualizovat z propojených nástrojů.",
-        "en": "Per Engadget, OpenAI on November 20 expanded ChatGPT Space, a shared space for pages, slides, files, and links, to the Plus plan (earlier Pro, Business, and Enterprise). Pick Space in the left menu, where Library used to be, click the plus, and choose a template or upload files. Pages can stay updated from connected tools."
+        "cs": "OpenAI 20. listopadu začala zavádět ChatGPT Space, sdílený prostor pro stránky, prezentace a soubory, i pro předplatitele Plus od 18 let (dosud jen Pro, Business a Enterprise). V postranním panelu otevři Space, který nahradil Knihovnu, a přes New vytvoř stránku nebo prezentaci. Mohou se samy aktualizovat z propojených aplikací.",
+        "en": "On November 20, OpenAI began rolling out ChatGPT Space, a shared space for pages, slides, and files, to Plus users aged 18 and older (so far only Pro, Business, and Enterprise). Open Space in the sidebar, which replaced Library, and create a page or slides via New. They can update themselves from connected apps."
       },
       "why": {
-        "cs": "Podle Engadgetu na Plus ve Space zatím nejdou dots (osobní agenti); jejich test u vybraných předplatitelů Plus začal 19. listopadu. Spolupracovníky můžeš pozvat. Dostupnost podle zemí zdroje neuvádějí.",
-        "en": "Per Engadget, dots (personal agents) do not work in Space on Plus yet; a test with selected Plus subscribers began November 19. You can invite collaborators. Sources do not give availability by country."
+        "cs": "Sdílené stránky otevřou jen lidé s přístupem ke Space; uživatelé Free ne a veřejné odkazy nejsou. Dots jsou zatím jen u Pro, takže je ve Space na Plus nepoužiješ.",
+        "en": "Shared pages open only for people with Space access; Free users cannot open them and public links are not available. Dots are Pro-only for now, so you cannot use them in Space on Plus."
       },
       "sources": [
         {
-          "name": "Engadget",
-          "url": "https://www.engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users/"
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
         },
         {
-          "name": "OpenAI",
-          "url": "https://learn.chatgpt.com/codex/space/getting-started"
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users/"
         }
       ],
       "added": "2026-11-21",
@@ -6589,12 +6589,12 @@
         "en": "Gemini in Apps Script writes and fixes scripts"
       },
       "summary": {
-        "cs": "Google 16. listopadu oznámil, že postranní panel Gemini v Apps Script je všeobecně dostupný (zavádění od 12. 11.). V Tabulkách, Dokumentech nebo Prezentacích otevři Extensions › Apps Script, popiš úlohu běžnou řečí a Gemini napíše skript; změny po blocích přijmeš nebo odmítneš a chyby z Execution logu opraví tlačítko Fix errors.",
-        "en": "On November 16, Google announced the Gemini side panel in Apps Script is generally available (rollout began November 12). In Sheets, Docs, or Slides open Extensions › Apps Script, describe the task in plain language, and Gemini writes the script; accept or reject changes block by block, and Fix errors repairs Execution log errors."
+        "cs": "Google 16. listopadu oznámil, že postranní panel Gemini v Apps Script, nástroji pro automatizace v Tabulkách, Dokumentech a Prezentacích, už není ve zkušební verzi. Otevři Extensions › Apps Script, popiš úlohu běžnou řečí a Gemini napíše skript; změny po blocích přijmeš nebo odmítneš a chyby opraví tlačítko Fix errors.",
+        "en": "On November 16, Google announced the Gemini side panel in Apps Script, the automation tool in Sheets, Docs, and Slides, is out of preview. Open Extensions › Apps Script, describe the task in plain language, and Gemini writes the script; accept or reject changes block by block, and Fix errors repairs errors."
       },
       "why": {
-        "cs": "Mají ho Business Standard a Plus, Enterprise Standard a Plus, osobní Google AI Pro a Ultra i vybrané doplňky; vypínají ho správci Workspace. Skripty běží s tvými oprávněními a souhlasem OAuth.",
-        "en": "Available on Business Standard and Plus, Enterprise Standard and Plus, personal Google AI Pro and Ultra, and some add-ons; Workspace admins can switch it off. Scripts run with your permissions and OAuth consent."
+        "cs": "Panel se u nového skriptu otevře sám, jinak ho vyvolá ikona Ask Gemini vpravo nahoře. Mají ho Business Standard a Plus, Enterprise Standard a Plus, Google AI Pro a Ultra. Skripty běží s tvými oprávněními.",
+        "en": "The panel opens itself on a new script, otherwise via the Ask Gemini icon at top right. For Business Standard/Plus, Enterprise Standard/Plus, and Google AI Pro/Ultra. Scripts run with your permissions."
       },
       "sources": [
         {
@@ -6612,16 +6612,16 @@
       "verified": true,
       "eventDate": "2026-11-17",
       "title": {
-        "cs": "Teams: hlasový profil zlepší přepisy a souhrny Copilota",
-        "en": "Teams: a voice profile improves transcripts and Copilot recaps"
+        "cs": "Teams: hlasový profil pomáhá rozpoznat mluvčí v přepisech",
+        "en": "Teams: a voice profile helps identify speakers in transcripts"
       },
       "summary": {
-        "cs": "Podle poznámek k vydání Microsoft 365 Copilot z 17. listopadu nabízí Teams (Windows, Mac) Express voice enrollment, rychlou registraci hlasu. V nastavení Teams otevři kartu Recognition, souhlas zapni a hlas se zaregistruje z pár schůzek. Profil umožní izolaci hlasu, rozpoznání mluvčích a lepší přepisy i souhrny Copilota.",
-        "en": "Per the Microsoft 365 Copilot release notes of November 17, Teams (Windows, Mac) offers Express voice enrollment. In Teams settings open the Recognition tab and opt in; your voice is enrolled from a couple of meetings. The profile enables voice isolation, speaker recognition, and better transcripts and Copilot recaps."
+        "cs": "Podle poznámek k vydání Microsoft 365 Copilot z 17. listopadu nabízí Teams (Windows, Mac) Express voice enrollment, rychlou registraci hlasu. Kdo hlasový profil ještě nemá, otevře v nastavení Teams kartu Recognition, souhlasí a hlas se zaregistruje z pár schůzek. Profil umožní rozpoznání mluvčích v přepisech a lepší souhrny Copilota.",
+        "en": "Per the Microsoft 365 Copilot release notes of November 17, Teams (Windows, Mac) offers Express voice enrollment. If you have no voice profile yet, open the Recognition tab in Teams settings and opt in; your voice is enrolled from a couple of meetings. The profile enables speaker recognition in transcripts and better Copilot recaps."
       },
       "why": {
-        "cs": "Registrace je dobrovolná a správce ji může v organizaci zapnout nebo vypnout. Poznámky neuvádějí, pro které tarify a země platí, ani přesné datum zavedení.",
-        "en": "Enrollment is opt-in, and admins can enable or disable it for the organization. The notes do not say which plans or countries get it, or the exact rollout date."
+        "cs": "Registrace je dobrovolná a správce ji může vypnout. Poznámky neuvádějí, jak se profil ukládá, pro které tarify a země platí ani přesné datum zavedení.",
+        "en": "Enrollment is opt-in, and admins can switch it off. The notes do not say how the profile is stored, which plans or countries get it, or the exact rollout date."
       },
       "sources": [
         {
