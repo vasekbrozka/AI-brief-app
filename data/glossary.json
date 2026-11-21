@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "terms": [
     {
       "id": "quantization",
@@ -1938,6 +1938,39 @@
       "short": {
         "cs": "Volně šířený nástroj, v němž AI agenti podle zadání sami zkoumají a zkoušejí prolomit počítačové sítě. Vznikl pro řízené bezpečnostní testy, útočníci ho ale zneužívají.",
         "en": "A freely available tool in which AI agents probe and try to break into computer networks on their own, starting from a plain-language goal. Built for controlled security testing, but attackers abuse it."
+      }
+    },
+    {
+      "id": "zero-day",
+      "term": {
+        "cs": "Zero-day (neznámá chyba)",
+        "en": "Zero-day"
+      },
+      "aliases": [
+        "zero-day",
+        "zero day",
+        "0-day"
+      ],
+      "short": {
+        "cs": "Chyba v softwaru, o které její autor ještě neví nebo pro ni nevydal opravu. Útočník ji může zneužít dřív, než ji někdo záplatuje.",
+        "en": "A software flaw its maker does not yet know about or has not fixed. Attackers can exploit it before anyone can patch it."
+      }
+    },
+    {
+      "id": "time-horizon",
+      "term": {
+        "cs": "Časový horizont (METR)",
+        "en": "Time horizon (METR)"
+      },
+      "aliases": [
+        "časový horizont",
+        "časového horizontu",
+        "časovým horizontem",
+        "time horizon"
+      ],
+      "short": {
+        "cs": "Míra, kterou METR používá pro schopnosti AI: délka úkolu (podle času, který by zabral člověku), který model zvládne dokončit se zadanou úspěšností, třeba 50 %.",
+        "en": "A measure METR uses for AI capability: the length of a task (by how long it takes a human) that a model can complete at a given success rate, such as 50%."
       }
     }
   ]

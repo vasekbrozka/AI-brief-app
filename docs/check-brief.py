@@ -72,6 +72,8 @@ CANONICAL_NAMES = {
     "elevenlabs.io": "ElevenLabs", "chrome.com": "Google",
     "google-deepmind.github.io": "DeepMind", "code.visualstudio.com": "Visual Studio Code",
     "mpo.gov.cz": "Ministerstvo průmyslu a obchodu",
+    "signal.org": "Signal", "dragos.com": "Dragos", "bing.com": "Bing",
+    "autoriteitpersoonsgegevens.nl": "Autoriteit Persoonsgegevens",
 }
 
 # --- zdroje: tiery důvěryhodnosti (viz recept, sekce Zdroje) ------------------
@@ -95,6 +97,9 @@ T1_DOMAINS = [
     "gov.cz", "fireworks.ai", "notion.com", "chrome.com", "elevenlabs.io",
     "google-deepmind.github.io", "visualstudio.com",
     "doj.state.or.us", "wiz.io", "nginx.org",
+    # 21. 11.: primární zdroje subjektů zpráv — Signal (vlastní blog), Dragos (výzkum HD Moora), nizozemský regulátor AP,
+    # osobní stránka autora tvrzení (jen pro jeho vlastní prohlášení), blog Bingu (Microsoft)
+    "signal.org", "dragos.com", "autoriteitpersoonsgegevens.nl", "alpo.ge", "bing.com",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.

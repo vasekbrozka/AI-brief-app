@@ -1,14 +1,5 @@
 {
-  "updated": "2026-11-20T03:06:30.921Z",
+  "updated": "2026-11-21T03:06:53.699Z",
   "days": 30,
-  "items": {
-    "2026-10-21-mistral-voxtral-3-voice-agents": {
-      "up": 1,
-      "down": 0
-    },
-    "2026-10-21-tip-claude-code-review-ga": {
-      "up": 1,
-      "down": 0
-    }
-  }
+  "items": {}
 }

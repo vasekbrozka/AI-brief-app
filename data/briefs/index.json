@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-20T03:58:12Z",
+  "updated": "2026-11-21T03:32:23Z",
   "briefs": [
+    {
+      "date": "2026-11-21",
+      "headline": {
+        "cs": "Matematik Anthropicu tvrdí, že s Claudem dokázal Riemannovu hypotézu",
+        "en": "Anthropic mathematician claims Claude helped prove Riemann hypothesis"
+      },
+      "itemCount": 12
+    },
     {
       "date": "2026-11-20",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "METR: modely Anthropicu se zřejmě zlepšují zhruba dvakrát rychleji",
         "en": "METR: Anthropic’s models likely improve about twice as fast"
-      },
-      "itemCount": 10
-    },
-    {
-      "date": "2026-11-07",
-      "headline": {
-        "cs": "Vývojářský nástroj Antigravity od Googlu se nově ovládá hlasem",
-        "en": "Google’s Antigravity coding tool now takes voice commands"
       },
       "itemCount": 10
     }

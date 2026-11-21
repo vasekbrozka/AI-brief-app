@@ -1,50 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-copilot-ppt-custom-skills",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": false,
-      "title": {
-        "cs": "Copilot v PowerPointu umí vlastní dovednosti",
-        "en": "Copilot in PowerPoint gets custom skills"
-      },
-      "summary": {
-        "cs": "Copilot v PowerPointu nabízí vlastní dovednosti — opakované instrukce si uložíš jako složku se souborem SKILL.md v OneDrive a pak je vyvoláš místo psaní stejného promptu znovu. Hodí se na sjednocení formátu prezentací napříč týmem. Microsoft to rozjíždí v srpnu.",
-        "en": "Copilot in PowerPoint now offers custom skills — save repeated instructions as a folder with a SKILL.md file in OneDrive, then reuse them instead of retyping the same prompt. It helps keep a team's presentation format consistent. Microsoft is rolling it out in August."
-      },
-      "sources": [
-        {
-          "name": "Microsoft",
-          "url": "https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/how-to-set-up-copilot-skills-in-powerpoint-and-build-your-own/4548273"
-        }
-      ],
-      "added": "2026-08-22",
-      "used": "2026-08-22"
-    },
-    {
-      "slug": "tip-chatgpt-shopping",
-      "category": "tools",
-      "theme": "chatgpt",
-      "verified": false,
-      "title": {
-        "cs": "ChatGPT teď lépe pomůže s nákupem",
-        "en": "ChatGPT gets better at helping you shop"
-      },
-      "summary": {
-        "cs": "Nakupování v ChatGPT dostalo vizuálně bohatší výsledky — produkty procházíš přímo v chatu, výběr zpřesníš konverzací nebo nahraješ obrázek a najdeš podobné kousky. Zboží navíc porovnáš vedle sebe podle ceny, recenzí i vlastností. OpenAI to rozjíždí tento týden všem uživatelům.",
-        "en": "Shopping in ChatGPT got visually richer results — browse products right in the chat, refine your search through conversation, or upload an image to find similar items. You can also compare items side by side on price, reviews and features. OpenAI is rolling it out to all users this week."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-        }
-      ],
-      "added": "2026-08-22",
-      "used": "2026-08-22"
-    },
-    {
       "slug": "tip-claude-cowork-chrome-panel",
       "category": "tools",
       "theme": "claude",
@@ -6589,6 +6545,180 @@
         }
       ],
       "added": "2026-11-20",
+      "used": null
+    },
+    {
+      "slug": "tip-chatgpt-space-plus",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": false,
+      "eventDate": "2026-11-20",
+      "title": {
+        "cs": "ChatGPT Space je podle Engadgetu i pro předplatitele Plus",
+        "en": "ChatGPT Space now open to Plus, per Engadget"
+      },
+      "summary": {
+        "cs": "Podle Engadgetu OpenAI 20. listopadu rozšířila ChatGPT Space, sdílený prostor pro stránky, prezentace, soubory a odkazy, na tarif Plus (dřív Pro, Business a Enterprise). V levé nabídce zvol Space, kde dřív byla Knihovna, klikni na plus a vyber šablonu, nebo nahraj soubory. Stránky se mohou aktualizovat z propojených nástrojů.",
+        "en": "Per Engadget, OpenAI on November 20 expanded ChatGPT Space, a shared space for pages, slides, files, and links, to the Plus plan (earlier Pro, Business, and Enterprise). Pick Space in the left menu, where Library used to be, click the plus, and choose a template or upload files. Pages can stay updated from connected tools."
+      },
+      "why": {
+        "cs": "Podle Engadgetu na Plus ve Space zatím nejdou dots (osobní agenti); jejich test u vybraných předplatitelů Plus začal 19. listopadu. Spolupracovníky můžeš pozvat. Dostupnost podle zemí zdroje neuvádějí.",
+        "en": "Per Engadget, dots (personal agents) do not work in Space on Plus yet; a test with selected Plus subscribers began November 19. You can invite collaborators. Sources do not give availability by country."
+      },
+      "sources": [
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users/"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://learn.chatgpt.com/codex/space/getting-started"
+        }
+      ],
+      "added": "2026-11-21",
+      "used": "2026-11-21"
+    },
+    {
+      "slug": "tip-gemini-apps-script-side-panel",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-16",
+      "title": {
+        "cs": "Gemini v Apps Script píše a opravuje skripty",
+        "en": "Gemini in Apps Script writes and fixes scripts"
+      },
+      "summary": {
+        "cs": "Google 16. listopadu oznámil, že postranní panel Gemini v Apps Script je všeobecně dostupný (zavádění od 12. 11.). V Tabulkách, Dokumentech nebo Prezentacích otevři Extensions › Apps Script, popiš úlohu běžnou řečí a Gemini napíše skript; změny po blocích přijmeš nebo odmítneš a chyby z Execution logu opraví tlačítko Fix errors.",
+        "en": "On November 16, Google announced the Gemini side panel in Apps Script is generally available (rollout began November 12). In Sheets, Docs, or Slides open Extensions › Apps Script, describe the task in plain language, and Gemini writes the script; accept or reject changes block by block, and Fix errors repairs Execution log errors."
+      },
+      "why": {
+        "cs": "Mají ho Business Standard a Plus, Enterprise Standard a Plus, osobní Google AI Pro a Ultra i vybrané doplňky; vypínají ho správci Workspace. Skripty běží s tvými oprávněními a souhlasem OAuth.",
+        "en": "Available on Business Standard and Plus, Enterprise Standard and Plus, personal Google AI Pro and Ultra, and some add-ons; Workspace admins can switch it off. Scripts run with your permissions and OAuth consent."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/customize-and-extend-workspace-with-apps-script.html"
+        }
+      ],
+      "added": "2026-11-21",
+      "used": "2026-11-21"
+    },
+    {
+      "slug": "tip-teams-voice-profile-express-enrollment",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Teams: hlasový profil zlepší přepisy a souhrny Copilota",
+        "en": "Teams: a voice profile improves transcripts and Copilot recaps"
+      },
+      "summary": {
+        "cs": "Podle poznámek k vydání Microsoft 365 Copilot z 17. listopadu nabízí Teams (Windows, Mac) Express voice enrollment, rychlou registraci hlasu. V nastavení Teams otevři kartu Recognition, souhlas zapni a hlas se zaregistruje z pár schůzek. Profil umožní izolaci hlasu, rozpoznání mluvčích a lepší přepisy i souhrny Copilota.",
+        "en": "Per the Microsoft 365 Copilot release notes of November 17, Teams (Windows, Mac) offers Express voice enrollment. In Teams settings open the Recognition tab and opt in; your voice is enrolled from a couple of meetings. The profile enables voice isolation, speaker recognition, and better transcripts and Copilot recaps."
+      },
+      "why": {
+        "cs": "Registrace je dobrovolná a správce ji může v organizaci zapnout nebo vypnout. Poznámky neuvádějí, pro které tarify a země platí, ani přesné datum zavedení.",
+        "en": "Enrollment is opt-in, and admins can enable or disable it for the organization. The notes do not say which plans or countries get it, or the exact rollout date."
+      },
+      "sources": [
+        {
+          "name": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+        }
+      ],
+      "added": "2026-11-21",
+      "used": "2026-11-21"
+    },
+    {
+      "slug": "tip-bing-turn-off-ai-answers",
+      "category": "tools",
+      "theme": "other",
+      "verified": true,
+      "eventDate": "2026-11-11",
+      "title": {
+        "cs": "Bing umí vypnout AI odpovědi: stačí přidat -ai",
+        "en": "Bing can hide AI answers: just add -ai"
+      },
+      "summary": {
+        "cs": "Microsoft 11. listopadu ukázal dva způsoby, jak hledat v Bingu bez AI odpovědí: k dotazu připiš -ai (například proč je nebe modré -ai), nebo nainstaluj rozšíření Microsoft Bing AI Search Choice pro Chrome a Edge, které AI odpovědi přepíná jedním tlačítkem. Rozšíření je zatím v náhledu.",
+        "en": "On November 11, Microsoft showed two ways to search Bing without AI answers: add -ai to a query (for example why is the sky blue -ai), or install the Microsoft Bing AI Search Choice extension for Chrome and Edge, which switches AI answers on or off with one toggle. The extension is still in preview."
+      },
+      "why": {
+        "cs": "Rozšíření podle Microsoftu zároveň nastaví Bing jako výchozí vyhledávač, což zvaž před instalací. Operátor -ai nic neinstaluje a funguje u dotazu, ke kterému ho připíšeš.",
+        "en": "Per Microsoft, the extension also sets Bing as your default search engine, so weigh that before installing. The -ai operator installs nothing and works on the query you add it to."
+      },
+      "sources": [
+        {
+          "name": "Bing",
+          "url": "https://blogs.bing.com/search/2026/11/your-choice-turn-ai-answers-on-or-off-in-bing/"
+        }
+      ],
+      "added": "2026-11-21",
+      "used": "2026-11-21"
+    },
+    {
+      "slug": "tip-claude-code-easel-charts",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-11-20",
+      "title": {
+        "cs": "Pro vývojáře: Claude Code kreslí grafy vestavěným modem easel",
+        "en": "For developers: Claude Code draws charts with easel mod"
+      },
+      "summary": {
+        "cs": "Claude Code 2.1.330 (20. listopadu) uvádí vestavěný mod easel: kreslí grafy, když o ně požádáš, a automaticky pod výsledky MCP s časovými řadami, například s dotazem Prometheus. Podle dokumentace chce předplatné claude.ai a macOS nebo Linux mimo WSL; Team a Enterprise podle changelogu tam, kde je k dispozici.",
+        "en": "Claude Code 2.1.330 (November 20) introduces the built-in easel mod: it draws charts when you ask and automatically under MCP results in a time-series format, such as a Prometheus query. Per the docs it needs a claude.ai subscription and macOS or Linux outside WSL; Team and Enterprise per the changelog where available."
+      },
+      "why": {
+        "cs": "Automatické grafy vypneš v /config (Auto charts), celý mod v /plugin v sekci Built-in. Dokumentace uvádí verzi 2.1.321+, changelog easel hlásí jako přidaný až u 2.1.330; před zveřejněním ověř.",
+        "en": "Turn off automatic charts in /config (Auto charts), or the whole mod in /plugin under Built-in. The docs say version 2.1.321+, the changelog lists easel as added in 2.1.330; verify before publishing."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/plugins/mods/overview"
+        }
+      ],
+      "added": "2026-11-21",
+      "used": null
+    },
+    {
+      "slug": "tip-claude-team-enterprise-computer-use",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-11-20",
+      "title": {
+        "cs": "Claude Team a Enterprise: správce zapne ovládání počítače",
+        "en": "Claude Team and Enterprise: admins can enable computer use"
+      },
+      "summary": {
+        "cs": "Anthropic 20. listopadu v poznámkách k vydání Claude uvedla ovládání počítače (beta) pro tarify Team a Enterprise; zavádí se postupně a je výchozně vypnuté. Claude pak vidí obrazovku a pracuje v aplikacích, které uživatel povolí, v Claude Desktop na macOS 14+ nebo ve Windows, případně z webu a mobilu, je-li zapnutý Computer access.",
+        "en": "On November 20, Anthropic introduced computer use (beta) for Team and Enterprise plans; it rolls out gradually and is off by default. Claude then sees the screen and works in apps the user allows, in Claude Desktop on macOS 14+ or Windows, or from web and mobile if Computer access is on."
+      },
+      "why": {
+        "cs": "Zapnout ji smí vlastník: Organization settings › Capabilities, Chat and Cowork unified, pak Computer use. Nemá sandbox, snímky obrazovky se ukládají s chatem a s ZDR pro Claude Code nejde.",
+        "en": "Only an owner can enable it: Organization settings › Capabilities, Chat and Cowork unified, then Computer use. There is no sandbox, screenshots are saved with the chat, and ZDR for Claude Code blocks it."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans"
+        }
+      ],
+      "added": "2026-11-21",
       "used": null
     }
   ]
