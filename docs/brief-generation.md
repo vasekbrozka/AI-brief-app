@@ -539,6 +539,21 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   (precedens wiz.io), ne do WARN. **Připomínku, kterou jeden čtenář vznesl dva dny po sobě** (Bedrock a Kiro u radaru re:Invent),
   už nezamítej — vysvětli ji podle stránky pořadatele. Radar: zákaz s výjimkou (EU: „pokud nemají přiměřené pojistky“) napiš
   i s výjimkou.
+  (45) **Blogový návod „ICYMI“ není vydání funkce** — 22. 11. jsem vydala tip „Gemini převezme historii chatů“ s `eventDate`
+  19. 11. podle blogu Googlu; dva čtenáři upozornili na „ICYMI“ a v poznámkách k vydání Gemini (`gemini.google/release-notes`,
+  bloky `RRRR.MM.DD`) je funkce z **26. 3. 2026**, tedy mimo 90denní okno. **U tipu z návodu nebo „znovu připomínáme“ otevři
+  poznámky k vydání produktu, najdi klíčové slovo funkce a `eventDate` vezmi odtud**; záznam v bance, který vznikl jen z blogu,
+  před použitím znovu otevři. Tip jsem nahradila jiným z téhož týdne a záznam z banky smazala. **Stránka, která vypadá jako prázdná
+  stránka s JavaScriptem, může nést text v datech**: support.google.com/googlehome/blog měla v surovém HTML (2 MB) větu „retiring
+  Google Assistant on home devices on August 2, 2027“, takže datum, které jsem měla jen z The Verge, šlo dát T1 — **před
+  „nečitelné“ zkus `grep` v surovém HTML**. Stejně changelog Perplexity: stránka záznamu nemá datum v textu, ale v HTML je JSON
+  s `publishedAt` (záznam „RBAC, API credentials, Brain“ je z 27. 7.; sweep ho hlásil jako „BEZ DATA“ celé dny). **Highlight volí
+  priorita receptu** (přímý užitek čtenáře před velikostí události): dva čtenáři označili vlastní měření OpenAI bez dopadu na
+  čtenáře za slabý highlight a Nest/Assistant s daty a kroky pro majitele za lepší; **firemní odhad v titulku atribuuj**
+  („Podle OpenAI…“, „odhadnutých“) a jednotku vysvětli („2–4 hodiny lidské práce“). **Radar neopakuje dnešní položku**: termín
+  23. 11. (žádosti o granty) dva čtenáři označili za kopii shrnutí zprávy; datum patří do titulku zprávy. Omezení platnosti
+  („jen USA a Jižní Korea“) patří do titulku radaru, ne jen do poznámky. iROZHLAS a Etsy vrací 403 i agentovi s WebFetch; pokus
+  o obejití přes archiv systém zablokoval — takové zdroje nepoužívej a v deníku je uveď jako nečitelné.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.
@@ -790,7 +805,8 @@ a `used` přesné a nikdy záznamy nepřepisuj zpětně.
   ne): ChatGPT a Codex `learn.chatgpt.com/docs/whats-new` (T1, po týdnech; `openai.com`
   je 403) a `learn.chatgpt.com/codex/dots`; Claude Code `code.claude.com/docs/en/changelog`
   (datum pod číslem verze); Perplexity `perplexity.ai/changelog` (datum `MM/DD/YY` za
-  nadpisem záznamu); Ollama `ollama.com/blog` (datum u každého záznamu); Cursor
+  nadpisem záznamu; u stránky záznamu bez data hledej v HTML JSON `publishedAt`); Gemini
+  `gemini.google/release-notes` (T1; bloky `RRRR.MM.DD`; datum funkce se bere odtud, ne z blogového návodu); Ollama `ollama.com/blog` (datum u každého záznamu); Cursor
   `cursor.com/changelog` (datum je v HTML značce `<time>`); OpenAI API
   `learn.chatgpt.com/api/docs/changelog` (odznak s datem stojí před záznamem);
   LM Studio `lmstudio.ai/changelog` (T1; datum stojí **za** blokem verze, ne před ním).

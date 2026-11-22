@@ -2631,49 +2631,49 @@
       "topic": "tip: Bing — vypnutí AI odpovědí (blog Bing Search 11. 11., Microsoft; T1): operátor -ai u dotazu bez instalace; rozšíření Microsoft Bing AI Search Choice (náhled, Chrome a Edge) s přepínačem AI odpovědí, zároveň nastaví Bing jako výchozí vyhledávač; dřívější Bing záznam v logu není"
     },
     {
+      "slug": "2026-11-22-google-nest-app-retires-gemini-for-home-replaces-assistant",
+      "date": "2026-11-22",
+      "topic": "Google 20. 11. (blog Google Home support.google.com/googlehome/blog/478236207 — text je v datech JavaScriptové stránky, našel ho pokročilý čtenář a ověřila jsem ho; nápověda support.google.com/googlehome/answer/18959693; The Verge 20. 11.): aplikace Nest skončí 25. 1. 2027 (zařízení a historie videí se přenesou, Nest Aware 1. gen → Google Home Premium Advanced bez příplatku), 25. 3. 2027 poslední termín převodu účtu před mazáním dat, klipy z home.nest.com u starších kamer se nepřenesou; Gemini for Home nahradí Assistant na chytrých reproduktorech a displejích 2. 8. 2027 (podle Googlu, zatím jen v podporovaných zemích); všechna podporovaná zařízení dál fungují; verified: true (T1 ×2 + T2); highlight po kontrole čtenáři (původní highlight, zpráva OpenAI, je vlastní měření bez dopadu na čtenáře)"
+    },
+    {
       "slug": "2026-11-22-openai-research-acceleration-agents-half-of-tasks",
       "date": "2026-11-22",
-      "topic": "OpenAI 18. 11. (openai.com/index/research-acceleration-jagged-frontier — čitelné curlem, RSS OpenAI potvrzuje datum; The Next Web 21. 11.): druhá zpráva o urychlení výzkumu AI uvnitř OpenAI podle interních měření — agenti samostatně 46 % úkolů odhadnutých na 2–4 h lidské práce (v březnu 23 %), u 4–8 h 35 % (dřív 13 %); 79 % sledování tréninku × 25 % kód pro provoz modelů; OpenAI sama upozorňuje, že výzkumníci mohli měnit, co agentům svěřují, a že lidé zůstávají v jádru výzkumu; verified: true (T1 + T2); titulek nese kvalifikátor 2–4hodinových; bez followsUp (METR 21. 11. je jiná kauza)"
+      "topic": "OpenAI 18. 11. (openai.com/index/research-acceleration-jagged-frontier — čitelné curlem, RSS OpenAI potvrzuje datum; The Next Web 21. 11.): druhá zpráva o urychlení výzkumu AI uvnitř OpenAI podle interních měření — kódovací agenti samostatně 46 % úkolů odhadnutých na 2–4 h lidské práce (v březnu 23 %), u 4–8 h 35 % (dřív 13 %); 79 % sledování tréninku × 25 % kód pro provoz modelů; OpenAI sama upozorňuje, že výzkumníci mohli měnit, co agentům svěřují, a že lidé zůstávají v jádru výzkumu; verified: true (T1 + T2); po kontrole čtenáři titulek „Podle OpenAI“ s kvalifikátorem 2–4hodinových a shrnutí s „odhadnutých“; bez followsUp (METR 21. 11. je jiná kauza)"
     },
     {
       "slug": "2026-11-22-house-committees-report-chinese-open-weight-models",
       "date": "2026-11-22",
-      "topic": "Výbory Sněmovny USA (Select Committee on China a Homeland Security) 20. 11. (chinaselectcommittee.house.gov — tisková zpráva ke společné zprávě o čínských open-weight modelech v amerických firmách; The Next Web 21. 11. podle CNBC — cnbc.com vrací curlu 403): šetření od dubna (Anysphere/Cursor, Airbnb, od července DoorDash); doporučení: rozšířit federální omezení za DeepSeek, standard původu modelů a AI bill of materials, americká iniciativa open-weight; Cursor podle zprávy (v citaci TNW/CNBC; úplnou zprávu jsem nečetla, odkaz je sledovací přesměrování) zvažuje vyřazení čínských modelů, bez rozhodnutí a termínu; verified: true (T1 tisková zpráva výborů + T2)"
-    },
-    {
-      "slug": "2026-11-22-google-nest-app-retires-gemini-for-home-replaces-assistant",
-      "date": "2026-11-22",
-      "topic": "Google 20. 11. (support.google.com/googlehome/answer/18959693 — Nest app transition to the Google Home app, čitelné; The Verge 20. 11.; blog Google Home support.google.com/googlehome/blog/478236207 je stránka s JavaScriptem, text jsem nečetla): aplikace Nest skončí 25. 1. 2027 (zařízení a historie videí se přenesou, Nest Aware 1. gen → Google Home Premium Advanced bez příplatku), 25. 3. 2027 poslední termín převodu účtu před mazáním dat, klipy z home.nest.com u starších kamer se nepřenesou; Gemini for Home nahradí Assistant na reproduktorech a displejích 2. 8. 2027 jen podle The Verge; hardware dál funguje; verified: true (T1 nápověda + T2)"
+      "topic": "Výbory Sněmovny USA (Select Committee on China a Homeland Security) 20. 11. (chinaselectcommittee.house.gov — tisková zpráva ke společné zprávě o čínských open-weight modelech v amerických firmách; The Next Web 21. 11. podle CNBC — cnbc.com vrací curlu 403): šetření od dubna (Anysphere/Cursor, Airbnb, od července DoorDash); doporučení: rozšířit federální omezení za DeepSeek, standard původu modelů a AI bill of materials, americká iniciativa open-weight; Cursor podle zprávy (v citaci TNW/CNBC; úplnou zprávu nikdo nečetl, odkaz je sledovací přesměrování) zvažuje vyřazení čínských modelů, bez rozhodnutí a termínu, sám se nevyjádřil; po kontrole čtenáři „omezení“ místo „zákaz“; verified: true (T1 tisková zpráva výborů + T2)"
     },
     {
       "slug": "2026-11-22-openai-chatgpt-academic-researchers-grants",
       "date": "2026-11-22",
-      "topic": "OpenAI 16. 11. (openai.com/index/expanding-chatgpt-for-academic-researchers; RSS OpenAI potvrzuje datum 16. 11.): program ChatGPT pro akademické výzkumníky — nové kolo od 23. 11. (50 000 grantů podle pořadí, ne losem; grant = ChatGPT Plus pro držitele a až dva spolupracovníky; pilot od července měl Pro; cíl 200 000 výzkumníků; data programu se ve výchozím stavu k trénování nepoužívají; podmínky způsobilosti oznámení nevyjmenovává); termín 23. 11. nově na radaru; verified: true (T1)"
+      "topic": "OpenAI 16. 11. (openai.com/index/expanding-chatgpt-for-academic-researchers; RSS OpenAI potvrzuje datum 16. 11.): program ChatGPT pro akademické výzkumníky po celém světě — nové kolo od 23. 11. (50 000 grantů podle pořadí způsobilých přihlášek, ne losem; grant = ChatGPT Plus pro držitele a až dva spolupracovníky; pilot od července měl Pro; cíl 200 000 výzkumníků; data programu se ve výchozím stavu k trénování nepoužívají; podmínky způsobilosti ani délku grantu oznámení neuvádí); termín 23. 11. na radaru nebyl (duplikoval by tuto položku — po kontrole čtenáři vypuštěn); verified: true (T1)"
     },
     {
       "slug": "2026-11-22-claude-computer-use-team-enterprise-beta",
       "date": "2026-11-22",
-      "topic": "Anthropic 20. 11. (poznámky k vydání Claude support.claude.com — čitelné curlem; nápověda Set up computer use for Team and Enterprise plans, aktualizována 19. 11.): ovládání počítače (beta) pro Team a Enterprise — výchozně vypnuté, postupné zavádění, zapíná Owner nebo Primary Owner v Organization settings › Capabilities; Claude Desktop (macOS 14+, Windows), z webu a mobilu s Computer access; ne v úlohách Cowork ani v Claude Code; bez sandboxu, snímky obrazovky se ukládají s chatem; s ZDR pro Claude Code nejde; vyšlo jako zpráva, tip z banky proto označen jako použitý; verified: true (T1)"
+      "topic": "Anthropic 20. 11. (poznámky k vydání Claude support.claude.com — čitelné curlem; nápověda Set up computer use for Team and Enterprise plans, aktualizována 19. 11.): ovládání počítače (beta) pro Team a Enterprise — výchozně vypnuté, postupné zavádění, zapíná Owner nebo Primary Owner v Organization settings › Capabilities, pak každý uživatel v Claude Desktop (macOS 14+, Windows); ne v úlohách Cowork ani v Claude Code; bez sandboxu, snímky obrazovky se ukládají s chatem; nezapnou ho organizace s HIPAA-ready, CMEK, FERPA/K-12 ani ZDR pro Claude Code; Pro a Max mají ovládání počítače od 23. 3. 2026 (náhled v Cowork a Claude Code); tip z banky proto označen jako použitý; verified: true (T1)"
     },
     {
       "slug": "2026-11-22-google-gemini-app-lower-memory-android-go",
       "date": "2026-11-22",
-      "topic": "Google 18. 11. (blog Google, datePublished 18. 11. 17:00 UTC; T1): aplikace Gemini na vybraných zařízeních s Androidem (edice Go) s menší pamětí — přepracovaná, Gemini Live ve 45+ jazycích, kamera pro poznámky a formuláře, Nano Banana; Google Play, dlouhý stisk vypínače, předinstalace u partnerů (Transsion); seznam podporovaných telefonů Google neuvádí; verified: true (T1)"
+      "topic": "Google 18. 11. (blog Google, datePublished 18. 11. 17:00 UTC; nápověda support.google.com/gemini/answer/17079170; T1): aplikace Gemini na vybraných zařízeních s Androidem (edice Go) s menší pamětí — přepracovaná, Gemini Live ve 45+ jazycích, kamera pro poznámky a formuláře, Nano Banana; Google Play, dlouhý stisk vypínače, předinstalace u partnerů (Transsion); podle nápovědy Android Go s aspoň 2 GB RAM, ve všech zemích a jazycích, kde je Gemini; nahrazuje Assistant pro Android Go; seznam telefonů Google neuvádí; verified: true (T1)"
     },
     {
-      "slug": "2026-11-22-tip-gemini-import-chat-history",
+      "slug": "2026-11-22-tip-gemini-text-and-email-tasks",
       "date": "2026-11-22",
-      "topic": "tip: Gemini — import historie chatů a paměti z jiných AI aplikací (blog Google 19. 11., stránka gemini.google/import-memory; T1): pokyn od Googlu → shrnutí preferencí do nastavení importu; export ZIP (do 5 GB) → Chat History Import v nastavení Gemini; jen text chatů, bez obrázků a souborů; 18+ a zapnutá personalizace; importované chaty v Chats s ikonou, mazání po dávkách; z banky (20. 11.); gemini.google doplněno do T1_DOMAINS a CANONICAL_NAMES"
+      "topic": "tip: Gemini — zadávání úkolů přes Google Messages (RCS), iMessage a e-mail (blog Google 17. 11. „Tasks in Gemini“, poznámky k vydání Gemini gemini.google/release-notes — záznam v bloku 19. 11.; 9to5Google 17. 11.; T1): jednorázové ověření telefonu na gemini.google.com/channels, e-mail na gemini@google.com (Gmail, Apple Mail, Outlook; odpověď jen tobě); jen angličtina, USA, 18+, ověřené americké číslo a podporovaný operátor; podle Googlu (přes 9to5Google) textové zprávy bez end-to-end šifrování; nahradil tip Gemini import historie chatů, který po kontrole čtenáři vypadl (funkce je z 26. 3. 2026, článek z 19. 11. byl připomínka „ICYMI“)"
     },
     {
       "slug": "2026-11-22-tip-chatgpt-two-accounts-switching",
       "date": "2026-11-22",
-      "topic": "tip: ChatGPT — přepínání mezi dvěma přihlášenými účty (poznámky k vydání ChatGPT help.openai.com, záznam 30. 10.; nápověda help.openai.com/articles/20001068; T1): až 2 účty v aplikacích iOS a Android (Settings › Switch account), na webu menu účtu u všech plánů; každý účet má vlastní chaty, soubory, paměť, nastavení a předplatné; druhý účet nestojí nic (začíná na Free); u Enterprise může přepínání zakázat vlastník pracovního prostoru; postupné zavádění; nový tip (21. 11. jen zmínka „mnou neověřeno u zdroje“, dnes ověřeno)"
+      "topic": "tip: ChatGPT — přepínání mezi dvěma přihlášenými účty (poznámky k vydání ChatGPT help.openai.com, záznam 30. 10.; nápověda help.openai.com/articles/20001068; T1): až 2 účty v aplikacích iOS a Android (Settings › Switch account, Add account), na webu menu účtu u všech plánů; každý účet má vlastní chaty, soubory, paměť, nastavení a předplatné; druhý účet nestojí nic (začíná na Free); u Enterprise může přepínání zakázat vlastník pracovního prostoru; postupné zavádění; nový tip (21. 11. jen zmínka „mnou neověřeno u zdroje“, dnes ověřeno)"
     },
     {
       "slug": "2026-11-22-tip-github-copilot-code-review-adaptive",
       "date": "2026-11-22",
-      "topic": "tip: GitHub Copilot code review — režim Adaptive (changelog GitHubu 17. 11.; veřejný náhled): Lite/Balanced/Max podle složitosti a rizika pull requestu; volba v liště Reviewers nebo jako výchozí; nepřekročí maximum nastavené pro repozitář, organizaci či firmu; plány Pro, Pro+, Max, Business, Enterprise; z banky (18. 11.), dnes znovu otevřeno u zdroje"
+      "topic": "tip: GitHub Copilot code review — režim Adaptive (changelog GitHubu 17. 11.; veřejný náhled): Lite/Balanced/Max podle složitosti a rizika pull requestu, každá kontrola ukáže zvolenou úroveň; volba v liště Reviewers nebo jako výchozí; nepřekročí maximum nastavené pro repozitář, organizaci, firmu; plány Pro, Pro+, Max, Business, Enterprise; z banky (18. 11.), dnes znovu otevřeno u zdroje"
     },
     {
       "slug": "2026-11-22-tip-claude-code-easel-charts",
@@ -2681,5 +2681,5 @@
       "topic": "tip: Claude Code 2.1.330 (20. 11.) — vestavěný mod easel (grafy na požádání a automaticky pod výsledky MCP s časovými řadami; Auto charts v /config, mod cc-plugin-easel v /plugin; předplatné claude.ai, macOS nebo Linux mimo WSL); dokumentace uvádí verzi 2.1.321+ (Team a Enterprise 2.1.326+), changelog easel až u 2.1.330 — rozpor přiznán ve why; z banky (21. 11.), dnes znovu otevřeno u changelogu a dokumentace"
     }
   ],
-  "updated": "2026-11-22T03:33:53Z"
+  "updated": "2026-11-22T03:56:18Z"
 }

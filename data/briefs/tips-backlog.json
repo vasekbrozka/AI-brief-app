@@ -6580,34 +6580,34 @@
       "used": "2026-11-21"
     },
     {
-      "slug": "tip-gemini-import-chat-history",
+      "slug": "tip-gemini-text-and-email-tasks",
       "category": "tools",
       "theme": "gemini",
       "verified": true,
-      "eventDate": "2026-11-19",
+      "eventDate": "2026-11-17",
       "title": {
-        "cs": "Gemini převezme historii chatů z jiných AI aplikací",
-        "en": "Gemini can import chat history from other AI apps"
+        "cs": "Gemini přijme úkoly i přes Google Messages, iMessage a e-mail",
+        "en": "Gemini takes tasks through Google Messages, iMessage, and email"
       },
       "summary": {
-        "cs": "Google 19. listopadu ukázal, jak do Gemini přenést kontext z jiného AI asistenta. Starou aplikaci požádáš pokynem od Googlu o shrnutí svých preferencí, to vložíš do nastavení importu a export chatů (ZIP do 5 GB) nahraješ v nastavení Gemini. Přenesou se jen texty chatů, ne obrázky a soubory.",
-        "en": "On November 19, Google showed how to bring context from another AI assistant into Gemini. You ask the old app, using Google’s prompt, for a summary of your preferences, paste it into Gemini’s import settings, and upload your chat export (ZIP, up to 5 GB). Only chat text transfers, not images or files."
+        "cs": "Google 17. listopadu zpřístupnil zadávání úkolů Gemini přes Google Messages, iMessage a e-mail: po jednorázovém ověření telefonu na gemini.google.com/channels napíšeš požadavek, nebo přepošleš e-mail na gemini@google.com. Zatím jen v angličtině pro dospělé uživatele v USA; poznámky k vydání Gemini záznam řadí k 19. 11.",
+        "en": "On November 17, Google opened task requests to Gemini through Google Messages, iMessage, and email: after a one-time phone verification at gemini.google.com/channels you text a request or forward an email to gemini@google.com. For now English only, for adults in the US; the Gemini release notes file the entry under November 19."
       },
       "why": {
-        "cs": "Import najdeš v nastavení Gemini (Chat History Import); je jen pro dospělé a chce zapnutou personalizaci. Importované chaty se objeví v seznamu Chats se zvláštní ikonou a jde je smazat i po dávkách.",
-        "en": "Find it in Gemini settings (Chat History Import); it is for adults only and needs personalization turned on. Imported chats show up under Chats with a special icon and can be deleted in batches."
+        "cs": "Zapneš na gemini.google.com/channels (chce ověřené americké číslo a podporovaného operátora). Podle Googlu textové zprávy nejsou šifrované end-to-end a může je vidět operátor; podle 9to5Google se Gemini před odesláním či rezervací zeptá.",
+        "en": "Turn it on at gemini.google.com/channels (needs a verified US number and an eligible carrier). Per Google, texts are not end-to-end encrypted and the carrier may see them; per 9to5Google, Gemini asks before sending or booking."
       },
       "sources": [
         {
           "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/"
+          "url": "https://gemini.google/release-notes/"
         },
         {
-          "name": "Google",
-          "url": "https://gemini.google/import-memory/"
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/11/17/email-text-with-gemini/"
         }
       ],
-      "added": "2026-11-20",
+      "added": "2026-11-22",
       "used": "2026-11-22"
     },
     {
@@ -6625,8 +6625,8 @@
         "en": "From October 30, OpenAI is rolling out account switching in the ChatGPT mobile apps: you can stay signed in to two accounts, such as personal and work, and switch without signing out. Each account keeps its own chats, files, memory, settings, and subscriptions. Per the help center, it works on the web too."
       },
       "why": {
-        "cs": "V mobilu otevři Nastavení a zvol Switch account (když volba chybí, k tobě ještě nedorazila), na webu menu účtu. Druhý účet je zdarma; před nákupem zkontroluj, který je aktivní.",
-        "en": "On mobile, open Settings › Switch account (if missing, it has not reached you yet); on the web, use the account menu. A second account is free; check which one is active before buying."
+        "cs": "V mobilu otevři Nastavení › Switch account (druhý účet přidáš přes Add account), na webu menu účtu. Zavádí se postupně, u Enterprise ho může zablokovat vlastník pracovního prostoru. Druhý účet nic nestojí, začne na Free.",
+        "en": "On mobile: Settings › Switch account (add one via Add account); on the web: account menu. Rolling out gradually; Enterprise workspace owners can block it. A second account costs nothing (starts on Free)."
       },
       "sources": [
         {
@@ -6652,12 +6652,12 @@
         "en": "For developers: Copilot code review chooses its own depth"
       },
       "summary": {
-        "cs": "GitHub 17. listopadu zavedl ve veřejném náhledu režim Adaptive pro Copilot code review. Copilot posoudí složitost a riziko každého pull requestu a zkontroluje ho na úrovni Lite, Balanced nebo Max, takže běžné změny dostanou rychlý průchod a rizikové hlubší. Dostupné je v plánech Pro, Pro+, Max, Business a Enterprise.",
-        "en": "On November 17, GitHub introduced Adaptive in public preview for Copilot code review. Copilot judges each pull request’s complexity and risk and reviews it at Lite, Balanced, or Max, so routine changes get a quick pass and risky ones a deeper look. It is available on Pro, Pro+, Max, Business, and Enterprise plans."
+        "cs": "GitHub 17. listopadu zavedl ve veřejném náhledu režim Adaptive pro Copilot code review. Podle GitHubu Copilot posoudí složitost a riziko každého pull requestu a zkontroluje ho na úrovni Lite, Balanced nebo Max; u každé kontroly ukáže, kterou úroveň zvolil. Dostupné je v plánech Pro, Pro+, Max, Business a Enterprise.",
+        "en": "On November 17, GitHub introduced Adaptive in public preview for Copilot code review. Per GitHub, Copilot judges each pull request’s complexity and risk and reviews it at Lite, Balanced, or Max; each review shows which level it picked. It is available on Pro, Pro+, Max, Business, and Enterprise plans."
       },
       "why": {
-        "cs": "Adaptive zvolíš u pull requestu v liště Reviewers nebo ho nastavíš jako výchozí; Balanced zůstává výchozí. Nikdy nepřekročí maximum nastavené pro repozitář, organizaci či firmu.",
-        "en": "Pick Adaptive per pull request in the Reviewers bar or as your default in settings; Balanced stays the default. It never exceeds the maximum set for your repository, organization, or enterprise."
+        "cs": "Adaptive zvolíš u pull requestu v liště Reviewers, nebo ho v nastavení určíš jako výchozí místo Balanced. Nikdy nepřekročí maximum nastavené pro repozitář, organizaci či firmu.",
+        "en": "Pick Adaptive per pull request in the Reviewers bar, or set it in settings as your default instead of Balanced. It never exceeds the maximum set for your repository, organization, or enterprise."
       },
       "sources": [
         {
@@ -6675,16 +6675,16 @@
       "verified": true,
       "eventDate": "2026-11-20",
       "title": {
-        "cs": "Pro vývojáře: Claude Code kreslí grafy vestavěným modem easel",
-        "en": "For developers: Claude Code draws charts with easel mod"
+        "cs": "Pro vývojáře: Claude Code umí kreslit grafy (mod easel)",
+        "en": "For developers: Claude Code can draw charts (easel mod)"
       },
       "summary": {
-        "cs": "Claude Code 2.1.330 (20. listopadu) uvádí vestavěný mod easel: kreslí grafy, když o ně požádáš, a automaticky pod výsledky MCP s časovými řadami, například s dotazem Prometheus. Podle dokumentace chce předplatné claude.ai a macOS nebo Linux mimo WSL; Team a Enterprise podle changelogu tam, kde je k dispozici.",
-        "en": "Claude Code 2.1.330 (November 20) introduces the built-in easel mod: it draws charts when you ask and automatically under MCP results in a time-series format, such as a Prometheus query. Per the docs it needs a claude.ai subscription and macOS or Linux outside WSL; Team and Enterprise per the changelog where available."
+        "cs": "Podle changelogu přibyl v Claude Code 2.1.330 (20. listopadu) vestavěný mod easel: kreslí grafy, když o ně požádáš, a automaticky pod výsledky MCP s časovými řadami, například s dotazem Prometheus. Podle dokumentace mezi požadavky patří předplatné claude.ai a macOS nebo Linux mimo WSL; Team a Enterprise podle changelogu tam, kde je k dispozici.",
+        "en": "Per the changelog, Claude Code 2.1.330 (November 20) added the built-in easel mod: it draws charts when you ask and automatically under MCP results in a time-series format, such as a Prometheus query. Per the docs, requirements include a claude.ai subscription and macOS or Linux outside WSL; Team and Enterprise per the changelog where available."
       },
       "why": {
-        "cs": "Automatické grafy vypneš v /config (Auto charts), celý mod v /plugin (cc-plugin-easel). Dokumentace uvádí verzi 2.1.321 a novější (Team a Enterprise 2.1.326+), changelog easel hlásí až u 2.1.330.",
-        "en": "Turn off automatic charts in /config (Auto charts), or the mod in /plugin (cc-plugin-easel). The docs say version 2.1.321 or later (Team and Enterprise 2.1.326+); the changelog lists easel only from 2.1.330."
+        "cs": "Zkus: požádej Clauda o graf. Automatické grafy vypneš v /config (Auto charts), mod najdeš v /plugin (cc-plugin-easel). Dokumentace uvádí verzi 2.1.321+ (Team a Enterprise 2.1.326+), changelog easel až od 2.1.330.",
+        "en": "Try asking Claude for a chart. Turn off automatic charts in /config (Auto charts); find the mod in /plugin (cc-plugin-easel). The docs say version 2.1.321+ (Team and Enterprise 2.1.326+); the changelog lists easel from 2.1.330."
       },
       "sources": [
         {
@@ -6729,41 +6729,6 @@
       ],
       "added": "2026-11-21",
       "used": "2026-11-22"
-    },
-    {
-      "slug": "tip-gemini-text-and-email-tasks",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": true,
-      "eventDate": "2026-11-17",
-      "title": {
-        "cs": "Gemini přijme úkoly i SMS, iMessage a e-mailem",
-        "en": "Gemini takes tasks by text, iMessage, and email"
-      },
-      "summary": {
-        "cs": "Google 17. listopadu přidal do Gemini zadávání úkolů přes Google Messages, iMessage a e-mail: po jednorázovém ověření telefonu na gemini.google.com/channels napíšeš požadavek nebo přepošleš e-mail na gemini@google.com. Zatím jen v angličtině pro dospělé uživatele v USA; poznámky k vydání Gemini záznam řadí k 19. 11.",
-        "en": "On November 17, Google added task requests to Gemini through Google Messages, iMessage, and email: after a one-time phone verification at gemini.google.com/channels you text a request or forward an email to gemini@google.com. For now English only, for adults in the US; the Gemini release notes file the entry under November 19."
-      },
-      "why": {
-        "cs": "Zapneš na gemini.google.com/channels (chce ověřené americké číslo a podporovaného operátora). Podle Googlu SMS nejsou šifrované end-to-end a může je vidět operátor; před odesláním či rezervací Gemini žádá o potvrzení jedním klepnutím.",
-        "en": "Turn it on at gemini.google.com/channels (needs a verified US number and an eligible carrier). Per Google, texts are not end-to-end encrypted and the carrier may see them; before sending or booking, Gemini asks for one-tap confirmation."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
-        },
-        {
-          "name": "Google",
-          "url": "https://gemini.google/release-notes/"
-        },
-        {
-          "name": "9to5Google",
-          "url": "https://9to5google.com/2026/11/17/email-text-with-gemini/"
-        }
-      ],
-      "added": "2026-11-22",
-      "used": null
     },
     {
       "slug": "tip-github-copilot-security-review-secret-scanning",
