@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "terms": [
     {
       "id": "quantization",
@@ -1971,6 +1971,39 @@
       "short": {
         "cs": "Míra, kterou METR používá pro schopnosti AI: délka úkolu (podle času, který by zabral člověku), který model zvládne dokončit se zadanou úspěšností, třeba 50 %.",
         "en": "A measure METR uses for AI capability: the length of a task (by how long it takes a human) that a model can complete at a given success rate, such as 50%."
+      }
+    },
+    {
+      "id": "mod",
+      "term": {
+        "cs": "Mod (Claude Code)",
+        "en": "Mod (Claude Code)"
+      },
+      "aliases": [
+        "vestavěný mod",
+        "vestavěné mody",
+        "mod easel",
+        "easel mod",
+        "built-in mod",
+        "built-in mods"
+      ],
+      "short": {
+        "cs": "Rozšíření, které běží uvnitř Claude Code a umí měnit, co aplikace kreslí a jak se chová. Vestavěné mody jsou přímo součástí Claude Code.",
+        "en": "An extension that runs inside Claude Code and can change what the app draws and how it behaves. Built-in mods ship with Claude Code."
+      }
+    },
+    {
+      "id": "wsl",
+      "term": {
+        "cs": "WSL",
+        "en": "WSL"
+      },
+      "aliases": [
+        "WSL"
+      ],
+      "short": {
+        "cs": "Windows Subsystem for Linux: součást Windows, ve které běží Linux. Některé programy se v ní chovají jinak než na běžném Linuxu.",
+        "en": "Windows Subsystem for Linux: a Windows component that runs Linux inside Windows. Some programs behave differently there than on plain Linux."
       }
     }
   ]

@@ -1,28 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-claude-cowork-chrome-panel",
-      "category": "tools",
-      "theme": "claude",
-      "verified": false,
-      "title": {
-        "cs": "Postranní panel Claude v Chromu je teď Cowork",
-        "en": "Claude's Chrome side panel is now a Cowork session"
-      },
-      "summary": {
-        "cs": "Postranní panel Claude v Chromu se od 12. srpna chová jako plnohodnotná session Coworku — konverzace se ukládají do historie, fungují v něm dovednosti i konektory a rozdělaný úkol z prohlížeče dokončíš na desktopu, webu i mobilu. Zatím pro Max a Team, na Pro se postupně rozjíždí.",
-        "en": "Since August 12, the Claude side panel in Chrome behaves like a full Cowork session — conversations save to your history, skills and connectors work inside it, and a task started in the browser finishes on desktop, web, or mobile. It's on Max and Team, rolling out to Pro."
-      },
-      "sources": [
-        {
-          "name": "Claude Blog",
-          "url": "https://claude.com/blog/cowork-chrome-side-panel"
-        }
-      ],
-      "added": "2026-08-23",
-      "used": "2026-08-23"
-    },
-    {
       "slug": "tip-copilot-cowork-event-tasks",
       "category": "tools",
       "theme": "copilot",
@@ -6169,33 +6147,6 @@
       "used": "2026-11-18"
     },
     {
-      "slug": "tip-github-copilot-code-review-adaptive",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": true,
-      "eventDate": "2026-11-17",
-      "title": {
-        "cs": "Copilot code review sám zvolí hloubku kontroly",
-        "en": "Copilot code review picks its own review depth"
-      },
-      "summary": {
-        "cs": "GitHub 17. listopadu zavedl ve veřejném náhledu režim Adaptive pro Copilot code review. Copilot posoudí složitost a riziko každého pull requestu a zkontroluje ho na úrovni Lite, Balanced nebo Max, takže běžné změny dostanou rychlý průchod a rizikové hlubší. Dostupné je v plánech Pro, Pro+, Max, Business a Enterprise.",
-        "en": "On November 17, GitHub introduced Adaptive in public preview for Copilot code review. Copilot judges each pull request’s complexity and risk and reviews it at Lite, Balanced, or Max, so routine changes get a quick pass and risky ones a deeper look. It is available on Pro, Pro+, Max, Business, and Enterprise plans."
-      },
-      "why": {
-        "cs": "Adaptive zvolíš u pull requestu v liště Reviewers nebo ho nastavíš jako výchozí; Balanced zůstává výchozí. Nikdy nepřekročí maximum nastavené pro repozitář, organizaci či firmu.",
-        "en": "Pick Adaptive per pull request in the Reviewers bar or as your default in settings; Balanced stays the default. It never exceeds the maximum set for your repository, organization, or enterprise."
-      },
-      "sources": [
-        {
-          "name": "GitHub",
-          "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more"
-        }
-      ],
-      "added": "2026-11-18",
-      "used": null
-    },
-    {
       "slug": "tip-github-copilot-evals",
       "category": "tools",
       "theme": "copilot",
@@ -6490,37 +6441,6 @@
       "used": null
     },
     {
-      "slug": "tip-gemini-import-chat-history",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": true,
-      "eventDate": "2026-11-19",
-      "title": {
-        "cs": "Gemini převezme historii chatů z jiných AI aplikací",
-        "en": "Gemini imports chat history from other AI apps"
-      },
-      "summary": {
-        "cs": "Google 19. listopadu na blogu připomněl („ICYMI“), jak do Gemini přenést kontext z jiného AI asistenta: prompt z nastavení importu vložíš do původní aplikace a odpověď do Gemini, ZIP s exportem chatů nahraješ v nastavení (do 5 GB; jen text chatů, bez obrázků a souborů).",
-        "en": "On November 19, Google’s blog recapped (“ICYMI”) how to bring context from another AI assistant into Gemini: paste the prompt from the import settings into your old app and its answer into Gemini, and upload a ZIP export of your chats in settings (up to 5 GB; chat text only, no images or files)."
-      },
-      "why": {
-        "cs": "V nastavení Gemini otevři import, zkopíruj prompt a ZIP si vyžádej v původní aplikaci (obvykle Data Controls nebo Privacy). Importované chaty jsou v nabídce Chats s ikonou importu a jdou smazat po jednom i celou dávku. Před zveřejněním ověř stáří funkce (blog je ICYMI) a dostupnost podle zemí.",
-        "en": "Open the import section in Gemini settings, copy the prompt, and request the ZIP in your old app (usually under Data Controls or Privacy). Imported chats show in the Chats menu with an import icon and can be deleted one at a time or as a whole batch. Before publishing, verify the feature’s age (the blog is an ICYMI) and country availability."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/"
-        },
-        {
-          "name": "Google",
-          "url": "https://gemini.google/import-memory/"
-        }
-      ],
-      "added": "2026-11-20",
-      "used": null
-    },
-    {
       "slug": "tip-github-copilot-team-customizations",
       "category": "tools",
       "theme": "copilot",
@@ -6660,6 +6580,95 @@
       "used": "2026-11-21"
     },
     {
+      "slug": "tip-gemini-import-chat-history",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-19",
+      "title": {
+        "cs": "Gemini převezme historii chatů z jiných AI aplikací",
+        "en": "Gemini can import chat history from other AI apps"
+      },
+      "summary": {
+        "cs": "Google 19. listopadu ukázal, jak do Gemini přenést kontext z jiného AI asistenta. Starou aplikaci požádáš pokynem od Googlu o shrnutí svých preferencí, to vložíš do nastavení importu a export chatů (ZIP do 5 GB) nahraješ v nastavení Gemini. Přenesou se jen texty chatů, ne obrázky a soubory.",
+        "en": "On November 19, Google showed how to bring context from another AI assistant into Gemini. You ask the old app, using Google’s prompt, for a summary of your preferences, paste it into Gemini’s import settings, and upload your chat export (ZIP, up to 5 GB). Only chat text transfers, not images or files."
+      },
+      "why": {
+        "cs": "Import najdeš v nastavení Gemini (Chat History Import); je jen pro dospělé a chce zapnutou personalizaci. Importované chaty se objeví v seznamu Chats se zvláštní ikonou a jde je smazat i po dávkách.",
+        "en": "Find it in Gemini settings (Chat History Import); it is for adults only and needs personalization turned on. Imported chats show up under Chats with a special icon and can be deleted in batches."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/"
+        },
+        {
+          "name": "Google",
+          "url": "https://gemini.google/import-memory/"
+        }
+      ],
+      "added": "2026-11-20",
+      "used": "2026-11-22"
+    },
+    {
+      "slug": "tip-chatgpt-two-accounts-switching",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-10-30",
+      "title": {
+        "cs": "V ChatGPT můžeš být přihlášen ke dvěma účtům najednou",
+        "en": "ChatGPT lets you stay signed in to two accounts"
+      },
+      "summary": {
+        "cs": "OpenAI od 30. října postupně zavádí přepínání účtů v mobilních aplikacích ChatGPT: najednou můžeš být přihlášen ke dvěma účtům, třeba osobnímu a pracovnímu, a přepínat bez odhlášení. Každý účet má vlastní chaty, soubory, paměť, nastavení a předplatné. Podle nápovědy to funguje i na webu.",
+        "en": "From October 30, OpenAI is rolling out account switching in the ChatGPT mobile apps: you can stay signed in to two accounts, such as personal and work, and switch without signing out. Each account keeps its own chats, files, memory, settings, and subscriptions. Per the help center, it works on the web too."
+      },
+      "why": {
+        "cs": "V mobilu otevři Nastavení a zvol Switch account (když volba chybí, k tobě ještě nedorazila), na webu menu účtu. Druhý účet je zdarma; před nákupem zkontroluj, který je aktivní.",
+        "en": "On mobile, open Settings › Switch account (if missing, it has not reached you yet); on the web, use the account menu. A second account is free; check which one is active before buying."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/articles/20001068"
+        }
+      ],
+      "added": "2026-11-22",
+      "used": "2026-11-22"
+    },
+    {
+      "slug": "tip-github-copilot-code-review-adaptive",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Pro vývojáře: Copilot code review sám zvolí hloubku kontroly",
+        "en": "For developers: Copilot code review chooses its own depth"
+      },
+      "summary": {
+        "cs": "GitHub 17. listopadu zavedl ve veřejném náhledu režim Adaptive pro Copilot code review. Copilot posoudí složitost a riziko každého pull requestu a zkontroluje ho na úrovni Lite, Balanced nebo Max, takže běžné změny dostanou rychlý průchod a rizikové hlubší. Dostupné je v plánech Pro, Pro+, Max, Business a Enterprise.",
+        "en": "On November 17, GitHub introduced Adaptive in public preview for Copilot code review. Copilot judges each pull request’s complexity and risk and reviews it at Lite, Balanced, or Max, so routine changes get a quick pass and risky ones a deeper look. It is available on Pro, Pro+, Max, Business, and Enterprise plans."
+      },
+      "why": {
+        "cs": "Adaptive zvolíš u pull requestu v liště Reviewers nebo ho nastavíš jako výchozí; Balanced zůstává výchozí. Nikdy nepřekročí maximum nastavené pro repozitář, organizaci či firmu.",
+        "en": "Pick Adaptive per pull request in the Reviewers bar or as your default in settings; Balanced stays the default. It never exceeds the maximum set for your repository, organization, or enterprise."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more"
+        }
+      ],
+      "added": "2026-11-18",
+      "used": "2026-11-22"
+    },
+    {
       "slug": "tip-claude-code-easel-charts",
       "category": "tools",
       "theme": "claude",
@@ -6674,8 +6683,8 @@
         "en": "Claude Code 2.1.330 (November 20) introduces the built-in easel mod: it draws charts when you ask and automatically under MCP results in a time-series format, such as a Prometheus query. Per the docs it needs a claude.ai subscription and macOS or Linux outside WSL; Team and Enterprise per the changelog where available."
       },
       "why": {
-        "cs": "Automatické grafy vypneš v /config (Auto charts), celý mod v /plugin v sekci Built-in. Dokumentace uvádí verzi 2.1.321+, changelog easel hlásí jako přidaný až u 2.1.330; před zveřejněním ověř.",
-        "en": "Turn off automatic charts in /config (Auto charts), or the whole mod in /plugin under Built-in. The docs say version 2.1.321+, the changelog lists easel as added in 2.1.330; verify before publishing."
+        "cs": "Automatické grafy vypneš v /config (Auto charts), celý mod v /plugin (cc-plugin-easel). Dokumentace uvádí verzi 2.1.321 a novější (Team a Enterprise 2.1.326+), changelog easel hlásí až u 2.1.330.",
+        "en": "Turn off automatic charts in /config (Auto charts), or the mod in /plugin (cc-plugin-easel). The docs say version 2.1.321 or later (Team and Enterprise 2.1.326+); the changelog lists easel only from 2.1.330."
       },
       "sources": [
         {
@@ -6688,7 +6697,7 @@
         }
       ],
       "added": "2026-11-21",
-      "used": null
+      "used": "2026-11-22"
     },
     {
       "slug": "tip-claude-team-enterprise-computer-use",
@@ -6719,6 +6728,99 @@
         }
       ],
       "added": "2026-11-21",
+      "used": "2026-11-22"
+    },
+    {
+      "slug": "tip-gemini-text-and-email-tasks",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Gemini přijme úkoly i SMS, iMessage a e-mailem",
+        "en": "Gemini takes tasks by text, iMessage, and email"
+      },
+      "summary": {
+        "cs": "Google 17. listopadu přidal do Gemini zadávání úkolů přes Google Messages, iMessage a e-mail: po jednorázovém ověření telefonu na gemini.google.com/channels napíšeš požadavek nebo přepošleš e-mail na gemini@google.com. Zatím jen v angličtině pro dospělé uživatele v USA; poznámky k vydání Gemini záznam řadí k 19. 11.",
+        "en": "On November 17, Google added task requests to Gemini through Google Messages, iMessage, and email: after a one-time phone verification at gemini.google.com/channels you text a request or forward an email to gemini@google.com. For now English only, for adults in the US; the Gemini release notes file the entry under November 19."
+      },
+      "why": {
+        "cs": "Zapneš na gemini.google.com/channels (chce ověřené americké číslo a podporovaného operátora). Podle Googlu SMS nejsou šifrované end-to-end a může je vidět operátor; před odesláním či rezervací Gemini žádá o potvrzení jedním klepnutím.",
+        "en": "Turn it on at gemini.google.com/channels (needs a verified US number and an eligible carrier). Per Google, texts are not end-to-end encrypted and the carrier may see them; before sending or booking, Gemini asks for one-tap confirmation."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+        },
+        {
+          "name": "Google",
+          "url": "https://gemini.google/release-notes/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/11/17/email-text-with-gemini/"
+        }
+      ],
+      "added": "2026-11-22",
+      "used": null
+    },
+    {
+      "slug": "tip-github-copilot-security-review-secret-scanning",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Pro vývojáře: Copilot security review hledá v kódu uniklé klíče",
+        "en": "For developers: Copilot security review looks for leaked secrets in code"
+      },
+      "summary": {
+        "cs": "GitHub 17. listopadu ve veřejném náhledu přidal do kontroly zabezpečení Copilotu volitelné spouštění secret scanningu: hledá víc než 500 typů tajemství a model čte okolní kód, aby poznal i hesla v připojovacích řetězcích. Funguje v Copilot CLI, aplikaci Copilot, přes SDK i v code review; kontroluje změny, ne historii repozitáře.",
+        "en": "On November 17, GitHub added optional secret scanning to Copilot’s security review in public preview: it looks for more than 500 secret types and a model reads surrounding code to spot passwords in connection strings. It works in Copilot CLI, the Copilot app, through the SDK, and in code review; it checks changes, not repository history."
+      },
+      "why": {
+        "cs": "Ve výchozím stavu je vypnuto: v relaci zapni /settings aiSecretDetection on, pak spusť /security-review nebo deleguj úkol agentovi security-review. Kontroluje jen tvé změny, v historii repozitáře nehledá.",
+        "en": "It is off by default: in a session run /settings aiSecretDetection on, then /security-review or delegate to the security-review agent. It checks only your changes and does not search repository history."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-17-secret-scanning-on-demand-for-developers-and-agents"
+        }
+      ],
+      "added": "2026-11-22",
+      "used": null
+    },
+    {
+      "slug": "tip-chatgpt-health-android-desktop-dots",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-11-19",
+      "title": {
+        "cs": "ChatGPT Health nově funguje i na Androidu a v aplikaci pro počítač",
+        "en": "ChatGPT Health now works on Android and in the desktop app"
+      },
+      "summary": {
+        "cs": "OpenAI 19. listopadu rozšířila Health ve ChatGPT na Android (s Health Connect), do aplikace pro počítač, k dotům a do sites. Propojíš zdravotní a fitness data a ChatGPT hledá vzorce ve spánku či aktivitě. Dostupné je uživatelům Free, Go, Plus a Pro v USA; dota zatím mají jen uživatelé Pro.",
+        "en": "On November 19, OpenAI extended Health in ChatGPT to Android (with Health Connect), the desktop app, dots, and sites. You connect health and fitness data and ChatGPT looks for patterns in sleep or activity. It is available to Free, Go, Plus, and Pro users in the US; dots are Pro-only for now."
+      },
+      "why": {
+        "cs": "Aktualizuj aplikaci ChatGPT a v postranním panelu vyber Health, případně v nabídce Explore; zavádí se postupně a jen pro USA. Data z Health Connect i zdravotní záznamy si propojuješ sám.",
+        "en": "Update the ChatGPT app and pick Health in the sidebar, or in the Explore menu; it rolls out gradually and only in the US. You connect Health Connect data and medical records yourself."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/19/chatgpt-health-feature-will-soon-work-with-mac-app-dots-more/"
+        }
+      ],
+      "added": "2026-11-22",
       "used": null
     }
   ]

@@ -72,7 +72,7 @@ CANONICAL_NAMES = {
     "elevenlabs.io": "ElevenLabs", "chrome.com": "Google",
     "google-deepmind.github.io": "DeepMind", "code.visualstudio.com": "Visual Studio Code",
     "mpo.gov.cz": "Ministerstvo průmyslu a obchodu",
-    "signal.org": "Signal", "dragos.com": "Dragos", "bing.com": "Bing",
+    "signal.org": "Signal", "dragos.com": "Dragos", "bing.com": "Bing", "gemini.google": "Google",
     "autoriteitpersoonsgegevens.nl": "Autoriteit Persoonsgegevens",
 }
 
@@ -100,6 +100,8 @@ T1_DOMAINS = [
     # 21. 11.: primární zdroje subjektů zpráv — Signal (vlastní blog), Dragos (výzkum HD Moora), nizozemský regulátor AP,
     # osobní stránka autora tvrzení (jen pro jeho vlastní prohlášení), blog Bingu (Microsoft)
     "signal.org", "dragos.com", "autoriteitpersoonsgegevens.nl", "alpo.ge", "bing.com",
+    # 22. 11.: vlastní web aplikace Gemini (stránka importu historie chatů)
+    "gemini.google",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.

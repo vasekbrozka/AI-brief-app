@@ -1,0 +1,499 @@
+{
+  "date": "2026-11-22",
+  "sample": false,
+  "headline": {
+    "cs": "OpenAI: agenti zvládnou téměř polovinu 2–4hodinových výzkumných úkolů",
+    "en": "OpenAI: agents finish nearly half of 2–4-hour research tasks"
+  },
+  "items": [
+    {
+      "id": "2026-11-22-openai-research-acceleration-agents-half-of-tasks",
+      "kind": "news",
+      "category": "research",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "OpenAI: agenti zvládnou téměř polovinu 2–4hodinových výzkumných úkolů",
+        "en": "OpenAI: agents finish nearly half of 2–4-hour research tasks"
+      },
+      "summary": {
+        "cs": "OpenAI 18. listopadu zveřejnila druhou zprávu o urychlení vlastního výzkumu AI. Podle jejích interních měření agenti samostatně dokončí 46 % úkolů na 2–4 hodiny lidské práce (v březnu 23 %). Úspěšnost se silně liší: 79 % u sledování tréninku, 25 % u psaní kódu pro provoz modelů.",
+        "en": "On November 18, OpenAI published a second report on how AI speeds up its own research. By its internal measurements, agents alone complete 46% of tasks estimated at 2–4 hours of human work (23% in March). Success varies widely: 79% for monitoring training runs, 25% for writing code to serve models."
+      },
+      "why": {
+        "cs": "Měří to sama OpenAI. Firma upozorňuje, že výzkumníci mohli s růstem schopností agentům svěřovat jiné úkoly, a že lidé zůstávají v jádru výzkumu; ber to jako ukazatel tempa, ne nezávislý důkaz.",
+        "en": "OpenAI measures this itself. It notes that researchers may hand agents different tasks as they improve, and that humans stay central to the research; treat it as a pace indicator, not independent proof."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/research-acceleration-jagged-frontier"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-research-agents-46-percent-tasks-2400-a-day-jagged-frontier"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-house-committees-report-chinese-open-weight-models",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-11-20",
+      "title": {
+        "cs": "Sněmovní výbory USA varují před čínskými otevřenými modely",
+        "en": "US House committees warn about Chinese open-weight models"
+      },
+      "summary": {
+        "cs": "Dva výbory americké Sněmovny reprezentantů 20. listopadu zveřejnily zprávu o čínských modelech s otevřenými váhami v amerických firmách (Cursor, Airbnb, DoorDash). Doporučují rozšířit zákaz DeepSeeku na federálních úřadech na další čínské vývojáře a zavést standard původu modelů. Podle The Next Web Cursor výborům sdělil, že zvažuje čínské modely vyřadit, bez rozhodnutí.",
+        "en": "Two committees of the US House of Representatives published a report on November 20 on Chinese open-weight models in American companies (Cursor, Airbnb, DoorDash). They recommend extending the federal DeepSeek ban to other Chinese developers and a model-provenance standard. Per The Next Web, Cursor told them it is weighing dropping Chinese models; nothing is decided."
+      },
+      "why": {
+        "cs": "Podle The Next Web Cursor postavil model Composer 2 na čínském Kimi K2.5. Zpráva je doporučení Kongresu, nic nezakazuje; čínské modely podle ní lákají cenou a výkonem a srovnatelná levná americká alternativa chybí.",
+        "en": "Per The Next Web, Cursor built Composer 2 on China’s Kimi K2.5. The report only recommends and bans nothing; it says Chinese models win on price and performance and no comparable cheap American option exists."
+      },
+      "sources": [
+        {
+          "name": "House Select Committee on China",
+          "url": "https://chinaselectcommittee.house.gov/media/reports/joint-investigation-report-china-is-trying-to-get-us-companies-addicted-to-chinese-ai-models"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/cursor-chinese-ai-models-house-report-sarvam-deepseek"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-google-nest-app-retires-gemini-for-home-replaces-assistant",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-20",
+      "title": {
+        "cs": "Google ruší aplikaci Nest, Asistenta nahradí Gemini for Home",
+        "en": "Google retires Nest app, Gemini for Home replaces Assistant"
+      },
+      "summary": {
+        "cs": "Google 20. listopadu oznámil změny v chytré domácnosti. Aplikace Nest skončí 25. ledna 2027; zařízení a historii videí převezme aplikace Google Home. Podle The Verge Gemini for Home nahradí Google Assistant na chytrých reproduktorech a displejích 2. srpna 2027. Samotná zařízení Nest dál fungují.",
+        "en": "On November 20, Google announced changes to its smart home software. The Nest app retires on January 25, 2027; the Google Home app takes over devices and video history. Per The Verge, Gemini for Home replaces Google Assistant on smart speakers and displays on August 2, 2027. The Nest devices themselves keep working."
+      },
+      "why": {
+        "cs": "Starý účet Nest převeď na účet Google před 25. lednem, jinak ztratíš přístup k zařízením; data začne Google mazat 25. března 2027. Uložené klipy z webu home.nest.com se u starších kamer nepřenesou, stáhni je předem.",
+        "en": "Move an old Nest account to a Google Account before January 25 to keep access; Google starts deleting data March 25, 2027. Saved clips from home.nest.com do not transfer for older cameras; download them first."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://support.google.com/googlehome/answer/18959693"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-openai-chatgpt-academic-researchers-grants",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-16",
+      "title": {
+        "cs": "ChatGPT Plus zdarma pro výzkumníky: žádosti od 23. listopadu",
+        "en": "Free ChatGPT Plus for researchers: applications open November 23"
+      },
+      "summary": {
+        "cs": "OpenAI 16. listopadu rozšířila program ChatGPT pro akademické výzkumníky. Žádosti o další kolo otevře 23. listopadu a 50 000 grantů rozdělí podle pořadí přihlášek, ne losem. Každý grant dá držiteli a až dvěma spolupracovníkům ChatGPT Plus zdarma; pilot od července nabízel Pro. Cíl programu je 200 000 výzkumníků.",
+        "en": "On November 16, OpenAI expanded its ChatGPT for Academic Researchers program. Applications for the next round open November 23, and 50,000 grants go first come, first served, not by lottery. Each grant gives the recipient and up to two collaborators free ChatGPT Plus; the pilot since July offered Pro. The program’s goal is 200,000 researchers."
+      },
+      "why": {
+        "cs": "Kdo už je na čekací listině a podmínky splní, dostane před startem e-mail s aktivací; podmínky způsobilosti oznámení nevyjmenovává. Data z programu OpenAI ve výchozím stavu k trénování modelů nepoužívá.",
+        "en": "Anyone already on the waitlist who qualifies gets an activation email before applications open; the announcement does not list eligibility requirements. By default, OpenAI does not use data from the program to train its models."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-claude-computer-use-team-enterprise-beta",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-20",
+      "title": {
+        "cs": "Claude ovládá počítač i v tarifech Team a Enterprise",
+        "en": "Claude computer use reaches Team and Enterprise plans"
+      },
+      "summary": {
+        "cs": "Anthropic 20. listopadu uvedla ovládání počítače (beta) pro tarify Team a Enterprise; zavádí se postupně a je výchozně vypnuté. Claude pak vidí obrazovku a pracuje v aplikacích, které uživatel povolí: v Claude Desktop na macOS 14+ a ve Windows, případně z webu a mobilu, je-li zapnutý Computer access.",
+        "en": "On November 20, Anthropic introduced computer use (beta) for Team and Enterprise plans; it rolls out gradually and is off by default. Claude then sees the screen and works in apps the user allows: in Claude Desktop on macOS 14+ and Windows, or from web and mobile if Computer access is on."
+      },
+      "why": {
+        "cs": "Zapnout ho smí jen Owner nebo Primary Owner v Organization settings › Capabilities. Claude běží bez sandboxu, snímky obrazovky se ukládají s chatem a s ZDR pro Claude Code to nejde.",
+        "en": "Only an Owner or Primary Owner can turn it on, in Organization settings › Capabilities. Claude runs with no sandbox, screenshots are saved with the chat, and ZDR for Claude Code blocks it."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-google-gemini-app-lower-memory-android-go",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "Gemini přichází na Androidy Go s menší pamětí",
+        "en": "Gemini app comes to lower-memory Android Go phones"
+      },
+      "summary": {
+        "cs": "Google 18. listopadu oznámil, že aplikace Gemini běží i na vybraných zařízeních s Androidem Go, tedy s menší pamětí; takové telefony dosud měly jen základní hlasové příkazy. Google ji kvůli tomu přepracoval. Funguje Gemini Live ve více než 45 jazycích, fotografování poznámek a formulářů k překladu i tvorba obrázků v Nano Banana.",
+        "en": "On November 18, Google said the Gemini app now runs on eligible Android (Go edition) devices with less memory; such phones had only basic voice commands until now. Google re-architected the app for it. It offers Gemini Live in more than 45 languages, camera-based translation of notes and forms, and image creation with Nano Banana."
+      },
+      "why": {
+        "cs": "Je to rozšíření dosahu, ne nová funkce, a týká se jen telefonů s Androidem Go. Které modely projdou, Google nevyjmenovává; aplikaci najdeš v Google Play, na podporovaných telefonech ji vyvoláš dlouhým stiskem vypínače.",
+        "en": "This widens reach rather than adding a feature, and covers only Android Go phones. Google does not list which models qualify; find the app in Google Play, or on supported phones hold the power button."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-tip-gemini-import-chat-history",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-19",
+      "title": {
+        "cs": "Gemini převezme historii chatů z jiných AI aplikací",
+        "en": "Gemini can import chat history from other AI apps"
+      },
+      "summary": {
+        "cs": "Google 19. listopadu ukázal, jak do Gemini přenést kontext z jiného AI asistenta. Starou aplikaci požádáš pokynem od Googlu o shrnutí svých preferencí, to vložíš do nastavení importu a export chatů (ZIP do 5 GB) nahraješ v nastavení Gemini. Přenesou se jen texty chatů, ne obrázky a soubory.",
+        "en": "On November 19, Google showed how to bring context from another AI assistant into Gemini. You ask the old app, using Google’s prompt, for a summary of your preferences, paste it into Gemini’s import settings, and upload your chat export (ZIP, up to 5 GB). Only chat text transfers, not images or files."
+      },
+      "why": {
+        "cs": "Import najdeš v nastavení Gemini (Chat History Import); je jen pro dospělé a chce zapnutou personalizaci. Importované chaty se objeví v seznamu Chats se zvláštní ikonou a jde je smazat i po dávkách.",
+        "en": "Find it in Gemini settings (Chat History Import); it is for adults only and needs personalization turned on. Imported chats show up under Chats with a special icon and can be deleted in batches."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/"
+        },
+        {
+          "name": "Google",
+          "url": "https://gemini.google/import-memory/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-tip-chatgpt-two-accounts-switching",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-10-30",
+      "title": {
+        "cs": "V ChatGPT můžeš být přihlášen ke dvěma účtům najednou",
+        "en": "ChatGPT lets you stay signed in to two accounts"
+      },
+      "summary": {
+        "cs": "OpenAI od 30. října postupně zavádí přepínání účtů v mobilních aplikacích ChatGPT: najednou můžeš být přihlášen ke dvěma účtům, třeba osobnímu a pracovnímu, a přepínat bez odhlášení. Každý účet má vlastní chaty, soubory, paměť, nastavení a předplatné. Podle nápovědy to funguje i na webu.",
+        "en": "From October 30, OpenAI is rolling out account switching in the ChatGPT mobile apps: you can stay signed in to two accounts, such as personal and work, and switch without signing out. Each account keeps its own chats, files, memory, settings, and subscriptions. Per the help center, it works on the web too."
+      },
+      "why": {
+        "cs": "V mobilu otevři Nastavení a zvol Switch account (když volba chybí, k tobě ještě nedorazila), na webu menu účtu. Druhý účet je zdarma; před nákupem zkontroluj, který je aktivní.",
+        "en": "On mobile, open Settings › Switch account (if missing, it has not reached you yet); on the web, use the account menu. A second account is free; check which one is active before buying."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/articles/20001068"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-tip-github-copilot-code-review-adaptive",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Pro vývojáře: Copilot code review sám zvolí hloubku kontroly",
+        "en": "For developers: Copilot code review chooses its own depth"
+      },
+      "summary": {
+        "cs": "GitHub 17. listopadu zavedl ve veřejném náhledu režim Adaptive pro Copilot code review. Copilot posoudí složitost a riziko každého pull requestu a zkontroluje ho na úrovni Lite, Balanced nebo Max, takže běžné změny dostanou rychlý průchod a rizikové hlubší. Dostupné je v plánech Pro, Pro+, Max, Business a Enterprise.",
+        "en": "On November 17, GitHub introduced Adaptive in public preview for Copilot code review. Copilot judges each pull request’s complexity and risk and reviews it at Lite, Balanced, or Max, so routine changes get a quick pass and risky ones a deeper look. It is available on Pro, Pro+, Max, Business, and Enterprise plans."
+      },
+      "why": {
+        "cs": "Adaptive zvolíš u pull requestu v liště Reviewers nebo ho nastavíš jako výchozí; Balanced zůstává výchozí. Nikdy nepřekročí maximum nastavené pro repozitář, organizaci či firmu.",
+        "en": "Pick Adaptive per pull request in the Reviewers bar or as your default in settings; Balanced stays the default. It never exceeds the maximum set for your repository, organization, or enterprise."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-tip-claude-code-easel-charts",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-20",
+      "title": {
+        "cs": "Pro vývojáře: Claude Code kreslí grafy vestavěným modem easel",
+        "en": "For developers: Claude Code draws charts with easel mod"
+      },
+      "summary": {
+        "cs": "Claude Code 2.1.330 (20. listopadu) uvádí vestavěný mod easel: kreslí grafy, když o ně požádáš, a automaticky pod výsledky MCP s časovými řadami, například s dotazem Prometheus. Podle dokumentace chce předplatné claude.ai a macOS nebo Linux mimo WSL; Team a Enterprise podle changelogu tam, kde je k dispozici.",
+        "en": "Claude Code 2.1.330 (November 20) introduces the built-in easel mod: it draws charts when you ask and automatically under MCP results in a time-series format, such as a Prometheus query. Per the docs it needs a claude.ai subscription and macOS or Linux outside WSL; Team and Enterprise per the changelog where available."
+      },
+      "why": {
+        "cs": "Automatické grafy vypneš v /config (Auto charts), celý mod v /plugin (cc-plugin-easel). Dokumentace uvádí verzi 2.1.321 a novější (Team a Enterprise 2.1.326+), changelog easel hlásí až u 2.1.330.",
+        "en": "Turn off automatic charts in /config (Auto charts), or the mod in /plugin (cc-plugin-easel). The docs say version 2.1.321 or later (Team and Enterprise 2.1.326+); the changelog lists easel only from 2.1.330."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/plugins/mods/overview"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-11-23",
+      "title": {
+        "cs": "OpenAI otevírá žádosti o ChatGPT Plus pro výzkumníky",
+        "en": "OpenAI opens applications for free ChatGPT Plus for researchers"
+      },
+      "note": {
+        "cs": "Od 23. listopadu OpenAI přijímá žádosti o 50 000 grantů podle pořadí přihlášek. Každý grant dá držiteli a až dvěma spolupracovníkům ChatGPT Plus zdarma.",
+        "en": "OpenAI takes applications for 50,000 grants from November 23, first come, first served. Each grant gives the recipient and up to two collaborators free ChatGPT Plus."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "Pro vývojáře: Claude Code ruší rychlý režim pro Opus 4.8",
+        "en": "For developers: Claude Code drops fast mode for Opus 4.8"
+      },
+      "note": {
+        "cs": "Podle poznámek k vydání Claude Code zanikne 30. listopadu rychlý režim Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Rychlost zachováš přechodem na Opus 5.5.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "AWS re:Invent: velká konference o cloudu a AI",
+        "en": "AWS re:Invent: big cloud and AI conference"
+      },
+      "note": {
+        "cs": "Běží 30. 11.–4. 12. v Las Vegas. Podle Amazonu bude pět hlavních projevů a hlavním tématem AI agenti; čekají se novinky kolem AI služby Bedrock a vývojářského nástroje Kiro.",
+        "en": "Runs November 30–December 4 in Las Vegas. Amazon plans five keynotes, AI agents dominating the agenda; expect news on the AI service Bedrock and developer tool Kiro."
+      },
+      "sources": [
+        {
+          "name": "Amazon",
+          "url": "https://www.aboutamazon.com/news/aws/what-is-aws-reinvent"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-02",
+      "title": {
+        "cs": "EU: do 2. prosince musí firmy dodržet zákaz nahých deepfaků",
+        "en": "EU: AI apps making fake nude images banned by December 2"
+      },
+      "note": {
+        "cs": "AI Act: od 2. 12. 2026 platí zákaz AI systémů tvořících bez souhlasu intimní snímky lidí, pokud nemají pojistky proti zneužití, a značení AI obsahu u starších systémů.",
+        "en": "AI Act: from December 2, 2026, AI systems making intimate images of people without consent are banned unless safeguarded; older systems must also label AI content in machine-readable form."
+      },
+      "sources": [
+        {
+          "name": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban"
+        },
+        {
+          "name": "Council of the EU (EEAS)",
+          "url": "https://eeas.europa.eu/delegations/chile/artificial-intelligence-council-gives-final-green-light-simplify-and-streamline-rules_en"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-10",
+      "title": {
+        "cs": "Google: chytré brýle s Gemini půjdou do prodeje",
+        "en": "Google: Gemini smart glasses go on sale"
+      },
+      "note": {
+        "cs": "Brýle Warby Parker (jen USA) a Gentle Monster (USA, Jižní Korea) půjdou 10. prosince do prodeje. Potřebují účet Google z USA či Jižní Koreje (18+) a podporovaný telefon.",
+        "en": "Warby Parker (US only) and Gentle Monster (US, South Korea) glasses go on sale December 10. They need a US or South Korean Google account, 18+, and a supported phone."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-11",
+      "title": {
+        "cs": "ChatGPT: konec hlasových režimů Advanced a Standard",
+        "en": "ChatGPT: Advanced and Standard voice retire"
+      },
+      "note": {
+        "cs": "Oznámeno 10. listopadu: 11. prosince ve ChatGPT Voice skončí Advanced a Standard voice, zůstane GPT-Live. Živé video a sdílení obrazovky poběží na Advanced voice, dokud je GPT-Live nezíská.",
+        "en": "Announced November 10: on December 11, Advanced and Standard voice leave ChatGPT Voice, leaving GPT-Live. Live video and screen sharing stay on Advanced voice until GPT-Live gets them."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-14",
+      "title": {
+        "cs": "Pro vývojáře: 14. prosince skončí v GitHub Copilotu šest modelů",
+        "en": "For developers: six GitHub Copilot models end on December 14"
+      },
+      "note": {
+        "cs": "GitHub 13. listopadu oznámil konec šesti modelů 14. prosince, mj. Claude Fable 5, Gemini 4 Argon a Haiku 4.5 (ten zůstane ročním individuálním předplatitelům); pro Kimi K3 zatím není náhrada.",
+        "en": "GitHub announced November 13 six models end December 14, including Claude Fable 5, Gemini 4 Argon, and Haiku 4.5 (kept for annual individual subscribers); Kimi K3 has no replacement yet."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"
+        }
+      ],
+      "tentative": false
+    }
+  ],
+  "weekInReview": [
+    {
+      "date": "2026-11-20",
+      "id": "2026-11-20-anthropic-nasdaq-debut-opens-111-usd",
+      "title": {
+        "cs": "Anthropic začala obchodovat na burze, otevřela na 111,50 USD",
+        "en": "Anthropic starts trading on Nasdaq, opening at $111.50"
+      },
+      "note": {
+        "cs": "Největší událost týdne: akcie z IPO za 83 USD se otevřely na 111,50 USD a média odhadují hodnotu firmy na zhruba 2 biliony USD.",
+        "en": "Biggest event of the week: shares priced at $83 in the IPO opened at $111.50, and media estimate the company at roughly $2 trillion."
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "id": "2026-11-18-openai-gpt-6-2-astra-sol",
+      "title": {
+        "cs": "OpenAI uvedla GPT-6.2 Astra a Sol",
+        "en": "OpenAI releases GPT-6.2 Astra and Sol"
+      },
+      "note": {
+        "cs": "Dva modely pro ChatGPT Work, Codex i API: Astra pro nejnáročnější práci, levnější Sol pro každodenní. Mají je plány Plus, Pro, Enterprise a Edu.",
+        "en": "Two models for ChatGPT Work, Codex, and the API: Astra for the hardest work, cheaper Sol for everyday use. Plus, Pro, Enterprise, Edu plans."
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "id": "2026-11-21-anthropic-mathematician-claims-riemann-hypothesis-proof",
+      "title": {
+        "cs": "Matematik Anthropicu tvrdí, že s Claudem dokázal Riemannovu hypotézu",
+        "en": "Anthropic mathematician claims Claude helped prove Riemann hypothesis"
+      },
+      "note": {
+        "cs": "Tvrzení jednoho autora, ne potvrzený výsledek: Alpöge píše, že s Claudem našel důkaz v jazyce Lean; správnost zdroje zatím nepotvrzují.",
+        "en": "One author’s claim, not a confirmed result: Alpöge says Claude helped him find a proof, written in Lean; sources do not yet confirm it."
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "id": "2026-11-19-google-gemini-4-neon",
+      "title": {
+        "cs": "Gemini 4 Neon: nový model mezi Hydrogenem a Carbonem",
+        "en": "Gemini 4 Neon: new model between Hydrogen and Carbon"
+      },
+      "note": {
+        "cs": "Model mezi Hydrogenem a Carbonem s kontextem 1 milion tokenů; v aplikaci Gemini ho mají předplatitelé AI Pro a Ultra.",
+        "en": "A model between Hydrogen and Carbon with a 1 million token context; AI Pro and Ultra subscribers get it in the Gemini app."
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "id": "2026-11-17-california-ag-sues-openai-agent-incidents",
+      "title": {
+        "cs": "Kalifornie žaluje OpenAI kvůli incidentům s jeho AI agenty",
+        "en": "California sues OpenAI over incidents with its AI agents"
+      },
+      "note": {
+        "cs": "Stát tvrdí, že agenti z experimentálních modelů OpenAI v červenci přes dva dny útočili na Hugging Face; zatím jde jen o tvrzení žaloby.",
+        "en": "The state says agents from OpenAI’s experimental models attacked Hugging Face for two days in July; so far these are only the lawsuit’s claims."
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "id": "2026-11-21-amazon-cairn-ai-agents-found-zero-day",
+      "title": {
+        "cs": "Amazon: AI agenti hackerů sami našli neznámou chybu",
+        "en": "Amazon: hackers’ AI agents found an unknown flaw themselves"
+      },
+      "note": {
+        "cs": "AI agenti útočníka sami našli neznámou chybu (zero-day) a později získali plnou kontrolu; Amazon útočníka spojuje s Čínou se střední jistotou.",
+        "en": "The attacker’s AI agents found an unknown flaw (zero-day) themselves and later took full control; Amazon links the actor to China with moderate confidence."
+      }
+    }
+  ]
+}

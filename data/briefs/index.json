@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-21T03:59:53Z",
+  "updated": "2026-11-22T03:33:53Z",
   "briefs": [
+    {
+      "date": "2026-11-22",
+      "headline": {
+        "cs": "OpenAI: agenti zvládnou téměř polovinu 2–4hodinových výzkumných úkolů",
+        "en": "OpenAI: agents finish nearly half of 2–4-hour research tasks"
+      },
+      "itemCount": 10
+    },
     {
       "date": "2026-11-21",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Nvidia vyšetřuje, zda byl šéf Huang cílem cizí rozvědky",
         "en": "Nvidia investigates whether Huang was a foreign intelligence target"
-      },
-      "itemCount": 10
-    },
-    {
-      "date": "2026-11-08",
-      "headline": {
-        "cs": "METR: modely Anthropicu se zřejmě zlepšují zhruba dvakrát rychleji",
-        "en": "METR: Anthropic’s models likely improve about twice as fast"
       },
       "itemCount": 10
     }

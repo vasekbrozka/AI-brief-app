@@ -1,56 +1,6 @@
 {
   "published": [
     {
-      "slug": "2026-09-22-openai-global-ai-safety-standards-proposal",
-      "date": "2026-09-22",
-      "topic": "OpenAI 21.9. zveřejnilo návrh globálních technických standardů pro AI, hlavně pro rekurzivní sebezdokonalování (RSI) — sdílené protokoly hodnocení, lidský dohled, hlášení incidentů"
-    },
-    {
-      "slug": "2026-09-22-apple-siri-ai-delay-settlement-claims",
-      "date": "2026-09-22",
-      "topic": "Apple 21.9. spustilo web pro nároky v 250M vyrovnání za zpožděné Siri AI funkce (iPhone 15 Pro/15 Pro Max/16), výplata 25-95 $, deadline 21.12."
-    },
-    {
-      "slug": "2026-09-22-stepfun-step-5-preview-model",
-      "date": "2026-09-22",
-      "topic": "Čínský StepFun 20.9. spustil Step 5 Preview (600B MoE, 27B aktivních, 1M kontext), API živé, otevřené váhy plánované na 15.10."
-    },
-    {
-      "slug": "2026-09-22-claude-for-financial-advisors",
-      "date": "2026-09-22",
-      "topic": "Anthropic spustilo Claude for Financial Advisors"
-    },
-    {
-      "slug": "2026-09-22-deepseek-v4-1-flash",
-      "date": "2026-09-22",
-      "topic": "DeepSeek spustil model V4.1 Flash"
-    },
-    {
-      "slug": "2026-09-22-tip-cursor-projects-coordinator",
-      "date": "2026-09-22",
-      "topic": "tip: Cursor Projects koordinuje víc agentů"
-    },
-    {
-      "slug": "2026-09-22-tip-copilot-code-review-experience",
-      "date": "2026-09-22",
-      "topic": "tip: vylepšené code review u GitHub Copilota"
-    },
-    {
-      "slug": "2026-09-22-tip-samsung-one-ui-9-rollout",
-      "date": "2026-09-22",
-      "topic": "tip: Samsung spouští One UI 9 pro víc telefonů"
-    },
-    {
-      "slug": "2026-09-22-tip-muse-glimmer-ollama-dflash",
-      "date": "2026-09-22",
-      "topic": "tip: Meta Muse Glimmer rychleji v Ollamě"
-    },
-    {
-      "slug": "2026-09-22-tip-copilot-excel-python-skill",
-      "date": "2026-09-22",
-      "topic": "tip: Copilot v Excelu analyzuje data v Pythonu"
-    },
-    {
       "slug": "2026-09-23-openai-gpt-6-sol-luna",
       "date": "2026-09-23",
       "topic": "OpenAI spustilo levnější modely GPT-6 Sol a Luna"
@@ -2679,7 +2629,57 @@
       "slug": "2026-11-21-tip-bing-turn-off-ai-answers",
       "date": "2026-11-21",
       "topic": "tip: Bing — vypnutí AI odpovědí (blog Bing Search 11. 11., Microsoft; T1): operátor -ai u dotazu bez instalace; rozšíření Microsoft Bing AI Search Choice (náhled, Chrome a Edge) s přepínačem AI odpovědí, zároveň nastaví Bing jako výchozí vyhledávač; dřívější Bing záznam v logu není"
+    },
+    {
+      "slug": "2026-11-22-openai-research-acceleration-agents-half-of-tasks",
+      "date": "2026-11-22",
+      "topic": "OpenAI 18. 11. (openai.com/index/research-acceleration-jagged-frontier — čitelné curlem, RSS OpenAI potvrzuje datum; The Next Web 21. 11.): druhá zpráva o urychlení výzkumu AI uvnitř OpenAI podle interních měření — agenti samostatně 46 % úkolů odhadnutých na 2–4 h lidské práce (v březnu 23 %), u 4–8 h 35 % (dřív 13 %); 79 % sledování tréninku × 25 % kód pro provoz modelů; OpenAI sama upozorňuje, že výzkumníci mohli měnit, co agentům svěřují, a že lidé zůstávají v jádru výzkumu; verified: true (T1 + T2); titulek nese kvalifikátor 2–4hodinových; bez followsUp (METR 21. 11. je jiná kauza)"
+    },
+    {
+      "slug": "2026-11-22-house-committees-report-chinese-open-weight-models",
+      "date": "2026-11-22",
+      "topic": "Výbory Sněmovny USA (Select Committee on China a Homeland Security) 20. 11. (chinaselectcommittee.house.gov — tisková zpráva ke společné zprávě o čínských open-weight modelech v amerických firmách; The Next Web 21. 11. podle CNBC — cnbc.com vrací curlu 403): šetření od dubna (Anysphere/Cursor, Airbnb, od července DoorDash); doporučení: rozšířit federální omezení za DeepSeek, standard původu modelů a AI bill of materials, americká iniciativa open-weight; Cursor podle zprávy (v citaci TNW/CNBC; úplnou zprávu jsem nečetla, odkaz je sledovací přesměrování) zvažuje vyřazení čínských modelů, bez rozhodnutí a termínu; verified: true (T1 tisková zpráva výborů + T2)"
+    },
+    {
+      "slug": "2026-11-22-google-nest-app-retires-gemini-for-home-replaces-assistant",
+      "date": "2026-11-22",
+      "topic": "Google 20. 11. (support.google.com/googlehome/answer/18959693 — Nest app transition to the Google Home app, čitelné; The Verge 20. 11.; blog Google Home support.google.com/googlehome/blog/478236207 je stránka s JavaScriptem, text jsem nečetla): aplikace Nest skončí 25. 1. 2027 (zařízení a historie videí se přenesou, Nest Aware 1. gen → Google Home Premium Advanced bez příplatku), 25. 3. 2027 poslední termín převodu účtu před mazáním dat, klipy z home.nest.com u starších kamer se nepřenesou; Gemini for Home nahradí Assistant na reproduktorech a displejích 2. 8. 2027 jen podle The Verge; hardware dál funguje; verified: true (T1 nápověda + T2)"
+    },
+    {
+      "slug": "2026-11-22-openai-chatgpt-academic-researchers-grants",
+      "date": "2026-11-22",
+      "topic": "OpenAI 16. 11. (openai.com/index/expanding-chatgpt-for-academic-researchers; RSS OpenAI potvrzuje datum 16. 11.): program ChatGPT pro akademické výzkumníky — nové kolo od 23. 11. (50 000 grantů podle pořadí, ne losem; grant = ChatGPT Plus pro držitele a až dva spolupracovníky; pilot od července měl Pro; cíl 200 000 výzkumníků; data programu se ve výchozím stavu k trénování nepoužívají; podmínky způsobilosti oznámení nevyjmenovává); termín 23. 11. nově na radaru; verified: true (T1)"
+    },
+    {
+      "slug": "2026-11-22-claude-computer-use-team-enterprise-beta",
+      "date": "2026-11-22",
+      "topic": "Anthropic 20. 11. (poznámky k vydání Claude support.claude.com — čitelné curlem; nápověda Set up computer use for Team and Enterprise plans, aktualizována 19. 11.): ovládání počítače (beta) pro Team a Enterprise — výchozně vypnuté, postupné zavádění, zapíná Owner nebo Primary Owner v Organization settings › Capabilities; Claude Desktop (macOS 14+, Windows), z webu a mobilu s Computer access; ne v úlohách Cowork ani v Claude Code; bez sandboxu, snímky obrazovky se ukládají s chatem; s ZDR pro Claude Code nejde; vyšlo jako zpráva, tip z banky proto označen jako použitý; verified: true (T1)"
+    },
+    {
+      "slug": "2026-11-22-google-gemini-app-lower-memory-android-go",
+      "date": "2026-11-22",
+      "topic": "Google 18. 11. (blog Google, datePublished 18. 11. 17:00 UTC; T1): aplikace Gemini na vybraných zařízeních s Androidem (edice Go) s menší pamětí — přepracovaná, Gemini Live ve 45+ jazycích, kamera pro poznámky a formuláře, Nano Banana; Google Play, dlouhý stisk vypínače, předinstalace u partnerů (Transsion); seznam podporovaných telefonů Google neuvádí; verified: true (T1)"
+    },
+    {
+      "slug": "2026-11-22-tip-gemini-import-chat-history",
+      "date": "2026-11-22",
+      "topic": "tip: Gemini — import historie chatů a paměti z jiných AI aplikací (blog Google 19. 11., stránka gemini.google/import-memory; T1): pokyn od Googlu → shrnutí preferencí do nastavení importu; export ZIP (do 5 GB) → Chat History Import v nastavení Gemini; jen text chatů, bez obrázků a souborů; 18+ a zapnutá personalizace; importované chaty v Chats s ikonou, mazání po dávkách; z banky (20. 11.); gemini.google doplněno do T1_DOMAINS a CANONICAL_NAMES"
+    },
+    {
+      "slug": "2026-11-22-tip-chatgpt-two-accounts-switching",
+      "date": "2026-11-22",
+      "topic": "tip: ChatGPT — přepínání mezi dvěma přihlášenými účty (poznámky k vydání ChatGPT help.openai.com, záznam 30. 10.; nápověda help.openai.com/articles/20001068; T1): až 2 účty v aplikacích iOS a Android (Settings › Switch account), na webu menu účtu u všech plánů; každý účet má vlastní chaty, soubory, paměť, nastavení a předplatné; druhý účet nestojí nic (začíná na Free); u Enterprise může přepínání zakázat vlastník pracovního prostoru; postupné zavádění; nový tip (21. 11. jen zmínka „mnou neověřeno u zdroje“, dnes ověřeno)"
+    },
+    {
+      "slug": "2026-11-22-tip-github-copilot-code-review-adaptive",
+      "date": "2026-11-22",
+      "topic": "tip: GitHub Copilot code review — režim Adaptive (changelog GitHubu 17. 11.; veřejný náhled): Lite/Balanced/Max podle složitosti a rizika pull requestu; volba v liště Reviewers nebo jako výchozí; nepřekročí maximum nastavené pro repozitář, organizaci či firmu; plány Pro, Pro+, Max, Business, Enterprise; z banky (18. 11.), dnes znovu otevřeno u zdroje"
+    },
+    {
+      "slug": "2026-11-22-tip-claude-code-easel-charts",
+      "date": "2026-11-22",
+      "topic": "tip: Claude Code 2.1.330 (20. 11.) — vestavěný mod easel (grafy na požádání a automaticky pod výsledky MCP s časovými řadami; Auto charts v /config, mod cc-plugin-easel v /plugin; předplatné claude.ai, macOS nebo Linux mimo WSL); dokumentace uvádí verzi 2.1.321+ (Team a Enterprise 2.1.326+), changelog easel až u 2.1.330 — rozpor přiznán ve why; z banky (21. 11.), dnes znovu otevřeno u changelogu a dokumentace"
     }
   ],
-  "updated": "2026-11-21T03:59:53Z"
+  "updated": "2026-11-22T03:33:53Z"
 }
