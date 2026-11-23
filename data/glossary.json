@@ -2022,8 +2022,8 @@
         "logaritmická perplexita"
       ],
       "short": {
-        "cs": "Číslo, které říká, jak dobře model předpovídá další slovo (token) v textu, který při tréninku neviděl: čím nižší, tím lepší předpovědi. OpenAI ho používá k měření pokroku předtrénování.",
-        "en": "A number showing how well a model predicts the next word (token) in text it did not see in training: lower is better. OpenAI uses it to track progress in pretraining."
+        "cs": "Číslo, které říká, jak dobře model předpovídá další slovo (token) v textu, který při tréninku neviděl: čím nižší, tím lepší předpovědi. OpenAI ho používá k měření pokroku při trénování modelů.",
+        "en": "A number showing how well a model predicts the next word (token) in text it did not see in training: lower is better. OpenAI uses it to track progress in training models."
       }
     },
     {

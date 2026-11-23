@@ -6705,8 +6705,8 @@
         "en": "With Images 2.6 from November 4, ChatGPT can save a reference photo. Upload it and ask to save it, choose a name, and in a later chat type, say, “watercolor portrait of @Pepper” without uploading the photo again. Per OpenAI’s help center, Images is on all plans on web, iOS, and Android."
       },
       "why": {
-        "cs": "Nahraj fotku a napiš, ať ji uloží jako referenci; ChatGPT ji může nabídnout i sám. Nápověda neuvádí, kde se uložené fotky mažou; než uložíš fotku člověka, rozmysli si soukromí.",
-        "en": "Upload a photo and ask ChatGPT to save it as a reference; it may offer too. The help article does not say where saved photos are deleted; mind privacy before saving a person’s photo."
+        "cs": "ChatGPT může uložení nabídnout i sám, když fotku popíšeš. Nápověda k Images neuvádí, jak uložené fotky spravovat či smazat; než uložíš fotku člověka, rozmysli si soukromí.",
+        "en": "ChatGPT may offer to save a photo itself when you describe it. The Images help does not say how to manage or delete saved photos; think about privacy before saving a person’s photo."
       },
       "sources": [
         {
@@ -6732,12 +6732,12 @@
         "en": "Google Pics now runs on Nano Banana 2.1"
       },
       "summary": {
-        "cs": "Google 16. listopadu začal do Google Pics zavádět model Nano Banana 2.1: věrnější úpravy s méně nechtěnými změnami okolí, čistší text v obrázcích a stejná rychlost. Pics tvoří a upravuje obrázky podle promptu nebo referenčních snímků, na počítači i uvnitř Dokumentů a Prezentací Google.",
-        "en": "On November 16, Google began rolling out the Nano Banana 2.1 model in Google Pics: more faithful edits with fewer unrequested changes around the subject, cleaner text in images, and the same speed. Pics creates and edits images from a prompt or reference images, on desktop and inside Google Docs and Slides."
+        "cs": "Google 16. listopadu začal do Google Pics zavádět model Nano Banana 2.1: věrnější úpravy s méně nechtěnými změnami okolí, čistší text v obrázcích a srovnatelná rychlost. Pics tvoří a upravuje obrázky podle promptu nebo referenčních snímků, na počítači i uvnitř Dokumentů a Prezentací Google.",
+        "en": "On November 16, Google began rolling out the Nano Banana 2.1 model in Google Pics: more faithful edits with fewer unrequested changes around the subject, cleaner text in images, and comparable speed. Pics creates and edits images from a prompt or reference images, on desktop and inside Google Docs and Slides."
       },
       "why": {
-        "cs": "Otevři docs.google.com/images/create. Potřebuješ Google AI Pro či Ultra nebo Workspace Business či Enterprise; čeština je podporovaná. Podle nápovědy mají uživatelé vyšší limity aspoň do 28. února 2027.",
-        "en": "Open docs.google.com/images/create. You need Google AI Pro or Ultra or Workspace Business or Enterprise; Czech is supported. Per the help center, users get higher limits through at least February 28, 2027."
+        "cs": "Otevři docs.google.com/images/create. Potřebuješ Google AI Pro či Ultra (příspěvek uvádí i Plus) nebo Workspace Business či Enterprise (Standard či Plus); čeština je podporovaná. Limity tvorby obrázků jsou vyšší aspoň do 28. února 2027.",
+        "en": "Open docs.google.com/images/create. You need Google AI Pro or Ultra (the post also lists Plus) or Workspace Business or Enterprise (Standard or Plus); Czech is supported. Image limits are higher through at least February 28, 2027."
       },
       "sources": [
         {
@@ -6763,8 +6763,8 @@
         "en": "For developers: Copilot Evals test your skills and agents"
       },
       "summary": {
-        "cs": "GitHub 17. listopadu uvedl Copilot Evals ve veřejném náhledu: opakovatelné testy pro skills, vlastní agenty a nástroje MCP. Spustíš je příkazem /eval nebo prosbou ke Copilotovi, každý běh nejdřív schvaluješ a po změně nastavení porovnáš výsledky před a po. Evals běží na lokálním nástroji Vally.",
-        "en": "On November 17, GitHub launched Copilot Evals in public preview: repeatable tests for skills, custom agents, and MCP tools. You run them with the /eval command or by asking Copilot, approve each run first, and compare results before and after a setup change. Evals runs on the local tool Vally."
+        "cs": "GitHub 17. listopadu uvedl Copilot Evals ve veřejném náhledu: opakovatelné testy, které ověří, jak si vedou tvé skills (sady pokynů), vlastní agenti a nástroje MCP. Spustíš je příkazem /eval nebo prosbou ke Copilotovi, každý běh nejdřív schvaluješ a po změně nastavení porovnáš výsledky před a po.",
+        "en": "On November 17, GitHub launched Copilot Evals in public preview: repeatable tests that check how your skills (instruction sets), custom agents, and MCP tools perform. You run them with the /eval command or by asking Copilot, approve each run first, and compare results before and after a setup change."
       },
       "why": {
         "cs": "Nainstaluj rozšíření Copilot Evals do VS Code, plugin do Copilot CLI, nebo v aplikaci Copilot přes Customize přidej marketplace github/evals. Náhled platí pro tarify Individual, Business a Enterprise.",
@@ -6790,8 +6790,8 @@
         "en": "For developers: AI Studio builds Android apps with databases"
       },
       "summary": {
-        "cs": "Google 17. listopadu rozšířil Android vývoj v AI Studiu: agent Build po tvém potvrzení podle promptu zřídí databázi Cloud Firestore a přihlášení přes Google, volá Gemini bez klíče v APK a appku vydá do osobní knihovny Google Play. Přibyl rychlejší HD emulátor se zvukem a snímek obrazovky pro agenta jedním klikem.",
-        "en": "On November 17, Google expanded Android development in AI Studio: from a prompt, the Build agent, with your confirmation, sets up a Cloud Firestore database and Google sign-in, calls Gemini without a key in the APK, and publishes to your personal Google Play library. A faster HD emulator with audio and one-click screenshots also arrive."
+        "cs": "Google 17. listopadu rozšířil Android vývoj v AI Studiu: agent Build z popisu sám postaví Android aplikaci a po potvrzení k ní zřídí databázi Cloud Firestore a přihlášení přes Google. Hotovou appku vydá do osobní knihovny Google Play, odkud ji nainstaluješ do telefonu.",
+        "en": "On November 17, Google expanded Android development in AI Studio: from a description, the Build agent builds an Android app itself and, with your confirmation, sets up a Cloud Firestore database and Google sign-in. It publishes the finished app to your personal Google Play library, from where you install it on your phone."
       },
       "why": {
         "cs": "V AI Studiu otevři Build (aistudio.google.com/apps), nahoře zvol Android a popiš appku; vyzkoušet ji na telefonu jde zdarma. Dostupnost podle zemí zdroj neuvádí.",
@@ -6801,10 +6801,6 @@
         {
           "name": "Google",
           "url": "https://developers.googleblog.com/build-full-stack-android-apps-with-gemini-in-google-ai-studio/"
-        },
-        {
-          "name": "9to5Google",
-          "url": "https://9to5google.com/2026/11/17/material-3-expressive-scrolling-time-picker/"
         }
       ],
       "added": "2026-11-23",

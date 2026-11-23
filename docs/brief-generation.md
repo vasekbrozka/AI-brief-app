@@ -554,6 +554,22 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   23. 11. (žádosti o granty) dva čtenáři označili za kopii shrnutí zprávy; datum patří do titulku zprávy. Omezení platnosti
   („jen USA a Jižní Korea“) patří do titulku radaru, ne jen do poznámky. iROZHLAS a Etsy vrací 403 i agentovi s WebFetch; pokus
   o obejití přes archiv systém zablokoval — takové zdroje nepoužívej a v deníku je uveď jako nečitelné.
+  (46) **Titulek média o „zákazu“ si ověř ve znění smlouvy, návod k funkci hledej v nápovědě produktu a datum zjisti dřív než
+  utratíš F-dotaz** — 23. 11. psal Wired, že banky AI agenty „zakazují“. Podmínky Wells Fargo (účinnost 24. 11., oddíl 15) jen
+  přenášejí odpovědnost na klienta a dávají bance právo agenty omezit; výslovný zákaz přihlašovacích údajů je až u Chase (od
+  27. 10., „ratify your obligation“) a oba texty mají výhradu „pokud zákon nestanoví jinak“ — text vychází ze smluv, ne z titulku
+  (PDF smluv čti `pdftotext -layout`; `html2txt.py` z PDF vyrobí binární text). Tip na uložené referenční fotky v ChatGPT měl
+  v poznámkách k vydání jediný příklad bez návodu; návod („požádej o uložení, zvol jméno, pak @jméno“) byl v nápovědě „Images in
+  ChatGPT“, na kterou odkazují jiné záznamy poznámek — **než tip s vágní poznámkou zahodíš, otevři nápovědu produktu (odkazy jsou
+  v HTML poznámek)**. Dva ze tří F-dotazů padly na stopy bez data z panelu a ze shrnutí agenta („Nvidia kupuje Hugging Face“ je
+  z 3. 9., Apple a 250 mil. USD z května) — **datum zjisti v kontextu, teprve pak hledej**; agenti A–E vrátili z 20.–23. 11. skoro
+  nic, brief vznikl ze sweepu, RSS, changelogů a stažených stránek. **Highlight na výrocích a prognózách** (výpadky, „čekají další“)
+  neunese roli highlightu ani se třemi T2: čtenáři ho vyměnili za položku s primárními podmínkami a okamžitým dopadem (banky);
+  **příčinu uváděj jen u incidentu, který s ní zdroj výslovně spojuje** (Wired: záplaty jen u NSA, Microsoft a Apple měly vlastní
+  příčiny) a délku výpadku jen ze zdroje, který ji má (Verge „multi-day“ × Wired 24 hodin). **Jedna sada čísel na položku**
+  (čisté × celkové emise Mety mátly běžného čtenáře), zkratky (FAA, APK, EHP) rozepiš nebo vypusť a zdroj, který jen přepisuje
+  seznam firmy (9to5Google u AI Studia), z `sources` vynech. Primární zdroje subjektů zpráv (Wells Fargo, Chase, zpráva Mety)
+  patří do `T1_DOMAINS` a `CANONICAL_NAMES` v `check-brief.py`.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.
@@ -827,7 +843,15 @@ a `used` přesné a nikdy záznamy nepřepisuj zpětně.
   (HTML stránka je plná JSONu). Záznam bez data v textu stránky = hledej datum v HTML,
   než ho vyřadíš jako „bez data". **Nová volba v nastavení, kterou dokumentace ještě
   nepopisuje, je tip jen s poctivým `why`** („hodnota ani výchozí stav zatím nejsou
-  popsány"), nikdy s domyšlenou syntaxí.
+  popsány"), nikdy s domyšlenou syntaxí. **Nápověda produktu nese návody a rozsah platnosti,
+  které poznámky k vydání nemají**: `help.openai.com/en/articles/11084440-images-in-chatgpt`
+  (GIFy, uložené referenční fotky), `help.openai.com/articles/20001530` (dots; tarify a
+  regiony, živý dokument — „Updated“ je relativní čas), `support.google.com/docs/answer/17256710`
+  (Google Pics); `workspaceupdates.googleblog.com/feeds/posts/default` dává přesná data příspěvků
+  (`published`), `developers.googleblog.com` blog AI Studia. **Primární dokumenty subjektů
+  zpráv**: smluvní podmínky bank (`wellsfargo.com/online-banking/online-access-agreement/upcoming/`
+  — dlouhá stránka, hledej „AI Agent“; `chase.com` Digital Services Agreement je PDF → `pdftotext`)
+  a zprávy firem (`sustainability.atmeta.com/sustainability-report/` odkazuje na PDF).
 - **Duplicita s už vyšlou zprávou:** skript hlídá jen shodu slugu tipu. Před zápisem do
   banky proto projdi `published-log.json` (grep klíčových slov události) — stejná událost,
   která vyšla jako **zpráva** nebo jako jiný tip (např. plátna cloudových agentů Cursoru,

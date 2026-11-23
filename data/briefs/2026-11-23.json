@@ -2,28 +2,90 @@
   "date": "2026-11-23",
   "sample": false,
   "headline": {
-    "cs": "Úřady a Microsoft čekají další výpadky; AI zrychluje záplaty",
-    "en": "Officials, Microsoft expect more outages as AI speeds patching"
+    "cs": "Americké banky omezují AI agenty, riziko nesou klienti",
+    "en": "US banks restrict AI agents; customers bear the risk"
   },
   "items": [
     {
-      "id": "2026-11-23-tech-outages-officials-expect-more-ai-patching",
+      "id": "2026-11-23-banks-restrict-ai-agents-wells-fargo-chase",
       "kind": "news",
-      "category": "research",
+      "category": "business",
       "highlight": true,
       "verified": true,
       "eventDate": "2026-11-22",
       "title": {
-        "cs": "Úřady a Microsoft čekají další výpadky; AI zrychluje záplaty",
-        "en": "Officials, Microsoft expect more outages as AI speeds patching"
+        "cs": "Americké banky omezují AI agenty, riziko nesou klienti",
+        "en": "US banks restrict AI agents; customers bear the risk"
       },
       "summary": {
-        "cs": "Za poslední zhruba týden se v USA zastavily odlety po celé zemi (FAA), několik dní nefungoval Outlook, vypadla banka JPMorgan Chase a interní komunikaci NSA podle úřadů pokazily nezdařené záplaty. Podle Wiredu nic nenasvědčuje útoku. Podle The Verge z 22. listopadu ředitel národní rozvědky Jay Clayton a prezident Microsoftu Brad Smith čekají další výpadky.",
-        "en": "In about a week, US flight departures stopped nationwide (FAA), Outlook was down for days, JPMorgan Chase had an outage, and officials blamed botched patching for NSA’s internal communications failure. Per Wired, nothing points to an attack. Per The Verge on November 22, intelligence director Jay Clayton and Microsoft president Brad Smith expect more outages."
+        "cs": "Wells Fargo přidává do podmínek online bankovnictví od 24. listopadu pasáž o AI agentech: jejich pokyny se berou jako klientovy, použití je na vlastní riziko a banka může agentům přístup omezit nebo zakázat. Chase od 27. října výslovně potvrzuje zákaz: třetí strany včetně externí AI nesmějí používat přihlašovací údaje klienta; přes schválené API přístup povoluje.",
+        "en": "Wells Fargo adds an AI-agent clause to its online banking terms from November 24: agents’ instructions count as yours, use is at your own risk, and the bank may restrict or block agents. Since October 27, Chase expressly confirms a ban on third parties, including external AI, using customers’ credentials; approved APIs are allowed."
       },
       "why": {
-        "cs": "Nadella: záplata musí do provozu hned, protože se zneužívá. Wired uvádí přes 100 000 letos nalezených zranitelností (2022: asi 25 000); výpadky nezpůsobila koordinovaná vlna AI útoků, ale tlak na rychlé záplaty roste.",
-        "en": "Nadella: a patch must go live at once because it is exploited. Wired counts 100,000+ vulnerabilities found this year (2022: about 25,000); no coordinated AI hacking spree caused the outages, but patch pressure grows."
+        "cs": "Heslo do banky AI agentovi nedávej: podle podmínek Wells Fargo i Chase za jeho chyby odpovídáš ty, pokud zákon nestanoví jinak. Podle Wiredu American Express do budoucna zvažuje úhradu některých chyb agentů.",
+        "en": "Do not give an AI agent your bank password: under Wells Fargo’s and Chase’s terms you answer for its mistakes unless law says otherwise. Per Wired, American Express may reimburse some agent mistakes later."
+      },
+      "sources": [
+        {
+          "name": "Wells Fargo",
+          "url": "https://www.wellsfargo.com/online-banking/online-access-agreement/upcoming/"
+        },
+        {
+          "name": "JPMorgan Chase",
+          "url": "https://www.chase.com/content/dam/legal-agreements/library/en/dsa_la/versions/dsa_la.pdf"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-23-openai-pachocki-perplexity-limits-ai-development",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-22",
+      "title": {
+        "cs": "Hlavní vědec OpenAI navrhuje limity vývoje AI podle perplexity",
+        "en": "OpenAI’s chief scientist proposes AI development limits by perplexity"
+      },
+      "summary": {
+        "cs": "Hlavní vědec OpenAI Pachocki 22. listopadu navrhl, aby se laboratoře zavázaly ke společným limitům tempa vývoje AI, vycházejícím z perplexity (jak dobře model předpovídá další token; nižší je lepší) a dalších měření, dokud se nezlepší dohled. Podle OpenAI měl GPT-3.5 na jejích interních datech s kódem asi 0,99, GPT-4 asi 0,91, dnešní modely pod 0,8.",
+        "en": "OpenAI chief scientist Pachocki proposed on November 22 that labs commit to shared limits on the pace of AI development, based on perplexity (how well a model predicts the next token; lower is better) and other measures, until oversight improves. On OpenAI’s internal code data, GPT-3.5 scored about 0.99, GPT-4 0.91, today’s models below 0.8."
+      },
+      "why": {
+        "cs": "Je to návrh jednoho autora, ne dohoda firem. Pachocki sám uvádí slabiny: perplexita přímo neodpovídá konkrétním úlohám a laboratoře měří na různých datech. TechCrunch ho řadí k zářijovému plánu šéfa Anthropicu omezit tempo vývoje.",
+        "en": "It is one author’s proposal, not an industry deal. Pachocki admits weaknesses: perplexity does not directly match specific tasks, and labs measure on different data. TechCrunch links it to a September plan by Anthropic’s CEO."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/perplexity-and-intelligence"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-23-tech-outages-officials-expect-more-ai-patching",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-22",
+      "title": {
+        "cs": "Microsoft i úřady USA varují před dalšími výpadky",
+        "en": "Microsoft and US officials warn of more outages"
+      },
+      "summary": {
+        "cs": "Za zhruba týden se v USA zastavily odlety po celé zemi, vypadla banka JPMorgan Chase a Outlook; interní komunikace NSA podle Wiredu vypadla kvůli nezdařenému záplatování. Podle The Verge z 22. listopadu čekají další výpadky ředitel národní rozvědky Clayton i prezident Microsoftu Smith; Wired a Nadella je spojují s tlakem záplatovat chyby, které AI nachází.",
+        "en": "In about a week, US flight departures stopped nationwide, JPMorgan Chase and Outlook went down, and NSA’s internal communications failed, per Wired, because of botched patching. Per The Verge on November 22, intelligence director Clayton and Microsoft president Smith expect more outages; Wired and Nadella tie them to pressure to patch flaws AI finds."
+      },
+      "why": {
+        "cs": "Nadella (Microsoft): záplata musí do provozu hned, protože se opravená chyba už zneužívá. Wired: letos přes 100 000 nalezených zranitelností (2022: asi 25 000), zneužívá se jen zlomek; výpadky mají běžné příčiny, ne koordinovaný útok.",
+        "en": "Nadella (Microsoft): a patch must go live at once as its flaw is already exploited. Wired: 100,000+ vulnerabilities found this year (2022: about 25,000), few exploited; outages had routine causes, not a coordinated attack."
       },
       "sources": [
         {
@@ -49,68 +111,6 @@
       }
     },
     {
-      "id": "2026-11-23-openai-pachocki-perplexity-limits-ai-development",
-      "kind": "news",
-      "category": "research",
-      "verified": true,
-      "eventDate": "2026-11-22",
-      "title": {
-        "cs": "Hlavní vědec OpenAI navrhuje limity vývoje AI podle perplexity",
-        "en": "OpenAI’s chief scientist proposes AI development limits by perplexity"
-      },
-      "summary": {
-        "cs": "Hlavní vědec OpenAI Jakub Pachocki 22. listopadu navrhl porovnávat tempo vývoje AI perplexitou (jak dobře model předpovídá další token) a zveřejnil čísla OpenAI: logaritmická perplexita GPT-3.5 byla asi 0,99, GPT-4 asi 0,91, dnešní modely jsou pod 0,8. Firmy by se podle něj zavázaly společným limitům, dokud nezlepší dohled nad AI.",
-        "en": "OpenAI chief scientist Jakub Pachocki proposed on November 22 comparing the pace of AI development by perplexity (how well a model predicts the next token) and published OpenAI’s numbers: log-perplexity was about 0.99 for GPT-3.5, 0.91 for GPT-4, and below 0.8 today. Companies would commit to shared limits until oversight of AI improves."
-      },
-      "why": {
-        "cs": "Je to návrh jednoho autora, ne dohoda firem. Pachocki sám přiznává slabiny: perplexita neměří užitečné schopnosti a laboratoře mají různá data. TechCrunch ho řadí k zářijovému plánu šéfa Anthropicu omezit tempo vývoje.",
-        "en": "It is one author’s proposal, not a deal among firms. Pachocki admits weaknesses: perplexity ignores useful abilities and labs use different data. TechCrunch links it to Anthropic’s September plan to limit the pace of development."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://openai.com/index/perplexity-and-intelligence"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
-        }
-      ]
-    },
-    {
-      "id": "2026-11-23-banks-restrict-ai-agents-wells-fargo-chase",
-      "kind": "news",
-      "category": "business",
-      "verified": true,
-      "eventDate": "2026-11-22",
-      "title": {
-        "cs": "Banky omezují AI agenty a odpovědnost přenášejí na klienty",
-        "en": "Banks restrict AI agents and shift responsibility to customers"
-      },
-      "summary": {
-        "cs": "Wells Fargo přidává do podmínek online bankovnictví od 24. listopadu pasáž o AI agentech: jejich pokyny se berou jako klientovy, použití je na vlastní riziko a banka může agentům přístup omezit nebo zakázat. Chase od 27. října zakazuje třetím stranám včetně externí AI přihlašovat se klientovými údaji; přes schválené API přístup povoluje.",
-        "en": "From November 24, Wells Fargo adds an AI-agent clause to its online banking terms: agents’ instructions count as yours, use is at your own risk, and the bank may restrict or block agents. Since October 27, Chase bars third parties, including external AI, from logging in with customer credentials; it allows approved APIs."
-      },
-      "why": {
-        "cs": "Heslo do banky AI agentovi nedávej: za jeho omyly odpovídáš podle podmínek ty. Podle Wiredu Bank of America klienty varovala a American Express chystá ochranu nákupů registrovaných agentů.",
-        "en": "Do not give an AI agent your bank password: under the terms you answer for its mistakes. Per Wired, Bank of America warned customers and American Express plans protection for purchases by registered agents."
-      },
-      "sources": [
-        {
-          "name": "Wells Fargo",
-          "url": "https://www.wellsfargo.com/online-banking/online-access-agreement/upcoming/"
-        },
-        {
-          "name": "JPMorgan Chase",
-          "url": "https://www.chase.com/content/dam/legal-agreements/library/en/dsa_la/versions/dsa_la.pdf"
-        },
-        {
-          "name": "Wired",
-          "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/"
-        }
-      ]
-    },
-    {
       "id": "2026-11-23-claude-interactive-connectors-apps-beside-chat",
       "kind": "news",
       "category": "tools",
@@ -121,12 +121,12 @@
         "en": "Claude opens apps beside chat and edits in them"
       },
       "summary": {
-        "cs": "Anthropic 10. listopadu rozšířila v Claude interaktivní konektory: aplikace partnerů se nově otevřou vedle konverzace nebo na celou obrazovku a Claude v nich na požádání upravuje stránky, řádky či soubory; změny schvaluješ jako u konektorů. Běží na webu a v Claude Desktop ve všech tarifech, mj. s Asanou, Canvou, Dropboxem, Notionem a Boxem.",
-        "en": "On November 10, Anthropic expanded interactive connectors in Claude: partner apps now open beside the conversation or full screen, and on request Claude edits pages, rows, or files in them; you approve changes as with connectors. It runs on the web and in Claude Desktop on all plans, including Asana, Canva, Dropbox, Notion, and Box."
+        "cs": "Anthropic 10. listopadu rozšířila v Claude interaktivní konektory: aplikace partnerů, které to podporují, se nově otevřou vedle konverzace nebo na celou obrazovku a Claude v nich upravuje stránky, řádky či soubory; změny schvaluješ jako u konektorů. Zavádí se na webu a v Claude Desktop ve všech tarifech, mj. s Asanou, Canvou, Dropboxem, Notionem a Boxem.",
+        "en": "On November 10, Anthropic expanded interactive connectors in Claude: supporting partner apps now open beside the conversation or full screen, and Claude edits pages, rows, or files in them; you approve changes as with connectors. It rolls out on web and Claude Desktop on all plans, including Asana, Canva, Dropbox, Notion, and Box."
       },
       "why": {
-        "cs": "Uvidíš to po přechodu účtu na nový Claude (chat spojený s Cowork) nebo po zapnutí organizací. Aplikaci otevřeš z chatu nebo si ji připneš do postranního panelu; vývojáři mají veřejný náhled.",
-        "en": "It appears once your account moves to the new Claude (chat plus Cowork) or your organization enables it. Open an app from chat or pin it to the sidebar; developers get a public preview."
+        "cs": "Dostupné ve všech tarifech, ale uvidíš to až po přechodu účtu na nový Claude (chat spojený s Cowork) nebo až to zapne tvá organizace. Aplikaci otevřeš z chatu nebo si ji připneš do postranního panelu.",
+        "en": "On all plans, but you see it only once your account moves to the new Claude (chat plus Cowork) or your organization enables it. Open an app from chat or pin it to the sidebar."
       },
       "sources": [
         {
@@ -142,16 +142,16 @@
       "verified": true,
       "eventDate": "2026-11-19",
       "title": {
-        "cs": "OpenAI testuje dots u vybraných uživatelů Plus",
-        "en": "OpenAI tests dots with selected ChatGPT Plus users"
+        "cs": "ChatGPT dots se testují u Plus, v EU ne",
+        "en": "ChatGPT dots tested with Plus users, not in EU"
       },
       "summary": {
-        "cs": "OpenAI 19. listopadu začala testovat dots, proaktivního agenta ChatGPT, u malé skupiny uživatelů Plus; podle nápovědy je zavádí i členům Business Standard v USA. Pro Plus ani Pro nejsou dots v EHP (včetně EU), ve Spojeném království a ve Švýcarsku. V Enterprise, Edu a Healthcare jsou od 18. listopadu zapnuté, pokud je admin nevypne.",
-        "en": "On November 19, OpenAI began testing dots, ChatGPT’s proactive agent, with a few Plus users; its help center adds Business Standard in the US. For Plus and Pro, dots are not available in the EEA (including the EU), UK, or Switzerland. Enterprise, Edu, and Healthcare have them on since November 18 unless admins opt out."
+        "cs": "OpenAI 19. listopadu začala testovat dots, proaktivního agenta ChatGPT, u malé skupiny uživatelů Plus; podle nápovědy je zavádí i členům Business Standard v USA. Pro Plus ani Pro nejsou dots v EU (EHP), ve Spojeném království ani ve Švýcarsku. V Enterprise, Edu a Healthcare jsou od 18. listopadu zapnuté, pokud je admin nevypne.",
+        "en": "On November 19, OpenAI began testing dots, ChatGPT’s proactive agent, with a few Plus users; its help center adds Business Standard in the US. For Plus and Pro, dots are not available in the EU (EEA), UK, or Switzerland. Enterprise, Edu, and Healthcare have them on since November 18 unless admins opt out."
       },
       "why": {
-        "cs": "Z Česka dots s osobním Plus či Pro zatím nezkusíš; kdy se to změní, OpenAI neuvádí. U Enterprise jsou dots do 13. ledna 2027 zdarma, od 14. ledna se začnou účtovat.",
-        "en": "From Czechia you cannot try dots with a personal Plus or Pro plan yet; OpenAI does not say when that changes. Enterprise dots are free through January 13, 2027 and billed from January 14."
+        "cs": "Z Česka dots s osobním Plus či Pro zatím nezkusíš; kdy se to změní, OpenAI neuvádí. Pro osobní tarify platí stejné omezení i u dalších zemí EHP.",
+        "en": "From Czechia you cannot try dots with a personal Plus or Pro plan yet; OpenAI does not say when that changes. The same limit applies to the other EEA countries."
       },
       "sources": [
         {
@@ -171,16 +171,16 @@
       "verified": true,
       "eventDate": "2026-11-19",
       "title": {
-        "cs": "Meta přehodnocuje cíl nulových emisí do roku 2030",
-        "en": "Meta rethinks 2030 net-zero goal as emissions rise"
+        "cs": "Meta přehodnocuje termíny svého cíle nulových emisí 2030",
+        "en": "Meta re-evaluates timelines for its 2030 net-zero goal"
       },
       "summary": {
-        "cs": "Meta ve zprávě o udržitelnosti z 19. listopadu uvedla, že přehodnocuje termíny cíle nulových emisí do roku 2030, protože poptávka po infrastruktuře pro AI rostla rychleji, než kdo čekal. Čisté emise za rok 2025 vzrostly o 45 % na 11,8 milionu tun CO2e; celkové emise podle místa z 15,6 na 21,7 milionu tun.",
-        "en": "In its November 19 sustainability report, Meta said it is re-evaluating the timeline of its 2030 net-zero goal because demand for AI infrastructure grew faster than almost anyone projected. Net emissions for 2025 rose 45% to 11.8 million tonnes CO2e; total location-based emissions rose from 15.6 to 21.7 million tonnes."
+        "cs": "Meta ve zprávě o udržitelnosti z 19. listopadu uvedla, že přehodnocuje termíny cíle nulových emisí do roku 2030, protože poptávka po infrastruktuře pro AI rostla rychleji, než téměř kdokoli čekal. Podle zprávy její čisté emise za rok 2025 vzrostly o 45 % na 11,8 milionu tun ekvivalentu CO2.",
+        "en": "In its November 19 sustainability report, Meta said it is re-evaluating the timeline of its 2030 net-zero goal because demand for AI infrastructure grew faster than almost anyone projected. Per the report, its net emissions for 2025 rose 45% to 11.8 million tonnes of CO2 equivalent."
       },
       "why": {
-        "cs": "Meta cíl nezrušila: dlouhodobé ambice podle ní platí a další postup slíbila oznámit. Ars Technica připomíná, že Amazon, Google i Microsoft své cíle zatím drží, i když jim emise také rostou.",
-        "en": "Meta did not drop the goal: it says its long-term ambitions stand and promises an update. Ars Technica notes Amazon, Google, and Microsoft have kept their goals so far, though their emissions also rose."
+        "cs": "Čisté emise jsou podle Ars Technica po započtení obnovitelné energie a odstraňování uhlíku. Meta cíl nezrušila a další postup slíbila oznámit; Amazon, Google i Microsoft své cíle zatím drží.",
+        "en": "Per Ars Technica, net emissions count renewable energy and carbon removal. Meta did not drop the goal and promises an update; Amazon, Google, and Microsoft have so far kept theirs."
       },
       "sources": [
         {
@@ -208,8 +208,8 @@
         "en": "With Images 2.6 from November 4, ChatGPT can save a reference photo. Upload it and ask to save it, choose a name, and in a later chat type, say, “watercolor portrait of @Pepper” without uploading the photo again. Per OpenAI’s help center, Images is on all plans on web, iOS, and Android."
       },
       "why": {
-        "cs": "Nahraj fotku a napiš, ať ji uloží jako referenci; ChatGPT ji může nabídnout i sám. Nápověda neuvádí, kde se uložené fotky mažou; než uložíš fotku člověka, rozmysli si soukromí.",
-        "en": "Upload a photo and ask ChatGPT to save it as a reference; it may offer too. The help article does not say where saved photos are deleted; mind privacy before saving a person’s photo."
+        "cs": "ChatGPT může uložení nabídnout i sám, když fotku popíšeš. Nápověda k Images neuvádí, jak uložené fotky spravovat či smazat; než uložíš fotku člověka, rozmysli si soukromí.",
+        "en": "ChatGPT may offer to save a photo itself when you describe it. The Images help does not say how to manage or delete saved photos; think about privacy before saving a person’s photo."
       },
       "sources": [
         {
@@ -233,12 +233,12 @@
         "en": "Google Pics now runs on Nano Banana 2.1"
       },
       "summary": {
-        "cs": "Google 16. listopadu začal do Google Pics zavádět model Nano Banana 2.1: věrnější úpravy s méně nechtěnými změnami okolí, čistší text v obrázcích a stejná rychlost. Pics tvoří a upravuje obrázky podle promptu nebo referenčních snímků, na počítači i uvnitř Dokumentů a Prezentací Google.",
-        "en": "On November 16, Google began rolling out the Nano Banana 2.1 model in Google Pics: more faithful edits with fewer unrequested changes around the subject, cleaner text in images, and the same speed. Pics creates and edits images from a prompt or reference images, on desktop and inside Google Docs and Slides."
+        "cs": "Google 16. listopadu začal do Google Pics zavádět model Nano Banana 2.1: věrnější úpravy s méně nechtěnými změnami okolí, čistší text v obrázcích a srovnatelná rychlost. Pics tvoří a upravuje obrázky podle promptu nebo referenčních snímků, na počítači i uvnitř Dokumentů a Prezentací Google.",
+        "en": "On November 16, Google began rolling out the Nano Banana 2.1 model in Google Pics: more faithful edits with fewer unrequested changes around the subject, cleaner text in images, and comparable speed. Pics creates and edits images from a prompt or reference images, on desktop and inside Google Docs and Slides."
       },
       "why": {
-        "cs": "Otevři docs.google.com/images/create. Potřebuješ Google AI Pro či Ultra nebo Workspace Business či Enterprise; čeština je podporovaná. Podle nápovědy mají uživatelé vyšší limity aspoň do 28. února 2027.",
-        "en": "Open docs.google.com/images/create. You need Google AI Pro or Ultra or Workspace Business or Enterprise; Czech is supported. Per the help center, users get higher limits through at least February 28, 2027."
+        "cs": "Otevři docs.google.com/images/create. Potřebuješ Google AI Pro či Ultra (příspěvek uvádí i Plus) nebo Workspace Business či Enterprise (Standard či Plus); čeština je podporovaná. Limity tvorby obrázků jsou vyšší aspoň do 28. února 2027.",
+        "en": "Open docs.google.com/images/create. You need Google AI Pro or Ultra (the post also lists Plus) or Workspace Business or Enterprise (Standard or Plus); Czech is supported. Image limits are higher through at least February 28, 2027."
       },
       "sources": [
         {
@@ -262,8 +262,8 @@
         "en": "For developers: Copilot Evals test your skills and agents"
       },
       "summary": {
-        "cs": "GitHub 17. listopadu uvedl Copilot Evals ve veřejném náhledu: opakovatelné testy pro skills, vlastní agenty a nástroje MCP. Spustíš je příkazem /eval nebo prosbou ke Copilotovi, každý běh nejdřív schvaluješ a po změně nastavení porovnáš výsledky před a po. Evals běží na lokálním nástroji Vally.",
-        "en": "On November 17, GitHub launched Copilot Evals in public preview: repeatable tests for skills, custom agents, and MCP tools. You run them with the /eval command or by asking Copilot, approve each run first, and compare results before and after a setup change. Evals runs on the local tool Vally."
+        "cs": "GitHub 17. listopadu uvedl Copilot Evals ve veřejném náhledu: opakovatelné testy, které ověří, jak si vedou tvé skills (sady pokynů), vlastní agenti a nástroje MCP. Spustíš je příkazem /eval nebo prosbou ke Copilotovi, každý běh nejdřív schvaluješ a po změně nastavení porovnáš výsledky před a po.",
+        "en": "On November 17, GitHub launched Copilot Evals in public preview: repeatable tests that check how your skills (instruction sets), custom agents, and MCP tools perform. You run them with the /eval command or by asking Copilot, approve each run first, and compare results before and after a setup change."
       },
       "why": {
         "cs": "Nainstaluj rozšíření Copilot Evals do VS Code, plugin do Copilot CLI, nebo v aplikaci Copilot přes Customize přidej marketplace github/evals. Náhled platí pro tarify Individual, Business a Enterprise.",
@@ -287,8 +287,8 @@
         "en": "For developers: AI Studio builds Android apps with databases"
       },
       "summary": {
-        "cs": "Google 17. listopadu rozšířil Android vývoj v AI Studiu: agent Build po tvém potvrzení podle promptu zřídí databázi Cloud Firestore a přihlášení přes Google, volá Gemini bez klíče v APK a appku vydá do osobní knihovny Google Play. Přibyl rychlejší HD emulátor se zvukem a snímek obrazovky pro agenta jedním klikem.",
-        "en": "On November 17, Google expanded Android development in AI Studio: from a prompt, the Build agent, with your confirmation, sets up a Cloud Firestore database and Google sign-in, calls Gemini without a key in the APK, and publishes to your personal Google Play library. A faster HD emulator with audio and one-click screenshots also arrive."
+        "cs": "Google 17. listopadu rozšířil Android vývoj v AI Studiu: agent Build z popisu sám postaví Android aplikaci a po potvrzení k ní zřídí databázi Cloud Firestore a přihlášení přes Google. Hotovou appku vydá do osobní knihovny Google Play, odkud ji nainstaluješ do telefonu.",
+        "en": "On November 17, Google expanded Android development in AI Studio: from a description, the Build agent builds an Android app itself and, with your confirmation, sets up a Cloud Firestore database and Google sign-in. It publishes the finished app to your personal Google Play library, from where you install it on your phone."
       },
       "why": {
         "cs": "V AI Studiu otevři Build (aistudio.google.com/apps), nahoře zvol Android a popiš appku; vyzkoušet ji na telefonu jde zdarma. Dostupnost podle zemí zdroj neuvádí.",
@@ -298,10 +298,6 @@
         {
           "name": "Google",
           "url": "https://developers.googleblog.com/build-full-stack-android-apps-with-gemini-in-google-ai-studio/"
-        },
-        {
-          "name": "9to5Google",
-          "url": "https://9to5google.com/2026/11/17/material-3-expressive-scrolling-time-picker/"
         }
       ]
     }
@@ -394,8 +390,8 @@
         "en": "ChatGPT: Advanced and Standard voice retire"
       },
       "note": {
-        "cs": "Oznámeno 10. listopadu: 11. prosince skončí ve ChatGPT Voice Advanced a Standard voice, zůstane GPT-Live. Výjimka: živé video a sdílení obrazovky zatím zůstanou na Advanced voice, dokud je GPT-Live nezíská.",
-        "en": "Announced November 10: on December 11, Advanced and Standard voice leave ChatGPT Voice, leaving GPT-Live. Exception: live video and screen sharing stay on Advanced voice until GPT-Live gets them."
+        "cs": "Oznámeno 10. listopadu: 11. prosince skončí hlasové režimy Advanced a Standard, zůstane GPT-Live. Výjimka: živé video a sdílení obrazovky zůstanou na Advanced, dokud je GPT-Live nezíská.",
+        "en": "Announced November 10: on December 11, the Advanced and Standard voice modes retire, leaving GPT-Live. Exception: live video and screen sharing stay on Advanced until GPT-Live gets them."
       },
       "sources": [
         {
