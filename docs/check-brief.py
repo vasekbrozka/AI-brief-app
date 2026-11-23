@@ -74,6 +74,7 @@ CANONICAL_NAMES = {
     "mpo.gov.cz": "Ministerstvo průmyslu a obchodu",
     "signal.org": "Signal", "dragos.com": "Dragos", "bing.com": "Bing", "gemini.google": "Google",
     "autoriteitpersoonsgegevens.nl": "Autoriteit Persoonsgegevens",
+    "wellsfargo.com": "Wells Fargo", "chase.com": "JPMorgan Chase", "atmeta.com": "Meta",
 }
 
 # --- zdroje: tiery důvěryhodnosti (viz recept, sekce Zdroje) ------------------
@@ -102,6 +103,8 @@ T1_DOMAINS = [
     "signal.org", "dragos.com", "autoriteitpersoonsgegevens.nl", "alpo.ge", "bing.com",
     # 22. 11.: vlastní web aplikace Gemini (stránka importu historie chatů)
     "gemini.google",
+    # 23. 11.: primární zdroje subjektů zpráv — smluvní podmínky bank (Wells Fargo, JPMorgan Chase) a zpráva o udržitelnosti Mety
+    "wellsfargo.com", "chase.com", "atmeta.com",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.

@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-22T03:56:18Z",
+  "updated": "2026-11-23T03:34:21Z",
   "briefs": [
+    {
+      "date": "2026-11-23",
+      "headline": {
+        "cs": "Úřady a Microsoft čekají další výpadky; AI zrychluje záplaty",
+        "en": "Officials, Microsoft expect more outages as AI speeds patching"
+      },
+      "itemCount": 10
+    },
     {
       "date": "2026-11-22",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Anthropic uvedla Claude Fable 5.2 a Mythos 5.2",
         "en": "Anthropic launches Claude Fable 5.2 and Mythos 5.2"
-      },
-      "itemCount": 10
-    },
-    {
-      "date": "2026-11-09",
-      "headline": {
-        "cs": "Nvidia vyšetřuje, zda byl šéf Huang cílem cizí rozvědky",
-        "en": "Nvidia investigates whether Huang was a foreign intelligence target"
       },
       "itemCount": 10
     }

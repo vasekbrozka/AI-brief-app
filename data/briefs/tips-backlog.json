@@ -1,50 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-copilot-cowork-event-tasks",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": false,
-      "title": {
-        "cs": "Copilot Cowork spustí úkol sám, když něco přijde",
-        "en": "Copilot Cowork now starts tasks on its own trigger"
-      },
-      "summary": {
-        "cs": "Cowork v Copilotu teď umí hlídat e-mail i Teams a sám spustit úkol, když dorazí zpráva od konkrétního odesílatele, s klíčovým slovem nebo tě někdo označí. Připraví odpověď nebo akci předem, ale než něco pošle nebo změní, vždy si vyžádá tvoje schválení. Microsoft to rozjíždí v srpnu.",
-        "en": "Cowork in Copilot can now watch email and Teams and start a task on its own when a message arrives from a specific sender, contains a keyword, or mentions you. It prepares a reply or action, but always asks your approval before sending or changing anything. Rolling out in August."
-      },
-      "sources": [
-        {
-          "name": "Microsoft",
-          "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/cowork-in-progress/4511672"
-        }
-      ],
-      "added": "2026-08-24",
-      "used": "2026-08-24"
-    },
-    {
-      "slug": "tip-grok-bot",
-      "category": "tools",
-      "theme": "other",
-      "verified": false,
-      "title": {
-        "cs": "Grok dostal AI kolegy na trvalém cloudovém počítači",
-        "en": "Grok gets AI teammates on a persistent cloud computer"
-      },
-      "summary": {
-        "cs": "xAI spustilo Grok Bota — pojmenované AI kolegy, kteří běží na sdíleném trvalém cloudovém počítači s prohlížečem, příkazovou řádkou i přihlášením do appek. Pamatují si kontext napříč úkoly, umí se naučit postup podle jedné ukázky a spouštět ho pak sami podle plánu. xAI to spustilo 11. srpna.",
-        "en": "xAI launched Grok Bot — named AI teammates that run on a shared, persistent cloud computer with a browser, command line, and app logins. They keep context across tasks, can learn a workflow from a single demonstration, and then run it themselves on a schedule. xAI shipped it on August 11."
-      },
-      "sources": [
-        {
-          "name": "xAI",
-          "url": "https://x.ai/news/introducing-grok-bot"
-        }
-      ],
-      "added": "2026-08-24",
-      "used": "2026-08-24"
-    },
-    {
       "slug": "tip-gemini-interactive-storytime",
       "category": "tools",
       "theme": "gemini",
@@ -5134,33 +5090,6 @@
       "used": "2026-11-11"
     },
     {
-      "slug": "tip-google-play-personal-ai-apps-ai-studio",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": true,
-      "eventDate": "2026-10-13",
-      "title": {
-        "cs": "Android: vlastní aplikaci z AI Studia spustíš bez vývojářského účtu",
-        "en": "Android: run your own AI Studio app without a developer account"
-      },
-      "summary": {
-        "cs": "Google 13. října oznámil, že aplikaci, kterou si pomocí vibe codingu vytvoříš v Google AI Studiu, můžeš přes Google Play spustit na vlastním zařízení jen s běžným účtem Google, bez vývojářského účtu. Zůstane soukromá, oddělená od veřejného katalogu. Zatím jen na vybraných trzích včetně USA a od 18 let.",
-        "en": "Google said on October 13 that an app you vibe-code in Google AI Studio can run on your own device through Google Play with just a regular Google account, no developer account. It stays private, separate from the public catalog. For now only in select markets, including the US, for ages 18 and over."
-      },
-      "why": {
-        "cs": "Sdílení s blízkými má přijít až „v příštích měsících“; veřejné vydání vyžaduje vývojářský účet a stejné kontroly jako u ostatních aplikací. Zdroj nejmenuje, zda to běží v Česku.",
-        "en": "Sharing with close contacts is promised only “in the coming months”; a public release needs a developer account and the same reviews as other apps. The source does not say whether it works in Czechia."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/"
-        }
-      ],
-      "added": "2026-11-09",
-      "used": null
-    },
-    {
       "slug": "tip-github-copilot-vscode-local-automations-cron",
       "category": "tools",
       "theme": "copilot",
@@ -6147,33 +6076,6 @@
       "used": "2026-11-18"
     },
     {
-      "slug": "tip-github-copilot-evals",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": true,
-      "eventDate": "2026-11-17",
-      "title": {
-        "cs": "GitHub Copilot Evals otestují tvé skills a agenty",
-        "en": "GitHub Copilot Evals tests your skills and agents"
-      },
-      "summary": {
-        "cs": "GitHub 17. listopadu uvedl ve veřejném náhledu GitHub Copilot Evals. Eval je opakovatelný test chování AI: zadáš agentovi realistický úkol, popíšeš dobrý výsledek a zkontroluješ výsledek i postup. Po úpravě skillu, vlastního agenta či nástroje MCP test spustíš znovu a odhalíš zhoršení.",
-        "en": "On November 17, GitHub launched GitHub Copilot Evals in public preview. An eval is a repeatable test of AI behavior: you give an agent a realistic task, describe a good result, and check the outcome and the steps taken. After changing a skill, custom agent, or MCP tool, rerun it to catch regressions."
-      },
-      "why": {
-        "cs": "Napiš Copilotu vlastními slovy nebo použij /eval; každý běh schvaluješ. Nainstaluj rozšíření pro VS Code, plugin do Copilot CLI či plugin v aplikaci Copilot (Individual, Business, Enterprise).",
-        "en": "Ask Copilot in your own words or use /eval; you approve each run. Install the extension for VS Code, the plugin for Copilot CLI, or the plugin in the Copilot app (Individual, Business, Enterprise)."
-      },
-      "sources": [
-        {
-          "name": "GitHub",
-          "url": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview"
-        }
-      ],
-      "added": "2026-11-18",
-      "used": null
-    },
-    {
       "slug": "tip-claude-code-review-bugs-only",
       "category": "tools",
       "theme": "claude",
@@ -6786,6 +6688,180 @@
         }
       ],
       "added": "2026-11-22",
+      "used": null
+    },
+    {
+      "slug": "tip-chatgpt-saved-reference-photo",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-11-04",
+      "title": {
+        "cs": "ChatGPT si uloží fotku; příště stačí napsat @jméno",
+        "en": "ChatGPT saves a photo; next time just type @name"
+      },
+      "summary": {
+        "cs": "S modelem Images 2.6 z 4. listopadu si ChatGPT umí uložit referenční fotku. Nahraješ ji a požádáš o uložení, zvolíš jméno a v dalším chatu napíšeš třeba „akvarelový portrét @Pepper“, aniž bys fotku nahrával znovu. Images jsou podle nápovědy OpenAI ve všech tarifech na webu, iOS i Androidu.",
+        "en": "With Images 2.6 from November 4, ChatGPT can save a reference photo. Upload it and ask to save it, choose a name, and in a later chat type, say, “watercolor portrait of @Pepper” without uploading the photo again. Per OpenAI’s help center, Images is on all plans on web, iOS, and Android."
+      },
+      "why": {
+        "cs": "Nahraj fotku a napiš, ať ji uloží jako referenci; ChatGPT ji může nabídnout i sám. Nápověda neuvádí, kde se uložené fotky mažou; než uložíš fotku člověka, rozmysli si soukromí.",
+        "en": "Upload a photo and ask ChatGPT to save it as a reference; it may offer too. The help article does not say where saved photos are deleted; mind privacy before saving a person’s photo."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "added": "2026-11-23",
+      "used": "2026-11-23"
+    },
+    {
+      "slug": "tip-google-pics-nano-banana-2-1",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-16",
+      "title": {
+        "cs": "Google Pics: obrázky promptem, nově s Nano Banana 2.1",
+        "en": "Google Pics now runs on Nano Banana 2.1"
+      },
+      "summary": {
+        "cs": "Google 16. listopadu začal do Google Pics zavádět model Nano Banana 2.1: věrnější úpravy s méně nechtěnými změnami okolí, čistší text v obrázcích a stejná rychlost. Pics tvoří a upravuje obrázky podle promptu nebo referenčních snímků, na počítači i uvnitř Dokumentů a Prezentací Google.",
+        "en": "On November 16, Google began rolling out the Nano Banana 2.1 model in Google Pics: more faithful edits with fewer unrequested changes around the subject, cleaner text in images, and the same speed. Pics creates and edits images from a prompt or reference images, on desktop and inside Google Docs and Slides."
+      },
+      "why": {
+        "cs": "Otevři docs.google.com/images/create. Potřebuješ Google AI Pro či Ultra nebo Workspace Business či Enterprise; čeština je podporovaná. Podle nápovědy mají uživatelé vyšší limity aspoň do 28. února 2027.",
+        "en": "Open docs.google.com/images/create. You need Google AI Pro or Ultra or Workspace Business or Enterprise; Czech is supported. Per the help center, users get higher limits through at least February 28, 2027."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/google-pics-upgrades-to-nano-banana-21-for-higher-quality-image-generation-and-editing.html"
+        },
+        {
+          "name": "Google",
+          "url": "https://support.google.com/docs/answer/17256710"
+        }
+      ],
+      "added": "2026-11-23",
+      "used": "2026-11-23"
+    },
+    {
+      "slug": "tip-github-copilot-evals",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Pro vývojáře: Copilot Evals testují tvé skills a agenty",
+        "en": "For developers: Copilot Evals test your skills and agents"
+      },
+      "summary": {
+        "cs": "GitHub 17. listopadu uvedl Copilot Evals ve veřejném náhledu: opakovatelné testy pro skills, vlastní agenty a nástroje MCP. Spustíš je příkazem /eval nebo prosbou ke Copilotovi, každý běh nejdřív schvaluješ a po změně nastavení porovnáš výsledky před a po. Evals běží na lokálním nástroji Vally.",
+        "en": "On November 17, GitHub launched Copilot Evals in public preview: repeatable tests for skills, custom agents, and MCP tools. You run them with the /eval command or by asking Copilot, approve each run first, and compare results before and after a setup change. Evals runs on the local tool Vally."
+      },
+      "why": {
+        "cs": "Nainstaluj rozšíření Copilot Evals do VS Code, plugin do Copilot CLI, nebo v aplikaci Copilot přes Customize přidej marketplace github/evals. Náhled platí pro tarify Individual, Business a Enterprise.",
+        "en": "Install the Copilot Evals extension in VS Code, the plugin in Copilot CLI, or in the Copilot app add the github/evals marketplace via Customize. The preview covers Individual, Business, and Enterprise plans."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview"
+        }
+      ],
+      "added": "2026-11-18",
+      "used": "2026-11-23"
+    },
+    {
+      "slug": "tip-google-ai-studio-android-full-stack",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Pro vývojáře: AI Studio postaví Android appku s databází",
+        "en": "For developers: AI Studio builds Android apps with databases"
+      },
+      "summary": {
+        "cs": "Google 17. listopadu rozšířil Android vývoj v AI Studiu: agent Build po tvém potvrzení podle promptu zřídí databázi Cloud Firestore a přihlášení přes Google, volá Gemini bez klíče v APK a appku vydá do osobní knihovny Google Play. Přibyl rychlejší HD emulátor se zvukem a snímek obrazovky pro agenta jedním klikem.",
+        "en": "On November 17, Google expanded Android development in AI Studio: from a prompt, the Build agent, with your confirmation, sets up a Cloud Firestore database and Google sign-in, calls Gemini without a key in the APK, and publishes to your personal Google Play library. A faster HD emulator with audio and one-click screenshots also arrive."
+      },
+      "why": {
+        "cs": "V AI Studiu otevři Build (aistudio.google.com/apps), nahoře zvol Android a popiš appku; vyzkoušet ji na telefonu jde zdarma. Dostupnost podle zemí zdroj neuvádí.",
+        "en": "In AI Studio open Build (aistudio.google.com/apps), pick Android at the top, and describe the app; trying it on your phone is free. The source does not say which countries get it."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://developers.googleblog.com/build-full-stack-android-apps-with-gemini-in-google-ai-studio/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/11/17/material-3-expressive-scrolling-time-picker/"
+        }
+      ],
+      "added": "2026-11-23",
+      "used": "2026-11-23"
+    },
+    {
+      "slug": "tip-google-play-personal-ai-apps-ai-studio",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-10-13",
+      "title": {
+        "cs": "Android: vlastní aplikaci z AI Studia spustíš bez vývojářského účtu",
+        "en": "Android: run your own AI Studio app without a developer account"
+      },
+      "summary": {
+        "cs": "Google 13. října oznámil, že aplikaci, kterou si pomocí vibe codingu vytvoříš v Google AI Studiu, můžeš přes Google Play spustit na vlastním zařízení jen s běžným účtem Google, bez vývojářského účtu. Zůstane soukromá, oddělená od veřejného katalogu. Zatím jen na vybraných trzích včetně USA a od 18 let.",
+        "en": "Google said on October 13 that an app you vibe-code in Google AI Studio can run on your own device through Google Play with just a regular Google account, no developer account. It stays private, separate from the public catalog. For now only in select markets, including the US, for ages 18 and over."
+      },
+      "why": {
+        "cs": "Sdílení s blízkými má přijít až „v příštích měsících“; veřejné vydání vyžaduje vývojářský účet a stejné kontroly jako u ostatních aplikací. Zdroj nejmenuje, zda to běží v Česku.",
+        "en": "Sharing with close contacts is promised only “in the coming months”; a public release needs a developer account and the same reviews as other apps. The source does not say whether it works in Czechia."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/"
+        }
+      ],
+      "added": "2026-11-09",
+      "used": "2026-11-23"
+    },
+    {
+      "slug": "tip-google-vids-assets-reuse-media",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Google Vids si pamatuje tvá média pro další videa",
+        "en": "Google Vids remembers your media for later videos"
+      },
+      "summary": {
+        "cs": "Google 17. listopadu začal zavádět ve Vids sekci Assets: média, která použiješ při generování videa Gemini Omni (obrázky, videa, zvuk), se v projektu uloží a můžeš je znovu vybrat jako ingredience pro další videa.",
+        "en": "On November 17, Google began rolling out an Assets section in Vids: media you use when generating video with Gemini Omni (images, video, audio) is stored in the project, and you can pick it again as ingredients for later videos."
+      },
+      "why": {
+        "cs": "Je to ve výchozím stavu zapnuto, bez nastavení. Domény s Rapid Release dostávají funkci od 17. listopadu (až 15 dní), Scheduled Release od 2. prosince; pro osobní účty s Google AI Pro a Ultra.",
+        "en": "It is on by default, with no setting. Rapid Release domains get it from November 17 (up to 15 days), Scheduled Release from December 2; for personal accounts with Google AI Pro and Ultra."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/google-vids-now-lets-you-reuse-your-media-in-video-generation.html"
+        }
+      ],
+      "added": "2026-11-23",
       "used": null
     }
   ]

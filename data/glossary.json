@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "terms": [
     {
       "id": "quantization",
@@ -2004,6 +2004,49 @@
       "short": {
         "cs": "Windows Subsystem for Linux: součást Windows, ve které běží Linux. Některé programy se v ní chovají jinak než na běžném Linuxu.",
         "en": "Windows Subsystem for Linux: a Windows component that runs Linux inside Windows. Some programs behave differently there than on plain Linux."
+      }
+    },
+    {
+      "id": "perplexity",
+      "term": {
+        "cs": "Perplexita (perplexity)",
+        "en": "Perplexity"
+      },
+      "aliases": [
+        "perplexita",
+        "perplexity",
+        "perplexitou",
+        "perplexitu",
+        "perplexitě",
+        "log-perplexity",
+        "logaritmická perplexita"
+      ],
+      "short": {
+        "cs": "Číslo, které říká, jak dobře model předpovídá další slovo (token) v textu, který při tréninku neviděl: čím nižší, tím lepší předpovědi. OpenAI ho používá k měření pokroku předtrénování.",
+        "en": "A number showing how well a model predicts the next word (token) in text it did not see in training: lower is better. OpenAI uses it to track progress in pretraining."
+      }
+    },
+    {
+      "id": "patch",
+      "term": {
+        "cs": "Záplata (patch)",
+        "en": "Patch"
+      },
+      "aliases": [
+        "záplata",
+        "záplaty",
+        "záplatu",
+        "záplatě",
+        "záplatách",
+        "záplat",
+        "záplatami",
+        "patch",
+        "patches",
+        "patching"
+      ],
+      "short": {
+        "cs": "Oprava chyby v softwaru, často bezpečnostní, kterou výrobce vydá jako aktualizaci. Čím déle se s ní čeká, tím déle je chyba zneužitelná; příliš rychlé nasazení ale může samo způsobit výpadek.",
+        "en": "A fix for a software flaw, often a security one, that the vendor ships as an update. The longer it waits, the longer the flaw can be exploited; rushing it can itself cause an outage."
       }
     }
   ]
