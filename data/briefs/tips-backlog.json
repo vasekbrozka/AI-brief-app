@@ -6760,16 +6760,16 @@
       "verified": true,
       "eventDate": "2026-11-23",
       "title": {
-        "cs": "Pro vývojáře: Claude Code převezme chybu z VS Code",
-        "en": "For developers: Claude Code picks up VS Code errors"
+        "cs": "Pro vývojáře: Claude Code vloží chybu do chatu",
+        "en": "For developers: Claude Code puts an error into chat"
       },
       "summary": {
-        "cs": "Claude Code 2.1.331 z 23. listopadu přidal do rozšíření pro VS Code akci Fix with Claude Code: u chyb a varování v editoru i u neúspěšných testů ji najdeš mezi rychlými opravami a problém se vloží do chatu s Claudem. Přibyla také akce Resolve Merge Conflicts u souborů s konflikty.",
-        "en": "Claude Code 2.1.331 from November 23 added a Fix with Claude Code action to its VS Code extension: for errors and warnings in the editor and for failed tests, you find it among quick fixes and the problem is put into the chat with Claude. It also added Resolve Merge Conflicts for files with conflicts."
+        "cs": "Claude Code 2.1.331 z 23. listopadu přidal do rozšíření pro VS Code akci Fix with Claude Code: u chyb a varování v editoru ji najdeš mezi rychlými opravami, u neúspěšných testů v náhledu testu a v Test Results. Problém se vloží do chatového pole.",
+        "en": "Claude Code 2.1.331 from November 23 added a Fix with Claude Code action to its VS Code extension: for errors and warnings in the editor it appears among quick fixes, for failed tests in the test peek and Test Results. The problem is put into the chat box."
       },
       "why": {
-        "cs": "Aktualizuj rozšíření a u podtržené chyby otevři nabídku rychlých oprav. Claude chybu sám neopraví: jen ji vloží do chatového pole. U neúspěšných testů akci najdeš v Test Results.",
-        "en": "Update the extension, then open the quick-fix menu on an underlined error. Claude does not fix it itself; it only puts the error in the chat box. For failed tests, look in Test Results."
+        "cs": "Aktualizuj rozšíření a u podtržené chyby otevři nabídku rychlých oprav. Nová akce Resolve Merge Conflicts je v záhlaví souboru s konflikty a v Source Control ve skupině Merge Changes.",
+        "en": "Update the extension and open the quick-fix menu on an underlined error. The new Resolve Merge Conflicts action sits in the title of a conflicted file and in Source Control’s Merge Changes group."
       },
       "sources": [
         {
@@ -6791,12 +6791,12 @@
         "en": "For developers: VS Code sends an agent request later"
       },
       "summary": {
-        "cs": "VS Code 1.147 z 18. listopadu přidal experimentální funkci Send Later: v okně Agents odložíš požadavek na zvolený čas nebo agentovi řekneš třeba „Zkontroluj build za 10 minut“. Rozepsané požadavky lze také ukládat jako koncepty (drafts) a vrátit se k nim později.",
-        "en": "VS Code 1.147 from November 18 added an experimental Send Later feature: in the Agents window you postpone a request to a chosen time, or tell the agent something like “Check the build in 10 minutes”. Unsent requests can also be saved as drafts and resumed later."
+        "cs": "VS Code 1.147 z 18. listopadu přidal experimentální funkci Send Later: v okně Agents odložíš chatový požadavek na zvolený čas nebo agentovi řekneš třeba „Zkontroluj build za 10 minut“; požadavek se pak odešle sám.",
+        "en": "VS Code 1.147 from November 18 added an experimental Send Later feature: in the Agents window you postpone a chat request to a chosen time, or tell the agent something like “Check the build in 10 minutes”; the request is then sent by itself."
       },
       "why": {
-        "cs": "Zapni sessions.sendLater.enabled a chat.automations.enabled; funguje jen v okně Agents u relací na tomto počítači. Počítač musí v daný čas běžet, spící ho nevzbudí; zmeškaný požadavek se vyřídí po návratu.",
-        "en": "Turn on sessions.sendLater.enabled and chat.automations.enabled; works only in the Agents window, for sessions on this computer. The computer must be on then: sleeping machines are not woken, and a missed request runs afterward."
+        "cs": "V okně Agents použij nabídku Send Later u tlačítka odeslat. Zapni sessions.sendLater.enabled a chat.automations.enabled; jen místní relace. Spící počítač se neprobudí; zmeškaný požadavek proběhne, až znovu poběží.",
+        "en": "Use the Send Later menu on the send button in the Agents window. Enable sessions.sendLater.enabled and chat.automations.enabled; local sessions only. A sleeping computer is not woken; a missed request runs when it is back."
       },
       "sources": [
         {
@@ -6814,16 +6814,16 @@
       "verified": true,
       "eventDate": "2026-11-19",
       "title": {
-        "cs": "Health v ChatGPT nově funguje na Androidu a počítači",
-        "en": "ChatGPT Health now works on Android and desktop"
+        "cs": "Health v ChatGPT: Android a počítač, zatím jen USA",
+        "en": "ChatGPT Health: Android and desktop, for now US only"
       },
       "summary": {
-        "cs": "OpenAI 19. listopadu rozšířila Health ve ChatGPT na Android (s Health Connect), do aplikace pro počítač, k dotům a do sites. Zdravotní a fitness data propojíš a ChatGPT hledá vzorce ve spánku či aktivitě. Health mají uživatelé Free, Go, Plus a Pro v USA; dota zatím jen uživatelé Pro.",
-        "en": "On November 19, OpenAI extended Health in ChatGPT to Android (with Health Connect), the desktop app, dots, and sites. You connect health and fitness data and ChatGPT looks for patterns in sleep or activity. Free, Go, Plus, and Pro users in the US have Health; only Pro users have dots for now."
+        "cs": "OpenAI 19. listopadu rozšířila Health ve ChatGPT na Android (s Health Connect), do aplikace pro počítač, k dotům a do webů (sites), které ChatGPT sestaví. Zdravotní a fitness data propojíš a ChatGPT hledá vzorce ve spánku či aktivitě. Health mají postupně uživatelé Free, Go, Plus a Pro v USA; dota zatím jen Pro.",
+        "en": "On November 19, OpenAI extended Health in ChatGPT to Android (with Health Connect), the desktop app, dots, and sites ChatGPT builds. You connect health and fitness data and ChatGPT looks for patterns in sleep or activity. Free, Go, Plus, and Pro users in the US get Health gradually; only Pro users have dots for now."
       },
       "why": {
-        "cs": "Aktualizuj ChatGPT a v postranním panelu vyber Health, případně v nabídce Explore; zavádí se postupně a jen v USA, z Česka ho tedy zatím nezkusíš. Data z Health Connect i zdravotní záznamy si propojuješ sám.",
-        "en": "Update ChatGPT and pick Health in the sidebar or the Explore menu; it rolls out gradually and only in the US, so not yet from Czechia. You connect Health Connect data and medical records yourself."
+        "cs": "Aktualizuj ChatGPT a v postranním panelu vyber Health, případně v nabídce Explore. Zavádí se postupně a jen v USA, z Česka tedy zatím ne. Data z Health Connect i zdravotní záznamy si propojuješ sám.",
+        "en": "Update ChatGPT and pick Health in the sidebar or the Explore menu. It rolls out gradually and only in the US, so not yet from Czechia. You connect Health Connect data and medical records yourself."
       },
       "sources": [
         {
@@ -6854,7 +6854,7 @@
       },
       "why": {
         "cs": "Hlasy vyzkoušíš v nabídce se třemi tečkami v Gemini Live nebo v nastavení hlasu Gemini v aplikaci. Čeština mezi jmenovanými jazyky není; Google výčet uvádí slovem „včetně“.",
-        "en": "Try the voices in the three-dot menu in Gemini Live or in Gemini’s voice settings in the app. Czech is not among the named languages; Google introduces the list with “including”."
+        "en": "Try the voices in the options menu in Gemini Live or in Gemini’s voice settings in the app. Czech is not among the named languages; Google introduces the list with “including”."
       },
       "sources": [
         {

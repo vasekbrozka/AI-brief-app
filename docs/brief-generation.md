@@ -570,6 +570,19 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   (čisté × celkové emise Mety mátly běžného čtenáře), zkratky (FAA, APK, EHP) rozepiš nebo vypusť a zdroj, který jen přepisuje
   seznam firmy (9to5Google u AI Studia), z `sources` vynech. Primární zdroje subjektů zpráv (Wells Fargo, Chase, zpráva Mety)
   patří do `T1_DOMAINS` a `CANONICAL_NAMES` v `check-brief.py`.
+  (47) **Čti seznam „Co není zpráva“ (krok 2, bod 8) při psaní shrnutí, ne až v kontrole; u dvojice firem čti oba zdroje; u firemních
+  produktů otevři dokumentaci; tip, který čtenář z Česka nevyzkouší, řekni v titulku** — 24. 11. jsem do draftu o návratu Huanga
+  napsala růst akcií o 27 % z jediného TechCrunche (vyvíjející se zpráva) a skeptik ho vyřadil podle pravidla o pohybech akcií.
+  U Shirudo jsem psala o štítech eBPF a o zastaveném útoku; příspěvek Cisca (Isovalent) ukázal, že ukázkový štít byl bytecode Javy
+  a test běžel na Elasticsearch 9.5.5 — **popiš, co ukázka opravdu dělala** („v jednom řízeném testu“, ne „zablokuje“). Tisková zpráva
+  a média o Claude Ship vynechala výjimky z dokumentace produktu (nejde se ZDR, HIPAA ani vlastními klíči; auto-merge bez povinného
+  lidského schválení změnu sloučí sám) — **u podnikových produktů hledej v dokumentaci oddíly Availability, Limits a Who can use**.
+  Tvrzení žalobců a interní testy firmy piš vždy „podle žalob“ / „podle testů OpenAI“; „je navržen, aby…“ není záruka. Dva ze tří
+  čtenářů poznamenali, že čtyři tipy (dva jen pro vývojáře, jeden jen v USA, jeden bez češtiny) čtenář z Česka nevyzkouší —
+  **preferuj funkci dostupnou v Česku bez amerického účtu, tip jen pro USA nech nejvýš jeden za brief a dej „zatím jen USA“ do
+  titulku**. Slovníček: u třídy modelů OpenAI chyběl alias „Sol“ a u veřejného náhledu „veřejná beta“ — po 5c doplň aliasy
+  existujících pojmů (nejsou to nové pojmy) a hlídej falešné zásahy (EN „three-dot menu“ zasáhlo alias „dots“). **Titulek radaru po
+  přenosu neměň** (`check-brief.py` páruje přenos podle titulku a hlásí WARN) — opravy dávej do poznámky.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

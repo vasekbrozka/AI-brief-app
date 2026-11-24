@@ -829,11 +829,12 @@
         "Terra",
         "Luna",
         "Astra",
-        "gpt-6-luna"
+        "gpt-6-luna",
+        "Sol"
       ],
       "short": {
-        "cs": "OpenAI dělí modely do čtyř tříd: Luna je nejlevnější, Terra střední, Sol silnější pro složitou práci a Astra nejschopnější a nejdražší.",
-        "en": "OpenAI sorts its models into four tiers: Luna is the cheapest, Terra mid-range, Sol stronger for complex work, and Astra the most capable and most expensive."
+        "cs": "OpenAI dělí modely do čtyř tříd: Luna je nejlevnější, Terra střední, Sol rychlý a úsporný se silným uvažováním pro každodenní práci a Astra nejschopnější a nejdražší.",
+        "en": "OpenAI sorts its models into four tiers: Luna is the cheapest, Terra mid-range, Sol fast and efficient with strong reasoning for everyday work, and Astra the most capable and most expensive."
       }
     },
     {
@@ -1822,15 +1823,21 @@
     {
       "id": "public-preview",
       "term": {
-        "cs": "Veřejný náhled (public preview)",
-        "en": "Public preview"
+        "cs": "Veřejný náhled a beta (public preview)",
+        "en": "Public preview and beta"
       },
       "aliases": [
         "public preview",
         "veřejném náhledu",
         "veřejný náhled",
         "veřejného náhledu",
-        "veřejným náhledem"
+        "veřejným náhledem",
+        "public beta",
+        "veřejná beta",
+        "veřejné betě",
+        "veřejnou betu",
+        "veřejné beta",
+        "veřejnou betou"
       ],
       "short": {
         "cs": "Raná, veřejně dostupná fáze nové funkce: můžeš ji vyzkoušet, ale může se ještě měnit a nemusí mít plnou podporu.",
