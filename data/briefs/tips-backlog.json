@@ -1,28 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-gemini-interactive-storytime",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": false,
-      "title": {
-        "cs": "Gemini pro domácnost umí interaktivní pohádky",
-        "en": "Gemini for Home tells interactive bedtime stories"
-      },
-      "summary": {
-        "cs": "Google Home s Gemini teď umí vyprávět pohádku, do které rodina zasahuje za chodu — řekneš mu, ať hlavní postava najde mapu pokladu nebo místo vlka přidá tyranosaura, a příběh se hned upraví. Google to spustil 5. srpna jako součást Gemini pro domácnost.",
-        "en": "Google Home with Gemini can now tell a bedtime story your family shapes as it goes — ask it to have the hero find a treasure map, or swap the wolf for a T-Rex, and the story adjusts on the spot. Google launched it on August 5 as part of Gemini for Home."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/products-and-platforms/devices/google-nest/gemini-for-home-things-to-try/"
-        }
-      ],
-      "added": "2026-08-25",
-      "used": "2026-08-25"
-    },
-    {
       "slug": "tip-claude-remote-control",
       "category": "tools",
       "theme": "claude",
@@ -3676,33 +3654,6 @@
       "used": "2026-10-28"
     },
     {
-      "slug": "tip-m365-copilot-word-read-aloud-voice",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": true,
-      "eventDate": "2026-08-25",
-      "title": {
-        "cs": "Copilot ve Wordu odpovídá na hlasové dotazy při předčítání",
-        "en": "Copilot in Word answers spoken questions during Read Aloud"
-      },
-      "summary": {
-        "cs": "Microsoft v poznámkách k vydání z 25. srpna uvádí, že předčítání dokumentu ve Wordu (Read Aloud) umí odpovídat na hlasové dotazy přes Copilota. Během čtení se zeptáš třeba „Co to znamená?“ nebo „Shrň tuto část“ a odpověď dostaneš, aniž bys čtení zastavoval. Funkce je zatím pro Word ve Windows.",
-        "en": "Microsoft’s August 25 release notes say Read Aloud in Word can answer spoken questions through Copilot. While the document is read out, you ask something like “What does this mean?” or “Summarize this section” and get an answer without stopping the reading. For now the feature is for Word on Windows."
-      },
-      "why": {
-        "cs": "Na kartě Review spusť Read Aloud a během čtení se ptej hlasem. Je v poznámkách k Microsoft 365 Copilot, které licenci neuvádějí; funkce se zavádí postupně.",
-        "en": "On the Review tab, start Read Aloud and ask by voice while it reads. It is in the Microsoft 365 Copilot notes, which name no license; features roll out gradually."
-      },
-      "sources": [
-        {
-          "name": "Microsoft Learn",
-          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
-        }
-      ],
-      "added": "2026-10-28",
-      "used": null
-    },
-    {
       "slug": "tip-github-copilot-fusion-ga",
       "category": "tools",
       "theme": "copilot",
@@ -5960,33 +5911,6 @@
       "used": "2026-11-17"
     },
     {
-      "slug": "tip-gemini-regional-voices",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": true,
-      "eventDate": "2026-11-16",
-      "title": {
-        "cs": "Gemini nabízí 66 nových regionálních hlasů",
-        "en": "Gemini adds 66 new regional voices"
-      },
-      "summary": {
-        "cs": "Google 16. listopadu zavedl v aplikaci Gemini na Androidu a iOS 66 nových regionálních hlasů, mj. pro americkou, britskou a indickou angličtinu, hindštinu, brazilskou portugalštinu, indonéštinu a korejštinu. Vybraný hlas platí v celé aplikaci, třeba v Gemini Live i při čtení odpovědí nahlas.",
-        "en": "On November 16, Google rolled out 66 new regional voices in the Gemini app on Android and iOS, including U.S., U.K., and Indian English, Hindi, Brazilian Portuguese, Indonesian, and Korean. The chosen voice applies across the app, for example in Gemini Live and when reading answers aloud."
-      },
-      "why": {
-        "cs": "Hlasy vyzkoušíš v nabídce se třemi tečkami v Gemini Live nebo v nastavení hlasu Gemini v aplikaci. Čeština mezi jmenovanými jazyky není; Google výčet uvádí slovem „včetně“.",
-        "en": "Preview the voices in the three-dot menu in Gemini Live or in Gemini’s voice settings in the app. Czech is not among the named languages; Google gives the list with “including”."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/"
-        }
-      ],
-      "added": "2026-11-17",
-      "used": null
-    },
-    {
       "slug": "tip-ai-mode-temporary-threads",
       "category": "tools",
       "theme": "gemini",
@@ -6660,37 +6584,6 @@
       "used": null
     },
     {
-      "slug": "tip-chatgpt-health-android-desktop-dots",
-      "category": "tools",
-      "theme": "chatgpt",
-      "verified": true,
-      "eventDate": "2026-11-19",
-      "title": {
-        "cs": "ChatGPT Health nově funguje i na Androidu a v aplikaci pro počítač",
-        "en": "ChatGPT Health now works on Android and in the desktop app"
-      },
-      "summary": {
-        "cs": "OpenAI 19. listopadu rozšířila Health ve ChatGPT na Android (s Health Connect), do aplikace pro počítač, k dotům a do sites. Propojíš zdravotní a fitness data a ChatGPT hledá vzorce ve spánku či aktivitě. Dostupné je uživatelům Free, Go, Plus a Pro v USA; dota zatím mají jen uživatelé Pro.",
-        "en": "On November 19, OpenAI extended Health in ChatGPT to Android (with Health Connect), the desktop app, dots, and sites. You connect health and fitness data and ChatGPT looks for patterns in sleep or activity. It is available to Free, Go, Plus, and Pro users in the US; dots are Pro-only for now."
-      },
-      "why": {
-        "cs": "Aktualizuj aplikaci ChatGPT a v postranním panelu vyber Health, případně v nabídce Explore; zavádí se postupně a jen pro USA. Data z Health Connect i zdravotní záznamy si propojuješ sám.",
-        "en": "Update the ChatGPT app and pick Health in the sidebar, or in the Explore menu; it rolls out gradually and only in the US. You connect Health Connect data and medical records yourself."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-        },
-        {
-          "name": "9to5Mac",
-          "url": "https://9to5mac.com/2026/11/19/chatgpt-health-feature-will-soon-work-with-mac-app-dots-more/"
-        }
-      ],
-      "added": "2026-11-22",
-      "used": null
-    },
-    {
       "slug": "tip-chatgpt-saved-reference-photo",
       "category": "tools",
       "theme": "chatgpt",
@@ -6858,6 +6751,172 @@
         }
       ],
       "added": "2026-11-23",
+      "used": null
+    },
+    {
+      "slug": "tip-claude-code-vscode-fix-with-claude",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-11-23",
+      "title": {
+        "cs": "Pro vývojáře: Claude Code převezme chybu z VS Code",
+        "en": "For developers: Claude Code picks up VS Code errors"
+      },
+      "summary": {
+        "cs": "Claude Code 2.1.331 z 23. listopadu přidal do rozšíření pro VS Code akci Fix with Claude Code: u chyb a varování v editoru i u neúspěšných testů ji najdeš mezi rychlými opravami a problém se vloží do chatu s Claudem. Přibyla také akce Resolve Merge Conflicts u souborů s konflikty.",
+        "en": "Claude Code 2.1.331 from November 23 added a Fix with Claude Code action to its VS Code extension: for errors and warnings in the editor and for failed tests, you find it among quick fixes and the problem is put into the chat with Claude. It also added Resolve Merge Conflicts for files with conflicts."
+      },
+      "why": {
+        "cs": "Aktualizuj rozšíření a u podtržené chyby otevři nabídku rychlých oprav. Claude chybu sám neopraví: jen ji vloží do chatového pole. U neúspěšných testů akci najdeš v Test Results.",
+        "en": "Update the extension, then open the quick-fix menu on an underlined error. Claude does not fix it itself; it only puts the error in the chat box. For failed tests, look in Test Results."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-11-24",
+      "used": "2026-11-24"
+    },
+    {
+      "slug": "tip-vscode-send-later-agents",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "Pro vývojáře: VS Code odešle požadavek agentovi později",
+        "en": "For developers: VS Code sends an agent request later"
+      },
+      "summary": {
+        "cs": "VS Code 1.147 z 18. listopadu přidal experimentální funkci Send Later: v okně Agents odložíš požadavek na zvolený čas nebo agentovi řekneš třeba „Zkontroluj build za 10 minut“. Rozepsané požadavky lze také ukládat jako koncepty (drafts) a vrátit se k nim později.",
+        "en": "VS Code 1.147 from November 18 added an experimental Send Later feature: in the Agents window you postpone a request to a chosen time, or tell the agent something like “Check the build in 10 minutes”. Unsent requests can also be saved as drafts and resumed later."
+      },
+      "why": {
+        "cs": "Zapni sessions.sendLater.enabled a chat.automations.enabled; funguje jen v okně Agents u relací na tomto počítači. Počítač musí v daný čas běžet, spící ho nevzbudí; zmeškaný požadavek se vyřídí po návratu.",
+        "en": "Turn on sessions.sendLater.enabled and chat.automations.enabled; works only in the Agents window, for sessions on this computer. The computer must be on then: sleeping machines are not woken, and a missed request runs afterward."
+      },
+      "sources": [
+        {
+          "name": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/updates/v1_147"
+        }
+      ],
+      "added": "2026-11-24",
+      "used": "2026-11-24"
+    },
+    {
+      "slug": "tip-chatgpt-health-android-desktop-dots",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-11-19",
+      "title": {
+        "cs": "Health v ChatGPT nově funguje na Androidu a počítači",
+        "en": "ChatGPT Health now works on Android and desktop"
+      },
+      "summary": {
+        "cs": "OpenAI 19. listopadu rozšířila Health ve ChatGPT na Android (s Health Connect), do aplikace pro počítač, k dotům a do sites. Zdravotní a fitness data propojíš a ChatGPT hledá vzorce ve spánku či aktivitě. Health mají uživatelé Free, Go, Plus a Pro v USA; dota zatím jen uživatelé Pro.",
+        "en": "On November 19, OpenAI extended Health in ChatGPT to Android (with Health Connect), the desktop app, dots, and sites. You connect health and fitness data and ChatGPT looks for patterns in sleep or activity. Free, Go, Plus, and Pro users in the US have Health; only Pro users have dots for now."
+      },
+      "why": {
+        "cs": "Aktualizuj ChatGPT a v postranním panelu vyber Health, případně v nabídce Explore; zavádí se postupně a jen v USA, z Česka ho tedy zatím nezkusíš. Data z Health Connect i zdravotní záznamy si propojuješ sám.",
+        "en": "Update ChatGPT and pick Health in the sidebar or the Explore menu; it rolls out gradually and only in the US, so not yet from Czechia. You connect Health Connect data and medical records yourself."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/19/chatgpt-health-feature-will-soon-work-with-mac-app-dots-more/"
+        }
+      ],
+      "added": "2026-11-22",
+      "used": "2026-11-24"
+    },
+    {
+      "slug": "tip-gemini-regional-voices",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-16",
+      "title": {
+        "cs": "Gemini v telefonu nabízí 66 nových regionálních hlasů",
+        "en": "Gemini on phones offers 66 new regional voices"
+      },
+      "summary": {
+        "cs": "Google 16. listopadu začal zavádět v aplikaci Gemini na Androidu a iOS 66 nových regionálních hlasů, mj. pro americkou, britskou a indickou angličtinu, hindštinu, brazilskou portugalštinu, indonéštinu a korejštinu. Vybraný hlas platí v celé aplikaci, třeba v Gemini Live i při čtení odpovědí nahlas.",
+        "en": "On November 16, Google began rolling out 66 new regional voices in the Gemini app on Android and iOS, including U.S., U.K., and Indian English, Hindi, Brazilian Portuguese, Indonesian, and Korean. The chosen voice applies across the app, for example in Gemini Live and when responses are read aloud."
+      },
+      "why": {
+        "cs": "Hlasy vyzkoušíš v nabídce se třemi tečkami v Gemini Live nebo v nastavení hlasu Gemini v aplikaci. Čeština mezi jmenovanými jazyky není; Google výčet uvádí slovem „včetně“.",
+        "en": "Try the voices in the three-dot menu in Gemini Live or in Gemini’s voice settings in the app. Czech is not among the named languages; Google introduces the list with “including”."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/"
+        }
+      ],
+      "added": "2026-11-17",
+      "used": "2026-11-24"
+    },
+    {
+      "slug": "tip-gemini-api-file-slicing",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-23",
+      "title": {
+        "cs": "Pro vývojáře: Gemini API načte jen vybrané stránky souboru",
+        "en": "For developers: the Gemini API loads only the pages of a file you pick"
+      },
+      "summary": {
+        "cs": "Google 23. listopadu uvedl ve Gemini API řízení výřezů souborů: PDF, soubory Office a OpenDocument, zvuk i video jdou poslat přímo a vyžádat jen vybrané stránky, buňky tabulky nebo úseky médií; tokeny se účtují jen za prohlédnuté části. Funguje u všech modelů Gemini 4.",
+        "en": "On November 23, Google introduced file slicing controls in the Gemini API: PDFs, Office and OpenDocument files, audio, and video can be sent directly and only the pages, spreadsheet cells, or media segments you need requested; tokens are billed only for the parts inspected. It works with all Gemini 4 models."
+      },
+      "why": {
+        "cs": "Nahraj soubor přes Files API a v požadavku nastav page_options, třeba content_layers: page_text pro levné prolistování a pak jednu stránku ve vysokém rozlišení; limity velikosti souboru a počtu stran platí dál.",
+        "en": "Upload the file through the Files API and set page_options in the request, for example content_layers: page_text for a cheap skim and then one page at high resolution; existing file size and page limits still apply."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/"
+        }
+      ],
+      "added": "2026-11-24",
+      "used": null
+    },
+    {
+      "slug": "tip-claude-code-doctor-api-connectivity",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-11-23",
+      "title": {
+        "cs": "Pro vývojáře: claude doctor ověří spojení s API",
+        "en": "For developers: claude doctor checks the API connection"
+      },
+      "summary": {
+        "cs": "Claude Code 2.1.331 z 23. listopadu přidal do příkazu claude doctor část o spojení s API: ukáže, zda je API dosažitelné, s kódem HTTP nebo chybou, případně řekne, proč se spojení netestovalo. Verze také přidala proměnnou CLAUDE_CODE_DISABLE_RESPONSE_COMPRESSION pro proxy, které komprimované odpovědi přerušují.",
+        "en": "Claude Code 2.1.331 from November 23 added an API connectivity section to the claude doctor command: it shows whether the API can be reached, with the HTTP status or the error, or says why it was not tested. The version also added CLAUDE_CODE_DISABLE_RESPONSE_COMPRESSION for proxies that cut compressed replies off."
+      },
+      "why": {
+        "cs": "Spusť v terminálu claude doctor, když Claude Code nejde přes proxy nebo firemní síť. Změnu changelog popisuje jen jednou větou; před použitím tip znovu ověř v dokumentaci.",
+        "en": "Run claude doctor in the terminal when Claude Code fails behind a proxy or company network. The changelog describes the change in one sentence; re-check it in the docs before using this tip."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "added": "2026-11-24",
       "used": null
     }
   ]

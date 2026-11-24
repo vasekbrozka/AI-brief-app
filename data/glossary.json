@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "terms": [
     {
       "id": "quantization",
@@ -1490,7 +1490,12 @@
         "nulové uchování dat",
         "nulové uchování",
         "nulového uchování",
-        "nulovým uchováním"
+        "nulovým uchováním",
+        "nulová retence dat",
+        "nulové retence dat",
+        "nulovou retencí dat",
+        "nulové retence",
+        "nulovou retencí"
       ],
       "short": {
         "cs": "Zero data retention: poskytovatel AI po vyřízení požadavku neukládá tvoje zadání ani odpovědi, kromě případů, kdy to vyžaduje zákon. Část služeb ho nabízí jen vybraným podnikovým zákazníkům.",
@@ -2047,6 +2052,60 @@
       "short": {
         "cs": "Oprava chyby v softwaru, často bezpečnostní, kterou výrobce vydá jako aktualizaci. Čím déle se s ní čeká, tím déle je chyba zneužitelná; příliš rychlé nasazení ale může samo způsobit výpadek.",
         "en": "A fix for a software flaw, often a security one, that the vendor ships as an update. The longer it waits, the longer the flaw can be exploited; rushing it can itself cause an outage."
+      }
+    },
+    {
+      "id": "ebpf",
+      "term": {
+        "cs": "eBPF (malé programy v jádře Linuxu)",
+        "en": "eBPF (small programs in the Linux kernel)"
+      },
+      "aliases": [
+        "eBPF",
+        "BPF"
+      ],
+      "short": {
+        "cs": "Technologie Linuxu, která dovolí spouštět malé, předem zkontrolované programy přímo uvnitř jádra operačního systému. Slouží ke sledování podezřelé činnosti a k cíleným ochranám bez restartu systému.",
+        "en": "A Linux technology that lets small, pre-checked programs run directly inside the operating system kernel. It is used to watch for suspicious activity and apply targeted protections without restarting the system."
+      }
+    },
+    {
+      "id": "deepfake",
+      "term": {
+        "cs": "Deepfake (podvržený snímek či video)",
+        "en": "Deepfake"
+      },
+      "aliases": [
+        "deepfake",
+        "deepfaky",
+        "deepfaků",
+        "deepfakům",
+        "deepfakem",
+        "deepfaku",
+        "deepfakes"
+      ],
+      "short": {
+        "cs": "Obraz, video nebo hlas vytvořené či upravené umělou inteligencí tak, aby věrohodně ukazovaly něco, co se nestalo. Často se zneužívají k sexualizovaným snímkům skutečných lidí bez jejich souhlasu.",
+        "en": "An image, video, or voice created or altered by AI to convincingly show something that never happened. They are often abused to make sexualized images of real people without their consent."
+      }
+    },
+    {
+      "id": "branch-protection",
+      "term": {
+        "cs": "Ochrana větví (branch protection)",
+        "en": "Branch protection"
+      },
+      "aliases": [
+        "ochrana větví",
+        "ochrany větví",
+        "ochranu větví",
+        "ochranou větví",
+        "ochraně větví",
+        "branch protection"
+      ],
+      "short": {
+        "cs": "Nastavení repozitáře na GitHubu, které určí, co musí platit, než se změna smí sloučit do hlavní větve: třeba schválení určitým počtem lidí a úspěšné automatické kontroly.",
+        "en": "A GitHub repository setting that defines what must hold before a change may be merged into the main branch: for example approval by a set number of people and passing automated checks."
       }
     }
   ]

@@ -1,0 +1,501 @@
+{
+  "date": "2026-11-24",
+  "sample": false,
+  "headline": {
+    "cs": "GPT-6.2 míří do běžného chatu v ChatGPT",
+    "en": "GPT-6.2 comes to ChatGPT’s regular chat"
+  },
+  "items": [
+    {
+      "id": "2026-11-24-openai-gpt-6-2-chat-tab-chatgpt",
+      "kind": "news",
+      "category": "models",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-11-23",
+      "title": {
+        "cs": "GPT-6.2 míří do běžného chatu v ChatGPT",
+        "en": "GPT-6.2 comes to ChatGPT’s regular chat"
+      },
+      "summary": {
+        "cs": "OpenAI 23. listopadu začala po celém světě zavádět GPT-6.2 do záložky Chat v ChatGPT Plus, Pro, Business a Enterprise; u Enterprise to závisí na nastavení správce. Podle vlastních testů OpenAI model líp rozumí fotkám (71,7 % proti 47,4 % u GPT-6) a líp plní náročné pokyny (78,1 % proti 62,5 %).",
+        "en": "On November 23, OpenAI began rolling out GPT-6.2 worldwide in the Chat tab of ChatGPT Plus, Pro, Business, and Enterprise; for Enterprise it depends on admin settings. In OpenAI’s own tests, the model understands photos better (71.7% vs 47.4% for GPT-6) and follows demanding instructions better (78.1% vs 62.5%)."
+      },
+      "why": {
+        "cs": "Je to verze GPT-6.2 Sol vyladěná na běžný rozhovor; modely ve Work a Codexu se nemění. Podle 9to5Mac chce OpenAI 23. prosince ukončit GPT-5.6 Sol v ChatGPT; poznámky k vydání OpenAI to zatím neuvádějí.",
+        "en": "A version of GPT-6.2 Sol tuned for everyday conversation; Work and Codex models do not change. Per 9to5Mac, OpenAI will retire GPT-5.6 Sol from ChatGPT on December 23; OpenAI’s release notes do not list it."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/23/chatgpt-expands-gpt-6-2-sol-as-openai-sets-retirement-date-for-two-models/"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-11-18",
+        "id": "2026-11-18-openai-gpt-6-2-astra-sol",
+        "title": {
+          "cs": "OpenAI uvedla GPT-6.2 Astra a Sol",
+          "en": "OpenAI releases GPT-6.2 Astra and Sol"
+        }
+      }
+    },
+    {
+      "id": "2026-11-24-nvidia-reinstates-jensen-huang-ceo",
+      "kind": "news",
+      "category": "business",
+      "verified": true,
+      "eventDate": "2026-11-23",
+      "title": {
+        "cs": "Nvidia vrací Jensena Huanga do čela firmy",
+        "en": "Nvidia reinstates Jensen Huang as CEO"
+      },
+      "summary": {
+        "cs": "Správní rada Nvidie 23. listopadu jednomyslně vrátila Jensena Huanga s okamžitou platností do funkce prezidenta a generálního ředitele i do rady; rezignoval před jedenácti dny. Podle rady se poradila s vysokými místy vlády USA a návrat neznamená riziko pro národní bezpečnost. Akcie podle TechCrunche po otevření burzy rostly zhruba o 27 %.",
+        "en": "Nvidia’s board voted unanimously on November 23 to reinstate Jensen Huang, effective immediately, as president, CEO, and board member; he resigned 11 days earlier. The board says it consulted senior US government officials and that his return poses no national security risk. Shares were up about 27% after the open, per TechCrunch."
+      },
+      "why": {
+        "cs": "Vyšetřování zpráv, že Huang byl terčem zahraniční rozvědné operace, pokračuje. Rada zřídila výbor pro národní bezpečnost a exportní kontroly. Předseda Harvey Jones přitom 17. listopadu návrat odmítal.",
+        "en": "The investigation into reports of a foreign intelligence effort targeting Huang continues. The board formed a national security and export control committee. Chair Harvey Jones had ruled out a return on November 17."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-11-18",
+        "id": "2026-11-18-nvidia-q3-results-huang-not-reinstated-h200",
+        "title": {
+          "cs": "Nvidia: tržby 115,8 miliardy USD, Huanga zpět nechce",
+          "en": "Nvidia: $115.8 billion revenue, board won’t reinstate Huang"
+        }
+      }
+    },
+    {
+      "id": "2026-11-24-anthropic-claude-ship-pull-request-agents",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-23",
+      "title": {
+        "cs": "Anthropic uvedla Claude Ship pro kontrolu pull requestů",
+        "en": "Anthropic launches Claude Ship for pull requests"
+      },
+      "summary": {
+        "cs": "Anthropic 23. listopadu uvedla Claude Ship, sadu agentů pro pull requesty na GitHubu: Code Review hledá chyby, PR Steward opravuje selhávající kontroly a připomínky, Claude Approvals schvaluje změny podle pravidel týmu. Steward a Approvals jsou ve veřejné betě; Claude Ship je pro tarify Team a Enterprise.",
+        "en": "On November 23, Anthropic launched Claude Ship, a set of agents for GitHub pull requests: Code Review finds bugs, PR Steward fixes failing checks and review comments, and Claude Approvals approves changes under team-written rules. Steward and Approvals are in public beta; Claude Ship is for Team and Enterprise plans."
+      },
+      "why": {
+        "cs": "Steward nic neschvaluje ani nesluče; o sloučení rozhoduje ochrana větví na GitHubu. Bez povinného lidského schválení se při automatickém slučování může změna sloučit bez člověka. Organizace s nulovou retencí dat Claude Ship nepoužijí.",
+        "en": "Steward approves and merges nothing; GitHub branch protection decides what merges. Without required human approval, auto-merge can merge a change with no person involved. Organizations with zero data retention cannot use Claude Ship."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/introducing-claude-ship"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/claude-ship"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-google-ai-mode-personal-intelligence-wallet-drive",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-23",
+      "title": {
+        "cs": "Vyhledávání Google propojí AI Mode s Wallet a Diskem",
+        "en": "Google Search AI Mode connects to Wallet and Drive"
+      },
+      "summary": {
+        "cs": "Google 23. listopadu začal zavádět propojení Google Wallet s Personal Intelligence v AI Mode ve Vyhledávání; Disk a aplikace Gemini mají přijít v příštích týdnech. AI Mode pak odpovídá podle tvých útrat, dokumentů a chatů, třeba o odměnách za platby kartou. Z Wallet jen čte, peníze nepřesouvá.",
+        "en": "On November 23, Google began rolling out a Google Wallet connection to Personal Intelligence in Search’s AI Mode; Drive and the Gemini app follow in the coming weeks. AI Mode then answers from your spending, documents, and chats, say on card rewards. It only reads Wallet; it moves no money."
+      },
+      "why": {
+        "cs": "Propojení je dobrovolné: v Nastavení personalizace Vyhledávání vybereš Propojené aplikace a kdykoli ho vypneš. Země ani tarify Google v oznámení neuvádí. Brzy má pod odpovědí přibýt ikona Personalizace, která ukáže použitý kontext.",
+        "en": "The connection is optional: in Search Personalization settings choose Connected Apps, and switch it off any time. Google’s post gives no countries or plans. A “Personalization” icon under answers will soon show the context used."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/"
+        }
+      ],
+      "followsUp": {
+        "date": "2026-11-14",
+        "id": "2026-11-14-google-gemini-google-wallet-connection",
+        "title": {
+          "cs": "Gemini umí číst Google Wallet a radit s rozpočtem",
+          "en": "Gemini can read Google Wallet to help with budgets"
+        }
+      }
+    },
+    {
+      "id": "2026-11-24-oregon-virginia-sue-spacex-grok-deepfakes",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-11-23",
+      "title": {
+        "cs": "Oregon a Virginie žalují SpaceX kvůli deepfakům z Groku",
+        "en": "Oregon and Virginia sue SpaceX over Grok deepfakes"
+      },
+      "summary": {
+        "cs": "Generální prokurátoři Oregonu a Virginie 23. listopadu podali podobné žaloby na SpaceX, vlastníka sítě X a chatbota Grok od xAI. Podle žalob firma ignorovala běžné pojistky a lživě slibovala bezpečí, zatímco Grok vytvářel sexualizované deepfaky skutečných lidí včetně dětí bez souhlasu. Podle Ars Technica jsou to první státy, které SpaceX kvůli tomu žalují.",
+        "en": "On November 23, Oregon’s and Virginia’s attorneys general filed similar suits against SpaceX, owner of X and xAI’s Grok. They allege it ignored standard safeguards and falsely promised safety while Grok made sexualized deepfakes of real people, including children, without consent. Ars Technica: first states to sue SpaceX over it."
+      },
+      "why": {
+        "cs": "Státy chtějí soudní zákaz, vrácení zisků a pokuty za každé porušení. SpaceX podle Ars tvrdí, že má nulovou toleranci k vykořisťování dětí a ochrany zpřísnila. Zatím jde jen o žaloby, ne o rozsudek.",
+        "en": "The states seek an injunction, disgorgement of gains, and civil penalties per violation. SpaceX says via X Safety it has zero tolerance for child sexual exploitation and tightened Grok’s protections. These are lawsuits, not rulings."
+      },
+      "sources": [
+        {
+          "name": "Virginia Attorney General",
+          "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform"
+        },
+        {
+          "name": "Oregon Department of Justice",
+          "url": "https://www.doj.state.or.us/wp-content/uploads/2026/11/ODOJ-Grok-Complaint-Final-Submitted-2026-11-22.pdf"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-anthropic-enterprise-frontier-safeguards-zdr-beta",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-23",
+      "title": {
+        "cs": "Anthropic hlídá zneužití Claude, aniž by uchovávala data",
+        "en": "Anthropic can watch for Claude misuse without storing data"
+      },
+      "summary": {
+        "cs": "Anthropic 23. listopadu otevřela ve veřejné betě Enterprise Frontier Safeguards: automatické sledování zneužití napříč mnoha požadavky, při kterém data zůstávají v úložišti zákazníka a Anthropic ani poskytovatel cloudu je neuchovávají. Běží přes Claude Platform, Claude Platform on AWS, Amazon Bedrock a Claude on Google Cloud.",
+        "en": "On November 23, Anthropic opened Enterprise Frontier Safeguards in public beta: automated monitoring for misuse across many requests, with data staying in the customer’s own storage and neither Anthropic nor the cloud provider keeping it. It runs through Claude Platform, Claude Platform on AWS, Amazon Bedrock, and Claude on Google Cloud."
+      },
+      "why": {
+        "cs": "Podniky podle Engadgetu odrazovalo 30denní uchovávání dat u modelů Fable a Mythos. Způsobilé zákazníky Anthropic vyrozumí; úložiště platí zákazník. Anthropic uvádí, že data čtou jen automaty a netrénuje na nich.",
+        "en": "Per Engadget, 30-day retention for Fable and Mythos put businesses off. Anthropic will notify eligible customers, who pay for storage. Anthropic says only automation reads the data; it never trains on it."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-enterprise-frontier-safeguards-zero-data-retention-beta"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-deepmind-agents-faster-quantum-algorithms",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-23",
+      "title": {
+        "cs": "Agenti DeepMindu našli levnější kvantové algoritmy",
+        "en": "DeepMind agents find cheaper quantum algorithms"
+      },
+      "summary": {
+        "cs": "Google DeepMind 23. listopadu popsal, jak týmy agentů na modelech Gemini 4 vylepšily známé kvantové algoritmy a každý výsledek ověřily v nástroji Lean. U simulace laserové fúze snížily výpočetní náklady 11,8krát a paměť z 5 650 na 4 338 qubitů s opravou chyb; u enzymu Cytochrom P450 2,5krát.",
+        "en": "On November 23, Google DeepMind described how teams of Gemini 4 agents improved known quantum algorithms, with every result checked in the Lean prover. For a laser-fusion simulation they cut computing cost 11.8 times and memory from 5,650 to 4,338 error-corrected qubits; for the enzyme Cytochrome P450, 2.5 times."
+      },
+      "why": {
+        "cs": "Obvody jsou příliš velké na zkoušku na dnešních počítačích, proto důkazy. DeepMind upozorňuje, že simulace by i tak potřebovaly víc zdrojů, než nabídnou první kvantové počítače s opravou chyb. Knihovna v Lean je otevřená.",
+        "en": "The circuits are too large to test on today’s machines, hence the proofs. DeepMind cautions the simulations would still need more resources than the first error-corrected quantum computers offer. The Lean library is open."
+      },
+      "sources": [
+        {
+          "name": "DeepMind",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/google-deepmind-gemini-agents-quantum-algorithms-lean"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-openai-cisco-shirudo-linux-shields",
+      "kind": "news",
+      "category": "opensource",
+      "verified": true,
+      "eventDate": "2026-11-23",
+      "title": {
+        "cs": "OpenAI a Cisco představily Shirudo pro běžící Linux",
+        "en": "OpenAI and Cisco unveil Shirudo for live Linux"
+      },
+      "summary": {
+        "cs": "OpenAI a Cisco 23. listopadu uvedly Shirudo, open-source nástroj, který na běžícím Linuxu bez restartu dočasně zablokuje zneužití chyby, než dorazí záplata. V řízeném testu štít, který vytvořil Codex, zastavil útok Java4Shell na běžící Elasticsearch. Štíty jsou podepsané a nasadí se po schválení provozovatelem.",
+        "en": "On November 23, OpenAI and Cisco introduced Shirudo, an open-source tool that temporarily blocks abuse of a flaw on a running Linux system, without a restart, until a patch arrives. In a controlled test, a Codex-made shield stopped a Java4Shell attack on a running Elasticsearch. Shields are signed and deployed once an operator approves."
+      },
+      "why": {
+        "cs": "Shirudo používá eBPF, malé programy běžící uvnitř jádra Linuxu; licence BSD 2-Clause, kód je na GitHubu. OpenAI zve vývojáře a bezpečnostní výzkumníky ke spolupráci; ukázka je z řízeného testu OpenAI, ne z ostrého provozu.",
+        "en": "Shirudo uses eBPF, small programs running inside the Linux kernel; BSD 2-Clause licence, code on GitHub. OpenAI invites developers and security researchers to contribute; the demo is from a controlled OpenAI test, not live operation."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-shirudo"
+        },
+        {
+          "name": "Cisco (Isovalent)",
+          "url": "https://isovalent.com/blog/post/cisco-openai-shirudo/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-tip-claude-code-vscode-fix-with-claude",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-23",
+      "title": {
+        "cs": "Pro vývojáře: Claude Code převezme chybu z VS Code",
+        "en": "For developers: Claude Code picks up VS Code errors"
+      },
+      "summary": {
+        "cs": "Claude Code 2.1.331 z 23. listopadu přidal do rozšíření pro VS Code akci Fix with Claude Code: u chyb a varování v editoru i u neúspěšných testů ji najdeš mezi rychlými opravami a problém se vloží do chatu s Claudem. Přibyla také akce Resolve Merge Conflicts u souborů s konflikty.",
+        "en": "Claude Code 2.1.331 from November 23 added a Fix with Claude Code action to its VS Code extension: for errors and warnings in the editor and for failed tests, you find it among quick fixes and the problem is put into the chat with Claude. It also added Resolve Merge Conflicts for files with conflicts."
+      },
+      "why": {
+        "cs": "Aktualizuj rozšíření a u podtržené chyby otevři nabídku rychlých oprav. Claude chybu sám neopraví: jen ji vloží do chatového pole. U neúspěšných testů akci najdeš v Test Results.",
+        "en": "Update the extension, then open the quick-fix menu on an underlined error. Claude does not fix it itself; it only puts the error in the chat box. For failed tests, look in Test Results."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-tip-vscode-send-later-agents",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "Pro vývojáře: VS Code odešle požadavek agentovi později",
+        "en": "For developers: VS Code sends an agent request later"
+      },
+      "summary": {
+        "cs": "VS Code 1.147 z 18. listopadu přidal experimentální funkci Send Later: v okně Agents odložíš požadavek na zvolený čas nebo agentovi řekneš třeba „Zkontroluj build za 10 minut“. Rozepsané požadavky lze také ukládat jako koncepty (drafts) a vrátit se k nim později.",
+        "en": "VS Code 1.147 from November 18 added an experimental Send Later feature: in the Agents window you postpone a request to a chosen time, or tell the agent something like “Check the build in 10 minutes”. Unsent requests can also be saved as drafts and resumed later."
+      },
+      "why": {
+        "cs": "Zapni sessions.sendLater.enabled a chat.automations.enabled; funguje jen v okně Agents u relací na tomto počítači. Počítač musí v daný čas běžet, spící ho nevzbudí; zmeškaný požadavek se vyřídí po návratu.",
+        "en": "Turn on sessions.sendLater.enabled and chat.automations.enabled; works only in the Agents window, for sessions on this computer. The computer must be on then: sleeping machines are not woken, and a missed request runs afterward."
+      },
+      "sources": [
+        {
+          "name": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/updates/v1_147"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-tip-chatgpt-health-android-desktop-dots",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-19",
+      "title": {
+        "cs": "Health v ChatGPT nově funguje na Androidu a počítači",
+        "en": "ChatGPT Health now works on Android and desktop"
+      },
+      "summary": {
+        "cs": "OpenAI 19. listopadu rozšířila Health ve ChatGPT na Android (s Health Connect), do aplikace pro počítač, k dotům a do sites. Zdravotní a fitness data propojíš a ChatGPT hledá vzorce ve spánku či aktivitě. Health mají uživatelé Free, Go, Plus a Pro v USA; dota zatím jen uživatelé Pro.",
+        "en": "On November 19, OpenAI extended Health in ChatGPT to Android (with Health Connect), the desktop app, dots, and sites. You connect health and fitness data and ChatGPT looks for patterns in sleep or activity. Free, Go, Plus, and Pro users in the US have Health; only Pro users have dots for now."
+      },
+      "why": {
+        "cs": "Aktualizuj ChatGPT a v postranním panelu vyber Health, případně v nabídce Explore; zavádí se postupně a jen v USA, z Česka ho tedy zatím nezkusíš. Data z Health Connect i zdravotní záznamy si propojuješ sám.",
+        "en": "Update ChatGPT and pick Health in the sidebar or the Explore menu; it rolls out gradually and only in the US, so not yet from Czechia. You connect Health Connect data and medical records yourself."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/19/chatgpt-health-feature-will-soon-work-with-mac-app-dots-more/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-tip-gemini-regional-voices",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-16",
+      "title": {
+        "cs": "Gemini v telefonu nabízí 66 nových regionálních hlasů",
+        "en": "Gemini on phones offers 66 new regional voices"
+      },
+      "summary": {
+        "cs": "Google 16. listopadu začal zavádět v aplikaci Gemini na Androidu a iOS 66 nových regionálních hlasů, mj. pro americkou, britskou a indickou angličtinu, hindštinu, brazilskou portugalštinu, indonéštinu a korejštinu. Vybraný hlas platí v celé aplikaci, třeba v Gemini Live i při čtení odpovědí nahlas.",
+        "en": "On November 16, Google began rolling out 66 new regional voices in the Gemini app on Android and iOS, including U.S., U.K., and Indian English, Hindi, Brazilian Portuguese, Indonesian, and Korean. The chosen voice applies across the app, for example in Gemini Live and when responses are read aloud."
+      },
+      "why": {
+        "cs": "Hlasy vyzkoušíš v nabídce se třemi tečkami v Gemini Live nebo v nastavení hlasu Gemini v aplikaci. Čeština mezi jmenovanými jazyky není; Google výčet uvádí slovem „včetně“.",
+        "en": "Try the voices in the three-dot menu in Gemini Live or in Gemini’s voice settings in the app. Czech is not among the named languages; Google introduces the list with “including”."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "Pro vývojáře: Claude Code ruší rychlý režim pro Opus 4.8",
+        "en": "For developers: Claude Code drops fast mode for Opus 4.8"
+      },
+      "note": {
+        "cs": "Podle poznámek k vydání Claude Code zanikne 30. listopadu rychlý režim Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Rychlost zachováš přechodem na Opus 5.5.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "AWS re:Invent: velká konference o cloudu a AI",
+        "en": "AWS re:Invent: big cloud and AI conference"
+      },
+      "note": {
+        "cs": "Běží 30. 11.–4. 12. v Las Vegas. Podle Amazonu bude pět hlavních projevů a hlavním tématem AI agenti; Amazon avizuje novinky kolem AI služby Bedrock a vývojářského nástroje Kiro.",
+        "en": "Runs November 30–December 4 in Las Vegas. Amazon plans five keynotes, AI agents dominating the agenda; Amazon signals news on the AI service Bedrock and developer tool Kiro."
+      },
+      "sources": [
+        {
+          "name": "Amazon",
+          "url": "https://www.aboutamazon.com/news/aws/what-is-aws-reinvent"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-02",
+      "title": {
+        "cs": "EU: do 2. prosince musí firmy dodržet zákaz nahých deepfaků",
+        "en": "EU: AI apps making fake nude images banned by December 2"
+      },
+      "note": {
+        "cs": "AI Act: od 2. 12. 2026 platí zákaz AI systémů tvořících bez souhlasu intimní snímky lidí, pokud nemají pojistky proti zneužití, a strojově čitelné značení AI obsahu u starších systémů.",
+        "en": "AI Act: from December 2, 2026, AI systems making intimate images of people without consent are banned unless safeguarded; older systems must also label AI content in machine-readable form."
+      },
+      "sources": [
+        {
+          "name": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban"
+        },
+        {
+          "name": "Council of the EU (EEAS)",
+          "url": "https://eeas.europa.eu/delegations/chile/artificial-intelligence-council-gives-final-green-light-simplify-and-streamline-rules_en"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-10",
+      "title": {
+        "cs": "Google: brýle s Gemini do prodeje jen v USA a Jižní Koreji",
+        "en": "Google: Gemini smart glasses on sale only in US and South Korea"
+      },
+      "note": {
+        "cs": "Brýle Warby Parker (jen USA) a Gentle Monster (USA, Jižní Korea) půjdou 10. prosince do prodeje. Potřebují účet Google z USA či Jižní Koreje (18+) a podporovaný telefon.",
+        "en": "Warby Parker (US only) and Gentle Monster (US, South Korea) glasses go on sale December 10. They need a US or South Korean Google account, 18+, and a supported phone."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-11",
+      "title": {
+        "cs": "ChatGPT: konec hlasových režimů Advanced a Standard",
+        "en": "ChatGPT: Advanced and Standard voice retire"
+      },
+      "note": {
+        "cs": "Oznámeno 10. listopadu: 11. prosince skončí hlasové režimy Advanced a Standard, zůstane GPT-Live. Výjimka: živé video a sdílení obrazovky zůstanou na Advanced, dokud je GPT-Live nezíská.",
+        "en": "Announced November 10: on December 11, the Advanced and Standard voice modes retire, leaving GPT-Live. Exception: live video and screen sharing stay on Advanced until GPT-Live gets them."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-14",
+      "title": {
+        "cs": "Pro vývojáře: 14. prosince skončí v GitHub Copilotu šest modelů",
+        "en": "For developers: six GitHub Copilot models end on December 14"
+      },
+      "note": {
+        "cs": "GitHub 13. listopadu oznámil konec šesti modelů 14. prosince, mj. Claude Fable 5, Gemini 4 Argon a Haiku 4.5 (ten zůstane ročním individuálním předplatitelům); pro Kimi K3 zatím není náhrada.",
+        "en": "GitHub announced November 13 six models end December 14, including Claude Fable 5, Gemini 4 Argon, and Haiku 4.5 (kept for annual individual subscribers); Kimi K3 has no replacement yet."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

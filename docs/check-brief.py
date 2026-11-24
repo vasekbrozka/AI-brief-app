@@ -75,6 +75,7 @@ CANONICAL_NAMES = {
     "signal.org": "Signal", "dragos.com": "Dragos", "bing.com": "Bing", "gemini.google": "Google",
     "autoriteitpersoonsgegevens.nl": "Autoriteit Persoonsgegevens",
     "wellsfargo.com": "Wells Fargo", "chase.com": "JPMorgan Chase", "atmeta.com": "Meta",
+    "oag.state.va.us": "Virginia Attorney General", "isovalent.com": "Cisco (Isovalent)",
 }
 
 # --- zdroje: tiery důvěryhodnosti (viz recept, sekce Zdroje) ------------------
@@ -105,6 +106,8 @@ T1_DOMAINS = [
     "gemini.google",
     # 23. 11.: primární zdroje subjektů zpráv — smluvní podmínky bank (Wells Fargo, JPMorgan Chase) a zpráva o udržitelnosti Mety
     "wellsfargo.com", "chase.com", "atmeta.com",
+    # 24. 11.: primární zdroje subjektů zpráv — úřad generálního prokurátora Virginie (žaloba na SpaceX), blog Isovalent (Cisco) o Shirudu
+    "oag.state.va.us", "isovalent.com",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.

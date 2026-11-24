@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-23T03:54:17Z",
+  "updated": "2026-11-24T03:30:32Z",
   "briefs": [
+    {
+      "date": "2026-11-24",
+      "headline": {
+        "cs": "GPT-6.2 míří do běžného chatu v ChatGPT",
+        "en": "GPT-6.2 comes to ChatGPT’s regular chat"
+      },
+      "itemCount": 12
+    },
     {
       "date": "2026-11-23",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "Anthropic uvedla Claude Sheets, Whiteboards a Data",
         "en": "Anthropic launches Claude Sheets, Whiteboards, and Data"
-      },
-      "itemCount": 10
-    },
-    {
-      "date": "2026-11-10",
-      "headline": {
-        "cs": "Anthropic uvedla Claude Fable 5.2 a Mythos 5.2",
-        "en": "Anthropic launches Claude Fable 5.2 and Mythos 5.2"
       },
       "itemCount": 10
     }
