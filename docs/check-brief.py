@@ -76,6 +76,9 @@ CANONICAL_NAMES = {
     "autoriteitpersoonsgegevens.nl": "Autoriteit Persoonsgegevens",
     "wellsfargo.com": "Wells Fargo", "chase.com": "JPMorgan Chase", "atmeta.com": "Meta",
     "oag.state.va.us": "Virginia Attorney General", "isovalent.com": "Cisco (Isovalent)",
+    "csu.gov.cz": "Český statistický úřad", "prusa3d.com": "Prusa Research",
+    "leanprover-community.github.io": "Lean FRO a Mathlib Initiative",
+    "banking.senate.gov": "U.S. Senate Banking Committee",
 }
 
 # --- zdroje: tiery důvěryhodnosti (viz recept, sekce Zdroje) ------------------
@@ -108,6 +111,8 @@ T1_DOMAINS = [
     "wellsfargo.com", "chase.com", "atmeta.com",
     # 24. 11.: primární zdroje subjektů zpráv — úřad generálního prokurátora Virginie (žaloba na SpaceX), blog Isovalent (Cisco) o Shirudu
     "oag.state.va.us", "isovalent.com",
+    # 25. 11.: primární zdroje subjektů zpráv — Prusa Research (stránka Prusa MCP), společné prohlášení Lean FRO a Mathlib Initiative (blog komunity Lean)
+    "prusa3d.com", "leanprover-community.github.io",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.

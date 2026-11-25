@@ -1,28 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-claude-remote-control",
-      "category": "tools",
-      "theme": "claude",
-      "verified": false,
-      "title": {
-        "cs": "Claude Code teď ovládneš i z mobilu",
-        "en": "Claude Code can now be controlled from your phone"
-      },
-      "summary": {
-        "cs": "Remote Control u Claude Code vyšlo z beta verze — session spuštěnou na počítači teď dokončíš z mobilu nebo jiného prohlížeče, kód i soubory přitom zůstávají na tvém stroji. Zařízení se objeví jako karta v appce Claude a zprávy jde posílat z terminálu i telefonu střídavě. Spojení jde přes zabezpečené, krátkodobé přístupy.",
-        "en": "Remote Control for Claude Code has left beta — a session started on your computer can now be picked up from your phone or another browser, while code and files stay on your machine. The device shows up as a card in the Claude app, and messages go from terminal and phone interchangeably."
-      },
-      "sources": [
-        {
-          "name": "Claude Code Docs",
-          "url": "https://code.claude.com/docs/en/remote-control"
-        }
-      ],
-      "added": "2026-08-26",
-      "used": "2026-08-26"
-    },
-    {
       "slug": "tip-copilot-excel-change-history",
       "category": "tools",
       "theme": "copilot",
@@ -6917,6 +6895,153 @@
         }
       ],
       "added": "2026-11-24",
+      "used": null
+    },
+    {
+      "slug": "tip-gemini-notebook-flashcards-images-stopwatch",
+      "category": "tools",
+      "theme": "notebooklm",
+      "verified": true,
+      "eventDate": "2026-11-24",
+      "title": {
+        "cs": "Gemini Notebook: kartičky s obrázky, stopkami a připomínkami",
+        "en": "Gemini Notebook flashcards get images, a stopwatch, and reminders"
+      },
+      "summary": {
+        "cs": "Google 24. listopadu přidal ke kartičkám (flashcards) v Gemini Notebook tři novinky: obrázky automaticky převzaté z nahraných zdrojů, stopky pro nácvik zkoušky na čas a v mobilní aplikaci naplánovaná upozornění k opakování. Platí pro všechny účty Workspace i osobní účty Google; správce nic nevypíná.",
+        "en": "On November 24, Google added three updates to flashcards in Gemini Notebook: images pulled automatically from uploaded sources, a stopwatch for timed exam practice, and scheduled review reminders in the mobile app. It applies to all Workspace accounts and personal Google accounts; admins cannot switch it off."
+      },
+      "why": {
+        "cs": "Kartičky vytvoříš v panelu Studio volbou Flashcards (obtížnost, vlastní zadání); potřebuješ právo úprav sešitu. Po sezení lze procvičit jen kartičky, které jsi neznal, nebo je stáhnout jako CSV.",
+        "en": "Create flashcards in the Studio panel by choosing Flashcards (difficulty, custom prompt); you need edit access to the notebook. After a session you can practice only the cards you missed, or download them as CSV."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/new-study-enhancements-for-flashcards-in-Gemini-Notebook.html"
+        },
+        {
+          "name": "Google",
+          "url": "https://support.google.com/gemininotebook/answer/16958963"
+        }
+      ],
+      "added": "2026-11-25",
+      "used": "2026-11-25"
+    },
+    {
+      "slug": "tip-perplexity-chrome-extension-computer",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": true,
+      "eventDate": "2026-11-24",
+      "title": {
+        "cs": "Perplexity Computer pracuje přímo v prohlížeči Chrome či Edge",
+        "en": "Perplexity Computer now works inside Chrome or Edge"
+      },
+      "summary": {
+        "cs": "Perplexity 24. listopadu vydala aktualizované rozšíření pro Chrome, Edge, Brave a další prohlížeče na Chromiu: agent Computer díky němu pracuje přímo ve tvém prohlížeči na stránkách, kam jsi přihlášený. Otevřeš ho z postranního panelu (Alt+A, na Macu Option+A); Computer jedná jen během úlohy, kterou zadáš.",
+        "en": "On November 24, Perplexity released an updated extension for Chrome, Edge, Brave, and other Chromium browsers: the Computer agent can then work inside your own browser on sites you are signed in to. You open it from the side panel (Alt+A, Option+A on Mac); Computer acts only during a task you start."
+      },
+      "why": {
+        "cs": "Oprávnění k jednotlivým webům nastavíš v Settings → Browser use. V prohlížeči Comet rozšíření nepotřebuješ. Jaký tarif Computer vyžaduje, stránka rozšíření neuvádí; ověř si to u Perplexity.",
+        "en": "Set permissions site by site in Settings → Browser use. In the Comet browser you do not need the extension. The extension page does not say which plan Computer requires; check with Perplexity."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog/multiagent-teammates-on-mobile-and-chrome-extension"
+        },
+        {
+          "name": "Perplexity (Chrome Web Store)",
+          "url": "https://chromewebstore.google.com/detail/perplexity/pninphncmkphpjgfffammoenglghcjii"
+        }
+      ],
+      "added": "2026-11-25",
+      "used": "2026-11-25"
+    },
+    {
+      "slug": "tip-github-copilot-team-plugins-defaults",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "Pro vývojáře: GitHub Copilot nastaví pluginy celému týmu",
+        "en": "For developers: GitHub Copilot sets plugins for whole teams"
+      },
+      "summary": {
+        "cs": "GitHub 18. listopadu zpřístupnil týmové úpravy Copilotu: správce týmu nebo vlastník organizace vybere schválené Agent Plugins jako výchozí pro celý tým. Členům se zapnou ve VS Code, aplikaci GitHub Copilot a Copilot CLI; mohou je vypnout, pokud to pravidla dovolí. Pro Copilot Business a Enterprise.",
+        "en": "On November 18, GitHub made team customizations for Copilot generally available: a team maintainer or organization owner picks approved Agent Plugins as team defaults. They switch on for members in VS Code, the GitHub Copilot app, and Copilot CLI; members may turn them off where policy allows. For Copilot Business and Enterprise."
+      },
+      "why": {
+        "cs": "Na github.com otevři týmovou stránku a záložku Customize Copilot, projdi tržiště pluginů nebo přidej vlastní z repozitáře. Pravidla firmy mají přednost před volbou týmu; podřízené týmy výchozí pluginy nedědí.",
+        "en": "On github.com open the team page and its Customize Copilot tab, browse plugin marketplaces or add one from a repository. Company policy overrides team choices; child teams do not inherit the default plugins."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team"
+        }
+      ],
+      "added": "2026-11-25",
+      "used": "2026-11-25"
+    },
+    {
+      "slug": "tip-claude-code-skills-from-mcp-servers",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-11-25",
+      "title": {
+        "cs": "Pro vývojáře: Claude Code nabídne skills z MCP serverů",
+        "en": "For developers: Claude Code offers skills from MCP servers"
+      },
+      "summary": {
+        "cs": "Claude Code 2.1.332 z 25. listopadu přidal skills z MCP serverů (beta): v nabídce po napsání lomítka se ukážou jako server:skill, ostatní skills si nechávají jména. Anthropic zároveň uvedla Skills over MCP ve veřejné betě v Claude a Claude Code; příklady serverů: Shopify, HubSpot, Atlassian, Supabase.",
+        "en": "Claude Code 2.1.332 from November 25 added skills from MCP servers (beta): in the menu after typing a slash they show as server:skill, while other skills keep their names. Anthropic also launched Skills over MCP in public beta in Claude and Claude Code; example servers: Shopify, HubSpot, Atlassian, Supabase."
+      },
+      "why": {
+        "cs": "Připoj MCP server, který skills nabízí, a v Claude Code napiš lomítko. Podle Anthropicu je funkce v Claude zapnutá u tarifů Pro, Max a Ultra; před použitím tip znovu ověř v dokumentaci.",
+        "en": "Connect an MCP server that offers skills and type a slash in Claude Code. Per Anthropic, the feature is on in Claude for Pro, Max, and Ultra plans; re-check the docs before using this tip."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"
+        }
+      ],
+      "added": "2026-11-25",
+      "used": null
+    },
+    {
+      "slug": "tip-claude-monthly-recap-out-of-beta",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-11-24",
+      "title": {
+        "cs": "Claude: měsíční souhrn už není v betě",
+        "en": "Claude: the monthly recap is out of beta"
+      },
+      "summary": {
+        "cs": "Anthropic 24. listopadu vyvedla měsíční souhrn (Reflect v Nastavení) z bety pro tarify Free, Pro, Max a Ultra na webu, v Claude Desktop a v mobilních aplikacích. Souhrn teď čerpá i z relací Claude Code a úloh Claude Cowork v cloudu a uložené souhrny jde smazat.",
+        "en": "On November 24, Anthropic took the monthly recap (Reflect, in Settings) out of beta for Free, Pro, Max, and Ultra plans on the web, Claude Desktop, and mobile apps. The recap now also draws on Claude Code sessions and cloud Claude Cowork tasks, and stored recaps can be deleted."
+      },
+      "why": {
+        "cs": "Souhrn najdeš v Nastavení pod názvem Reflect; uložené souhrny smažeš na stejné stránce. Poznámky k vydání odkazují na nápovědu „See your monthly recap“; před použitím tip znovu ověř.",
+        "en": "Find the recap in Settings under Reflect; delete stored recaps on the same page. The release notes point to the help article “See your monthly recap”; re-check it before using this tip."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
+      ],
+      "added": "2026-11-25",
       "used": null
     }
   ]

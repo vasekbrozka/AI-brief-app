@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-24T03:56:04Z",
+  "updated": "2026-11-25T03:33:39Z",
   "briefs": [
+    {
+      "date": "2026-11-25",
+      "headline": {
+        "cs": "Artefakty Claude jdou nainstalovat jako aplikace do počítače",
+        "en": "Claude artifacts can now be installed as desktop apps"
+      },
+      "itemCount": 11
+    },
     {
       "date": "2026-11-24",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Gemini Live comes to Apple CarPlay"
       },
       "itemCount": 11
-    },
-    {
-      "date": "2026-11-11",
-      "headline": {
-        "cs": "Anthropic uvedla Claude Sheets, Whiteboards a Data",
-        "en": "Anthropic launches Claude Sheets, Whiteboards, and Data"
-      },
-      "itemCount": 10
     }
   ]
 }

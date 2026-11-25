@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "terms": [
     {
       "id": "quantization",
@@ -2026,12 +2026,12 @@
       },
       "aliases": [
         "perplexita",
-        "perplexity",
         "perplexitou",
         "perplexitu",
         "perplexitě",
         "log-perplexity",
-        "logaritmická perplexita"
+        "logaritmická perplexita",
+        "z perplexity"
       ],
       "short": {
         "cs": "Číslo, které říká, jak dobře model předpovídá další slovo (token) v textu, který při tréninku neviděl: čím nižší, tím lepší předpovědi. OpenAI ho používá k měření pokroku při trénování modelů.",
@@ -2113,6 +2113,59 @@
       "short": {
         "cs": "Nastavení repozitáře na GitHubu, které určí, co musí platit, než se změna smí sloučit do hlavní větve: třeba schválení určitým počtem lidí a úspěšné automatické kontroly.",
         "en": "A GitHub repository setting that defines what must hold before a change may be merged into the main branch: for example approval by a set number of people and passing automated checks."
+      }
+    },
+    {
+      "id": "slicer",
+      "term": {
+        "cs": "Slicer (příprava modelu k 3D tisku)",
+        "en": "Slicer (3D print preparation)"
+      },
+      "aliases": [
+        "slicer",
+        "slicery",
+        "slicru",
+        "slicerem",
+        "slicování",
+        "slicováním",
+        "slicing"
+      ],
+      "short": {
+        "cs": "Program, který 3D model rozřeže na tenké vrstvy a vytvoří z něj pokyny (g-code) pro tiskárnu. Tomuto kroku se říká slicování.",
+        "en": "A program that cuts a 3D model into thin layers and turns it into instructions (G-code) for the printer. This step is called slicing."
+      }
+    },
+    {
+      "id": "oauth",
+      "term": {
+        "cs": "OAuth (přihlášení bez předání hesla)",
+        "en": "OAuth (sign-in without sharing a password)"
+      },
+      "aliases": [
+        "OAuth"
+      ],
+      "short": {
+        "cs": "Standard, kterým se aplikace nebo agent přihlásí k cizí službě (třeba ke Gmailu) s povolením uživatele, aniž zná jeho heslo. Přístup jde omezit a kdykoli odvolat.",
+        "en": "A standard that lets an app or agent sign in to another service (such as Gmail) with the user’s permission, without knowing their password. Access can be limited and revoked at any time."
+      }
+    },
+    {
+      "id": "preprint",
+      "term": {
+        "cs": "Předtisk (preprint)",
+        "en": "Preprint"
+      },
+      "aliases": [
+        "předtisk",
+        "předtisku",
+        "předtiskem",
+        "předtisky",
+        "preprint",
+        "preprints"
+      ],
+      "short": {
+        "cs": "Vědecká studie zveřejněná dřív, než ji posoudili nezávislí odborníci (recenze). Může obsahovat chyby, které recenzní řízení teprve odhalí.",
+        "en": "A scientific paper released before independent experts have reviewed it (peer review). It may contain errors that review has yet to catch."
       }
     }
   ]
