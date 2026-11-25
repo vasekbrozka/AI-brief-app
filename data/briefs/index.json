@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-25T03:33:39Z",
+  "updated": "2026-11-25T04:00:56Z",
   "briefs": [
     {
       "date": "2026-11-25",
       "headline": {
-        "cs": "Artefakty Claude jdou nainstalovat jako aplikace do počítače",
-        "en": "Claude artifacts can now be installed as desktop apps"
+        "cs": "Důkaz Riemannovy hypotézy s Claudem prošel počítačovou kontrolou",
+        "en": "Claude-assisted Riemann proof passes computer verification"
       },
       "itemCount": 11
     },

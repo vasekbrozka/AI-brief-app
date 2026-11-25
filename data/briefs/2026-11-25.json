@@ -2,57 +2,28 @@
   "date": "2026-11-25",
   "sample": false,
   "headline": {
-    "cs": "Artefakty Claude jdou nainstalovat jako aplikace do počítače",
-    "en": "Claude artifacts can now be installed as desktop apps"
+    "cs": "Důkaz Riemannovy hypotézy s Claudem prošel počítačovou kontrolou",
+    "en": "Claude-assisted Riemann proof passes computer verification"
   },
   "items": [
-    {
-      "id": "2026-11-25-anthropic-claude-install-artifacts-as-apps",
-      "kind": "news",
-      "category": "tools",
-      "highlight": true,
-      "verified": true,
-      "eventDate": "2026-11-24",
-      "title": {
-        "cs": "Artefakty Claude jdou nainstalovat jako aplikace do počítače",
-        "en": "Claude artifacts can now be installed as desktop apps"
-      },
-      "summary": {
-        "cs": "Anthropic 24. listopadu spustila v betě na všech tarifech funkci Install as app v aplikaci Claude pro Mac a Windows: artefakt, který Claude vytvoří, jde nainstalovat jako aplikace s vlastní ikonou a oknem. Aplikace využívá Claude i konektory, sama se aktualizuje s artefaktem a může posílat notifikace.",
-        "en": "On November 24, Anthropic launched Install as app in beta on all plans in Claude for Mac and Windows: an artifact Claude makes can be installed as an app with its own icon and window. The app can use Claude and connectors, updates itself with the artifact, and can send notifications."
-      },
-      "why": {
-        "cs": "Plný přístup (programy, soubory) lze dát jen vlastním aplikacím, u Team a Enterprise i aplikacím kolegů, a platí jen pro aktuální verzi; Anthropic aplikace nekontroluje. Požadavky se počítají do limitu tarifu.",
-        "en": "Full access (programs, files) can go only to your own apps, on Team and Enterprise also colleagues’, and covers only the current version; Anthropic does not review apps. Requests count toward plan limits."
-      },
-      "sources": [
-        {
-          "name": "Anthropic",
-          "url": "https://claude.com/resources/articles/install-as-app"
-        },
-        {
-          "name": "Anthropic",
-          "url": "https://support.claude.com/en/articles/12138966-release-notes"
-        }
-      ]
-    },
     {
       "id": "2026-11-25-lean-community-verifies-riemann-hypothesis-proof",
       "kind": "news",
       "category": "research",
+      "highlight": true,
       "verified": true,
       "eventDate": "2026-11-21",
       "title": {
-        "cs": "Důkaz Riemannovy hypotézy s Claudem prošel kontrolou v Leanu",
-        "en": "Claude-assisted Riemann proof passes Lean verification"
+        "cs": "Důkaz Riemannovy hypotézy s Claudem prošel počítačovou kontrolou",
+        "en": "Claude-assisted Riemann proof passes computer verification"
       },
       "summary": {
-        "cs": "Organizace Lean FRO a iniciativa Mathlib 21. listopadu oznámily, že důkaz Riemannovy hypotézy, který s Claudem sestavil Levent Alpöge z Anthropicu, je formálně správný: několik desítek lidí ho zkompilovalo a prověřily ho nezávislé kontrolní programy. Zápis má 17 milionů řádků a srozumitelný výklad zatím chybí.",
-        "en": "On November 21, the Lean FRO and the Mathlib Initiative announced that the proof of the Riemann hypothesis that Anthropic’s Levent Alpöge built with Claude is formally correct: dozens of people compiled it and independent checkers verified it. The code runs to 17 million lines and a readable explanation is still missing."
+        "cs": "Organizace Lean FRO a iniciativa Mathlib 21. listopadu oznámily, že důkaz Riemannovy hypotézy, který s Claudem sestavil Levent Alpöge z Anthropicu, je formálně správný: několik desítek lidí ho spustilo v Leanu, programu, který kontroluje každý krok důkazu, a potvrdily ho nezávislé kontrolní programy. Má 17 milionů řádků; srozumitelný výklad chybí.",
+        "en": "On November 21, the Lean FRO and Mathlib Initiative said that the proof of the Riemann hypothesis Anthropic’s Levent Alpöge built with Claude is formally correct: dozens of people ran it in Lean, a program that checks every proof step, and independent checkers confirmed it. It has 17 million lines; a readable explanation is missing."
       },
       "why": {
-        "cs": "Důkaz zatím nikdo plně nechápe: podle Wiredu to matematikům potrvá měsíce. Clayův institut podle The Register vede hypotézu jako „aktivní“, ne vyřešenou; cena vyžaduje publikaci, dva roky prověřování a široké přijetí.",
-        "en": "Nobody fully understands it yet: per Wired, that will take mathematicians months. Per The Register, the Clay Institute lists it as “active,” not solved; the prize needs publication, two years of scrutiny, and broad acceptance."
+        "cs": "Matematici zatím nechápou, proč důkaz platí (Wired cituje odhad: měsíce). Clayův institut s milionovou cenou vede hypotézu podle The Register jako „aktivní“, ne vyřešenou; chce publikaci a dva roky prověřování.",
+        "en": "Mathematicians do not yet see why it works (Wired quotes an estimate: months). Clay Institute ($1 million prize) lists it as “active,” per The Register, not solved; it wants publication and two years of scrutiny."
       },
       "sources": [
         {
@@ -78,22 +49,51 @@
       }
     },
     {
+      "id": "2026-11-25-anthropic-claude-install-artifacts-as-apps",
+      "kind": "news",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-24",
+      "title": {
+        "cs": "Artefakty Claude jdou nainstalovat jako desktopové aplikace (beta)",
+        "en": "Claude artifacts now install as desktop apps (beta)"
+      },
+      "summary": {
+        "cs": "Anthropic 24. listopadu začala zavádět v betě funkci Install as app v aplikaci Claude pro Mac a Windows: artefakt, který Claude vytvoří, jde z nabídky Share nainstalovat jako aplikace s vlastní ikonou a oknem. Aplikace využívá Claude i konektory, sama se aktualizuje s artefaktem a může posílat notifikace.",
+        "en": "On November 24, Anthropic began rolling out Install as app in beta in Claude for Mac and Windows: an artifact Claude makes can be installed from the Share menu as an app with its own icon and window. The app can use Claude and connectors, updates itself with the artifact, and can send notifications."
+      },
+      "why": {
+        "cs": "Plný přístup (programy, soubory) lze dát jen aplikacím od tebe nebo od tvé organizace a platí jen pro aktuální verzi; Anthropic aplikace nekontroluje. Požadavky se počítají do limitu tarifu; na Enterprise ji nejdřív zapne vlastník.",
+        "en": "Full access (programs, files) goes only to apps you or your organization made, and only for the current version; Anthropic does not review apps. Requests count toward plan limits; Enterprise owners must enable it."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/install-as-app"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
+      ]
+    },
+    {
       "id": "2026-11-25-czso-czechs-use-generative-ai-56-percent",
       "kind": "news",
       "category": "research",
       "verified": true,
       "eventDate": "2026-11-24",
       "title": {
-        "cs": "Generativní AI už používá víc než polovina Čechů",
+        "cs": "Generativní AI už použila víc než polovina Čechů",
         "en": "More than half of Czechs now use generative AI"
       },
       "summary": {
-        "cs": "Český statistický úřad 24. listopadu zveřejnil letošní šetření o využívání informačních technologií: generativní AI (třeba ChatGPT nebo Copilot) použilo 56 % lidí starších 16 let, před rokem 32 %. Mezi 16–24letými je to 91 %, mezi lidmi nad 75 let 8 %. Soukromě ji použilo 91 % uživatelů, v práci 38 %.",
-        "en": "On November 24, the Czech Statistical Office published this year’s survey on IT use: 56% of people aged 16+ used generative AI (such as ChatGPT or Copilot), up from 32% a year earlier. Among 16–24-year-olds it is 91%, among those over 75, 8%. Of users, 91% used it privately and 38% at work."
+        "cs": "Český statistický úřad 24. listopadu zveřejnil šetření o využívání informačních technologií: generativní AI (třeba ChatGPT nebo Copilot) použilo za poslední 3 měsíce 56 % lidí od 16 let, před rokem 32 %. U 16–24letých to bylo 91 %, nad 75 let 8 %. Většina uživatelů ji použila soukromě, 38 % i v práci.",
+        "en": "On November 24, the Czech Statistical Office published its survey on IT use: 56% of people aged 16+ used generative AI (such as ChatGPT or Copilot) in the past 3 months, up from 32% a year earlier. It was 91% among 16–24-year-olds, 8% over 75. Most users used it privately, 38% also at work."
       },
       "why": {
-        "cs": "Nejčastěji ji lidé nepoužívají proto, že ji nepotřebují (74 % nepoužívajících). Ve věku 25–64 let ji použilo 85 % vysokoškoláků, ale 42 % lidí se základním vzděláním. Šetření počítá i vyhledávání informací.",
-        "en": "Most non-users say they do not need it (74% of non-users). Among 25–64-year-olds, 85% of university graduates used it but only 42% of those with basic education. The survey also counts searching for information."
+        "cs": "Dotazník letos výslovně počítá i vyhledávání informací, loňský ne, takže srovnání s 32 % nemusí být přesné. Ve věku 25–64 let ji použilo 85 % vysokoškoláků a 42 % lidí se základním vzděláním.",
+        "en": "This year’s questionnaire explicitly counts searching for information; last year’s did not, so the comparison with 32% may be inexact. Among 25–64-year-olds, 85% of graduates and 42% with basic education used it."
       },
       "sources": [
         {
@@ -113,16 +113,16 @@
       "verified": true,
       "eventDate": "2026-11-24",
       "title": {
-        "cs": "Prusa umožnila ovládat tiskárny přes Claude a ChatGPT",
-        "en": "Prusa printers now work through Claude and ChatGPT"
+        "cs": "Prusa (beta): tiskárny jdou ovládat přes Claude a ChatGPT",
+        "en": "Prusa (beta): printers now work through Claude and ChatGPT"
       },
       "summary": {
-        "cs": "Prusa Research zveřejnila MCP server Prusa MCP (beta, zdarma): AI asistent, třeba Claude nebo ChatGPT, díky němu najde model na Printables, připraví ho k tisku v cloudovém slicru EasyPrint, nahraje do Prusa Connect a spustí tisk. Sleduje i průběh a kameru a řídí frontu. Podle Lupy vyšel 24. listopadu.",
-        "en": "Prusa Research has released Prusa MCP (beta, free): an AI assistant such as Claude or ChatGPT finds a model on Printables, prepares it in the cloud slicer EasyPrint, uploads it to Prusa Connect, and starts the print. It also monitors progress and the camera and manages the queue. Per Lupa, it launched November 24."
+        "cs": "Prusa Research zveřejnila MCP server Prusa MCP (beta, zdarma): AI asistent, třeba Claude nebo ChatGPT, díky němu najde model na Printables, připraví ho k tisku v cloudovém slicru EasyPrint, nahraje do Prusa Connect a spustí tisk. Sleduje i průběh a kameru a řídí frontu. Lupa o něm psala 24. listopadu.",
+        "en": "Prusa Research has released Prusa MCP (beta, free): an AI assistant such as Claude or ChatGPT finds a model on Printables, prepares it in the cloud slicer EasyPrint, uploads it to Prusa Connect, and starts the print. It also monitors progress and the camera and manages the queue. Lupa reported it on November 24."
       },
       "why": {
-        "cs": "Claude (placené tarify) vyžaduje vlastní konektor, ChatGPT (Plus a výš, jen web) režim vývojáře. Nech asistenta ptát se před akcí; slicování se počítá do denního limitu EasyPrintu, konverzace Prusa nevidí.",
-        "en": "Claude (paid plans) needs a custom connector; ChatGPT (Plus and up, web only) needs Developer mode. Keep the assistant asking before it acts; slicing counts toward the daily EasyPrint allowance; Prusa sees no conversations."
+        "cs": "Jen pro tiskárny přidané do Prusa Connect. Claude (placené tarify) vyžaduje vlastní konektor, ChatGPT (Plus a výš, jen web) režim vývojáře; nech asistenta ptát se před akcí.",
+        "en": "Only for printers added to Prusa Connect. Claude (paid plans) needs a custom connector, ChatGPT (Plus and up, web only) Developer mode; keep the assistant asking before it acts."
       },
       "sources": [
         {
@@ -146,12 +146,12 @@
         "en": "Tidal to ban wholly AI-made music on December 9"
       },
       "summary": {
-        "cs": "Streamovací služba Tidal 24. listopadu oznámila, že od 9. prosince zakáže skladby vytvořené výhradně umělou inteligencí; podle médií smaže 27 až 29 milionů písní a denně odhadem odmítne 80 000 až 85 000 nahrání. Podle Tidalu bylo AI 43 % nahrávek za posledních 90 dní a 96 % AI skladeb nemá žádné přehrání.",
-        "en": "Tidal announced on November 24 that from December 9 it bans tracks made wholly by AI, deleting 27 to 29 million songs per media and, by its estimate, rejecting 80,000 to 85,000 uploads daily. It says 43% of uploads in the last 90 days were AI and 96% of AI tracks have no plays."
+        "cs": "Tidal 24. listopadu oznámil, že od 9. prosince zakáže skladby vytvořené výhradně umělou inteligencí; podle něj smaže asi 29 milionů písní (Ars Technica: 27) a denně odhadem odmítne 80 000 až 85 000 nahrání. Podle Tidalu bylo AI 43 % nových skladeb za 90 dní a 96 % AI skladeb nemá žádné přehrání.",
+        "en": "Tidal said on November 24 that from December 9 it bans wholly AI-made tracks, deleting about 29 million songs (Ars Technica: 27) and, by estimate, rejecting 80,000 to 85,000 uploads daily. It says 43% of new tracks in 90 days were AI and 96% of AI tracks have no plays."
       },
       "why": {
-        "cs": "Zákaz se týká jen čistě AI skladeb; hudba s pomocí AI zůstává. Tidal je bude hledat nástrojem Ircam Amplify a kontrolou metadat a zakáže i distributorům je posílat. Čísla pocházejí z příspěvků Tidalu na X.",
-        "en": "The ban covers only purely AI tracks; AI-assisted music stays. Tidal will detect them with Ircam Amplify and metadata checks and bar distributors from sending them. The figures come from Tidal’s posts on X."
+        "cs": "Zákaz se týká jen skladeb vytvořených celé AI; hudba s pomocí AI zůstává. Podle The Verge je Tidal pozná nástrojem Ircam Amplify a metadaty, Ars Technica píše, že způsob neupřesnil. Čísla jsou z příspěvků Tidalu.",
+        "en": "The ban covers only wholly AI-made tracks; AI-assisted music stays. Per The Verge, Tidal will spot them with Ircam Amplify and metadata; Ars Technica says the method is unspecified. The figures come from Tidal’s posts."
       },
       "sources": [
         {
@@ -179,12 +179,12 @@
         "en": "Anthropic publishes Siren, a sandbox-escape test for AI agents"
       },
       "summary": {
-        "cs": "Anthropic 24. listopadu popsala test Siren: agent plní běžné úkoly v záměrně děravém sandboxu a mimo něj leží něco, co by mu pomohlo. Novější modely Claude (řada 5.5 a Mythos 5.2) sáhly ven v 21 až 32 % scénářů; nepřípustně použily nalezené jen v 0,6 až 1,6 %, Mythos 5 v 25,8 %.",
-        "en": "On November 24, Anthropic described Siren, a test where an agent does routine tasks in a deliberately flawed sandbox with something helpful outside it. Newer Claude models (5.5 series, Mythos 5.2) reached outside in 21 to 32% of scenarios but misused what they found in only 0.6 to 1.6%, Mythos 5 in 25.8%."
+        "cs": "Anthropic 24. listopadu zveřejnila test Siren: agent plní úkoly v záměrně děravém sandboxu a venku čeká něco užitečného. Modely bez běžných ochran se pokusily sáhnout ven v 21 až 32 % scénářů (řada 5.5, Mythos 5.2) a nalezené nepřípustně použily jen v 0,6 až 1,6 %; starší Mythos 5 v 25,8 %.",
+        "en": "On November 24, Anthropic published Siren, a test: an agent does tasks in a deliberately flawed sandbox with something useful outside. Models without usual safeguards tried to reach out in 21 to 32% of scenarios (5.5 series, Mythos 5.2) and misused what they found in only 0.6 to 1.6%; older Mythos 5 in 25.8%."
       },
       "why": {
-        "cs": "Systémový prompt s popisem sandboxu a šesti pravidly snížil sahání ven o 68 až 96 %. Čísla platí pro modely bez ochran, které Anthropic přidává k vydaným modelům; neodhadují běžný provoz.",
-        "en": "A system prompt describing the sandbox and six rules cut reaching outside by 68 to 96%. The figures are for models without Anthropic’s release safeguards and do not estimate everyday use."
+        "cs": "Systémový prompt (pokyny agentovi) se sandboxem a šesti pravidly snížil sahání ven o 68 až 96 %. Čísla neodhadují běžný provoz; modely často tušily test (Sonnet 5.5 ve 67 % scénářů).",
+        "en": "A system prompt describing the sandbox and six rules cut reaching out by 68 to 96%. The figures do not estimate everyday use; models often suspected a test (Sonnet 5.5 in 67% of scenarios)."
       },
       "sources": [
         {
@@ -208,17 +208,21 @@
         "en": "Google Workspace: AI agents will have to use MCP"
       },
       "summary": {
-        "cs": "Google 24. listopadu uvedl Workspace MCP servery a Workspace CLI (příkazový řádek) ve všeobecné dostupnosti: AI agent se přes ně připojí ke Gmailu, Disku, Dokumentům, Kalendáři a dalším službám. AI agenti musí od 1. února 2027 používat MCP, ne přímé volání REST API; nový dodatek k podmínkám navíc zakazuje hromadné stahování dat (scraping).",
-        "en": "On November 24, Google made Workspace MCP servers and the Workspace CLI (command line) generally available: an AI agent connects through them to Gmail, Drive, Docs, Calendar, and other services. From February 1, 2027, AI agents must use MCP, not call REST APIs directly; a new addendum to the terms also bans scraping."
+        "cs": "Google 24. listopadu začal zavádět Workspace MCP servery a Workspace CLI v plné dostupnosti: AI agent se přes ně připojí ke Gmailu, Disku, Kalendáři a dalším službám. AI agenti musí používat MCP, ne přímé volání REST API (technicky vynutí od 1. února 2027); nový dodatek zakazuje i trénink modelů na datech uživatelů.",
+        "en": "On November 24, Google began rolling out Workspace MCP servers and the Workspace CLI generally available: an AI agent connects through them to Gmail, Drive, and more. AI agents must use MCP, not call REST APIs directly (technically enforced from February 1, 2027); a new addendum also bans training models on user data."
       },
       "why": {
-        "cs": "Vývojáři agentů musí přejít na MCP a označit OAuth klienta jako agentního. Tarif Scaled se od 1. dubna 2027 platí jen nad bezplatný limit; přes 99 % vývojářů zůstává ve Standard zdarma.",
-        "en": "Agent developers must switch to MCP and flag their OAuth client as agentic. From April 1, 2027 the Scaled tier bills only above a free limit; over 99% of developers stay in Standard for free."
+        "cs": "Správci smějí v Admin konzoli vyžadovat potvrzení citlivých akcí v cizích AI nástrojích. Vývojáři agentů musí přejít na MCP a označit OAuth klienta jako agentního; vyšší limity jsou od 1. dubna 2027 placené.",
+        "en": "Admins can require confirmation of sensitive actions in third-party AI tools. Agent developers must switch to MCP and flag their OAuth client as agentic; higher limits are paid from April 1, 2027."
       },
       "sources": [
         {
           "name": "Google",
           "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html"
+        },
+        {
+          "name": "Google Workspace",
+          "url": "https://workspace.google.com/terms/ai-tools"
         },
         {
           "name": "The Next Web",
@@ -233,16 +237,16 @@
       "verified": true,
       "eventDate": "2026-11-24",
       "title": {
-        "cs": "OpenAI: GPT-6 navrhl bílkoviny, část se v laboratoři vázala",
-        "en": "OpenAI: GPT-6 designed proteins, some bound targets in lab"
+        "cs": "OpenAI: GPT-6 navrhl tvary bílkovin, některé se vázaly",
+        "en": "OpenAI: GPT-6 designed protein shapes, some bound targets"
       },
       "summary": {
-        "cs": "OpenAI 24. listopadu popsala, že modely GPT-6 umějí jen úvahou a kódem navrhnout tvar bílkoviny. Ve spolupráci s firmou Onava se v laboratoři ověřovalo 322 navržených malých bílkovin na pěti cílech: 35 z nich (10,9 %) se na cíl navázalo. V tom testu ale sekvence navrhly specializované modely; celou strukturu bílkoviny GPT-6 zatím předpovídá špatně.",
-        "en": "On November 24, OpenAI described how GPT-6 models can design a protein’s shape by reasoning and code alone. With the firm Onava, 322 designed small proteins were lab-tested against five targets: 35 (10.9%) bound their target. In that test, specialized models proposed the sequences; GPT-6 still predicts whole protein structures poorly."
+        "cs": "OpenAI 24. listopadu popsala, že modely GPT-6 umějí jen úvahou a kódem navrhnout tvar bílkoviny. S firmou Onava se v laboratoři testovalo 322 malých bílkovin podle návrhů předběžné verze GPT-6.2 na pěti cílech; vazbu vykázalo 35 (10,9 %). Sekvence v tom testu navrhly specializované modely; celou strukturu bílkoviny GPT-6 předpovídá špatně.",
+        "en": "On November 24, OpenAI described how GPT-6 models can design a protein’s shape by reasoning and code alone. With the firm Onava, 322 small proteins designed by a pre-release GPT-6.2 were lab-tested against five targets; 35 (10.9%) showed binding. In that test, specialized models proposed the sequences; GPT-6 still predicts whole protein structures poorly."
       },
       "why": {
-        "cs": "Je to zpráva OpenAI a předtisk bez recenze. Původní studie modelu RFdiffusion (specializovaný model) uváděla vyšší podíl úspěšných návrhů; OpenAI poznamenává, že hodnota silně závisí na tom, jak přísně se návrhy před testem filtrují.",
-        "en": "OpenAI’s own report, an unreviewed preprint. The original RFdiffusion study (a specialized model) reported higher hit rates; OpenAI notes the rate depends heavily on how strictly designs are filtered before lab tests."
+        "cs": "Je to zpráva OpenAI a předtisk. „Vazba“ = malá bílkovina se v laboratoři připojila k cíli. Původní studie RFdiffusion (specializovaný model) uváděla vyšší úspěšnost; OpenAI říká, že závisí na filtrování návrhů.",
+        "en": "OpenAI’s own report, a preprint. “Binding” means a small protein stuck to its target in the lab. The original RFdiffusion study (a specialized model) reported higher hit rates; OpenAI says they depend on design filtering."
       },
       "sources": [
         {
@@ -262,12 +266,12 @@
         "en": "Gemini Notebook flashcards get images, a stopwatch, and reminders"
       },
       "summary": {
-        "cs": "Google 24. listopadu přidal ke kartičkám (flashcards) v Gemini Notebook tři novinky: obrázky automaticky převzaté z nahraných zdrojů, stopky pro nácvik zkoušky na čas a v mobilní aplikaci naplánovaná upozornění k opakování. Platí pro všechny účty Workspace i osobní účty Google; správce nic nevypíná.",
-        "en": "On November 24, Google added three updates to flashcards in Gemini Notebook: images pulled automatically from uploaded sources, a stopwatch for timed exam practice, and scheduled review reminders in the mobile app. It applies to all Workspace accounts and personal Google accounts; admins cannot switch it off."
+        "cs": "Google 24. listopadu přidal ke kartičkám (flashcards) v Gemini Notebook, sešitech s nahranými zdroji, tři novinky: obrázky automaticky převzaté ze zdrojů, stopky pro nácvik zkoušky na čas a v mobilní aplikaci naplánovaná upozornění k opakování. Dostupné hned všem uživatelům Workspace i osobních účtů Google.",
+        "en": "On November 24, Google added three updates to flashcards in Gemini Notebook, notebooks built on uploaded sources: images pulled from the sources, a stopwatch for timed exam practice, and scheduled review reminders in the mobile app. Available now to all Workspace users and personal Google accounts."
       },
       "why": {
-        "cs": "Kartičky vytvoříš v panelu Studio volbou Flashcards (obtížnost, vlastní zadání); potřebuješ právo úprav sešitu. Po sezení lze procvičit jen kartičky, které jsi neznal, nebo je stáhnout jako CSV.",
-        "en": "Create flashcards in the Studio panel by choosing Flashcards (difficulty, custom prompt); you need edit access to the notebook. After a session you can practice only the cards you missed, or download them as CSV."
+        "cs": "Ve Studiu vytvoř Flashcards (potřebuješ právo úprav), při procvičování použij stopky a připomínky naplánuj v mobilní aplikaci. Správce tyto novinky samostatně nevypne, jen Gemini Notebook jako celek.",
+        "en": "Create Flashcards in the Studio panel (edit access needed), use the stopwatch while practicing, schedule reminders in the mobile app. Admins cannot switch these updates off separately, only Gemini Notebook as a whole."
       },
       "sources": [
         {
@@ -291,12 +295,12 @@
         "en": "Perplexity Computer now works inside Chrome or Edge"
       },
       "summary": {
-        "cs": "Perplexity 24. listopadu vydala aktualizované rozšíření pro Chrome, Edge, Brave a další prohlížeče na Chromiu: agent Computer díky němu pracuje přímo ve tvém prohlížeči na stránkách, kam jsi přihlášený. Otevřeš ho z postranního panelu (Alt+A, na Macu Option+A); Computer jedná jen během úlohy, kterou zadáš.",
-        "en": "On November 24, Perplexity released an updated extension for Chrome, Edge, Brave, and other Chromium browsers: the Computer agent can then work inside your own browser on sites you are signed in to. You open it from the side panel (Alt+A, Option+A on Mac); Computer acts only during a task you start."
+        "cs": "Perplexity 24. listopadu oznámila aktualizované rozšíření pro Chrome, Edge, Brave a další prohlížeče na Chromiu: její agent Computer díky němu pracuje přímo v tvém prohlížeči na stránkách, kam jsi přihlášený. Otevřeš ho z postranního panelu (Alt+A, na Macu Option+A); podle Perplexity jedná jen během úlohy, kterou zadáš.",
+        "en": "On November 24, Perplexity announced an updated extension for Chrome, Edge, Brave, and other Chromium browsers: its Computer agent can then work inside your own browser on sites you are signed in to. You open it from the side panel (Alt+A, Option+A on Mac); per Perplexity, it acts only during a task you start."
       },
       "why": {
-        "cs": "Oprávnění k jednotlivým webům nastavíš v Settings → Browser use. V prohlížeči Comet rozšíření nepotřebuješ. Jaký tarif Computer vyžaduje, stránka rozšíření neuvádí; ověř si to u Perplexity.",
-        "en": "Set permissions site by site in Settings → Browser use. In the Comet browser you do not need the extension. The extension page does not say which plan Computer requires; check with Perplexity."
+        "cs": "Rozšíření nainstaluješ z Chrome Web Store; oprávnění k webům nastavíš v Settings → Browser use. Computer je podle ceníku Perplexity od tarifu Pro. V prohlížeči Comet od Perplexity je vestavěný.",
+        "en": "Install the extension from the Chrome Web Store; set site permissions in Settings → Browser use. Per Perplexity’s pricing, Computer starts with the Pro plan. It is built into Perplexity’s Comet browser."
       },
       "sources": [
         {
@@ -306,6 +310,10 @@
         {
           "name": "Perplexity (Chrome Web Store)",
           "url": "https://chromewebstore.google.com/detail/perplexity/pninphncmkphpjgfffammoenglghcjii"
+        },
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/hub/pricing"
         }
       ]
     },
@@ -316,16 +324,16 @@
       "verified": true,
       "eventDate": "2026-11-18",
       "title": {
-        "cs": "Pro vývojáře: GitHub Copilot nastaví pluginy celému týmu",
-        "en": "For developers: GitHub Copilot sets plugins for whole teams"
+        "cs": "Pro správce týmů: GitHub Copilot s výchozími pluginy",
+        "en": "For team admins: GitHub Copilot with default plugins"
       },
       "summary": {
         "cs": "GitHub 18. listopadu zpřístupnil týmové úpravy Copilotu: správce týmu nebo vlastník organizace vybere schválené Agent Plugins jako výchozí pro celý tým. Členům se zapnou ve VS Code, aplikaci GitHub Copilot a Copilot CLI; mohou je vypnout, pokud to pravidla dovolí. Pro Copilot Business a Enterprise.",
         "en": "On November 18, GitHub made team customizations for Copilot generally available: a team maintainer or organization owner picks approved Agent Plugins as team defaults. They switch on for members in VS Code, the GitHub Copilot app, and Copilot CLI; members may turn them off where policy allows. For Copilot Business and Enterprise."
       },
       "why": {
-        "cs": "Na github.com otevři týmovou stránku a záložku Customize Copilot, projdi tržiště pluginů nebo přidej vlastní z repozitáře. Pravidla firmy mají přednost před volbou týmu; podřízené týmy výchozí pluginy nedědí.",
-        "en": "On github.com open the team page and its Customize Copilot tab, browse plugin marketplaces or add one from a repository. Company policy overrides team choices; child teams do not inherit the default plugins."
+        "cs": "Jsi-li správce týmu nebo vlastník organizace, otevři na github.com týmovou stránku a záložku Customize Copilot; vyber pluginy z tržišť nebo ze svého repozitáře. Pravidla firmy mají přednost; podřízené týmy je nedědí.",
+        "en": "If you are a team maintainer or organization owner, open the team page on github.com, then Customize Copilot; pick plugins from marketplaces or your repository. Company policy overrides; child teams do not inherit them."
       },
       "sources": [
         {
@@ -379,17 +387,17 @@
         "en": "EU: AI apps making fake nude images banned by December 2"
       },
       "note": {
-        "cs": "AI Act (platí od 27. 7.): nejpozději 2. 12. musí mít systémy tvořící bez souhlasu intimní snímky lidí pojistky proti zneužití, starší systémy i strojově čitelné označení AI obsahu.",
-        "en": "AI Act (in force since July 27): by December 2, systems making intimate images of people without consent need safeguards against misuse, and older systems machine-readable labels on AI content."
+        "cs": "Od 2. 12. (novela AI Actu) je zakázaný systém tvořící bez souhlasu intimní snímky lidí bez přiměřených bezpečnostních opatření; starší systémy musí AI obsah označit strojově čitelně.",
+        "en": "From December 2 (AI Act amendment), a system making intimate images of people without consent is banned unless it has adequate safety measures; older systems must label AI content machine-readably."
       },
       "sources": [
         {
-          "name": "European Parliament",
-          "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban"
+          "name": "EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
         },
         {
-          "name": "European Commission",
-          "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force"
+          "name": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban"
         }
       ],
       "tentative": false
@@ -401,8 +409,8 @@
         "en": "US Senate: Nvidia CEO Jensen Huang testifies December 3"
       },
       "note": {
-        "cs": "Senátní výbor pro bankovnictví svolal slyšení o kontrole vývozu čipů; Huang je jediný svědek. Podle TechCrunch slíbil vystoupit už 1. prosince i před výbory Sněmovny.",
-        "en": "The Senate Banking Committee set a hearing on chip export controls; Huang is the only witness. Per TechCrunch, he also agreed to testify before House committees on December 1."
+        "cs": "Senátní výbor svolal slyšení o dohledu nad exportními kontrolami USA (třeba AI čipů); Huang je jediný svědek. TechCrunch: už 1. prosince má vystoupit i před výbory Sněmovny reprezentantů.",
+        "en": "The Senate Banking Committee set a hearing on US export control oversight (such as AI chips); Huang is the only witness. TechCrunch: he also faces House committees on December 1."
       },
       "sources": [
         {

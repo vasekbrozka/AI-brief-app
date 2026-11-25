@@ -583,6 +583,23 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   titulku**. Slovníček: u třídy modelů OpenAI chyběl alias „Sol“ a u veřejného náhledu „veřejná beta“ — po 5c doplň aliasy
   existujících pojmů (nejsou to nové pojmy) a hlídej falešné zásahy (EN „three-dot menu“ zasáhlo alias „dots“). **Titulek radaru po
   přenosu neměň** (`check-brief.py` páruje přenos podle titulku a hlásí WARN) — opravy dávej do poznámky.
+  (48) **Zprávu o „nepotvrzeném“ tvrzení hledej při každém sweepu znovu; potvrzení nebo vyvrácení je nová položka s `followsUp`, ne
+  duplicita** — 21. 11. jsem psala, že správnost důkazu Riemannovy hypotézy není potvrzena; 24. 11. jsem navazující zprávu vyřadila
+  jako „stejnou událost“, přestože Lean FRO a Mathlib Initiative už 21. 11. (13:55 UTC) vydaly společné prohlášení, že důkaz je správný
+  (blog komunity Lean, T1; odkaz stál v článcích The Register a Ars Technica). Text „zatím nepotvrzeno“ v appce tři dny neplatil.
+  **Než „další vývoj“ vyřadíš, otevři primární zdroje, na které články odkazují, a hledej v nich novější datum a nové tvrzení.**
+  Dva ze tří čtenáři pak chtěli tuto zprávu jako highlight (největší událost dne a navázání na 21. 11.) — přesunuto: recept
+  „přímý užitek čtenáře před velikostí události“ rozhoduje mezi srovnatelnými zprávami, ne proti přelomové události s navazujícím
+  příběhem. (49) **Alias ve slovníčku nesmí splynout se jménem firmy ani produktu** — alias „perplexity“ u metriky (přidaný 23. 11.)
+  tři dny podtrhával firmu Perplexity ve všech textech; **před přidáním aliasu grepni posledních 14 briefů a projdi simulaci 4b na
+  názvy firem**, holý anglický alias dej jen tehdy, když ho nenese žádná firma. (50) **Čísla z primárního šetření čti z tabulky a
+  porovnej znění otázky s předchozím rokem** — ČSÚ (56 % × 32 %): dotazník 2026 přidal větu „Započítává se také použití generativní
+  AI k vyhledávání informací“, loňský ji nemá, a referenční období je 3 měsíce; Lupa uváděla 90 % u 16–24 let, tabulka 91,1 %.
+  **Meziroční srovnání bez ověření změny dotazníku napiš s výhradou; číslo převzaté z média přepočítej z tabulky.** U termínu
+  z legislativy ověř konečné znění v EUR-Lex (nařízení 2026/1744: 2. 12. 2026 platí pro čl. 5 odst. 1 písm. ba, bb, odst. 1a, 1b
+  a pro čl. 50 odst. 2 u starších systémů), ne tiskovou zprávu před schválením; radar smí mít jen 1–2 zdroje (checker: FAIL u tří).
+  U titulků „navrhl X“ ověř, co přesně dělal model a co specializované nástroje (OpenAI: GPT-6.2 navrhl jen tvary, sekvence dodal
+  SolubleMPNN) — **titulek nesmí slibovat víc než nejslabší experiment v textu**.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

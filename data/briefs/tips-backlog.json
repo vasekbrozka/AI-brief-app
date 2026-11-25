@@ -6908,12 +6908,12 @@
         "en": "Gemini Notebook flashcards get images, a stopwatch, and reminders"
       },
       "summary": {
-        "cs": "Google 24. listopadu přidal ke kartičkám (flashcards) v Gemini Notebook tři novinky: obrázky automaticky převzaté z nahraných zdrojů, stopky pro nácvik zkoušky na čas a v mobilní aplikaci naplánovaná upozornění k opakování. Platí pro všechny účty Workspace i osobní účty Google; správce nic nevypíná.",
-        "en": "On November 24, Google added three updates to flashcards in Gemini Notebook: images pulled automatically from uploaded sources, a stopwatch for timed exam practice, and scheduled review reminders in the mobile app. It applies to all Workspace accounts and personal Google accounts; admins cannot switch it off."
+        "cs": "Google 24. listopadu přidal ke kartičkám (flashcards) v Gemini Notebook, sešitech s nahranými zdroji, tři novinky: obrázky automaticky převzaté ze zdrojů, stopky pro nácvik zkoušky na čas a v mobilní aplikaci naplánovaná upozornění k opakování. Dostupné hned všem uživatelům Workspace i osobních účtů Google.",
+        "en": "On November 24, Google added three updates to flashcards in Gemini Notebook, notebooks built on uploaded sources: images pulled from the sources, a stopwatch for timed exam practice, and scheduled review reminders in the mobile app. Available now to all Workspace users and personal Google accounts."
       },
       "why": {
-        "cs": "Kartičky vytvoříš v panelu Studio volbou Flashcards (obtížnost, vlastní zadání); potřebuješ právo úprav sešitu. Po sezení lze procvičit jen kartičky, které jsi neznal, nebo je stáhnout jako CSV.",
-        "en": "Create flashcards in the Studio panel by choosing Flashcards (difficulty, custom prompt); you need edit access to the notebook. After a session you can practice only the cards you missed, or download them as CSV."
+        "cs": "Ve Studiu vytvoř Flashcards (potřebuješ právo úprav), při procvičování použij stopky a připomínky naplánuj v mobilní aplikaci. Správce tyto novinky samostatně nevypne, jen Gemini Notebook jako celek.",
+        "en": "Create Flashcards in the Studio panel (edit access needed), use the stopwatch while practicing, schedule reminders in the mobile app. Admins cannot switch these updates off separately, only Gemini Notebook as a whole."
       },
       "sources": [
         {
@@ -6939,12 +6939,12 @@
         "en": "Perplexity Computer now works inside Chrome or Edge"
       },
       "summary": {
-        "cs": "Perplexity 24. listopadu vydala aktualizované rozšíření pro Chrome, Edge, Brave a další prohlížeče na Chromiu: agent Computer díky němu pracuje přímo ve tvém prohlížeči na stránkách, kam jsi přihlášený. Otevřeš ho z postranního panelu (Alt+A, na Macu Option+A); Computer jedná jen během úlohy, kterou zadáš.",
-        "en": "On November 24, Perplexity released an updated extension for Chrome, Edge, Brave, and other Chromium browsers: the Computer agent can then work inside your own browser on sites you are signed in to. You open it from the side panel (Alt+A, Option+A on Mac); Computer acts only during a task you start."
+        "cs": "Perplexity 24. listopadu oznámila aktualizované rozšíření pro Chrome, Edge, Brave a další prohlížeče na Chromiu: její agent Computer díky němu pracuje přímo v tvém prohlížeči na stránkách, kam jsi přihlášený. Otevřeš ho z postranního panelu (Alt+A, na Macu Option+A); podle Perplexity jedná jen během úlohy, kterou zadáš.",
+        "en": "On November 24, Perplexity announced an updated extension for Chrome, Edge, Brave, and other Chromium browsers: its Computer agent can then work inside your own browser on sites you are signed in to. You open it from the side panel (Alt+A, Option+A on Mac); per Perplexity, it acts only during a task you start."
       },
       "why": {
-        "cs": "Oprávnění k jednotlivým webům nastavíš v Settings → Browser use. V prohlížeči Comet rozšíření nepotřebuješ. Jaký tarif Computer vyžaduje, stránka rozšíření neuvádí; ověř si to u Perplexity.",
-        "en": "Set permissions site by site in Settings → Browser use. In the Comet browser you do not need the extension. The extension page does not say which plan Computer requires; check with Perplexity."
+        "cs": "Rozšíření nainstaluješ z Chrome Web Store; oprávnění k webům nastavíš v Settings → Browser use. Computer je podle ceníku Perplexity od tarifu Pro. V prohlížeči Comet od Perplexity je vestavěný.",
+        "en": "Install the extension from the Chrome Web Store; set site permissions in Settings → Browser use. Per Perplexity’s pricing, Computer starts with the Pro plan. It is built into Perplexity’s Comet browser."
       },
       "sources": [
         {
@@ -6954,6 +6954,10 @@
         {
           "name": "Perplexity (Chrome Web Store)",
           "url": "https://chromewebstore.google.com/detail/perplexity/pninphncmkphpjgfffammoenglghcjii"
+        },
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/hub/pricing"
         }
       ],
       "added": "2026-11-25",
@@ -6966,16 +6970,16 @@
       "verified": true,
       "eventDate": "2026-11-18",
       "title": {
-        "cs": "Pro vývojáře: GitHub Copilot nastaví pluginy celému týmu",
-        "en": "For developers: GitHub Copilot sets plugins for whole teams"
+        "cs": "Pro správce týmů: GitHub Copilot s výchozími pluginy",
+        "en": "For team admins: GitHub Copilot with default plugins"
       },
       "summary": {
         "cs": "GitHub 18. listopadu zpřístupnil týmové úpravy Copilotu: správce týmu nebo vlastník organizace vybere schválené Agent Plugins jako výchozí pro celý tým. Členům se zapnou ve VS Code, aplikaci GitHub Copilot a Copilot CLI; mohou je vypnout, pokud to pravidla dovolí. Pro Copilot Business a Enterprise.",
         "en": "On November 18, GitHub made team customizations for Copilot generally available: a team maintainer or organization owner picks approved Agent Plugins as team defaults. They switch on for members in VS Code, the GitHub Copilot app, and Copilot CLI; members may turn them off where policy allows. For Copilot Business and Enterprise."
       },
       "why": {
-        "cs": "Na github.com otevři týmovou stránku a záložku Customize Copilot, projdi tržiště pluginů nebo přidej vlastní z repozitáře. Pravidla firmy mají přednost před volbou týmu; podřízené týmy výchozí pluginy nedědí.",
-        "en": "On github.com open the team page and its Customize Copilot tab, browse plugin marketplaces or add one from a repository. Company policy overrides team choices; child teams do not inherit the default plugins."
+        "cs": "Jsi-li správce týmu nebo vlastník organizace, otevři na github.com týmovou stránku a záložku Customize Copilot; vyber pluginy z tržišť nebo ze svého repozitáře. Pravidla firmy mají přednost; podřízené týmy je nedědí.",
+        "en": "If you are a team maintainer or organization owner, open the team page on github.com, then Customize Copilot; pick plugins from marketplaces or your repository. Company policy overrides; child teams do not inherit them."
       },
       "sources": [
         {
