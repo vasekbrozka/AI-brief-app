@@ -6983,12 +6983,12 @@
         "en": "Claude: the monthly recap is out of beta"
       },
       "summary": {
-        "cs": "Anthropic 24. listopadu vyvedla měsíční souhrn (Reflect) z bety pro tarify Free, Pro, Max i Ultra na webu, v Claude Desktop a v mobilních aplikacích. Ukáže, jaká témata s Claudem řešíš, nejaktivnější den a hodinu a jednu či dvě věci k vyzkoušení; nově čerpá i z relací Claude Code a úloh Cowork v cloudu.",
-        "en": "On November 24, Anthropic took Claude’s monthly recap (Reflect) out of beta for Free, Pro, Max, and Ultra on web, desktop, and mobile. It shows your topics, busiest day and hour, and one or two things to try; it now also draws on cloud Claude Code sessions and Cowork tasks."
+        "cs": "Anthropic 24. listopadu ukončila beta test měsíčního souhrnu (Reflect) pro tarify Free, Pro, Max i Ultra na webu, v Claude Desktop a v mobilních aplikacích. Ukáže témata tvých konverzací, nejaktivnější den a hodinu a jednu či dvě věci k vyzkoušení; čerpá z chatů a z cloudových relací Claude Code a úloh Cowork, ne z lokálních.",
+        "en": "On November 24, Anthropic ended the beta of Claude’s monthly recap (Reflect) for Free, Pro, Max, and Ultra on web, desktop, and mobile. It shows your conversation topics, busiest day and hour, and one or two things to try; it draws on chats and on cloud Claude Code sessions and Cowork tasks, not local ones."
       },
       "why": {
-        "cs": "Otevři Nastavení → Wellbeing → Reflect → View. Souhrn se ukáže jen se zapnutou pamětí a na tarifech Team a Enterprise není; uložené souhrny smažeš tlačítkem Delete stored reflections.",
-        "en": "Open Settings → Wellbeing → Reflect → View. The recap appears only with memory on and is not on Team or Enterprise plans; delete stored recaps with Delete stored reflections."
+        "cs": "Settings → Wellbeing → Reflect → View (v mobilu Settings → Reflect). Souhrn se ukáže jen se zapnutou pamětí, na Team a Enterprise není a zavádí se postupně; uložené souhrny smažeš tlačítkem Delete stored reflections.",
+        "en": "Settings → Wellbeing → Reflect → View (on mobile Settings → Reflect). The recap needs memory on, is not on Team or Enterprise, and is rolling out gradually; delete stored recaps with Delete stored reflections."
       },
       "sources": [
         {
@@ -7010,16 +7010,16 @@
       "verified": true,
       "eventDate": "2026-11-17",
       "title": {
-        "cs": "Google Vids si pamatuje tvá média pro další videa",
-        "en": "Google Vids remembers your media for later videos"
+        "cs": "Google Vids uloží média pro opakované použití v projektu",
+        "en": "Google Vids stores media for reuse within a project"
       },
       "summary": {
-        "cs": "Google 17. listopadu začal zavádět ve Vids sekci Assets: média, která použiješ při generování videa Gemini Omni (obrázky, videa, zvuk), se v projektu uloží a můžeš je znovu vybrat jako ingredience pro další videa.",
-        "en": "On November 17, Google began rolling out an Assets section in Vids: media you use when generating video with Gemini Omni (images, video, audio) is stored in the project, and you can pick it again as ingredients for later videos."
+        "cs": "Google 17. listopadu začal zavádět ve Vids sekci Assets: média, která použiješ při generování videa Gemini Omni (obrázky, videa, zvuk), se uloží v projektu a můžeš je znovu vybrat jako ingredience pro další generování ve stejném projektu.",
+        "en": "On November 17, Google began rolling out an Assets section in Vids: media you use when generating video with Gemini Omni (images, video, audio) is stored in the project, and you can pick it again as ingredients for later generations in the same project."
       },
       "why": {
-        "cs": "Zapnuto ve výchozím stavu, bez nastavení. Postupně: domény s Rapid Release od 17. listopadu (až 15 dní), se Scheduled Release od 2. prosince; i osobní účty s Google AI Pro a Ultra.",
-        "en": "On by default, no setting. Gradually: Rapid Release domains from November 17 (up to 15 days), Scheduled Release from December 2; personal accounts with Google AI Pro and Ultra too."
+        "cs": "Zapnuto ve výchozím stavu; při generování videa vybereš z nedávných médií v Assets. Zavádí se postupně od 17. listopadu, u části účtů Workspace až od 2. prosince; i s Google AI Pro a Ultra.",
+        "en": "On by default; when generating video, pick from recent media in Assets. Rolling out from November 17, for some Workspace accounts only from December 2; also with Google AI Pro and Ultra."
       },
       "sources": [
         {
@@ -7037,16 +7037,16 @@
       "verified": true,
       "eventDate": "2026-11-18",
       "title": {
-        "cs": "ChatGPT dostal plugin Accounting pro párování transakcí",
-        "en": "ChatGPT gets an Accounting plugin to reconcile transactions"
+        "cs": "ChatGPT: plugin Accounting pomáhá párovat transakce",
+        "en": "ChatGPT: the Accounting plugin helps reconcile transactions"
       },
       "summary": {
-        "cs": "OpenAI 18. listopadu přidala do ChatGPT plugin Accounting: podle tvých záznamů a šablon pomáhá párovat transakce, navrhovat zápisy faktur a připravovat měsíční přehledy. Používá se v desktopové aplikaci pro macOS a Windows s nastaveným ovládáním počítače (computer use).",
-        "en": "On November 18, OpenAI added an Accounting plugin to ChatGPT: from your records and templates it helps reconcile transactions, draft invoice entries, and prepare month-end reports. It runs in the ChatGPT desktop app for macOS and Windows with computer use set up."
+        "cs": "Poznámky k vydání ChatGPT z 18. listopadu představují plugin Accounting: podle tvých záznamů a šablon pomáhá párovat transakce, navrhovat zápisy faktur a připravovat měsíční přehledy. Postup instalace popisují pro desktopovou aplikaci pro macOS a Windows s nastaveným ovládáním počítače (computer use).",
+        "en": "The ChatGPT release notes of November 18 introduce an Accounting plugin: from your records and templates it helps reconcile transactions, draft invoice entries, and prepare month-end reports. They describe installing it in the ChatGPT desktop app for macOS and Windows with computer use set up."
       },
       "why": {
-        "cs": "V aplikaci otevři nabídku pluginu Accounting a vyber Install plugin, pokud ho tvůj tarif a pracovní prostor nabízí; poznámky k vydání tarify neuvádějí. V Enterprise ho musí nejdřív schválit správce.",
-        "en": "In the app, open the Accounting plugin listing and select Install plugin if your plan and workspace offer it; the release notes do not name plans. In Enterprise, an admin must approve it first."
+        "cs": "V aplikaci otevři stránku pluginu Accounting a zvol Install plugin, pokud ho tvůj tarif a pracovní prostor nabízí; tarify poznámky neuvádějí. V Enterprise ho musí nejdřív schválit správce.",
+        "en": "In the app, open the Accounting plugin page and select Install plugin if your plan and workspace offer it; the release notes do not name plans. In Enterprise, an admin must approve it first."
       },
       "sources": [
         {
@@ -7064,16 +7064,16 @@
       "verified": true,
       "eventDate": "2026-11-25",
       "title": {
-        "cs": "Pro vývojáře: VS Code nenechá počítač s agentem usnout",
-        "en": "For developers: VS Code keeps the agent’s computer awake"
+        "cs": "Pro vývojáře: VS Code zabrání uspání počítače s agentem",
+        "en": "For developers: VS Code prevents sleep during agent work"
       },
       "summary": {
-        "cs": "VS Code 1.148 z 25. listopadu přidal v náhledu nastavení sessions.keepAwakeWhileWorking: když na podporovaném hostiteli pracuje agent, počítač neusne ani po zavření okna a krátce po skončení práce se zámek uvolní. Výchozí hodnota whenPluggedIn drží počítač vzhůru jen při napájení ze sítě.",
-        "en": "VS Code 1.148 from November 25 added the setting sessions.keepAwakeWhileWorking in preview: while an agent works on a supported host, the computer does not sleep even after you close the window, and the hold is released shortly after the work ends. The default whenPluggedIn keeps it awake only while plugged in."
+        "cs": "VS Code 1.148 z 25. listopadu přidal v náhledu nastavení sessions.keepAwakeWhileWorking: počítač, na kterém pracuje agent, nebude z nečinnosti uspán, ani když zavřeš okno; po skončení práce smí znovu usnout. Funguje jen na podporovaných hostitelích (počítačích, kde agent běží); výchozí whenPluggedIn to dělá jen při napájení ze sítě.",
+        "en": "VS Code 1.148 from November 25 added the setting sessions.keepAwakeWhileWorking in preview: the computer an agent works on is not put to sleep when idle, even after you close the window, and may sleep once the work ends. Supported hosts (computers where the agent runs) only; the default whenPluggedIn applies only on mains power."
       },
       "why": {
-        "cs": "Hodnota always drží počítač vzhůru i na baterii, never usnutí povolí. Hodí se pro dlouhé úlohy bez dozoru; funkce je označená jako náhled.",
-        "en": "The value always keeps it awake on battery too; never allows sleep. It suits long unattended tasks; the feature is marked as a preview."
+        "cs": "Hledej to v Settings pod sessions.keepAwakeWhileWorking; always drží počítač vzhůru i na baterii, never usnutí povolí. Hodí se pro dlouhé úlohy bez dozoru; je to náhled.",
+        "en": "Look for sessions.keepAwakeWhileWorking in Settings; always keeps it awake on battery too, never allows sleep. It suits long unattended tasks; it is a preview."
       },
       "sources": [
         {

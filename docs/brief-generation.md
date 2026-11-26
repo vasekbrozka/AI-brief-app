@@ -600,6 +600,13 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   a pro čl. 50 odst. 2 u starších systémů), ne tiskovou zprávu před schválením; radar smí mít jen 1–2 zdroje (checker: FAIL u tří).
   U titulků „navrhl X“ ověř, co přesně dělal model a co specializované nástroje (OpenAI: GPT-6.2 navrhl jen tvary, sekvence dodal
   SolubleMPNN) — **titulek nesmí slibovat víc než nejslabší experiment v textu**.
+  (51) **Číslo z grafu napiš s rozsahem měření z popisku a srovnávej tutéž konfiguraci** — Anthropic (Rust, 25. 11.): −70 % procesoru platí
+  pro jeden region a −20 % času do prvního tokenu jen pro požadavky z Claude Code (popisek obr. 15); JetBrains (Kotlin Benchmark 2.0):
+  „nejlepší na veřejných úlohách × nejlepší na soukromých“ jsou dvě různé konfigurace, pokles ukazují až páry téže konfigurace
+  (Fable 5.1: 86,2 → 44,4 %, podle The Register). Dva čtenáři oba texty označili za zavádějící. **Titulek nesmí předběhnout datum účinnosti**
+  (ChatGPT: sdílený limit od prosince, dřív jen malá skupina) **ani připsat zdroji závěr, který neříká** (JetBrains příčinu teprve zkoumá);
+  tvrzení o stavu věci („zakázal“) ověř proti účinnosti (newyorský zákon: podepsán, platí za 90 dní). **Shrnutí WebSearch je stopa, ne
+  zdroj** — o zákonu v New Yorku splácalo říjnový balík zákonů o chatbotech a listopadový zákaz hraček; primární text nenalezen → „podle TechCrunch“.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.
