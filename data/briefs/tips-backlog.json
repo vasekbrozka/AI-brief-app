@@ -1,28 +1,6 @@
 {
   "tips": [
     {
-      "slug": "tip-copilot-excel-change-history",
-      "category": "tools",
-      "theme": "copilot",
-      "verified": false,
-      "title": {
-        "cs": "Copilot v Excelu teď vysvětlí historii úprav sešitu",
-        "en": "Copilot in Excel can now explain your workbook's edit history"
-      },
-      "summary": {
-        "cs": "Copilot v Excelu umí shrnout, jak se sešit v čase měnil, a rozliší úpravy člověka od těch svých. Konkrétní změnu jde i vrátit zpět nebo se posunout k dřívější funkční verzi sešitu. Microsoft to přidal v srpnovém vydání novinek pro Excel.",
-        "en": "Copilot in Excel can now summarize how a workbook has changed over time, telling apart human edits from its own. You can undo a specific change or roll the whole workbook back to an earlier working version. Microsoft added it in its August Excel update."
-      },
-      "sources": [
-        {
-          "name": "Microsoft",
-          "url": "https://techcommunity.microsoft.com/blog/excelblog/whats-new-in-excel-august-2026/4527283"
-        }
-      ],
-      "added": "2026-08-27",
-      "used": "2026-08-27"
-    },
-    {
       "slug": "tip-copilot-excel-python-skill",
       "category": "tools",
       "theme": "copilot",
@@ -6705,33 +6683,6 @@
       "used": "2026-11-23"
     },
     {
-      "slug": "tip-google-vids-assets-reuse-media",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": true,
-      "eventDate": "2026-11-17",
-      "title": {
-        "cs": "Google Vids si pamatuje tvá média pro další videa",
-        "en": "Google Vids remembers your media for later videos"
-      },
-      "summary": {
-        "cs": "Google 17. listopadu začal zavádět ve Vids sekci Assets: média, která použiješ při generování videa Gemini Omni (obrázky, videa, zvuk), se v projektu uloží a můžeš je znovu vybrat jako ingredience pro další videa.",
-        "en": "On November 17, Google began rolling out an Assets section in Vids: media you use when generating video with Gemini Omni (images, video, audio) is stored in the project, and you can pick it again as ingredients for later videos."
-      },
-      "why": {
-        "cs": "Je to ve výchozím stavu zapnuto, bez nastavení. Domény s Rapid Release dostávají funkci od 17. listopadu (až 15 dní), Scheduled Release od 2. prosince; pro osobní účty s Google AI Pro a Ultra.",
-        "en": "It is on by default, with no setting. Rapid Release domains get it from November 17 (up to 15 days), Scheduled Release from December 2; for personal accounts with Google AI Pro and Ultra."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://workspaceupdates.googleblog.com/2026/11/google-vids-now-lets-you-reuse-your-media-in-video-generation.html"
-        }
-      ],
-      "added": "2026-11-23",
-      "used": null
-    },
-    {
       "slug": "tip-claude-code-vscode-fix-with-claude",
       "category": "tools",
       "theme": "claude",
@@ -7032,20 +6983,194 @@
         "en": "Claude: the monthly recap is out of beta"
       },
       "summary": {
-        "cs": "Anthropic 24. listopadu vyvedla měsíční souhrn (Reflect v Nastavení) z bety pro tarify Free, Pro, Max a Ultra na webu, v Claude Desktop a v mobilních aplikacích. Souhrn teď čerpá i z relací Claude Code a úloh Claude Cowork v cloudu a uložené souhrny jde smazat.",
-        "en": "On November 24, Anthropic took the monthly recap (Reflect, in Settings) out of beta for Free, Pro, Max, and Ultra plans on the web, Claude Desktop, and mobile apps. The recap now also draws on Claude Code sessions and cloud Claude Cowork tasks, and stored recaps can be deleted."
+        "cs": "Anthropic 24. listopadu vyvedla měsíční souhrn (Reflect) z bety pro tarify Free, Pro, Max i Ultra na webu, v Claude Desktop a v mobilních aplikacích. Ukáže, jaká témata s Claudem řešíš, nejaktivnější den a hodinu a jednu či dvě věci k vyzkoušení; nově čerpá i z relací Claude Code a úloh Cowork v cloudu.",
+        "en": "On November 24, Anthropic took Claude’s monthly recap (Reflect) out of beta for Free, Pro, Max, and Ultra on web, desktop, and mobile. It shows your topics, busiest day and hour, and one or two things to try; it now also draws on cloud Claude Code sessions and Cowork tasks."
       },
       "why": {
-        "cs": "Souhrn najdeš v Nastavení pod názvem Reflect; uložené souhrny smažeš na stejné stránce. Poznámky k vydání odkazují na nápovědu „See your monthly recap“; před použitím tip znovu ověř.",
-        "en": "Find the recap in Settings under Reflect; delete stored recaps on the same page. The release notes point to the help article “See your monthly recap”; re-check it before using this tip."
+        "cs": "Otevři Nastavení → Wellbeing → Reflect → View. Souhrn se ukáže jen se zapnutou pamětí a na tarifech Team a Enterprise není; uložené souhrny smažeš tlačítkem Delete stored reflections.",
+        "en": "Open Settings → Wellbeing → Reflect → View. The recap appears only with memory on and is not on Team or Enterprise plans; delete stored recaps with Delete stored reflections."
       },
       "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/15672559-see-your-monthly-recap"
+        },
         {
           "name": "Anthropic",
           "url": "https://support.claude.com/en/articles/12138966-release-notes"
         }
       ],
       "added": "2026-11-25",
+      "used": "2026-11-26"
+    },
+    {
+      "slug": "tip-google-vids-assets-reuse-media",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Google Vids si pamatuje tvá média pro další videa",
+        "en": "Google Vids remembers your media for later videos"
+      },
+      "summary": {
+        "cs": "Google 17. listopadu začal zavádět ve Vids sekci Assets: média, která použiješ při generování videa Gemini Omni (obrázky, videa, zvuk), se v projektu uloží a můžeš je znovu vybrat jako ingredience pro další videa.",
+        "en": "On November 17, Google began rolling out an Assets section in Vids: media you use when generating video with Gemini Omni (images, video, audio) is stored in the project, and you can pick it again as ingredients for later videos."
+      },
+      "why": {
+        "cs": "Zapnuto ve výchozím stavu, bez nastavení. Postupně: domény s Rapid Release od 17. listopadu (až 15 dní), se Scheduled Release od 2. prosince; i osobní účty s Google AI Pro a Ultra.",
+        "en": "On by default, no setting. Gradually: Rapid Release domains from November 17 (up to 15 days), Scheduled Release from December 2; personal accounts with Google AI Pro and Ultra too."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/google-vids-now-lets-you-reuse-your-media-in-video-generation.html"
+        }
+      ],
+      "added": "2026-11-23",
+      "used": "2026-11-26"
+    },
+    {
+      "slug": "tip-chatgpt-accounting-plugin",
+      "category": "tools",
+      "theme": "chatgpt",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "ChatGPT dostal plugin Accounting pro párování transakcí",
+        "en": "ChatGPT gets an Accounting plugin to reconcile transactions"
+      },
+      "summary": {
+        "cs": "OpenAI 18. listopadu přidala do ChatGPT plugin Accounting: podle tvých záznamů a šablon pomáhá párovat transakce, navrhovat zápisy faktur a připravovat měsíční přehledy. Používá se v desktopové aplikaci pro macOS a Windows s nastaveným ovládáním počítače (computer use).",
+        "en": "On November 18, OpenAI added an Accounting plugin to ChatGPT: from your records and templates it helps reconcile transactions, draft invoice entries, and prepare month-end reports. It runs in the ChatGPT desktop app for macOS and Windows with computer use set up."
+      },
+      "why": {
+        "cs": "V aplikaci otevři nabídku pluginu Accounting a vyber Install plugin, pokud ho tvůj tarif a pracovní prostor nabízí; poznámky k vydání tarify neuvádějí. V Enterprise ho musí nejdřív schválit správce.",
+        "en": "In the app, open the Accounting plugin listing and select Install plugin if your plan and workspace offer it; the release notes do not name plans. In Enterprise, an admin must approve it first."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "added": "2026-11-26",
+      "used": "2026-11-26"
+    },
+    {
+      "slug": "tip-vscode-keep-agents-awake",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-25",
+      "title": {
+        "cs": "Pro vývojáře: VS Code nenechá počítač s agentem usnout",
+        "en": "For developers: VS Code keeps the agent’s computer awake"
+      },
+      "summary": {
+        "cs": "VS Code 1.148 z 25. listopadu přidal v náhledu nastavení sessions.keepAwakeWhileWorking: když na podporovaném hostiteli pracuje agent, počítač neusne ani po zavření okna a krátce po skončení práce se zámek uvolní. Výchozí hodnota whenPluggedIn drží počítač vzhůru jen při napájení ze sítě.",
+        "en": "VS Code 1.148 from November 25 added the setting sessions.keepAwakeWhileWorking in preview: while an agent works on a supported host, the computer does not sleep even after you close the window, and the hold is released shortly after the work ends. The default whenPluggedIn keeps it awake only while plugged in."
+      },
+      "why": {
+        "cs": "Hodnota always drží počítač vzhůru i na baterii, never usnutí povolí. Hodí se pro dlouhé úlohy bez dozoru; funkce je označená jako náhled.",
+        "en": "The value always keeps it awake on battery too; never allows sleep. It suits long unattended tasks; the feature is marked as a preview."
+      },
+      "sources": [
+        {
+          "name": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/updates/v1_148"
+        }
+      ],
+      "added": "2026-11-26",
+      "used": "2026-11-26"
+    },
+    {
+      "slug": "tip-claude-file-transfers-connectors",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-11-24",
+      "title": {
+        "cs": "Claude pošle soubor do připojené aplikace a uloží soubor od ní (beta)",
+        "en": "Claude can send a file to a connected app and save one from it (beta)"
+      },
+      "summary": {
+        "cs": "Anthropic 24. listopadu zavedla v betě přenosy souborů s konektory: Claude pošle soubor (i ten, který sám vytvořil) do připojené aplikace, třeba do cloudového úložiště, nebo uloží soubor, který aplikace nabídne. Funguje na webu, v Claude Desktop, v mobilních aplikacích i v Claude Code.",
+        "en": "On November 24, Anthropic introduced file transfers with connectors in beta: Claude can send a file (even one it made) to a connected app, such as cloud storage, or save a file the app offers. It works on the web, in Claude Desktop, in the mobile apps, and in Claude Code."
+      },
+      "why": {
+        "cs": "Zavádí se postupně na Pro, Max a Ultra; na Team a Enterprise je vypnuté, dokud je nezapne vlastník (Organization settings → Connectors → File transfers). Aplikace musí být v adresáři konektorů a mít podporu souborů; vlastní konektory a MCP servery nefungují; před prvním odesláním do aplikace se Claude zeptá.",
+        "en": "It rolls out gradually on Pro, Max, and Ultra; on Team and Enterprise it is off until an owner turns it on (Organization settings → Connectors → File transfers). The app must be in the connectors directory with file support; custom connectors and MCP servers do not work; Claude asks before the first send to an app."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/18534325"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
+      ],
+      "added": "2026-11-26",
+      "used": null
+    },
+    {
+      "slug": "tip-perplexity-time-machine-api",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": true,
+      "eventDate": "2026-11-25",
+      "title": {
+        "cs": "Pro vývojáře: Perplexity Time Machine ukáže agentovi web k zvolenému datu",
+        "en": "For developers: Perplexity Time Machine shows an agent the web as of a chosen date"
+      },
+      "summary": {
+        "cs": "Perplexity 25. listopadu přidala do Search API a Context API Time Machine: parametr snapshot_as_of omezí hledání a čtení stránek na uložené kopie z doby před zvoleným datem, až 365 dní zpět. Hodí se k testům předpovědí a zpětným testům, aby agent nenašel výsledek, který už nastal.",
+        "en": "On November 25, Perplexity added Time Machine to its Search API and Context API: the snapshot_as_of parameter limits search and page reading to stored copies from before a chosen date, up to 365 days back. It suits forecast tests and backtests, so the agent cannot find an outcome that has already happened."
+      },
+      "why": {
+        "cs": "Podle Perplexity stojí stejně jako ostatní volání API. Čísla z jejich vlastního pokusu (0,80 proti 0,79 u trhu Polymarket) pocházejí od firmy; před použitím tip znovu ověř.",
+        "en": "Per Perplexity, it costs the same as other API calls. The figures from its own experiment (0.80 versus 0.79 for the Polymarket market) come from the company; re-check this tip before using it."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/hub/blog/freeze-the-web-with-perplexity-time-machine"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/perplexity-time-machine-ai-agents-past-web"
+        }
+      ],
+      "added": "2026-11-26",
+      "used": null
+    },
+    {
+      "slug": "tip-lmstudio-bionic-1-2-3",
+      "category": "tools",
+      "theme": "local",
+      "verified": true,
+      "eventDate": "2026-11-25",
+      "title": {
+        "cs": "LM Studio Bionic 1.2.3: engine a verzi vybereš pro každý model zvlášť",
+        "en": "LM Studio Bionic 1.2.3: pick the engine and its version per model"
+      },
+      "summary": {
+        "cs": "Bionic 1.2.3 z 25. listopadu přidal v nastavení Library výběr enginu a jeho verze zvlášť pro každý model, filtr aktivních relací napříč projekty a zařízeními, tlačítka zpět a vpřed mezi relacemi a výchozí dvouminutový limit příkazů; dlouhý výstup se uloží pro navazující dotaz.",
+        "en": "Bionic 1.2.3 from November 25 added per-model engine and version selection in Library settings, a filter for active sessions across projects and devices, back and forward buttons between sessions, and a default two-minute command timeout; long output is saved for follow-up."
+      },
+      "why": {
+        "cs": "Changelog je stručný a nic nevysvětluje; před použitím tip znovu ověř v aplikaci a v dokumentaci.",
+        "en": "The changelog is terse and explains nothing; re-check the tip in the app and the docs before using it."
+      },
+      "sources": [
+        {
+          "name": "LM Studio",
+          "url": "https://lmstudio.ai/changelog/bionic-v1.2.3"
+        }
+      ],
+      "added": "2026-11-26",
       "used": null
     }
   ]

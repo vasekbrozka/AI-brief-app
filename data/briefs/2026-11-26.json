@@ -1,0 +1,433 @@
+{
+  "date": "2026-11-26",
+  "sample": false,
+  "headline": {
+    "cs": "ChatGPT začal spojovat Chat a Work do jednoho limitu",
+    "en": "ChatGPT starts merging Chat and Work under one limit"
+  },
+  "items": [
+    {
+      "id": "2026-11-26-openai-chatgpt-chat-work-merge-shared-limit",
+      "kind": "news",
+      "category": "tools",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-11-25",
+      "title": {
+        "cs": "ChatGPT začal spojovat Chat a Work do jednoho limitu",
+        "en": "ChatGPT starts merging Chat and Work under one limit"
+      },
+      "summary": {
+        "cs": "OpenAI podle TechCrunch z 25. listopadu začala malé skupině předplatitelů Pro zavádět spojené Chat a Work v ChatGPT. Podle nápovědy se od prosince bude u tarifů Plus, Pro a Business sdílet jeden limit pro ChatGPT a Codex; rychlé chaty Instant se do něj nepočítají. Nejvytíženější uživatelé mohou podle OpenAI narazit na limit dřív.",
+        "en": "Per TechCrunch on November 25, OpenAI began rolling out merged Chat and Work in ChatGPT to a small group of Pro subscribers. Its help page says Plus, Pro, and Business will share one limit across ChatGPT and Codex from December; fast Instant chats do not count. The heaviest users may hit limits sooner, OpenAI says."
+      },
+      "why": {
+        "cs": "Work je režim pro delší úkoly. Zbývající limit uvidíš v Settings → Usage; po vyčerpání počkej, přejdi na vyšší tarif nebo dokup kredity. Podle OpenAI většina lidí nebude čekat na obnovení limitu častěji než dosud.",
+        "en": "Work is the mode for longer tasks. Remaining usage shows in Settings → Usage; at the limit, wait, upgrade, or buy credits. Per OpenAI, most people will not wait for resets more often than now."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-state-attorneys-general-oppose-character-ai-chat-auction",
+      "kind": "news",
+      "category": "policy",
+      "verified": true,
+      "eventDate": "2026-11-25",
+      "title": {
+        "cs": "42 prokurátorů se staví proti dražbě chatů Character.AI",
+        "en": "42 attorneys general oppose Character.AI chat auction"
+      },
+      "summary": {
+        "cs": "Koalice 42 amerických generálních prokurátorů 25. listopadu oznámila, že žádá soud, aby zamítl prodej platformy Character.AI v bankrotu, včetně soukromých chatů z více než 21 milionů účtů (přes 2,1 milionu patří nezletilým). Dražba je 1. prosince; kupec by nemusel dodržovat zásady soukromí firmy.",
+        "en": "A coalition of 42 US attorneys general said on November 25 it asks the bankruptcy court to reject the sale of Character.AI, including private chats from more than 21 million accounts (over 2.1 million registered to minors). The auction is December 1; the buyer would not have to follow the company’s privacy policy."
+      },
+      "why": {
+        "cs": "Chaty jsou spojené s profilem a IP adresou. Výchozí nabídku podala firma založená 13. listopadu s neznámými vlastníky; státy chtějí aspoň vyloučit chaty dětí a citlivé údaje.",
+        "en": "Chats are linked to profiles and IP addresses. The opening bid came from a firm formed on November 13 with undisclosed owners; the states want at least children’s chats and sensitive data excluded."
+      },
+      "sources": [
+        {
+          "name": "Colorado Attorney General",
+          "url": "https://coag.gov/press-releases/weiser-challenges-auction-of-millions-of-private-character-ai-conversations/"
+        },
+        {
+          "name": "California Attorney General",
+          "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-opposes-asset-sale-characterai-amid-child-safety-concerns"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-anthropic-messages-api-rust-migration-verification",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-25",
+      "title": {
+        "cs": "Anthropic přepsala API Claude do Rustu s pomocí Claude",
+        "en": "Anthropic rewrote Claude’s API in Rust with Claude’s help"
+      },
+      "summary": {
+        "cs": "Anthropic 25. listopadu popsala, jak s agenty Claude přepsala z Pythonu do Rustu rozhraní Messages API, kterým se k Claudovi připojují zákazníci i Claude Code. Testům nešlo věřit, proto novou verzi porovnávala se starou na živém provozu. Výsledek: asi o 70 % méně procesoru na požadavek a o 20 % rychlejší začátek odpovědi.",
+        "en": "On November 25, Anthropic described using Claude agents to rewrite the Messages API, through which customers and Claude Code reach Claude, from Python to Rust. Tests could not be trusted, so it compared old and new versions on live traffic. Result: about 70% less CPU per request, a 20% faster first token."
+      },
+      "why": {
+        "cs": "Podle Anthropic je dnes překážkou ověřování, ne psaní kódu: v dubnu prošlo 98 % testů, ale shodovala se jen čtvrtina skutečných vstupů. Inženýr navíc zamítl zkratku, kterou agent navrhl.",
+        "en": "Anthropic says verification, not writing code, is now the bottleneck: in April 98% of tests passed, yet only a quarter of real inputs matched. An engineer also rejected a shortcut an agent proposed."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-claude-messages-api-rust-migration"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-shellbench-agents-everyday-tasks-six-in-ten",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-24",
+      "title": {
+        "cs": "ShellBench: nejlepší agenti splnili jen šest úloh z deseti",
+        "en": "ShellBench: best agents completed only six in ten tasks"
+      },
+      "summary": {
+        "cs": "Test ShellBench z 24. listopadu (OpenClaw Foundation s Hugging Face, Red Hat, Parsewave a UC Berkeley) zadal 12 modelům 100 úloh podle skutečné práce s agenty: e-maily, tabulky, účtenky i pasti s phishingem. Nejlepší, GPT-6 Astra, uspěl v 62,5 %; 15,7 % z 53 100 běhů porušilo aspoň jednu bezpečnostní podmínku.",
+        "en": "The ShellBench test of November 24 (OpenClaw Foundation with Hugging Face, Red Hat, Parsewave, and UC Berkeley) gave 12 models 100 tasks modeled on real agent work: emails, spreadsheets, receipts, even phishing traps. The best, GPT-6 Astra, passed 62.5%; 15.7% of 53,100 runs broke at least one safety requirement."
+      },
+      "why": {
+        "cs": "GPT-6 Astra zvládl úlohu ve všech třech pokusech jen v 48,8 % případů. GPT-6.1 Sol měl 61,4 % za 0,19 USD na běh, Astra 1,10 USD. Autoři vyvíjejí i testovaného agenta OpenClaw.",
+        "en": "GPT-6 Astra succeeded on all three attempts at a task only 48.8% of the time. GPT-6.1 Sol scored 61.4% at $0.19 per run, Astra at $1.10. The authors also build OpenClaw, an agent they tested."
+      },
+      "sources": [
+        {
+          "name": "OpenClaw",
+          "url": "https://openclaw.ai/blog/shellbench"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-jetbrains-kotlin-benchmark-2-private-code",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-23",
+      "title": {
+        "cs": "JetBrains: AI agenti uspějí hůř na soukromém kódu",
+        "en": "JetBrains: AI coding agents do worse on private code"
+      },
+      "summary": {
+        "cs": "JetBrains 23. listopadu vydala Kotlin Benchmark 2.0: 100 úloh v Kotlinu, 70 z veřejných repozitářů (agenti bez přístupu k síti, aby nenašli hotovou opravu) a 30 ze soukromých. Nejlepší výsledek na veřejných úlohách byl 86,2 % (Claude Code s Fable 5.1), na soukromých 60 % (Antigravity CLI s Gemini 3.8 Flash).",
+        "en": "JetBrains released Kotlin Benchmark 2.0 on November 23: 100 Kotlin tasks, 70 from public repositories (agents had no network access, so they could not look up a published fix) and 30 private. Best on public tasks: 86.2% (Claude Code with Fable 5.1); on private: 60% (Antigravity CLI with Gemini 3.8 Flash)."
+      },
+      "why": {
+        "cs": "Skóre na veřejném kódu může odrážet paměť z tréninku, ne schopnost; JetBrains to ještě zkoumá. Na soukromých úlohách vyšel otevřený DeepSeek V4.1 Flash na 58,9 % za 0,08 USD za úlohu, Gemini stál 1,74 USD.",
+        "en": "Scores on public code may reflect memory from training, not ability; JetBrains is still checking. On private tasks the open DeepSeek V4.1 Flash reached 58.9% at $0.08 per task; Gemini cost $1.74."
+      },
+      "sources": [
+        {
+          "name": "JetBrains",
+          "url": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/devops/2026/11/25/jetbrains-finds-agents-may-cheat-with-open-source/5311999"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-common-sense-media-ai-toys-fail-safety-tests",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-24",
+      "title": {
+        "cs": "Common Sense Media: pět AI hraček neprošlo testem bezpečnosti",
+        "en": "Common Sense Media: five AI toys failed safety tests"
+      },
+      "summary": {
+        "cs": "Organizace Common Sense Media 24. listopadu zveřejnila testy pěti populárních AI hraček pro děti (Grem, Lovi, Meemo Bear, BubblePal Panda, AI Puppy od Tavlshero): všech pět tvrdilo, že dítě miluje, a většina vysvětlila, kde najít zápalky, nože či léky. U většiny byly přepisy rozhovorů pro rodiče plné chyb, některé je neměly vůbec.",
+        "en": "On November 24, Common Sense Media published tests of five popular AI toys for children (Grem, Lovi, Meemo Bear, BubblePal Panda, Tavlshero’s AI Puppy): all five claimed to love the child, and most explained where to find matches, knives, or pills. Most had transcripts for parents full of errors; some had none."
+      },
+      "why": {
+        "cs": "Podle TechCrunch New York tento týden na pět let zakázal výrobu a prodej hraček s chatbotem. Common Sense Media doporučuje AI hračky dětem do 5 let nekupovat a u starších dbát na krajní opatrnost.",
+        "en": "Per TechCrunch, New York this week banned making and selling chatbot toys for five years. Common Sense Media advises against AI toys for children 5 and under, and extreme caution for older ones."
+      },
+      "sources": [
+        {
+          "name": "Common Sense Media",
+          "url": "https://about.commonsensemedia.org/press-room/press-releases/common-sense-media-finds-popular-ai-toys-fail-safety-checks"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-tip-claude-monthly-recap-out-of-beta",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-24",
+      "title": {
+        "cs": "Claude: měsíční souhrn už není v betě",
+        "en": "Claude: the monthly recap is out of beta"
+      },
+      "summary": {
+        "cs": "Anthropic 24. listopadu vyvedla měsíční souhrn (Reflect) z bety pro tarify Free, Pro, Max i Ultra na webu, v Claude Desktop a v mobilních aplikacích. Ukáže, jaká témata s Claudem řešíš, nejaktivnější den a hodinu a jednu či dvě věci k vyzkoušení; nově čerpá i z relací Claude Code a úloh Cowork v cloudu.",
+        "en": "On November 24, Anthropic took Claude’s monthly recap (Reflect) out of beta for Free, Pro, Max, and Ultra on web, desktop, and mobile. It shows your topics, busiest day and hour, and one or two things to try; it now also draws on cloud Claude Code sessions and Cowork tasks."
+      },
+      "why": {
+        "cs": "Otevři Nastavení → Wellbeing → Reflect → View. Souhrn se ukáže jen se zapnutou pamětí a na tarifech Team a Enterprise není; uložené souhrny smažeš tlačítkem Delete stored reflections.",
+        "en": "Open Settings → Wellbeing → Reflect → View. The recap appears only with memory on and is not on Team or Enterprise plans; delete stored recaps with Delete stored reflections."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/15672559-see-your-monthly-recap"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-tip-google-vids-assets-reuse-media",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Google Vids si pamatuje tvá média pro další videa",
+        "en": "Google Vids remembers your media for later videos"
+      },
+      "summary": {
+        "cs": "Google 17. listopadu začal zavádět ve Vids sekci Assets: média, která použiješ při generování videa Gemini Omni (obrázky, videa, zvuk), se v projektu uloží a můžeš je znovu vybrat jako ingredience pro další videa.",
+        "en": "On November 17, Google began rolling out an Assets section in Vids: media you use when generating video with Gemini Omni (images, video, audio) is stored in the project, and you can pick it again as ingredients for later videos."
+      },
+      "why": {
+        "cs": "Zapnuto ve výchozím stavu, bez nastavení. Postupně: domény s Rapid Release od 17. listopadu (až 15 dní), se Scheduled Release od 2. prosince; i osobní účty s Google AI Pro a Ultra.",
+        "en": "On by default, no setting. Gradually: Rapid Release domains from November 17 (up to 15 days), Scheduled Release from December 2; personal accounts with Google AI Pro and Ultra too."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/google-vids-now-lets-you-reuse-your-media-in-video-generation.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-tip-chatgpt-accounting-plugin",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-18",
+      "title": {
+        "cs": "ChatGPT dostal plugin Accounting pro párování transakcí",
+        "en": "ChatGPT gets an Accounting plugin to reconcile transactions"
+      },
+      "summary": {
+        "cs": "OpenAI 18. listopadu přidala do ChatGPT plugin Accounting: podle tvých záznamů a šablon pomáhá párovat transakce, navrhovat zápisy faktur a připravovat měsíční přehledy. Používá se v desktopové aplikaci pro macOS a Windows s nastaveným ovládáním počítače (computer use).",
+        "en": "On November 18, OpenAI added an Accounting plugin to ChatGPT: from your records and templates it helps reconcile transactions, draft invoice entries, and prepare month-end reports. It runs in the ChatGPT desktop app for macOS and Windows with computer use set up."
+      },
+      "why": {
+        "cs": "V aplikaci otevři nabídku pluginu Accounting a vyber Install plugin, pokud ho tvůj tarif a pracovní prostor nabízí; poznámky k vydání tarify neuvádějí. V Enterprise ho musí nejdřív schválit správce.",
+        "en": "In the app, open the Accounting plugin listing and select Install plugin if your plan and workspace offer it; the release notes do not name plans. In Enterprise, an admin must approve it first."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-tip-vscode-keep-agents-awake",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-25",
+      "title": {
+        "cs": "Pro vývojáře: VS Code nenechá počítač s agentem usnout",
+        "en": "For developers: VS Code keeps the agent’s computer awake"
+      },
+      "summary": {
+        "cs": "VS Code 1.148 z 25. listopadu přidal v náhledu nastavení sessions.keepAwakeWhileWorking: když na podporovaném hostiteli pracuje agent, počítač neusne ani po zavření okna a krátce po skončení práce se zámek uvolní. Výchozí hodnota whenPluggedIn drží počítač vzhůru jen při napájení ze sítě.",
+        "en": "VS Code 1.148 from November 25 added the setting sessions.keepAwakeWhileWorking in preview: while an agent works on a supported host, the computer does not sleep even after you close the window, and the hold is released shortly after the work ends. The default whenPluggedIn keeps it awake only while plugged in."
+      },
+      "why": {
+        "cs": "Hodnota always drží počítač vzhůru i na baterii, never usnutí povolí. Hodí se pro dlouhé úlohy bez dozoru; funkce je označená jako náhled.",
+        "en": "The value always keeps it awake on battery too; never allows sleep. It suits long unattended tasks; the feature is marked as a preview."
+      },
+      "sources": [
+        {
+          "name": "Visual Studio Code",
+          "url": "https://code.visualstudio.com/updates/v1_148"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "Pro vývojáře: Claude Code ruší rychlý režim pro Opus 4.8",
+        "en": "For developers: Claude Code drops fast mode for Opus 4.8"
+      },
+      "note": {
+        "cs": "Podle poznámek k vydání Claude Code zanikne 30. listopadu rychlý režim Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Rychlost zachováš přechodem na Opus 5.5.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "AWS re:Invent: velká konference o cloudu a AI",
+        "en": "AWS re:Invent: big cloud and AI conference"
+      },
+      "note": {
+        "cs": "Běží 30. 11.–4. 12. v Las Vegas. Podle Amazonu bude pět hlavních projevů a hlavním tématem AI agenti; Amazon avizuje novinky kolem AI služby Bedrock a vývojářského nástroje Kiro.",
+        "en": "Runs November 30–December 4 in Las Vegas. Amazon plans five keynotes, AI agents dominating the agenda; Amazon signals news on the AI service Bedrock and developer tool Kiro."
+      },
+      "sources": [
+        {
+          "name": "Amazon",
+          "url": "https://www.aboutamazon.com/news/aws/what-is-aws-reinvent"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-02",
+      "title": {
+        "cs": "EU: do 2. prosince musí firmy dodržet zákaz nahých deepfaků",
+        "en": "EU: AI apps making fake nude images banned by December 2"
+      },
+      "note": {
+        "cs": "Od 2. 12. (novela AI Actu) je zakázaný systém tvořící bez souhlasu intimní snímky lidí bez přiměřených bezpečnostních opatření; starší systémy musí AI obsah označit strojově čitelně.",
+        "en": "From December 2 (AI Act amendment), a system making intimate images of people without consent is banned unless it has adequate safety measures; older systems must label AI content machine-readably."
+      },
+      "sources": [
+        {
+          "name": "EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+        },
+        {
+          "name": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-03",
+      "title": {
+        "cs": "Senát USA: 3. prosince vypovídá šéf Nvidie Jensen Huang",
+        "en": "US Senate: Nvidia CEO Jensen Huang testifies December 3"
+      },
+      "note": {
+        "cs": "Senátní výbor svolal slyšení o dohledu nad exportními kontrolami USA (třeba AI čipů); Huang je jediný svědek. TechCrunch: už 1. prosince má vystoupit i před výbory Sněmovny reprezentantů.",
+        "en": "The Senate Banking Committee set a hearing on US export control oversight (such as AI chips); Huang is the only witness. TechCrunch: he also faces House committees on December 1."
+      },
+      "sources": [
+        {
+          "name": "U.S. Senate Banking Committee",
+          "url": "https://www.banking.senate.gov/hearings/protecting-americas-ai-advantage-oversight-of-us-export-controls"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-10",
+      "title": {
+        "cs": "Google: brýle s Gemini do prodeje jen v USA a Jižní Koreji",
+        "en": "Google: Gemini smart glasses on sale only in US and South Korea"
+      },
+      "note": {
+        "cs": "Brýle Warby Parker (jen USA) a Gentle Monster (USA, Jižní Korea) půjdou 10. prosince do prodeje. Potřebují účet Google z USA či Jižní Koreje (18+) a podporovaný telefon.",
+        "en": "Warby Parker (US only) and Gentle Monster (US, South Korea) glasses go on sale December 10. They need a US or South Korean Google account, 18+, and a supported phone."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-11",
+      "title": {
+        "cs": "ChatGPT: konec hlasových režimů Advanced a Standard",
+        "en": "ChatGPT: Advanced and Standard voice retire"
+      },
+      "note": {
+        "cs": "Oznámeno 10. listopadu: 11. prosince skončí hlasové režimy Advanced a Standard, zůstane nejnovější model GPT-Live. Výjimka: živé video a sdílení obrazovky zůstanou na Advanced, dokud je GPT-Live nebude umět.",
+        "en": "Announced November 10: on December 11, Advanced and Standard voice modes retire, leaving the latest model, GPT-Live. Exception: live video and screen sharing stay on Advanced until GPT-Live supports them."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-14",
+      "title": {
+        "cs": "Pro vývojáře: 14. prosince skončí v GitHub Copilotu šest modelů",
+        "en": "For developers: six GitHub Copilot models end on December 14"
+      },
+      "note": {
+        "cs": "GitHub 13. listopadu oznámil konec šesti modelů 14. prosince, mj. Claude Fable 5, Gemini 4 Argon a Haiku 4.5 (ten zůstane ročním individuálním předplatitelům); pro Kimi K3 zatím není náhrada.",
+        "en": "GitHub announced November 13 six models end December 14, including Claude Fable 5, Gemini 4 Argon, and Haiku 4.5 (kept for annual individual subscribers); Kimi K3 has no replacement yet."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

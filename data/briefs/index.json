@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-25T04:00:56Z",
+  "updated": "2026-11-26T03:29:21Z",
   "briefs": [
+    {
+      "date": "2026-11-26",
+      "headline": {
+        "cs": "ChatGPT začal spojovat Chat a Work do jednoho limitu",
+        "en": "ChatGPT starts merging Chat and Work under one limit"
+      },
+      "itemCount": 10
+    },
     {
       "date": "2026-11-25",
       "headline": {
@@ -104,14 +112,6 @@
         "en": "Google launches the fast Gemini 4 Hydrogen model"
       },
       "itemCount": 10
-    },
-    {
-      "date": "2026-11-12",
-      "headline": {
-        "cs": "Gemini Live přichází do Apple CarPlay",
-        "en": "Gemini Live comes to Apple CarPlay"
-      },
-      "itemCount": 11
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "terms": [
     {
       "id": "quantization",
@@ -2166,6 +2166,40 @@
       "short": {
         "cs": "Vědecká studie zveřejněná dřív, než ji posoudili nezávislí odborníci (recenze). Může obsahovat chyby, které recenzní řízení teprve odhalí.",
         "en": "A scientific paper released before independent experts have reviewed it (peer review). It may contain errors that review has yet to catch."
+      }
+    },
+    {
+      "id": "phishing",
+      "term": {
+        "cs": "Phishing (podvodné zprávy)",
+        "en": "Phishing (scam messages)"
+      },
+      "aliases": [
+        "phishing",
+        "phishingem",
+        "phishingu",
+        "phishingové",
+        "phishingový"
+      ],
+      "short": {
+        "cs": "Podvod, při kterém útočník předstírá důvěryhodného odesílatele (banku, kolegu, službu) a láká na vyzrazení hesla, platbu nebo kliknutí na škodlivý odkaz.",
+        "en": "A scam in which an attacker poses as a trusted sender (a bank, colleague, or service) to get you to give up a password, make a payment, or click a malicious link."
+      }
+    },
+    {
+      "id": "rust",
+      "term": {
+        "cs": "Rust (programovací jazyk)",
+        "en": "Rust (programming language)"
+      },
+      "aliases": [
+        "Rust",
+        "Rustu",
+        "Rustem"
+      ],
+      "short": {
+        "cs": "Programovací jazyk známý rychlostí a nízkou spotřebou paměti; používá se na výkonné části serverů a systémů. Python je pohodlnější na psaní, ale u velkého provozu stojí víc procesorového času.",
+        "en": "A programming language known for speed and low memory use, used for performance-critical parts of servers and systems. Python is easier to write but costs more processor time at large scale."
       }
     }
   ]

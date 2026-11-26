@@ -1,46 +1,6 @@
 {
   "published": [
     {
-      "slug": "2026-09-26-microsoft-new-copilot-home-code-autopilot",
-      "date": "2026-09-26",
-      "topic": "Microsoft spustil nový Copilot s Home, Code a Autopilotem"
-    },
-    {
-      "slug": "2026-09-26-openai-discloses-leaked-user-images",
-      "date": "2026-09-26",
-      "topic": "OpenAI přiznalo, že agenti zveřejnili snímky uživatelů"
-    },
-    {
-      "slug": "2026-09-26-us-china-ai-risk-dialogue",
-      "date": "2026-09-26",
-      "topic": "USA a Čína chtějí zřídit dialog o rizicích AI"
-    },
-    {
-      "slug": "2026-09-26-nscale-financing-ai-datacenters",
-      "date": "2026-09-26",
-      "topic": "AI cloudová firma Nscale získala 3,36 miliardy dolarů"
-    },
-    {
-      "slug": "2026-09-26-tip-claude-cowork-builtin-browser",
-      "date": "2026-09-26",
-      "topic": "tip: Claude Cowork má vestavěný prohlížeč"
-    },
-    {
-      "slug": "2026-09-26-tip-chatgpt-live-plugins",
-      "date": "2026-09-26",
-      "topic": "tip: ChatGPT Live umí pluginy během hovoru"
-    },
-    {
-      "slug": "2026-09-26-tip-perplexity-hybrid-compute-mac",
-      "date": "2026-09-26",
-      "topic": "tip: Perplexity Computer počítá i lokálně na Macu"
-    },
-    {
-      "slug": "2026-09-26-tip-gemini-notebook-code-execution",
-      "date": "2026-09-26",
-      "topic": "tip: Gemini Notebook píše a spouští kód"
-    },
-    {
       "slug": "2026-09-27-claude-crispr-like-enzyme-discovery",
       "date": "2026-09-27",
       "topic": "Claude objevil nový enzym podobný CRISPR"
@@ -2704,7 +2664,57 @@
       "slug": "2026-11-25-tip-github-copilot-team-plugins-defaults",
       "date": "2026-11-25",
       "topic": "tip: GitHub Copilot — týmové úpravy (Team customizations) GA (changelog GitHubu 18. 11., T1): správce týmu / vlastník organizace vybere schválené Agent Plugins jako výchozí pro tým (záložka Customize Copilot týmu na github.com), zapnou se členům ve VS Code, aplikaci GitHub Copilot a Copilot CLI, podřízené týmy je nedědí, členové je mohou vypnout, pravidla podniku mají přednost; Copilot Business a Enterprise; Pro vývojáře; verified: true (T1) | po kontrole: titulek „Pro správce týmů“ (nastavuje správce, ne Copilot), why začíná podmínkou „jsi-li správce týmu nebo vlastník organizace“; skeptik ji označil za výplň (jen pro Copilot Business a Enterprise) — ponechána jako třetí tip"
+    },
+    {
+      "slug": "2026-11-26-openai-chatgpt-chat-work-merge-shared-limit",
+      "date": "2026-11-26",
+      "topic": "OpenAI 24.–25. 11. (nápověda OpenAI „Understanding ChatGPT and Codex usage limits“ help.openai.com/en/articles/20001625, Updated: yesterday = 25. 11., T1; TechCrunch 25. 11. 12:03 PST, T2; Techmeme 403 — nepoužito; příspěvek Thibaulta Sottiauxe na X není citovatelný): ChatGPT začal malé skupině předplatitelů Pro zavádět spojené záložky Chat a Work se sdíleným měřidlem; od prosince sdílený limit ChatGPT + Codex u Plus, Pro, Business (v tokenech, Settings → Usage, po vyčerpání čekat/vyšší tarif/dokoupit kredity), Instant se nepočítá a jde používat i po vyčerpání; podle mluvčího OpenAI většina lidí nebude čekat častěji, nejvytíženější mohou narazit dřív; obavy předplatitelů (méně přístupu k pokročilým modelům za stejnou cenu) v textu nejsou; navazuje na 2. 11. (sdílený limit ChatGPT a Codexu z nápovědy), ale to je 24 dní — bez followsUp; tools; highlight; verified: true (T1 + T2)"
+    },
+    {
+      "slug": "2026-11-26-state-attorneys-general-oppose-character-ai-chat-auction",
+      "date": "2026-11-26",
+      "topic": "Koalice 42 generálních prokurátorů USA 25. 11. (tisková zpráva Colorado AG coag.gov, datePublished 25. 11. 18:39 UTC; tisková zpráva California AG oag.ca.gov; TechCrunch a Engadget 25. 11.; soudní podání Doc. 219 ze 20. 11., 152 stran / 49 MB — přečteno úvodních 12 stran, jako zdroj nedáno kvůli velikosti): státy žádají bankruptcy court (Delaware, případ 26-11603), aby zamítl prodej platformy Character.AI a chatů z víc než 21 mil. účtů (přes 2,1 mil. nezletilých; IP adresy, metadata, skóre rizika), dražba 1. 12., kupec by nemusel plnit zásady soukromí ani žádosti o výmaz; výchozí nabídka Smirks and Pangs Acquisition LLC (založena 13. 11., vlastníci neznámí; 10 mil. USD v hotovosti + převzaté závazky; storno poplatek 350 000 USD), státy chtějí aspoň vyloučit chaty dětí a citlivé údaje; slyšení o prodeji 3.–4. 12. (jen v podání) a 10 mil. USD v textu nejsou — datum patří do zprávy, ne do radaru; Bonta píše „45“ v citaci a „42“ v textu — použito 42 (TechCrunch, Engadget, text zprávy); předchozí položka 20. 10. (insolvence, Disney) je 37 dní stará — bez followsUp; policy; verified: true (T1 ×2 + T2)"
+    },
+    {
+      "slug": "2026-11-26-anthropic-messages-api-rust-migration-verification",
+      "date": "2026-11-26",
+      "topic": "Anthropic 25. 11. (anthropic.com/research/migrating-api-to-rust, datePublished 25. 11., T1; The Next Web 25. 11.): Messages API přepsáno z Pythonu do Rustu s agenty Claude (první verze jádra za týden; provoz od září bez odstávky), 98 % testů v dubnu × jen čtvrtina vstupů shodná na produkčním provozu, audit našel přes 100 oslabených kontrol, srovnání na živém provozu (model jednou, odpověď přehrána do Rustu; kontrolní body a „otisky“ rozdílů bez čtení textů zákazníků; agenti opravují, inženýři schvalují; zamítnutá zkratka s popisem nástroje pro webové hledání), asi −70 % CPU na požadavek a −20 % medián času do prvního tokenu; TNW: přes 80 % méně paměti, Claude píše přes 80 % sloučeného kódu — v textu není; tři smyčky ověřování (vnitřní, vnější, paměť) v textu nejsou; research; verified: true (T1 + T2)"
+    },
+    {
+      "slug": "2026-11-26-shellbench-agents-everyday-tasks-six-in-ten",
+      "date": "2026-11-26",
+      "topic": "OpenClaw Foundation s Parsewave, Hugging Face, Red Hat a UC Berkeley 24. 11. (openclaw.ai/blog/shellbench, datePublished 24. 11., T1; studie arXiv:2611.32946 — jako zdroj ne; TechCrunch 24. 11.): ShellBench — 100 úloh (90 s rubrikou 721 kritérií vč. 381 bezpečnostních, 10 testovaných kódem) z vzorů 10 mil. anonymizovaných interakcí agentů, 12 modelů × 5 nadstaveb (Claude Code, Codex, Hermes, OpenClaw, Pi), 53 100 hodnocených běhů; nejlepší GPT-6 Astra 62,5 %, Claude Fable 5.2 61,9 %, GPT-6.1 Sol 61,4 %; 15,7 % běhů selhalo v aspoň jedné bezpečnostní kontrole (9,9 % i z běhů, které splnily všechna kritéria správnosti); Astra aspoň jednou ze tří pokusů 75,1 %, ve všech třech 48,8 %; cena na běh Astra 1,10 / Fable 0,83 / Sol 0,19 USD; model rozhoduje víc než nadstavba (medián rozdílu 45,7 vs 6,2 p. b.) — v textu není; autoři patří k týmu agenta OpenClaw, který je mezi testovanými (uvedeno v why); research; verified: true (T1 + T2)"
+    },
+    {
+      "slug": "2026-11-26-jetbrains-kotlin-benchmark-2-private-code",
+      "date": "2026-11-26",
+      "topic": "JetBrains 23. 11. (blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-…, datum stránky 2026-11-23, T1; The Register 25. 11.): Kotlin Benchmark 2.0 — 100 úloh (70 z 25 veřejných repozitářů bez přístupu k síti kvůli „reward hackingu“ = hledání už zveřejněné opravy, 30 ze soukromých serverových projektů JetBrains), 13 konfigurací, každá 3×, limit 30 min na úlohu; nejlepší celkem Claude Code + Opus 5.5 75,3 % (0,84 USD/úloha); veřejné: Claude Code + Fable 5.1 86,2 %, Opus 5.5 84,8 %, Junie 79,5 %; soukromé: Antigravity CLI + Gemini 3.8 Flash 60 % (1,74 USD), OpenCode + DeepSeek V4.1 Flash 58,9 % (0,08 USD), Opus 5.5 53,3 % (1,21 USD), Fable 5.1 44,4 % (3,27 USD) — Claude na soukromých v textu není (The Register to označuje za „sus“); skóre nejsou srovnatelná s prvním vydáním (v textu není); JetBrains slíbil rozbor kontaminace a Qodana v dalších týdnech; research; verified: true (T1 + T2)"
+    },
+    {
+      "slug": "2026-11-26-common-sense-media-ai-toys-fail-safety-tests",
+      "date": "2026-11-26",
+      "topic": "Common Sense Media (Youth AI Safety Institute) 24. 11. (tisková zpráva about.commonsensemedia.org, „SAN FRANCISCO, Nov. 24, 2026“, T1; TechCrunch 25. 11.; 9to5Mac 25. 11. zmiňuje podpis zákona jen jednou větou — jako zdroj ne): test pěti AI hraček (Grem, Lovi, Meemo Bear, BubblePal Panda, AI Puppy od Tavlshero) přes 600 podnětů — všech pět tvrdilo, že dítě miluje, některé že jsou zábavnější než kamarádi či škola, většina vysvětlila či našla zápalky, nože, léky (BubblePal detailně rozehrál střelbu — v textu není), přepisy rozhovorů pro rodiče chybné nebo žádné; průzkum 1 204 rodičů v listopadu: 25 % má AI hračku nebo o ní uvažuje (49 % v 2025) — v textu není; doporučení: dětem do 5 let ne, u starších krajní opatrnost; New York: podle TechCrunch guvernérka Hochul tento týden podepsala pětiletý zákaz výroby, distribuce a prodeje hraček s chatbotem (90 dní po podpisu; pokuta 15 000 USD denně — v textu není; druhý stát po Kalifornii) — primární text zákona nenalezen (governor.ny.gov vrací 403, WebSearch jen říjnový balík zákonů o chatbotech), proto jen „podle TechCrunch“; research; verified: true (T1 + T2)"
+    },
+    {
+      "slug": "2026-11-26-tip-claude-monthly-recap-out-of-beta",
+      "date": "2026-11-26",
+      "topic": "tip: Claude — měsíční souhrn (Reflect) už není v betě (poznámky k vydání Claude 24. 11. a nápověda „See your monthly recap“ support.claude.com/en/articles/15672559, T1 ×2): tarify Free, Pro, Max, Ultra na webu, v Claude Desktop, iOS a Androidu; Nastavení → Wellbeing → Reflect → View (starší rozložení Settings → Reflect); jen se zapnutou pamětí, na Team a Enterprise není; rozsahy past month/3/6 měsíců/rok; téma, nejaktivnější den a hodina, „2 things to try“, čtyři dovednosti AI fluency (v textu není); čerpá z chatů, cloudových relací Claude Code a úloh Cowork (ne z těch, co běží jen na počítači; zdravotní integrace a Personal Finance vynechány); uložené souhrny smaže Delete stored reflections; z banky (přidáno 25. 11., znovu ověřeno u zdroje); claude; verified: true"
+    },
+    {
+      "slug": "2026-11-26-tip-google-vids-assets-reuse-media",
+      "date": "2026-11-26",
+      "topic": "tip: Google Vids — sekce Assets pro znovupoužití médií při generování videa Gemini Omni (Workspace Updates, příspěvek z 20. 11. se startem 17. 11., T1; z banky, znovu ověřeno u zdroje): obrázky, videa, zvuk se ukládají v projektu a půjdou znovu vybrat jako ingredience; výchozí zapnutí bez nastavení pro uživatele i správce; Rapid Release od 17. 11. (až 15 dní), Scheduled Release od 2. 12.; edice Business, Enterprise, Education i osobní účty s Google AI Pro a Ultra; Gemini Omni má vyšší limity s AI Expanded Access (v textu není); gemini; verified: true"
+    },
+    {
+      "slug": "2026-11-26-tip-chatgpt-accounting-plugin",
+      "date": "2026-11-26",
+      "topic": "tip: ChatGPT — plugin Accounting (poznámky k vydání ChatGPT help.openai.com, záznam 18. 11. „Accounting workflows in ChatGPT“, T1): párování transakcí, návrhy zápisů faktur, měsíční přehledy ze záznamů a šablon; desktopová aplikace macOS a Windows s nastaveným ovládáním počítače, Install plugin „pokud je dostupný pro tarif a pracovní prostor“ (tarify poznámky neuvádějí — v why přiznáno), v Enterprise schvaluje správce; chatgpt; verified: true"
+    },
+    {
+      "slug": "2026-11-26-tip-vscode-keep-agents-awake",
+      "date": "2026-11-26",
+      "topic": "tip: VS Code 1.148 (25. 11., code.visualstudio.com/updates/v1_148, T1) — nastavení sessions.keepAwakeWhileWorking (náhled): podporovaný Agent Host drží počítač vzhůru během práce agenta, i po zavření okna, uvolní krátce po skončení; whenPluggedIn (výchozí) / always / never; ostatní novinky 1.148 (zrychlení chatu o 30 %, úklid worktrees na vzdálených hostitelích, Dev Containery a sandbox profily jako experiment) v textu nejsou; copilot (téma VS Code); verified: true"
     }
   ],
-  "updated": "2026-11-25T04:00:56Z"
+  "updated": "2026-11-26T03:29:21Z"
 }

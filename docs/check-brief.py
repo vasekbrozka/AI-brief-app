@@ -79,6 +79,8 @@ CANONICAL_NAMES = {
     "csu.gov.cz": "Český statistický úřad", "prusa3d.com": "Prusa Research",
     "leanprover-community.github.io": "Lean FRO a Mathlib Initiative",
     "banking.senate.gov": "U.S. Senate Banking Committee",
+    "coag.gov": "Colorado Attorney General", "oag.ca.gov": "California Attorney General",
+    "openclaw.ai": "OpenClaw", "jetbrains.com": "JetBrains", "commonsensemedia.org": "Common Sense Media",
 }
 
 # --- zdroje: tiery důvěryhodnosti (viz recept, sekce Zdroje) ------------------
@@ -113,6 +115,9 @@ T1_DOMAINS = [
     "oag.state.va.us", "isovalent.com",
     # 25. 11.: primární zdroje subjektů zpráv — Prusa Research (stránka Prusa MCP), společné prohlášení Lean FRO a Mathlib Initiative (blog komunity Lean)
     "prusa3d.com", "leanprover-community.github.io",
+    # 26. 11.: primární zdroje subjektů zpráv — benchmark ShellBench (blog OpenClaw, autoři studie), Kotlin Benchmark (blog JetBrains),
+    # testy AI hraček (Common Sense Media — vlastní zpráva organizace)
+    "openclaw.ai", "jetbrains.com", "commonsensemedia.org",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.
