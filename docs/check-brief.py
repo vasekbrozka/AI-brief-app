@@ -81,6 +81,7 @@ CANONICAL_NAMES = {
     "banking.senate.gov": "U.S. Senate Banking Committee",
     "coag.gov": "Colorado Attorney General", "oag.ca.gov": "California Attorney General",
     "openclaw.ai": "OpenClaw", "jetbrains.com": "JetBrains", "commonsensemedia.org": "Common Sense Media",
+    "prismml.com": "PrismML", "fcc.gov": "FCC", "ncsc.gov.uk": "UK NCSC", "ec.europa.eu": "European Commission",
 }
 
 # --- zdroje: tiery důvěryhodnosti (viz recept, sekce Zdroje) ------------------
@@ -118,6 +119,8 @@ T1_DOMAINS = [
     # 26. 11.: primární zdroje subjektů zpráv — benchmark ShellBench (blog OpenClaw, autoři studie), Kotlin Benchmark (blog JetBrains),
     # testy AI hraček (Common Sense Media — vlastní zpráva organizace)
     "openclaw.ai", "jetbrains.com", "commonsensemedia.org",
+    # 27. 11.: primární zdroj subjektu zprávy — vlastní newsroom PrismML (model Ternary Bonsai 2.5)
+    "prismml.com",
 ]
 T1_SUFFIXES = [".gov", ".gov.uk", "europa.eu"]
 # Tier 2 = reputabilní média.

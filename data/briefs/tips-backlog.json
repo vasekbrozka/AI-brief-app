@@ -28,32 +28,6 @@
       }
     },
     {
-      "slug": "tip-gemini-student-hub",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": true,
-      "title": {
-        "cs": "Gemini spustil centrum pro studenty s ročním Pro zdarma",
-        "en": "Gemini launches a student hub with a free year of Pro"
-      },
-      "summary": {
-        "cs": "Google od 19. srpna dává americkým vysokoškolákům rok Google AI Pro zdarma (běžně 20 dolarů měsíčně) a spustil nové centrum pro studenty na gemini.google.com/students — sešity na učení, kartičky, diagnostické testy i Deep Research přímo v Gemini Live.",
-        "en": "Google is giving U.S. college students a free year of Google AI Pro (normally $19.99/month) starting August 19, alongside a new Student Hub at gemini.google.com/students — study notebooks, flashcards, diagnostic quizzes, and Deep Research built right into Gemini Live."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/"
-        },
-        {
-          "name": "Tom's Guide",
-          "url": "https://www.tomsguide.com/ai/google-gemini/google-is-giving-students-a-free-year-of-gemini-pro-plus-new-ai-study-features"
-        }
-      ],
-      "added": "2026-08-28",
-      "used": "2026-08-28"
-    },
-    {
       "slug": "tip-chatgpt-multi-google-accounts",
       "category": "tools",
       "theme": "chatgpt",
@@ -6247,7 +6221,7 @@
         }
       ],
       "added": "2026-11-20",
-      "used": null
+      "used": "2026-11-25"
     },
     {
       "slug": "tip-chatgpt-space-plus",
@@ -7085,68 +7059,6 @@
       "used": "2026-11-26"
     },
     {
-      "slug": "tip-claude-file-transfers-connectors",
-      "category": "tools",
-      "theme": "claude",
-      "verified": true,
-      "eventDate": "2026-11-24",
-      "title": {
-        "cs": "Claude pošle soubor do připojené aplikace a uloží soubor od ní (beta)",
-        "en": "Claude can send a file to a connected app and save one from it (beta)"
-      },
-      "summary": {
-        "cs": "Anthropic 24. listopadu zavedla v betě přenosy souborů s konektory: Claude pošle soubor (i ten, který sám vytvořil) do připojené aplikace, třeba do cloudového úložiště, nebo uloží soubor, který aplikace nabídne. Funguje na webu, v Claude Desktop, v mobilních aplikacích i v Claude Code.",
-        "en": "On November 24, Anthropic introduced file transfers with connectors in beta: Claude can send a file (even one it made) to a connected app, such as cloud storage, or save a file the app offers. It works on the web, in Claude Desktop, in the mobile apps, and in Claude Code."
-      },
-      "why": {
-        "cs": "Zavádí se postupně na Pro, Max a Ultra; na Team a Enterprise je vypnuté, dokud je nezapne vlastník (Organization settings → Connectors → File transfers). Aplikace musí být v adresáři konektorů a mít podporu souborů; vlastní konektory a MCP servery nefungují; před prvním odesláním do aplikace se Claude zeptá.",
-        "en": "It rolls out gradually on Pro, Max, and Ultra; on Team and Enterprise it is off until an owner turns it on (Organization settings → Connectors → File transfers). The app must be in the connectors directory with file support; custom connectors and MCP servers do not work; Claude asks before the first send to an app."
-      },
-      "sources": [
-        {
-          "name": "Anthropic",
-          "url": "https://support.claude.com/en/articles/18534325"
-        },
-        {
-          "name": "Anthropic",
-          "url": "https://support.claude.com/en/articles/12138966-release-notes"
-        }
-      ],
-      "added": "2026-11-26",
-      "used": null
-    },
-    {
-      "slug": "tip-perplexity-time-machine-api",
-      "category": "tools",
-      "theme": "perplexity",
-      "verified": true,
-      "eventDate": "2026-11-25",
-      "title": {
-        "cs": "Pro vývojáře: Perplexity Time Machine ukáže agentovi web k zvolenému datu",
-        "en": "For developers: Perplexity Time Machine shows an agent the web as of a chosen date"
-      },
-      "summary": {
-        "cs": "Perplexity 25. listopadu přidala do Search API a Context API Time Machine: parametr snapshot_as_of omezí hledání a čtení stránek na uložené kopie z doby před zvoleným datem, až 365 dní zpět. Hodí se k testům předpovědí a zpětným testům, aby agent nenašel výsledek, který už nastal.",
-        "en": "On November 25, Perplexity added Time Machine to its Search API and Context API: the snapshot_as_of parameter limits search and page reading to stored copies from before a chosen date, up to 365 days back. It suits forecast tests and backtests, so the agent cannot find an outcome that has already happened."
-      },
-      "why": {
-        "cs": "Podle Perplexity stojí stejně jako ostatní volání API. Čísla z jejich vlastního pokusu (0,80 proti 0,79 u trhu Polymarket) pocházejí od firmy; před použitím tip znovu ověř.",
-        "en": "Per Perplexity, it costs the same as other API calls. The figures from its own experiment (0.80 versus 0.79 for the Polymarket market) come from the company; re-check this tip before using it."
-      },
-      "sources": [
-        {
-          "name": "Perplexity",
-          "url": "https://www.perplexity.ai/hub/blog/freeze-the-web-with-perplexity-time-machine"
-        },
-        {
-          "name": "The Next Web",
-          "url": "https://thenextweb.com/news/perplexity-time-machine-ai-agents-past-web"
-        }
-      ],
-      "added": "2026-11-26",
-      "used": null
-    },
-    {
       "slug": "tip-lmstudio-bionic-1-2-3",
       "category": "tools",
       "theme": "local",
@@ -7171,6 +7083,203 @@
         }
       ],
       "added": "2026-11-26",
+      "used": null
+    },
+    {
+      "slug": "tip-claude-file-transfers-connectors",
+      "category": "tools",
+      "theme": "claude",
+      "verified": true,
+      "eventDate": "2026-11-24",
+      "title": {
+        "cs": "Claude umí posílat soubory do připojených aplikací (beta)",
+        "en": "Claude can send files to connected apps (beta)"
+      },
+      "summary": {
+        "cs": "Anthropic 24. listopadu zavedla v betě přenosy souborů s konektory: Claude pošle soubor (i ten, který sám vytvořil) do připojené aplikace, třeba do cloudového úložiště, nebo uloží soubor, který aplikace nabídne. Funguje na webu, v Claude Desktop, v mobilních aplikacích i v Claude Code.",
+        "en": "On November 24, Anthropic introduced file transfers with connectors in beta: Claude can send a file (even one it made) to a connected app, such as cloud storage, or save a file the app offers. It works on the web, in Claude Desktop, in the mobile apps, and in Claude Code."
+      },
+      "why": {
+        "cs": "Zavádí se postupně na Pro, Max a Ultra; na Team a Enterprise to zapne vlastník (Organization settings › Connectors). Jen pro aplikace z adresáře konektorů; soubor z aplikace může obsahovat text, který má Clauda zmást.",
+        "en": "Gradual rollout on Pro, Max, Ultra; Team and Enterprise owners enable it (Organization settings › Connectors). Only connectors-directory apps; a file from an app can hold text meant to mislead Claude."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/18534325"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
+      ],
+      "added": "2026-11-26",
+      "used": "2026-11-27"
+    },
+    {
+      "slug": "tip-gemini-home-tell-me-a-story",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-25",
+      "title": {
+        "cs": "Gemini ve Google Home vypráví příběhy, které usměrníš",
+        "en": "Gemini in Google Home tells stories you can steer"
+      },
+      "summary": {
+        "cs": "Poznámky k Google Home z 25. listopadu uvádějí pro program Gemini for Home (Early Access) nové vyprávění: po příkazu „Hey Google, tell me a story“ čte Gemini příběhy expresivnějšími hlasy a dynamičtějším tempem a můžeš je za chodu usměrňovat, třeba „make the main character have magical powers“.",
+        "en": "The Google Home release notes of November 25 describe new storytelling for the Gemini for Home (Early Access) program: after the command “Hey Google, tell me a story,” Gemini reads stories in more expressive voices with livelier pacing, and you can steer them as they go, for example “make the main character have magical powers.”"
+      },
+      "why": {
+        "cs": "Jen v programu Early Access; země ani jazyky poznámky neuvádějí. Zlepšený Gemini Live se zavádí během týdnů a spustíš ho slovy „Hey Google let’s chat“; příkazy jsou v poznámkách anglicky.",
+        "en": "Only in the Early Access program; no countries or languages are named. The improved Gemini Live rolls out over weeks and starts with “Hey Google let’s chat”; the notes give commands in English."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://support.google.com/googlehome/answer/15962877"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2026/11/25/google-home-update-nest-cam-thermostat-gemini-features/"
+        }
+      ],
+      "added": "2026-11-27",
+      "used": "2026-11-27"
+    },
+    {
+      "slug": "tip-llamacpp-amd-benchmark-dashboard",
+      "category": "tools",
+      "theme": "local",
+      "verified": true,
+      "eventDate": "2026-11-26",
+      "title": {
+        "cs": "Dashboard ukáže, jak rychle běží llama.cpp na AMD",
+        "en": "A dashboard shows how fast llama.cpp runs on AMD"
+      },
+      "summary": {
+        "cs": "Tým ggml-org zveřejnil 26. listopadu na Hugging Face dashboard s měřením llama.cpp na čipech AMD: pro Radeon 8060S a Radeon AI Pro R9700S vybereš model, verzi llama.cpp a kvantizaci a porovnáš rychlost zpracování zadání (PP512) a generování textu (TG128), vývoj napříč verzemi i vliv délky kontextu.",
+        "en": "On November 26, the ggml-org team published a dashboard on Hugging Face with llama.cpp measurements on AMD chips: for Radeon 8060S and Radeon AI Pro R9700S you pick a model, llama.cpp build, and quantization and compare prompt-processing speed (PP512) and text-generation speed (TG128), progress across builds, and the effect of context length."
+      },
+      "why": {
+        "cs": "Měří se jen dvě GPU a vybrané modely; testy běží týdně s Flash Attention zapnutou i vypnutou. Surová data jsou veřejná na Hugging Face, takže si je můžeš vykreslit sám.",
+        "en": "Only two GPUs and selected models are measured; tests run weekly with Flash Attention on and off. The raw data is public on Hugging Face, so you can chart it yourself."
+      },
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+        }
+      ],
+      "added": "2026-11-27",
+      "used": "2026-11-27"
+    },
+    {
+      "slug": "tip-perplexity-time-machine-api",
+      "category": "tools",
+      "theme": "perplexity",
+      "verified": true,
+      "eventDate": "2026-11-25",
+      "title": {
+        "cs": "Pro vývojáře: Perplexity ukáže agentovi web k zvolenému datu",
+        "en": "For developers: Perplexity shows agents the past web"
+      },
+      "summary": {
+        "cs": "Perplexity 25. listopadu přidala do Search API a Context API funkci Time Machine: volba snapshot_as_of omezí hledání a čtení stránek na uložené kopie z doby do zvoleného data, zatím až 365 dní zpět. Hodí se k testům předpovědí a k zpětnému posouzení agenta, aby nenašel výsledek, který už nastal.",
+        "en": "On November 25, Perplexity added Time Machine to its Search API and Context API: the snapshot_as_of option limits search and page reading to stored copies up to a chosen date, currently up to 365 days back. It suits forecast tests and agent backtests, so the agent cannot find an outcome that already happened."
+      },
+      "why": {
+        "cs": "Stačí přidat snapshot_as_of do volání, které už děláš; bez něj dostaneš dnešní web. Ukázku s předpověďmi událostí (skóre 0,80 proti 0,79 u trhu Polymarket) publikovala sama Perplexity.",
+        "en": "Just add snapshot_as_of to a call you already make; without it you get today’s web. The forecasting demo (score 0.80 against 0.79 for the Polymarket market) was published by Perplexity itself."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/hub/blog/freeze-the-web-with-perplexity-time-machine"
+        }
+      ],
+      "added": "2026-11-26",
+      "used": "2026-11-27"
+    },
+    {
+      "slug": "tip-github-issue-statuses-repository-boards",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-23",
+      "title": {
+        "cs": "Pro vývojáře: issues na GitHubu mají stavy a tabuli",
+        "en": "For developers: GitHub issues get statuses and boards"
+      },
+      "summary": {
+        "cs": "GitHub 23. listopadu uvedl ve veřejném náhledu stavy issues a tabule repozitáře: stav zvolíš při vytvoření issue nebo v jeho záhlaví, zobrazení repozitáře přepneš na rozložení tabule přes View options. Stav se mění sám: přiřazení agenta nebo propojení s draft pull requestem přesune issue na In progress, otevřený pull request na In review.",
+        "en": "On November 23, GitHub introduced issue statuses and repository boards in public preview: set a status when creating an issue or in its header, and switch a repository view to board layout (View options). Statuses update automatically: assigning an agent or linking a draft pull request means In progress, an open pull request In review."
+      },
+      "why": {
+        "cs": "Hodí se týmům, které issues přidělují agentům: stav čtou lidé i agenti přes GraphQL, REST API a MCP server. Má-li GitHub Project stejnou hodnotu stavu, změna se propíše oběma směry.",
+        "en": "It suits teams that assign issues to agents: people and agents read the status via GraphQL, REST API, and the MCP server. A GitHub Project with a matching status value syncs changes both ways."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview"
+        }
+      ],
+      "added": "2026-11-27",
+      "used": "2026-11-27"
+    },
+    {
+      "slug": "tip-github-copilot-code-review-billing-default-org",
+      "category": "tools",
+      "theme": "copilot",
+      "verified": true,
+      "eventDate": "2026-11-25",
+      "title": {
+        "cs": "Pro správce týmů: kdo platí Copilot code review",
+        "en": "For team admins: who pays for Copilot code review"
+      },
+      "summary": {
+        "cs": "GitHub 25. listopadu oznámil, že organizace a podniky s Copilot Business či Enterprise, které nezvolily, komu se účtují kontroly kódu od Copilota, je od 30. prosince 2026 začnou účtovat organizaci. Chceš-li zachovat dosavadní stav, vyber před tím v politice Copilota možnost Member.",
+        "en": "On November 25, GitHub announced that organizations and enterprises on Copilot Business or Enterprise that have not chosen who is billed for Copilot code review will be billed to the organization from December 30, 2026. To keep things as they are, select Member in the Copilot policy before then."
+      },
+      "why": {
+        "cs": "Účtování organizaci vyžaduje placené použití AI Credits a může zvýšit útratu; účty bez AI Credits, se zámkem fakturace nebo bez platícího zákazníka dostanou Member.",
+        "en": "Organization billing requires AI Credits paid usage and can raise spending; accounts without AI Credits, with a billing lock, or without a billable customer are set to Member."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization"
+        }
+      ],
+      "added": "2026-11-27",
+      "used": null
+    },
+    {
+      "slug": "tip-antigravity-mcp-apps",
+      "category": "tools",
+      "theme": "gemini",
+      "verified": true,
+      "eventDate": "2026-11-24",
+      "title": {
+        "cs": "Pro vývojáře: Antigravity ukáže výstupy MCP jako rozhraní",
+        "en": "For developers: Antigravity shows MCP results as an interface"
+      },
+      "summary": {
+        "cs": "Google 24. listopadu přidal do Antigravity podporu MCP Apps: nástroj MCP může vedle textu vykreslit přímo v pracovním prostoru interaktivní HTML rozhraní, třeba grafy nebo prohlížeče souborů. Standardní MCP Apps fungují bez úprav kódu, volitelná rozšíření Antigravity je otevřou v postranním panelu či na celou stránku.",
+        "en": "On November 24, Google added MCP Apps support to Antigravity: an MCP tool can render an interactive HTML interface right in the workspace next to its text output, such as charts or file viewers. Standard MCP Apps work without code changes; optional Antigravity extensions open them in the side panel or as a full page."
+      },
+      "why": {
+        "cs": "Stojí na otevřeném rozšíření MCP Apps (SEP-1865); každá MCP App pochází z pluginu nebo serveru MCP, který si nainstaluješ nebo vytvoříš sám.",
+        "en": "It builds on the open MCP Apps extension (SEP-1865); every MCP App comes from a plugin or MCP server you install or build yourself."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://antigravity.google/blog/mcp-apps-in-antigravity"
+        }
+      ],
+      "added": "2026-11-27",
       "used": null
     }
   ]

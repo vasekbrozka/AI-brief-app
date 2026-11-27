@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "terms": [
     {
       "id": "quantization",
@@ -2200,6 +2200,48 @@
       "short": {
         "cs": "Programovací jazyk známý rychlostí a nízkou spotřebou paměti; používá se na výkonné části serverů a systémů. Python je pohodlnější na psaní, ale u velkého provozu stojí víc procesorového času.",
         "en": "A programming language known for speed and low memory use, used for performance-critical parts of servers and systems. Python is easier to write but costs more processor time at large scale."
+      }
+    },
+    {
+      "id": "ncsc",
+      "term": {
+        "cs": "NCSC (britské středisko kybernetické bezpečnosti)",
+        "en": "NCSC (UK National Cyber Security Centre)"
+      },
+      "aliases": [
+        "NCSC"
+      ],
+      "short": {
+        "cs": "Britské Národní středisko kybernetické bezpečnosti (National Cyber Security Centre). Státní úřad, který vydává varování a doporučení pro firmy, úřady i veřejnost.",
+        "en": "The UK’s National Cyber Security Centre, a government body that issues warnings and guidance for companies, public bodies, and the public."
+      }
+    },
+    {
+      "id": "fcc",
+      "term": {
+        "cs": "FCC (americký úřad pro komunikace)",
+        "en": "FCC (US communications regulator)"
+      },
+      "aliases": [
+        "FCC"
+      ],
+      "short": {
+        "cs": "Federal Communications Commission: americký úřad, který reguluje rádiové spektrum, telekomunikace a družice a vydává povolení k provozu družicových soustav.",
+        "en": "The Federal Communications Commission: the US agency that regulates radio spectrum, telecommunications, and satellites and authorizes satellite constellations."
+      }
+    },
+    {
+      "id": "kaggle",
+      "term": {
+        "cs": "Kaggle (platforma pro soutěže v AI)",
+        "en": "Kaggle (AI competition platform)"
+      },
+      "aliases": [
+        "Kaggle"
+      ],
+      "short": {
+        "cs": "Webová platforma, na které se pořádají soutěže ve strojovém učení a zveřejňují datové sady a srovnávací testy modelů.",
+        "en": "A web platform that hosts machine-learning competitions and publishes datasets and model benchmarks."
       }
     }
   ]
