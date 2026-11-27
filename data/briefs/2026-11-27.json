@@ -18,12 +18,12 @@
         "en": "Microsoft: state-backed groups abuse the ARTEX tool too"
       },
       "summary": {
-        "cs": "Microsoft 25. listopadu uvedl, že volně dostupný AI nástroj ARTEX zneužívají i státem podporované skupiny a že se s ním může za pár minut dostat od průzkumu k trvalému privilegovanému přístupu. Radí omezit, co je vystavené na internetu, a chránit hesla a klíče; britský NCSC (24. 11.) doporučuje služby zpřístupnit jen přihlášeným.",
-        "en": "On November 25, Microsoft said the freely available AI tool ARTEX is also abused by state-backed groups and can go from reconnaissance to persistent privileged access within minutes. It advises limiting internet exposure and protecting passwords and keys; the UK NCSC (November 24) recommends making services reachable only by signed-in users."
+        "cs": "Microsoft 25. listopadu uvedl, že AI nástroj pro penetrační testy ARTEX zneužívají i státem podporované skupiny. Používá známé techniky, ale podle obrany cíle může útočníkovi za minuty dát trvalý přístup s vysokými oprávněními. Microsoft radí omezit, co je vystavené na internetu, a chránit hesla; britský NCSC (24. 11.) doporučuje služby zpřístupnit jen přihlášeným.",
+        "en": "On November 25, Microsoft said the AI penetration-testing tool ARTEX is also abused by state-backed groups. It uses known techniques, but depending on defenses can give attackers persistent high-privilege access within minutes. Microsoft advises limiting internet exposure and protecting passwords; the UK NCSC (November 24) recommends making services reachable only by signed-in users."
       },
       "why": {
-        "cs": "Podle NCSC útočníci zneužívají staré slabiny: uniklé klíče v kódu, výchozí hesla, chyby v nastavení a slabiny API. Microsoft k tomu doporučuje zapnout automatické narušení útoků ve svém Defenderu XDR.",
-        "en": "Per the NCSC, attackers take advantage of familiar weaknesses: leaked keys in code, default passwords, misconfigurations, and API flaws. Microsoft also recommends turning on automatic attack disruption in its own Defender XDR."
+        "cs": "Rady míří hlavně na správce sítí. Podle NCSC útočníci využívají dobře známé slabiny: omylem zveřejněné klíče v kódu, výchozí hesla, chyby v nastavení a slabiny API. Microsoft doporučuje i automatické přerušení útoků v Defenderu XDR.",
+        "en": "The advice mainly targets network administrators. Per the NCSC, attackers take advantage of well-known weaknesses: keys accidentally published in code, default passwords, misconfigurations, and API flaws. Microsoft also recommends automatic attack disruption in Defender XDR."
       },
       "sources": [
         {
@@ -55,12 +55,12 @@
         "en": "Commission confirms names and emails leaked from EU Academy"
       },
       "summary": {
-        "cs": "Evropská komise 23. listopadu potvrdila, že při kampani s pomocí AI nástroje unikla jména a e-mailové adresy externích uživatelů vzdělávací platformy EU Academy; rozsah vyšetřuje. Veřejný přístup na platformu vypnula, uživatele upozornila oznámením na webu a informovala evropského inspektora ochrany údajů. Útočníka zatím nejmenuje.",
-        "en": "On November 23, the European Commission confirmed that names and email addresses of external users of the EU Academy learning platform leaked in a campaign using an AI tool; scale under investigation. It closed public access, notified users on the website, and informed the European Data Protection Supervisor. No attacker is named yet."
+        "cs": "Evropská komise 23. listopadu potvrdila, že při kampani s pomocí AI nástroje unikla mj. jména a e-mailové adresy externích uživatelů vzdělávací platformy EU Academy; rozsah vyšetřuje. Veřejný přístup na platformu vypnula, uživatele upozornila oznámením na webu a informovala evropského inspektora ochrany údajů. Útočníka ani nástroj nejmenovala.",
+        "en": "On November 23, the European Commission confirmed that data including names and email addresses of external EU Academy learning-platform users leaked in a campaign using an AI tool; scale under investigation. It closed public access, warned users on the website, and informed the European Data Protection Supervisor. Neither attacker nor tool is named."
       },
       "why": {
-        "cs": "Kdo měl v EU Academy účet, ať počítá s phishingem, podvrženými zprávami a spamem a nikomu, kdo se k EU Academy hlásí, nesděluje osobní údaje. Komise uživatele neoslovila e-mailem, jen oznámením na webu.",
-        "en": "If you had an EU Academy account, expect phishing, impersonation, and spam, and share personal data with no one claiming EU Academy ties. The Commission did not email users, only posted a website notice."
+        "cs": "Podle The Register oznámení na webu varuje před phishingem a spamem; nikomu, kdo se za EU Academy jen vydává, nesděluj údaje. Platforma je do 14. 1. 2027 mimo provoz; souvislost s útokem nepotvrzena.",
+        "en": "Per The Register, the website notice warns of phishing and spam; do not share data with anyone merely claiming to be EU Academy. Offline until January 14, 2027; no link to the attack confirmed."
       },
       "sources": [
         {
@@ -88,16 +88,16 @@
       "verified": true,
       "eventDate": "2026-11-25",
       "title": {
-        "cs": "FCC povolila milion družic SpaceX pro datová centra AI",
-        "en": "FCC approves a million SpaceX AI data-center satellites"
+        "cs": "FCC částečně povolila SpaceX až milion družic",
+        "en": "FCC partly approves up to a million SpaceX satellites"
       },
       "summary": {
-        "cs": "Americký regulátor FCC 25. listopadu povolil SpaceX až milion družic projektu Starmind, které mají na oběžné dráze fungovat jako datová centra pro AI; jde podle FCC o první takové povolení v USA. První družice musí být na orbitě do roku 2033, 10 % do 2035, polovina do 2038 a všechny do 2040.",
-        "en": "On November 25, the US regulator FCC authorized SpaceX to deploy up to a million Starmind satellites meant to work as AI data centers in orbit; per the FCC, a first in the US. The first must be in orbit by 2033, 10% by 2035, half by 2038, and all by 2040."
+        "cs": "Americký regulátor FCC 25. listopadu povolil SpaceX částečně a s podmínkami až milion družic projektu Starmind, které mají na oběžné dráze fungovat jako datová centra pro AI; jde podle FCC o první takové povolení v USA. První družice musí být na orbitě do roku 2033, polovina do 2038 a všechny do 2040.",
+        "en": "On November 25, the US regulator FCC authorized SpaceX, in part and with conditions, to deploy up to a million Starmind satellites meant to work as AI data centers in orbit; per the FCC, a first in the US. The first must be in orbit by 2033, half by 2038, and all by 2040."
       },
       "why": {
-        "cs": "Skeptici, třeba astrofyzik Adam Becker (podle Engadgetu), míní, že chlazení ve vakuu má základní fyzikální limity: teplo se odvádí jen vyzařováním. FCC odložila žádost SpaceX o jinou likvidaci družic nad 600 km.",
-        "en": "Skeptics, e.g. astrophysicist Adam Becker (per Engadget), say vacuum cooling has basic physical limits: heat leaves only by radiation. The FCC deferred SpaceX’s request for other disposal of satellites above 600 km."
+        "cs": "FCC řešila rádiové rušení a kosmický odpad, ne proveditelnost ani odvod tepla. Astrofyzik Adam Becker (podle Engadgetu) pochybuje: teplo se ve vakuu odvádí jen vyzařováním, což má limity.",
+        "en": "The FCC reviewed radio interference and space debris, not feasibility or heat removal. Astrophysicist Adam Becker (per Engadget) doubts it: in vacuum heat leaves only by radiation, which has limits."
       },
       "sources": [
         {
@@ -125,12 +125,12 @@
         "en": "Amateurs with Codex and Astra found possible exoplanets"
       },
       "summary": {
-        "cs": "OpenAI 24. listopadu popsala dva amatérské astronomy, kteří s Codexem a modelem Astra hledali možné planety ve veřejných datech teleskopů Kepler a TESS. Astronom ze SETI Institute nezávisle našel dva signály z Keplerových dat; jeden z 49 kandidátů z TESS čeká na rozbor u týmu mise. Potvrzení může trvat měsíce až roky.",
-        "en": "On November 24, OpenAI described two amateur astronomers who used Codex and the Astra model to search public Kepler and TESS telescope data for possible planets. A SETI Institute astronomer independently found two Kepler signals; one of 49 TESS candidates awaits analysis by the mission team. Confirmation could take months or years."
+        "cs": "OpenAI 24. listopadu popsala dva amatérské astronomy: Kevin Bond s Codexem prohledal data teleskopu Kepler, Ethan Byrd s modelem Astra data TESS a dalších archivů. Astronom ze SETI Institute nezávisle našel dva Bondovy signály; jeden z 49 Byrdových kandidátů čeká na rozbor u týmu mise TESS. Potvrzení planet může trvat měsíce až roky.",
+        "en": "On November 24, OpenAI described two amateur astronomers: Kevin Bond used Codex on Kepler telescope data, Ethan Byrd the Astra model on TESS and other archives. A SETI Institute astronomer independently found two of Bond’s signals; one of Byrd’s 49 candidates awaits analysis by the TESS mission team. Confirming planets could take months or years."
       },
       "why": {
-        "cs": "Jeden z dvojice pracuje v OpenAI a text je z blogu OpenAI. Hvězda KIC 5689121 ztmavuje každých 13,8 dne; je-li příčinou planeta, měla by asi 2,4× větší průměr než Země.",
-        "en": "One of the two works at OpenAI, and the text is from OpenAI’s blog. The star KIC 5689121 dims every 13.8 days; if a planet causes it, its diameter would be about 2.4 times Earth’s."
+        "cs": "Bond je inženýr OpenAI a text je z blogu OpenAI. U hvězdy KIC 5689121 klesá jas každých 13,8 dne; je-li příčinou planeta, mohla by mít průměr asi 2,4× větší než Země.",
+        "en": "Bond is an OpenAI engineer, and the text is from OpenAI’s blog. The star KIC 5689121 dims every 13.8 days; if a planet causes it, it could be about 2.4 times Earth’s diameter."
       },
       "sources": [
         {
@@ -150,12 +150,12 @@
         "en": "South Korea: Apple faces case over its AI ads"
       },
       "summary": {
-        "cs": "Jihokorejský úřad pro hospodářskou soutěž KFTC 26. listopadu oznámil, že vyšetřovatelé předali jeho komisi k formálnímu projednání případ Applu: reklama na iPhone 16 podle nich zamlčela či zlehčila, kdy se funkce Apple Intelligence objeví, třeba Genmoji, Image Playground či Siri s osobním kontextem. Apple se závěry nesouhlasí a chce se bránit.",
-        "en": "On November 26, South Korea’s competition regulator KFTC announced that investigators referred Apple’s case to its commission for formal deliberation: they say iPhone 16 advertising concealed or downplayed when Apple Intelligence features would arrive, such as Genmoji, Image Playground, or Siri with personal context. Apple disagrees with the findings and plans to defend itself."
+        "cs": "Jihokorejský úřad pro hospodářskou soutěž KFTC 26. listopadu oznámil, že vyšetřovatelé postoupili případ Applu komisi úřadu k formálnímu projednání: reklama na iPhone 16 podle nich zamlčela či zlehčila, kdy se funkce Apple Intelligence objeví, třeba Genmoji, Image Playground či Siri s osobním kontextem. Apple nesouhlasí a chce se bránit; rozhodnutí ani pokuta zatím nepadly.",
+        "en": "On November 26, South Korea’s competition regulator KFTC said investigators referred Apple’s case to its commission for formal deliberation: iPhone 16 ads, they say, concealed or downplayed when Apple Intelligence features such as Genmoji, Image Playground, or Siri with personal context would arrive. Apple disagrees and will defend itself; no ruling or penalty yet."
       },
       "why": {
-        "cs": "Podle MacRumors byla Siri s osobním kontextem slíbena pro korejštinu na začátek dubna 2025, dorazila až v říjnu 2026. Apple v USA v květnu odsouhlasil vyrovnání 250 milionů dolarů v hromadné žalobě kvůli podobným tvrzením.",
-        "en": "Per MacRumors, Siri with personal context was promised for Korean in early April 2025 but arrived only in October 2026. In May, Apple agreed to a $250 million US class-action settlement over similar claims."
+        "cs": "Podle zprávy KFTC (cituje MacRumors) byla Siri s osobním kontextem slíbena pro korejštinu do dubna 2025, dorazila v říjnu 2026. Apple v USA v květnu odsouhlasil kvůli podobným tvrzením vyrovnání 250 milionů dolarů.",
+        "en": "Per the KFTC report (via MacRumors), Siri with personal context was promised for Korean by April 2025 but arrived in October 2026. In May, Apple agreed to a $250 million US settlement over similar claims."
       },
       "sources": [
         {
@@ -165,6 +165,31 @@
         {
           "name": "MacRumors",
           "url": "https://www.macrumors.com/2026/11/26/apple-korea-regulator-iphone-16-ai-advertising/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-deepmind-humanitys-first-exam-kaggle-contest",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-24",
+      "title": {
+        "cs": "Humanity’s First Exam: Google zve k hledání chyb AI",
+        "en": "Google’s Humanity’s First Exam asks you for AI failures"
+      },
+      "summary": {
+        "cs": "Google DeepMind 24. listopadu spustil na Kaggle test Humanity’s First Exam (HFE): 544 jednoduchých textových a obrázkových úloh z 20 základních schopností, který měří, zda model odpoví správně pokaždé, i po drobné změně zadání. Do 15. prosince zve komunitu, aby poslala otázky, na které dnešní modely stále chybují.",
+        "en": "On November 24, Google DeepMind launched the Humanity’s First Exam (HFE) test on Kaggle: 544 simple text and image tasks across 20 foundational capabilities, measuring whether a model answers correctly every time, even after a slight prompt change. Until December 15, Google invites the community to submit questions that today’s models still get wrong."
+      },
+      "why": {
+        "cs": "Příklad úlohy: u každého slova na neonovém nápisu uvést barvu třetího písmene. Podle Googlu se špičkové modely za posledních šest měsíců výrazně zlepšily; konkrétní skóre blog neuvádí.",
+        "en": "Sample task: give the color of the third letter of each word in a neon sign. Google says frontier models improved significantly over the past six months; the blog gives no specific scores."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
         }
       ]
     },
@@ -179,12 +204,12 @@
         "en": "Rumble-2-Flash: open speech recognition for 40+ languages"
       },
       "summary": {
-        "cs": "Firma Reson8 18. listopadu zveřejnila pod licencí Apache 2.0 model Rumble-2-Flash: rozpoznávání řeči s 0,5 miliardy parametrů pro přes 40 jazyků. Podle autorů má v devíti jazycích průměrnou chybovost 6,96 %, lepší než model Mety s 15× více parametry, a při plných dávkách přepíše hodinu zvuku asi za půl sekundy.",
-        "en": "On November 18, Reson8 released the 0.5-billion-parameter speech recognition model Rumble-2-Flash under the Apache 2.0 license, for over 40 languages. Authors say it averages a 6.96% error rate across nine languages, beating a Meta model with 15 times more parameters, and transcribes an hour of audio in about half a second at full batches."
+        "cs": "Firma Reson8 18. listopadu zveřejnila pod volnou licencí Apache 2.0 model Rumble-2-Flash: rozpoznávání řeči s 0,5 miliardy parametrů pro přes 40 jazyků. Podle autorů je v devíti jazycích přesnější než Whisper large-v3 i než model Mety se 7 miliardami parametrů (průměrná chybovost 6,96 %).",
+        "en": "On November 18, Reson8 released Rumble-2-Flash, a 0.5-billion-parameter speech recognition model for over 40 languages, under the permissive Apache 2.0 license. Authors say that across nine languages it is more accurate than Whisper large-v3 and a Meta model with 7 billion parameters (average error rate 6.96%)."
       },
       "why": {
-        "cs": "Čeština je mezi jazyky na kartě modelu, ale srovnání autoři ukazují jen pro devět jazyků bez ní; čísla jsou jejich vlastní. Model běží v knihovnách Transformers i vLLM.",
-        "en": "Czech is among the languages on the model card, but the authors show the comparison for only nine languages without it; the figures are their own. The model runs in the Transformers and vLLM libraries."
+        "cs": "Čeština je v popisu modelu mezi jazyky, ale srovnání autoři ukazují jen pro devět jazyků bez ní; čísla jsou vlastní. Na anglických telefonních hovorech ho o málo předčí větší Qwen3-ASR 1.7B.",
+        "en": "Czech is among the languages in the model description, but the authors’ comparison covers nine languages without it; figures are their own. On English phone calls, the larger Qwen3-ASR 1.7B edges it out."
       },
       "sources": [
         {
@@ -204,16 +229,16 @@
       "verified": true,
       "eventDate": "2026-11-24",
       "title": {
-        "cs": "Ternary Bonsai 2.5: 27miliardový model v 5,9 GB",
-        "en": "Ternary Bonsai 2.5: a 27B model in 5.9 GB"
+        "cs": "Ternary Bonsai 2.5: zmenšený model s 27 miliardami parametrů",
+        "en": "Ternary Bonsai 2.5: shrunken model, 27 billion parameters"
       },
       "summary": {
-        "cs": "PrismML 24. listopadu vydala pod licencí Apache 2.0 model Ternary Bonsai 2.5 27B, postavený na Qwen3.8 27B a stlačený na 5,9 GB, který běží na Macu, iPhonu i GPU Nvidie. Podle firmy vzrostl výsledek v testu SWE-bench Verified oproti předchozí verzi z 60,8 na 75,6 % (základní model v plné přesnosti: 80,6 %).",
-        "en": "On November 24, PrismML released Ternary Bonsai 2.5 27B under the Apache 2.0 license, built on Qwen3.8 27B and compressed to 5.9 GB, running on a Mac, an iPhone, and Nvidia GPUs. The company says its SWE-bench Verified score rose from 60.8% in the previous version to 75.6% (the full-precision base model: 80.6%)."
+        "cs": "PrismML 24. listopadu vydala pod licencí Apache 2.0 model Ternary Bonsai 2.5 27B, postavený na Qwen3.8 27B (5,9 GB v nejmenším formátu, balíček pro Apple asi 8,9 GB). Podle firmy běží na Macu, iPhonu i GPU Nvidie a v testu SWE-bench Verified vzrostl oproti verzi 2 z 60,8 na 75,6 % (nezmenšený model: 80,6 %).",
+        "en": "On November 24, PrismML released Ternary Bonsai 2.5 27B, built on Qwen3.8 27B, under the Apache 2.0 license (5.9 GB in its smallest format, about 8.9 GB for Apple). The company says it runs on Mac, iPhone, and Nvidia GPUs and rose on SWE-bench Verified from 60.8% to 75.6% over version 2 (unshrunk model: 80.6%)."
       },
       "why": {
-        "cs": "Všechna čísla pocházejí od PrismML. V AppWorld výsledek vzrostl z 51,2 na 90,5 % (základní model 93,2 %), v LiveCodeBench v6 mírně klesl z 83,8 na 83,0 % (základní model 87,6 %).",
-        "en": "All figures come from PrismML. On AppWorld the score rose from 51.2% to 90.5% (base model 93.2%); on LiveCodeBench v6 it slipped from 83.8% to 83.0% (base model 87.6%)."
+        "cs": "Model jde spustit u sebe, bez cloudu. Čísla jsou od PrismML; největší odstup od nezmenšeného modelu je v Terminal-Bench 2.1 (60,1 proti 70,8 %), v AppWorld je výsledek skoro stejný (90,5 proti 93,2 %).",
+        "en": "It can run on your own device without the cloud. Figures are PrismML’s; the largest gap to the unshrunk model is on Terminal-Bench 2.1 (60.1 vs 70.8%), while AppWorld is close (90.5 vs 93.2%)."
       },
       "sources": [
         {
@@ -231,31 +256,6 @@
       ]
     },
     {
-      "id": "2026-11-27-deepmind-humanitys-first-exam-kaggle-contest",
-      "kind": "news",
-      "category": "research",
-      "verified": true,
-      "eventDate": "2026-11-24",
-      "title": {
-        "cs": "Humanity’s First Exam: Google zve k hledání chyb AI",
-        "en": "Google’s Humanity’s First Exam asks you for AI failures"
-      },
-      "summary": {
-        "cs": "Google DeepMind 24. listopadu spustil na Kaggle test Humanity’s First Exam (HFE): 544 jednoduchých textových a obrázkových úloh z 20 základních schopností, který měří, zda model odpoví správně pokaždé, i po drobné změně zadání. Do 15. prosince může kdokoli v soutěži poslat otázky, na které dnešní modely stále chybují.",
-        "en": "On November 24, Google DeepMind launched the Humanity’s First Exam (HFE) test on Kaggle: 544 simple text and image tasks across 20 foundational capabilities, measuring whether a model answers correctly every time, even after a slight prompt change. Until December 15, anyone can submit questions in the contest that today’s models still get wrong."
-      },
-      "why": {
-        "cs": "Příklad úlohy: u každého slova na neonovém nápisu uvést barvu třetího písmene. Podle Googlu se špičkové modely za posledních šest měsíců výrazně zlepšily; konkrétní skóre blog neuvádí.",
-        "en": "Sample task: give the color of the third letter of each word in a neon sign. Google says frontier models improved significantly over the past six months; the blog gives no specific scores."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
-        }
-      ]
-    },
-    {
       "id": "2026-11-27-tip-claude-file-transfers-connectors",
       "kind": "tip",
       "category": "tools",
@@ -266,12 +266,12 @@
         "en": "Claude can send files to connected apps (beta)"
       },
       "summary": {
-        "cs": "Anthropic 24. listopadu zavedla v betě přenosy souborů s konektory: Claude pošle soubor (i ten, který sám vytvořil) do připojené aplikace, třeba do cloudového úložiště, nebo uloží soubor, který aplikace nabídne. Funguje na webu, v Claude Desktop, v mobilních aplikacích i v Claude Code.",
-        "en": "On November 24, Anthropic introduced file transfers with connectors in beta: Claude can send a file (even one it made) to a connected app, such as cloud storage, or save a file the app offers. It works on the web, in Claude Desktop, in the mobile apps, and in Claude Code."
+        "cs": "Anthropic 24. listopadu zavedla v betě přenos souborů přes konektory: řekni třeba „Ulož to do složky Receipts“ a Claude pošle soubor (i ten, který sám vytvořil) do připojené aplikace, nebo si stáhne soubor z aplikace. Funguje na webu, v Claude Desktop, v mobilních aplikacích i v Claude Code.",
+        "en": "On November 24, Anthropic introduced file transfers through connectors in beta: say something like “Put this in my Receipts folder” and Claude sends a file (even one it made) to a connected app, or fetches a file from the app. It works on the web, in Claude Desktop, mobile apps, and Claude Code."
       },
       "why": {
-        "cs": "Zavádí se postupně na Pro, Max a Ultra; na Team a Enterprise to zapne vlastník (Organization settings › Connectors). Jen pro aplikace z adresáře konektorů; soubor z aplikace může obsahovat text, který má Clauda zmást.",
-        "en": "Gradual rollout on Pro, Max, Ultra; Team and Enterprise owners enable it (Organization settings › Connectors). Only connectors-directory apps; a file from an app can hold text meant to mislead Claude."
+        "cs": "Vyžaduje aplikaci z adresáře konektorů s podporou souborů; vlastní konektory, MCP servery a anonymní chaty nefungují. Pro, Max, Ultra postupně; Team a Enterprise zapne vlastník. Soubor může skrývat pokyn pro AI.",
+        "en": "Needs a connectors-directory app with file support; custom connectors, MCP servers, incognito chats do not work. Pro, Max, Ultra: gradual; Team and Enterprise: owner enables. A file may hide an instruction for the AI."
       },
       "sources": [
         {
@@ -285,51 +285,22 @@
       ]
     },
     {
-      "id": "2026-11-27-tip-gemini-home-tell-me-a-story",
-      "kind": "tip",
-      "category": "tools",
-      "verified": true,
-      "eventDate": "2026-11-25",
-      "title": {
-        "cs": "Gemini ve Google Home vypráví příběhy, které usměrníš",
-        "en": "Gemini in Google Home tells stories you can steer"
-      },
-      "summary": {
-        "cs": "Poznámky k Google Home z 25. listopadu uvádějí pro program Gemini for Home (Early Access) nové vyprávění: po příkazu „Hey Google, tell me a story“ čte Gemini příběhy expresivnějšími hlasy a dynamičtějším tempem a můžeš je za chodu usměrňovat, třeba „make the main character have magical powers“.",
-        "en": "The Google Home release notes of November 25 describe new storytelling for the Gemini for Home (Early Access) program: after the command “Hey Google, tell me a story,” Gemini reads stories in more expressive voices with livelier pacing, and you can steer them as they go, for example “make the main character have magical powers.”"
-      },
-      "why": {
-        "cs": "Jen v programu Early Access; země ani jazyky poznámky neuvádějí. Zlepšený Gemini Live se zavádí během týdnů a spustíš ho slovy „Hey Google let’s chat“; příkazy jsou v poznámkách anglicky.",
-        "en": "Only in the Early Access program; no countries or languages are named. The improved Gemini Live rolls out over weeks and starts with “Hey Google let’s chat”; the notes give commands in English."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://support.google.com/googlehome/answer/15962877"
-        },
-        {
-          "name": "9to5Google",
-          "url": "https://9to5google.com/2026/11/25/google-home-update-nest-cam-thermostat-gemini-features/"
-        }
-      ]
-    },
-    {
       "id": "2026-11-27-tip-llamacpp-amd-benchmark-dashboard",
       "kind": "tip",
       "category": "tools",
       "verified": true,
       "eventDate": "2026-11-26",
       "title": {
-        "cs": "Dashboard ukáže, jak rychle běží llama.cpp na AMD",
-        "en": "A dashboard shows how fast llama.cpp runs on AMD"
+        "cs": "Pro vývojáře: dashboard ukáže rychlost llama.cpp na AMD",
+        "en": "For developers: a dashboard shows llama.cpp speed on AMD"
       },
       "summary": {
-        "cs": "Tým ggml-org zveřejnil 26. listopadu na Hugging Face dashboard s měřením llama.cpp na čipech AMD: pro Radeon 8060S a Radeon AI Pro R9700S vybereš model, verzi llama.cpp a kvantizaci a porovnáš rychlost zpracování zadání (PP512) a generování textu (TG128), vývoj napříč verzemi i vliv délky kontextu.",
-        "en": "On November 26, the ggml-org team published a dashboard on Hugging Face with llama.cpp measurements on AMD chips: for Radeon 8060S and Radeon AI Pro R9700S you pick a model, llama.cpp build, and quantization and compare prompt-processing speed (PP512) and text-generation speed (TG128), progress across builds, and the effect of context length."
+        "cs": "Tým ggml-org zveřejnil 26. listopadu na Hugging Face dashboard s měřením, jak rychle běží llama.cpp (program na lokální spouštění modelů) na čipech AMD: pro Radeon 8060S a Radeon AI Pro R9700S vybereš model a verzi programu, porovnáš kvantizace, rychlost zpracování zadání a generování textu, sleduješ vývoj napříč verzemi i vliv velikosti kontextového okna.",
+        "en": "On November 26, the ggml-org team published a Hugging Face dashboard measuring llama.cpp (a program for running models locally) on AMD chips: for Radeon 8060S and Radeon AI Pro R9700S you pick a model and version, compare quantizations and prompt-processing and text-generation speed, and see progress across versions and the effect of context-window size."
       },
       "why": {
-        "cs": "Měří se jen dvě GPU a vybrané modely; testy běží týdně s Flash Attention zapnutou i vypnutou. Surová data jsou veřejná na Hugging Face, takže si je můžeš vykreslit sám.",
-        "en": "Only two GPUs and selected models are measured; tests run weekly with Flash Attention on and off. The raw data is public on Hugging Face, so you can chart it yourself."
+        "cs": "Měří se jen dvě GPU a vybrané modely, testy běží každý týden. Hodí se těm, kdo spouštějí modely lokálně na AMD; surová data jsou veřejná, takže si je můžeš vykreslit sám.",
+        "en": "Only two GPUs and selected models are measured; tests run weekly. It suits those who run models locally on AMD; the raw data is public, so you can chart it yourself."
       },
       "sources": [
         {
@@ -345,16 +316,16 @@
       "verified": true,
       "eventDate": "2026-11-25",
       "title": {
-        "cs": "Pro vývojáře: Perplexity ukáže agentovi web k zvolenému datu",
+        "cs": "Pro vývojáře: Perplexity ukáže agentovi web, jak vypadal dřív",
         "en": "For developers: Perplexity shows agents the past web"
       },
       "summary": {
-        "cs": "Perplexity 25. listopadu přidala do Search API a Context API funkci Time Machine: volba snapshot_as_of omezí hledání a čtení stránek na uložené kopie z doby do zvoleného data, zatím až 365 dní zpět. Hodí se k testům předpovědí a k zpětnému posouzení agenta, aby nenašel výsledek, který už nastal.",
-        "en": "On November 25, Perplexity added Time Machine to its Search API and Context API: the snapshot_as_of option limits search and page reading to stored copies up to a chosen date, currently up to 365 days back. It suits forecast tests and agent backtests, so the agent cannot find an outcome that already happened."
+        "cs": "Perplexity 25. listopadu přidala do Search API a Context API funkci Time Machine: volba snapshot_as_of omezí hledání a čtení stránek na uložené kopie z doby do zvoleného data, zatím až 365 dní zpět. Hodí se ke zpětnému testování agentů a předpovědí, aby do hledání co nejméně prosakovaly pozdější výsledky.",
+        "en": "On November 25, Perplexity added Time Machine to its Search API and Context API: the snapshot_as_of option limits search and page reading to stored copies up to a chosen date, currently up to 365 days back. It suits backtesting agents and forecasts, so later results leak into search as little as possible."
       },
       "why": {
-        "cs": "Stačí přidat snapshot_as_of do volání, které už děláš; bez něj dostaneš dnešní web. Ukázku s předpověďmi událostí (skóre 0,80 proti 0,79 u trhu Polymarket) publikovala sama Perplexity.",
-        "en": "Just add snapshot_as_of to a call you already make; without it you get today’s web. The forecasting demo (score 0.80 against 0.79 for the Polymarket market) was published by Perplexity itself."
+        "cs": "Stačí přidat snapshot_as_of (časové razítko) do volání, které už děláš; bez něj dostaneš dnešní web. Účtuje se jako každé volání API. Podle Perplexity automatický soudce označil pozdější obsah u méně než 0,5 % stránek.",
+        "en": "Just add snapshot_as_of (a timestamp) to a call you already make; without it you get today’s web. Billed like any API call. Per Perplexity, an automated judge flagged later content on under 0.5% of pages."
       },
       "sources": [
         {
@@ -370,7 +341,7 @@
       "verified": true,
       "eventDate": "2026-11-23",
       "title": {
-        "cs": "Pro vývojáře: issues na GitHubu mají stavy a tabuli",
+        "cs": "Pro vývojáře: issues na GitHubu dostanou stavy a tabuli",
         "en": "For developers: GitHub issues get statuses and boards"
       },
       "summary": {
@@ -378,8 +349,8 @@
         "en": "On November 23, GitHub introduced issue statuses and repository boards in public preview: set a status when creating an issue or in its header, and switch a repository view to board layout (View options). Statuses update automatically: assigning an agent or linking a draft pull request means In progress, an open pull request In review."
       },
       "why": {
-        "cs": "Hodí se týmům, které issues přidělují agentům: stav čtou lidé i agenti přes GraphQL, REST API a MCP server. Má-li GitHub Project stejnou hodnotu stavu, změna se propíše oběma směry.",
-        "en": "It suits teams that assign issues to agents: people and agents read the status via GraphQL, REST API, and the MCP server. A GitHub Project with a matching status value syncs changes both ways."
+        "cs": "Hodí se týmům, které issues přidělují agentům: automatizace a agenti mohou stav číst i nastavovat přes GraphQL, REST API a MCP server. Má-li GitHub Project stejnou hodnotu stavu, změna se propíše oběma směry.",
+        "en": "It suits teams assigning issues to agents: automations and agents can read and set the status via GraphQL, REST API, and the MCP server. A GitHub Project with a matching status syncs changes both ways."
       },
       "sources": [
         {
@@ -411,11 +382,11 @@
     {
       "date": "2026-11-30",
       "title": {
-        "cs": "Pro vývojáře: AWS re:Invent, velká konference o cloudu a AI",
-        "en": "For developers: AWS re:Invent, big cloud and AI conference"
+        "cs": "Pro vývojáře: AWS re:Invent, konference Amazonu o cloudu a AI",
+        "en": "For developers: AWS re:Invent, Amazon’s cloud and AI conference"
       },
       "note": {
-        "cs": "Běží 30. 11.–4. 12. v Las Vegas. Podle Amazonu bude pět hlavních projevů a hlavním tématem AI agenti; Amazon avizuje novinky kolem AI služby Bedrock a vývojářského nástroje Kiro.",
+        "cs": "Běží 30. 11.–4. 12. v Las Vegas. Podle Amazonu bude pět hlavních vystoupení a hlavním tématem AI agenti; Amazon avizuje novinky kolem AI služby Bedrock a vývojářského nástroje Kiro.",
         "en": "Runs November 30–December 4 in Las Vegas. Amazon plans five keynotes, AI agents dominating the agenda; Amazon signals news on the AI service Bedrock and developer tool Kiro."
       },
       "sources": [
@@ -430,11 +401,11 @@
       "date": "2026-12-02",
       "title": {
         "cs": "EU: od 2. prosince musí firmy dodržet zákaz nahých deepfaků",
-        "en": "EU: from December 2, AI apps making fake nude images are banned"
+        "en": "EU: from December 2, firms must obey the nude-deepfake ban"
       },
       "note": {
-        "cs": "Od 2. 12. zákaz AI systémů určených k nahým deepfakům i těch, které je bez přiměřených bezpečnostních opatření snadno vytvoří; generativní systémy spuštěné před 2. 8. musí označovat AI obsah.",
-        "en": "From December 2, AI systems built for nude deepfakes, or easily making them without adequate safety measures, are banned; generative systems launched before August 2 must label AI content."
+        "cs": "Od 2. 12. zákaz systémů, které bez souhlasu tvoří intimní snímky identifikovatelných osob, ledaže mají přiměřená opatření; starší generativní systémy (před 2. 8. 2026) musí AI obsah strojově čitelně označovat.",
+        "en": "From December 2, systems creating intimate images of identifiable people without consent are banned unless adequately safeguarded; older generative systems (before August 2, 2026) must label AI content machine-readably."
       },
       "sources": [
         {
@@ -455,8 +426,8 @@
         "en": "US Senate: Nvidia CEO Jensen Huang testifies December 3"
       },
       "note": {
-        "cs": "Slyšení o dohledu nad exportními kontrolami USA (třeba AI čipů); Huang je jediný svědek. TechCrunch: 1. prosince už souhlasil s vystoupením před výbory Sněmovny.",
-        "en": "Hearing on US export control oversight (such as AI chips); Huang is the only witness. TechCrunch: he had agreed to appear before House committees on December 1."
+        "cs": "Slyšení o dohledu nad exportními kontrolami USA (třeba AI čipů); Huang je jediný svědek. TechCrunch: souhlasil, že 1. prosince vystoupí před třemi výbory Sněmovny reprezentantů.",
+        "en": "Hearing on US export control oversight (such as AI chips); Huang is the only witness. TechCrunch: he agreed to appear before three House committees on December 1."
       },
       "sources": [
         {

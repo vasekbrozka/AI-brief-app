@@ -607,6 +607,18 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   (ChatGPT: sdílený limit od prosince, dřív jen malá skupina) **ani připsat zdroji závěr, který neříká** (JetBrains příčinu teprve zkoumá);
   tvrzení o stavu věci („zakázal“) ověř proti účinnosti (newyorský zákon: podepsán, platí za 90 dní). **Shrnutí WebSearch je stopa, ne
   zdroj** — o zákonu v New Yorku splácalo říjnový balík zákonů o chatbotech a listopadový zákaz hraček; primární text nenalezen → „podle TechCrunch“.
+  (52) **Rozsah povolení, formátu a „novinky“ ověř ve zdroji, ne v titulku tiskové zprávy** — FCC (SpaceX Starmind, 25. 11.): tisková zpráva říká
+  „Authorizes 1 Million Satellites“, ale udělení DA 26-1273 je „granted in part / deferred in part, with conditions“, rozsah je jen rádiová
+  záložní komunikace a proveditelnost či chlazení FCC výslovně neposuzovala (odst. 18, až na straně 13 PDF — čti celé, ne jen úvod) → titulek
+  „částečně povolila“. PrismML (Bonsai 2.5): „5,9 GB“ je nejmenší formát, balíček pro Apple má asi 8,9 GB (9to5Mac, karta MLX) — velikost patří
+  i s formátem. Google Home: „nové“ vyprávění s usměrňováním je v poznámkách od 5. 8., nové jsou jen hlasy a tempo, a program Early Access má v dřívějších
+  záznamech země a jazyky bez češtiny → **než tip označíš za nový, přečti starší záznamy téže stránky; tip bez češtiny a bez přihlášení pro české
+  čtenáře nestojí, vyřaď ho** (Gemini import historie je z 26. 3., příspěvek „ICYMI“ z 19. 11. je jen připomínka — `eventDate` je datum funkce, ne
+  příspěvku). **Tvrzení z banky ověřuj podle sekce, ne podle prvního zásahu**: cenu Time Machine (Perplexity) první hledání „price“ nenašlo
+  (první zásah byl „Polymarket price“), přitom blog má sekci Pricing — vypustit pravdivé tvrzení je stejná chyba jako opsat nepravdivé. **Přepis
+  tiskového briefingu Komise** je na `audiovisual.ec.europa.eu` čitelný curlem (T1, `europa.eu`); u varování, které zná jen sekundární zdroj
+  (oznámení na webu EU Academy podle The Register), to ve why přiznej („podle The Register“). **Duplicita v bance**: téma může vyjít pod jiným
+  slugem (týmové úpravy Copilotu, 25. 11.) — před výběrem tipů ji označ jako použitou.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

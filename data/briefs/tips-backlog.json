@@ -7096,12 +7096,12 @@
         "en": "Claude can send files to connected apps (beta)"
       },
       "summary": {
-        "cs": "Anthropic 24. listopadu zavedla v betě přenosy souborů s konektory: Claude pošle soubor (i ten, který sám vytvořil) do připojené aplikace, třeba do cloudového úložiště, nebo uloží soubor, který aplikace nabídne. Funguje na webu, v Claude Desktop, v mobilních aplikacích i v Claude Code.",
-        "en": "On November 24, Anthropic introduced file transfers with connectors in beta: Claude can send a file (even one it made) to a connected app, such as cloud storage, or save a file the app offers. It works on the web, in Claude Desktop, in the mobile apps, and in Claude Code."
+        "cs": "Anthropic 24. listopadu zavedla v betě přenos souborů přes konektory: řekni třeba „Ulož to do složky Receipts“ a Claude pošle soubor (i ten, který sám vytvořil) do připojené aplikace, nebo si stáhne soubor z aplikace. Funguje na webu, v Claude Desktop, v mobilních aplikacích i v Claude Code.",
+        "en": "On November 24, Anthropic introduced file transfers through connectors in beta: say something like “Put this in my Receipts folder” and Claude sends a file (even one it made) to a connected app, or fetches a file from the app. It works on the web, in Claude Desktop, mobile apps, and Claude Code."
       },
       "why": {
-        "cs": "Zavádí se postupně na Pro, Max a Ultra; na Team a Enterprise to zapne vlastník (Organization settings › Connectors). Jen pro aplikace z adresáře konektorů; soubor z aplikace může obsahovat text, který má Clauda zmást.",
-        "en": "Gradual rollout on Pro, Max, Ultra; Team and Enterprise owners enable it (Organization settings › Connectors). Only connectors-directory apps; a file from an app can hold text meant to mislead Claude."
+        "cs": "Vyžaduje aplikaci z adresáře konektorů s podporou souborů; vlastní konektory, MCP servery a anonymní chaty nefungují. Pro, Max, Ultra postupně; Team a Enterprise zapne vlastník. Soubor může skrývat pokyn pro AI.",
+        "en": "Needs a connectors-directory app with file support; custom connectors, MCP servers, incognito chats do not work. Pro, Max, Ultra: gradual; Team and Enterprise: owner enables. A file may hide an instruction for the AI."
       },
       "sources": [
         {
@@ -7117,53 +7117,22 @@
       "used": "2026-11-27"
     },
     {
-      "slug": "tip-gemini-home-tell-me-a-story",
-      "category": "tools",
-      "theme": "gemini",
-      "verified": true,
-      "eventDate": "2026-11-25",
-      "title": {
-        "cs": "Gemini ve Google Home vypráví příběhy, které usměrníš",
-        "en": "Gemini in Google Home tells stories you can steer"
-      },
-      "summary": {
-        "cs": "Poznámky k Google Home z 25. listopadu uvádějí pro program Gemini for Home (Early Access) nové vyprávění: po příkazu „Hey Google, tell me a story“ čte Gemini příběhy expresivnějšími hlasy a dynamičtějším tempem a můžeš je za chodu usměrňovat, třeba „make the main character have magical powers“.",
-        "en": "The Google Home release notes of November 25 describe new storytelling for the Gemini for Home (Early Access) program: after the command “Hey Google, tell me a story,” Gemini reads stories in more expressive voices with livelier pacing, and you can steer them as they go, for example “make the main character have magical powers.”"
-      },
-      "why": {
-        "cs": "Jen v programu Early Access; země ani jazyky poznámky neuvádějí. Zlepšený Gemini Live se zavádí během týdnů a spustíš ho slovy „Hey Google let’s chat“; příkazy jsou v poznámkách anglicky.",
-        "en": "Only in the Early Access program; no countries or languages are named. The improved Gemini Live rolls out over weeks and starts with “Hey Google let’s chat”; the notes give commands in English."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "url": "https://support.google.com/googlehome/answer/15962877"
-        },
-        {
-          "name": "9to5Google",
-          "url": "https://9to5google.com/2026/11/25/google-home-update-nest-cam-thermostat-gemini-features/"
-        }
-      ],
-      "added": "2026-11-27",
-      "used": "2026-11-27"
-    },
-    {
       "slug": "tip-llamacpp-amd-benchmark-dashboard",
       "category": "tools",
       "theme": "local",
       "verified": true,
       "eventDate": "2026-11-26",
       "title": {
-        "cs": "Dashboard ukáže, jak rychle běží llama.cpp na AMD",
-        "en": "A dashboard shows how fast llama.cpp runs on AMD"
+        "cs": "Pro vývojáře: dashboard ukáže rychlost llama.cpp na AMD",
+        "en": "For developers: a dashboard shows llama.cpp speed on AMD"
       },
       "summary": {
-        "cs": "Tým ggml-org zveřejnil 26. listopadu na Hugging Face dashboard s měřením llama.cpp na čipech AMD: pro Radeon 8060S a Radeon AI Pro R9700S vybereš model, verzi llama.cpp a kvantizaci a porovnáš rychlost zpracování zadání (PP512) a generování textu (TG128), vývoj napříč verzemi i vliv délky kontextu.",
-        "en": "On November 26, the ggml-org team published a dashboard on Hugging Face with llama.cpp measurements on AMD chips: for Radeon 8060S and Radeon AI Pro R9700S you pick a model, llama.cpp build, and quantization and compare prompt-processing speed (PP512) and text-generation speed (TG128), progress across builds, and the effect of context length."
+        "cs": "Tým ggml-org zveřejnil 26. listopadu na Hugging Face dashboard s měřením, jak rychle běží llama.cpp (program na lokální spouštění modelů) na čipech AMD: pro Radeon 8060S a Radeon AI Pro R9700S vybereš model a verzi programu, porovnáš kvantizace, rychlost zpracování zadání a generování textu, sleduješ vývoj napříč verzemi i vliv velikosti kontextového okna.",
+        "en": "On November 26, the ggml-org team published a Hugging Face dashboard measuring llama.cpp (a program for running models locally) on AMD chips: for Radeon 8060S and Radeon AI Pro R9700S you pick a model and version, compare quantizations and prompt-processing and text-generation speed, and see progress across versions and the effect of context-window size."
       },
       "why": {
-        "cs": "Měří se jen dvě GPU a vybrané modely; testy běží týdně s Flash Attention zapnutou i vypnutou. Surová data jsou veřejná na Hugging Face, takže si je můžeš vykreslit sám.",
-        "en": "Only two GPUs and selected models are measured; tests run weekly with Flash Attention on and off. The raw data is public on Hugging Face, so you can chart it yourself."
+        "cs": "Měří se jen dvě GPU a vybrané modely, testy běží každý týden. Hodí se těm, kdo spouštějí modely lokálně na AMD; surová data jsou veřejná, takže si je můžeš vykreslit sám.",
+        "en": "Only two GPUs and selected models are measured; tests run weekly. It suits those who run models locally on AMD; the raw data is public, so you can chart it yourself."
       },
       "sources": [
         {
@@ -7181,16 +7150,16 @@
       "verified": true,
       "eventDate": "2026-11-25",
       "title": {
-        "cs": "Pro vývojáře: Perplexity ukáže agentovi web k zvolenému datu",
+        "cs": "Pro vývojáře: Perplexity ukáže agentovi web, jak vypadal dřív",
         "en": "For developers: Perplexity shows agents the past web"
       },
       "summary": {
-        "cs": "Perplexity 25. listopadu přidala do Search API a Context API funkci Time Machine: volba snapshot_as_of omezí hledání a čtení stránek na uložené kopie z doby do zvoleného data, zatím až 365 dní zpět. Hodí se k testům předpovědí a k zpětnému posouzení agenta, aby nenašel výsledek, který už nastal.",
-        "en": "On November 25, Perplexity added Time Machine to its Search API and Context API: the snapshot_as_of option limits search and page reading to stored copies up to a chosen date, currently up to 365 days back. It suits forecast tests and agent backtests, so the agent cannot find an outcome that already happened."
+        "cs": "Perplexity 25. listopadu přidala do Search API a Context API funkci Time Machine: volba snapshot_as_of omezí hledání a čtení stránek na uložené kopie z doby do zvoleného data, zatím až 365 dní zpět. Hodí se ke zpětnému testování agentů a předpovědí, aby do hledání co nejméně prosakovaly pozdější výsledky.",
+        "en": "On November 25, Perplexity added Time Machine to its Search API and Context API: the snapshot_as_of option limits search and page reading to stored copies up to a chosen date, currently up to 365 days back. It suits backtesting agents and forecasts, so later results leak into search as little as possible."
       },
       "why": {
-        "cs": "Stačí přidat snapshot_as_of do volání, které už děláš; bez něj dostaneš dnešní web. Ukázku s předpověďmi událostí (skóre 0,80 proti 0,79 u trhu Polymarket) publikovala sama Perplexity.",
-        "en": "Just add snapshot_as_of to a call you already make; without it you get today’s web. The forecasting demo (score 0.80 against 0.79 for the Polymarket market) was published by Perplexity itself."
+        "cs": "Stačí přidat snapshot_as_of (časové razítko) do volání, které už děláš; bez něj dostaneš dnešní web. Účtuje se jako každé volání API. Podle Perplexity automatický soudce označil pozdější obsah u méně než 0,5 % stránek.",
+        "en": "Just add snapshot_as_of (a timestamp) to a call you already make; without it you get today’s web. Billed like any API call. Per Perplexity, an automated judge flagged later content on under 0.5% of pages."
       },
       "sources": [
         {
@@ -7208,7 +7177,7 @@
       "verified": true,
       "eventDate": "2026-11-23",
       "title": {
-        "cs": "Pro vývojáře: issues na GitHubu mají stavy a tabuli",
+        "cs": "Pro vývojáře: issues na GitHubu dostanou stavy a tabuli",
         "en": "For developers: GitHub issues get statuses and boards"
       },
       "summary": {
@@ -7216,8 +7185,8 @@
         "en": "On November 23, GitHub introduced issue statuses and repository boards in public preview: set a status when creating an issue or in its header, and switch a repository view to board layout (View options). Statuses update automatically: assigning an agent or linking a draft pull request means In progress, an open pull request In review."
       },
       "why": {
-        "cs": "Hodí se týmům, které issues přidělují agentům: stav čtou lidé i agenti přes GraphQL, REST API a MCP server. Má-li GitHub Project stejnou hodnotu stavu, změna se propíše oběma směry.",
-        "en": "It suits teams that assign issues to agents: people and agents read the status via GraphQL, REST API, and the MCP server. A GitHub Project with a matching status value syncs changes both ways."
+        "cs": "Hodí se týmům, které issues přidělují agentům: automatizace a agenti mohou stav číst i nastavovat přes GraphQL, REST API a MCP server. Má-li GitHub Project stejnou hodnotu stavu, změna se propíše oběma směry.",
+        "en": "It suits teams assigning issues to agents: automations and agents can read and set the status via GraphQL, REST API, and the MCP server. A GitHub Project with a matching status syncs changes both ways."
       },
       "sources": [
         {
