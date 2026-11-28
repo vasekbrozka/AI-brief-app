@@ -2276,6 +2276,21 @@
         "cs": "Laboratorní metoda, která změří hmotnosti molekul a jejich úlomků. Ze vzorce úlomků chemik poznává, o jakou látku jde.",
         "en": "A lab method that measures the masses of molecules and their fragments. From the fragment pattern, chemists work out which compound it is."
       }
+    },
+    {
+      "id": "antigravity",
+      "term": {
+        "cs": "Google Antigravity",
+        "en": "Google Antigravity"
+      },
+      "aliases": [
+        "Antigravity",
+        "Google Antigravity"
+      ],
+      "short": {
+        "cs": "Googlův nástroj, ve kterém AI agenti s modelem Gemini samostatně plní úkoly, od programování po vědeckou práci. Rozšiřuje se o skills a pluginy.",
+        "en": "Google’s tool in which Gemini-powered AI agents carry out tasks on their own, from programming to scientific work. It is extended with skills and plugins."
+      }
     }
   ]
 }

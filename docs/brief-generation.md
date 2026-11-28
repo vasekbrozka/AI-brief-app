@@ -127,7 +127,7 @@ Pravidla rešerše:
   (chyba 400 „not accessible to our user agent"), ne jen ta doména: `reuters.com`,
   `apnews.com`, `theverge.com`, `arstechnica.com`, `wired.com`, `ft.com`, `nytimes.com`,
   `wsj.com`, `bbc.com`, `theguardian.com`, `politico.com`, `businessinsider.com`,
-  `cnet.com`, `zdnet.com`, `latimes.com`, `pitchfork.com`. The Verge, Ars a Wired pokrývá sweep; ostatní hledej bez filtru.
+  `cnet.com`, `zdnet.com`, `latimes.com`, `pitchfork.com`, `idnes.cz`, `euractiv.com` (u posledních dvou selhaly 28. 11. oba dotazy bloku C). The Verge, Ars a Wired pokrývá sweep; ostatní hledej bez filtru.
 - **Chyba nástroje není „nic nenalezeno".** Když dotaz vrátí chybu, oprav ho (filtr,
   formulaci) a zopakuj; do deníku nikdy nepiš „blok bez kandidáta" za blok, jehož dotazy
   selhaly.
@@ -619,6 +619,16 @@ týká), zdroje (odkud). Plus `eventDate` (kdy se to stalo).
   tiskového briefingu Komise** je na `audiovisual.ec.europa.eu` čitelný curlem (T1, `europa.eu`); u varování, které zná jen sekundární zdroj
   (oznámení na webu EU Academy podle The Register), to ve why přiznej („podle The Register“). **Duplicita v bance**: téma může vyjít pod jiným
   slugem (týmové úpravy Copilotu, 25. 11.) — před výběrem tipů ji označ jako použitou.
+  (53) **„Uvádí to jen firma / partner / nezávislé srovnání chybí“ ověř na celé stránce, hlavní číslo čti s celou tabulkou a pořadí událostí s navazujícími články**
+  — 28. 11. jsem do `why` DeepMindu napsala, že „přesnost nad 90 % uvádí jen citovaný partner“, a blog měl v sekci Evaluation vlastní test (100 látek, zhruba 97 %,
+  bez dovedností pod 4 %) i omezení (u zcela nových molekul agent strukturu nepotvrdí); u OpenAI platilo „54,0 → 0,2 %“ jen pro úvahy z dřívějšího dotazu a tabulka
+  měla druhý řádek (22,9 → 0,9 %). U Talkie šetření „předcházelo“ stažení aplikace jen v tom, jak o tom psala média: Bureau oslovilo Apple o týden dřív a aplikace
+  zmizela následující den (titulek „po upozornění novinářů“, ne „po šetření“), a navazující článek z 27. 11. přinesl vypnutý web ve Velké Británii a Austrálii. Tip ze
+  starších poznámek k vydání čti i **novější záznamy téže stránky, které mění místo funkce** (kartičky v ChatGPT z 22. 9. se „ukládají do knihovny“, ale od 29. 9.
+  knihovnu u účtů s přístupem ke Space nahrazuje Space). `eventDate` bere první oznámení z blogu (Perplexity Multiagent: blog 17. 11., záznam changelogu až 24. 11.).
+  **Dedupe tipu hledej i podle mechanismu, ne jen podle názvu**: zamčené chaty ChatGPT vyšly 21. 10. pod titulkem „zamyká citlivé chaty PINem“ — grep „locked“
+  ani „zamčen“ je nenašel, našel je až „PIN“. Dva ze tří čtenářů označili nadbytek procent v jedné položce (54, 23, 57, 52, 15 %) za nečitelný: **kvalifikátor
+  každého čísla (kdo, kde, co přesně) dej k číslu a průzkum jiné firmy označ jako jiný průzkum**.
 - **`eventDate`:** ISO datum primární události (u tipu datum vydání funkce).
 - **EN není překlad slovo od slova** — přirozená angličtina, ale **fakta (čísla, jména,
   data) identická** v obou jazycích.

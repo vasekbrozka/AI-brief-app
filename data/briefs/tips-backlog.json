@@ -7182,12 +7182,12 @@
         "en": "ChatGPT turns your notes into study flashcards"
       },
       "summary": {
-        "cs": "OpenAI 22. září přidal do ChatGPT interaktivní kartičky na učení: požádáš o ně k tématu, nebo nahraješ poznámky a ChatGPT je z nich vyrobí. Kartičku otočíš klepnutím, označíš, zda odpověď znáš, nebo ji chceš procvičit znovu; karty jde zamíchat a ukládají se do knihovny.",
+        "cs": "OpenAI 22. září přidala do ChatGPT interaktivní kartičky na učení: požádáš o ně k tématu, nebo nahraješ poznámky a ChatGPT je z nich vyrobí. Kartičku otočíš klepnutím, označíš, zda odpověď znáš, nebo ji chceš procvičit znovu; karty jde zamíchat a ukládají se do knihovny.",
         "en": "On September 22, OpenAI added interactive study flashcards to ChatGPT: ask for them on a topic, or upload notes and ChatGPT turns them into cards. Tap a card to flip it, mark whether you know the answer or want to practice it again; cards can be shuffled and are saved to your library."
       },
       "why": {
-        "cs": "Funguje v aplikaci na mobilu i na webu u všech tarifů ChatGPT. Napiš, k čemu chceš kartičky, nebo nahraj poznámky; k uloženým se vrátíš v knihovně nebo požádáš ChatGPT, ať je zopakuje.",
-        "en": "Works in the mobile app and on the web on all ChatGPT plans. Say what you want cards for, or upload notes; saved cards live in your library, and ChatGPT can quiz you on them."
+        "cs": "Mobil a web, všechny tarify. Napiš třeba „Udělej kartičky z těchto poznámek“ a nahraj soubor. Karty se ukládají do knihovny, u účtů s přístupem ke Space ji nahradil Space; zopakuje je i ChatGPT.",
+        "en": "Mobile and web, all plans. Try ‘Make flashcards from these notes’ and upload a file. Cards save to your library, which Space replaced on accounts with Space access; ChatGPT can also quiz you on them."
       },
       "sources": [
         {
@@ -7205,16 +7205,16 @@
       "verified": true,
       "eventDate": "2026-11-24",
       "title": {
-        "cs": "Claude: MCP servery nově nabízejí i skills (beta)",
+        "cs": "Claude: MCP servery teď mohou nabízet i skills (beta)",
         "en": "Claude: MCP servers can now ship skills (beta)"
       },
       "summary": {
-        "cs": "Anthropic 24. listopadu uvedl ve veřejné betě Skills over MCP v Claude i Claude Code: server MCP může vedle nástrojů publikovat skills, tedy návody pro delší vícekrokové úkoly. Claude je načte, jen když je potřebuje. Claude Code 2.1.332 (25. 11.) je v nabídce po lomítku ukáže jako server:skill.",
-        "en": "On November 24, Anthropic launched Skills over MCP in public beta in Claude and Claude Code: an MCP server can publish skills, meaning guides for longer multi-step work, alongside its tools. Claude loads them only when needed. Claude Code 2.1.332 (November 25) shows them after a slash as server:skill."
+        "cs": "Anthropic 24. listopadu uvedl ve veřejné betě Skills over MCP v Claude i Claude Code: server MCP může vedle nástrojů nabídnout skills, tedy návody pro delší vícekrokové úkoly. Claude je načte, jen když je potřebuje. V Claude Code od verze 2.1.332 je najdeš po napsání lomítka jako server:skill.",
+        "en": "On November 24, Anthropic launched Skills over MCP in public beta in Claude and Claude Code: an MCP server can offer skills, meaning guides for longer multi-step work, alongside its tools. Claude loads them only when needed. In Claude Code from version 2.1.332, find them after a slash as server:skill."
       },
       "why": {
-        "cs": "Zapnuto je ve výchozím stavu u tarifů Pro, Max a Ultra; u Team ji musí zapnout správce, u Enterprise přijde brzy. Stačí připojit server, který skills nabízí (příkladem je Atlassian); nic dalšího se neinstaluje.",
-        "en": "On by default on Pro, Max, and Ultra; Team admins must enable it, Enterprise is coming soon. Just connect a server that offers skills (Atlassian is an example); nothing else to install."
+        "cs": "Ve výchozím stavu je zapnuto u tarifů Pro, Max a Ultra; u Team ji zapne správce, u Enterprise přijde brzy, u Free zdroj nic neuvádí. Stačí připojit konektor (MCP server), který skills nabízí, třeba Atlassian.",
+        "en": "On by default on Pro, Max, and Ultra; Team admins enable it, Enterprise is coming soon; the source says nothing on Free. Just connect a connector (MCP server) that offers skills, such as Atlassian."
       },
       "sources": [
         {
@@ -7236,16 +7236,16 @@
       "verified": true,
       "eventDate": "2026-11-17",
       "title": {
-        "cs": "Perplexity Max: Computer nasadí tým až 16 agentů",
-        "en": "Perplexity Max: Computer runs up to 16 agents"
+        "cs": "Perplexity: agent Computer nasadí až 16 agentů (jen Max)",
+        "en": "Perplexity Computer runs up to 16 agents (Max only)"
       },
       "summary": {
-        "cs": "Perplexity 17. listopadu uvedla v agentu Computer úroveň úsilí Multiagent nad Ultra: vedoucí agent rozdělí složitý úkol mezi až 16 agentů na různých špičkových modelech, kteří pracují souběžně a kontrolují si výsledky. Výchozí tým tvoří Opus 5.5, GPT 6.1 Sol a Gemini 4 Carbon; plánuje Claude Fable 5.2.",
-        "en": "On November 17, Perplexity added Multiagent, an effort level above Ultra, to its Computer agent: a lead agent splits complex tasks among up to 16 agents on different frontier models, working in parallel and cross-checking each other. The default team is Opus 5.5, GPT 6.1 Sol, and Gemini 4 Carbon; Claude Fable 5.2 plans."
+        "cs": "Perplexity 17. listopadu přidala k agentu Computer úroveň úsilí Multiagent nad úrovní Ultra: vedoucí agent na modelu Claude Fable 5.2 rozdělí složitý úkol mezi až 16 agentů na různých špičkových modelech, kteří pracují souběžně a kontrolují si výsledky. Výchozí tým tvoří Opus 5.5, GPT 6.1 Sol a Gemini 4 Carbon.",
+        "en": "On November 17, Perplexity added Multiagent, an effort level above Ultra, to its Computer agent: a lead agent on Claude Fable 5.2 splits a task among up to 16 agents on different frontier models, working in parallel and cross-checking each other. The default team is Opus 5.5, GPT 6.1 Sol, and Gemini 4 Carbon."
       },
       "why": {
-        "cs": "Posuvník úsilí v Computeru nastav na Multiagent; je jen pro předplatitele Max. Nápověda uvádí web a iOS (od verze 26.46.0), poznámky k vydání i Android a Mac. Spotřebuje víc kreditů než Ultra.",
-        "en": "Set Computer’s effort slider to Multiagent; it is for Max subscribers only. The help center lists web and iOS (version 26.46.0+), the changelog also Android and Mac. It uses more credits than Ultra."
+        "cs": "Posuvník úsilí v Computeru nastav na Multiagent; jen pro předplatitele Max (i Enterprise Max). Nápověda uvádí web a iOS (od verze 26.46.0), changelog z 24. 11. i Android a Mac. Spotřebuje víc kreditů než Ultra.",
+        "en": "Set Computer’s effort slider to Multiagent; Max subscribers only (Enterprise Max too). The help center lists web and iOS (version 26.46.0+); the November 24 changelog adds Android and Mac. It uses more credits than Ultra."
       },
       "sources": [
         {
@@ -7255,6 +7255,10 @@
         {
           "name": "Perplexity",
           "url": "https://www.perplexity.ai/help-center/en/articles/20260917-effort-mode-in-perplexity-computer"
+        },
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/changelog/multiagent-teammates-on-mobile-and-chrome-extension"
         }
       ],
       "added": "2026-11-28",
@@ -7271,12 +7275,12 @@
         "en": "For admins: who pays for GitHub Copilot code review"
       },
       "summary": {
-        "cs": "GitHub 25. listopadu oznámil, že organizace a podniky s Copilot Business nebo Enterprise, které nezvolily, komu se účtují kontroly kódu od Copilota, je od 30. prosince 2026 začnou účtovat organizaci. Dosavadní stav zachová volba Member v politice Copilota; už zvolená nastavení se nemění.",
-        "en": "On November 25, GitHub announced that organizations and enterprises with Copilot Business or Enterprise that haven’t chosen who is billed for Copilot code review will have it billed to the organization from December 30, 2026. Choosing Member in the Copilot policy keeps the current setup; existing choices don’t change."
+        "cs": "Od 30. prosince 2026 bude GitHub účtovat kontroly kódu od Copilota organizaci, pokud nikdo nezvolil jinak; dosud se čerpají z nároku člena s licencí Copilot. Týká se organizací a podniků s Copilot Business nebo Enterprise, oznámeno 25. listopadu; už zvolená nastavení se nemění.",
+        "en": "From December 30, 2026, GitHub will bill Copilot code review to the organization unless someone chose otherwise; until now it draws on the member’s Copilot entitlement. It applies to organizations and enterprises on Copilot Business or Enterprise, announced November 25; existing choices don’t change."
       },
       "why": {
-        "cs": "Do 30. prosince zvol v politice Copilota Member nebo Organization (u podniku rozhoduje jeho vlastník). Účty bez placených AI Credits, se zámkem fakturace či bez platícího zákazníka dostanou Member; účtování organizaci může zvýšit výdaje.",
-        "en": "By December 30, choose Member or Organization in Copilot policy (enterprise owners decide for enterprises). Accounts without paid AI Credits, with a billing lock, or no billable customer get Member; organization billing may cost more."
+        "cs": "Před 30. prosincem zvol v politice Copilota Member (platí nárok člena) nebo Organization (platí organizace; u podniku volí vlastník). Kde nejsou povolené placené AI Credits (kredity za AI) nebo nejde fakturovat, platí Member.",
+        "en": "Before December 30, choose Member (the member’s entitlement pays) or Organization (the organization pays; an enterprise owner decides for enterprises). Where paid AI Credits aren’t enabled or billing isn’t possible, Member applies."
       },
       "sources": [
         {
@@ -7302,8 +7306,8 @@
         "en": "On November 24, Google added MCP Apps support to Antigravity: an MCP tool can render an interactive interface, such as a chart or file viewer, right in the workspace next to its text output. Standard MCP Apps work without code changes; optional Antigravity extensions open them in a side panel or full page."
       },
       "why": {
-        "cs": "MCP App pochází z pluginu nebo serveru MCP, který si nainstaluješ nebo vytvoříš sám. Panel najdeš v Overview > Plugins nebo přes + v postranním panelu; stojí na otevřeném rozšíření MCP Apps.",
-        "en": "MCP Apps come from a plugin or MCP server you install or build. Find the panel under Overview > Plugins or via + in the side panel; it builds on the open MCP Apps extension."
+        "cs": "Výstup nástroje uvidíš místo textu třeba jako graf nebo prohlížeč souborů, ve výchozím stavu přímo v chatu. Začni v Customizations > Marketplace: nainstaluj plugin nebo server MCP, který MCP Apps nabízí.",
+        "en": "You see a tool’s output as a chart or file viewer instead of text, by default right in chat. Start in Customizations > Marketplace: install a plugin or MCP server that offers MCP Apps."
       },
       "sources": [
         {
