@@ -1,0 +1,407 @@
+{
+  "date": "2026-11-28",
+  "sample": false,
+  "headline": {
+    "cs": "Apple po šetření novinářů stáhl chatbota Talkie",
+    "en": "Apple pulls chatbot Talkie after journalists’ investigation"
+  },
+  "items": [
+    {
+      "id": "2026-11-28-apple-removes-minimax-talkie-app-store",
+      "kind": "news",
+      "category": "policy",
+      "highlight": true,
+      "verified": true,
+      "eventDate": "2026-11-24",
+      "title": {
+        "cs": "Apple po šetření novinářů stáhl chatbota Talkie",
+        "en": "Apple pulls chatbot Talkie after journalists’ investigation"
+      },
+      "summary": {
+        "cs": "Podle zpráv z 25. listopadu Apple potvrdil, že čínskou aplikaci Talkie s AI postavami od MiniMaxu stáhl z App Storu po celém světě; důvodem je podle Applu sexuální obsah. Předtím zveřejnily The Bureau of Investigative Journalism a ABC News šetření, podle něhož postavy posílaly dětem ponižující, vlastnické a romantické zprávy.",
+        "en": "Per reports from November 25, Apple confirmed it removed Talkie, a Chinese app with AI characters from MiniMax, from the App Store worldwide, citing sexual content. Earlier, The Bureau of Investigative Journalism and ABC News published an investigation finding that its characters sent children degrading, possessive, and romantic messages."
+      },
+      "why": {
+        "cs": "Apple neuvedl, zda šlo o obsah pro nezletilé. Talkie je hodnocená 18+, věk si ale uživatel jen zadá; podle Bureau zůstávala na Google Play, kde má přes 50 milionů stažení.",
+        "en": "Apple did not say whether this concerned content shown to minors. Talkie is rated 18+, but users only enter their age; per the Bureau it stayed on Google Play, with over 50 million downloads."
+      },
+      "sources": [
+        {
+          "name": "The Bureau of Investigative Journalism",
+          "url": "https://www.thebureauinvestigates.com/stories/2026-11-24/talkie-china-chatbot-children"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/apple-removes-minimax-talkie-app-store-child-safety"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/25/apple-pulls-popular-chinese-ai-chatbot-from-the-app-store-amid-child-safety-concerns/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-openai-countersues-apple-trade-secrets-suppliers",
+      "kind": "news",
+      "category": "business",
+      "verified": true,
+      "eventDate": "2026-11-27",
+      "title": {
+        "cs": "OpenAI podala protižalobu: Apple prý tlačí na dodavatele",
+        "en": "OpenAI countersues Apple, alleging pressure on suppliers"
+      },
+      "summary": {
+        "cs": "OpenAI 27. listopadu podala u kalifornského soudu protižalobu k červencové žalobě Applu o krádež obchodního tajemství. Podle Financial Times a Bloombergu tvrdí, že Apple tlačí na dodavatele, aby nepracovali na zařízeních OpenAI, a že pracovní smlouvy Applu označují téměř vše za tajné. Apple to označil za snahu odvést pozornost.",
+        "en": "On November 27, OpenAI filed a counterclaim in a California court against Apple’s July trade-secret lawsuit. According to the Financial Times and Bloomberg, it alleges Apple pressures suppliers not to work on OpenAI devices and that Apple’s employment contracts label almost everything secret. Apple called it an attempt to distract."
+      },
+      "why": {
+        "cs": "Spor míří na první zařízení OpenAI; podle The Next Web začne reproduktorem ve tvaru donutu. Jde o tvrzení stran, ne o rozhodnutí soudu; proces s původní žalobou Applu je naplánovaný na 19. července 2027.",
+        "en": "The dispute targets OpenAI’s first devices; per The Next Web, a doughnut-shaped speaker comes first. These are claims, not a ruling; the trial over Apple’s original suit is set for July 19, 2027."
+      },
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-countersues-apple-suppliers-pressure-devices"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-black-friday-ai-shopping-agents-trust-survey",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-27",
+      "title": {
+        "cs": "Platbu AI agentovi svěří jen 23 % Američanů",
+        "en": "Only 23% of Americans trust AI agents to pay"
+      },
+      "summary": {
+        "cs": "Podle Fortune z 27. listopadu použilo AI při nákupu aspoň jednou 54 % dospělých Američanů (Morning Consult pro Visa), platbu by jí ale svěřilo jen 23 %. Visa zadala 22 AI agentům nákup televize, notebooku a vlasového spotřebiče, každému v 15 pokusech; jen 57 % skončilo vhodným nákupem či návrhem.",
+        "en": "Per Fortune (November 27), 54% of American adults have used AI to shop at least once (Morning Consult for Visa), but only 23% would trust it with payments. Visa had 22 AI agents try buying a TV, a laptop, and a hair appliance, 15 times each; only 57% ended in a suitable purchase or suggestion."
+      },
+      "why": {
+        "cs": "Hledání a porovnávání s AI je běžné, placení agentovi zatím méně. Podle American Express souhlasí s nákupem levného zboží agentem 52 % Američanů, u elektroniky jen 15 %. Před potvrzením platby si kontroluj košík.",
+        "en": "Searching and comparing with AI is common; paying through an agent, less so. Per American Express, 52% of Americans accept an agent buying cheap goods, only 15% for electronics. Check the cart before confirming payment."
+      },
+      "sources": [
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/11/27/black-friday-ai-agentic-shopping-consumer-trust/"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/ai-shopping-agents-black-friday-retailers-trust"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-openai-adversarial-distillation-protected-reasoning",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-20",
+      "title": {
+        "cs": "OpenAI popsala obranu proti kopírování úvah svých modelů",
+        "en": "OpenAI details defenses against copying its models’ reasoning"
+      },
+      "summary": {
+        "cs": "OpenAI 20. listopadu popsala, jak brání zneužití destilace, tedy trénování cizího modelu na výstupech jejích modelů bez povolení. Důraz klade na ochranu skrytých mezikroků úvah. V interním testu s automatizovanými útoky klesla podle OpenAI úspěšnost získání skrytých úvah z 54,0 % u GPT-6 Astra na 0,2 % u GPT-6.2 Astra.",
+        "en": "On November 20, OpenAI described how it counters distillation abuse, meaning training another model on its models’ outputs without permission. It focuses on protecting hidden intermediate reasoning steps. In an internal test with automated attacks, OpenAI says the success rate of extracting hidden reasoning fell from 54.0% against GPT-6 Astra to 0.2% against GPT-6.2 Astra."
+      },
+      "why": {
+        "cs": "Podle vlastní studie OpenAI přenesou přesné záznamy úvah víc kybernetických schopností než jejich shrnutí; proto je firma chrání. Jde o interní měření, nezávisle nepotvrzené.",
+        "en": "OpenAI’s own study finds exact reasoning records transfer more cyber capability than their summaries, which is why it protects them. This is an internal measurement, not independently confirmed."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/combatting-adversarial-distillation"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-deepmind-mass-spec-skills-antigravity",
+      "kind": "news",
+      "category": "research",
+      "verified": true,
+      "eventDate": "2026-11-25",
+      "title": {
+        "cs": "DeepMind: agent navrhuje strukturu molekul ze spekter",
+        "en": "DeepMind: agent proposes molecule structures from spectra"
+      },
+      "summary": {
+        "cs": "Google DeepMind 25. listopadu představil Mass Spec Skills, sadu dovedností pro agenta Google Antigravity. Spojují Gemini s běžnými nástroji hmotnostní spektrometrie a veřejnými databázemi: ze spektra bez anotace agent odvodí vzorec, seřadí kandidáty struktury a sepíše zprávu k ověření chemikem. Běžné hledání v knihovnách anotuje podle DeepMindu v průměru jen asi 5 % spekter.",
+        "en": "On November 25, Google DeepMind introduced Mass Spec Skills for its Google Antigravity agent. They pair Gemini with standard mass spectrometry tools and public databases: from an unannotated spectrum the agent derives a formula, ranks candidate structures, and drafts a report for a chemist. Per DeepMind, library searches annotate only about 5% of spectra."
+      },
+      "why": {
+        "cs": "Ukázka od výrobce: agent spouští ověřené nástroje a ukazuje důkazy, rozhoduje chemik. Přesnost nad 90 % uvádí jen citovaný partner; nezávislé srovnání v textu chybí.",
+        "en": "A vendor demo: the agent runs established tools and shows evidence; a chemist decides. Accuracy above 90% comes only from a quoted partner; the post has no independent comparison."
+      },
+      "sources": [
+        {
+          "name": "DeepMind",
+          "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-tip-chatgpt-flashcards",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-09-22",
+      "title": {
+        "cs": "ChatGPT vyrobí z tvých poznámek kartičky na učení",
+        "en": "ChatGPT turns your notes into study flashcards"
+      },
+      "summary": {
+        "cs": "OpenAI 22. září přidal do ChatGPT interaktivní kartičky na učení: požádáš o ně k tématu, nebo nahraješ poznámky a ChatGPT je z nich vyrobí. Kartičku otočíš klepnutím, označíš, zda odpověď znáš, nebo ji chceš procvičit znovu; karty jde zamíchat a ukládají se do knihovny.",
+        "en": "On September 22, OpenAI added interactive study flashcards to ChatGPT: ask for them on a topic, or upload notes and ChatGPT turns them into cards. Tap a card to flip it, mark whether you know the answer or want to practice it again; cards can be shuffled and are saved to your library."
+      },
+      "why": {
+        "cs": "Funguje v aplikaci na mobilu i na webu u všech tarifů ChatGPT. Napiš, k čemu chceš kartičky, nebo nahraj poznámky; k uloženým se vrátíš v knihovně nebo požádáš ChatGPT, ať je zopakuje.",
+        "en": "Works in the mobile app and on the web on all ChatGPT plans. Say what you want cards for, or upload notes; saved cards live in your library, and ChatGPT can quiz you on them."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-tip-claude-skills-over-mcp",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-24",
+      "title": {
+        "cs": "Claude: MCP servery nově nabízejí i skills (beta)",
+        "en": "Claude: MCP servers can now ship skills (beta)"
+      },
+      "summary": {
+        "cs": "Anthropic 24. listopadu uvedl ve veřejné betě Skills over MCP v Claude i Claude Code: server MCP může vedle nástrojů publikovat skills, tedy návody pro delší vícekrokové úkoly. Claude je načte, jen když je potřebuje. Claude Code 2.1.332 (25. 11.) je v nabídce po lomítku ukáže jako server:skill.",
+        "en": "On November 24, Anthropic launched Skills over MCP in public beta in Claude and Claude Code: an MCP server can publish skills, meaning guides for longer multi-step work, alongside its tools. Claude loads them only when needed. Claude Code 2.1.332 (November 25) shows them after a slash as server:skill."
+      },
+      "why": {
+        "cs": "Zapnuto je ve výchozím stavu u tarifů Pro, Max a Ultra; u Team ji musí zapnout správce, u Enterprise přijde brzy. Stačí připojit server, který skills nabízí (příkladem je Atlassian); nic dalšího se neinstaluje.",
+        "en": "On by default on Pro, Max, and Ultra; Team admins must enable it, Enterprise is coming soon. Just connect a server that offers skills (Atlassian is an example); nothing else to install."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-tip-perplexity-computer-multiagent",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-17",
+      "title": {
+        "cs": "Perplexity Max: Computer nasadí tým až 16 agentů",
+        "en": "Perplexity Max: Computer runs up to 16 agents"
+      },
+      "summary": {
+        "cs": "Perplexity 17. listopadu uvedla v agentu Computer úroveň úsilí Multiagent nad Ultra: vedoucí agent rozdělí složitý úkol mezi až 16 agentů na různých špičkových modelech, kteří pracují souběžně a kontrolují si výsledky. Výchozí tým tvoří Opus 5.5, GPT 6.1 Sol a Gemini 4 Carbon; plánuje Claude Fable 5.2.",
+        "en": "On November 17, Perplexity added Multiagent, an effort level above Ultra, to its Computer agent: a lead agent splits complex tasks among up to 16 agents on different frontier models, working in parallel and cross-checking each other. The default team is Opus 5.5, GPT 6.1 Sol, and Gemini 4 Carbon; Claude Fable 5.2 plans."
+      },
+      "why": {
+        "cs": "Posuvník úsilí v Computeru nastav na Multiagent; je jen pro předplatitele Max. Nápověda uvádí web a iOS (od verze 26.46.0), poznámky k vydání i Android a Mac. Spotřebuje víc kreditů než Ultra.",
+        "en": "Set Computer’s effort slider to Multiagent; it is for Max subscribers only. The help center lists web and iOS (version 26.46.0+), the changelog also Android and Mac. It uses more credits than Ultra."
+      },
+      "sources": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/hub/blog/introducing-computer-multiagent"
+        },
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/help-center/en/articles/20260917-effort-mode-in-perplexity-computer"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-tip-github-copilot-code-review-billing-default-org",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-25",
+      "title": {
+        "cs": "Pro správce týmů: kdo platí GitHub Copilot code review",
+        "en": "For admins: who pays for GitHub Copilot code review"
+      },
+      "summary": {
+        "cs": "GitHub 25. listopadu oznámil, že organizace a podniky s Copilot Business nebo Enterprise, které nezvolily, komu se účtují kontroly kódu od Copilota, je od 30. prosince 2026 začnou účtovat organizaci. Dosavadní stav zachová volba Member v politice Copilota; už zvolená nastavení se nemění.",
+        "en": "On November 25, GitHub announced that organizations and enterprises with Copilot Business or Enterprise that haven’t chosen who is billed for Copilot code review will have it billed to the organization from December 30, 2026. Choosing Member in the Copilot policy keeps the current setup; existing choices don’t change."
+      },
+      "why": {
+        "cs": "Do 30. prosince zvol v politice Copilota Member nebo Organization (u podniku rozhoduje jeho vlastník). Účty bez placených AI Credits, se zámkem fakturace či bez platícího zákazníka dostanou Member; účtování organizaci může zvýšit výdaje.",
+        "en": "By December 30, choose Member or Organization in Copilot policy (enterprise owners decide for enterprises). Accounts without paid AI Credits, with a billing lock, or no billable customer get Member; organization billing may cost more."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-tip-antigravity-mcp-apps",
+      "kind": "tip",
+      "category": "tools",
+      "verified": true,
+      "eventDate": "2026-11-24",
+      "title": {
+        "cs": "Pro vývojáře: Antigravity ukáže výstupy MCP jako rozhraní",
+        "en": "For developers: Antigravity shows MCP output as interfaces"
+      },
+      "summary": {
+        "cs": "Google 24. listopadu přidal do Antigravity podporu MCP Apps: nástroj MCP může vedle textu vykreslit přímo v pracovním prostoru interaktivní rozhraní, třeba graf nebo prohlížeč souborů. Běžné MCP Apps fungují bez úprav kódu; volitelná rozšíření Antigravity je otevřou v postranním panelu nebo na celou stránku.",
+        "en": "On November 24, Google added MCP Apps support to Antigravity: an MCP tool can render an interactive interface, such as a chart or file viewer, right in the workspace next to its text output. Standard MCP Apps work without code changes; optional Antigravity extensions open them in a side panel or full page."
+      },
+      "why": {
+        "cs": "MCP App pochází z pluginu nebo serveru MCP, který si nainstaluješ nebo vytvoříš sám. Panel najdeš v Overview > Plugins nebo přes + v postranním panelu; stojí na otevřeném rozšíření MCP Apps.",
+        "en": "MCP Apps come from a plugin or MCP server you install or build. Find the panel under Overview > Plugins or via + in the side panel; it builds on the open MCP Apps extension."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "url": "https://antigravity.google/blog/mcp-apps-in-antigravity"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "Pro vývojáře: Claude Code ruší rychlý režim pro Opus 4.8",
+        "en": "For developers: Claude Code drops fast mode for Opus 4.8"
+      },
+      "note": {
+        "cs": "Podle poznámek k vydání Claude Code zanikne 30. listopadu rychlý režim Opusu 4.8; požadavek v něm skončí chybou, nepřepne se na běžný Opus 4.8. Rychlost zachováš přechodem na Opus 5.5.",
+        "en": "Per the Claude Code changelog, Opus 4.8 fast mode ends November 30; requests then error instead of using standard Opus 4.8. To keep the speed, move to Opus 5.5."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://code.claude.com/docs/en/changelog"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-11-30",
+      "title": {
+        "cs": "Pro vývojáře: AWS re:Invent, konference Amazonu o cloudu a AI",
+        "en": "For developers: AWS re:Invent, Amazon’s cloud and AI conference"
+      },
+      "note": {
+        "cs": "Běží 30. 11.–4. 12. v Las Vegas. Podle Amazonu bude pět hlavních vystoupení a hlavním tématem AI agenti; Amazon avizuje novinky kolem AI služby Bedrock a vývojářského nástroje Kiro.",
+        "en": "Runs November 30–December 4 in Las Vegas. Amazon plans five keynotes, AI agents dominating the agenda; Amazon signals news on the AI service Bedrock and developer tool Kiro."
+      },
+      "sources": [
+        {
+          "name": "Amazon",
+          "url": "https://www.aboutamazon.com/news/aws/what-is-aws-reinvent"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-02",
+      "title": {
+        "cs": "EU: od 2. prosince musí firmy dodržet zákaz nahých deepfaků",
+        "en": "EU: from December 2, firms must obey the nude-deepfake ban"
+      },
+      "note": {
+        "cs": "Od 2. 12. zákaz systémů, které bez souhlasu tvoří intimní snímky identifikovatelných osob, ledaže mají přiměřená opatření; starší generativní systémy (před 2. 8. 2026) musí AI obsah strojově čitelně označovat.",
+        "en": "From December 2, systems creating intimate images of identifiable people without consent are banned unless adequately safeguarded; older generative systems (before August 2, 2026) must label AI content machine-readably."
+      },
+      "sources": [
+        {
+          "name": "EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+        },
+        {
+          "name": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-03",
+      "title": {
+        "cs": "Senát USA: 3. prosince vypovídá šéf Nvidie Jensen Huang",
+        "en": "US Senate: Nvidia CEO Jensen Huang testifies December 3"
+      },
+      "note": {
+        "cs": "Slyšení o dohledu nad exportními kontrolami USA (třeba AI čipů); Huang je jediný svědek. TechCrunch: souhlasil, že 1. prosince vystoupí před třemi výbory Sněmovny reprezentantů.",
+        "en": "Hearing on US export control oversight (such as AI chips); Huang is the only witness. TechCrunch: he agreed to appear before three House committees on December 1."
+      },
+      "sources": [
+        {
+          "name": "U.S. Senate Banking Committee",
+          "url": "https://www.banking.senate.gov/hearings/protecting-americas-ai-advantage-oversight-of-us-export-controls"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-11",
+      "title": {
+        "cs": "ChatGPT: konec hlasových režimů Advanced a Standard",
+        "en": "ChatGPT: Advanced and Standard voice retire"
+      },
+      "note": {
+        "cs": "Oznámeno 10. listopadu: 11. prosince skončí hlasové režimy Advanced a Standard, zůstane nejnovější model GPT-Live. Výjimka: živé video a sdílení obrazovky zůstanou na Advanced, dokud je GPT-Live nebude umět.",
+        "en": "Announced November 10: on December 11, Advanced and Standard voice modes retire, leaving the latest model, GPT-Live. Exception: live video and screen sharing stay on Advanced until GPT-Live supports them."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ],
+      "tentative": false
+    },
+    {
+      "date": "2026-12-14",
+      "title": {
+        "cs": "Pro vývojáře: 14. prosince skončí v GitHub Copilotu šest modelů",
+        "en": "For developers: six GitHub Copilot models end on December 14"
+      },
+      "note": {
+        "cs": "GitHub 13. listopadu oznámil konec šesti modelů 14. prosince, mj. Claude Fable 5, Gemini 4 Argon a Haiku 4.5 (ten zůstane ročním individuálním předplatitelům); pro Kimi K3 zatím není náhrada.",
+        "en": "GitHub announced November 13 six models end December 14, including Claude Fable 5, Gemini 4 Argon, and Haiku 4.5 (kept for annual individual subscribers); Kimi K3 has no replacement yet."
+      },
+      "sources": [
+        {
+          "name": "GitHub",
+          "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"
+        }
+      ],
+      "tentative": false
+    }
+  ]
+}

@@ -82,6 +82,7 @@ CANONICAL_NAMES = {
     "coag.gov": "Colorado Attorney General", "oag.ca.gov": "California Attorney General",
     "openclaw.ai": "OpenClaw", "jetbrains.com": "JetBrains", "commonsensemedia.org": "Common Sense Media",
     "prismml.com": "PrismML", "fcc.gov": "FCC", "ncsc.gov.uk": "UK NCSC", "ec.europa.eu": "European Commission",
+    "thebureauinvestigates.com": "The Bureau of Investigative Journalism",
 }
 
 # --- zdroje: tiery důvěryhodnosti (viz recept, sekce Zdroje) ------------------
@@ -142,6 +143,7 @@ T2_DOMAINS = [
     "e15.cz", "denikn.cz",
     "billboard.com", "rollingstone.com", "hollywoodreporter.com",
     "dutchnews.nl", "csoonline.com", "helpnetsecurity.com",
+    "thebureauinvestigates.com",  # investigativní redakce (šetření Talkie 24. 11. 2026); T2 jako ostatní média
 ]
 # Paywall: smí být citován jen v páru s volně čitelným zdrojem.
 PAYWALLED_DOMAINS = ["bloomberg.com", "ft.com", "wsj.com", "theinformation.com",

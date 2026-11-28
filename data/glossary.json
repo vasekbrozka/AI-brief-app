@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "terms": [
     {
       "id": "quantization",
@@ -2242,6 +2242,39 @@
       "short": {
         "cs": "Webová platforma, na které se pořádají soutěže ve strojovém učení a zveřejňují datové sady a srovnávací testy modelů.",
         "en": "A web platform that hosts machine-learning competitions and publishes datasets and model benchmarks."
+      }
+    },
+    {
+      "id": "mcp-apps",
+      "term": {
+        "cs": "MCP Apps (rozhraní z nástrojů MCP)",
+        "en": "MCP Apps (interfaces from MCP tools)"
+      },
+      "aliases": [
+        "MCP Apps",
+        "MCP App"
+      ],
+      "short": {
+        "cs": "Rozšíření protokolu MCP: nástroj místo holého textu vrátí interaktivní rozhraní, třeba graf nebo prohlížeč souborů, které se zobrazí přímo v aplikaci.",
+        "en": "An extension of the MCP protocol: instead of plain text, a tool returns an interactive interface, such as a chart or file viewer, shown right inside the app."
+      }
+    },
+    {
+      "id": "mass-spectrometry",
+      "term": {
+        "cs": "Hmotnostní spektrometrie",
+        "en": "Mass spectrometry"
+      },
+      "aliases": [
+        "hmotnostní spektrometrie",
+        "hmotnostní spektrometrii",
+        "hmotnostní spektrometrií",
+        "mass spectrometry",
+        "tandemová hmotnostní spektrometrie"
+      ],
+      "short": {
+        "cs": "Laboratorní metoda, která změří hmotnosti molekul a jejich úlomků. Ze vzorce úlomků chemik poznává, o jakou látku jde.",
+        "en": "A lab method that measures the masses of molecules and their fragments. From the fragment pattern, chemists work out which compound it is."
       }
     }
   ]

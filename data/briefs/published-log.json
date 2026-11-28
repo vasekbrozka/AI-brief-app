@@ -1,56 +1,6 @@
 {
   "published": [
     {
-      "slug": "2026-09-28-gemini-call-for-me-pixel-11",
-      "date": "2026-09-28",
-      "topic": "Gemini na Pixelu 11 umí telefonovat do podniků za tebe"
-    },
-    {
-      "slug": "2026-09-28-amazon-seller-assistant-claude-quick-plugin",
-      "date": "2026-09-28",
-      "topic": "Amazon prodejci teď řídí obchod přímo z Claude nebo Quick"
-    },
-    {
-      "slug": "2026-09-28-claude-plugins-directory-submission-portal",
-      "date": "2026-09-28",
-      "topic": "Anthropic otevřel vývojářům portál pro nahrávání pluginů Claude"
-    },
-    {
-      "slug": "2026-09-28-deepmind-institute-agi-debate",
-      "date": "2026-09-28",
-      "topic": "DeepMind založil institut pro debatu o obecné AI"
-    },
-    {
-      "slug": "2026-09-28-enveda-ai-drug-discovery-311-million",
-      "date": "2026-09-28",
-      "topic": "AI firma na vývoj léků Enveda získala 311 milionů dolarů"
-    },
-    {
-      "slug": "2026-09-28-tip-copilot-local-sandboxing-preview",
-      "date": "2026-09-28",
-      "topic": "tip: Copilot agenti teď běží v izolované sandboxu"
-    },
-    {
-      "slug": "2026-09-28-tip-chatgpt-pets-quick-chat",
-      "date": "2026-09-28",
-      "topic": "tip: Domácímu mazlíčkovi v ChatGPT teď napíšeš i bez otevření appky"
-    },
-    {
-      "slug": "2026-09-28-tip-claude-microsoft-365-write-tools",
-      "date": "2026-09-28",
-      "topic": "tip: Claude ti přes Microsoft 365 rovnou odešle e-mail"
-    },
-    {
-      "slug": "2026-09-28-tip-gemini-find-hub-remembered-items",
-      "date": "2026-09-28",
-      "topic": "tip: Gemini si teď pro tebe zapamatuje, kam jsi co dal"
-    },
-    {
-      "slug": "2026-09-28-tip-meta-muse-voice-transcribe",
-      "date": "2026-09-28",
-      "topic": "tip: Meta AI na Macu teď přepisuje mluvenou řeč v reálném čase"
-    },
-    {
       "slug": "2026-09-29-openai-cancels-gpt-6-1-astra-safety",
       "date": "2026-09-29",
       "topic": "OpenAI zrušilo vydání modelu GPT-6.1 Astra pro bezpečnostní obavy"
@@ -2724,7 +2674,57 @@
       "slug": "2026-11-27-tip-github-issue-statuses-repository-boards",
       "date": "2026-11-27",
       "topic": "tip: GitHub — stavy issues a tabule repozitáře (changelog GitHubu 23. 11., T1; veřejný náhled): stav při vytvoření nebo v záhlaví issue, automatické změny (draft PR či přiřazení agenta → In progress, otevřený PR → In review, přiřazení uživatele → Todo), GraphQL / REST / MCP server, tabule přes View options, synchronizace s GitHub Project | po kontrole: titulek „dostanou“ (veřejný náhled), automatizace a agenti stav čtou i nastavují (zdroj: Automations and agents can read… set a status)"
+    },
+    {
+      "slug": "2026-11-28-apple-removes-minimax-talkie-app-store",
+      "date": "2026-11-28",
+      "topic": "Apple / MiniMax 24.–25. 11. (The Bureau of Investigative Journalism thebureauinvestigates.com, datePublished 24. 11. 17:55 UTC — společné šetření s ABC News; The Next Web 26. 11.; 9to5Mac 25. 11. podle SCMP — scmp.com a apnews.com vrací curlu 403): Apple stáhl z App Storu po celém světě aplikaci Talkie (AI postavy, vlastní MiniMax, Šanghaj; asi 11 mil. měsíčních uživatelů v říjnu podle Unique Research přes Reuters) — podle Applu pro sexuální obsah, nevysvětlil, zda jde o obsah pro nezletilé; šetření: postavy posílaly dětem ponižující, vlastnické a romantické zprávy (dvanáctiletá dívka, sestry 10 a 13 let); Talkie má hodnocení 18+, věk se jen zadává; v době šetření zůstávala na Google Play (přes 50 mil. stažení); MiniMax a Apple se Reuters nevyjádřily, MiniMax nevysvětluje využití konverzací (Together AI opravila tvrzení o trénování na datech Talkie) — highlight"
+    },
+    {
+      "slug": "2026-11-28-openai-countersues-apple-trade-secrets-suppliers",
+      "date": "2026-11-28",
+      "topic": "OpenAI 27. 11. (9to5Mac podle Financial Times, Engadget podle FT, The Next Web podle Bloombergu — ft.com a bloomberg.com vracejí curlu 403, T2 ×3; soudní podání nenalezeno): protižaloba v kalifornském soudu (San José podle TNW) k žalobě Applu z července (obchodní tajemství; žalovaní OpenAI, io Products, Chang Liu, Tang Tan); OpenAI tvrdí, že Apple nátlakem brání dodavatelům pracovat na jejích zařízeních (jeden dodavatel přesunul práci na noční směnu), že smlouvy zaměstnanců označují téměř vše za tajné a na rok zakazují přetahovat kolegy, a opakuje obvinění o více než 100 souborech od vrátivšího se zaměstnance; Apple: protižaloba je pokus odvést pozornost, OpenAI už musí přestat používat jeho důvěrné informace (TNW: v říjnu OpenAI souhlasila, že soubory nepoužije); proces s původní žalobou 19. 7. 2027; TNW: první zařízení OpenAI s Jony Ivem má být reproduktor ve tvaru donutu"
+    },
+    {
+      "slug": "2026-11-28-black-friday-ai-shopping-agents-trust-survey",
+      "date": "2026-11-28",
+      "topic": "Fortune 27. 11. (fortune.com, datePublished 27. 11. 08:00 UTC; The Next Web 27. 11. — cnbc.com, theguardian.com, apnews.com a bloomberg.com vracejí curlu 403, TNW z nich čerpá): Morning Consult pro Visa — 54 % dospělých Američanů použilo AI při nákupu aspoň jednou (loni 47 %), jen 23 % by jí svěřilo platby; Visa vyzkoušela 22 AI agentů na třech výrobcích (televize, notebook, vlasový spotřebič), 15 pokusů na agenta, jen 57 % skončilo nákupem odpovídajícím potřebám či vhodným návrhem; American Express: 52 % souhlasí s nákupem levného zboží agentem, 15 % u elektroniky; Zeta: jen 9 % by nechalo AI koupit dárek bez kontroly; Bain (Similarweb): AI asistenti < 1 % návštěvnosti obchodů; Walmart: reklamace platí i při chybě AI"
+    },
+    {
+      "slug": "2026-11-28-openai-adversarial-distillation-protected-reasoning",
+      "date": "2026-11-28",
+      "topic": "OpenAI 20. 11. (openai.com/index/combatting-adversarial-distillation — čitelné curlem, RSS OpenAI 20. 11., T1; vlastní měření): útoky destilací (neoprávněné trénování modelu na výstupech jiného) a ochrana skrytých úvah (chain-of-thought); interní adaptivní test s automatizovaným red teamingem — úspěšnost získání skrytých úvah z 54,0 % (GPT-6 Astra, původní ochrana) na 0,2 % (GPT-6.2 Astra, nová ochrana); interní studie přenosu kybernetických schopností: student z přesných záznamů úvah po SFT obecně předčil studenta ze shrnutí, po RL při největším rozpočtu také, při nižších rozpočtech vedl student ze shrnutí; obrana na úrovni požadavku (klasifikátory, API) a kampaní (vzorce napříč účty)"
+    },
+    {
+      "slug": "2026-11-28-deepmind-mass-spec-skills-antigravity",
+      "date": "2026-11-28",
+      "topic": "Google DeepMind 25. 11. (deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity, datePublished 25. 11. 17:00 UTC — sweep uváděl 24. 11., T1): Mass Spec Skills pro Google Antigravity — dovednosti spojující Gemini s matchms, SIRIUS, MAGMa, MetFrag, RDKit a databázemi (PubChem, GNPS, MoNA); od nezanotovaného MS/MS spektra k vzorci, seřazeným kandidátům a auditovatelné zprávě; příklad C20H21ClN6O, 845 izomerů v PubChem, 14 z 19 píků; běžné hledání v knihovnách anotuje v průměru jen asi 5 % spekter (10 % u lidských vzorků); přesnost nad 90 % „v našich hodnoceních“ je výrok citovaného partnera, nezávislé srovnání v textu není"
+    },
+    {
+      "slug": "2026-11-28-tip-chatgpt-flashcards",
+      "date": "2026-11-28",
+      "topic": "tip: ChatGPT — kartičky na učení (poznámky k vydání ChatGPT help.openai.com, záznam 22. 9., T1; mobil a web, všechny tarify): požádat o kartičky k tématu nebo nahrát poznámky, otočit klepnutím, označit „znám“ / „procvičit znovu“, zamíchat, uložení do knihovny, zopakování na požádání; zdroj nemá nápovědu ani omezení podle zemí; funkce starší než měsíc, nové v appce nebyla (ověřeno grepem v logu a v historii banky)"
+    },
+    {
+      "slug": "2026-11-28-tip-claude-skills-over-mcp",
+      "date": "2026-11-28",
+      "topic": "tip: Claude — Skills over MCP (claude.com/resources/articles/skills-over-mcp-tasks-and-more, datePublished 24. 11., T1; changelog Claude Code 2.1.332 z 25. 11., T1): veřejná beta v Claude i Claude Code, ve výchozím stavu zapnutá u Pro/Max/Ultra, Team po zapnutí správcem, Enterprise brzy; skills se načítají jen když jsou potřeba; v Claude Code se zobrazí po lomítku jako server:skill; příklad Atlassian (Carta brzy); Tasks a Elicitation jsou obecně dostupné u Pro/Max/Ultra, File Uploads brzy; z banky (záznam tip-claude-code-skills-from-mcp-servers označen jako použitý)"
+    },
+    {
+      "slug": "2026-11-28-tip-perplexity-computer-multiagent",
+      "date": "2026-11-28",
+      "topic": "tip: Perplexity — úroveň úsilí Multiagent v Computeru (blog perplexity.ai „Introducing Computer Multiagent“ 17. 11., nápověda „Effort mode in Perplexity Computer“ aktualizovaná 20. 11., T1 ×2; záznam changelogu z 24. 11. jen jako připomínka): vedoucí agent (Claude Fable 5.2) rozdělí úkol až mezi 16 agentů, výchozí tým Opus 5.5, GPT 6.1 Sol a Gemini 4 Carbon (GPT 6 Astra a Fable 5.2 jen na vyžádání); Max (a Enterprise Max, správce může nastavit jako maximum role); nápověda: web a iOS 26.46.0+, changelog: web, iOS, Android a Mac; spotřebuje víc kreditů než Ultra"
+    },
+    {
+      "slug": "2026-11-28-tip-github-copilot-code-review-billing-default-org",
+      "date": "2026-11-28",
+      "topic": "tip: GitHub Copilot — kdo platí code review (changelog GitHubu 25. 11., T1; z banky): bez uložené volby se od 30. 12. 2026 účtuje organizaci (Copilot Business/Enterprise); zachování stavu volbou Member v politice Copilota (podnik: vlastník); účty bez placených AI Credits, se zámkem fakturace nebo bez platícího zákazníka dostanou Member; už zvolená nastavení se nemění; nastavení pro členy bez licence Copilotu se nemění"
+    },
+    {
+      "slug": "2026-11-28-tip-antigravity-mcp-apps",
+      "date": "2026-11-28",
+      "topic": "tip: Google Antigravity — MCP Apps (blog Antigravity antigravity.google/blog/mcp-apps-in-antigravity, datePublished 24. 11., T1; z banky, znovu ověřeno u zdroje): interaktivní HTML rozhraní nástroje MCP v pracovním prostoru (inline pod krokem, postranní panel, celá stránka v sekci Plugins), standardní MCP Apps bez úprav kódu, rozšíření com.google.antigravity/ui, otevřené rozšíření SEP-1865"
     }
   ],
-  "updated": "2026-11-27T03:57:26Z"
+  "updated": "2026-11-28T03:31:49Z"
 }

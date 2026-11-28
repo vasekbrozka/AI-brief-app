@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-27T03:57:26Z",
+  "updated": "2026-11-28T03:31:49Z",
   "briefs": [
+    {
+      "date": "2026-11-28",
+      "headline": {
+        "cs": "Apple po šetření novinářů stáhl chatbota Talkie",
+        "en": "Apple pulls chatbot Talkie after journalists’ investigation"
+      },
+      "itemCount": 10
+    },
     {
       "date": "2026-11-27",
       "headline": {
@@ -102,14 +110,6 @@
       "headline": {
         "cs": "FAA rozšiřuje AI plánování letového provozu na celé USA",
         "en": "FAA expands AI air traffic planning across the US"
-      },
-      "itemCount": 11
-    },
-    {
-      "date": "2026-11-14",
-      "headline": {
-        "cs": "ChatGPT Wallet: agenti OpenAI nakupují s tvým schválením",
-        "en": "ChatGPT Wallet lets OpenAI’s agents shop with your approval"
       },
       "itemCount": 11
     }
